@@ -1,4 +1,6 @@
 title:Using Spheres Of Power
+[[toc]]
+
 + Using the Spheres
 
 Spheres of Power is a completely new magic system that may be used alongside or may completely replace the core Pathfinder spell system.
@@ -90,3 +92,27 @@ Along with gaining caster levels, casters using the SoP system also gain a spell
 possessed.
 
 A caster’s spell pool refreshes every day after roughly 8 hours of rest. These hours do not need to be consecutive.
+
++ Saving Throw Difficulty Class
+
+Whenever a sphere ability calls for a saving throw, the Difficulty Class (DC) for that saving throw is equal to 10 + 1/2 the caster level + the caster’s casting ability modifier. If the targeted creature meets or exceeds this number with their saving throw, they often reduce or negate the effect. If a caster chooses to use an effect at a lower caster level than his maximum, the DC is also lowered.
+
++ Magic Skill Bonus and Magic Skill Defense
+
+Sometimes, it isn’t a caster’s raw power that is important, but rather his skill and experience with magic in general. This includes concentration checks or times when a caster directly pits his magic against that of another caster. At these times, the caster’s magic skill bonus (MSB) and magic skill defense (MSD) are used to determine the outcome.
+
+A caster’s MSB is equal to his total levels in casting classes.
+
+A caster’s MSD is equal to 11 + his total levels in casting classes.
+
+Sometimes, a power or circumstance will call for a magic skill check. At this point, the caster making the check rolls a d20
+and adds her MSB to the roll. If this equals or exceeds the target’s MSD, the check succeeds. If not, the check fails.
+When a Sphere caster makes a concentration check (as called for by the Pathfinder Core rulebook), instead of rolling a d20 and adding his caster level + his casting ability modifier, he rolls a d20 and adds his MSB + his casting ability modifier to the roll. Treat an effect’s caster level/2 as the effective spell level for this purpose. A spellcaster may always choose to manifest a magical effect at a lower caster level than his total in order to make a concentration check easier.
+
+//Example: When casting defensively, a caster must make a concentration check (1d20 + caster level + Int, Wis, or Cha) against a DC equal to 15 + double the spell level. In SoP, this would instead require a check equal to 1d20 + MSB + casting ability modifier, and would be against a DC equal to 15 + the caster level of the ability.//
+
+When attempting to penetrate a creature’s Spell Resistance, she rolls a d20 and adds her MSB to the roll. An MSB is also used when attempting to counter another caster’s magic, such as when using the Counterspell feat.
+
+Any feat or ability that would normally call for a caster level check instead calls for an MSB check. Any feat or ability that normally adds to a creature’s caster level for the purposes of one of the caster level checks listed above instead adds to their MSB for that purpose.
+
+When combining SoP with the core Pathfinder magic system, whenever a caster level check is called for or when a DC of 10 or 11 + a creature’s caster level is called for, the character’s MSB and MSD should be substituted respectively.
