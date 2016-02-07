@@ -1,0 +1,176 @@
+title:Weather
+[[toc]]
+
+You can command the weather to do your bidding.
+
++ Control Weather
+
+As a standard action, you may control all weather within Medium range, adjusting either the wind, temperature, or precipitation levels. If you are in a confined area such as inside a building, your control only extends to the edge of that space. This change in weather lasts as long as you concentrate, but you may always spend a spell point as a free action to allow this change to continue for 1 minute per caster level without concentration. When using control weather to change the weather’s severity, the change happens 1 level change per category per round until the desired severity is reached. When the effect ends, the severity of the altered weather categories returns to normal by 1 step per round. If you are maintaining the effect through concentration, the effect moves with you. If it is being maintained through a spell point, it remains stationary.
+
+Precipitation and wind have 7 steps of severity, while temperature has 13. Temperature is divided between ‘heat’ and ‘cold’, each with 7 steps of severity. (If the temperature is lowered below step 1 of cold, it becomes step 2 of heat. If the temperature is lowered below step 1 of heat, it becomes step 2 of cold). An average day of no wind, no rain, and unremarkable temperature is assumed to be at severity level 1 for all categories.
+
+At 1st caster level, you may create weather of severity level 1, 2 or 3. This improves to severity level 4 at 7th caster level and severity level 5 at 14th caster level. You may create weather up to this severity, or lower the severity of pre-existing weather if it is within this limit. If the natural weather is of a higher severity level than you can affect, you cannot use control weather to alter that aspect of the weather.
+
+**Table: Weather Conditions**
+||~ Severity ||~ Wind ||~ Cold ||~ Precipitation ||~ Heat || 
+|| 1 || Light || Cool || None || Cool || 
+|| 2 || Moderate || Chilled || Mist || Warm || 
+|| 3 || Strong || Cold || Light/Fog || Hot || 
+|| 4 || Severe || Severe || Moderate || Severe || 
+|| 5 || Windstorm || Extreme || Heavy || Extreme || 
+|| 6 || Hurricane || Arctic || Flash Flood || Burning || 
+|| 7 || Tornado || Killing || Great Flood || Boiling || 
+
+If two casters are controlling weather in the same location and affecting different categories, both effects happen normally. If both casters are affecting the same category, the second caster must be able to affect the weather’s new severity, and must succeed at a magic skill check to wrestle control from the first caster. On the first caster’s subsequent turn, if he maintains his own control weather effect, he must succeed at his own magic skill check to wrestle control of the weather back from the second caster. If the first caster is maintaining their effect through a spell point instead of concentration and the second caster succeeds at their magic skill check, the first caster’s weather effect is suppressed for as long as the second caster uses control weather. Once the second caster’s effect ends, the first caster’s effect resumes functioning, provided its duration hasn’t already expired.
+
+The following is a description of all the different effects one can create with the Weather sphere. See the Pathfinder Core rulebook for more details on weather and environmental effects. Depending on the terrain, a GM could rule additional effects happen; rain can cause rivers or enclosed spaces to flood, cold can create ice sheets on flat terrain, etc. Generally, weather conditions from different categories stack. (Thus, if Wind, Cold, and Precipitation were all increased to Severity level 5, the area would be under the effects of the appropriate Wind, Cold, and Snow effects, all at the same time.)
+
+++ Wind
+You cannot change the direction of the wind, but you may overpower it. If you wish to change the direction of the wind, you must create a new wind of the direction you desire. If the wind is the same severity as the natural wind, the winds negate (if they oppose) or join to create a wind with a direction halfway between the two. If one wind is smaller than the other, the smaller wind is negated in favor of the stronger one.
+
++++ Light Wind
+A gentle breeze, having little or no game effect.
+
++++ Moderate Wind
+A steady wind with a 50% chance of extinguishing small, unprotected flames, such as candles.
+
++++ Strong Wind
+Gusts that automatically extinguish unprotected flames (candles, torches, and the like). Such gusts impose a –2 penalty on ranged attack rolls and on Perception checks.
+
++++ Severe Wind
+In addition to automatically extinguishing any unprotected flames, winds of this magnitude cause protected flames (such as those of lanterns) to dance wildly and have a 50% chance of extinguishing these lights. Ranged weapon attacks and Perception checks are at a –4 penalty.
+
++++ Windstorm
+
+Powerful enough to bring down branches if not whole trees, windstorms automatically extinguish unprotected flames and have a 75% chance of blowing out protected flames, such as those of lanterns. Ranged weapon attacks are impossible, and even siege weapons have a –4 penalty on attack rolls. Perception checks that rely on sound are at a –8 penalty due to the howling of the wind. Hurricane-Force Wind: All flames are extinguished. Ranged attacks are impossible (except with siege weapons, which have a –8 penalty on attack rolls). Perception checks based on sound are impossible: all characters can hear is the roaring of the wind. Hurricane-force winds often fell trees.
+
++++ Tornado
+
+All flames are extinguished. All ranged attacks are impossible (even with siege weapons), as are sound-based Perception checks. While natural winds of severity level 7 can result in a tornado, magically-altered winds of severity level 7 affects too small of an area to create this phenomenon. (Instead of being blown away [see Table: Wind], characters in close proximity to a tornado who fail their Fortitude saves are sucked toward the tornado. Those who come in contact with the actual funnel cloud are picked up and whirled around for 1d10 rounds, taking 6d6 points of damage per round, before being violently expelled (falling damage might apply). While a tornado’s rotational speed can be as great as 300 mph, the funnel itself moves forward at an average of 30 mph [roughly 250 feet per round]. A tornado uproots trees, destroys buildings, and causes similar forms of major destruction.)
+
+**Table: Wind**
+||~ Severity Level ||~ Wind Speed ||~ Ranged Attacks Normal/Siege Weapons^^1^^ ||~ Checked Size^^2^^ ||~ Blown Away Size^^3^^ ||~ Fly Penalty || 
+|| 1 (Light) || 0–10 mph || —/— || — || — || — || 
+|| 2 (Moderate) || 11–20 mph || —/— || — || — || — || 
+|| 3 (Strong) || 21–30 mph || –2/— || Tiny || — || –2 || 
+|| 4 (Severe) || 31–50 mph || –4/— || Small || Tiny || –4 || 
+|| 5 (Windstorm) || 51–74 mph || Impossible/–4 || Medium || Small || –8 || 
+|| 6 (Hurricane) || 75–174 mph || Impossible/–8 || Large || Medium || –12 || 
+|| 7 (Tornado) || 175–300 mph || Impossible/impossible || Huge || Large || –16 || 
+^^1^^ The siege weapon category includes ballista and catapult attacks as well as boulders tossed by giants.
+^^2^^ Checked Size: Creatures of this size or smaller are unable to move forward against the force of the wind unless they succeed on a DC 10 Strength check (if on the ground) or a DC 20 Fly skill check if airborne.
+^^3^^ Blown Away Size: Creatures on the ground are knocked prone and rolled 1d4 × 10 feet, taking 1d4 points of nonlethal damage per 10 feet, unless they make a DC 15 Strength check. Flying creatures are blown back 2d6 × 10 feet and take 2d6 points of nonlethal damage due to battering and buffeting, unless they succeed on a DC 25 Fly skill check.
+
++++ Other Wind Effects
+
+++++ Duststorm
+
+When severity level 4 winds are created in a desert, it can create a duststorm, blowing fine grains of sand that obscure vision, smother unprotected flames, and can even choke protected flames (50% chance). At severity level 5, a duststorm deals 1d3 points of nonlethal damage each round to anyone caught out in the open without shelter and also poses a choking hazard (see Drowning, except that a character with a scarf or similar protection across her mouth and nose does not begin to choke until after a number of rounds equal to 10 + her Constitution score).
+
+++ Cold
+Cold environments can deal either lethal cold damage or nonlethal damage to a creature. A creature dealt damage in this manner becomes fatigued (frostbitten), and cannot recover from fatigue or damage until warmed up. If a character takes an amount of nonlethal damage equal to her total hit points, any further damage from a cold environment is lethal damage.
+
+Characters wearing a cold weather suit treat the cold as if it were 1 level lower in severity, and may use the Survival skill to gain bonuses to saving throws against cold. A large fire can be used to create an area of warmth in a cold environment. Cold deals damage according to Table: Cold.
+
+**Table: Cold**
+||~ Severity Level ||~ Effects || 
+|| 3 (below 40° F) || Fortitude save each hour (DC 15, +1 per previous check) or take 1d6 points of nonlethal damage. || 
+|| 4 (below 0° F) || Same as level 3, but a check every 10 minutes. || 
+|| 5 (below –20° F) || 1d6 cold damage every minute (no save) and a Fortitude save (DC 15, +1 per previous check) or take 1d4 nonlethal damage. || 
+|| 6 (below -60° F) || Same as severity level 5, but damage and Fortitude saves happen each round. || 
+|| 7 (below -120° F) || 3d6 cold damage each round (no save). Being encased in ice increases this to 10d6. || 
+
+++ Heat
+Heat works very similarly to Cold. Hot environments can deal fire damage or nonlethal damage to a creature. A creature dealt damage in this manner becomes fatigued (heatstroke), and cannot recover from fatigue or damage until cooled off (reaches shade, survives until nightfall, gets doused in water, and so forth). If a character takes an amount of nonlethal damage equal to her total hit points, any further damage from a hot environment is lethal damage.
+
+Characters in heavy clothing or armor take a -4 penalty on their saves against heat. Creatures may use the Survival skill to gain bonuses to saving throws against heat. Heat deals damage according to Table: Heat.
+
+**Table: Heat**
+||~ Severity Level ||~ Effects || 
+|| 3 (above 90° F) || Fortitude save each hour (DC 15, +1 per previous check) or take 1d4 points of nonlethal damage. || 
+|| 4 (above 110° F) || Same as level 3, but a check every 10 minutes. || 
+|| 5 (above 140° F) || 1d6 fire damage every minute (no save), and a Fortitude save every 5 minutes (DC 15, +1 per previous check) or take 1d4 nonlethal damage. || 
+|| 6 (above 180° F) || Same as severity level 5, but damage and Fortitude saves happen each round. || 
+|| 7 (above 212° F) || 3d6 fire damage each round, no save. Immersion in boiling liquids increases this to 10d6. || 
+
+++ Precipitation
+
+Precipitation has the most severe interaction with the other weather categories, as the conditions change depending on the temperature and wind.
+
+When combined with Cold severity 4 or higher, snow effects are added to rain effects. When combined with Wind severity 4 or higher, storm effects are added to the rain effects. When combined with both Cold severity 4 and Wind severity 4, this results in rain, snow, and storm effects. Mist and fog are the exceptions to this, as they only appear when rain is not combined with either snow nor storm. Severity of the snow or storm effects depends on the severity of the Precipitation, not the severity of the Wind or Cold.
+
+**Table: Precipitation**
+||~ Severity Level ||~ Rain Effects ||~ Combined with Cold 4 and higher (Snow Effects) ||~  Combined with Winds 4 and higher (Storm Effects) || 
+|| 1 || None || None || None || 
+|| 2 || Mist || Light Frost || Mist || 
+|| 3 || Light/Fog || Snow || Light Storm || 
+|| 4 || Moderate || Heavy Snow || Storm || 
+|| 5 || Heavy || Blizzard || Powerful Storm || 
+|| 6 || Flash Flood || Great Blizzard || Monsoon || 
+|| 7 || Great Flood || Avalanche || Typhoon || 
+
+(Note: While water freezes at Cold severity 3, magic cannot cause rain to become snow as it falls until severity level 4, since the magical water/cold is only augmenting the natural process, not replacing it.)
+
+++ Rain effects
+
++++ Mist
+Mist grants all creatures concealment from any creatures over 100 ft away (all attacks suffer a 20% miss chance).
+
++++ Fog
+The caster may create light rain or fog. If fog is chosen, it obscures all sight beyond 5 feet, including Darkvision. Creatures 5 feet away have concealment.
+
++++ Other rain effects
+
+Beginning at severity level 4, rain has the same effect on fires, ranged attacks, and Perception checks as wind of equal severity level. This does not stack with the penalties provided by wind. The rain also cuts visibility ranges by half, resulting in an additional –4 penalty on Perception checks due to poor visibility.
+
+++++ Snow Effects
+Snow causes squares to count as difficult terrain. This requires 24 hours of snow at severity level 1, 8 hours at severity level 2, 1 hour at severity level 3, and happens immediately at severity level 4. At severity level 5, snow obscures vision as fog does. It costs 4 squares of movement to enter a square covered with heavy snow (about 2 feet). This requires 24 hours at severity level 4, 8 hours at severity level 5, 1 hour at severity level 6, and happens immediately at severity level 7. Heavy snow accompanied by strong or severe winds might also result in snowdrifts 1d4 × 5 feet deep, especially in and around objects big enough to deflect the wind—a cabin or a large tent, for instance.
+
+++++ Storm Effects
+
+Beginning at severity level 4, storms will randomly strike a square with lightning, dealing 4d8 electricity damage (Reflex half) to everything in or above that square. This happens once per minute. This damage increases by 2d8 for every severity level above 4, to a maximum of 10d8 at severity level 7.
+
++ Weather Talents
+
+++ Boiling Lord
+When using control weather to create Precipitation of severity level 4 or above in an area of Heat severity level 4 or above, you may cause the rain to boil, dealing 1d6 fire damage per Precipitation severity level per round to all creatures within the affected area.
+
+++ Cold Lord
+When using control weather to create cold, increase the highest severity level you may create or alter by 1. In addition, you may create an area of up to 80 ft in diameter in the center of the affected area where the change in temperature is not felt.
+
+++ Focused Weather
+When controlling weather, you may reduce the size of the effect down to a radius of 25 ft and may center the effect anywhere within Medium range.
+
+++ Greater Size
+When controlling weather, you may affect all weather within Long range of you. If you possess the Focused Weather talent, you may center that effect anywhere within Long range.
+
+++ Greater Weather
+When you use control weather, you may spend an extra spell point to affect 2 weather categories instead of 1, or two extra spell points to affect 3 weather categories instead of 2. You do not need to change these categories in the same way, or make them the same severity level (i.e., you may make one category more severe, while making another less severe).
+
+++ Heat Lord
+When using control weather to create heat, increase the highest severity level you may create or alter by 1. In addition, you may create an area of up to 80 ft in diameter in the center of the affected area where the change in temperature is not felt.
+
+++ Lengthened Weather
+When you spend a spell point to allow your create weather effect to persist without concentration, you may cause the effect to persist for 1 hour per caster level instead of 1 minute per caster level.
+
+++ Rain Lord
+When using control weather to create or alter precipitation, increase the highest severity level you may create or alter by 1. In addition, when using your control weather to affect precipitation, you may choose to create an area up to 80 ft in diameter at the center of the affected area that is not subject to the precipitation. Rain, snow, and storm does not gather over that area.
+
+++ Severe Weather
+When you control weather, you may spend an extra spell point to raise the severity you can create or alter with your control weather by 1 level, to a maximum of severity level 7.
+
+++ Snow Lord
+When you are using control weather to create a Precipitation severity level 4 or above in an area of Cold severity level 4 or above, you can choose to change the snow to hail. Hail has the same effect on movement as snow, but it also deals 1 point of bludgeoning damage per severity level of Precipitation to everything within the affected area.
+
+At severity level 4, the visibility penalty of rain does not apply to hail, and the -4 penalty to Perception only applies to Perception checks based on sound.
+
+++ Storm Lord
+When you are using control weather to create Precipitation of severity level 4 or above in an area of Wind severity level 4 or above, you can control where the lightning bolts strike. You may take this talent a total of twice. If taken twice, you may increase the frequency of lightning strikes to 1 per round.
+
+++ Wind Lord
+When using control weather to create or alter wind, increase the highest severity level you may create or alter by 1. In addition, when you use your control weather to affect wind, you may also turn that wind up to 90 degrees in any direction. This can change the general direction of a tornado (provided you can affect winds of that severity) although detailed control isn’t possible.
+
+Not only can you control the wind’s direction, but you may also create complicated patterns. You may create an “eye” of calm air up to 80 feet in diameter at the center of the area if you so desire and may chose any of the following patterns for the wind:
+* You may create a downdraft that blows from the center outward in equal strength in all directions.
+* You may create an updraft that blows from the outer edges in toward the center in equal strength from all directions, veering upward before impinging on the eye in the center.
+* You may create a rotation that causes the winds to circle the center in a clockwise or counterclockwise fashion.
