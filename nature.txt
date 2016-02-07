@@ -1,0 +1,185 @@
+title:Nature
+[[toc]]
+
+You can command the very terrain to do your bidding.
+
++ Geomancing
+
+As a standard action, you may command terrain and natural effects to act on your behalf. The effect produced depends on the environmental aspect targeted. Each effect must be centered or targeted within Close range.
+
+Geomancing effects come in two forms: instantaneous and concentration. Instantaneous effects have no duration, while concentration effects persist as long as the caster concentrates. The caster may always spend a spell point as a free action to allow the effect to continue for 1 round per caster level without the need for concentration.
+
+When a caster gains the nature sphere, he chooses and gains one of the following geomancing packages, with its included abilities. A caster may gain the Expanded Geomancing talent to gain additional packages.
+
+++ Plantlife:
+
++++ Entangle
+(Concentration, requires grass, weeds, vines, or underbrush)
+
+You cause plants to grow rapidly, wrapping themselves around everything in a 5 ft + 5 ft per 5 caster levels radius area centered within range. Creatures within this area must pass a Reflex save or gain the entangled condition and become unable to move. Creatures that make their save can move as normal, but those that remain in the area must save again at the end of each turn you maintain the effect. Creatures that move into the area must save immediately. Those that fail end their movement and gain the entangled condition. Entangled creatures can attempt to break free as a move action, making a Strength or Escape Artist check against a DC equal to the effect’s Reflex save DC. This area is also considered difficult terrain for the duration of the effect. If the area contained plants with thorns, all creatures suffer 1 point of piercing damage each round they are within this area.
+
++++ Growth
+(Instantaneous, requires fruit trees, berry bushes, or food crops)
+
+You may spend a spell point to cause plants to sprout food spontaneously. You may affect up to 1 plant per caster level within range. Each plant produces enough food to provide 3 medium-sized creatures or 1 horse with food for a day. Pummel (concentration, requires a tree): You cause a tree branch to come alive and attack a foe you designate. The tree cannot move, but it makes one slam attack each round against the designated target until you spend a move action to designate another target or until the target dies or moves out of range. A tree branch cannot flank nor aid in flanking. You cannot designate a target you cannot perceive.
+
+The tree has a Strength score equal to 10 + your caster level, and a to-hit modifier equal to your caster level + its Strength modifier + its size modifier. You may animate a Medium branch at 1st caster level, a Large branch beginning at 5th caster level, a Huge branch beginning at 10th caster level, a Gargantuan branch beginning at 15th caster level, and a Colossal branch at 20th caster level. An entire tree can count as a branch, provided the tree isn’t larger than your maximum pummel size.
+
+* Medium: 1d6 damage, 5 ft reach.
+* Large: +1 size bonus, 1d8 damage, 10 ft reach.
+* Huge: +2 size bonus, 2d6 damage, 15 ft reach.
+* Gargantuan: +4 size bonus, 3d6 damage, 20 ft reach.
+* Colossal: +8 size bonus, 4d6 damage, 30 ft reach.
+
+++ Water
+
++++ Vortex
+(Concentration, requires a large body of liquid)
+
+You may create a spinning vortex in a body of liquid that sucks creatures and objects to its center. This vortex is 5 ft wide at its base, is 10 ft high + 5 ft per 5 caster levels, and is half as wide at the top as it is high. Any creature entering this area must pass a Reflex save or suffer bludgeoning damage equal to 1d8 + 1/2 your caster level (minimum: 0). If the creature is smaller than the vortex, they must pass a second Reflex save or be pulled into the middle of the vortex. Creatures in the middle of the vortex suffer bludgeoning damage once per round with no save, and must pass a Reflex save each round or be unable to move, and on a success may only move at half their swim speed. A vortex cannot contain more creatures than would exceed its volume.
+
+You may move the vortex up to 30 ft per round as part of the concentration check required to maintain it. If maintaining the effect through a spell point, you may designate a simple pattern for it to move, which you may alter as a move action. Creatures in the middle of the vortex are carried along with it as it moves.
+
++++ Fog
+(Concentration, requires rain, mist, or at least 5 cubic feet of water)
+
+You call up a rolling fog, cutting off people’s vision within a 10 ft + 5 ft per 5 caster levels radius area centered within range. The fog obscures all sight, including darkvision, beyond 5 feet. A creature within 5 feet has concealment (attacks have a 20% miss chance). Creatures farther away have total concealment (50% miss chance and the attacker can’t use sight to locate the target). The ability does not function underwater. If using a body of water, the fog must be at least partially over the water itself.
+
+If you spend a spell point to maintain this effect without concentration, a moderate wind (11+ mph) will disperse it within 4 rounds. In the presence of a strong wind (21+ mph), you cannot use this ability.
+
++++ Freeze
+(Instantaneous, requires water)
+
+You may spend a spell point to flash freeze water, turning it into ice. You may freeze a 1 inch thick, 5 ft by 5 ft square of water per caster level. Alternately, you may cover a wet medium-sized creature with 1 inch of ice per caster level. You may increase the size of the frozen area or size/number of the frozen creatures, but every extra medium-sized creature or extra 5 ft square divides the ice’s thickness in half.
+
+Creatures smaller than medium count as medium-sized creatures for this effect, with the exception of multiple creatures occupying the same space. Add the sizes of multiple creatures occupying the same space together when determining their size for this purpose. For swarms, count each 5 ft square as being 2 medium-sized creatures occupying the same space. You may affect both squares and creatures, but all affected targets and spaces must be contiguous and must have the same thickness of ice.
+
+**Table: Creature Size**
+||~ Creature Size ||~ Equivalent number of medium-sized creatures ||
+|| Fine || 1/16 ||
+|| Diminutive ||1/8 ||
+|| Tiny || 1/4 ||
+|| Small || 1/2 ||
+|| Medium || 1 ||
+|| Large || 2 ||
+|| Huge || 4 ||
+|| Gargantuan || 8 ||
+|| Colossal || 16 ||
+
+Creatures are allowed a Reflex save to avoid being frozen. On a failure, they are encased and cannot move or act and suffer 1 point of cold damage per round per inch of ice. To escape, they must pass a Strength check or Escape Artist check as a full-round action to escape the ice (DC 15 + 1 per inch of thickness) or another creature must break the ice around the trapped creature (3 hp per inch). On a successful save, target is still entangled for 1 round. Ice melts 1 inch of thickness per minute on the average day.
+
+++ Earth
+
++++ Bury
+(Concentration, requires sand)
+
+You shift the sands, swallowing targets within a 5 ft + 5 ft per 5 caster levels radius area centered within range. This functions as entangle from the plantlife package, but on a failure targets cannot move but do not become entangled. Each subsequent round they do not escape, the Strength and Escape Artist DC increases by 1. If a target is knocked prone within this area and fails their save, they begin to suffocate until they escape.
+
++++ Tremor
+(Instantaneous, requires dirt or stone)
+
+You may spend a spell point to send a tremor through the ground, affecting a 5 ft + 5 ft per 5 caster levels radius area centered within range. This makes a trip combat maneuver check against every target within the area, using your caster level plus your casting ability modifier as your CMB. This does not provoke an attack of opportunity (except as usual for using sphere effects) and you cannot be tripped in return for failing this check.
+
++++ Dust Storm
+(Concentration, requires sand or loose dirt)
+
+You kick up sand or dirt within a 10 ft + 5 ft per 5 caster levels radius area centered within range. All creatures fully within this area gain concealment (attacks against them have a 20% miss chance). If creatures within this area attack creatures outside this area, the targets also have concealment.
+
+++ Fire
+
++++ Manipulate Lava
+(Instantaneous or concentration, requires lava)
+
+You may manipulate lava. This is exactly the same as the vortex and freeze powers from the water package, except you must spend an additional spell point for each ability, and you must target lava. Frozen lava becomes obsidian, with a hardness of 5 and 3 hit points per caster level and does not deal damage per round to trapped creatures.
+
++++ Create Fire
+(Concentration, no requirements)
+
+You may produce a Diminutive-sized magical fire that burns without fuel. This fire may be 1 size category larger per 5 caster levels, and may be used to ignite flammable materials to create self-sustaining, non-magical fire. If a target is within the area of the created fire, they suffer damage as normal for that fire’s size and catch fire. A successful Reflex save halves the damage and negates catching fire.
+
++++ Affect Fire
+(Concentration, requires fire)
+
+You may affect a normal, non-magical fire, increasing or decreasing its size by one category, plus one per 5 caster levels. This is only a temporary change; once the effect ends, the fire returns to its normal size. The fire consumes fuel and deals damage as appropriate for its new size, according to Table: Maximum Fire Size. The minimum caster level required to affect a fire is also given in the chart. If two casters are affecting the same fire in the same direction (increasing or decreasing) only the strongest change occurs. If two casters attempt to affect fire in opposite directions (one making it bigger, one making it smaller), the second caster must succeed at a magic skill check.
+
+**Table: Maximum Fire Size**
+||~ Minimum CL ||~ Fire Size ||~ Example ||~ Damage per Round ||~ Space ||
+|| 1st || Fine || Tindertwig || 1 || 1/2 ft square ||
+|| 1st || Diminutive || Torch || 1d3 || 1 ft square ||
+|| 1st || Tiny || Small Campfire || 1d6 || 2.5 ft square ||
+|| 3rd || Small || Large Campfire || 2d6 || 5 ft square ||
+|| 5th || Medium || Forge || 3d6 || 5 ft square ||
+|| 8th || Large || Bonfire || 4d6 || 10 ft square ||
+|| 11th || Huge || Burning Shack || 5d6 || 15 ft square ||
+|| 15th || Gargantuan || Burning Tavern || 6d6 || 20 ft square ||
+|| 20th || Colossal || Burning Inn || 7d6 || 30 ft square ||
+
+On a success, their ability functions normally, overlapping the first caster’s effect. The fire counts as its altered size for determining if the second caster can affect it. If a creature is on fire, treat that fire as being Tiny sized (1d6 damage) for the purpose of this effect. When you affect a fire on a creature, you also raise or lower the Reflex save DC to put the fire out by 1/2 your caster level (minimum: 0).
+
+++ Spirit
+Some talents are marked (spirit). These talents give the caster ways they have learned to tune their spirit with nature. Each (spirit) talent grants the caster a new ability they may use as a standard action. These abilities only affect the caster.
+
+Some talents are marked (plant), (water), (fire), or (earth). You must possess the plant, water, fire, or earth geomancing package respectively to gain a talent with its designation. Talents marked (geomancing) give you new geomancing abilities.
+
++ Nature Talents
+
+++ Animal Friend (spirit)
+You may spend a spell point as a standard action to cause animals to treat you as a friend for 1 minute per caster level. Indifferent animals (such as domesticated animals) become Friendly to you, while Unfriendly animals (such as wild animals) become Indifferent to you. This means that wild animals will not attack unless provoked, and you may make requests of animals, provided you may communicate with them (if you cannot communicate with a creature, only basic commands such as ‘go’, ‘come’, ‘fight’, or ‘stay’ may be communicated). This has no effect on animals who are hostile to you (such as those already in combat), and an animal with a master (such as an animal companion) will still attack if commanded to by its master.
+
+Once during the duration of this ability, you may call the nearest animal of a particular type you designate (provided the animal’s CR is equal to or less than your caster level) to seek you out. The animal moves toward you under its own power, so the time it takes to arrive depends on how close an animal of the desired type is when you cast the spell. If there is no animal of that type capable of reaching you within this effect’s duration, you are aware of this fact.
+
+++ Create Water (water, geomancing)
+As an instantaneous effect, you may spend a spell point to create water anywhere within range. This creates one 5 ft cube per 2 caster levels (minimum: 1 cube) of clean water. While this is its own geomancing ability, you may combine this effect with another water package geomancing ability as part of the same standard action, in which case the second geomancing ability comes into effect immediately. You must pay any costs associated with both abilities to combine them in this manner. This can allow you to even create vortexes that can move over land.
+
+++ Expanded Geomancing
+Choose and gain a geomancing package you do not already possess. You may select this talent multiple times, gaining a new package each time.
+
+++ Feed on Fire (fire, spirit)
+You may spend a spell point to gain the ability to absorb energy from fire for 1 minute per caster level. You gain fire resistance equal to your caster level. Whenever you take damage from fire (whether or not it is enough to penetrate your fire resistance), you are healed an amount equal to 1/2 the fire damage dealt, to a maximum amount equal to 1/2 the fire resistance granted by this ability (minimum: 1). Damage dealt in excess of this amount is handled normally.
+
+++ Forge Earth (earth, geomancing)
+As an instantaneous effect, you may spend a spell point to alter the ground within a 5 ft + 5 ft per 5 caster levels radius area within range. You may raise or lower the terrain up to 5 ft + 5 ft per 5 caster levels, and may create variants within the affected area such as summoning a small wall or creating gradients and stair effects. You cannot both raise and lower the terrain with the same use of this ability and cannot create variants in anything smaller than 5 ft squares (i.e., you cannot create 1 ft diameter holes or create a spike of earth). Targets within this area are not damaged by falling if you lower the terrain, and climbing up the edges of lowered terrain usually requires a DC 15 Climb check.
+
+++ Fire Wielder (fire)
+When using the create fire geomancing ability, you may encompass the fire around yourself. This accomplishes one of the two following feats:
+
+1. You concentrate the fire around your hands. Rather than affecting an area, this allows you to be treated as armed when making unarmed strikes. In addition, you deal an extra amount of fire damage equal to your maximum create fire size with each unarmed strike. This does not cause targets to catch fire, nor grant you the ability to make extra attacks if you are maintaining the effect through concentration.
+
+2. You place the fire around yourself as a mantle. This does not deal fire damage to yourself, but all adjacent creatures are damaged by your fire and suffer a chance of catching fire, as if they were within the area where the fire was created.
+
+++ Greater Range
+The range of your geomancing abilities increases from Close to Medium range. You may select this talent up to 2 times. Each time it is selected, the range increases by 1 step (Close to Medium, Medium to Long).
+
+++ Grow Plants (plantlife, geomancing)
+As an instantaneous effect, you may spend a spell point to instantaneously grow plants in an area within range. This may create one tree (to a maximum size equal to that which you can control through the pummel geomancing ability) or a field of plants within a 5 ft radius + 5 ft per 5 caster levels area. This may create basic plants (corn, underbrush, ivy) but cannot create plants with inherent qualities (i.e., you cannot create rare herbs, etc.). While this is its own geomancing ability, you may combine this effect with another plant package geomancing ability as part of the same standard action, in which case the second geomancing ability comes into effect immediately. You must pay any costs associated with both abilities to combine them in this manner.
+
+++ Move Fire (fire, geomancing)
+As a concentration effect, you may take a fire equal to or smaller than the maximum you may target with affect fire and move it up to 30 ft per round in any direction. A fire moved in this way continues to burn, even without fuel (although it may be drowned or extinguished otherwise as normal), and dies as soon as the effect ends if not moved to a new fuel source. If you have spent a spell point to make this ability self-sustaining, you must still focus as a move action to move the fire. When moving fire to a space occupied by a creature, that creature suffers the fire’s damage (Reflex half) and must pass a Reflex save or catch on fire.
+
+++ Speak with Animals (spirit)
+You may spend a spell point to gain the ability to speak with animals for 1 minute per caster level. You can ask questions of and receive answers from animals, but the spell doesn’t make them any more friendly than normal. Wary and cunning animals are likely to be terse and evasive, while the more stupid ones make inane comments. If an animal is friendly toward you, it may do some favor or service for you.
+
+++ Speak with Plants (plants, spirit)
+You may spend a spell point to gain the ability to speak with plants for 1 minute per caster level. You can communicate with normal plants and plant creatures and can ask questions of and receive answers from them. A normal plant’s sense of its surroundings is limited, so it won’t be able to give (or recognize) detailed descriptions of creatures or answer questions about events outside its immediate vicinity. The spell doesn’t make plant creatures any more friendly or cooperative than normal, and a plant may be stupid, cunning, or cruel as any other creature. If a plant creature is friendly, it may do some favor or service for you.
+
+++ Speak with Stone (earth, spirit)
+You may spend a spell point to speak with stones for 1 minute per caster level. This is not truly accomplished through speech, but rather by touching a stone you may learn what else has touched it, passed by it, what is hidden underneath it, etc. You can tell depth, weight, size, and number of passers by, but not more detailed information (the names or conversations of passers by, for instance). You can speak with both natural or worked stone.
+
+++ Thorns (plantlife, geomancing)
+You cause plants to grow spines and attack targets. This is the same as the entangle geomancing ability, except instead of making creatures entangled and unable to move, this effect deals piercing and slashing damage to them. Targets inside the area or who enter the area suffer 1 d6 damage +1 per 2 caster levels (Reflex half). Creatures who remain in the area suffer damage once per round at the end of your subsequent turns. This does not stack with any thorns already on the plants used in the effect. You may place an entangle and thorns effect on the same space.
+
+++ Towering Growth (plant)
+When creating an entangle or thorns effect, the effect grows tall enough to affect flying creatures as well. Creatures up to 10 ft per caster level over your entangle or thorns effects must pass a Reflex save or affected as normal. If they pass this Reflex save, they must still pass a Fly check (DC 15 + caster level) or be forced to fly at half speed while over the area.
+
+When affected by an entangle effect, flying creatures are pulled to the ground by the plants and become unable to move. Flying creatures grabbed by an entangle effect become prone, but do not take falling damage.
+
+++ Waterwalk (water, spirit)
+You may spend a spell point to gain the ability to walk on water for 1 minute per caster level. Water and all other liquid becomes solid to you, allowing you to move over it as if it were normal ground. Especially turbulent water (such as during a storm) may count as difficult terrain. You may always choose to sink into the water and swim if you so desire, in which case you are considered to have a Swim speed equal to your land speed, granting you all the usual benefits of a Swim speed, including a racial +8 bonus to Swim checks. This does not, however, grant you the ability to breath underwater.
+
+++ Wave (water, geomancing)
+As an instantaneous effect, you may spend a spell point to create a surge in water that pushing targets in its wake. This surge may be created anywhere within range and may face any direction, but once created it travels in a straight line for a distance of 30 ft + 5 ft per 2 caster levels. This area may extend out of the water and onto land to a maximum of 10 ft + 5 ft per 5 caster levels.
+
+All creatures within the affected area are pushed as if by a Bull Rush combat maneuver, except it does not provoke an attack of opportunity. Use your caster level + your casting ability modifier in place of your CMB. If the target is on land and is successfully pushed by this ability, they must also pass a Reflex save or fall prone. If combined with Create Water, it may be created anywhere and may travel up to 30 ft + 5 t per 2 caster levels over land.
+
+++ Whirlwind (earth, geomancing)
+You may create a vortex out of sand or loose dirt. This is the same as a vortex made in water, except it travels over land. A whirlwind must remain in contact with the ground at all times, and may not fly.
