@@ -507,6 +507,18 @@ Pinned Beneath Rubble: Any creature pinned beneath rubble takes 1d6 points of no
 
 As an instantaneous effect, you may as a standard action spend 3 spell points to grant one metal creature or metal object regeneration 1 (acid). The amount of regeneration increases by +1 per 10 caster levels.
 
+++ Freezing Geyser (fire, water, geomancing)
+
+**Prerequisite:** Nature sphere, Create Water, Boil Water, 15th caster level or higher.
+
+This creates a burst of boiling water that snap-freezes once it has covered its targets. As a concentration effect, you may spend 2 spell points to create an eruption coming from a 10 ft square of solid ground within range. This deals 1d6 fire damage per caster level per round to all creatures within the 10 ft square and up to 30 ft above it. A successful Reflex save halves the damage, but creatures with Evasion still suffer 3d6 fire damage on a successful save.
+
+Starting in the second round of the geyser’s eruption, the rapidly cooling water begins raining down on all targets within 30 ft of the geyser, lasting for the length of the effect +1d3 rounds. Any creature caught in this freezing downpour takes 10d6 points of cold damage each round and is entangled by the layer of frost and ice forming on it. Even creatures affected by the main geyser who failed their Reflex save but left the area of cold rain find themselves entangled as the water on them freezes.
+
+A successful Reflex save halves the damage and prevents the entangled condition, but still deals 2d6 Cold damage to creatures with Evasion who successfully save. While a creature outside the affected area finds their entangled condition leaves after 1 round as the ice melts, creatures who remain within the affected area are affected each round, with each additional failed save causing its speed to be reduced by 10 feet. If the creature’s speed reaches 0 feet, it is completely encased in ice, as the water package geomancing ability with ice thickness determined as usual for the caster. At this point the creature continues taking damage from the freezing water—automatically failing any saving throws—plus an additional 3d6 points of cold damage each round until freed from the ice.
+
+If an entangled creature steps into the burning geyser, they suffer fire damage as normal and are no longer entangled, as the boiling water melts the ice.
+
 ++ Living Steel (metal, plantlife, geomancing)
 
 **Prerequisites:** Nature Sphere, Metal Geomancing, 5th caster level or higher.
@@ -518,6 +530,18 @@ Requires metal. As an instantaneous effect, you may as a standard action spend 2
 **Prerequisite:** Nature Sphere, Metal Geomancing, Expanded Ore, 10th caster level or higher.
 
 You may spend 2 additional spell points when using your recover ore ability, if you do you may treat the ore in the ground so that when it surfaces, you recover your choice of Elysian Bronze, Fire-Forged Steel, or Frost-Forged Steel.
+
+++ Natural Ally (spirit)
+
+**Prerequisites:** Nature sphere, Animal Friend, 1st caster level or higher.
+
+As an instantaneous effect, you may, as a standard action, spend 3 spell points to call a specific fey, magical beast, plant or vermin of a type you designate (provided the creature’s CR is equal to or less than 1/2 your caster level) which then appears in a place within range at the start of your next turn, and remains for up to 1 hour per caster level. Unlike Animal Friend, this advanced talent does not require that there are creatures of those type in the area. The creature will aid the caster to the best of it’s ability, but unless the caster speaks the creature’s language, only basic communication is possible (attacking an enemy, defending the caster, etc.) The creature must also be treated fairly and will not give aid that is obviously suicidal. If treated poorly, they may turn on and attack the caster. A caster may not use Natural Ally more than once per day.
+
+++ Persistant Fog Cloud (water, spirit)
+
+**Prerequisites:** Nature sphere, Water Geomancing, Lingering Nature, 10th caster level or higher.
+
+You may spend 2 additional spell points when using the water geomancing fog ability to change the duration of the fog from concentration to permanent. The fog in this form becomes an insubstantial object without hit points. You may concentrate on the fog to have it move up to 1/2 your speed in any direction. If targeted or otherwise in the area of an ability from the weather sphere, the caster using the weather sphere must make a magic skill check against your magic skill defense. If the weather sphere user is successful, the fog is immediately dispelled. It is otherwise not subject to the effects of weather not created by magic.
 
 ++ Rapid Growth (plant, geomancing)
 
@@ -554,6 +578,23 @@ As a concentration effect, you may spend 2 spell points to call lava up from dee
 In addition, the volcano sprays lava, smoke, and poison gas in a hemispherical emanation around itself. The radius of this emanation is equal to one half the volcano’s height (e.g., an 80 foot spout has a 40 foot radius emanation). All creatures within this area, including yourself, have concealment and suffer 2d6 points of fire damage each round as lava cascades on them. They also suffer 1d6 Constitution damage per round as they inhale poisonous gas (Fortitude DC 15 negates, the DC increases by 1 per previous save). Even after a creature leaves the lava-filled area, they suffer 1d6 points of damage for 1d3 rounds as the lava already on them cools.
 
 A volcano must be created on the ground and cannot be created in other places, such as on the 2nd floor of a building. You can choose to make a smaller volcano than your level permits if an obstruction prevents it from reaching its full height, or if you simply want to create a spread of lava that’s smaller than your maximum.
+
+++ Zoetic Geomancy
+
+**Prerequisite:** Nature Sphere, Lingering Nature, 10th Caster Level or higher.
+
+As an instantaneous effect you may spend 10 minutes and 3 spell points to target a portion of material within Close range from one of your geomancing packages to create a correlating elemental. For these purposes, the Weather sphere counts as a geomancing package. The plantlife package, rather than producing an elemental, instead creates a treant.
+
+The creature created is friendly toward you, and while you have no special empathy or connection with it, the creature serves you in specific tasks or endeavors if you communicate your desires to it. However, as it is a living, intelligent being, it will expect good treatment in return. If you cast zoetic geomancy again, any previously created creatures remain friendly to you, but they no longer undertake tasks for you unless it is in their best interests.
+
+**Zoetic Geomancy**
+||~ Geomancing Package ||~ Required Target ||~ Creature || 
+|| Earth || 15-ft cube of Dirt, Sand, or Stone || Huge Geomancy Born earth Elemental || 
+|| Fire || 15-ft cube of Fire or Lava || Huge Geomancy Born fire Elemental || 
+|| Metal || Huge object of Metal || Huge Geomancy Born cold iron Elemental || 
+|| Plantlife || Huge Vegetation || Wyrgrove Treant || 
+|| Water || 15-ft cube of Water || Huge Geomancy Born water Elemental || 
+|| Weather || 15-ft cube of Air || Huge Geomancy Born air Elemental || 
 
 + Protection Talents
 
