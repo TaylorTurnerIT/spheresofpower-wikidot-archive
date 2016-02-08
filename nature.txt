@@ -179,6 +179,41 @@ Some talents are marked (plant), (water), (fire), or (earth). You must possess t
 
 + Nature Talents
 
+++ Acid Rain (metal, water)
+Whenever you utilize the water geomancing fog ability, you may spend an additional spell point to cause creatures that begin within or enter the area of the fog effect to take 1d6 acid damage per 2 caster levels (minimum 1d6, no save). They suffer this damage when you first create the fog and each subsequent round they remain in the fog, taking damage at the beginning of your turn. Any creature who enters the fog immediately suffers damage, but only once even if they leave and re-enter the fog as part of their movement.
+
+++ Aggravating Vegetation (plantlife)
+Whenever you use the pummel geomancing ability, you may instruct the vegetation to focus on antagonizing its target instead of making a regular attack. The branch or tree makes an attack roll as an antagonize skill check against the target’s Psychology DC (14 + 1/2 HD + WIS modifier; or 14 + Sense Motive Bonus, if it is higher). Creatures who are of animal intelligence (1 or 2), or have been previously antagonized gain a +4 bonus to their Psychology DC. Both of these stack. Mindless creatures are immune to the effects of antagonize.
+
+Antagonize is a mind-affecting effect. If you successfully beat the target’s psychology DC, the creature, instead of taking damage, gains the antagonized condition against the attacking vegetation. The antagonized condition remains for 1 round. The duration of this condition increases by 1 round for every 5 by which you beat your opponent’s Psychology DC. You may not use this ability if you would already deal no damage with your pummel.
+
+//**Antagonized Condition:** The antagonized condition appears in Ultimate Charisma, published and copyrighted by Everyman's Game, LLC.
+
+An antagonized creature can only target its antagonist (the one who caused the antagonized condition) with hostile actions. A hostile action is any attack or effect that causes direct harm to an opponent in the form of damage, negative conditions, or any other effect that penalizes or hinders a creature. Furthermore, an antagonized creature does not threaten any opponents except its antagonist: it cannot make attacks of opportunity or be used to determine flanking bonuses against other opponents. A creature is no longer antagonized if its antagonist is helpless, unconscious, or cannot participate in combat. If an antagonizes creature uses an ability that targets multiple creatures, the antagonist must be chosen among these targets. If an antagonized creature uses an ability that targets an area, its antagonist must be within the ability's targeted area.
+
+On each round after the first, an antagonized creature may attempt a Sense Motive skill check as a swift action to realize the folly of its actions. This skill check is opposed by the antagonist's original antagonize skill check. If the creature succeeds on its Sense Motive skill check, the antagonized condition ends, but the creature suffers a -2 penalty on attack rolls and a -2 penalty to the saving throw DC of its abilities and any spells it casts for 1 minute. These penalties do not apply against the antagonist.//
+
+**Attacking Vegetation Under the Effect of Pummel**
+
+Players and Game Masters alike may require the armor class, hardness, and hit point values of the branches or trees affected by pummel. While particular species of vegetation may cause for variance in these values, the table below are some that are suggested which may be used should such a situation arise. Branches and trees under the effect of pummel are still objects and thus always fail saving throws. Branches as objects gain the broken condition if they lose over 50% of their hit points, and are destroyed when reduced to 0 hit points.
+
+Trees animated through the enhancement sphere should not use these statistics, but rather those provided for animated objects.
+
+||~ Size ||~ Example ||~ Armor Class ||~ Hardness ||~ Hit Points || 
+|| Medium || Secondary Branch or Sapling || 7 || 5 || 5 || 
+|| Large || Primary Branch or Young Tree || 6 || 5 || 15 || 
+|| Huge || Juvenile Tree || 5 || 5 || 50 || 
+|| Gargantuan || Typical Adult Tree || 4 || 5 || 150 || 
+|| Colossal || Massive Tree || 3 || 5 || 500 || 
+
+**Number of Branches Per Size Category of Tree**
+||~ Tree Size ||~ Number of Medium Branches ||~ Number of Large Branches ||~  Number of Huge Branches || 
+|| Huge || 1d4 (avg 3) || - || - || 
+|| Gargantuan || 3d4 (avg 8) || 1d4 (avg 3) || - || 
+|| Colossal || 9d4 (avg 23) || 3d4 (avg 8) || 1d4 (avg 3) || 
+
+Because trees are objects, it is recommended that destroying a branch also reduces the overall health of each larger branch and tree by an equal amount. For example, if a juvenile tree has 4 medium branches, then destroying all four would reduce the tree’s hit points by 20, leaving it with 30 hp remaining. In the case of a massive tree, destroying 1 medium branch would reduce 1 large branch, 1 huge branch and the colossal tree’s hit points by 5.
+
 ++ Altered Edge (metal, geomancing)
 As a concentration effect, you may target a metal weapon within Close range as a standard action. The weapon either has its critical hit threat range increased or decreased by 1, increasing by 1 per 10 caster levels. This bonus or detriment is applied after abilities and feats such as Improved Critical or the keen weapon property, and cannot be doubled. If this would decrease a weapon’s critical hit threat range below 1, the weapon instead has its critical hit multiplier decreased by 1 for every point it is reduced below 1. (Minimum x1 crit multiplier.)
 
@@ -190,11 +225,17 @@ Once during the duration of this ability, you may call the nearest animal of a p
 ++ Arsenal (metal)
 When using recover ore, you may spend an additional spell point to have the metal pulled form as a more finely shaped and hardier object. Weapons or tools you shape using the recover ore ability are no longer considered improvised weapons or tools and function in all ways like the object formed; you still may not form objects with complex moving parts.
 
+++ Barkskin (plantlife, spirit)
+You may spend a spell point as a standard action to grow plantlife all over your body for 1 minute per caster level. This grants you a +1 enhancement bonus to natural armor, + 1 per 5 caster levels. In addition, in natural environments you gain a circumstance bonus to Stealth equal to 1/2 your caster level (minimum 1). You lose this circumstance bonus to Stealth in any round that it moves 5 or more feet.
+
 ++ Blade Barrier (metal, geomancing)
 Requires metal. As a concentration effect, you may attach a piece of metal to a target creature, object, or 5 ft square. Any creature who enters the designated space or passes through a square adjacent to the target is attacked by the metal object, as if using the magnetize ability. A creature can only be attacked in this way once per turn during their movement, no matter how many times they pass through the affected squares. If a creature ends its turn within this affected space, or if the target moves to a new square, or creatures who begin their turn in an affected space are immediately attacked by this ability. The target is never attacked by the piece of metal attached to them.
 
 ++ Blade Whip (metal, geomancing)
 Requires metal. As an instantaneous effect, you may as a standard action spend a spell point to reshape your metal weapon into a cable and perform a trip, disarm or sunder combat maneuver against a target within close range. You gain a bonus to the check equal to 1/2 your caster level (minimum 1). After the combat maneuver check has been resolved, your weapon returns to its original form.
+
+++ Boil Water (fire, water, geomancing)
+As a concentration effect, you may, as a standard action, cause a 5 ft cube of water per 2 caster levels (minimum one 5-ft cube) within range to heat up and boil, dealing 1d6 per 2 caster levels (minimum 1d6, no save) Fire damage to any creature within. Each round at the beginning of your turn, any creature still within the boiling water suffers damage again. If a creature enters the boiling water, they immediately suffer damage, but only once during their movement, no matter how many times that movement takes them in and out of the boiling water.
 
 ++ Chill Metal (metal, water, geomancing)
 Requires metal. As a concentration effect, you may as a standard action chill a piece of metal no larger than the size of ore that you may recover within close range. Any creature who begins their round touching the chilled metal takes 1d6 cold damage per 2 caster levels. If the chilled metal is something they are holding such as a sword or coin, they may make a Reflex save to drop the item to take minimum damage, otherwise a creature is only allowed a Fortitude save for half damage (i.e. equipped metal armor that is targeted by this ability, only allows the creature wearing it a fortitude save). If the object is used as a weapon, it deals an additional 1d6 cold damage. If cast upon an unattended metal object with moving parts (such as a door with hinges), those pieces become non-functional, being frozen over, requiring a strength check to beat your MSD to break loose and restore functionality.
@@ -213,6 +254,9 @@ Whenever you use the recover ore geomancing ability, you gain the ability to rec
 ++ Feed on Fire (fire, spirit)
 You may spend a spell point to gain the ability to absorb energy from fire for 1 minute per caster level. You gain fire resistance equal to your caster level. Whenever you take damage from fire (whether or not it is enough to penetrate your fire resistance), you are healed an amount equal to 1/2 the fire damage dealt, to a maximum amount equal to 1/2 the fire resistance granted by this ability (minimum: 1). Damage dealt in excess of this amount is handled normally.
 
+++ Flying Debris (earth)
+When you use the tremor ability, creatures who are flying up to 10 ft per caster level over the affected area must make a Fly check whose DC is equal to your combat maneuver check or fall to the ground. This fall does not cause falling damage, but does cause them to be affected by the tremor when they land.
+
 ++ Forge Earth (earth, geomancing)
 As an instantaneous effect, you may spend a spell point to alter the ground within a 5 ft + 5 ft per 5 caster levels radius area within range. You may raise or lower the terrain up to 5 ft + 5 ft per 5 caster levels, and may create variants within the affected area such as summoning a small wall or creating gradients and stair effects. You cannot both raise and lower the terrain with the same use of this ability and cannot create variants in anything smaller than 5 ft squares (i.e., you cannot create 1 ft diameter holes or create a spike of earth). Targets within this area are not damaged by falling if you lower the terrain, and climbing up the edges of lowered terrain usually requires a DC 15 Climb check.
 
@@ -225,6 +269,9 @@ When using the create fire geomancing ability, you may encompass the fire around
 1. You concentrate the fire around your hands. Rather than affecting an area, this allows you to be treated as armed when making unarmed strikes. In addition, you deal an extra amount of fire damage equal to your maximum create fire size with each unarmed strike. This does not cause targets to catch fire, nor grant you the ability to make extra attacks if you are maintaining the effect through concentration.
 
 2. You place the fire around yourself as a mantle. This does not deal fire damage to yourself, but all adjacent creatures are damaged by your fire and suffer a chance of catching fire, as if they were within the area where the fire was created.
+
+++ Grant Spirit
+When activating one of your (spirit) Nature abilities, you may touch a willing target and grant them the benefit of your (spirit) talent, rather than gaining it yourself.
 
 ++ Greater Range
 The range of your geomancing abilities increases from Close to Medium range. You may select this talent up to 2 times. Each time it is selected, the range increases by 1 step (Close to Medium, Medium to Long).
@@ -240,11 +287,34 @@ Heat Metal may be used to dispel Chill Metal.
 ++ Hemoglobin (metal)
 You no longer require large quantities of earth to use recover ore, instead, you may spend an additional spell point to target a living corporeal creature within your geomancing range. To use hemoglobin, make a ranged touch attack against the target, inflicting 1d2 Constitution damage to the target (Fortitude save for half damage). The dice size of the Constitution damage increases by 1 for every 5 caster levels. Regardless of the creature’s size or bodily composition, you recover ore of Fine size upon successfully hitting the target. While the name of this ability suggests the target must bleed or have blood, it is not necessary, the only requirement is that the creature be corporeal and living. Because the constitution damage occurs after the recovery of ore, if the target is immune to ability damage, you still recover ore of Fine size.
 
+++ Lingering Nature
+When you use the nature sphere ability that requires concentration, the ability continues to maintain itself for 2 rounds after you stop concentrating.
+
 ++ Manipulate Object (metal, geomancing)
 Requires metal. As an instantaneous effect, you may, as a standard action, spend 2 spell points and target an unattended object (even non-metal objects) within close range. The target becomes fused with metal, permanently increasing or decreasing the hardness and AC of the object by 1, +1 per 5 caster levels. An object may only be under the effects of one manipulate object at a time, as each future casting dismisses and replaces the previous casting. This grants no further benefit or penalties due to the metals used.
 
+++ Melt Earth (earth, fire, geomancing)
+As a concentration effect, you may spend 2 spell points and target a 5-ft space within range filled with sand, dirt or stone, transmuting the top portion into lava. Creatures who touch or otherwise enter the square with lava created with melt earth take 1d6 fire damage per caster level (Reflex half). Even after a creature leaves the lava, the creature continues to take the fire damage (Fortitude save for half damage) for 1d3 rounds. If this effect ends while a creature is inside the space affected by this ability, the earth instantly cools around the creature, immobilizing it (Reflex negates). An immobilized creature cannot move until it makes a successful Strength or Escape Artist check against the caster’s Nature DC, both of which require a full-round action. Alternately, another creature may attempt a Strength check as a standard action to break the earth, or any creature may deal 5 damage per caster level to the earth to break it.
+
 ++ Move Fire (fire, geomancing)
 As a concentration effect, you may take a fire equal to or smaller than the maximum you may target with affect fire and move it up to 30 ft per round in any direction. A fire moved in this way continues to burn, even without fuel (although it may be drowned or extinguished otherwise as normal), and dies as soon as the effect ends if not moved to a new fuel source. If you have spent a spell point to make this ability self-sustaining, you must still focus as a move action to move the fire. When moving fire to a space occupied by a creature, that creature suffers the fire’s damage (Reflex half) and must pass a Reflex save or catch on fire.
+
+++ Nature Barrier
+As an instantaneous effect, you may, as a standard action, spend 2 spell points to create a 5-ft tall barrier in a number of unoccupied 5-ft squares equal to your caster level. The walls must be placed on a flat surface and is a number of inches thick equal to 1/2 your caster level (minimum: Thin Sheet at 1/10th of an inch). You may choose to have the barrier to have a transparent (allows line of sight) or opaque (blocks line of sight) appearance, both of which block line of effect. Regardless of your geomancing or the appearance of the barrier, all the walls have a hardness of 0 and 10 hit points per inch thickness. The walls, while instantaneous proceed to lose hit points at the rate of 1 per hour. In addition, while the walls appear to be made out elements associated to their geomancing packages, they are only the manifested nature spirits of those elements and cannot be used for meeting geomancing prerequisites.
+
+**Nature’s Barrier**
+||~ ||~ Transparent Example ||~ Opaque Example || 
+|| Earth || Glass || Stone || 
+|| Fire || Flames || Lava || 
+|| Metal || Bars or Grate || Metal || 
+|| Plantlife || Leaves || Wood || 
+|| Water || Water || Ice || 
+
+++ Naturesight (spirit)
+As a concentration effect, you gain an extraordinary sense depending on geomancing you possess. Those with earth geomancing gain tremorsense, fire geomancers gain lifesense, metal geomancers gain blindsense, plantlife geomancers gain greensight, and water geomancers gain mistsight, each with a range of Close (25 ft + 5 ft/2 caster levels). Those with the nature spirit drawback may choose any singular extraordinary sense listed here each time they use this ability.
+
+++ Nauseating Fog (plantlife, water)
+Whenever you use the water geomancing fog ability, you may spend an additional spell point to cause the cloud to become nauseating, in addition to its other effects. Each creature in the area of the fog must make a Fortitude save or gain the nauseated condition, making them unable to attack, cast spells, concentrate on spells, or do anything else requiring attention. The only action a nauseated creature can take is a single move action per turn. This condition lasts as long as the creature is in the cloud and for a single round after it leaves. Any creature that succeeds on its save but remains in the cloud must continue to save each round on your turn.
 
 ++ Oxidation Ray (metal, geomancing)
 As an instantaneous effect, you may, as a standard action, spend a spell point to make a ranged touch attack against a metal object or metal creature. If the target’s size is one or more sizes larger than the size of ore that you can recover, the creature or object takes 1d8 damage per 2 caster levels (Fortitude for half damage), otherwise the target takes 1d8 per caster level (Fortitude for half damage). This damage overcomes any hardness the creature or object may have. If an object receives sufficient damage to destroy it, it instead becomes non-functional for 1 minute per 2 caster levels, before returning to the broken condition with half their maximum hit points.
@@ -252,8 +322,23 @@ As an instantaneous effect, you may, as a standard action, spend a spell point t
 ++ Pin-Ball (metal)
 You may spend an additional spell point when you use the magnetize geomancing ability as a weapon, if the attack hits, you may as a free action magnetize another creature within range and make an additional ranged attack at that creature. You may make a maximum number of additional attacks in this manner equal to your caster level, but if you miss once the pin-ball ability ends without any further attacks. You may not make ranged attacks with the pin-ball ability two or more times in a row against the same target.
 
+++ Ranged Pummel (plantlife)
+When using the pummel geomancing ability, the tree branches may throw vegetation as a ranged attack instead of only making melee slam attacks. The attack is treated as a thrown weapon with a range increment equal to twice the tree branch’s reach. The attack roll and damage otherwise remain unchanged.
+
+++ Rejuvenation (spirit)
+As a concentration effect, you may grant yourself fast healing equal to 1/2 your caster level (minimum 1). This fast healing only confers healing so long as you have 1/2 your maximum hit points or less (wounded or in critical condition).
+
+++ Sap Conglutination (plantlife)
+Whenever you instruct the trees to attack with the pummel geomancing ability, you may choose to have the tree’s branches excrete a rubbery resin. If you would deal damage with pummel, you may forfeit dealing damage to instead have those hit by the attack become coated with sap which grants the fatigued condition until they remove it as a full-round action. If a fatigued creature becomes coated with sap, they then acquire the exhausted condition until they remove it with a full-round action. You may not combine this ability with any other ability that causes your pummel to deal no damage.
+
+++ Shelter (geomancing)
+As a concentration effect, you may spend a spell point to create a canopy made of natural life energy that can shelter an area equal to 1 5 ft cube per caster level, providing shelter to 1 medium creature per cube. Those under the canopy suffers no harm from being in a hot or cold environments. Those inside the shelter can exist comfortably in conditions between –50 and 140 degrees Fahrenheit without having to make Fortitude saves. The creature’s equipment is likewise protected. In addition, the shelter provides protection against other environmental hazards such as smoke, lack of air, and so forth; However, the vessel does not protect against any environmental damage such as cold or fire damage. The shelter also provides cover to those inside, blocking line of sight and effect against flying creatures. Hostile creatures cannot enter the canopy, but a successful attack against the canopy causes it to disappear unless the caster succeeds on an MSB check against a DC equal to the amount of damage dealt. Even when maintained by concentration, the canopy is stationary and does not move with the caster.
+
 ++ Shrapnel (metal)
 When you use the magnetize geomancing ability as a weapon, you may instead choose to deal bleed damage to the target equal to the corresponding ore damage.
+
+++ Smokescreen (fire)
+Whenever you use the fire geomancing affect fire ability to decrease the size of a fire, you may have it bellow forth smoke as an emanation effect. The smoke radiates outward from the fire 5 ft per caster level. Those inside the smoke have concealment from those inside and outside the smoke, those outside the smoke gain concealment, but only against those inside the smoke. If you spend an additional spell point, the smoke grants total concealment instead. The smoke, unlike the affect fire ability, lasts 2 rounds per size category the fire is decreased. A fire may be increased and decreased again to recreate the effect.
 
 ++ Speak with Animals (spirit)
 You may spend a spell point to gain the ability to speak with animals for 1 minute per caster level. You can ask questions of and receive answers from animals, but the spell doesn’t make them any more friendly than normal. Wary and cunning animals are likely to be terse and evasive, while the more stupid ones make inane comments. If an animal is friendly toward you, it may do some favor or service for you.
@@ -263,6 +348,18 @@ You may spend a spell point to gain the ability to speak with plants for 1 minut
 
 ++ Speak with Stone (earth, spirit)
 You may spend a spell point to speak with stones for 1 minute per caster level. This is not truly accomplished through speech, but rather by touching a stone you may learn what else has touched it, passed by it, what is hidden underneath it, etc. You can tell depth, weight, size, and number of passers by, but not more detailed information (the names or conversations of passers by, for instance). You can speak with both natural or worked stone.
+
+++ Speak with Water (water, spirit)
+You may spend a spell point to speak with water for 1 minute per caster level. This is not truly accomplished through speech, but rather by dipping a limb into the water you may learn what else has touched it, passed by it, what is hidden underneath it, etc. You can tell depth, weight, size, and number of passers by, but not more detailed information (the names or conversations of passers by, for instance). Because water is constantly moving, you can only receive information on things that have occurred less than 1 day per caster level ago. You can speak with both fresh or salt bodies of water. If attempting to converse with particularly large bodies of water, such as oceans, you can only aquire information from a portion of the body of water, to a maximum distance of 1000 ft +100 ft per caster level.
+
+++ Spikestones (earth)
+When using tremor, you may have the shaken earth create stalagmite-like formations which last 1 round. Whenever a creature steps onto an affected square, make a touch attack roll against the target using your caster level as your attack bonus. If successful, the target suffers damage equal to 1/2 your caster level (minimum 1) which overcomes DR/magic. Any target damaged by the spikes has its speed reduced by half because its foot is wounded. This movement penalty lasts for 24 hours, until the creature is successfully treated with a DC 15 Heal check, or until it receives at least 1 point of magical healing. A charging or running creature must immediately stop if it enters a square with a spike. Any creature moving at half speed can pick their way through the spikes without trouble.
+
+++ Spores (plantlife)
+Whenever you instruct the trees to attack with the pummel geomancing ability, you may choose to have the tree’s branches release spore pods instead of making an attack. This targets a 5 ft burst within their attack range, causing all creatures within that area to make a Fortitude save or become sickened for 1d6 rounds. If a creature fails its Fortitude save against this effect while already sickened, it becomes nauseated for 1 round. The tree and the caster are both unaffected by these spores. You cannot combine this ability with another ability that causes your pummel to deal no damage.
+
+++ Stoneskin (earth, spirit)
+You may spend a spell point as a standard action to gain DR/adamantine equal to 1/2 your caster level for 1 minute per caster level. Once this has absorbed damage equal to 10 per caster level, it immediately ends even if its duration has not expired.
 
 ++ Thorns (plantlife, geomancing)
 You cause plants to grow spines and attack targets. This is the same as the entangle geomancing ability, except instead of making creatures entangled and unable to move, this effect deals piercing and slashing damage to them. Targets inside the area or who enter the area suffer 1 d6 damage +1 per 2 caster levels (Reflex half). Creatures who remain in the area suffer damage once per round at the end of your subsequent turns. This does not stack with any thorns already on the plants used in the effect. You may place an entangle and thorns effect on the same space.
@@ -285,3 +382,6 @@ All creatures within the affected area are pushed as if by a Bull Rush combat ma
 
 ++ Whirlwind (earth, geomancing)
 You may create a vortex out of sand or loose dirt. This is the same as a vortex made in water, except it travels over land. A whirlwind must remain in contact with the ground at all times, and may not fly.
+
+++ Wild Instinct (spirit)
+While concentrating on any Nature sphere ability, you gain the benefits of Uncanny Dodge. You may take this talent twice, upon taking this talent a second time, you also gain the benefits of Improved Uncanny Dodge using your caster level in place of class level to determine the minimum rogue level required to flank you.
