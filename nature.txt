@@ -117,6 +117,61 @@ You may affect a normal, non-magical fire, increasing or decreasing its size by 
 
 On a success, their ability functions normally, overlapping the first caster’s effect. The fire counts as its altered size for determining if the second caster can affect it. If a creature is on fire, treat that fire as being Tiny sized (1d6 damage) for the purpose of this effect. When you affect a fire on a creature, you also raise or lower the Reflex save DC to put the fire out by 1/2 your caster level (minimum: 0).
 
+++ Metal
+
++++ Recover Ore
+(requires dirt or sand, instantaneous)
+
+As a standard action, you may create a piece of metal ore by pulling and combining particles of metal from the ground. You must spend a spell point to use this ability, and must have a large enough piece of earth (sand or dirt) to pull the ore from. This piece of ore can be brass, bronze, copper, or tin, and the size of the ore recovered depends both on your caster level and the square footage of earth you pull from.
+
+The piece of ore you recover is formed on the ground in an unoccupied space within Close range and can be of any basic shape (a ball, a rod, a sheet, even a chair) but cannot be anything complex or with moving parts. You may also pull multiple pieces of ore placed in different adjacent squares, so long as their combined size does not exceed your maximum, and each piece of recovered ore must be of the same type (such as copper or tin). For these purposes, 2 Fine-sized pieces of ore equals 1 Diminutive-sized piece, etc.
+
+While this effect is instantaneous and thus cannot be dispelled, ore breaks back into particles after 1 hour per caster level. If a piece of ore is used as a weapon, it counts as an improvised weapon, dealing either bludgeoning, piercing, or slashing damage, chosen at the time of recovery. The damage such a weapon deals is listed as ‘ore damage’ in the chart below. As always, improvised weapons bestow a -4 penalty to attack rolls.
+
+**Metal Geomancing**
+||~ Minimum Caster Level ||~ Required Earth to Pull From ||~ Ore Size Recovered ||~ Ore Damage ||~ Ore Weight (maximum) || 
+|| 1 || 1 ft cube || Fine || 1 || .8 lbs || 
+|| 1 || 5 ft cube || Diminutive || 1d2 || 1 lbs || 
+|| 1 || 10 ft cube || Tiny || 1d3 || 8 lbs || 
+|| 2 || 25 ft cube || Small || 1d4 || 60 lbs || 
+|| 4 || 50 ft cube || Medium || 1d6 || 500 lbs || 
+|| 8 || 75 ft cube || Large || 1d8 || 4,000 lbs || 
+|| 16 || 125 ft cube || Huge || 2d6 || 16 tons || 
+|| 32 || 350 ft cube || Gargantuan || 3d6 || 125 tons || 
+|| 64 || 500 ft cube || Colossal || 4d6 || 2,500 tons || 
+
++++ Magnetize
+(requires metal, instantaneous)
+
+As a standard action, you may cause an unattended object consisting mostly of metal (whose size is not larger than your maximum recover ore size) to fly towards a creature or object of your choice within Close range. You may choose to throw the item harmlessly (in which case it can either be caught by the target or else lands in an adjacent square), or you may use this as an attack. This counts as a ranged attack, except you must use your casting ability modifier in place of Dexterity. If successful, you deal either the object’s ‘ore damage’, or if it is a weapon, the weapon’s damage (arrows and bolts with metal tips count as daggers for this purpose, dealing 1d4 damage). Despite the name of this ability, the target object or creature needn’t be made of metal.
+
+**Metal Talent Info**
+||~ Minimum Caster Level ||~ Object Size ||~ Sample Item || 
+|| 1 || Fine || Bullet, Lockpick or Nail || 
+|| 1 || Diminutive || Bolt, Dagger, or Shuriken || 
+|| 1 || Tiny || Candelabra or Mace || 
+|| 2 || Small || Greatsword or Heavy Shield || 
+|| 4 || Medium || Bed, Cage or Table || 
+|| 8 || Large || Statue || 
+|| 16 || Huge || Wagon || 
+|| 32 || Gargantuan || Catapult || 
+|| 64 || Colossal || Ship || 
+
+**Hardness and Hit Points of the various types of Metals**
+||~ Metal ||~ Hardness ||~ Hit Points || 
+|| Brass || 9 || 20/in. Thickness || 
+|| Bronze || 9 || 20/in. Thickness || 
+|| Cold Iron || 10 || 30/in. Thickness || 
+|| Copper || 9 || 20/in. Thickness || 
+|| Iron || 10 || 30/in. Thickness || 
+|| Lead || 10 || 30/in. Thickness || 
+|| Mithril || 15 || 30/in. Thickness || 
+|| Silver || 8 || 10/in. Thickness || 
+|| Steel || 10 || 30/in. Thickness || 
+|| Tin || 9 || 20/in. Thickness || 
+
+//The Value of Recovered Ore:// Ore recovered through the metal package from the Nature Sphere is of poor quality and degrades quickly, making it impossible to simply create and sell. However, players who possess a metal-based Craft of Profession skill such as Craft (weapons) or Profession (blacksmith) can heat and purify this ore to make it workable. This allows such a character to make Craft or Profession checks to earn a wage even without the presence of a market or workshop to work in. Rather than earning money, the check instead creates an amount of raw materials equal to that day or week's wage, which may be sold later or used as raw materials for any metal-based crafting.
+
 ++ Spirit
 Some talents are marked (spirit). These talents give the caster ways they have learned to tune their spirit with nature. Each (spirit) talent grants the caster a new ability they may use as a standard action. These abilities only affect the caster.
 
@@ -124,10 +179,27 @@ Some talents are marked (plant), (water), (fire), or (earth). You must possess t
 
 + Nature Talents
 
+++ Altered Edge (metal, geomancing)
+As a concentration effect, you may target a metal weapon within Close range as a standard action. The weapon either has its critical hit threat range increased or decreased by 1, increasing by 1 per 10 caster levels. This bonus or detriment is applied after abilities and feats such as Improved Critical or the keen weapon property, and cannot be doubled. If this would decrease a weapon’s critical hit threat range below 1, the weapon instead has its critical hit multiplier decreased by 1 for every point it is reduced below 1. (Minimum x1 crit multiplier.)
+
 ++ Animal Friend (spirit)
 You may spend a spell point as a standard action to cause animals to treat you as a friend for 1 minute per caster level. Indifferent animals (such as domesticated animals) become Friendly to you, while Unfriendly animals (such as wild animals) become Indifferent to you. This means that wild animals will not attack unless provoked, and you may make requests of animals, provided you may communicate with them (if you cannot communicate with a creature, only basic commands such as ‘go’, ‘come’, ‘fight’, or ‘stay’ may be communicated). This has no effect on animals who are hostile to you (such as those already in combat), and an animal with a master (such as an animal companion) will still attack if commanded to by its master.
 
 Once during the duration of this ability, you may call the nearest animal of a particular type you designate (provided the animal’s CR is equal to or less than your caster level) to seek you out. The animal moves toward you under its own power, so the time it takes to arrive depends on how close an animal of the desired type is when you cast the spell. If there is no animal of that type capable of reaching you within this effect’s duration, you are aware of this fact.
+
+++ Arsenal (metal)
+When using recover ore, you may spend an additional spell point to have the metal pulled form as a more finely shaped and hardier object. Weapons or tools you shape using the recover ore ability are no longer considered improvised weapons or tools and function in all ways like the object formed; you still may not form objects with complex moving parts.
+
+++ Blade Barrier (metal, geomancing)
+Requires metal. As a concentration effect, you may attach a piece of metal to a target creature, object, or 5 ft square. Any creature who enters the designated space or passes through a square adjacent to the target is attacked by the metal object, as if using the magnetize ability. A creature can only be attacked in this way once per turn during their movement, no matter how many times they pass through the affected squares. If a creature ends its turn within this affected space, or if the target moves to a new square, or creatures who begin their turn in an affected space are immediately attacked by this ability. The target is never attacked by the piece of metal attached to them.
+
+++ Blade Whip (metal, geomancing)
+Requires metal. As an instantaneous effect, you may as a standard action spend a spell point to reshape your metal weapon into a cable and perform a trip, disarm or sunder combat maneuver against a target within close range. You gain a bonus to the check equal to 1/2 your caster level (minimum 1). After the combat maneuver check has been resolved, your weapon returns to its original form.
+
+++ Chill Metal (metal, water, geomancing)
+Requires metal. As a concentration effect, you may as a standard action chill a piece of metal no larger than the size of ore that you may recover within close range. Any creature who begins their round touching the chilled metal takes 1d6 cold damage per 2 caster levels. If the chilled metal is something they are holding such as a sword or coin, they may make a Reflex save to drop the item to take minimum damage, otherwise a creature is only allowed a Fortitude save for half damage (i.e. equipped metal armor that is targeted by this ability, only allows the creature wearing it a fortitude save). If the object is used as a weapon, it deals an additional 1d6 cold damage. If cast upon an unattended metal object with moving parts (such as a door with hinges), those pieces become non-functional, being frozen over, requiring a strength check to beat your MSD to break loose and restore functionality.
+
+Chill Metal may be used to dispel Heat Metal.
 
 ++ Create Water (water, geomancing)
 As an instantaneous effect, you may spend a spell point to create water anywhere within range. This creates one 5 ft cube per 2 caster levels (minimum: 1 cube) of clean water. While this is its own geomancing ability, you may combine this effect with another water package geomancing ability as part of the same standard action, in which case the second geomancing ability comes into effect immediately. You must pay any costs associated with both abilities to combine them in this manner. This can allow you to even create vortexes that can move over land.
@@ -135,11 +207,17 @@ As an instantaneous effect, you may spend a spell point to create water anywhere
 ++ Expanded Geomancing
 Choose and gain a geomancing package you do not already possess. You may select this talent multiple times, gaining a new package each time.
 
+++ Expanded Ore (metal)
+Whenever you use the recover ore geomancing ability, you gain the ability to recover ore of Iron, Lead or Steel. Upon reaching Caster Level 5, you add Cold Iron and Silver to the types of ore you may recover. At Caster Level 10, you gain the ability to recover Mithril ore.
+
 ++ Feed on Fire (fire, spirit)
 You may spend a spell point to gain the ability to absorb energy from fire for 1 minute per caster level. You gain fire resistance equal to your caster level. Whenever you take damage from fire (whether or not it is enough to penetrate your fire resistance), you are healed an amount equal to 1/2 the fire damage dealt, to a maximum amount equal to 1/2 the fire resistance granted by this ability (minimum: 1). Damage dealt in excess of this amount is handled normally.
 
 ++ Forge Earth (earth, geomancing)
 As an instantaneous effect, you may spend a spell point to alter the ground within a 5 ft + 5 ft per 5 caster levels radius area within range. You may raise or lower the terrain up to 5 ft + 5 ft per 5 caster levels, and may create variants within the affected area such as summoning a small wall or creating gradients and stair effects. You cannot both raise and lower the terrain with the same use of this ability and cannot create variants in anything smaller than 5 ft squares (i.e., you cannot create 1 ft diameter holes or create a spike of earth). Targets within this area are not damaged by falling if you lower the terrain, and climbing up the edges of lowered terrain usually requires a DC 15 Climb check.
+
+++ Forged Reach (metal, geomancing)
+Requires metal. As a concentration effect, you may as a standard action increase the reach of a metal weapon within range by up to 5 ft, +5 ft per 10 caster levels.
 
 ++ Fire Wielder (fire)
 When using the create fire geomancing ability, you may encompass the fire around yourself. This accomplishes one of the two following feats:
@@ -154,8 +232,28 @@ The range of your geomancing abilities increases from Close to Medium range. You
 ++ Grow Plants (plantlife, geomancing)
 As an instantaneous effect, you may spend a spell point to instantaneously grow plants in an area within range. This may create one tree (to a maximum size equal to that which you can control through the pummel geomancing ability) or a field of plants within a 5 ft radius + 5 ft per 5 caster levels area. This may create basic plants (corn, underbrush, ivy) but cannot create plants with inherent qualities (i.e., you cannot create rare herbs, etc.). While this is its own geomancing ability, you may combine this effect with another plant package geomancing ability as part of the same standard action, in which case the second geomancing ability comes into effect immediately. You must pay any costs associated with both abilities to combine them in this manner.
 
+++ Heat Metal (fire, metal, geomancing)
+Requires metal. As a concentration effect, you may as a standard action heat up a piece of metal within your Nature range no larger than the size of ore that you may recover. Any creature who begins their round touching the heated metal takes 1d6 fire damage per 2 caster levels. If the heated metal is something they are holding such as a sword or coin, they may make a Reflex save to drop the item to take minimum damage, otherwise a creature is only allowed a Fortitude save for half damage (i.e. equipped metal armor that is targeted by this ability, only allows the creature wearing it a fortitude save). If the object is used as a weapon, it deals an additional 1d6 fire damage. If cast upon an unattended metal object with moving parts (such as a door with hinges), those pieces become non-functional, being partially welded together, requiring a strength check to beat your MSD to break loose and restore functionality.
+
+Heat Metal may be used to dispel Chill Metal.
+
+++ Hemoglobin (metal)
+You no longer require large quantities of earth to use recover ore, instead, you may spend an additional spell point to target a living corporeal creature within your geomancing range. To use hemoglobin, make a ranged touch attack against the target, inflicting 1d2 Constitution damage to the target (Fortitude save for half damage). The dice size of the Constitution damage increases by 1 for every 5 caster levels. Regardless of the creature’s size or bodily composition, you recover ore of Fine size upon successfully hitting the target. While the name of this ability suggests the target must bleed or have blood, it is not necessary, the only requirement is that the creature be corporeal and living. Because the constitution damage occurs after the recovery of ore, if the target is immune to ability damage, you still recover ore of Fine size.
+
+++ Manipulate Object (metal, geomancing)
+Requires metal. As an instantaneous effect, you may, as a standard action, spend 2 spell points and target an unattended object (even non-metal objects) within close range. The target becomes fused with metal, permanently increasing or decreasing the hardness and AC of the object by 1, +1 per 5 caster levels. An object may only be under the effects of one manipulate object at a time, as each future casting dismisses and replaces the previous casting. This grants no further benefit or penalties due to the metals used.
+
 ++ Move Fire (fire, geomancing)
 As a concentration effect, you may take a fire equal to or smaller than the maximum you may target with affect fire and move it up to 30 ft per round in any direction. A fire moved in this way continues to burn, even without fuel (although it may be drowned or extinguished otherwise as normal), and dies as soon as the effect ends if not moved to a new fuel source. If you have spent a spell point to make this ability self-sustaining, you must still focus as a move action to move the fire. When moving fire to a space occupied by a creature, that creature suffers the fire’s damage (Reflex half) and must pass a Reflex save or catch on fire.
+
+++ Oxidation Ray (metal, geomancing)
+As an instantaneous effect, you may, as a standard action, spend a spell point to make a ranged touch attack against a metal object or metal creature. If the target’s size is one or more sizes larger than the size of ore that you can recover, the creature or object takes 1d8 damage per 2 caster levels (Fortitude for half damage), otherwise the target takes 1d8 per caster level (Fortitude for half damage). This damage overcomes any hardness the creature or object may have. If an object receives sufficient damage to destroy it, it instead becomes non-functional for 1 minute per 2 caster levels, before returning to the broken condition with half their maximum hit points.
+
+++ Pin-Ball (metal)
+You may spend an additional spell point when you use the magnetize geomancing ability as a weapon, if the attack hits, you may as a free action magnetize another creature within range and make an additional ranged attack at that creature. You may make a maximum number of additional attacks in this manner equal to your caster level, but if you miss once the pin-ball ability ends without any further attacks. You may not make ranged attacks with the pin-ball ability two or more times in a row against the same target.
+
+++ Shrapnel (metal)
+When you use the magnetize geomancing ability as a weapon, you may instead choose to deal bleed damage to the target equal to the corresponding ore damage.
 
 ++ Speak with Animals (spirit)
 You may spend a spell point to gain the ability to speak with animals for 1 minute per caster level. You can ask questions of and receive answers from animals, but the spell doesn’t make them any more friendly than normal. Wary and cunning animals are likely to be terse and evasive, while the more stupid ones make inane comments. If an animal is friendly toward you, it may do some favor or service for you.
@@ -168,6 +266,9 @@ You may spend a spell point to speak with stones for 1 minute per caster level. 
 
 ++ Thorns (plantlife, geomancing)
 You cause plants to grow spines and attack targets. This is the same as the entangle geomancing ability, except instead of making creatures entangled and unable to move, this effect deals piercing and slashing damage to them. Targets inside the area or who enter the area suffer 1 d6 damage +1 per 2 caster levels (Reflex half). Creatures who remain in the area suffer damage once per round at the end of your subsequent turns. This does not stack with any thorns already on the plants used in the effect. You may place an entangle and thorns effect on the same space.
+
+++ Tough as Mettle (metal, spirit)
+You may spend a spell point to gain the Stalward ability for 1 minute per caster level. (If the target makes a Fortitude or Will saving throw against an attack that has a reduced effect on a successful save, she instead avoids the effect entirely).
 
 ++ Towering Growth (plant)
 When creating an entangle or thorns effect, the effect grows tall enough to affect flying creatures as well. Creatures up to 10 ft per caster level over your entangle or thorns effects must pass a Reflex save or affected as normal. If they pass this Reflex save, they must still pass a Fly check (DC 15 + caster level) or be forced to fly at half speed while over the area.
