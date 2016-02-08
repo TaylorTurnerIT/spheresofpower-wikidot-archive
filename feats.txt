@@ -2,6 +2,9 @@ title:Feats
 parent:start
 [[toc]]
 
+++ Admixture Feats
+Admixture feats grant new ways to utilize the Admixture talent, adding abilities from other spheres to your destructive blast. All admixture feats replace the second blast talent you would normally apply, with the resulting destructive blast dealing normal blast damage in addition to the effect outlined in the feat. Any additional costs incurred by the additional effect must be paid as normal. If your caster level is different for the two spheres, the destructive blast is governed by your caster level for the relevant blast type and the additional effect is governed by your caster level for the appropriate ability.
+
 ++ Metamagic Feats
 Applying a metamagic feat to a sphere effect is similar to, but slightly different from, how a spontaneous caster applies a metamagic feat to a spell. A caster may choose to augment their sphere effect with an appropriate metamagic feat at the time of casting. To use a metamagic feat, the caster must spend a number of additional spell points equal to the level increase of the metamagic feat. In addition, the sphere effect’s casting time increases by 1 step. These effects are cumulative for every metamagic feat applied.
 
@@ -27,6 +30,14 @@ Prerequisites: Spell pool, the ability to cast arcane or divine spells.
 
 Benefit: When casting a spell, you may spend 1 spell point as a free action to either increase the caster level by 2 or increase the spell’s DC by 2. You cannot spend more than 1 spell point in this manner. This does not stack with an arcanist’s ability to increase a spell’s caster level or DC through the expenditure of points from their arcane reservoir.
 
+++ Arcing Strike
+
+Prerequisites: Destruction sphere, Guided Strike, caster level 11th or higher.
+
+You may spend a spell point to make your destructive blast fly in an erratic path, unerringly striking your target no matter what lies between you. Your destructive blast ignore the AC bonus granted to targets by anything less than total cover, and the miss chance granted to targets by anything less than total concealment. Total cover and total concealment provide their normal benefits against your ranged attacks.
+
+//Special:// If you possess the Divination sphere Viewing talent, you can use arcing blast to strike any target that you can see that is within range of both your blast and your divination, as long as it isn’t inside a completely enclosed space (GM’s discretion).
+
 ++ Artificery
 
 Prerequisite: Any Craft or Profession skill (5 ranks).
@@ -38,6 +49,12 @@ Benefit: Select one Craft or Profession skill in which you have at least 5 ranks
 Prerequisites: Any Craft or Profession skill (10 ranks), Artificery
 
 Benefit: When using the skill chosen with the Artificery feat to create a magic item, you may craft that magic item whether or not you possess its prerequisite base sphere. Crafting a magic item in this fashion increases the skill check required to make the item by +5.
+
+++ Atmospheric Imbuement
+
+Prerequisites: Destruction sphere, Weather sphere
+
+Benefit: When using blast talents with the air, electrical, or sonic blast type groups, or any blast type deemed appropriate by the GM, when there is an area of rain and wind both at or above category 4, your destructive blast bypasses spell resistance.
 
 ++ Basic Magical Training
 
@@ -78,6 +95,14 @@ Benefit: You can create a variety of small magical effects. These effects are no
 * You may create small non-speech sounds, such as that of a mouse screeching, soft simple harp music, or the hubbub of a whispered conversation.
 
 You can make up new effects, but they should not be more powerful than those listed above. The GM is the final arbiter of what is or is not a cantrip.
+
+++ Channel Destruction
+
+Prerequisites: Destruction sphere, Channel Energy class feature
+
+Benefit: You may imbue your channel energy with a blast type talent. This channeled energy may only be used to harm, but affects all creatures in the area, not just living or undead. The channeled energy does its normal number of damage dice of a die size and damage type corresponding to the chosen blast type. Additional effects apply as usual for the chosen blast type. If more than one blast type is known, a different blast type may be selected each time channel energy is used. For example, a 5th level soul weaver with this feat and the Crystal Blast talent could channel energy, dealing 3d4 piercing damage as well as the effects of Crystal Blast in the normal area and with the normal DC of her Channel Energy. If, for example, she also possesses the Searing Blast talent, the next round she can channel energy, dealing 3d8 fire damage.
+
+If the (blast type) talent chosen has additional spell point costs, an additional use of channel energy must be used in place of each spell point required.
 
 ++ Circle Casting
 
@@ -149,6 +174,12 @@ Prerequisites: Casting class feature, Spellcrafting.
 
 Benefit: You may write down your spells in a magic book, allowing you access to more spells than the usual limit. See the Advanced Magic section for more information on spellcrafting and spellbooks.
 
+++ Deadly Targeting
+
+Prerequisites: Destruction sphere
+
+Benefit: The base critical threat range of your destructive blast increases to 19-20.
+
 ++ Delayed Magic (Metamagic feat)
 
 Prerequisite: Spell pool class feature.
@@ -160,6 +191,24 @@ Benefit: You delay the effect of a sphere ability for up to 5 rounds after you u
 Prerequisites: Improved Unarmed Strike, Emotion class feature.
 
 Benefit: If you make a successful unarmed strike against an opponent, in addition to dealing your unarmed strike damage, you can spend a swift action to deliver the effects of an emotion power with ‘touch’ in its name. Doing so provokes no attacks of opportunity.
+
+++ Energy Snake
+
+Prerequisites: Destruction sphere, Energy Sphere
+
+Benefits: When using the Energy Sphere (blast shape), you may spend 2 spell points instead of 1 to form the energy sphere into a serpent, which grows with every target it consumes. Whenever the energy sphere successfully deals damage to a target, its size increases by 1 5-ft square. When moving the energy sphere each round, its squares may be arranged in any shape desired by the caster, so long as the squares are contiguous.
+
+++ Energy Specialization
+
+Prerequisites: Destruction sphere, 5th caster level or higher
+
+Benefit: Choose one blast type group. Your destructive blasts using blast types from that group gain a +2 insight bonus to caster level.
+
+++ Enhancing Admixture (Admixture)
+
+Prerequisites: Enhancement sphere, Destruction sphere, Admixture talent
+
+Benefit: When using the Admixture talent, you may spend an additional spell point to have a single creature that takes damage be targeted by an Enhancement effect that you possess. If you possess the Mass Enhancement talent, you may apply the Enhancement to any targets damaged, up to your maximum targets from Mass Enhancement. This ability can only target creatures, it cannot be used to animate objects.
 
 ++ Extra Arsenal Trick
 
@@ -227,11 +276,47 @@ Prerequisite: Spell Pool.
 
 Benefit: Your spell pool total increases by 2. You may gain this feat multiple times. The effects stack.
 
+++ Fan the Flame
+
+Prerequisites: Destruction sphere, Fire Blast talent, Nature sphere (fire geomancing), 3rd caster level or higher
+
+Benefit: When a creature is set on fire by your Fire Blast, the fire does not deal 1d6 damage the following round, but rather deals damage equal to the largest fire you may affect. This fire reverts to normal after the first round, dealing 1d6 fire damage on subsequent rounds until extinguished, but you may choose to concentrate each round, or spend a spell point once as a free action, to cause the fire to stay at its increased size until extinguished.
+
+++ Fear and Flame
+
+Prerequisites: Destruction sphere, Fire Blast talent
+
+Benefit: When a creature is set on fire by your destructive blast, they must pass a Will save each round they remain on fire or become shaken. If shaken, they become frightened. If frightened, they become panicked. A successful save reduces the severity by one step and ending the on fire condition ends the effects of this feat, though not fear conditions from other sources.
+
+++ Focused Blast Type Group
+
+Prerequisites: Destruction sphere
+
+Benefit: Choose one blast type group. Treat your caster level as 5 higher for this blast type group. This bonus cannot cause you to have a caster level greater than your HD.
+
 ++ Fool Magic
 
 Prerequisites: Deceitful, Iron Will, Bluff 7 ranks, Disguise 7 ranks
 
 Benefit: When you succeed at a Will saving throw made against any magical effect, the caster of that effect does not automatically know you have succeeded at your saving throw. This allows you to attempt a Bluff check against their Sense Motive check to convince them that you failed your saving throw and are under the effects of the magic. You can choose to allow supplementary effects of the magic (such as the telepathic link provided by the dominate person spell or the Dominate advanced Mind talent) to function as if you had failed your saving throw, to aid in the deception. You may dismiss the supplementary effect early as a standard action.
+
+++ Frozen to the Bone
+
+Prerequisites: Destruction sphere, at least one (blast type) Talent that deals cold damage
+
+Benefit: When using a destructive blast shape that allows a Reflex save with a blast type that deals cold damage, you may replace the Reflex save with a Fortitude save.
+
+++ Ghostly Admixture (Admixture)
+
+Prerequisites: Death sphere, Destruction sphere, Admixture talent
+
+Benefit: When using the admixture talent, you may spend an additional spell point to affect one target damaged by the blast with an Ghost Strike effect you know, in place of a second blast type. If you possess the Greater Ghost Strike talent, you may pay an additional spell point to apply the Ghost Strike to all targets damaged.
+
+++ Greater Channel Destruction
+
+Prerequisites: Destruction sphere, Channel Energy class feature, Channel Destruction
+
+Benefit: When using Channel Destruction, you may spend a spell point to increase the damage to one die per level in the class that grants channel energy that you possess.
 
 ++ Greater Hypnosis
 
@@ -246,6 +331,67 @@ Normal: You may only affect targets with your hypnotism at Close range.
 Prerequisite: Shadowmark class feature.
 
 Benefit: Your shadowmark deals d8s for damage instead of d6s.
+
+++ Heavy Hand
+
+Prerequisites: Destruction sphere, at least one (blast type) talent that deals nonlethal damage
+
+Benefit: When using a destructive blast type that deals nonlethal damage, you may instead deal lethal bludgeoning damage, but your die size is reduced one step. Additionally, you gain a +1 insight bonus to attack rolls and save DCs with destructive blasts that deal nonlethal damage.
+
+++ Illuminating Admixture (Admixture)
+
+Prerequisites: Destruction sphere, Light sphere, Admixture talent
+
+Benefit: When using the Admixture talent, you may cause a single creature that takes damage to Glow.
+
+++ Imbue with Nature
+
+Prerequisites: Destruction sphere, Nature sphere (any geomancing)
+
+Benefit: When using a blast type from a blast type category corresponding to a geomancing talent you possess, you may increase the casting time by one step or spend an additional spell point to draw material from the environment to enhance your blast, allowing it to bypass spell resistance.
+
+||~ Geomancing Talent ||~ Blast Type Categories || 
+|| Earth Geomancing || Crystal, Stone || 
+|| Fire Geomancing || Fire || 
+|| Metal Geomancing || Acid || 
+|| Plant Geomancing || Plant || 
+|| Water Geomancing || Cold || 
+
+Other blast types may be used in conjunction with each geomancing talent as the GM deems appropriate.
+
+++ Improved Energy Blade
+
+Prerequisites: Energy Blade talent
+
+Benefit: You may activate the Energy Blade talent as a swift action when making a melee or ranged weapon or natural weapon attack, but not a touch attack. The next successful attack deals your destructive blast damage in addition to its normal damage.
+
+++ Improved Energy Leap
+
+Prerequisites: Energy Leap talent, Explosive Orb Talent
+
+Benefit: When you end your movement when using the Energy Leap Talent, you may choose to also deal your destructive blast damage in a burst centered on your square with a 5 ft radius, + 5 ft per 10 caster levels. Creatures that take damage from your Energy Leap do not suffer additional damage from the burst.
+
+++ Improved Energy Wall
+
+Prerequisites: Energy Wall talent
+
+Benefit: You may spend an additional spell point when using the Energy Wall blast shape. The wall now grants concealment from creatures on the other side and any non-magical arrows or bolts passing through the wall are destroyed and other non-magical projectiles suffer a -2 penalty to their attack roll.
+
+At caster level 9th the wall can also affect weapons with a +1 enhancement bonus, increasing by +1 for every 3 caster levels thereafter. Unusually massive ranged weapons (such as boulders or ballista bolts) and ranged attacks generated by natural attacks or spell effects are not affected by this ability.
+
+//Special:// If you apply a blast type talent that ignores hardness and deals full damage to objects, such as shattering blast or disintegrate, treat the wall’s caster level as 3 higher for determining the effects of this feat.
+
+++ Improved Favored Element
+
+Prerequisites: Two favored elements
+
+Benefit: Your second and third favored elements receive the same damage bonus as your first favored element.
+
+++ Improved Rebuff
+
+Prerequisites: Rebuff talent
+
+Benefit: Whenever a creature within range is the target of a ranged attack, you may spend a spell point as an immediate action to target the projectile with a destructive blast. Make an opposed attack roll using your caster level in place of your base attack bonus to destroy the projectile and negate the attack. Unusually massive projectiles (such as boulders or ballista bolts) and ranged attacks generated by natural attacks or spell effects are not affected by this ability.
 
 ++ Lingering Link
 
@@ -283,11 +429,35 @@ Prerequisites: Forbidden lore class feature, Death sphere.
 
 Benefit: Add your forbidden lore bonus to your caster level when determining the number of undead creatures you may control at any one time through the Death sphere.
 
+++ Material Infusion
+
+Prerequisites: Metal Geomancing or Creation sphere, Destruction sphere
+
+Benefit: When using a destructive blast that deals bludgeoning, piercing, or slashing damage, you may choose to have the blast count as cold iron or silver. At 15th caster level you may also choose adamantine. If other relevant materials exist in your campaign, the GM may determine at what level this talent applies to them.
+
+++ Melee Blaster
+
+Prerequisites: Destruction sphere, Combat Casting
+
+Benefit: When using a destructive blast as (or as part of) a melee attack or melee touch attack, your destructive blast does not provoke attacks of opportunity.
+
 ++ Mind Opener
 
 Prerequisites: Psionics class feature, battlefield relay psionic effect.
 
 Benefit: Increase the save DC of your battlefield relay psionic effect by +2.
+
+++ Mind Wrack (Admixture)
+
+Prerequisites: Mind sphere, Destruction sphere, Admixture talent
+
+Benefit: When using the Admixture talent, you may spend an additional spell point to have a single creature that takes damage be targeted by a Charm that you possess. If you possess the Group Charm talent, you may apply the Charm to all targets damaged, up to your maximum number of targets from Group Charm.
+
+++ Morphic Admixture (Admixture)
+
+Prerequisites: Alteration sphere, Destruction sphere, Admixture talent
+
+Benefit: When using the Admixture talent, you may spend an additional spell point to have a single creature that takes damage save against a hostile shapeshift. If you possess the Mass Alteration talent, you may apply the hostile shapeshift to all targets damaged, up to your maximum targets from Mass Alteration.
 
 ++ Mounted Magician
 
@@ -301,6 +471,12 @@ Prerequisites: Occult Knowledge class feature, Spellcraft, Use Magic Device, or 
 
 Benefit: You may take 10 with any Knowledge, Spellcraft, or Use Magic Device check, regardless of stress or other situations where taking 10 would otherwise be impossible.
 
+++ Orb Expert
+
+Prerequisites: Destruction sphere, Explosive Orb talent
+
+Benefit: Your treat your caster level as 2 higher when determining the range, burst radius, and save DC of the Explosive Orb blast shape. Additionally, you may use this shape without expending a spell point by reducing the diameter of the burst to 5 ft, + 5 ft per 10 caster levels.
+
 ++ Perceptive Psionics
 
 Prerequisites: Psionics class feature, battlefield relay psionic effect, Perception 7 ranks, Sense Motive 7 ranks.
@@ -310,6 +486,18 @@ Benefit: You may read a target’s subtle movements, even if you cannot read the
 Your battlefield relay persists at half strength for as long as it is maintained. If you wish to attempt your battlefield relay again, you must cease your battlefield relay and use it again.
 
 You may even target creatures with your battlefield relay that are usually immune to mind-affecting abilities. These targets needn’t make a Will save, and the bonuses are always divided by 2 against them.
+
+++ Perpetual Sphere
+
+Prerequisites: Destruction sphere, Energy Sphere talent
+
+Benefits: Whenever you successfully deal damage to a target with your energy sphere, increase its duration by 1 round. You can only extend the sphere’s duration by up to a number of rounds equal to your caster level.
+
+++ Reach Blade
+
+Prerequisites: Destructive Blade class feature
+
+Benefit: Your Destructive Blade may be shaped with the reach property. This property can be added or removed each time you shape the blade.
 
 ++ Ritual Caster
 
@@ -329,6 +517,18 @@ Prerequisite: Shadowmark class feature.
 
 Benefit: When using your shadowmark, you may spend an extra shadow point to change the effect from a ranged touch attack into a Close-ranged cone. All creatures within this area are allowed a Reflex save for half damage. If they succeed at this Reflex save, they do not suffer the penalty to Will saves.
 
+++ Soulfire
+
+Prerequisites: Destruction sphere, 5th caster level or higher
+
+Benefit: You may accept 2 or more points of Constitution burn as a free action. Doing so grants 1 temporary spell point per 2 points of burn that expires at the end of your turn. Half the damage of any destructive blast these temporary spell points are spent on becomes untyped damage and the blast bypasses spell resistance. The number of spell points granted per 2 points of burn increases by +1 every ten character levels. You cannot use this ability if doing so would reduce your constitution to 0.
+
+++ Space-rending Admixture (Admixture)
+
+Prerequisites: Warp sphere, Destruction sphere, Admixture talent
+
+Benefit: When using the Admixture talent, you may spend an additional spell point to have a single creature that takes damage targeted by Unwilling Teleport. If you possess the Group Teleport talent, you may apply the Unwilling Teleport effect to all targets damaged, up to your maximum targets from Group Teleport.
+
 ++ Superior Rebuff
 
 Prerequisites: Destruction sphere, Rebuff, Improved Evasion.
@@ -347,14 +547,46 @@ Prerequisite: Casting class feature.
 
 Benefit: Choose a sphere. You gain a +1 bonus to saving throw DCs for all abilities from that sphere. You may take this feat multiple times. The effects do not stack. each time it is gained, apply this benefit to a different sphere.
 
+++ Telekinetic Admixture (Admixture)
+
+Prerequisites: Telekinesis sphere, Destruction sphere, Admixture talent
+
+Benefit: When using the Admixture talent, you may spend an additional spell point to lift a creature that takes damage as per Hostile Lift. If you possess the Divided Mind talent, you may lift any number of creatures damaged by the blast that do not exceed your lift limit. Maintaining the hostile lift requires concentration as normal.
+
+++ Tether Adept
+
+Prerequisites: Destruction sphere, Energy Tether talent
+
+Benefit: When using the Energy Tether blast shape, instead of targeting a creature, you can anchor it to a solid surface within its range such as a wall or ceiling (but not floor) as a standard action. Once the tether is anchored, you may, as a move action, attempt to move to any other legal square within the tether’s reach (as determined from the anchor point) without provoking an attack of opportunity, regardless of your normal move speed, by making an Acrobatics check and comparing the result to the CMD of each creature adjacent to the start and destination points; success on this check allows you to complete the movement, and failure causes you to fall prone in a square adjacent to the creature whose CMD you failed to beat. This movement can include squares on elevated or recessed surfaces, or even walls. If you have a climb speed, you may even end this movement on a wall or ceiling. You must have a clear path towards the destination (this ability does not allow you to pass through solid obstacles or opponents, though it may allow you to circumvent an enemy if you have a clear path around them within the tether’s reach). You must have a free hand to use this ability. Blast types that carry a spell point cost do not incur that cost when using this feat. The anchoring object receives no damage nor other effects of your destructive blast.^^*^^
+
+^^*^^ OGL reference for Akashic Mysteries as wording from lashing spinnerets veil borrowed.
+
+++ Time-thief’s Admixture (Admixture)
+
+Prerequisites: Time sphere, Destruction sphere, Admixture talent
+
+Benefit: When using the Admixture talent, you may spend an additional spell point to have a single creature that takes damage targeted by an Alter Time talent that you possess. If you possess the Group Time talent, you may apply the Alter Time effect to all targets damaged, up to your maximum targets from Group Time.
+
 ++ Trance
 
 Prerequisite: Emotion class feature.
 
 Benefit: You may apply any emotion power with ‘touch’ in the name to yourself as a move action instead of a standard action. Doing so does not provoke an attack of opportunity.
 
+++ Umbral Admixture (Admixture)
+
+Prerequisites: Dark sphere, Destruction sphere, Admixture talent
+
+Benefit: When using the Admixture talent, you may spend an additional spell point to center a Darkness effect on the target’s square or another affected square.
+
 ++ Wand Wielder
 
 Prerequisite: 10th caster level or higher.
 
 Benefit: When wielding a wand, use your caster level in place of the wand’s caster level (if it is higher) when calculating its abilities.
+
+++ Warp Burst
+
+Prerequisites: Destruction sphere, Explosive Orb talent, Warp sphere
+
+Benefit: When teleporting yourself, you may increase the casting time by one step and spend a spell point to target your destination square with a destructive blast with the explosive orb blast shape, paying additional costs for the blast as normal. You must have line of sight and line of effect to the target square unless you possess the Unseeing Teleport talent. You may exclude your destination square from this effect.
