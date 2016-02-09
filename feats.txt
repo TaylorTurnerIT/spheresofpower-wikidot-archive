@@ -16,6 +16,13 @@ The following metamagic feats may all be applied to an appropriate sphere effect
 
 If the effect of a metamagic feat is determined by spell level, treat the sphere effect’s caster level/2 as its effective spell level.
 
+++Protokinesis Feats
+Protokinesis feats represent innate telekinetic abilities, powers usable with minimal thought and effort in contrast to the magic of the telekinesis sphere. They often develop unintentionally, without need for training or even awareness of them.
+
+Unless noted otherwise, the benefit granted by any protokinesis feat is a spell-like ability with a caster level equal to your character level. In addition, protokinesis feats do not function when you are unconscious.
+
+The effects of protokinesis feats last indefinitely unless otherwise noted, though they may be dismissed as a free action, or restarted as a standard action if they have been dispelled or dismissed.
+
 + New Feats
 
 ++ Advanced Magical Training
@@ -186,6 +193,12 @@ Prerequisites: Counterspell, 7th caster level or higher.
 
 Benefit: You may perform a counterspell as an immediate action by spending an additional spell point. You may only use a counterspell in this fashion when using it to counter an effect while it is being cast i.e., you cannot use this ability to dispel effects already in place or suppress magic items. You gain a +2 bonus to MSB checks made when using the Counterspell feat.
 
+++ Counterweight (Protokinesis)
+
+Prerequisites: Acrobatics 3 ranks, Telekinesis Sphere
+
+Benefit: By applying your telekinetic powers to your own body you can stand on surfaces that could not normally support your weight, allowing you to balance on a single thread or walk across liquid, though you must still make Acrobatics checks to balance on narrow or difficult surfaces. You cannot walk on normal gaseous substances such as air or clouds, though you could balance on a solid fog spell. In addition, you may add your casting ability modifier as a bonus to Acrobatics checks.
+
 ++ Craft Rituals (Item Creation feat)
 
 Prerequisite: 3rd caster level or higher.
@@ -234,6 +247,12 @@ Prerequisites: Enhancement sphere, Destruction sphere, Admixture talent
 
 Benefit: When using the Admixture talent, you may spend an additional spell point to have a single creature that takes damage be targeted by an Enhancement effect that you possess. If you possess the Mass Enhancement talent, you may apply the Enhancement to any targets damaged, up to your maximum targets from Mass Enhancement. This ability can only target creatures, it cannot be used to animate objects.
 
+++ Enhancing Telekinesis
+
+Prerequisites: Enhancement Sphere, Telekinesis Sphere
+
+Benefit: When you lift an object with your telekinesis, as part of the same action you may enhance it with one enhancement you possess. You may concentrate on lifting and enhancing the item with a single action. Only a single object can benefit from this combination, even if you can enhance or lift more than one at a time.
+
 ++ Extra Arsenal Trick
 
 Prerequisite: Arsenal Trick class feature.
@@ -245,6 +264,12 @@ Benefit: Gain an arsenal trick for which you meet the prerequisites. You may tak
 Prerequisite: Bestial Trait class feature.
 
 Benefit: Gain an additional bestial trait for which you meet the prerequisites. You may take this feat multiple times. The effects stack.
+
+++ Extra Electrokinetic Stunt
+
+Prerequisites: Electrokinetic Stunt class feature
+
+Benefit: You gain an additional electrokinetic stunt for which you qualify. You may take this feat multiple times. The effects stack.
 
 ++ Extra Emotion
 
@@ -300,6 +325,18 @@ Prerequisite: Spell Pool.
 
 Benefit: Your spell pool total increases by 2. You may gain this feat multiple times. The effects stack.
 
+++ Extra Unseen Augmentation
+
+Prerequisites: Unseen Forces class feature
+
+Benefit: You gain an additional unseen augmentation for which you qualify. You may take this feat multiple times. The effects stack.
+
+++ Extradimensional Assembly
+
+Prerequisites: Telekinesis Sphere, Warp Sphere, Extra dimensional Storage, Whirlwind Assembly
+
+Benefit: When you use your Whirlwind Assembly talent you may access and swap items in and out of your Extradimensional Storage freely, without the need to use a second action or spend a spell point.
+
 ++ Fan the Flame
 
 Prerequisites: Destruction sphere, Fire Blast talent, Nature sphere (fire geomancing), 3rd caster level or higher
@@ -318,6 +355,12 @@ Prerequisite: Nature Sphere, Earth Geomancing and Plantlife Geomancing.
 
 Benefit: Earth and Plantlife Geomancing lasts 2 additional rounds after you end concentration.
 
+++ Floating Panoply
+
+Prerequisites: Caster level 7th, Enhancing Telekinesis, Divided Mind, Mass Enhancement
+
+Benefit: When you use the Enhancing Telekinesis feat, you may spend a spell point to enhance every item you lift with Divided Mind, following the restrictions of Mass Enhancement.
+
 ++ Focused Blast Type Group
 
 Prerequisites: Destruction sphere
@@ -329,6 +372,12 @@ Benefit: Choose one blast type group. Treat your caster level as 5 higher for th
 Prerequisites: Deceitful, Iron Will, Bluff 7 ranks, Disguise 7 ranks
 
 Benefit: When you succeed at a Will saving throw made against any magical effect, the caster of that effect does not automatically know you have succeeded at your saving throw. This allows you to attempt a Bluff check against their Sense Motive check to convince them that you failed your saving throw and are under the effects of the magic. You can choose to allow supplementary effects of the magic (such as the telepathic link provided by the dominate person spell or the Dominate advanced Mind talent) to function as if you had failed your saving throw, to aid in the deception. You may dismiss the supplementary effect early as a standard action.
+
+++ Force Shield (Protokinesis)
+
+Prerequisites: Telekinesis Sphere
+
+Benefit: By forming a thin field of telekinetic force with your hand as a swift action you can gain a +2 shield bonus to your armor class. Unlike an actual shield it imposes no spell failure or armor check penalty and does not count as wielding a shield for the purposes of class features and other effects. You must keep at least one hand free to maintain your force shield.
 
 ++ Formulae Geomancing
 
@@ -347,6 +396,12 @@ Benefit: When using a destructive blast shape that allows a Reflex save with a b
 Prerequisites: Death sphere, Destruction sphere, Admixture talent
 
 Benefit: When using the admixture talent, you may spend an additional spell point to affect one target damaged by the blast with an Ghost Strike effect you know, in place of a second blast type. If you possess the Greater Ghost Strike talent, you may pay an additional spell point to apply the Ghost Strike to all targets damaged.
+
+++ Gravitic Anomaly (Protokinesis)
+
+Prerequisites: Telekinesis Sphere, Counterweight
+
+Benefit: Due to your control over your personal gravity, you can move on walls and ceilings and other surfaces as if they were the ground. If you are tripped or fall prone, the area’s normal gravity reasserts itself and you fall to the ground, taking falling damage as appropriate for your distance above the ground.
 
 ++ Greater Channel Destruction
 
@@ -429,6 +484,20 @@ Prerequisites: Rebuff talent
 
 Benefit: Whenever a creature within range is the target of a ranged attack, you may spend a spell point as an immediate action to target the projectile with a destructive blast. Make an opposed attack roll using your caster level in place of your base attack bonus to destroy the projectile and negate the attack. Unusually massive projectiles (such as boulders or ballista bolts) and ranged attacks generated by natural attacks or spell effects are not affected by this ability.
 
+++ Kinetic Creation
+
+Prerequisites: Caster level 7th, Creation Sphere, Telekinesis Sphere
+
+Benefit: You can create items out of telekinetic force instead of matter. Objects made this way cannot incorporate any other materials and must be simple in construction, lacking intricate details or complex moving parts. This ‘material’ has hardness 10 and 3 hit points per inch, but at the end of each round its hit points are fully replenished. Unlike other created objects, objects of telekinetic force are magical and can be dispelled, which also destroys them.
+
+//Special:// Telekinetic force made with the Create Materials advanced talent reforms itself over the course of an hour if destroyed or dispelled.
+
+++ Kinetic Drift (Protokinesis)
+
+Prerequisites: Character level 5th, Telekinesis Sphere, Counterweight
+
+Benefit: You can float above the ground instead of walking. You can hover up to 1 ft above the ground, allowing you to ignore difficult terrain. When falling you may choose to descend at a slower rate to control your fall and to negate all falling damage you would take. Each round you descend 30 ft, and may move in another direction for 30 ft. You may choose to drift sideways, gliding forwards while descending, or down, safely increasing your rate of descent. You may even choose to drift ‘upwards’ to reduce your rate of descent, even allowing you to negate it entirely and hover midair.
+
 ++ Lingering Link
 
 Prerequisites: Psionics class feature, mind link psionic effect.
@@ -476,6 +545,18 @@ Benefit: When using a destructive blast that deals bludgeoning, piercing, or sla
 Prerequisites: Destruction sphere, Combat Casting
 
 Benefit: When using a destructive blast as (or as part of) a melee attack or melee touch attack, your destructive blast does not provoke attacks of opportunity.
+
+++ Mind Against Body
+
+Prerequisites: Telekinesis Sphere, Telekinetic Maneuver
+
+Benefit: Rather than using your body to fight off more capable opponents, you employ your mind, fighting back with your full telekinetic power. You may substitute 10 + your caster level + your casting ability modifier for your CMD when you are defending against a combat maneuver.
+
+++ Mind Limb (Protokinesis)
+
+Prerequisites: Telekinesis Sphere
+
+Benefit: Your telekinetic powers give you an additional arm made of telekinetic force. Your telekinetic limb functions much as a normal arm can, but to an extent can also act independently. As a swift action you can use it to draw a sheathed or hidden weapon, ready a shield, retrieve a stored item, load a crossbow, open a door, pick up an unattended item, sheathe or store an item, or take other non-offensive actions involving manipulating objects. Your telekinetic limb cannot effectively wield weapons or shields or activate magic items, but can pass such items to another hand as part of any other action it takes.
 
 ++ Mind Opener
 
@@ -529,6 +610,12 @@ Prerequisites: Destruction sphere, Energy Sphere talent
 
 Benefits: Whenever you successfully deal damage to a target with your energy sphere, increase its duration by 1 round. You can only extend the sphere’s duration by up to a number of rounds equal to your caster level.
 
+++ Piecemeal Animation
+
+Prerequisites: Death Sphere, Telekinesis Sphere, Divided Mind
+
+Benefit: When you reanimate a dead body, it does not need to be intact. So long as at least half the body remains you can animate it as if it was intact, stitching its broken form together with telekinetic forces that keep it upright and stable. You may even work with worse material than this, merging smaller pieces of different bodies and animating them as single whole so long as you have enough material and all pieces come from the same kind of creature.
+
 ++ Reach Blade
 
 Prerequisites: Destructive Blade class feature
@@ -552,6 +639,12 @@ Benefit: You may use your MSB in place of your caster level when using rituals.
 Prerequisite: Shadowmark class feature.
 
 Benefit: When using your shadowmark, you may spend an extra shadow point to change the effect from a ranged touch attack into a Close-ranged cone. All creatures within this area are allowed a Reflex save for half damage. If they succeed at this Reflex save, they do not suffer the penalty to Will saves.
+
+++ Skillful Force
+
+Prerequisites: Telekinesis Sphere, Finesse, Telekinetic Tools
+
+Benefit: When using your telekinesis to perform skill checks as described in Finesse you do not suffer the normal -5 skill check penalty. In addition, tools you mimic with Telekinetic Tools are effectively masterwork and grant a +2 circumstance bonus on related checks.
 
 ++ Smolder Resin
 
@@ -595,11 +688,31 @@ Prerequisite: Casting class feature.
 
 Benefit: Choose a sphere. You gain a +1 bonus to saving throw DCs for all abilities from that sphere. You may take this feat multiple times. The effects do not stack. each time it is gained, apply this benefit to a different sphere.
 
+++ Tactile Illusion
+
+Prerequisites: Illusion Sphere, Telekinesis Sphere, Illusory Touch (twice), Finesse
+
+Benefit: By weaving your illusions together with a hint of telekinetic force you can allow them to exert force more appropriate to their apparent nature. Your illusions can support weight or block movement of creatures or objects so long as all pressure and weight on it falls within the size limit of your telekinesis. However, anyone who disbelieves the illusion may choose to ignore the telekinetic effect, moving through the illusion as normal, as well as allowing them throw or move items through it.
+
+In addition, you may deal lethal damage with your illusions instead of nonlethal damage.
+
 ++ Telekinetic Admixture (Admixture)
 
 Prerequisites: Telekinesis sphere, Destruction sphere, Admixture talent
 
 Benefit: When using the Admixture talent, you may spend an additional spell point to lift a creature that takes damage as per Hostile Lift. If you possess the Divided Mind talent, you may lift any number of creatures damaged by the blast that do not exceed your lift limit. Maintaining the hostile lift requires concentration as normal.
+
+++ Telekinetic Exoskeleton (Protokinesis)
+
+Prerequisites: Character level 3rd, Telekinesis Sphere
+
+Benefit: With your telekinesis you can supplement your physical skills. As a swift action you can give yourself one of the following benefits:
+
+* Tactile Telekinesis: You add your casting ability modifier as a bonus to Strength checks, and Climb and Swim checks.
+* Dampening Field: You gain temporary hit points equal to your casting ability modifier. They do not stack with themselves or other temporary hit points.
+* Propelling Force: You gain a +10 ft enhancement bonus to your movement speeds.
+
+These benefits lasts indefinitely. If you activate one of these benefits while a previous benefit is still in effect, the first benefit ends immediately.
 
 ++ Tether Adept
 
@@ -614,6 +727,14 @@ Benefit: When using the Energy Tether blast shape, instead of targeting a creatu
 Prerequisites: Time sphere, Destruction sphere, Admixture talent
 
 Benefit: When using the Admixture talent, you may spend an additional spell point to have a single creature that takes damage targeted by an Alter Time talent that you possess. If you possess the Group Time talent, you may apply the Alter Time effect to all targets damaged, up to your maximum targets from Group Time.
+
+++ Touchsense (Protokinesis)
+
+Prerequisites: Perception 5 ranks, Telekinesis Sphere
+
+Benefit: You can use your telekinesis to sense your surroundings, passively measuring vibrations in the ground. You gain tremorsense with a 15 ft range.
+
+//Special:// If you possess the Kinetic Sense talent, add 15 ft to the range of the tremorsense it provides.
 
 ++ Trance
 
