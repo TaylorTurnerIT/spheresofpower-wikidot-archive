@@ -224,7 +224,7 @@ If you possess the Weather sphere, you may divine the weather at your location f
 
 Some talents are marked (divine). These talents give you additional things you may divine for other than magical auras. Only one such talent can be applied to an individual use of divine.
 
-++ Additional Notes
+++ Additional Rules
 
 **No action:** While the divine ability specifies no other action can be taken, this applies specifically to full-round actions, standard actions, move actions, swift actions, and immediate actions. Free actions are still usable.
 
@@ -244,6 +244,22 @@ Some talents are marked (sense). These talents grant you additional senses you m
 
 + Divination Talents
 
+++ Augury (divine)
+You may spend a spell point to divine whether a particular action will bring good or bad results for you in the immediate future.
+
+The base chance for receiving a meaningful reply is 70% + 1% per caster level, to a maximum of 90%; this roll is made secretly.
+
+A question may be so straightforward that a successful result is automatic, or so vague as to have no chance of success. If the augury succeeds, you get one of four results:
+
+* Weal (if the action will probably bring good results).
+* Woe (for bad results).
+* Weal and woe (for both).
+* Nothing (for actions that don’t have especially good or bad results).
+
+If the check fails, you get the “nothing” result. A caster who gets the “nothing” result has no way to tell whether it was the consequence of a failed or successful augury.
+
+The augury can see into the future up to one hour per caster level, so anything that might happen after that does not affect the result. Thus, the result might not take into account the long-term consequences of a contemplated action. All auguries cast by the same person, in the same day about the same topic, use the same die result as the first casting.
+
 ++ Battlefield Sense (sense)
 You may spend a spell point to grant yourself greater perception. You can no longer be flanked, except by a creature with 4 more rogue levels than your caster level.
 
@@ -256,6 +272,40 @@ You may spend a spell point to detect the scryings of others. Any attempt to scr
 ++ Detect Secrets (divine)
 You may spend a spell point to divine for things expressly designed to be hidden. This includes secret doors, hidden caches, and secret compartments. Not only does this detect the presence of such secrets, but it also gives you knowledge of their trigger mechanisms. This only detects doors, passages, and openings specifically designed to avoid detection.
 
+++ Detect Spellcaster (divine)
+You may spend a spell point to divine the spellcasting capabilities of a creature you can see within range, utilizing the chart below. Targeted individuals who only have extraordinary and supernatural abilities show up as having no spellcasting aura, whereas those who have sphere casting, spells, or spell-like abilities show an aura depending on the highest effective spell level of an ability they can use. As always, treat a spherecaster’s caster level divided by 2 as their effective spell level.
+
+You may spend an additional spell point to upgrade this ability to learn additional information about those within range such as type of spellcasting such as arcane, divine, psychic, etc. (creatures with innate spellcasting, such a dragons show up as racial spellcasting). If the target includes spherecasters with named casting traditions (i.e. Divine Petitioner, Druidic, or Traditional Magic), you gain that knowledge as well.
+
+Multiclass core spellcasting classes only reveal as the highest aura between the two. Spherecasters with varying caster levels depending on spheres show auras according to their current highest sphere casting ability. If you are participating in a setting with other forms of magic or spellcasting systems, they are detected as appropriate.
+
+**Detect Spellcaster**
+||~ Class Example ||~ Highest Effective Spell Level ||~ Aura Strength || 
+|| Core Human Fighter || Only natural, (Ex), or (Su) abilities || None || 
+|| Armorist (CL 1) || Level 0-1 spells || Dim || 
+|| Hedgewitch (CL 5) || Level 2-3 spells || Faint || 
+|| Mageknight (CL 10) || Level 4-5 spells || Moderate || 
+|| Eliciter (CL 14) || Level 6-7 spells || Strong || 
+|| Fey Adept (CL 18) || Level 8 or higher spells || Overwhelming || 
+
+++ Detect Teleportation (divine)
+You may divine the general direction and distance where a creature you saw has teleported in the last 10 minutes, +1 minute per caster level. If the creature teleports to a different plane, you immediately learn this, but you do not learn to what plane the creature teleported.
+
+++ Detect Thoughts (divine)
+You may divine the emotions of creatures you can see within range (Will save negates), you also gain a circumstance to Sense Motive checks equal to 1/2 your caster level. You do not know the motivation or source behind why a creature is feeling the emotion. If a creature’s emotion changes while they are within range during Detect Thoughts, you immediately know. If you spend an additional spell point, you divine not only the emotions of those within range, but also the surface thoughts (Will save negates). For a list of emotions, refer to the [[[eliciter]]] class.
+
+||~ Sample Emotions ||
+|| Anger || 
+|| Fear || 
+|| Joy || 
+|| Sadness || 
+|| Disgust || 
+|| Shame || 
+|| Love || 
+
+++ Discern Individual (sense)
+You may spend a spell point to gain a sense granting an insight bonus to Monster Lore checks equal to 1/2 your caster level (minimum 1). You may make Monster Lore checks untrained.
+
 ++ Divine Future (divine)
 You may divine for a glimpse of the future, giving yourself insight into the happenings of that day. At any time during that day, you may add an insight bonus equal to 1d4 +1 per 5 caster levels to one attack roll, skill check, saving throw, ability check, or combat maneuver roll you are about to make. It can also apply to initiative rolls. As an immediate action, you may grant this benefit to an ally who can both see and hear you. You can only have one use of this ability waiting to be used at a time. You may take this talent multiple times, to a maximum of 5 times. Every time you gain this talent beyond the first, you may use this ability an additional time during that day. Every time you divine for the future, you regain all your uses of this ability for that day.
 
@@ -265,8 +315,11 @@ You may spend a spell point to divine for information. This grants you the abili
 ++ Dowsing (divine)
 You may spend a spell point to divine the location of a creature or object within range. This may be a specific creature or object or a kind of creature or object, but either way you must have a clear mental image of the creature or object to divine for it (thus, you could not divine broadly for traps, creatures of a broad creature type, etc.). If divining for a kind of creature or object, you only locate the closest item of that kind. This method of using divine is not blocked by wood or stone, but is still blocked by lead.
 
+++ Expanded Divinations
+Pick any three alternate divinations which you do not currently possess. You gain access to those alternate divinations as if you possessed the requisite spheres. If the alternate divination has an additional prerequisite such as the Nature sphere’s Divine Elements, you pick which one you gain access to upon acquiring it. This talent may be taken multiple times, each time you may pick three alternate divinations which you do not possess.
+
 ++ Fast Divinations
-Divining takes 1 minute instead of 10 minutes.
+Divining takes 1 minute instead of 10 minutes (without a spell point). You may take this talent two times decreasing the time it takes to divine down to 1 round instead. This is an alteration of the Fast Divinations talent found in Spheres of Power, pg 28.
 
 ++ Foreshadow (sense)
 You may spend a spell point to gain a sense that warns you of impending danger. You are not flat-footed during the surprise round, and gain a +1 dodge bonus to AC, and a +2 bonus to Reflex saves and Initiative checks. These bonuses increase by 1 for every 10 caster levels possessed.
@@ -280,8 +333,23 @@ You may grant your senses to a touched target instead of only yourself.
 ++ Greater Divine
 Your divine ability works out to Long range instead of Medium range.
 
+++ Lingering Divination
+When you divine, the ability lasts 2 rounds after you stop concentrating.
+
 ++ Logos (sense)
 You may spend a spell point to understand all spoken and written words, regardless of language. You may spend an additional spell point to also be understood by any creature with a language. You do not learn the creature’s language, but instead every creature hears you speak in whatever language is most comfortable for it.
+
+++ Nature Sense (sense)
+You may as a standard action to gain a special sense that grants you a +1 bonus on Knowledge (nature) and Survival checks. This bonus increases by +1 every 5 Caster Levels. You may dismiss this sense at any time as an immediate action to reroll any failed survival check avoiding natural hazards or getting lost, gaining a bonus to the roll equal to that granted by Nature Sense. This stacks with any class features with the same name.
+
+++ Object Reading (divine)
+You may perform psychometry on a target object you touch gaining information about its history or previous owners. In addition to the information you acquire below, you gain a circumstance bonus to appraise checks with that object equal to 1/2 your caster level for as long as you continue to divine the object. For every 1 minute you divine the object you gain one additional piece of information found in the following order: Last owner’s race, last owner’s gender, last owner’s age, last owner’s alignment, how the last owner lost or gained the object. Upon learning this last piece of information, you may spend a spell point, if you do you begin to learn information on the owner before the last at the same rate in the same order. Should object reading be interrupted for 2 or more consecutive rounds, you must start again at the beginning unless you spend 1 spell point per past owner.
+
+++ Prescience (sense)
+You may spend a spell point to gain a special sense granting a +1 insight bonus to attack and combat maneuver rolls. This bonus increases by +1 every 5 caster levels. In addition, you may dismiss this sense before making an attack or combat maneuver to instead gain an insight bonus of 10 + 1/2 your caster level to the roll as a free action.
+
+++ Scent (sense)
+You may spend a spell point to gain the scent sense with a range of 30 ft. You may spend an additional spell point to upgrade this ability to keen scent (except that they both function in or outside of water); While using keen scent, you can notice other creatures by scent at a range of 180 ft and can detect blood at ranges of up to a mile. The ranges of both scent and keen scent half against creatures downwind or downstream of you, and double while upwind or upstream of you.
 
 ++ See Hazard (sense)
 You may spend a spell point to gain a free Perception check to notice traps and hazards when you are within 10 ft of them, be they mechanical (trip wires, dart throwers, etc.) magical (rune spells, sigils, etc.) or natural (quick sand, pit falls, etc.). This does not give you insight into disabling such traps or hazards.
@@ -289,8 +357,30 @@ You may spend a spell point to gain a free Perception check to notice traps and 
 ++ Sense Magic (sense)
 You may spend 2 spell points to grant yourself the ability to sense magic, as if using your basic divine ability as a constant ability, but only to a distance of 30 ft.
 
+++ Sensory Overload
+As a full-round concentration effect, you may spend a spell point and target a creature you can see within range, causing all of its senses (and temporarily granting senses that it does not normally have) to overload with information. Both the caster and creatures under the effect of Sensory Overload cannot take any actions, not even walking, and are considered flat-footed. When first casting Sensory Overload and at the end of each round that you continue to concentrate on the effect, the targeted creature takes your caster level in nonlethal damage (fort save negates), and may attempt to end Sensory Overload with a Will save. Creatures that are mindless are particularly vulnerable to this effect and take a -2 penalty on their saves.
+
+++ Shared Perception (sense)
+You may spend 2 spell points, instead of 1, to grant a special sense to two target creatures within range of touch. The maximum number of targets increase by +1 per 5 caster levels. As long as the targets remain within long range (400 ft + 40 ft per caster level) of each other, the first target shares perception with the second, and vice versa. This grants the targets the ability to see, smell, hear, etc. whatever the other targets do. This sense, while not requiring line of sight, does requires line of effect, and is blocked by dense materials as if it were a divine talent or ability.
+
+++ Sniper’s Eye (sense)
+You may spend a spell point to gain a sense that reduces the distance-based DC adjustment for Perception checks by an amount equal to your caster level. For example, if the DC would normally increase by 10 due to being 100 feet away and you have caster level 3rd, the DC increases only by 7.
+
+While this sense is active, you also reduce environmental- and range increment-based penalties to your ranged attack rolls by an amount equal to half your caster level. This can only ever reduce penalties, and can never grant a bonus.
+
+++ Tremorsense (sense)
+You may spend a spell point to gain the tremorsense ability with a range of 30 ft. You gain sensitivity to vibrations in the ground allowing you to automatically pinpoint the location of anything that is in contact with the ground; or if underwater, you can instead pinpoint the location of creatures moving through the water.
+
 ++ True Sight (sense)
 You may spend a spell point to gain a sense that grants you a bonus equal to 1/2 your caster level (minimum: 1) to all Will saves against illusions.
 
 ++ Viewing (divine)
 You may spend a spell point to divine, transferring your point of view to any point within range. You may see and hear from this location. You do not need line of sight or line of effect, but the locale must be known—a place familiar to you, or an obvious one such as a distance and direction. Once you have selected the locale, the sensor doesn’t move, but you can rotate it in all directions to view the area as desired, in all ways as if you were standing where your sensor is located. This ability creates a scrying sensor, which can be detected (Perception DC 20 + caster level) and dispelled.
+
+++ Widen Sight
+You may increase the range of any sense abilities from a static number such as 30 ft to a range of close (25 ft + 5 ft per 2 CL).
+
+++ Witness the City (divine)
+You may spend a spell point to see, hear, smell, feel, and even taste a torrent of past scenes and pieces of conversations related to anything in a settlement you are currently in. At the end of each of your turns for the duration of this divination, make a single Diplomacy check to gather information as though you had spent 1d4 hours talking to local people, without having to use an action to do so. Multiple Diplomacy checks made to gather information on the same topic always grants the same information as the first check. You can use your Perception bonus in place of your Diplomacy bonus if you so wish. However, you can only make a number of such checks equal to 1/2 your caster level (minimum 1) each time you use this talent.
+
+//Note:// Settlements range in population size from fewer than 20 (thorp) to greater than 25,000 (metropolis). In order to maintain the balance of this talent, it is suggested that when working with particularly large settlements that GMs restrict the use of the talent to districts of the settlement.
