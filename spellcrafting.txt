@@ -38,49 +38,6 @@ A caster may augment a spell by adding more talents to it, through an additional
 + Adjusting Durations
 If your base ability has a duration of concentration and you are adding abilities with a duration of 1 minute per caster level or longer, reduce the spell’s cost by 1 spell point. If your base ability has a duration of 10 minutes per caster level or longer and you are adding abilities with a duration of 1 round per caster level or shorter (including concentration), increase the spell’s cost by 1 spell point and decrease the spell’s duration by one step (1 hour per caster level becomes 10 minutes per caster level, 10 minutes per caster level becomes 1 minute per caster level).
 
-+ Example 1
-
-**Mind Freeze**
-**Sphere** Mind
-**Cost** 3 spell points
-**Casting Time** full-round action
-**Range** Medium (100 ft + 10 ft per caster level)
-**Target** 1 + 1 per 2 caster levels (minimum: 2) creatures
-**Duration** 1 minute/caster level
-**Saving Throw** Will half; **Spell Resistance** yes
-**Prerequisites** Mind sphere (Group Charm, Expanded Charm, Ranged Mind) Destruction sphere (Frost Blast)
-**Crafting Time** 6 days
-**Effect** This is a mind-altering effect. You cause the targets’ minds to freeze up, filling them with the sensation of bitter cold until they can think of little else. Each target suffers 1d6 frost damage per 2 caster levels and becomes staggered and confused for 1 minute per caster level. A successful Will save halves this damage and negates the staggered and confused conditions.
-
-+ Example 2
-
-**Earthsmash**
-**Sphere** Destruction
-**Cost** 3 spell points
-**Casting Time** standard action
-**Range** personal
-**Area** 10 ft radius burst, +5 ft per 5 caster levels
-**Duration** instantaneous
-**Saving Throw** Reflex half; **Spell Resistance** yes
-**Prerequisites** Destruction sphere (Force Blast, Explosive Orb)
-**Crafting Time** 3 days
-**Effect** You throw yourself at the ground, shaking the earth as you land. When you use this ability, you may move up to your speed in a straight line. This movement provokes attacks of opportunity as normal. When you end this movement, all targets within 10 ft of you +5 ft per 5 caster levels suffer 1d6 force damage per caster level and fall prone. A successful Reflex save halves this damage and the creature does not fall prone.
-
-+ Example 3
-
-**Armor of Vines**
-**Sphere** Protection
-**Cost** 2 spell points
-**Casting Time** full-round action
-**Range** Touch
-**Target** 1 creature
-**Area** 5 ft radius, + 5 ft per 5 caster levels
-**Duration** 1 minute/caster level
-**Saving Throw** Will negates (harmless), Reflex negates (see below); **Spell Resistance** yes (harmless)
-**Prerequisites** Protection (Armored Aegis), Nature (plant package, Create Plants)
-**Crafting Time** 4 days
-**Effect** This spell covers the target is a writhing mass of vines, which both defend and attack. The target gains an aegis that grants them a +3 armor bonus, +1 per 5 caster levels. This does not stack with any armor the creature is already wearing. Any time a creature who comes within 5 ft + 5 ft per 5 caster levels of the target, whether by its own movement or when the bearer of the armor of vines moves past it, this armor reaches out a vine in an attempt to bind that creature. Any creature affected in this manner must pass a Reflex save or become entangled. If a creature is entangled in this fashion they cannot move, although they cease to be entangled once the bearer of this aegis moves away from them. Once a target is entangled, they may end this condition through a Strength check or Escape Artist check, as detailed in the entangle ability of the Nature sphere.
-
 + Spellbooks
 If a caster possesses the Craft Spellbook feat, they may write down the spells they know, as well as any spell after it is researched. Writing a spell down in a magic book takes 1 hour per sphere or talent involved in the spell and requires 1 page per sphere or talent involved in the spell.
 
@@ -97,3 +54,164 @@ A caster may attempt to cast a spell from a spellbook without meeting the prereq
 * Spell has delayed effect. Sometime within the next 1d12 hours, the spell activates. If the caster was the intended recipient, the spell takes effect normally. If the user was not the intended recipient, the spell goes off in the general direction of the original recipient or target, up to the spell’s maximum range, if the target has moved away.
 
 Unlike a ritual book, a spellbook is simply a notebook detailing the theory involved in a spell’s creation, and as such, has no cost in magical components to create. Spellbooks have no market value of their own, and while they may be found, they are rarely bought and even more rarely sold.
+
++ Sample Spells
+
+++ Armor of Vines
+**Sphere** Protection
+**Cost** 2 spell points
+**Casting Time** full-round action
+**Range** Touch
+**Target** 1 creature
+**Area** 5 ft radius, + 5 ft per 5 caster levels
+**Duration** 1 minute/caster level
+**Saving Throw** Will negates (harmless), Reflex negates (see below); **Spell Resistance** yes (harmless)
+**Prerequisites** Protection (Armored Aegis), Nature (plant package, Create Plants)
+**Crafting Time** 4 days
+**Effect** This spell covers the target is a writhing mass of vines, which both defend and attack. The target gains an aegis that grants them a +3 armor bonus, +1 per 5 caster levels. This does not stack with any armor the creature is already wearing. Any time a creature who comes within 5 ft + 5 ft per 5 caster levels of the target, whether by its own movement or when the bearer of the armor of vines moves past it, this armor reaches out a vine in an attempt to bind that creature. Any creature affected in this manner must pass a Reflex save or become entangled. If a creature is entangled in this fashion they cannot move, although they cease to be entangled once the bearer of this aegis moves away from them. Once a target is entangled, they may end this condition through a Strength check or Escape Artist check, as detailed in the entangle ability of the Nature sphere.
+
+++ Blessing of Time
+**Sphere** Protection
+**Cost** 2 spell points
+**Casting Time** full-round action
+**Range** touch
+**Target** 1 creature
+**Duration** 10 minutes/caster level
+**Saving Throw** Will negates (harmless); **Spell Resistance** yes (harmless)
+**Prerequisites** Protection sphere, Time sphere (Improved Haste)
+**Crafting Time** 3 days
+**Effect** This spell grants the target an aegis that bestows on them incredible speed. The target gains a +1 bonus to attack rolls, a +30 enhancement bonus to their movement speed (to a maximum of twice the subject’s normal speed), and a +1 dodge bonus to AC and Reflex saves. Whenever the target takes the full-attack action, they may make one additional attack at their highest BAB.
+
+++ Blessing of Time, Greater
+**Sphere** Protection
+**Cost** 3 spell points
+**Casting Time** 1 round
+**Range** Close (25 ft + 5 ft per 2 caster levels)
+**Target** 1 creature + 1 per 2 caster levels (minimum: 2 creatures)
+**Duration** 10 minutes/caster level
+**Saving Throw** Will negates (harmless); **Spell Resistance** yes (harmless)
+**Prerequisites** Protection sphere, Time sphere (Improved Haste, Ranged Time, Group Time)
+**Crafting Time** 5 days
+**Effect** This spell functions as blessing of time, except the aegis is granted to multiple creatures within range.
+
+++ Create Creature
+**Sphere** Creation
+**Cost** 3 spell points
+**Casting Time** full-round action
+**Range** Close (25 ft + 5 ft per 2 caster levels)
+**Duration** 1 hour/caster level
+**Prerequisites** Creation sphere (Fleshcrafting advanced talent, Expanded Materials), Enhancement sphere (Animate Object)
+**Crafting Time** 5 days
+**Effect** This spell creates a living creature that appears as a physical duplicate of a creature within range. You must make a Disguise check to determine the skill of the duplication. While the creature appears to be whatever it was crafted to resemble, in reality it is an animated object under your control and uses the same rules as animated objects from the Enhancement sphere. While the target has a copy of whatever equipment the duplicated creature possesses, this equipment is nonmagical and of unremarkable composition. The maximum size and materials that may be duplicated are dependent on your caster level, as described in the Creation sphere.
+
+++ Earthsmash
+**Sphere** Destruction
+**Cost** 3 spell points
+**Casting Time** standard action
+**Range** personal
+**Area** 10 ft radius burst, +5 ft per 5 caster levels
+**Duration** instantaneous
+**Saving Throw** Reflex half; **Spell Resistance** yes
+**Prerequisites** Destruction sphere (Force Blast, Explosive Orb)
+**Crafting Time** 3 days
+**Effect** You throw yourself at the ground, shaking the earth as you land. When you use this ability, you may move up to your speed in a straight line. This movement provokes attacks of opportunity as normal. When you end this movement, all targets within 10 ft of you +5 ft per 5 caster levels suffer 1d6 force damage per caster level and fall prone. A successful Reflex save halves this damage and the creature does not fall prone.
+
+++ Embrace of Flame
+**Sphere** Nature
+**Cost** 2 spell points
+**Casting Time** 1 round
+**Range** Touch
+**Target** you + 1 creature per 2 caster levels (minimum: 1)
+**Duration** 1 minute/caster level
+**Saving Throw** Will negates (harmless); Spell Resistance yes (harmless)
+**Prerequisites** Nature sphere (Fire package, Feed on Fire), Fate (Echoing Word)
+**Crafting Time** 5 days
+**Effect** All creatures to be affected must be adjacent to you, or joining hands in a circle when this spell is cast. For 1 minute per caster level, every affected target gains fire resistance equal to your caster level. Whenever a target takes damage from fire, they are healed an amount equal to 1/2 the fire damage dealt, to a maximum amount equal to 1/2 the fire resistance granted by this spell (minimum: 1). Damage dealt in excess of this amount is handled normally.
+
+++ Golem Prison
+**Sphere** Creation
+**Cost** 3 spell points
+**Casting Time** full-round action
+**Range** Close (25 ft + 5 ft per 2 caster levels)
+**Target** one creature
+**Duration** concentration
+**Saving Throw** Reflex negates; **Spell Resistance** no
+**Prerequisites** Creation (Expanded Materials, Distant Creation), Enhancement (Animate Object)
+**Crafting Time** 5 days
+**Effect** This spell encapsulates the target’s body in a golem. The golem’s maximum size and possible material composition is based on your caster level, as detailed in the Creation sphere. If the target is unwilling, they are allowed a Reflex save to avoid being encapsulated, in which case the golem still appears but in an adjacent space.
+
+The golem created by this spell is an animated object (see animated objects in the Appendix) and acts as you direct for as long as you concentrate. If you are inside this golem, an attack to the golem is not enough to force you to make a concentration check. If the target inside the golem is unwilling, they may generally act normally but may only target something inside the golem or the golem itself with their attacks or magic abilities. The creature to be trapped must be at least 1 size category smaller than the golem itself.
+
+++ Inferno
+**Sphere** Destruction
+**Cost** 3 spell points
+**Casting Time** full-round action
+**Range** Medium (100 ft + 10 ft per caster level)
+**Area** 10 ft radius sphere, + 5 ft per 5 caster levels
+**Duration** concentration
+**Saving Throw** Reflex half; **Spell Resistance** yes
+**Prerequisites** Destruction sphere (Fire Blast, Explosive Orb, Extended Range), Nature sphere (Fire package, Move Fire)
+**Crafting Time** 6 days
+**Effect** This spell creates a powerful, spherical explosion of fire, dealing 1d6 fire damage per caster level to everything within the area and setting it on fire. A successful Reflex save halves the damage and negates catching fire.
+
+Every round, you may move this sphere up to 30 ft in any direction, including into the air. The sphere deals damage to everything it passes over, but no more than once per round. If a creature enters the area occupied by this sphere, they immediately suffer damage and risk catching fire.
+
+The flaming sphere must remain within Medium range of the caster at all times, or it immediately vanishes, ending the spell.
+
+++ Mind Freeze
+**Sphere** Mind
+**Cost** 3 spell points
+**Casting Time** full-round action
+**Range** Medium (100 ft + 10 ft per caster level)
+**Target** 1 + 1 per 2 caster levels (minimum: 2) creatures
+**Duration** 1 minute/caster level
+**Saving Throw** Will half; **Spell Resistance** yes
+**Prerequisites** Mind sphere (Group Charm, Expanded Charm, Ranged Mind) Destruction sphere (Frost Blast)
+**Crafting Time** 6 days
+**Effect** This is a mind-altering effect. You cause the targets’ minds to freeze up, filling them with the sensation of bitter cold until they can think of little else. Each target suffers 1d6 frost damage per 2 caster levels and becomes staggered and confused for 1 minute per caster level. A successful Will save halves this damage and negates the staggered and confused conditions.
+
+++ Minor Protection
+**Sphere** Protection
+**Cost** 0 spell points
+**Casting Time** standard action
+**Range** touch
+**Target** one creature
+**Duration** concentration
+**Saving Throw** Will negates (harmless); **Spell Resistance** yes (harmless)
+**Prerequisites** Protection sphere
+**Crafting Time** 1 day
+**Effect** The target gains an aegis, granting him a +1 Deflection bonus to AC for as long as you concentrate. This bonus increases by 1 for every 5 caster levels possessed.
+
+++ Shatter Mind and Body
+**Sphere** Destruction
+**Cost** 1 spell point
+**Casting Time** full-round action
+**Range** Close (25 ft + 5 ft per 2 caster levels)
+**Target** one creature
+**Duration** instantaneous
+**Saving Throw** Will (partial), Fortitude (partial); **Spell Resistance** yes
+**Prerequisites** Destruction sphere (Frost Blast, Nether blast)
+**Crafting Time** 3 days
+**Effect** This spell creates a ball of swirling energy that the caster hurls as a ranged touch attack. The target suffers 1d6 points of damage per caster level, half of which is frost damage, the other half negative energy. If the target is struck, they must make both a Fortitude save and a Will save. If the target fails their Fortitude saving throw, they are staggered for 1 round. If the target fails their Will save, they are shaken for 1 round. If the target is undead, they do not suffer the negative energy damage and instead must make a Will save or be frightened for 1 round.
+
+++ Violent Winds
+**Sphere** Destruction
+**Cost** 2 spell points
+**Casting Time** full-round action
+**Range** Close (25 ft + 5 ft per 2 caster levels)
+**Target** 1 + 1 per 2 caster levels (minimum: 2) creatures
+**Duration** instantaneous
+**Prerequisites** Destruction sphere (Air Blast), Fate (Echoing Word)
+**Crafting Time** 4 days
+**Effect** You batter your foes with great bursts of wind. You may make one ranged touch attack against a number of creatures within range, up to 1 + 1 per 2 caster levels (minimum: 2), but no more than one attack per individual creature. Each target successfully struck suffers 1d6 nonlethal damage per caster level, and is subject to a Bull Rush combat maneuver that does not provoke an attack of opportunity, and that doesn’t require you to move with the target. Use your caster level + your casting ability modifier as your CMB for this maneuver.
+
+++ Water Serpent
+**Sphere** Telekinesis
+**Cost** 3 spell points
+**Casting Time** full-round action
+**Range** Close (25 ft + 5 ft per 2 caster levels)
+**Duration** concentration
+**Saving Throw** Reflex partial; **Spell Resistance** no
+**Prerequisites** Telekinesis sphere, Nature sphere (Water package, Wave, Create Water)
+**Crafting Time** 4 days
+**Effect** This spell summons a large serpent-like coil of water which flies around the battlefield, striking targets. The water serpent occupies a 5 ft square, and may fly up to 30 ft per round +5 ft per 2 caster levels with perfect maneuverability. The water serpent can move freely through spaces occupied by creatures, and makes a Bull Rush attempt that does not provoke an attack of opportunity against every creature whose space it passes through. Your CMB for this Bull Rush attempt is equal to your caster level + your casting ability modifier. Each target is pushed in the direction the serpent is traveling at that time. If a creature is successfully pushed by this Bull Rush attempt, they must also pass a Reflex save or fall prone. The water serpent can strike the same target multiple times by moving through its square repeatedly. If a creature moves into the space occupied by a water serpent, they must pass a Reflex save or be subject to the serpent pushing them back with its Bull Rush as normal.
