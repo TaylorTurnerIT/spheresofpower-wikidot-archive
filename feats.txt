@@ -5,6 +5,9 @@ parent:start
 ++ Admixture Feats
 Admixture feats grant new ways to utilize the Admixture talent, adding abilities from other spheres to your destructive blast. All admixture feats replace the second blast talent you would normally apply, with the resulting destructive blast dealing normal blast damage in addition to the effect outlined in the feat. Any additional costs incurred by the additional effect must be paid as normal. If your caster level is different for the two spheres, the destructive blast is governed by your caster level for the relevant blast type and the additional effect is governed by your caster level for the appropriate ability.
 
+++ Drawback Feats
+Drawback feats present a way of taking advantage of a specific drawback in a manner more specific than just gaining extra spell points. At your GM’s option, you may take a drawback feat in place of a boon. An incanter may select drawback feats as bonus feats.
+
 ++ Metamagic Feats
 Applying a metamagic feat to a sphere effect is similar to, but slightly different from, how a spontaneous caster applies a metamagic feat to a spell. A caster may choose to augment their sphere effect with an appropriate metamagic feat at the time of casting. To use a metamagic feat, the caster must spend a number of additional spell points equal to the level increase of the metamagic feat. In addition, the sphere effect’s casting time increases by 1 step. These effects are cumulative for every metamagic feat applied.
 
@@ -23,13 +26,32 @@ Unless noted otherwise, the benefit granted by any protokinesis feat is a spell-
 
 The effects of protokinesis feats last indefinitely unless otherwise noted, though they may be dismissed as a free action, or restarted as a standard action if they have been dispelled or dismissed.
 
+++ Proxy Feats
+Proxy feats represent an enhanced ability to manipulate and take advantage of the Create Proxy enhancement, which by default is granted by the Spell Proxy feat. Unless otherwise stated, these feats only apply to Create Proxy effects that you created yourself, and only affect creatures under the effects of Create Proxy who are within 30 ft. Generally, using a proxy feat immediately ends the Create Proxy effect for that creature. An incanter may select proxy feats as bonus feats.
+
 + New Feats
+
+++ Addictive Power (Drawback)
+
+Prerequisites: Addictive Casting, access to the Enhancement sphere.
+
+Benefit: Your enhancements satisfy your addiction, to a degree; whenever you spend a spell point to relinquish concentration on an enhancement targeting yourself, the time until you begin suffering penalties extends to the end of the enhancement’s duration. In addition, you gain a +1 bonus to all saving throws while you are suffering the penalties from your addiction.
 
 ++ Advanced Magical Training
 
 Prerequisites: Basic Magical Training or 1 level in a casting class.
 
 Benefit: Treat your levels in non-casting classes as low-casting classes when determining your total caster level. If you do not possess levels in a casting class, increase your spell point pool to equal your casting ability modifier. With GM permission, you may also select a casting tradition when you gain this feat.
+
+++ Aligned Object
+
+Prerequisites: Animate Object, must not be True Neutral.
+
+Benefit: Any animated object you create gains the subtypes of your alignment. In addition, you gain access to the following additional ability and flaw:
+
+* Aligned Weapons (Su; 1 CP): The animated object’s slam attacks deal 1d6 additional damage to creatures whose alignment opposes one of the animated object’s alignment subtypes. This ability may be chosen multiple times; its effects stack.
+
+* Heavily Aligned (Su; +1 CP): The animated object’s hardness is bypassed by weapons and effects that are aligned to an alignment that opposes one of the animated object’s alignment subtypes.
 
 ++ Alloy Creation
 
@@ -48,6 +70,12 @@ Benefit: Whenever you use a metal geomancing ability which creates or affects me
 Prerequisite: Telekinesis Sphere, Metal Geomancing.
 
 Benefit: Whenever you use the metal geomancing recover ore ability, you may use telekinesis to bludgeon another target creature or object with the metal ore recovered in this way, all in the same action. If you increase the casting time by 1 step (usually from a standard to full-round action), you may utilize your caster level instead of your base attack bonus for the first attack roll, and add your casting ability modifier to damage.
+
+++ Animated Arsenal
+
+Prerequisites: Animate Object, BAB +1.
+
+Benefit: Whenever you create an animated object out of a weapon, you may change the damage type of one slam attack to either piercing or slashing. If you choose to apply the piercing attack or slashing attack abilities to one of the object’s other slam attacks, you may choose to have it also apply to the slam attack modified through this feat for no additional cost. Finally, the first application of ranged attack only costs 1 CP.
 
 ++ Arcane Empowerment
 
@@ -86,6 +114,12 @@ Benefit: When using blast talents with the air, electrical, or sonic blast type 
 Prerequisite: Int 13.
 
 Benefit: As long as you are last in the initiative count, use your intelligence modifier for attack rolls in place of the ability modifier that you would normally use.
+
+++ Backdoor Control
+
+Prerequisites: Bestow Intelligence, Expanded Charm
+
+Benefit: Whenever you use a charm against a creature or object you used Bestow Intelligence on, requests you make that would normally be against their nature are instead treated as things they wouldn’t normally do. This increased control extends to creatures you create through Bestow Life or Give Magic Life.
 
 ++ Basic Magical Training
 
@@ -127,6 +161,12 @@ Benefit: You can create a variety of small magical effects. These effects are no
 
 You can make up new effects, but they should not be more powerful than those listed above. The GM is the final arbiter of what is or is not a cantrip.
 
+++ Careful Magic (Drawback)
+
+Prerequisites: Extended Casting, access to the Enhancement sphere.
+
+Benefit: Your slow casting style results in more firmly constructed sphere effects. You add your casting ability score modifier as a bonus to your MSD (minimum +1) for the purposes of countering or dispelling your sphere effects. You may spend an additional spell point when enhancing a creature or object to force any creature attempting to dispel or counter that effect to roll twice and take the worse result.
+
 ++ Channel Destruction
 
 Prerequisites: Destruction sphere, Channel Energy class feature
@@ -149,6 +189,12 @@ Prerequisites: Nature Sphere, Earth Geomancing and Water Geomancing.
 
 Benefit: When using either earth geomancing or water geomancing within 30 ft of both land and a substantial body of water, you gain a +2 bonus to your caster level for those geomancing abilities.
 
+++ Complex Animations
+
+Prerequisites: Animate Object.
+
+Benefit: You gain an additional creation point whenever you use Animate Object.
+
 ++ Contingency
 
 Prerequisites: Casting class feature, 10th caster level or higher.
@@ -160,6 +206,16 @@ The conditions needed to activate the effect must be clear, but they can be gene
 In all cases, the contingency causes the sphere effect to manifest instantly when the prescribed circumstances occur. If complicated or convoluted conditions are prescribed, the effect may fail when triggered. The effect occurs based solely on the stated conditions, regardless of whether you want it to. You may only have one contingency active at a time; any previous unused contingency effect is dispelled when a new one is created. A caster always knows when their contingency is triggered, even if they aren’t present. If a contingency is placed on a creature or location, it can be detected and dispelled like any other sphere effect. For this purpose, a contingency is considered a magical trap with a Perception and Disable Device DC equal to 25 + 1/2 the caster level.
 
 If a contingency remains unused when a caster rests to regain spell points, they may choose to dispel the contingency or sustain it, in which case they do not recover the spell points used to create the contingency.
+
+++ Contingency Tampering
+
+Prerequisites: Enhanced Contingency.
+
+Benefits: You gain the following enhancements, which may be used to enhance sphere abilities enhanced by Contingency.
+* Introduce Flexibility: You may spend 1 spell point to enhance a contingency, granting it an additional condition – this additional trigger must be a valid condition, as defined by the Contingency feat. If either condition is met, the contingent sphere ability triggers immediately.
+* Suppress Triggers: You may spend 1 spell point to enhance a contingency, removing its trigger condition for the duration.
+
+You may only target your own contingencies, as well as any other contingencies that you know the trigger condition for.
 
 ++ Counterspell
 
@@ -223,17 +279,41 @@ Prerequisites: Destruction sphere
 
 Benefit: The base critical threat range of your destructive blast increases to 19-20.
 
+++ Defensive Proxies (Proxy)
+
+Prerequisites: Spell Proxy.
+
+Benefit: Whenever you fail a saving throw against a sphere effect, any creature within that is currently under the effects of Create Proxy may spend an immediate action to allow you to reroll your saving throw. Doing so causes Create Proxy to immediately end for that creature.
+
 ++ Delayed Magic (Metamagic feat)
 
 Prerequisite: Spell pool class feature.
 
 Benefit: You delay the effect of a sphere ability for up to 5 rounds after you use it. You must select the amount of delay when using the effect. The area or target to be affected must be within range when the ability is used, but need not remain in your range (you or it may move) before the effect activates. Cost: +1 spell point.
 
+++ Destructive Harmonics
+
+Prerequisites: Access to the Destruction and Enhancement spheres.
+
+Benefit: You may spend an additional spell point when using your destructive blast to have it deal +50% damage against creatures that are under the effects of one of your enhancements.
+
+++ Durable Objects
+
+Prerequisites: Animate Object.
+
+Benefit: Whenever you create an animated object, it gains bonus hit points as if it were one size larger. If the animated object already has an effective size of Colossal or greater, it instead gains 30 additional bonus hit points.
+
 ++ Elicit Strike
 
 Prerequisites: Improved Unarmed Strike, Emotion class feature.
 
 Benefit: If you make a successful unarmed strike against an opponent, in addition to dealing your unarmed strike damage, you can spend a swift action to deliver the effects of an emotion power with ‘touch’ in its name. Doing so provokes no attacks of opportunity.
+
+++ Enchanted Animation
+
+Prerequisites: Animate Object, at least one additional talent from any sphere.
+
+Benefit: Whenever you create an animated object, you may spend a spell point to grant it a single use of one of your sphere abilities; if the sphere ability costs spell points to use, you must pay for that cost when granting it. It may use that sphere ability as if you had cast it yourself.
 
 ++ Energy Snake
 
@@ -247,6 +327,12 @@ Prerequisites: Destruction sphere, 5th caster level or higher
 
 Benefit: Choose one blast type group. Your destructive blasts using blast types from that group gain a +2 insight bonus to caster level.
 
+++ Enhanced Contingency
+
+Prerequisites: Contingency, access to the Enhancement sphere.
+
+Benefit: You may enhance a contingency effect. If the contingency creates or summons a valid target for that enhancement, the enhancement is transferred to that target. Otherwise, the enhancement is transferred to the sphere effect once it takes effect. You may spend an additional spell point when applying the enhancement to tie it into the Contingency; if you do so, time spent prior to the Contingency triggering does not count towards the enhancement’s duration.
+
 ++ Enhancing Admixture (Admixture)
 
 Prerequisites: Enhancement sphere, Destruction sphere, Admixture talent
@@ -258,6 +344,12 @@ Benefit: When using the Admixture talent, you may spend an additional spell poin
 Prerequisites: Enhancement Sphere, Telekinesis Sphere
 
 Benefit: When you lift an object with your telekinesis, as part of the same action you may enhance it with one enhancement you possess. You may concentrate on lifting and enhancing the item with a single action. Only a single object can benefit from this combination, even if you can enhance or lift more than one at a time.
+
+++ Exceptional Ally
+
+Prerequisites: Access to the Conjuration sphere, at least one (enhance) talent.
+
+Benefit: Whenever you summon a companion, you may spend one spell point to enhance them as part of the same standard action. If you do so, the enhancement lasts for the full duration of the summoning effect.
 
 ++ Extra Arsenal Trick
 
@@ -522,6 +614,12 @@ Prerequisite: Psionics class feature.
 
 Benefit: The bonuses and penalties from your psionics continue for 2 rounds after you cease using it. Any other requirement, such as range or specific conditions, must still be met for the effect to continue. If you begin a new psionic effect during this time, the bonuses and penalties of the previous psionic effect immediately cease.
 
+++ Link Fate (Proxy)
+
+Prerequisites: Fate Magnet, Spell Proxy.
+
+Benefit: You may treat Fate Magnet as if it were Create Proxy for the purposes of your Proxy feats. In addition, whenever you are targeted by a word, you may take an immediate action to have it affect a creature under the effects of Create Proxy instead. Doing so causes Create Proxy to end immediately for that creature.
+
 ++ Lurker in Darkness
 
 Prerequisite: Stealth 6 ranks.
@@ -529,6 +627,24 @@ Prerequisite: Stealth 6 ranks.
 Benefit: Creatures using unusual forms of sensory perception such as blindsight, greensight, or tremorsense cannot automatically foil your use of Stealth; such creatures must make a Perception check as normal to detect you when you make use of the Stealth skill. Lurker in Darkness foils divination sphere sense abilities in the manner described above, but has no effect on sphere, spell-like and/or supernatural abilities specifically used to uncover information about you rather than enhancing the user’s perception, such as with the divination sphere divine abilities.
 
 //Note:// This feat was previously published in the Psionic Bestiary, by Dreamscarred Press. It has been modified to work with Spheres of Power.
+
+++ Magical Focus (Drawback)
+
+Prerequisites: Focus Casting, access to the Enhancement sphere.
+
+Benefits: Whenever you enhance your focus, you may choose to have the effect continue without concentration without spending a spell point. This feat only applies to the spell point spent to relinquish concentration. If another feat, talent, or class feature grants you the ability to spend more spell points when relinquishing concentration to improve the effects, you still need to spend the additional spell points to gain those benefits.
+
+++ Magician’s Trade
+
+Prerequisites: Counterspell, access to the Enhancement sphere.
+
+Benefit: Whenever you use Counterspell, you may end an enhancement affecting yourself to increase the number of magical effects you may end with Counterspell by one. There is no limit on the number of enhancements you may cancel to improve your Counterspell; however, you may only use enhancements you created yourself to fuel this feat.
+
+++ Maintain Proxy
+
+Prerequisites: At least one Proxy feat.
+
+Benefit: Whenever one of your Create Proxy effects would end due to a Proxy feat, you may spend 1 spell point to prevent it from ending prematurely.
 
 ++ Master Artisan
 
@@ -548,6 +664,12 @@ Prerequisites: Forbidden lore class feature, Death sphere.
 
 Benefit: Add your forbidden lore bonus to your caster level when determining the number of undead creatures you may control at any one time through the Death sphere.
 
+++ Master of Small Magics
+
+Prerequisites: Cantrips, access to the Enhancement sphere.
+
+Benefit: You may use leaked magic from your enhancements to improve your Cantrips. Whenever you use Cantrips while under the effects of one of your own enhancements, you may either increase the range to Medium, double the duration, or double the amount of matter you can affect at one time. In addition, you may choose to use any creature or object within 30 ft. that is under the effects of one of your enhancements as the origin for any Cantrip you use.
+
 ++ Material Infusion
 
 Prerequisites: Metal Geomancing or Creation sphere, Destruction sphere
@@ -559,6 +681,14 @@ Benefit: When using a destructive blast that deals bludgeoning, piercing, or sla
 Prerequisites: Destruction sphere, Combat Casting
 
 Benefit: When using a destructive blast as (or as part of) a melee attack or melee touch attack, your destructive blast does not provoke attacks of opportunity.
+
+++ Militant Animation (Combat)
+
+Prerequisites: Animate Object, BAB +1.
+
+Benefit: Whenever you create an animated object, you may grant it a single Combat feat it qualifies for as a bonus feat. You may spend an additional spell point when using Animate Object to grant the object an additional bonus Combat feat it qualifies for.
+
+Normal: Animated Objects are mindless, and do not possess any feats.
 
 ++ Mind Against Body
 
@@ -595,6 +725,34 @@ Benefit: When using the Admixture talent, you may spend an additional spell poin
 Prerequisites: Casting class feature, Enhancement sphere, Handle Animal 3 ranks, Ride 3 ranks.
 
 Benefit: When targeting yourself with an enhancement, your mount also gains the benefits of that enhancement. This lasts as long as you are both enhanced and mounted. If you dismount or are unseated, your mount loses the benefit of your enhancement.
+
+++ Mutagenic Enhancements
+
+Prerequisites: Access to the Alteration sphere, at least one (enhance) talent.
+
+Benefit: Whenever you enhance a creature, you may also give them a trait of your choice, just as if you had used shapeshift on them. Doing so makes the enhancement into a polymorph effect. A creature may only be under the effects of one enhancement modified in this way; however, the trait they gained does not count towards the limit for your shapeshift.
+
+++ Mystic Choreography (Drawback, Proxy)
+
+Prerequisites: Spell Proxy, at least one of Skilled Casting, Somatic Casting, or Verbal Casting.
+
+Benefit: Whenever you use a sphere ability, any creature currently under the effects of Create Proxy may take an immediate action to perform one of your required components for you. As long as that creature meets the criteria for the drawback in question, you may ignore it for the purposes of that sphere ability. Regardless of whether or not this attempt is successful, the Create Proxy effect ends immediately.
+
+++ Mystic Generosity
+
+Prerequisites: Spell Proxy.
+
+Benefit: Whenever you use Create Proxy on a creature, you may spend a spell point to grant them the Basic Magical Training feat as a bonus feat while they are under the effects of that enhancement. The sphere they gain access to must be one that you also have access to.
+
+Special: If the target of Create Proxy doesn’t meet the prerequisites for Basic Magical Training, they gain Extra Magic Talent as a bonus feat instead. The bonus talent they gain must be one that you also possess.
+
+++ Object Familiar
+
+Prerequisites: Ability to acquire a new familiar, Animate Object.
+
+Benefit: When choosing a new familiar, you may select a Tiny animated object in place of a normal creature. An object familiar’s type does not change, and it does not gain the ability to speak to other creatures of its kind.
+
+Special: You may apply the benefits of any feats that improve your use of Animate Object to your object familiar. If you later take Improved Familiar, you may select a Small animated object at 5th caster level instead.
 
 ++ Occult Savant
 
@@ -654,11 +812,29 @@ Prerequisite: Divination sphere, one or more (sense) talents or abilities.
 
 Benefit: You gain an insight bonus to attack and damage equal to the number of divination (sense) abilities you currently have active (maximum 1 + 1 per 5 HD). You may as an immediate action spend a spell point and dismiss a divination (sense) ability you have active to ignore a percentage of miss chance (maximum 5% + 5% per 5 HD) for 1 round.
 
+++ Proxy Counterspell (Proxy)
+
+Prerequisites: Counterspell, Spell Proxy.
+
+Benefit: Whenever you use Counterspell, any creature under the effects of Create Proxy may spend an immediate action to allow you to end an additional effect. Doing so causes Create Proxy to end immediately for that creature.
+
+++ Proxy Network (Proxy)
+
+Prerequisites: Spell Proxy.
+
+Benefit: Whenever you use a sphere effect with a range of touch, you may choose to have it originate from a creature under the effects of Create Proxy instead of yourself. Doing so causes Create Proxy to end immediately.
+
 ++ Reach Blade
 
 Prerequisites: Destructive Blade class feature
 
 Benefit: Your Destructive Blade may be shaped with the reach property. This property can be added or removed each time you shape the blade.
+
+++ Reforge Object
+
+Prerequisites: Animate Object, Potent Alteration.
+
+Benefit: You do not need to spend an additional spell point when altering an Animated Object you’ve created. In addition, you may freely re-assign a creation point when altering an Animated Object in a way that affects its material or shape.
 
 ++ Ritual Caster
 
@@ -690,6 +866,12 @@ Prerequisite: Nature Sphere, Fire Geomancing and Plantlife Geomancing.
 
 Benefit: Your pummel geomancing ability deals additional Fire damage equal to your casting ability modifier with each hit that successfully deals damage.
 
+++ Solid Illusions
+
+Prerequisites: Access to the Enhancement sphere, Illusionary Touch.
+
+Benefit: You may enhance illusions you create as if they were actually the creatures and objects they appear to be. Parts of the illusion can be enhanced separately - you could use enhance equipment to grant an illusionary soldier an enhancement bonus to attack and damage rolls with its non-existent spear.
+
 ++ Soulfire
 
 Prerequisites: Destruction sphere, 5th caster level or higher
@@ -702,11 +884,53 @@ Prerequisites: Warp sphere, Destruction sphere, Admixture talent
 
 Benefit: When using the Admixture talent, you may spend an additional spell point to have a single creature that takes damage targeted by Unwilling Teleport. If you possess the Group Teleport talent, you may apply the Unwilling Teleport effect to all targets damaged, up to your maximum targets from Group Teleport.
 
+++ Spell Proxy
+
+Prerequisites: Circle Casting, access to the Enhancement sphere.
+
+Benefit: You gain access to an additional enhancement, which you may use normally:
+
+* Create Proxy: You may enhance creatures, allowing them to act as aiding casters as if they themselves possessed the Circle Casting feat. They do not need to have any magic talents or a spell pool to do so.
+
+Special: You may incorporate Create Proxy into a spell as if it were an Enhancement talent. You may not take Spell Proxy if you have the Personal Magics drawback.
+
+++ Spell Proxy, Extended
+
+Prerequisites: At least one Proxy feat.
+
+Benefit: The benefits of your Proxy feats apply to creatures within 60 ft.
+
+Normal: Proxy feats only apply to creatures within 30 ft.
+
+++ Spell Proxy, Improved
+
+Prerequisites: Spell Proxy.
+
+Benefit: Whenever you use Create Proxy, you may also transfer the concentration to maintain one sphere effect to the targets. If they possess spell points of their own, they may spend them in your place to have the effect continue without concentration.
+
+++ Spellthief
+
+Prerequisites: Access to the Enhancement sphere, Counterspell.
+
+Benefit: Whenever you successfully counterspell an effect that targets a creature or object, you may instead choose to reassign the effect’s targets. If you do so, you immediately take over concentration for the original caster (if the effect requires concentration), and the original caster cannot choose to prematurely end the effect.
+
+++ Spreading Magic (Proxy)
+
+Prerequisites: Spell Proxy.
+
+Benefit: Whenever you use a sphere ability that targets a creature, a creature under the effects of Create Proxy may choose to become an additional target if they are also within range. Doing so causes Create Proxy to end immediately for that creature.
+
 ++ Steam Geomancing
 
 Prerequisite: Nature Sphere, Fire Geomancing and Water Geomancing.
 
 Benefit: When using any Nature sphere ability that deals Fire or Cold damage, you may spend 1 additional spell point to split the damage in half, dealing half Fire damage and half Cold damage.
+
+++ Suffer By Proxy (Drawback)
+
+Prerequisites: Draining Casting, Spell Proxy.
+
+Benefit: Whenever you use a sphere ability, you may choose to have a creature under the effects of Create Proxy suffer the nonlethal damage for you. The creature must be within the range of one of your Proxy feats, and must not be immune to nonlethal damage. You cannot choose to split up the nonlethal damage; all of it must be dealt to a single creature.
 
 ++ Superior Rebuff
 
@@ -733,6 +957,22 @@ Prerequisite: Divination sphere, Sphere Focus (Divination).
 Benefit: When you concentrate to maintain a divine effect, you are no longer considered flat-footed due to maintaining concentration, and may also take swift or immediate actions during the same action. In addition, as a free action you may spend a spell point to reduce the concentration action for divine effect by 1 step for 1 round per caster level, thus reducing a normally full-round action into a standard action, and also allowing for additional move actions to be performed. If you also possess the boon Easy Focus, you reduce instead the concentration action from 1 full round action to 1 move action, allowing for additional standard or move actions.
 
 Normal: Concentrating on a divine effect is usually a full-round action, while also preventing any other standard, move, immediate and swift actions, and granting the flat-footed condition.
+
+++ Tactical Animation
+
+Prerequisites: Animate Object.
+
+Benefit: Whenever you create an animated object, you may grant it a single Teamwork feat it qualifies for as a bonus feat. You may spend an additional spell point when using Animate Object to grant the object an additional bonus Teamwork feat it qualifies for.
+
+Normal: Animated Objects are mindless, and do not possess any feats.
+
+++ Tactical Proxies
+
+Prerequisites: Spell Proxy, any one Tactical feat.
+
+Benefit: You may treat any creature under the effects of Create Proxy as if they shared all of your Teamwork feats. They do not gain the benefits of your Teamwork feats unless they actually have it themselves.
+
+Special: If you also have Improved Spell Proxy, you may choose to grant them the benefits of one of your Teamwork feats instead of transferring concentration.
 
 ++ Tactile Illusion
 
