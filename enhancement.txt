@@ -20,7 +20,6 @@ Talents marked as (enhance) grant you new enhancements you may bestow.
 You may spend a spell point to enhance an object, bestowing movement and a semblance of life. The object obeys your command and understands your language, but as it is not intelligent, it can only obey simple commands such as ‘move’, ‘fight’, ‘guard’, ‘stop’, etc.
 
 If you animate an enemy’s weapon, the weapon cannot move and attack while it is being held, but the wielder must pass a Reflex save (DC 10 + 1/2 caster level + casting ability modifier) each round they hold the item or lose their action fighting their weapon for control. If you animate an enemy’s armor or clothing, the enemy becomes entangled and must pass a Reflex save each round or also be staggered that round.
-
 Animated objects are constructs, and gain Hit Dice according to their size. The maximum sized object you may animate depends on your caster level, according to Table: Animate Object.
 
 [http://paizo.com/pathfinderRPG/prd/monsters/animatedObject.html See the Paizo PRD for rules on using Animated Objects]
@@ -34,6 +33,85 @@ Animated objects are constructs, and gain Hit Dice according to their size. The 
 || 11 || Huge || Wagon || 7d10+40 || 4 ||
 || 15 || Gargantuan || Catapult || 10d10+60 || 5 ||
 || 20 || Colossal || Ship || 13d10+80 || 6 ||
+
++++ Expanded Options for Animated Objects
+
+++++ New Abilities
+
++++++ Armor (Ex; 1 CP)
+The object is a suit of armor. When worn by another creature, it ceases to act as a creature of its own. Instead, any damage the wearer takes is dealt to the object instead; if the object loses all of its hit points, then the armor bonus it grants is reduced to +0. While worn, it grants its armor bonus to AC, as well as the benefits of any special qualities, as normal. As long as the object is still animated, it may be donned as a full-round action and removed as a swift action.
+
++++++ Durable (Ex; 1 CP)
+The object is exceptionally durable. It gains 5 additional hit points for each size category it has beyond Tiny, to a maximum of 30 additional hit points for Colossal animated objects. This can be applied multiple times, and its effects stack.
+
++++++ Fluid (Ex; 1 CP)
+The animated object is unusually fluid; it may squeeze through tight spaces as if it were two sizes smaller than it actually is.
+
++++++ Garrote (Ex; 1 CP)
+The object strangles creatures it grapples - it gains the Strangle special attack (the object must have Grab before it can select this ability).
+
++++++ Graft (Su; 1 CP)
+The object can serve as a replacement limb for a creature two size categories larger than it. While attached to a creature, the object ceases to act as a creature of its own. Instead, the creature benefiting from the graft ignores any penalties due to missing that limb, and gains one of the object’s natural attacks. If the object possesses any Special Attacks modifying that natural attack, the beneficiary of the graft gains it as well, using their size in place of that of the object.
+
+An object with graft may be attached to a creature with a DC 20 Heal check.
+
++++++ Hollow (Ex; 1 CP)
+The animated object gains the Swallow Whole special attack with its Slam attacks; creatures swallowed by the object do not automatically take damage (the object must have Grab before it may select this ability). This can be applied multiple times, each time increasing the object’s size category for the purposes of what creatures and objects it can grab and swallow by one.
+
++++++ Magic Item (Su; 1 CP)
+The object is some description of magic item. It may activate itself as if it were holding or wearing itself. Magic weapons may apply their enchantments to one of their natural attacks (for example, an animated +1 Dragon-Bane longsword would have a +1 Dragon-Bane slam attack).
+
++++++ Material Properties (Ex; 1 CP)
+The object’s natural attacks are considered to be weapons made from the object’s special material. The object must have Metal or Special Material before it may select this ability.
+
++++++ Toxic (Ex; 1 CP)
+The object is coated with a contact or injury poison. It gains the Poison special attack with its Slam attacks. The crafter may spend an additional CP to have that poison apply to all of its natural attacks instead.
+
+++++ New Flaws
+
++++++ Aberration (Ex; +2 CP)
+The object is made from squirmy flesh instead of inorganic substances; change its type to Aberration, give it a Constitution score equal to its Strength score, replace Construct Traits (Ex) with Amorphous (Ex) and Darkvision 60 ft., and replace its Hardness with an equal amount of DR bypassed by magic. It is still Mindless.
+
++++++ Centralized (Ex; +2 CP)
+The object has weak points, and loses its immunity to critical hits.
+
++++++ Immobile (Ex; +2 CP)
+The object has a base land speed of 0 ft., and may not have abilities or flaws applied which alter its base land speed or grant it new movement speeds.
+
++++++ Fragile (Ex; +1 CP)
+The object gains vulnerability to bludgeoning damage.
+
+
+++++ Animating Structural Features
+As it stands, Animate Object abruptly stops scaling at approximately level 10 for anyone who wants to bring the animated object into a dungeon or other enclosed space with them. While there are ways around this problem (such as the Fluid ability, or using Alteration to shrink an animated object down to size), they ultimately cut into some of the fun of making a house smack people.
+
+With this variant rule, Animate Object can be used on portions of structures, allowing casters to animate a hallway within a castle or the front door of a cottage. Objects animated in this way always have the Immobile flaw. Additionally, such objects are rigidly attached to the rest of the structure, reducing its Reach as if it were two size categories smaller than it actually is.
+
+In exchange for this limitation, the animated portion of the structure may attack creatures that are within reach of any of its surfaces, and is immune to any effect that would move it that couldn’t also move the structure it is a component of.
+
+++++ Elemental Objects
+Currently, the sole form of energy damage you may add to the slam attacks of an animated object is fire. This makes sense for animated candlesticks, but what about animated flasks of acid or more exotic objects? As such, you may choose to replace the fire damage from the Burn ability with another type of energy damage when animating objects that are potentially dangerous due to some elemental hazard.
+
+++++ Objects of Exceptional Size
+By default, the maximum size of objects that may be animated is Colossal. However, Drop Dead Studios has used three sizes past Colossal in previous products - namely Colossal+, Colossal++, and Colossal+++.
+
+This variant expands the higher end of what’s possible with animated objects as follows:
+
+||~ Caster Level ||~ Size ||~ Hit Dice ||~  Maximum Construction Points || 
+|| 30 || Colossal+ || 16d10+100 || 7 || 
+|| 36 || Colossal++ || 19d10+120 || 8 || 
+|| 42 || Colossal+++ || 22d10+150 || 9 || 
+
+++++ Other Materials
+By default, the only options for an animated object’s Metal ability are “common” metals, mithral, and adamantine. Similarly, the Stone ability offers a choice of generic stone or crystal. However, the Pathfinder Roleplaying Game has introduced a vast number of special materials over the years; therefore, the following ability is introduced to cover any of those materials.
+
++++++ Special Materials (Ex; 1+ CP)
+
+The animated object’s hardness is equal to the hardness of the Special Material it is made from. In addition, the animated object gains a natural armor bonus equal to the CP cost of this ability.
+
+This ability costs 2 CP for every +5 increase to hardness gained from this ability, rounded up. If the special material has a hardness less than 10, it costs 1 CP instead.
+
+If the material the animated object is created from has a hardness less than 5, use the Fragile flaw instead.
 
 ++ Bestow Intelligence (enhance)
 You may spend a spell point to enhance an animal, plant, or object, granting it temporary intelligence. The target becomes a magical creature (or intelligent item if an object), and gains an Intelligence, Charisma, and Wisdom score of 3d6 each (or its original score, whichever is higher), as well as an alignment equal to your own, and the ability to speak and understand one language of your choice which you also speak and understand, +1 language you know per point of Intelligence bonus. It also gains normal senses to 60 ft if it did not previously possess any. The creature or object has a beginning disposition of Friendly towards you, but does not gain greater insight into its surroundings before it gained intelligence (thus, an intelligent rock could not tell you who passed by it before it gained sentience, nor an intelligent tree describe a creature who climbed it the day before), nor does it automatically obey your commands, although it will usually provide favors and aid that is not too dangerous. This does not grant the target extra abilities nor the ability to move. You may bestow intelligence on an animated object under your control, in which case the object still continues to obey you explicitly even though it is now intelligent.
