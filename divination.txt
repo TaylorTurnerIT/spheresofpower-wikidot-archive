@@ -384,3 +384,337 @@ You may increase the range of any sense abilities from a static number such as 3
 You may spend a spell point to see, hear, smell, feel, and even taste a torrent of past scenes and pieces of conversations related to anything in a settlement you are currently in. At the end of each of your turns for the duration of this divination, make a single Diplomacy check to gather information as though you had spent 1d4 hours talking to local people, without having to use an action to do so. Multiple Diplomacy checks made to gather information on the same topic always grants the same information as the first check. You can use your Perception bonus in place of your Diplomacy bonus if you so wish. However, you can only make a number of such checks equal to 1/2 your caster level (minimum 1) each time you use this talent.
 
 //Note:// Settlements range in population size from fewer than 20 (thorp) to greater than 25,000 (metropolis). In order to maintain the balance of this talent, it is suggested that when working with particularly large settlements that GMs restrict the use of the talent to districts of the settlement.
+
++ Archetypes Specializing in Divination
+
+[[toc]]
+
++ Destructive Blast
+
+As a standard action, you may deliver a burst of blunt magical force as a melee touch attack or a ranged touch attack within Close range. A destructive blast deals bludgeoning damage as indicated on the table below. This damage bypasses DR/magic, but being bludgeoning in nature, does not automatically bypass other forms of damage resistance. A ranged destructive blast counts as a ray attack.
+
+**Table: Destructive Blast Damage**
+
+||~ Level ||~ Damage ||
+|| 1st || 1d6 ||
+|| 3rd || 2d6 ||
+|| 5th || 3d6 ||
+|| 7th || 4d6 ||
+|| 9th || 5d6 ||
+|| 11th || 6d6 ||
+|| 13th || 7d6 ||
+|| 15th || 8d6 ||
+|| 17th || 9d6 ||
+|| 19th || 10d6 ||
+
+When augmenting a destructive blast with Destruction talents, you may only apply 1 blast type talent and 1 blast shape talent to each individual destructive blast.
+
+You may spend 1 spell point when making a destructive blast to increase the damage dealt to one damage die per caster level (minimum: 2d6).
+
++ Blast Type Groups
+
+Each blast type talent belongs to a blast type group with others of similar theme. Blast types from the same group count as the same blast type for the purposes of the energy focus drawback, an elementalist’s bonus damage, etc.
+
+||~ Blast Type Group ||~ Blast Types || 
+|| Acid || Acid Blast, Adhesive Blast, Alkali Blast || 
+|| Air || Air Blast, Hurricane Blast, Gale Blast || 
+|| Cold || Drowning Blast, Frost Blast, Numbing Blast || 
+|| Crystal || Crystal Blast, Living Crystal Blast, Razor Blast || 
+|| Electric || Electric Blast, Shock Blast, Static Blast || 
+|| Fire || Blistering Blast, Fire Blast, Searing Blast || 
+|| Force || Force Blast, Invigorating Blast, Mana Siphon || 
+|| Light || Blinding Blast, Incandescent Blast, Radiant Blast || 
+|| Negative || Gloom Blast, Nether Blast, Tenebrous Blast || 
+|| Plant || Adhesive Blast, Bramble Blast, Thorn Blast || 
+|| Sonic || Reverberating Blast, Shattering Blast, Thunder Blast || 
+|| Stone || Battering Blast, Shrapnel Blast, Stone Blast || 
+
++ Destruction Talents
+
+++ Acid Blast (blast type)
+You may change your destructive blast from bludgeoning damage to acid damage. Any creature damaged by your acid blast suffers 1 point of acid damage per damage die the following round.
+
+++ Adhesive Blast (blast type)
+You transmute your destructive blast into a sticky, acidic sap. Your destructive blast deals acid damage. Any creature damaged by the attack must pass a Reflex save or be entangled and unable to move for 1 round.
+
+++ Admixture
+You may either increase the casting time of your destructive blast by one step or spend an additional spell point to apply two blast type talents instead of 1. The resultant blast does half of its damage of each type and any additional effects of the blast types are applied normally. If the die size for the two blasts are d8 and d6, use d8; if d8 and d4 use d6; if d6 and d4, use d4. If two blast types have different caster levels, then use the lower caster level for determining the admixtured blast’s caster level.
+
+**Special:** You do not increase the casting time or spend an additional spell point when using the admixture talent with two blast types from the same blast type group.
+
+++ Air Blast (blast type)
+You may change your destructive blast into a blast of air. An air blast deals nonlethal damage. You may make a Bull Rush at
+range against the target or targets affected by your air blast. Only a target successfully struck by the blast (or one that fails their Reflex saving throw if one was required) is affected. Your CMB for this check is equal to your caster level + your casting stat modifier, and all targets are pushed from the point of origin of the effect (usually yourself, but if using a talent such as Explosive Orb, it would be the center of the blast. If using Energy Wall, each square of wall is considered the center of effect for those who enter that section. If using Guided Strike, you may choose from which direction you want to push the target, even pushing them up or down if you should desire. Pushing a target into the ground knocks them prone if the Bull Rush is successful.).
+
+If the target is knocked into a solid object, they suffer 1d6 bludgeoning damage, + 1d6 for every 5 ft they would have continued past the barrier. You do not move with the targets of your Bull Rush.
+
+++ Alkali Blast (blast type)
+Your destructive blast deals acid damage using d4 dice instead of d6. You may make a Trip attempt at range against the target or targets affected by your alkali blast. Only a target successfully struck by the blast (or one that fails their Reflex saving throw if one was required) is affected. Your CMB for this check is equal to your caster level + your casting stat modifier.
+
+++ Battering Blast (blast type)
+Your destructive blast becomes a hail of smooth stones, dealing bludgeoning damage, and using d4s for damage dice instead of d6s. You may make a Bull Rush at range against the target or targets affected by your battering blast. Only a target successfully struck by the blast (or one that fails their Reflex saving throw if one was required) is affected. Your CMB for this check is equal to your caster level + your casting stat modifier, and all targets are pushed from the point of origin of the effect (usually yourself, but if using a talent such as Explosive Orb, it would be the center of the blast. If using Energy Wall, each square of wall is considered the center of effect for those who enter that section. If using Guided Strike, you may choose from which direction you want to push the target, even pushing them up or down if you should desire. Pushing a target into the ground knocks them prone if the Bull Rush is successful.).
+
+If the target is knocked into a solid object, they suffer 1d6 bludgeoning damage, + 1d6 for every 5 ft they would have continued past the barrier. You do not move with the targets of your Bull Rush.
+
+The blast ignores spell resistance, spell turning, and can penetrate a globe of invulnerability, antimagic field, or antimagic circle, and is not treated as a spell or magical effect for creatures or classes that gain a bonus to saving throws against magic.
+
+++ Blast Trap (blast shape)
+You may place a destructive blast onto an adjacent, unoccupied 5 ft square. Any creature who steps onto that square is affected by your destructive blast, and is allowed a Reflex save for half damage. A blast trap lasts for 10 minutes per caster level before becoming inert. This is a magical trap with a Perception DC and Disable Device DC equal to the blast’s save DC. You may only have one active blast trap at a time; placing a second trap deactivates the first. You may select this talent multiple times. Each time it is taken, increase the number of blast traps you may have active at once by 1.
+
+++ Blinding Blast (blast type)
+You may spend a spell point to have your destructive blast deal untyped damage. Any creature damaged by the blast must pass a Fortitude save or be blinded for 1 round. The damage die size increases to d8 against undead creatures and any creatures vulnerable to sunlight.
+
+++ Blistering Blast (blast type)
+Your destructive blast deals fire damage. Any creature damaged by the attack suffers a -2 penalty on Fortitude saves for 1d4 rounds.
+
+++ Bramble Blast (blast type)
+Your destructive blast becomes an explosion of thorny brambles, growing where it strikes. A bramble blast uses d4's instead of d6's as its damage die and deals piercing damage. The target of your bramble blast must pass a Reflex save or be entangled and unable to move. In addition, the target's square (or the blast's affected area) becomes overgrown with brambles and counts as difficult terrain. Breaking free of the entangled condition is a move action, requiring either a Strength check of an Escape Artist check against the bramble blast's save DC. A target may also destroy the brambles on a square or creature by dealing 3 damage per caster level to the bramble. This removes the entangled condition and destroys the difficult terrain. Brambles disappear after 1 minute.
+
+++ Cascade Failure
+When a creature receives damage from your destructive blast, it suffers a -1 penalty on all saving throws against your destructive blasts until the end of your next turn. This penalty stacks with itself if a target is damaged by your destructive blast more than once in a round.
+
+++ Chain Blast (blast shape)
+You may spend a spell point to arc your destructive blast between multiple targets. Choose a number of targets no greater than 1 + half your caster level (minimum 2 targets total). Make a ranged touch attack against each of them in order. No target can be farther than 10 ft + 5 ft per 5 CL from the previous target and no target can be targeted more than once. Should any of the targets fail to take damage, either by a missed attack, resistance, or other method, the chain stops and no further targets are damaged.
+
+++ Clinging Blast
+You may spend an additional spell point to have all damage from the destructive blast be treated as continuous for the purposes of any concentration checks until the start of your next turn.
+
+++ Crafted Blast
+When making a destructive blast unaltered by a (blast type) talent, you may change the damage of the destructive blast to be either bludgeoning, piercing, or slashing, and may change all rolled 1’s and 2’s to 3’s.
+
+++ Crystal Blast (blast type)
+Your destructive blast becomes an explosion of crystal, growing where it strikes. A crystal blast uses d4’s instead of d6’s as its damage die and deals piercing damage. The target of your crystal blast must pass a Reflex save or be entangled and unable to move. In addition, the target’s square (or the blast’s affected area) becomes overgrown with crystal and counts as difficult terrain. Breaking free of the entangled condition is a move action, requiring either a Strength check or an Escape Artist check against the crystal blast’s save DC. A target may also destroy the crystal on a square or creature by dealing 3 damage per caster level to the crystal. This removes the entangled condition from the creature and destroys the difficult terrain. Crystal disappears after 1 minute.
+
+++ Drowning Blast (blast type)
+You may spend a spell point to have your destructive blast become a stream of water, pounding your foe, disorienting and choking them. The blast deals bludgeoning damage. Any creature damaged by the attack must pass a Fortitude save or be nauseated for 1 round. The water disappears at the end of your turn.
+
+++ Electric Blast (blast type)
+You may change the damage type of your destructive blast to electricity. Targets wearing metal armor or primarily comprised of metal suffer a -3 penalty to AC and to saving throws against an electric blast. An electric blast can ignite combustibles, and melt metals with a low melting point, such as lead, gold, copper, silver, or bronze.
+
+++ Energy Aura (blast shape)
+You may spend a spell point to surround yourself with elemental energies as a move action. For a number of rounds equal to your casting ability modifier, any creature that ends its turn within 5 ft + 5 ft per 10 caster levels of you is affected by your destructive blast as if it had dealt minimum damage (so a 4d6 blast would deal 4 damage). A Reflex save negates this damage. You may only have one energy aura active at a time; casting it again ends the previous instance.
+
+++ Energy Blade (blast shape)
+As a standard action, you may make a single weapon attack in conjunction with making a destructive blast. Any creature damaged by the attack is also struck by the destructive blast.
+
+++ Energy Bomb (blast shape)
+You may spend a spell point create a small crystal imbued with your destructive blast. These crystals can be passed to other creatures for later use. As a standard action, this crystal may be primed and thrown as a thrown splash weapon with a range increment of 20 ft. A direct hit deals the destructive blast’s damage to the target and damage equal to the minimum blast damage is dealt in a 5 ft splash radius. Any creature taking damage from either the direct hit or the splash must save against any additional effects of the blast type. Crystals persist for 1 hour per caster level.
+
+++ Energy Leap (blast shape)
+You may spend a spell point to move in a straight line up to your destructive blast’s range as a standard action. This movement does not provoke attacks of opportunity and you may pass through occupied spaces. Any creatures whose space you pass through are affected by your destructive blast, with a Reflex save for half damage. If you attempt to pass through an object and fail to break through it, you appear in the nearest unoccupied space and are staggered for one round. This blast shape cannot be combined with the Extreme Range advanced talent.
+
+++ Energy Satellite (blast shape)
+You may form your destructive blast into a sphere that orbits your body that lasts for one minute per caster level or until used. As an immediate action, you may discharge the sphere against any creature within 5 ft + 5 ft per 10 caster levels, dealing your destructive blast damage. A Reflex save halves this damage. You may only maintain a single satellite at a time. This talent may be taken more than once; each time the number of satellites maintained simultaneously increases by one, though each requires a separate immediate action to discharge.
+
+++ Energy Sphere (blast shape)
+You may spend a spell point to shape your destructive blast into a non-instantaneous sphere that fills a 5 ft square. Any creature within this space is dealt damage from your destructive blast (Reflex negates). This sphere lasts for 1 round per caster level and has a 20 ft fly speed +5 ft per 2 caster levels and Perfect maneuverability. Wind does not affect its course.
+
+As a move action, you may direct this sphere to move to a new location and strike a new target. Your sphere stops to attempt to deal damage whenever it enters a space with a creature. Your sphere has no mass and does not impede movement, and your sphere must stay within your destructive blast range or disappear.
+
+++ Energy Tether (blast shape)
+You may send out a tendril of energy to bind your foe to you. Make a ranged touch attack against a target within Close range (this range does not increase through talents such as Extended Range). If successful, the targets suffers your destructive blast damage. You may concentrate each round to maintain this tether each round, or may spend a spell point as a free action to allow it to persist for 1 round per caster level without concentration.
+
+Each round a target remains bound by the tether, they suffer its damage. The tether has 10 HP plus 2 HP per caster level, hardness equal to 1/2 your caster level, and a break DC equal to the blast’s DC. Neither you nor the tethered target may not move further away from each other without first breaking the tether (you may dismiss a tether as a free action) or succeeding on a drag or reposition combat maneuver, pulling the other along with them. If you or the tethered target move closer to each other you may, as a swift action, shorten the tether; the new distance between you becomes the new length of the tether. You may also lengthen the tether as a swift action, but only to a maximum distance equal to Close range. Swarms may not be targeted with this blast shape. You cannot have more than one tether active at any one time; creating a second tether dismisses the first.
+
+++ Energy Wall (blast shape)
+You may spend a spell point to shape your destructive blast into either a wall up to 20 ft per caster level or a hemisphere with a radius up to 5 ft per 2 caster levels (minimum: 5 ft). This wall extends up to 20 ft high and lasts for 1 round per caster level. The wall does not block line of effect, line of sight, projectiles, or thrown objects. Creatures passing through your wall suffer your destructive blast’s damage and effects as normal. Creatures standing in the wall’s space when it is created are allowed a Reflex save to avoid damage.
+
+++ Epicenter
+You are immune to any damage and other effects of your own destructive blasts. This includes ignoring difficult terrain from your Crystal Blast and immunity to your own Energy Wall, Energy Cloud, and any other blast shape with a non-instantaneous duration.
+
+++ Explosive Orb (blast shape)
+You may spend a spell point to make a destructive blast as a burst effect centered anywhere within range. This burst has up to a 10 ft radius, + 5 ft per 5 caster levels. Affected creatures are allowed a Reflex saving throw for half damage.
+
+++ Extended Range
+Increase the range of your destructive blast by 1 range level (Close to Medium, Medium to Long). You may select this talent multiple times. The effects stack.
+
+++ Focused Blast
+When making a destructive blast unaltered by a (blast shape) talent, your destructive blast damage increases by +1 damage per die.
+
+++ Force Blast (blast type)
+You may spend a spell point to change the damage type of your destructive blast to force. Any creature damaged by a force blast must pass a Reflex save or fall prone.
+
+++ Fire Blast (blast type)
+You may change the damage type of your destructive blast to fire. Targets who take damage from your fire blast must make a Reflex save or catch fire. A burning creature takes 1d6 damage the following round, plus 1d6 per round until the flames are extinguished. Each round the target may make another Reflex save to attempt to extinguish the flames. Rolling on the ground or using a blanket to smother the flames (a full-round action) grants the target a +4 bonus to that round’s saving throw.
+
+++ Frost Blast (blast type)
+You may change the damage type of your destructive blast to frost. Targets who take damage from your frost blast must make a Fortitude save or be staggered for 1 round.
+
+++ Gale Blast (blast type)
+You may change your destructive blast into a forceful wind that deals nonlethal damage. You may make a Trip combat maneuver at range against the target or targets affected by your air blast. Only a target successfully struck by the blast (or one that fails its Reflex saving throw if one was required) is affected. Your CMB for this check is equal to your caster level + your casting ability modifier. If this check fails, you are not tripped in return.
+
+++ Gather Energy
+You may increase the casting time of your destructive blast by one step to increase the damage to d6 per caster level (2d6 minimum) without increasing the spell point cost. This increase does not stack with the damage increase from spending an additional spell point.
+
+++ Gloom Blast (blast type)
+Your destructive blast deals negative energy damage. Any creature damaged by the attack must pass a Fortitude save or be sickened for 1 round. Undead creatures take no damage, but are instead blinded for 1 round on a failed fortitude save. This bypasses the immunities of the undead type.
+
+++ Greater Blast
+The damage of your destructive blast increases by one die. You may take this talent an additional time at 5th caster level and every 5 caster levels thereafter; the effects stack.
+
+++ Guided Strike (blast shape)
+You may spend a spell point to add a +20 circumstance bonus to your destructive blast’s attack roll.
+
+++ Hurricane Blast (blast type)
+You may spend a spell point to change your destructive blast into swirling winds that swirls around the target, dealing nonlethal damage. The target suffers a penalty to ranged attacks and fly checks equal to 1/2 your caster level for 1d4 rounds.
+
+++ Incandescent Blast (blast type)
+Your destructive blast deals untyped damage using d4 dice instead of d6 and any creature taking damage suffers a -2 penalty on Perception checks and Will saves for 1d4 rounds. The damage die size increases to d8 against undead creatures and any creatures vulnerable to sunlight.
+
+++ Invigorating Blast (blast type)
+You may spend a spell point to have your destructive blast deal positive energy damage to non-living creatures using d4 dice instead of d6. Living creatures instead of taking damage gain an equal number of temporary hit points (which cannot exceed their maximum hit points) which last for 1 hour, but also must make a Fortitude save or become dazed for 1 round.
+
+++ Living Crystal Blast (blast type)
+You may spend a spell point to create a living crystal blast, covering the target and their space in a mass of ever shifting and clinging crystals. Your destructive blast deals piercing damage. Any creature damaged by your living crystal blast must pass a Reflex save or be entangled and unable to move.
+
+In addition, the target’s square (or the blast’s affected area) becomes overgrown with living crystal. Any creature entering an affected square must make a reflex save or become entangled and unable to move. Breaking free of the entangled condition is a move action, requiring either a Strength check or an Escape Artist check against the crystal blast’s save DC. A target may also destroy the crystal on a creature by dealing 3 damage per caster level to the crystal. This removes the entangled condition from the creature. The crystal disappears after 1 minute.
+
+++ Mana Siphon (blast type)
+Your destructive blast saps the magic energy from your target, funneling it to you. A mana drain blast does nonlethal damage using d4 dice instead of d6 and your target must make a Fortitude save or lose 1 spell point. This loss increases by one die size (1d2, 1d3, 1d4, 1d6, etc.) for every five caster levels. You gain an equal number of temporary spell points that last for one round per caster level, though you cannot receive more spell points than your target loses. These temporary spell points do not stack with spell points from other targets, other instances of this ability, or any other source and expire after 1 round per caster level.
+
+++ Nether Blast (blast type)
+You may change the damage type of your destructive blast to negative energy. Targets damaged by your nether blast must pass a Will saving throw or be shaken for 1 round. A nether blast does not damage undead; instead, the undead must make a Will save or become frightened for 1 round.
+
+++ Numbing Blast (blast type)
+Your destructive blast deals cold damage. Any creature damaged by the attack suffers a -2 penalty on Reflex saves for 1d4 rounds.
+
+++ Radiant Blast (blast type)
+Your destructive blast deals untyped damage, and uses a d4 as the damage die instead of a d6. Any creature damaged by the blast must pass a Fortitude save or treat all creatures as if they had concealment (20%) for 1 rnd. This bypasses the immunities of the undead type. The damage die size increases to d8 against undead creatures and any creatures vulnerable to sunlight.
+
+++ Razor Blast (blast type)
+You craft your destructive blast into a series of jagged crystal shards, dealing slashing damage and using d4s as the damage dice instead of d6s. The target must pass a Reflex save, or have its movement speed reduced in half until 24 hours pass, or it receives at least 1 point of magical healing. This effect may also be healed as a caltrop wound. In addition, every space affected by the blast becomes covered in jagged crystals. Any creature who moves over such a space must pass a reflex save or suffer 1 point of damage and have its speed reduced by half, as detailed above. A charging or running creature must immediately stop if it fails this saving throw. Any creature moving at half speed or slower can pick its way through the area with no trouble. A creature need only make one saving throw per round to avoid this effect, no matter how many affected spaces they cross over that round. Crystals can also be destroyed by dealing 1 point of damage per caster level to the crystal in a particular space. Crystal also disappears after 1 minute.
+
+++ Rebuff (blast shape)
+You may use your destructive blast to shield a target within range from ranged weapons, area effects, or even other destructive blasts for 1 round, giving them the benefits of evasion, a +2 cover bonus to AC, and a +1 cover bonus to their Reflex saves. Multiply these bonuses by 2 at 5th caster level, by 3 at 10th caster level, by 4 at 15th caster level, and by 5 at 20th caster level.
+
+By spending a spell point, you may perform a rebuff as an immediate action, or provide the benefits to all targets within 10 ft of you plus 5 ft per 5 caster levels. You may spend 2 spell points to gain both of these benefits with the same rebuff.
+
+++ Retributive Blast (blast shape)
+Whenever a creature misses with a melee or melee touch attack against you, you may spend a spell point as an immediate action to use your destructive blast against that creature. The creature may make a Reflex save to negate the damage. You must be aware of the attack and able to act.
+
+++ Reverberating Blast (blast type)
+You may spend a spell point to make your destructive blast become a thundering sonic boom, dealing sonic damage. Affected targets must pass a Fortitude save or suffer a penalty to concentration checks and all mental skill checks equal to 1/2 your caster level for 1d4 rounds.
+
+++ Sculpt Blast (blast shape)
+You may spend a spell point to create a destructive blast as an area effect, affecting your choice of either a Close-range cone or a Medium-range line, each emanating from yourself. You do not need to make any attack roll for area attacks, but creatures in the effect are allowed a Reflex saving throw for half damage.
+
+++ Searing Blast (blast type)
+Your destructive blast deals fire damage using d8 dice instead of d6.
+
+++ Selective Blast
+You may exclude one creature plus one per 10 caster levels from the area of your destructive blasts that have an instantaneous duration. You may instead spend a spell point to increase the number of excluded creatures by your casting ability modifier (minimum +1).
+
+++ Shattering Blast (blast type)
+Your destructive blast becomes a sonic lance, shattering whatever it strikes. A shattering blast uses d4 instead of d6 as its damage die and deals sonic damage. The blast does full damage to objects and ignores up to half your caster level in hardness.
+
+++ Shock Blast (blast type)
+You may spend a spell point to have your destructive blast deal electricity damage. A shock blast uses d4 instead of d6 as its damage die. Any creature damaged by the attack must make a Fortitude save or be dazed for 1 round.
+
+++ Shrapnel Blast (blast type)
+Your destructive blast becomes a stream of jagged blades, dealing slashing damage, and using d4s for damage dice instead of d6s. Any creature damaged by the attack suffers bleed damage equal to the number of damage die rolled.
+
+The blast ignores spell resistance, spell turning, and can penetrate a globe of invulnerability, anti-magic field, or antimagic circle, and is not treated as a spell or magical effect for creatures or classes that gain a bonus to saving throws against magic. These blades disappear after 1 minute.
+
+++ Static Blast (blast type)
+You may spend a spell point to have your destructive blast deal electricity damage. You may make a Disarm attempt at range against the target or targets affected by your static blast. Only a target successfully struck by the blast (or one that fails their Reflex saving throw if one was required) is affected. Your CMB for this check is equal to your caster level + your casting stat modifier. You receive a +4 bonus on this check against any target that is wielding a metal weapon.
+
+++ Stone Blast (blast type)
+You may change the damage type of your destructive blast to slashing, piercing, and bludgeoning. A stone blast ignores spell resistance, spell turning, and can penetrate a globe of invulnerability, anti-magic field, or antimagic circle, and is not treated as a spell or magical effect for creatures or classes that gain a bonus to saving throws against magic. These stones disappear after 1 minute.
+
+++ Tenebrous Blast (blast type)
+Your destructive blast deals negative energy damage. Any creature damaged by the attack suffers a -2 penalty on attack rolls for 1d4 rounds. Undead creatures take no damage, but are instead sickened for 1 round. This bypasses the immunities of the undead type.
+
+++ Thorn Blast
+Your destructive blast becomes a stream of jagged thorns, dealing piercing damage. Any creature damaged by the attack suffers bleed damage equal to the number of damage die rolled.
+
+++ Thunder Blast (blast type)
+You may change the damage type of your destructive blast to sonic. Targets who take damage from your thunder blast must pass a Fortitude saving throw or be deafened for 2d4 rounds.
+
+++ Wingbind
+When using a blast type that entangles, flying entangled targets that are entangled must make an additional Reflex save or be unable to fly and fall to the ground. This does not affect creatures with magical flight.
+
++ Descriptors
+
+Unlike spells, talents in various Spheres of Power releases mostly lack descriptor tags. While in most cases the appropriate tag can be inferred for a given talent or entire sphere, for use with other portions of this site it will be helpful to specify which blast talents bear which descriptors.
+
+|| Acid || Acid Blast, Adhesive Blast, Alkali Blast || 
+|| Air || Air Blast, Gale Blast, Hurricane Blast || 
+|| Cold || Frost Blast, Numbing Blast || 
+|| Earth || Crystal Blast, Greater Crystal Blast, Razor Blast, Shrapnel Blast, Stone Blast || 
+|| Electricity || Electric Blast, Shock Blast || 
+|| Fire || Blistering Blast, Fire Blast, Radiation Blast, Searing Blast || 
+|| Force || Force Blast || 
+|| Light || Incandescent Blast, Radiant Blast, Radiation Blast || 
+|| Sonic || Reverberating Blast, Shattering Blast, Thunder Blast || 
+|| Water || Crystal Blast, Drowning Blast || 
+
++ Adaptation
+
+While there are many blast type talents, it is neither possible nor desirable to publish every imaginable combination of damage type, die size, and additional effect. If a combination that has not been published is desired, players and gamemasters are encouraged to invent new abilities appropriate to the needs of the character.
+
+A blast type talent has four components:
+
+* **1. Damage Type:** What form does the damage take? This is key for determining what resistances impact the total damage. DR/slashing is useless against fire, while a fire elemental will take full damage against a shrapnel blast. So far, acid, cold, electric, fire, force, negative energy, nonlethal, physical (blunt/piercing/ slashing), sonic and untyped damages have been used. Types uncommonly resisted are more valuable than commonly resisted types like fire or cold. Sonic and force damage are almost never resisted, making them prime choices from an optimization perspective, a benefit that must be considered when balancing the final talent.
+* **2. Additional Effect:** Not all status effects are created equal. Dazzled is fairly trivial and thus could be applied for multiple rounds without a save, while paralyzed can lead to immediate death by coup de grace. Stone Blast bypasses spell resistance, which, combined with its ability to bypass weapon type-based DR, accounts for its lack of additional effects. The duration of these effects and the presence or absence of a saving throw is critical in balancing your new talent. Permanent effects are solely the province of advanced talents.
+* **3. Die Size:** What dice do you roll to determine the blast’s damage? Largely used as a balancing factor, such as Crystal Blast, which inflicts a fairly long duration of a reasonably powerful condition, entangled, as well as creating difficult terrain, useful for controlling the battlefield, has its damage reduced to d4, yet remains one of the most useful blast types. For contrast, Searing Blast deals a commonly resisted damage type, fire, and has no additional effects, thus has its damage die increased to d8. The average damage is the same as with Acid Blast , but the lack of the delay on part of the damage is desirable, somewhat offsetting the less desirable damage type.
+* **4. Spell Point Cost:** Do you need to pay additional spell points to use it? As force damage is rarely resisted and useful for its ability to damage incorporeal creatures, Force Blast, which also carries the additional effect of knocking foes prone on a failed save, costs an additional spell point to use. A blast that deals bludgeoning damage with the same die size and additional effect would not have to carry this additional SP cost.
+
+For example, a player has a ice themed thaumaturge, taking the destruction sphere, as well as the creation sphere and the nature sphere with water geomancing. Now, after a few levels, the player has decided that the thaumaturge’s battlefield control needs some improvement, since long adventuring days have made the heavy use of creation undesirable, but doesn’t want to break the ice theme. Changing crystal blast to fit with an ice-themed character is simple enough. A single type of physical damage, piercing, is hindered by most types of damage reduction (DR), while cold damage is one of, if not the, most resisted energy damage types, so simply changing the damage type should allow a reasonable power without further adjustment. Alternatives would be reducing the duration to one round and removing the difficult terrain effect, reasonably allowing a return to the default d6 die size. Removing the Reflex save on the entangle effect, however, would require returning the die size to d4 and an additional spell point cost. For increased damage, a similar damage substitution with searing blast could be made, since fire and cold damage suffer from similar frequencies of resistance, or with acid blast, which is less commonly resisted than cold, for lingering damage. The new talents could be described in a reasonably thematic way, such as more intense cold or lingering frostbite respectively.
+
+++ Creating New Blasts
+
+Rather than filling a site with repetitive variations of the different possible combinations, a system for creating blast talents is presented below. This system is expressly optional and only to be used with the approval and participation of the GM. Careful attention should be paid to creating new blast types for characters with the focused energy drawback, as the penalty of the drawback is reduced with each additional blast type available. Choose the desired damage type and additional effects, then adjust duration, die size and cost. **Final result should be between 9-11 points.** Spell point cost should not exceed 1 SP unless designing an advanced talent. Effects beyond those listed may require an advanced talent. Responsibility for the final result making sense (entangling flame blasts, cold setting targets on fire) rests solely with the user. Any novel talent must of course be approved by the gamemaster.
+
+New blast types can take the place of existing base blast types of similar type (acid, frost, etc.), be added as additional options to the existing groups, or be made into entirely new blast type groups. When making a new blast type groups, it is best to have a minimum of three blast types to populate it, even if this means simply adapting existing blasts to fit the theme by changing their name and tweaking descriptive text. (See the example in the sidebar on page 20)
+
+Some effects, especially those that deny standard actions such as nauseated, dazed, or stunned, should always incur a spell point cost.
+
+**Damage Type:**
+||~ Damage Type  ||~ Cost || 
+|| Nonlethal || 3 || 
+|| Bludgeoning, Fire, Cold, Piercing, Slashing || 4 || 
+|| Acid, Electricity, Bludgeoning/Piercing/Slashing (combined), Negative (with alternate effect vs undead) || 5 || 
+|| Force, Sonic, Untyped || 6 || 
+
+**Die Size:**
+||~ Die Size ||~ Cost ||
+|| +1 Die Size || 4 || 
+|| -1 Die Size || -3 || 
+
+**Additional Cost:**
+||~ Additional Cost ||~ Cost ||
+|| +1 Spell Point || -4 ||
+
+**Additional Effects**
+||~ Additional Effect ||~ Save ||~ Duration ||~ Cost || 
+|| Att/DC Bonus Vs Specific Material (metal, plant matter, stone, etc) +3/+3 for d6 || N/A ||  N/A || 5 || 
+|| Bleed damage = # dice || N || Until Healed || 5 || 
+|| Blind || Y || 1 round || 8 || 
+|| Combat Maneuver || N/A || N/A || 5 || 
+|| Concealment for all creatures || Y || 1 round || 5 || 
+|| Dazed || Y || 1 round || 10 || 
+|| Dazzle || N || 1 round || 2 || 
+|| Deafened || Y || 2d4 rounds || 4 || 
+|| Difficult Terrain || N/A || minute/lvl || 2 || 
+|| Drain SP (scaling, as mana siphon) || Y || N/A || 8 || 
+|| Entangle & immobile || Y || 1 round || 4 || 
+|| Entangle & immobile || Y || Until broken || 6 || 
+|| Ignore 1/2 CL Hardness, full damage to objects || N/A || N/A || 6 || 
+|| Lingering Damage (1 per die) || N/A || 1 round || 3 || 
+|| Nauseated || Y || 1 round || 8 || 
+|| On Fire || Y || Until save || 4 || 
+|| Penalty: -2 to attacks or single save || N || 1 round || 5 || 
+|| Prone || Y || N/A || 7 || 
+|| Shaken or Sickened || Y || 1 round || 5 || 
+|| SR: No and ignores antimagic fields (as Stone Blast) || N/A || N/A || 4 || 
+|| Staggered || Y || 1 round || 5 || 
+|| Add/Remove Save || N/A || N/A || -/+3 || 
+|| Increase/Decrease Duration (1 round<->1d4 rounds<->2d4 rounds ) || N/A || N/A || +4/-2 ||
+
++ Archetypes Specializing in Destruction
+
+++ -[[[Blind Swordsman]]]
+++ -[[[Eldritch Cultist]]]
+++ -[[[Psychic Medium]]]
+++ -[[[Psyforensic]]]
+++ -[[[Treasure Seeker]]]
