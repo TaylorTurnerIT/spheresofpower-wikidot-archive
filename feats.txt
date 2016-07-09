@@ -8,6 +8,9 @@ Admixture feats grant new ways to utilize the Admixture talent, adding abilities
 ++ Drawback Feats
 Drawback feats present a way of taking advantage of a specific drawback in a manner more specific than just gaining extra spell points. At your GM’s option, you may take a drawback feat in place of a boon. An incanter may select drawback feats as bonus feats.
 
+++ Dual Sphere Feats
+Skilled magicians can learn to combine different fields of magic, allowing them to produce new effects or wield multiple forms of magic simultaneously. While the results are powerful, doing so requires great skill and concentration. Only the effects of one Dual Sphere feat can be applied to any given use of sphere abilities.
+
 ++ Metamagic Feats
 Applying a metamagic feat to a sphere effect is similar to, but slightly different from, how a spontaneous caster applies a metamagic feat to a spell. A caster may choose to augment their sphere effect with an appropriate metamagic feat at the time of casting. To use a metamagic feat, the caster must spend a number of additional spell points equal to the level increase of the metamagic feat. In addition, the sphere effect’s casting time increases by 1 step. These effects are cumulative for every metamagic feat applied.
 
@@ -115,6 +118,12 @@ Prerequisite: Int 13.
 
 Benefit: As long as you are last in the initiative count, use your intelligence modifier for attack rolls in place of the ability modifier that you would normally use.
 
+++ Aurora (Dual Sphere)
+
+Prerequisites: Light sphere, Weather sphere.
+
+Benefit: When you use control weather, you may also choose to increase the light level by one step in the same area, up to a maximum of normal light. At 10th caster level, you may increase the light level by an additional step. Areas of magical darkness in range of this effect are unaffected, their light levels remaining unchanged.
+
 ++ Backdoor Control
 
 Prerequisites: Bestow Intelligence, Expanded Charm
@@ -128,6 +137,18 @@ Prerequisite: No levels in any spellcasting class.
 Benefit: Choose a sphere of magic. You gain access to this basic sphere. You gain an effective caster level of 1 and a spell pool of 1. Use your highest mental ability as your casting ability score.
 
 If you later gain levels in a spellcasting class, exchange this feat for the Extra Magical Talent feat.
+
+++ Beam Propulsion (Dual Sphere)
+
+Prerequisites: Light sphere, Telekinesis sphere.
+
+Benefit: By amplifying and focusing the tiny pressure exerted by light with your powers of telekinesis, you can move a target with the force of light alone. When you cause a target to glow, you may increase the casting time by one step to also lift it with your telekinesis as part of the same action. You may also concentrate to maintain concentration on the bright light of your glow and your telekinesis with a single action, though this increases the action needed to maintain concentration by one step (usually from a standard action to a full-round action).
+
+++ Bioluminescent Transformation (Dual Sphere)
+
+Prerequisites: Alteration sphere, Light sphere.
+
+Benefit: When you shapeshift a target, you may also cause that target to glow. In addition you may maintain concentration on the shapeshift and the bright light of the glow with a single action. If you apply a (light) talent to a glow created and maintained this way, it counts against the number of traits you may grant with your shapeshift.
 
 ++ Blessing/Blight Mastery
 
@@ -285,6 +306,12 @@ Prerequisites: Spell Proxy.
 
 Benefit: Whenever you fail a saving throw against a sphere effect, any creature within that is currently under the effects of Create Proxy may spend an immediate action to allow you to reroll your saving throw. Doing so causes Create Proxy to immediately end for that creature.
 
+++ Defiant Radiance
+
+Prerequisites: Light sphere.
+
+Benefit: You add +2 to your MSB and MSD for the purposes of Light sphere effects. Double this bonus when making an opposed magic skill check against magical darkness effects.
+
 ++ Delayed Magic (Metamagic feat)
 
 Prerequisite: Spell pool class feature.
@@ -296,6 +323,12 @@ Benefit: You delay the effect of a sphere ability for up to 5 rounds after you u
 Prerequisites: Access to the Destruction and Enhancement spheres.
 
 Benefit: You may spend an additional spell point when using your destructive blast to have it deal +50% damage against creatures that are under the effects of one of your enhancements.
+
+++ Destructive Radiance (Dual Sphere)
+
+Prerequisites: Destruction sphere, Light sphere. 
+
+Benefit: Whenever you use your destructive blast, you can choose to have it take on the properties of light. A destructive blast modified in this way no longer requires line of effect to its targets, but is blocked by factors that affect normal sight (such as concealment). For example, you could fire your destructive blast through a glass window or a barrier, but it would be blocked by opaque walls, fog or darkness.
 
 ++ Durable Objects
 
@@ -520,6 +553,12 @@ Normal: You may only affect targets with your hypnotism at Close range.
 Prerequisite: Shadowmark class feature.
 
 Benefit: Your shadowmark deals d8s for damage instead of d6s.
+
+++ Hard Light (Dual Sphere)
+
+Prerequisites: Creation sphere, Light sphere.
+
+Benefit: When you create an object, you may make it out of hardened light instead of matter. Objects you create this way naturally shine, shedding bright light as if by your glow effect. Otherwise, an object created out of hardened light has the properties of any one material you can normally create, except that it has half its normal weight.
 
 ++ Heavy Hand
 
@@ -782,6 +821,16 @@ Prerequisites: Destruction sphere, Energy Sphere talent
 
 Benefits: Whenever you successfully deal damage to a target with your energy sphere, increase its duration by 1 round. You can only extend the sphere’s duration by up to a number of rounds equal to your caster level.
 
+++ Photosynthesis
+
+Prerequisites: Con 13, Survival 3 ranks, Light Sphere.
+
+Benefit: After a long period of meditation, you have learned how to harness the power of light. If are in an area of bright light, you can regain hit points equal to your character level as a move action. This ability can only be used once per minute, and can only heal you up to half your normal maximum hit points; any excess healing is lost.
+
+In addition, so long as you spend at least one full hour in an area of bright light you gain all the nourishment you need, and do not need to eat or drink that day.
+
+The benefits of this feat are a supernatural ability.
+
 ++ Piecemeal Animation
 
 Prerequisites: Death Sphere, Telekinesis Sphere, Divided Mind
@@ -848,11 +897,31 @@ Prerequisites: Casting class feature, Ritual Caster.
 
 Benefit: You may use your MSB in place of your caster level when using rituals.
 
+++ Searing Brilliance
+
+Prerequisites: Caster level 5th, Light sphere, Searing Light.
+
+Benefit: Your Searing Light now deals 1 point of untyped damage per caster level per round in addition to its fire damage. Undead, oozes, and creatures harmed by daylight take 2 additional points of untyped damage per caster level per round instead.
+
+++ Sense Light
+
+Prerequisites: Perception 5 ranks, Light Sphere.
+
+Benefit: Through intense rituals and training you have become capable of sensing light by touch. By spending a swift action, you retain your normal visual abilities for a round when your eyes are closed, and are immune to the effects of the blinded and dazzled conditions, and all gaze attacks. You do not, however, retain the benefits of sight-based abilities (such as darkvision or low-light vision). You must be in area of dim or brighter light to gain the benefits of this feat.
+
+The benefit of this feat is a supernatural ability.
+
 ++ Shadowblast
 
 Prerequisite: Shadowmark class feature.
 
 Benefit: When using your shadowmark, you may spend an extra shadow point to change the effect from a ranged touch attack into a Close-ranged cone. All creatures within this area are allowed a Reflex save for half damage. If they succeed at this Reflex save, they do not suffer the penalty to Will saves.
+
+++ Shining Stars
+
+Prerequisites: Light sphere, Dancing Lights, Glory.
+
+Benefit: You may apply the effects of your Glory talent to glow effects you create as Dancing Lights as if they were placed on yourself, though you may still only apply the effects of Glory to a single glow at a time.
 
 ++ Skillful Force
 
