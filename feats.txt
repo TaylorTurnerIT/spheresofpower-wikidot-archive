@@ -2,15 +2,6 @@ title:Feats
 parent:start
 [[toc]]
 
-++ Admixture Feats
-Admixture feats grant new ways to utilize the Admixture talent, adding abilities from other spheres to your destructive blast. All admixture feats replace the second blast talent you would normally apply, with the resulting destructive blast dealing normal blast damage in addition to the effect outlined in the feat. Any additional costs incurred by the additional effect must be paid as normal. If your caster level is different for the two spheres, the destructive blast is governed by your caster level for the relevant blast type and the additional effect is governed by your caster level for the appropriate ability.
-
-++ Drawback Feats
-Drawback feats present a way of taking advantage of a specific drawback in a manner more specific than just gaining extra spell points. At your GM’s option, you may take a drawback feat in place of a boon. An incanter may select drawback feats as bonus feats.
-
-++ Dual Sphere Feats
-Skilled magicians can learn to combine different fields of magic, allowing them to produce new effects or wield multiple forms of magic simultaneously. While the results are powerful, doing so requires great skill and concentration. Only the effects of one Dual Sphere feat can be applied to any given use of sphere abilities.
-
 ++ Metamagic Feats
 Applying a metamagic feat to a sphere effect is similar to, but slightly different from, how a spontaneous caster applies a metamagic feat to a spell. A caster may choose to augment their sphere effect with an appropriate metamagic feat at the time of casting. To use a metamagic feat, the caster must spend a number of additional spell points equal to the level increase of the metamagic feat. In addition, the sphere effect’s casting time increases by 1 step. These effects are cumulative for every metamagic feat applied.
 
@@ -34,11 +25,156 @@ Proxy feats represent an enhanced ability to manipulate and take advantage of th
 
 + New Feats
 
-++ Addictive Power (Drawback)
+++ Admixture Feats
+Admixture feats grant new ways to utilize the Admixture talent, adding abilities from other spheres to your destructive blast. All admixture feats replace the second blast talent you would normally apply, with the resulting destructive blast dealing normal blast damage in addition to the effect outlined in the feat. Any additional costs incurred by the additional effect must be paid as normal. If your caster level is different for the two spheres, the destructive blast is governed by your caster level for the relevant blast type and the additional effect is governed by your caster level for the appropriate ability.
+
++++ Enhancing Admixture (Admixture)
+
+Prerequisites: Enhancement sphere, Destruction sphere, Admixture talent
+
+Benefit: When using the Admixture talent, you may spend an additional spell point to have a single creature that takes damage be targeted by an Enhancement effect that you possess. If you possess the Mass Enhancement talent, you may apply the Enhancement to any targets damaged, up to your maximum targets from Mass Enhancement. This ability can only target creatures, it cannot be used to animate objects.
+
++++ Ghostly Admixture (Admixture)
+
+Prerequisites: Death sphere, Destruction sphere, Admixture talent
+
+Benefit: When using the admixture talent, you may spend an additional spell point to affect one target damaged by the blast with an Ghost Strike effect you know, in place of a second blast type. If you possess the Greater Ghost Strike talent, you may pay an additional spell point to apply the Ghost Strike to all targets damaged.
+
++++ Illuminating Admixture (Admixture)
+
+Prerequisites: Destruction sphere, Light sphere, Admixture talent
+
+Benefit: When using the Admixture talent, you may cause a single creature that takes damage to Glow.
+
++++ Mind Wrack (Admixture)
+
+Prerequisites: Mind sphere, Destruction sphere, Admixture talent
+
+Benefit: When using the Admixture talent, you may spend an additional spell point to have a single creature that takes damage be targeted by a Charm that you possess. If you possess the Group Charm talent, you may apply the Charm to all targets damaged, up to your maximum number of targets from Group Charm.
+
++++ Morphic Admixture (Admixture)
+
+Prerequisites: Alteration sphere, Destruction sphere, Admixture talent
+
+Benefit: When using the Admixture talent, you may spend an additional spell point to have a single creature that takes damage save against a hostile shapeshift. If you possess the Mass Alteration talent, you may apply the hostile shapeshift to all targets damaged, up to your maximum targets from Mass Alteration.
+
++++ Space-rending Admixture (Admixture)
+
+Prerequisites: Warp sphere, Destruction sphere, Admixture talent
+
+Benefit: When using the Admixture talent, you may spend an additional spell point to have a single creature that takes damage targeted by Unwilling Teleport. If you possess the Group Teleport talent, you may apply the Unwilling Teleport effect to all targets damaged, up to your maximum targets from Group Teleport.
+
++++ Telekinetic Admixture (Admixture)
+
+Prerequisites: Telekinesis sphere, Destruction sphere, Admixture talent
+
+Benefit: When using the Admixture talent, you may spend an additional spell point to lift a creature that takes damage as per Hostile Lift. If you possess the Divided Mind talent, you may lift any number of creatures damaged by the blast that do not exceed your lift limit. Maintaining the hostile lift requires concentration as normal.
+
++++ Time-thief’s Admixture (Admixture)
+
+Prerequisites: Time sphere, Destruction sphere, Admixture talent
+
+Benefit: When using the Admixture talent, you may spend an additional spell point to have a single creature that takes damage targeted by an Alter Time talent that you possess. If you possess the Group Time talent, you may apply the Alter Time effect to all targets damaged, up to your maximum targets from Group Time.
+
++++ Umbral Admixture (Admixture)
+
+Prerequisites: Dark sphere, Destruction sphere, Admixture talent
+
+Benefit: When using the Admixture talent, you may spend an additional spell point to center a Darkness effect on the target’s square or another affected square.
+
+++ Combat Feats
+
++++ Augur of Combat (Combat)
+
+Prerequisite: Int 13.
+
+Benefit: As long as you are last in the initiative count, use your intelligence modifier for attack rolls in place of the ability modifier that you would normally use.
+
++++ Militant Animation (Combat)
+
+Prerequisites: Animate Object, BAB +1.
+
+Benefit: Whenever you create an animated object, you may grant it a single Combat feat it qualifies for as a bonus feat. You may spend an additional spell point when using Animate Object to grant the object an additional bonus Combat feat it qualifies for.
+
+Normal: Animated Objects are mindless, and do not possess any feats.
+
++++ Precognicient Protection (Combat)
+
+Prerequisite: Divination sphere, one or more (sense) talents or abilities.
+
+Benefit: You gain an insight bonus to armor class equal to the number of divination (sense) talents or abilities you have active (maximum 1 + 1 per 5 HD). In addition, you may as an immediate action spend a spell point and dismiss a (sense) ability you have active to cause a critical hit against you to become a regular hit instead.
+
++++ Precognicient Resistance (Combat)
+
+Prerequisite: Divination sphere, one or more (sense) talents or abilities.
+
+Benefit: You gain a resistance bonus to saves equal to the number of divination (sense) talents or abilities you have active (maximum 1 + 1 per 4 HD). In addition, you may as an immediate action spend a spell point and dismiss a divination (sense) ability you have active to reroll a saving throw you have failed.
+
++++ Precognicient Smite (Combat)
+
+Prerequisite: Divination sphere, one or more (sense) talents or abilities.
+
+Benefit: You gain an insight bonus to attack and damage equal to the number of divination (sense) abilities you currently have active (maximum 1 + 1 per 5 HD). You may as an immediate action spend a spell point and dismiss a divination (sense) ability you have active to ignore a percentage of miss chance (maximum 5% + 5% per 5 HD) for 1 round.
+
+++ Drawback Feats
+Drawback feats present a way of taking advantage of a specific drawback in a manner more specific than just gaining extra spell points. At your GM’s option, you may take a drawback feat in place of a boon. An incanter may select drawback feats as bonus feats.
+
++++ Addictive Power (Drawback)
 
 Prerequisites: Addictive Casting, access to the Enhancement sphere.
 
 Benefit: Your enhancements satisfy your addiction, to a degree; whenever you spend a spell point to relinquish concentration on an enhancement targeting yourself, the time until you begin suffering penalties extends to the end of the enhancement’s duration. In addition, you gain a +1 bonus to all saving throws while you are suffering the penalties from your addiction.
+
+++ Dual Sphere Feats
+Skilled magicians can learn to combine different fields of magic, allowing them to produce new effects or wield multiple forms of magic simultaneously. While the results are powerful, doing so requires great skill and concentration. Only the effects of one Dual Sphere feat can be applied to any given use of sphere abilities.
+
++++ Aurora (Dual Sphere)
+
+Prerequisites: Light sphere, Weather sphere.
+
+Benefit: When you use control weather, you may also choose to increase the light level by one step in the same area, up to a maximum of normal light. At 10th caster level, you may increase the light level by an additional step. Areas of magical darkness in range of this effect are unaffected, their light levels remaining unchanged.
+
++++ Beam Propulsion (Dual Sphere)
+
+Prerequisites: Light sphere, Telekinesis sphere.
+
+Benefit: By amplifying and focusing the tiny pressure exerted by light with your powers of telekinesis, you can move a target with the force of light alone. When you cause a target to glow, you may increase the casting time by one step to also lift it with your telekinesis as part of the same action. You may also concentrate to maintain concentration on the bright light of your glow and your telekinesis with a single action, though this increases the action needed to maintain concentration by one step (usually from a standard action to a full-round action).
+
++++ Bioluminescent Transformation (Dual Sphere)
+
+Prerequisites: Alteration sphere, Light sphere.
+
+Benefit: When you shapeshift a target, you may also cause that target to glow. In addition you may maintain concentration on the shapeshift and the bright light of the glow with a single action. If you apply a (light) talent to a glow created and maintained this way, it counts against the number of traits you may grant with your shapeshift.
+
+++ Destructive Radiance (Dual Sphere)
+
+Prerequisites: Destruction sphere, Light sphere. 
+
+Benefit: Whenever you use your destructive blast, you can choose to have it take on the properties of light. A destructive blast modified in this way no longer requires line of effect to its targets, but is blocked by factors that affect normal sight (such as concealment). For example, you could fire your destructive blast through a glass window or a barrier, but it would be blocked by opaque walls, fog or darkness.
+
+++ Hard Light (Dual Sphere)
+
+Prerequisites: Creation sphere, Light sphere.
+
+Benefit: When you create an object, you may make it out of hardened light instead of matter. Objects you create this way naturally shine, shedding bright light as if by your glow effect. Otherwise, an object created out of hardened light has the properties of any one material you can normally create, except that it has half its normal weight.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ++ Advanced Magical Training
 
@@ -112,18 +248,6 @@ Prerequisites: Destruction sphere, Weather sphere
 
 Benefit: When using blast talents with the air, electrical, or sonic blast type groups, or any blast type deemed appropriate by the GM, when there is an area of rain and wind both at or above category 4, your destructive blast bypasses spell resistance.
 
-++ Augur of Combat [Combat]
-
-Prerequisite: Int 13.
-
-Benefit: As long as you are last in the initiative count, use your intelligence modifier for attack rolls in place of the ability modifier that you would normally use.
-
-++ Aurora (Dual Sphere)
-
-Prerequisites: Light sphere, Weather sphere.
-
-Benefit: When you use control weather, you may also choose to increase the light level by one step in the same area, up to a maximum of normal light. At 10th caster level, you may increase the light level by an additional step. Areas of magical darkness in range of this effect are unaffected, their light levels remaining unchanged.
-
 ++ Backdoor Control
 
 Prerequisites: Bestow Intelligence, Expanded Charm
@@ -137,18 +261,6 @@ Prerequisite: No levels in any spellcasting class.
 Benefit: Choose a sphere of magic. You gain access to this basic sphere. You gain an effective caster level of 1 and a spell pool of 1. Use your highest mental ability as your casting ability score.
 
 If you later gain levels in a spellcasting class, exchange this feat for the Extra Magical Talent feat.
-
-++ Beam Propulsion (Dual Sphere)
-
-Prerequisites: Light sphere, Telekinesis sphere.
-
-Benefit: By amplifying and focusing the tiny pressure exerted by light with your powers of telekinesis, you can move a target with the force of light alone. When you cause a target to glow, you may increase the casting time by one step to also lift it with your telekinesis as part of the same action. You may also concentrate to maintain concentration on the bright light of your glow and your telekinesis with a single action, though this increases the action needed to maintain concentration by one step (usually from a standard action to a full-round action).
-
-++ Bioluminescent Transformation (Dual Sphere)
-
-Prerequisites: Alteration sphere, Light sphere.
-
-Benefit: When you shapeshift a target, you may also cause that target to glow. In addition you may maintain concentration on the shapeshift and the bright light of the glow with a single action. If you apply a (light) talent to a glow created and maintained this way, it counts against the number of traits you may grant with your shapeshift.
 
 ++ Blessing/Blight Mastery
 
@@ -324,12 +436,6 @@ Prerequisites: Access to the Destruction and Enhancement spheres.
 
 Benefit: You may spend an additional spell point when using your destructive blast to have it deal +50% damage against creatures that are under the effects of one of your enhancements.
 
-++ Destructive Radiance (Dual Sphere)
-
-Prerequisites: Destruction sphere, Light sphere. 
-
-Benefit: Whenever you use your destructive blast, you can choose to have it take on the properties of light. A destructive blast modified in this way no longer requires line of effect to its targets, but is blocked by factors that affect normal sight (such as concealment). For example, you could fire your destructive blast through a glass window or a barrier, but it would be blocked by opaque walls, fog or darkness.
-
 ++ Durable Objects
 
 Prerequisites: Animate Object.
@@ -365,12 +471,6 @@ Benefit: Choose one blast type group. Your destructive blasts using blast types 
 Prerequisites: Contingency, access to the Enhancement sphere.
 
 Benefit: You may enhance a contingency effect. If the contingency creates or summons a valid target for that enhancement, the enhancement is transferred to that target. Otherwise, the enhancement is transferred to the sphere effect once it takes effect. You may spend an additional spell point when applying the enhancement to tie it into the Contingency; if you do so, time spent prior to the Contingency triggering does not count towards the enhancement’s duration.
-
-++ Enhancing Admixture (Admixture)
-
-Prerequisites: Enhancement sphere, Destruction sphere, Admixture talent
-
-Benefit: When using the Admixture talent, you may spend an additional spell point to have a single creature that takes damage be targeted by an Enhancement effect that you possess. If you possess the Mass Enhancement talent, you may apply the Enhancement to any targets damaged, up to your maximum targets from Mass Enhancement. This ability can only target creatures, it cannot be used to animate objects.
 
 ++ Enhancing Telekinesis
 
@@ -522,12 +622,6 @@ Prerequisites: Destruction sphere, at least one (blast type) Talent that deals c
 
 Benefit: When using a destructive blast shape that allows a Reflex save with a blast type that deals cold damage, you may replace the Reflex save with a Fortitude save.
 
-++ Ghostly Admixture (Admixture)
-
-Prerequisites: Death sphere, Destruction sphere, Admixture talent
-
-Benefit: When using the admixture talent, you may spend an additional spell point to affect one target damaged by the blast with an Ghost Strike effect you know, in place of a second blast type. If you possess the Greater Ghost Strike talent, you may pay an additional spell point to apply the Ghost Strike to all targets damaged.
-
 ++ Gravitic Anomaly (Protokinesis)
 
 Prerequisites: Telekinesis Sphere, Counterweight
@@ -554,23 +648,11 @@ Prerequisite: Shadowmark class feature.
 
 Benefit: Your shadowmark deals d8s for damage instead of d6s.
 
-++ Hard Light (Dual Sphere)
-
-Prerequisites: Creation sphere, Light sphere.
-
-Benefit: When you create an object, you may make it out of hardened light instead of matter. Objects you create this way naturally shine, shedding bright light as if by your glow effect. Otherwise, an object created out of hardened light has the properties of any one material you can normally create, except that it has half its normal weight.
-
 ++ Heavy Hand
 
 Prerequisites: Destruction sphere, at least one (blast type) talent that deals nonlethal damage
 
 Benefit: When using a destructive blast type that deals nonlethal damage, you may instead deal lethal bludgeoning damage, but your die size is reduced one step. Additionally, you gain a +1 insight bonus to attack rolls and save DCs with destructive blasts that deal nonlethal damage.
-
-++ Illuminating Admixture (Admixture)
-
-Prerequisites: Destruction sphere, Light sphere, Admixture talent
-
-Benefit: When using the Admixture talent, you may cause a single creature that takes damage to Glow.
 
 ++ Imbue with Nature
 
@@ -721,14 +803,6 @@ Prerequisites: Destruction sphere, Combat Casting
 
 Benefit: When using a destructive blast as (or as part of) a melee attack or melee touch attack, your destructive blast does not provoke attacks of opportunity.
 
-++ Militant Animation (Combat)
-
-Prerequisites: Animate Object, BAB +1.
-
-Benefit: Whenever you create an animated object, you may grant it a single Combat feat it qualifies for as a bonus feat. You may spend an additional spell point when using Animate Object to grant the object an additional bonus Combat feat it qualifies for.
-
-Normal: Animated Objects are mindless, and do not possess any feats.
-
 ++ Mind Against Body
 
 Prerequisites: Telekinesis Sphere, Telekinetic Maneuver
@@ -746,18 +820,6 @@ Benefit: Your telekinetic powers give you an additional arm made of telekinetic 
 Prerequisites: Psionics class feature, battlefield relay psionic effect.
 
 Benefit: Increase the save DC of your battlefield relay psionic effect by +2.
-
-++ Mind Wrack (Admixture)
-
-Prerequisites: Mind sphere, Destruction sphere, Admixture talent
-
-Benefit: When using the Admixture talent, you may spend an additional spell point to have a single creature that takes damage be targeted by a Charm that you possess. If you possess the Group Charm talent, you may apply the Charm to all targets damaged, up to your maximum number of targets from Group Charm.
-
-++ Morphic Admixture (Admixture)
-
-Prerequisites: Alteration sphere, Destruction sphere, Admixture talent
-
-Benefit: When using the Admixture talent, you may spend an additional spell point to have a single creature that takes damage save against a hostile shapeshift. If you possess the Mass Alteration talent, you may apply the hostile shapeshift to all targets damaged, up to your maximum targets from Mass Alteration.
 
 ++ Mounted Magician
 
@@ -842,24 +904,6 @@ Benefit: When you reanimate a dead body, it does not need to be intact. So long 
 Prerequisite: Divination sphere, one or more (sense) talents or abilities.
 
 Benefit: You may use your magic skill bonus (MSB) or caster level, whichever is higher for the purposes of determining the duration of Divination (sense) talents or abilities.
-
-++ Precognicient Protection [Combat]
-
-Prerequisite: Divination sphere, one or more (sense) talents or abilities.
-
-Benefit: You gain an insight bonus to armor class equal to the number of divination (sense) talents or abilities you have active (maximum 1 + 1 per 5 HD). In addition, you may as an immediate action spend a spell point and dismiss a (sense) ability you have active to cause a critical hit against you to become a regular hit instead.
-
-++ Precognicient Resistance [Combat]
-
-Prerequisite: Divination sphere, one or more (sense) talents or abilities.
-
-Benefit: You gain a resistance bonus to saves equal to the number of divination (sense) talents or abilities you have active (maximum 1 + 1 per 4 HD). In addition, you may as an immediate action spend a spell point and dismiss a divination (sense) ability you have active to reroll a saving throw you have failed.
-
-++ Precognicient Smite [Combat]
-
-Prerequisite: Divination sphere, one or more (sense) talents or abilities.
-
-Benefit: You gain an insight bonus to attack and damage equal to the number of divination (sense) abilities you currently have active (maximum 1 + 1 per 5 HD). You may as an immediate action spend a spell point and dismiss a divination (sense) ability you have active to ignore a percentage of miss chance (maximum 5% + 5% per 5 HD) for 1 round.
 
 ++ Proxy Counterspell (Proxy)
 
@@ -946,12 +990,6 @@ Benefit: You may enhance illusions you create as if they were actually the creat
 Prerequisites: Destruction sphere, 5th caster level or higher
 
 Benefit: You may accept 2 or more points of Constitution burn as a free action. Doing so grants 1 temporary spell point per 2 points of burn that expires at the end of your turn. Half the damage of any destructive blast these temporary spell points are spent on becomes untyped damage and the blast bypasses spell resistance. The number of spell points granted per 2 points of burn increases by +1 every ten character levels. You cannot use this ability if doing so would reduce your constitution to 0.
-
-++ Space-rending Admixture (Admixture)
-
-Prerequisites: Warp sphere, Destruction sphere, Admixture talent
-
-Benefit: When using the Admixture talent, you may spend an additional spell point to have a single creature that takes damage targeted by Unwilling Teleport. If you possess the Group Teleport talent, you may apply the Unwilling Teleport effect to all targets damaged, up to your maximum targets from Group Teleport.
 
 ++ Spell Proxy
 
@@ -1051,12 +1089,6 @@ Benefit: By weaving your illusions together with a hint of telekinetic force you
 
 In addition, you may deal lethal damage with your illusions instead of nonlethal damage.
 
-++ Telekinetic Admixture (Admixture)
-
-Prerequisites: Telekinesis sphere, Destruction sphere, Admixture talent
-
-Benefit: When using the Admixture talent, you may spend an additional spell point to lift a creature that takes damage as per Hostile Lift. If you possess the Divided Mind talent, you may lift any number of creatures damaged by the blast that do not exceed your lift limit. Maintaining the hostile lift requires concentration as normal.
-
 ++ Telekinetic Exoskeleton (Protokinesis)
 
 Prerequisites: Character level 3rd, Telekinesis Sphere
@@ -1077,12 +1109,6 @@ Benefit: When using the Energy Tether blast shape, instead of targeting a creatu
 
 ^^*^^ OGL reference for Akashic Mysteries as wording from lashing spinnerets veil borrowed.
 
-++ Time-thief’s Admixture (Admixture)
-
-Prerequisites: Time sphere, Destruction sphere, Admixture talent
-
-Benefit: When using the Admixture talent, you may spend an additional spell point to have a single creature that takes damage targeted by an Alter Time talent that you possess. If you possess the Group Time talent, you may apply the Alter Time effect to all targets damaged, up to your maximum targets from Group Time.
-
 ++ Touchsense (Protokinesis)
 
 Prerequisites: Perception 5 ranks, Telekinesis Sphere
@@ -1096,12 +1122,6 @@ Benefit: You can use your telekinesis to sense your surroundings, passively meas
 Prerequisite: Emotion class feature.
 
 Benefit: You may apply any emotion power with ‘touch’ in the name to yourself as a move action instead of a standard action. Doing so does not provoke an attack of opportunity.
-
-++ Umbral Admixture (Admixture)
-
-Prerequisites: Dark sphere, Destruction sphere, Admixture talent
-
-Benefit: When using the Admixture talent, you may spend an additional spell point to center a Darkness effect on the target’s square or another affected square.
 
 ++ Wand Wielder
 
