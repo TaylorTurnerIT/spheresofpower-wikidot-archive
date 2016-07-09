@@ -106,6 +106,12 @@ Prerequisites: Addictive Casting, access to the Enhancement sphere.
 
 Benefit: Your enhancements satisfy your addiction, to a degree; whenever you spend a spell point to relinquish concentration on an enhancement targeting yourself, the time until you begin suffering penalties extends to the end of the enhancement’s duration. In addition, you gain a +1 bonus to all saving throws while you are suffering the penalties from your addiction.
 
++++ Careful Magic (Drawback)
+
+Prerequisites: Extended Casting, access to the Enhancement sphere.
+
+Benefit: Your slow casting style results in more firmly constructed sphere effects. You add your casting ability score modifier as a bonus to your MSD (minimum +1) for the purposes of countering or dispelling your sphere effects. You may spend an additional spell point when enhancing a creature or object to force any creature attempting to dispel or counter that effect to roll twice and take the worse result.
+
 +++ Magical Focus (Drawback)
 
 Prerequisites: Focus Casting, access to the Enhancement sphere.
@@ -144,6 +150,18 @@ Benefit: When you shapeshift a target, you may also cause that target to glow. I
 Prerequisites: Destruction sphere, Light sphere. 
 
 Benefit: Whenever you use your destructive blast, you can choose to have it take on the properties of light. A destructive blast modified in this way no longer requires line of effect to its targets, but is blocked by factors that affect normal sight (such as concealment). For example, you could fire your destructive blast through a glass window or a barrier, but it would be blocked by opaque walls, fog or darkness.
+
++++ Enhancing Telekinesis
+
+Prerequisites: Enhancement Sphere, Telekinesis Sphere
+
+Benefit: When you lift an object with your telekinesis, as part of the same action you may enhance it with one enhancement you possess. You may concentrate on lifting and enhancing the item with a single action. Only a single object can benefit from this combination, even if you can enhance or lift more than one at a time.
+
++++ Exceptional Ally
+
+Prerequisites: Access to the Conjuration sphere, at least one (enhance) talent.
+
+Benefit: Whenever you summon a companion, you may spend one spell point to enhance them as part of the same standard action. If you do so, the enhancement lasts for the full duration of the summoning effect.
 
 +++ Hard Light (Dual Sphere)
 
@@ -232,6 +250,30 @@ Prerequisites: Unseen Forces class feature
 
 Benefit: You gain an additional unseen augmentation for which you qualify. You may take this feat multiple times. The effects stack.
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ++ General Feats
 
 +++ Advanced Magical Training
@@ -240,53 +282,11 @@ Prerequisites: Basic Magical Training or 1 level in a casting class.
 
 Benefit: Treat your levels in non-casting classes as low-casting classes when determining your total caster level. If you do not possess levels in a casting class, increase your spell point pool to equal your casting ability modifier. With GM permission, you may also select a casting tradition when you gain this feat.
 
-+++ Aligned Object
-
-Prerequisites: Animate Object, must not be True Neutral.
-
-Benefit: Any animated object you create gains the subtypes of your alignment. In addition, you gain access to the following additional ability and flaw:
-
-* Aligned Weapons (Su; 1 CP): The animated object’s slam attacks deal 1d6 additional damage to creatures whose alignment opposes one of the animated object’s alignment subtypes. This ability may be chosen multiple times; its effects stack.
-
-* Heavily Aligned (Su; +1 CP): The animated object’s hardness is bypassed by weapons and effects that are aligned to an alignment that opposes one of the animated object’s alignment subtypes.
-
-+++ Alloy Creation
-
-Prerequisites: Creation Sphere, Metal Geomancing.
-
-Benefit: When using your Creation sphere abilities, you may create and alter objects made from metals you can summon with your recover ore Nature sphere ability, even if you do not possess the Expanded Materials Creation talent. While this does not increase your actual recover ore size, geomancing powers dependent on your recover ore size such as magnetize or heat metal treat your recover ore size as being twice what it normally is when determining how much metal they can affect at one time.
-
-+++ Alloy Enhancement
-
-Prerequisites: Enhancement Sphere, Metal Geomancing.
-
-Benefit: Whenever you use a metal geomancing ability which creates or affects metal (such as recover ore) you may choose to enhance the metal via the enhancement sphere as part of the same action. This costs 1 additional spell point, in addition to any spell points required by the enhancement in question.
-
-+++ Alloy Telekinesis
-
-Prerequisite: Telekinesis Sphere, Metal Geomancing.
-
-Benefit: Whenever you use the metal geomancing recover ore ability, you may use telekinesis to bludgeon another target creature or object with the metal ore recovered in this way, all in the same action. If you increase the casting time by 1 step (usually from a standard to full-round action), you may utilize your caster level instead of your base attack bonus for the first attack roll, and add your casting ability modifier to damage.
-
-+++ Animated Arsenal
-
-Prerequisites: Animate Object, BAB +1.
-
-Benefit: Whenever you create an animated object out of a weapon, you may change the damage type of one slam attack to either piercing or slashing. If you choose to apply the piercing attack or slashing attack abilities to one of the object’s other slam attacks, you may choose to have it also apply to the slam attack modified through this feat for no additional cost. Finally, the first application of ranged attack only costs 1 CP.
-
 +++ Arcane Empowerment
 
 Prerequisites: Spell pool, the ability to cast arcane or divine spells.
 
 Benefit: When casting a spell, you may spend 1 spell point as a free action to either increase the caster level by 2 or increase the spell’s DC by 2. You cannot spend more than 1 spell point in this manner. This does not stack with an arcanist’s ability to increase a spell’s caster level or DC through the expenditure of points from their arcane reservoir.
-
-+++ Arcing Strike
-
-Prerequisites: Destruction sphere, Guided Strike, caster level 11th or higher.
-
-You may spend a spell point to make your destructive blast fly in an erratic path, unerringly striking your target no matter what lies between you. Your destructive blast ignore the AC bonus granted to targets by anything less than total cover, and the miss chance granted to targets by anything less than total concealment. Total cover and total concealment provide their normal benefits against your ranged attacks.
-
-//Special:// If you possess the Divination sphere Viewing talent, you can use arcing blast to strike any target that you can see that is within range of both your blast and your divination, as long as it isn’t inside a completely enclosed space (GM’s discretion).
 
 +++ Artificery
 
@@ -299,18 +299,6 @@ Benefit: Select one Craft or Profession skill in which you have at least 5 ranks
 Prerequisites: Any Craft or Profession skill (10 ranks), Artificery
 
 Benefit: When using the skill chosen with the Artificery feat to create a magic item, you may craft that magic item whether or not you possess its prerequisite base sphere. Crafting a magic item in this fashion increases the skill check required to make the item by +5.
-
-+++ Atmospheric Imbuement
-
-Prerequisites: Destruction sphere, Weather sphere
-
-Benefit: When using blast talents with the air, electrical, or sonic blast type groups, or any blast type deemed appropriate by the GM, when there is an area of rain and wind both at or above category 4, your destructive blast bypasses spell resistance.
-
-+++ Backdoor Control
-
-Prerequisites: Bestow Intelligence, Expanded Charm
-
-Benefit: Whenever you use a charm against a creature or object you used Bestow Intelligence on, requests you make that would normally be against their nature are instead treated as things they wouldn’t normally do. This increased control extends to creatures you create through Bestow Life or Give Magic Life.
 
 +++ Basic Magical Training
 
@@ -354,12 +342,6 @@ You can make up new effects, but they should not be more powerful than those lis
 
 **Wiki Note:** An optional rule for Spheres of Power is giving this feat for free to all casters. Ask your GM about this if you're interested.
 
-+++ Careful Magic (Drawback)
-
-Prerequisites: Extended Casting, access to the Enhancement sphere.
-
-Benefit: Your slow casting style results in more firmly constructed sphere effects. You add your casting ability score modifier as a bonus to your MSD (minimum +1) for the purposes of countering or dispelling your sphere effects. You may spend an additional spell point when enhancing a creature or object to force any creature attempting to dispel or counter that effect to roll twice and take the worse result.
-
 +++ Channel Destruction
 
 Prerequisites: Destruction sphere, Channel Energy class feature
@@ -381,18 +363,6 @@ Prerequisites: Casting class feature, 10th caster level or higher.
 Benefit: You may aid another spellcaster who also possesses this feat, granting them a temporary +1 bonus to their caster level, as well as granting them access to your spell points and talents as if they possessed them. You must spend a standard action every round to maintain this ability, and you must be within 30 ft of the caster you are aiding in this manner.
 
 A target may be aided by multiple casters at once in this manner, but all involved casters must remain within 30 ft of each other, and the effects are not strictly cumulative. It takes one aiding caster to add a +1 enhancement bonus, three to add a +2 bonus, six to add a +3 bonus, ten to add a +4 bonus, and fifteen to add a +5 bonus. No caster may receive more than a +5 bonus in this manner.
-
-+++ Coastal Infusion
-
-Prerequisites: Nature Sphere, Earth Geomancing and Water Geomancing.
-
-Benefit: When using either earth geomancing or water geomancing within 30 ft of both land and a substantial body of water, you gain a +2 bonus to your caster level for those geomancing abilities.
-
-+++ Complex Animations
-
-Prerequisites: Animate Object.
-
-Benefit: You gain an additional creation point whenever you use Animate Object.
 
 +++ Contingency
 
@@ -466,53 +436,11 @@ Prerequisites: Casting class feature, Spellcrafting.
 
 Benefit: You may write down your spells in a magic book, allowing you access to more spells than the usual limit. See the Advanced Magic section for more information on spellcrafting and spellbooks.
 
-+++ Deadly Targeting
-
-Prerequisites: Destruction sphere
-
-Benefit: The base critical threat range of your destructive blast increases to 19-20.
-
-+++ Defiant Radiance
-
-Prerequisites: Light sphere.
-
-Benefit: You add +2 to your MSB and MSD for the purposes of Light sphere effects. Double this bonus when making an opposed magic skill check against magical darkness effects.
-
-+++ Destructive Harmonics
-
-Prerequisites: Access to the Destruction and Enhancement spheres.
-
-Benefit: You may spend an additional spell point when using your destructive blast to have it deal +50% damage against creatures that are under the effects of one of your enhancements.
-
-+++ Durable Objects
-
-Prerequisites: Animate Object.
-
-Benefit: Whenever you create an animated object, it gains bonus hit points as if it were one size larger. If the animated object already has an effective size of Colossal or greater, it instead gains 30 additional bonus hit points.
-
 +++ Elicit Strike
 
 Prerequisites: Improved Unarmed Strike, Emotion class feature.
 
 Benefit: If you make a successful unarmed strike against an opponent, in addition to dealing your unarmed strike damage, you can spend a swift action to deliver the effects of an emotion power with ‘touch’ in its name. Doing so provokes no attacks of opportunity.
-
-+++ Enchanted Animation
-
-Prerequisites: Animate Object, at least one additional talent from any sphere.
-
-Benefit: Whenever you create an animated object, you may spend a spell point to grant it a single use of one of your sphere abilities; if the sphere ability costs spell points to use, you must pay for that cost when granting it. It may use that sphere ability as if you had cast it yourself.
-
-+++ Energy Snake
-
-Prerequisites: Destruction sphere, Energy Sphere
-
-Benefits: When using the Energy Sphere (blast shape), you may spend 2 spell points instead of 1 to form the energy sphere into a serpent, which grows with every target it consumes. Whenever the energy sphere successfully deals damage to a target, its size increases by 1 5-ft square. When moving the energy sphere each round, its squares may be arranged in any shape desired by the caster, so long as the squares are contiguous.
-
-+++ Energy Specialization
-
-Prerequisites: Destruction sphere, 5th caster level or higher
-
-Benefit: Choose one blast type group. Your destructive blasts using blast types from that group gain a +2 insight bonus to caster level.
 
 +++ Enhanced Contingency
 
@@ -520,71 +448,11 @@ Prerequisites: Contingency, access to the Enhancement sphere.
 
 Benefit: You may enhance a contingency effect. If the contingency creates or summons a valid target for that enhancement, the enhancement is transferred to that target. Otherwise, the enhancement is transferred to the sphere effect once it takes effect. You may spend an additional spell point when applying the enhancement to tie it into the Contingency; if you do so, time spent prior to the Contingency triggering does not count towards the enhancement’s duration.
 
-+++ Enhancing Telekinesis
-
-Prerequisites: Enhancement Sphere, Telekinesis Sphere
-
-Benefit: When you lift an object with your telekinesis, as part of the same action you may enhance it with one enhancement you possess. You may concentrate on lifting and enhancing the item with a single action. Only a single object can benefit from this combination, even if you can enhance or lift more than one at a time.
-
-+++ Exceptional Ally
-
-Prerequisites: Access to the Conjuration sphere, at least one (enhance) talent.
-
-Benefit: Whenever you summon a companion, you may spend one spell point to enhance them as part of the same standard action. If you do so, the enhancement lasts for the full duration of the summoning effect.
-
-+++ Extradimensional Assembly
-
-Prerequisites: Telekinesis Sphere, Warp Sphere, Extra dimensional Storage, Whirlwind Assembly
-
-Benefit: When you use your Whirlwind Assembly talent you may access and swap items in and out of your Extradimensional Storage freely, without the need to use a second action or spend a spell point.
-
-+++ Fan the Flame
-
-Prerequisites: Destruction sphere, Fire Blast talent, Nature sphere (fire geomancing), 3rd caster level or higher
-
-Benefit: When a creature is set on fire by your Fire Blast, the fire does not deal 1d6 damage the following round, but rather deals damage equal to the largest fire you may affect. This fire reverts to normal after the first round, dealing 1d6 fire damage on subsequent rounds until extinguished, but you may choose to concentrate each round, or spend a spell point once as a free action, to cause the fire to stay at its increased size until extinguished.
-
-+++ Fear and Flame
-
-Prerequisites: Destruction sphere, Fire Blast talent
-
-Benefit: When a creature is set on fire by your destructive blast, they must pass a Will save each round they remain on fire or become shaken. If shaken, they become frightened. If frightened, they become panicked. A successful save reduces the severity by one step and ending the on fire condition ends the effects of this feat, though not fear conditions from other sources.
-
-+++ Fertilize Nature
-
-Prerequisite: Nature Sphere, Earth Geomancing and Plantlife Geomancing.
-
-Benefit: Earth and Plantlife Geomancing lasts 2 additional rounds after you end concentration.
-
-+++ Floating Panoply
-
-Prerequisites: Caster level 7th, Enhancing Telekinesis, Divided Mind, Mass Enhancement
-
-Benefit: When you use the Enhancing Telekinesis feat, you may spend a spell point to enhance every item you lift with Divided Mind, following the restrictions of Mass Enhancement.
-
-+++ Focused Blast Type Group
-
-Prerequisites: Destruction sphere
-
-Benefit: Choose one blast type group. Treat your caster level as 5 higher for this blast type group. This bonus cannot cause you to have a caster level greater than your HD.
-
 +++ Fool Magic
 
 Prerequisites: Deceitful, Iron Will, Bluff 7 ranks, Disguise 7 ranks
 
 Benefit: When you succeed at a Will saving throw made against any magical effect, the caster of that effect does not automatically know you have succeeded at your saving throw. This allows you to attempt a Bluff check against their Sense Motive check to convince them that you failed your saving throw and are under the effects of the magic. You can choose to allow supplementary effects of the magic (such as the telepathic link provided by the dominate person spell or the Dominate advanced Mind talent) to function as if you had failed your saving throw, to aid in the deception. You may dismiss the supplementary effect early as a standard action.
-
-+++ Formulae Geomancing
-
-Prerequisite: Nature Sphere, four or more geomancing packages.
-
-Benefit: You may read and use an alchemist’s formulae book, creating extracts for use during the day as an alchemist does. You must spend have a caster level with the entire Nature sphere equal to 3x the level of the extract, and must spend 1 spell point per level of the created extract, and only you can drink the extract to gain its effects.
-
-+++ Frozen to the Bone
-
-Prerequisites: Destruction sphere, at least one (blast type) Talent that deals cold damage
-
-Benefit: When using a destructive blast shape that allows a Reflex save with a blast type that deals cold damage, you may replace the Reflex save with a Fortitude save.
 
 +++ Greater Hypnosis
 
@@ -600,68 +468,11 @@ Prerequisite: Shadowmark class feature.
 
 Benefit: Your shadowmark deals d8s for damage instead of d6s.
 
-+++ Heavy Hand
-
-Prerequisites: Destruction sphere, at least one (blast type) talent that deals nonlethal damage
-
-Benefit: When using a destructive blast type that deals nonlethal damage, you may instead deal lethal bludgeoning damage, but your die size is reduced one step. Additionally, you gain a +1 insight bonus to attack rolls and save DCs with destructive blasts that deal nonlethal damage.
-
-+++ Imbue with Nature
-
-Prerequisites: Destruction sphere, Nature sphere (any geomancing)
-
-Benefit: When using a blast type from a blast type category corresponding to a geomancing talent you possess, you may increase the casting time by one step or spend an additional spell point to draw material from the environment to enhance your blast, allowing it to bypass spell resistance.
-
-||~ Geomancing Talent ||~ Blast Type Categories || 
-|| Earth Geomancing || Crystal, Stone || 
-|| Fire Geomancing || Fire || 
-|| Metal Geomancing || Acid || 
-|| Plant Geomancing || Plant || 
-|| Water Geomancing || Cold || 
-
-Other blast types may be used in conjunction with each geomancing talent as the GM deems appropriate.
-
-+++ Improved Energy Blade
-
-Prerequisites: Energy Blade talent
-
-Benefit: You may activate the Energy Blade talent as a swift action when making a melee or ranged weapon or natural weapon attack, but not a touch attack. The next successful attack deals your destructive blast damage in addition to its normal damage.
-
-+++ Improved Energy Leap
-
-Prerequisites: Energy Leap talent, Explosive Orb Talent
-
-Benefit: When you end your movement when using the Energy Leap Talent, you may choose to also deal your destructive blast damage in a burst centered on your square with a 5 ft radius, + 5 ft per 10 caster levels. Creatures that take damage from your Energy Leap do not suffer additional damage from the burst.
-
-+++ Improved Energy Wall
-
-Prerequisites: Energy Wall talent
-
-Benefit: You may spend an additional spell point when using the Energy Wall blast shape. The wall now grants concealment from creatures on the other side and any non-magical arrows or bolts passing through the wall are destroyed and other non-magical projectiles suffer a -2 penalty to their attack roll.
-
-At caster level 9th the wall can also affect weapons with a +1 enhancement bonus, increasing by +1 for every 3 caster levels thereafter. Unusually massive ranged weapons (such as boulders or ballista bolts) and ranged attacks generated by natural attacks or spell effects are not affected by this ability.
-
-//Special:// If you apply a blast type talent that ignores hardness and deals full damage to objects, such as shattering blast or disintegrate, treat the wall’s caster level as 3 higher for determining the effects of this feat.
-
 +++ Improved Favored Element
 
 Prerequisites: Two favored elements
 
 Benefit: Your second and third favored elements receive the same damage bonus as your first favored element.
-
-+++ Improved Rebuff
-
-Prerequisites: Rebuff talent
-
-Benefit: Whenever a creature within range is the target of a ranged attack, you may spend a spell point as an immediate action to target the projectile with a destructive blast. Make an opposed attack roll using your caster level in place of your base attack bonus to destroy the projectile and negate the attack. Unusually massive projectiles (such as boulders or ballista bolts) and ranged attacks generated by natural attacks or spell effects are not affected by this ability.
-
-+++ Kinetic Creation
-
-Prerequisites: Caster level 7th, Creation Sphere, Telekinesis Sphere
-
-Benefit: You can create items out of telekinetic force instead of matter. Objects made this way cannot incorporate any other materials and must be simple in construction, lacking intricate details or complex moving parts. This ‘material’ has hardness 10 and 3 hit points per inch, but at the end of each round its hit points are fully replenished. Unlike other created objects, objects of telekinetic force are magical and can be dispelled, which also destroys them.
-
-//Special:// Telekinetic force made with the Create Materials advanced talent reforms itself over the course of an hour if destroyed or dispelled.
 
 +++ Lingering Link
 
@@ -719,61 +530,17 @@ Prerequisites: Cantrips, access to the Enhancement sphere.
 
 Benefit: You may use leaked magic from your enhancements to improve your Cantrips. Whenever you use Cantrips while under the effects of one of your own enhancements, you may either increase the range to Medium, double the duration, or double the amount of matter you can affect at one time. In addition, you may choose to use any creature or object within 30 ft. that is under the effects of one of your enhancements as the origin for any Cantrip you use.
 
-+++ Material Infusion
-
-Prerequisites: Metal Geomancing or Creation sphere, Destruction sphere
-
-Benefit: When using a destructive blast that deals bludgeoning, piercing, or slashing damage, you may choose to have the blast count as cold iron or silver. At 15th caster level you may also choose adamantine. If other relevant materials exist in your campaign, the GM may determine at what level this talent applies to them.
-
-+++ Melee Blaster
-
-Prerequisites: Destruction sphere, Combat Casting
-
-Benefit: When using a destructive blast as (or as part of) a melee attack or melee touch attack, your destructive blast does not provoke attacks of opportunity.
-
-+++ Mind Against Body
-
-Prerequisites: Telekinesis Sphere, Telekinetic Maneuver
-
-Benefit: Rather than using your body to fight off more capable opponents, you employ your mind, fighting back with your full telekinetic power. You may substitute 10 + your caster level + your casting ability modifier for your CMD when you are defending against a combat maneuver.
-
 +++ Mind Opener
 
 Prerequisites: Psionics class feature, battlefield relay psionic effect.
 
 Benefit: Increase the save DC of your battlefield relay psionic effect by +2.
 
-+++ Mounted Magician
-
-Prerequisites: Casting class feature, Enhancement sphere, Handle Animal 3 ranks, Ride 3 ranks.
-
-Benefit: When targeting yourself with an enhancement, your mount also gains the benefits of that enhancement. This lasts as long as you are both enhanced and mounted. If you dismount or are unseated, your mount loses the benefit of your enhancement.
-
-+++ Mutagenic Enhancements
-
-Prerequisites: Access to the Alteration sphere, at least one (enhance) talent.
-
-Benefit: Whenever you enhance a creature, you may also give them a trait of your choice, just as if you had used shapeshift on them. Doing so makes the enhancement into a polymorph effect. A creature may only be under the effects of one enhancement modified in this way; however, the trait they gained does not count towards the limit for your shapeshift.
-
-+++ Object Familiar
-
-Prerequisites: Ability to acquire a new familiar, Animate Object.
-
-Benefit: When choosing a new familiar, you may select a Tiny animated object in place of a normal creature. An object familiar’s type does not change, and it does not gain the ability to speak to other creatures of its kind.
-
-Special: You may apply the benefits of any feats that improve your use of Animate Object to your object familiar. If you later take Improved Familiar, you may select a Small animated object at 5th caster level instead.
-
 +++ Occult Savant
 
 Prerequisites: Occult Knowledge class feature, Spellcraft, Use Magic Device, or any Knowledge skill 10 ranks.
 
 Benefit: You may take 10 with any Knowledge, Spellcraft, or Use Magic Device check, regardless of stress or other situations where taking 10 would otherwise be impossible.
-
-+++ Orb Expert
-
-Prerequisites: Destruction sphere, Explosive Orb talent
-
-Benefit: Your treat your caster level as 2 higher when determining the range, burst radius, and save DC of the Explosive Orb blast shape. Additionally, you may use this shape without expending a spell point by reducing the diameter of the burst to 5 ft, + 5 ft per 10 caster levels.
 
 +++ Perceptive Psionics
 
@@ -784,46 +551,6 @@ Benefit: You may read a target’s subtle movements, even if you cannot read the
 Your battlefield relay persists at half strength for as long as it is maintained. If you wish to attempt your battlefield relay again, you must cease your battlefield relay and use it again.
 
 You may even target creatures with your battlefield relay that are usually immune to mind-affecting abilities. These targets needn’t make a Will save, and the bonuses are always divided by 2 against them.
-
-+++ Perpetual Sphere
-
-Prerequisites: Destruction sphere, Energy Sphere talent
-
-Benefits: Whenever you successfully deal damage to a target with your energy sphere, increase its duration by 1 round. You can only extend the sphere’s duration by up to a number of rounds equal to your caster level.
-
-+++ Photosynthesis
-
-Prerequisites: Con 13, Survival 3 ranks, Light Sphere.
-
-Benefit: After a long period of meditation, you have learned how to harness the power of light. If are in an area of bright light, you can regain hit points equal to your character level as a move action. This ability can only be used once per minute, and can only heal you up to half your normal maximum hit points; any excess healing is lost.
-
-In addition, so long as you spend at least one full hour in an area of bright light you gain all the nourishment you need, and do not need to eat or drink that day.
-
-The benefits of this feat are a supernatural ability.
-
-+++ Piecemeal Animation
-
-Prerequisites: Death Sphere, Telekinesis Sphere, Divided Mind
-
-Benefit: When you reanimate a dead body, it does not need to be intact. So long as at least half the body remains you can animate it as if it was intact, stitching its broken form together with telekinetic forces that keep it upright and stable. You may even work with worse material than this, merging smaller pieces of different bodies and animating them as single whole so long as you have enough material and all pieces come from the same kind of creature.
-
-+++ Practiced Seer
-
-Prerequisite: Divination sphere, one or more (sense) talents or abilities.
-
-Benefit: You may use your magic skill bonus (MSB) or caster level, whichever is higher for the purposes of determining the duration of Divination (sense) talents or abilities.
-
-+++ Reach Blade
-
-Prerequisites: Destructive Blade class feature
-
-Benefit: Your Destructive Blade may be shaped with the reach property. This property can be added or removed each time you shape the blade.
-
-+++ Reforge Object
-
-Prerequisites: Animate Object, Potent Alteration.
-
-Benefit: You do not need to spend an additional spell point when altering an Animated Object you’ve created. In addition, you may freely re-assign a creation point when altering an Animated Object in a way that affects its material or shape.
 
 +++ Ritual Caster
 
@@ -837,73 +564,17 @@ Prerequisites: Casting class feature, Ritual Caster.
 
 Benefit: You may use your MSB in place of your caster level when using rituals.
 
-+++ Searing Brilliance
-
-Prerequisites: Caster level 5th, Light sphere, Searing Light.
-
-Benefit: Your Searing Light now deals 1 point of untyped damage per caster level per round in addition to its fire damage. Undead, oozes, and creatures harmed by daylight take 2 additional points of untyped damage per caster level per round instead.
-
-+++ Sense Light
-
-Prerequisites: Perception 5 ranks, Light Sphere.
-
-Benefit: Through intense rituals and training you have become capable of sensing light by touch. By spending a swift action, you retain your normal visual abilities for a round when your eyes are closed, and are immune to the effects of the blinded and dazzled conditions, and all gaze attacks. You do not, however, retain the benefits of sight-based abilities (such as darkvision or low-light vision). You must be in area of dim or brighter light to gain the benefits of this feat.
-
-The benefit of this feat is a supernatural ability.
-
 +++ Shadowblast
 
 Prerequisite: Shadowmark class feature.
 
 Benefit: When using your shadowmark, you may spend an extra shadow point to change the effect from a ranged touch attack into a Close-ranged cone. All creatures within this area are allowed a Reflex save for half damage. If they succeed at this Reflex save, they do not suffer the penalty to Will saves.
 
-+++ Shining Stars
-
-Prerequisites: Light sphere, Dancing Lights, Glory.
-
-Benefit: You may apply the effects of your Glory talent to glow effects you create as Dancing Lights as if they were placed on yourself, though you may still only apply the effects of Glory to a single glow at a time.
-
-+++ Skillful Force
-
-Prerequisites: Telekinesis Sphere, Finesse, Telekinetic Tools
-
-Benefit: When using your telekinesis to perform skill checks as described in Finesse you do not suffer the normal -5 skill check penalty. In addition, tools you mimic with Telekinetic Tools are effectively masterwork and grant a +2 circumstance bonus on related checks.
-
-+++ Smolder Resin
-
-Prerequisite: Nature Sphere, Fire Geomancing and Plantlife Geomancing.
-
-Benefit: Your pummel geomancing ability deals additional Fire damage equal to your casting ability modifier with each hit that successfully deals damage.
-
-+++ Solid Illusions
-
-Prerequisites: Access to the Enhancement sphere, Illusionary Touch.
-
-Benefit: You may enhance illusions you create as if they were actually the creatures and objects they appear to be. Parts of the illusion can be enhanced separately - you could use enhance equipment to grant an illusionary soldier an enhancement bonus to attack and damage rolls with its non-existent spear.
-
-+++ Soulfire
-
-Prerequisites: Destruction sphere, 5th caster level or higher
-
-Benefit: You may accept 2 or more points of Constitution burn as a free action. Doing so grants 1 temporary spell point per 2 points of burn that expires at the end of your turn. Half the damage of any destructive blast these temporary spell points are spent on becomes untyped damage and the blast bypasses spell resistance. The number of spell points granted per 2 points of burn increases by +1 every ten character levels. You cannot use this ability if doing so would reduce your constitution to 0.
-
 +++ Spellthief
 
 Prerequisites: Access to the Enhancement sphere, Counterspell.
 
 Benefit: Whenever you successfully counterspell an effect that targets a creature or object, you may instead choose to reassign the effect’s targets. If you do so, you immediately take over concentration for the original caster (if the effect requires concentration), and the original caster cannot choose to prematurely end the effect.
-
-+++ Steam Geomancing
-
-Prerequisite: Nature Sphere, Fire Geomancing and Water Geomancing.
-
-Benefit: When using any Nature sphere ability that deals Fire or Cold damage, you may spend 1 additional spell point to split the damage in half, dealing half Fire damage and half Cold damage.
-
-+++ Superior Rebuff
-
-Prerequisites: Destruction sphere, Rebuff, Improved Evasion.
-
-Benefit: When using the Rebuff talent to provide cover to allies, you also grant them the benefits of Improved Evasion.
 
 +++ Spellcrafting
 
@@ -917,38 +588,6 @@ Prerequisite: Casting class feature.
 
 Benefit: Choose a sphere. You gain a +1 bonus to saving throw DCs for all abilities from that sphere. You may take this feat multiple times. The effects do not stack. each time it is gained, apply this benefit to a different sphere.
 
-+++ Tabulated Mind
-
-Prerequisite: Divination sphere, Sphere Focus (Divination).
-
-Benefit: When you concentrate to maintain a divine effect, you are no longer considered flat-footed due to maintaining concentration, and may also take swift or immediate actions during the same action. In addition, as a free action you may spend a spell point to reduce the concentration action for divine effect by 1 step for 1 round per caster level, thus reducing a normally full-round action into a standard action, and also allowing for additional move actions to be performed. If you also possess the boon Easy Focus, you reduce instead the concentration action from 1 full round action to 1 move action, allowing for additional standard or move actions.
-
-Normal: Concentrating on a divine effect is usually a full-round action, while also preventing any other standard, move, immediate and swift actions, and granting the flat-footed condition.
-
-+++ Tactical Animation
-
-Prerequisites: Animate Object.
-
-Benefit: Whenever you create an animated object, you may grant it a single Teamwork feat it qualifies for as a bonus feat. You may spend an additional spell point when using Animate Object to grant the object an additional bonus Teamwork feat it qualifies for.
-
-Normal: Animated Objects are mindless, and do not possess any feats.
-
-+++ Tactile Illusion
-
-Prerequisites: Illusion Sphere, Telekinesis Sphere, Illusory Touch (twice), Finesse
-
-Benefit: By weaving your illusions together with a hint of telekinetic force you can allow them to exert force more appropriate to their apparent nature. Your illusions can support weight or block movement of creatures or objects so long as all pressure and weight on it falls within the size limit of your telekinesis. However, anyone who disbelieves the illusion may choose to ignore the telekinetic effect, moving through the illusion as normal, as well as allowing them throw or move items through it.
-
-In addition, you may deal lethal damage with your illusions instead of nonlethal damage.
-
-+++ Tether Adept
-
-Prerequisites: Destruction sphere, Energy Tether talent
-
-Benefit: When using the Energy Tether blast shape, instead of targeting a creature, you can anchor it to a solid surface within its range such as a wall or ceiling (but not floor) as a standard action. Once the tether is anchored, you may, as a move action, attempt to move to any other legal square within the tether’s reach (as determined from the anchor point) without provoking an attack of opportunity, regardless of your normal move speed, by making an Acrobatics check and comparing the result to the CMD of each creature adjacent to the start and destination points; success on this check allows you to complete the movement, and failure causes you to fall prone in a square adjacent to the creature whose CMD you failed to beat. This movement can include squares on elevated or recessed surfaces, or even walls. If you have a climb speed, you may even end this movement on a wall or ceiling. You must have a clear path towards the destination (this ability does not allow you to pass through solid obstacles or opponents, though it may allow you to circumvent an enemy if you have a clear path around them within the tether’s reach). You must have a free hand to use this ability. Blast types that carry a spell point cost do not incur that cost when using this feat. The anchoring object receives no damage nor other effects of your destructive blast.^^*^^
-
-^^*^^ OGL reference for Akashic Mysteries as wording from lashing spinnerets veil borrowed.
-
 +++ Trance
 
 Prerequisite: Emotion class feature.
@@ -960,12 +599,6 @@ Benefit: You may apply any emotion power with ‘touch’ in the name to yoursel
 Prerequisite: 10th caster level or higher.
 
 Benefit: When wielding a wand, use your caster level in place of the wand’s caster level (if it is higher) when calculating its abilities.
-
-+++ Warp Burst
-
-Prerequisites: Destruction sphere, Explosive Orb talent, Warp sphere
-
-Benefit: When teleporting yourself, you may increase the casting time by one step and spend a spell point to target your destination square with a destructive blast with the explosive orb blast shape, paying additional costs for the blast as normal. You must have line of sight and line of effect to the target square unless you possess the Unseeing Teleport talent. You may exclude your destination square from this effect.
 
 ++ Metamagic Feats
 Applying a metamagic feat to a sphere effect is similar to, but slightly different from, how a spontaneous caster applies a metamagic feat to a spell. A caster may choose to augment their sphere effect with an appropriate metamagic feat at the time of casting. To use a metamagic feat, the caster must spend a number of additional spell points equal to the level increase of the metamagic feat. In addition, the sphere effect’s casting time increases by 1 step. These effects are cumulative for every metamagic feat applied.
@@ -1131,3 +764,453 @@ Prerequisites: Spell Proxy, any one Teamwork feat.
 Benefit: You may treat any creature under the effects of Create Proxy as if they shared all of your Teamwork feats. They do not gain the benefits of your Teamwork feats unless they actually have it themselves.
 
 Special: If you also have Improved Spell Proxy, you may choose to grant them the benefits of one of your Teamwork feats instead of transferring concentration.
+
++ Sphere-focused Feats
+Sphere-focused feats are not tagged, but emphasize the use of one specific Sphere more than any other. Due to the high number of them, they have been sorted into categories here. Note that some talents require multiple spheres to use - they've been sorted into the sphere they are most associated with. For using multiple Spheres at once, see the 'Dual Spheres' section of this page.
+
+++ Alteration
+
+
+
+++ Conjuration
+
+
+
+++ Creation
+
++++ Aligned Object
+
+Prerequisites: Animate Object, must not be True Neutral.
+
+Benefit: Any animated object you create gains the subtypes of your alignment. In addition, you gain access to the following additional ability and flaw:
+
+* Aligned Weapons (Su; 1 CP): The animated object’s slam attacks deal 1d6 additional damage to creatures whose alignment opposes one of the animated object’s alignment subtypes. This ability may be chosen multiple times; its effects stack.
+
+* Heavily Aligned (Su; +1 CP): The animated object’s hardness is bypassed by weapons and effects that are aligned to an alignment that opposes one of the animated object’s alignment subtypes.
+
+++ Dark
+
+
+
+++ Death
+
++++ Piecemeal Animation
+
+Prerequisites: Death Sphere, Telekinesis Sphere, Divided Mind
+
+Benefit: When you reanimate a dead body, it does not need to be intact. So long as at least half the body remains you can animate it as if it was intact, stitching its broken form together with telekinetic forces that keep it upright and stable. You may even work with worse material than this, merging smaller pieces of different bodies and animating them as single whole so long as you have enough material and all pieces come from the same kind of creature.
+
+++ Destruction
+
++++ Arcing Strike
+
+Prerequisites: Destruction sphere, Guided Strike, caster level 11th or higher.
+
+You may spend a spell point to make your destructive blast fly in an erratic path, unerringly striking your target no matter what lies between you. Your destructive blast ignore the AC bonus granted to targets by anything less than total cover, and the miss chance granted to targets by anything less than total concealment. Total cover and total concealment provide their normal benefits against your ranged attacks.
+
+//Special:// If you possess the Divination sphere Viewing talent, you can use arcing blast to strike any target that you can see that is within range of both your blast and your divination, as long as it isn’t inside a completely enclosed space (GM’s discretion).
+
++++ Atmospheric Imbuement
+
+Prerequisites: Destruction sphere, Weather sphere
+
+Benefit: When using blast talents with the air, electrical, or sonic blast type groups, or any blast type deemed appropriate by the GM, when there is an area of rain and wind both at or above category 4, your destructive blast bypasses spell resistance.
+
++++ Deadly Targeting
+
+Prerequisites: Destruction sphere
+
+Benefit: The base critical threat range of your destructive blast increases to 19-20.
+
++++ Destructive Harmonics
+
+Prerequisites: Access to the Destruction and Enhancement spheres.
+
+Benefit: You may spend an additional spell point when using your destructive blast to have it deal +50% damage against creatures that are under the effects of one of your enhancements.
+
++++ Energy Snake
+
+Prerequisites: Destruction sphere, Energy Sphere
+
+Benefits: When using the Energy Sphere (blast shape), you may spend 2 spell points instead of 1 to form the energy sphere into a serpent, which grows with every target it consumes. Whenever the energy sphere successfully deals damage to a target, its size increases by 1 5-ft square. When moving the energy sphere each round, its squares may be arranged in any shape desired by the caster, so long as the squares are contiguous.
+
++++ Energy Specialization
+
+Prerequisites: Destruction sphere, 5th caster level or higher
+
+Benefit: Choose one blast type group. Your destructive blasts using blast types from that group gain a +2 insight bonus to caster level.
+
++++ Fan the Flame
+
+Prerequisites: Destruction sphere, Fire Blast talent, Nature sphere (fire geomancing), 3rd caster level or higher
+
+Benefit: When a creature is set on fire by your Fire Blast, the fire does not deal 1d6 damage the following round, but rather deals damage equal to the largest fire you may affect. This fire reverts to normal after the first round, dealing 1d6 fire damage on subsequent rounds until extinguished, but you may choose to concentrate each round, or spend a spell point once as a free action, to cause the fire to stay at its increased size until extinguished.
+
++++ Fear and Flame
+
+Prerequisites: Destruction sphere, Fire Blast talent
+
+Benefit: When a creature is set on fire by your destructive blast, they must pass a Will save each round they remain on fire or become shaken. If shaken, they become frightened. If frightened, they become panicked. A successful save reduces the severity by one step and ending the on fire condition ends the effects of this feat, though not fear conditions from other sources.
+
++++ Focused Blast Type Group
+
+Prerequisites: Destruction sphere
+
+Benefit: Choose one blast type group. Treat your caster level as 5 higher for this blast type group. This bonus cannot cause you to have a caster level greater than your HD.
+
++++ Frozen to the Bone
+
+Prerequisites: Destruction sphere, at least one (blast type) Talent that deals cold damage
+
+Benefit: When using a destructive blast shape that allows a Reflex save with a blast type that deals cold damage, you may replace the Reflex save with a Fortitude save.
+
++++ Heavy Hand
+
+Prerequisites: Destruction sphere, at least one (blast type) talent that deals nonlethal damage
+
+Benefit: When using a destructive blast type that deals nonlethal damage, you may instead deal lethal bludgeoning damage, but your die size is reduced one step. Additionally, you gain a +1 insight bonus to attack rolls and save DCs with destructive blasts that deal nonlethal damage.
+
++++ Imbue with Nature
+
+Prerequisites: Destruction sphere, Nature sphere (any geomancing)
+
+Benefit: When using a blast type from a blast type category corresponding to a geomancing talent you possess, you may increase the casting time by one step or spend an additional spell point to draw material from the environment to enhance your blast, allowing it to bypass spell resistance.
+
+||~ Geomancing Talent ||~ Blast Type Categories || 
+|| Earth Geomancing || Crystal, Stone || 
+|| Fire Geomancing || Fire || 
+|| Metal Geomancing || Acid || 
+|| Plant Geomancing || Plant || 
+|| Water Geomancing || Cold || 
+
+Other blast types may be used in conjunction with each geomancing talent as the GM deems appropriate.
+
++++ Improved Energy Blade
+
+Prerequisites: Energy Blade talent
+
+Benefit: You may activate the Energy Blade talent as a swift action when making a melee or ranged weapon or natural weapon attack, but not a touch attack. The next successful attack deals your destructive blast damage in addition to its normal damage.
+
++++ Improved Energy Leap
+
+Prerequisites: Energy Leap talent, Explosive Orb Talent
+
+Benefit: When you end your movement when using the Energy Leap Talent, you may choose to also deal your destructive blast damage in a burst centered on your square with a 5 ft radius, + 5 ft per 10 caster levels. Creatures that take damage from your Energy Leap do not suffer additional damage from the burst.
+
++++ Improved Energy Wall
+
+Prerequisites: Energy Wall talent
+
+Benefit: You may spend an additional spell point when using the Energy Wall blast shape. The wall now grants concealment from creatures on the other side and any non-magical arrows or bolts passing through the wall are destroyed and other non-magical projectiles suffer a -2 penalty to their attack roll.
+
+At caster level 9th the wall can also affect weapons with a +1 enhancement bonus, increasing by +1 for every 3 caster levels thereafter. Unusually massive ranged weapons (such as boulders or ballista bolts) and ranged attacks generated by natural attacks or spell effects are not affected by this ability.
+
+//Special:// If you apply a blast type talent that ignores hardness and deals full damage to objects, such as shattering blast or disintegrate, treat the wall’s caster level as 3 higher for determining the effects of this feat.
+
++++ Material Infusion
+
+Prerequisites: Metal Geomancing or Creation sphere, Destruction sphere
+
+Benefit: When using a destructive blast that deals bludgeoning, piercing, or slashing damage, you may choose to have the blast count as cold iron or silver. At 15th caster level you may also choose adamantine. If other relevant materials exist in your campaign, the GM may determine at what level this talent applies to them.
+
++++ Melee Blaster
+
+Prerequisites: Destruction sphere, Combat Casting
+
+Benefit: When using a destructive blast as (or as part of) a melee attack or melee touch attack, your destructive blast does not provoke attacks of opportunity.
+
++++ Orb Expert
+
+Prerequisites: Destruction sphere, Explosive Orb talent
+
+Benefit: Your treat your caster level as 2 higher when determining the range, burst radius, and save DC of the Explosive Orb blast shape. Additionally, you may use this shape without expending a spell point by reducing the diameter of the burst to 5 ft, + 5 ft per 10 caster levels.
+
++++ Perpetual Sphere
+
+Prerequisites: Destruction sphere, Energy Sphere talent
+
+Benefits: Whenever you successfully deal damage to a target with your energy sphere, increase its duration by 1 round. You can only extend the sphere’s duration by up to a number of rounds equal to your caster level.
+
++++ Reach Blade
+
+Prerequisites: Destructive Blade class feature
+
+Benefit: Your Destructive Blade may be shaped with the reach property. This property can be added or removed each time you shape the blade.
+
++++ Rebuff, Improved
+
+Prerequisites: Rebuff talent
+
+Benefit: Whenever a creature within range is the target of a ranged attack, you may spend a spell point as an immediate action to target the projectile with a destructive blast. Make an opposed attack roll using your caster level in place of your base attack bonus to destroy the projectile and negate the attack. Unusually massive projectiles (such as boulders or ballista bolts) and ranged attacks generated by natural attacks or spell effects are not affected by this ability.
+
++++ Rebuff, Superior
+
+Prerequisites: Destruction sphere, Rebuff, Improved Evasion.
+
+Benefit: When using the Rebuff talent to provide cover to allies, you also grant them the benefits of Improved Evasion.
+
++++ Soulfire
+
+Prerequisites: Destruction sphere, 5th caster level or higher
+
+Benefit: You may accept 2 or more points of Constitution burn as a free action. Doing so grants 1 temporary spell point per 2 points of burn that expires at the end of your turn. Half the damage of any destructive blast these temporary spell points are spent on becomes untyped damage and the blast bypasses spell resistance. The number of spell points granted per 2 points of burn increases by +1 every ten character levels. You cannot use this ability if doing so would reduce your constitution to 0.
+
++++ Tether Adept
+
+Prerequisites: Destruction sphere, Energy Tether talent
+
+Benefit: When using the Energy Tether blast shape, instead of targeting a creature, you can anchor it to a solid surface within its range such as a wall or ceiling (but not floor) as a standard action. Once the tether is anchored, you may, as a move action, attempt to move to any other legal square within the tether’s reach (as determined from the anchor point) without provoking an attack of opportunity, regardless of your normal move speed, by making an Acrobatics check and comparing the result to the CMD of each creature adjacent to the start and destination points; success on this check allows you to complete the movement, and failure causes you to fall prone in a square adjacent to the creature whose CMD you failed to beat. This movement can include squares on elevated or recessed surfaces, or even walls. If you have a climb speed, you may even end this movement on a wall or ceiling. You must have a clear path towards the destination (this ability does not allow you to pass through solid obstacles or opponents, though it may allow you to circumvent an enemy if you have a clear path around them within the tether’s reach). You must have a free hand to use this ability. Blast types that carry a spell point cost do not incur that cost when using this feat. The anchoring object receives no damage nor other effects of your destructive blast.^^1^^
+
+^^1^^ OGL reference for Akashic Mysteries as wording from lashing spinnerets veil borrowed.
+
+++ Divination
+
++++ Practiced Seer
+
+Prerequisite: Divination sphere, one or more (sense) talents or abilities.
+
+Benefit: You may use your magic skill bonus (MSB) or caster level, whichever is higher for the purposes of determining the duration of Divination (sense) talents or abilities.
+
++++ Tabulated Mind
+
+Prerequisite: Divination sphere, Sphere Focus (Divination).
+
+Benefit: When you concentrate to maintain a divine effect, you are no longer considered flat-footed due to maintaining concentration, and may also take swift or immediate actions during the same action. In addition, as a free action you may spend a spell point to reduce the concentration action for divine effect by 1 step for 1 round per caster level, thus reducing a normally full-round action into a standard action, and also allowing for additional move actions to be performed. If you also possess the boon Easy Focus, you reduce instead the concentration action from 1 full round action to 1 move action, allowing for additional standard or move actions.
+
+Normal: Concentrating on a divine effect is usually a full-round action, while also preventing any other standard, move, immediate and swift actions, and granting the flat-footed condition.
+
+++ Enhancement
+
++++ Animated Arsenal
+
+Prerequisites: Animate Object, BAB +1.
+
+Benefit: Whenever you create an animated object out of a weapon, you may change the damage type of one slam attack to either piercing or slashing. If you choose to apply the piercing attack or slashing attack abilities to one of the object’s other slam attacks, you may choose to have it also apply to the slam attack modified through this feat for no additional cost. Finally, the first application of ranged attack only costs 1 CP.
+
++++ Complex Animations
+
+Prerequisites: Animate Object.
+
+Benefit: You gain an additional creation point whenever you use Animate Object.
+
++++ Durable Objects
+
+Prerequisites: Animate Object.
+
+Benefit: Whenever you create an animated object, it gains bonus hit points as if it were one size larger. If the animated object already has an effective size of Colossal or greater, it instead gains 30 additional bonus hit points.
+
++++ Enchanted Animation
+
+Prerequisites: Animate Object, at least one additional talent from any sphere.
+
+Benefit: Whenever you create an animated object, you may spend a spell point to grant it a single use of one of your sphere abilities; if the sphere ability costs spell points to use, you must pay for that cost when granting it. It may use that sphere ability as if you had cast it yourself.
+
++++ Mounted Magician
+
+Prerequisites: Casting class feature, Enhancement sphere, Handle Animal 3 ranks, Ride 3 ranks.
+
+Benefit: When targeting yourself with an enhancement, your mount also gains the benefits of that enhancement. This lasts as long as you are both enhanced and mounted. If you dismount or are unseated, your mount loses the benefit of your enhancement.
+
++++ Mutagenic Enhancements
+
+Prerequisites: Access to the Alteration sphere, at least one (enhance) talent.
+
+Benefit: Whenever you enhance a creature, you may also give them a trait of your choice, just as if you had used shapeshift on them. Doing so makes the enhancement into a polymorph effect. A creature may only be under the effects of one enhancement modified in this way; however, the trait they gained does not count towards the limit for your shapeshift.
+
++++ Object Familiar
+
+Prerequisites: Ability to acquire a new familiar, Animate Object.
+
+Benefit: When choosing a new familiar, you may select a Tiny animated object in place of a normal creature. An object familiar’s type does not change, and it does not gain the ability to speak to other creatures of its kind.
+
+Special: You may apply the benefits of any feats that improve your use of Animate Object to your object familiar. If you later take Improved Familiar, you may select a Small animated object at 5th caster level instead.
+
++++ Reforge Object
+
+Prerequisites: Animate Object, Potent Alteration.
+
+Benefit: You do not need to spend an additional spell point when altering an Animated Object you’ve created. In addition, you may freely re-assign a creation point when altering an Animated Object in a way that affects its material or shape.
+
++++ Tactical Animation
+
+Prerequisites: Animate Object.
+
+Benefit: Whenever you create an animated object, you may grant it a single Teamwork feat it qualifies for as a bonus feat. You may spend an additional spell point when using Animate Object to grant the object an additional bonus Teamwork feat it qualifies for.
+
+Normal: Animated Objects are mindless, and do not possess any feats.
+
+++ Fate
+
+
+
+++ Illusion
+
++++ Solid Illusions
+
+Prerequisites: Access to the Enhancement sphere, Illusionary Touch.
+
+Benefit: You may enhance illusions you create as if they were actually the creatures and objects they appear to be. Parts of the illusion can be enhanced separately - you could use enhance equipment to grant an illusionary soldier an enhancement bonus to attack and damage rolls with its non-existent spear.
+
++++ Tactile Illusion
+
+Prerequisites: Illusion Sphere, Telekinesis Sphere, Illusory Touch (twice), Finesse
+
+Benefit: By weaving your illusions together with a hint of telekinetic force you can allow them to exert force more appropriate to their apparent nature. Your illusions can support weight or block movement of creatures or objects so long as all pressure and weight on it falls within the size limit of your telekinesis. However, anyone who disbelieves the illusion may choose to ignore the telekinetic effect, moving through the illusion as normal, as well as allowing them throw or move items through it.
+
+In addition, you may deal lethal damage with your illusions instead of nonlethal damage.
+
+++ Life
+
+
+
+++ Light
+
++++ Defiant Radiance
+
+Prerequisites: Light sphere.
+
+Benefit: You add +2 to your MSB and MSD for the purposes of Light sphere effects. Double this bonus when making an opposed magic skill check against magical darkness effects.
+
++++ Photosynthesis
+
+Prerequisites: Con 13, Survival 3 ranks, Light Sphere.
+
+Benefit: After a long period of meditation, you have learned how to harness the power of light. If are in an area of bright light, you can regain hit points equal to your character level as a move action. This ability can only be used once per minute, and can only heal you up to half your normal maximum hit points; any excess healing is lost.
+
+In addition, so long as you spend at least one full hour in an area of bright light you gain all the nourishment you need, and do not need to eat or drink that day.
+
+The benefits of this feat are a supernatural ability.
+
++++ Searing Brilliance
+
+Prerequisites: Caster level 5th, Light sphere, Searing Light.
+
+Benefit: Your Searing Light now deals 1 point of untyped damage per caster level per round in addition to its fire damage. Undead, oozes, and creatures harmed by daylight take 2 additional points of untyped damage per caster level per round instead.
+
++++ Sense Light
+
+Prerequisites: Perception 5 ranks, Light Sphere.
+
+Benefit: Through intense rituals and training you have become capable of sensing light by touch. By spending a swift action, you retain your normal visual abilities for a round when your eyes are closed, and are immune to the effects of the blinded and dazzled conditions, and all gaze attacks. You do not, however, retain the benefits of sight-based abilities (such as darkvision or low-light vision). You must be in area of dim or brighter light to gain the benefits of this feat.
+
+The benefit of this feat is a supernatural ability.
+
++++ Shining Stars
+
+Prerequisites: Light sphere, Dancing Lights, Glory.
+
+Benefit: You may apply the effects of your Glory talent to glow effects you create as Dancing Lights as if they were placed on yourself, though you may still only apply the effects of Glory to a single glow at a time.
+
+++ Mind
+
++++ Backdoor Control
+
+Prerequisites: Bestow Intelligence, Expanded Charm
+
+Benefit: Whenever you use a charm against a creature or object you used Bestow Intelligence on, requests you make that would normally be against their nature are instead treated as things they wouldn’t normally do. This increased control extends to creatures you create through Bestow Life or Give Magic Life.
+
+++ Nature
+
++++ Alloy Creation
+
+Prerequisites: Creation Sphere, Metal Geomancing.
+
+Benefit: When using your Creation sphere abilities, you may create and alter objects made from metals you can summon with your recover ore Nature sphere ability, even if you do not possess the Expanded Materials Creation talent. While this does not increase your actual recover ore size, geomancing powers dependent on your recover ore size such as magnetize or heat metal treat your recover ore size as being twice what it normally is when determining how much metal they can affect at one time.
+
++++ Alloy Enhancement
+
+Prerequisites: Enhancement Sphere, Metal Geomancing.
+
+Benefit: Whenever you use a metal geomancing ability which creates or affects metal (such as recover ore) you may choose to enhance the metal via the enhancement sphere as part of the same action. This costs 1 additional spell point, in addition to any spell points required by the enhancement in question.
+
++++ Alloy Telekinesis
+
+Prerequisite: Telekinesis Sphere, Metal Geomancing.
+
+Benefit: Whenever you use the metal geomancing recover ore ability, you may use telekinesis to bludgeon another target creature or object with the metal ore recovered in this way, all in the same action. If you increase the casting time by 1 step (usually from a standard to full-round action), you may utilize your caster level instead of your base attack bonus for the first attack roll, and add your casting ability modifier to damage.
+
++++ Coastal Infusion
+
+Prerequisites: Nature Sphere, Earth Geomancing and Water Geomancing.
+
+Benefit: When using either earth geomancing or water geomancing within 30 ft of both land and a substantial body of water, you gain a +2 bonus to your caster level for those geomancing abilities.
+
++++ Fertilize Nature
+
+Prerequisite: Nature Sphere, Earth Geomancing and Plantlife Geomancing.
+
+Benefit: Earth and Plantlife Geomancing lasts 2 additional rounds after you end concentration.
+
++++ Formulae Geomancing
+
+Prerequisite: Nature Sphere, four or more geomancing packages.
+
+Benefit: You may read and use an alchemist’s formulae book, creating extracts for use during the day as an alchemist does. You must spend have a caster level with the entire Nature sphere equal to 3x the level of the extract, and must spend 1 spell point per level of the created extract, and only you can drink the extract to gain its effects.
+
++++ Smolder Resin
+
+Prerequisite: Nature Sphere, Fire Geomancing and Plantlife Geomancing.
+
+Benefit: Your pummel geomancing ability deals additional Fire damage equal to your casting ability modifier with each hit that successfully deals damage.
+
++++ Steam Geomancing
+
+Prerequisite: Nature Sphere, Fire Geomancing and Water Geomancing.
+
+Benefit: When using any Nature sphere ability that deals Fire or Cold damage, you may spend 1 additional spell point to split the damage in half, dealing half Fire damage and half Cold damage.
+
+++ Protection
+
+
+
+++ Telekinesis
+
++++ Extradimensional Assembly
+
+Prerequisites: Telekinesis Sphere, Warp Sphere, Extradimensional Storage, Whirlwind Assembly
+
+Benefit: When you use your Whirlwind Assembly talent you may access and swap items in and out of your Extradimensional Storage freely, without the need to use a second action or spend a spell point.
+
++++ Floating Panoply
+
+Prerequisites: Caster level 7th, Enhancing Telekinesis, Divided Mind, Mass Enhancement
+
+Benefit: When you use the Enhancing Telekinesis feat, you may spend a spell point to enhance every item you lift with Divided Mind, following the restrictions of Mass Enhancement.
+
++++ Kinetic Creation
+
+Prerequisites: Caster level 7th, Creation Sphere, Telekinesis Sphere
+
+Benefit: You can create items out of telekinetic force instead of matter. Objects made this way cannot incorporate any other materials and must be simple in construction, lacking intricate details or complex moving parts. This ‘material’ has hardness 10 and 3 hit points per inch, but at the end of each round its hit points are fully replenished. Unlike other created objects, objects of telekinetic force are magical and can be dispelled, which also destroys them.
+
+//Special:// Telekinetic force made with the Create Materials advanced talent reforms itself over the course of an hour if destroyed or dispelled.
+
++++ Mind Against Body
+
+Prerequisites: Telekinesis Sphere, Telekinetic Maneuver
+
+Benefit: Rather than using your body to fight off more capable opponents, you employ your mind, fighting back with your full telekinetic power. You may substitute 10 + your caster level + your casting ability modifier for your CMD when you are defending against a combat maneuver.
+
++++ Skillful Force
+
+Prerequisites: Telekinesis Sphere, Finesse, Telekinetic Tools
+
+Benefit: When using your telekinesis to perform skill checks as described in Finesse you do not suffer the normal -5 skill check penalty. In addition, tools you mimic with Telekinetic Tools are effectively masterwork and grant a +2 circumstance bonus on related checks.
+
+++ Time
+
+
+
+++ War
+
+
+
+++ Warp
+
++++ Warp Burst
+
+Prerequisites: Destruction sphere, Explosive Orb talent, Warp sphere
+
+Benefit: When teleporting yourself, you may increase the casting time by one step and spend a spell point to target your destination square with a destructive blast with the explosive orb blast shape, paying additional costs for the blast as normal. You must have line of sight and line of effect to the target square unless you possess the Unseeing Teleport talent. You may exclude your destination square from this effect.
+
+++ Weather
