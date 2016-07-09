@@ -12,17 +12,39 @@ As a free action, you may cause any creature or object you have caused to glow t
 
 As a standard action, you may cause one of your glow effects within Medium range to shed bright light for as long as you concentrate. This produces bright light for 30 ft +5 ft per 2 caster levels, and increasing the light level by one step to a maximum of normal for 30 ft +5 ft per 2 caster level beyond this. As a free action, you may spend a spell point to allow the creature or object to continue glowing brightly without concentration for 1 minute per caster level, or until the glow effect expires, whichever comes first. The bright light produced by this effect is not the equivalent of daylight for the purposes of creatures that are damaged or destroyed by daylight, but it may affect creatures with Light Blindness or other conditions.
 
+When you create a glow you may cause it to shed bright light as part of the same action, but otherwise follow the normal rules for causing a glow to shed bright light.
+
 Whenever a glow effect interacts with a magical darkness effect (such as from the Dark sphere) the caster of the glow effect must pass a magic skill check against the MSD of the darkness effect’s caster. If he succeeds, the Light effect functions normally. If he fails, the Dark effect functions normally (outlines are swallowed, light sources are hampered, etc.) An area filled with normal or bright light from a glow effect is no longer considered an area of darkness for Dark sphere abilities.
 
 Some talents are designated (light), which add additional effects to your glow ability. You may only apply the benefits of one (light) talent to any individual glow effect. While you may only apply one such talent to an individual glow effect, areas of bright light from different glow effects can overlap. When augmenting a glow effect with a (light) talent, the effect is applied once per round, at the end of the caster’s turn. For example, if a glowing object is thrown into a large group of enemies, it would only affect those within the area where it landed, not those targets it passed by to arrive in that area.
 
+Light talents listed with the (lens) tag are talents that do not create light, but instead bend it or alter its properties. The caster may place a lens as a standard action on any target within the same range as their glow. This requires a melee or ranged touch attack on unwilling targets. A lens lasts as long as you concentrate, but you may spend a spell point to allow a lens to remain for 1 hour per caster level without concentration.
+
+Some Light talents are designated (nimbus), which notes a talent that alters the area of light shed by your glow effects, changing the area in which light is increased as well as where the effects of (light) talents are applied. You may only apply a single (nimbus) talent to a glow at a time but may switch between them and the normal area of your glow as a free action, though any (light) talents affect only one area in a round. The Illuminate talent is considered a (nimbus) talent.
+
 + Light Talents
+
+++ Aiming Scope (lens)
+The target of this lens fires with more precision. They treat targets of their ranged attacks as being one range increment closer for all effects, such as when determining penalties for firing at a longer range. In addition, they gain a +1 competence bonus to all ranged attack rolls.
+
+For every ten caster levels you possess, the target ignores an additional range increment and their competence bonus to ranged attack rolls increases by 1.
 
 ++ Area Glow
 You may spend a spell point to create an eruption of light, causing all creatures and objects within a 10 ft +5 ft per 5 caster levels radius centered within range to glow. You needn’t make a ranged touch attack against any creature within this area. Making targets glow brightly must still be done individually.
 
 ++ Beacon of Hope (light)
 When you place a glow effect on a creature, you may choose to grant that creature a +1 morale bonus on saves against fear. This bonus increases by 1 for every 5 caster levels possessed. You may spend a spell point to create bright light that empowers those within it. All creatures within the area of bright light gain a +1 morale bonus on saves against fear, +1 per 5 caster levels.
+
+++ Beam (nimbus)
+When you cause a glow effect to shed normal or bright light, you can focus this light into a line as a free action, quadrupling the affected distance. For normal light this creates a 10 ft. wide, 80 ft. long line, while bright light creates a 10 ft. wide line with a length of 120 ft. + 10 ft. per caster level. This also quadruples the distance to which light is increased one step to a maximum of normal light, creating a 20 ft. wide and 160 ft. long line of increased light for normal light, and a line of increased light for bright light that is 20 ft. wide and has a length of 240 ft. + 20 ft. per caster level. You may change the direction the line projects from the glow as a free action.
+
+++ Bend Radiance
+You may bend the light produced by your glows, allowing you to create spaces untouched by their light. When you cause a glow to shed normal or bright light, you may choose a number of 5 ft. cubes in the area of light it produces, up to a maximum of one 5 ft. cube per odd caster level. These cubes do not need to be contiguous. The selected area is unaffected by your glow; its light level does not change, and it is not subject to the effects of any (light) talents applied to the glow. If the glow moves, this omitted area moves with it. You may alter what areas are affected and unaffected by your light as a free action.
+
+++ Black Light
+As a free action you may cause any glow within your range to shed non-visible light. While shedding non-visible light, a glow does not outline a creature with light, impose a Stealth penalty, or increase light levels within its radius. However, (light) talents applied to the glow still function as if it was shedding light in its normal area.
+
+A glow shedding non-visible light functions normally in even magical darkness and does not hinder the function of magical darkness in the same area. No magical skill check is made when a glow under the effects of Black Light interacts with magical darkness.
 
 ++ Blinding Light (light)
 When you cause a creature to glow, you may choose to make that target dazzled, giving it a -1 penalty to attack rolls and Perception checks.
@@ -32,11 +54,46 @@ You may spend a spell point to create bright light that blinds the glowing targe
 ++ Bound Light (light)
 You may spend a spell point to create a bright light that binds the glowing target inside a prison of light. The target is entangled and must pass a Fortitude save each round or also be staggered for that round. In addition, the target must pass a magic skill check to use any form of dimensional travel, such as the dimension door spell or the teleport ability from the Warp sphere.
 
+++ Chameleon (lens)
+You can cause light and color to shift around a target, granting it the ability to blend in with its surroundings. The target gains a circumstance bonus to Stealth checks equal to your casting ability modifier. An object hidden in this way requires a Perception check to notice (DC 10 + the object’s size modifier + your casting ability modifier). In addition, the target gains the ability to hide even while being observed, though the target must move no more than half its speed each round to use this benefit.
+
 ++ Dancing Lights
 You may create a glow effect without the need for a creature or object. This allows you to create a floating ball of light that may fly up to 60 ft per round and may be directed as a free action. You may give these lights simple commands, such as following a creature you can see or traveling in a specified pattern.
 
+++ Dim Light (lens)
+You cause a target to suffer no ill effects from light. The target of this (lens) talent is immune to the negative effects of your glows, including the effects of any (light) talents applied to them. It also gains no visibility related penalties from your glows, acting as if they did not exist in the area.
+
+++ Disorienting Patterns (light)
+You may create bright light that covers an area in confusing colors and designs. All squares in the area of this bright light become are considered difficult terrain, counting as two squares when determining how far a character moving through the area can move.
+
+By spending a spell point you can make the patterns of the bright light even more intricate and confusing. Each round a creature is within the area, it must make a Will save or fall prone.
+
+Blind creatures (or creatures that have closed their eyes) and creatures that do not rely on sight are immune to the effects of this talent.
+
+++ Doubled Nimbus
+By increasing the casting time of your glow by one step or by spending a spell point you may apply two (nimbus) talents to a single glow effect, causing it to shed light in the area defined in both (nimbus) talents. Alternatively, you may choose to apply a single (nimbus) talent while also shedding light in the normal radius of your glow, or apply a single (nimbus) talent twice. Creatures in overlapping areas are still only affected by (light) talents and other effects of your glow once.
+
+++ Dual Light
+By spending a spell point you can simultaneously apply two (light) talents you possess to your glow. You may even apply the same (light) talent twice, though this is not always beneficial. The effects of each talent is resolved separately. If the (light) talents you apply have spell point costs each cost must be paid, although other costs (such as for metamagic or maintaining bright light without concentration) are only incurred once.
+
+This talent may not be used in conjunction with the Daylight advanced talent.
+
 ++ Encompassing Light (light)
 You may create bright light that encompasses the glowing creature, allowing it to function as if it were larger than it is. The glowing creature deals damage and gains reach as if it were 1 size category larger than it is. This improves to 2 size categories at 10th caster level, and 3 size categories at 20th caster level.
+
+++ Flare
+As a swift action you can expend one of your glow effects within range of your glow ability, causing it to blaze up momentarily before dying completely, ending the effect. The target of the glow effect takes 1d4 untyped damage per odd caster level, while all creatures within 5 ft. of the target take half that damage. Affected creatures may attempt a Reflex save for half damage. If the target of your glow is Large or larger, choose one of its squares and the secondary damage affects creatures within 5 ft. of that square.
+
+++ Flash
+You may choose to apply the effects of (light) talents at any point during your turn as a free action instead of only at the end of your turn. You may still only apply the effects of (light) talents once per round.
+
+As a swift action you may spend a spell point to apply the effects of a (light) talent an additional time in a single round. This additional application may be activated separately from any other application of your (light) talents. This allows your (light) talent to affect a different area if the glow has moved or the area of its light has changed, but does not let you affect any given area more than once per round.
+
+++ Flicker (light)
+You may create bright light that partially assimilates a glowing creature, allowing them to momentarily shed their physical form. A creature under this effect can choose to move through solid objects as long as there are no factors that block normal sight (such as concealment from darkness or fog). This allows them to pass through transparent barriers like glass or through impossibly small gaps (such as a keyhole).
+
+++ Glory
+As a free action you may cause any glow placed on yourself or an item in your possession to shed bright light in a 5 ft. radius, activating the effects of (light) talents and other abilities that require bright light. You do not need to concentrate to maintain this smaller area of bright light, nor do you need to spend a spell point. You may still follow the normal rules for causing your glow effects to shed bright light in order to shed bright light in a larger area. If you have multiple glow effects that could benefit from this talent, you may only cause one of them to shine bright light this way, but may switch which one Glory affects as a free action once per turn. An item that leaves your possession (such as by being thrown or disarmed) loses the benefits of this talent until you recover it.
 
 ++ Guiding Light (light)
 When you cause a creature to glow, you may choose to grant all creatures a +1 circumstance bonus to attack rolls against that target. When causing that creature to shed bright light, you may increase this bonus by 1, +1 per 5 caster levels. This has no effect on other creatures within the area of bright light.
@@ -47,11 +104,42 @@ You may spend a spell point when creating bright light to fascinate creatures. A
 ++ Illuminate
 When causing an object to shed normal light or bright light, you may focus this light into a cone as a free action, doubling the affected distance. For normal light this creates a 40 ft cone, while bright light creates a 60 ft cone + 5 ft per caster level. This also doubles the distance to which light is increased one step to a maximum of normal light. Returning the effect to normal is also a free action. You may change the light’s direction as a free action, but for the purpose of (light) talents you may only affect one area per round.
 
+++ Infravision (lens)
+You may slightly shift the spectrum of light, granting the target the ability to see heat. This allows them to ignore the miss chance for less than total concealment on living creatures. In addition, the target is capable of tracking living creatures by the heat they leave in their tracks. So long as the trail is no more than an hour old, the ground condition is never treated as worse than soft ground (DC 10), though strong temperature conditions (such as winter snow or a desert noon) can negate this benefit.
+
+++ Intensity Control
+You may add up to 10 ft. from the radius of your normal and bright light, as well as the distance to which light is increased by one step, or subtract any distance from the radius of your light. If you possess talents that would alter the area of your light such as the Illuminate talent, this increased or decreased radius is added in before the area is multiplied. You may alter the area of your light as a free action, but for the purpose of (light) talents you may only affect one area per round.
+
+Alternatively, so long as you do not apply any (light) talents to your glow, you may increase the radius of your normal light to 40 ft. and the radius of your bright light to 60 ft. + 5 ft. per caster level, and change the distance to which light is increased to the same amount.
+
+You may not alter the area of bright light shed by the Glory talent with Intensity Control.
+
+++ Irradiance (light)
+Your glow sheds ionizing radiation along with visible light. When you cause a target to glow you may choose to make it sickened, giving it a -2 penalty to attack rolls, weapon damage rolls, saving throws, skill checks, and ability checks.
+
+By spending a spell point to create bright light you can increase the intensity of the radiation. All creatures in the area of this bright light must make a Fortitude save or be nauseated for one round. They must make this saving throw each round they are within this area. Creatures that succeed on their saving throw are still sickened for that round.
+
 ++ Lasting Light
 When you produce a glow, it lasts for 10 minutes per caster level instead of 1 minute per caster level. Spending a spell point to make bright light self-sustaining still only lasts for 1 minute per caster level.
 
 ++ Light Link
 You always know the direction and distance to any creature or object under the effect of your glow. This has no effect if the creature or object is on another plane.
+
+++ Lingering Glow
+When you cause one of your glow effects to shed bright light by concentrating on it, you may choose for it to continue shedding bright light for two rounds even after you stop concentrating.
+
+++ Lure Light (Light)
+You may create an area of bright light that lures creatures towards it. All creatures in the area of your light must make a Will save or be compelled to move towards the source of the glow on their turns. An affected creature capable of movement must make at least one move action towards the source of the glow each turn, and cannot intentionally move away from it unless they must backtrack to get closer to it. A creature may attempt a new Will save each turn they are in the light of the glow, and after successfully saving once they are immune to your use of this talent for 24 hours. If a creature is in the area of multiple Lure Lights, they move towards the closest, or towards the glow of their choice if they are equidistant. A creature will not intentionally harm themselves when moving towards a lure. They will not throw themselves off cliffs or into lava to pursue a glow, though they will move as close as possible without risking themselves.
+
+The effect of this (light) talent is considered a mind-affecting effect.
+
+++ Obscure (lens)
+You allow light to partially pass through your target and move in strange ways around them, making it difficult to perceive their exact position. Once per round when the target is attacked, but before the attack is rolled, they can choose to have the attacker roll twice and take the lower result. For every ten caster levels you possess you may cause this to happen an additional time per round.
+
+Opponents that rely solely on non-visual senses (such as blindsight) or that cannot see the target ignore this penalty.
+
+++ Periscope (lens)
+By altering the path of light you can see from unusual positions. You may place and see from a sensor in any unoccupied space within your range that you can draw an unobstructed line to. This line may have one angle of up to 90 degrees, plus an additional angle of up to 90 degrees per ten caster levels you possess, but must otherwise be straight, and have a length no longer than the range of your (lens) talents. You may see from the position of the sensor as if you stood in the space it occupies. These sensors can be detected (Perception DC 20 + your caster level) and dispelled.
 
 ++ Ranged Light
 You may target creatures and objects within Long range rather than Medium range when applying a glow, and when causing a glowing object to shed normal or bright light.
@@ -66,3 +154,31 @@ You may spend a spell point to create bright light that reveals all invisible cr
 
 ++ Searing Light (light)
 You may create bright light that burns creatures in its area. All creatures in the area suffer 1 point of fire damage per caster level per round they are within this area of bright light. Undead, oozes, and creatures harmed by daylight take 2 points of fire damage per caster level.
+
+++ Style
+Your glows may be composed of multiple colors, allowing you to outline or highlight specific portions of a glowing object or create art. When you cause your glow to shed light, you may also create patterns and different colors in the light it sheds, casting intricate designs on surfaces. These patterns may be highly detailed and complex, though creating art of high craftsmanship requires you to succeed on an appropriate Craft check, usually Craft (Art). You determine and create the pattern as part of making the glow or light, but may change it as a free action once per turn.
+
+As a standard action you can cause one of your glows that is shedding light to stain a surface with its light, painting its current pattern on any portion of the glow’s area. The ability to stain a surface is an instantaneous effect, so the resulting stain is non-magical and functions as a mundane dye that cannot be dispelled, though it may be cleaned off or painted over. Unwilling targets may make a Reflex save to avoid being stained, and a 5 ft. cube may be cleaned of these stains with a full minute of work.
+
+If you also possess the Dancing Lights talent, you may alter the shape and appearance of your light. It may be as large as a full 5 ft. cube, or as small as a mote of dust, though its size has no impact on the light it sheds. Regardless of how intricate or well shaped your Dancing Light is, it is impossible to mistake as anything other than a magical light.
+
+++ Sunstroke (light)
+When you place a glow effect on a creature, you may choose to deal it 1d4 nonlethal damage per odd caster level. The creature takes this damage each round the glow is in effect. A successful Fortitude save negates the damage for that round, while two consecutive Fortitude saves ends the effect.
+
+If you cause this glow to shed bright light, the target also becomes fatigued the next time they take nonlethal damage from this effect. If they are already fatigued, they instead become exhausted. This fatigue or exhaustion cannot be recovered from until the target has been healed of the nonlethal damage taken from this effect.
+
+++ Telescope (Lens)
+You give the target the ability to magnify incoming light, granting them a circumstance bonus to sight-based Perception checks equal to your casting ability modifier. In addition, the DC for the target’s sight-based Perception checks increases by +1 per 50 ft. instead of +1 per 10 ft.
+
+In addition, the target may focus on a specific sight as a full-round action, making a Perception check as if intentionally searching for stimulus. The DC for that Perception check increases by +1 per 100 ft. instead of +1 per 10 ft.
+
+++ Trail (nimbus)
+When causing a glow effect to shed normal or bright light, as a free action you may cause it to trail light behind it rather than radiate light normally. The glow sheds normal or bright light in any square it passes through during the round, and the light 20 ft. away from any square of this area (or 30 ft. + 5 ft. per 2 caster levels away if shedding bright light) is increased by one step to a maximum of normal. If you return the light’s area to normal or change between (nimbus) talents, any trail left behind is removed.
+
+++ Visual Overload (light)
+When you cause a creature to glow, you may spend a spell point to overwhelm the target of the glow with visual stimulation. The target must make a Will save each round the glow is in effect on them or be staggered for one round. When causing a glow to shed bright light the target must make a Will save every round the bright light persists or become dazed for one round instead of staggered.
+
+Two consecutive successful Will saves against the glow ends the effect.
+
+++ Weird Radiance (nimbus)
+When causing a glow effect to shed normal light or bright light, you may shape this light into strange shapes as a free action. It illuminates an area that you form of a number of 5 ft. cubes, with each cube placed adjacent to the target of the glow or another cube. For normal light you may place up to 20 5 ft. cubes, and with bright light you may place up to 30, plus another for each 2 caster levels you possess. The light 20 ft. away from any square of this area (or 30 ft. + 5 ft. per 2 caster levels away if shedding bright light) is increased by one step to a maximum of normal. With the Intensity Control talent you may add an additional 5 ft. cube per 5 ft. of radius you would add to your area, and increase or decrease the radius in which light is increased by 10 ft. You may change the light’s area or return it to its normal area as a free action, but for the purpose of (light) talents you may only affect one area per round.
