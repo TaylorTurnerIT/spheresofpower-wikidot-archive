@@ -194,9 +194,100 @@ You may attack your enemies with pure telekinetic force. By using your telekines
 ++ Whirlwind Assembly
 As a swift action you can use your telekinesis to ready yourself for any given situation. You may draw up to two sheathed weapons or items you are carrying (even if it is stored in a backpack or similar container) and put away up to two objects you are holding in your hands. In addition, you may don a single set of armor or robes and put away any robes or armor you are currently wearing, or swap out any number of smaller worn items (such as gloves, hats, or rings). Each individual item equipped or put away must fall within the size limit of your telekinesis.
 
+----
+
 + Archetypes Specializing in Telekinesis
 
 ++ -[[[Electrokinetic]]]
 ++ -[[[Hekatonkheires]]]
 ++ -[[[Soaring Blade]]]
 ++ -[[[Unseen Horror]]]
+
+----
+
++ Gamemastering
+
+++ Clarifications
+This section is devoted to elaborating on existing Spheres of Power material, clarifying and offering suggestions for specific situations or uses of the Telekinesis Sphere.
+
++++ Telekinesis
+
+Items lifted by telekinesis are considered to be attended or held by the creature lifting them.
+
+If a character attempts to use telekinesis on a target that is under the effect of another character’s telekinesis, he must make a successful CMB check against their CMD to wrest control of the target.
+
+While most things a telekinetic will want to lift are solid, discrete objects, it is possible that you will want to lift a fluid or less cohesive mass, such as a pool of water or a pile of sand. The recommended default is that a telekinetic should be able to lift a mass equal to their standard telekinesis size limit, but under certain circumstances or in different settings a GM might want to impose stricter limits. A GM might choose to rule that some substances are more difficult than normal to manipulate with telekinesis (such as gases or more volatile fluids such as alchemist’s fire) and impose an effective size penalty, or say that cannot effectively be lifted with telekinesis at all without the proper skills. In such cases it is recommended that the Telekinetic Tools talent could be used to mimic a sack or bucket to scoop up fluids and fine grains, and the Finesse talent allowed to properly handle volatile chemicals or more tricky materials such as gases.
+
+++++ Bludgeon
+
+The Bludgeon option of telekinesis was addressed in errata to read:
+
+“Once per turn when lifting an object with telekinesis, you can relinquish its remaining movement (if any) to strike a creature or object within its square. You must succeed at an attack roll using your base attack bonus plus your casting ability against the target. On a successful hit, the target and the bludgeon take damage depending on the bludgeon’s size. If the bludgeon is a weapon, the attack deals appropriate damage for that weapon (bolts and arrows are treated as daggers for this purpose). Since weapons are designed to deal damage, they do not suffer damage if used as a bludgeon.”
+
+The damage type of Bludgeon depends on the object being wielded, but generally deals bludgeoning damage. However, a spiked grate might deal bludgeoning and piercing damage, while a shaving razor would deal slashing damage. A Bludgeon always deals a form of weapon damage (bludgeoning, piercing, or slashing), though it might be used to attack someone with an object that deals additional damage of another type (such as wooden object that has been set on fire).
+
+You do not need to be proficient with a weapon to use it effectively as a Bludgeon, and you do not take non-proficiency or improvised weapon penalties to your attack roll with a Bludgeon.
+
+When using an object as a bludgeon, any special properties that would apply to wielding it as a weapon apply to it as a bludgeon. A masterwork or enchanted weapon gains its enhancement bonus, and it uses any relevant special weapon abilities. A chunk of adamantine will overcome adamantine-keyed damage reduction and ignore hardness less than 20, and a lit torch will deal fire damage. The GM has final say on whether or not a property functions when the weapon is used as a bludgeon (example: flaming would cause the bludgeon to deal additional fire damage, but throwing would do nothing, as the weapon is the weapon is not being ‘thrown’ in a traditional sense.)
+
+++++ Hostile Lift
+Not only can you telekinetically move an unwilling creature with Hostile Lift, they become unable to move themselves normally while they are subject to it. They can still act in other ways such as wielding a weapon or casting a spell, take no penalties to defending themselves and gain their full set of actions in a round, but cannot physically move from the position until you are no longer maintaining your hostile lift, or until they succeed on the effect’s Will save.
+
++++ Acceleration
+Acceleration can benefit from feats or abilities that would give you a full attack at the end of a Charge (such as pounce), but even in conjunction with Divided Mind and/or Mobile Bludgeon you are still limited to your normal number of attacks each round.
+
++++ Dancing Weapon
+Because dancing weapons are controlled as if you were wielding them, they can threaten the areas around them. However, dancing weapons do not possess the natural reach of a wielder. Instead, a dancing weapon has reach that corresponds to its object size. Tiny and smaller objects only threaten the square they are positioned in, while weapons with the reach gain the normal benefits and drawbacks. Even if you are lifting multiple weapons with Divided Mind, you are limited to your normal amount of attacks of opportunity each round.
+
+**Table: Dancing Weapon Reach**
+||~ Size ||~ Reach || 
+|| Fine || 0 ft || 
+|| Diminutive || 0 ft || 
+|| Tiny || 0 ft || 
+|| Small || 5 ft || 
+|| Medium || 5 ft || 
+|| Large || 5 ft || 
+|| Huge || 10 ft || 
+|| Gargantuan || 15 ft || 
+|| Colossal || 20 ft || 
+You can flank with your own Dancing Weapon.
+
++++ Divided Mind
+When combining sizes to determine how much you can lift with Divided Mind, two objects of the same size category are equivalent to one object of a larger category. For example, two Small objects are equal to one Medium object, and four Medium objects are equal to two Large objects, or one Huge object.
+
+When making multiple bludgeon attacks per round with Divided Mind you must use a different object for each bludgeon attack unless you have the Mobile Bludgeon talent. When using multiple lifted objects as a single bludgeon, combine their size and determine damage as if they were a single object of that size. If one or more of these objects is a weapon the size category is effectively one size larger when determining damage. You add all weapon damage types together when using multiple objects as a single bludgeon-—so a bludgeon composed of blunt objects would only do bludgeoning damage, while if you later added a shortspear to the objects you wielded it would deal bludgeoning and piercing damage.
+
+++ Quick Reference
+
+**Table: Density of Common Materials**
+||~ Density ||~ Material ||~ Effective size || 
+|| Superdense || Adamantine, lead, gold, silver || One size larger || 
+|| Dense || Flesh, iron, mithral, sand, soil, stone, water, wood || Standard size || 
+|| Light || Charcoal, cork, darkwood, flour, hay, snow || One size smaller || 
+|| Weightless || Balsa wood, featherglass, feathers, shredded paper || Two sizes smaller || 
+
+The density table assumes the substance is packed together in a natural manner - if this changes, the density is altered as well. While a hollow sculpture of carefully joined paper sheets is effectively weightless, a bound book of paper sheets is little different in density than the wood it was made from. Similarly, while lightly packed snow is light, a drift from a new, dry snowfall could be weightless, while the snow comprising the terrain of an ancient glacier is dense.
+
+In general, density categories follow the density of water as a baseline. Materials or objects ten times as dense as water are superdense, materials and objects half the density of water are light, while materials and objects a tenth the density of water are weightless.
+
+Note that a weapon’s size category isn’t the same as its size as an object. Instead, a weapon’s size category is keyed to the size of the intended wielder. For example, a one-handed club sized for a medium creature is an object of tiny size. In general, adjust size category as follows:
+
+**Table: Weapon Sizes**
+||~ Weapon Type ||~ Size Adjustment || 
+|| Ammunition || Three sizes smaller || 
+|| Light Weapons || Two sizes smaller || 
+|| One-Handed Weapons || One size smaller || 
+|| Two-Handed Weapons || Same size || 
+^^This is a general guideline to weapon size rather than a hard rule, and exceptions exist (such as daggers which are three sizes smaller, or shurikens which are four). The exact size of a given weapon is ultimately up to the GM.^^
+
+**Table: Object Sizes**
+||~ Size ||~ Minimum CL ||~ Items || 
+|| Fine || 1 || Fishing hook, holy symbol, inkpen, key, needle, shuriken ||
+|| Diminutive || 1 || Book, dagger, flask, glass bottle, tankard ||
+|| Tiny || 3 || Bear trap, bust, candelabra, footstool, frying pan, cask, lantern, manacles, musical instrument, waterskin ||
+|| Small || 5 || Backpack, barstool, chair, chest, keg ||
+|| Medium || 8 || Barrel, cage, desk, full plate armor ||
+|| Large || 11 || Chandelier, chariot, coffin, door, statue, table ||
+|| Huge || 15 || Carriage, raft, wagon ||
+|| Gargantuan || 20 || Catapult, gazebo ||
+|| Colossal || 25 || Ship, windmill ||
