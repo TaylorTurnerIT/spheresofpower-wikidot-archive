@@ -8,7 +8,11 @@ That said, we welcome comments, suggestion, and criticism on these rules, and yo
 
 + Recharge Sphere Magic Rules (Beta)
 
-Recharge Sphere Magic is a variant rule system for Spheres of Power, modifying the character's pool of Spell Points. Any action that would normally require the use of a spell point instead triggers a Cooldown for that Sphere. During a Cooldown, only that Sphere's basic ability(s) can be used - the effects of all additional Talents in that Sphere, including those that are normally passive, are unavailable. (The exception to this is powers that are normally permanent, such as Form talents in the Conjuration sphere.) Using a Sphere's base power never incurs a cooldown unless you'd normally have to spend a spell point (like the Create power of the Creation sphere, which incurs a cooldown for itself). Any restrictions a Sphere already has, such as not being able to use a power on a target more than once a day, remain in force.
+Recharge Sphere Magic is a variant rule system for Spheres of Power, modifying the character's pool of Spell Points. Any action that would normally require the use of a spell point instead triggers a Cooldown for that Sphere. During a Cooldown, only that Sphere's basic ability(s) can be used - the effects of all additional Talents in that Sphere, including those that are normally passive, are unavailable. (The exception to this is powers that are normally permanent, such as Form talents in the Conjuration sphere.)
+
+Using a Sphere's base power never incurs a cooldown unless you'd normally have to spend a spell point (like the Create power of the Creation sphere, which incurs a cooldown for itself). Any restrictions a Sphere already has, such as not being able to use a power on a target more than once a day, remain in force.
+
+Many Sphere powers provide new versions of a base ability. When these cost a spell point, they trigger a Cooldown even if the basic ability does not. Similarly, many Sphere abilities can be maintained without triggering a Cooldown by concentrating, but would trigger a Cooldown if the caster wanted to spend a spell point to maintain them without concentrating.
 
 If the use of a spell would normally cost more than one spell point (such as from using metamagic), the recharge time is multiplied by the number of spell points that would have been spent. For example, if a Destructive Blast costing two spell points was cast at the highest caster level, it would incur a cooldown of 2d4+2 rounds on the Destruction Sphere.
 
@@ -30,6 +34,8 @@ If Advanced talents are permitted, their use adds an additional multiplier to th
 ----
 
 + Suggested Recharge Times
+
+**Wiki Note:** Talents not listed here are assumed to either not apply (such as permanent passive abilities) or be straightforward (usually either not triggering a cooldown because a spell point isn't spent, or having an obvious cost/cooldown under these rules and not needing any specific cooldown).
 
 [[collapsible show="Show Alteration Recharge Times" hide="Hide Alteration Recharge Times"]]
 **Normal Talents**
@@ -60,7 +66,7 @@ If Advanced talents are permitted, their use adds an additional multiplier to th
 
 **Advanced Talents**
 ||~ This Sphere Ability ||~ Is Like This Spell ||~ And Should Use This Recharge Time ||
-||~ Create Materials || Wall of Iron || 12 Hours ||
+||~ Create Materials || Unknown || 6 Hours ||
 ||~ Fabricate || Fabricate || 4 Hours ||
 ||~ Permanent Change || Permanency || General ||
 [[/collapsible]]
@@ -125,6 +131,50 @@ If Advanced talents are permitted, their use adds an additional multiplier to th
 ||~ Blast Shapes That Do Not Cost SP || N/A || No Change ||
 ||~ Blast Shapes That Cost SP || N/A || Normal Rules For Increasing Recharge Time ||
 ^^Note: It's possible to have a Blast Type and a Blast Shape that both cost SP. In that case, their costs are added together when determining the cooldown time.^^
+[[/collapsible]]
+
+[[collapsible show="Show Divination Recharge Times" hide="Hide Divination Recharge Times"]]
+**Normal Talents**
+||~ This Sphere Ability ||~ Is Like This Spell ||~ And Should Use This Recharge Time ||
+||~ Divine || Detect Magic || None (Base) ||
+||~ Alternate Basic Divinations || Detect Magic || None (Base) ||
+||~ Sense || Read Magic || None (Base) ||
+||~ Augury || Augury || 6 Hours ||
+||~ Detect Secrets || Detect Hidden Doors || General ||
+||~ Detect Spellcaster || Unknown || 30 Minutes ||
+||~ Detect Teleportation || Unknown || 30 Minutes ||
+||~ Detect Thoughts || Detect Thoughts || General ||
+||~ Divine Future || Unknown || Special (See Talent Text) ||
+||~ Divine Information || Unknown || 6 Hours ||
+||~ Dowsing || Locate Creature || 2 Hours ||
+||~ Object Reading || Unknown || 2 Hours ||
+||~ Sensory Overload || Unknown || General ||
+||~ Viewing || Arcane Eye || General ||
+||~ Witness the City || Unknown || 12 Hours ||
+
+**Advanced Talents**
+||~ This Sphere Ability ||~ Is Like This Spell ||~ And Should Use This Recharge Time ||
+||~ Discern Location || Locate Creature || 4 Hours ||
+||~ Divine Identity || Unknown || 30 Minutes ||
+||~ Divine Knowledge || Augury || 12 Hours ||
+||~ Divine Planeshift || Unknown || 30 Minutes ||
+||~ Read Omens || Divination || 24 Hours ||
+||~ Scrying || Scrying || General ||
+[[/collapsible]]
+
+[[collapsible show="Show Enhancement Recharge Times" hide="Hide Enhancement Recharge Times"]]
+**Normal Talents**
+||~ This Sphere Ability ||~ Is Like This Spell ||~ And Should Use This Recharge Time ||
+||~ Enhance Equipment || Greater Magic Weapon || None (Base) ||
+||~ Animate Object || Animate Objects || General ||
+||~ Bestow Intelligence || Awaken || General ||
+^^Reminder: Many of the abilities not listed here have no cooldown normally, but would trigger one in order to maintain them without concentrating.^^
+
+**Advanced Talents**
+||~ This Sphere Ability ||~ Is Like This Spell ||~ And Should Use This Recharge Time ||
+||~ Ascetic Control || Unknown || 24 Hours ||
+||~ Bestow Life || Unknown || None (24-hour casting time is long enough already) ||
+||~ Reverse Gravity || Reverse Gravity || General ||
 [[/collapsible]]
 
 ----
