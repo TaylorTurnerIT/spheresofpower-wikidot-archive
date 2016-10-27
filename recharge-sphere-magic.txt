@@ -16,7 +16,9 @@ Many Sphere powers provide new versions of a base ability. When these cost a spe
 
 If the use of a spell would normally cost more than one spell point (such as from using metamagic), the recharge time is multiplied by the number of spell points that would have been spent. For example, if a Destructive Blast costing two spell points was cast at the highest caster level, it would incur a cooldown of 2d4+2 rounds on the Destruction Sphere.
 
-As in the base system, it is possible to "undercast" a spell by not using it at the maximum level. Under the Recharge Sphere Magic rules, doing this will reduce the cooldown time once certain milestones are reached. This is meant to encourage characters to avoid casting at their maximum caster level all the time - or if they do, to force them to do different things and so avoid "spamming" any ability that's particularly effective.
+Some abilities are very powerful, especially if they can be repeatedly used in quick succession. These abilities have specific recharge times. When used, these abilities trigger a cooldown for themselves, but not for the rest of their Sphere. For example, the Creation sphere's Forge ability has a specific recharge of 6 hours, and other Creation abilities could be used while that power is recharging.
+
+As in the base system, it is possible to "undercast" a spell by not using it at the maximum level. Under the Recharge Sphere Magic rules, doing this will reduce the cooldown time once certain milestones are reached. This is meant to encourage characters to avoid casting at their maximum caster level all the time - or if they do, to force them to do different things and so avoid "spamming" any ability that's particularly effective. A spell cannot be undercast below Caster Level 1.
 
 If Advanced talents are permitted, their use adds an additional multiplier to the cooldown (this is in addition to any spell points normally required).
 
@@ -36,6 +38,11 @@ If Advanced talents are permitted, their use adds an additional multiplier to th
 + Suggested Recharge Times
 
 **Wiki Note:** Talents not listed here are assumed to either not apply (such as permanent passive abilities) or be straightforward (usually either not triggering a cooldown because a spell point isn't spent, or having an obvious cost/cooldown under these rules and not needing any specific cooldown).
+
+[[collapsible show="Show Rules For All Spheres" hide="Hide Rules For All Spheres"]]
+||~ If The Ability Has No Spell Point Cost And No Specific Cooldown || It does not trigger a cooldown ||
+||~ If The Ability Normally Has No Spell Point Cost, But Can Be Maintained By Spending A Point || It only triggers a cooldown when it would be maintained by spending a spell point ||
+[[/collapsible]]
 
 [[collapsible show="Show Alteration Recharge Times" hide="Hide Alteration Recharge Times"]]
 **Normal Talents**
@@ -58,11 +65,11 @@ If Advanced talents are permitted, their use adds an additional multiplier to th
 [[collapsible show="Show Creation Recharge Times" hide="Hide Creation Recharge Times"]]
 **Normal Talents**
 ||~ This Sphere Ability ||~ Is Like This Spell ||~ And Should Use This Recharge Time ||
-||~ Alter (Repair) || Cure Light Wounds || None (Base) ||
-||~ Alter (Destroy) || Inflict Light Wounds || None (Base) ||
+||~ Repair || Cure Light Wounds || None (Base) ||
+||~ Destroy || Inflict Light Wounds || None (Base) ||
 ||~ Create || Minor Creation || General (Base) ||
-||~ Alter (Change Materials) || Transmute Rock to Mud || 6 Hours ||
-||~ Alter (Forge) || Stone Shape || 6 Hours ||
+||~ Change Materials || Transmute Rock to Mud || 6 Hours ||
+||~ Forge || Stone Shape || 6 Hours ||
 
 **Advanced Talents**
 ||~ This Sphere Ability ||~ Is Like This Spell ||~ And Should Use This Recharge Time ||
@@ -175,6 +182,21 @@ If Advanced talents are permitted, their use adds an additional multiplier to th
 ||~ Ascetic Control || Unknown || 24 Hours ||
 ||~ Bestow Life || Unknown || None (24-hour casting time is long enough already) ||
 ||~ Reverse Gravity || Reverse Gravity || General ||
+[[/collapsible]]
+
+[[collapsible show="Show Fate Recharge Times" hide="Hide Fate Recharge Times"]]
+**Normal Talents**
+||~ This Sphere Ability ||~ Is Like This Spell ||~ And Should Use This Recharge Time ||
+||~ Hallow || Protection From Evil || General (Base) ||
+||~ Serendipity || Divine Favor || General (Base) ||
+||~ Judgment || Command || General ||
+||~ Truth || Zone of Truth || 30 Minutes ||
+
+**Advanced Talents**
+||~ This Sphere Ability ||~ Is Like This Spell ||~ And Should Use This Recharge Time ||
+||~ Atonement || Atonement || General ||
+||~ Geas || Geas/Quest || General ||
+||~ Mark of Judgment || Mark of Justice || General ||
 [[/collapsible]]
 
 ----
