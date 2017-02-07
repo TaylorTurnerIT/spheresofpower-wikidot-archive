@@ -291,6 +291,13 @@ Each day you do not use a spell point, you may make a Fortitude save against you
 
 If you already possess a minor addiction and fail your Fortitude save after spending spell points, you gain a moderate addiction. This gives you a -2 penalty to Constitution and Strength, and requires 3 saves to overcome. If you fail your save and already have a moderate addiction, you gain a severe addiction, suffering a -2 penalty to Dexterity, Constitution, Strength, Wisdom, and your primary casting attribute (if not Wisdom). If you overcome an addiction and later gain it again due to failing your Fortitude save, your addiction DC resets itself to its highest previous amount. This counts as 2 drawbacks when determining the number of spell points gained.
 
+++++ Center of Power
+You have an obvious physical feature which is the source of your magical power. Whenever you cast, any creature within 30 ft. of you can clearly see that your magic originates from your center of power. If a critical hit is confirmed on you, your center is disrupted, and you lose 1d4 spell points (if you have them) and are dazed for 1 round. A creature can target this with a called shot. The center of power is considered a tricky shot (-5).
+
+At the GM’s discretion, certain kinds of physical restraint might also make spellcasting require a concentration check equal to 20 + the caster level of the ability, depending on the nature of the center of power and the restraint. An undesirable polymorph effect may also produce the same results.
+
+You can not take this drawback if you took the Magical Signs drawback.
+
 ++++ Draining Casting
 Using magic saps your lifeforce. Using any sphere ability deals you 1 point of nonlethal damage which cannot be healed through any means except rest. This increases to 2 points at 5th caster level, 3 points at 10th caster level, 4 points at 15th caster level, and 5 points at 20th caster level. Creatures immune to nonlethal damage cannot gain this drawback.
 
@@ -302,6 +309,13 @@ Your magic takes longer to use than normal. When using an ability gained from a 
 
 ++++ Focus Casting
 Your magic requires you to use an item such as a wand, holy symbol, ring, or staff to create magic. Using magic without your focus requires you to make a concentration check (DC 20 + 1/2 the caster level) to produce the desired effect. Failure means time (and any spell points) are spent, but no effect happens. If a focus is lost, stolen, or broken, the caster must create a new focus by securing the necessary item and spending 8 hours bonding with it. At the GM’s discretion, however, another caster’s focus may be used instead.
+
+++++ Galvanized
+Your magic was forged by war, and is integrated with your fighting abilities. To use or concentrate on your abilities, you must wielding a martial or exotic weapon with at least some metal components (even some metal decorations on a wooden weapon are sufficient). You must be able to attack with the weapon, and have proficiency with it. The weapon itself has no special properties, but can not have the broken condition.
+
+Being disarmed, or having the weapon sundered counters any sphere abilities you are casting or maintaining. If a polymorph spell causes the weapon to become part of your body you lose your abilities, unless you can still attack with the weapon somehow. You can still switch between weapons while maintaining sphere abilities.
+
+You can not take this drawback if you took the Focus Casting drawback.
 
 ++++ Magical Signs
 Your magic is accompanied by a tell-tale sign; for example, your body glows brightly, the sound of tortured souls shriek as you cast, feelings of a deep chill affect all creatures within 30 ft. All nearby creatures know when you are using magic, as well as the nature of the magic used.
@@ -327,6 +341,11 @@ A caster with Skilled Casting must be able to perform their skill to use their m
 
 ++++ Somatic Casting
 You must gesture to cast spells—a process that requires you to have at least 1 hand unoccupied. When using magic, you cannot wear armor heavier than light without incurring a chance of arcane spell failure. You may select this drawback twice. If taken a second time, you cannot wear any armor or use a shield without incurring a chance of arcane spell failure.
+
+++++ Strenuous
+Your magic takes a physical or mental toll on you that limits how quickly and easily you can use it. You can not spend more than 1 spell point from your spell pool per round, and never as part of an immediate action. You can still use an ability that requires multiple spell points by voluntarily increasing the casting time to a number of rounds equal to the cost in spell points.
+
+You can not take this drawback if you took the Extended Casting drawback.
 
 ++++ Verbal Casting
 You must speak in a loud, clear voice to cast spells. Using magic alerts all nearby hearing creatures to your presence and location, effectively breaking stealth. You cannot cast in an area of magical silence, or in any other situation where you are unable to speak clearly.
@@ -523,8 +542,28 @@ You cannot use the haste and slow alter time abilities. You must select a (time)
 ++++ Battle Manipulation (Requires War)
 You cannot create totems, but you may still use (rally) talents. You may target a creature with your (rally) talents, treating all creatures within 30 ft of you as if they were within the area of one of your totems. You must select a (rally) talent with the bonus talent gained through this drawback.
 
+++++ Inspirational Caster
+You must create your magic by giving a powerful speech, striking an intimidating pose, or similarly imposing your will. You must succeed at a Diplomacy or Intimidate skill check to use any War sphere talent or ability. The DC of this skill check is 10 + the caster level of the ability +1 for every 5 ft away the target location (for a ranged totem) or the farthest target you want to affect (for a mandate or rally) is. Failing this skill check causes the ability to fail, and any spell points to be used are lost.
+
+You can not take this drawback if you took the Skilled Casting drawback as part of your tradition.
+
+++++ Personal Conflict
+You can only create totems attached to creatures. You must use the talent gained from this drawback to purchase the Totemic Aura or Totemic Presence talent. Turning any totem you create into a fixed totem (such as through the use of the Redeployment talent) dispels it. You can create mandates and rallies normally.
+
+You can not take this drawback if you took the Battle Manipulation drawback.
+
+++++ Small Unit Strategist
+You do not gain Totem of War. You must select a (mandate) talent or a (momentum) talent with the bonus talent gained through this drawback.
+
+You can not take this drawback if you took the Battle Manipulation drawback, or any drawback that causes you to lose Totem of War.
+
 ++++ Solo Combatant (Requires War)
 You cannot target other creatures with your (rally) talents, only yourself. You must select a (rally) talent with the bonus talent gained through this drawback.
+
+++++ Squadron Elite
+Your War magic only works for those in your squadron. Creatures outside your squadron can not benefit from your totems, be rallied, use momentum, or be in mandates. When you take this drawback, you do not gain an additional talent. Instead, you gain the [[[feats | Squadron Commander feat]]].
+
+You can not take this drawback if you took the Battle Manipulation drawback.
 
 +++ Warp
 
