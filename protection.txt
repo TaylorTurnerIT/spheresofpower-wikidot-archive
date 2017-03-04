@@ -4,83 +4,98 @@ parent:spheres-of-power
 
 You are a user of the magics of preservation.
 
-+ Ward
++ ##000000|Ward##
 
 As a standard action, you may create an ward centered on yourself with a radius of up to 10 ft + 5 ft per caster level, but can also be made so small as to only cover yourself. Wards remain as long as you concentrate, but you may spend a spell point to allow them to remain for 1 round per caster level without concentration. Wards remain in the location they were created, even if you move. When you gain the Protection sphere, you gain the following ward:
 
-++ Barrier
+++ ##000000|Barrier##
 
 You may create a ward that creates a mostly-transparent wall at its perimeter, stopping attacks, movement, breath weapons, and any spells or sphere effects that must travel to their destination (such as destructive blasts, ghost strikes, or spells that require ranged touch attacks). Other spells or sphere effects, however, such as teleportation effects, mind-altering magic, and gaze attacks may all bypass this ward. Ethereal creatures are technically stopped by the barrier, but can usually find a way around it (as the barrier does not cut through objects, and so usually stops at ground level).
 
 A barrier has hit points equal to 4 + your caster level and a Break DC of 15 + 1/2 your caster level. If an attack is directed at a target through the barrier, the attack first deals its damage to the barrier itself. If this damage is enough to destroy the barrier, the attack continues on to its intended target, although damage dealt to the barrier is subtracted from any damage done to the target or targets. Burst-effect attacks such as splash weapons, fireball spells, or others attempting to travel through the barrier explode at the barrier’s edge and also must overcome the barrier’s hp to damage targets on the other side. If you maintain your barrier through concentration, its HP is renewed each round on your turn.
 
-+ Aegis
++ ##000000|Aegis##
 
 As a standard action, you may touch a creature and spend a spell point, granting them an aegis for 1 hour per caster level. Unwilling targets are allowed a Will save to resist gaining an aegis. You gain the following aegis when you gain the Protection sphere:
 
-++ Deflection
+++ ##000000|Deflection##
 
 You grant the target a +1 Deflection bonus to AC, +1 per 5 caster levels.
 
 Certain protection talents grant you additional wards or aegis, and are marked (ward) or (aegis) respectively.
+----
++ ##000000|Protection Talents##
 
-+ Protection Talents
-
-++ Armored Magic (aegis)
-You may create an aegis that wraps the target in protective barriers, granting them either a +3 armor bonus or a +1 shield bonus to AC (your choice). This does not stack with other armor or shield bonuses, but does apply against attacks made by incorporeal creatures. These bonuses increase by +1 for every 5 caster levels you possess.
-
-++ Breathless (aegis)
-You may create an aegis that allows a creature to survive without air. The creature becomes immune to effects that require breathing (such as inhaled poison), can survive underwater, or even in a vacuum. This does not give immunity to cloud or gas attacks that do not require breathing.
-
-++ Community
++++ ##000000|Community##
 Whenever a creature under your aegis takes damage, you may spend a spell point to transfer up to half of that damage to any other creature under one of your aegis as a free action. This damage cannot be resisted or redirected further.
 
-++ Deathless (aegis)
-You may create an aegis that grants the subject a +4 morale bonus on saves against all death spells, Death sphere abilities, channeled negative energy, and other magical death effects. The subject is granted a save to negate such effects even if one is not normally allowed. This aegis does not protect against other sorts of attacks, even if those attacks might be lethal.
-
-++ Distant Protection
++++ ##000000|Distant Protection##
 When creating a ward, you may center it anywhere within Close range. When granting an aegis, you may grant it to a target within Close range.
 
-++ Energy Resistance (ward, aegis)
-You may create a ward that suppresses one energy type of your choice (fire, cold, electricity, sonic, or acid). Any damage of that energy type dealt within this area is reduced by 10 + your caster level. You may also create an aegis that grants energy resistance 10 + your caster level to either fire, cold, electricity, sonic, or acid. These effects only absorb damage and may not protect from other side effects of an attack.
-
-++ Guardian (aegis)
-You may create an aegis that draws harmful attention to its bearer and away from their allies. Any hostile target within 10 ft of the bearer of this aegis who decides to target any creature other than the bearer of this aegis suffers a -1 penalty to their attack roll. This penalty increases by 1 for every 5 caster levels possessed. Multiple Guardian aegis do not stack; if a creature attacks one creature with this aegis while within the area of another creature with this aegis, they suffer no penalty for their attack.
-
-++ Healing Aegis
++++ ##000000|Healing Aegis##
 As an immediate action, you may spend a spell point to dismiss one or more of your aegis on a target, healing that target for an amount equal to your casting ability modifier + your caster level per aegis dispelled. This may keep the target from dying.
 
-++ Greater Barrier
++++ ##000000|Greater Barrier##
 You may fashion your barrier into a flat plane if you so choose. This wall must be contiguous and must begin adjacent to you, although it may extend as far out as Close range (if you possess the Distant Protection talent, it must begin within Close range and be contained within Medium range), and can cover up to 1 10 ft square per caster level. In addition, when creating a barrier, you may spend an additional spell point to increase its Hit Points to 10 per caster level and increase the Break DC by 10. The barrier’s hit points do not replenish, even if maintained through concentration.
 
-++ Luck
++++ ##000000|Luck##
 As an immediate action, you may dismiss an aegis on a target to allow them to reroll a saving throw they have just made. They must take the second result, even if it is worse.
 
-++ Obstruction (aegis)
++++ ##000000|Status##
+You always know the direction and distance to all creatures benefiting from your aegis and are aware of any conditions affecting them (unharmed, wounded, disabled, staggered, unconscious, dying, nauseated, panicked, stunned, poisoned, diseased, confused, etc.). If the target dies or moves to another plane of existence, this effect ceases to function.
+----
++ ##000000|Aegis Talents##
+
++++ ##000000|Armored Magic (aegis)##
+You may create an aegis that wraps the target in protective barriers, granting them either a +3 armor bonus or a +1 shield bonus to AC (your choice). This does not stack with other armor or shield bonuses, but does apply against attacks made by incorporeal creatures. These bonuses increase by +1 for every 5 caster levels you possess.
+
++++ ##000000|Breathless (aegis)##
+You may create an aegis that allows a creature to survive without air. The creature becomes immune to effects that require breathing (such as inhaled poison), can survive underwater, or even in a vacuum. This does not give immunity to cloud or gas attacks that do not require breathing.
+
++++ ##000000|Deathless (aegis)##
+You may create an aegis that grants the subject a +4 morale bonus on saves against all death spells, Death sphere abilities, channeled negative energy, and other magical death effects. The subject is granted a save to negate such effects even if one is not normally allowed. This aegis does not protect against other sorts of attacks, even if those attacks might be lethal.
+
++++ ##000000|Energy Resistance (ward, aegis)##
+You may create a ward that suppresses one energy type of your choice (fire, cold, electricity, sonic, or acid). Any damage of that energy type dealt within this area is reduced by 10 + your caster level. You may also create an aegis that grants energy resistance 10 + your caster level to either fire, cold, electricity, sonic, or acid. These effects only absorb damage and may not protect from other side effects of an attack.
+
++++ ##000000|Guardian (aegis)##
+You may create an aegis that draws harmful attention to its bearer and away from their allies. Any hostile target within 10 ft of the bearer of this aegis who decides to target any creature other than the bearer of this aegis suffers a -1 penalty to their attack roll. This penalty increases by 1 for every 5 caster levels possessed. Multiple Guardian aegis do not stack; if a creature attacks one creature with this aegis while within the area of another creature with this aegis, they suffer no penalty for their attack.
+
++++ ##000000|Obstruction (aegis)##
 You may create an aegis that absorbs damage. The target gains DR/- equal to 1/2 the caster level (minimum: 1). Once this aegis has absorbed damage equal to 10 x the caster level, the aegis ends even if its duration has not yet expired.
 
-++ Painful Aegis (aegis)
++++ ##000000|Painful Aegis (aegis)##
 You may create an aegis that inflicts pain on creatures that hurt its bearer. Whenever a creature successfully hits the bearer of this aegis with a melee or ranged attack, that creature suffers 1 point of nonlethal damage per 2 caster levels (minimum: 1).
 
-++ Peacebound (ward, aegis)
++++ ##000000|Peacebound (ward, aegis)##
 You may create a ward that renders all creatures within incapable of causing violence. Any violent action or targeted offensive magical effect created within the ward fails and the target’s action is wasted (Will negates). If any target succeeds at this Will save, the ward’s effect immediately ends for all. When a peacebound ward is broken in this fashion, all creatures within become immune to that caster’s peacebound ward for 24 hours. You may also create an aegis that makes the target immune to violent actions or magic. Any such action made against the target requires the attacker to pass a Will save or lose that action. If a creature succeeds at this Will save (or the bearer of the peacebound aegis takes an offensive action against any creature) the aegis immediately ends.
 
-++ Protected Health (aegis)
++++ ##000000|Protected Health (aegis)##
 You may create an aegis that grants the target a +4 morale bonus to saving throws against all poisons and diseases, both magical and mundane.
 
-++ Repel Evil/Good/Law/Chaos (ward)
-You may create a ward that repels creatures of one end of the alignment spectrum (good, evil, lawful, chaotic), chosen by you when this ward is created. All creatures of that alignment cannot cross the edge of this ward unless they succeed at a Will save. Once a creature has succeeded at this Will save, they may cross the barrier without trouble and are immune to your repel ward for 24 hours. If a creature is already within this warded area when it is created, or if the ward is moved into their space, they instantly become immune to the ward, as if they had succeeded at their saving throw. You cannot repel an alignment that you yourself possess.
-
-++ Resistance (aegis)
++++ ##000000|Resistance (aegis)##
 You may create an aegis that grants +1 resistance bonus to all saving throws. This increases by 1 for every 5 caster levels you possess.
 
-++ Slippery (aegis)
++++ ##000000|Slippery (aegis)##
 You may create an aegis that protects a creature from being physically restrained or manipulated. The bearer of this aegis gains a +2 enhancement bonus to Acrobatics checks, Escape Artist checks, and to CMD. These bonuses increase by 1 for every 5 caster levels you possess.
 
-++ Spell Ward (ward, aegis)
++++ ##000000|Spell Ward (ward, aegis)##
 You may spend a spell point to create a ward that represses all magic within its area of effect. Make one magic skill check against each magical effect, magic item, or summoned creature within the area. Magic items have a MSD of 10 + their caster level. If your check exceeds the MSD of the magical effect, item, or caster who summoned the creature, the effect is suppressed, the magic item ceases to function, or the summoned creature temporarily disappears. Time spent suppressed counts toward a magical effect’s total duration. Any caster attempting to use a magical ability in or targeted within this area, or any summoned creature attempting to enter this area, must pass a magic skill check against your MSD. On a success, the magical effect is unimpeded, and the summoned creature is not banished by that spell ward.
 
 You may also spend 2 spell points instead of 1 to create an aegis that grants the target Spell Resistance equal to 10 + your caster level.
+----
++ ##000000|Ward Talents##
 
-++ Status
-You always know the direction and distance to all creatures benefiting from your aegis and are aware of any conditions affecting them (unharmed, wounded, disabled, staggered, unconscious, dying, nauseated, panicked, stunned, poisoned, diseased, confused, etc.). If the target dies or moves to another plane of existence, this effect ceases to function.
++++ ##000000|Energy Resistance (ward, aegis)##
+You may create a ward that suppresses one energy type of your choice (fire, cold, electricity, sonic, or acid). Any damage of that energy type dealt within this area is reduced by 10 + your caster level. You may also create an aegis that grants energy resistance 10 + your caster level to either fire, cold, electricity, sonic, or acid. These effects only absorb damage and may not protect from other side effects of an attack.
+
++++ ##000000|Peacebound (ward, aegis)##
+You may create a ward that renders all creatures within incapable of causing violence. Any violent action or targeted offensive magical effect created within the ward fails and the target’s action is wasted (Will negates). If any target succeeds at this Will save, the ward’s effect immediately ends for all. When a peacebound ward is broken in this fashion, all creatures within become immune to that caster’s peacebound ward for 24 hours. You may also create an aegis that makes the target immune to violent actions or magic. Any such action made against the target requires the attacker to pass a Will save or lose that action. If a creature succeeds at this Will save (or the bearer of the peacebound aegis takes an offensive action against any creature) the aegis immediately ends.
+
++++ ##000000|Repel Evil/Good/Law/Chaos (ward)##
+You may create a ward that repels creatures of one end of the alignment spectrum (good, evil, lawful, chaotic), chosen by you when this ward is created. All creatures of that alignment cannot cross the edge of this ward unless they succeed at a Will save. Once a creature has succeeded at this Will save, they may cross the barrier without trouble and are immune to your repel ward for 24 hours. If a creature is already within this warded area when it is created, or if the ward is moved into their space, they instantly become immune to the ward, as if they had succeeded at their saving throw. You cannot repel an alignment that you yourself possess.
+
++++ ##000000|Spell Ward (ward, aegis)##
+You may spend a spell point to create a ward that represses all magic within its area of effect. Make one magic skill check against each magical effect, magic item, or summoned creature within the area. Magic items have a MSD of 10 + their caster level. If your check exceeds the MSD of the magical effect, item, or caster who summoned the creature, the effect is suppressed, the magic item ceases to function, or the summoned creature temporarily disappears. Time spent suppressed counts toward a magical effect’s total duration. Any caster attempting to use a magical ability in or targeted within this area, or any summoned creature attempting to enter this area, must pass a magic skill check against your MSD. On a success, the magical effect is unimpeded, and the summoned creature is not banished by that spell ward.
+
+You may also spend 2 spell points instead of 1 to create an aegis that grants the target Spell Resistance equal to 10 + your caster level.
