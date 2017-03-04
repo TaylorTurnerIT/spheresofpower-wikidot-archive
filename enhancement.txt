@@ -4,19 +4,42 @@ parent:spheres-of-power
 
 You may place enhancements on creatures and objects, altering their properties.
 
-+ Enhance
++ ##000000|Enhance##
 
 As a standard action, you may enhance a creature or object within Close range for as long as you concentrate. You may always spend a spell point to allow an enhancement to continue for 1 minute per caster level without concentration. If targeting a creature or intelligent item that doesn’t want to be enhanced (or an item in a creature’s possession that doesn’t want their item enhanced), the target is allowed a Will save (DC 10 + 1/2 caster level + casting ability modifier) to negate the effect. When you gain the enhancement sphere, you gain the following enhancement:
 
-++ Enhance Equipment
+++ ##000000|Enhance Equipment##
 
 You may enhance a weapon, suit of armor, or shield, granting it a +1 enhancement bonus. This bonus increases by 1 for every 5 caster levels possessed, to a total of +5 at 20th level. This does not stack with any enhancement bonus already possessed by the item.
 
 Talents marked as (enhance) grant you new enhancements you may bestow.
+----
++ ##000000|Enhancement Talents##
 
-+ Enhancement Talents
++++ ##000000|Deep Enhancement##
+When you spend a spell point to make an enhancement last 1 minute per caster level without concentration, it lasts for 10 minutes per caster level instead.
 
-++ Animate Object (enhance)
++++ ##000000|Dual Enhancement##
+Whenever you use an enhancement that gives you multiple options, you may spend a spell point to select two options. For example, you could use Physical Enhancement to provide a bonus to Strength and Constitution simultaneously.
+
++++ ##000000|Greater Enhancement##
+When using the Enhance Equipment enhancement, increase the enhancement bonus granted by 1. This means you can grant an item a +6 enhancement bonus if your caster level is high enough.
+
++++ ##000000|Lingering Enhancement##
+When you enhance an object or creature, the enhancement remains for 2 rounds after you stop concentrating.
+
++++ ##000000|Mass Enhancement##
+When bestowing an enhancement, you may spend an additional spell point to enhance an additional target per 2 caster levels (minimum: 1 additional). All targets must be within range and must receive the same enhancement (thus, if using the Deadly Weapon talent, you could only target weapons with this ability).
+
++++ ##000000|Natural Enhancement##
+You may enhance a creature with enhancements that normally only apply to weapons or armor. If it applies to weapons, it applies to one of the creature’s natural weapons, as well as its unarmed strikes; if it applies to armor, it applies to any natural armor bonus that the creature possesses (creatures without natural armor are considered to have a natural armor bonus of +0).
+
++++ ##000000|Ranged Enhancement##
+You may enhance targets within Medium range. You may take this talent multiple times. Each time it is taken, increase the range by an additional step (Close to Medium, Medium to Long).
+----
++ ##000000|Enhance Talents##
+
++++ ##000000|Animate Object (enhance)##
 You may spend a spell point to enhance an object, bestowing movement and a semblance of life. The object obeys your command and understands your language, but as it is not intelligent, it can only obey simple commands such as ‘move’, ‘fight’, ‘guard’, ‘stop’, etc.
 
 If you animate an enemy’s weapon, the weapon cannot move and attack while it is being held, but the wielder must pass a Reflex save (DC 10 + 1/2 caster level + casting ability modifier) each round they hold the item or lose their action fighting their weapon for control. If you animate an enemy’s armor or clothing, the enemy becomes entangled and must pass a Reflex save each round or also be staggered that round.
@@ -35,137 +58,127 @@ Animated objects are constructs, and gain Hit Dice according to their size. The 
 || 15 || Gargantuan || Catapult || 10d10+60 || 5 ||
 || 20 || Colossal || Ship || 13d10+80 || 6 ||
 
-+++ Expanded Options for Animated Objects
+> +++ ##000000|Expanded Options for Animated Objects##
+> 
+> ++++ New Abilities
+> 
+> +++++ Armor (Ex; 1 CP)
+> The object is a suit of armor. When worn by another creature, it ceases to act as a creature of its own. Instead, any damage the wearer takes is dealt to the object instead; if the object loses all of its hit points, then the armor bonus it grants is reduced to +0. While worn, it grants its armor bonus to AC, as well as the benefits of any special qualities, as normal. As long as the object is still animated, it may be donned as a full-round action and removed as a swift action.
+> 
+> +++++ Durable (Ex; 1 CP)
+> The object is exceptionally durable. It gains 5 additional hit points for each size category it has beyond Tiny, to a maximum of 30 additional hit points for Colossal animated objects. This can be applied multiple times, and its effects stack.
+> 
+> +++++ Fluid (Ex; 1 CP)
+> The animated object is unusually fluid; it may squeeze through tight spaces as if it were two sizes smaller than it actually is.
+> 
+> +++++ Garrote (Ex; 1 CP)
+> The object strangles creatures it grapples - it gains the Strangle special attack (the object must have Grab before it can select this ability).
+> 
+> +++++ Graft (Su; 1 CP)
+> The object can serve as a replacement limb for a creature two size categories larger than it. While attached to a creature, the object ceases to act as a creature of its own. Instead, the creature benefiting from the graft ignores any penalties due to missing that limb, and gains one of the object’s natural attacks. If the object possesses any Special Attacks modifying that natural attack, the beneficiary of the graft gains it as well, using their size in place of that of the object.
+> 
+> An object with graft may be attached to a creature with a DC 20 Heal check.
+> 
+> +++++ Hollow (Ex; 1 CP)
+> The animated object gains the Swallow Whole special attack with its Slam attacks; creatures swallowed by the object do not automatically take damage (the object must have Grab before it may select this ability). This can be applied multiple times, each time increasing the object’s size category for the purposes of what creatures and objects it can grab and swallow by one.
+> 
+> +++++ Magic Item (Su; 1 CP)
+> The object is some description of magic item. It may activate itself as if it were holding or wearing itself. Magic weapons may apply their enchantments to one of their natural attacks (for example, an animated +1 Dragon-Bane longsword would have a +1 Dragon-Bane slam attack).
+> 
+> +++++ Material Properties (Ex; 1 CP)
+> The object’s natural attacks are considered to be weapons made from the object’s special material. The object must have Metal or Special Material before it may select this ability.
+> 
+> +++++ Toxic (Ex; 1 CP)
+> The object is coated with a contact or injury poison. It gains the Poison special attack with its Slam attacks. The crafter may spend an additional CP to have that poison apply to all of its natural attacks instead.
+> 
+> ++++ New Flaws
+> 
+> +++++ Aberration (Ex; +2 CP)
+> The object is made from squirmy flesh instead of inorganic substances; change its type to Aberration, give it a Constitution score equal to its Strength score, replace Construct Traits (Ex) with Amorphous (Ex) and Darkvision 60 ft., and replace its Hardness with an equal amount of DR bypassed by magic. It is still Mindless.
+> 
+> +++++ Centralized (Ex; +2 CP)
+> The object has weak points, and loses its immunity to critical hits.
+> 
+> +++++ Immobile (Ex; +2 CP)
+> The object has a base land speed of 0 ft., and may not have abilities or flaws applied which alter its base land speed or grant it new movement speeds.
+> 
+> +++++ Fragile (Ex; +1 CP)
+> The object gains vulnerability to bludgeoning damage.
+> 
+> ++++ Animating Structural Features
+> As it stands, Animate Object abruptly stops scaling at approximately level 10 for anyone who wants to bring the animated object into a dungeon or other enclosed space with them. While there are ways around this problem (such as the Fluid ability, or using Alteration to shrink an animated object down to size), they ultimately cut into some of the fun of making a house smack people.
+> 
+> With this variant rule, Animate Object can be used on portions of structures, allowing casters to animate a hallway within a castle or the front door of a cottage. Objects animated in this way always have the Immobile flaw. Additionally, such objects are rigidly attached to the rest of the structure, reducing its Reach as if it were two size categories smaller than it actually is.
+> 
+> In exchange for this limitation, the animated portion of the structure may attack creatures that are within reach of any of its surfaces, and is immune to any effect that would move it that couldn’t also move the structure it is a component of.
+> 
+> ++++ Elemental Objects
+> Currently, the sole form of energy damage you may add to the slam attacks of an animated object is fire. This makes sense for animated candlesticks, but what about animated flasks of acid or more exotic objects? As such, you may choose to replace the fire damage from the Burn ability with another type of energy damage when animating objects that are potentially dangerous due to some elemental hazard.
+> 
+> ++++ Objects of Exceptional Size
+> By default, the maximum size of objects that may be animated is Colossal. However, Drop Dead Studios has used three sizes past Colossal in previous products - namely Colossal+, Colossal++, and Colossal+++.
+> 
+> This variant expands the higher end of what’s possible with animated objects as follows:
+> 
+> ||~ Caster Level ||~ Size ||~ Hit Dice ||~  Maximum Construction Points || 
+> || 30 || Colossal+ || 16d10+100 || 7 || 
+> || 36 || Colossal++ || 19d10+120 || 8 || 
+> || 42 || Colossal+++ || 22d10+150 || 9 || 
+> 
+> ++++ Other Materials
+> By default, the only options for an animated object’s Metal ability are “common” metals, mithral, and adamantine. Similarly, the Stone ability offers a choice of generic stone or crystal. However, the Pathfinder Roleplaying Game has introduced a vast number of special materials over the years; therefore, the following ability is introduced to cover any of those materials.
+> 
+> +++++ Special Materials (Ex; 1+ CP)
+> 
+> The animated object’s hardness is equal to the hardness of the Special Material it is made from. In addition, the animated object gains a natural armor bonus equal to the CP cost of this ability.
+> 
+> This ability costs 2 CP for every +5 increase to hardness gained from this ability, rounded up. If the special material has a hardness less than 10, it costs 1 CP instead.
+> 
+> If the material the animated object is created from has a hardness less than 5, use the Fragile flaw instead.
 
-++++ New Abilities
-
-+++++ Armor (Ex; 1 CP)
-The object is a suit of armor. When worn by another creature, it ceases to act as a creature of its own. Instead, any damage the wearer takes is dealt to the object instead; if the object loses all of its hit points, then the armor bonus it grants is reduced to +0. While worn, it grants its armor bonus to AC, as well as the benefits of any special qualities, as normal. As long as the object is still animated, it may be donned as a full-round action and removed as a swift action.
-
-+++++ Durable (Ex; 1 CP)
-The object is exceptionally durable. It gains 5 additional hit points for each size category it has beyond Tiny, to a maximum of 30 additional hit points for Colossal animated objects. This can be applied multiple times, and its effects stack.
-
-+++++ Fluid (Ex; 1 CP)
-The animated object is unusually fluid; it may squeeze through tight spaces as if it were two sizes smaller than it actually is.
-
-+++++ Garrote (Ex; 1 CP)
-The object strangles creatures it grapples - it gains the Strangle special attack (the object must have Grab before it can select this ability).
-
-+++++ Graft (Su; 1 CP)
-The object can serve as a replacement limb for a creature two size categories larger than it. While attached to a creature, the object ceases to act as a creature of its own. Instead, the creature benefiting from the graft ignores any penalties due to missing that limb, and gains one of the object’s natural attacks. If the object possesses any Special Attacks modifying that natural attack, the beneficiary of the graft gains it as well, using their size in place of that of the object.
-
-An object with graft may be attached to a creature with a DC 20 Heal check.
-
-+++++ Hollow (Ex; 1 CP)
-The animated object gains the Swallow Whole special attack with its Slam attacks; creatures swallowed by the object do not automatically take damage (the object must have Grab before it may select this ability). This can be applied multiple times, each time increasing the object’s size category for the purposes of what creatures and objects it can grab and swallow by one.
-
-+++++ Magic Item (Su; 1 CP)
-The object is some description of magic item. It may activate itself as if it were holding or wearing itself. Magic weapons may apply their enchantments to one of their natural attacks (for example, an animated +1 Dragon-Bane longsword would have a +1 Dragon-Bane slam attack).
-
-+++++ Material Properties (Ex; 1 CP)
-The object’s natural attacks are considered to be weapons made from the object’s special material. The object must have Metal or Special Material before it may select this ability.
-
-+++++ Toxic (Ex; 1 CP)
-The object is coated with a contact or injury poison. It gains the Poison special attack with its Slam attacks. The crafter may spend an additional CP to have that poison apply to all of its natural attacks instead.
-
-++++ New Flaws
-
-+++++ Aberration (Ex; +2 CP)
-The object is made from squirmy flesh instead of inorganic substances; change its type to Aberration, give it a Constitution score equal to its Strength score, replace Construct Traits (Ex) with Amorphous (Ex) and Darkvision 60 ft., and replace its Hardness with an equal amount of DR bypassed by magic. It is still Mindless.
-
-+++++ Centralized (Ex; +2 CP)
-The object has weak points, and loses its immunity to critical hits.
-
-+++++ Immobile (Ex; +2 CP)
-The object has a base land speed of 0 ft., and may not have abilities or flaws applied which alter its base land speed or grant it new movement speeds.
-
-+++++ Fragile (Ex; +1 CP)
-The object gains vulnerability to bludgeoning damage.
-
-
-++++ Animating Structural Features
-As it stands, Animate Object abruptly stops scaling at approximately level 10 for anyone who wants to bring the animated object into a dungeon or other enclosed space with them. While there are ways around this problem (such as the Fluid ability, or using Alteration to shrink an animated object down to size), they ultimately cut into some of the fun of making a house smack people.
-
-With this variant rule, Animate Object can be used on portions of structures, allowing casters to animate a hallway within a castle or the front door of a cottage. Objects animated in this way always have the Immobile flaw. Additionally, such objects are rigidly attached to the rest of the structure, reducing its Reach as if it were two size categories smaller than it actually is.
-
-In exchange for this limitation, the animated portion of the structure may attack creatures that are within reach of any of its surfaces, and is immune to any effect that would move it that couldn’t also move the structure it is a component of.
-
-++++ Elemental Objects
-Currently, the sole form of energy damage you may add to the slam attacks of an animated object is fire. This makes sense for animated candlesticks, but what about animated flasks of acid or more exotic objects? As such, you may choose to replace the fire damage from the Burn ability with another type of energy damage when animating objects that are potentially dangerous due to some elemental hazard.
-
-++++ Objects of Exceptional Size
-By default, the maximum size of objects that may be animated is Colossal. However, Drop Dead Studios has used three sizes past Colossal in previous products - namely Colossal+, Colossal++, and Colossal+++.
-
-This variant expands the higher end of what’s possible with animated objects as follows:
-
-||~ Caster Level ||~ Size ||~ Hit Dice ||~  Maximum Construction Points || 
-|| 30 || Colossal+ || 16d10+100 || 7 || 
-|| 36 || Colossal++ || 19d10+120 || 8 || 
-|| 42 || Colossal+++ || 22d10+150 || 9 || 
-
-++++ Other Materials
-By default, the only options for an animated object’s Metal ability are “common” metals, mithral, and adamantine. Similarly, the Stone ability offers a choice of generic stone or crystal. However, the Pathfinder Roleplaying Game has introduced a vast number of special materials over the years; therefore, the following ability is introduced to cover any of those materials.
-
-+++++ Special Materials (Ex; 1+ CP)
-
-The animated object’s hardness is equal to the hardness of the Special Material it is made from. In addition, the animated object gains a natural armor bonus equal to the CP cost of this ability.
-
-This ability costs 2 CP for every +5 increase to hardness gained from this ability, rounded up. If the special material has a hardness less than 10, it costs 1 CP instead.
-
-If the material the animated object is created from has a hardness less than 5, use the Fragile flaw instead.
-
-++ Bestow Intelligence (enhance)
++++ ##000000|Bestow Intelligence (enhance)##
 You may spend a spell point to enhance an animal, plant, or object, granting it temporary intelligence. The target becomes a magical creature (or intelligent item if an object), and gains an Intelligence, Charisma, and Wisdom score of 3d6 each (or its original score, whichever is higher), as well as an alignment equal to your own, and the ability to speak and understand one language of your choice which you also speak and understand, +1 language you know per point of Intelligence bonus. It also gains normal senses to 60 ft if it did not previously possess any. The creature or object has a beginning disposition of Friendly towards you, but does not gain greater insight into its surroundings before it gained intelligence (thus, an intelligent rock could not tell you who passed by it before it gained sentience, nor an intelligent tree describe a creature who climbed it the day before), nor does it automatically obey your commands, although it will usually provide favors and aid that is not too dangerous. This does not grant the target extra abilities nor the ability to move. You may bestow intelligence on an animated object under your control, in which case the object still continues to obey you explicitly even though it is now intelligent.
 
-++ Corrosive Poison (enhance)
++++ ##000000|Corrosive Poison (enhance)##
 You may enhance a dose of poison, rendering it corrosive. Whenever a creature fails a saving throw against that poison, it also takes acid damage equal to your caster level.
 
-++ Cripple (enhance)
++++ ##000000|Cripple (enhance)##
 You may apply an enhancement to a creature, giving it a -1 penalty to all of the creature’s d20 rolls (attack rolls, saving throws, ability checks and skill checks). This penalty increases by 1 for every 5 caster levels you possess.
 
-++ Cripple Movement (enhance)
++++ ##000000|Cripple Movement (enhance)##
 You may enhance creatures, halving their base land speed. Alternatively, you may use this talent to remove one of a creature’s special movement speeds, such as flight or burrow; if the creature in question has a natural flight speed, they glide safely to the ground.
 
-++ Deadly Weapon (enhance)
++++ ##000000|Deadly Weapon (enhance)##
 You may enhance a weapon, granting it the keen special quality if it does not already possess it and a +1 bonus to critical hit confirmation rolls for every 3 caster levels possessed (to a maximum of +6 at 18th caster level).
 
-++ Deep Enhancement
-When you spend a spell point to make an enhancement last 1 minute per caster level without concentration, it lasts for 10 minutes per caster level instead.
-
-++ Dual Enhancement
-Whenever you use an enhancement that gives you multiple options, you may spend a spell point to select two options. For example, you could use Physical Enhancement to provide a bonus to Strength and Constitution simultaneously.
-
-++ Emphasize Belief (enhance)
++++ ##000000|Emphasize Belief (enhance)##
 You may enhance creatures, granting them alignment subtypes corresponding to the non-Neutral components of their alignment. While under the effects of this enhancement, that creature gains DR equal to one-third of your caster level (minimum 1), bypassed by attacks made with weapons aligned to the alignment opposed to their new subtype. This damage reduction stacks with any other source of damage reduction they might have.
 
-++ Emphasize Virulence (enhance)
++++ ##000000|Emphasize Virulence (enhance)##
 You may enhance a dose of poison, increasing the number of successful saving throws necessary to cure the poison by 1.
 
-++ Energy Weapon (enhance)
++++ ##000000|Energy Weapon (enhance)##
 You may enhance a weapon, granting it the corrosive, flaming, frost, or shock special weapon qualities. The weapons deal an extra point of damage for every 2 caster levels possessed.
 
-++ Enhance Focus (enhance)
++++ ##000000|Enhance Focus (enhance)##
 You may enhance creatures, allowing them a higher standard of consistency. Whenever the creature takes 10 on a skill check, they may treat the die as if it had rolled 10 + 1/2 your caster level (minimum 11, to a maximum of 20 at 20th caster level) instead.
 
-++ False Energy (enhance)
++++ ##000000|False Energy (enhance)##
 You may apply an enhancement to a creature, either suppressing a pre-existing fatigued condition or to reduce the exhausted condition to fatigued for the duration; alternatively, you may spend a spell point to suppress a pre-existing exhausted condition entirely. You are still considered to be suffering those conditions for the purposes of effects that render you fatigued or exhausted. Either way, the creature adds your caster level to their Constitution score for the purpose of how long it may hold its breath or run before making Constitution checks. As a side effect, applying this enhancement to a sleeping creature causes it to immediately wake up.
 
-++ Greater Enhancement
-When using the Enhance Equipment enhancement, increase the enhancement bonus granted by 1. This means you can grant an item a +6 enhancement bonus if your caster level is high enough.
-
-++ Harden (enhance)
++++ ##000000|Harden (enhance)##
 You may enhance an item to increase its hardness, or enhance a creature to grant it DR/adamantine. The bonus is equal to your half your caster level (minimum: 1).
 
-++ Improved Flexibility (enhance)
++++ ##000000|Improved Flexibility (enhance)##
 You may enhance a creature, allowing it to make Escape Artist checks that normally require a full minute to perform as a full-round action. At 6th caster level, it ignores all penalties while squeezing through narrow spaces, and may move through such spaces at full speed. At 12th caster level, it may squeeze through tight spaces at its full speed, and does not lose its Dexterity bonus to AC when doing so. At 18th level, it may use Escape Artist to squeeze through any space large enough to fit one of its fists.
 
-++ Improved Strength (enhance)
++++ ##000000|Improved Strength (enhance)##
 You may enhance creatures, letting them calculate their carrying capacity, as well as which weapons they may wield, as if they were one size category larger. This increases to two size categories larger at 7th caster level, and to three size categories at 14th caster level.
 
-++ Increase Speed (enhance)
++++ ##000000|Increase Speed (enhance)##
 You may enhance creatures, granting them a +10 ft. enhancement bonus to one movement speed, as well as a +2 enhancement bonus to any Acrobatics, Climb, Fly, or Swim checks they might make while using that movement speed. These bonuses increases by +10 and +2, respectively, at 5th caster level, and every 5 caster levels thereafter (maximum of +50 ft. and a +10 bonus at 20th caster level).
 
-++ Lighten (enhance)
++++ ##000000|Lighten (enhance)##
 You may enhance an item or creature, reducing its weight or even making it weightless. The maximum sized object you can affect is given on Table: Lighten Object. An enhanced object weighs half as much as normal, but if you choose, you may make objects up to one size category smaller than your limit completely weightless, or up to 2 size categories smaller float up or down as you choose at a rate of 20 ft per round. While you cannot make an object or creature move any direction other than up or down, this can easily be combined with telekinesis, wind power, or pushing off a wall (at half the target’s usual speed) to create flight-like effects. Unwilling creatures are allowed a new saving throw each round to negate this effect, but they may suffer falling damage if successful. 1/2-weight creatures suffer a -2 penalty to their CMD vs bull rush, drag, and reposition combat maneuvers. This penalty is doubled for weightless or floating creatures.
 
 **Table: Lighten Object**
@@ -179,66 +192,63 @@ You may enhance an item or creature, reducing its weight or even making it weigh
 || 20 || float || float || float || float || float || float || Weightless ||
 || 25 || float || float || float || float || float || float || float ||
 
-++ Lingering Enhancement
-When you enhance an object or creature, the enhancement remains for 2 rounds after you stop concentrating.
-
-++ Magic Sink (enhance)
++++ ##000000|Magic Sink (enhance)##
 You may enhance creatures or objects, protecting any other magic they might be subject to. Creatures cannot use Counterspell on any other sphere effect of equal or lower caster level the creature or object is subject to without first removing Magic Sink. When this talent is incorporated into a spell, that spell ignores the first attempt to use Counterspell on it; this replaces the normal benefits of Magic Sink.
 
-++ Make Fragile (enhance)
++++ ##000000|Make Fragile (enhance)##
 You may apply an enhancement to an item, giving it the fragile quality if it doesn’t already have it. In addition, it takes a penalty to its Hardness equal to 1/3 of your caster level (minimum -1; to a maximum of -6 at 18th caster level).
 
-++ Mass Enhancement
-When bestowing an enhancement, you may spend an additional spell point to enhance an additional target per 2 caster levels (minimum: 1 additional). All targets must be within range and must receive the same enhancement (thus, if using the Deadly Weapon talent, you could only target weapons with this ability).
-
-++ Mental Enhancement (enhance)
++++ ##000000|Mental Enhancement (enhance)##
 You may enhance creatures, granting them a +2 enhancement bonus to either their Intelligence, Wisdom, or Charisma scores. This increases to +4 at 7th caster level and +6 at 14th caster level.
 
-++ Muffle Sound (enhance)
++++ ##000000|Muffle Sound (enhance)##
 You may enhance a creature or object, muffling any sound it creates. Perception checks made to hear any sounds it makes suffer a penalty equal to your caster level (to a maximum of -20 at 20th level).
 
-++ Natural Enhancement
-You may enhance a creature with enhancements that normally only apply to weapons or armor. If it applies to weapons, it applies to one of the creature’s natural weapons, as well as its unarmed strikes; if it applies to armor, it applies to any natural armor bonus that the creature possesses (creatures without natural armor are considered to have a natural armor bonus of +0).
-
-++ Physical Enhancement (enhance)
++++ ##000000|Physical Enhancement (enhance)##
 You may enhance creatures, granting them a +2 enhancement bonus to either their Strength, Dexterity, or Constitution scores. This increases to +4 at 7th caster level and +6 at 14th caster level.
 
-++ Pursuant Ammunition (enhance)
++++ ##000000|Pursuant Ammunition (enhance)##
 You may enhance a ranged weapon, granting ammunition fired out of it a rudimentary mind. Ranged attacks with that weapon ignore 2 points of the AC bonus from cover. At 6th caster level, and every 6 levels thereafter, the weapon ignores 2 additional points of AC bonus from cover (to a maximum of ignoring a +8 bonus at 18th caster level). In addition, the wielder may treat creatures behind total cover as if the cover granted a +8 bonus to AC rather than being invalid targets for attack; however, there must be a gap in the cover large enough to fit the ammunition through.
 
-++ Ragged Edges (enhance)
++++ ##000000|Ragged Edges (enhance)##
 You may apply an enhancement to an item, causing attacks made with it to deal additional bleed damage equal to half your caster level (minimum 1 bleed damage). You may spend a spell point to have the weapon deal additional bleed damage equal to your caster level instead.
 
-++ Ranged Enhancement
-You may enhance targets within Medium range. You may take this talent multiple times. Each time it is taken, increase the range by an additional step (Close to Medium, Medium to Long).
-
-++ Render Clumsy (enhance)
++++ ##000000|Render Clumsy (enhance)##
 You may enhance creatures, forcing them to suffer a -4 penalty on all attack rolls. In addition, they provoke an attack of opportunity whenever they make a 5 ft. step unless they make a successful Acrobatics check against your MSD.
 
-++ Staunch Resistance (enhance)
++++ ##000000|Staunch Resistance (enhance)##
 You may enhance creatures, granting them a +2 bonus to one saving throw. This bonus increases by +1 at 5th caster level, and every 5 caster level thereafter (to a maximum of +5 at 20th level).
 
-++ Steal Senses (enhance)
++++ ##000000|Steal Senses (enhance)##
 You may apply an enhancement to a creature, causing it to become either blind or deaf (your choice), or to lose one special sense such as the scent ability, Tremorsense, Blindsense, Blindsight, etc.
 
-++ Still Tongue (enhance)
++++ ##000000|Still Tongue (enhance)##
 You may apply an enhancement to a creature or object, rendering it incapable of speech. If it has telepathy or some other means of communicating without speech (including sign language or writing), you may render one such means of communication impossible instead.
 
-++ Superior Reflexes (enhance)
++++ ##000000|Superior Reflexes (enhance)##
 You may enhance creatures, giving them a +1 bonus to initiative and allowing them to make an additional attack of opportunity each round. In addition, they may make attacks of opportunity while flat-footed.
 
 At 5th caster level, and every 4 levels thereafter, increase to bonus to initiative by +1 and the number of additional attacks of opportunity by 1 (to a maximum of +5 and 5, respectively, at 17th caster level).
 
-++ Supply Vigor (enhance)
++++ ##000000|Supply Vigor (enhance)##
 You may enhance creatures, allowing them to ignore 2 points of ability damage, drain, or penalty they have suffered to one of their ability scores (chosen when using this talent), and reducing any such damage or drain they would suffer by half this amount. This reduction does not affect any ability damage or drain taken as part of a cost. This increases to 4 points at 7th caster level, and to 6 points at 14th caster level.
 
-++ Versatile Weapon (enhance)
++++ ##000000|Versatile Weapon (enhance)##
 You may enhance a weapon, causing it to ignore an amount of damage reduction equal to your caster level. This only works against damage reduction that can be bypassed (thus, it would work against DR 5/cold iron, but not against DR 5/-).
-
-+ Archetypes Specializing in Enhancement
+----
++ ##000000|Archetypes Specializing in Enhancement##
 
 ++ -[[[Eclectic Researcher]]]
+The Eclectic Researcher is a Wizard that specializes in mixing talents to create new spells.
+
 ++ -[[[Herculean Scion]]]
+The Herculean Scion is a [[[Mageknight]]] that uses divine power to access domains and improve their own abilities.
+
 ++ -[[[Snake Oil Salesman]]]
+The Snake Oil Salesman is a Rogue that knows how to enhance various substances to provide interesting effects, and that gains a small selection of magic talents to support the creation of their concoctions.
+
 ++ -[[[Spirit-Wielder]]]
+The Spirit-Wielder is a Fighter that can coax out the spirits of their weapons to provide added benefits in combat.
+
 ++ -[[[Whitesmith]]]
+The Whitesmith is an [[[Armorist]]] who knows that maintaining everyone's things - not just their own - is often the key to success.
