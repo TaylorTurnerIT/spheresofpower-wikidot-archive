@@ -14,7 +14,7 @@ parent:strange-magic
 
 **Skill Ranks per Level:** 4 + Int modifier.
 
-+ Class Features
++ ##000000|Class Features##
 
 **Table: The Runesmith**
 ||~ Level ||~ Base Attack Bonus ||~ Fort Save ||~ Ref Save ||~ Will Save ||~ Special ||~ Least Insc. Slots ||~ Lesser Insc. Slots ||~ Greater Insc. Slots ||~ Grandmaster Insc. Slots ||
@@ -39,13 +39,13 @@ parent:strange-magic
 || 19th || +14/+9/+4 || +11 || +11 || +11 || Woven Magic +5 || 6 || 4 || 3 || 2 ||
 || 20th || +15/+10/+5 || +12 || +12 || +12 || Modify Runes (5/day), Ur Rune || 6 || 4 || 3 || 2 ||
 
-++ Weapon Proficiency
+++ ##000000|Weapon Proficiency##
 Runesmiths are proficient with simple weapons.
 
-++ Armor and Shield Proficiency
+++ ##000000|Armor and Shield Proficiency##
 Runesmiths are proficient with light and medium armor, as well as shields, but not tower shields. A runesmith wielding a shield or wearing armor with which he is not proficient increases the inscription point cost of all rune activations (see below) by +1 inscription point.
 
-++ Methodology (Ex)
+++ ##000000|Methodology (Ex)##
 At 1st level, choose one of the following methodologies, which represent the way the runesmith tends to prepare his runes. He gains the corresponding weapon proficiencies.
 * **Calligraphy:** The runesmith is proficient with the switchblade knife and the whip.
 * **Chiseling:** The runesmith is proficient with the light hammer, the warhammer, the lucerne hammer, and the maul.
@@ -53,10 +53,10 @@ At 1st level, choose one of the following methodologies, which represent the way
 * **Gouging:** The runesmith is proficient with light picks, heavy picks, and the pickaxe.
 * **Painting:** The runesmith is proficient with the starknife and the syringe spear.
 
-++ Runes
+++ ##000000|Runes##
 A runesmith's primary source of power stems from his knowledge of transcribed magical glyphs, known within his profession as runes. Much like a wand that needs charged before each use, a rune acts as a magical capacitor and transformer of sorts, shaping raw magical energy to some specific purpose. To that end, a rune is of little use without a source of said raw magical energy generally a runesmith on hand to do the channeling, and few runes make their way to magical emporiums as a result.
 
-+++ Learning Runes
++++ ##000000|Learning Runes##
 A runesmith knows runes drawn from the runesmith rune list. A runesmith begins play with three runes, and learns an additional rune at each new runesmith level. Of these known runes, he can inscribe a number per day as dictated by **Table: The Runesmith**.
 
 Runes come in two varieties: equipment and projection, and are further divided by power level, which in increasing order of relative power are Least, Lesser, Greater, and Grandmaster. Most runes are compatible with multiple power levels, and each individual power level is referred to as a variant. A runesmith must be able to inscribe runes of the lowest variant available to a particular rune in order to learn it. For example, as a rune of frost can be inscribed at any power level, a runesmith of any level may learn it; however, given temper can only be inscribed as a Lesser rune or a Greater rune, then a runesmith must be able to inscribe Lesser runes to learn it.
@@ -69,22 +69,22 @@ Because runes of great power tend to interfere with extant magical fields, only 
 ++++ Projection Runes
 Unlike equipment runes, projection runes work regardless of the object on which they are inscribed. As such, runesmiths carry them about in sketch pads, on small pieces of stone, or other portable media. They grant no passive bonus, and are unusable by anyone other than the inscribing runesmith. When a projection rune is presented in one hand and activated (see below), it glows and shoots forth magical energy in a cone or burst. The radii of two projections with the same name cannot overlap. Though they have no passive effect, the latent magic of creation sets a projection's activation cost to 0 the first time it is activated each day.
 
-+++ Inscribing Runes
++++ ##000000|Inscribing Runes##
 A runesmith begins play with the ability to inscribe Least runes. He gains the ability to inscribe Lesser runes at 5th level, the ability to inscribe Greater runes at 11th level, and the ability to inscribe Grandmaster runes at 17th level.
 
 The number of runes a runesmith can inscribe each day is based on his class level (see **Table: The Runesmith**). Each morning, a runesmith may spend 1 hour inscribing up to that many runes, a process which renders useless any runes he inscribed on previous days. Given the transient nature of inscribed runes, inscription tends not to be done with stone, hammer, and chisel, but rather with blood, ink, charcoal, paint, or some other, semipermanent means; that said, some staunch traditionalists still do chisel.
 
 An individual cannot gain benefit from runes that have been inscribed upon equipment with which he is not proficient.
 
-+++ Activating Runes
++++ ##000000|Activating Runes##
 All runes have an activation time, as well as an activation cost. The activation cost of runes is paid with inscription points from the runesmith's inscription pool. Activation times of a swift action, immediate action, or free action do not provoke attacks of opportunity. All other activation times do. The Difficulty Class for any saving throw called for by a rune is equal to 10 + 1/2 the runesmith's class level + the runesmith's Intelligence modifier.
 
-+++ Counterspelling and Dispelling Runes
++++ ##000000|Counterspelling and Dispelling Runes##
 Equipment runes are treated as magic items for the purpose of interacting with effects that hinder magic, such as dispel magic or antimagic field. If an equipment rune is suppressed while an activation effect is ongoing, its duration continues to elapse while suppressed. The effective caster level of an item with an equipment rune is equal to the runesmith level of its inscriber.
 
 Projection runes are so similar to classical magic that they are treated as arcane spells, save that they are not subject to arcane spell failure. This means that projection runes can be cast on the defensive in order to avoid provoking attacks of opportunity, using the runesmith's class level as his caster level. Additionally, a runesmith who knows at least one projection rune is considered to be an arcane spellcaster. Each projection rune has a spell school, and can be counterspelled or dispelled just like any other arcane spell. See **Table: Rune/Spell Equivalence** (below) for a rune's spell level equivalent for the purpose of counterspelling, dispelling, and defensive casting. The caster level of a projection rune is equal to the runesmith level of its projector.
 
-+++ Runes and Meeting Feat and Archetype Requirements
++++ ##000000|Runes and Meeting Feat and Archetype Requirements##
 For the purpose of meeting the prerequisites of feats and archetypes, a runesmith has a caster level equal to his runesmith level. In addition, for the purpose of the aforementioned prerequisites, a runesmith is considered to have equivalent spellcasting as detailed in **Table: Rune/Spell Equivalence** below. Note that since runesmiths don't cast actual spells, feats and prestige classes that grant arcane spell progression, additional spells known, or any other feature or ability linked to standard arcane magic doesn't grant a runesmith any benefit, with the exception of runesmiths who have gained standard arcane magic from another source.
 
 **Table: Rune/Spell Equivalence**
@@ -94,99 +94,100 @@ For the purpose of meeting the prerequisites of feats and archetypes, a runesmit
 || Greater || 6th ||
 || Grandmaster || 8th ||
 
-++ Inscription Pool (Su)
+++ ##000000|Inscription Pool (Su)##
 At 1st level, a runesmith gains a pool of inscription points, literally a measure of his ability to pump raw magic into the runes he creates. The number of points in a runesmith's inscription pool is equal to twice his runesmith level + his Intelligence modifier. Inscription points are used to pay for the activation costs of the runesmith's runes.
 
 The inscription pool is replenished each morning after 8 hours of rest or meditation; these hours do not need to be consecutive.
 
-++ Practiced Scribe (Ex)
+++ ##000000|Practiced Scribe (Ex)##
 At 2nd level, a runesmith gains a bonus equal to half his runesmith level, rounded down, to Linguistics and Profession (scribe) skill checks.
 
-++ Woven Magic (Su)
+++ ##000000|Woven Magic (Su)##
 Starting at 3rd level, a runesmith can apply Lesser, Greater, and Grandmaster equipment runes to magic weapons and armor with a +1 enhancement modifier. All special abilities present on weapons and armor to which a Lesser, Greater, or Grandmaster rune has been inscribed are suppressed for as long as that rune persists. At 7th level and every four runesmith levels thereafter, the maximum enhancement modifier of magic weapon or armor to which Lesser, Greater, and Grandmaster equipment runes may be added with no restriction increases by +1, to a maximum of +5 at 19th level.
 
-++ Modify Runes (Sp)
+++ ##000000|Modify Runes (Sp)##
 Starting at 4th level, a runesmith may transform one of his inscribed runes within 30 feet to another rune of the same power level and type that he knows. This is a full-round action that provokes attacks of opportunity. For example, a Lesser projection rune must be changed into another Lesser projection rune. Compound runes and ur runes cannot be modified.
 
 A runesmith may use this ability once per day for every four runesmith levels he possesses.
 
-++ Compound Runes
+++ ##000000|Compound Runes##
 At 6th level, whenever a runesmith inscribes his runes for the day, he may inscribe two Least equipment runes on the same item as though they were a single Lesser rune. Similarly, he may inscribe two Least projection runes as though they were a single Lesser rune. Activating a combined rune activates both runes at once. The activation cost is equal to the greater of the activation costs of the two runes, and the activation time is equal to the greater of the activation times of the two runes.
 
 A runesmith may inscribe a single compound rune per day at 6th level, two per day at 10th level, and three per day at 18th level.
 
-++ Rune Mastery (Ex)
+++ ##000000|Rune Mastery (Ex)##
 At 9th level, the runesmith gains a +1 luck bonus to saving throws against spells and abilities with a writing motif, such as //symbol of death//, //symbol of insanity//, //sepia snake sigil//, and //explosive runes//. In addition, if a spell with a writing motif normally allows no saving throw, then the runesmith is entitled to a Will save to stare the spell down and negate it. If the runesmith is the only individual who would be affected by a spell that he negates in this manner, the spell retroactively fails to trigger, and cannot trigger upon the runesmith again for 24 hours. At 13th level, this luck bonus improves to +2.
 
-++ Advanced Compound Rune
+++ ##000000|Advanced Compound Rune##
 At 14th level, whenever a runesmith inscribes his runes for the day, he may inscribe two Lesser equipment runes on the same item as though they were a single Greater rune. Similarly, he may inscribe two Lesser projection runes as though they were a single Greater rune. This consumes a Greater inscription slot. Activating a combined rune activates both runes at once. The activation cost is equal to the greater of the activation costs of the two runes, and the activation time is equal to the greater of the activation times of the two runes.
 
 A runesmith may inscribe a single advanced compound rune per day.
 
-++ Ur Rune
+++ ##000000|Ur Rune##
 At 20th level, whenever a runesmith inscribes his runes for the day, he may inscribe a Least, a Lesser, and a Greater equipment rune on the same item as though they were a single Grandmaster rune. Similarly, he may inscribe a Least, a Lesser, and a Greater projection rune as though they were a single Grandmaster rune. This consumes a Grandmaster inscription slot. Activating an ur rune activates all three runes at once. The activation cost is equal to the greatest of the activation costs of the three runes, and the activation time is equal to the greatest of the activation times of the three runes.
 
 A runesmith may inscribe a single ur rune per day.
 
 ----
 
-+ Favored Class Bonuses
++ ##000000|Favored Class Bonuses##
 
-++ Aasimar
+++ ##000000|Aasimar##
 Every 3 times this bonus is selected, the runesmith gains 1 temporary hit point whenever he activates an equipment rune on an item worn or wielded by another creature. This bonus stacks, and the temporary hit points last for 1 round.
 
-++ Drow
+++ ##000000|Drow##
 Add +1/4 of a point to the runesmith's inscription pool.
 
-++ Dwarf
+++ ##000000|Dwarf##
 Every 6 times this bonus is selected, the runesmith may inscribe an additional Least rune each day.
 
-++ Elf
+++ ##000000|Elf##
 Add +1/4 of a point to the runesmith's inscription pool.
 
-++ Gnome
+++ ##000000|Gnome##
 Every 6 times this bonus is selected, choose a known weapon or armor equipment rune with a Least variant. The chosen rune's Least variant may be inscribed upon equipment upon which a rune has already been inscribed.
 
-++ Half-elf
+++ ##000000|Half-elf##
 Add +1 to Craft and Profession checks made to earn a living during downtime.
 
-++ Halfling
+++ ##000000|Halfling##
 Every 3 times this bonus is selected, choose Fortitude, Reflex, or Will. The runesmith gains a +1 luck bonus to the chosen saving throw for 2 rounds whenever he activates a rune. He cannot choose the same saving throw more than twice.
 
-++ Half-orc
+++ ##000000|Half-orc##
 Every 8 times this bonus is selected, choose an equipment rune. Whenever the chosen equipment rune is inscribed, if there exists a variant of that rune for the next higher power level (For example, when inscribing a Least rune, is there a Lesser variant of that rune?), then the runesmith may choose to grant the passive bonus of that next higher power level variant, but at the cost of being unable to activate that rune.
 
-++ Hobgoblin
+++ ##000000|Hobgoblin##
 Every 8 times this bonus is selected, choose an equipment rune. Whenever the chosen equipment rune is inscribed, if there exists a variant of that rune for the next higher power level (For example, when inscribing a Least rune, is there a Lesser variant of that rune?), then the runesmith may choose to grant the passive bonus of that next higher power level variant, but at the cost of being unable to activate that rune.
 
-++ Human
+++ ##000000|Human##
 Add +1/5 of a rune known.
 
-++ Kitsune
+++ ##000000|Kitsune##
 Every 4 times this bonus is selected, choose a known projection rune with a Least variant. The chosen rune's Least variant may be activated at no cost twice per day rather than just once per day.
 
-++ Kobold
+++ ##000000|Kobold##
 Add +1/4 to the Difficulty Class of all runes if the victim is a gnome.
 
-++ Orc
+++ ##000000|Orc##
 Every 6 times this bonus is selected, choose a known weapon or armor equipment rune with a Least variant. The chosen rune's Least variant may be inscribed upon equipment upon which a rune has already been inscribed.
 
-++ Puddling
+++ ##000000|Puddling##
 Every 4 times this bonus is selected, choose a known projection rune with a Least variant. The chosen rune's Least variant may be activated at no cost twice per day rather than just once per day.
 
-++ Tiefling
+++ ##000000|Tiefling##
 Whenever the runesmith activates an equipment rune he is actively wearing or wielding, his next physical attack made before the end of his next turn deals an additional point of damage for every 3 times this bonus has been selected.
 
-++ Vanara
+++ ##000000|Vanara##
 Add +1/4 of a point to the runesmith's inscription pool.
 
-++ Vishkanya
+++ ##000000|Vishkanya##
 Add +1/5 of a rune known.
 
 ----
 
-+ Archetypes
++ ##000000|Archetypes##
 
+++ -[[[Animator]]]
 ++ -[[[Campaigner]]]
 ++ -[[[Forgemaster]]]
 ++ -[[[Projectionist]]]
