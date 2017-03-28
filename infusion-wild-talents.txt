@@ -48,11 +48,18 @@ You can easily avoid obstacles that hinder the path of your blast. This infused 
 + ##000000|Aether##
 
 ++++ Bleeding Infusion
-**Element(s)** aether, air, earth, water, or wood; **Type** substance infusion; **Level** 1; **Burn** 1
-**Associated Blasts** autumn, bioluminescent, blizzard, crystal, earth, great oak, ice, metal, sandstorm, spring, summer, telekinetic, winter, wood
+**Element(s)** aether, air, earth, viscera, water, or wood; **Type** substance infusion; **Level** 1; **Burn** 1
+**Associated Blasts** autumn, bioelectric, bioluminescent, blizzard, bone, charnel, chilled bone, crystal, earth, fossilized, great oak, haunted, ice, injecting, metal, sandstorm, spring, summer, telekinetic, venus, warped bone, winter, wood
 **Saving Throw** Reflex negates
 
 Your blasts have an especially sharp edge to them. Whenever an infused blast hits a foe and deals either piercing or slashing damage, that foe also takes 1 bleed damage per damage die that your blast deals. Bleed damage from this infusion does not stack with itself.
+
+++++ Hyper-Dimensional Blast
+**Element(s)** aether, time, or void; **Type** form infusion; **Level** 4; **Burn** 3
+**Prerequisite(s)** extended range
+**Associated blast(s)** chrono, epoch, force, gravity, telekinetic, negative, void
+
+You can channel your blast through avenues outside of those perceived by others, causing your blast to appear directly in any space within 120 feet rather than traveling from you to that space. Your target is denied its AC bonus from Dexterity and you ignore the benefits it gains from cover. You may target creatures, objects, or spaces outside of your line of sight, but cannot ignore cover against such targets unless you can detect the target’s presence by some other means. If used with telekinetic blast, the object used for this blast cannot be thrown and teleports back into your hand afterward.
 
 ++++ Stitching Infusion
 **Element(s)** aether; **Type** substance infusion; **Level** 5; **Burn** 3
@@ -61,31 +68,37 @@ Your blasts have an especially sharp edge to them. Whenever an infused blast hit
 
 Your blasts are capable of tethering others to their dimension. Whenever an infused blast hits a foe and deals damage, that foe is treated as though under the effects of a dimensional anchor spell for 1 minute.
 
+++++ Telekinetic Weapon
+**Element(s)** aether; **Type** substance infusion; **Level** 3; **Burn** 2
+**Associated blast(s)** telekinetic
+
+Your aetheric tethers have tiny holes in them, allowing the magic power of objects to seep through. When using a telekinetic blast with a magic weapon, apply any enhancement bonuses and weapon qualities of the weapon to your blast as if you had made a melee attack with that weapon. This does not apply to unarmed strikes or natural weapons.
+
 ----
 
 + ##000000|Air##
 
 ++++ Bleeding Infusion
-**Element(s)** aether, air, earth, water, or wood; **Type** substance infusion; **Level** 1; **Burn** 1
-**Associated Blasts** autumn, bioluminescent, blizzard, crystal, earth, great oak, ice, metal, sandstorm, spring, summer, telekinetic, winter, wood
+**Element(s)** aether, air, earth, viscera, water, or wood; **Type** substance infusion; **Level** 1; **Burn** 1
+**Associated Blasts** autumn, bioelectric, bioluminescent, blizzard, bone, charnel, chilled bone, crystal, earth, fossilized, great oak, haunted, ice, injecting, metal, sandstorm, spring, summer, telekinetic, venus, warped bone, winter, wood
 **Saving Throw** Reflex negates
 
 Your blasts have an especially sharp edge to them. Whenever an infused blast hits a foe and deals either piercing or slashing damage, that foe also takes 1 bleed damage per damage die that your blast deals. Bleed damage from this infusion does not stack with itself.
 
 ++++ Overload Infusion
-**Element(s)** air, fire, light, water, sound, time, or void; **Type** substance infusion; **Level** 7; **Burn** 4
+**Element(s)** air, fire, light, poison, sound, time, void, or water; **Type** substance infusion; **Level** 7; **Burn** 4
+**Associated Blasts** acid, acid rain, acidic bolt, blue flame, chrono, cold, electric, epoch, fire, flensing, green flame, glorious, injection, light, lightning, negative, nightshade, solar, sonic, sonic boom, thunderstorm, ultraviolet, vibration, virulent, void
 **Saving Throw** Fortitude negates
-**Associated Blasts** blue flame, chrono, cold, electric, epoch, fire, glorious, light, lightning, negative, solar, sonic, sonic boom, thunderstorm, vibration, void
 
-Your blast are capable of filling foes to the breaking point with raw power. Whenever an infused blast hits a foe and deals damage, that foe is flooded with elemental energy for 1 round per 5 kineticist levels you possess. Whenever that foe takes a standard action, they must make a fortitude save or take 1 point of damage per damage die your blast deals, taking half damage on a successful save. If the target instead takes a full round action, this damage is doubled. You can increase the burn cost by 1 to increase the duration of this effect by 1 round. A creature may only be affected by one overload infusion at a time.
+Your blasts are capable of filling foes to the breaking point with raw power. Whenever an infused blast hits a foe and deals damage, that foe is flooded with elemental energy for 1 round per 5 kineticist levels you possess. Whenever that foe takes a standard action, they must make a Fortitude save or take 1 point of damage per damage die your blast deals, taking half damage on a successful save. If the foe instead takes a full round action, this damage is doubled. You can increase the burn cost by 1 to increase the duration of this effect by 1 round. A creature may only be affected by one overload infusion at a time.
 
 ----
 
 + ##000000|Earth##
 
 ++++ Bleeding Infusion
-**Element(s)** aether, air, earth, water, or wood; **Type** substance infusion; **Level** 1; **Burn** 1
-**Associated Blasts** autumn, bioluminescent, blizzard, crystal, earth, great oak, ice, metal, sandstorm, spring, summer, telekinetic, winter, wood
+**Element(s)** aether, air, earth, viscera, water, or wood; **Type** substance infusion; **Level** 1; **Burn** 1
+**Associated Blasts** autumn, bioelectric, bioluminescent, blizzard, bone, charnel, chilled bone, crystal, earth, fossilized, great oak, haunted, ice, injecting, metal, sandstorm, spring, summer, telekinetic, venus, warped bone, winter, wood
 **Saving Throw** Reflex negates
 
 Your blasts have an especially sharp edge to them. Whenever an infused blast hits a foe and deals either piercing or slashing damage, that foe also takes 1 bleed damage per damage die that your blast deals. Bleed damage from this infusion does not stack with itself.
@@ -108,12 +121,26 @@ Your blast is capable of entombing others alive. Whenever an infused blast hits 
 
 Your blasts can overstimulate the eyes of foes. Whenever an infused blast deals damage to a foe, that foe is dazzled for 1 minute.
 
-++++ Overload Infusion
-**Element(s)** air, fire, light, water, sound, time, or void; **Type** substance infusion; **Level** 7; **Burn** 4
-**Saving Throw** Fortitude negates
-**Associated Blasts** blue flame, chrono, cold, electric, epoch, fire, glorious, light, lightning, negative, solar, sonic, sonic boom, thunderstorm, vibration, void
+++++ Melting Infusion
+**Element(s)** fire or poison; **Type** substance infusion; **Level** 2; **Burn** 2
+**Associated Blasts** acid, acid rain, acidic bolt, blue flame, fire, flensing, green flame, injection, nightshade, ultraviolet, virulent
+**Saving Throw** Reflex negates
 
-Your blast are capable of filling foes to the breaking point with raw power. Whenever an infused blast hits a foe and deals damage, that foe is flooded with elemental energy for 1 round per 5 kineticist levels you possess. Whenever that foe takes a standard action, they must make a fortitude save or take 1 point of damage per damage die your blast deals, taking half damage on a successful save. If the target instead takes a full round action, this damage is doubled. You can increase the burn cost by 1 to increase the duration of this effect by 1 round. A creature may only be affected by one overload infusion at a time.
+Your blast can leave both natural and man-made armor in disrepair. Whenever an infused blast deals damage to a foe, reduce the armor bonus of any armor the foe is wearing or natural armor bonus it may possess by 1 per 3 kineticist levels you possess for 1 minute.
+
+++++ Overload Infusion
+**Element(s)** air, fire, light, poison, sound, time, void, or water; **Type** substance infusion; **Level** 7; **Burn** 4
+**Associated Blasts** acid, acid rain, acidic bolt, blue flame, chrono, cold, electric, epoch, fire, flensing, green flame, glorious, injection, light, lightning, negative, nightshade, solar, sonic, sonic boom, thunderstorm, ultraviolet, vibration, virulent, void
+**Saving Throw** Fortitude negates
+
+Your blasts are capable of filling foes to the breaking point with raw power. Whenever an infused blast hits a foe and deals damage, that foe is flooded with elemental energy for 1 round per 5 kineticist levels you possess. Whenever that foe takes a standard action, they must make a Fortitude save or take 1 point of damage per damage die your blast deals, taking half damage on a successful save. If the foe instead takes a full round action, this damage is doubled. You can increase the burn cost by 1 to increase the duration of this effect by 1 round. A creature may only be affected by one overload infusion at a time.
+
+++++ Painful Infusion
+**Element(s)** fire or poison; **Type** substance infusion; **Level** 1; **Burn** 1
+**Associated Blasts** acid, acid rain, acidic bolt, blue flame, fire, flensing, green flame, injection, nightshade, ultraviolet, virulent
+**Saving Throw** Reflex negates
+
+Your blast can leave temporary but sensitive wounds. Whenever an infused blast hits a foe and deals damage, they are unable to use any natural weapons they possess for 1 round. You can increase the burn cost by 1 to increase the duration of this effect by 1 round, allowing a foe an additional save at the end of their round to end this effect.
 
 ++++ Smoke Infusion
 **Element(s)** fire; **Type** substance infusion; **Level** 2; **Burn** 2
@@ -162,15 +189,111 @@ You can light up your foes with your blast. Whenever an infused blast deals dama
 Your blasts partially obscure the vision of your foes. Whenever an infused blast hits a foe and deals damage, that foe treats all targets as having concealment for 1 round per 2 kineticist levels you possess.
 
 ++++ Overload Infusion
-**Element(s)** air, fire, light, water, sound, time, or void; **Type** substance infusion; **Level** 7; **Burn** 4
+**Element(s)** air, fire, light, poison, sound, time, void, or water; **Type** substance infusion; **Level** 7; **Burn** 4
+**Associated Blasts** acid, acid rain, acidic bolt, blue flame, chrono, cold, electric, epoch, fire, flensing, green flame, glorious, injection, light, lightning, negative, nightshade, solar, sonic, sonic boom, thunderstorm, ultraviolet, vibration, virulent, void
 **Saving Throw** Fortitude negates
-**Associated Blasts** blue flame, chrono, cold, electric, epoch, fire, glorious, light, lightning, negative, solar, sonic, sonic boom, thunderstorm, vibration, void
 
-Your blast are capable of filling foes to the breaking point with raw power. Whenever an infused blast hits a foe and deals damage, that foe is flooded with elemental energy for 1 round per 5 kineticist levels you possess. Whenever that foe takes a standard action, they must make a fortitude save or take 1 point of damage per damage die your blast deals, taking half damage on a successful save. If the target instead takes a full round action, this damage is doubled. You can increase the burn cost by 1 to increase the duration of this effect by 1 round. A creature may only be affected by one overload infusion at a time.
+Your blasts are capable of filling foes to the breaking point with raw power. Whenever an infused blast hits a foe and deals damage, that foe is flooded with elemental energy for 1 round per 5 kineticist levels you possess. Whenever that foe takes a standard action, they must make a Fortitude save or take 1 point of damage per damage die your blast deals, taking half damage on a successful save. If the foe instead takes a full round action, this damage is doubled. You can increase the burn cost by 1 to increase the duration of this effect by 1 round. A creature may only be affected by one overload infusion at a time.
+
+----
+
++ ##000000|Poison##
+
+++++ Atrophy Infusion
+**Element(s)** poison, viscera, or void; **Type** substance infusion; **Level** 4; **Burn** 3
+**Associated Blasts** acid, acid rain, acidic bolt, bioelectric, bone, charnel, chilled bone, chrono, epoch, flensing, fossilized, green flame, haunted, injection, negative, nightshade, ultraviolet, venus, virulent, void, warped bone
+**Saving Throw** Fortitude negates
+
+Your blasts cause lasting damage to the bodies of others. Whenever an infused blast deals damage to a foe, they take 2 Strength or Dexterity damage (your choice). This is a poison effect for acid blast and its composites (excluding injecting blast).
+
+++++ Decaying Infusion
+**Element(s)** poison, time, viscera, or void; **Type** substance infusion; **Level** 6; **Burn** 4
+**Associated Blasts** acid, acid rain, acidic bolt, bioelectric, bone, charnel, chilled bone, chrono, epoch flensing, fossilized, green flame, haunted, injecting, negative, nightshade, ultraviolet, venus, vibration, virulent, void, warped bone
+**Saving Throw** Fortitude negates
+
+You know how to ravage living matter with your blast. Foes that take damage from your infused blast also take 2 Constitution damage.
+
+++++ Destabilizing Infusion
+**Element(s)** poison, sound, or water; **Type** substance infusion; **Level** 6; **Burn** 4
+**Associated Blasts** acid, acid rain, acidic bolt, aurora, blizzard, cold, flensing, green flame, ice, injecting, nightshade, sonic, sonic boom, ultraviolet, vibration, virulent
+**Saving Throw** Fortitude negates
+
+Your blasts are able to break down even the mightiest of foes. Whenever an infused blast hits a target and deals damage to them, if that target possesses either damage resistance or hardness, it is reduced by 1 for every 3 kineticist levels you possess for 1 minute. This effect stacks with itself, allowing you to reduce a target’s damage reduction or hardness multiple times.
+
+++++ Laced Infusion
+**Element(s)** poison; **Type** substance infusion; **Level** 1; **Burn** 1
+**Associated Blasts** acid, acid rain, acidic bolt, flensing, green flame, injection, nightshade, ultraviolet, virulent
+**Saving Throw** see text
+
+You are able to lace your blast with your own poisons. When you use this blast, you may consume 1 dose of any touch poison you possess in a non-extra-dimensional space, adding it to the blast. Whenever an infused blast deals damage to a foe, they are exposed to the poison, the DC of this poison being treated as the DC of this infusion. For each creature beyond the first that is damaged by this blast, lower the DC of the poison by 1. At 7th level, this infusion can be also be used with injury poisons. This infusion cannot be used with poisons that have been converted from other poison types. This is a poison effect.
+
+++++ Lingering Infusion
+**Element(s)** poison, sound or time; **Type** substance infusion; **Level** 5; **Burn** 3
+**Associated Blasts** acid, acid rain, acidic bolt, chrono, epoch, flensing, green flame, injection, nightshade, sonic, sonic boom, ultraviolet, vibration, virulent
+**Saving Throw** Fortitude half
+
+Your blasts tend to linger a bit longer. Whenever a blast with this infusion deals damage to a foe, at the beginning of that foe’s next round, they take damage equal to the minimum damage of the infused blast.
+
+++++ Melting Infusion
+**Element(s)** fire or poison; **Type** substance infusion; **Level** 2; **Burn** 2
+**Associated Blasts** acid, acid rain, acidic bolt, blue flame, fire, flensing, green flame, injection, nightshade, ultraviolet, virulent
+**Saving Throw** Reflex negates
+
+Your blast can leave both natural and man-made armor in disrepair. Whenever an infused blast deals damage to a foe, reduce the armor bonus of any armor the foe is wearing or natural armor bonus it may possess by 1 per 3 kineticist levels you possess for 1 minute.
+
+++++ Neutralizing Infusion
+**Element(s)** poison; **Type** substance infusion; **Level** 3; **Burn** 2
+**Associated Blasts** acid, acid rain, acidic bolt, flensing, green flame, injection, nightshade, ultraviolet, virulent
+**Saving Throw** Fortitude negates
+
+Your blast can strip the resistances from others. Whenever an infused blast hits a foe and penetrates their spell resistance, any resistance or immunity to poison they may possess is negated for 1 minute per kineticist level you possess. Creatures without a Constitution score (such as constructs and undead) are immune to this effect.
+
+++++ Overload Infusion
+**Element(s)** air, fire, light, poison, sound, time, void, or water; **Type** substance infusion; **Level** 7; **Burn** 4
+**Associated Blasts** acid, acid rain, acidic bolt, blue flame, chrono, cold, electric, epoch, fire, flensing, green flame, glorious, injection, light, lightning, negative, nightshade, solar, sonic, sonic boom, thunderstorm, ultraviolet, vibration, virulent, void
+**Saving Throw** Fortitude negates
+
+Your blasts are capable of filling foes to the breaking point with raw power. Whenever an infused blast hits a foe and deals damage, that foe is flooded with elemental energy for 1 round per 5 kineticist levels you possess. Whenever that foe takes a standard action, they must make a Fortitude save or take 1 point of damage per damage die your blast deals, taking half damage on a successful save. If the foe instead takes a full round action, this damage is doubled. You can increase the burn cost by 1 to increase the duration of this effect by 1 round. A creature may only be affected by one overload infusion at a time.
+
+++++ Painful Infusion
+**Element(s)** fire or poison; **Type** substance infusion; **Level** 1; **Burn** 1
+**Associated Blasts** acid, acid rain, acidic bolt, blue flame, fire, flensing, green flame, injection, nightshade, ultraviolet, virulent
+**Saving Throw** Reflex negates
+
+Your blast can leave temporary but sensitive wounds. Whenever an infused blast hits a foe and deals damage, they are unable to use any natural weapons they possess for 1 round. You can increase the burn cost by 1 to increase the duration of this effect by 1 round, allowing a foe an additional save at the end of their round to end this effect.
+
+++++ Paralyzing Infusion
+**Element(s)** poison; **Type** substance infusion; **Level** 8; **Burn** 4
+**Associated Blasts** acid, acid rain, acidic bolt, flensing, green flame, injection, nightshade, ultraviolet, virulent
+**Saving Throw** Fortitude negates
+
+Your blast can lock up a creature’s entire body. Whenever a foe takes damage from this infusion, they are paralyzed for 1 round per 5 kineticist levels you possess. At the end of their round, they may make an additional saving throw to end this effect. This is a poison effect.
+
+++++ Psychotropic Infusion
+**Element(s)** poison; **Type** substance infusion; **Level** 5; **Burn** 3
+**Associated Blasts** acid, acid rain, acidic bolt, flensing, green flame, injection, nightshade, ultraviolet, virulent
+**Saving Throw** Will negates
+
+Your blasts cause lasting damage to the minds of others. Whenever an infused blast deals damage to a foe, they take 2 Wisdom damage and are unable to separate friend from foe for 1 round per 3 kineticist levels you possess. Whenever an ally provokes an attack of opportunity within that foe’s reach, they must make a will save or attack their ally. In addition, they must make a saving throw against all spells that affect them, even if they would normally be harmless. This is a mind affecting poison effect.
+
+++++ Sickening Infusion
+**Element(s)** poison, sound, viscera or void; **Type** substance infusion; **Level** 2; **Burn** 2
+**Associated Blasts** acid, acid rain, acidic bolt, bioelectric, bone, charnel, chilled bone, flensing, fossilized, gravity, green flame, haunted, injecting, negative, nightshade, sonic, sonic boom, ultraviolet, venus, vibration, virulent, void, warped bone
+**Saving Throw** Fortitude negates
+
+Your blast can disrupt another creature’s well-being. Whenever an infused blast hits a foe, that foe is sickened for 1 round per 3 kineticist levels you possess.
 
 ----
 
 + ##000000|Sound##
+
+++++ Attunement Burst
+**Element(s)** sound; **Type** form infusion; **Level** 9; **Burn** 4
+**Prerequisite(s)** attuning infusion, extended range infusion
+**Associated blast(s)** sonic, sonic boom, vibration
+**Saving Throw** Fortitude half
+
+You cause sonic energy to explode from anything that resonates with the tones you exude. Select a number of creatures up to your Constitution modifier that have been affected by your attuning blast. Each such creature becomes the center of a 15-foot radius sphere that damages all creatures within it for half your kinetic blast’s damage, and can attempt a fortitude save to reduce that amount to ¼ damage. If a creature is within the area of multiple spheres, the damage from each sphere stacks, and each creature takes a -1 penalty to their Fortitude save to reduce this damage for each sphere they are included in beyond the first.
 
 ++++ Attuning Infusion
 **Element(s)** sound; **Type** substance infusion; **Level** 1; **Burn** 1
@@ -187,8 +310,8 @@ You are able to attune enemies to your particular soundwaves. Whenever an infuse
 Your blasts are capable of shattering any silence. This infusion ignores magical silence. You can increase the burn cost by 1 to allow the infused blast to make a caster level check whenever it enters an area of magical silence to dispel that effect.
 
 ++++ Destabilizing Infusion
-**Element(s)** sound or water; **Type** substance infusion; **Level** 6; **Burn** 4
-**Associated Blasts** aurora, blizzard, cold, ice, sonic, sonic boom, vibration
+**Element(s)** poison, sound, or water; **Type** substance infusion; **Level** 6; **Burn** 4
+**Associated Blasts** acid, acid rain, acidic bolt, aurora, blizzard, cold, flensing, green flame, ice, injecting, nightshade, sonic, sonic boom, ultraviolet, vibration, virulent
 **Saving Throw** Fortitude negates
 
 Your blasts are able to break down even the mightiest of foes. Whenever an infused blast hits a target and deals damage to them, if that target possesses either damage resistance or hardness, it is reduced by 1 for every 3 kineticist levels you possess for 1 minute. This effect stacks with itself, allowing you to reduce a target’s damage reduction or hardness multiple times.
@@ -201,18 +324,26 @@ Your blasts are able to break down even the mightiest of foes. Whenever an infus
 Your blasts are enough to drive others into an erratic state. Whenever a blast with this infusion deals damage to a foe, that foe becomes confused for 1 round per 3 kineticist levels you possess.
 
 ++++ Lingering Infusion
-**Element(s)** sound or time; **Type** substance infusion; **Level** 5; **Burn** 3
-**Associated Blasts** chrono, epoch, sonic, sonic boom, vibration
+**Element(s)** poison, sound or time; **Type** substance infusion; **Level** 5; **Burn** 3
+**Associated Blasts** acid, acid rain, acidic bolt, chrono, epoch, flensing, green flame, injection, nightshade, sonic, sonic boom, ultraviolet, vibration, virulent
 **Saving Throw** Fortitude half
 
 Your blasts tend to linger a bit longer. Whenever a blast with this infusion deals damage to a foe, at the beginning of that foe’s next round, they take damage equal to the minimum damage of the infused blast.
 
 ++++ Overload Infusion
-**Element(s)** air, fire, light, water, sound, time, or void; **Type** substance infusion; **Level** 7; **Burn** 4
+**Element(s)** air, fire, light, poison, sound, time, void, or water; **Type** substance infusion; **Level** 7; **Burn** 4
+**Associated Blasts** acid, acid rain, acidic bolt, blue flame, chrono, cold, electric, epoch, fire, flensing, green flame, glorious, injection, light, lightning, negative, nightshade, solar, sonic, sonic boom, thunderstorm, ultraviolet, vibration, virulent, void
 **Saving Throw** Fortitude negates
-**Associated Blasts** blue flame, chrono, cold, electric, epoch, fire, glorious, light, lightning, negative, solar, sonic, sonic boom, thunderstorm, vibration, void
 
-Your blast are capable of filling foes to the breaking point with raw power. Whenever an infused blast hits a foe and deals damage, that foe is flooded with elemental energy for 1 round per 5 kineticist levels you possess. Whenever that foe takes a standard action, they must make a fortitude save or take 1 point of damage per damage die your blast deals, taking half damage on a successful save. If the target instead takes a full round action, this damage is doubled. You can increase the burn cost by 1 to increase the duration of this effect by 1 round. A creature may only be affected by one overload infusion at a time.
+Your blasts are capable of filling foes to the breaking point with raw power. Whenever an infused blast hits a foe and deals damage, that foe is flooded with elemental energy for 1 round per 5 kineticist levels you possess. Whenever that foe takes a standard action, they must make a Fortitude save or take 1 point of damage per damage die your blast deals, taking half damage on a successful save. If the foe instead takes a full round action, this damage is doubled. You can increase the burn cost by 1 to increase the duration of this effect by 1 round. A creature may only be affected by one overload infusion at a time.
+
+++++ Resonant Detonation
+**Element(s)** sound; **Type** form infusion; **Level** 8; **Burn** 4
+**Prerequisite(s)** attuning infusion, extended range infusion
+**Associated blast(s)** sonic, sonic boom, vibration
+**Saving Throw** Fortitude half
+
+You cause sonic energy to explode from anything that resonates with the tones you exude. Select a number of creatures up to your Constitution modifier that have been affected by your attuning blast; each creature takes half the normal damage of your kinetic blast, and can attempt a Fortitude save to reduce that amount to ¼ damage. For each creature affected by this form infusion, this blast does an additional die of damage (two dice for sonic boom blast.)
 
 ++++ Ringing Infusion
 **Element(s)** sound; **Type** substance infusion; **Level** 1; **Burn** 1
@@ -222,11 +353,11 @@ Your blast are capable of filling foes to the breaking point with raw power. Whe
 Your blasts are capable of damaging the hearing of your foes. Whenever an infused blast deals damage to a foe, that foe suffers a -5 penalty to all hearing-based Perception checks for 1 minute per 2 kineticist level you possess. You can increase the burn cost by 1 to double this penalty.
 
 ++++ Sickening Infusion
-**Element(s)** sound or void; **Type** substance infusion; **Level** 2; **Burn** 2
-**Associated Blasts** negative, gravity, sonic, sonic boom, vibration, void
+**Element(s)** poison, sound, viscera or void; **Type** substance infusion; **Level** 2; **Burn** 2
+**Associated Blasts** acid, acid rain, acidic bolt, bioelectric, bone, charnel, chilled bone, flensing, fossilized, gravity, green flame, haunted, injecting, negative, nightshade, sonic, sonic boom, ultraviolet, venus, vibration, virulent, void, warped bone
 **Saving Throw** Fortitude negates
 
-Your blast can disrupt another creature’s well being. Whenever an infused blast hits a foe, that foe is sickened for 1 round per 3 kineticist levels you possess.
+Your blast can disrupt another creature’s well-being. Whenever an infused blast hits a foe, that foe is sickened for 1 round per 3 kineticist levels you possess.
 
 ----
 
@@ -240,11 +371,11 @@ Your blast can disrupt another creature’s well being. Whenever an infused blas
 Your blasts are capable of slowing a foe to a stop. Whenever an infused blast hits a foe and penetrates their spell resistance, that foe is dazed for 1 round.
 
 ++++ Decaying Infusion
-**Element(s)** time or void; **Type** substance infusion; **Level** 6; **Burn** 4
-**Associated Blasts** chrono, epoch, negative, void
+**Element(s)** poison, time, viscera, or void; **Type** substance infusion; **Level** 6; **Burn** 4
+**Associated Blasts** acid, acid rain, acidic bolt, bioelectric, bone, charnel, chilled bone, chrono, epoch flensing, fossilized, green flame, haunted, injecting, negative, nightshade, ultraviolet, venus, vibration, virulent, void, warped bone
 **Saving Throw** Fortitude negates
 
-You know how to ravage living matter with your blast. Foes that take damage from your infused blast also take 2 constitution damage.
+You know how to ravage living matter with your blast. Foes that take damage from your infused blast also take 2 Constitution damage.
 
 ++++ Displacing Infusion
 **Element(s)** time; **Type** substance infusion; **Level** 8; **Burn** 4
@@ -269,6 +400,13 @@ Your blast can divert a foe’s future for the worst. Whenever an infused blast 
 
 Your blast is enough to slow the reflexes of others. Whenever an infused blast deals damage to a foe, that foe is unable to make attacks of opportunity for 1 round.
 
+++++ Hyper-Dimensional Blast
+**Element(s)** aether, time, or void; **Type** form infusion; **Level** 4; **Burn** 3
+**Prerequisite(s)** extended range
+**Associated blast(s)** chrono, epoch, force, gravity, telekinetic, negative, void
+
+You can channel your blast through avenues outside of those perceived by others, causing your blast to appear directly in any space within 120 feet rather than traveling from you to that space. Your target is denied its AC bonus from Dexterity and you ignore the benefits it gains from cover. You may target creatures, objects, or spaces outside of your line of sight, but cannot ignore cover against such targets unless you can detect the target’s presence by some other means. If used with telekinetic blast, the object used for this blast cannot be thrown and teleports back into your hand afterward.
+
 ++++ Immobilizing Infusion
 **Element(s)** time, water, or void; **Type** substance infusion; Level 4; Burn 3
 **Associated Blasts** blizzard, chrono, cold, epoch, gravity, ice, void
@@ -284,18 +422,18 @@ Your blasts reduces foe’s speed to a crawl. Whenever an infused blast hits a f
 Your blast causes your foe’s actions to lag by fractions of a second. Whenever an infused blast deals damage to a foe, that foe takes a -2 to all attack rolls for 1 round. You can increase the burn cost by 1 to increase the duration to 1 round per 4 kineticist levels you possess.
 
 ++++ Lingering Infusion
-**Element(s)** sound or time; **Type** substance infusion; **Level** 5; **Burn** 3
-**Associated Blasts** chrono, epoch, sonic, sonic boom, vibration
+**Element(s)** poison, sound or time; **Type** substance infusion; **Level** 5; **Burn** 3
+**Associated Blasts** acid, acid rain, acidic bolt, chrono, epoch, flensing, green flame, injection, nightshade, sonic, sonic boom, ultraviolet, vibration, virulent
 **Saving Throw** Fortitude half
 
 Your blasts tend to linger a bit longer. Whenever a blast with this infusion deals damage to a foe, at the beginning of that foe’s next round, they take damage equal to the minimum damage of the infused blast.
 
 ++++ Overload Infusion
-**Element(s)** air, fire, light, water, sound, time, or void; **Type** substance infusion; **Level** 7; **Burn** 4
+**Element(s)** air, fire, light, poison, sound, time, void, or water; **Type** substance infusion; **Level** 7; **Burn** 4
+**Associated Blasts** acid, acid rain, acidic bolt, blue flame, chrono, cold, electric, epoch, fire, flensing, green flame, glorious, injection, light, lightning, negative, nightshade, solar, sonic, sonic boom, thunderstorm, ultraviolet, vibration, virulent, void
 **Saving Throw** Fortitude negates
-**Associated Blasts** blue flame, chrono, cold, electric, epoch, fire, glorious, light, lightning, negative, solar, sonic, sonic boom, thunderstorm, vibration, void
 
-Your blast are capable of filling foes to the breaking point with raw power. Whenever an infused blast hits a foe and deals damage, that foe is flooded with elemental energy for 1 round per 5 kineticist levels you possess. Whenever that foe takes a standard action, they must make a fortitude save or take 1 point of damage per damage die your blast deals, taking half damage on a successful save. If the target instead takes a full round action, this damage is doubled. You can increase the burn cost by 1 to increase the duration of this effect by 1 round. A creature may only be affected by one overload infusion at a time.
+Your blasts are capable of filling foes to the breaking point with raw power. Whenever an infused blast hits a foe and deals damage, that foe is flooded with elemental energy for 1 round per 5 kineticist levels you possess. Whenever that foe takes a standard action, they must make a Fortitude save or take 1 point of damage per damage die your blast deals, taking half damage on a successful save. If the foe instead takes a full round action, this damage is doubled. You can increase the burn cost by 1 to increase the duration of this effect by 1 round. A creature may only be affected by one overload infusion at a time.
 
 ++++ Suspended Impact
 **Element(s)** time; **Type** form infusion; **Level** 2; **Burn** 2
@@ -306,14 +444,95 @@ Your blasts are able to hide their exact moment of impact. Whenever an infused b
 
 ----
 
-+ ##000000|Void##
++ ##000000|Viscera##
 
-++++ Decaying Infusion
-**Element(s)** time or void; **Type** substance infusion; **Level** 6; **Burn** 4
-**Associated Blasts** chrono, epoch, negative, void
+++++ Atrophy Infusion
+**Element(s)** poison, viscera, or void; **Type** substance infusion; **Level** 4; **Burn** 3
+**Associated Blasts** acid, acid rain, acidic bolt, bioelectric, bone, charnel, chilled bone, chrono, epoch, flensing, fossilized, green flame, haunted, injection, negative, nightshade, ultraviolet, venus, virulent, void, warped bone
 **Saving Throw** Fortitude negates
 
-You know how to ravage living matter with your blast. Foes that take damage from your infused blast also take 2 constitution damage.
+Your blasts cause lasting damage to the bodies of others. Whenever an infused blast deals damage to a foe, they take 2 Strength or Dexterity damage (your choice). This is a poison effect for acid blast and its composites (excluding injecting blast).
+
+++++ Bleeding Infusion
+**Element(s)** aether, air, earth, viscera, water, or wood; **Type** substance infusion; **Level** 1; **Burn** 1
+**Associated Blasts** autumn, bioelectric, bioluminescent, blizzard, bone, charnel, chilled bone, crystal, earth, fossilized, great oak, haunted, ice, injecting, metal, sandstorm, spring, summer, telekinetic, venus, warped bone, winter, wood
+**Saving Throw** Reflex negates
+
+Your blasts have an especially sharp edge to them. Whenever an infused blast hits a foe and deals either piercing or slashing damage, that foe also takes 1 bleed damage per damage die that your blast deals. Bleed damage from this infusion does not stack with itself.
+
+++++ Crippling Infusion
+**Element(s)** viscera; **Type** substance infusion; **Level** 7; **Burn** 4
+**Associated Blasts** bioelectric, bone, charnel, chilled bone, fossilized, haunted, injecting, venus, warped bone
+**Saving Throw** Fortitude negates
+
+You know how to completely cripple parts of your foe’s body. Whenever an infused blast hits a foe and deals damage, you can select to either disable their arms, legs, tails, or wings, making those body parts unable to function until healed with regeneration or greater restoration. This infusion can affect corporeal undead.
+
+++++ Decaying Infusion
+**Element(s)** poison, time, viscera, or void; **Type** substance infusion; **Level** 6; **Burn** 4
+**Associated Blasts** acid, acid rain, acidic bolt, bioelectric, bone, charnel, chilled bone, chrono, epoch flensing, fossilized, green flame, haunted, injecting, negative, nightshade, ultraviolet, venus, vibration, virulent, void, warped bone
+**Saving Throw** Fortitude negates
+
+You know how to ravage living matter with your blast. Foes that take damage from your infused blast also take 2 Constitution damage.
+
+++++ Eviscerating Infusion
+**Element(s)** viscera; **Type** substance infusion; **Level** 9; **Burn** 5
+**Associated Blasts** bioelectric, bone, charnel, chilled bone, fossilized, haunted, injecting, venus, warped bone
+**Saving Throw** Fortitude half
+
+Your blast can tear a creature’s innards to shreds. Whenever an infused blast hits a foe and deals damage, that foe takes 2 Constitution bleed.
+
+++++ Leech Infusion
+**Element(s)** viscera or void; **Type** substance infusion; **Level** 6; **Burn** 4
+**Associated Blasts** bioelectric, bone, charnel, chilled bone, fossilized, haunted, injecting, negative, venus, void, warped bone
+**Saving Throw** none
+
+You feed off of those who suffer your blast. Whenever an infused blast hits a living foe and deals damage, you gain 1 temporary hit point for every 2 hit dice the foe possesses that last until you recover burn or until depleted. Temporary hit points gained from multiple uses of this ability do not stack. Temporary hit points gained from this ability stack with those gained from other wild talents.
+
+++++ Self-Destructive Infusion
+**Element(s)** viscera; **Type** substance infusion; **Level** 5; **Burn** 3
+**Associated Blasts** bioelectric, bone, charnel, chilled bone, fossilized, haunted, injecting, venus, warped bone
+**Saving Throw** Fortitude negates
+
+You are capable of wresting control of your foes body temporarily, causing them to harm themselves. Whenever an infused blast hits a foe and deals damage, on their next round they must take a swift action to deal damage to themselves as though they had successfully hit themselves with whatever weapon or natural weapons they are wielding as hard as they can. If the foe is not wielding a weapon and lacks natural weapons, the target is instead strikes themselves with any appendage they possess, dealing 1d8 + twice their Strength modifier damage to themselves. The foe can take a full round action to resist attacking themselves. This infusion can affect corporeal undead.
+
+++++ Shivering Infusion
+**Element(s)** viscera or water; **Type** substance infusion; **Level** 1; **Burn** 1
+**Associated Blasts** bioelectric, bone, charnel, chilled bone, cold, fossilized, haunted, ice, injecting, venus, warped bone
+**Saving Throw** Fortitude negates
+
+Your blast cause opponents to convulse involuntarily. Whenever a foe takes damage from this infusion, they begin to shiver violently for 1 round per 2 kineticist levels you possess, bestowing a -1 penalty on all attack rolls and forcing a concentration check equal to the infusion’s DC for all spells with somatic components.
+
+++++ Sickening Infusion
+**Element(s)** poison, sound, viscera or void; **Type** substance infusion; **Level** 2; **Burn** 2
+**Associated Blasts** acid, acid rain, acidic bolt, bioelectric, bone, charnel, chilled bone, flensing, fossilized, gravity, green flame, haunted, injecting, negative, nightshade, sonic, sonic boom, ultraviolet, venus, vibration, virulent, void, warped bone
+**Saving Throw** Fortitude negates
+
+Your blast can disrupt another creature’s well-being. Whenever an infused blast hits a foe, that foe is sickened for 1 round per 3 kineticist levels you possess.
+
+++++ Weakening Infusion
+**Element(s)** viscera; **Type** substance infusion; **Level** 2; **Burn** 2
+**Associated Blasts** bioelectric, bone, charnel, chilled bone, fossilized, haunted, injecting, venus, warped bone
+**Saving Throw** Fortitude negates
+
+Your blast can make your foes more vulnerable to damage. Whenever a foe takes damage from this infusion, all attacks against that foe until the end of their next round deal an additional 1d6 damage. At 7th level, you can increase the burn cost by 1 to increase the damage to 2d6. This infusion can affect corporeal undead.
+
+----
+
++ ##000000|Void##
+
+++++ Atrophy Infusion
+**Element(s)** poison, viscera, or void; **Type** substance infusion; **Level** 4; **Burn** 3
+**Associated Blasts** acid, acid rain, acidic bolt, bioelectric, bone, charnel, chilled bone, chrono, epoch, flensing, fossilized, green flame, haunted, injection, negative, nightshade, ultraviolet, venus, virulent, void, warped bone
+**Saving Throw** Fortitude negates
+
+Your blasts cause lasting damage to the bodies of others. Whenever an infused blast deals damage to a foe, they take 2 Strength or Dexterity damage (your choice). This is a poison effect for acid blast and its composites (excluding injecting blast).
+
+++++ Decaying Infusion
+**Element(s)** poison, time, viscera, or void; **Type** substance infusion; **Level** 6; **Burn** 4
+**Associated Blasts** acid, acid rain, acidic bolt, bioelectric, bone, charnel, chilled bone, chrono, epoch flensing, fossilized, green flame, haunted, injecting, negative, nightshade, ultraviolet, venus, vibration, virulent, void, warped bone
+**Saving Throw** Fortitude negates
+
+You know how to ravage living matter with your blast. Foes that take damage from your infused blast also take 2 Constitution damage.
 
 ++++ High Gravity Infusion
 **Element(s)** void; **Type** substance infusion; **Level** 4; **Burn** 3
@@ -321,6 +540,13 @@ You know how to ravage living matter with your blast. Foes that take damage from
 **Associated Blasts** gravity, void
 
 Your blast can intensify the power of gravity’s control on another. Whenever an infused blast hits a foe and deals damage to them, that foe is knocked prone and is unable to stand for 1 round per 4 kineticist levels you possess. A foe may make an additional save at the beginning of their round to end this effect. If you hit an airborne foe, that foe’s altitude immediately decrease by  30 feet. If this would cause them to fall to the ground, they take appropriate falling damage and are knocked prone, unable to stand as per this effect. If not, an airborne foe drops an additional 30 feet at the end of each of its rounds for the duration of this effect, and is unable to increase their altitude. A flying creature may make an additional save at the beginning of their round to end this effect and increase their altitude.
+
+++++ Hyper-Dimensional Blast
+**Element(s)** aether, time, or void; **Type** form infusion; **Level** 4; **Burn** 3
+**Prerequisite(s)** extended range
+**Associated blast(s)** chrono, epoch, force, gravity, telekinetic, negative, void
+
+You can channel your blast through avenues outside of those perceived by others, causing your blast to appear directly in any space within 120 feet rather than traveling from you to that space. Your target is denied its AC bonus from Dexterity and you ignore the benefits it gains from cover. You may target creatures, objects, or spaces outside of your line of sight, but cannot ignore cover against such targets unless you can detect the target’s presence by some other means. If used with telekinetic blast, the object used for this blast cannot be thrown and teleports back into your hand afterward.
 
 ++++ Immobilizing Infusion
 **Element(s)** time, water, or void; **Type** substance infusion; Level 4; Burn 3
@@ -330,11 +556,11 @@ Your blast can intensify the power of gravity’s control on another. Whenever a
 Your blasts reduces foe’s speed to a crawl. Whenever an infused blast hits a foe, that foe is unable to move from their space for 1 round per 4 kineticist levels you possess. If the foe is currently airborne, they will fall unless they can hover.
 
 ++++ Leech Infusion
-**Element(s)** void; **Type** substance infusion; **Level** 6; **Burn** 4
-**Associated Blasts** negative, void
+**Element(s)** viscera or void; **Type** substance infusion; **Level** 6; **Burn** 4
+**Associated Blasts** bioelectric, bone, charnel, chilled bone, fossilized, haunted, injecting, negative, venus, void, warped bone
 **Saving Throw** none
 
-You feed off of those who suffer your blast. Whenever an infused blast hits a living foe and deals damage, you gain 1 temporary hit point for every 2 hit dice thefoe possesses. Temporary hit points gained from multiple uses of this ability do not stack.
+You feed off of those who suffer your blast. Whenever an infused blast hits a living foe and deals damage, you gain 1 temporary hit point for every 2 hit dice the foe possesses that last until you recover burn or until depleted. Temporary hit points gained from multiple uses of this ability do not stack. Temporary hit points gained from this ability stack with those gained from other wild talents.
 
 ++++ Low Gravity Infusion
 **Element(s)** void; **Type** substance infusion; **Level** 3; **Burn** 2
@@ -344,11 +570,11 @@ You feed off of those who suffer your blast. Whenever an infused blast hits a li
 Your blast can loosen the power of gravity’s control on another. Whenever an infused blast hits a foe and deals damage to them, that foe begins to to float 10 feet up into the air as though under the effects of a levitate spell for 1 round per 3 kineticist levels you possess. At the beginning of the foe’s round, they float an additional 10 feet into the air. While affected by this infusion, they are unable to reduce their height, but are otherwise free to control their movement. When this effect ends, the foe takes falling damage according to their height. Airborne foes are unaffected by this infusion.
 
 ++++ Overload Infusion
-**Element(s)** air, fire, light, water, sound, time, or void; **Type** substance infusion; **Level** 7; **Burn** 4
+**Element(s)** air, fire, light, poison, sound, time, void, or water; **Type** substance infusion; **Level** 7; **Burn** 4
+**Associated Blasts** acid, acid rain, acidic bolt, blue flame, chrono, cold, electric, epoch, fire, flensing, green flame, glorious, injection, light, lightning, negative, nightshade, solar, sonic, sonic boom, thunderstorm, ultraviolet, vibration, virulent, void
 **Saving Throw** Fortitude negates
-**Associated Blasts** blue flame, chrono, cold, electric, epoch, fire, glorious, light, lightning, negative, solar, sonic, sonic boom, thunderstorm, vibration, void
 
-Your blast are capable of filling foes to the breaking point with raw power. Whenever an infused blast hits a foe and deals damage, that foe is flooded with elemental energy for 1 round per 5 kineticist levels you possess. Whenever that foe takes a standard action, they must make a fortitude save or take 1 point of damage per damage die your blast deals, taking half damage on a successful save. If the target instead takes a full round action, this damage is doubled. You can increase the burn cost by 1 to increase the duration of this effect by 1 round. A creature may only be affected by one overload infusion at a time.
+Your blasts are capable of filling foes to the breaking point with raw power. Whenever an infused blast hits a foe and deals damage, that foe is flooded with elemental energy for 1 round per 5 kineticist levels you possess. Whenever that foe takes a standard action, they must make a Fortitude save or take 1 point of damage per damage die your blast deals, taking half damage on a successful save. If the foe instead takes a full round action, this damage is doubled. You can increase the burn cost by 1 to increase the duration of this effect by 1 round. A creature may only be affected by one overload infusion at a time.
 
 ++++ Pure Negative Infusion
 **Element(s)** void; **Type** substance infusion; **Level** 1; **Burn** 1
@@ -365,26 +591,26 @@ Your blasts channel an especially damaging form of negative energy. Your blast a
 Those who are touched by your power soon walk again. Whenever a blast with this infusion kills a living foe, that foe is resurrected as a zombie controlled by you for 1 minute per kineticist level you possess. You can increase the burn cost by 1 to increase the duration to 1 hour per kineticist level you poessess. You can control up to 2 hit dice of undead per kineticist level you possess.
 
 ++++ Sickening Infusion
-**Element(s)** sound or void; **Type** substance infusion; **Level** 2; **Burn** 2
-**Associated Blasts** negative, gravity, sonic, sonic boom, vibration, void
+**Element(s)** poison, sound, viscera or void; **Type** substance infusion; **Level** 2; **Burn** 2
+**Associated Blasts** acid, acid rain, acidic bolt, bioelectric, bone, charnel, chilled bone, flensing, fossilized, gravity, green flame, haunted, injecting, negative, nightshade, sonic, sonic boom, ultraviolet, venus, vibration, virulent, void, warped bone
 **Saving Throw** Fortitude negates
 
-Your blast can disrupt another creature’s well being. Whenever an infused blast hits a foe, that foe is sickened for 1 round per 3 kineticist levels you possess.
+Your blast can disrupt another creature’s well-being. Whenever an infused blast hits a foe, that foe is sickened for 1 round per 3 kineticist levels you possess.
 
 ----
 
 + ##000000|Water##
 
 ++++ Bleeding Infusion
-**Element(s)** aether, air, earth, water, or wood; **Type** substance infusion; **Level** 1; **Burn** 1
-**Associated Blasts** autumn, bioluminescent, blizzard, crystal, earth, great oak, ice, metal, sandstorm, spring, summer, telekinetic, winter, wood
+**Element(s)** aether, air, earth, viscera, water, or wood; **Type** substance infusion; **Level** 1; **Burn** 1
+**Associated Blasts** autumn, bioelectric, bioluminescent, blizzard, bone, charnel, chilled bone, crystal, earth, fossilized, great oak, haunted, ice, injecting, metal, sandstorm, spring, summer, telekinetic, venus, warped bone, winter, wood
 **Saving Throw** Reflex negates
 
 Your blasts have an especially sharp edge to them. Whenever an infused blast hits a foe and deals either piercing or slashing damage, that foe also takes 1 bleed damage per damage die that your blast deals. Bleed damage from this infusion does not stack with itself.
 
 ++++ Destabilizing Infusion
-**Element(s)** sound or water; **Type** substance infusion; **Level** 6; **Burn** 4
-**Associated Blasts** aurora, blizzard, cold, ice, sonic, sonic boom, vibration
+**Element(s)** poison, sound, or water; **Type** substance infusion; **Level** 6; **Burn** 4
+**Associated Blasts** acid, acid rain, acidic bolt, aurora, blizzard, cold, flensing, green flame, ice, injecting, nightshade, sonic, sonic boom, ultraviolet, vibration, virulent
 **Saving Throw** Fortitude negates
 
 Your blasts are able to break down even the mightiest of foes. Whenever an infused blast hits a target and deals damage to them, if that target possesses either damage resistance or hardness, it is reduced by 1 for every 3 kineticist levels you possess for 1 minute. This effect stacks with itself, allowing you to reduce a target’s damage reduction or hardness multiple times.
@@ -404,11 +630,18 @@ Your blasts reduces foe’s speed to a crawl. Whenever an infused blast hits a f
 Your blast is capable of entombing others alive. Whenever an infused blast hits a foe and deals damage, that foe is encased in an elemental prison, as per the ice tomb witch hex.
 
 ++++ Overload Infusion
-**Element(s)** air, fire, light, water, sound, time, or void; **Type** substance infusion; **Level** 7; **Burn** 4
+**Element(s)** air, fire, light, poison, sound, time, void, or water; **Type** substance infusion; **Level** 7; **Burn** 4
+**Associated Blasts** acid, acid rain, acidic bolt, blue flame, chrono, cold, electric, epoch, fire, flensing, green flame, glorious, injection, light, lightning, negative, nightshade, solar, sonic, sonic boom, thunderstorm, ultraviolet, vibration, virulent, void
 **Saving Throw** Fortitude negates
-**Associated Blasts** blue flame, chrono, cold, electric, epoch, fire, glorious, light, lightning, negative, solar, sonic, sonic boom, thunderstorm, vibration, void
 
-Your blast are capable of filling foes to the breaking point with raw power. Whenever an infused blast hits a foe and deals damage, that foe is flooded with elemental energy for 1 round per 5 kineticist levels you possess. Whenever that foe takes a standard action, they must make a fortitude save or take 1 point of damage per damage die your blast deals, taking half damage on a successful save. If the target instead takes a full round action, this damage is doubled. You can increase the burn cost by 1 to increase the duration of this effect by 1 round. A creature may only be affected by one overload infusion at a time.
+Your blasts are capable of filling foes to the breaking point with raw power. Whenever an infused blast hits a foe and deals damage, that foe is flooded with elemental energy for 1 round per 5 kineticist levels you possess. Whenever that foe takes a standard action, they must make a Fortitude save or take 1 point of damage per damage die your blast deals, taking half damage on a successful save. If the foe instead takes a full round action, this damage is doubled. You can increase the burn cost by 1 to increase the duration of this effect by 1 round. A creature may only be affected by one overload infusion at a time.
+
+++++ Shivering Infusion
+**Element(s)** viscera or water; **Type** substance infusion; **Level** 1; **Burn** 1
+**Associated Blasts** bioelectric, bone, charnel, chilled bone, cold, fossilized, haunted, ice, injecting, venus, warped bone
+**Saving Throw** Fortitude negates
+
+Your blast cause opponents to convulse involuntarily. Whenever a foe takes damage from this infusion, they begin to shiver violently for 1 round per 2 kineticist levels you possess, bestowing a -1 penalty on all attack rolls and forcing a concentration check equal to the infusion’s DC for all spells with somatic components.
 
 ----
 
@@ -422,8 +655,8 @@ Your blast are capable of filling foes to the breaking point with raw power. Whe
 Your blast contain seeds that feed off of others. Whenever an infused blast hits a living foe and deals damage to them, a seed is embedded inside of them, drawing on their life force for 1 round per 2 kineticist levels you possess. At the beginning of the foe’s round, they must make a fortitude save or take 1 Constitution damage. A successful save negates this damage, and making two successful saving throws in a row ends this effect. If this damage reduces the foe’s Constitution score to 0, their body is consumed, and a large sized tree of your choice appears in their square, rooted into the ground. Multiple uses of this effect stack, although only 1 tree is produced upon a foe Constitution score being reduced to 0.
 
 ++++ Bleeding Infusion
-**Element(s)** aether, air, earth, water, or wood; **Type** substance infusion; **Level** 1; **Burn** 1
-**Associated Blasts** autumn, bioluminescent, blizzard, crystal, earth, great oak, ice, metal, sandstorm, spring, summer, telekinetic, winter, wood
+**Element(s)** aether, air, earth, viscera, water, or wood; **Type** substance infusion; **Level** 1; **Burn** 1
+**Associated Blasts** autumn, bioelectric, bioluminescent, blizzard, bone, charnel, chilled bone, crystal, earth, fossilized, great oak, haunted, ice, injecting, metal, sandstorm, spring, summer, telekinetic, venus, warped bone, winter, wood
 **Saving Throw** Reflex negates
 
 Your blasts have an especially sharp edge to them. Whenever an infused blast hits a foe and deals either piercing or slashing damage, that foe also takes 1 bleed damage per damage die that your blast deals. Bleed damage from this infusion does not stack with itself.
