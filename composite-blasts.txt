@@ -7,6 +7,20 @@ The following are new Composite Blasts that can be selected by Kineticists who m
 ----
 + ##000000|Air Blasts##
 
+++++ Acidic Bolt Blast
+**Element(s)** air and poison; **Type** composite blast (Sp); **Level** —; **Burn** 2
+**Prerequisite(s)** acid blast, electric blast
+**Blast Type** energy; **Damage** half acid, half lightning
+
+You create a pale purple streak of acidic lightning to fry a foe.
+
+++++ Bioelectric Blast
+**Element(s)** air and viscera; **Type** composite blast (Sp); **Level** —; **Burn** 2
+**Prerequisite(s)** bone blast, electric blast
+**Blast Type** physical; **Damage** half slashing, half electric
+
+You charge your bones with bioelectricity as they slice into a foe.
+
 ++++ Lightning Blast
 **Element(s)** air and light; **Type** composite blast (Sp); **Level** —; **Burn** 2
 **Prerequisite(s)** electric blast, light blast
@@ -22,8 +36,36 @@ You form a glowing white bolt of lightning to batter foes.
 **Blast Type** physical; **Damage** half bludgeoning, half slashing
 
 You fire glowing crystals of light at your foes.
+
+++++ Flensing Blast
+**Element(s)** earth and poison; **Type** composite blast (Sp); **Level** —; **Burn** 2
+**Prerequisite(s)** acid blast, earth blast
+**Blast Type** physical; **Damage** half acid, half slashing
+
+You mix brutal acids with sharp sands to tear away at a foe’s flesh.
+
+++++ Fossilized Blast
+**Element(s)** earth and viscera; **Type** composite blast (Sp); **Level** —; **Burn** 2
+**Prerequisite(s)** bone blast, earth blast
+**Blast Type** physical; **Damage** bludgeoning and piercing
+
+You shoot fossilized bones that shatter upon impact with a foe.
 ----
 + ##000000|Fire Blasts##
+
+++++ Charnel Blast
+**Element(s)** fire and viscera; **Type** composite blast (Sp); **Level** —; **Burn** 2
+**Prerequisite(s)** bone blast, fire blast
+**Blast Type** physical; **Damage** half fire, half slashing
+
+You set your bones ablaze before firing them at a foe.
+
+++++ Green Flame Blast
+**Element(s)** fire and poison; **Type** composite blast (Sp); **Level** —; **Burn** 2
+**Prerequisite(s)** acid blast, fire blast
+**Blast Type** energy; **Damage** half acid, half fire
+
+You create a sickly green flame that burns a foe with acidic flames.
 
 ++++ Solar Blast
 **Element(s)** fire and light; **Type** composite blast (Sp); **Level** —; **Burn** 2
@@ -62,6 +104,13 @@ You fire glowing crystals of light at your foes.
 
 You condense your light into a shining sphere of power.
 
+++++ Haunted Blast
+**Element(s)** light and viscera; **Type** composite blast (Sp); **Level** —; **Burn** 2
+**Prerequisite(s)** bone blast, light blast
+**Blast Type** physical; **Damage** bludgeoning and piercing
+
+You unleash a hellish glowing skull at a foe that shines with unearthly light.
+
 ++++ Lightning Blast
 **Element(s)** air and light; **Type** composite blast (Sp); **Level** —; **Burn** 2
 **Prerequisite(s)** electric blast, light blast
@@ -75,6 +124,71 @@ You form a glowing white bolt of lightning to batter foes.
 **Blast Type** physical; **Damage** half bludgeoning, half fire
 
 You create an explosion of light and heat upon impact.
+
+++++ Ultraviolet Blast
+**Element(s)** light and poison; **Type** composite blast (Sp); **Level** —; **Burn** 2
+**Prerequisite(s)** acid blast, light blast
+**Blast Type** physical; **Damage** half acid, half bludgeoning
+
+Your blast radiates acidic rays of light upon impact with a foe.
+----
++ ##000000|Poison Blasts##
+
+++++ Acid Rain Blast
+**Element(s)** poison and water; **Type** composite blast (Sp); **Level** —; **Burn** 2
+**Prerequisite(s)** acid blast, water blast
+**Blast Type** physical; **Damage** half acid, half bludgeoning
+
+You fuse your acid into a powerful spout of water that batters a foe.
+
+++++ Acidic Bolt Blast
+**Element(s)** air and poison; **Type** composite blast (Sp); **Level** —; **Burn** 2
+**Prerequisite(s)** acid blast, electric blast
+**Blast Type** energy; **Damage** half acid, half lightning
+
+You create a pale purple streak of acidic lightning to fry a foe.
+
+++++ Flensing Blast
+**Element(s)** earth and poison; **Type** composite blast (Sp); **Level** —; **Burn** 2
+**Prerequisite(s)** acid blast, earth blast
+**Blast Type** physical; **Damage** half acid, half slashing
+
+You mix brutal acids with sharp sands to tear away at a foe’s flesh.
+
+++++ Green Flame Blast
+**Element(s)** fire and poison; **Type** composite blast (Sp); **Level** —; **Burn** 2
+**Prerequisite(s)** acid blast, fire blast
+**Blast Type** energy; **Damage** half acid, half fire
+
+You create a sickly green flame that burns a foe with acidic flames.
+
+++++ Injecting Blast
+**Element(s)** poison and viscera; **Type** composite blast (Sp); **Level** —; **Burn** 2
+**Prerequisite(s)** acid blast, bone blast
+**Blast Type** physical; **Damage** half acid, half piercing
+
+You create sharp bones capable of injecting a foe with potent acid.
+
+++++ Nightshade Blast
+**Element(s)** poison and wood; **Type** composite blast (Sp); **Level** —; **Burn** 2
+**Prerequisite(s)** acid blast, wood blast
+**Blast Type** physical; **Damage** half acid, half slashing
+
+You slash with a deadly acidic flower to melt your foe.
+
+++++ Ultraviolet Blast
+**Element(s)** light and poison; **Type** composite blast (Sp); **Level** —; **Burn** 2
+**Prerequisite(s)** acid blast, light blast
+**Blast Type** physical; **Damage** half acid, half bludgeoning
+
+Your blast radiates acidic rays of light upon impact with a foe.
+
+++++ Virulent Blast
+**Element(s)** poison; **Type** composite blast (Sp); **Level** —; **Burn** 2
+**Prerequisite(s)** primary element (poison), expanded element (poison)
+**Blast Type** energy; **Damage** acid
+
+You coat a foe in a deadly acidic mixture.
 ----
 + ##000000|Sound Blasts##
 
@@ -115,7 +229,79 @@ You are capable of altering the probability of any blast to increase its damage 
 
 Your blast is capable of altering the target’s future even further. The damage dealt by this blast is 1 step lower than normal (2d4 instead of 2d6), and treat half of the damage from this composite blast as non lethal damage.
 ----
++ ##000000|Viscera Blasts##
+
+++++ Bioelectric Blast
+**Element(s)** air and viscera; **Type** composite blast (Sp); **Level** —; **Burn** 2
+**Prerequisite(s)** bone blast, electric blast
+**Blast Type** physical; **Damage** half slashing, half electric
+
+You charge your bones with bioelectricity as they slice into a foe.
+
+++++ Bloody Murder Blast
+**Element(s)** viscera and water; **Type** composite blast (Sp); **Level** —; **Burn** 3
+**Prerequisite(s)** blood blast (from the blood kineticist archetype), bone blast
+**Blast Type** physical; **Damage** bludgeoning, piercing, and slashing
+
+You launch a blood soaked skull at a target. This blast deals an additional 2 damage per 1d6 your blast deals and can be used with the wrack form infusion.
+
+++++ Charnel Blast
+**Element(s)** fire and viscera; **Type** composite blast (Sp); **Level** —; **Burn** 2
+**Prerequisite(s)** bone blast, fire blast
+**Blast Type** physical; **Damage** half fire, half slashing
+
+You set your bones ablaze before firing them at a foe.
+
+++++ Chilled Bone Blast
+**Element(s)** viscera and water; **Type** composite blast (Sp); **Level** —; **Burn** 2
+**Prerequisite(s)** bone blast, cold blast
+**Blast Type** physical; **Damage** half cold, half piercing
+
+You coat your bones in a layer of frost before piercing a foe.
+
+++++ Fossilized Blast
+**Element(s)** earth and viscera; **Type** composite blast (Sp); **Level** —; **Burn** 2
+**Prerequisite(s)** bone blast, earth blast
+**Blast Type** physical; **Damage** bludgeoning and piercing
+
+You shoot fossilized bones that shatter upon impact with a foe.
+
+++++ Haunted Blast
+**Element(s)** light and viscera; **Type** composite blast (Sp); **Level** —; **Burn** 2
+**Prerequisite(s)** bone blast, light blast
+**Blast Type** physical; **Damage** bludgeoning and piercing
+
+You unleash a hellish glowing skull at a foe that shines with unearthly light.
+
+++++ Injecting Blast
+**Element(s)** poison and viscera; **Type** composite blast (Sp); **Level** —; **Burn** 2
+**Prerequisite(s)** acid blast, bone blast
+**Blast Type** physical; **Damage** half acid, half piercing
+
+You create sharp bones capable of injecting a foe with potent acid.
+
+++++ Venus Blast
+**Element(s)** viscera and wood; **Type** composite blast (Sp); **Level** —; **Burn** 2
+**Prerequisite(s)** bone blast, wood blast
+**Blast Type** physical; **Damage** half piercing, half bludgeoning
+
+You create a carnivorous plant that chomps down on a foe with a mouth full of fangs. All material created by this blast decays swiftly into nothingness.
+
+++++ Warped Bone Blast
+**Element(s)** viscera; **Type** composite blast (Sp); **Level** —; **Burn** 2
+**Prerequisite(s)** primary element (viscera), expanded element (viscera)
+**Blast Type** physical; **Damage** see text
+
+You disfigure the bones from your body. This blast deals either bludgeoning and piercing, bludgeoning and slashing, or piercing and slashing damage.
+----
 + ##000000|Water Blasts##
+
+++++ Acid Rain Blast
+**Element(s)** poison and water; **Type** composite blast (Sp); **Level** —; **Burn** 2
+**Prerequisite(s)** acid blast, water blast
+**Blast Type** physical; **Damage** half acid, half bludgeoning
+
+You fuse your acid into a powerful spout of water that batters a foe.
 
 ++++ Aurora Blast
 **Element(s)** light and water; **Type** composite blast (Sp); **Level** —; **Burn** 2
@@ -123,6 +309,20 @@ Your blast is capable of altering the target’s future even further. The damage
 **Blast Type** physical; **Damage** half bludgeoning, half cold
 
 You infuse chunks of ice with dazzling lights.
+
+++++ Bloody Murder Blast
+**Element(s)** viscera and water; **Type** composite blast (Sp); **Level** —; **Burn** 3
+**Prerequisite(s)** blood blast (from the blood kineticist archetype), bone blast
+**Blast Type** physical; **Damage** bludgeoning, piercing, and slashing
+
+You launch a blood soaked skull at a target. This blast deals an additional 2 damage per 1d6 your blast deals and can be used with the wrack form infusion.
+
+++++ Chilled Bone Blast
+**Element(s)** viscera and water; **Type** composite blast (Sp); **Level** —; **Burn** 2
+**Prerequisite(s)** bone blast, cold blast
+**Blast Type** physical; **Damage** half cold, half piercing
+
+You coat your bones in a layer of frost before piercing a foe.
 ----
 + ##000000|Wood Blasts##
 
@@ -139,3 +339,17 @@ Your arboreal assaults are bursting with internal light.
 **Blast Type** physical; **Damage** special
 
 You draw out the strength of the oldest of trees into your blast. You can select for this blast to do bludgeoning and slashing, bludgeoning and piercing, or slashing and piercing damage.
+
+++++ Nightshade Blast
+**Element(s)** poison and wood; **Type** composite blast (Sp); **Level** —; **Burn** 2
+**Prerequisite(s)** acid blast, wood blast
+**Blast Type** physical; **Damage** half acid, half slashing
+
+You slash with a deadly acidic flower to melt your foe.
+
+++++ Venus Blast
+**Element(s)** viscera and wood; **Type** composite blast (Sp); **Level** —; **Burn** 2
+**Prerequisite(s)** bone blast, wood blast
+**Blast Type** physical; **Damage** half piercing, half bludgeoning
+
+You create a carnivorous plant that chomps down on a foe with a mouth full of fangs. All material created by this blast decays swiftly into nothingness.
