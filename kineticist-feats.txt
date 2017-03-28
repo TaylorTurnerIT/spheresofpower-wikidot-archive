@@ -20,12 +20,42 @@ The following are new feats that can be taken by kineticists.
 
 **Normal:** Utility wild talents have their effective spell level treated as their level for determining their DCs.
 
+++++ Afterburn
+“You just have all this leftover energy after an attack like that, and you just let it go to waste?”
+
+**Prerequisite:** 1st-level kineticist
+
+**Benefit:** If you accept burn from a wild talent (except for your elemental defense), on your next round you can reduce the burn cost of an infusion by 1.
+
+++++ Brutal Blast
+“I don’t need finesse to overwhelm an opponent, I just need power.”
+
+**Prerequisite:** Kinetic blast 1d6
+
+**Benefit:** Your form infusions use your Constitution modifier instead of your Dexterity to calculate saving throws.
+
+**Normal:** You use your Dexterity modifier to calculate saving throws for your form infusions.
+
 ++++ Burn Resistance
 “You can handle a little more, can’t you? It’s just your body after all.”
 
 **Prerequisite:** Burn class feature, 7th-level kineticist
 
 **Benefit:** You can consider your character level to be two levels lower to determine the amount of non-lethal damage you take from your burn class feature.
+
+++++ Divergent Focus
+“Some people are just better at keeping their mind on what matters.”
+
+**Benefit:** Whenever you use a utility wild talent that would normally allow only one use of its effect to be active at a time, you can instead have two uses of its effect active without affecting the other use of it.
+
+++++ Energy Aim
+“I don’t just ‘throw’ fire around, I choose my incineration targets with exacting precision.”
+
+**Prerequisite:** Point-Blank Shot, any energy blast
+
+**Benefit:** Your energy simple and composite blasts gain a +1 to attack rolls. You can also apply the Deadly Aim feat to your energy blasts.
+
+**Normal:** Ranged touch attacks cannot apply the Deadly Aim feat.
 
 ++++ Extended Buffer
 “I just know how to take a hit better, even when I’m doing it myself!”
@@ -35,6 +65,20 @@ The following are new feats that can be taken by kineticists.
 **Benefit:** You may increase the amount of burn you can store within your Internal Buffer class feature by 1.
 
 **Special:** This feat may be taken once at 7th level, and again at 13th and 19th.
+
+++++ Improved Stealth Gathering
+“I wasn’t even there, you didn’t see a thing!”
+
+**Prerequisite:** Stealth Gathering
+
+**Benefit:** You can use your gather energy class feature without any visible or audible display.
+
+++++ Kinetic Combo
+“The key is to overwhelm their defenses, and you can’t do that by using the same trick over and over again.”
+
+**Prerequisite:** Any simple blast
+
+**Benefit:** If you hit a creature with your kinetic blast, on your next round that creature takes a -1 penalty on saving throws against any utility wild talents you use that share the same element as your blast and a -2 against any utility wild talent with a different element from your blast.
 
 ++++ Kinetic Prodigy
 “You can’t learn talent like this, but if you want, I can show you what I do…”
@@ -52,12 +96,62 @@ The following are new feats that can be taken by kineticists.
 
 **Normal:** You can only apply 1 form infusion to a blast.
 
+++++ Kinetic Training
+“This is who I am, no matter what else I do.”
+
+**Prerequisite:** Kinetic blast class feature
+
+**Benefit:** You can select wild talents as if your kineticist class level were 4 higher, to a maximum effective kineticist level equal to your character level.
+
+++++ Komodo’s Bite
+“My bite will leave more than scars.”
+
+**Prerequisites:** kineticist 1st, acid blast, bite attack
+
+**Benefit:** Your bite attacks deal 1 point of acid damage in addition to their normal damage. Living creatures you bite must make a Fortitude save (DC equal to your acid blast’s DC) or be sickened for a number of rounds equal to 1 + your Con modifier (minimum 1 round).
+
+++++ Noxious Saliva
+“Submit to the venom, it shall soon be over.”
+
+**Prerequisites:** kineticist 7th, virulent blast, Komodo’s Bite, bite attack
+
+**Benefit:** Once per day, when a creature fails its save against your komodo’s bite, you can accept 1 burn as an immediate action to instead cause the creature to become nauseated.
+
+++++ Poisonous Foliage
+“Nature is dangerous. Everything in it wants to kill you, so why not take advantage of that?”
+
+**Prerequisite:** Wood blast
+
+**Benefit:** You can select laced infusion, sickening infusion, and psychotropic infusion in addition to the substance infusions you normally have access too, being able to apply them to your wood blast and its composites. If you use any of these infusions with the nightshade composite blast, increase the DC of your blast by 1.
+
 ++++ Precision Blast
 “See, aren’t these attacks a lot more helpful when your friends don’t have to dodge them too?”
 
 **Prerequisite:** Infusion class ability
 
 **Benefit:** Whenever you use a kinetic blast that affects multiple spaces, you may select 1 square that is not affected by your blast. For each 2 points of burn you have, you may select an addition square to be unaffected by your blast.
+
+++++ Protean Alteration
+“Oh, do you like this form? I just made it today!”
+
+**Prerequisite:** Unnatural evolution utility wild talent
+
+**Benefit:** Treat your base form as biped, quadruped, and serpentine for which evolutions you can take with the unnatural evolution utility wild talent and its other versions. You can also select the unnatural evolution talent a second time, gaining an additional 1 point evolution.
+
+**Normal:** Your base form is treated as biped for selecting evolutions and can only select the unnatural evolution utility wild talent once.
+
+++++ Ranged Versatility
+“Tradition is okay, but sometimes you just want to do something different!”
+
+**Prerequisite:** Dragon pact kineticist or elemental ascetic 1st
+
+**Benefit:** You gain the following form infusion; this infusion can be applied to your kinetic blast regardless of the normal limitations of your archetype:
+> **Ranged Blast**
+> **Element(s)** universal; **Type** form infusion; **Level** 1; **Burn** 1
+> **Associated Blasts** any
+> **Saving Throw** none
+> 
+> You have learned to use your elemental weapon as a ranged attack. You may make a ranged attack with your kinetic blast with a range of up to 30 feet.
 
 ++++ Signature Infusion
 “The strongest master is the one who has practiced the same move one thousand times…”
@@ -72,3 +166,24 @@ The following are new feats that can be taken by kineticists.
 **Prerequisite:** Gather power class feature
 
 **Benefit:** Whenever you use your gather power class feature, the visual and sound effects are diminished, only noticeable to those within 10 feet of you.
+
+++++ Stout Deterrent
+“What makes you think he could move me, I’m as solid as a golem and twice as pretty!”
+
+**Benefit:** You can add your Constitution modifier to your CMD instead of your Strength modifier.
+
+**Normal:** You add your Strength and Dexterity modifiers to your CMD.
+
+++++ Stout Maneuvers
+“Really, you can just tough it out, tire them out, and then go in for the kill!”
+
+**Benefit:** You can add your Constitution modifier to CMB checks instead of your Strength modifier.
+
+**Normal:** You add your Strength modifier to CMB checks.
+
+++++ Talented Blaster
+“You practice an element, I AM an element.”
+
+**Prerequisites:** Kinetic blast 3d6, Kinetic Training
+
+**Benefit:** Your kinetic blast damage and save DC are calculated as through your kineticist class level were 4 levels higher, to a maximum effective kineticist level equal to your character level.
