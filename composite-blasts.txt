@@ -4,6 +4,18 @@ parent:other-options
 
 The following are new Composite Blasts that can be selected by Kineticists who meet their prerequisites.
 
+**Rule Clarification:** Any composite blast treated as having an infusion applied as part of the blast’s description doesn’t count the added effect toward the limit of substance or form infusions with a kinetic blast, but cannot have that infusion applied to it.
+
+----
++ ##000000|Aether Blasts##
+
+++++ Silverlight Blast
+**Element(s)** aether and light; **Type** composite blast (Sp); **Level** —; **Burn** 3
+**Prerequisite(s)** force blast, light blast
+**Blast Type** energy; **Damage** half force, half positive energy
+
+You weave aetheric threads into the positive energies within your light, allowing it to sear unholy abominations. Creatures that would be healed by positive energy are not healed by this blast (instead only taking half this blast’s damage as force damage). In addition, for 3 rounds, creatures this blast hits emit and are affected by silverlight, as the spell. It is associated with the same infusions as its prerequisites. This blast and infusions applied to it cost twice as much burn for kineticists who are harmed by positive energy, those of the evil alignment, or those with the dread soul archetype.
+
 ----
 + ##000000|Air Blasts##
 
@@ -27,6 +39,20 @@ You charge your bones with bioelectricity as they slice into a foe.
 **Blast Type** physical; **Damage** half bludgeoning, half electric
 
 You form a glowing white bolt of lightning to batter foes.
+
+++++ Noxious Blast
+**Element(s)** air and poison; **Type** composite blast (Sp); **Level** —; **Burn** 2
+**Prerequisite(s)** acid blast, air blast
+**Blast Type** physical; **Damage** half acid, half bludgeoning
+
+Your blast of air carries acidic fumes to burn a foe, searing eyes and flesh.
+
+++++ Thunder Flash Blast
+**Element(s)** air and fire; **Type** composite blast (Sp); **Level** —; **Burn** 2
+**Prerequisite(s)** electric blast, fire blast
+**Blast Type** energy; **Damage** half electric, half fire
+
+Your flaming assault is crisscrossed with an electric charge to fry a foe.
 ----
 + ##000000|Earth Blasts##
 
@@ -50,6 +76,27 @@ You mix brutal acids with sharp sands to tear away at a foe’s flesh.
 **Blast Type** physical; **Damage** bludgeoning and piercing
 
 You shoot fossilized bones that shatter upon impact with a foe.
+
+++++ Meteor Blast
+**Element(s)** earth and fire; **Type** composite blast (Sp); **Level** —; **Burn** 3
+**Prerequisite(s)** fire blast, metal blast
+**Blast Type** physical; **Damage** bludgeoning and fire
+
+You create a flaming hunk of space rock to batter an opponent. This blast deals an additional 2 damage per damage die and is treated as though it had the rare-metal infusion applied to it.
+
+++++ Shatterstorm Blast
+**Element(s)** earth, light, and sound; **Type** composite blast (Sp); **Level** —; **Burn** 3
+**Prerequisite(s)** crystal blast, sonic blast
+**Blast Type** physical; **Damage** half slashing, half sonic
+
+You create a crystal, shattering it with sonic waves just as it nears your target. This blast deals an additional 2 damage per hit die, has its hit dice size reduced by one step (1d6 to 1d4), and is treated as though it has the kinetic bomb infusion applied to it unless a form infusion besides extended range or extreme range is applied to it.
+
+++++ Tundra Blast
+**Element(s)** earth and water; **Type** composite blast (Sp); **Level** —; **Burn** 2
+**Prerequisite(s)** earth blast, cold blast
+**Blast Type** physical; **Damage** half bludgeoning, half cold
+
+You fire a frigid hunk of stone to smash a foe.
 ----
 + ##000000|Fire Blasts##
 
@@ -67,12 +114,40 @@ You set your bones ablaze before firing them at a foe.
 
 You create a sickly green flame that burns a foe with acidic flames.
 
+++++ Hellfire Blast
+**Element(s)** fire and void; **Type** composite blast (Sp); **Level** —; **Burn** 3
+**Prerequisite(s)** blue flame blast and negative blast or void blast and fire blast
+**Blast Type** energy; **Damage** fire and negative
+
+You burn your opponent with the flames of Hell. Increase the size of the damage die of this blast by 1 and treat it as though the improved burning infusion was applied to it, dealing both fire and negative energy damage.
+
+++++ Meteor Blast
+**Element(s)** earth and fire; **Type** composite blast (Sp); **Level** —; **Burn** 3
+**Prerequisite(s)** fire blast, metal blast
+**Blast Type** physical; **Damage** bludgeoning and fire
+
+You create a flaming hunk of space rock to batter an opponent. This blast deals an additional 2 damage per damage die and is treated as though it had the rare-metal infusion applied to it.
+
 ++++ Solar Blast
 **Element(s)** fire and light; **Type** composite blast (Sp); **Level** —; **Burn** 2
 **Prerequisite(s)** fire blast, light blast
 **Blast Type** physical; **Damage** half bludgeoning, half fire
 
 You create an explosion of light and heat upon impact.
+
+++++ Supernova Blast
+**Element(s)** fire, light, and void; **Type** composite blast (Sp); **Level** —; **Burn** 3
+**Prerequisite(s)** gravity blast, solar blast
+**Blast Type** energy; **Damage** fire and bludgeoning
+
+You channel the heat and pressure of a dying star into your blast. This blast’s hit die is increased by one step and is treated as an energy blast regardless of damage type. Creatures reduced to 0 hit points or lower by this composite blast are disintegrated as per the disintegrate spell.
+
+++++ Thunder Flash Blast
+**Element(s)** air and fire; **Type** composite blast (Sp); **Level** —; **Burn** 2
+**Prerequisite(s)** electric blast, fire blast
+**Blast Type** energy; **Damage** half electric, half fire
+
+Your flaming assault is crisscrossed with an electric charge to fry a foe.
 ----
 + ##000000|Light Blasts##
 
@@ -118,12 +193,40 @@ You unleash a hellish glowing skull at a foe that shines with unearthly light.
 
 You form a glowing white bolt of lightning to batter foes.
 
+++++ Rainbow Blast
+**Element(s)** light and water; **Type** composite blast (Sp); **Level** —; **Burn** 2
+**Prerequisite(s)** light blast, water blast
+**Blast Type** physical; **Damage** bludgeoning
+
+You reflect your light off misty water vapors to create a glorious rainbow to batter a foe.
+
+++++ Shatterstorm Blast
+**Element(s)** earth, light, and sound; **Type** composite blast (Sp); **Level** —; **Burn** 3
+**Prerequisite(s)** crystal blast, sonic blast
+**Blast Type** physical; **Damage** half slashing, half sonic
+
+You create a crystal, shattering it with sonic waves just as it nears your target. This blast deals an additional 2 damage per hit die, has its hit dice size reduced by one step (1d6 to 1d4), and is treated as though it has the kinetic bomb infusion applied to it unless a form infusion besides extended range or extreme range is applied to it.
+
+++++ Silverlight Blast
+**Element(s)** aether and light; **Type** composite blast (Sp); **Level** —; **Burn** 3
+**Prerequisite(s)** force blast, light blast
+**Blast Type** energy; **Damage** half force, half positive energy
+
+You weave aetheric threads into the positive energies within your light, allowing it to sear unholy abominations. Creatures that would be healed by positive energy are not healed by this blast (instead only taking half this blast’s damage as force damage). In addition, for 3 rounds, creatures this blast hits emit and are affected by silverlight, as the spell. It is associated with the same infusions as its prerequisites. This blast and infusions applied to it cost twice as much burn for kineticists who are harmed by positive energy, those of the evil alignment, or those with the dread soul archetype.
+
 ++++ Solar Blast
 **Element(s)** fire and light; **Type** composite blast (Sp); **Level** —; **Burn** 2
 **Prerequisite(s)** fire blast, light blast
 **Blast Type** physical; **Damage** half bludgeoning, half fire
 
 You create an explosion of light and heat upon impact.
+
+++++ Supernova Blast
+**Element(s)** fire, light, and void; **Type** composite blast (Sp); **Level** —; **Burn** 3
+**Prerequisite(s)** gravity blast, solar blast
+**Blast Type** energy; **Damage** fire and bludgeoning
+
+You channel the heat and pressure of a dying star into your blast. This blast’s hit die is increased by one step and is treated as an energy blast regardless of damage type. Creatures reduced to 0 hit points or lower by this composite blast are disintegrated as per the disintegrate spell.
 
 ++++ Ultraviolet Blast
 **Element(s)** light and poison; **Type** composite blast (Sp); **Level** —; **Burn** 2
@@ -175,6 +278,20 @@ You create sharp bones capable of injecting a foe with potent acid.
 **Blast Type** physical; **Damage** half acid, half slashing
 
 You slash with a deadly acidic flower to melt your foe.
+
+++++ Noxious Blast
+**Element(s)** air and poison; **Type** composite blast (Sp); **Level** —; **Burn** 2
+**Prerequisite(s)** acid blast, air blast
+**Blast Type** physical; **Damage** half acid, half bludgeoning
+
+Your blast of air carries acidic fumes to burn a foe, searing eyes and flesh.
+
+++++ Shatterstorm Blast
+**Element(s)** earth, light, and sound; **Type** composite blast (Sp); **Level** —; **Burn** 3
+**Prerequisite(s)** crystal blast, sonic blast
+**Blast Type** physical; **Damage** half slashing, half sonic
+
+You create a crystal, shattering it with sonic waves just as it nears your target. This blast deals an additional 2 damage per hit die, has its hit dice size reduced by one step (1d6 to 1d4), and is treated as though it has the kinetic bomb infusion applied to it unless a form infusion besides extended range or extreme range is applied to it.
 
 ++++ Ultraviolet Blast
 **Element(s)** light and poison; **Type** composite blast (Sp); **Level** —; **Burn** 2
@@ -266,6 +383,13 @@ You coat your bones in a layer of frost before piercing a foe.
 
 You shoot fossilized bones that shatter upon impact with a foe.
 
+++++ Gore Blast
+**Element(s)** viscera and water; **Type** composite blast (Sp); **Level** —; **Burn** 2
+**Prerequisite(s)** bone blast, water blast
+**Blast Type** physical; **Damage** bludgeoning
+
+You fire a blast of raw gore and viscera at a foe, a disgusting and devastating attack.
+
 ++++ Haunted Blast
 **Element(s)** light and viscera; **Type** composite blast (Sp); **Level** —; **Burn** 2
 **Prerequisite(s)** bone blast, light blast
@@ -293,6 +417,29 @@ You create a carnivorous plant that chomps down on a foe with a mouth full of fa
 **Blast Type** physical; **Damage** see text
 
 You disfigure the bones from your body. This blast deals either bludgeoning and piercing, bludgeoning and slashing, or piercing and slashing damage.
+----
++ ##000000|Void Blasts##
+
+++++ Hellfire Blast
+**Element(s)** fire and void; **Type** composite blast (Sp); **Level** —; **Burn** 3
+**Prerequisite(s)** blue flame blast and negative blast or void blast and fire blast
+**Blast Type** energy; **Damage** fire and negative
+
+You burn your opponent with the flames of Hell. Increase the size of the damage die of this blast by 1 and treat it as though the improved burning infusion was applied to it, dealing both fire and negative energy damage.
+
+++++ Subzero Blast
+**Element(s)** void and water; **Type** composite blast (Sp); **Level** —; **Burn** 3
+**Prerequisite(s)** ice blast and negative blast, or cold blast and void blast
+**Blast Type** special (see text); **Damage** cold and/or piercing
+
+You chill the air around the target to temperatures so cold that nearly all matter solidifies for an instant. This blast deals an additional 2 damage per hit die, and can use any infusion available to cold, ice, negative, or water blast. You may choose to make this blast deal cold damage, piercing damage, or both. If you choose to deal only cold damage this is an energy blast; otherwise this is a physical blast. When used as an energy blast, this blast deals half damage with the singularity infusion and full damage with the spray infusion.
+
+++++ Supernova Blast
+**Element(s)** fire, light, and void; **Type** composite blast (Sp); **Level** —; **Burn** 3
+**Prerequisite(s)** gravity blast, solar blast
+**Blast Type** energy; **Damage** fire and bludgeoning
+
+You channel the heat and pressure of a dying star into your blast. This blast’s hit die is increased by one step and is treated as an energy blast regardless of damage type. Creatures reduced to 0 hit points or lower by this composite blast are disintegrated as per the disintegrate spell.
 ----
 + ##000000|Water Blasts##
 
@@ -323,6 +470,34 @@ You launch a blood soaked skull at a target. This blast deals an additional 2 da
 **Blast Type** physical; **Damage** half cold, half piercing
 
 You coat your bones in a layer of frost before piercing a foe.
+
+++++ Gore Blast
+**Element(s)** viscera and water; **Type** composite blast (Sp); **Level** —; **Burn** 2
+**Prerequisite(s)** bone blast, water blast
+**Blast Type** physical; **Damage** bludgeoning
+
+You fire a blast of raw gore and viscera at a foe, a disgusting and devastating attack.
+
+++++ Rainbow Blast
+**Element(s)** light and water; **Type** composite blast (Sp); **Level** —; **Burn** 2
+**Prerequisite(s)** light blast, water blast
+**Blast Type** physical; **Damage** bludgeoning
+
+You reflect your light off misty water vapors to create a glorious rainbow to batter a foe.
+
+++++ Subzero Blast
+**Element(s)** void and water; **Type** composite blast (Sp); **Level** —; **Burn** 3
+**Prerequisite(s)** ice blast and negative blast, or cold blast and void blast
+**Blast Type** special (see text); **Damage** cold and/or piercing
+
+You chill the air around the target to temperatures so cold that nearly all matter solidifies for an instant. This blast deals an additional 2 damage per hit die, and can use any infusion available to cold, ice, negative, or water blast. You may choose to make this blast deal cold damage, piercing damage, or both. If you choose to deal only cold damage this is an energy blast; otherwise this is a physical blast. When used as an energy blast, this blast deals half damage with the singularity infusion and full damage with the spray infusion.
+
+++++ Tundra Blast
+**Element(s)** earth and water; **Type** composite blast (Sp); **Level** —; **Burn** 2
+**Prerequisite(s)** earth blast, cold blast
+**Blast Type** physical; **Damage** half bludgeoning, half cold
+
+You fire a frigid hunk of stone to smash a foe.
 ----
 + ##000000|Wood Blasts##
 
