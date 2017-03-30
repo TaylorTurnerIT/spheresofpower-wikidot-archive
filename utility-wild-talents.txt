@@ -6,10 +6,20 @@ The following are new utility wild talents that can be selected by Kineticists w
 ----
 + ##000000|Universal##
 
+++++ Charged Attacks
+**Element(s)** universal; **Level** 3; **Type** utility (Su); **Burn** —
+
+For every 3 kineticist levels you possess, apply your elemental overflow bonus to one attack made with natural weapons, armor spikes or spiked gauntlets granted to you through wild talents other than unnatural evolution per round.
+
 ++++ Kinetic Crafter
 **Element(s)** universal; **Type** utility (Su); **Level** 2; **Burn** —
 
 You gain the Craft Wondrous Item feat, treating your kineticist level as your caster level. For every 3 points of burn you have, you may ignore one prerequisite when crafting an item.
+
+++++ Natural Rush
+**Element(s)** universal; **Level** 3; **Type** utility (Su); **Burn** —
+
+Whenever you make a charge attack, you are treated as though you had pounce when only making attacks with natural weapons, armor spikes, or spiked gauntlets granted to you through wild talents other than unnatural evolution.
 
 ++++ Penetrating Burn
 **Element(s)** universal; **Type** utility (Su); **Level** 3; **Burn** —
@@ -31,6 +41,48 @@ When using aether blasts or composite blasts that include aether, you can chose 
 
 You know how to use your power to protect your weapons. Objects that you use with your telekinetic blast do not take damage.
 
+++++ Deceptive Rip
+**Element(s)** aether, time, or void; **Level** 3; **Type** utility (Su); **Burn** —
+**Prerequisite(s)** dimensional rip or dimensional tear class feature
+**Saving Throw** Reflex negates; **Spell Resistance** no
+
+You are capable of laying a tear across a solid surface, disguising it as normal terrain. If a creature steps into your deceptive rip, they are transported to another tear of your choice. Creatures exiting from a deceptive rip may choose which space adjacent to the selected exit tear to occupy. The Perception check to locate this tear is equal to your kineticist level plus 10.
+
+++++ Dimensional Rip
+**Element(s)** aether, time, or void; **Level** 3; **Type** utility (Sp); **Burn** 1
+
+You gain the dimensional tear class feature of the dimensional ripper archetype.
+
+++++ Dimensional Rip, Improved
+**Element(s)** aether, time, or void; **Level** 4; **Type** utility (Sp); **Burn** 0
+**Prerequisite(s)** dimensional rip
+
+You gain the improved tearing class feature of the dimensional ripper archetype, treating your kineticist level as 2 lower for the number of tears you can create.
+
+++++ Dimensional Rip, Greater
+**Element(s)** aether, time, or void; **Level** 6; **Type** utility (Sp); **Burn** 0
+**Prerequisite(s)** improved dimensional rip
+
+You gain the rapid tearing class feature of the dimensional ripper archetype, treating your kineticist level as 1 lower for the number of tears you can create.
+
+++++ Dimensional Traveler
+**Element(s)** aether, light, time, or void; **Level** 6; **Type** utility (Su); **Burn** —
+**Prerequisite(s)** light speed travel, time skip, or the dimensional travel class feature
+
+Your skill at stepping between worlds improves, treating you as though you had the Dimensional Assault and Dimensional Dervish feats, applying them to the prerequisite wild talents or class feature.
+
+++++ Dimensional Traveler, Improved
+**Element(s)** aether, light, time, or void; **Level** 7; **Type** utility (Su); **Burn** —
+**Prerequisite(s)** dimensional traveler
+
+You are treated as though you had the Dimensional Maneuvers and Dimensional Savant feats, applying them to the prerequisite wild talents or class feature.
+
+++++ Distorted Area
+**Element(s)** aether or earth; **Level** 2; **Type** utility (Sp); **Burn** 0
+**Saving Throw** none; **Spell Resistance** no
+
+You are capable of either destroying the ground around you or flooding the area with enough telekinetic energy to make normal movement impossible. You can activate this wild talent as a swift action to make all squares adjacent to you into difficult terrain for 1 minute. While this wild talent is active, you cannot run or charge. A geokineticist can only use this talent while standing on dirt or unworked stone unless they also possess the aether element.
+
 ++++ Elemental Eater
 **Element(s)** aether, air, fire, poison, sound, void, or water; **Type** utility (Sp); **Level** 7; **Burn** 1
 
@@ -45,12 +97,70 @@ Whenever you would receive acid, cold, electricity, fire, force, negative, or so
 
 As a swift action, you can reduce the temporary hit points gained from this ability by 15 to reduce the burn cost of an infusion by 1. Temporary hit points gained from this ability stack with those gained from other wild talents, but cannot be used to lower the cost of an infusion.
 
+++++ Enlarged Rip
+**Element(s)** aether, time, or void; **Level** 4; **Type** utility (Su); **Burn** —
+**Prerequisite(s)** dimensional rip or dimensional tear class feature
+
+You can stretch dimensions even further to create an enlarged tear. Large tears are 10 ft. tall and wide, and can be traveled through by huge or smaller creatures, being able to exit out of normal sized tears.
+
+++++ Flash Step
+**Element(s)** aether, air, or time; **Level** 4; **Type** utility (Sp); **Burn** 0
+
+Through pushing yourself forward with air, aether or even stealing time from the future, as a swift action you can grant yourself an additional move action this round. If you do, you cannot take another swift or immediate action for 4 rounds. You can accept 1 burn to ignore the loss of swift action.
+
 ++++ Friend Throw
 **Element(s)** aether; **Type** utility (Sp); **Level** 3; **Burn** 0
 **Prerequisite(s)** telekinetic haul
 **Saving Throw** reflex negates (harmless); **Spell Resistance** yes
 
 You are able to use your telekinetic powers to move your allies. You can move one willing ally that weighs up to 100 lbs per kineticist level you possess up to 30 feet. You can accept 1 point of burn to allow an ally to make an attack action at the end of their movement.
+
+++++ Heirloom Affinity
+**Element(s)** aether; **Level** 2; **Type** utility (Su); **Burn** —
+**Prerequisite(s)** aetheric tempering
+
+Your talent is at its highest using a particular item. When you select this wild talent, you must choose one specific object. When using this object with your telekinetic blast, all infusions applied to your blast have their DC increased by 1. When you use an object aside from your chosen one, all infusions applied to your blast have their DC reduced by 1. If this object is lost or broken, you can accept 1 point of burn and spend 1 day to attune yourself to a new object.
+
+++++ Kinetic Cover, Improved
+**Element(s)** aether, earth, light, viscera, water, and wood; **Level** 3; **Type** utility (Sp); **Burn** 0
+**Prerequisite(s)** kinetic cover
+
+Your kinetic cover gains hardness 5 as well as 5 additional hit points per kineticist level you possess.
+
+++++ Long Distance Travel
+**Element(s)** aether, light, time, or void; **Level** 6; **Type** utility (Sp); **Burn** 0
+**Prerequisite(s)** light speed travel, time skip, or dimensional travel class feature
+
+You can spend 1 minute to teleport as per the spell, although only you are affected by this talent. You can accept 1 burn to bring along an additional amount of creatures up to your Constitution modifier.
+
+++++ Material Affinity
+**Element(s)** aether; **Level** 1; **Type** utility (Su); **Burn** —
+
+You are more talented than others when it comes to manipulating certain materials. When you select this wild talent, you must choose either stone, wood, metal, glass, paper, or another similar material. When using this material with your telekinetic blast, you gain a +1 to attack and damage rolls. When you use a material aside from your chosen one, you suffer a -1 penalty to attack and damage rolls. You can choose to gain this wild talent instead of basic telekinesis. These bonuses and penalties also apply to physical blasts associated with the chosen material (such as earth blast for stone or ice blast for ice).
+
+++++ Seismic Stomp
+**Element(s)** aether or earth; **Level** 3; **Type** utility (Sp); **Burn** 0
+**Prerequisite(s)** distorted area
+
+Raising up your foot, you can slam it back down onto the ground as a move action to make a trip attempt that does not provoke an attack of opportunity against all squares adjacent to you, substituting your Constitution modifier for your Strength modifier. If you fail this trip attempt, you cannot be tripped in return. You can accept 1 point of burn to use this wild talent as a swift action. A geokineticist can only use this talent while standing on dirt or unworked stone unless they also possess the aether element.
+
+++++ Sharding Cover
+**Element(s)** aether, earth, light, viscera, water, and wood; **Level** 2; **Type** utility (Sp); **Burn** 0
+**Prerequisite(s)** kinetic cover
+
+Whenever you use the kinetic cover wild talent, you can choose to make it into sharding cover. Whenever your sharding cover is broken, all spaces within 5 ft. of it are treated as difficult terrain for 1 minute. If you possess the improved kinetic cover wild talent, any creature that enters an area of difficult terrain made by this effect takes 1 damage for every 2 kineticist levels you possess.
+
+++++ Telekinetic Grasp
+**Element(s)** aether; **Level** 4; **Type** utility (Sp); **Burn** 0
+**Prerequisite(s)** telekinetic haul
+**Saving Throw** Fortitude negates; **Spell Resistance** yes
+
+You can now use your basic telekinesis to lift living creatures with the same limitations for 1 round per kineticist level you possess, although unwilling creatures receive a Fortitude save to avoid being moved in this way. At the beginning of a creature’s round, it can make a Fortitude save to end this effect, taking falling damage as appropriate to its height and falling prone. If you possess the friend throw utility wild talent, you do not need to accept 1 burn to allow your ally to make an attack at the end of their movement. Any creature affected by your telekinetic grasp automatically fails their saving throw against your foe throw or many throw wild talent.
+
+++++ Threaded Armor
+**Element(s)** aether; **Level** 1; **Type** utility (Su); **Burn** —
+
+You are capable of threading the strands of aether into your armor, increasing the ways it can defend you. Any armor or shield you wear gains the ghost touch property. You can accept 1 point of burn to bestow any object you wield, or up to 50 tiny objects or pieces of ammo, to with the ghost touch property until you recover burn.
 
 ++++ Unweave Magic
 **Element(s)** aether; **Type** utility (Su); **Level** 3; **Burn** —
@@ -63,9 +173,56 @@ You know how to pull at the strings of magic to leave them undone, allowing you 
 
 As an immediate action, you can attempt to counterspell any spell being cast within 30 ft of you with your telekinetic blast, although you must identify the spell being cast as normal to do so. This range extends to 90 ft if you possess the extended range form infusion.
 
+++++ Vacuum Rip
+**Element(s)** aether, time, or void; **Level** 4; **Type** utility (Sp); **Burn** 0
+**Prerequisite(s)** dimensional rip or dimensional tear class feature
+**Saving Throw** Reflex negates; **Spell Resistance** no
+
+As a move action, you can cause all creatures within 5 ft. of any of your dimensional tears to be draw into them, exiting through any other tear of your choice. You can accept 1 burn to increase the range of this effect by 10 ft.
+
+++++ Visceral Whip
+**Element(s)** aether and viscera; **Level** 3; **Type** utility (Sp); **Burn** 1
+**Requirement(s)** aetheric tempering, petrified innards
+
+You pull your intestines out through a spatial rip in your body cavity and sheath them in force, using them as a prehensile whip appropriate for your size with no enhancement bonus and with which you are proficient. If you are proficient with whips already, your visceral whip is also treated as having the grappling weapon quality. Your intestines cannot be stolen, sundered, or attacked as a separate creature. This effect lasts for 1 minute per kineticist level or until you end it early as a swift action. If you release your grip on your intestines, this effect ends instantly. As a swift action, you can apply a substance infusion to all attacks made with your visceral whip until the beginning of your next round, increasing the burn cost of an applied substance infusion by 1.
+
+++++ Visceral Whip, Improved
+**Element(s)** aether and viscera; **Level** 5; **Type** utility (Su); **Burn** —
+**Requirement(s)** visceral whip
+
+While visceral whip is active, you gain the benefits of the Whip Mastery, Improved Whip Mastery, and Greater Whip Mastery feats with your visceral whip, increase its base damage die by one step, and can treat it as an additional limb capable of fine manipulation (although it cannot be used to wield weapons, make unarmed strikes, or use kinetic blasts). Substance infusions applied to your visceral whip no longer have their burn cost increased by 1.
+
+++++ Visceral Whip, Greater
+**Element(s)** aether and viscera; Level 7; Type utility (Su); Burn —
+**Requirement(s)** improved visceral whip, force ward, reactive skin
+
+As long as your force ward and reactive skin defense wild talents are active, you can use your visceral whip at will as a swift action for no burn cost, and with no maximum duration. You treat your base attack bonus as equal to your kineticist level when performing attacks and combat maneuvers with your visceral whip, increase its base damage by one additional step, and gain the benefits of the Serpent Lash and Greater Serpent Lash feats. Reduce the burn cost of substance infusioned applied to your visceral whip by 1.
+
 ----
 
 + ##000000|Air##
+
+++++ Aerial Supremacy
+**Element(s)** air; **Level** 2; **Type** utility (Su); **Burn** —
+
+You know how to use flight to your advantage. When you are flying and attacking a non-flying opponent, you gain a +1 bonus to attack and damage rolls against it. While in the air, if you use a charge attack, you may include up to two 90 degree turns in your movement.
+
+++++ Cloud Cover
+**Element(s)** air; **Level** 2; **Type** utility (Sp); **Burn** 0
+
+You can collect air vapor to create a 20 ft. cloud in the air that lasts for 1 minute per kineticist level you possess, obscuring vision as though it was a fog cloud. This cloud must be at least 30 ft. above solid ground and can have a maximum altitude of 10 ft. per kineticist level you possess. The light condition directly below the cloud is reduced by 1 step. You can summon an additional cloud at 5th level, and every 5 levels thereafter (up to 5 at 20th level). If you attempt to summon a cloud beyond this limit, the oldest cloud you had summoned dissipates.
+
+++++ Crushing Atmosphere
+**Element(s)** air or void; **Level** 5; **Type** utility (Sp); **Burn** 0
+**Prerequisite(s)** oppressive atmosphere
+**Saving Throw** Fortitude partial; **Spell Resistance** no
+
+All foes affected by your oppressive atmosphere take 1 bludgeoning damage per 2 kineticist levels you possess whenever they end their round in your aura. Creatures that take damage from this wild talent must make a Fortitude save or be fatigued for 1 round.
+
+++++ Elemental Acceleration
+**Element(s)** air, fire, time, or water; **Level** 1; **Type** utility (Su); **Burn** —
+
+You channel your element to dash along freely. Choose one movement speed granted by your element, or your base land speed. Increase this speed by 10 ft. At 5th level and every 5 levels thereafter, this speed increases by another 10 ft.
 
 ++++ Elemental Eater
 **Element(s)** aether, air, fire, poison, sound, void, or water; **Type** utility (Sp); **Level** 7; **Burn** 1
@@ -86,6 +243,51 @@ As a swift action, you can reduce the temporary hit points gained from this abil
 
 Your body seems to disappear into the wind. This acts as gaseous form, although your fly speed is instead equal to your base land speed.
 
+++++ Flash Step
+**Element(s)** aether, air, or time; **Level** 4; **Type** utility (Sp); **Burn** 0
+
+Through pushing yourself forward with air, aether or even stealing time from the future, as a swift action you can grant yourself an additional move action this round. If you do, you cannot take another swift or immediate action for 4 rounds. You can accept 1 burn to ignore the loss of swift action.
+
+++++ Fog Step
+**Element(s)** air; **Level** 4; **Type** utility (Sp); **Burn** 0
+**Prerequisite(s)** fade into the mist, windsight
+
+You know how to disappear into the mist, allowing you to teleport up to 20 ft. per kineticist level you possess as a move action while you are inside of normal or magical mist or fog as long as you remain inside of it. You can accept 1 point of burn to use this wild talent as a swift action.
+
+++++ Magnetic Pull
+**Element(s)** air or earth; **Level** 2; **Type** utility (Sp); **Burn** 0
+
+As a swift action, you can create a magnetic pull towards yourself that is hard for others to resist. All attacks made with metal weapons within 15 ft. of you take a -2 to their attack roll if they are not attacking you, gaining a +1 on attack rolls against you. This penalty and bonus increases by 1 each for every 3 kineticist levels you possess.
+
+++++ Magnetic Pull, Improved
+**Element(s)** air or earth; **Level** 3; **Type** utility (Sp); **Burn** 0
+**Prerequisite(s)** magnetic pull
+
+When you create a magnetic field, you can choose to increase the area of it by 10 ft. Also as an immediate action, you can redirect any spell or spell-like ability with the [electricity] descriptor to target yourself, taking a -2 on any saving throw the spell may grant.
+
+++++ Oppressive Atmosphere
+**Element(s)** air or void; **Level** 3; **Type** utility (Sp); **Burn** 0
+**Saving Throw** none; **Spell Resistance** no
+
+You radiate a field of incredible pressure around yourself for 1 minute per kineticist level you possess. Opponents within 20 ft. of you have all of their movement speeds reduced by 10 ft. for every 3 kineticist levels you possess and suffer -2 to all Reflex saves made while inside your aura. You can accept 1 point of burn to activate this wild talent as a swift action.
+
+++++ Storm Cloud
+**Element(s)** air; **Level** 3; **Type** utility (Su); **Burn** —
+**Prerequisite(s)** cloud cover
+
+You can use any square in your cloud as the point of origin for your air blast or electric blast. If you use the flurry of blast form infusion with this wild talent, increase the damage of each blast by 1 for every 2 kineticist levels you possess.
+
+++++ Storm Diffuser
+**Element(s)** air; **Level** 3; **Type** utility (Sp); **Burn** 0
+
+Your control of the winds allows you to calm storms. When in severe or weaker winds, you can reduce the intensity of the winds within 100 ft. of you by 2 steps (to a minimum of light). Using this against magical winds requires an opposed caster level check against the effect, treating your kineticist level as your caster level. At 10th level, you can also affect up to a windstorm, at 13th level you can affect a hurricane, and at 16th level you can affect a tornado. You can accept 1 burn to reduce the intensity of winds down to light, regardless of their intensity. You can use this wild talent multiple times upon the same winds, although magical winds are only affected for 1 minute per kineticist level you possess.
+
+++++ Wind Blade
+**Element(s)** air; **Level** 1; **Type** utility (Su); **Burn** —
+**Prerequisite(s)** air blast
+
+As you learn to master the art of air manipulation, you can now choose to deal slashing damage with your air blast or its composite blasts in addition to any other physical damage type dealt, gaining a +1 to attack and damage rolls due to how easily your air blades cut through the air. You can also add bloody infusion to your list of wild talents, being able to apply it to a slashing air blast or its composite blasts. You can choose to gain this wild talent instead of basic aerokinesis.
+
 ++++ Winds of Freedom
 **Element(s)** air; **Type** utility (Sp); **Level** 6; **Burn** 0
 **Prerequisite(s)** fade into the mist
@@ -95,6 +297,17 @@ You are impossible to tether, free as the wind. While you are under the effects 
 ----
 
 + ##000000|Earth##
+
+++++ Armor of Nature
+**Element(s)** earth, water, or wood; **Level** 2; **Type** utility (Sp); **Burn** 0
+
+You can create armor out of wood, ice, stone, or metal to form around yourself. This armor lasts for 24 hours and has an armor bonus of +4, a maximum Dexterity bonus of +4, 20% arcane spell failure, and 0 armor check penalty, being treated as light armor for the purposes of your speed and other considerations. You can accept 1 point of burn to increase this armor bonus by +1 for every 3 kineticist levels you possess. If you possess the paper control and metal-wood wild talents, you can also make this armor from paper.
+
+++++ Distorted Area
+**Element(s)** aether or earth; **Level** 2; **Type** utility (Sp); **Burn** 0
+**Saving Throw** none; **Spell Resistance** no
+
+You are capable of either destroying the ground around you or flooding the area with enough telekinetic energy to make normal movement impossible. You can activate this wild talent as a swift action to make all squares adjacent to you into difficult terrain for 1 minute. While this wild talent is active, you cannot run or charge. A geokineticist can only use this talent while standing on dirt or unworked stone unless they also possess the aether element.
 
 ++++ Earth Rider
 **Element(s)** earth; **Type** utility (Sp); **Level** 3; **Burn** 0
@@ -107,11 +320,71 @@ You create a chunk of earth beneath you large enough to support you as a standar
 
 You can now move your chunk of earth as a move action, allowing you to hover without spending an action.
 
+++++ Elemental Hand
+**Element(s)** earth, light, viscera, water, or wood; **Level** 4; **Type** utility (Sp); **Burn** 0
+**Saving Throw** none; **Spell Resistance** no
+
+You are capable of creating a large hand out of your element treating it as though it was the interposing hand spell. At 10th level you can instead treat this as a forceful hand. You can only have 1 elemental hand active at a time; using it again while another elemental hand is still active will cause the previous one to crumble.
+
+++++ Elemental Hand, Improved
+**Element(s)** earth, light, viscera, water, or wood; **Level** 6, **Type** utility (Sp); **Burn** 0
+**Prerequisite(s)** elemental hand
+**Saving Throw** none; **Spell Resistance** no
+
+You can treat your elemental hand as though it was a grasping hand. At 16th level, you can treat it as though it was a crushing hand.
+
+++++ Elemental Limb
+**Element(s)** earth, light, viscera, water, or wood; **Level** 1; **Type** utility (Sp); **Burn** —
+
+You can augment your limbs with elemental power. If you are missing one or more limbs, you create one or more permanent replacements out of an element; this limb functions in all ways as though it was a natural part of your body, although the limb is still treated as though it is made out of its element for how it is affected by spells and other abilities and lacks tactile sensation. You can accept 1 point of burn to gain a +2 bonus to all Strength checks you make for 24 hours. You can select this talent in place of the basic utility wild talent you would gain for selecting an element.
+
+++++ Elemental Limb, Improved
+**Element(s)** earth, light, viscera, water, or wood; **Level** 2; **Type** utility (Sp); **Burn** 0
+**Prerequisite(s)** elemental limb
+
+You’ve learned to manipulate the shape of your elemental limbs, turning them into deadly weapons. You may shape a single elemental limb into a fanged mouth, blade, or claw, or back into a limb at will; doing so treats the elemental limb as a primary natural weapon which deals 1d8 (1d6 for small, 2d6 for large) bludgeoning, slashing or piercing damage (chosen at the time the limb is shaped) and has has a critical range of 19-20 and critical multiplier of 2x. This natural attack cannot benefit from the improved natural attack feat, and is considered a kinetic blast for the purpose of feats which affect weapons of a specific type (such as weapon focus). If you have two arms from the elemental limb wild talent, you may choose to have these manifest as two natural weapons, as described above. You may only shape one limb per round with this ability, even if you have more than one elemental limb (shaping two arms into 1d4 weapons counts as shaping a single limb for this purpose).
+
+++++ Elemental Limb, Greater
+**Element(s)** earth, light, viscera, water, or wood; **Level** 6; **Type** utility (Sp); **Burn** 1
+**Prerequisite(s)** improved elemental limb
+
+You can create extra elemental limbs in addition to replacements to your natural ones that last for 24 hours. You may choose to gain an additional pair of arms (which cannot wield weapons or shields, or be used to make attacks), a tail (primary attack, 1d8 damage), or a pair of tentacles (secondary attacks, 1d4). You can grasp objects with these additional limbs. In addition, you can apply the effects of improved elemental limb to a non missing limb as well, covering it in elemental material.
+
 ++++ Fist of Granite
 **Element(s)** earth; **Type** utility (Su); **Level** 1; **Burn** —
-**Prerequisite** flesh of stone
+**Prerequisite(s)** flesh of stone
 
 You gain the crushing strength of earth itself. While your flesh of earth is active, you gain a slam attack that deals 1d8 damage (1d6 for small kineticist.) You can accept 1 point of burn to gain a second slam attack until you recover burn. If you possess the jagged flesh wild talent, your slam attack also deals piercing damage.
+
+++++ Joint Lock
+**Element(s)** earth; **Level** 1; **Type** utility (Sp); **Burn** 0
+**Saving Throw** Reflex negates; **Spell Resistance** no
+
+Your knowledge of metals allows you to stiffen the joints of one suit of metal armor within 60 ft., doubling its armor check penalties for 1 minute.
+
+++++ Joint Lock, Improved
+**Element(s)** earth; **Level** 3; **Type** utility (Sp); **Burn** 0
+**Prerequisite(s)** joint lock
+**Saving Throw** Reflex negates; **Spell Resistance** no
+
+You are even more skilled at locking up armor, treating the wearer of any affected suit of armor as though they were not proficient in it.
+
+++++ Kinetic Cover, Improved
+**Element(s)** aether, earth, light, viscera, water, and wood; **Level** 3; **Type** utility (Sp); **Burn** 0
+**Prerequisite(s)** kinetic cover
+
+Your kinetic cover gains hardness 5 as well as 5 additional hit points per kineticist level you possess.
+
+++++ Magnetic Pull
+**Element(s)** air or earth; **Level** 2; **Type** utility (Sp); **Burn** 0
+
+As a swift action, you can create a magnetic pull towards yourself that is hard for others to resist. All attacks made with metal weapons within 15 ft. of you take a -2 to their attack roll if they are not attacking you, gaining a +1 on attack rolls against you. This penalty and bonus increases by 1 each for every 3 kineticist levels you possess.
+
+++++ Magnetic Pull, Improved
+**Element(s)** air or earth; **Level** 3; **Type** utility (Sp); **Burn** 0
+**Prerequisite(s)** magnetic pull
+
+When you create a magnetic field, you can choose to increase the area of it by 10 ft. Also as an immediate action, you can redirect any spell or spell-like ability with the [electricity] descriptor to target yourself, taking a -2 on any saving throw the spell may grant.
 
 ++++ Metal Manipulator
 **Element(s)** earth; **Type** utility (Su); **Level** 5; **Burn** —
@@ -126,9 +399,43 @@ You can treat metal as though it was earth for the purposes of your utility wild
 
 You are capable of creating traps underneath your foes. Treat this as create pit, although you can only use it on surfaces of dirt or unworked stone, and it does not create an extradimensional space. You may end this effect at any time, refilling the pit as it was before this effect. At 9th level you may instead treat this as spiked pit, and at 12th level you may treat this as hungry pit. You may only have 1 pitfall active at a time; using it again while another pitfall is still active will cause the previous one to refill.
 
+++++ Seismic Stomp
+**Element(s)** aether or earth; **Level** 3; **Type** utility (Sp); **Burn** 0
+**Prerequisite(s)** distorted area
+
+Raising up your foot, you can slam it back down onto the ground as a move action to make a trip attempt that does not provoke an attack of opportunity against all squares adjacent to you, substituting your Constitution modifier for your Strength modifier. If you fail this trip attempt, you cannot be tripped in return. You can accept 1 point of burn to use this wild talent as a swift action. A geokineticist can only use this talent while standing on dirt or unworked stone unless they also possess the aether element.
+
+++++ Sharding Cover
+**Element(s)** aether, earth, light, viscera, water, and wood; **Level** 2; **Type** utility (Sp); **Burn** 0
+**Prerequisite(s)** kinetic cover
+
+Whenever you use the kinetic cover wild talent, you can choose to make it into sharding cover. Whenever your sharding cover is broken, all spaces within 5 ft. of it are treated as difficult terrain for 1 minute. If you possess the improved kinetic cover wild talent, any creature that enters an area of difficult terrain made by this effect takes 1 damage for every 2 kineticist levels you possess.
+
+++++ Sinkhole
+**Element(s)** earth; **Level** 4; **Type** utility (Sp); **Burn** 0
+**Saving Throw** Reflex negates; **Spell Resistance** no
+
+You create a 10 foot area of quicksand within 60 ft. of yourself, causing all creatures within it to sink into the sand. Those who fail their Reflex save have their land movement speed reduced to 0 ft. and take bludgeoning damage equal to 1/4th of your earth blast. Each round those inside of the sinkhole must make a Reflex save to exit the sinkhole, moving to the closest possible spot outside of it. If no safe spot exists (such as if it is created inside of a hole), creatures instead do not take damage for that round, and may attempt to climb along any available walls. If a creature fails 2 or more saves in a row, they are also treated as though drowning, and must hold their breath as appropriate. You can only have 1 sinkhole active at a time; using it again while another sinkhole is still active will cause the previous one to refill, expelling anyone inside of it. If you possess the pitfall utility wild talent, you can accept 1 burn to create a sinkhole at the bottom of your pitfall.
+
+++++ Spined Armor
+**Element(s)** earth or wood; **Level** 1; **Type** utility (Sp); **Burn** 0
+
+Your knowledge of natural materials makes it easy for you to manipulate their substance. You can cause any metal, stone, or wooden armor or gauntlets you wear to become covered in spikes as a free action, effectively giving you armor spikes and/or spiked gauntlets. Removing the armor or gauntlets reverts it back to its non-spiked version if it did not possess spikes before you donned it. If you possess the paper control, metal-wood, and natural armor wild talents, you can also affect paper armor with this effect, and if you possess replacement or additional arms through the elemental limb or greater elemental limb wild talents, you can affect those arms as if they were equipped with spiked gauntlets of which are composed of the same substance as their limb.
+
+++++ Spined Armor, Improved
+**Element(s)** earth or wood; **Level** 2; **Type** utility (Su); **Burn** —
+**Prerequisite(s)** spined armor
+
+Increase the damage of armor spikes and spiked gauntlets granted to you through wild talents by 1d6.
+
 ----
 
 + ##000000|Fire##
+
+++++ Elemental Acceleration
+**Element(s)** air, fire, time, or water; **Level** 1; **Type** utility (Su); **Burn** —
+
+You channel your element to dash along freely. Choose one movement speed granted by your element, or your base land speed. Increase this speed by 10 ft. At 5th level and every 5 levels thereafter, this speed increases by another 10 ft.
 
 ++++ Elemental Eater
 **Element(s)** aether, air, fire, poison, sound, void, or water; **Type** utility (Sp); **Level** 7; **Burn** 1
@@ -143,6 +450,33 @@ Whenever you would receive acid, cold, electricity, fire, force, negative, or so
 * **Water:** cold
 
 As a swift action, you can reduce the temporary hit points gained from this ability by 15 to reduce the burn cost of an infusion by 1. Temporary hit points gained from this ability stack with those gained from other wild talents, but cannot be used to lower the cost of an infusion.
+
+++++ Explosive Flame
+**Element(s)** fire; **Level** 2; **Type** utility (Sp); **Burn** 0
+**Saving Throw** Will or Fortitude partial; **Spell Resistance** yes
+
+You know how to use fire to its fullest, even while ending it. You can use pyrotechnics as per the spell. If the source of fire you target is a creature engulfed in flames, they take a -2 to their save against this wild talent.
+
+++++ Flame Conduit
+**Element(s)** fire; **Level** 1; **Type** utility (Su); **Burn** —
+
+You can draw upon the flames around you to empower your blast. You can select any source of fire to be the point of origin for your fire blast or its composites. Both the point of origin and target must be in range of your kinetic blast, and must be no further apart than your kinetic blast’s range. If you choose a creature currently engulfed in flames as your blast’s source, that creature takes an additional 1d6 fire damage and suffers a -2 to all saves against your blast, putting out any fire from which the foe is currently engulfed.
+
+++++ Flame Step
+**Element(s)** fire; **Level** 3; **Type** utility (Su); **Burn** —
+
+You know how to become one with flames. You no longer take damage from natural fires. Once per turn, when you step into a square with fire in it, and can teleport to another square within 30 ft. that also contains flames completely unharmed. You may also use this ability while standing in natural fire as an immediate action.
+
+++++ Ring of Fire
+**Element(s)** fire; **Level** 3; **Type** utility (Sp); **Burn** 0
+**Saving Throw** Reflex half; **Spell Resistance** no
+
+You can create a 30 ft. wide circle of flames that stands up to 20 ft. tall centered around yourself that lasts for 1 round per kineticist level you possess. This fire deals damage equal to ½ your fire blast. You can accept 1 point of burn to allow your flames to burn those who come into contact with your flames, being treated as though affected by the burning infusion wild talent.
+
+++++ Sealing Wound
+**Element(s)** fire; **Level** 1; **Type** utility (Sp); **Burn** 0
+
+As an immediate action, you can deal 1 point of fire damage to yourself to end any bleed effect from which you are currently suffering. This damage cannot be reduced by resistance to fire. As a move action, you can use this wild talent on any ally within 30 ft. You also can treat kinetic healer and wild talents that require it as a prerequisite as though they were on fire’s list of selectable wild talents, but you cannot accept burn to use it unless it is used on yourself. You may select to gain this wild talent in place of basic pyrokinesis.
 
 ----
 
@@ -177,6 +511,55 @@ Increase the cone to 30 feet and the duration of the blindness to 1 minute. You 
 
 By changing how others perceive the light waves bouncing off of you, you are capable of making any disguise as per veil of mist.
 
+++++ Dimensional Traveler
+**Element(s)** aether, light, time, or void; **Level** 6; **Type** utility (Su); **Burn** —
+**Prerequisite(s)** light speed travel, time skip, or the dimensional travel class feature
+
+Your skill at stepping between worlds improves, treating you as though you had the Dimensional Assault and Dimensional Dervish feats, applying them to the prerequisite wild talents or class feature.
+
+++++ Dimensional Traveler, Improved
+**Element(s)** aether, light, time, or void; **Level** 7; **Type** utility (Su); **Burn** —
+**Prerequisite(s)** dimensional traveler
+
+You are treated as though you had the Dimensional Maneuvers and Dimensional Savant feats, applying them to the prerequisite wild talents or class feature.
+
+++++ Elemental Hand
+**Element(s)** earth, light, viscera, water, or wood; **Level** 4; **Type** utility (Sp); **Burn** 0
+**Saving Throw** none; **Spell Resistance** no
+
+You are capable of creating a large hand out of your element treating it as though it was the interposing hand spell. At 10th level you can instead treat this as a forceful hand. You can only have 1 elemental hand active at a time; using it again while another elemental hand is still active will cause the previous one to crumble.
+
+++++ Elemental Hand, Improved
+**Element(s)** earth, light, viscera, water, or wood; **Level** 6, **Type** utility (Sp); **Burn** 0
+**Prerequisite(s)** elemental hand
+**Saving Throw** none; **Spell Resistance** no
+
+You can treat your elemental hand as though it was a grasping hand. At 16th level, you can treat it as though it was a crushing hand.
+
+++++ Elemental Limb
+**Element(s)** earth, light, viscera, water, or wood; **Level** 1; **Type** utility (Sp); **Burn** —
+
+You can augment your limbs with elemental power. If you are missing one or more limbs, you create one or more permanent replacements out of an element; this limb functions in all ways as though it was a natural part of your body, although the limb is still treated as though it is made out of its element for how it is affected by spells and other abilities and lacks tactile sensation. You can accept 1 point of burn to gain a +2 bonus to all Strength checks you make for 24 hours. You can select this talent in place of the basic utility wild talent you would gain for selecting an element.
+
+++++ Elemental Limb, Improved
+**Element(s)** earth, light, viscera, water, or wood; **Level** 2; **Type** utility (Sp); **Burn** 0
+**Prerequisite(s)** elemental limb
+
+You’ve learned to manipulate the shape of your elemental limbs, turning them into deadly weapons. You may shape a single elemental limb into a fanged mouth, blade, or claw, or back into a limb at will; doing so treats the elemental limb as a primary natural weapon which deals 1d8 (1d6 for small, 2d6 for large) bludgeoning, slashing or piercing damage (chosen at the time the limb is shaped) and has has a critical range of 19-20 and critical multiplier of 2x. This natural attack cannot benefit from the improved natural attack feat, and is considered a kinetic blast for the purpose of feats which affect weapons of a specific type (such as weapon focus). If you have two arms from the elemental limb wild talent, you may choose to have these manifest as two natural weapons, as described above. You may only shape one limb per round with this ability, even if you have more than one elemental limb (shaping two arms into 1d4 weapons counts as shaping a single limb for this purpose).
+
+++++ Elemental Limb, Greater
+**Element(s)** earth, light, viscera, water, or wood; **Level** 6; **Type** utility (Sp); **Burn** 1
+**Prerequisite(s)** improved elemental limb
+
+You can create extra elemental limbs in addition to replacements to your natural ones that last for 24 hours. You may choose to gain an additional pair of arms (which cannot wield weapons or shields, or be used to make attacks), a tail (primary attack, 1d8 damage), or a pair of tentacles (secondary attacks, 1d4). You can grasp objects with these additional limbs. In addition, you can apply the effects of improved elemental limb to a non missing limb as well, covering it in elemental material.
+
+++++ Explosive Cover
+**Element(s)** light; **Level** 3; **Type** utility (Sp); **Burn** 0
+**Prerequisite(s)** explosive illusions, kinetic cover
+**Saving Throw** Reflex half; **Spell Resistance** yes
+
+Whenever you choose to make a barrier of hard light with your kinetic cover, you can choose to make it out of unstable light. When your unstable light barrier is broken, all creatures within 5 ft. of it take bludgeoning damage equal to your kineticist level. If you have the improved kinetic cover wild talent, you can choose to expand the radius of the explosion to 10 ft. If you possess the sharding cover wild talent, you can apply it to explosive cover.
+
 ++++ Explosive Illusion
 **Element(s)** light; **Type** utility (Sp); **Level** 3; **Burn** 0
 **Prerequisite(s)** phantom illusion
@@ -201,6 +584,12 @@ Your eyes shine with unparalleled clarity, granting you a +5 on Perception check
 
 All illusions that you create with light wild talents are made of hard light, and are considered solid objects by tremorsense, blindsense, blindsight, and true sight.
 
+++++ Hypnotic Pattern
+**Element(s)** light; **Level** 3; **Type** utility (Sp); **Burn** 0
+**Prerequisite(s)** strobe lights
+
+Any creature fascinated by your strobe lights may also be given one command as a swift action as per the command spell. This command lasts for 1 round per kineticist level you possess.
+
 ++++ Intelligent Illusion
 **Element(s)** light; **Type** utility (Sp); **Level** 5; **Burn** 0
 **Prerequisite(s)** phantom illusion
@@ -208,10 +597,22 @@ All illusions that you create with light wild talents are made of hard light, an
 
 You can now create a more complex illusion. Treat this as persistent image, except the image lacks auditory (unless you have sound as a primary or expanded element), olfactory, or thermal (unless you have fire as a primary or expanded element) components.
 
+++++ Kinetic Cover, Improved
+**Element(s)** aether, earth, light, viscera, water, and wood; **Level** 3; **Type** utility (Sp); **Burn** 0
+**Prerequisite(s)** kinetic cover
+
+Your kinetic cover gains hardness 5 as well as 5 additional hit points per kineticist level you possess.
+
 ++++ Light Speed Travel
 **Element(s)** light; **Type** utility (Sp); **Level** 5; **Burn** 0
 
 You are capable of transforming your body into light for brief moments, allowing you to teleport up to 50 feet plus an additional 5 feet for each kineticist level you possess as a move action. By accepting 1 point of burn, you can use this wild talent as a swift action.
+
+++++ Long Distance Travel
+**Element(s)** aether, light, time, or void; **Level** 6; **Type** utility (Sp); **Burn** 0
+**Prerequisite(s)** light speed travel, time skip, or dimensional travel class feature
+
+You can spend 1 minute to teleport as per the spell, although only you are affected by this talent. You can accept 1 burn to bring along an additional amount of creatures up to your Constitution modifier.
 
 ++++ Optical Camouflage
 **Element(s)** light; **Type** utility (Sp); **Level** 3; **Burn** 0
@@ -236,6 +637,24 @@ Through simple manipulation, you can alter how others see things, creating a //s
 Mastering light itself, you can create a hard light clone of yourself in any square within 60 feet of yourself. This clone lacks all of your gear and has ¼ of your total hit points, but appears identical to you in every way, lasting for 10 minute per kineticist level you possess. You may choose to use its square as the point of origin for any light blast or composite blast that include light, and can control it as though it was a silent image as a swift action. If you do not directly control your clone, it will mimic your actions. If you have the light speed travel wild talent, you may use it to swap places with your clone as a swift action.
 
 When you and your clone are ever further than 60 feet apart or its hit points are reduced to 0, it is destroyed and you take 1 point of burn. You may choose to dismiss your clone as a standard action without taking burn. If you have the greater explosive illusion wild talent, you may apply it to your clone. You can accept 1 point of burn to either increase the distance you and your clone may be apart to 1 mile or double its hit points.
+
+++++ Photographic Transference
+**Element(s)** light; **Level** 2; **Type** utility (Su); **Burn** —
+**Prerequisite(s)** phantom illusion
+
+You can see through your illusions. Whenever you create an illusion, you can choose to transfer your sense of sight to it. This blinds you, but allows you to see through the illusion and make sight-based Perception checks through it.
+
+++++ Sharding Cover
+**Element(s)** aether, earth, light, viscera, water, and wood; **Level** 2; **Type** utility (Sp); **Burn** 0
+**Prerequisite(s)** kinetic cover
+
+Whenever you use the kinetic cover wild talent, you can choose to make it into sharding cover. Whenever your sharding cover is broken, all spaces within 5 ft. of it are treated as difficult terrain for 1 minute. If you possess the improved kinetic cover wild talent, any creature that enters an area of difficult terrain made by this effect takes 1 damage for every 2 kineticist levels you possess.
+
+++++ Strobe Lights
+**Element(s)** light; **Level** 1; **Type** utility (Sp); **Burn** 0
+**Saving Throw** Will negates; **Spell Resistance** no
+
+You can create a field of strobing lights for 1 round per two kineticist levels you possess. Any creature within 10 ft. of you becomes fascinated as long as they are within the effect of your strobing lights.
 
 ++++ Traceless Light
 **Element(s)** light; **Type** utility (Su); **Level** 1; **Burn** —
@@ -470,6 +889,12 @@ Each round on your turn you must take a move action to continue this effect, or 
 
 When using sound blast or composite blast that include sound, increase the DC of all saving throws by 1.
 
+++++ Terrifying Roar
+**Element(s)** sound; **Level** 3; **Type** utility (Sp); **Burn** 0
+**Saving Throw** Will partial; **Spell Resistance** no
+
+You let out a loud roar that frightens all foes within 20 ft. of yourself for 1 round per 2 kineticist levels you possess. Those who save against this effect are instead shaken for 1 round. This effect cannot stack with itself.
+
 ----
 
 + ##000000|Time##
@@ -490,11 +915,63 @@ Your knowledge of time grants you the ability to forestall your own demise. When
 
 You slow the passage of time around your foes, hindering their ability to respond. This works as slow except it last 1 round. You can accept 1 burn to increase the duration to 1 round per kineticist level you possess.
 
+++++ Deceptive Rip
+**Element(s)** aether, time, or void; **Level** 3; **Type** utility (Su); **Burn** —
+**Prerequisite(s)** dimensional rip or dimensional tear class feature
+**Saving Throw** Reflex negates; **Spell Resistance** no
+
+You are capable of laying a tear across a solid surface, disguising it as normal terrain. If a creature steps into your deceptive rip, they are transported to another tear of your choice. Creatures exiting from a deceptive rip may choose which space adjacent to the selected exit tear to occupy. The Perception check to locate this tear is equal to your kineticist level plus 10.
+
+++++ Dimensional Rip
+**Element(s)** aether, time, or void; **Level** 3; **Type** utility (Sp); **Burn** 1
+
+You gain the dimensional tear class feature of the dimensional ripper archetype.
+
+++++ Dimensional Rip, Improved
+**Element(s)** aether, time, or void; **Level** 4; **Type** utility (Sp); **Burn** 0
+**Prerequisite(s)** dimensional rip
+
+You gain the improved tearing class feature of the dimensional ripper archetype, treating your kineticist level as 2 lower for the number of tears you can create.
+
+++++ Dimensional Rip, Greater
+**Element(s)** aether, time, or void; **Level** 6; **Type** utility (Sp); **Burn** 0
+**Prerequisite(s)** improved dimensional rip
+
+You gain the rapid tearing class feature of the dimensional ripper archetype, treating your kineticist level as 1 lower for the number of tears you can create.
+
+++++ Dimensional Traveler
+**Element(s)** aether, light, time, or void; **Level** 6; **Type** utility (Su); **Burn** —
+**Prerequisite(s)** light speed travel, time skip, or the dimensional travel class feature
+
+Your skill at stepping between worlds improves, treating you as though you had the Dimensional Assault and Dimensional Dervish feats, applying them to the prerequisite wild talents or class feature.
+
+++++ Dimensional Traveler, Improved
+**Element(s)** aether, light, time, or void; **Level** 7; **Type** utility (Su); **Burn** —
+**Prerequisite(s)** dimensional traveler
+
+You are treated as though you had the Dimensional Maneuvers and Dimensional Savant feats, applying them to the prerequisite wild talents or class feature.
+
 ++++ Distorted Timeline
 **Element(s)** time; **Type** utility (Sp); **Level** 1; **Burn** 0
 **Saving Throw** none; **Spell Resistance** yes
 
 Your control of time is enough to distort other’s actions. You can select 1 foe within 60 feet of yourself, bestowing a -1 penalty on all ability checks, attack rolls, skill checks, and saving throws they make for 1 round per 2 kineticist levels you possess.
+
+++++ Elemental Acceleration
+**Element(s)** air, fire, time, or water; **Level** 1; **Type** utility (Su); **Burn** —
+
+You channel your element to dash along freely. Choose one movement speed granted by your element, or your base land speed. Increase this speed by 10 ft. At 5th level and every 5 levels thereafter, this speed increases by another 10 ft.
+
+++++ Enlarged Rip
+**Element(s)** aether, time, or void; **Level** 4; **Type** utility (Su); **Burn** —
+**Prerequisite(s)** dimensional rip or dimensional tear class feature
+
+You can stretch dimensions even further to create an enlarged tear. Large tears are 10 ft. tall and wide, and can be traveled through by huge or smaller creatures, being able to exit out of normal sized tears.
+
+++++ Flash Step
+**Element(s)** aether, air, or time; **Level** 4; **Type** utility (Sp); **Burn** 0
+
+Through pushing yourself forward with air, aether or even stealing time from the future, as a swift action you can grant yourself an additional move action this round. If you do, you cannot take another swift or immediate action for 4 rounds. You can accept 1 burn to ignore the loss of swift action.
 
 ++++ Future Glimpse
 **Element(s)** time; **Type** utility (Sp); **Level** 1; **Burn** 1
@@ -513,6 +990,13 @@ Your command over time has reached its zenith. You may use //time stop// as per 
 
 Your control over the timelines of others is strong enough to bring ruin to them. You can select 1 foe within 60 feet of yourself, forcing them to reroll every ability check, attack roll, saving throw, or skill check they make for 1 round, taking the worse result. You can accept 1 point of burn to increase the duration of this effect to 1 round per 5 kineticist levels you possess.
 
+++++ Invasive Rip
+**Element(s)** aether, time, or void; **Level** 2; **Type** utility (Sp); **Burn** 0
+**Requirement(s)** dimensional rip or dimensional rip class feature
+**Saving Throw** Reflex negates; **Spell Resistance** no
+
+Whenever you create a dimensional tear, you can attempt to create it in a square occupied by a creature, forcing them through it and out of a tear of your choice. If the target succeeds at this saving throw, the tear is instead created in an adjacent square to the target of your choice. If you have the mobile tear class feature, you can attempt to move a tear into a creature’s square, although a successful saving throw stops the tear’s movement.
+
 ++++ Kinetic Purification
 **Element(s)** time, viscera or water; **Type** utility (Su); **Level** 8; **Burn** —
 **Prerequisite(s)** kinetic regeneration
@@ -524,6 +1008,12 @@ You can accept 1 additional point of burn while using your kinetic healer talent
 **Prerequisite(s)** kinetic healer or regressive healer
 
 When you use the kinetic healer or regressive healer utility wild talent, it is considered the regeneration spell for what it can heal.
+
+++++ Long Distance Travel
+**Element(s)** aether, light, time, or void; **Level** 6; **Type** utility (Sp); **Burn** 0
+**Prerequisite(s)** light speed travel, time skip, or dimensional travel class feature
+
+You can spend 1 minute to teleport as per the spell, although only you are affected by this talent. You can accept 1 burn to bring along an additional amount of creatures up to your Constitution modifier.
 
 ++++ Mutable Future
 **Element(s)** time; **Type** utility (Su); **Level** 5; **Burn** —
@@ -574,9 +1064,22 @@ You now remove the foe’s ability to use a move action, although the duration i
 **Element(s)** time; **Type** utility (Sp); **Level** 5; **Burn** 0
 You are aware of how to travel along the timestream in short burst, appearing to others as teleporting as per the light speed travel wild talent.
 
+++++ Vacuum Rip
+**Element(s)** aether, time, or void; **Level** 4; **Type** utility (Sp); **Burn** 0
+**Prerequisite(s)** dimensional rip or dimensional tear class feature
+**Saving Throw** Reflex negates; **Spell Resistance** no
+
+As a move action, you can cause all creatures within 5 ft. of any of your dimensional tears to be draw into them, exiting through any other tear of your choice. You can accept 1 burn to increase the range of this effect by 10 ft.
+
 ----
 
 + ##000000|Viscera##
+
+++++ Adaptive Skin
+**Element(s)** viscera; **Level** 3; **Type** utility (Su); **Burn** —
+**Prerequisite(s)** reactive skin
+
+Whenever you would receive damage from an energy type that you are not currently resisting, you may cause your skin to adapt to this new stimulus, changing the type of damage your reactive skin guards against. This wild talent activates after the damage has been dealt, providing no protection against the triggering attack.
 
 ++++ Basic Corpokinesis
 **Element(s)** viscera; **Type** utility (Sp); **Level** 1; **Burn** 0
@@ -612,6 +1115,36 @@ As a full round action, you can make an attack with one of your bone blades. If 
 
 You cover your body in sharp bone spurs that slash at those who attack you. This functions as the jagged flesh wild talent.
 
+++++ Elemental Hand
+**Element(s)** earth, light, viscera, water, or wood; **Level** 4; **Type** utility (Sp); **Burn** 0
+**Saving Throw** none; **Spell Resistance** no
+
+You are capable of creating a large hand out of your element treating it as though it was the interposing hand spell. At 10th level you can instead treat this as a forceful hand. You can only have 1 elemental hand active at a time; using it again while another elemental hand is still active will cause the previous one to crumble.
+
+++++ Elemental Hand, Improved
+**Element(s)** earth, light, viscera, water, or wood; **Level** 6, **Type** utility (Sp); **Burn** 0
+**Prerequisite(s)** elemental hand
+**Saving Throw** none; **Spell Resistance** no
+
+You can treat your elemental hand as though it was a grasping hand. At 16th level, you can treat it as though it was a crushing hand.
+
+++++ Elemental Limb
+**Element(s)** earth, light, viscera, water, or wood; **Level** 1; **Type** utility (Sp); **Burn** —
+
+You can augment your limbs with elemental power. If you are missing one or more limbs, you create one or more permanent replacements out of an element; this limb functions in all ways as though it was a natural part of your body, although the limb is still treated as though it is made out of its element for how it is affected by spells and other abilities and lacks tactile sensation. You can accept 1 point of burn to gain a +2 bonus to all Strength checks you make for 24 hours. You can select this talent in place of the basic utility wild talent you would gain for selecting an element.
+
+++++ Elemental Limb, Improved
+**Element(s)** earth, light, viscera, water, or wood; **Level** 2; **Type** utility (Sp); **Burn** 0
+**Prerequisite(s)** elemental limb
+
+You’ve learned to manipulate the shape of your elemental limbs, turning them into deadly weapons. You may shape a single elemental limb into a fanged mouth, blade, or claw, or back into a limb at will; doing so treats the elemental limb as a primary natural weapon which deals 1d8 (1d6 for small, 2d6 for large) bludgeoning, slashing or piercing damage (chosen at the time the limb is shaped) and has has a critical range of 19-20 and critical multiplier of 2x. This natural attack cannot benefit from the improved natural attack feat, and is considered a kinetic blast for the purpose of feats which affect weapons of a specific type (such as weapon focus). If you have two arms from the elemental limb wild talent, you may choose to have these manifest as two natural weapons, as described above. You may only shape one limb per round with this ability, even if you have more than one elemental limb (shaping two arms into 1d4 weapons counts as shaping a single limb for this purpose).
+
+++++ Elemental Limb, Greater
+**Element(s)** earth, light, viscera, water, or wood; **Level** 6; **Type** utility (Sp); **Burn** 1
+**Prerequisite(s)** improved elemental limb
+
+You can create extra elemental limbs in addition to replacements to your natural ones that last for 24 hours. You may choose to gain an additional pair of arms (which cannot wield weapons or shields, or be used to make attacks), a tail (primary attack, 1d8 damage), or a pair of tentacles (secondary attacks, 1d4). You can grasp objects with these additional limbs. In addition, you can apply the effects of improved elemental limb to a non missing limb as well, covering it in elemental material.
+
 ++++ Emerging Form
 **Element(s)** viscera; **Type** utility (Su); **Level** 1; **Burn** —
 
@@ -644,6 +1177,12 @@ Your abilities take on a far more sinister form, allowing you to shape the flesh
 **Element(s)** viscera; **Type** utility (Su); **Level** 2; **Burn** —
 
 You know the secrets to creating life from your own skin, gaining a tumor familiar as per the alchemist discovery.
+
+++++ Kinetic Cover, Improved
+**Element(s)** aether, earth, light, viscera, water, and wood; **Level** 3; **Type** utility (Sp); **Burn** 0
+**Prerequisite(s)** kinetic cover
+
+Your kinetic cover gains hardness 5 as well as 5 additional hit points per kineticist level you possess.
 
 ++++ Kinetic Purification
 **Element(s)** time, viscera or water; **Type** utility (Su); **Level** 8; **Burn** —
@@ -705,7 +1244,7 @@ You gain one 1 point evolution from the eidolon class feature of the summoner fo
 **Element(s)** viscera; **Type** utility (Su); **Level** 4; **Burn** —
 **Prerequisite(s)** unnatural evolution
 
-You can alter yourself further, gaining either one 2 point evolution or two 1 point evolutions. 
+You can alter yourself further, gaining either one 2 point evolution or two 1 point evolutions.
 
 ++++ Unnatural Evolution, Greater
 **Element(s)** viscera; **Type** utility (Su); **Level** 7; **Burn** —
@@ -737,6 +1276,49 @@ You can modify this wild talent with 1 wild talent that requires atrophy field a
 
 While your atrophy field is active, any foe that dies within 60 feet of you decays instantly, leaving only a skeleton. You can accept 1 burn as an immediate action to raise a dead foe as a zombie under your control instead of decaying them or reduce them to ash instantly as though targeted by a disintegrate spell. You can control up to 2 hit dice of undead for each kineticist level you possess.
 
+++++ Crushing Atmosphere
+**Element(s)** air or void; **Level** 5; **Type** utility (Sp); **Burn** 0
+**Prerequisite(s)** oppressive atmosphere
+**Saving Throw** Fortitude partial; **Spell Resistance** no
+
+All foes affected by your oppressive atmosphere take 1 bludgeoning damage per 2 kineticist levels you possess whenever they end their round in your aura. Creatures that take damage from this wild talent must make a Fortitude save or be fatigued for 1 round.
+
+++++ Deceptive Rip
+**Element(s)** aether, time, or void; **Level** 3; **Type** utility (Su); **Burn** —
+**Prerequisite(s)** dimensional rip or dimensional tear class feature
+**Saving Throw** Reflex negates; **Spell Resistance** no
+
+You are capable of laying a tear across a solid surface, disguising it as normal terrain. If a creature steps into your deceptive rip, they are transported to another tear of your choice. Creatures exiting from a deceptive rip may choose which space adjacent to the selected exit tear to occupy. The Perception check to locate this tear is equal to your kineticist level plus 10.
+
+++++ Dimensional Rip
+**Element(s)** aether, time, or void; **Level** 3; **Type** utility (Sp); **Burn** 1
+
+You gain the dimensional tear class feature of the dimensional ripper archetype.
+
+++++ Dimensional Rip, Improved
+**Element(s)** aether, time, or void; **Level** 4; **Type** utility (Sp); **Burn** 0
+**Prerequisite(s)** dimensional rip
+
+You gain the improved tearing class feature of the dimensional ripper archetype, treating your kineticist level as 2 lower for the number of tears you can create.
+
+++++ Dimensional Rip, Greater
+**Element(s)** aether, time, or void; **Level** 6; **Type** utility (Sp); **Burn** 0
+**Prerequisite(s)** improved dimensional rip
+
+You gain the rapid tearing class feature of the dimensional ripper archetype, treating your kineticist level as 1 lower for the number of tears you can create.
+
+++++ Dimensional Traveler
+**Element(s)** aether, light, time, or void; **Level** 6; **Type** utility (Su); **Burn** —
+**Prerequisite(s)** light speed travel, time skip, or the dimensional travel class feature
+
+Your skill at stepping between worlds improves, treating you as though you had the Dimensional Assault and Dimensional Dervish feats, applying them to the prerequisite wild talents or class feature.
+
+++++ Dimensional Traveler, Improved
+**Element(s)** aether, light, time, or void; **Level** 7; **Type** utility (Su); **Burn** —
+**Prerequisite(s)** dimensional traveler
+
+You are treated as though you had the Dimensional Maneuvers and Dimensional Savant feats, applying them to the prerequisite wild talents or class feature.
+
 ++++ Divine Interference
 **Element(s)** void; **Type** utility (Sp); **Level** 5; **Burn** 0
 **Prerequisite(s)** atrophy field
@@ -758,11 +1340,36 @@ Whenever you would receive acid, cold, electricity, fire, force, negative, or so
 
 As a swift action, you can reduce the temporary hit points gained from this ability by 15 to reduce the burn cost of an infusion by 1. Temporary hit points gained from this ability stack with those gained from other wild talents, but cannot be used to lower the cost of an infusion.
 
+++++ Enlarged Rip
+**Element(s)** aether, time, or void; **Level** 4; **Type** utility (Su); **Burn** —
+**Prerequisite(s)** dimensional rip or dimensional tear class feature
+
+You can stretch dimensions even further to create an enlarged tear. Large tears are 10 ft. tall and wide, and can be traveled through by huge or smaller creatures, being able to exit out of normal sized tears.
+
 ++++ Grasp of the Void
 **Element(s)** void; **Type** utility (Sp); **Level** 5; **Burn** 0
 **Saving Throw** none; **Spell Resistance** no
 
-You know the secrets to summon forth a fragment of the void as per black tentacles. You can accept 1 point of burn to treat the area of this effect as though under the effects of a darkness spell. You may only have 1 grasp of the void active at a time; using it again while another grasp of the void is still active will cause the previous one to disappear.
+You know the secrets to summon forth a fragment of the void as per the spell black tentacles. You can accept 1 point of burn to treat the area of this effect as though under the effects of a darkness spell. You may only have 1 grasp of the void active at a time; using it again while another grasp of the void is still active will cause the previous one to disappear.
+
+++++ Invasive Rip
+**Element(s)** aether, time, or void; **Level** 2; **Type** utility (Sp); **Burn** 0
+**Requirement(s)** dimensional rip or dimensional rip class feature
+**Saving Throw** Reflex negates; **Spell Resistance** no
+
+Whenever you create a dimensional tear, you can attempt to create it in a square occupied by a creature, forcing them through it and out of a tear of your choice. If the target succeeds at this saving throw, the tear is instead created in an adjacent square to the target of your choice. If you have the mobile tear class feature, you can attempt to move a tear into a creature’s square, although a successful saving throw stops the tear’s movement.
+
+++++ Long Distance Travel
+**Element(s)** aether, light, time, or void; **Level** 6; **Type** utility (Sp); **Burn** 0
+**Prerequisite(s)** light speed travel, time skip, or dimensional travel class feature
+
+You can spend 1 minute to teleport as per the spell, although only you are affected by this talent. You can accept 1 burn to bring along an additional amount of creatures up to your Constitution modifier.
+
+++++ Oppressive Atmosphere
+**Element(s)** air or void; **Level** 3; **Type** utility (Sp); **Burn** 0
+**Saving Throw** none; **Spell Resistance** no
+
+You radiate a field of incredible pressure around yourself for 1 minute per kineticist level you possess. Opponents within 20 ft. of you have all of their movement speeds reduced by 10 ft. for every 3 kineticist levels you possess and suffer -2 to all Reflex saves made while inside your aura. You can accept 1 point of burn to activate this wild talent as a swift action.
 
 ++++ Plains of Weeping Wounds
 **Element(s)** void; **Type** utility (Sp); **Level** 2; **Burn** 0
@@ -771,11 +1378,35 @@ You know the secrets to summon forth a fragment of the void as per black tentacl
 
 While your atrophy field is active, all creatures suffering bleed damage take 1 additional bleed damage for every 3 kineticist levels you possess and require magical healing to end the bleed. This effect only applies to hit point damage caused by bleed.
 
+++++ Sharding Cover
+**Element(s)** aether, earth, light, viscera, water, and wood; **Level** 2; **Type** utility (Sp); **Burn** 0
+**Prerequisite(s)** kinetic cover
+
+Whenever you use the kinetic cover wild talent, you can choose to make it into sharding cover. Whenever your sharding cover is broken, all spaces within 5 ft. of it are treated as difficult terrain for 1 minute. If you possess the improved kinetic cover wild talent, any creature that enters an area of difficult terrain made by this effect takes 1 damage for every 2 kineticist levels you possess.
+
 ++++ Shroud of Shadows
 **Element(s)** void; **Type** utility (Sp); **Level** 3; **Burn** 0
 **Prerequisite(s)** emptiness
 
 Your darkness is far more powerful than others. While your emptiness wild talent is active, you are treated as though your square is under the effects of a darkness spell. You can accept 1 point of burn to increase the radius of this effect by 5 feet.
+
+++++ Shroud of Shadows, Improved
+**Element(s)** void; **Level** 5; **Type** utility (Sp); **Burn** 0
+**Prerequisite(s)** shroud of shadows
+
+Your darkness grows even stronger, increasing the radius of darkness to 15 ft. You can accept 1 point of burn to reduce the movement speed of all creatures inside of this darkness by 10 ft.
+
+++++ Sustained Form
+**Element(s)** void; **Level** 1; **Type** utility (Su); **Burn** —
+
+You do not need to eat or drink to survive. 
+
+++++ Vacuum Rip
+**Element(s)** aether, time, or void; **Level** 4; **Type** utility (Sp); **Burn** 0
+**Prerequisite(s)** dimensional rip or dimensional tear class feature
+**Saving Throw** Reflex negates; **Spell Resistance** no
+
+As a move action, you can cause all creatures within 5 ft. of any of your dimensional tears to be draw into them, exiting through any other tear of your choice. You can accept 1 burn to increase the range of this effect by 10 ft.
 
 ++++ Vampiric Grasp
 **Element(s)** void; **Type** utility (Sp); **Level** 4; **Burn** 1
@@ -783,6 +1414,29 @@ Your darkness is far more powerful than others. While your emptiness wild talent
 **Saving Throw** no; **Spell Resistance** no
 
 While your atrophy field is active, whenever a conjuration (healing) spell or spell-like ability is used within 60 feet of you, you can make an opposed caster level check as an immediate action against the caster of the spell. If you succeed, you become the new target of the spell regardless of if you are within the spell’s normal range, ignoring atrophy field’s reduction to its caster level.
+
+++++ Visceral Whip
+**Element(s)** aether and viscera; **Level** 3; **Type** utility (Sp); **Burn** 1
+**Requirement(s)** aetheric tempering, petrified innards
+
+You pull your intestines out through a spatial rip in your body cavity and sheath them in force, using them as a prehensile whip appropriate for your size with no enhancement bonus and with which you are proficient. If you are proficient with whips already, your visceral whip is also treated as having the grappling weapon quality. Your intestines cannot be stolen, sundered, or attacked as a separate creature. This effect lasts for 1 minute per kineticist level or until you end it early as a swift action. If you release your grip on your intestines, this effect ends instantly. As a swift action, you can apply a substance infusion to all attacks made with your visceral whip until the beginning of your next round, increasing the burn cost of an applied substance infusion by 1.
+
+++++ Visceral Whip, Improved
+**Element(s)** aether and viscera; **Level** 5; **Type** utility (Su); **Burn** —
+**Requirement(s)** visceral whip
+
+While visceral whip is active, you gain the benefits of the Whip Mastery, Improved Whip Mastery, and Greater Whip Mastery feats with your visceral whip, increase its base damage die by one step, and can treat it as an additional limb capable of fine manipulation (although it cannot be used to wield weapons, make unarmed strikes, or use kinetic blasts). Substance infusions applied to your visceral whip no longer have their burn cost increased by 1.
+
+++++ Visceral Whip, Greater
+**Element(s)** aether and viscera; Level 7; Type utility (Su); Burn —
+**Requirement(s)** improved visceral whip, force ward, reactive skin
+
+As long as your force ward and reactive skin defense wild talents are active, you can use your visceral whip at will as a swift action for no burn cost, and with no maximum duration. You treat your base attack bonus as equal to your kineticist level when performing attacks and combat maneuvers with your visceral whip, increase its base damage by one additional step, and gain the benefits of the Serpent Lash and Greater Serpent Lash feats. Reduce the burn cost of substance infusioned applied to your visceral whip by 1.
+
+++++ Void Resonance
+**Element(s)** void; **Level** 1; **Type** utility (Su); **Burn** —
+
+You are in tune with the darker energies of the universe, allowing you to be healed by negative energy if you are normally hurt by it.
 
 ++++ Zone of Decay
 **Element(s)** void; **Type** utility (Sp); **Level** 3; **Burn** 0
@@ -795,10 +1449,26 @@ While your atrophy field is active, all creatures within 60 feet of you cannot b
 
 + ##000000|Water##
 
+++++ Aqua Bubble
+**Element(s)** water; **Level** 3; **Type** utility (Sp); **Burn** 0
+**Prerequisite(s)** aquatic adaptation
+
+You know how to take the sea with you. You can create a bubble of water around yourself which last for 1 minute per kineticist level you possess. While in this bubble, you can use your swim speed while on land, and all creatures inside of your aqua bubble must hold their breath or begin to drown. You can accept 1 point of burn to increase the area of this bubble by 5 ft.
+
 ++++ Aquatic Adaptation
 **Element(s)** water; **Type** utility (Su); **Level** 2; **Burn** —
 
 You are adept at swimming and moving underwater, gaining a +4 bonus to Swim checks and can breathe underwater.
+
+++++ Armor of Nature
+**Element(s)** earth, water, or wood; **Level** 2; **Type** utility (Sp); **Burn** 0
+
+You can create armor out of wood, ice, stone, or metal to form around yourself. This armor lasts for 24 hours and has an armor bonus of +4, a maximum Dexterity bonus of +4, 20% arcane spell failure, and 0 armor check penalty, being treated as light armor for the purposes of your speed and other considerations. You can accept 1 point of burn to increase this armor bonus by +1 for every 3 kineticist levels you possess. If you possess the paper control and metal-wood wild talents, you can also make this armor from paper.
+
+++++ Elemental Acceleration
+**Element(s)** air, fire, time, or water; **Level** 1; **Type** utility (Su); **Burn** —
+
+You channel your element to dash along freely. Choose one movement speed granted by your element, or your base land speed. Increase this speed by 10 ft. At 5th level and every 5 levels thereafter, this speed increases by another 10 ft.
 
 ++++ Elemental Eater
 **Element(s)** aether, air, fire, poison, sound, void, or water; **Type** utility (Sp); **Level** 7; **Burn** 1
@@ -814,6 +1484,55 @@ Whenever you would receive acid, cold, electricity, fire, force, negative, or so
 
 As a swift action, you can reduce the temporary hit points gained from this ability by 15 to reduce the burn cost of an infusion by 1. Temporary hit points gained from this ability stack with those gained from other wild talents, but cannot be used to lower the cost of an infusion.
 
+++++ Elemental Hand
+**Element(s)** earth, light, viscera, water, or wood; **Level** 4; **Type** utility (Sp); **Burn** 0
+**Saving Throw** none; **Spell Resistance** no
+
+You are capable of creating a large hand out of your element treating it as though it was the interposing hand spell. At 10th level you can instead treat this as a forceful hand. You can only have 1 elemental hand active at a time; using it again while another elemental hand is still active will cause the previous one to crumble.
+
+++++ Elemental Hand, Improved
+**Element(s)** earth, light, viscera, water, or wood; **Level** 6, **Type** utility (Sp); **Burn** 0
+**Prerequisite(s)** elemental hand
+**Saving Throw** none; **Spell Resistance** no
+
+You can treat your elemental hand as though it was a grasping hand. At 16th level, you can treat it as though it was a crushing hand.
+
+++++ Elemental Limb
+**Element(s)** earth, light, viscera, water, or wood; **Level** 1; **Type** utility (Sp); **Burn** —
+
+You can augment your limbs with elemental power. If you are missing one or more limbs, you create one or more permanent replacements out of an element; this limb functions in all ways as though it was a natural part of your body, although the limb is still treated as though it is made out of its element for how it is affected by spells and other abilities and lacks tactile sensation. You can accept 1 point of burn to gain a +2 bonus to all Strength checks you make for 24 hours. You can select this talent in place of the basic utility wild talent you would gain for selecting an element.
+
+++++ Elemental Limb, Improved
+**Element(s)** earth, light, viscera, water, or wood; **Level** 2; **Type** utility (Sp); **Burn** 0
+**Prerequisite(s)** elemental limb
+
+You’ve learned to manipulate the shape of your elemental limbs, turning them into deadly weapons. You may shape a single elemental limb into a fanged mouth, blade, or claw, or back into a limb at will; doing so treats the elemental limb as a primary natural weapon which deals 1d8 (1d6 for small, 2d6 for large) bludgeoning, slashing or piercing damage (chosen at the time the limb is shaped) and has has a critical range of 19-20 and critical multiplier of 2x. This natural attack cannot benefit from the improved natural attack feat, and is considered a kinetic blast for the purpose of feats which affect weapons of a specific type (such as weapon focus). If you have two arms from the elemental limb wild talent, you may choose to have these manifest as two natural weapons, as described above. You may only shape one limb per round with this ability, even if you have more than one elemental limb (shaping two arms into 1d4 weapons counts as shaping a single limb for this purpose).
+
+++++ Elemental Limb, Greater
+**Element(s)** earth, light, viscera, water, or wood; **Level** 6; **Type** utility (Sp); **Burn** 1
+**Prerequisite(s)** improved elemental limb
+
+You can create extra elemental limbs in addition to replacements to your natural ones that last for 24 hours. You may choose to gain an additional pair of arms (which cannot wield weapons or shields, or be used to make attacks), a tail (primary attack, 1d8 damage), or a pair of tentacles (secondary attacks, 1d4). You can grasp objects with these additional limbs. In addition, you can apply the effects of improved elemental limb to a non missing limb as well, covering it in elemental material.
+
+++++ Frigid Terrain
+**Element(s)** water; **Level** 3; **Type** utility (Sp); **Burn** 0
+**Prerequisite(s)** cold adaptation
+**Saving Throw** none; **Spell Resistance** no
+
+With but a thought, you can manipulate your environment into a chilly wasteland. As a move action, you radiate an aura of cold for 1 minute per 2 kineticist levels you possess. While your aura is active, all squares within 10 ft. of you are treated as icy terrain. You are not hindered by this wild talent, instead increasing your base land speed in areas of icy terrain by 10 ft.
+
+++++ Hydro Cutter
+**Element(s)** water; **Level** 1; **Type** utility (Su); **Burn** —
+**Prerequisite(s)** water blast
+
+As you learn to master the art of water manipulation, you can now choose to deal piercing damage with your water blast or its composite blasts in addition to any other physical damage type dealt, gaining a +1 to attack and damage rolls due to how easily your water blades pierces the air. You can also add bloody infusion to your list of wild talents, and are able to apply it to a piercing water blast or its composite blasts. You can choose to gain this wild talent instead of basic hydrokinesis.
+
+++++ Kinetic Cover, Improved
+**Element(s)** aether, earth, light, viscera, water, and wood; **Level** 3; **Type** utility (Sp); **Burn** 0
+**Prerequisite(s)** kinetic cover
+
+Your kinetic cover gains hardness 5 as well as 5 additional hit points per kineticist level you possess.
+
 ++++ Kinetic Purification
 **Element(s)** time, viscera or water; **Type** utility (Su); **Level** 8; **Burn** —
 **Prerequisite(s)** kinetic regeneration
@@ -826,6 +1545,17 @@ You can accept 1 additional point of burn while using your kinetic healer talent
 
 When you use the kinetic healer or regressive healer utility wild talent, it is considered the regeneration spell for what it can heal.
 
+++++ Liquid Body
+**Element(s)** water; **Level** 4; **Type** utility (Sp); **Burn** 0
+
+Your body can become one with water. You can use fluid form as per the spell, although the duration is changed to 1 round per kineticist level you possess. You can accept 1 burn to increase the duration to 10 minutes per kineticist level you possess.
+
+++++ Sharding Cover
+**Element(s)** aether, earth, light, viscera, water, and wood; **Level** 2; **Type** utility (Sp); **Burn** 0
+**Prerequisite(s)** kinetic cover
+
+Whenever you use the kinetic cover wild talent, you can choose to make it into sharding cover. Whenever your sharding cover is broken, all spaces within 5 ft. of it are treated as difficult terrain for 1 minute. If you possess the improved kinetic cover wild talent, any creature that enters an area of difficult terrain made by this effect takes 1 damage for every 2 kineticist levels you possess.
+
 ----
 
 + ##000000|Wood##
@@ -835,11 +1565,79 @@ When you use the kinetic healer or regressive healer utility wild talent, it is 
 
 You know how to travel through the trees as though you were one with them, as though using tree stride. You can accept 1 point of burn to treat any tree as oak, ash, or yew for the purpose of the distance you may travel.
 
+++++ Armor of Nature
+**Element(s)** earth, water, or wood; **Level** 2; **Type** utility (Sp); **Burn** 0
+
+You can create armor out of wood, ice, stone, or metal to form around yourself. This armor lasts for 24 hours and has an armor bonus of +4, a maximum Dexterity bonus of +4, 20% arcane spell failure, and 0 armor check penalty, being treated as light armor for the purposes of your speed and other considerations. You can accept 1 point of burn to increase this armor bonus by +1 for every 3 kineticist levels you possess. If you possess the paper control and metal-wood wild talents, you can also make this armor from paper.
+
+++++ Elemental Hand
+**Element(s)** earth, light, viscera, water, or wood; **Level** 4; **Type** utility (Sp); **Burn** 0
+**Saving Throw** none; **Spell Resistance** no
+
+You are capable of creating a large hand out of your element treating it as though it was the interposing hand spell. At 10th level you can instead treat this as a forceful hand. You can only have 1 elemental hand active at a time; using it again while another elemental hand is still active will cause the previous one to crumble.
+
+++++ Elemental Hand, Improved
+**Element(s)** earth, light, viscera, water, or wood; **Level** 6, **Type** utility (Sp); **Burn** 0
+**Prerequisite(s)** elemental hand
+**Saving Throw** none; **Spell Resistance** no
+
+You can treat your elemental hand as though it was a grasping hand. At 16th level, you can treat it as though it was a crushing hand.
+
+++++ Elemental Limb
+**Element(s)** earth, light, viscera, water, or wood; **Level** 1; **Type** utility (Sp); **Burn** —
+
+You can augment your limbs with elemental power. If you are missing one or more limbs, you create one or more permanent replacements out of an element; this limb functions in all ways as though it was a natural part of your body, although the limb is still treated as though it is made out of its element for how it is affected by spells and other abilities and lacks tactile sensation. You can accept 1 point of burn to gain a +2 bonus to all Strength checks you make for 24 hours. You can select this talent in place of the basic utility wild talent you would gain for selecting an element.
+
+++++ Elemental Limb, Improved
+**Element(s)** earth, light, viscera, water, or wood; **Level** 2; **Type** utility (Sp); **Burn** 0
+**Prerequisite(s)** elemental limb
+
+You’ve learned to manipulate the shape of your elemental limbs, turning them into deadly weapons. You may shape a single elemental limb into a fanged mouth, blade, or claw, or back into a limb at will; doing so treats the elemental limb as a primary natural weapon which deals 1d8 (1d6 for small, 2d6 for large) bludgeoning, slashing or piercing damage (chosen at the time the limb is shaped) and has has a critical range of 19-20 and critical multiplier of 2x. This natural attack cannot benefit from the improved natural attack feat, and is considered a kinetic blast for the purpose of feats which affect weapons of a specific type (such as weapon focus). If you have two arms from the elemental limb wild talent, you may choose to have these manifest as two natural weapons, as described above. You may only shape one limb per round with this ability, even if you have more than one elemental limb (shaping two arms into 1d4 weapons counts as shaping a single limb for this purpose).
+
+++++ Elemental Limb, Greater
+**Element(s)** earth, light, viscera, water, or wood; **Level** 6; **Type** utility (Sp); **Burn** 1
+**Prerequisite(s)** improved elemental limb
+
+You can create extra elemental limbs in addition to replacements to your natural ones that last for 24 hours. You may choose to gain an additional pair of arms (which cannot wield weapons or shields, or be used to make attacks), a tail (primary attack, 1d8 damage), or a pair of tentacles (secondary attacks, 1d4). You can grasp objects with these additional limbs. In addition, you can apply the effects of improved elemental limb to a non missing limb as well, covering it in elemental material.
+
 ++++ Fist of Oak
 **Element(s)** wood; **Type** utility (Su); **Level** 1; **Burn** —
-**Prerequisite** flesh of wood
+**Prerequisite(s)** flesh of wood
 
-Your hands are as tough as a mighty redwood. While your flesh of wood is active, you gain a slam attack as per Fist of Granite. If you also posses the Thorn Body wild talent, this slam attack also deals piercing damage.
+Your hands are as tough as a mighty redwood. While your flesh of wood is active, you gain a slam attack as per fist of granite. If you also possess the thorn body wild talent, this slam attack also deals piercing damage.
+
+++++ Kinetic Cover, Improved
+**Element(s)** aether, earth, light, viscera, water, and wood; **Level** 3; **Type** utility (Sp); **Burn** 0
+**Prerequisite(s)** kinetic cover
+
+Your kinetic cover gains hardness 5 as well as 5 additional hit points per kineticist level you possess.
+
+++++ Metal-Wood
+**Element(s)** wood; **Level** 1; **Type** utility (Sp); **Burn** 0
+
+You know how to create the most powerful of lumber, being able to alter wood as per the ironwood spell for 24 hours. You can accept 1 burn to instead make this effect permanent. If you possess the paper control wild talent, you can also apply this effect to paper.
+
+++++ Paper Control
+**Element(s)** wood; **Level** 1; **Type** utility (Su); **Burn** —
+
+You are adept at controlling paper as well as wood. You can manipulate paper freely, being able to control it as though using the basic telekinesis wild talent. Whenever you use your wood blast, you can instead create paper, gaining a +1 to attack rolls with it. You can choose to gain this wild talent instead of basic phytokinesis.
+
+++++ Sharding Cover
+**Element(s)** aether, earth, light, viscera, water, and wood; **Level** 2; **Type** utility (Sp); **Burn** 0
+**Prerequisite(s)** kinetic cover
+
+Whenever you use the kinetic cover wild talent, you can choose to make it into sharding cover. Whenever your sharding cover is broken, all spaces within 5 ft. of it are treated as difficult terrain for 1 minute. If you possess the improved kinetic cover wild talent, any creature that enters an area of difficult terrain made by this effect takes 1 damage for every 2 kineticist levels you possess.
+
+++++ Spined Armor
+**Element(s)** earth or wood; **Level** 1; **Type** utility (Sp); **Burn** 0
+
+Your knowledge of natural materials makes it easy for you to manipulate their substance. You can cause any metal, stone, or wooden armor or gauntlets you wear to become covered in spikes as a free action, effectively giving you armor spikes and/or spiked gauntlets. Removing the armor or gauntlets reverts it back to its non-spiked version if it did not possess spikes before you donned it. If you possess the paper control, metal-wood, and natural armor wild talents, you can also affect paper armor with this effect, and if you possess replacement or additional arms through the elemental limb or greater elemental limb wild talents, you can affect those arms as if they were equipped with spiked gauntlets of which are composed of the same substance as their limb.
+
+++++ Spined Armor, Improved
+**Element(s)** earth or wood; **Level** 2; **Type** utility (Su); **Burn** —
+**Prerequisite(s)** spined armor
+
+Increase the damage of armor spikes and spiked gauntlets granted to you through wild talents by 1d6.
 
 ++++ Thorn Wall
 **Element(s)** wood; **Type** utility (Sp); **Level** 5; **Burn** 0
@@ -848,10 +1646,10 @@ You create a wall of thorns as per the spell. If you have nightshade blast, crea
 
 ++++ Toxic Barbs
 **Element(s)** wood; **Type** utility (Su); **Level** 4; **Burn** —
+**Prerequisite(s)** thorn body
 **Saving Throw** Fortitude negates
-**Prerequisite** thorn body
 
-Your thorns secrete a naturally poisonous liquid. All foes who take damage from your thorn body or slam attack granted by your fist of oak are sickened for a number of rounds equal to your Constitution modifier (minimum 1.) This is a poison effect.
+Your thorns secrete a naturally poisonous liquid. All foes who take damage from your thorn body or slam attack granted by your fist of oak are sickened for 1 round. This is a poison effect.
 
 ++++ Wood Prison
 **Element(s)** wood; **Type** utility(Sp); **Level** 4; **Burn** 0
