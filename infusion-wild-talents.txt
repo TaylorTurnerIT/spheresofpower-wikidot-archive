@@ -21,6 +21,22 @@ Your blasts are more dedicated than most. Select one component of your alignment
 
 You know how to add a bit of fear to your blast. Whenever a creature is dealt damage by this blast, you can attempt an Intimidate check (to demoralize) against them. You can increase the burn of this infusion by 1 to increase the duration of the demoralization by 2 rounds.
 
+++++ Flurry of Blasts, Improved
+**Element(s)** universal; **Type** form infusion; **Level** 5; **Burn** 4
+**Prerequisite(s)** flurry of blasts
+**Associate blasts** any
+**Saving Throw** none
+
+This infusion functions as flurry of blasts, except it doubles the number of attacks you make with that infusion and targets don’t take a penalty against substance infusions for being hit multiple times by this blast. For every three times you hit the same creature with this blast, they must attempt an additional save against any substance infusion applied to it or suffer its effects again.
+
+++++ Flurry of Blasts, Greater
+**Element(s)** universal; **Type** form infusion; **Level** 8; **Burn** 4
+**Prerequisite(s)** improved flurry of blasts
+**Associate blasts** any
+**Saving Throw** none
+
+This infusion functions as improved flurry of blasts, except it triples the number of attacks that flurry of blasts would normally allow.
+
 ++++ Follow-Up Shot
 **Element(s)** universal; **Type** form infusion; **Level** 3; **Burn** 2
 **Associated Blast** any
@@ -35,12 +51,12 @@ You know how to add a little extra kick to your blast. You may make a second att
 
 You can reach into different planes of existence with your blast. This infused blast deals full damage to incorporeal targets. This infusion does not count against the normal limit of 1 substance infusion per blast.
 
-++++ Kinetic Bomb
+++++ Kinetic Bomb 
 **Element(s)** universal; **Type** form infusion; **Level** 1; **Burn** 1
-**Associated Blasts** any
+**Associated blasts** any
 **Saving Throw** Reflex half (see text)
 
-Your blast has far more power packed behind it. Whenever an infused blast hits a foe and deals damage to them, it is treated as though it is a splash weapon, dealing splash damage to all adjacent squares (reflex save for half damage). This infusion is treated as an alchemist’s bomb for the purposes of which feats may be applied to it. Splash damage from this infusion is always equal to the blast’s minimum damage.
+Your blast has far more power packed behind it. Whenever an infused blast hits a foe and deals damage to them, it is treated as though it is a splash weapon, dealing splash damage to all adjacent squares (Reflex save for half damage). This infusion is treated as an alchemist’s bomb for the purposes of which feats may be applied to it. Splash damage from this infusion is always equal to the blast’s minimum damage.
 
 ++++ Kinetic Bomb, Improved
 **Element(s)** universal; **Type** form infusion; **Level** 3; **Burn** 2
@@ -67,20 +83,37 @@ You can easily avoid obstacles that hinder the path of your blast. This infused 
 ++++ Vital Blade
 **Element(s)** universal; **Type** form infusion; **Level** 4; **Burn** 3
 **Prerequisite(s)** kinetic blade
-**Associated Blasts** any
+**Associated blasts** any
+**Saving Throw** none
 
 This infusion functions as kinetic blade, except it can be used with Vital Strike and Improved Vital Strike even when used as part of a charge attack. If you have the kinetic whip infusion wild talent, you can instead have this infusion function as kinetic whip, although it does not benefit from these feats on attacks of opportunity.
+
+++++ Vital Mobility
+**Element(s)** universal; **Type** form infusion; **Level** 5; **Burn** 4
+**Prerequisite(s)** vital blade
+**Associated blasts** any
+**Saving Throw** none
+
+This infusion works as vital blade. You are treated as though you possessed the Spring Attack feat, allowing you to use it with the vital blade wild talent.
 
 ----
 
 + ##000000|Aether##
 
 ++++ Bloody Infusion
-**Element(s)** aether, air, earth, water, viscera, or wood; **Type** substance infusion; **Level** 1; **Burn** 1
-**Associated Blasts** autumn, bioelectric, bioluminescent, blizzard, bone, charnel, chilled bone, crystal, earth, fossilized, great oak, gore, haunted, ice, injecting, metal, sandstorm, shatterstorm, spring, summer, telekinetic, tundra, venus, warped bone, winter, wood
+**Element(s)** aether, air, earth, viscera, water, or wood; **Type** substance infusion; **Level** 1; **Burn** 1
+**Associated blasts** autumn, bioelectric, bioluminescent, blizzard, blood, bloody murder, bone, charnel, chilled bone, crystal, earth, fossilized, great oak, gore, haunted, ice, injecting, metal, meteor, ravaging nature, sandstorm, shatterstorm, spring, subzero, summer, telekinetic, tundra, venus, warped bone, water, winter, wood
 **Saving Throw** Reflex negates
 
-Your blasts have an especially sharp edge to them. Whenever an infused blast hits a foe and deals either piercing or slashing damage, that foe also takes 1 bleed damage per damage die that your blast deals. Bleed damage from this infusion does not stack with itself.
+Your blasts have an especially sharp edge to them. Whenever an infused blast hits a foe and deals either piercing or slashing damage, that foe also takes 1 bleed damage per damage die that your blast deals. Bleed damage from this infusion does not stack with itself. It can only be used with water blast by a blood kineticist.
+
+++++ Bloody Infusion, Improved
+**Element(s)** aether, air, earth, water, viscera, or wood; **Type** substance infusion; **Level** 5; **Burn** 4
+**Prerequisite(s)** bloody infusion
+**Associated blasts** autumn, bioelectric, bioluminescent, blizzard, blood, bloody murder, bone, charnel, chilled bone, crystal, earth, fossilized, great oak, gore, haunted, ice, injecting, metal, meteor, ravaging nature, sandstorm, shatterstorm, spring, subzero, summer, telekinetic, tundra, venus, warped bone, water*, winter, wood
+**Saving Throw** Reflex negates
+
+This infusion functions as bloody infusion except that bleed damage from multiple uses of this infusion stacks with itself (although it can only be applied once per round), as well as with bleed caused by bloody infusion and bleeding infusion. The Heal DC needed to end this bleeding effect increases by the amount of bleed damage from which the target is suffering. It can only be used with water blast by a blood kineticist.
 
 ++++ Dismissing Infusion
 **Element(s)** aether, time, or void; **Type** substance infusion; **Level** 5; **Burn** 4
@@ -114,11 +147,19 @@ Your aetheric tethers have tiny holes in them, allowing the magic power of objec
 + ##000000|Air##
 
 ++++ Bloody Infusion
-**Element(s)** aether, air, earth, water, viscera, or wood; **Type** substance infusion; **Level** 1; **Burn** 1
-**Associated Blasts** autumn, bioelectric, bioluminescent, blizzard, bone, charnel, chilled bone, crystal, earth, fossilized, great oak, gore, haunted, ice, injecting, metal, sandstorm, shatterstorm, spring, summer, telekinetic, tundra, venus, warped bone, winter, wood
+**Element(s)** aether, air, earth, viscera, water, or wood; **Type** substance infusion; **Level** 1; **Burn** 1
+**Associated blasts** autumn, bioelectric, bioluminescent, blizzard, blood, bloody murder, bone, charnel, chilled bone, crystal, earth, fossilized, great oak, gore, haunted, ice, injecting, metal, meteor, ravaging nature, sandstorm, shatterstorm, spring, subzero, summer, telekinetic, tundra, venus, warped bone, water, winter, wood
 **Saving Throw** Reflex negates
 
-Your blasts have an especially sharp edge to them. Whenever an infused blast hits a foe and deals either piercing or slashing damage, that foe also takes 1 bleed damage per damage die that your blast deals. Bleed damage from this infusion does not stack with itself.
+Your blasts have an especially sharp edge to them. Whenever an infused blast hits a foe and deals either piercing or slashing damage, that foe also takes 1 bleed damage per damage die that your blast deals. Bleed damage from this infusion does not stack with itself. It can only be used with water blast by a blood kineticist.
+
+++++ Bloody Infusion, Improved
+**Element(s)** aether, air, earth, water, viscera, or wood; **Type** substance infusion; **Level** 5; **Burn** 4
+**Prerequisite(s)** bloody infusion
+**Associated blasts** autumn, bioelectric, bioluminescent, blizzard, blood, bloody murder, bone, charnel, chilled bone, crystal, earth, fossilized, great oak, gore, haunted, ice, injecting, metal, meteor, ravaging nature, sandstorm, shatterstorm, spring, subzero, summer, telekinetic, tundra, venus, warped bone, water*, winter, wood
+**Saving Throw** Reflex negates
+
+This infusion functions as bloody infusion except that bleed damage from multiple uses of this infusion stacks with itself (although it can only be applied once per round), as well as with bleed caused by bloody infusion and bleeding infusion. The Heal DC needed to end this bleeding effect increases by the amount of bleed damage from which the target is suffering. It can only be used with water blast by a blood kineticist.
 
 ++++ Discharging Infusion
 **Element(s)** air; **Type** form infusion; **Level** 1; **Burn** 1
@@ -145,11 +186,19 @@ Your blasts are capable of filling foes to the breaking point with raw power. Wh
 Your blast is strong enough to shatter most objects with ease. This blast can ignore up to 20 hardness of any object it connects against as well as being treated as adamantine for the purpose of bypassing damage reduction.
 
 ++++ Bloody Infusion
-**Element(s)** aether, air, earth, water, viscera, or wood; **Type** substance infusion; **Level** 1; **Burn** 1
-**Associated Blasts** autumn, bioelectric, bioluminescent, blizzard, bone, charnel, chilled bone, crystal, earth, fossilized, great oak, gore, haunted, ice, injecting, metal, sandstorm, shatterstorm, spring, summer, telekinetic, tundra, venus, warped bone, winter, wood
+**Element(s)** aether, air, earth, viscera, water, or wood; **Type** substance infusion; **Level** 1; **Burn** 1
+**Associated blasts** autumn, bioelectric, bioluminescent, blizzard, blood, bloody murder, bone, charnel, chilled bone, crystal, earth, fossilized, great oak, gore, haunted, ice, injecting, metal, meteor, ravaging nature, sandstorm, shatterstorm, spring, subzero, summer, telekinetic, tundra, venus, warped bone, water, winter, wood
 **Saving Throw** Reflex negates
 
-Your blasts have an especially sharp edge to them. Whenever an infused blast hits a foe and deals either piercing or slashing damage, that foe also takes 1 bleed damage per damage die that your blast deals. Bleed damage from this infusion does not stack with itself.
+Your blasts have an especially sharp edge to them. Whenever an infused blast hits a foe and deals either piercing or slashing damage, that foe also takes 1 bleed damage per damage die that your blast deals. Bleed damage from this infusion does not stack with itself. It can only be used with water blast by a blood kineticist.
+
+++++ Bloody Infusion, Improved
+**Element(s)** aether, air, earth, water, viscera, or wood; **Type** substance infusion; **Level** 5; **Burn** 4
+**Prerequisite(s)** bloody infusion
+**Associated blasts** autumn, bioelectric, bioluminescent, blizzard, blood, bloody murder, bone, charnel, chilled bone, crystal, earth, fossilized, great oak, gore, haunted, ice, injecting, metal, meteor, ravaging nature, sandstorm, shatterstorm, spring, subzero, summer, telekinetic, tundra, venus, warped bone, water*, winter, wood
+**Saving Throw** Reflex negates
+
+This infusion functions as bloody infusion except that bleed damage from multiple uses of this infusion stacks with itself (although it can only be applied once per round), as well as with bleed caused by bloody infusion and bleeding infusion. The Heal DC needed to end this bleeding effect increases by the amount of bleed damage from which the target is suffering. It can only be used with water blast by a blood kineticist.
 
 ++++ Imprisoning Infusion
 **Element(s)** earth or water; **Type** substance infusion; **Level** 8; **Burn** 4
@@ -240,6 +289,13 @@ This infusion functions as smoke infusion, and the smoke clings to the target fo
 
 You are capable of illuminating the most vulnerable parts of your foes with your blast. Whenever an infused blast hits a foe and deals damage, the next attack made against that foe before the end of your next round gains a +4. You can increase the burn cost by 1 to also grant the next attack made against that foe a +4 bonus to damage rolls.
 
+++++ Colorburst Infusion
+**Element(s)** light; **Type** substance infusion; **Level** 8; **Burn** 4
+**Associated blasts** aurora, bioluminescent, crystal, glorious, light, lightning, prismatic, rainbow, silverlight, solar, supernova
+**Saving Throw** varies; **Spell Resistance** yes
+
+Your blast’s colorful bursts of light can have an array of unusual effects on those hit. Treat creatures you hit with the infused blast as if they were also hit by the prismatic spray spell.
+
 ++++ Daybreak Infusion
 **Element(s)** light **Type** substance infusion; **Level** 3; **Burn** 2
 **Saving Throw** none
@@ -315,6 +371,14 @@ You know how to ravage living matter with your blast. Foes that take damage from
 **Saving Throw** Fortitude negates
 
 Your blasts are able to break down even the mightiest of foes. Whenever an infused blast hits a target and deals damage to them, if that target possesses either damage resistance or hardness, it is reduced by 1 for every 3 kineticist levels you possess for 1 minute. This effect stacks with itself, allowing you to reduce a target’s damage reduction or hardness multiple times.
+
+++++ Fungal Explosion
+**Element(s)** poison; **Type** form infusion; **Level** 6; **Burn** 3
+**Prerequisite(s)** fungal infestation
+**Associated blasts** acid, acid rain, acidic bolt, green flame, nightshade, noxious, ultraviolet, virulent
+**Saving Throw** Reflex halves/negates (see text)
+
+You empower the mushrooms created through your fungal infestation wild talent, causing them to shoot out gouts of acidic spores. Each creature adjacent to a mushroom or in a mushroom’s square takes your blast’s damage for energy blasts or half your blast’s damage for physical blasts. Creatures within the mushrooms’ squares take half this damage on a successful Reflex save; all others negate damage instead.
 
 ++++ Laced Infusion
 **Element(s)** poison; **Type** substance infusion; **Level** 1; **Burn** 1
@@ -540,10 +604,10 @@ Your blasts are capable of filling foes to the breaking point with raw power. Wh
 
 ++++ Suspended Impact
 **Element(s)** time; **Type** form infusion; **Level** 2; **Burn** 2
-**Associated Blasts** chrono, epoch
+**Associated blasts** afterburn, chrono, epoch, regression
 **Saving Throw** none
 
-Your blasts are able to hide their exact moment of impact. Whenever an infused blast hits a foe and penetrates their spell resistance, you can chose to delay the damage, leading your foe to believe you missed. You can delay the damage for 1 round per 3 kineticist levels you possess, and each round the damage is delayed, this infusion deals an additional 1d4 damage (2d4 for epoch blast).
+Your blasts are able to hide their exact moment of impact. Whenever an infused blast hits a foe and penetrates their spell resistance, you can chose to delay the damage, leading your foe to believe you missed. You can delay the damage for 1 round per 3 kineticist levels you possess, and each round the damage is delayed, this infusion deals an additional 1d4 damage (2d4 for afterburn blast and epoch blast).
 
 ----
 
@@ -558,10 +622,18 @@ Your blasts cause lasting damage to the bodies of others. Whenever an infused bl
 
 ++++ Bloody Infusion
 **Element(s)** aether, air, earth, viscera, water, or wood; **Type** substance infusion; **Level** 1; **Burn** 1
-**Associated Blasts** autumn, bioelectric, bioluminescent, blizzard, bone, charnel, chilled bone, crystal, earth, fossilized, great oak, gore, haunted, ice, injecting, metal, sandstorm, shatterstorm, spring, summer, telekinetic, tundra, venus, warped bone, winter, wood
+**Associated blasts** autumn, bioelectric, bioluminescent, blizzard, blood, bloody murder, bone, charnel, chilled bone, crystal, earth, fossilized, great oak, gore, haunted, ice, injecting, metal, meteor, ravaging nature, sandstorm, shatterstorm, spring, subzero, summer, telekinetic, tundra, venus, warped bone, water, winter, wood
 **Saving Throw** Reflex negates
 
-Your blasts have an especially sharp edge to them. Whenever an infused blast hits a foe and deals either piercing or slashing damage, that foe also takes 1 bleed damage per damage die that your blast deals. Bleed damage from this infusion does not stack with itself.
+Your blasts have an especially sharp edge to them. Whenever an infused blast hits a foe and deals either piercing or slashing damage, that foe also takes 1 bleed damage per damage die that your blast deals. Bleed damage from this infusion does not stack with itself. It can only be used with water blast by a blood kineticist.
+
+++++ Bloody Infusion, Improved
+**Element(s)** aether, air, earth, water, viscera, or wood; **Type** substance infusion; **Level** 5; **Burn** 4
+**Prerequisite(s)** bloody infusion
+**Associated blasts** autumn, bioelectric, bioluminescent, blizzard, blood, bloody murder, bone, charnel, chilled bone, crystal, earth, fossilized, great oak, gore, haunted, ice, injecting, metal, meteor, ravaging nature, sandstorm, shatterstorm, spring, subzero, summer, telekinetic, tundra, venus, warped bone, water*, winter, wood
+**Saving Throw** Reflex negates
+
+This infusion functions as bloody infusion except that bleed damage from multiple uses of this infusion stacks with itself (although it can only be applied once per round), as well as with bleed caused by bloody infusion and bleeding infusion. The Heal DC needed to end this bleeding effect increases by the amount of bleed damage from which the target is suffering. It can only be used with water blast by a blood kineticist.
 
 ++++ Crippling Infusion
 **Element(s)** viscera; **Type** substance infusion; **Level** 7; **Burn** 4
@@ -584,12 +656,26 @@ You know how to ravage living matter with your blast. Foes that take damage from
 
 Your blast can tear a creature’s innards to shreds. Whenever an infused blast hits a foe and deals damage, that foe takes 2 Constitution bleed.
 
+++++ Hypertensive Infusion
+**Element(s)** viscera or water; **Type** substance infusion; **Level** 6; **Burn** 4
+**Associated blasts** blood, bloody murder, bone, charged water, gore, haunted, injecting, steam, warped bone, water
+**Saving Throw** Fort negates
+
+Your blast causes the blood vessels of the affected to slowly constrict. This blast does not deal its damage immediately; instead, treat those affected by your blast as if affected by blood boil, as the spell, except creatures that fail their save on the third round take your blast’s damage instead. It can only be used with charged water, steam, or water blasts by a blood kineticist.
+
 ++++ Leech Infusion
 **Element(s)** viscera or void; **Type** substance infusion; **Level** 6; **Burn** 4
 **Associated Blasts** bioelectric, bone, charnel, chilled bone, fossilized, haunted, injecting, negative, venus, void, warped bone
 **Saving Throw** none
 
 You feed off of those who suffer your blast. Whenever an infused blast hits a living foe and deals damage, you gain 1 temporary hit point for every 2 hit dice the foe possesses that last until you recover burn or until depleted. Temporary hit points gained from multiple uses of this ability do not stack. Temporary hit points gained from this ability stack with those gained from other wild talents.
+
+++++ Osteotomy
+**Element(s)** viscera; **Type** form infusion; **Level** 2; **Burn** 1
+**Associated blasts** bioelectric, bloody murder, bone, charnel, chilled bone, fossilized, injecting, ravaging nature, warped bone
+**Saving Throw** Fortitude negates
+
+You rip slivers of an enemy’s bones out of its body. The infused blast automatically hits unless the target succeeds its Fort save, appearing instantly at the target’s location, and deals half its normal damage. In addition, the removed bone shards drop into a random square adjacent to the target, being treated as caltrops for a number of rounds equal to your kineticist level. The infused blast can affect a corporeal undead, but the target must have an internal skeleton to be affected.
 
 ++++ Self-Destructive Infusion
 **Element(s)** viscera; **Type** substance infusion; **Level** 5; **Burn** 3
@@ -700,6 +786,14 @@ Your blasts channel an especially damaging form of negative energy. Your blast a
 
 Those who are touched by your power soon walk again. Whenever a blast with this infusion kills a living foe, that foe is resurrected as a zombie controlled by you for 1 minute per kineticist level you possess. You can increase the burn cost by 1 to increase the duration to 1 hour per kineticist level you poessess. You can control up to 2 hit dice of undead per kineticist level you possess.
 
+++++ Reconstruction Infusion
+**Element(s)** void; **Type** substance infusion; **Level** 5; **Burn** 3
+**Prerequisite(s)** negative blast, void healer
+**Associated blasts** darklight, hellfire, negative, void
+**Saving Throw** none
+
+If a creature hit by this blast could be healed by negative energy, it is healed by 1 hit point for each damage die from the infused blast which would deal negative damage. All other damage is dealt as normal.
+
 ++++ Sickening Infusion
 **Element(s)** poison, sound, viscera or void; **Type** substance infusion; **Level** 2; **Burn** 2
 **Associated Blasts** acid, acid rain, acidic bolt, bioelectric, bone, charnel, chilled bone, flensing, fossilized, gravity, green flame, haunted, injecting, negative, nightshade, sonic, sonic boom, ultraviolet, venus, vibration, virulent, void, warped bone
@@ -712,11 +806,19 @@ Your blast can disrupt another creature’s well-being. Whenever an infused blas
 + ##000000|Water##
 
 ++++ Bloody Infusion
-**Element(s)** aether, air, earth, water, viscera, or wood; **Type** substance infusion; **Level** 1; **Burn** 1
-**Associated Blasts** autumn, bioelectric, bioluminescent, blizzard, bone, charnel, chilled bone, crystal, earth, fossilized, great oak, gore, haunted, ice, injecting, metal, sandstorm, shatterstorm, spring, summer, telekinetic, tundra, venus, warped bone, winter, wood
+**Element(s)** aether, air, earth, viscera, water, or wood; **Type** substance infusion; **Level** 1; **Burn** 1
+**Associated blasts** autumn, bioelectric, bioluminescent, blizzard, blood, bloody murder, bone, charnel, chilled bone, crystal, earth, fossilized, great oak, gore, haunted, ice, injecting, metal, meteor, ravaging nature, sandstorm, shatterstorm, spring, subzero, summer, telekinetic, tundra, venus, warped bone, water, winter, wood
 **Saving Throw** Reflex negates
 
-Your blasts have an especially sharp edge to them. Whenever an infused blast hits a foe and deals either piercing or slashing damage, that foe also takes 1 bleed damage per damage die that your blast deals. Bleed damage from this infusion does not stack with itself.
+Your blasts have an especially sharp edge to them. Whenever an infused blast hits a foe and deals either piercing or slashing damage, that foe also takes 1 bleed damage per damage die that your blast deals. Bleed damage from this infusion does not stack with itself. It can only be used with water blast by a blood kineticist.
+
+++++ Bloody Infusion, Improved
+**Element(s)** aether, air, earth, water, viscera, or wood; **Type** substance infusion; **Level** 5; **Burn** 4
+**Prerequisite(s)** bloody infusion
+**Associated blasts** autumn, bioelectric, bioluminescent, blizzard, blood, bloody murder, bone, charnel, chilled bone, crystal, earth, fossilized, great oak, gore, haunted, ice, injecting, metal, meteor, ravaging nature, sandstorm, shatterstorm, spring, subzero, summer, telekinetic, tundra, venus, warped bone, water*, winter, wood
+**Saving Throw** Reflex negates
+
+This infusion functions as bloody infusion except that bleed damage from multiple uses of this infusion stacks with itself (although it can only be applied once per round), as well as with bleed caused by bloody infusion and bleeding infusion. The Heal DC needed to end this bleeding effect increases by the amount of bleed damage from which the target is suffering. It can only be used with water blast by a blood kineticist.
 
 ++++ Destabilizing Infusion
 **Element(s)** poison, sound, or water; **Type** substance infusion; **Level** 6; **Burn** 4
@@ -724,6 +826,13 @@ Your blasts have an especially sharp edge to them. Whenever an infused blast hit
 **Saving Throw** Fortitude negates
 
 Your blasts are able to break down even the mightiest of foes. Whenever an infused blast hits a target and deals damage to them, if that target possesses either damage resistance or hardness, it is reduced by 1 for every 3 kineticist levels you possess for 1 minute. This effect stacks with itself, allowing you to reduce a target’s damage reduction or hardness multiple times.
+
+++++ Hypertensive Infusion
+**Element(s)** viscera or water; **Type** substance infusion; **Level** 6; **Burn** 4
+**Associated blasts** blood, bloody murder, bone, charged water, gore, haunted, injecting, steam, warped bone, water
+**Saving Throw** Fort negates
+
+Your blast causes the blood vessels of the affected to slowly constrict. This blast does not deal its damage immediately; instead, treat those affected by your blast as if affected by blood boil, as the spell, except creatures that fail their save on the third round take your blast’s damage instead. It can only be used with charged water, steam, or water blasts by a blood kineticist.
 
 ++++ Immobilizing Infusion
 **Element(s)** time, water, or void; **Type** substance infusion; Level 4; Burn 3
@@ -765,8 +874,16 @@ Your blast cause opponents to convulse involuntarily. Whenever a foe takes damag
 Your blast contain seeds that feed off of others. Whenever an infused blast hits a living foe and deals damage to them, a seed is embedded inside of them, drawing on their life force for 1 round per 2 kineticist levels you possess. At the beginning of the foe’s round, they must make a fortitude save or take 1 Constitution damage. A successful save negates this damage, and making two successful saving throws in a row ends this effect. If this damage reduces the foe’s Constitution score to 0, their body is consumed, and a large sized tree of your choice appears in their square, rooted into the ground. Multiple uses of this effect stack, although only 1 tree is produced upon a foe Constitution score being reduced to 0.
 
 ++++ Bloody Infusion
-**Element(s)** aether, air, earth, water, viscera, or wood; **Type** substance infusion; **Level** 1; **Burn** 1
-**Associated Blasts** autumn, bioelectric, bioluminescent, blizzard, bone, charnel, chilled bone, crystal, earth, fossilized, great oak, gore, haunted, ice, injecting, metal, sandstorm, shatterstorm, spring, summer, telekinetic, tundra, venus, warped bone, winter, wood
+**Element(s)** aether, air, earth, viscera, water, or wood; **Type** substance infusion; **Level** 1; **Burn** 1
+**Associated blasts** autumn, bioelectric, bioluminescent, blizzard, blood, bloody murder, bone, charnel, chilled bone, crystal, earth, fossilized, great oak, gore, haunted, ice, injecting, metal, meteor, ravaging nature, sandstorm, shatterstorm, spring, subzero, summer, telekinetic, tundra, venus, warped bone, water, winter, wood
 **Saving Throw** Reflex negates
 
-Your blasts have an especially sharp edge to them. Whenever an infused blast hits a foe and deals either piercing or slashing damage, that foe also takes 1 bleed damage per damage die that your blast deals. Bleed damage from this infusion does not stack with itself.
+Your blasts have an especially sharp edge to them. Whenever an infused blast hits a foe and deals either piercing or slashing damage, that foe also takes 1 bleed damage per damage die that your blast deals. Bleed damage from this infusion does not stack with itself. It can only be used with water blast by a blood kineticist.
+
+++++ Bloody Infusion, Improved
+**Element(s)** aether, air, earth, water, viscera, or wood; **Type** substance infusion; **Level** 5; **Burn** 4
+**Prerequisite(s)** bloody infusion
+**Associated blasts** autumn, bioelectric, bioluminescent, blizzard, blood, bloody murder, bone, charnel, chilled bone, crystal, earth, fossilized, great oak, gore, haunted, ice, injecting, metal, meteor, ravaging nature, sandstorm, shatterstorm, spring, subzero, summer, telekinetic, tundra, venus, warped bone, water*, winter, wood
+**Saving Throw** Reflex negates
+
+This infusion functions as bloody infusion except that bleed damage from multiple uses of this infusion stacks with itself (although it can only be applied once per round), as well as with bleed caused by bloody infusion and bleeding infusion. The Heal DC needed to end this bleeding effect increases by the amount of bleed damage from which the target is suffering. It can only be used with water blast by a blood kineticist.
