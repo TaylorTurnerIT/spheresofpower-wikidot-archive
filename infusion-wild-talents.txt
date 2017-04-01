@@ -15,11 +15,32 @@ The following are new infusion wild talents that can be learned by Kineticists w
 
 Your blasts are more dedicated than most. Select one component of your alignment (good/evil/law/chaos); your blasts are treated as that alignment for the purposes of penetrating damage reduction and negating regeneration. Whenever an infused blast hits a foe that has an opposed alignment to your blast, increase all DCs associated with this blast by 1.
 
+++++ Arbitrating Infusion
+**Element(s)** universal; **Type** substance infusion; **Level** 7; **Burn** 4
+**Associated blasts** any
+**Saving Throw** none or Will negates; see text
+
+This infusion treats those hit as if affected by arbitrament^^CoB^^, as the spell, using the kineticist’s level as their caster level. This infusion costs double for kineticists of an alignment other than neutral, and chaotic evil, chaotic good, lawful evil, and lawful good kineticists are sickened for 1d4 rounds after using this infusion.
+
 ++++ Bullying Infusion
 **Element(s)** universal; **Type** substance; **Level** 1; **Burn** 1
 **Saving Throw** none
 
 You know how to add a bit of fear to your blast. Whenever a creature is dealt damage by this blast, you can attempt an Intimidate check (to demoralize) against them. You can increase the burn of this infusion by 1 to increase the duration of the demoralization by 2 rounds.
+
+++++ Crushing Blast
+**Element(s)** universal; **Type** substance infusion; **Level** 4; **Burn** 3
+**Associated blasts** any physical
+**Saving Throw** none
+
+You can add incredible density to your kinetic blasts. Blasts you use that deal bludgeoning damage have their critical multiplier increased by 1 (normally to 3x). You can accept an additional 1 point of burn when using this infusion to increase their critical multiplier by 2 instead (normally to 4x). These benefits only apply to blasts that deal bludgeoning damage, and do not stack with other effects that increase critical multiplier. This does not count toward your normal limit of substance infusions per kinetic blast, but cannot be used in conjunction with keen blast.
+
+++++ Empty Infusion
+**Element(s)** universal; **Type** substance infusion; **Level** 1; **Burn** 0
+**Associated Blasts** any
+**Saving Throw** none
+
+You know how to remove trauma from your blast. This blast deals no damage, but increases the DC of the kinetic blast by +1 as well as treating the opponent as if they had taken damage for the purpose of being affected by an infusion if they are hit by it. At 5th level, and every 5 levels thereafter, increase the DC by an additional +1. This infusion does not count against the limit of one substance infusion per kinetic blast.
 
 ++++ Flurry of Blasts, Improved
 **Element(s)** universal; **Type** form infusion; **Level** 5; **Burn** 4
@@ -51,6 +72,13 @@ You know how to add a little extra kick to your blast. You may make a second att
 
 You can reach into different planes of existence with your blast. This infused blast deals full damage to incorporeal targets. This infusion does not count against the normal limit of 1 substance infusion per blast.
 
+++++ Keen Blast
+**Element(s)** universal; **Type** substance infusion; **Level** 4; **Burn** 3
+**Associated blasts** any physical
+**Saving Throw** none
+
+You shape your blast so that its edge is incredibly sharp. Blasts you use that deal piercing and/or slashing damage have their critical range doubled (normally to 19-20). You can increase the burn cost of this infusion by 1 to triple their critical range instead (normally to 18-20). These benefits do not apply to blasts that don’t deal either piercing or slashing damage, and do not stack with other effects that increase critical range (such as the improved critical feat). This does not count toward your normal limit of substance infusions per kinetic blast, but cannot be used in conjunction with crushing blast.
+
 ++++ Kinetic Bomb 
 **Element(s)** universal; **Type** form infusion; **Level** 1; **Burn** 1
 **Associated blasts** any
@@ -65,6 +93,21 @@ Your blast has far more power packed behind it. Whenever an infused blast hits a
 **Saving Throw** Reflex half (see text)
 
 This infusion functions as kinetic bomb, extending its splash radius by 5 ft. You can increase the burn cost of this blast by 1 to increase the splash radius of this infusion by an additional 5 ft.
+
+++++ Mobile Blast, Improved
+**Element(s)** universal; **Type** form infusion; **Level** 5; **Burn** 3
+**Associated blasts** any
+**Prerequisite(s)** extended range^^OA^^, mobile blast^^OA^^
+**Saving Throw** Reflex negates
+
+This functions as mobile blast^^OA^^ except it can travel as far as 120 ft. from you before dissipating and can be moved up to 30 ft. as a free action once per turn; this is in addition to moving it with a move action, and it cannot move more than your base speed per round. In addition, if you move it with your move action, you can also have it fire the kinetic blast of which it is composed as an immediate action, dealing damage as a 1st level kineticist (if it stops in the same square as another creature, this blast cannot target that creature and happens before they receive damage from it). Doing so reduces its damage by 1 die if it was composed from a simple blast or 2 dice if it was composed of a composite blast, and its duration ends if it is reduced to 0 damage dice this way.
+
+++++ Nebulous Shape
+**Element(s)** universal; **Type** form infusion; **Level** 4; **Burn** 2
+**Associated blasts** any physical blast that deals at least two types of damage
+**Saving Throw** none
+
+The matter your blasts create is amorphous, sometimes even intangible. When applying this infusion to a blast, choose between bludgeoning, piercing, or slashing. If the infused blast would deal that type of damage, all of its damage is dealt as whatever other type(s) the blast could normally do instead. You can accept an additional 1 point of burn to remove a second type of physical damage. If this infusion would remove all damage types from a blast, it deals nonlethal untyped damage. If a blast deals only energy damage as a result of this infusion, it is still considered a physical blast for all purposes.
 
 ++++ Nullifying Infusion
 **Element(s)** universal; **Type** substance infusion; **Level** 8; **Burn** 4
@@ -206,6 +249,13 @@ This infusion functions as bloody infusion except that bleed damage from multipl
 **Saving Throw** Fortitude negates
 
 Your blast is capable of entombing others alive. Whenever an infused blast hits a foe and deals damage, that foe is encased in an elemental prison, as per the ice tomb witch hex.
+
+++++ Persistent Infusion
+**Element(s)** earth, water, or wood; **Type** substance infusion; **Level** 1; **Burn** 1
+**Associated Blast** autumn, blizzard, cold, earth, ice, magma, metal, mud, sandstorm, spring, summer, winter, wood
+**Saving Throw** none
+
+Your blasts leave behind chunks of whatever matter from which they were composed along the path of a ranged attack kinetic blast, the targeted square of a melee attack kinetic blast, or all squares targeted by the kinetic blast. This matter remains until the next time you recover burn as unattended objects, each blast creating 1 lbs. of matter per kineticist level you possess. You cannot create more than 5 lbs. of matter per kineticist level you possess, and any excess matter you create disappears. You can increase the burn cost of this infusion by 1 to subtly alter the shape of these objects, treating the matter as caltrops.
 
 ----
 
@@ -848,12 +898,26 @@ Your blasts reduces foe’s speed to a crawl. Whenever an infused blast hits a f
 
 Your blast is capable of entombing others alive. Whenever an infused blast hits a foe and deals damage, that foe is encased in an elemental prison, as per the ice tomb witch hex.
 
+++++ Oil Infusion
+**Element(s)** water; **Type** substance infusion; **Level** 1; **Burn** 1
+**Associated Blast** charged water blast, water blast
+**Saving Throw** none
+
+Instead of simple water, your blast is made up of flammable oil. A foe damaged by this infusion who is dealt fire damage erupts into flames, and the DC to remove this condition is increased by 5. Water cannot help put out someone affected by this infusion, instead dealing an additional 1d6 damage. This oil last for 1 minute per kineticist level you possess or until it is washed off. Attacks made against a creature under the surface of water with this infusion suffer a -1 penalty to attack rolls for every 5 ft. it travels (even if the attacker is also underwater), and persistent matter created with this infusion (such as with mobile blast) floats atop the water’s surface.
+
 ++++ Overload Infusion
 **Element(s)** air, fire, light, poison, sound, time, void, or water; **Type** substance infusion; **Level** 7; **Burn** 4
 **Associated Blasts** acid, acid rain, acidic bolt, blue flame, chrono, cold, electric, epoch, fire, flensing, green flame, glorious, injection, light, lightning, negative, nightshade, solar, sonic, sonic boom, thunderstorm, ultraviolet, vibration, virulent, void
 **Saving Throw** Fortitude negates
 
 Your blasts are capable of filling foes to the breaking point with raw power. Whenever an infused blast hits a foe and deals damage, that foe is flooded with elemental energy for 1 round per 5 kineticist levels you possess. Whenever that foe takes a standard action, they must make a Fortitude save or take 1 point of damage per damage die your blast deals, taking half damage on a successful save. If the foe instead takes a full round action, this damage is doubled. You can increase the burn cost by 1 to increase the duration of this effect by 1 round. A creature may only be affected by one overload infusion at a time.
+
+++++ Persistent Infusion
+**Element(s)** earth, water, or wood; **Type** substance infusion; **Level** 1; **Burn** 1
+**Associated Blast** autumn, blizzard, cold, earth, ice, magma, metal, mud, sandstorm, spring, summer, winter, wood
+**Saving Throw** none
+
+Your blasts leave behind chunks of whatever matter from which they were composed along the path of a ranged attack kinetic blast, the targeted square of a melee attack kinetic blast, or all squares targeted by the kinetic blast. This matter remains until the next time you recover burn as unattended objects, each blast creating 1 lbs. of matter per kineticist level you possess. You cannot create more than 5 lbs. of matter per kineticist level you possess, and any excess matter you create disappears. You can increase the burn cost of this infusion by 1 to subtly alter the shape of these objects, treating the matter as caltrops.
 
 ++++ Shivering Infusion
 **Element(s)** viscera or water; **Type** substance infusion; **Level** 1; **Burn** 1
@@ -887,3 +951,10 @@ Your blasts have an especially sharp edge to them. Whenever an infused blast hit
 **Saving Throw** Reflex negates
 
 This infusion functions as bloody infusion except that bleed damage from multiple uses of this infusion stacks with itself (although it can only be applied once per round), as well as with bleed caused by bloody infusion and bleeding infusion. The Heal DC needed to end this bleeding effect increases by the amount of bleed damage from which the target is suffering. It can only be used with water blast by a blood kineticist.
+
+++++ Persistent Infusion
+**Element(s)** earth, water, or wood; **Type** substance infusion; **Level** 1; **Burn** 1
+**Associated Blast** autumn, blizzard, cold, earth, ice, magma, metal, mud, sandstorm, spring, summer, winter, wood
+**Saving Throw** none
+
+Your blasts leave behind chunks of whatever matter from which they were composed along the path of a ranged attack kinetic blast, the targeted square of a melee attack kinetic blast, or all squares targeted by the kinetic blast. This matter remains until the next time you recover burn as unattended objects, each blast creating 1 lbs. of matter per kineticist level you possess. You cannot create more than 5 lbs. of matter per kineticist level you possess, and any excess matter you create disappears. You can increase the burn cost of this infusion by 1 to subtly alter the shape of these objects, treating the matter as caltrops.
