@@ -64,6 +64,15 @@ The following are new feats that can be taken by kineticists.
 
 **Benefit:** Whenever you use a utility wild talent that would normally allow only one use of its effect to be active at a time, you can instead have two uses of its effect active without affecting the other use of it.
 
+++++ Enduring Remnants
+“Trying to get on her good side is literally like walking on broken glass…”
+
+**Prerequisites:** Kinetic Remnants, Throw Anything, or bomb class feature.
+
+**Benefit:** Whenever a splash weapon you use would leave behind caltrops or an effect simulating caltrops for a limited duration (such as a shard gel, the Kinetic Remnants feat, or the glassfoot bomb alchemical discovery), increase that duration to 2d6 rounds. If the duration of the effect is already 2d6 rounds or greater, the caltrops left behind are instead permanent (though still subject to limitations of the material composing them). Caltrops created this way have no monetary value.
+
+**Special:** A kineticist can take this twice, causing their kinetic blasts to leave behind permanent caltrops. Taking this feat a second time only affects kinetic blasts, not other splash weapons (such as an alchemist’s bombs).
+
 ++++ Energy Aim
 “I don’t just ‘throw’ fire around, I choose my incineration targets with exacting precision.”
 
@@ -91,12 +100,30 @@ The following are new feats that can be taken by kineticists.
 
 **Special:** You may take this feat multiple times; its effects stack.
 
+++++ Extra Roper Talent
+“You need to get a grip.”
+
+**Prerequisite:** Energy roper 11th.
+
+**Benefit:** You gain an additional roper talent.
+
+**Special:** You can select this feat a second time at 15th level, and a third time at 19th level.
+
 ++++ Extra Tear
 “I just needed a little more space, okay?”
 
 **Prerequisite:** Dimensional rip wild talent or dimensional tear class ability
 
 **Benefit:** You can create an additional dimensional tear with your dimensional rip wild talent or the dimensional tear class feature.
+
+++++ Extra Wild Talent Slot
+“I’m sure I’ll remember how this move worked if I just concentrate on it…”
+
+**Prerequisites:** Entropist 5th, Constitution 17.
+
+**Benefit:** You gain two additional slots in which you can prepare wild talents. These cannot be applied to the highest level of wild talent you can prepare, and you can never have more slots of one level available than you have of a lower level.
+
+**Special:** This feat can be taken multiple times. Its effects stack.
 
 ++++ Improved Stealth Gathering
 “I wasn’t even there, you didn’t see a thing!”
@@ -112,12 +139,40 @@ The following are new feats that can be taken by kineticists.
 
 **Benefit:** Whenever you are affected by a haste spell or effect, increase the attack bonus, reflex save, and dodge bonus by +1. In addition, when you use the gather energy class feature while affected by haste, you can increase the reduction of a blast’s burn an additional 1.
 
+++++ Kinetic Barbs
+“It hurts so much going in, imagine it coming out.”
+
+**Prerequisite:** Kinetic lancer 11th.
+
+**Benefit:** Whenever you impale a creature with your impaling crash ability, when the creature successfully removes the spear, they must make a Fortitude save (DC 10 + ½ your kinetic lancer level + your Constitution modifier) or become sickened for a number of rounds equal to your Constitution modifier. If the creature fails this save by 5 or more, they also take bleed damage equal to your Constitution modifier.
+
+++++ Kinetic Clutches
+“GET OVER HERE!”
+
+**Prerequisites:** Kinetic Pin, Kinetic Proficiency.
+
+**Benefit:** Your devastating infusion, dual blades*, kinetic blade, kinetic fist, and kinetic whip are considered to have the grappling weapon quality. You are not grappled when making a grapple with these blasts, and consider your weapon reach to be 30 ft. for maintaining grapples initiated with your blast’s grappling quality, but cannot use kinetic blasts except for those made through Kinetic Pin without ending the grapple.
+
+++++ Kinetic Coils
+“You cool off for a sec, I have other business to attend to.”
+
+**Prerequisites:** Kinetic Clutches, Greater Grapple.
+
+**Benefit:** When attempting to tie up a creature you’ve grappled with a kinetic blast, you can use fragments of lingering elemental energy or matter from a simple blast to do so. Treat this binding as a bloodvine rope, except it deals ¼ your simple blast damage of the same damage type as the blast it manifested from whenever the bound creature fails an Escape Artist or Strength check to escape it. You can attempt to tie up a grappled or pinned creature not adjacent to you in this way, but do so at a -1 penalty per 5 ft. of distance they are from you. Bindings created through kinetic coils vanish after eight hours if not broken before then.
+
 ++++ Kinetic Combo
 “The key is to overwhelm their defenses, and you can’t do that by using the same trick over and over again.”
 
 **Prerequisite:** Any simple blast
 
 **Benefit:** If you hit a creature with your kinetic blast, on your next round that creature takes a -1 penalty on saving throws against any utility wild talents you use that share the same element as your blast and a -2 against any utility wild talent with a different element from your blast.
+
+++++ Kinetic Harpoon
+“They won’t be moving anytime soon, that’s for sure!”
+
+**Prerequisites:** Impaling crash class ability.
+
+**Benefit:** Whenever you impale a creature with your impaling crash ability, that creature becomes entangled for the duration of their impalement. They must also make a Reflex save (DC 10 + 1/2 your kineticist level + your Constitution modifier) to avoid having elemental matter spear them in place, reducing all movement speeds they possess to 0 ft. Either way, a successful Strength check to remove the spear ends the entangled condition and the reduced movement speed.
 
 ++++ Kinetic Pin
 “Now that you can’t move, we can really have some fun!”
@@ -149,12 +204,26 @@ The following are new feats that can be taken by kineticists.
 
 **Normal:** You may only use these blasts as part of an attack action, full attack, or charge.
 
+++++ Kinetic Proficiency, Defensive
+“Let the power of the planes be my shield.”
+
+**Prerequisites:** Kinetic Proficiency, Defensive Combat Training.
+
+**Benefit:** Your devastating infusion, dual blades, kinetic assault, kinetic blade, kinetic fist, kinetic whip, vital blade, and vital mobility are considered to have the blocking and bracing weapon qualities, and when you ready a kinetic blast with one of the above infusions against a charge, you can make one 5-foot step as a free action when it is triggered.
+
 ++++ Kinetic Proficiency, Improved
 “The elements are my blade, and they cry for me to run you through!”
 
 **Prerequisite:** Kinetic Proficiency
 
 **Benefit:** Your devastating infusion, dual blades, kinetic assault, kinetic blade, kinetic fist, kinetic whip, and vital blade are considered to have the deadly, disarm, distracting, sunder, and trip weapon qualities.
+
+++++ Kinetic Remnants
+“Watch your step.”
+
+**Prerequisite:** Kinetic bomb infusion.
+
+**Benefit:** Any squares affected by your kinetic bomb or improved kinetic bomb infusions are treated as containing caltrops composed of whatever the blast was composed of for 1d4 rounds, except the caltrops deal damage equal to the minimum damage of the blast and of the same type(s) as the blast, and are treated as having a BAB equal to your own. In addition, your kinetic bomb and improved kinetic bomb infusions are always treated as splash weapons even if they do not hit a foe.
 
 ++++ Kinetic Sniper
 “It’s hard to miss when you understand how your targets move.”
@@ -178,6 +247,27 @@ The following are new feats that can be taken by kineticists.
 **Prerequisites:** kineticist 1st, acid blast, bite attack
 
 **Benefit:** Your bite attacks deal 1 point of acid damage in addition to their normal damage. Living creatures you bite must make a Fortitude save (DC equal to your acid blast’s DC) or be sickened for a number of rounds equal to 1 + your Con modifier (minimum 1 round).
+
+++++ Mutable Composition
+“Did you maybe think I’d rather crush his skull a lot and just burn him a tiny bit, rather than do both equally?”
+
+**Prerequisites:** Kineticist 7th, must possess a kinetic blast that deals half its damage as one type and half as another.
+
+**Benefit:** When using a kinetic blast which normally deals half its damage as one damage type and half its damage as another, you can instead split its damage between those two types however you see fit, so long as it deals at least 1 damage of each type per damage die of the blast.
+
+++++ Mystical Corrosion
+“Just feel that burn, it’ll all be over soon.”
+
+**Prerequisite:** Acid blast.
+
+**Benefit:** Add unraveling infusion to poison’s list of wild talents; it can be used with your poison blasts or any composite blasts which require poison. If you possess both fire and poison elements, your unraveling infusion receives a +2 bonus to its effective caster level. This bonus is doubled if you use it with a composite blast of both fire and poison elements.
+
+++++ Narrow Array
+“This one’s not exactly my style.”
+
+**Prerequisites:** Entropist 1st, shuffling focus class feature.
+
+**Benefit:** Choose one element in your array. Whenever you roll for shuffling focus or use your bend fate ability, reroll any dice that would give you the element chosen for this feat. You cannot choose this element for favored focus and cannot select it if you normally would be able to with your bend fate ability, but you can still learn wild talents of the chosen element as normal. This feat cannot be taken if you have the wide array feat, and must be taken at entropist level 1.
 
 ++++ Noxious Saliva
 “Submit to the venom, it shall soon be over.”
@@ -208,6 +298,15 @@ The following are new feats that can be taken by kineticists.
 **Prerequisite:** Infusion class ability
 
 **Benefit:** Whenever you use a kinetic blast that affects multiple spaces, you may select 1 square that is not affected by your blast. For each 2 points of burn you have, you may select an addition square to be unaffected by your blast.
+
+++++ Precision Time Bomb
+“The saleman told me it was an atomic watch, but I didn’t realize he meant that way.”
+
+**Prerequisite:** Time Bomb.
+
+**Benefit:** When setting a duration for a bomb or kinetic blast implanted with the time bomb feat, you can set the time in increments of minutes or rounds as well as hours.
+
+**Example:** Using this feat, if one wished, they could set a bomb to explode with a time limit of 4 days, 12 hours, 20 minutes, and 7 rounds.
 
 ++++ Protean Alteration
 “Oh, do you like this form? I just made it today!”
@@ -247,6 +346,13 @@ The following are new feats that can be taken by kineticists.
 
 **Special:** You may take this feat multiple times; each time it applies to a different composite blast.
 
+++++ Spontaneous Talent
+“Oh, right, now I remember!”
+
+**Prerequisite:** Entropist 5th.
+
+**Benefit:** A number of times per day equal to your Constitution modifier, you can temporarily fill a wild talent slot that’s been left open, gaining access to a utility wild talent or infusion you know up to the level of the chosen slot for 1 minute. You can only spontaneously gain one wild talent at a time. This cannot be used to fill slots to which you don’t have access (such as by having too low a Constitution score or having used the bend fate class feature). This is a free action, but can only be performed once per minute.
+
 ++++ Stealth Gathering
 “Of course it was fair, I was in plain sight the entire time!”
 
@@ -281,3 +387,17 @@ The following are new feats that can be taken by kineticists.
 **Prerequisite:** Telekinetic haul wild talent
 
 **Benefit:** You can replace your Strength score with your Constitution score for the purpose of making strength checks and Strength based skill checks.
+
+++++ Time Bomb
+“Tick tock.”
+
+**Prerequisite:** Implant Bomb or implant blast utility wild talent.
+
+**Benefit:** When implanting a bomb or kinetic blast, you can alter the amount of time it takes to explode. Instead of 24 hours, it can be set for any duration up to 1 week, in 1 hour increments. You must expend the same amount of gp (when used with a bomb) or accept the same amount of additional burn (when used with a kinetic blast) you would to remove its time limit.
+
+++++ Wide Array
+“I don’t know… don’t you have more to pick from?”
+
+**Prerequisites:** Entropist 1st, shuffling focus class feature.
+
+**Benefit:** Choose two elements not in your elemental array, assigning the number 5 to one and 6 to the other. Whenever you roll for shuffling focus or reroll using your bend fate ability, roll d6s instead of d4s and apply the elements you’ve assigned to 5 or 6 for such rolls, and you can select these elements if you use bend fate to select an element without rolling. This feat does not allow you to learn wild talents outside of your array except for universal wild talents, cannot be taken if you have the narrow array feat, and must be taken at entropist level 1.
