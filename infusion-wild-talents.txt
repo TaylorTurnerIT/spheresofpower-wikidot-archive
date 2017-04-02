@@ -28,6 +28,12 @@ This infusion treats those hit as if affected by arbitrament^^CoB^^, as the spel
 
 You know how to add a bit of fear to your blast. Whenever a creature is dealt damage by this blast, you can attempt an Intimidate check (to demoralize) against them. You can increase the burn of this infusion by 1 to increase the duration of the demoralization by 2 rounds.
 
+++++ Countering Infusion
+**Element(s)** universal; **Type** substance infusion; **Level** 1; **Burn** 1
+**Associated blasts** any
+
+You strengthen your blast’s ability to blot out opposing magic. The infused blast is treated as one spell level higher when used to counter spells, and can be used to counter activated extraordinary, supernatural, or spell-like abilities which share its element or descriptor. You can increase this by an additional one effective spell level for every 2 burn by which you increase this infusion’s cost. This infusion can only be used as part of a blast prepared as a readied action.
+
 ++++ Crushing Blast
 **Element(s)** universal; **Type** substance infusion; **Level** 4; **Burn** 3
 **Associated blasts** any physical
@@ -116,12 +122,26 @@ The matter your blasts create is amorphous, sometimes even intangible. When appl
 
 You are aware how to sever another’s elemental defenses. Whenever an infused blast hits a foe and penetrates their spell resistance, you may select one type of energy damage that the infused blast deals (cold, electric, fire, negative energy, or sonic) and negate any resistance the foe has to it for 1 round per 4 kineticist levels you possess before applying damage. If the target is immune to the chosen energy type, you instead negate that immunity, treating that foe as though they had resistance 20 against the negated immunity.
 
+++++ Ricochet
+**Element(s)** universal; **Type** form infusion; **Level** 2; **Burn** 2
+**Associated blasts** any bludgeoning
+**Saving Throw** none
+
+You can cause your blast to ricochet off of your target into another. When you hit your target with your infused blast, you can attempt a ranged attack against one additional target within 15 feet of the first. This attack originates from the infused blast’s original target and is identical to the original blast except that it does not replicate the effects of the ricochet infusion.
+
 ++++ Seeking Infusion
 **Element(s)** universal; **Type** form infusion; **Level** 2; **Burn** 2
 **Associated Blasts** any
 **Saving Throw** none
 
 You can easily avoid obstacles that hinder the path of your blast. This infused blast ignores partial cover and concealment.
+
+++++ Spellturning Infusion
+**Element(s)** universal; **Type** form infusion; **Level** 6; **Burn** 3
+**Associated blasts** any
+**Prerequisite(s)** countering infusion
+
+Your blast can envelop and overpower incoming spells. Treat this as countering infusion, except when the infused blast is readied against a spell or activated extraordinary, supernatural, or spell-like ability which it can counter, rather than counterspelling it, you can cause the ability to affect its caster or target an area which includes its caster, adding the effects of the infused blast to the spell’s normal effects. Abilities that target a line or cone or that emanate from their caster can only be counterspelled as normal. This infusion can only be used as part of a blast prepared as a readied action.
 
 ++++ Vital Blade
 **Element(s)** universal; **Type** form infusion; **Level** 4; **Burn** 3
@@ -808,6 +828,13 @@ Your blasts reduces foe’s speed to a crawl. Whenever an infused blast hits a f
 
 You feed off of those who suffer your blast. Whenever an infused blast hits a living foe and deals damage, you gain 1 temporary hit point for every 2 hit dice the foe possesses that last until you recover burn or until depleted. Temporary hit points gained from multiple uses of this ability do not stack. Temporary hit points gained from this ability stack with those gained from other wild talents.
 
+++++ Lingering Darkness
+**Element(s)** void; **Type** substance infusion; **Level** 4; **Burn** 3
+**Associated blasts** negative, void
+**Saving Throw** Will negates; Ref partial; **Spell Resistance** yes
+
+Your blast transforms itself into a baneful shadow that clings to the target. If your blast deals negative energy damage to a target, treat that target as if affected by masochistic shadow^^BOS^^. If this blast affects more than one creature, you choose which one creature is affected by this infusion.
+
 ++++ Low Gravity Infusion
 **Element(s)** void; **Type** substance infusion; **Level** 3; **Burn** 2
 **Associated Blasts** gravity, void
@@ -869,6 +896,21 @@ Your blasts have an especially sharp edge to them. Whenever an infused blast hit
 **Saving Throw** Reflex negates
 
 This infusion functions as bloody infusion except that bleed damage from multiple uses of this infusion stacks with itself (although it can only be applied once per round), as well as with bleed caused by bloody infusion and bleeding infusion. The Heal DC needed to end this bleeding effect increases by the amount of bleed damage from which the target is suffering. It can only be used with water blast by a blood kineticist.
+
+++++ Dehydrating Blast
+**Element(s)** water; **Type** form infusion; **Level** 3; **Burn** 2
+**Associated blasts** charged water, steam, water
+**Saving Throw** Fort partial; **Spell Resistance** yes
+
+You sap vital water out of a creature’s body, causing it to suffer from dehydration. The damage die size of the infused blast is reduced 1 step and the damage is nonlethal, but the blast appears directly in the target’s square rather than traveling to it and its damage is untyped. This damage causes the foe to become fatigued and cannot be recovered from until the creature drinks water, even from magical healing that restores hit points. Creatures who succeed their save against this infusion take half damage and are not fatigued. Creatures who do not need to drink to survive are immune to the infused blast’s damage and effects, but creatures of the water subtype are always susceptible to it regardless of the need to drink or lack thereof. Blood kineticists cannot use this infusion with blood blast.
+
+++++ Dehydrating Blast, Greater
+**Element(s)** water; **Type** form infusion; **Level** 6; **Burn** 4
+**Prerequisite(s)** dehydrating blast
+**Associated blasts** charged water, steam, water
+**Saving Throw** Fort partial; **Spell Resistance** yes
+
+This functions as dehydrating blast, except it can be used with blood blast and causes its target to suffer severe cramps, giving it a -4 penalty to Dexterity for as long as it suffers the damage caused by the infused blast. In addition, if the infused blast damages a creature, it creates a globe of the sapped-away water which you can use as an immediate action to attack with a water blast or any blast for which water blast is a prerequisite (but not blood unless the original blast was a blood blast). The second blast treats the globe of water as its point of origin, costs an additional 1 burn, and cannot use dehydrating blast, greater dehydrating blast, or wrack. If you possess the tundra’s wrath wild talent, you can instead make the second blast as a cold blast, ice blast, or any composite blast you possess for which cold blast is a prerequisite. If you do not make this second blast, the globe of water falls down harmlessly.
 
 ++++ Destabilizing Infusion
 **Element(s)** poison, sound, or water; **Type** substance infusion; **Level** 6; **Burn** 4
