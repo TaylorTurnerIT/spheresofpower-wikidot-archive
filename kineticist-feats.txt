@@ -27,12 +27,32 @@ The following are new feats that can be taken by kineticists.
 
 **Benefit:** If you accept burn from a wild talent (except for your elemental defense), on your next round you can reduce the burn cost of an infusion by 1.
 
+++++ Autobuffer
+“All that extra energy has to go somewhere.”
+
+**Prerequisites:** Burn and internal buffer class features.
+
+**Benefit:** Whenever you accept burn on a wild talent, you have a 20% chance to gain a point in your internal buffer at the beginning of your next turn. Each time you fail at this chance, it increases by 20% the next time you accept burn on a wild talent, up to a maximum of 100%. If the chance succeeds, the success rate is reset to 20% for the next time you accept burn on a wild talent. This feat has no effect if you already possess the maximum number of points in your internal buffer, and can only add 1 point to your internal buffer per round.
+
+**Special:** If you possess battle burn, this feat does not trigger when accepting points of battle burn.
+
 ++++ Basic Kinetic Training
 “Sometimes you just have to get back to basics.”
 
 **Prerequisite:** Kineticist 1st or character level 5th
 
 **Benefit:** You gain the basic utility wild talent for any one element. If you later gain a level in the kineticist class, you can immediately exchange this basic utility wild talent for a level 1 utility wild talent for which you qualify unless you possess a wild talent the requires the basic utility you wish to replace.
+
+++++ Bestial Elementalist
+“C’mon, boy, wanna play a game of fetch the fireball?”
+
+**Prerequisite:** Must possess an animal companion with the bounding blast class feature.
+
+**Benefit:** When your animal companion imbues you with a blast through its bounding blast ability, you can deliver that blast within a number of rounds equal to your animal companion’s Constitution modifier.
+
+**Normal:** You must deliver a blast imbued to you by the bounding blast ability by the end of your next turn.
+
+**Special:** If you possess a kinetic blast, you gain the bounding blast class feature. This functions the same as the bestial kineticist archetype’s bounding blast, except you imbue your animal companion with a kinetic blast you possess instead and it can use that blast within a number of rounds equal to your Constitution modifier.
 
 ++++ Brutal Blast
 “I don’t need finesse to overwhelm an opponent, I just need power.”
@@ -49,6 +69,20 @@ The following are new feats that can be taken by kineticists.
 **Prerequisite:** Burn class feature, 7th-level kineticist
 
 **Benefit:** You can consider your character level to be two levels lower to determine the amount of non-lethal damage you take from your burn class feature.
+
+++++ Burning Arcana
+“My power is limitless!”
+
+**Prerequisites:** Burn and arcane pool or arcane reservoir class features.
+
+**Benefit:** Whenever you would spend 1 point from your arcane pool or arcane reservoir, you can instead accept 1 point of burn.
+
+++++ Burning Ki
+“My hand glows with an awesome power...”
+
+**Prerequisites:** Burn and ki pool class features.
+
+**Benefit:** Whenever you would spend 1 point from your ki pool, you can instead accept 1 point of burn.
 
 ++++ Composite Blast Technique
 “You don’t need that much training...or any, really…”
@@ -95,6 +129,15 @@ The following are new feats that can be taken by kineticists.
 **Benefit:** Your energy simple and composite blasts gain a +1 to attack rolls. You can also apply the Deadly Aim feat to your energy blasts.
 
 **Normal:** Ranged touch attacks cannot apply the Deadly Aim feat.
+
+++++ Enhanced Composite Boost
+“I like to put just a little more time into my blasts.”
+
+**Prerequisite:** Must possess a composite blast which modifies and is treated as another blast.
+
+**Benefit:** When you use a composite blast to modify another blast (such as aetheric boost), you can apply substance infusions of the composite blast’s element (for example, a gravitic boost fire blast could use all void substance infusions in addition to those normally associated with fire blast).
+
+**Normal:** When using a composite blast to modify another blast, the composite blast is treated as the modified blast, and as such is only associated with infusions normally associated with the modified blast.
 
 ++++ Extended Buffer
 “I just know how to take a hit better, even when I’m doing it myself!”
@@ -213,6 +256,15 @@ The following are new feats that can be taken by kineticists.
 
 **Benefit:** If you hit a creature with your kinetic blast, on your next round that creature takes a -1 penalty on saving throws against any utility wild talents you use that share the same element as your blast and a -2 against any utility wild talent with a different element from your blast.
 
+++++ Kinetic Disruption
+“It’s all about the right application of energy.”
+
+**Prerequisite:** Kinetic blast class feature.
+
+**Benefit:** Energy blasts can be readied to counterspell any evocation spell of their effective spell level or lower, and physical blasts can be readied to counterspell any conjuration (creation) spell of their effective spell level or lower.
+
+**Special:** Negative blast can counterspell necromancy spells rather than evocation, and telekinetic blast can counterspell transmutation and conjuration (teleportation) spells rather than conjuration (creation).
+
 ++++ Kinetic Harpoon
 “They won’t be moving anytime soon, that’s for sure!”
 
@@ -264,6 +316,13 @@ The following are new feats that can be taken by kineticists.
 
 **Benefit:** Your devastating infusion, dual blades, kinetic assault, kinetic blade, kinetic fist, kinetic whip, and vital blade are considered to have the deadly, disarm, distracting, sunder, and trip weapon qualities.
 
+++++ Kinetic Railgun
+“Just wait until I get going…”
+
+**Prerequisite:** Excessive blaster class feature.
+
+**Benefit:** Whenever you are affected by a haste spell or effect, you can fire 1 additional blast while using your onslaught blast. In addition, when you use Focused Blaster while affected by haste spell or effect, you can reduce the cost of a blast’s burn by an additional 1 point of burn.
+
 ++++ Kinetic Remnants
 “Watch your step.”
 
@@ -293,6 +352,22 @@ The following are new feats that can be taken by kineticists.
 **Prerequisites:** kineticist 1st, acid blast, bite attack
 
 **Benefit:** Your bite attacks deal 1 point of acid damage in addition to their normal damage. Living creatures you bite must make a Fortitude save (DC equal to your acid blast’s DC) or be sickened for a number of rounds equal to 1 + your Con modifier (minimum 1 round).
+
+++++ Mental Bastion
+“The voices told me not to listen to you.”
+
+**Prerequisite:** Psychokineticist 1st.
+
+**Benefit:** Choose either charm, compulsion, or emotion effects. When you’ve accepted burn, you ignore the penalty to Will saves against the chosen type of effect, and you can now retain your kineticist class features even if you gain immunity to the chosen type of effect or a related subtype thereof.
+
+++++ Metakinetic Trick
+“She’s a smart girl; she learned how to do this just from watching me do it!”
+
+**Prerequisites:** Animal companion with the bestial kineticist archetype, metakinesis class feature.
+
+**Benefit:** When you gain this feat, select a metakinesis you possess. Your animal companion can apply that metakinesis to its kinetic blasts.
+
+**Special:** You can select any metamagic feat you possess through Extended Metakinesis for this feat. If you possess the metakinetic savant archetype, you can select any metamagic feat you possess through your metakinetic feats class feature for this feat.
 
 ++++ Mutable Composition
 “Did you maybe think I’d rather crush his skull a lot and just burn him a tiny bit, rather than do both equally?”
@@ -405,6 +480,24 @@ The following are new feats that can be taken by kineticists.
 **Benefit:** Choose one composite blast you know. You may choose to have it deal damage as a simple blast, reducing its burn cost by 1. You may not apply this to a force blast.
 
 **Special:** You may take this feat multiple times; each time it applies to a different composite blast.
+
+++++ Soul Feast
+“I love the taste of freshly squeezed terror in the morning.”
+
+**Prerequisite:** Dark elementalist 7th.
+
+**Benefit:** You gain alchemical bonuses to your mental ability scores based on the number of souls you’ve wracked with soul power since the last time you’ve recovered burn and your current dark elementalist level. If you’ve racked three or more souls, you receive a +2 alchemical bonus to two mental ability scores of your choice; if you’ve wracked five or more souls and you are at least an 11th level dark elementalist, you receive a +4 alchemical bonus to one mental ability score of your choice and a +2 alchemical bonus to each of the remaining mental ability scores; if you’ve wracked seven or more souls and you are at least a 16th level dark elementalist, you receive a +6 alchemical bonus to one mental ability score, a +4 alchemical bonus to another, and a +2 alchemical bonus to the third.
+
+**Normal:** You only receive bonuses to your attack and damage rolls from using soul power to rack souls.
+
+++++ Soul Tormentor
+“They always said she was an old soul, but I still wanted her.”
+
+**Prerequisite:** Dark elementalist 7th.
+
+**Benefit:** You can use your soul power class feature to wrack the soul of any sentient creature that has died within the past week. In addition, your elemental overflow’s bonuses are based on a combination of both the amount of burn you’ve accepted that day plus the number of souls you’ve racked with soul power that day.
+
+**Normal:** You can only use soul power to wrack the soul of a sentient creature that has died in the past minute, and your elemental overflow’s bonuses are based only on how many souls you have racked that day.
 
 ++++ Spontaneous Chirurgery
 “Gods they may not be, but the elementals provide me with no less protection than your deity gives you.”
