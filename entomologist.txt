@@ -1,0 +1,579 @@
+title:Entomologist
+[[toc]]
+
+Entomologists have the following class features:
+
+++ ##000000|Reliance on Jars##
+An entomologist is absolutely reliant upon preservation vessels to ply her trade. As a result, herbalists who have replaced the preservation vessels portion of the earthenware jars class feature cannot become entomologists.
+
+++ ##000000|Entomology (Su)##
+At 1st level, an entomologist has gained sufficient knowledge of the bugs, insects, arachnids, and other assorted creepy-crawlies of the natural world that he can weaponize them in much the same way that a typical herbalist does his herbalism plants. (For simplicity's sake, all such creepycrawlies will be called "bugs" from here on out, even though it's scientifically inaccurate.) When using the find herbs class feature to determine his herbalism plants for the day, if an entomologist has at least one empty preservation vessel, he can declare his next find herbs roll to be searching for bugs.
+
++++ ##000000|Searching for Bugs##
+To search for bugs, an entomologist rolls on the appropriate biome's find herbs table as normal, but does NOT collect any of the herbalism plants marked with an asterisk (*) on the rolled table entry. These marked herbalism plants add up to 4 points worth of plants out of the 10 points worth of plants listed in each entry of a biome table. In exchange for giving up these plants, an entomologist also rolls on that biome's entomology table (see Section: Entomology Tables) and collects the bug listed on the rolled table entry.
+
+If a biome table has no asterisks (*), then the entomologist cannot look for bugs in that biome. (The fungus forest biome, unique to the mycologist archetype, is an example of a biome that allows no microcosmal or entomological substitutions.) Additionally, as searching for microcosm plants and searching for bugs both replace herbalism plants marked with an asterisk (*), an entomologist cannot both search for bugs and search for microcosm herbs with the same find herbs roll. He must choose one or the other.
+
++++ ##000000|Housing and Feeding Bugs##
+Collected bugs must be placed in a preservation vessel immediately and are lost if they are let out of a preservation vessel for any reason other than activating them. Treat a bug as though its point value were equal to the maximum capacity of the preservation vessel unless stated otherwise in that bug's entry. An entomologist can release a bug to the wild, thus freeing his preservation vessel up, as a standard action.
+
+Each bug's entry has a "Feed Cost" line item. Each day, an entomologist must feed the bug that many points worth of herbalism plants, or else it starves to death overnight. The entomologist may choose which herbalism plants to feed the bug, but does not need to feed a bug on the day he first collects it. It is assumed to have fed itself before being snatched up.
+
+Some bugs have special "Dietary Considerations". These considerations take one of two forms. First, a bug's Dietary Considerations can be a mandatory additional restriction on how that bug's Feed Cost is paid. For example, a bug's Dietary Considerations can state that its Feed Cost must be paid exactly, and overfeeding it is not an option. Secondly, Dietary Considerations can be an option to feed a bug more than its listed Feed Cost for an additional effect the next time it is activated.
+
+Most bugs have a "Reactivation Cost". If a bug that has already been activated for the day (see below) is fed points of herbalism plants equal to its Reactivation Cost, a standard action, then it may be activated again that day. As with paying a bug's Feed Cost, the entomologist chooses which herbalism plants are expended to pay a bug's Reactivation Cost. So long as the entomologist has herbalism plants, she may pay a bug's Reactivation Cost again and again to keep reactivating it.
+
+An entomologist may pay a bug's Reactivation Cost again and again, but neglect to pay its Feed Cost. This, in effect, allows the entomologist to get multiple uses out of a particular bug, and then the overworked bug starves to death overnight.
+
++++ ##000000|Activating Bugs##
+An entomologist may activate his captured bugs once per day. Each bug has its own activation time as listed in its entry in Section: The Entomology List. When activated, a bug produces some effect, then returns to its preservation vessel when the duration of that effect expires. If a bug produces a swarm effect and the resulting swarm is slain, the remainder of the swarm retreats to the preservation vessel and repopulates the following morning. Swarm bugs in need of repopulation cannot be reactivated in any manner.
+
+The Difficulty Class (DC) for a saving throw against an entomologist's bug is 10 + 1/2 the entomologist's class level + the entomologist's Wisdom modifier.
+
+This ability replaces recipes.
+
+++ ##000000|Foraging (Ex)##
+At 1st level, whenever an entomologist collects his herbalism plants for the day with the find herbs class feature, he also collects 1 unit of generic produce. This unit of generic produce may be used as raw material when cooking various herbalism plants, and it is also treated as an herbalism plant with a point value of 1 for the purpose of feeding bugs. See both recipes that produce cooked plant products and various herbalism plants whose entries include a cooking component for places where foraged generic produce can be applied.
+
+At 6th level and every six levels thereafter, an entomologist collects an additional unit of generic produce, to a maximum of 4 units of produce at 18th level.
+
+++ ##000000|Green Thumb##
+At 3rd level, an entomologist gains the following green thumb ability.
+
+++++ Extra Bugs (Su)
+As a fullround action, an entomologist may expend green thumb points equal to the listed "Reactivation Cost" of a bug he has already activated today. The chosen bug may be activated again as though it had been fed points of herbalism plants equal to its Reactivation Cost.
+
+This ability replaces the extra cultivation green thumb ability.
+
+++ ##000000|Natural Prodigy##
+When selecting his natural prodigy ability at 20th level, an entomologist may also choose from the following options.
+
+++++ Bug Whisperer (Ex)
+If the entomologist does not feed her bugs, they do not die. Instead, he simply cannot activate bugs that she did not feed the previous day. In addition, the first time an entomologist searches for bugs daily, he collects the full 10 points of herbalism plants rolled in addition to the bug.
+
+++++ Collector (Su)
+The entomologist gains two bug cages. A bug cage has the same functionality as a preservation vessel, save that it can only store bugs and not herbalism plants.
+
+++++ Form of the Bug (Su)
+As cliché as it sounds, after spending so long gazing upon bugs, the bugs eventually gazed back at the entomologist. He permanently gains the benefits of the spider climb spell, DR 5/bludgeoning, and darkvision 60 feet. If the entomologist already has darkvision from another source, he increases the range of his extant form of darkvision by +30 feet instead.
+
+++++ Master Forager (Ex)
+Whenever the entomologist gains units of generic produce with the foraging class feature, he may choose to gain that many units of his choice of any 1-point herbalism plant available in his current biome or microcosm instead. For example, the entomologist may choose to collect five units of ubiquitine instead of five units of generic produce. Further, the entomologist finds an additional unit of generic produce daily.
+
+++++ Master Leptidopterist (Su)
+Whenever the entomologist catches a bug, if it is not a white butterfly, he may choose to have retroactively caught a white butterfly instead. Similarly, whenever the entomologist catches a bug with a point value of 4, if it is not a viceroy butterfly, he may choose to have retroactively caught a viceroy butterfly instead. Finally, no matter where the entomologist is, even if the realm in which he is currently located doesn't support life, the entomologist passively catches a viceroy butterfly whenever his herbalism plants check for spoilage for the day. Nobody really knows from where they come.
+
+++++ Netter Extraordinaire (Ex)
+When rolling to find bugs, the entomologist rolls twice and chooses one result to keep. If he rolls duplicate results on a find bugs roll, he loses the benefits of this ability for the remainder of the day.
+
+This ability modifies natural prodigy.
+
+----
+
++ ##000000|Entomology Tables##
+
+[[div style="float:left; width: 25%; padding: 0 2%"]]
+**Table: Desert Bugs**
+||~ d8 ||~ Bug Found ||
+|| 1 || Hoarder ||
+|| 2 || Omnivorous Grub ||
+|| 3 || Dewdrinker Beetle ||
+|| 4 || Parasitic Wasp ||
+|| 5 || Scorpion ||
+|| 6 || Mosquitoes ||
+|| 7 || Locusts ||
+|| 8 || Killer Bee ||
+
+
+**Table: Forest Bugs**
+||~ d8 ||~ Bug Found ||
+|| 1 || White Butterfly ||
+|| 2 || Cockraoch ||
+|| 3 || Deinopas ||
+|| 4 || Ladybug ||
+|| 5 || Termites ||
+|| 6 || Mosquitoes ||
+|| 7 || Grasshopper ||
+|| 8 || Bombardier Beetle ||
+
+
+**Table: Grassland Bugs**
+||~ d8 ||~ Bug Found ||
+|| 1 || Bookworm ||
+|| 2 || Wooly Bear ||
+|| 3 || White Butterfly ||
+|| 4 || Ladybug ||
+|| 5 || Locusts ||
+|| 6 || Mosquitoes ||
+|| 7 || Grasshopper ||
+|| 8 || Viceroy Butterfly ||
+[[/div]]
+
+[[div style="float:left; width: 25%; padding: 0 2%"]]
+**Table: Jungle Bugs**
+||~ d8 ||~ Bug Found ||
+|| 1 || Omnivorus Grub ||
+|| 2 || Magebane Moth ||
+|| 3 || Parasitic Wasp ||
+|| 4 || Deinopas ||
+|| 5 || Termites ||
+|| 6 || Mosquitoes ||
+|| 7 || Dyeback Beetle ||
+|| 8 || Leaf Cutter Ants ||
+
+
+**Table: Mountain Bugs**
+||~ d8 ||~ Bug Found ||
+|| 1 || Omnivorous Groub ||
+|| 2 || Dewdrinker Beetle ||
+|| 3 || Mountain Tick ||
+|| 4 || White Butterfly ||
+|| 5 || Scorpion ||
+|| 6 || Mosquitoes ||
+|| 7 || Grasshopper ||
+|| 8 || Beard of the Mountain ||
+
+
+**Table: Tundra Bugs**
+||~ d8 ||~ Bug Found ||
+|| 1 || Hoarder ||
+|| 2 || Dewdrinker Beetle ||
+|| 3 || Snowy Weevil ||
+|| 4 || Wooly Bear ||
+|| 5 || Arctic Bumblebee ||
+|| 6 || Mosquitoes ||
+|| 7 || Dyeback Beetle ||
+|| 8 || Blackflies ||
+[[/div]]
+
+[[div style="float:left; width: 25%; padding: 0 2%"]]
+**Table: Underground Bugs**
+||~ d8 ||~ Bug Found ||
+|| 1 || Albino Nymph ||
+|| 2 || Phosphor Beetle ||
+|| 3 || Giant Centipede ||
+|| 4 || Snowy Weevil ||
+|| 5 || Grasshopper ||
+|| 6 || Mosquitoes ||
+|| 7 || Leech ||
+|| 8 || Brain Wriggler ||
+
+
+**Table: Underwater Bugs**
+||~ d8 ||~ Bug Found ||
+|| 1 || Whirligig Beetle ||
+|| 2 || Damselfly ||
+|| 3 || Albino Nymph ||
+|| 4 || Fishfly ||
+|| 5 || Dragonfly Nymph ||
+|| 6 || Mosquitoes ||
+|| 7 || Leech ||
+|| 8 || Giant Isopod ||
+
+
+**Table: Wetlands Bugs**
+||~ d8 ||~ Bug Found ||
+|| 1 || Water Strider ||
+|| 2 || Damselfly ||
+|| 3 || Stonefly ||
+|| 4 || Fishfly ||
+|| 5 || Dragonfly Nymph ||
+|| 6 || Mosquitoes ||
+|| 7 || Leech ||
+|| 8 || Midges ||
+[[/div]]
+
++ ##000000|Entomology List##
+
++++ ##000000|Arctic Bumblebee##
+**Biome(s):** Tundra
+**Feed Cost:** 2
+**Reactivation Cost:** 2
+**Duration:** 1 hour/level
+
+When activated as a standard action, an arctic bumblebee protects the entomologist, ensuring that she suffers no harm from being in a hot or cold environment. She can exist comfortably in conditions between 50 and 140 degrees Fahrenheit (45 and 60 degrees Celsius) without having to make Fortitude saves. Her equipment is likewise protected. In addition, she gains resistance to both cold and fire equal to half her entomologist level, rounded down (minimum 1).
+
++++ ##000000|Albino Nymph##
+**Biome(s):** Underground, Underwater
+**Feed Cost:** 1
+**Reactivation Cost:** 1
+**Duration:** 1 minute/level
+
+When activated as a standard action, an albino nymph grants a willing creature within reach of the entomologist darkvision 60 ft.
+
++++ ##000000|Beard of the Mountain##
+**Biome(s):** Mountains
+**Feed Cost:** 4
+**Reactivation Cost:** 4
+**Duration:** instantaneous
+
+When activated as a standard action, a beard of the mountain (a variety of fungivorous slug) restores 1d6 hit points per entomologist level to a living ally within 30 feet. Starting at 10th level, beard of the mountain can also affect allies that have died in the last round. In this case, the ally returns to life and the healing is applied to an initial hit point total of the point at which that creature normally dies. For example, if an ally dies at -15 hit points, then the healing of beard of the mountain applies to that ally starting at a hit point total of -15.
+
++++ ##000000|Blackflies##
+**Biome(s):** Tundra
+**Feed Cost:** 4
+**Reactivation Cost:** 4
+**Duration:** 1 round + 1 round/level
+
+When activated as a standard action, blackflies burst forth from their preservation vessel, creating a swarm that maintains cohesion for the duration of this bug's effect, or until destroyed.
+
+A swarm of blackflies has a fly speed of 60 feet with perfect maneuverability; Str 3, Dex 14, Con 11, Int , Wis 14, and Cha 2; Hit Dice (d8) equal to the entomologist's class level; resistance to cold equal to the entomologist's class level; acts on the entomologist’s turn; and occupies one square, plus an additional square for every six entomologist levels the entomologist possesses. As a mindless swarm, blackflies have both swarm traits and vermin traits. When a blackfly swarm's health is reduced, the number of squares it occupies is reduced in proportion. For example, for every quarter of its health that a swarm that normally occupies four squares loses, it occupies one fewer square, while a swarm that normally occupies two squares only occupies one when reduced to half health or lower.
+
+The entomologist can command this swarm to move as a swift action, though it must have a move action available to comply and the destination must be a legal space for it to occupy. A swarm of blackflies deals swarm damage equal to the entomologist's class level, and has the following special ability.
+
+//Wounding (Ex):// Any living creature damaged by a swarm of blackflies continues to bleed, losing hit points equal to onehalf the entomologist's class level (rounded down) per round thereafter. Multiple wounds do not result in cumulative bleeding loss. The bleeding can be stopped by a DC 10 Heal check or the application of a cure spell or some other healing magic. Starting at 11th level, any living creature damaged by a swarm of blackflies also takes 1 point of Constitution bleed.
+
++++ ##000000|Blister Beetle##
+**Biome(s):** Desert
+**Feed Cost:** 1
+**Reactivation Cost:** 1
+**Duration:** 2 rounds + 2 rounds/level or until discharged; see text
+
+When activated as a standard action, the next creature to hit the entomologist in melee takes 1d4 points of acid damage per entomologist level.
+
++++ ##000000|Bombardier Beetle##
+**Biome(s):** Forest
+**Feed Cost:** 4
+**Reactivation Cost:** 4
+**Duration:** 1 round + 1 round/level
+
+When activated as a standard action, a bombardier beetle takes flight in the space occupied by the entomologist. Upon activation, and once per round on the entomologist’s turn, the bombardier beetle launches a spurt of boiling-hot peroxide at a creature within 60 feet, dealing 1d8 + the entomologist's Wisdom modifier acid damage on a successful ranged touch attack. The bombardier beetle's attack modifier is equal to the entomologist's class level + her Wisdom modifier. While the bombardier beetle is activated, whenever the entomologist fails a saving throw against a damaging area-of-effect ability, the remaining duration of the bombardier beetle decreases by 1 round.
+
+Starting at 10th level, the entomologist may end the activation of a bombardier beetle early as a standard action. If she does, the beetle launches a spurt of peroxide for every two rounds of duration it had remaining. These spurts may all target the same creature.
+
++++ ##000000|Bookworm [mind-affecting]##
+**Biome(s):** Grassland
+**Feed Cost:** 1
+**Reactivation Cost:** 1
+**Duration:** 1 round + 1 round/level
+
+When activated as a standard action, a bookworm renders a single creature within 30 feet unable to read for its duration. This includes both mundane script, as well as magical script, such as scrolls or the explosive runes spell. A successful Will save negates.
+
++++ ##000000|Brain Wriggler [mind-affecting]##
+**Biome(s):** Underground
+**Feed Cost:** 4
+**Reactivation Cost:** 4
+**Duration:** see text
+
+When activated as a standard action, a brain wriggler crawls into the body of a creature within reach of the entomologist. Choose one of the following effects:
+* **1:** The brain wriggler alters the target's brain chemistry, mimicking the effects of the charm monster spell with a Will save to negate. This effect persists for 1 minute per entomologist level, and the brain wriggler dies when its duration expires if the target is not within reach of the entomologist.
+* **2:** Starting at 7th level, the brain wriggler may instead take over the target's mind in its entirety, mimicking the effects of the dominate monster spell, save that the target is not entitled to additional saving throws for being commanded to perform actions that go against its nature. A successful Will saving throw negates. This effect persists for 2 rounds, and the brain wriggler dies when its duration expires.
+
++++ ##000000|Cockroach##
+**Biome(s):** Forest
+**Feed Cost:** 1
+**Reactivation Cost:** 1
+**Duration:** see text
+
+When activated as a swift action, choose acid, cold, electricity, fire, or sonic. A cockroach grants the entomologist resistance against the chosen energy type equal to twice her entomologist level against the next source of damage of that type to affect her before the beginning of her next turn.
+
++++ ##000000|Damselfly##
+**Biome(s):** Underwater, Wetland
+**Feed Cost:** 1
+**Reactivation Cost:** 1
+**Duration:** see text
+
+When a damselfly is activated as a standard action, a willing creature within reach of the entomologist molts, producing a thick layer of skin ripe for shedding. This thick layer of skin is permanent and prevents all damage dealt to the subject, but ends immediately once it has absorbed points of damage equal to 3 + the entomologist's class level. Whenever the subject moves, the molting skin takes 1d6 points of damage.
+
+**Dietary Considerations:** When a damselfly is fed 2 points of plants, it may be activated as a swift action rather than as a standard action. This persists for one activation of the damselfly, or until the next time it is fed, whichever comes first. For the purpose of dietary considerations, being fed multiple plants at once is considered one feeding.
+
++++ ##000000|Deinopas##
+**Biome(s):** Forest, Jungle
+**Feed Cost:** 1
+**Reactivation Cost:** 1
+**Duration:** 1 round + 1 round/3 levels
+
+When activated as a standard action, a deinopas spider launches a blob of webbing at a single creature within 60 feet, entangling that creature with a Reflex save to negate. If the entangled creature takes fire damage, this effect ends immediately.
+
+**Dietary Considerations:** When a deinopas spider is fed 2 points of plants, it may be activated as a swift action rather than as a standard action. This persists for one activation of the deinopas, or until the next time it is fed, whichever comes first. For the purpose of dietary considerations, being fed multiple plants at once is considered one feeding.
+
++++ ##000000|Dewdrinker Beetle##
+**Biome(s):** Desert, Mountains, Tundra
+**Feed Cost:** 1
+**Reactivation Cost:** 1
+**Duration:** instantaneous
+
+When activated as a standard action, a dewdrinker beetle spews forth a plume of water, striking a creature within 30 feet and knocking it prone with the subject's choice of a Reflex save or a DC 10 + 1/2 the entomologist's class level + the entomologist's Wisdom modifier Strength check to negate. If electing to make a Strength check, the subject applies his bonuses to CMD against the trip combat maneuver to the check.
+
++++ ##000000|Dragonfly Nymph##
+**Biome(s):** Underwater, Wetland
+**Feed Cost:** 2
+**Reactivation Cost:** 2
+**Duration:** 1 hour/level
+
+When activated as a standard action, a dragonfly nymph grants a willing creature within reach of the entomologist the ability to breathe underwater, as the water breathing spell.
+
++++ ##000000|Dyeback Beetle##
+**Biome(s):** Jungle, Tundra
+**Feed Cost:** 2
+**Reactivation Cost:** 2
+**Duration:** 1 round + 1 round/level
+
+When activated as a standard action, a dyeback beetle renders a willing ally within 30 feet invisible, as the invisibility spell. If the subject performs any action that would cause the invisibility spell to end, then the effects of this bug end immediately. Starting at 5th level, the subject may perform a single action that would cause the invisibility spell to end without ending the effects of the dyeback beetle. A second such action would cause it to end as normal. This increases to being allowed to perform up two actions that would cause the invisibility spell to end without ending the effects of dyeback beetle at 10th level, three actions at 15th level, and four actions at 20th level.
+
++++ ##000000|Fishfly##
+**Biome(s):** Wetland, Underwater
+**Feed Cost:** 1
+**Reactivation Cost:** 1
+**Duration:** 1 round + 1 round/level
+
+When activated as a standard action, a fishfly latches onto a creature within 30 feet, dealing 1 point of bleed damage, plus an additional point of bleed damage each round at the beginning of the entomologist's turn. A successful Fortitude save negates a single source of bleed damage dealt by a fishfly. A fishfly's bleed damage stacks with itself, but not other sources of bleed damage, to a maximum of the entomologist's Wisdom modifier. When a fishfly’s duration expires, the bleed effect ends immediately.
+
+Ripping a fishfly off of a creature requires a DC 10 + 1/2 the entomologist's class level + the entomologist's Wisdom modifier Strength check, and may be attempted as a standard action, or in place of an attack in a full-attack action. If ripped off, the fishfly dies instantly and its effect ends.
+
+**Special:** Whenever an entomologist finds a fishfly with the entomology class feature, he finds two of them instead. Up to two fishflies may be placed in a single preservation vessel.
+
++++ ##000000|Giant Centipede##
+**Biome(s):** Underground
+**Feed Cost:** 1
+**Reactivation Cost:** 2
+**Duration:** instantaneous
+
+When activated as a standard action, a giant centipede crawls up to a willing creature within 30 feet and applies a dose of poison to one of that creature's weapons. A giant centipede cannot accidentally poison itself in this manner. A giant centipede's poison has the following profile:
+**Type** poison (injury); **Save** Fortitude; **DC** 10 + 1/2 entomologist level + Wisdom modifier; **Frequency** 1/round for entomologist level/2 rounds, rounded down (minimum 1); **Effect** 1 Dex damage, 1 Wis damage; **Cure** 2 consecutive saves
+
++++ ##000000|Giant Isopod##
+**Biome(s):** Underwater
+**Feed Cost:** 4
+**Reactivation Cost:** 4
+**Duration:** 2 rounds + 2 rounds/level
+
+When a giant isopod is activated as a standard action, a willing creature within reach of the entomologist gains DR X/and resistance X to untyped magical damage, where X is 3 + one-third the entomologist's class level, rounded down. This damage reduction stacks with that from adamantine equipment and the damage reduction class feature.
+
++++ ##000000|Grasshopper##
+**Biome(s):** Forest, Grassland, Mountain, Underground
+**Feed Cost:** 2
+**Reactivation Cost:** n/a
+**Duration:** instantaneous
+
+When a grasshopper is activated as a standard action, a willing creature within reach of the entomologist eats the grasshopper, killing it and receiving the benefits of all the plants it consumed the last time it fed. Starting at 13th level, the feed cost of a grasshopper increases to 3.
+
+**Special:** Whenever an entomologist finds a grasshopper with the entomology class feature, she assumes that the creature consumed two units of common yarrow the last time it fed.
+
+**Dietary Considerations:** A grasshopper may only be fed plants that can be chewed to restore hit points, such as common yarrow or hair of the mountain. Additionally, a grasshopper must be fed points of plants exactly equal to its feed cost when fed.
+
++++ ##000000|Hoarder##
+**Biome(s):** Desert, Tundra
+**Feed Cost:** 1
+**Reactivation Cost:** n/a
+**Duration:** instantaneous
+
+When a hoarder is activated as a standard action, a willing creature within reach of the entomologist eats the hoarder, killing it. The consumer is fed as though he ate a full day of food and drink, and he restores 1 hit point per entomologist class level of the individual who found the bug.
+
+**Special:** Whenever an entomologist finds a hoarder with the entomology class feature, she may choose not to collect any herbalism plants at all for that find herbs roll. If she chooses not to collect herbalism plants, she instead finds four hoarders. Hoarders found in groups start off docile and may be stored in the same preservation vessel until the first time they are fed. Hoarders are very aggressive feeders, and if multiple hoarders are in the same vessel come feeding time, then they fight until only one remains.
+
++++ ##000000|Killer Bee##
+**Biome(s):** Desert
+**Feed Cost:** 4
+**Reactivation Cost:** 4
+**Duration:** instantaneous
+
+When activated as a standard action, a killer bee stings a creature within 60 feet. If the subject fails a Fortitude saving throw, roll once on the table above, plus an additional time for every two entomologist levels. Additionally, all poisons with a frequency of 1 minute or less currently affecting the subject trigger their periodic effects immediately. This does not reset the countdown to the next normally-scheduled periodic effect of that poison. For example, if a killer bee stings a creature that was affected by a poison with a frequency of 1 minute 5 rounds ago, then that poison triggers, but it is still 5 rounds to the next time that poison would trigger on its own.
+
+**Table: Killer Bee Effects**
+||~ d6 ||~ Result ||
+|| 1 || Subject takes 1 Strength Damage ||
+|| 2 || Subject takes 1 Dexterity Damage ||
+|| 3 || Subject takes 1 Constitution Damage ||
+|| 4 || Subject takes 1 Intelligence Damage ||
+|| 5 || Subject takes 1 Wisdom Damage ||
+|| 6 || Subject takes 1 Charisma Damage ||
+
++++ ##000000|Ladybug##
+**Biome(s):** Forest, Grasslands
+**Feed Cost:** 1
+**Reactivation Cost:** 1
+**Duration:** 1 round; see text
+
+When activated as an immediate action, a ladybug grants a single willing creature within 30 feet a +1 luck bonus to skill checks, ability checks, saving throws, attack rolls, and AC. Alternatively, the ladybug may impose a -1 penalty to skill checks, ability checks, saving throws, attack rolls, and AC to an unwilling creature within 30 feet. There is no saving throw. Starting at 9th level, a ladybug's range increases to 60 feet and the duration of its effect increases to 2 rounds.
+
+Starting at 7th level, an entomologist can store up to two ladybugs in a single preservation vessel. This increases to up to three ladybugs in a single preservation vessel at 13th level. When an entomologist activates a ladybug, she may activate any number of other ladybugs contained in the same vessel with the same action. Their effects do not stack; instead, if multiple ladybugs affect a single creature, then the duration of the effect increases by +1 round for each ladybug beyond the first.
+
+Each ladybug must be fed individually; however, the entomologist may use the extra bugs green thumb ability to reactivate any number of used ladybugs, so long as they all occupy the same preservation vessel. Their reactivation costs must be paid individually, as well.
+
++++ ##000000|Leaf Cutter Ants##
+**Biome(s):** Jungle
+**Feed Cost:** n/a
+**Reactivation Cost:** n/a
+**Duration:** n/a
+
+A colony of leaf cutter ants feeds itself without the entomologist's help and produces a hair of the mountain each morning whenever the entomologist picks her herbalism plants for the day. Leaf cutter ants are very territorial, and if the same entomologist starts a second colony in another preservation vessel, then the two colonies immediately go to war, killing each other.
+
++++ ##000000|Leech##
+**Biome(s):** Underground, Underwater,Wetland
+**Feed Cost:** 2
+**Reactivation Cost:** 2
+**Duration:** 1 minute/level (D)
+
+When activated as a standard action, a leech attaches itself to a willing creature within reach of the entomologist, dealing 1 point of bleed damage each round, but rendering the subject immune to disease for the duration. Diseases already in effect on the subject are suppressed for the duration of a leech's attachment, though any damage already dealt by said disease remains in full effect.
+
+**Special:** A leech's feed and reactivation costs may be paid, wholly or in part, in points of Constitution drain on the part of the entomologist rather than in points of herbalist plants.
+
++++ ##000000|Locusts##
+**Biome(s):** Desert, Grassland
+**Feed Cost:** 2
+**Reactivation Cost:** 2
+**Duration:** 1 round + 1 round/level
+
+When activated as a standard action, locusts burst forth
+from their preservation vessel, creating a swarm that maintains cohesion for the duration of this bug's effect, or until destroyed. 
+
+A swarm of locusts has a fly speed of 60 feet with perfect maneuverability; Str 3, Dex 14, Con 11, Int , Wis 14, and Cha 2; Hit Dice (d8) equal to the entomologist's class level; acts on the entomologist’s turn; resistance to cold equal to the entomologist's class level; and occupies one square, plus an additional square for every six entomologist levels the entomologist possesses. As a mindless swarm, locusts have both swarm traits and vermin traits. When a locust swarm's health is reduced, the number of squares it occupies is reduced in proportion. For example, for every quarter of its health that a swarm that normally occupies four squares loses, it occupies one fewer square, while a swarm that normally occupies two squares only occupies one when reduced to half health or lower.
+
+The entomologist can command this swarm to move as a swift action, though it must have a move action available to comply and the destination must be a legal space for it to occupy. A swarm of locusts deals swarm damage equal to the entomologist's class level, and has the following special ability.
+
+//Pestilence (Ex):// Whenever a swarm of locusts deals swarm damage to a creature, it also deals that much damage to a single exposed mundane object made of plant fiber on that creature's person, such as a basket or books. This damage ignores hardness.
+
++++ ##000000|Magebane Moth##
+**Biome(s):** Jungle
+**Feed Cost:** 1
+**Reactivation Cost:** 2
+**Duration:** instantaneous
+
+When activated as a standard action, a magebane moth flies up to a willing creature within 30 feet and applies a dose of poison to one of that creature's weapons. A magebane moth cannot accidentally poison itself in this manner. A magebane moth's poison has the following profile:
+**Type** poison (injury); **Save** Fortitude; **DC** 10 + 1/2 entomologist level + Wisdom modifier; **Frequency** 1/round for entomologist level/2 rounds, rounded down; **Effect** 1 Con damage, 1 Cha damage; **Cure** 2 consecutive saves
+
++++ ##000000|Midges##
+**Biome(s):** Wetland
+**Feed Cost:** 4
+**Reactivation Cost:** 4
+**Duration:** 1 round + 1 round/level (D)
+
+When activated as a standard action, midges burst forth from their preservation vessel, creating a swarm that maintains cohesion for the duration of this bug's effect, or until destroyed.
+
+A swarm of midges has a fly speed of 60 feet with perfect maneuverability; Str 3, Dex 14, Con 11, Int , Wis 14, and Cha 2; Hit Dice (d8) equal to the entomologist's class level; acts on the entomologist’s turn; resistance to cold equal to the entomologist's class level; and occupies one square, plus an additional square for every six entomologist levels the entomologist possesses. As a mindless swarm, midges have both swarm traits and vermin traits. When a midge swarm's health is reduced, the number of squares it occupies is reduced in proportion. For example, for every quarter of its health that a swarm that normally occupies four squares loses, it occupies one fewer square, while a swarm that normally occupies two squares only occupies one when reduced to half health or lower.
+
+The entomologist can command this swarm to move as a swift action, though it must have a move action available to comply and the destination must be a legal space for it to occupy. A swarm of midges deals swarm damage equal to the entomologist's class level, and has the following special ability.
+
+//Confounding Swarm (Ex):// Whenever a swarm of midges deals swarm damage to a creature, that creature is confused for 1 round with a DC 10 + 1/2 the entomologist's class level + the entomologist's Wisdom modifier Will save to negate. This is a mind-affecting ability.
+
++++ ##000000|Mosquitoes##
+**Biome(s):** All (Yes, even underwater.)
+**Feed Cost:** 2
+**Reactivation Cost:** 2
+**Duration:** 1 minute + 1 minute/level (D)
+
+When activated as a standard action, a cloud of mosquitoes surrounds the entomologist. After a creature attacks her in melee, the mosquitoes make a melee touch attack against that creature, using the entomologist's class level + her Wisdom modifier as their attack modifier. On a successful hit, the mosquitoes deal 1 point of Constitution damage and the remaining duration of their activation decreases by 1 minute. Additionally, while the mosquitoes are activated, whenever the entomologist fails a saving throw against a damaging area-of-effect ability, the remaining duration of the mosquitoes decreases by 1 minute.
+
+**Dietary Considerations:** Starting at 13th level, mosquitoes may be fed 4 points of plants rather than 2 points of plants. If they are, mosquitoes no longer lose duration whenever the entomologist fails a saving throw against a damaging areaofeffect ability, and they deal Constitution drain rather than Constitution damage. This persists for one activation of the mosquitoes, or until the next time they are fed, whichever comes first. For the purpose of dietary considerations, being fed multiple plants at once is considered one feeding.
+
++++ ##000000|Mountain Tick##
+**Biome(s):** Mountains
+**Feed Cost:** 1
+**Reactivation Cost:** n/a
+**Duration:** instantaneous
+
+When activated as a standard action, a mountain tick bites a creature within 30 feet, infecting the subject with one of the following diseases: blinding sickness, bubonic plague, cackle fever, filth fever, leprosy, mindfire, red ache, shakes, or slimy doom. The disease has an onset period of 1 day rather than its listed onset period, and until the entomologist is at least 7th level, the subject has a +4 bonus to all saving throws made against the disease thus contracted.
+
++++ ##000000|Omnivorous Grub##
+**Biome(s):** Desert, Jungle, Mountains
+**Feed Cost:** 1
+**Reactivation Cost:** n/a
+**Duration:** instantaneous
+
+When activated as a standard action, an omnivorous grub gets squeezed into a jelly, producing one dose of grub jelly. Grub jelly follows the rules for brewed herbalism produce, meaning a creature other than the entomologist may administer it without the jelly losing its effect. The effects of grub jelly are equal to the effects of the herbalism plant(s) the onmivorous grub consumed in its last feeding before being turned into jelly. For example, if the grub's last meal was common yarrow, then the resulting jelly copies the effects of common yarrow. If the copied plant is chewed, then the jelly follows the rules for a potion. If the copied plant is a thrown weapon, then the jelly is a splash weapon. If the copied plant is a poison or can be applied as an oil, then the jelly is a poison or can be applied as an oil. In all other cases, the jelly is functionally identical to the plant it copies, save that anyone can use it. Making grub jelly out of a grub kills it.
+
+**Dietary Considerations:** An omnivorous grub must be fed points of plants exactly equal to its feed cost when fed.
+
++++ ##000000|Parasitic Wasp##
+**Biome(s):** Desert, Jungle
+**Feed Cost:** 1
+**Reactivation Cost:** 1
+**Duration:** 1 round + 1 round/3 levels
+
+When activated as a standard action, a parasitic wasp stings a creature within 30 feet, injecting a larva that takes over the subject's nervous system with a Fortitude save to negate. Creatures thus affected are confused for the duration, though since their very nervous systems are suborned, this is not a mind-affecting ability and creatures that are normally immune to being confused can be confused in this manner. Creatures without a functioning central nervous system, such as the undead, are immune to the parasitic wasp.
+
+If an affected creature dies while the duration of this bug's activation is ongoing, the entomologist may harvest a fully-grown parasitic wasp from its corpse. This process takes 10 minutes, as they're fairly hard to find. A parasitic wasp harvested in this manner is treated as though it were already activated for the day.
+
++++ ##000000|Phosphor Beetle##
+**Biome(s):** Underground
+**Feed Cost:** 1
+**Reactivation Cost:** n/a
+**Duration:** 1 round + 1 round/ level
+
+A phosphor beetle produces a flask of alchemist's fire each morning whenever the entomologist picks her herbalism plants for the day. This flask of alchemist's fire denatures after 24 hours, becoming useless, and vendors immediately note this property and will not purchase it. At 4th level and every four entomologist levels thereafter, flasks of alchemist's fire produced by phosphor beetles deal an additional +1d6 fire damage on a direct hit and an additional point of splash damage. Additionally, when activated as a standard action, a phosphor beetle may be slain and smeared on the manufactured weapon of a willing creature within reach of the entomologist as though it were an oil. That weapon bursts into flame, gaining the flaming weapon special ability for the duration.
+
++++ ##000000|Scorpion##
+**Biome(s):** Desert, Mountains
+**Feed Cost:** 2
+**Reactivation Cost:** 2
+**Duration:** instantaneous
+
+When activated as a standard action, a scorpion crawls up to a willing creature within 30 feet and applies a dose of poison to one of that creature's weapons. A scorpion cannot accidentally poison itself in this manner. A scorpion's poison has the following profile:
+
+**Type** poison (injury); **Save** Fortitude; **DC** 10 + 1/2 entomologist level + Wisdom modifier; **Frequency** 1/round for entomologist level/2 rounds, rounded down (minimum 1); **Effect** 1 Str damage, 1 Dex damage; **Cure** 2 consecutive saves
+
+**Dietary Considerations:** When a scorpion is fed an herbalism plant that can itself be applied to a weapon as though it were a poison, the entomologist may replace the scorpion's native poison (listed above) with the poison effect of the eaten plant. This replacement persists for one activation of the scorpion, or until the next time it is fed, whichever comes first. For the purpose of dietary considerations, being fed multiple plants at once is considered one feeding, and if multiple qualifying poisonous plants are fed to the scorpion at once, pick the poison of one plant to copy.
+
++++ ##000000|Snowy Weevil##
+**Biome(s):** Tundra, Underground
+**Feed Cost:** 1
+**Reactivation Cost:** 2
+**Duration:** instantaneous
+
+When activated as a standard action, a snowy weevil crawls up to a willing creature within 30 feet and applies a dose of poison to one of that creature's weapons. A snowy weevil cannot accidentally poison itself in this manner. A snowy weevil's poison has the following profile:
+
+**Type** poison (injury); **Save** Fortitude; **DC** 10 + 1/2 entomologist level + Wisdom modifier; **Frequency** 1/round for entomologist level/2 rounds, rounded down; **Effect** 1 Str damage, 1 Int damage; **Cure** 2 consecutive saves
+
++++ ##000000|Stonefly##
+**Biome(s):**Wetland
+**Feed Cost:** 1
+**Reactivation Cost:** 1
+**Duration:** 1 minute/level
+
+When activated as a standard action, a stonefly alters the body of a willing creature within reach of the entomologist, regressing it to a more primitive, generalized form that is, nevertheless, quite good at staying alive. Whenever the subject would suffer a critical hit, there is a 5% chance per entomologist level (to a maximum of a 100% chance at 20th level) that the critical hit is negated and becomes a normal hit instead.
+
++++ ##000000|Termites##
+**Biome(s):** Forest, Jungle
+**Feed Cost:** 2
+**Reactivation Cost:** 2
+**Duration:** instantaneous
+
+When activated as a standard action, termites perform the entomologist's choice of one of the following effects.
+* **1:** The termites engulf a creature within reach of the entomologist, giving a single wooden or paper object on the target's person the broken condition with a Fortitude save to negate. Magic items affected by this ability may use their own Fortitude save modifier if it is superior to that of the target creature. Objects that gain the broken condition in this manner cannot be used and grant absolutely no benefit for so long as the broken condition persists. Starting at 11th level, the entomologist's termites give up to two wooden objects on the target's person the broken condition rather than just one.
+* **2:** The termites consume up to one cubic foot of unattended, mundane wood or paper per entomologist level. All material must be within 30 feet of the entomologist.
+* **3:** The termites engulf a wooden or paper creature within reach of the entomologist, dealing 1d6 points of damage per entomologist level with a Fortitude save for half.
+
++++ ##000000|Viceroy Butterfly##
+**Biome(s):** Grassland
+**Feed Cost:** 4
+**Reactivation Cost:** 4
+**Duration:** see text
+
+A viceroy may be activated as though it were any other bug in the entomologist's possession, or as though it were any bug with a reactivation cost of 2 or less that can be found in the biome in which the entomologist currently is. A viceroy cannot make use of the dietary considerations abilities of other bugs.
+
++++ ##000000|Water Strider##
+**Biome(s):** Underwater, Wetland
+**Feed Cost:** 1
+**Reactivation Cost:** 1
+**Duration:** 1 minute + 1 minute/3 levels
+
+When activated as a standard action, a water strider grants the entomologist the ability to walk on water as the water walking spell; however, until she reaches 5th level, she only has the ability to walk on water while moving. The instant she stops, such as at the end of a move action, she falls right into any water on top of which she happens to be.
+
++++ ##000000|Whirligig Beetle##
+**Biome(s):** Underwater
+**Feed Cost:** 1
+**Reactivation Cost:** 1
+**Duration:** see text
+
+When a whirligig beetle is activated as a swift action, the first time the entomologist would normally provoke an attack of opportunity this round, she doesn't.
+
++++ ##000000|White Butterfly##
+**Biome(s):** Forest, Grassland, Mountain
+**Feed Cost:** 1
+**Reactivation Cost:** 1
+**Duration:** see text
+
+When activated as a standard action, a white butterfly performs the entomologist's choice of one of the following.
+* **1:** The entomologist gains a fly speed of 60 feet with good maneuverability for 1 round. The duration of this effect increases to 1 minute starting at 5th level.
+* **2:** The white butterfly attacks a plant creature within 30 feet, dealing 1d4 points of damage per entomologist level with a Fortitude save for half.
+
+**Special:** Up to two white butterflies can be placed in the same preservation vessel.
+
++++ ##000000|Wooly Bear##
+**Biome(s):** Grassland, Tundra
+**Feed Cost:** 1
+**Reactivation Cost:** n/a
+**Duration:** instantaneous
+
+When activated as a standard action, a wooly bear answers a single question posed to it as the augury spell, with the following exceptions. First, the question must pertain to the natural world, such as queries about the weather or the migratory habits of a species of animal. Second, rather than answering with weal, woe, weal and woe, or nothing, the wooly bear either gives a short answer, or gives no reply whatsoever if the augury fails or is otherwise unanswerable. Third, the base chance for receiving a meaningful reply is 70% + 1% per entomologist level, to a maximum of 90%; this roll is still made secretly. All questions asked to wooly bears by the same person about the same topic use the same die result as the first attempt.
