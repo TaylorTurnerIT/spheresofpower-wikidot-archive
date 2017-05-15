@@ -1,0 +1,32 @@
+title:Mythic Communal Spells
+[[toc]]
+
+A category of spells introduced in Pathfinder Roleplaying Game Ultimate Combat is the concept of communal spells, which enable the caster to split the duration between multiple targets, with a minimum duration assigned to each equal to the basic duration increment of the spell, such as 1 round/level, 1 minute/level, 10 minutes/level, 1 hour/level, or 1 day/level. Two dozen communal spells are included in Pathfinder Roleplaying Game Ultimate Combat, all of them using this same mechanic. There are design reasons to have this effect available as a learnable spell variant, both to allow for minor variations (such as the duration of communal ant haul, the additional mounts created by communal mount and phantom steed, and the costly material components for communal nondetection and stoneskin) and as for spellcasters that are not limited in how many spells they can learn, though for casters with a limited number of spells (including all mythic spellcasters), the same mechanical niche can be filled with a +1-level metamagic feat. We present such a feat below, as well as a mythic version of that feat.
+
+**Mythic Communal Spells:** If you wish to use the existing communal spells, they function as described. You can use the following rules text to apply to all communal spells.
+
+++++ Communal Spells (Any)
+When casting a mythic communal spell, you duplicate the effect of the mythic version of the base spell but in addition to sharing the spell’s duration with multiple targets when the spell is cast, you can share any remaining portion of the spell’s duration at a later time by touching a willing target as a standard action.
+
+Targets of the communal spell cannot share it with others. When you divide the spell’s duration, whether at the time of casting or later, you can apportion the spell’s duration as desired instead of dividing the duration evenly. The minimum amount of the spell’s duration you can allocate to any target is equal to one duration increment smaller than that listed in the spell description, as described below.
+
+||~ Spell Duration ||~ Minimum Duration Per Target || 
+|| 1 round/level || 1 round || 
+|| 1 minute/level || 1 round || 
+|| 10 minutes/level || 1 minute || 
+|| 1 hour/level || 10 minutes || 
+|| 1 day/level || 1 hour || 
+
+Dispelling a communal spell on one creature does not affect other creatures sharing the same spell unless the communal spell itself is the target of the dispel. If a target of your communal spell loses the effect of a communal spell, whether because it was dispelled or its duration expired, you can renew the spell’s effect on that target by allocating additional duration as described above. Renewing a spell effect in this way does not repair or replenish any damage dealt to or absorbed by the communal spell that had been affecting the target, such as the hit points of a phantom steed or damage absorbed by communal protection from arrows, protection form energy, or stoneskin.
+
+----
+
+++ ##000000|Communal Metamagic Feats##
+
+++++ Communal Spell (Metamagic)
+You can share spells between multiple targets.
+
+**Benefit:** You can alter the duration and targets of a harmless spell with a range of touch in order to affect multiple targets, treating each target as a subject of the spell. You must split the spell’s duration in whole increments equal to the duration increment listed in the spell’s duration. Hence, if a spell’s duration is 1 minute per level, you must allocate the split duration in 1-minute increments, divided as evenly as possible. Some targets may be assigned one additional duration increment if some are left over after equal distribution, or the remainder can be wasted. A communal spell uses up a spell slot one level higher than the spell’s actual level.
+
+++++ Communal Spell, Mythic (Metamagic, Mythic)
+You may expend one unit of your mythic power when casting a communal spell in order to divide the spell’s duration as you wish, including sharing its duration with additional targets after the spell has been cast, as described above.
