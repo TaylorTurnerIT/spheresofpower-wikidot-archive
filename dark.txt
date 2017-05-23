@@ -14,26 +14,122 @@ Talents designated as (darkness) add additional effects to a sphere of darkness.
 
 If a Light sphere effect is created inside a darkness effect, the creator of the Light sphere effect must pass a magic skill check against the creator of the darkness effect. If the check succeeds, the Light sphere effect functions normally. Otherwise, it functions as any other light source, as described above.
 
-(Meld) talents allow the caster to grant himself and others the ability to interact with darkness in new ways. The caster must touch a target as a standard action to grant them the benefits of a (meld) talent.
+++ ##000000|Blot##
+Masters of the Dark sphere aren’t limited to creating globes of murk. Instead, they can spread pools of darkness to deliver their magic. A blot is a darkness effect created on a two-dimensional surface, such as the ground or a wall, appearing as an inky coating rather than a volume of decreased illumination. Blots do not affect the light level of the area. The Clearsight meld functions on blots the same as it does on areas of darkness.
+
+Dark talents listed with the (blot) tag can be applied to an area of darkness to add additional effects and to cause it to manifest as a blot. Only one such talent may be applied to an individual blot, but blots and darkness with different effects may overlap. Individual blots do not stack with themselves, nor do they stack with similar (darkness) talents.
+
+If a talent is labeled as (blot) and (darkness), the caster may decide whether to manifest an area of blot or darkness when the sphere effect is created. This decision cannot be changed. In order for a blot to affect a target, it must be in contact with the blot.
+
+Blots count as areas of darkness with respect to melds and interactions with Light sphere effects and talents.
+
+++ ##000000|Meld##
+Meld talents allow the caster to grant himself and others the ability to interact with darkness in new ways. The caster must touch a target as a standard action to grant them the benefits of a meld talent.
+
+++ ##000000|Shadow##
+Dark talents listed with the (shadow) tag manipulate the target’s own shadow directly, without manifesting an area of darkness at all. Unless otherwise indicated, a shadow may be applied to a target within medium range as a standard action. Only one shadow may be applied to any one target at a time. An unwilling target is allowed a Will save to negate a shadow. The duration of each shadow is specified in its description. If a shadow can be maintained through concentration, you must remain within medium range of the target to do so.
+
+Shadows function normally within areas of glow, neither suppressing nor being suppressed by areas of glow simply by entering them. If a Light sphere effect and shadow are cast directly upon the same target, however, the caster of the Light sphere effect must pass a magic skill check against the MSD of the shadow’s caster. If the check succeeds, the the Light sphere effect functions normally and the shadow is suppressed. If it fails, the shadow functions normally and the Light sphere effect is suppressed. Time spent suppressed counts against the duration of the effect in either case.
 ----
 + ##000000|Dark Talents##
+
++++ ##000000|Clinging Darkness##
+You may center an area of darkness or blot on a creature or item rather than an area. If targeting a creature or its attended item, that creature may attempt a Will save to negate the effect initially and again each round at the end of its turn. A successful save ends the darkness or blot immediately.
+
++++ ##000000|Extinguish##
+You may opt to instantly extinguish all non-magical light sources within your areas of darkness, not merely suppress them. This includes fire, incandescence, and alchemical sources. Coals turn cold, glowing-hot metal is made cool, and luminous chemicals are rendered inert. Additionally, your darkness can be used to dispel sources of magical flame (such as an Energy Wall consisting of fire) with a magic skill check. This is an instantaneous effect that occurs when the area of darkness is created. Creatures made of flame or other luminous materials or energies are not harmed by this talent.
+
++++ ##000000|Flowing Darkness##
+Your areas of darkness and blot flow through cracks and crevices like a viscous liquid, allowing them to extend around corners and pass through small cracks and crevices to reach their full radius. Your blot and darkness can flow through porous obstacles such as the gaps around a typical door, a wall rife with rodent holes, or ill-fitting masonry, but not through sealed structures like a ship’s hull, a secure safe, or a properly mortared wall.
+
++++ ##000000|Gaze into the Abyss##
+You tap into a well of blackness so deep that it extends beyond the merely visible, threatening to draw in anyone attempting to examine your spellwork with magically enhanced vision. Anyone attempting to divine or determine magical, alignment, or psychic auras of a person or object under the effect of your (blot), (darkness), or (shadow) talents must make an MSB check against your MSD or becomes stunned as if viewing an overwhelming aura. Those who fail this check gain no information and automatically fail any further attempt against any target protected by the same caster’s Gaze into the Abyss for 24 hours.
 
 +++ ##000000|Greater Darkness##
 When creating an area of darkness, you may spend an additional spell point to increase the affected area. This allow you to create a sphere of darkness with a radius of up to 20 ft + 5 ft per caster level. If combined with the Wall of Darkness talent, this allows you to create six 10-ft cubes, + 2 cubes per caster level.
 
++++ ##000000|Insinuate##
+You are skilled at slipping your magic into the natural surroundings, subtly manipulating natural murk and shadows to fit your purpose. You may overlap an area of blot with the natural shadows in an area in such a way that it is indistinguishable without magically augmented senses. This ability functions in any lighting condition so long as there are shadows present, and does not change the prevailing lighting condition. This area of blot may be imbued with a Dark sphere talent as normal, though talents with obvious or harmful effects will immediately reveal the ruse. If the lighting in an area is such as to eliminate the casting of any shadows, then insinuate cannot be used. Otherwise, a blot created using this feat covers its normal area of effect.
+
 +++ ##000000|Lingering Darkness##
 When you cease concentrating on a darkness effect, you may choose to have the darkness remain for two rounds before dissipating.
+
++++ ##000000|Mass Meld##
+When using a (meld) talent, you may spend an additional spell point to apply the same (meld) to an additional target. You may use this ability more than once in the same casting.
+
++++ ##000000|Obfuscation##
+Creatures and items within your area of darkness or subject to one of your (shadow) talents are treated as if shielded by a veneer of lead, and any attempt to locate them via scrying fails. Divination talents benefiting from a single instance of Penetrating Divination may bypass obfuscation with a successful MSB check. Those benefiting from a second instance of Penetrating Divination bypass Obfuscation automatically.
+
+You may take Obfuscation a second time, increase protection to the equivalent of 1 ft. of lead. Scrying attempts using a single instance of Penetrating Divination automatically fail. Attempts using two instances of Penetrating Divination require an MSB check. Obfuscation does not affect the caster’s own divinations.
 
 +++ ##000000|Quick Meld##
 You may use (meld) talents on yourself as a swift action instead of a standard action.
 
++++ ##000000|Rolling Blackout##
+You gain the ability to move your areas of darkness or blot. You can move one instance of darkness or blot up to 25 ft. + 5 ft. per 2 caster levels as a move action, within the maximum range of the effect. If moving an area of darkness or blot causes a creature to leave its area of effect, any ongoing effects the creature is under related to that area of blot or darkness end immediately.
+
++++ ##000000|Shadow Coterie##
+You’ve learned to manipulate a target’s shadow more efficiently, allowing you to apply one additional (shadow) talent to a target for every 5 caster levels, up to 5 at 20th caster level. You may not apply the same (shadow) talent to a single target more than once, save for the Shadow Lurk talent. Using the Shadow Lurk talent or Shadow Double advanced talent no longer removes the target’s shadow or renders its Shadow Stash inaccessible unless you wish it to.
+
++++ ##000000|Sinister Surprise##
+When spending a spell point to create an area of darkness or blot that persists without concentration, you may opt to create a darkness or blot effect that remains dormant until triggered by a creature entering the 10 ft. square area at the center of your dormant darkness or blot effect.
+
+A sinister surprise can be spotted and disabled as a magical trap, with a DC for both of 25 + 1/2 your caster level. You may also trigger the sinister surprise as an immediate action as long as it is within medium range. You may have multiple sinister surprises active, but their trigger areas may not overlap. An untriggered sinister surprise persists for 1 hour per caster level or until disabled or dismissed. A triggered sinister surprise has the duration of a typical area of darkness or blot.
+
+You may take this talent a second time to add extra conditions to the trigger of your Sinister Surprise. You may trigger it yourself from up to long range as an immediate action. Additionally, you may choose any of the following additional conditions: You may allow a number of specific individuals up to your caster level, designated at the time of the casting, to pass through the sinister surprise without setting it off. You may set it to be triggered only by a certain creature type or specific individual with whom you are familiar. You may set your sinister surprise to go off at a specified time within the effect’s duration.
+
 +++ ##000000|Wall of Darkness##
 Rather than create a sphere of darkness, you may arrange your darkness as up to three 10-ft cubes, +1 cube per caster level. These cubes must be arranged contiguously, but otherwise may assume any shape. You must be able to perceive all areas your darkness will inhabit.
 ----
++ ##000000|Blot Talents##
+
++++ ##000000|Creeping Lethargy (blot, darkness)##
+Your darkness fogs the mind, causing those within to slip towards slumber. By spending a spell point you may create a darkness or blot effect that forces creatures within it to make a Will save or become staggered. Creatures that fail this save and remain staggered must make another Will save at the beginning of your next turn or fall asleep for 1 round per caster level or until the darkness expires, whichever happens first. A successful save negates all effects and the target is immune to that instance of Creeping Lethargy. Leaving the area of darkness automatically rouses the creature and removes the staggered condition, but does not render the creature immune should it re-enter the area of effect. This is a mind-affecting effect.
+
++++ ##000000|Flat Black (blot)##
+Your blot causes its area of effect to appear as a flat, featureless plane of blackness, masking any terrain, traps, or unattended objects within at the time it is cast. Some types of terrain may easily be deduced from context (e.g., a river flowing in one side and out the other). This talent does not hide creatures or hamper attempts at non-visual detection. The DCs for all vision-based perception checks to find something obscured by Flat Black are increased by 10. Darkvision does not pierce Flat Black unless augmented with the Clearsight meld.
+
++++ ##000000|Intoxicating Darkness (blot, darkness)##
+You may create a darkness or blot effect that erodes the mental capacity of those inside. Any creature inside the darkness must pass a Fortitude save or suffer 1 point of Wisdom damage. Creatures who remain within this area of darkness must save at the end of your subsequent turns or suffer another point of Wisdom damage.
+
+If a creature enters this area of darkness or blot after it is created, they must immediately save or also suffer this damage. A creature may only be affected by Intoxicating Darkness once per round, regardless of how many times they enter or exit the area that turn.
+
++++ ##000000|Numbing Darkness (blot, darkness)##
+You may create a darkness or blot effect that subtly anesthetizes those inside. Any creature inside the darkness must pass a Fortitude save or suffer 1 point of Dexterity damage. Creatures who remain within this area of darkness must save at the end of your subsequent turns or suffer another point of Dexterity damage. If a creature enters this area of darkness or blot after it is created, they must immediately save or also suffer this damage. A creature may only be affected by Numbing Darkness once per round, regardless of how many times they enter or exit the area that turn.
+
++++ ##000000|Obscure Passage (blot)##
+By spending a spell point, you modify your blot to serve as a portal through a surface, passing through up to 5 ft. of material per caster level. Obscure Passage can not penetrate a surface with a hardness greater than 5 plus its caster level. Attempting to create an obscure passage through a target that is too thick or too hard causes the spell to fail and all spell points spent to be lost. An Obscure Passage has a maximum diameter of 1 ft. per caster level, and leaves the surface whole and unmarred when it expires. Light does not pass through an obscure passage, nor do low-light vision or darkvision allow a creature to peer through it, though Clearsight and see in darkness do. A creature standing above an obscure passage as it opens may attempt a Reflex save to avoid falling in.
+
++++ ##000000|Shadow Slick (blot, shadow)##
+Your blot takes on a slick, nearly frictionless quality. Any creature attempting to move more than half their speed through the blot must make a Reflex save to avoid falling prone. If used as a (shadow) talent, the target must also make a Reflex save to avoid dropping what is in its hands, and must spend a full-round action to retrieve stored or dropped items as they fumble with compromised grip, but gains a +10 bonus to CMD to avoid a grapple and on Escape Artist checks and CMB rolls made to escape a grapple.
+
++++ ##000000|Shadow Tag (blot, darkness, shadow)##
+Anyone passing through your area of darkness or blot picks up a bit of your magic in their shadow, allowing you to know their relative direction and status (alive, unconscious, dead) for 1 hour per caster level. If used as a (shadow) talent, you cast this ability directly upon a creature instead, gaining the same benefits. You may track up to 1 creature per caster level in this way. If you are at this limit, you must cease tracking an old target in order to begin tracking a new one that passes through your darkness or blot. The effect immediately ends for a target that moves more than one mile away from you.
+
++++ ##000000|Tenebrous Legerdemain (blot, darkness)##
+You create an area of darkness or blot which you may manipulate to perform minor feats of legerdemain. Once per round as a free action you may make a pickpocket attempt or a Steal combat maneuver against a target that is within your darkness or blot. You may use your own Sleight of Hand modifier or Steal CMB or your caster level + your casting ability modifier, whichever is higher.
+
+You may instead retrieve one unattended item that is within your area of blot or darkness once per round as a free action. Whether the item is retrieved or stolen, it appears in your hands or in the nearest adjacent space if your hands are full. An item retrieved or stolen cannot weight more than 5 lbs. per caster level.
+----
 + ##000000|Darkness Talents##
+
++++ ##000000|Black Lung (darkness)##
+Your darkness takes on a foul, miasmic quality that causes creatures to choke and retch. Creatures within must make a Fortitude save or become sickened until they leave the area of Black Lung. Creatures who succeed at this save but remain in the darkness must save again at the end of their turn. If any creature enters this area of darkness, they must save or immediately become sickened. Creatures with the Verbal Casting drawback suffer 50% spell failure while they are sickened by Black Lung. Creatures that do not breathe are unaffected by Black Lung.
+
+By taking this talent a second time, you may imbue your Black Lung with a dose of contact or inhalation poison held in your hand. Using this ability consumes the dose of poison. Any creature that fails its save against the Black Lung talent must make an additional Fortitude save against the poison’s DC or suffer its effects. Those immune to your Black Lung are also immune to the poison. There is no chance of accidentally poisoning yourself when using this ability.
+
++++ ##000000|Creeping Lethargy (blot, darkness)##
+Your darkness fogs the mind, causing those within to slip towards slumber. By spending a spell point you may create a darkness or blot effect that forces creatures within it to make a Will save or become staggered. Creatures that fail this save and remain staggered must make another Will save at the beginning of your next turn or fall asleep for 1 round per caster level or until the darkness expires, whichever happens first. A successful save negates all effects and the target is immune to that instance of Creeping Lethargy. Leaving the area of darkness automatically rouses the creature and removes the staggered condition, but does not render the creature immune should it re-enter the area of effect. This is a mind-affecting effect.
+
++++ ##000000|Directional Darkness (darkness)##
+Your area of darkness only blocks the light from one vantage point. If your darkness is in the form of a wall, it hampers vision from one side and appears clear from the other. If it is spherical, the caster may choose either for those within the area of darkness to see outside of it clearly or for those outside to see within clearly. The boundaries of the area of darkness remain obvious to those who can see through it unhindered.
 
 +++ ##000000|Disorienting Darkness (darkness)##
 You may create a darkness effect that has a chance to disorient anyone who enters it. When a creature within this area attempts to move, or when a creature first enters this area, they must pass a Will save or become disoriented. A creature must attempt this Will save every time they enter the area of darkness. If the creature fails this saving throw, they must roll a d8 to determine direction: 1 is their intended direction, with 2-8 rotating around the creature in a clockwise direction. The target moves that direction as if it were their intended course. The target does not realize they are off-course until their next turn or until they leave the area of darkness.
+
+Investing an additional talent in Disorienting Darkness allows you a modicum of control over your targets’ delusions. When a creature that has failed it save against your Disorienting Darkness and become disoriented attempts to move, you may spend an immediate action to choose their direction of travel instead of rolling randomly.
+
+By spending a third talent on Disorienting Darkness, you gain even more influence over your victims. When a creature that has failed its save and become disoriented by your Disorientating Darkness makes an attack, casts a targeted spell or spell-like ability, or uses a supernatural or extraordinary ability with a specified target, the attack or ability is randomly directed to another legal target within range. If there is no other legal target within range, the attack or ability is not affected. If the affected spell or ability has more than one target, all its targets are randomly chosen from among the legal targets within range. Alternately, you may select the new target or targets as an immediate action instead of determining them randomly. Chosen targets must be legal and you must be able to perceive them.
 
 +++ ##000000|Fearful Darkness (darkness)##
 You may create a darkness effect that plays with the fears of any who enter it. Creatures within this area of darkness must pass a Will save or become shaken. Creatures who succeed at this save but remain in the darkness must save again at the end of your subsequent turns. If any creature enters this area of darkness, they must immediately save or become shaken. When a creature fails their saving throw, they remain shaken for as long as they remain within the area of darkness. This is a mind-altering effect.
@@ -41,17 +137,29 @@ You may create a darkness effect that plays with the fears of any who enter it. 
 +++ ##000000|Hungry Darkness (darkness)##
 You may create a darkness effect that saps away the lifeforce of those inside. Any creature inside the darkness must pass a Fortitude save or suffer 1 point of Constitution damage. Creatures who remain within this area of darkness must save at the end of your subsequent turns or suffer another point of Constitution damage. If a creature enters this area of darkness after it is created, they must immediately save or also suffer this damage. A creature may only be affected by Hungry Darkness once per round, regardless of how many times they enter or exit the area that turn.
 
++++ ##000000|Intoxicating Darkness (blot, darkness)##
+You may create a darkness or blot effect that erodes the mental capacity of those inside. Any creature inside the darkness must pass a Fortitude save or suffer 1 point of Wisdom damage. Creatures who remain within this area of darkness must save at the end of your subsequent turns or suffer another point of Wisdom damage. If a creature enters this area of darkness or blot after it is created, they must immediately save or also suffer this damage. A creature may only be affected by Intoxicating Darkness once per round, regardless of how many times they enter or exit the area that turn.
+
 +++ ##000000|Looming Darkness (darkness)##
 You may create a darkness effect that erodes the resolve of those who enter it. Creatures within this area of darkness must pass a Will save or suffer a -1 penalty to all saving throws so long as they remain within this area of darkness. This penalty increases by 1 per 5 caster levels. If any creature enters this area of darkness, they must immediately save or suffer this penalty. This is a mind-affecting effect.
 
++++ ##000000|Numbing Darkness (blot, darkness)##
+You may create a darkness or blot effect that subtly anesthetizes those inside. Any creature inside the darkness must pass a Fortitude save or suffer 1 point of Dexterity damage. Creatures who remain within this area of darkness must save at the end of your subsequent turns or suffer another point of Dexterity damage. If a creature enters this area of darkness or blot after it is created, they must immediately save or also suffer this damage. A creature may only be affected by Numbing Darkness once per round, regardless of how many times they enter or exit the area that turn.
+
 +++ ##000000|Pure Darkness (darkness)##
 You may create a darkness effect that negates low-light vision. Darkvision is reduced to 5 ft. In addition, all other senses (blindsight, scent, etc.) are reduced by half.
+
++++ ##000000|Shadow Tag (blot, darkness, shadow)##
+Anyone passing through your area of darkness or blot picks up a bit of your magic in their shadow, allowing you to know their relative direction and status (alive, unconscious, dead) for 1 hour per caster level. If used as a (shadow) talent, you cast this ability directly upon a creature instead, gaining the same benefits. You may track up to 1 creature per caster level in this way. If you are at this limit, you must cease tracking an old target in order to begin tracking a new one that passes through your darkness or blot. The effect immediately ends for a target that moves more than one mile away from you.
 
 +++ ##000000|Silent Darkness (darkness)##
 You may create an area of darkness that dims sound as well as light. All Perception checks made to hear noises originating from within the area of your darkness suffer a penalty equal to your caster level.
 
 +++ ##000000|Snagging Darkness (darkness)##
 You may create a darkness effect filled with dark tendrils that snare anything that passes. Creatures within this area of darkness must pass a Reflex save or become entangled. Creatures who succeed at this save but remain in the darkness must save again at the end of your subsequent turns. If any creature enters this area of darkness, they must immediately save or suffer the effects. An ensnared creature can attempt to escape its entanglement by making a Strength or Escape Artist check as a move action, with a DC equal to the Reflex save DC.
+
++++ ##000000|Tenebrous Legerdemain (blot, darkness)##
+You create an area of darkness or blot which you may manipulate to perform minor feats of legerdemain. Once per round as a free action you may make a pickpocket attempt or a Steal combat maneuver against a target that is within your darkness or blot. You may use your own Sleight of Hand modifier or Steal CMB or your caster level + your casting ability modifier, whichever is higher. You may instead retrieve one unattended item that is within your area of blot or darkness once per round as a free action. Whether the item is retrieved or stolen, it appears in your hands or in the nearest adjacent space if your hands are full. An item retrieved or stolen cannot weight more than 5 lbs. per caster level.
 
 +++ ##000000|Thick Darkness (darkness)##
 You may create a darkness effect that counts as difficult terrain. Creatures move at half speed through your darkness, cannot run or charge, and cannot make 5-ft steps.
@@ -60,6 +168,8 @@ You may create a darkness effect that counts as difficult terrain. Creatures mov
 
 +++ ##000000|Clearsight (meld)##
 You may spend a spell point to grant a target immunity to all negative effects from your (darkness) talents for 1 hour per caster level. This does not grant the target the ability to see in your darkness if it does not already possess the means to do so, but it does allow creatures with Darkvision to see in Pure Darkness.
+
+By investing a second talent, you may choose to have your Clearsight apply to (darkness) and (blot) talents cast by allies. If you or your ally gains the benefit of Clearsight from another source, you may choose to allow it to it apply to your own darkness and blot effects as well. Status as an ally is determined at the time Clearsight is cast and does not change for its duration.
 
 +++ ##000000|Dark Slaughter (meld)##
 You may spend a spell point to grant the target the ability to make precision strikes for 1 hour per caster level. Whenever the target attacks a creature it is flanking, that is denied its Dexterity bonus to AC, or that is not able to perceive the creature (such as through a successful Stealth check), it deals an additional 1d6 points of precision damage to the target. This damage is not multiplied on a critical hit, but it does stack with a rogue’s sneak attack. This only functions while within an area of your darkness.
@@ -75,3 +185,48 @@ You may spend a spell point to grant the target the ability to make Stealth chec
 
 +++ ##000000|Step Through Darkness (meld)##
 You may spend a spell point to grant the target and up to a heavy load of carried equipment the ability to step into one patch of darkness and emerge in another. As a move action, the target may teleport up to 30 ft. This lasts for 1 hour per caster level. Both the location they are in and the location they are teleporting to must be within an area of your darkness.
+
+By investing a second talent you increase the maximum teleportation distance of your Step Through Darkness meld talent by +10 ft. per 3 caster levels, minimum +10 ft. Any target you cast this talent on benefits from the additional range.
+
++++ ##000000|Stygian Immersion (meld)##
+You may spend a spell point to force a target to treat your blots as if they were a pool of water for 1 round per caster level. Unwilling creatures receive a Will save to negate this effect. This volume of liquid is a extradimensional space 5 ft. deep per caster level, and does not damage the surface the blot has been cast upon. If the target possesses the ability to breathe underwater, it can breathe within the blot. Light does not pass through the blot liquid, and those within have their senses limited as if by the Pure Darkness talent. Creatures are deposited safely on the surface of the blot directly above their position when the duration expires. Stygian Immersion does not function on a blot imbued with the Obscure Passage talent.
+----
++ ##000000|Shadow Talents##
+
++++ ##000000|Blindfold (shadow)##
+By spending a spell point, you concentrate a target’s shadow into a band of supernatural darkness across their eyes, rendering the target blinded. The blindfold lasts as long as you concentrate or, if you spend an additional spell point as a free action, 1 round per caster level. A creature under the effects of a blindfold receives a new Will save to end the effect every round at the end of its turn. Darkvision has no effect on Blindfold, but creatures with the see in darkness ability are immune.
+
++++ ##000000|Shadow Lurk (shadow)##
+As a standard action you may spend a spell point to have a target’s shadow split off from them and form a shadow lurk that acts as an independent creature unwaveringly loyal to you for 10 minutes per caster level. A shadow lurk appears as a shaded, obviously spurious version of the target. It is weightless and its equipment is entirely illusionary. It has the same skills, feats, and attributes as the target, except that its Strength score is 3, and only has a number of hit points equal to your caster level. The shadow lurk cannot attack, use extraordinary or supernatural abilities, cast spells or use spell-like abilities, or employ its target’s class features, though it can manipulate objects and use skills. A shadow lurk must remain within long range of its original source or it ceases to exist. The target lacks a shadow while this effect is active.
+
+Retracting a shadow lurk is a move action that does not provoke attacks of opportunity. Either the target or the shadow lurk may spend this action. If a shadow lurk is killed or exceeds its range, it winks out of existence and the target’s shadow returns to them with a surge of energy that causes them to be stunned for 1 round. In either case, the target immediately gains the knowledge of everything their shadow lurk observed and did while it was detached.
+
+By investing a second talent in Shadow Lurk you master the art of weaving shadowstuff into your shadow lurks, giving them and their equipment increased substance. Your shadow lurks use the full Strength score of their source, have 2 hit points per caster level, and possess non-magical versions of their sources’ equipment. It may flank, threaten, and make a single attack per turn using non-magical versions of whatever weapons or natural attacks its source possesses. It attacks using its source’s full base attack bonus, Strength score, feats, and proficiencies, but deals only half damage. A shadowstuff-imbued lurk may not attempt combat maneuvers, cast spells, or use its source’s class features. Alchemical Items created as part of your lurks do not function.
+
+**Normal:** A shadow lurk has a strength score of 3 and may not make attacks, flank, or threaten. Its equipment is entirely illusory.
+
++++ ##000000|Shadowed Mien (shadow)##
+As a standard action you cloak the target in an aura of menacing shadow that conceals its appearance, subtle movements, and intentions behind a curtain of disconcerting murk. This dark aura hides distinguishing features from observers and grants a competence bonus of 1/2 your caster level to Bluff checks to lie or feint, as well as to Intimidation checks to demoralize. Sense Motive checks to get a hunch about Shadowed Mien’s target have their DC increased by your caster level. The target has no problem seeing out of Shadowed Mein, but the effect cannot be penetrated by darkvision. Clearsight and see in darkness allow the target of Shadowed Mein to be seen clearly. Shadowed Mein lasts for as long as you concentrate or, if you spend one spell point at any time as a free action, ten minutes per caster level.
+
+You may spend an additional spell point as part of the action to initiate Shadowed Mein to grant substance to the shadowy aura. The target gains a number of temporary hit points equal to your caster level for the duration of the effect. Exhausting these temporary hit points does not end the other effects of Shadowed Mein.
+
++++ ##000000|Shadow Slick (blot, shadow)##
+Your blot takes on a slick, nearly frictionless quality. Any creature attempting to move more than half their speed through the blot must make a Reflex save to avoid falling prone. If used as a (shadow) talent, the target must also make a Reflex save to avoid dropping what is in its hands, and must spend a full-round action to retrieve stored or dropped items as they fumble with compromised grip, but gains a +10 bonus to CMD to avoid a grapple and on Escape Artist checks and CMB rolls made to escape a grapple.
+
++++ ##000000|Shadow Stash (shadow)##
+You may stash items in your shadow, storing each as a move action. The items appear on your shadow as if you were wearing or using them. A small item (a ring or a key) might be unnoticeable, while a larger item (a greatsword, a tower shield) would be quite obvious. You may store up to 5 lbs. of non-living material per caster level. Items have no weight while stashed and can not be used, activated, or provide passive bonuses.
+
+You can retrieve an item as a move action at no cost, or spend a spell point to retrieve an item as an immediate action. Items stored in your shadow stash cannot be the subject of pickpocket attempts, Sunder attempts, or the Steal combat maneuver unless the creature attempting the maneuver also has the Shadow Stash talent. If your shadow is removed or animated, such as by shadow theft class ability or Shadow Lurk talent, you may not access your shadow stash until your shadow returns. If you die or enter an antimagic area, the contents of your shadow stash immediately appear in the nearest unoccupied space.
+
+Shadow Stash may be used in conjunction with other (shadow) talents.
+
+Investing a second talent in Shadow Stash allows you quicker access to your stashed items, allowing you to withdraw them as free action. Furthermore, your shadow gains the ability to don items in your place.
+
+For instance, you may store a cloak of resistance in your shadow, and you yourself gain the benefit as if you were wearing it. This does not increase your number of magic item slots. If you and your shadow don an item in the same slot, you only gain the benefit of the item your physical body is wearing. You may activate magic items worn by your shadow as normal. This does not allow your shadow to wield weapons or shields, or to activate hand-held magic items.
+
+Items worn by your shadow can only be sundered, stolen, or disarmed by creatures with the ability to access your shadow stash. Items worn by your shadow count against the weight limit of Shadow Stash. Your shadow does not have actions of its own, and uses your actions to don and activate items. You may withdraw un-donned items from your shadow stash as a free action at no spell point cost.
+
+Your shadow can only don items in slots that your physical body possesses. If you are subject to a polymorph effect, armored donned by your shadow mannequin does not provide any benefits and you may not activate magic items that would otherwise meld with your body.
+
++++ ##000000|Shadow Tag (blot, darkness, shadow)##
+Anyone passing through your area of darkness or blot picks up a bit of your magic in their shadow, allowing you to know their relative direction and status (alive, unconscious, dead) for 1 hour per caster level. If used as a (shadow) talent, you cast this ability directly upon a creature instead, gaining the same benefits. You may track up to 1 creature per caster level in this way. If you are at this limit, you must cease tracking an old target in order to begin tracking a new one that passes through your darkness or blot. The effect immediately ends for a target that moves more than one mile away from you.
