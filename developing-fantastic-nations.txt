@@ -87,9 +87,9 @@ Note that regardless of these rolls, NPC classes are almost always present as th
 ----
 + ##000000|Elements##
 
-Fantastic nations often have some kind of tie to one or more elements, usually through a connection to a plane of the same type. You can roll on this table at-will to get an elemental theme for the nation, or use it when you've rolled a result on another table that calls for it. If you want to roll on both tables, roll 1d20 - odd results roll again for Major Elements, even results roll again for Minor Elements.
+Fantastic nations often have some kind of tie to one or more elements, usually through a connection to a plane of the same type. You can roll on this table at-will to get an elemental theme for the nation, or use it when you've rolled a result on another table that calls for it. If you want to roll on both tables, roll 1d20 - odd results roll again for Major Elements, even results roll again for Minor Elements. If you roll a 20, use the Rare Elements table instead.
 
-Note that results on this table are not inherently exclusive (not unless you want them to be, anyway) - a nation tied to Air may still have people with Earth powers, for example. This is simply what people in the nation tend to develop, either as a natural result of having powers or because of some focus (cultural, religious, etc.) that encourages them to do so.
+Note that results on these tables table are not inherently exclusive (not unless you want them to be, anyway) - a nation tied to Air may still have people with Earth powers, for example. This is simply what people in the nation tend to develop, either as a natural result of having powers or because of some focus (cultural, religious, etc.) that encourages them to do so.
 
 **Major Elements**
 ||~ d20 ||~ Element ||
@@ -97,13 +97,13 @@ Note that results on this table are not inherently exclusive (not unless you wan
 || 5-8 || Fire ||
 || 9-12 || Water ||
 || 13-16 || Earth ||
-|| 17-18 || Negative Energy ||
-|| 19-20 || Positive Energy ||
+|| 17-18 || Negative (or Unholy) Energy ||
+|| 19-20 || Positive (or Holy) Energy ||
 
 **Minor Elements**
 ||~ d20 ||~ Element ||~ Notes ||
 || 1 || Magma || Earth/Fire Hybrid ||
-|| 2 || Smoke || Fire/Air Hybrid ||
+|| 2 || Smoke* || Fire/Air Hybrid ||
 || 3 || Ice || Air/Water Hybrid ||
 || 4 || Ooze || Water/Earth Hybrid ||
 || 5 || Ash || Fire/Negative Hybrid ||
@@ -122,6 +122,36 @@ Note that results on this table are not inherently exclusive (not unless you wan
 || 18 || Earth-Dominant || Earth and all of its hybrids are available ||
 || 19 || Negative-Dominant || Negative Energy and all of its hybrids are available ||
 || 20 || Positive-Dominant || Positive Energy and all of its hybrids are available ||
+^^*: Fire/Air (or rather, Fire/Elec) is also used as Plasma, typically for futuristic weapons and the like.^^
+
+**Rare Elements**
+||~ d6 ||~ Result ||~ Notes ||
+|| 1 || Celestial Hybrid || Roll 1d20. For a result of 1-15, roll again on the Major Elements table, for 16-20, roll on the Minor Elements table. The result is half Good (Holy) and half the Major Element you rolled. ||
+|| 2 || Infernal Hybrid || Roll 1d20. For a result of 1-15, roll again on the Major Elements table, for 16-20, roll on the Minor Elements table. The result is half Evil (Unholy) and half the Major Element you rolled. ||
+|| 3 || Ethereal Hybrid || Roll 1d20. For a result of 1-15, roll again on the Major Elements table, for 16-20, roll on the Minor Elements table. The result is half Ethereal and half the Major Element you rolled. At the GM's discretion, this may have interesting effects on ghostly or otherwise incorporeal creatures. ||
+|| 4 || Akashic Hybrid || Roll 1d20. For a result of 1-15, roll again on the Major Elements table, for 16-20, roll on the Minor Elements table. The result is half Akashic (knowledge and information), and half the other result you rolled. ||
+|| 5 || Dream Hybrid || Roll 1d20. For a result of 1-15, roll again on the Major Elements table, for 16-20, roll on the Minor Elements table. The result is half Dream, and half the other result you rolled. ||
+|| 6 || Wild Realm || Roll 1d20. For a result of 1-15, roll again on the Major Elements table, for 16-20, roll on the Minor Elements table. The result is like a normal roll, except any spell or ability with the associated descriptors (i.e. fire spells in a fire-aligned area) trigger a Wild Magic effect according to the table below. ||
+
+^^**Notes:** By the time you reach the Rare Elements, things start to get pretty weird - this is intentional. If you get something that's half X and half Y, where Y is already two things, treat Y's parts as quarters instead. You could, for example, get a result that's half Good and one quarter each Fire and Earth. You may also have to be creative with the results to get them to make sense - an Akashic/Fire result, for example, may create flames that burn knowledge instead of bodies. Don't give up just because the result sounds weird - try to make it work, and chances are you'll end up with something unique and memorable.^^
+
+**Table: Wild Magic Effects**
+^^**Source:** Pathfinder GameMastery Guide^^
+||~ d% ||~ Effect || 
+|| 01–19 || The spell rebounds on its caster with normal effect. If the spell cannot affect the caster, it simply fails. || 
+|| 20–23 || A circular pit 15 feet wide opens under the caster’s feet; it is 10 feet deep per level of the caster. || 
+|| 24–27 || The spell fails, but the target or targets of the spell are pelted with a rain of small objects (anything from flowers to rotten fruit), which disappear upon striking. The barrage continues for 1 round. During this time the targets are blinded and must make concentration checks (DC 15 + spell level) to cast spells. || 
+|| 28–31 || The spell affects a random target or area. Randomly choose a different target from among those in range of the spell or center the spell at a random place within range of the spell. To generate direction randomly, roll 1d8 and count clockwise around the compass, starting with south. To generate range randomly, roll 3d6. Multiply the result by 5 feet for close-range spells, 20 feet for medium-range spells, or 80 feet for long-range spells. || 
+|| 32–35 || The spell functions normally, but any material components are not consumed. The spell is not expended from the caster’s mind (the spell slot or prepared spell can be used again). Similarly, an item does not lose charges, and the effect does not count against an item’s or spell-like ability’s use limit. || 
+|| 36–39 || The spell does not function. Instead, everyone (friend or foe) within 30 feet of the caster receives the effect of a heal spell. || 
+|| 40–43 || The spell does not function. Instead, a deeper darkness effect and a silence effect cover a 30-foot radius around the caster for 2d4 rounds. || 
+|| 44–47 || The spell does not function. Instead, a reverse gravity effect covers a 30-foot radius around the caster for 1 round. || 
+|| 48–51 || The spell functions, but shimmering colors swirl around the caster for 1d4 rounds. Treat this as a glitterdust effect with a save DC of 10 + the level of the spell that generated this result. || 
+|| 52–59 || Nothing happens. The spell does not function. Any material components are used up. The spell or spell slot is used up, an item loses charges, and the effect counts against an item’s or spell-like ability’s use limit. || 
+|| 60–71 || Nothing happens. The spell does not function. Any material components are not consumed. The spell is not expended from the caster’s mind (a spell slot or prepared spell can be used again). An item does not lose charges, and the effect does not count against an item’s or spell-like ability’s use limit. || 
+|| 72–98 || The spell functions normally. || 
+|| 99–100 || The spell functions strongly. Saving throws against the spell incur a –2 penalty. The spell has the maximum possible effect, as if it were cast with the Maximize Spell feat. If the spell is already maximized with the feat, there is no further effect. || 
+
 ----
 + ##000000|Land Development Level##
 
