@@ -18,13 +18,13 @@ Note: Some Mind sphere abilities allow the caster to make a request of the targe
 || Ancient Dragon || Eat an annoying humanoid || Eat an unassuming humanoid. || Give up a valuable item. || Give up its hoard. ||
 || Middle-Aged Farmer || Eat lunch || Give a kind stranger a meal and a hayloft to sleep in. || House and feed a squadron of questionable men, help a team of adventurers as a cook and porter on their quests. || House wanted criminals, allow the kidnapping of his family, take up arms and become a soldier. ||
 
-+ ##000000|Charm##
++ ##000000|Charm [Core]##
 
 You may place charms on creatures. Charms require a standard action to use and have a range of Close. You may only use charms on targets that possess your own creature type (humanoid for humanoids, etc.) although the Expanded Mind talent changes this. Each charm has three strengths; lesser, greater, and powerful. Lesser charms are at-will abilities, but you may not target an individual creature more than once in a day with any individual lesser charm. Greater charms cost a spell point to use and powerful charms cost 2 points to use. You must possess the Powerful Charm talent before you may use any powerful charms.
 
 When you gain the Mind sphere, you gain the following charm:
 
-++ ##000000|Suggestion##
+++ ##000000|Suggestion [Core]##
 You may plant thoughts into a target’s mind.
 
 //Lesser Charm:// You may plant a suggestion in a target’s mind, which they obey as if the thought had been their own (Will negates). The suggested course of activity must be limited to a sentence or two and must be a very simple request. The creature performs the suggested action until it finishes, or for 1 hour per caster level, whichever comes first. If you choose, you can instead specify conditions the creature should look for, (i.e., “you should search the next person who enters this room, looking for weapons.”) If the condition is not met before this duration expires, the activity is not performed.
@@ -37,24 +37,24 @@ Some mind talents are designated (charm) talents. These talents grant you additi
 ----
 + ##000000|Mind Talents##
 
-++ ##000000|Expanded Charm##
+++ ##000000|Expanded Charm [Core]##
 Your charms may affect any creature with a mind susceptible to mind-altering effects. Creatures without living minds (constructs, undead, oozes, vermin) are still immune.
 
-++ ##000000|Group Charm##
+++ ##000000|Group Charm [Core]##
 You may spend a spell point when using a charm to affect up to 1 additional creature per 2 caster levels (minimum: 1). Each target must be within range and must be affected by the same charm effect.
 
-++ ##000000|Powerful Charm##
+++ ##000000|Powerful Charm [Core]##
 You may spend 2 spell points to use the Powerful charm version of any charm you possess.
 
-++ ##000000|Ranged Mind##
+++ ##000000|Ranged Mind [Core]##
 Increase the range you may charm targets by 1 step (Close to Medium, Medium to Long). You may select this talent multiple times. The effects stack.
 
-++ ##000000|Subtlety##
+++ ##000000|Subtlety [Core]##
 If a target succeeds on their save against one of your charms, they must immediately pass a second Will save. If they fail this second save, they do not realize they were the subject of an attempted mental assault.
 ----
 + ##000000|Charm Talents##
 
-++ ##000000|Command (charm)##
+++ ##000000|Command (charm) [Core]##
 You may directly control another creature’s body.
 
 //Lesser Charm:// You may force the target to perform one move, swift, or free action of your choice on its next turn (Will negates). This could include yelling loudly, falling to the ground, dropping its weapon, or moving in a generalized direction (away, toward, left, right, etc.) For the purpose of this talent, standing still is a free action. The target cannot use its other actions on that turn to undo the effect of this lesser charm (pick up a dropped weapon, move back to its old square, stand up if it fell down, etc.).
@@ -63,7 +63,7 @@ You may directly control another creature’s body.
 
 //Powerful Charm:// This is the same as the Command greater charm, except the target is not limited to a single standard action or move action each round.
 
-++ ##000000|Confusion (charm)##
+++ ##000000|Confusion (charm) [Core]##
 You may unravel a creature’s mind and make them behave erratically.
 
 //Lesser Charm:// The target becomes confused for 1 round (Will negates).
@@ -72,7 +72,7 @@ You may unravel a creature’s mind and make them behave erratically.
 
 //Powerful Charm:// This is the same as the Confusion greater charm, except in addition to being confused, the target also suffers a -2 penalty to their caster level and a -4 penalty to all their mental ability scores.
 
-++ ##000000|Courage (charm)##
+++ ##000000|Courage (charm) [Core]##
 You inspire the target to great action.
 
 //Lesser Charm:// The target may choose one attack roll, saving throw, ability check, or skill check it makes within the next minute. The target gains a morale bonus equal to 2 + 1 per 5 caster levels on that roll. If no roll is selected before 1 minute passes, this effect ends.
@@ -81,7 +81,7 @@ You inspire the target to great action.
 
 //Powerful Charm:// This is the same as the Courage greater charm, except the duration increases to 1 minute per level. The target also becomes immune to fear and gains temporary hit points equal to your caster level
 
-++ ##000000|Enthrall (charm)##
+++ ##000000|Enthrall (charm) [Core]##
 You cause a creature to regard you as its friend. If you or your allies are attacking or threatening the creature, they gain a +5 bonus to their saving throw against this charm. A DC 25 Sense Motive check reveals the target of this charm has been enchanted. This is an enchantment (charm) effect instead of an enchantment (compulsion) effect.
 
 //Lesser Charm:// You increase the target’s disposition toward you by 1 step to a maximum of friendly for 1 minute per caster level (Will negates).
@@ -90,7 +90,7 @@ You cause a creature to regard you as its friend. If you or your allies are atta
 
 //Powerful Charm:// This functions as the Enthrall greater charm, except the duration increases to 1 hour per caster level.
 
-++ ##000000|Fear (charm)##
+++ ##000000|Fear (charm) [Core]##
 You may warp a target’s mind with fear.
 
 //Lesser Charm:// You cause the target to become shaken for 1 round per caster level (Will negates).
@@ -99,7 +99,7 @@ You may warp a target’s mind with fear.
 
 //Powerful Charm:// This is the same as the Fear greater charm, except the target becomes panicked instead of frightened. On a successful save, they are still frightened for 1 round and shaken for 1 round per caster level.
 
-++ ##000000|Hostility (charm)##
+++ ##000000|Hostility (charm) [Core]##
 You cause the target to enter a blinding rage.
 
 //Lesser Charm:// You compel the target to attack the nearest creature on it next turn (Will negates). The target moves until this creature is within range and makes at least one attack with a weapon, natural attack, or unarmed strike. If no such creature can be reached, the target instead deals damage to itself equal to 1d8 + its Strength modifier with whatever it has in hand.
@@ -112,7 +112,7 @@ You cause the target to enter a blinding rage.
 
 * //Brutal Rage:// The target is compelled to hostility and each round attacks the nearest target to itself, be it friend or foe. If the creature cannot attack something during its turn, it deals 1d8 + its Strength modifier damage to itself with whatever it has in hand.
 
-++ ##000000|Inspiration (charm)##
+++ ##000000|Inspiration (charm) [Core]##
 You inspire competence in the target.
 
 //Lesser Charm:// As an immediate action, you may add a +2 competence bonus to a skill check or attack roll the target has just made. This can change a failure into a success. You must choose to use this charm after the roll has been made, but before the results are revealed.
@@ -121,7 +121,7 @@ You inspire competence in the target.
 
 //Powerful Charm:// This is the same as the Inspiration greater charm, except it adds +2d4 +1 per 2 caster levels (minimum: 1) to the roll instead of only +2d4.
 
-++ ##000000|Paralyze (charm)##
+++ ##000000|Paralyze (charm) [Core]##
 You freeze the target in place.
 
 //Lesser Charm:// The target is dazed for 1 round (Will negates).
@@ -130,7 +130,7 @@ You freeze the target in place.
 
 //Powerful Charm:// This is the same as the Paralyze greater charm, except the target is paralyzed instead of stunned.
 
-++ ##000000|Project Thoughts (charm)##
+++ ##000000|Project Thoughts (charm) [Core]##
 You can communicate directly into the mind of another.
 
 //Lesser Charm:// You project an empathic message into the mind of the target. The target knows what you are feeling (fear, anger, anxiety, rage, etc.), although they are not able to communicate back. Unlike other lesser charms, there is no limit to the number of times you may use this lesser charm on a target in a day.
@@ -139,7 +139,7 @@ You can communicate directly into the mind of another.
 
 //Powerful Charm:// Your projected telepathic message does not have a word limit, although communication is carried out in real time and you must concentrate for as long as you communicate. You can communicate with the target even without a shared language.
 
-++ ##000000|Read Mind (charm)##
+++ ##000000|Read Mind (charm) [Core]##
 You can pull information from a target’s mind.
 
 //Lesser Charm:// You may detect a creature’s emotional state (Will negates if unwilling). Unlike other lesser charms, there is no limit to the number of times you may use this lesser charm on a target in a day.
@@ -148,7 +148,7 @@ You can pull information from a target’s mind.
 
 //Powerful Charm:// You may pull a specific piece of information out of a creature’s mind (Will negates). This is usually enough information to answer a single, specific question to the best of that creature’s knowledge, in no more than 25 words. A creature who successfully saves against this powerful charm may choose to provide no answer to your question or attempt to lie with their Bluff skill. If you use this powerful charm twice on the same creature to ask the same question, the same answer (correct, no answer or lie) is given again.
 
-++ ##000000|Sleep (charm)##
+++ ##000000|Sleep (charm) [Core]##
 You put the target to sleep.
 
 //Lesser Charm:// You make the target lethargic, making it staggered for 1d4 rounds (Will negates).
@@ -157,7 +157,7 @@ You put the target to sleep.
 
 //Powerful Charm:// The target is placed into a deeper slumber. Whenever the sleeping target takes damage or another creature attempts to wake it as a standard action, the target does not automatically awaken, but instead makes a new Will save to wake up with a +4 bonus.
 
-++ ##000000|Vision (charm)##
+++ ##000000|Vision (charm) [Core]##
 You may make someone see things that are not there.
 
 //Lesser Charm:// You may alter a creature’s perception of a single creature, object, sound, or effect for 1 round per caster level (Will negates). You may alter 1 sense (sight, sound, touch/pain, taste, smell); for example, you could make a thief appear to be an alley cat, make a scratch appear as a gaping knife wound, or make the sound of footsteps seem like the wind. You cannot use this to replicate speech or sights and sounds you have never encountered before, nor to make something invisible. If used to cover up pain (such as hiding the target taking damage) the target gains a +4 bonus to their Will save. If the target interacts with the object of their altered perception, they are allowed an additional save every round they continue to do so.
