@@ -182,6 +182,16 @@ While rituals of levels 0-3 have the usual material requirements, rituals of lev
 
 + ##000000|Sample Rituals##
 
+++ ##000000|Agreement##
+**Spheres** Fate, Mind; **Ritual Level** 1
+**Casting Time** 5 minutes
+**Components** V, M (exotic candles lit by each participant that are used to light a final candle, collectively worth at least 5 gp)
+**Description** A simple ritual that forms a magically binding contract between two or more individuals, agreement creates a set of magical terms for all involved parties, though the conditions may vary for each participant. The agreement also includes penalties for failing to comply; a creature that violates the terms of the agreement is magically compelled to perform some task, action, or service agreed upon when the agreement was set into place. No save is allowed to avoid the repercussions upon breach of the agreement, and all parties are held to the terms of the ritual even if someone else breaks the agreement first. Parties who fulfill their end of the terms even after others breach the agreement face no such ill consequences.
+
+An agreement cannot be dispelled, but it may be broken through the Break Enchantment Life talent, as well as through spells such as break enchantment, limited wish, remove curse, miracle, or wish. Similarly, a second agreement ritual may be performed by all participants of the original agreement, wherein the terms simply release some or all previous participants from the terms of one previous agreement.
+
+When participating in the agreement ritual, an individual is only considered to be bound to the agreement if they understand the terms and are not being coerced through magical compulsion or direct intimidation.
+
 ++ ##000000|Animal Messenger##
 **Sphere** Nature; **Ritual Level** 2
 **Casting Time** 10 minutes
@@ -250,11 +260,29 @@ While rituals of levels 0-3 have the usual material requirements, rituals of lev
 **Components** V, S, M (500 gp in rare herbs)
 **Description** This functions as the control weather spell.
 
+++ ##000000|Create Mindscape##
+**Sphere** Mind; **Ritual Level** 4
+**Casting Time** 1 hour
+**Components** V, S, M (alchemical sleeping draughts consumed by the caster and target, collectively worth 160 gp)
+**Description** This functions as the Create Mindscape spell.
+
 ++ ##000000|Divination##
 **Sphere** Divination; **Ritual Level** 4
 **Casting Time** 1 hour
 **Components** V, S, M (incense and an appropriate offering worth 75 gp)
 **Description** This functions as the divination spell.
+
+++ ##000000|Dreampath##
+**Sphere** Mind; **Ritual Level** 4
+**Casting Time** 1 hour
+**Components** V, S, M (lighted incense, and pearls crushed into warm milk (collectively worth 50 gp plus an extra 10gp per individual included) consumed at the beginning of the ritual)
+**Description** At the conclusion of the ritual you (and up to one other creature per two caster levels) enter a trance and leave your physical body behind and enter either your own personal dreamscape or the dreamscape of another that you have either located or into which you have been welcomed. If you enter the dreamscape of another, the portion of their dreamscape that you observe may reshape to be more like your own personal dreamscape.
+
+++ ##000000|Dreamquake##
+**Sphere** Mind; **Ritual Level** 2
+**Casting Time** 10 minutes
+**Components** V, M (rare treatise on psychology, neural physiology, or nightmares worth 10 gp; the treatise must be on your physical person when you enter the dreamscape, and the dreamscape’s recreation of the treatise is acceptable while casting within the dreamscape, though the physical copy will turn to ash in the waking world just as it does in the dream)
+**Description** By reciting the phrases within the treatise and altering them as you speak, the knowledge of that which is as well as that which isn’t but should be reverberates throughout the dreamscape, focusing tremors on a specific point. One thought construct within the dreamscape, often one providing a specific bonus to the caster or effect on the environment, takes 1d12 points of damage per caster level and can be considered ruined or non-functional if it takes damage equal to ten times the casting ability modifier of the owner of dreamscape in question (if the owner of the dreamscape is not a caster, use the highest mental ability modifier to determine this). Such damage is repaired at a rate equal to its owner’s casting ability modifier per minute if the structure is not ruined; if it is ruined, it repairs at a rate equal to the owner’s casting ability modifier per day.
 
 ++ ##000000|Driving Force##
 **Sphere** Telekinesis; **Ritual Level** 3
@@ -304,11 +332,34 @@ While rituals of levels 0-3 have the usual material requirements, rituals of lev
 **Components** V, S, M (bottle of fine wine worth 5 gp, stirred with an owl’s feather)
 **Description** This functions as the identify spell.
 
+++ ##000000|Mental Block##
+**Sphere** Mind; **Ritual Level** 2
+**Casting Time** 10 minutes
+**Components** V, M (petals from a flower that only opens in the light of a moon, worth 10 gp)
+**Description** By meditating and intoning an ancient rhyme while breathing the scent of the flower petals as they burn, you fortify your dreamscape against unwanted intruders, granting your dreamscape a bonus equal to 2 + your casting ability modifier on its Will save to avoid detection through scrying or other similar means. You also gain this bonus on attacks against your mind that come directly from your own dreamscape, such as on Will saves made to resist enchantment effects cast at you by another when you are both in your dreamscape or on saves to resist the effects of attacks against your dreamscape directly. This bonus lasts for one day per caster level. During this duration, a thought construct of resilient durability (typically resembling a mausoleum, large safe, small fort, or other stocky, sturdy structure) appears within your dreamscape. If the thought construct is destroyed, removed, or made non-functional, you lose the bonuses offered by this ritual.
+
 ++ ##000000|Open Rift##
 **Sphere** Warp; **Ritual Level** 3
 **Casting Time** 30 minutes
 **Components** V, S, M (25 gp of preserved flesh from a creature with the elemental subtype)
 **Description** An elemental rift is opened at a point within 400 ft, creating an area with a 30 ft radius inside of which the planar traits (elemental and energy traits, gravity traits, and magic traits only) of one elemental plane override those of the plane on which this spell is cast. This effect lasts for 24 hours.
+
+++ ##000000|Pact##
+**Spheres** Fate, Mind; **Ritual Level** 3
+**Casting Time** 30 minutes
+**Components** V, M (a scroll of gilded vellum worth 25 gp to be burned at the conclusion of the ritual, along with the proper tools for signing in expensive inks or blood)
+**Description** A potent agreement between people, usually those who do not trust each other or at least wish some strenuous assurance to be placed on the other. Those who sign the gilded vellum enter into a binding contract, one where failure to fulfill their side invites dire consequences. Such consequences may include:
+* Instant death (affecting even those typically immune to death effects such as constructs or the undead)
+* Transformation into a small animal
+* The presence of a ghostly wraith or other creature that will kill one of the signer’s love ones if they venture outside at night
+* Petrification
+* Lycanthropy
+* 1 hp of damage every round forever (typically circumventing damage reduction or other means of avoiding damage unless a specific sort of damage is specified).
+* Another effect of similar strength and effect, with GM approval
+
+No one may participate in the pact ritual except by their own free will. No saving throw or spell resistance can avoid the negative consequences should a pact maker not fulfill their side of the bargain, as the ritual takes effect at the time of the casting. The pact enforces the spirit of the agreement before the specific wording of the agreement, but will ignore the specific wording if all parties agree for this to be the case. Similarly, neither party is subject to any terms of a contract they either haven’t read or had read to them in a language they understand.
+
+A pact cannot be dispelled, but it may be broken through the Break Enchantment Life talent, as well as through spells such as break enchantment, limited wish, remove curse, miracle, or wish. Similarly, a second pact ritual may be performed by all participants of the original pact, wherein the terms simply release some or all previous participants from the terms of one previous pact.
 
 ++ ##000000|Polymorph Any Object##
 **Sphere** Creation; **Ritual Level** 8
