@@ -181,3 +181,50 @@ Finally, set the effective level of the incantation. Incantations are comparable
 Some incantations use opposed ability or skill checks instead of checks with static DCs. Creating these incantations is almost identical to creating ones with static DCs; you must still choose the sphere and use the same default values, however, replacing the starting DC in this case with an opposed check, such as Bluff vs. Sense Motive or Disguise vs. Perception. When modifying the incantation, instead of applying adjustments to a static DC, apply adjustments to the target’s check result. For example, if creating an incantation that required an opposed Bluff vs. Sense Motive check, if you increased the duration from minutes to hours, you would then apply a +4 adjustment to the target’s check result. This means the opposed check would now be your Bluff result vs. the target’s Sense Motive result +4. If, instead, you reduced the duration from minutes to rounds, you would apply a -2 adjustment to the target’s Sense Motive check.
 
 In an incantation description, using the current example, an opposed check would be designated “Bluff vs. Sense Motive +4”. The skill or other quantity that you use is the first listed, in this case Bluff. The one you’re opposing uses the second skill or the other quantity listed, in this case Sense Motive. Any modifier listed for you or your opponent is applied to the respective checks.
+
+----
+
++ ##000000|Sample Incantations##
+
+++ ##000000|Rite of Waking Slumber##
+To have the aid of a master magician at a difficult time may come with a cost, though that cost need not be taxing, and one’s life may be richer afterward for the gamble. Those who dare the risk may become an agent… for a week, a year, a lifetime, or a moment… of a mage versed in a tradition passed from the elves to the dwarves and merfolk and on to the arcane lords of other lands where magic and warfare go hand in hand.
+**Sphere** Mind; **Effective Level** 6th
+**Skill Checks** Knowledge (Arcana) DC 26 1 success, in order—Heal DC 26 1 success, Bluff DC 26 1 success, Craft (Alchemy) DC 26 2 successes, Bluff DC 26 1 success
+**Casting Time** 6 hours
+**Components** V, S, M (alchemically treated wine worth 200 gp, drunk during the incantation), F (diamond prism, silver chalice, and tattoo equipment collectively worth 2,000 gp)
+**Range** touch
+**Target** one living humanoid, giant, or monstrous humanoid
+**Duration** Instantaneous
+**Saving Throw** no; **SR** yes
+
+**Description**
+One who has convinced a sufficiently powerful magician to perform the Rite of Waking Slumber to this ritual is subjected to a six hour procedure wherein the performer exercises the muscles of their target, places them into a highly suggestive state, creates and administers an alchemically treated wine (which the target must drink), and implants post-hypnotic suggestions. During the procedure, the performer also incorporates alchemical inks into a tattoo somewhere on the target’s body, which acts as both a conduit for the initial placement of the magic and as the basis for a mental bond between the performer and target. Other aids, usually courtiers or acolytes of the performer, are required to assist the performer in gathering magic and perfecting the alchemical treatments.
+
+Traditionally, the target has agreed to perform some service in exchange for another, and the abilities imparted through this incantation (accessible via the waking sleeper prestige class, which the target now qualifies for) can often aid with these services. However, the first service is often tending to the suddenly vulnerable master when their health drops incredibly at the end of the rite. Rarely, at the end of the rite the target will try to betray the performer while they are in this weakened state, though the assembled acolytes and other measures may be taken for the security of the caster.
+
+**Backlash**
+The performer of the ritual is wracked with the magical energy wrought from the martial power new locked in the mind of the target, reducing their current hit points to -1.
+
+**Failure**
+Failure on the Knowledge (arcana) check causes a buildup of mental energy that causes 3d6 points of damage to both the target and performer. Failure on the Heal check causes the performer’s handiwork at working the target’s muscles and pressure points to be off, leading to the target being paralyzed for 1d4 days. Failure on either Bluff check means that the post-hypnotic suggestions did not settle properly, and bestows a rampant paranoia upon the target, effectively giving them the opposite alignment for 1d6 minutes at the conclusion of the ritual, likely tied to a desire to attack or sabotage the performer. Failure on either alchemy check means that there was something wrong with the wine or inks used in the incantation, and the target is afflicted with Blinding Sickness (CRB).
+
+++ ##000000|River of Reverie##
+There exists a dream of a river, meandering through lands both real and imaginary. Believed to be related to the bounteous forces of the natural world, and tied to myths of the origin of willpower, this river is often sought by studious wielders of arcane power but rarely mastered. The chaotic and gentle flow is known by more fishermen and sailors than by wizards and incanters; in fact, only the calm, relaxed business of fishing seems appropriate for catching a dream, and then only with a specially prepared bait. While this structure of the mind flows through a consciousness, the maintainer of such a dreamscape gains a great defense against forces that act from beyond the grave though risks greater danger of facing a watery one.
+
+**Sphere** Mind; **Effective Level** 4
+**Skill Checks in order**—Craft (Alchemy) DC 18 1 success, Profession (Fisher) DC 18 2 successes, Spellcraft DC 18 1 success
+**Casting Time** 4 hours
+**Components** S, M (aged cheese worth 150 gp to be alchemically treated and used as bait), F (masterwork heirloom fishing rod of darkwood worth at least 1,000 gp)
+**Range** Personal
+**Target** Self
+**Duration** 8 hours
+**Saving Throw** Will negates (harmless); **Spell Resistance** yes (harmless)
+
+**Description**
+To perform this incantation, one must engage in a true act of fishing. First, one must alchemically alter the aged cheese into being the perfect bait for catching a dream. Then one must begin fishing at a suitably calm stream or river. Finally, once the dream takes the bait, one must use the fishing rod to channel the magical energies necessary to weave the dream into one’s own mind. The River of Reverie will always appear near the primary performer in their dreamscape, flowing through the land and providing a scenic view that always interposes itself between any undead creatures who enter the dreamscape. Any supernatural, spell-like, or extraordinary abilities employed by the undead creature to target the performer in their dreamscape automatically fail as if line of sight and line of effect were both blocked, and as if the target were out of range of the effect. However, the supernatural, spell-like, or extraordinary abilities of creatures with the aquatic subtype or water subtype automatically succeed against the performer. Spells or sphere-effects not related to the being’s nature are not affected by this.
+
+**Backlash**
+The performer is exhausted. If the incantation is a success, the caster only becomes exhausted once the duration expires.
+
+**Failure**
+If you fail the Craft (Alchemy) check twice, the cheese is wasted and must be replaced. If you fail two consecutive Profession (Fisher) checks, the dream of the River of Reverie gets away with the bait (which, again, requires the cheese to be replaced). If you fail the Spellcraft check, the dream of the River of Reverie gets away with the bait, the ever-losable cheese.
