@@ -34,6 +34,10 @@ You may plant thoughts into a target’s mind.
 //Powerful Charm:// This is the same as the Suggestion lesser charm, but the creature obeys any course of action given, so long as the suggestion is not obviously fatal or against the target’s nature. Basic requests cause the save to be made with a -2 penalty, while very simple requests cause the save to be made with a -4 penalty.
 
 Some mind talents are designated (charm) talents. These talents grant you additional charms you may place on targets.
+
+**Cloud:** Talents marked with the (cloud) tag allow the caster to create clouds of mental energy that emanate from an area, object, or creature. Creatures are not affected by a cloud unless they enter its area, or otherwise interact with the cloud in a fashion designated by the talent. You may imbue an area, object, or creature at close range with a cloud. An imbued item may be no larger than 5 cubic ft. per caster level in size. A creature may be up to the caster’s size + 1 size category for every 5 caster levels. It is possible to imbue a portion of an item or creature (a single head of a massive, two-headed dragon or a single segment of a lengthy carpet with blood smeared over it, for instance) but hiding a portion of an item or creature won’t prevent the whole of it from being noticed. Unless otherwise specified, a cloud’s radius extends from an item or creature as if the creature was the center of an imbued area measured as a radius.
+
+An imbued area may either be 10 ft. in radius + an extra 5 ft. per caster level, or a 10-ft. wide area that extends for a length of 10 ft. + 10 ft. per caster level (such as would be appropriate to fill a 10 ft. wide hallway). Establishing a cloud requires a standard action that provokes attacks of opportunity. As with charms, most clouds have three strengths; lesser, greater, and powerful. Spell point expenditures remain the same for the three strengths, and you may only affect a creature with a cloud if you could also affect it with a charm. Similarly, the Powerful Charm talent is required to use the powerful versions of clouds and you may only imbue the same item, creature, or area with a lesser cloud once per day. With the exception of Group Charm, cloud talents are affected by talents that affect charms.
 ----
 + ##000000|Mind Talents##
 
@@ -53,6 +57,42 @@ Increase the range you may charm targets by 1 step (Close to Medium, Medium to L
 If a target succeeds on their save against one of your charms, they must immediately pass a second Will save. If they fail this second save, they do not realize they were the subject of an attempted mental assault.
 ----
 + ##000000|Charm Talents##
+
+++ ##000000|Amnesia (charm)##
+You may reach into a subject’s memory and remove information and awareness of people, places, things, or events.
+
+//Lesser Charm:// The target loses any recollection of what happened in the last round, back to the beginning of your previous round’s actions (Will negates). A reminder of the events, such as witnessing a similar action taken by one of the involved creatures or distinctive items being used in the same fashion or someone spending a free action to inform the person about the event, allows the target to make a new Will save to recall the forgotten moment, or the target may have their memory restored through the Life sphere’s Break Enchantment talent, the break enchantment spell, any effect that removes the confused condition, or the use of the Inception talent’s lesser, greater, or powerful charms being used to specifically make the target remember what was forgotten.
+
+//Greater Charm:// The target loses all awareness of the immediate past (Will negates). This affects all memories from up to 1 minute per caster level. Alternatively, a target may lose all memory of just a single person, location, item, or event, such as the identity of a friend or a robbery they participated in. If the memory of an event is forgotten, the event’s duration in real life can only have 1 minute per caster level removed from the target’s memory. A target’s memory may be restored through the Life sphere’s Break Enchantment talent, the break enchantment spell, or through the Inception talent’s greater or powerful charms being used to specifically make the target remember what was forgotten.
+
+//Powerful Charm:// The target loses all memory of events that transpired in the recent past (Will negates). This may erase memories going back 1 day per caster level. The caster may erase all or part of the subject’s memory of this time. A target’s memory may only be restored through the Life sphere’s Break Enchantment effect if the caster also possesses the Restore Mind talent, or through the wish or miracle spells. The target’s memory may also be replenished through the Inception talent’s powerful charm being used to specifically make the target remember what was forgotten.
+
+++ ##000000|Calm (charm)##
+You may suppress emotions in hostile creatures or provide ease to excitement and confidence. You may deny raging creatures their battles or joyous creatures their revelry.
+
+//Lesser Charm:// The target loses the benefit of any spell or effect with the emotion descriptor, as well as any morale bonus from magical or extraordinary effects (Will negates). This includes a paladin’s auras, the good hope spell, the effects of an eliciter’s emotions, bardic music, or a barbarian’s rage. The effects are suppressed, but not dispelled. This effect lasts a number of rounds equal to your caster level. Any aggressive action toward or damage dealt to a creature under the effect of this ability automatically ends the effect.
+
+//Greater Charm:// In addition to the effects of the lesser charm, this charm removes any desire to fight or engage in revelrous behavior. No violent actions or destructive actions may be taken by the creature, but the target may still defend itself normally. In addition, effects related to emotion that grant effects beyond simple bonuses (such as a bard’s fascinate ability or certain eliciter emotions) cannot be initiated (Will negates).
+
+//Powerful Charm:// In addition to the effects of the greater charm, the target of this ability simply loses any desire to act. The target is overwhelmed with soothing peace and calm and as such may take no actions, but the target may still defend itself normally (Will negates).
+
+++ ##000000|Candor (charm)##
+You compel words of honesty in your subject, bringing truth to their voice.
+
+//Lesser Charm:// The target is compelled to speak only what they believe to be true. This does not compel them to speak, but it does prevent any words they do say from being intentionally dishonest (Will negates). A target may not realize they are magically compelled to speak the truth if the caster has the Subtlety talent, but even if unaware they may receive a Reflex save to stop themselves from talking when they attempt to tell a lie and realize that their words are changing. This lasts for a number of rounds equal to your caster level.
+
+//Greater Charm:// This functions as the lesser charm, but the duration of the Candor is increased to a number of hours equal to your caster level (Will negates).
+
+//Powerful Charm:// The target is compelled to answer a single question directly put to it. A successful save allows the target to ignore any similar questions asked with this talent for a number of minutes equal to its Wisdom score. (Ultimately the definition of “similar” is up to the GM, but generally the question “Who stole the queen’s jewels?” is considered similar to “Did you steal the queen’s jewels?” but is not considered similar to “What were you doing on the night the jewels were stolen?” because the focus shifts from identifying a culprit to stating an activity.)
+
+++ ##000000|Cerebral Strike (charm)##
+You unleash a storm of psychic energy that invades the mind of your subject.
+
+//Lesser Charm:// The force of your mind directly attacks the psyche of your enemy. The target takes 1d8 points of nonlethal damage per 2 caster levels (minimum 1d8, Will negates).
+
+//Greater Charm:// The mental damage you deal is lasting and no longer superficial. In addition to dealing 1d8 points of nonlethal damage per 2 caster levels (minimum 1d8), you also deal 1d4 points of ability damage to the target’s Intelligence, Wisdom, or Charisma (your choice) + an additional 1 point of ability damage per 6 caster levels. Against a successful Will save, you instead deal half of the nonlethal damage you would have dealt and no ability damage. (For example, a 10th level caster would deal 5d8 points of nonlethal damage + 1d4+1 points of ability score damage to either Intelligence, Wisdom, or Charisma, but against a successful save would only deal half of 5d8 nonlethal damage.) Ability damage dealt this way cannot decrease an ability score below 1.
+
+//Powerful Charm:// The force of your mental assault causes a physiological backlash in the target, along with self-inflicted wounds. You deal 1d8 points of nonlethal damage per 2 caster levels (no save) and 1d8 + 1 per 6 caster levels of ability damage to your choice of the target’s Intelligence, Wisdom, or Charisma (Will halves).
 
 ++ ##000000|Command (charm) [Core]##
 You may directly control another creature’s body.
@@ -79,7 +119,16 @@ You inspire the target to great action.
 
 //Greater Charm:// The target gains a morale bonus equal to 1 + 1 per 5 caster levels to all attack rolls, saving throws, ability checks, and skill checks for 1 round per caster level.
 
-//Powerful Charm:// This is the same as the Courage greater charm, except the duration increases to 1 minute per level. The target also becomes immune to fear and gains temporary hit points equal to your caster level
+//Powerful Charm:// This is the same as the Courage greater charm, except the duration increases to 1 minute per level. The target also becomes immune to fear and gains temporary hit points equal to your caster level.
+
+++ ##000000|Disrupt Focus (charm)##
+You can make it harder for a target to concentrate on using their magic.
+
+//Lesser Charm:// Your target must pass a concentration check with a DC equal to 10 + your casting ability modifier + half your caster level for any spell, talent, or similar effect that might otherwise be subject to a concentration check under adverse conditions (Will negates). You must concentrate to maintain this effect, up to a maximum number of rounds equal to half your caster level (minimum 1) or until the target fails a concentration check, whichever comes first.
+
+//Greater Charm:// As the lesser charm, though you no longer need to concentrate to maintain the effect, the duration is equal to your caster level (or until the target fails a concentration check, whichever comes first), and the concentration DC equals 10 + your casting ability modifier + your caster level.
+
+//Powerful Charm:// As the greater charm, though the effect persists even if the target fails a concentration check, lasting for up to a maximum duration of a number of rounds equal to your caster level.
 
 ++ ##000000|Enthrall (charm) [Core]##
 You cause a creature to regard you as its friend. If you or your allies are attacking or threatening the creature, they gain a +5 bonus to their saving throw against this charm. A DC 25 Sense Motive check reveals the target of this charm has been enchanted. This is an enchantment (charm) effect instead of an enchantment (compulsion) effect.
@@ -99,6 +148,17 @@ You may warp a target’s mind with fear.
 
 //Powerful Charm:// This is the same as the Fear greater charm, except the target becomes panicked instead of frightened. On a successful save, they are still frightened for 1 round and shaken for 1 round per caster level.
 
+++ ##000000|Gestures (charm)##
+You mentally pull and tug at the target’s muscles and the aspects of its mind that relate to motor functions.
+
+//Lesser Charm:// You influence the physical gestures made by a target and the actions of the target’s limbs and extremities (Will negates). You may impose a failure chance on any other magic user whose magic requires a somatic component equal to 10% + an additional 5% for every 5 caster levels (this effect stacks with similar failure chances, such as the arcane spell failure chance that accompanies armor).
+
+In addition, you may impose a circumstance penalty to any of the target’s skill checks that would ordinarily be subject to an armor check penalty equal to 2 + 1 per every 5 caster levels. This effect lasts for a number of minutes equal to your caster level, or until you cease concentrating on the effect.
+
+//Greater Charm:// In addition to the effects of the lesser charm, you may enforce quick, shambling actions on the target or interruptions of actions the target is taking. You may force the target to pick up or drop an object in a space within its reach, although the target may only be forced to drop things that are held (as opposed to worn or bound in some way). As a standard action that does not provoke attacks of opportunity, you may make a flat-footed target fall prone, or otherwise make a ranged trip attempt against a target that uses your caster level in place of your BAB and your casting ability modifier in place of your Strength modifier. If the target is flat-footed you may cause a check that would be affected by an armor check penalty to automatically fail. Finally, you may also prevent the usage of any magical ability that requires gestures or somatic components.
+
+//Powerful Charm:// In addition to the effects of the lesser and greater charms, you gain nearly full control over the quick gestures and movements of the target. If your target threatens a square where another creature provokes an attack of opportunity, you may force the target to take an attack of opportunity against that target if they have any attacks of opportunity remaining (this counts as one of your attacks of opportunity). You may force the target to move up to half of its move speed in any direction that you wish. You may also use the target to provide the somatic components for your own magical effects, and even make the target the origin point of those effects so long as only somatic components are required. (Casters with the Utterances talent may include verbal components with no extra save required). You may also allow this magic to work in either direction, allowing a willing target to control you or vice versa (for example, a friendly rogue might pick a lock that only you can reach using your hands, or you might use your own painting skills to paint a picture through a friendly paladin’s hands to impress a dignitary).
+
 ++ ##000000|Hostility (charm) [Core]##
 You cause the target to enter a blinding rage.
 
@@ -112,6 +172,21 @@ You cause the target to enter a blinding rage.
 
 * //Brutal Rage:// The target is compelled to hostility and each round attacks the nearest target to itself, be it friend or foe. If the creature cannot attack something during its turn, it deals 1d8 + its Strength modifier damage to itself with whatever it has in hand.
 
+++ ##000000|Inception (charm)##
+You add trivia, knowledge, and memories to a person’s mind, whether or not this information is grounded in fact.
+
+//Lesser Charm:// You may “create a rumor” in a target’s mind, suggesting information that a target “heard somewhere” or “read once” but that they haven’t actually encountered (Will negates). As part of the casting, you may make a magic skill check or Bluff check opposed by the target’s Sense Motive check (using modifiers as listed for the Bluff skill) to see how firmly the target adheres to this new information; as with a Bluff check, they may not believe this rumor even if they believe that they heard it or read it somewhere.
+
+Evidence that conflicts with the implanted memory allows a new Will save to realize that the information is faulty, though failure on a new Will save doesn’t mean that the target is compelled to believe the old information (instead believing that they had learned some faulty information). In addition, the Life sphere’s Break Enchantment talent, the break enchantment spell, any effect that removes the confused condition, or the Amnesia talent’s lesser, greater, or powerful charms may be used to either remove false implanted information, or to make the target realize that the information is faulty.
+
+//Greater Charm:// As the lesser version of the talent, but the target’s new memory can relate to things within their own experience or of their own devisement (such as details about friends’ lives or current news discussed at a tavern the night before). The new memories will take precedence over the old if they contradict, but the old memories will still remain (for example, a guard may have the memory of a different combination for a combination lock, password for a door, or route through a maze, but nothing stops them from recalling the true information when the implanted memories prove false.)
+
+Encountering evidence that contradicts the new memory allows a new Will save to realize that the new memories are false. In addition, the Life sphere’s Break Enchantment talent, the break enchantment spell, or the Amnesia talent’s greater or powerful charms may be used to either remove false implanted information, or to make the target realize that the information is faulty.
+
+//Powerful Charm:// As the greater version of the talent, though you may now craft entirely new memories of events that the target has personally witnessed (Will negates). These memories are indistinguishable from actual memories, and appear to fit the flow of the continuity of their memories, but do not otherwise remove or alter the previous memories. A contradictory memory offers a +4 bonus to both the Will save to resist the charm and the Sense Motive check to resist believing the new memory. Similarly, memories of creatures doing something that they would not normally do or doing things against their nature give a further +2 or +4 bonus to these checks, respectively.
+
+A target’s false memories may only be removed or proven false through the Life sphere’s Break Enchantment effect if the caster also possesses the Restore Mind talent, or through the wish or miracle spells. The target’s memory may also be replenished through the Amnesia talent’s powerful charm being used to specifically make the target realize what memories are faulty.
+
 ++ ##000000|Inspiration (charm) [Core]##
 You inspire competence in the target.
 
@@ -120,6 +195,24 @@ You inspire competence in the target.
 //Greater Charm:// This is the same as the Inspiration lesser charm, except it adds +2d4 to the attack roll or skill check instead of +2.
 
 //Powerful Charm:// This is the same as the Inspiration greater charm, except it adds +2d4 +1 per 2 caster levels (minimum: 1) to the roll instead of only +2d4.
+
+++ ##000000|Mind Shield (charm)##
+You may establish a ward on the mind of another, one capable of providing protection from mental assault.
+
+//Lesser Charm:// You create a metaphysical bubble of protective insight over the mind of a willing creature. This keen intellectual insight bestows a morale bonus to Will saves equal to 1 + 1/2 your caster level for a number of rounds equal to your caster level. This mind shield is nullified as soon as the target makes a single Will save, whether or not the save was successful. This does not suppress or remove existing magical effects on creatures, it merely protects them from further mental attacks. This charm may be used multiple times per day on targets.
+
+//Greater Charm:// You establish a notional cloud of ablative thought over the mind of a willing creature. This blur of ideological presence bestows a morale bonus to Will saves equal to your caster level for a number of rounds equal to your caster level. This mind shield is halved in effectiveness with each Will save made, whether or not the save was successful (for example, if bestowed by a 7th level caster it would provide a +7 morale bonus to Will saves, followed by a +3 morale bonus to Will saves after the target makes a Will save, followed by a +1 morale bonus to Will saves before being depleted entirely). This does not suppress or remove existing magical effects on creatures, it merely protects them from further mental attacks.
+
+//Powerful Charm:// You impart an adamant shield of conceptual certainty upon the mind of a willing creature. This creature gains immunity to any enchantment spell or effect that would require a Will save for a number of rounds equal to your caster level. This immunity can be overcome with a magic skill check against your MSD. Even if this immunity is bypassed, the target receives a bonus to Will saves equal to your caster level.
+
+++ ##000000|Mind Spy (charm)##
+You can send a piece of your mind into your target to see the world through their eyes (save negates). The target gets a new Will save every time you use this ability, although consecutive rounds do not give additional saves. While this link to your target remains, you can choose to use this ability at any time before the link expires, or have its activation linked to a specific event that your target may experience.
+
+//Lesser Charm:// While the link remains active, you can use the target’s senses for 1 round per caster level and see and hear what they can. The rounds need not be consecutive. The link remains active for up to 1 hour per caster level from the time the target is first affected. Abilities that block or suppress possession or remove enchantments (such as the protection from evil spell or the Break Enchantment talent) will similarly block, suppress, or remove the effect of this charm on your target.
+
+//Greater Charm:// As the lesser charm, but you can use their senses for 1 minute per caster level, and the link lasts for 1 day per caster level.
+
+//Powerful Charm:// As the greater charm, but you can use their senses for 1 hour per caster level, and the link lasts for 1 week per caster level.
 
 ++ ##000000|Paralyze (charm) [Core]##
 You freeze the target in place.
@@ -157,6 +250,15 @@ You put the target to sleep.
 
 //Powerful Charm:// The target is placed into a deeper slumber. Whenever the sleeping target takes damage or another creature attempts to wake it as a standard action, the target does not automatically awaken, but instead makes a new Will save to wake up with a +4 bonus.
 
+++ ##000000|Utterances (charm)##
+You tamper with a mind’s language center, and the muscles controlling speech to impede or alter the flow of words.
+
+//Lesser Charm:// You can tug on the strings of conversation, altering the sounds of words, inserting or negating vocalizations as you see fit. You may impose a failure chance on any other magic user whose magic requires a verbal component equal to 10% + an additional 5% for every 5 caster levels (this effect stacks with similar failure chances, such as the 20% chance that accompanies the deafened condition). In addition, you may impose a circumstance bonus or penalty to the target’s Bluff, Diplomacy, Intimidate, or Perform checks equal to 2 + 1 per every 5 caster levels. This effect lasts for a number of minutes equal to your caster level.
+
+//Greater Charm:// In addition to the effects of the lesser charm, you may wrest full control from a target’s speech by stopping them from speaking entirely or choosing words for them to say. This can prevent a target from using magic that requires verbal components or other vocalizations, and can force a target that remains within range to only say what you want them to say. A target not specifically under the mental command to remain silent will be able to say whatever it wishes if it leaves the range of the effect. If you attempt to make a target say something that would be against the target’s nature (such as a young lover renouncing affection for his or her betrothed, or a dragon agreeing to a verbal contract to part with some of its treasure), it gains another Will save to resist the effect.
+
+//Powerful Charm:// Your control over the speech of the target is fluid and nearly flawless. In addition to the effects of the lesser and greater charms you may make the target speak so eloquently that you may roll a Bluff, Diplomacy, Intimidate, or Perform check through them using your own ranks instead of its own, provided that the check in question is vocal in nature. You may also make use of the target’s skills in these ranks yourself, borrowing the talent or, if you wish, allowing the target to directly speak through you. You may also use magic that requires verbal components (but no other components) through the target, as if the magic originated from the target’s space. Casters with the Gestures talent may include somatic components with no extra save required.
+
 ++ ##000000|Vision (charm) [Core]##
 You may make someone see things that are not there.
 
@@ -165,3 +267,46 @@ You may make someone see things that are not there.
 //Greater Charm:// This functions as the Vision lesser charm, except you may affect all 5 senses in relation to the chosen creature, object, sound, or effect.
 
 //Powerful Charm:// This functions as the Vision greater charm, except you may change the target’s perception of everything around them. This grants the target a new saving throw each round they interact with any part of the altered surroundings.
+
+----
++ ##000000|Cloud Talents##
+
+++ ##000000|Dispersion (cloud)##
+You imbue a creature or object with a field of refracting cogitative energy that makes it difficult to focus on what or where the field masks.
+
+//Lesser Cloud:// The creature or object becomes difficult to locate intentionally and almost impossible to stumble across accidentally. Disguise checks to recognize a creature and Perception checks required to locate such an object or person have their DCs increased by 1 + 1 for every 2 caster levels, and any creature with this ability placed upon them may immediately attempt to hide even if observed or without cover or concealment. Loud noises, sudden actions, or other typically noticeable events allow creatures near such an effect to make a Perception check (still modified by the lesser charm’s boost to DCs) to notice the creature. This effect lasts for a number of hours equal to your caster level. If the creature makes an attack against another creature, the effect automatically ends.
+
+//Greater Cloud:// In addition to the lesser effects of Dispersion, a magic skill check may be rolled at the time of casting, prompting a Will save from anyone in the cloud’s line of sight. If the check result is higher than any given observer’s Will save, then when the target is successfully hidden from direct observation the observer will forget about their active presence in the environment. If the observer is reminded about the target by being told of its presence or directly observing it, the observer gains another Will save to recall the target and the target’s significance to the current situation. (Successfully hiding again may, however, cause the observer to forget the target again.)
+
+//Powerful Cloud:// In addition to the lesser and greater effects of Dispersion, the warded area, object, or creature becomes supernaturally difficult to observe. Even if a creature is aware of the target, they must pass a Will save every round to actively engage with the target, such as through conversation, attacking, searching, or medical treatment. Skill checks that are carried out over the course of minutes, hours, or days (or similar unit of time) instead of rounds impose a Will save for every unit of time involved instead of every round due to the increased intentional focus of the people performing such tasks (up to the duration of the Dispersion effect).
+
+++ ##000000|Esteem (cloud)##
+You target a creature at close range and imbue it with an increased sense of self-worth, capacity for persuasion, and force of personality (Will negates).
+
+//Lesser Cloud:// You grant a competence bonus to a single Intelligence, Wisdom, or Charisma-based skill check of the target’s choice equal to 1/2 your caster level (minimum 1) that is performed within 1 hour + 1 hour per 5 caster levels. The target counts as enchanted while under the effects of this cloud, and a DC 25 Sense Motive check will determine that the target is not wholly acting as themselves.
+
+//Greater Cloud:// This acts the same as the lesser cloud, but the bonus to the check now equals your caster level. As a drawback to this cloud, this DC of the Sense Motive check to detect the cloud on the target is reduced to 15. This level of the cloud may only be used once per day on a target.
+
+//Powerful Cloud:// As the greater cloud, but the check may be performed within 1 day + 1 day per 5 caster levels. This level of the cloud may only be used once per week on a target.
+
+++ ##000000|Lure (cloud)##
+You may cause a location or object to radiate a cloud that invites or repels either creatures of a given type (such as monstrous humanoids or outsiders with the fire subtype), a specific kind of creature (such as blue dragons or red-furred hobgoblins), or creatures of a specific alignment (such as lawful neutral creatures).
+
+If the effect is used to invite creatures, they feel elated and pleased to be in the area of the effect, or desire to touch or possess the affected item. They have an overpowering desire to stay in the area or remain in contact with the item. If the effect is used to repel creatures, they feel an urge to leave the area or avoid the object in question. The creatures will actively shun the area and not willingly return to it while the talent’s effect is active.
+
+If a save to resist the invitation effect is successful, the creature is unaffected, but they must reattempt the save after 1d6 x 10 minutes if they are still within range and the effect is still continuing. Similarly, if the save to resist the repulsion effect is successful, the creature may remain in the area or in contact with the object, but will feel uncomfortable doing so. This distracting discomfort reduces the creature’s Dexterity score by 4 points (to a minimum of 1) until they leave the area of the effect.
+
+//Lesser Cloud:// The lure effect can invite or repel creatures of up to 1/2 your caster level in HD (Will negates). The effect applies to any creature who comes within close range of the effect. The effect lasts for a number of minutes equal to your caster level.
+
+//Greater Cloud:// As the lesser cloud, except it can affect creatures of up to your caster level in HD, applies to any creature who comes within medium range of the effect, and lasts for a number of hours equal to your caster level.
+
+//Powerful Cloud:// As the lesser cloud, except the Lure effects creatures of up to twice your caster level in HD, applies to any creature who comes within longrange of the effect, and lasts for a number of days equal to your caster level. Casters with the Ranged Mind talent may extend the range to extreme range (1,000 ft. + 100 ft. per level, see The Destroyer’s Handbook). Casters with both the Ranged Mind talent and the Zeitgeist advanced talent may make the lure’s effect cover either 1 mile/caster level, or communities of up to 10,000 or smaller.
+
+++ ##000000|Misdirect (cloud)##
+You imbue an area to persuade travelers to wander elsewhere.
+
+//Lesser Cloud:// A creature entering the cloud must succeed on a Will save. Failure causes them to, potentially, change directions. Roll a d8 as if throwing a splash weapon that missed its target square; on a 1, the creature continues moving in its intended direction. On a 2 through 8, count around the target creature’s adjacent squares in a clockwise direction to determine the direction it walks in. It finishes moving after the intended distance has been traversed, or after it moves into an obstruction (such as a wall.) If it was moving faster than its typical movement speed (such as by running) the creature takes 1d4 nonlethal damage. This cloud lasts for one minute per caster level.
+
+//Greater Cloud:// As the lesser cloud, but you determine the new direction of travel when imbuing the area with the cloud and may select a number of familiar creatures equal to your casting ability modifier to be immune to the cloud’s effects.
+
+//Powerful Cloud:// As the greater cloud, but you may alter the direction of every target moving through the cloud as a free action as long as you remain within close range of the cloud.
