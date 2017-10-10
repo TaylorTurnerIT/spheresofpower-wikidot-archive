@@ -7,6 +7,10 @@ parent:spheres-of-power
 
 You wield the powers of life.
 
+This section also includes **vitality talents**. A caster with one or more vitality talents may grant a bonus to any ally they use a Life sphere ability on as a free action made when they use that sphere ability. This includes using Fount of Life and granting effects with a duration, such as Revitalize. The bonus lasts for up to 1 minute, or until the ally takes damage from either failing a saving throw or being hit with an attack roll. In the case of abilities with a duration, the minute starts when the ability is used, and ends 1 minute later at the latest, even if the triggering ability is still in effect. If a caster possesses multiple vitality talents, only one talent takes effect when they use a Life sphere ability on an ally, but a single Life sphere ability that affects multiple allies may affect different allies with different vitality talents. A creature can benefit from a vitality talent attached to a Life ability, even if they don’t actually gain anything from the Life ability (such as using cure on a creature at full hit points).
+
+----
+
 + ##000000|Invigorate [Core]##
 
 As a standard action, you may invigorate a touched creature, granting them temporary hit points equal to your caster level (minimum: 1). Unlike normal temporary hit points, this ability can only be used on an injured target and cannot raise a target’s current hit points plus their temporary hit points to be higher than their total hit points. This benefit lasts for 1 hour. Temporary hit points, even from different sources, do not stack; only the highest bonus applies.
@@ -31,8 +35,70 @@ If the condition targeted is part of an on-going effect, this suppresses the eff
 ----
 + ##000000|Life Talents##
 
+++ ##000000|Adrenaline Surge##
+When you use a Life sphere talent or ability on an ally other than yourself, you may spend one spell point to also give them an adrenaline surge. The ally may do one of the following as an immediate action:
+* make an attack at their highest base attack bonus
+* move their speed, drawing attacks of opportunity normally
+* make an Escape Artist check with a bonus equal to your caster level
+* draw, pick up, or ready a weapon or shield
+* stand up from prone
+
+You may use this ability to surge multiple allies (other than yourself) at a time when you perform a Life sphere ability that affects multiple allies by spending a second spell point. Surges are resolved in initiative order.
+
+++ ##000000|Affliction##
+You may use your restore ability to interfere with the life energy of living creatures. As a standard action, you may use your restore ability as a touch attack that interferes with the life energies of a creature. This costs the same as a normal use of restore would. The creature must make a Will save, or they are exhausted for 2d6 rounds. If they pass their saving throw, they are instead fatigued for 2d6 rounds. Unlike regular fatigue and exhaustion, this condition ends as soon as the duration expires.
+
+If you possess other Life talents that let you remove conditions, then you may have other options available to you. Only one condition may be inflicted per use of this ability.
+
+If you possess the Restore Composure talent, you may cause the target to become disoriented for 1d6 rounds if they fail their Will saving throw. During this time, they are unable to use or concentrate on sphere abilities or spells, take a -5 penalty to Perception checks, and can not benefit from morale bonuses.
+
+If you possess the Restore Health talent, you may make the target nauseated for 1d6 rounds if they fail a Fortitude saving throw. If they succeed, they are sickened for 1d6 rounds instead.
+
+If you possess the Restore Mind talent, you may make the target confused for 1d6 rounds if they fail a Will saving throw.
+
+If you possess the Restore Movement talent, you may may cause the target to lose some control of their body. If they fail a Reflex saving throw, they gain the entangled condition and are unable to leave their square for 1d6 rounds. There is no physical restraint created, so effects such as the freedom word from the Fate sphere does not help them.
+
+If you possess the Restore Senses talent, you may make a creature lose a sense of your choice that you are aware they have, causing it to become either blind or deaf (your choice), or to lose one special sense such as the scent ability, tremorsense, blindsense, blindsight, etc. The effect lasts for 2d6 rounds. A successful Will save negates this effect.
+
+If you possess the Restore Soul talent, you may cause the creature to become unable to be the recipient of any healing for 2d6 rounds, including those from fast healing or regeneration. No saving throw is allowed against this effect.
+
 ++ ##000000|Break Enchantment [Core]##
 You may spend an additional spell point to allow your restore ability to removes all magic from the target that has a duration. This may be used against curses including cursed equipment, although it does not remove the curse from the equipment, but instead suppresses the effect long enough for the item to be removed. You must succeed at a magic skill check against each magical effect in order to remove it. You may choose not to remove certain effects if you so desire (for example, you may target only harmful effects and not beneficial ones). This counts as using the break enchantment or remove curse spell against those spells and effects that specify they can only be removed through those spells. This has no effect on instantaneous effects.
+
+++ ##000000|Clarified Strike##
+As a standard action, you may make a single ranged or melee attack coupled with a Life sphere ability. If the attack hits, the creature is also affected by your Life ability.
+
+++ ##000000|Contagion##
+When you restore a creature, you may immediately attempt to inflict the conditions you just removed on another living creature within range of your restore ability. You must spend a spell point and make a touch attack on the creature. If successful, the creature targeted must make a Fortitude save vs a DC of 10 + 1/2 your caster level + your casting ability modifier or they receive all the conditions you just restored, except for those they are immune to.
+
+These conditions last one round, regardless of the original duration of the restored conditions. If the creature targeted is missed or they pass their saving throw, the creature is still restored. If this is used in conjunction with Mass Restore, multiple enemies can be targeted, but each enemy can only receive conditions transferred from one ally and each ally must have all their conditions transferred to a single target.
+
+You may only move conditions this way, not ability damage, ability drain, or negative levels.
+
+++ ##000000|Deeper Invigorate##
+Your invigorate effect grants 2 temporary hit points per caster level instead of 1 temporary hit point per caster level.
+
+++ ##000000|Diagnose##
+As a swift action, you can learn any conditions that are affecting a living creature (unconscious, dying, nauseated, panicked, stunned, poisoned, diseased, confused, etc) within range of your Life sphere abilities.
+
+By increasing the casting time of this ability to a standard action or by spending a spell point, you can learn the details of any condition they are under, such as whether they have been affected by a spell or the nature of any disease or poison they are afflicted with. You may use this on a deceased creature to determine how they died, so long as the target has been dead for no more than one day per caster level.
+
+You may also use this ability on any ally that is currently under the effect of one of your Life sphere abilities regardless of range or line of effect (such as allies who currently possess temporary hit points from your invigorate ability), as long as they are on the same plane of existence. You always know the direction and distance to your ally.
+
+++ ##000000|Disruption##
+You may spend a spell point to disrupt the life energies of a living creature within range of your cure ability by making a touch attack. On a successful hit, the target takes 1d4 nonlethal untyped damage per caster level. If you possess the Greater Healing talent, the damage die for this ability increases one size for each time you purchased that talent, up to a maximum of d12. A critical hit does not cause the damage from this attack to multiply; instead it causes the target to be dazed for 1 round (no save).
+
+++ ##000000|Empathic Healing##
+You may restore others by taking on their injuries yourself. Doing so reduces the cost of the Life sphere effect by 1 spell point to a minimum of 0 spell points.
+
+When you restore a creature empathically, you gain any conditions you removed from the creature as if you had been the one originally affected. Likewise, you gain any attribute drain or damage, or any negative levels they had. You may not transfer conditions that will kill you or render you unconscious, or conditions that are the result of ongoing effects (such as being shaken within a totem of doom). You may select which conditions to transfer and which to leave untreated.
+
+If the effect causing the condition allowed a save, you do not get a new save, though any effects on you that would protect you from the condition still function for the duration you have them. If you already have that condition, any duration it may have adds to the duration of the condition you have, but otherwise you are unchanged.
+
+If you use this talent to restore multiple creatures, the durations of conditions removed stack if possible, but do not otherwise worsen.
+
+++ ##000000|Esoteric Healing##
+When you use your Life sphere abilities, you may choose for them to not be positive energy effects. Used this way, your Life sphere abilities can heal non-living creatures such as constructs or undead, though they do not work on inanimate objects. This does not allow you to harm creatures you could not harm before with positive energy.
 
 ++ ##000000|Fount of Life [Core]##
 You may store a cure within yourself, allowing you to access that healing as needed throughout the day. You spend a spell point and roll the damage healed as normal, except rather than healing by the given amount, that amount of healing is stored. You may store multiple cures in this manner to increase the amount of stored healing, but you cannot store more healing within you than 10 x your caster level. Stored healing is lost when you rest to recover spell points.
@@ -51,14 +117,31 @@ When restoring a target, instead of lessening the exhausted, nauseated, frighten
 ++ ##000000|Healthy Invigorate [Core]##
 You may spend a spell point when using invigorate to allow your invigorate to increase a target’s effective hit point total to reach beyond their usual hit point total, as is normal with temporary hit points. This means you may use this talent to grant an invigorate to a creature already at its maximum hit points.
 
+++ ##000000|Latent Healing##
+When you use cure or invigorate on a target, you may choose to delay its effects. You may apply effects that add additional hit points of healing at the time of the initial cure, such as additional hit points from Fount of Life. At any point, the subject of the effect can trigger its effects as a swift action. You may even target uninjured targets when using your abilities this way, though the effects can only be triggered when the target is injured. Healing delayed this way lasts for 1 hour per caster level or until used, whichever comes first. A target can only be under the effects of one Latent Healing at a time.
+
+++ ##000000|Lingering Resilience##
+Whenever you remove a condition completely from a creature using your restore ability, they are completely immune to that condition for 2 rounds. Being immune to a condition does not provide any additional defense against more severe versions of a condition, and they can not be made immune to a condition they did not have. This may not provide immunity to ability damage, ability drain, death, or negative levels.
+
+Whenever an ally regains hit points from you using your cure ability, they gain damage reduction equal to 1/2 your caster level or the number of hit points regained (whichever is less) for 2 rounds. This is not compatible with any form of fast healing you may grant.
+
 ++ ##000000|Mass Healing [Core]##
 You may spend an additional spell point when using a cure or invigorate to affect an additional creature per 2 caster levels (minimum: 1). All targets must be within range.
+
+++ ##000000|Mass Restore##
+You may spend an additional spell point when using a restore to affect an additional creature per 2 caster levels (minimum 1). All targets must be within range.
+
+++ ##000000|Painkiller##
+Whenever you invigorate a target, they are also healed of an equal amount of non-lethal damage. They are healed up to the maximum amount you can invigorate, even if this amount is greater than the number of temporary hit points you grant the target.
 
 ++ ##000000|Ranged Healing [Core]##
 Your cure, invigorate, and restore abilities have a range of Close rather than Touch.
 
 ++ ##000000|Restorative Cure [Core]##
 When using your cure or invigorate abilities on a target or targets, you may spend an additional spell point to restore them as well.
+
+++ ##000000|Restore Composure##
+Your cure ability heals an additional 1d8 hit points. When restoring a target, the target is also cured of magical effects charm effects, but not control or compulsion effects. They are also cured of all emotional effects, magical or non-magical. This does not undo the effects of instantaneous abilities that have already finished, such as a successful Diplomacy check, or being affected by any form of illusion or deceit.
 
 ++ ##000000|Restore Health [Core]##
 Your cure ability heals an additional 1d8 hit points. When restoring a target, you may make a magic skill check against the DC of any poison or disease the target is suffering from. On a success, this removes that poison or disease from the target. This does not reverse damage the target may have suffered from the poison or disease (such as ability damage), but it does stop the poison or disease from causing any more.
@@ -80,3 +163,40 @@ Your cure and invigorate abilities function on creatures who have died within no
 
 ++ ##000000|Revitalize [Core]##
 When curing a target or targets, you may choose to grant the target Fast Healing instead of directly healing damage. This grants the target Fast Healing 1 for 1 minute per caster level. Increase the amount of Fast Healing granted by the number of times you have taken the Greater Healing talent. (Thus, if you had gained the Greater Healing talent twice, you could grant a target Fast Healing 3.)
+
+If you purchase this talent a second time, the revitalize lasts 1 hour per caster level, or until the target has healed a total number of hit points equal to 10x your caster level, plus an additional 10x your caster level for each time you have gained the Greater Healing talent. If a creature gains fast healing from another source (such as another caster using this ability), they may choose each round which they benefit from.
+^^Wiki Note: The second paragraph is not Core, and was added in The Vivomancer's Handbook.^^
+
+++ ##000000|Sanctify##
+As a standard action, you may spend a spell point to summon positive energy and hit a target within range of your cure ability as a touch attack. Creatures vulnerable to positive energy gain one temporary negative level for one hour per caster level (no save), even if they are normally immune to negative levels. This increases by 1 die size per 5 caster levels (1d2, 1d3, 1d4, and 1d6). These levels stack, but do not destroy an undead creature if they have as many negative levels as Hit Dice. Instead, if a negative level would reduce the creature to 0 Hit Dice, the creature instead takes 4 points of Constitution drain (even if they are normally immune to ability drain) or Charisma drain if they have no Constitution score for the duration of the effect. A negative energy effect that causes negative levels can be used to remove these negative levels before they become permanent. If a negative level lasts longer than 1 day, the target must pass a Fortitude save per negative level or have the negative level become permanent.
+
+If this ability is used on a creature normally healed by positive energy, each negative level that would be inflicted instead cures 1 temporary negative level the creature has or suppresses one permanent negative level for 1 minute per caster level. Any remaining negative levels grant the creature 5 temporary hit points per negative level, which last for 1 hour.
+
+++ ##000000|Self-Renewal##
+You may use your cure or restore ability on yourself as a swift action. You cannot use this to shorten an ability that has a casting time of more than a standard action, and you cannot affect any creature other than yourself with this ability. You may spend a spell point to do this even if you are normally unable to spell cast due to a condition you can restore or while you are unconscious. If you are unconscious, you may use your cure or restore on your first turn after falling unconscious. If this fails, you may not make another attempt.
+
+++ ##000000|Sudden Invigoration##
+By spending a spell point, you can use invigorate as an immediate action. If done in response to a creature taking damage, you may choose whether the temporary hit points are gained before or after the damage is taken.
+
+++ ##000000|Taste of Victory##
+Whenever you successfully hit a creature with at least half as many Hit Dice as your character level with an attack that requires an attack roll, you may spend an additional spell point to use a Life sphere ability as a swift action on any willing creature within range. If the attack was a critical hit, knocked the target creature unconscious, or reduced the enemy to 0 or fewer hit points, you may use the Life sphere ability without spending the additional spell point required to use this talent.
+
+++ ##000000|Water of Life##
+You can imbue a fluid or small portion of food with your Life sphere abilities. This is performed in the same way as using the Life sphere ability, but targeting the consumable instead of a creature. The consumable must be in hand, and you may only imbue one consumable at a time, even if you can affect multiple creature with your Life sphere abilities (such as with Mass Healing). A consumable can only be imbued once with this ability.
+
+The consumable remains potent until you rest and regain spell points, and possesses an aura as if it were the original target of the effect. Once imbued, the consumable may be given to another person, who may use it is if it were a potion.
+
+Any potion (such as a healing potion) or alchemical agent can be used in place of a liquid. In this case, the imbiber receives the benefits of both the Life sphere ability and the substance imbibed.
+
+----
+
++ ##000000|Vitality Talents##
+
+++ ##000000|Aggressive Vitality (vitality)##
+Your Life magic gives the target a fevered strength. This grants the target a +2 circumstance bonus on attack and damage rolls with weapon attacks.
+
+++ ##000000|Energizing Vitality (vitality)##
+Your Life magic makes your ally restless and full of energy, granting them a +30 ft. circumstance bonus to all forms of movement.
+
+++ ##000000|Sustaining Vitality (vitality)##
+Your ally receives a +4 circumstance bonus to AC and saving throws.
