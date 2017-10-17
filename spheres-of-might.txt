@@ -1,11 +1,12 @@
 title:Spheres Of Might
 parent:start
 [[module CSS]]
-#redtext a {
-color: #ff0000;
+.redtext a {
+color: #ff6600;
 }
-#redtext a:hover {
-color: #ff0000;
+.redtext a:hover
+{
+color: #c40000;
 }
 [[/module]]
 
@@ -38,9 +39,8 @@ Spheres of Power is a unique martial system created by Drop Dead Studios for use
 [[/div]]
 
 ~~~~~
-[[div style="float:left; width: 20%; padding: 0 2%"]]
+[[div style="float:left; width: 20%; padding: 0 2%" class="redtext"]]
 **The Spheres**
-[[div class="redtext"]]
 -[[[Alteration]]]
 -[[[Conjuration]]]
 -[[[Creation]]]
@@ -61,7 +61,7 @@ Spheres of Power is a unique martial system created by Drop Dead Studios for use
 -[[[War]]]
 -[[[Warp]]]
 -[[[Weather]]]
-[[/div]]
+
 -[[[Fallen Fey]]]
 ----
 
