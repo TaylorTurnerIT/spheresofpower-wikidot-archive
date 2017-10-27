@@ -1,0 +1,114 @@
+title:Guardian
+[[toc]]
+
+Guardians specialize in protecting their allies and drawing the ire of their enemies.
+
+You gain a delayed damage pool equal to your 3 x your base attack bonus. When you receive damage, as part of taking the damage you may redirect all or part of it to your delayed damage pool. Apply damage reduction and resistance before redirecting the damage. You may not redirect damage that would exceed the maximum capacity of the damage pool. Your delayed damage pool empties at the end of your turn each round, inflicting any damage stored in the pool on you, bypassing any damage reduction or resistance you possess and resetting to 0. Any additional effects of the attack, such as poison, are still incurred immediately even if the entire damage of the attack is redirected to the delayed damage pool. Any healing you receive in excess of your maximum hp automatically reduces the amount of damage in your delayed damage pool.
+
+Should you lose access to the Guardian sphere, any damage (or other effects if you possess certain talents) is incurred at the end of your turn.
+
+In addition, choose one of the following packages:
+
+++ ##993300|Guardian Packages##
+
++++ ##993300|Challenge##
+As a move action, you may issue a challenge to a creature you can see. You may expend martial focus to reduce this to a swift action. A creature must be able to perceive your challenge to be affected by it. The creature takes a -2 penalty on attack rolls that do not include you as a target and a +2 bonus on attack rolls targeting only you. Creatures receiving this effect are aware of it, though do not gain insight to its duration. This penalty (but not bonus) increases by 1 for every 4 points of base attack bonus you possess. The challenge lasts for a number of rounds equal to 3 + 1/2 your base attack bonus. When you issue a new challenge, any previous challenge you have active ends. Multiple challenges do not stack; if a creature is affected by challenges from more than one creature, they suffer no penalty against the source of any challenge against them and likewise gain the bonus against the sources of all of the challenges. Creatures with no Intelligence score (Intelligence score of (-)) cannot be targeted by your challenge.
+
++++ ##993300|Patrol##
+As long as you have martial focus, as a full-round action you may increase your threatened area by 5 ft., +5 ft. for every 4 points of base attack bonus you possess. This increased threatened area is applied after the effects of the reach weapon special feature. Until the beginning of your next turn, you may make attacks of opportunity against any creature in this threatened area that provokes attacks of opportunity. You may move to bring the creature that provokes the attack of opportunity within your reach as part of these attacks, provided your total movement before your next turn does not exceed your base speed. Any movement you make provokes attacks of opportunity as normal. **Associated Feat:** Combat Patrol.
+
+Talents with the (zone) tag grant additional effects to this ability. Each patrol may only benefit from one (zone) talent.
+----
++ ##993300|Guardian Talents##
+
++++ ##993300|Cold Iron Call##
+When targeted by a spell or spell-like ability, you may delay the onset of its effects until the end of your next turn as if it were damage. Each effect is treated as if it were an amount of hit point damage equal to its caster level for the purpose of your delayed damage pool. If you do not have enough space remaining in the delayed damage pool, you may not delay the effect.
+
+If you possess the (patrol) package and the Defend Other talent, when an ally within the area of your patrol is the target of a spell or spell-like ability, you may spend an attack of opportunity to move to put that ally within reach (with the normal limits for moving as part of your patrol) and redirect the effect to yourself.
+
+If you possess the (challenge) package, any time a creature under the effects of your challenge casts a spell or uses a spell-like ability that does not include you in its effect, it suffers a -2 penalty to the spell’s save DC. This penalty increases by 1 for every 4 points of base attack bonus you possess.
+
++++ ##993300|Complex Patrol##
+You may expend your martial focus when using patrol to apply two (patrol) talents instead of only one. If you possess the Swift Guardian talent, you may increase the required action to initiate a patrol by one step (standard action to full-round action) instead of expending your martial focus.
+
++++ ##993300|Defend Other##
+When an ally within your threatened area is the target of an attack roll, you may spend an immediate action to grant them a competence bonus to their armor class equal to 1/2 your base attack bonus (rounded down, minimum +1) against that attack. If this attack would still hit, you may choose to take the damage in your ally’s place.
+
+If you possess the (patrol) package, when using this talent you may move to put the ally within your reach (with the normal limits for moving as part of your patrol) as part of activating this talent.
+
++++ ##993300|Durable##
+When targeted by a natural, extraordinary or supernatural ability that inflicts ability damage, ability drain, disease, negative levels, poison or any of the following conditions: (blinded, confused, cowering, dazed, dazzled, entangled, exhausted, fascinated, fatigued, frightened, nauseated, panicked, paralyzed, petrified, shaken, sickened, staggered, stunned, unconscious) you may delay the onset of its effects until the end of your next turn. Each effect is treated as if it were an amount of hit point damage equal to the attacking creature’s Hit Dice for determining the capacity of your delayed damage pool. If you do not have enough space remaining in the delayed damage pool, you may not delay the effect.
+
+If you possess the (patrol) package and the Defend Other talent, when an ally within the area of your patrol is the target of such an ability, you may spend an attack of opportunity to move to put that ally within reach (with the normal limits for moving as part of your patrol) and redirect the effect to yourself.
+
+If you possess the (challenge) package, any time a creature under the effects of your challenge uses such an ability that does not include you in its effect, it suffers a -2 penalty to the ability’s save DC. This penalty increases by 1 for every 4 points of base attack bonus you possess.
+
++++ ##993300|Endure Pain##
+When you receive damage from your delayed damage pool, you take it as nonlethal damage. This nonlethal damage ignores any resistance or immunity to nonlethal damage you may possess.
+
++++ ##993300|Expanded Guardian##
+You gain one Guardian package you do not possess.
+
++++ ##993300|Flush of Victory##
+When a creature affected by your challenge is reduced to 0 or fewer hit points, you gain temporary hit points equal to your base attack bonus. These temporary hit points expire after 1 round + 1 round per 2 points of base attack bonus you possess. The creature must have a CR of at least half your character level (rounded down, minimum 0).
+
++++ ##993300|Greater Delayed Damage##
+The size of your delayed damage pool increases by +1 per point of base attack bonus you possess. You may take this talent twice; the effects stack.
+
++++ ##993300|Guardian’s Focus##
+When a creature affected by your challenge is reduced to 0 or fewer hit points or you succeed on a combat maneuver check made on an attack of opportunity while you have a patrol set up, you may regain martial focus as an immediate action.
+
+If you posses the Defend Other talent, you may regain focus on your next turn whenever an enemy misses an ally benefiting from that talent with an attack.
+
++++ ##993300|Iron Wall##
+If you possess the (challenge) package, any time a creature under the effects of your challenge attacks an ally within Close range of you (25 ft + 5 ft. per 2 base attack bonus), that attack suffers a 20% miss chance.
+
+If you possess the (patrol) package, allies within the area of your patrol, not including yourself, gain a 20% miss chance against melee attacks originating from a creature that you threaten.
+
+If an attack would be subject to both miss chances, the miss chance increases to 50%.
+
++++ ##993300|Mageguard##
+When a hostile creature within your threatened area attempts to cast a spell defensively, they take a penalty to their concentration check equal to 1/2 your base attack bonus (minimum 1). The creature is aware of this penalty. This ability stacks with the Disruptive feat and similar effects.
+
+If you possess the (challenge) package, if the creature is under the effects of your challenge, they provoke an attack of opportunity from you whenever they fail a concentration check to cast a spell defensively.
+
++++ ##993300|Mass Challenge##
+When using your challenge ability, you may increase the required time by one step (move to standard or swift to move if expending martial focus) to issue your challenge to one additional creature, + 1 additional creature per 2 points of base attack bonus you possess (minimum 1).
+
++++ ##993300|Steel Hide##
+If a creature under the effects of your challenge confirms a critical hit against you, you may end the challenge on that creature only to have the attack instead deal normal damage. If you possess the Defend Other talent, you may use this talent whenever a creature affected by your challenge confirms a critical against an ally within your threatened area while your patrol is active.
+
++++ ##993300|Sweeping Defense##
+When making an attack action, you may grant yourself a -2 penalty on all attack rolls until the beginning of your next turn to cause your attack action to deal damage to multiple targets. Choose one target that is adjacent to your primary target and also within your reach, and compare your attack roll to the AC of both targets. If your attack roll exceeds either target’s AC (including the primary target), that target suffers half damage from your attack. The additional target is not subject to non-damage parts of your attack action, such as additional effects granted by feats or talents. Additionally, all targets damaged by your Sweeping Defence suffer a -2 penalty to all attack rolls until the start of your next turn.
+
+At +10 base attack bonus, this penalty increases to -4 and you may target up to three adjacent targets with sweeping defense.
+
++++ ##993300|Swift Guardian##
+If you possess the (challenge) package, you reduce the required action to use challenge by 1 step (move to swift, swift to free).
+
+If you possess the (patrol) package, you may use patrol as a standard action. You may instead expend your martial focus to use patrol as a move action.
+
++++ ##993300|Swift Reflexes##
+As long as you have martial focus, you gain +1 attack of opportunity per round. You may make attacks of opportunity even when flat-footed. These additional attacks of opportunity stack with those granted by the Combat Reflexes or Muscular Reflexes feat. For every 4 points of base attack bonus you possess, you gain an additional attack of opportunity.
+
+----
+
++ ##993300|Zone Talents##
+
++++ ##993300|Assist (zone)##
+When an ally within the area of your patrol makes an attack, is targeted by an attack, or attempts a saving throw, you may spend an attack of opportunity to move to put that ally within reach (with the normal limits for moving as part of your patrol) and use the aid another action to improve that ally’s attack roll, AC, or saving throw as appropriate to the triggering action. **Associated Feat:** Bodyguard.
+
++++ ##993300|Clear Path (zone)##
+Allies do not provoke attacks of opportunity from enemies for moving through the area of your patrol. **Associated Feat:** Escape Route.
+
++++ ##993300|Punishing Rebuke (zone)##
+When a creature attacks an ally within the area of your patrol, not including yourself, they provoke an attack of opportunity from you.
+
++++ ##993300|Roving Flanker (zone)##
+Your allies (but not you) may consider all squares threatened by you while using patrol to be occupied by an ally for the purpose of determining flanking bonuses.
+
++++ ##993300|Stand Still (zone)##
+While you have a patrol in place, when a foe provokes an attack of opportunity due to moving through your threatened area, you can make a reposition attempt against the creature as your attack of opportunity. This reposition attempt may be made using any weapon you are wielding. If successful, the creature cannot move for the rest of its turn. The creature can still take the rest of its action, but cannot move out of the square the reposition maneuver leaves it in. **Associated Feat:** Stand Still.
+
++++ ##993300|Steel Hedge (zone)##
+All hostile creatures treat your threatened area as difficult terrain until the end of your patrol.
