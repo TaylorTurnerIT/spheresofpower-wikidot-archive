@@ -95,3 +95,48 @@ Whenever you succeed at a disarm attempt against a creature, you may flick the c
 Whenever you succeed at a disarm attempt, you may immediately sheathe your weapon as a free action.
 
 In addition, you may threaten with a sheathed or carried weapon as long as you have enough free hands to wield it, drawing the weapon as part of any attack of opportunity a creature may provoke from you.
+----
++ ##993300|Legendary Talents##
+
++++ ##993300|Bleed Air (bleed)##
+**Prerequisites:** Duelist sphere, base attack bonus +10.
+
+Whenever you deal bleed damage to a creature who is already taking bleed damage, you are able to twist your blade to puncture a lung or similar organ, causing the target to begin suffocating 1d4 rounds later unless they succeed on a Fortitude save. Once the suffocation begins, in the first round, the target falls unconscious (0 hit points). In the following round, they drop to –1 hit points and are dying. In the third round, they suffocate and die. The target may make a Fortitude save each round to stave off advancing to the next stage, but they continue to make saving throws each round until they die or until the condition ends.
+
+If the target receives at least 5 hit points of healing at any point before they suffocate, the suffocation effect ends and they resume breathing as normal. The suffocation effect can also be ended as a full-round action by a Heal check with a DC equal to your normal DC for combat sphere effects. Creatures who do not need to breathe are immune to this effect. If a practitioner uses Bleed Air against a creature that is currently suffocating, they are automatically moved 1 round closer to suffocation.
+
++++ ##993300|Dervish Launch (disarm)##
+**Prerequisites:** Duelist sphere, base attack bonus +6.
+
+Whenever you succeed at a disarm attempt to cause a creature to drop a weapon they were wielding, you may use an immediate action to make a ranged attack with that weapon against any other creature within range. If the weapon cannot normally be used at range, it is treated as a thrown weapon with a range increment of 10 ft. Projectile weapons must be nocked or loaded at the time they are disarmed to be used with this ability. If the disarmed creature is currently taking bleed damage, you may instead make the granted ranged attack as an attack of opportunity.
+
++++ ##993300|Jugular Cut (bleed)##
+**Prerequisites:** Duelist sphere, Bleed Air, base attack bonus +15.
+
+Whenever you deal bleed damage to a creature, if that bleed damage is not ended within 3 rounds, the creature must make a Fortitude save or die. The creature must continue to make a Fortitude save each round after this to avoid death until the bleed damage is healed.
+
++++ ##993300|Sever (disarm, bleed)##
+**Prerequisites:** Duelist sphere, base attack bonus +11.
+
+When your natural dice roll for a disarm attempt falls within your weapon’s natural critical threat range (for example, when you roll a natural 18, 19, or 20 while attempting to disarm a creature with a rapier), you can choose expend your martial focus as an immediate action; the target must pass a Reflex save or have one hand used to wield the weapon severed. Abilities such as the keen weapon enhancement or the Improved Critical feat do not modify the threat range for this ability. The target takes 1d6 points of bleed damage from the wound, +1d6 for every 4 points of base attack bonus you possess; this stacks with bleed damage granted by the Duelist sphere’s dedication.
+
+With the exception of the bleed damage (which may be stopped as normal), there are many permanent penalties associated with losing a hand that can only be removed by a spell capable of restoring the severed limb, such as a regeneration or restoration spell, natural regeneration, or the Regeneration advanced talent from the Life sphere. These include:
+* -5 penalty on Climb, Craft, Disable Device, Sleight of Hand, and Use Magic Device skill checks;
+* -4 penalty on grapple checks;
+* Must make a caster level check to cast spells with somatic components;
+* Unable to wield two-handed weapons, make two-weapon attacks, or wield a tool in the missing hand, but may still wear a shield on the affected arm;
+* Carrying capacity is not reduced. However, the maximum weight a character can lift over head or off the ground is reduced by one third.
+
+This penalty does do not stack with other penalties for losing limbs. A character who has lost both hands, or one hand and one arm, cannot use any of the listed skills, make attacks, cast spells with somatic components, or handle objects, without the aid of prosthetics or magic. A severed hand counts as an object three size categories smaller than the creature it came from.
+
++++ ##993300|Vacuum Cut##
+**Prerequisites:** Duelist sphere.
+
+Whenever you use the attack action to make a melee attack in the same round you draw a sheathed weapon, you may expend your martial focus as part of the attack to target a creature within close range (25 ft. + 5 ft. per 2 base attack bonus), provoking attacks of opportunity as though using a ranged attack.
+
+Using this talent reduces the damage die of the weapon being used with this talent by 1 step, and the attack made with this talent is treated as a projectile for the purposes of being able to be blocked or deflected by effects. This attack is treated as a melee attack for all other purposes (and may not be used with talents or abilities which would only affect ranged attacks) except for the target of the attack. At +5 base attack bonus, using this talent no longer provokes attacks of opportunity. At +10 base attack bonus, attacks made using this talent no longer have their damage die reduced.
+
++++ ##993300|Vacuum Slice##
+**Prerequisites:** Duelist sphere, Vacuum Cut, base attack bonus +11.
+
+Whenever you use the Vacuum Cut talent, you may spend a move action to increase the effect, targeting all creatures within a Close range cone. Make a single attack roll and compare the result to each creature within the affected area; all creatures hit by the attack take damage as though you had them directly with a melee attack (including any bonus damage to which you would be entitled, such as from the Vital Strike feat). Only damage is dealt; no other effects granted by the attack action are applied.
