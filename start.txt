@@ -1,22 +1,54 @@
 title:Spheres of Power Wiki Home Page
-**Latest Update:** Akashic Mysteries has been added! (10/21) Starfinder fans may want to check that new link on the right...
+[[module CSS]]
+.redtext a {
+color: #993300;
+}
+.redtext a:hover
+{
+color: #c40000;
+}
+[[/module]]
 
-**Next Planned Update:** Spheres of Might is currently in the process of being added. It may take several days to finish. In addition, we'd like to thank everyone who took the time to give us their opinion on the best way to add the content - your views were extremely helpful, and we think the final version of this update will be considerably more useful as a result of your feedback.
+[[module CSS]]
+.colored-links span > a {
+  color: inherit;
+}
+[[/module]]
 
-//Current Progress:// All classes and archetypes are up. Combat spheres are next, then feats and equipment.
+**Latest Update:** Spheres of Might has been added! (10/27) Starfinder fans may want to check that new link on the right...
+
+**Next Planned Update:** Minor updates.
+
 ----
 This Wiki is an independent reference for some systems and powers for the Pathfinder Roleplaying Game created under the terms of the Open Game License Version 1.0a (see Legal and OGL link on the sidebar). While we have no affiliation with the creators of these systems, we encourage you to buy the original products (and any supplements you'd enjoy) as a way of supporting the many people who worked to create this content. You can find their books online, or by ordering through your Friendly Local Game Shop.
 ----
+[[div style="float:left; width: 45%; padding: 0 2%"]]
 [[=]]
 + ##000000|Spheres of Power##
 [[/=]]
-Spheres of Power is a unique magic system created by Drop Dead Studios for use with the Pathfinder Roleplaying Game, and the system that prompted the creation (and name) of this site in the first place. In this variant set of rules, players choose their magical abilities from among twenty different spheres, spending Magic Talents to create a uniquely customized character. Spheres of Power is more about what you can do than what you can't - it gives you the tools you need to create a character, then lets you decide how to flavor it. For more information about the mechanics, see 'Using Spheres of Power' below. For help actually making a character, see [[[How to Build a Spherecaster]]].
+[[==]]
+Spheres of Power is a unique magic system created by Drop Dead Studios for use with the Pathfinder Roleplaying Game. In this variant system, players choose their magical abilities from among twenty different spheres, spending Magic Talents to create a uniquely customized spherecaster. Spheres of Power is more about what you can do than what you can't - it gives you the tools you need to create a character, then lets you decide how to flavor it. For more information about the mechanics, see 'Using Spheres of Power' below.
+[[/==]]
 [[=]]
 ++ [[[Using Spheres of Power]]]
 [[/=]]
+[[/div]]
+
 [[div style="float:left; width: 45%; padding: 0 2%"]]
-**The Spheres**
-[[div class="redtext"]]
+[[=]]
++ ##000000|Spheres of Might##
+[[/=]]
+[[==]]
+Spheres of Might is a unique martial system created by Drop Dead Studios for use with the Pathfinder Roleplaying Game. In this system, players choose martial abilities from twenty-three different spheres, spending Combat Talents to create a uniquely customized practitioner. Spheres of Might is extremely flexible and focuses on allowing players to build up an idea, rather than pushing them into a specific role. For more information about the mechanics, see 'Using Spheres of Might' below.
+[[/==]]
+[[=]]
+++ [[[Using Spheres of Might]]]
+[[/=]]
+[[/div]]
+~~~~~
+[[div style="float:left; width: 20%; padding: 0 2%"]]
+**Magic Spheres**
+
 -[[[Alteration]]]
 -[[[Conjuration]]]
 -[[[Creation]]]
@@ -39,7 +71,6 @@ Spheres of Power is a unique magic system created by Drop Dead Studios for use w
 -[[[Weather]]]
 
 -[[[Fallen Fey]]]
-[[/div]]
 ----
 
 **Advanced Magic**
@@ -52,7 +83,7 @@ Spheres of Power is a unique magic system created by Drop Dead Studios for use w
 
 ----
 
-**Other**
+**Character Options**
 
 -[[[Alternate Racial Traits]]]
 -[[[Casting Traditions]]]
@@ -84,9 +115,70 @@ Spheres of Power is a unique magic system created by Drop Dead Studios for use w
 -[[[Sphere Templates]]]
 
 ----
+
+**Sample Characters**
+
+-[[[The Classic Mage]]] (Level 1 Generalist Incanter)
+-[[[The Green Witch]]] (Level 1 Nature-focused Hedgewitch)
+-[[[The Master of Many Forms]]] (Level 1 Alteration-focused Shifter)
+-[[[The Mind Mage]]] (Level 1 Mind-focused Eliciter)
 [[/div]]
-[[div style="float:left; width: 45%; padding: 0 2%"]]
-**Classes**
+
+[[div style="float:left; width: 20%; padding: 0 2%" class="redtext"]]
+**Combat Spheres**
+
+-[[[Alchemy]]]
+-[[[Athletics]]]
+-[[[Barrage]]]
+-[[[Barroom]]]
+-[[[Beastmastery]]]
+-[[[Berserker]]]
+-[[[Boxing]]]
+-[[[Brute]]]
+-[[[Dual Wielding]]]
+-[[[Duelist]]]
+-[[[Equipment-sphere | Equipment]]]
+-[[[Fencing]]]
+-[[[Gladiator]]]
+-[[[Guardian]]]
+-[[[Lancer]]]
+-[[[Open Hand]]]
+-[[[Scoundrel]]]
+-[[[Scout]]]
+-[[[Shield]]]
+-[[[Sniper]]]
+-[[[Trap]]]
+-[[[Warleader-sphere | Warleader]]]
+-[[[Wrestling]]]
+
+----
+
+**Character Options**
+
+-[[[About Legendary Talents]]]
+-[[[Martial Traditions]]]
+-[[[Practitioner Feats]]]
+-[[[Practitioner Traits]]]
+-[[[Practitioner FCB's]]]
+-[[[Racial Options]]]
+
+----
+
+**Gear**
+
+-[[[Adventuring Gear]]]
+-[[[Practitioner Weapons]]]
+-[[[Practitioner Magic Items]]]
+
+----
+
+**Other**
+
+-[[[Starfinder Conversion]]]
+[[/div]]
+
+[[div style="float:left; width: 20%; padding: 0 2%"]]
+**Spherecasters**
 
 -[[[Armorist]]]
 -[[[Elementalist]]]
@@ -100,70 +192,78 @@ Spheres of Power is a unique magic system created by Drop Dead Studios for use w
 -[[[Symbiat]]]
 -[[[Thaumaturge]]]
 
-----
-
-**Sphere Archetypes**
-
--[[[Sphere Arcanist]]]
--[[[Sphere Bard]]] [Core]
--[[[Sphere Bloodrager]]]
--[[[Sphere Cleric]]] [Core]
--[[[Sphere Druid]]] [Core]
--[[[Sphere Hunter]]]
--[[[Sphere Inquisitor]]]
--[[[Sphere Magus]]]
--[[[Sphere Oracle]]]
--[[[Sphere Paladin]]] [Core]
--[[[Sphere Ranger]]] [Core]
--[[[Sphere Shaman]]]
--[[[Sphere Skald]]]
--[[[Sphere Sorcerer]]] [Core]
--[[[Sphere Summoner]]]
--[[[Sphere Warpriest]]]
--[[[Sphere Witch]]]
--[[[Sphere Wizard]]] [Core]
-
-----
-
-**Other Archetypes**
-
--Alchemist ([[[Archaic Alchemist]]], [[[Combat Engineer]]], [[[Essentialist]]]) | [[[Alchemist Discoveries]]]
--Barbarian ([[[Worldsoul Incarnate]]]) | [[[Barbarian Rage Powers]]]
--Barbarian, Unchained ([[[Worldsoul Incarnate]]])
--Druid ([[[Spirit Mender]]])
--Fighter ([[[Impressor]]], [[[Spirit-Wielder]]], [[[War Hero]]])
--Gunslinger ([[[Glass-Eye Gunmage]]], [[[Wandslinger]]])
--Investigator ([[[Psyforensic]]]) | [[[Investigator Talents]]]
--Medium ([[[Psychic Medium]]])
--Monk ([[[Beastsoul Monk]]])
--Monk, Unchained ([[[Beastsoul Monk]]], [[[Shadow Boxer]]], [[[Yamabushi]]]) | [[[Ki Powers]]]
--Ranger ([[[Folk Healer]]], [[[Geosurveyor]]])
--Rogue ([[[Snake Oil Salesman]]])
--Rogue, Unchained ([[[Talent Thief]]], [[[Treasure Seeker]]]) | [[[Rogue Talents]]]
--Samurai ([[[Blind Swordsman]]])
--Warpriest ([[[Divine Heretic]]])
--Witch | [[[Witch Hexes]]]
--Wizard ([[[Eclectic Researcher]]])
-
--Familiars ([[[Beast of Omen]]], [[[Shadow Familiar]]])
-
-----
-
 **Prestige Classes**
 
 -[[[Bokor]]] [Core]
--[[[Waking Sleeper]]]
+-[[[Waking Sleeper]]][[/div]]
 
-----
+[[div style="float:left; width: 20%; padding: 0 2%" class="redtext"]]
+**Practitioners**
 
-**Sample Characters**
+-[[[Armiger]]]
+-[[[Blacksmith]]]
+-[[[Commander]]]
+-[[[Conscript]]]
+-[[[Scholar]]]
+-[[[Sentinel]]]
+-[[[Striker]]]
+-[[[Technician]]]
 
--[[[The Classic Mage]]] (Level 1 Generalist Incanter)
--[[[The Green Witch]]] (Level 1 Nature-focused Hedgewitch)
--[[[The Master of Many Forms]]] (Level 1 Alteration-focused Shifter)
--[[[The Mind Mage]]] (Level 1 Mind-focused Eliciter)
-----
 [[/div]]
+
+[[div style="float:left; width: 45%; padding: 0 2%" class="colored-links"]]
+[[=]]
+----
+++ ##000000|Archetypes##
+[[/=]]
+
+-**Alchemist** ([[[Archaic Alchemist]]], [[[Combat Engineer]]], [[[Essentialist]]], ##993300|[[[Mortal Chemist]]]## [Core])
+| [[[Alchemist Discoveries]]]
+-**Antipaladin** (##993300|[[[Blood-Soaked Demon]]]## [Core], ##993300|[[[Warrior of Blind Faith]]]## [Core])
+-**Arcanist** ([[[Sphere Arcanist]]])
+-**Barbarian** (##993300|[[[Barbarian-Berserker | Berserker]]]## [Core], [[[Worldsoul Incarnate]]])
+| [[[Barbarian Rage Powers]]]
+-**Barbarian, Unchained** ([[[Worldsoul Incarnate]]])
+-**Bard** ([[[Sphere Bard]]] [Core])
+-**Bloodrager** ([[[Sphere Bloodrager]]], ##993300|[[[Stormlord]]]## [Core])
+-**Brawler** (##993300|[[[Brutal Pummeler]]]## [Core])
+-**Cavalier** (##993300|[[[Blooded Knight]]]## [Core])
+-**Cleric** ([[[Sphere Cleric]]] [Core])
+-**Druid** ([[[Sphere Druid]]] [Core], [[[Spirit Mender]]])
+-**Fighter** (##993300|[[[Coiled Blade]]]## [Core], [[[Impressor]]], [[[Spirit-Wielder]]], [[[War Hero]]])
+-**Gunslinger** ([[[Glass-Eye Gunmage]]], ##993300|[[[Gunfighter]]]## [Core], [[[Wandslinger]]])
+-**Hunter** (##993300|[[[Beastmaster]]]## [Core], [[[Sphere Hunter]]])
+-**Inquisitor** ([[[Sphere Inquisitor]]])
+-**Investigator** (##993300|[[[Battered Detective]]]## [Core], [[[Psyforensic]]])
+| [[[Investigator Talents]]]
+-**Magus** (##993300|[[[Runic Knight]]]## [Core], [[[Sphere Magus]]])
+-**Medium** ([[[Psychic Medium]]])
+-**Monk** ([[[Beastsoul Monk]]], ##993300|[[[Street Fighter]]]## [Core])
+-**Monk, Unchained** ([[[Beastsoul Monk]]], [[[Shadow Boxer]]], [[[Yamabushi]]])
+| [[[Ki Powers]]]
+-**Ninja** (##993300|[[[Shinobi]]]## [Core])
+-**Oracle** ([[[Sphere Oracle]]])
+-**Paladin** (##993300|[[[Dirt Spattered Angel]]]## [Core], [[[Sphere Paladin]]] [Core], ##993300|[[[Warrior of Blind Faith]]]## [Core])
+-**Ranger** ([[[Folk Healer]]], [[[Geosurveyor]]], ##993300|[[[Nature's Blade]]]## [Core], [[[Sphere Ranger]]] [Core])
+-**Rogue** (##993300|[[[Canny Scoundrel]]]## [Core], [[[Snake Oil Salesman]]])
+-**Rogue, Unchained** ([[[Talent Thief]]], [[[Treasure Seeker]]])
+| [[[Rogue Talents]]]
+-**Samurai** ([[[Blind Swordsman]]], ##993300|[[[Wandering Swordsman]]]## [Core])
+-**Shaman** ([[[Sphere Shaman]]])
+-**Skald** ([[[Sphere Skald]]])
+-**Slayer** (##993300|[[[Guild Assassin]]]## [Core])
+-**Sorcerer** ([[[Sphere Sorcerer]]] [Core])
+-**Summoner** ([[[Sphere Summoner]]])
+-**Swashbuckler** (##993300|[[[Dancing Blade]]]## [Core])
+-**Vigilante** (##993300|[[[Shadow Warrior]]]## [Core])
+-**Warpriest** ([[[Divine Heretic]]], [[[Sphere Warpriest]]])
+-**Witch** ([[[Sphere Witch]]])
+| [[[Witch Hexes]]]
+-**Wizard** ([[[Eclectic Researcher]]], [[[Sphere Wizard]]] [Core])
+
+-**Familiars** ([[[Beast of Omen]]], [[[Shadow Familiar]]])
+[[/div]]
+~~~~~
 ----
 [[=]]
 + ##000000|Other Systems##
