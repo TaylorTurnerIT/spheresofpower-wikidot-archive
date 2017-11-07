@@ -1,5 +1,11 @@
 title:Character Roles
 parent:start
+[[module CSS]]
+.colored-links span > a {
+  color: inherit;
+}
+[[/module]]
+
 [[toc]]
 
 ++ ##000000|Why take a Character Role?##
@@ -20,13 +26,15 @@ An All Day Character, as the name implies, is a character that is capable of per
 
 To compensate for the value of being able to perform their role over and over, All Day Characters tend to have a lower power ceiling than Limited Adventuring Day Characters. Spheres of Power characters typically fall under this, regardless of role - while it's possible to burn through all of your Spell Points in a day, such characters will likely still have a number of free abilities to use.
 
+Spheres of Might characters also tend to fall into this, as few combat talents have limited uses per-day, and even classes with limited resources can fall back on their talents.
+
 ----
 
 +++ ##000000|Base Concept: Limited Adventuring Day Character##
 
 **Roles That Are Commonly This Include:** Battlefield Controller, Buffer, Debuffer, Healer
 
-A Limited Adventuring Day Character has some kind of significant limit on how effective they can be each day in the game, usually represented by a cap on the use of their abilities. For example, there may be a limit to the amount of Hit Points they can heal each day, how many buffs they can provide, or how many negative effects they can inflict on their enemies. Limited Adventuring Day Characters tend to have powerful effects, but the cap on uses means they need to carefully decide when and where to expend their energy.
+A Limited Adventuring Day Character has some kind of significant limit on how effective they can be each day in the game, usually represented by a cap on the use of their abilities. For example, there may be a limit to the amount of Hit Points they can heal each day, how many buffs they can provide, or how many negative effects they can inflict on their enemies. Limited Adventuring Day Characters tend to have powerful abilities, but the cap on uses means they need to carefully decide when and where to expend their energy.
 
 Casters in the standard magic system of the Pathfinder Roleplaying Game (often referred to as "Vancian" casters) tend to fall into this category.
 
@@ -36,7 +44,9 @@ Casters in the standard magic system of the Pathfinder Roleplaying Game (often r
 
 **Main Things To Raise:** Type of Control Abilities, Number of Control Ability Uses
 
-**Related Sphere Abilities:** The [[[Destruction]]] Sphere's Energy Wall, the [[[Creation]]] sphere, many powers from the [[[Dark]]], [[[Illusion]]], and [[[Nature]]] spheres, and undead controlling abilities from the [[[Death]]] sphere
+**Related Casting Abilities:** The [[[Destruction]]] Sphere's Energy Wall, the [[[Creation]]] sphere, many powers from the [[[Dark]]], [[[Illusion]]], and [[[Nature]]] spheres, and undead controlling abilities from the [[[Death]]] sphere.
+
+**Related Martial Abilities:** The ##993300|[[[Brute]]]##, ##993300|[[[Guardian]]]##, ##993300|[[[Trap]]]##, and ##993300|[[[Warleader]]]## spheres.
 
 The Battlefield Controller is a character focused on somehow affecting the battlefield and pushing enemies to act in certain ways. They may do this by creating areas that are difficult for foes to move through, summoning physical obstructions that force enemies into particular areas, or even calling up additional allies to fill space.
 
@@ -48,13 +58,17 @@ As such, Battlefield Controllers should know what //other// people want to do be
 
 The Combat Maneuver Specialist uses one or more of the game's Combat Maneuvers to manipulate their foes and the battlefield as a whole. They might grapple foes to pin them in place, Bull Rush them into dangerous terrain, or Sunder their equipment to make them easier to take down. Combat Maneuver Specialists can quickly fall into a different Role based on the details of their build, but most ultimately end up being versatile enough that they end up controlling at least the part of the battlefield in the area immediately around them.
 
+Spheres of Might makes it much easier to be a Combat Maneuver Specialist thanks to the many effects and additional benefits that can be added to them. The ##993300|[[[Brute]]]##, ##993300|[[[Duelist]]]##, and ##993300|[[[Wrestling]]]## spheres are particularly good for this. Feinting isn't actually a combat maneuver, but it is used in a similar manner, and the ##993300|[[[Fencing]]]## sphere supports that.
+
 ----
 
 ++ ##000000|Role: Buffer##
 
 **Main Things to Raise:** Types of Buffs, Number of Buffs per Day
 
-**Related Sphere Abilities:** Some choices from the [[[Enhancement]]] and [[[Time]]] spheres, the [[[War]]] sphere
+**Related Casting Abilities:** Some choices from the [[[Enhancement]]] and [[[Time]]] spheres, the [[[War]]] sphere.
+
+**Related Martial Abilities:** The ##993300|[[[Gladiator]]]## and ##993300|[[[Warleader]]]## spheres, and a small set of options from the ##993300|[[[Alchemy]]]## sphere.
 
 The Buffer is a supporting character who focuses on directly improving the abilities of their allies, usually allowing them to be more effective at whatever their role is. Buffers often prefer to help their allies right before a battle begins, then switch to another role once the battle actually starts - for example, after giving everyone some added defense before they open a door, they might switch to dealing damage once the fight starts.
 
@@ -68,7 +82,9 @@ If a class comes with a built-in buffing ability - such as the Arcane Pool of th
 
 **Main Things To Raise:** Attack Accuracy, Damage Per Round
 
-**Related Sphere Abilities:** The [[[Destruction]]] sphere, the [[[Conjuration]]], [[[Enhancement]]], and [[[Telekinesis]]] spheres (if focused on dealing damage)
+**Related Casting Abilities:** The [[[Destruction]]] sphere, the [[[Conjuration]]], [[[Enhancement]]], and [[[Telekinesis]]] spheres (if focused on dealing damage).
+
+**Related Martial Abilities: The ##993300|[[[Barrage]]]##, ##993300|[[[Berserker]]]##, ##993300|[[[Dual Wielding]]]##, ##993300|[[[Duelist]]]##, ##993300|[[[Fencing]]]##, ##993300|[[[Lancer]]]##, and ##993300|[[[Sniper]]]## spheres are particularly good at this, and most other martial spheres have at least some benefits for damage dealers.
 
 The Damage Dealer is focused on causing HP damage to enemies, and will usually be the most capable member of the party at doing so. However, regardless of type, no Damage Dealer can afford to focus solely on increasing their damage - after all, they need to be able to //hit// opponents, or they won't be able to fulfill their role. Full BAB classes are likely to hit with their first strike almost all the time - iterative attacks are increasingly less likely to be successful. Mid BAB classes often have abilities to improve their accuracy, but only for a certain number of attacks per-day. Low BAB classes should stick to targeting Touch AC, as they're not intended to hit foes in other ways.
 
@@ -78,7 +94,7 @@ Damage Dealers come in a few different forms:
 
 A Blaster is a Damage Dealer who specializes in dealing energy damage instead of physical damage - this is usually, but not always, magical in nature. Blasters tend to attack from a distance (making them generally similar to a Ranged Damage Dealer), and have to contend with Energy Resistance (and often Spell Resistance) instead of Damage Reduction.
 
-Blasters tend to make one attack per-round, targeting Touch AC, making them the preferred role for Low BAB characters who still want to deal damage. The basic Destructive Blast of the [[[Destruction]]] sphere is a good example of a Blaster ability.
+Blasters tend to make one attack per-round, targeting Touch AC, making them the preferred role for Low BAB characters who still want to deal damage. The basic Destructive Blast of the [[[Destruction]]] sphere is a good example of a Blaster ability (although, without other talents, it deals physical damage).
 
 +++ ##000000|Sub-Role: Melee Damage Dealer##
 
@@ -88,11 +104,15 @@ Many enemies can only attack in Melee, which means that a Melee Damage Dealer is
 
 Melee Damage Dealers tend to make multiple attacks per-round, targeting Normal AC.
 
+In Spheres of Might, Melee Damage Dealers might make multiple attacks per-round, but often focus on impressive combos to rapidly stack debuffs on a foe.
+
 +++ ##000000|Sub-Role: Ranged Damage Dealer##
 
 The Ranged Damage Dealer focuses on attacking enemies from a safe distance. They may or may not be limited by ammunition, though most characters who rely on ammunition have a large reserve on hand. Ranged Damage Dealers generally don't have to worry about surviving enemy blows, so they're able to select more offensive options - while doing even more damage can be appealing, it's important to remember that without //someone// to block the enemy's advance, foes could simply run up and cut right through their weaker defenses.
 
 Ranged Damage Dealers tend to make multiple attacks per-round, targeting Normal AC.
+
+In Spheres of Might, Ranged Damage Dealers can either make multiple attacks with the ##993300|[[[Barrage]]]## sphere or focus on powerful, individual shots with the ##993300|[[[Sniper]]]## sphere.
 
 ++++ ##000000|Concept: Attack Accuracy##
 
@@ -106,11 +126,15 @@ Damage Per Round is an expression of the average amount of damage that a particu
 
 Damage Per Round is strongly affected by Attack Accuracy. As a good rule of thumb, however, a well-built character with full BAB can expect their first attack to hit almost all the time, while a character with low BAB can expect to consistently hit with touch attacks around the time their total attack bonus reaches +8.
 
+For most games, an appropriate average DPR for a character is 1/4 to 1/2 of a same-CR enemy's HP. Below this point a character just isn't doing enough damage to justify taking the time to attack, while above this point, they've probably invested too much and are suffering elsewhere.
+
 ++++ ##000000|Concept: Full Attacker##
 
 The Full Attacker is a Damage Dealer who tries to make as many attacks as they can each round. Each additional attack that they manage to land offers a chance to increase their Damage Per Round, often by a significant amount. High BAB characters like the [[[Armorist]]] and [[[Mageknight]]] tend to be Full Attackers, as do characters with class options (like the Monk's Flurry of Blows) that allow them to make additional attacks.
 
 Since most characters cannot move and take more than one attack in a round, Full Attackers generally get into a position they want and stay there, limiting their mobility to five-foot steps.
+
+Spheres of Might discourages full attacks in favor of standard action attacks (although you can still make multiple attacks with that standard action if you pick up the right talents).
 
 ++++ ##000000|Concept: Nova##
 
@@ -124,7 +148,9 @@ Spheres of Power characters can Nova fairly well by using the Energy Blade talen
 
 **Main Things To Raise:** Types of Debuffs, Strength of Debuffing DCs, Number of Debuffs per Day, Knowledge Skills to Identify Weaknesses
 
-**Related Sphere Abilities:** Negative effects from the [[[Fate]]], [[[Light]]], [[[Time]]], and [[[Weather]]] spheres
+**Related Casting Abilities:** Negative effects from the [[[Fate]]], [[[Light]]], [[[Time]]], and [[[Weather]]] spheres.
+
+**Related Martial Abilities: Most combat spheres have ways to debuff the enemy, especially when certain kinds of attacks are made. The ##993300|[[[Alchemy]]]## sphere is particularly good at this thanks to its use of poison.
 
 The Debuffer is the opposite of the Buffer - they're focused on inflicting various effects on foes to make them more vulnerable and easier to defeat. Debuffers often use abilities that target their foes' Saving Throws - Fortitude, Reflex, and Willpower. Knowing what saving throw is 'bad' for an opponent is a key part of being a successful Debuffer, so they (or someone else in the party) needs to have the ability to identify the traits of foes in order to be as effective as possible.
 
@@ -136,7 +162,9 @@ Much like Battlefield Controllers, Debuffers often want to hurt foes in ways tha
 
 **Main Things To Raise:** Effectiveness of healing abilities, types of things that can be healed
 
-**Related Sphere Abilities:** The [[[Life]]] sphere
+**Related Casting Abilities:** The [[[Life]]] sphere
+
+**Related Martial Abilities:** The ##993300|[[[Alchemy]]]## sphere has a few healing talents (most notably the Panacea and Salve formulae).
 
 The Healer is important for every party because no recovery means the group will be quickly worn down by whatever they encounter - and it's a generally accepted fact of the game that //in-battle// healing is a poor use of the party's resources. Essentially, killing foes faster means less damage is taken in the first place, and thus fewer resources need to be spent on recovery.
 
@@ -150,9 +178,11 @@ It's worth noting that a pure Healer may actually be a good choice in campaigns 
 
 **Main Things to Raise:** Number of Skill Points, Bonuses to Skills
 
-**Related Sphere Abilities:** The [[[Fate]]] sphere, some uses of the [[[Telekinesis]]] sphere
+**Related Casting Abilities:** The [[[Fate]]] sphere, some uses of the [[[Telekinesis]]] sphere.
 
-The Skill Monkey is a character who has a particularly high number of skill points - usually 8+INT per-level - and a wide variety of class skills. While some skills (such as Climb) are easily replaced by magic, other talents like Disable Device, Perception, and various Knowledge skills offer benefits that can't be easily obtained in other ways. Skill Monkeys have enough points to invest in many different areas, and most parties will want to have at least one of them to help overcome any skill-based challenges they face.
+**Related Martial Abilities:** The ##993300|[[[Alchemy]]]##, ##993300|[[[Athletics]]]##, ##993300|[[[Beastmastery]]]##, ##993300|[[[Fencing]]]##, ##993300|[[[Gladiator]]]##, ##993300|[[[Scoundrel]]]##, ##993300|[[[Scout]]]##, ##993300|[[[Trap]]]##, and ##993300|[[[Warleader]]]## spheres offer skill ranks just for taking them, and have talents that can further make use of their associated skills.
+
+The Skill Monkey is a character who has a particularly high number of skill points - usually 6/8+INT per-level - and a wide variety of class skills. While some skills (such as Climb) are easily replaced by magic, other talents like Disable Device, Perception, and various Knowledge skills offer benefits that can't be easily obtained in other ways. Skill Monkeys have enough points to invest in many different areas, and most parties will want to have at least one of them to help overcome any skill-based challenges they face.
 
 ----
 
@@ -160,7 +190,9 @@ The Skill Monkey is a character who has a particularly high number of skill poin
 
 **Main Things To Raise:** HP, Defenses (Armor Class, CMD, Saving Throws)
 
-**Related Sphere Abilities:** The [[[Protection]]] sphere, some [[[Time]]] sphere abilities
+**Related Casting Abilities:** The [[[Protection]]] sphere, some [[[Time]]] sphere abilities.
+
+**Related Martial Abilities:** The ##993300|[[[Guardian]]]## and ##993300|[[[Shield]]]## spheres, plus some options from the ##993300|[[[Berserker]]]## sphere, are the best for tanks. In addition, other spheres have talents that can help with tanking (such as by debuffing enemies to lower their accuracy). The ##993300|[[[Sentinel]]]## class is built around this role.
 
 The Tank is a character who can get right up to enemies and endure their attacks, usually through some combination of high HP and a high Armor Class. Some may also take advantage of special abilities that make them even harder to hit, such as various powers from the [[[Protection]]] sphere or the After Image talent of the [[[Time]]] sphere. While Tanks are usually dealing with attacks that threaten their normal AC, they also have to contend with the occasional attack targeting Touch AC, Combat Maneuvers from enemies, and spells that require them to make Saving Throws - as a result, capable tanks have good defenses in all of these areas.
 
@@ -174,7 +206,9 @@ Some Tanks intentionally provoke attacks from enemies - for example, getting foe
 
 **Main Things To Raise:** Variety of Utility abilities
 
-**Related Sphere Abilities:** Most anything that isn't combat-related
+**Related Casting Abilities:** Most anything that isn't combat-related, and even some of the stuff that is. Magic is handy this way.
+
+**Related Martial Abilities:** The ##993300|[[[Athletics]]]##, ##993300|[[[Beastmastery]]]##, ##993300|[[[Scoundrel]]]##, and ##993300|[[[Scout]]]## spheres. The ##993300|[[[equipment-sphere | Equipment]]]## and ##993300|[[[Trap]]]## spheres also offer some utility, albeit not quite as directly.
 
 Utility characters are a little different from most roles. Unlike other classes, they have almost no focus on combat itself - rather, they're focused on overcoming various skill challenges (much like a Skill Monkey) and otherwise helping the party accomplish a wide variety of goals. Things like hauling vast loads of treasure, safely reaching esoteric destinations, and crafting magical items tend to fall into this role.
 
