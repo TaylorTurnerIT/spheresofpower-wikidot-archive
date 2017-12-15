@@ -10,9 +10,15 @@ color: #c40000;
 }
 [[/module]]
 
+[[module CSS]]
+.colored-links span > a {
+  color: inherit;
+}
+[[/module]]
+
 [[toc]]
 
-[[div class="redtext"]]
+[[div class="redtext" class="colored-links"]]
 
 “Knowledge is power.”
 
@@ -262,6 +268,9 @@ At 20th level, the scholar chooses any one material imposition she knows; the sc
 
 + ##993300|Archetypes##
 
+++ -##00c000|[[[Caller]]]##
+The Caller is an expert in summoning allies to their side.
+
 ++ -[[[Doctor]]]
 Doctors are scholars who focus their efforts on medicine, eventually learning to be more effective at healing allies and even protecting them from the Doctor's abilities.
 
@@ -272,3 +281,4 @@ Slime savants specialize in the creation and manipulation of oozes.
 ----
 
 [[include som-template]]
+[[include cots]]
