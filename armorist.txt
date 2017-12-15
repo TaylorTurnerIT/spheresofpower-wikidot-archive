@@ -1,5 +1,13 @@
 title:Armorist
 parent:spheres-of-power
+[[module CSS]]
+.colored-links span > a {
+  color: inherit;
+}
+[[/module]]
+
+[[div class="colored-links"]]
+
 [[toc]]
 
 Armorists are among the most direct masters of the Spheres, and indeed, tend to see magic as only the first step in resolving a situation. Their ability to call forth whatever equipment a situation requires makes them more flexible than many of their opponents realize.
@@ -276,6 +284,9 @@ The Blaster specializes in the use of an Arm Cannon, which allows them to mix th
 ++ -[[[Darkshaper]]]
 The Darkshaper manipulates their shadow instead of calling up arms and armor, morphing it to suit their needs.
 
+++ -##00c000|[[[Martial Armorist]]]##
+The Martial Armorist blends magic and martial power together to create a more uniquely capable combatant.
+
 ++ -[[[Soaring Blade]]]
 The Soaring Blade focuses on using the [[[Telekinesis]]] sphere to lift their weapons and attack their foes from afar.
 
@@ -295,6 +306,7 @@ The Whitesmith is an Armorist that specializes in the [[[Enhancement]]] sphere a
 ||~  ||~ Weapon & Armor Proficiencies ||~ Bound Equipment ||~ Casting ||~ Spell Pool ||~ Summon Equipment ||~ Arsenal Trick || 
 ||~ Blaster ||  || M ||  ||  || X ||  ||
 ||~ Darkshaper || X || X ||  ||  || X ||  ||
+||~ Martial Armorist || M ||  ||  ||  ||  ||  ||
 ||~ Soaring Blade || X || M ||  ||  || M || M ||
 ||~ Symbiotic Knight ||  || X ||  ||  || M ||  ||
 ||~ Warden || M ||  ||  ||  ||  ||  ||
@@ -303,13 +315,15 @@ The Whitesmith is an Armorist that specializes in the [[[Enhancement]]] sphere a
 ||~  ||~ Armor Training ||~ Summon Armor ||~ Bind Staff ||~ Quick Summons ||~ Infinite Arsenal ||~  ||
 ||~ Blaster ||  ||  ||  ||  ||  ||  ||
 ||~ Darkshaper || X || X || X || X ||  ||  ||
+||~ Martial Armorist ||  ||  ||  ||  ||  ||  ||
 ||~ Soaring Blade || X ||  ||  ||  ||  ||  ||
 ||~ Symbiotic Knight ||  ||  ||  ||  ||  ||  ||
 ||~ Warden || X ||  ||  || X || X ||  ||
 ||~ Warleader ||  ||  ||  ||  ||  ||  ||
 ||~ Whitesmith ||  ||  ||  || X || X ||  ||
 ^^Guide: M = Modifies, X = Replaces, Blank = No Change^^
-
+[[/div]]
 ----
 
 [[include sop-template]]
+[[include cots]]
