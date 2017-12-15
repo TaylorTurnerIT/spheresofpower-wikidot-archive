@@ -10,9 +10,15 @@ color: #c40000;
 }
 [[/module]]
 
+[[module CSS]]
+.colored-links span > a {
+  color: inherit;
+}
+[[/module]]
+
 [[toc]]
 
-[[div class="redtext"]]
+[[div class="redtext" class="colored-links"]]
 
 “All men must follow, except for those who lead.”
 
@@ -201,6 +207,9 @@ At 20th level, the commander may have up to three enhanced tactics active at a t
 
 + ##993300|Archetypes##
 
+++ -##00c000|[[[Dreadlord]]]##
+The Dreadlord is a master of minions - especially those raised from the dead.
+
 ++ -[[[Vanguard]]]
 The Vanguard leads from the front of a battle rather than the rear and specializes in directly aiding their allies.
 
@@ -218,3 +227,4 @@ You may notice that some of the logistic specialties have very unusual benefits 
 ----
 
 [[include som-template]]
+[[include cots]]
