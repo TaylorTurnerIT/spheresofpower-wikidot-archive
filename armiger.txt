@@ -10,9 +10,15 @@ color: #c40000;
 }
 [[/module]]
 
+[[module CSS]]
+.colored-links span > a {
+  color: inherit;
+}
+[[/module]]
+
 [[toc]]
 
-[[div class="redtext"]]
+[[div class="redtext" class="colored-links"]]
 
 “Right tool, right job.”
 
@@ -163,8 +169,14 @@ At 20th level, the armiger is no longer required to expend martial focus to acti
 
 + ##993300|Archetypes##
 
+++ -##00c000|[[[Antiquarian]]]##
+Antiquarians focus on using magical foci to improve the casting power they gain from their weapons.
+
 ++ -[[[Battlefield Tinker]]]
 The Battlefield Tinker can combine multiple weapons and shields together to create an improbable - but potent - weapon.
+
+++ -##00c000|[[[Bladewalker]]]##
+Bladewalkers are specialists in teleportation, and can get around the battlefield even faster than most warpers.
 
 ++ -[[[Bounty Hunter]]]
 The Bounty Hunter is an expert with the tools needed to find a target and bring them in.
