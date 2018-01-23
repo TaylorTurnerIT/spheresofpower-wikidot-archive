@@ -63,51 +63,167 @@ Dropping an object on a creature requires a ranged touch attack, with a range in
 ----
 + ##000000|Creation Talents##
 
-++ ##000000|Distant Creation [Core]##
+++++ Alchemical Creation
+You may create items that require mixing, such as alchemical items and poisons. You may spend 1 spell point to create an alchemical item(up to a maximum value of 25 gp per caster level). This functions exactly as the normal alchemical item except that any DC is 10 + your casting ability modifier + 1/2 your caster level and any damage it deals is increased by your casting ability modifier. These alchemical weapons remain for the normal duration of a created object at which point they disappear as usual. You may also alter mundane alchemical weapons up to a maximum value of 25 gp, enhancing their potency in the same way for the normal duration, at which point the items return to their normal damage and saving throw DC. This does not stack with other effects that increase the item’s DC.
+
+As your caster level increases, so does your ability to create and sustain more materials. At caster level 5 you may create alchemical items costing up to an additional 25 gp per caster level (a total of 50 gp per caster level). Every 5 caster levels beyond this increases the total value you can create by an additional 25 gp per caster level (75 gp per caster level at 10th, 100 gp per caster level at 15th, and so on).
+
+If you possess Divided Creation you may create any number of alchemical weapons whose total value is less than half the maximum value you may create and whose total size is less than or equal to your maximum size (with each alchemical weapon counting as a small object) but only one object created this way increases its saving throw DC and damage, all others retain their base, non-magical statistics.
+
+If you possess Plasma Production then any time you create an alchemical weapon that includes a fuse as the method of activating it (such as with a fuse grenade and its variants, or fireworks) you may create it with the fuse pre-lit. This allows you to treat the weapon as if you had used it as provided in its description. (For example, creating a fuse grenade with this option causes the grenade to explode in 1d4 rounds.)
+
+++++ Altering Burst
+You may alter all unattended non-magical objects in a 10 ft. radius around yourself. You may only affect objects half the size of your usual maximum. If you spend a spell point, you may alter objects up to your normal size limitation as per your caster level and increase the radius to 20 ft. You may choose any number of materials that you can create within this area to be affected. (For example, you may choose to destroy a stone wall while leaving the wooden dresser resting against it unharmed.)
+
+If you possess Distant Alteration, you may center this effect anywhere within range. If you possess Potent Alteration, when spending a spell point to alter bigger objects in a larger area, you may alter up to one attended and/or magical object for every 4 caster levels you possess that remains within the size limitations of the effect in addition to other objects in the area.
+
+++++ Created Momentum
+When creating an object and dropping it on a target at the same time, the falling object never deals half damage, no matter how short the fall. Additionally, you may attack walls and other targets in this fashion, even if it would normally be impossible to drop an object on top of them, by hurling the created object sideways. The created object only needs to fall 75 ft. rather than 150 ft. to deal double damage.
+
+++++ Distant Alteration
+You gain the ability to alter objects at range. When using alter you may instead make a ranged touch attack at a valid target within close range instead of a touch attack. You may select this talent multiple times. Each time it is taken, increase the range by 1 step (close to medium, medium to long).
+
+++++ Distant Creation [Core]
 When you create an object, the object may appear anywhere within Close range. Objects that take up large areas must be completely contained within range. You may select this talent multiple times. Each time it is taken, increase the range by 1 step (Close to Medium, Medium to Long).
 
-++ ##000000|Divided Creation [Core]##
+++++ Divided Creation [Core]
 When creating an object, you may create multiple objects within range. Each created object must be of the same general type (suits of armor, wall sections, catapults, etc.), and the object’s total size cannot exceed your maximum creation size. Alternately, you may create a single ‘object’ that would normally consist of a multitude of parts (i.e., if creating a tavern with this talent, it would appear with chairs, beds, barrels, etc.).
 
-++ ##000000|Expanded Materials [Core]##
-When you create or alter an object, you may work with any non-harmful material with a hardness of 5 or less, including glass, ice, or leather. You may create water (3 cubic ft equals a small creature), but not gases or flesh. You may make objects with multiple materials, provided you can create all the materials required. As you gain caster levels, you also gain the ability to make steadily more materials, as detailed in the table below. Adamantine cannot be created or altered, except for the repair and destroy abilities.
+++++ Expanded Materials [Core]
+When you take this talent, you may choose one of the following options. You may take this talent multiple times. Each time, choose another option you haven’t taken yet.
 
-Note: Objects of stone or harder materials deal double damage when dropped on a target.
+**Classic Substances:** When you create or alter an object, you may work with any non-harmful material with a hardness of 5 or less, including glass, ice, or leather. You may create water (3 cubic ft. equals a Small creature), but not gases or flesh. You may make objects with multiple materials, provided you can create all the materials required.
 
-**Table: Expanded Materials**
-||~ Caster Level ||~ Materials ||
-|| 1st || Stone ||
-|| 5th || Basic Metals (Iron, Steel, Copper) ||
-|| 10th || Precious Metals (Gold, Silver) ||
-|| 15th || Gems, Specialty Metals (Cold Iron, Mithril) ||
+As you gain caster levels, you also gain the ability to make steadily more materials, as detailed in the table below. Adamantine cannot be created or altered, except for the repair and destroy abilities.
 
-++ ##000000|Exquisite Detail [Core]##
+//Note:// Objects of stone or harder materials deal double damage when dropped on a target.
+
+//Note:// Feats, advanced talents, and drawbacks found in Spheres of Power which refer to Expanded Materials now refer to Expanded Materials: Classic Substances.
+
+**Table: Classic Substances**
+||~ Caster Level ||~ Materials || 
+|| 1st || Stone || 
+|| 5th || Basic metals (copper, iron, steel) || 
+|| 10th || Precious metals (gold, silver) || 
+|| 15th || Specialty metals (cold iron, mithril), gems || 
+
+**Acidic Creation:** By spending an additional spell point when you create or alter an object, you may work with material with basic acidic properties. You may create acidic liquids (3 cubic ft. equals a Small creature) or apply an acid coating to a solid object, but may not create gases without Gaseous Generation.
+
+When first created, this acid deals 1d6 points of acid damage to any creature or object it touches every round plus 1d6 per 2 caster levels beyond 1st. After 1 round per 2 caster levels the acid will lose potency and only deals its minimum damage. If attached to an object dropped on a target, acid damage is never increased for hardness or distance.
+
+If the acid is created in a way that it would immediately harm a creature, they are entitled to a Reflex saving throw to negate the damage (unless the acid is attached to a target dropped onto them, in which case an attack roll is made as usual). If they fail this saving throw and are coated in acid, they may continue to make Reflex saves every round as a move action to clean away the affected areas and prevent further damage. By spending a fullround action that provokes an attack of opportunity they may remove the acid without a saving throw.
+
+If you possess Gaseous Generation you may create acidic gases. These follow the rules of Gaseous Generation for determining volume but at 1/2 your normal caster level.
+
+This acidic gas deals 1d6 acid damage per round, and an additional 1d6 damage for every four caster levels beyond 1st. When an acidic gas loses its potency it is dispersed entirely.
+
+If you possess Lengthened Creation, any acid created using it maintains its potency for 10 minutes per caster level. If you create acid with Create Materials, the acid loses its potency after one week if not refreshed by repeated castings of Create Materials.
+
+**Gaseous Generation:** By spending a spell point when you create or alter an object, you may work with gaseous materials. You may create gases (5 cubic ft. equals a Medium creature, you may fill a 5 ft. square for every two caster levels. You may fill only half of a cube as a Small creature but this decreases the DC of any created gaseous effect by 2 and halves any damage from harmful gases) or change their composition into any other known substance with Change Material. You must have line of sight to accomplish this, and as such cannot alter the air in a creature’s lungs into stone.
+
+As you gain caster levels, you also gain the ability to make more dangerous gases as detailed in the table below. 
+
+Vacuums cannot be created or altered, and gases cannot be destroyed by damaging effects. Creatures standing in a square filled with unbreathable air must hold their breath or suffer the effects of suffocation, following the normal rules for doing so.
+
+A half-filled square of non-transparent gas obscures sight beyond 10 feet. Any creature behind more than 10 ft. of squares half-filled with a gas has concealment (attacks have a 20% miss chance). A square filled with a gas obscures sight beyond 5 feet. A creature within 5 ft. has concealment and creatures further away have total concealment (50% miss chance and attackers cannot use sight to locate the target). If a square is filled with a condensed gas (by treating a single square as a Large object) it obscures vision as above and is difficult to move in, halving movement speed of all creatures within it as well as imposing a -2 penalty to melee attack and damage rolls, preventing normal ranged attacks (siege weapons and magic attacks function normally), and treats anyone standing in a harmful gas as if they were exposed to it twice. (For example, taking double damage from acidic vapors, or two doses of poison from poisonous fumes.)
+
+A moderate wind (11+ mph) disperses any created or altered gas in 4 rounds. A strong wind (21+ mph) disperses the gas in 1 round.
+
+//Note:// The Pathfinder Roleplaying Game is not designed to be a perfect simulation of reality, and attempting to interject real-world physics and chemistry into it is often disastrous. As such, the gases that may be altered or created have been simplified from what their real world counterparts would be. If you wish to create a more specific gas, you are encouraged to discuss the matter with your GM - its effects should not exceed those of the gases normally available at your caster level.
+
+**Table: Gaseous Generation**
+||~ Caster Level ||~ Gaseous Material || 
+|| 1st || Breathable air || 
+|| 5th || Unbreathable air, gaseous forms of non-harmful objects (for example, steam, smoke) || 
+|| 10th || Non-magical inhaled poisons (using your sphere DC rather than the standard poison DC) || 
+|| 15th || Highly flammable gases (1d6 fire damage per ignited 5 ft. cube of gas to all targets within a 20 ft. radius of any ignited cube, Ref half), highly corrosive gases (2d6 acid damage per round of exposure, Fort half) || 
+
+**Plasma Production:** You may create or alter a non-magical fire with your normal limitations on size. A fire that has insufficient fuel quickly burns itself out. In addition, you may create or alter non-magical electricity.
+
+With no battery or other way to store electricity, however, the energy quickly dissipates. Generating electricity on an object deals 1d6 points of damage per two caster levels to the object and any creature or object that interacts with it (Reflex negates). Every round thereafter, the electricity deals 1d6 fewer points of damage until it reaches 0, at which point it dissipates entirely. If used on a battery or other electrical storage object, this deals no damage and creates a number of charges equal to the number of dice used for the initial damage.
+
+Repairing a plasma restores it to the size (for fire) or stored energy (for electricity) it had in the previous round. This allows a fire to retain its size indefinitely without fuel so long as it is repaired every round. Destroying a plasma reduces its size or stored energy by 1 size category or 1d6 points of damage for every 5 points of damage dealt to it.
+
+If you use Change Material to turn an object into a plasma which dissipates entirely before the duration expires, then the object is destroyed when it regains its normal form. Otherwise, when the duration expires, the object reverts to its previous form with no apparent difference or damage that wasn’t preexisting.
+
+++++ Exquisite Detail [Core]
 Items you create are more intricate, and much harder to identify as fakes. You may add your caster level to any Craft checks made to create detailed or complicated objects and to the Appraise DC required to detect objects you create as magical fakes. Those attempting to detect magic on your created objects must pass a magic skill check to detect any lingering creation auras.
 
-++ ##000000|Greater Destroy [Core]##
+++++ Greater Destroy [Core]
 Increase the amount of damage dealt when you use your destroy ability to 1d6 + your caster level.
 
-++ ##000000|Greater Repair [Core]##
+++++ Greater Repair [Core]
 Increase the amount of damage healed when you use your repair ability to 1d6 + your caster level.
 
-++ ##000000|Larger Creation [Core]##
+++++ Larger Creation [Core]
 You may spend an additional spell point when creating or altering an object to double the size, letting you create or alter up to the equivalent of 2 Small objects (1 Medium object) per caster level.
 
-++ ##000000|Lengthened Creation [Core]##
+++++ Lengthened Creation [Core]
 When you create or alter an object, you may spend a spell point to make the object or effect remain for 1 hour per caster level without concentration.
 
-++ ##000000|Potent Alteration [Core]##
+++++ Magnify/Minimize
+You may alter an object’s size for 1 minute per caster level. When using alter you may cause any object you may affect to increase or decrease by 1 size category. This doubles or halves the object’s height and width and multiplies or divides its weight by 8.
+
+By spending a spell point, you can increase the number of steps you may enlarge or shrink an object by 1 + 1 per 5 caster levels (to a maximum of Colossal and a minimum of Fine).
+
+If you have Lengthened Creation, you may spend an additional spell point to alter the object for up to 1 day per caster level.
+
+Effects which depend upon a target object’s size which would not function due to size alterations are automatically suppressed, continuing to count down their duration as normal, when the object no longer meets the size requirements.
+
+Worn items affected by Magnify/Minimize impede their wearer. Magical armor and clothing made too large or small make movement difficult and treat the wearer as if they were encumbered. Non-magical worn equipment made too small forces the wearer to make a Strength check (with a +2 bonus per size category) against the break DC of the object. Success destroys the object while failure results in encumbrance as if it was a magical item. Non-magical equipment made too large may encumber the target or simply fall to the ground at GM discretion. Other effects of similar severity may occur at the GM’s discretion.
+
+If cast on a creature using Potent Alteration the target creature gains the same adjustments as if the Size Change Alteration talent had been used on them to adjust them to the target size.
+
+++++ Mass Liquid Generation
+You may create water even if you do not possess Expanded Materials: Classic Substances.
+
+When attempting to create a liquid, you can treat 5 cubic ft. as a Small object. By spending an additional spell point when using create to fill an area with a non-harmful liquid, you may instead treat a full 5-ft. cube (125 cubic ft.) as a Small object.
+
+++++ Object of Force
+You may create objects made of solid force energy. Force objects have no weight and prevent incorporeal creatures from passing through them. Force objects have hardness equal to two times your caster level and hp equal to 10 times your caster level per inch. A wall 5 ft. by 5 ft., 1 in. thick of force is treated as a Small object. If you possess Wall Master you may instead treat a 10 ft. by 10 ft., 1 in. or a 5 ft. by 5 ft., 4 in. thick wall of force as a Small object. Objects of force are translucent but easily noticeable and require no Perception check to see while imparting a -2 penalty to Perception checks to see through them. If you possess Transparency you may make the object invisible (as Illusion sphere’s Invisibility using your Creation caster level) or entirely opaque without spending an additional spell point, chosen at the time of its creation.
+
+++++ Potent Alteration [Core]
 When altering an object, you may spend an additional spell point to affect magical objects, attended objects, or animate targets such as golems. While this means you may repair broken magical items with your repair ability, you cannot restore the magic to such an object unless your caster level is at least equal to the item’s caster level. Items with charges (such as wands) and single-use items (such as potions and scrolls) cannot be repaired in this way.
 
 If used against an attended object, this is treated as a sunder maneuver. If used against an animate object, this is a touch attack. If the object or object’s wielder is unwilling, they are also allowed a Fortitude save to halve the damage (in the case of destroy) or otherwise negate the effect.
 
+++++ Practiced Creation
+You may increase the casting time of any create effect by 1 step to reduce the spell point cost by 1 (to a minimum of 0)
+
+++++ Precise Destruction
+You may destroy moving components and locks in lieu of disabling them more conventionally. When attempting to disable a complex device or lock you may instead simply target the offending part of the object with destroy. You may make Disable Device checks as if it was a class skill using your caster level in place of skill ranks and your casting ability modifier in place of Dexterity. Doing so requires a standard action, regardless of how long a typical disable device check would take.
+
+If you possess Potent Alteration you may spend a spell point to disarm magical traps.
+
+++++ Replication
+By spending an additional spell point when you create an object less than half of your maximum size, you may delay your creation so that rather than create a single object once, it creates a multitude of identical objects over time. The total size of all created objects cannot exceed double your create maximum size. You must set a parameter when this effect is created for when and where within range the items are created (for example, creating a new arrow in a quiver whenever the previous arrow is removed, or dropping a new anvil each round onto a target location, determined at the time of casting). This continues for the duration of the create effect or until the maximum size (or another non-standard limit) has been reached, whichever comes first. Using this talent allows the create effect to persist for 1 minute per caster level without concentration at no additional cost.
+
+++++ Restrictive Casing
+When attempting to create a casing for a creature, you may spend an additional spell point to create a full-body confinement casing. Treat this as an object the same size as the creature. They may still make Strength checks to escape, but are otherwise unable to attack the casing or take any action which requires movement.
+
+Additionally, you may create non-harmful objects directly on a creature. An unwilling target is always entitled a Reflex save to avoid having an object created directly on them, causing the object to fall harmlessly to the ground. (For example, you may create manacles on a target’s wrists, but if they make a successful Reflex save the manacles miss and fall to the ground.)
+
 + ##000000|Alter Talents##
 
-++ ##000000|Change Material (alter) [Core]##
+++++ Change Material (alter) [Core]
 You may spend a spell point to alter an object, changing its composition from one material to another for 1 round per caster level. Both the material you are affecting and the material you are changing it into must be materials you can create (i.e., you must possess the Expanded Materials talent to work with objects other than vegetable matter) and the object cannot exceed your maximum creation size, although you may target part of an object (such as a section of wall). When the duration expires, the object returns to its normal material, although any damage sustained while altered remains after it returns to its original material. You cannot change a liquid into a solid or a solid into a liquid, and you cannot create or affect gases.
 
-++ ##000000|Forge (alter)##
+++++ Forge (alter)
 You may spend a spell point to shape material with a touch. This is an instantaneous effect, as you are literally changing the shape of the material in question (i.e., it has no duration, and cannot be dispelled once finished). You can only affect materials you can create (i.e., you must possess the Expanded Materials talent to work with materials other than vegetable matter), and you may only make crude changes such as forming walls, trenches, doors, coffers and other basic shapes. Detailed work (such as forging armor) is not possible, and there is a 30% chance that anything with moving parts simply doesn’t work. You may affect targets up to your normal creation size, but when working with a mineral (stone, metals, gems, etc.) the size you may affect is reduced by half.
+
+++++ Rigidity (alter)
+You can spend one spell point to manipulate how rigid an object is. You cannot alter an object that is larger than you can create and the normal restrictions apply. This talent has no effect on gases or liquids, or creatures without hardness as a defensive ability.
+
+Increasing an object’s rigidity improves its hardness by 1, but decreases its hit points by 2 (walls lose 2 hit points per inch of thickness) per two caster levels, as the object’s structure becomes harder, but is in turn more prone to shattering. Objects cannot be reduced to less than 1 hit point (walls cannot have less than 1 hit point/ inch of thickness), and the bonuses to hardness stop when the minimum amount of hit points is reached.
+
+Decreasing an object’s rigidity lowers its hardness by 1, but increases its hit points by 2 (walls gain 2 hit points per inch of thickness) per two caster levels, as the object’s structure becomes more flexible, but it is no longer as able to resist damage as the original. Objects cannot be reduced to a hardness lower than 0, and the bonuses to hit points stop when the minimum hardness is reached. This effects lasts for one minute per caster level for altered objects, or for the full duration of created objects, whichever is shorter.
+
+++++ Transparency (alter)
+You may convert any material into a more transparent version of itself as long as you concentrate for up to 1 minute per caster level, but you may always spend a spell point to allow the effect to remain without concentration for its maximum duration.
+
+This does not affect the object’s composition, hardness, or have any effect other than offer a clear view through the object. The object may be of any size of which you can create or, if larger, may be as large as a two square ft. per caster level that can penetrate up to 1 ft. of material per caster level.
+
+The caster may choose to affect the object’s opacity in a way that allows peering through an object while remaining unobserved from the other side. When used in this way, Perception checks through the object suffer a -4 penalty, but it requires a DC 15 Perception check to notice that the object is see through from the other side. If you possess Exquisite Detail, the penalty to Perception decreases to -2 and the Perception DC to notice that the object is transparent increases by your caster level. If you possess Lengthened Creation you may use it to extend the duration as normal.
 
 ----
 
