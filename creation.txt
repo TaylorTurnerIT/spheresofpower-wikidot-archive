@@ -22,7 +22,7 @@ Talents marked (alter) grant you new ways to alter objects.
 
 + ##000000|Create [Core]##
 
-As a standard action, you may spend a spell point to create a non-magical, unattended object out of vegetable matter such as wood, hemp, or cotton in either your hand or an adjacent square. The object may be of equivalent size to one Small object per caster level (see chart below) and lasts as long as you continue to concentrate, to a maximum of 1 minute per caster level.
+As a standard action, you may spend a spell point to create a non-magical, unattended object out of vegetable matter such as wood, hemp, or cotton in either your hand or an adjacent square. The object may be of equivalent size to one Small object per caster level (see chart below) and lasts as long as you continue to concentrate, to a maximum of 1 minute per caster level. When creating an object you may spend an additional spell point to allow that object to persist for 1 minute per caster level without concentration.
 
 If the created object is especially large, it must begin in an adjacent square and must be completely contained within Close range.
 
@@ -224,6 +224,75 @@ You may convert any material into a more transparent version of itself as long a
 This does not affect the object’s composition, hardness, or have any effect other than offer a clear view through the object. The object may be of any size of which you can create or, if larger, may be as large as a two square ft. per caster level that can penetrate up to 1 ft. of material per caster level.
 
 The caster may choose to affect the object’s opacity in a way that allows peering through an object while remaining unobserved from the other side. When used in this way, Perception checks through the object suffer a -4 penalty, but it requires a DC 15 Perception check to notice that the object is see through from the other side. If you possess Exquisite Detail, the penalty to Perception decreases to -2 and the Perception DC to notice that the object is transparent increases by your caster level. If you possess Lengthened Creation you may use it to extend the duration as normal.
+
+----
+
++ Rules Clarifications
+
+++++ What Exactly Can You Create?
+The Creation rules listed in Spheres of Power gives the following definition of what cannot be created:
+
+“You cannot create items that require mixing, carry special properties, or knowledge you don’t possess (alchemical items, rare herbs, the key to a lock you didn’t create, etc.).”
+
+This clause is intended to prevent a Creation sphere user from simply conjuring a legendary herb from nothing and negating an entire quest line or creating free versions of otherwise costly alchemical weapons, but otherwise leaves much up to GM fiat when deciding what can or cannot be created.
+
+In order to clarify what exactly can and can’t be created, please see the following expanded definition:
+
+“You normally cannot create alchemical concoctions, poisons, or materials that deal damage on contact. Treat creating items with unique properties like creating complex items. Special, non-magical herbs and plants, such as wolfsbane, or the night tea plant, can be created by making an appropriate Knowledge (nature), Profession (botany), or similar skill check, subject to GM discretion, as long as the DC does not exceed 15. More common or simple things require no skill check. Similarly, creating items that require specific knowledge can be done if you have the relevant knowledge, so long as the DC does not exceed 15. You may even attempt to gain this knowledge as part of the create attempt in certain circumstances, for example, you may try to create a key to a specific lock by making a Disable Device check at the lock’s DC at the time of casting.
+
+If you possess Exquisite Detail, you may create rarer and more unique materials, removing the DC 15 limitation on skill checks to create such objects. The bonus granted by Exquisite Detail does not apply to these checks but is added to the DC of Appraise checks to notice that they are magically created.” It is recommended that for simple things, like the wolfsbane herb, the skill DC be set to a base of 10, +1 for every 5 gp of the item’s price until DC 20.
+
+Items which normally cost more than 50 gp should instead have a DC 20 +1 for every 200 gp of its base price. These DCs are subject to GM discretion and should be revised as necessary. Intrinsically magical materials, that is to say materials which qualify as magical items, can never be created.”
+
+++++ Anchoring Objects
+When creating objects you may choose to have the object stand alone, able to be moved or fall over normally, or anchor it to an adjacent, unattended object. In this way you could create a bridge anchored into two sides of a canyon, iron bars anchored into a castle hall, or a nice dinner that can’t be easily separated from its table. Separating a creation anchored to another object requires a Strength check with a DC equal to the break DC of the weaker object.
+
+++++ Creation and Artifacts
+Artifacts are incredibly powerful magical objects, and as such, even with Potent Alteration, are difficult to affect. Minor artifacts can be damaged as normal by destroy, but they cannot be destroyed nor can their form be changed. Major artifacts are entirely immune to the Creation sphere effects unless the conditions for their destruction have been met.
+
+++++ Creation and Dismissal
+When maintaining a creation through concentration, dismissing the object is as simple as ceasing to concentrate. When a created object is maintained through any other means, it may be dismissed as a standard action as if it were a spell with a duration marked with (D) with the exception of instantaneous creations which persist without continued access to magic and cannot be dismissed. When dismissing objects created with Divided Creation you may dismiss any number of them with the same action.
+
+++++ Creation and Duration
+The following new ability should be added to the Creation base sphere:
+
+“When creating an object you may spend an additional spell point to allow that object to persist for 1 minute per caster level without concentration.”
+
+**Wiki Note:** This has been added above.
+
+++++ Creating Multiple Falling Objects
+When using Divided Creation to create a multitude of objects, each may be created in a single square so long as there is space for them. When dropping objects, however, each must be targeted at a different square (unless the objects are Tiny or smaller, in which case up to 4 may target a single square).
+
+A creature may be targeted only by as many falling objects as could target any square(s) the creature occupies (a Medium creature can only be targeted by 1 Small or larger object, a Huge creature by up to 9, etc.).
+
+++++ Creating Slippery or Dangerous Terrain
+Although you cannot create objects directly onto a target, you can create objects immediately around them. This includes creating materials directly underneath a target’s feet.
+
+If you create a hazardous substance directly under a creature such as grease, ice, or acid, the creature is automatically entitled a Reflex saving throw using the same saving throw DC as the save to avoid being encased. Success indicates that they suffer no effect from the hazardous terrain in that square until the end of their next turn (attempting to move into or through other hazardous squares affects the target normally). Failure results in the target taking damage or falling prone as appropriate. Hazardous terrain created in this fashion functions as normal for its kind. For example, ice allows movement at half-speed without penalty but moving at greater than half-speed requires a DC 15 acrobatics check (increasing to DC 20 to run or charge), failure results in falling prone, while success by more than 5 allows you to move an additional 10 ft., but leaves you flat-footed regardless of success or failure until your next turn.
+
+++++ Creating Very Small Objects
+When creating items smaller than Small size, you can make more of them than normal. You may make 2 Tiny objects, 4 Diminutive objects, or 8 Fine objects in place of a single Small object. This does not allow the creation of multiple objects with a single usage of create without Divided Creation or a similar ability.
+
+++++ Dropping Objects
+Dropping an object on a creature via the Creation sphere is similar to dropping an object on a creature via a catapult or trebuchet. The following rules are appropriate when handling falling objects.
+
+Additional damage such as enhancements bonuses, acid coatings, etc., do not have their damage multiplied or divided by hardness or falling distance.
+
+When dropping an object on a target that is at least two sizes bigger than the object, the falling object targets normal ac rather than touch ac.
+
+When dropping an object on a target that is no more than one size bigger than the object, the falling object behaves in many ways like a splash weapon, as explained below. In this case, the falling object targets touch ac. When dropping a Large object, the object deals half damage as ‘splash damage’ to all targets within 5 ft. of the target space (Reflex save negates). This radius increases by 5 ft. for every size category above Large for the falling object.
+
+You may target a square instead of a creature (provided the creature inside that square is not at least two sizes bigger than the object), in which case the object deals splash damage to any creature inside that square as well (Reflex negates).
+
+If the falling object misses the target (whether aiming at a creature or a grid intersection), roll 1d8. This determines the misdirection of the attack, with 1 falling short (off-target in a straight line toward the caster), and 2 through 8 rotating around the target creature or grid intersection in a clockwise direction. Then, count a number of squares in the indicated direction equal to the range increment of the drop. After determining where the object landed, it deals splash damage to all creatures within the attack area.
+
+Creatures 3 or more sizes smaller than the object that fail their saving throw against a falling object’s splash damage become buried under the object or its rubble. Treat this as a cave-in with the following adjustments;
+
+Buried creatures are pinned, prone, and have full cover so long as they remained buried. As a standard action, a buried creature can attempt to free himself with a DC 25 Strength check or a DC 30 Escape Artist check. Failure by 4 or less reduces cover by 1 step and the DCs by 2. Failure by 5 or more undoes progress, increasing the DCs by 2 but does not restore cover. Each failure stacks.
+
+Characters take 1d6 points of nonlethal damage per minute while buried. If such a character falls unconscious, he must make a DC 15 Constitution check each minute. If it fails, he takes 1d6 points of lethal damage each minute until freed or dead. Creatures who have less than improved cover are not buried and have no risk of suffocation but are still pinned until they dig themselves out or are rescued.
+
+Characters who aren’t buried can dig out their friends. They may make a Strength check as a standard action against a buried target’s DC, with the same results on a failure. Alternatively, they may attempt to clear stone slowly and carefully. In 1 minute, using only her hands, a character can clear rocks and debris equal to five times her heavy load limit. The amount of loose stone that fills a 5-ft.-by-5-ft. area weighs 1 ton (2,000 pounds). Armed with an appropriate tool, such as a pick, crowbar, or shovel, a digger can clear loose stone twice as quickly as by hand.
 
 ----
 
