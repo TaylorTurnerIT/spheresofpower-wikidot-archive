@@ -167,11 +167,36 @@ At the end of its task, or when the bargained duration expires, a summoned ally 
 ----
 + ##000000|Creation Talents##
 
+++ ##000000|Costly Creation##
+**Prerequisites:** Creation sphere, Lengthened Creation, Create Materials or Permanent Change, 15th caster level or higher.
+
+You may spend 5 additional spell points when using Create Materials or Permanent Change to spontaneously create valuable raw materials. You may now create instantaneous, conventional, nonmagical, normal versions of any material you could create, including gems, precious metals (such as gold or silver), and rare metals (such as cold iron or mithral). When using this talent your caster level is halved for determining the quantity of material that can be created.
+
+//Note:// This talent can be unbalancing for a game, and GMs should consider its role in their setting before allowing it to fall into player hands. However, if handled correctly, this talent can lead to interesting interactions between players and setting. For example, the players might flood a market with rare jewels only to find their value plummets as the market floods. This applies to the selling of a mass amount of mithral or adamantine as well. Also remember that towns have a maximum buy value and attempting to sell items that exceed this value cannot be done.
+
+Additionally take note of how this talent could affect the world at large outside of PC hands. If many high level Creation casters exist, then normally rare materials might be commonplace in the setting, their rarity long since diminished by industrious casters, or perhaps the materials are not naturally occurring at all and the few mages with the ability to create them charge a fortune for their use, keeping their prices high. This ultimate secret of Creation might even be passed down only among those of a certain order, limiting the talent’s availability to a select few, like medieval guilds, with well guarded, secret recipes whose methods could be lost.
+
 ++ ##000000|Create Materials##
 
 **Prerequisites:** Creation sphere, Forge, Lengthened Creation, 10th caster level or higher.
 
 You may spend 2 spell points to create raw materials. This is an instantaneous effect; you create the material as self-evident normal material, and thus it cannot be dispelled and has no duration. You cannot create complex items, i.e., you may create walls, battlements, ramps, or domes, but cannot create catapults, armor, or a complete building in this manner, although the material may be crafted as any other material after it is summoned. You can summon any material you may create, with the exception of gems, precious metals (such as gold or silver) or rare metals (such as cold iron or mithril).
+
+++ ##000000|Dissolution (alter)##
+
+**Prerequisites:** Creation sphere, Greater Destroy, Potent Alteration.
+
+You may spend a spell point when using destroy on a non-magical, unattended object. The ability doesn’t deal damage and instead simply disintegrates as much as a 10- ft. cube of nonliving matter.
+
+When targeting an attended non-magical object, magical object, or creature (by spending an additional spell point via Potent Alteration), you may spend another spell point to reduce the target to its component parts. The target is entitled a Fortitude saving throw. Failure results in the target taking 2d6 point of damage per caster level that bypasses all hardness, resistances, and damage reduction. A successful save reduces this damage to the normal damage of the greater destroy ability. If this damage reduces the creature or object to 0 or fewer hit points, it is entirely disintegrated.
+
+++ ##000000|Duplicate##
+
+**Prerequisites:** Creation sphere, Exquisite Detail, 5th caster level or higher
+
+You may touch a single object and, as a full-round action, create a perfect duplicate of the object either in your hand or an adjacent square. The object is an exact replica in every way, and the only way to tell the object is not the original is the lingering Creation aura surrounding the object. You must be able to create all of the materials included in its construction, otherwise the object created is crafted from materials you can create and colored to appear like the original, which could give away the ruse. Magical items duplicated are always non-magical but otherwise flawless imitations. If you possess Create Materials, you may spend an additional 2 spell points to duplicate the object as an instantaneous effect, in which case it has no lingering creation aura.
+
+If you possess the Fleshcrafting and Bestow Life advanced talents, you may create a duplicate of a target creature. This duplicate appears to be the same as the original, but it has only half of the real creature’s levels or HD (and the appropriate hit points, feats, skill ranks, and special abilities for a creature of that level or HD). You must make a Disguise check when you cast the spell to determine how good the likeness is (you may use your caster level in place of your ranks in Disguise). If you possess Exquisite Detail you may add your caster level as a bonus to this check, even if you use your caster level in place of your ranks in Disguise. A creature familiar with the original might detect the ruse with a successful Perception check (opposed by the caster’s Disguise check) or a DC 20 Sense Motive check. The duplicate creature is not under your control, though it recognizes you are its creator and functions as a faithful companion, as described under the Bestow Life talent. Creating a duplicate in this manner costs 1 spell point + 1 additional spell point for every 3 HD of the duplicate creature and you may not create a duplicate of a creature with more HD than your caster level. These duplicates are incapable of growing in power, but otherwise age as normal (if made permanent with Create Materials). No magical effects affecting the target are duplicated.
 
 ++ ##000000|Fabricate##
 
@@ -196,11 +221,67 @@ If you possess the Forge talent, you may sculpt a creature’s body in one of th
 
 Other uses of this talent are up to the GM.
 
+++ ##000000|Material Body (alter)##
+
+**Prerequisites:** Creation sphere, Expanded Materials, Change Material, 5th caster level or higher.
+
+You may spend a spell point to change a willing, touched creature’s skin into another solid material you can create as long as you maintain concentration to a maximum of 1 minute per caster level. You may spend an additional spell point to maintain this effect without concentration. If you possess Lengthened Creation, the duration of this ability is increased to 1 hour per caster level.
+
+The creature gains damage reduction equal to the material’s hardness. This damage reduction is bypassed by adamantine as long as the material’s hardness is 20 or less.
+
+Once this damage reduction has prevented a number of points of damage equal to the material’s hp per inch per 3 caster levels the effect ends.
+
+If you possess the Fleshcrafting advanced talent, the effect increases, granting the target a +4 bonus to saving throws against diseases and poisons, and a 50% chance that any critical hit or sneak attack against the target is treated as a normal hit, as if the target were wearing medium fortification armor.
+
+++ ##000000|State Shift (alter)##
+
+**Prerequisites:** Creation sphere, Change Material, 10th caster level or higher.
+
+When using Change Material, you may turn gases, liquids, and solids into either of the other two states. If you have Plasma Production you may also convert matter into a plasma and vice versa. This is a magical effect and the change in form itself has no additional effect on the condition of the target object, dealing no damage to it. When turning a solid into a liquid or gas the resultant object disperses as normal, but recombines when the effect ends and in the same location unless its component parts have been collected and moved elsewhere. If all pieces of an object are not present, the object still regrows from the largest remaining piece.
+
+If a magical object is converted into a new form, its magical properties cannot be used unless they are still applicable to its new state of matter.
+
+++ ##000000|Magma Mastery##
+
+**Prerequisites:** Creation sphere, Expanded Materials: Plasma Production, Nature sphere (Fire package), caster level 10th or higher.
+
+You may create or alter lava and magma (3 cubic ft. equals a Small creature).
+
+++ ##000000|Mythical Material Maker##
+
+**Prerequisites:** Creation sphere, Expanded Materials, 15th caster level or higher.
+
+Add adamantine and any similarly incredibly rare material that is known to you, subject to GM discretion, to the list of materials you can create. Treat your caster level as 1/2 for determining both size and duration for effects involving adamantine and similar extremely rare materials.
+
+**Note:** Metals and other materials similar to adamantine in rarity or power may not exist in all campaign settings. In these situations, the GM is encouraged to add any setting specific extremely rare materials not normally able to be affected by create/alter to the list of affected materials granted by this talent. The purpose of this talent is to allow access to even the rarest of materials, save for those that are divine in nature.
+
+++ ##000000|Ooze Originator (create)##
+
+**Prerequisites:** Creation sphere, Expanded Materials: Acidic Creation, caster level 5th or higher.
+
+You may create and animate a self-sustaining ooze creature. You must spend an additional spell point for every 4 HD of the desired ooze; you cannot create an ooze with more HD than your caster level or that is larger than you can create. The magic behind the ooze’s creation allows it to recognize you as its creator and obey basic commands such as “attack”, “defend”, or “move” and to follow them to the best of its ability, but it otherwise is a normal, mindless member of its kind and will act appropriately.
+
+This ooze may be any un-templated creature of the ooze type or a unique creation subject to GM discretion. You may not control more Hit Dice of ooze than your caster level; if you create more than this, the earliest-created oozes no longer recognize you as their creator until you are under this limit again. Oozes can be made permanent through the Create Materials advanced talent.
+
 ++ ##000000|Permanent Change##
 
 **Prerequisites:** Creation sphere, Change Material, Forge, Expanded Materials, 10th caster level or higher.
 
 When using your Change Material talent, you may spend an additional spell point to make the change an instantaneous effect; the change is permanent and cannot be dispelled. If used on a target in conjunction with the Change Material and Fleshcraft talents, another application of the Fleshcraft and Change Material talents can return them to normal for a limited time, but only another use of the Permanent Change talent can permanently reverse this effect. You cannot create a permanent change involving gems, precious metals (such as gold or silver) or rare metals (such as cold iron or mithril).
+
+++ ##000000|Plasma Projection##
+**Prerequisites:** Creation sphere, Expanded Materials: Plasma Production, caster level 5th or higher.
+
+When holding any object that could be reasonably used as a hilt or wielding a melee weapon you may spend a spell point to create in the space above the hilt or alter the weapon into a blade of plasma. The shape of the plasma can take any form you wish, but regardless of its form treat this weapon as an energy sword (see Equipment section) that you are proficient with that lasts for 1 round per caster level without concentration. You may spend an additional spell point when this duration expires to renew its duration as a free action. This duration can be extended by Lengthened Creation as normal. While the effect persists the energy blade can be turned off or on again by the wielder as a swift action.
+
+You may spend an additional spell point as a swift action each round to increase the length and intensity of the ‘sword’ for 1 round. The sword’s damage increases by 1d10 (for a Medium energy sword) and an additional 1d10 for every 5 caster levels you possess beyond 5th. When enlarged in this way, the energy sword may threaten and make attacks at a reach of 10 ft. or against adjacent targets at no penalty.
+
+++ ##000000|Sustenance##
+**Prerequisites:** Creation, caster level 1st or higher.
+
+You may spend 10 minutes to create enough bland food and drink to sustain a number of Medium-sized creatures equal to your casting ability modifier. If you possess Exquisite Detail you may create any normal assortment of food or drink using Profession (Cook) and gaining a bonus to this check equal to 1/2 your caster level. This is an instantaneous creation effect that costs no spell points. Alternatively, you may use this ability as a standard action by spending 1 spell point.
+
+Additionally, by spending 1 spell point, you may create or alter any one object with normal size and material limitations to be edible. The object becomes nutritious enough to sustain a number of creatures based on its total size, with a Tiny-sized object being enough for a Medium creature. The object is treating as having a hardness of 0 against bite attacks, and creatures that do not have bite attacks can bite it to deal 1d3+1/2 Str modifier damage to the object. Objects in this way only retain this property for a limited period of time as normal for altering objects, but any part of the object that was devoured during this time is instantaneously converted into food. If you possess Permanent Change, you may make this an instantaneous effect by spending an additional spell point.
 ----
 + ##000000|Dark Talents##
 
