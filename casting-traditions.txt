@@ -339,6 +339,13 @@ You can not take this drawback if you took the Magical Signs drawback.
 ++++ Coy Caster
 Your magic is a fickle thing, or perhaps you’re simply possessed of performance anxiety. If you attempt to use magic while you know you’re being observed, you must make a concentration check (DC 15 + 1/2 the caster level) to produce the desired effect. Failure means time (and any spell points) are spent, but no effect happens. If you believe you are hidden or alone, even if you’re not, you may use magic normally.
 
+++++ Diagram Magic
+In order to perform any magical effect, either you or your target must be entirely contained within the boundaries of a special diagram. Creating this diagram requires a full-round action for every 5 ft. square contained within the diagram. Once the circle has been drawn, make a spellcraft check as part of the full-round action to draw the final part of the circle against DC 15 + the maximum caster level of any effect to be performed within the circle to determine if it was done correctly. You may take 10 on this check even if in combat or stressed. You can increase the speed at which you draw the diagram but at greater risk of making a mistake. For every step by which you reduce the time required to draw the diagram, increase the spellcraft DC by +5 to a maximum of +20 to draw the circle as a free action, but doing so prevents you from taking 10 on the check.
+
+The diagram need not be drawn with any special materials, and can be done with sprinkled salt, paint, blood, or anything else that may be on hand so long as it is clearly visible. If the diagram is disrupted (any amount of damage dealt to the surface it is carved upon, or sufficient force from water, wind, or any other effect that might disperse the material the diagram was created with) then any magic previously cast stays in effect, but no further spells may be used until a new circle is drawn. Spells and effects created by magic within the diagram and summoned creatures never disrupt it even if they would otherwise.
+
+This counts as 2 drawbacks when determining the number of spell points gained.
+
 ++++ Draining Casting [Core]
 Using magic saps your lifeforce. Using any sphere ability deals you 1 point of nonlethal damage which cannot be healed through any means except rest. This increases to 2 points at 5th caster level, 3 points at 10th caster level, 4 points at 15th caster level, and 5 points at 20th caster level. Creatures immune to nonlethal damage cannot gain this drawback.
 
@@ -424,11 +431,24 @@ Summoning a creature requires 1 minute of concentrated effort, rather than only 
 ----
 +++ ##000000|Creation##
 
+++++ Fission (Requires Creation)
+You cannot use the alter ability. If you use the create ability of the Creation sphere, you do so by splitting off part of your body: this inflicts 1d4 points of damage + 1d4 per size category of the object above Small to be created. This damage cannot be healed as long as the object exists. However, you may reabsorb the created object by touching it as a free action, causing you to heal damage equal to that expended to create it. If the object has the broken condition when it is reabsorbed you only gain 1/2 the hp back. If the object is destroyed you cannot reabsorb it but may heal normally. You may dismiss any object created in this way regardless of distance. Doing so does not restore the hit points lost but allows you to recover normally as if the object was destroyed. This drawback grants two bonus talents instead of one. Buying this drawback off with only one talent grants you the alter ability, but a second talent must be spent to remove the rest.
+
+++++ Gas Mage (Requires Creation)
+You may only create or alter gaseous objects but not liquids, solids, plasmas, or any other state of matter. You gain Expanded Materials: Gaseous Generation as the bonus talent for this sphere-specific drawback. You lose the ability to create or alter vegetable matter and cannot select Expanded Materials: Classic Substances.
+
 ++++ Limited Creation (Requires Creation) [Core]
 Choose either alter or create. You cannot use this ability, nor take talents which augment this ability. You may still gain Expanded Materials if you choose not to be able to create objects.
 
 ++++ Material Focus (Requires Creation) [Core]
 You may only create or alter objects of a single, special substance such as ice, cloth, bones, etc. You may choose iron or stone as your material, in which case you do not gain an extra magic talent from this drawback. You cannot take the Expanded Materials talent. You may choose shadowstuff as your material (you still receive the additional talent with this choice). Shadowstuff has hardness 5 and 10 hp per inch.
+
+++++ Material Mimic (Requires Creation)
+In order to create or alter objects you must be in physical contact with another object that is composed of the material that will result from the effect and no more than three size categories smaller (e.g. to create a Medium iron object, you would need to be touching another iron object of Diminutive size or larger). If you possess Change Material then this restricts the materials you can change the targeted object into. If you possess the Fleshcraft advanced talent then you may not use your own body to produce fleshy objects, though you may use other creatures.
+
+++++ Water Wizard (Requires Creation)
+You may only create or alter water, ice, and steam. You lose the ability to create or alter vegetable matter and instead can create or alter water in its solid, liquid, or gaseous forms. You cannot take Expanded Materials: (Any). This does not grant a bonus talent.
+
 ----
 +++ ##000000|Dark##
 
