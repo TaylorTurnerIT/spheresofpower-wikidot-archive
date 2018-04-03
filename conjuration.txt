@@ -16,7 +16,9 @@ A companion only recovers hp and resources (unless restored through the Heal ski
 
 Companions may not carry equipment or items back and forth when summoned and so cannot be used to store items in their home plane or bring items to the caster’s plane. The exception to this rule is equipment gained through Conjuration talents.
 
-Whenever you gain a companion, they immediately gain 1 (form) talent of your choice. Whenever you select a (form) talent as a magic talent, apply its effects to only a single companion. You may select (form) talents multiple times, but no more than once per companion, unless the talent says otherwise.
+Whenever you gain a companion, they immediately gain 1 **(form) talent** of your choice. Whenever you select a (form) talent as a magic talent, apply its effects to only a single companion. You may select (form) talents multiple times, but no more than once per companion, unless the talent says otherwise.
+
+**Type Talents:** An individual companion may only benefit from a single talent with the (type) descriptor, though individual talents may still be taken multiple times if so noted. These talents otherwise function as normal for (form) talents. The Undead Creature talent in Spheres of Power counts as a (type) talent instead of a (form) talent.
 
 Every companion comes with one of the following base forms, chosen by the caster. Once made, this choice cannot be altered. Companions also gain power as their caster’s power grows, according to Table: Companion.
 
@@ -45,17 +47,38 @@ Every companion comes with one of the following base forms, chosen by the caster
 || 20th || 15 || +15 || 15 || 8 || +7 || +9 || +5 || - ||
 (Note: A companion does not gain power from temporary increases to caster level; i.e., from a thaumaturge’s forbidden lore ability or from certain boons.)
 
-//Biped:// **Size** Medium; **Speed** 30 ft.; **AC** +2 natural armor; **Saves** Fort (good), Ref (bad), Will (good); **Attack** 2 slams (1d4); **Ability Scores** Str 16, Dex 12, Con 13, Int 7, Wis 10, Cha 11
+//**Avian:**// **Size** Medium; **Speed** 20 ft., Fly^^1^^ 15 ft. (average); **AC** +2 natural armor; **Saves** Fort (good), Ref (good), Will (bad); **Attack** Bite (primary, 1d4 Medium, 1d3 Small), 2 talons (primary, 1d4 Medium, 1d3 Small, creature must be airborne to use); **Ability Scores** Str 12, Dex 16, Con 13, Int 7, Wis 10, Cha 11
+
+Avian creatures are birds and bird-like magical beasts and outsiders. An avian companion has a head, 2 legs, and 2 wings.
+
+^^1: This fly speed only functions on the companion’s turn. If the companion is not on a surface that can support it on the end of its turn, it glides to the ground, taking no falling damage. If the companion gains a natural fly speed from the Avian Creature (form) talent, increase the maneuverability of that speed by 1 step.^^
+
+**//Biped://** **Size** Medium; **Speed** 30 ft.; **AC** +2 natural armor; **Saves** Fort (good), Ref (bad), Will (good); **Attack** 2 slams (1d4); **Ability Scores** Str 16, Dex 12, Con 13, Int 7, Wis 10, Cha 11
 
 Bipeds are usually humanoids, and begin with 2 legs, 2 arms, and a head.
 
-//Quadruped:// **Size** Medium; **Speed** 40 ft.; **AC** +2 natural armor; **Saves** Fort (good), Ref (good), Will (bad); **Attack** bite (1d6); **Ability Scores** Str 14, Dex 14, Con 13, Int 7, Wis 10, Cha 11
+//**Ooze:**// **Size** Medium; **Speed** 20 ft.; **AC** +4 natural armor; **Saves** Fort (good), Ref (bad), Will (bad); **Attack** slam (primary, 1d6 Medium, 1d4 Small); **Ability Scores** Str 16, Dex 8, Con 16, Int 7, Wis 12, Cha 11.
+
+Ooze creatures are usually oozes, puddings, or other amorphous creatures and lack discernable limbs. An ooze companion may not be tripped unless gaining legs from another source.
+
+//**Orb:**// **Size** Medium; **Speed** 5 ft. Hover^^1^^ 30 ft. (average); **AC** +2 natural armor; **Saves** Fort (bad), Ref (good), Will (good); **Attack** bite or slam (choose 1) (1d6); **Ability Scores** Str 7, Dex 16, Con 13, Int 10^^2^^, Wis 12, Cha 11.
+
+Orb creatures are lantern archons, will-o-wisps, gibbering orbs, and other mystical fey, outsiders, constructs, or aberrations with a floating sphere-like appearance and supernatural movement. An orb lacks any limbs, but may treat its body as a head for the purpose of adding natural attacks. An orb companion may not be tripped unless gaining legs from another source.
+
+^^1: An orb may float up to 5 ft. plus 5 ft. per 5 Hit Dice above the ground, with a horizontal movement speed of 30 feet. When floating this way, fly checks are not required to hover or change direction. When falling the orb may choose to descend at a slower rate to control its fall and to negate all falling damage it would take. Each round it descends 30 ft., and may move in another direction for 30 feet. It may choose to drift sideways, gliding forwards while descending, or down, safely increasing its rate of descent. It may even choose to drift ‘upwards’ to reduce its rate of descent, even allowing it to negate it entirely and hover midair (though cannot move horizontally if it begins its turn doing so). This is a supernatural ability.^^
+^^2: The Skillful Companion (form) talent raises increases this to 13 if taken.^^
+
+**//Quadruped://** **Size** Medium; **Speed** 40 ft.; **AC** +2 natural armor; **Saves** Fort (good), Ref (good), Will (bad); **Attack** bite (1d6); **Ability Scores** Str 14, Dex 14, Con 13, Int 7, Wis 10, Cha 11
 
 Quadrupeds are usually beasts, and begin with 4 legs and a head.
 
-//Serpentine:// **Size** Medium; **Speed** 20 ft.; **AC** +4 natural armor; **Saves** Fort (bad), Ref (good), Will (good); **Attack** bite (1d6), tail slap (1d6); **Ability Scores** Str 12, Dex 16, Con 13, Int 7, Wis 10, Cha 11
+**//Serpentine://** **Size** Medium; **Speed** 20 ft.; **AC** +4 natural armor; **Saves** Fort (bad), Ref (good), Will (good); **Attack** bite (1d6), tail slap (1d6); **Ability Scores** Str 12, Dex 16, Con 13, Int 7, Wis 10, Cha 11
 
 Serpentine creatures are snakes, fish, and other elongated creatures. They begin with a head, but no arms or legs.
+
+//**Vermin:**// **Size** Medium; **Speed** 20 ft., Climb 20 ft.; **AC** +2 natural armor; **Saves** Fort (good), Ref (good), Will (bad); **Attack** bite (1d6); **Ability Scores** Str 12, Dex 16, Con 13, Int 7, Wis 10, Cha 11
+
+Vermin are usually insects or arachnids, and begin with either 6 or 8 legs and a head and gain a +6 bonus to CMD verses trip attempts from its additional legs.
 
 You may choose to make a companion Small size instead of Medium size. In this case, the companion gains a +2 bonus to Dexterity, a -2 penalty to Strength, as well as the usual changes for being Small (+4 Stealth bonus, +1 AC, +1 to-hit, decreased damage size, etc.).
 
@@ -73,6 +96,9 @@ A companion gains 2 skill points per level (reduced to 1 for low Intelligence) a
 ----
 + ##000000|Conjuration Talents##
 
++++ ##000000|Call the Departed##
+If your companion is reduced to 0 hit points and disappears, you may re-summon it by increasing the spell point cost of summon by one. The companion reappears at one quarter of its maximum hit points with 1 temporary negative level. Any other conditions or ongoing effects on the companion are removed. This negative level lasts until you rest to regain spell points but otherwise may not be removed. Negative levels from multiple uses of this ability stack. If the companion accumulates negative levels equal to its Hit Dice, it may not be summoned again until the negative levels are removed by resting to regain spell points. 1 Hit Die companions may be summoned by this ability once per day, but take a -1 penalty on all d20 checks in place of the negative level.
+
 +++ ##000000|Extra Companion [Core]##
 You gain an additional companion. Whenever you summon a companion, you must select only one of your companions, although you may have multiple companions summoned at once. You may select this talent multiple times. Each time it is selected, gain another companion.
 
@@ -81,6 +107,17 @@ When you spend a spell point to allow a companion to remain for 1 minute per cas
 
 +++ ##000000|Link [Core]##
 You gain a telepathic link to each of your companions. So long as you are on the same plane as one of your companions, you may communicate with that creature over any distance.
+
++++ ##000000|Ranged Summoning [Core]##
+When you summon a companion, they may appear in any square within Close range, rather than only in an adjacent square.
+
++++ ##000000|Spell Conduit##
+Your companions can deliver touch spells and sphere abilities for you. If you and one of your companions are in contact at the time you cast a touch spell or sphere ability requiring a melee touch attack, you can designate your companion as the “toucher.” You may touch a companion within your natural reach as a free action during your turn to initiate this contact; your companion may do the same during its turn. The companion can then deliver the touch spell or ability just as you would. As usual, if you cast another spell or sphere ability before the touch is delivered, the touch spell or ability dissipates.
+
+You may take this talent a multiple times. If taken twice, the companion may be anywhere within close range of you when you cast the touch spell or ability and may also deliver ranged touch attacks, using its attack modifiers and serving as the effect’s point of origin. Each additional time this talent is taken, increase the range at which this ability functions by one step, to a maximum of long range.
+
++++ ##000000|Spell-Linked Companions##
+When you target yourself with a sphere effect, you may spend an additional spell point to apply the effect to up to one Conjuration sphere companion, +1 companion per 5 caster levels. All affected companions must be within 5 ft. + 5 ft. per 5 caster levels. This ability may be used even on effects that normally can only target the caster.
 ----
 + ##000000|Form Talents##
 
@@ -98,6 +135,9 @@ Your companion increases or decreases permanently by 1 size category. A companio
 || Tiny || Diminutive || -2 || +2 || - ||
 || Medium || Large || +4 || -2 || +2 ||
 || Large || Huge || +4 || -2 || +2 ||
+
++++ ##000000|Amorphous Creature (form)##
+You may spend an additional spell point to choose a different base form for your companion each time you summon it. Any (form) talents that cannot be applied to the new base form become inactive until a valid base form is chosen.
 
 +++ ##000000|Animal Creature (form) [Core]##
 Your companion has the qualities of a great beast. It gains a +20 ft bonus to its land speed, as well as the scent property. It gains an additional +10 ft bonus to its land speed for every 2 Hit Dice.
@@ -128,6 +168,18 @@ Your companion gains a new set of natural attacks chosen from the list below. A 
 +++ ##000000|Boon Companion (form) [Core]##
 Your companion’s abilities and Hit Dice are determined as if your caster level were 5 higher, to a maximum effective caster level equal to your character level.
 
++++ ##000000|Camouflaged Companion (form)##
+Your companion may shift its coloration to mimic its environment, granting a circumstance bonus on stealth checks equal to 1 + 1/2 the companions Hit Dice. Additionally, the companion gains 1 rank in the Stealth skill per Hit Die; if it already possesses ranks in the Stealth skill, those ranks may be immediately re-trained at no cost.
+
++++ ##000000|Capable Companion (form)##
+Your companion gains a bonus feat for which it qualifies, chosen at the time this talent is taken. This talent may be taken more than once for each companion; each time it grants an additional bonus feat to that companion.
+
++++ ##000000|Climbing Companion (form)##
+Your companion may climb virtually any surface, no matter how slick or sheer. It can climb and travel on vertical surfaces or even traverse ceilings as well as a spider does. The companion must have at least 3 limbs free to climb in this manner. The companion gains a climb speed of 20 ft., including the +8 racial bonus on Climb skill checks from having a climb speed; furthermore, it need not make Climb checks to traverse a vertical or horizontal surface (even upside down). A companion climbing this way retains its Dexterity bonus to Armor Class (if any) while climbing, and opponents get no special bonus to their attacks against it. It cannot, however, use the run action while climbing. If the companion already possesses a climb speed, it gains a +10 ft. bonus to that climb speed.
+
++++ ##000000|Crafting Creature (form)##
+You may treat your companion as if it had the Cooperative Crafting^^APG^^ feat and possessed all your Craft skill ranks and item creation feats. All Craft and Profession skills are class skills for your companion. This talent does not remove the need for your companion to have appropriate anatomy in order to be capable of crafting.
+
 +++ ##000000|Draconic Creature (form) [Core]##
 Your companion is draconic in nature. It gains a breath weapon which it may use once per 1d4 rounds. You must decide when this talent is gained whether your companion will breath a 30 ft cone or a 60 ft line and whether it deals fire, cold, acid, or electricity damage. It deals 1d8 damage per 2 Hit Dice (minimum: 1d8), and creatures may make Reflex saves (DC 10 + 1/2 Hit Dice + Constitution modifier) for half damage.
 
@@ -137,8 +189,21 @@ Your companion is a creature used to living in the ground. It gains a 15 ft Burr
 +++ ##000000|Elemental Creature (form) [Core]##
 Your companion is a being attuned to a particular element. Choose either cold, fire, acid, or electricity. Your companion deals 1d3 damage of that element’s type with all of its natural attacks. This damage increases by one die size per 5 Hit Dice.
 
++++ ##000000|Explosive Companion (form)##
+When your companion is reduced to 0 hit points or fewer, it explodes in a burst of energy, dealing 1d6 damage per Hit Die to all creatures within 5 ft. + 5 ft. per 5 Hit Dice. This damage is either acid, cold, electricity, or fire, chosen when this talent it gained. A successful Reflex save versus your Conjuration sphere DC halves this damage.
+
++++ ##000000|Extreme Adaptation (form)##
+Your companion suffers no harm from being in a hot or cold environment and can exist comfortably in conditions between -50 and 140 degrees Fahrenheit (-45 and 60 degrees Celsius) without having to make Fortitude saves. The companion’s equipment is likewise protected. This doesn’t provide any protection from fire or cold damage, nor does it protect against other environmental hazards such as smoke, lack of air, and so forth.
+
+If your companion also possesses Avian Creature, it is acclimated to living at high altitudes and additionally can treat its altitude zone as one lower, plus an additional 1 zone lower per 7 Hit Dice.
+
+If your companion also possesses Water Creature, it is immune to the pressures of the ocean and takes no damage from water pressure.
+
 +++ ##000000|Fortified Companion (form) [Core]##
 Your companion’s Constitution increases by 2, +1 per 2 Hit Dice.
+
++++ ##000000|Infectious Creature (form)##
+Choose one of the following diseases: blinding sickness, bubonic plague, cackle fever, filth fever, leprosy, mindfire, red ache, shakes, or slimy doom. When a creature takes damage from a manufactured or natural weapon attack made by your companion, it must succeed on a Fortitude save with a DC of 10 + 1/2 your companion’s Hit Dice + Constitution modifier or contract the disease immediately (the onset period does not apply). Use the disease’s listed frequency and save DC to determine further effects. Regardless of the success or failure of this save, the creature is immune to further applications of this ability by your companion for 24 hours.
 
 +++ ##000000|Lingering Companion (form) [Core]##
 When you spend a spell point to allow this companion to remain for 1 minute per caster level without concentration, you may spend an additional spell point to allow it to remain for 1 hour per level instead. If you also possess the Greater Summoning talent, your companion instead remains for 1 day, only disappearing when you rest to regain spell points. Once you have spent a spell point to summon such a creature for a full day, you may dismiss and re-summon this companion at will without having to spend any additional spell points that day.
@@ -154,6 +219,14 @@ Your companion gains one of the following traits. This trait applies an effect o
 
 * Trip, grab, pull, lunge, constrict, poison.
 
++++ ##000000|Mount (form)##
+This talent may only be applied to companions with a base form suitable to serve as a mount (usually quadruped, serpentine, or vermin, though others may be allowed at the GM’s discretion). Your companion always acts on your initiative while you are mounted upon it and always appears equipped with a suitable military saddle for its form that does not count against its carrying capacity. You may mount such a companion as part of casting summon if the companion appears within your natural reach. You gain a +1 insight bonus on Ride checks while mounted on your companion. This bonus increases by +1 per 5 caster levels.
+
+If your companion possesses a burrow speed or the earth glide ability, you may travel with it while mounted. This does not grant any ability to perceive your surroundings or any ability to breathe while underground.
+
++++ ##000000|Mystical Companion (form)##
+Your companion gains a pool of ki points, supernatural energy it can use to accomplish amazing feats, as the unchained monk class feature. The number of points in your companion’s ki pool is equal to 1/2 his Hit Dice + its Wisdom modifier (total minimum 1). As long as it has at least 1 point in its ki pool, its unarmed strikes and natural attacks are treated as magic weapons for the purpose of overcoming damage reduction. It may take ki powers from the unchained monk list in place of feats, using its Hit Dice in place of unchained monk levels for meeting prerequisites.
+
 +++ ##000000|Natural Aspect (form) [Core]##
 Your companion gains one of the following special monster qualities. A companion may gain this talent multiple times. Each time it is gained, they gain a new trait from the list. See the Alteration sphere for a description of each ability.
 
@@ -165,14 +238,41 @@ Your companion’s Strength increases by 2, +1 per 2 Hit Dice.
 +++ ##000000|Quick Companion (form) [Core]##
 Your companion’s Dexterity increases by 2, +1 per 2 Hit Dice.
 
-+++ ##000000|Ranged Summoning [Core]##
-When you summon a companion, they may appear in any square within Close range, rather than only in an adjacent square.
++++ ##000000|Raging Companion (form)##
+Your companion gains the ability to rage, as the barbarian class feature, for a number of rounds per day equal to the higher of its Constitution modifier and its Hit Dice. While in rage, the companion gains a +4 morale bonus to its Strength and Constitution, as well as a +2 morale bonus on Will saves. In addition, it takes a –2 penalty to Armor Class. The increase to Constitution grants the companion 2 hit points per Hit Dice, but these disappear when the rage ends and are not lost first like temporary hit points. While in rage, a companion cannot use any Charisma-, Dexterity-, or Intelligence-based skills (except Acrobatics, Fly, Intimidate, and Ride) or any ability that requires patience or concentration.
+
+The companion can end its rage as a free action and is fatigued after rage for a number of rounds equal to 2 times the number of rounds spent in the rage. The companion cannot enter a new rage while fatigued or exhausted but can otherwise enter rage multiple times during a single encounter or combat. The duration of the fatigue or exhaustion expires even when the companion is not summoned. If the companion falls unconscious, its rage immediately ends, placing it in peril of dismissal from hit point loss.
+
+The companion may take rage powers in place of feats, if it qualifies for them, using its Hit Dice in place of barbarian levels.
+
+**Special:** If your GM permits, you may instead use the rage ability per the unchained barbarian, modifying the above ability accordingly.
+
++++ ##000000|Ravenous Creature (form)##
+You companion gains the swallow whole ability, allowing it to make a grapple attempt to swallow a creature that it has grappled at the start of its turn as a standard action. If the companion possesses a bite attack, a successful grapple check to swallow whole deals bite damage.
+
+Each round the creature remains swallowed, it is dealt 1d6 bludgeoning damage plus an additional 1d6 acid damage per 3 Hit Dice (minimum 0d6). Your companion may swallow creatures up to one size smaller than itself. This trait may be taken twice; the second time allows your companion to swallow creatures up to their own size and grants a bonus to CMB and CMD equal to 1 plus 1 per 3 Hit Dice on grapple checks made to swallow creatures or to prevent them from escaping once swallowed. More than one creature may be swallowed at a time, but you may not exceed the maximum total size that can be swallowed, counting two Tiny creatures as one Small creature, two Small creatures as one Medium creature, etc.
+
+A swallowed creature can try to cut its way free with any light slashing or piercing weapon, or it can try to escape the grapple. The amount of cutting damage required to get free is equal to 1/10 the companion’s total hit points. This damage is inflicted on the companion as normal.
+
+The Armor Class of the interior of a creature that swallows whole is 10 + 1/2 its natural armor bonus, with no modifiers for size or Dexterity. If a swallowed creature cuts its way out, the swallowing creature cannot use swallow whole again until the companion is receives healing equal to the damage dealt. If the swallowed creature escapes the grapple, success puts it back in the attacker’s mouth, where it may be bitten (if the companion possesses a bite attack) or swallowed again.
 
 +++ ##000000|Resistance (form) [Core]##
 Choose one energy type from the following list: fire, acid, cold, electricity, or sonic. Your companion gains Resistance to that element equal to 5+ its Hit Dice. You may select this talent multiple times, granting Resistance against a different element each time.
 
 +++ ##000000|Roguish Creature (form) [Core]##
 Your companion is a creature of guile. Your companion deals +1d6 sneak attack damage as the rogue class feature, which increases to +2d6 at 7 Hit Dice and +3d6 at 14 Hit Dice. In addition, your companion may select rogue talents as feats. At 10 Hit Dice, it can select advanced talents as feats.
+
++++ ##000000|Sage Companion (form)##
+Your companion’s Intelligence increases by 2, +1 per 2 Hit Dice and gains a bonus on skill checks to identify the abilities and weaknesses of creatures equal to half its Hit Dice (minimum 1). This increase stacks with the Skillful Companion talent. Your companion gains additional skill points from this increased Intelligence as usual.
+
++++ ##000000|Sanguine Creature (form)##
+Choose one of the following abilities. This talent may be taken more than once; each time a different ability may be gained:
+
+**Bleed:** Choose one natural attack your companion possesses. That attack inflicts 1d2 bleed damage. This bleeding can be stopped by a successful DC 15 Heal skill check or through the application of any magical healing. The die size of this bleed damage increases by one size for every 4 Hit Dice the companion possesses (1d3, 1d4, 1d6, 1d8, etc.).
+
+**Blood Drain:** Your companion drains blood at the end of its turn if it grapples a foe, inflicting 1 point of Constitution damage. This damage increases to 1d2 at 5 Hit Dice, then one die size for every 5 additional Hit Dice thereafter (1d3, 1d4, etc.).
+
+**Thirst:** Your companion gains 1 temporary hit point per Hit Die of the grappled creature whenever it uses its blood drain ability. These temporary hit points last for 1 minute per Hit Die of the companion and do not stack with other uses of this ability. The companion must have the blood drain option of this talent to be eligible to gain this ability.
 
 +++ ##000000|Shadow Creature (form) [Core]##
 Your companion is a being made of shadow. It gains Darkvision 60 ft, low-light vision, and a +8 racial bonus to Stealth checks made in dim light or darkness. Your companion takes half damage from attacks and magic originating from corporeal creatures and only deals half damage to corporeal creatures with its own attacks and magic. However, your companion deals full damage to incorporeal creatures and suffers full damage from incorporeal creatures.
@@ -183,14 +283,63 @@ Your companion gains the shield proficiency feat, and when summoned, appears car
 +++ ##000000|Skillful Companion (form) [Core]##
 Your companion’s Intelligence increases by 3 (raising its base Intelligence to 10), and it gains an additional skill point per Hit Die (raising its total to 3 per level). In addition, it gains 3 new class skills of your choice.
 
++++ ##000000|Spell-warded Companion (form)##
+Your companion gains spell resistance equal to 10 + its Hit Dice. This spell resistance does not apply to any effects originating from you.
+
++++ ##000000|Staff-wielding Companion (form)##
+Your companion appears with a staff of a sphere chosen when this talent is gained. The staff gains a +1 enhancement bonus for every 3 Hit Dice possessed (minimum +1) to a maximum of +5. This enhancement bonus applies to both the caster level of the chosen sphere as well as to attack and damage, treating the staff as a quarterstaff appropriately sized for the companion. If any creature other than the companion wields the staff, they treat it as a mundane masterwork quarterstaff. The companion is proficient with this staff. If the companion possesses the Battle Creature talent, it may choose to combine the benefits of the staff with the benefits of one of the weapons gained from that talent. As usual, the enhancement bonuses do not stack.
+
++++ ##000000|Stinking Companion (form)##
+Your companion gains one of the abilities listed below.
+This talent may be taken more than once; each time a different ability may be gained:
+
+**Stench:** Your companion secretes a stinking chemical offensive to most living things. Any creature other than you adjacent to your companion must make a Fortitude save or be sickened until 1d6 rounds after they are no longer adjacent. A creature that saves against this effect is immune to any instance of it from the same companion for 24 hours. This is a poison effect.
+
+**Nauseating Spray:** As a standard action your companion may spray noxious chemicals in a 15-ft. cone. Any creature in this cone must make a Fortitude save with a DC of 10 + 1/2 Hit Dice + Constitution modifier or be sickened for 1d6 rounds. This is a poison effect.
+
++++ ##000000|Superior Senses (form)##
+Choose one of the following benefits:
+
+Your companion gains either low-light vision, darkvision 60 ft., or the scent ability. If your companion possesses darkvision from another source, increase its range by 30 feet. If it already possesses the scent ability, it may either increase its range to 60 ft. or gain the keen scent ability. **Keen scent:** The companion can notice other creatures by scent in a 180-ft. radius underwater and can detect blood in the water at ranges of up to a mile.
+
+If you or your companion possesses the [[[Life]]] sphere, your companion may gain lifesense 30 feet. The creature notices and locates living creatures within range, just as if it possessed the blindsight ability. You must spend 2 additional spell points as part of your summon to grant your companion the benefit of this ability.
+
+If you or your companion possesses the [[[Mind]]] sphere, your companion may gain thoughtsense 30 feet. This ability functions similarly to blindsight. Nondetection, mind blank, and similar effects can block thoughtsense. Thoughtsense can distinguish between sentient (Intelligence 3 or greater) and nonsentient (Intelligence 1-2) creatures, but otherwise provides no information about the creatures it detects. You must spend 2 additional spell points as part of your summon to grant your companion the benefit of this ability.
+
+If you or your companion possesses the **earth** package of the [[[Nature]]] sphere, your companion may either gain the ability to see through up to 5 ft. of dirt and stone or gain tremorsense 30 feet. A companion with tremorsense is sensitive to vibrations in the ground and can automatically pinpoint the location of anything that is in contact with the ground. Aquatic creatures with tremorsense can also sense the location of creatures moving through water. You must spend 1 additional spell point as part of your summon to grant your companion tremorsense.
+
+If you or your companion possesses the **fire** package of the [[[Nature]]] sphere, your companion may gain the ability to see through both magical and mundane smoke, ignoring the miss chance for these obstructions, up to its normal range of vision.
+
+If you or your companion possesses the **metal** package of the [[[Nature]]] sphere, your companion gains the scent metal ability. This ability functions much the same as the scent ability, except that the range is 90 ft. and the companion can only use it to sense metal objects (including creatures wearing or carrying metal objects). If the companion already has the scent ability, increase the range of this ability by the companion’s scent range.
+
+If you or your companion possesses the **plantlife** package of the [[[Nature]]] sphere, your companion can see through thick plant matter as though it were transparent, with a range of 30 feet. Leaves, vines, greenery, and undergrowth offer no concealment to the companion’s sight, though solid wood still blocks its line of sight.
+
+If you or your companion possesses the **water** package of the [[[Nature]]] sphere, your companion may see through fog, mist, and murky water as if they were perfectly clear, ignoring the miss chance for these obstructions, up to its normal range of vision.
+
+If you or your companion possesses the [[[Telekinesis]]] sphere, your companion may gain touchsight 30 feet. You must spend 2 additional spell points as part of your summon to grant your companion the benefit from this ability.
+
+If you or your companion possesses the [[[Dark]]] sphere, your companion may gain the see in darkness ability. You must spend 1 additional spell point as part of your summon to grant your companion the benefit from this ability.
+
+A companion may gain this talent multiple times. Each time it gains this talent, select a new sense or increase the range of their darkvision by 30 feet. If a selected ability requires an additional spell point cost, the caster must choose to grant the ability and pay the cost each time the companion is summoned.
+
++++ ##000000|Thorned Companion (form)##
+The companion grows spines, quills, or thorns. These may be treated as armor spikes of their size (1d6 Medium, 1d4 Small, 20x2, piercing) but may be enhanced as natural weapons and may be wielded as a secondary natural weapon if beneficial. The companion is automatically proficient with these spikes. This talent may be taken a second time, allowing the companion to launch spines as a thrown weapon (1d6 Medium, 1d4 Small, 20x2, piercing) with a range increment of 20 feet. The companion may draw the spines as a free action and throw them for any attacks it is entitled to normally. Launched spines regenerate at the end of its turn.
+
 +++ ##000000|Transformative (form) [Core]##
 Your companion can change its appearance at will. It gains Disguise as a class skill and can make Disguise checks as a standard action. This is a spell-like ability, with a caster level equal to its Hit Dice.
 
-+++ ##000000|Undead Creature (form) [Core]##
-Your companion mimics the properties of undead. It is healed by negative energy and harmed by positive energy. While it is still an Outsider, magical effects and spells that specifically target undead may affect the Companion as if it were undead. The companion also gains +2 Channel Resistance, as well as a +2 bonus on saves against disease, exhaustion, fatigue, paralysis, poison, sleep effects, and stunning. These bonuses and channel resistance increase by +1 per 2 Hit Dice. You may take this talent twice. If taken twice, your companion gains immunity to disease, exhaustion, fatigue, paralysis, poison, sleep effects, and stunning, and your companion no longer needs to breath, granting it immunity to drowning, suffocation, or gas-based effects.
++++ ##000000|Trapbreaking Companion (form)##
+Your companion is a natural talent for the trapbreaker’s art. The companion adds 1/2 its Hit Dice to Perception skill checks made to locate traps and to Disable Device skill checks (minimum +1). The companion can use Disable Device to disarm magic traps. It may take rogue talents in place of feats, if it qualifies for them, using its Hit Dice in place of rogue levels. At 10 Hit Dice, it can select advanced talents as feats.
 
 +++ ##000000|Water Creature (form) [Core]##
 Your companion gains a 30 ft Swim speed, the ability to breath underwater, and Blindsense 15 ft (only in water). For every 2 Hit Dice, the Swim speed increases by 10 ft and the Blindsense increases by 5 ft.
+
++++ ##000000|Web Spinner (form)##
+Your companion gains the ability to use webs to support itself and up to one additional creature of the same size. In addition, it can throw a web up to once per minute as a standard action. This is similar to an attack with a net but has a maximum range of 50 ft., with a range increment of 10 ft., and is effective against targets up to one size category larger than the companion. An entangled creature can escape with a successful Escape Artist check or burst the web with a Strength check. Both are standard actions with a DC equal to 10 + 1/2 the companion’s Hit Dice + the companion’s Con modifier. Attempts to burst a web by those caught in it take a –4 penalty.
+
+The companion can create sheets of sticky webbing in adjacent squares up to three times its size (so a Medium companion can create a sheet that is 15 ft. by 15 ft.). Doing so requires a full-round action and counts as having used its web. Approaching creatures must succeed on a DC 20 Perception check to notice a web; otherwise they stumble into it and become trapped as though by a successful web attack. Attempts to escape or burst the webbing gain a +5 bonus if the trapped creature has something to walk on or grab while pulling free. Each 5-ft.-square section of web has a number of hit points equal to the Hit Dice of the companion that created it and DR 5/—.
+
+If the companion possesses a climb speed, it can move across its own web at its climb speed. While touching a web it created, the companion can pinpoint the location of any creature touching its web. If your companion is dismissed, any webs it created immediately disappear.
 
 +++ ##000000|Willful Companion (form) [Core]##
 Your companion’s Wisdom increases by 2, +1 per 2 Hit Dice. In addition, whenever your companion rolls a Will saving throw, it may roll twice and take the higher result. If it may already roll twice and take the higher result, it instead rolls three times.
@@ -198,6 +347,52 @@ Your companion’s Wisdom increases by 2, +1 per 2 Hit Dice. In addition, whenev
 ----
 
 + ##000000|Type Talents##
+
++++ ##000000|Constructed (type)##
+Your companion is mechanical in its nature, whether it is a full construct or a modified biological creature. While it is still an outsider, magical effects and spells that specifically target objects or constructs may affect the companion as if it were one. The companion gains moderate fortification and DR 2/adamantine +1 per 3 Hit Dice.
+
+You may take this talent twice. If taken twice, your companion gains heavy fortification, DR 3/- +1 per 3 Hit Dice, and your companion no longer needs to breathe, granting it immunity to drowning, suffocation, or gas-based effects.
+
++++ ##000000|Ooze Companion (type)##
+Your companion mimics the properties of oozes. While it is still an outsider, magical effects and spells that specifically target ooze creatures may affect the companion as if it had the ooze type. Your companion can move through an area as small as one-quarter its space without squeezing or one-eighth its space when squeezing. The companion gains moderate fortification.
+
+You may take this talent twice for a given companion. If taken twice, your companion gains heavy fortification, and your companion can engulf creatures in its path. As a standard action, the companion may move up to its speed and attempt to engulf any creature smaller than itself that is in its path. It cannot make other attacks during a round in which it engulfs. The companion merely has to move over its opponents, affecting as many as it can cover.
+
+Targeted creatures can make attacks of opportunity against the companion, but if they do so, they are not entitled to a saving throw against the engulf attack. Those who do not attempt attacks of opportunity can attempt a Reflex save (DC 10 + 1/2 Hit Dice + Strength modifier) to avoid being engulfed—on a success, they are pushed back or aside (companion’s choice) as the companion moves forward. Engulfed creatures gain the pinned condition, are in danger of suffocating, are trapped within the companion’s body until they are no longer pinned, and take slam damage from the companion each round (1d4 Medium, 1d3 Small if no slam attack is possessed). An engulfed creature may attempt to escape as if escaping a pin.
+
++++ ##000000|Planar Creature (type)##
+Your Conjuration companion is strongly tied to the alignment planes. Choose one of the following alignment groups. Your companion gains two of the options listed under than alignment group. Taking this talent a second time grants the remaining two options under that alignment.
+
+++++ Anarchic
+* DR 2/lawful (increasing by +1 per 5 Hit Dice)
+* Energy resistance (acid, electricity, sonic) equal to 1/2 Hit Dice
+* +1 saves vs. mind-affecting effects (increasing by +1 per 5 Hit Dice)
+* Attacks count as chaotic for the purpose of overcoming damage reduction.
+++++ Axiomatic
+* DR 2/chaotic (increasing by +1 per 5 Hit Dice)
+* DR vs. nonlethal damage equal to 1/2 Hit Dice
+* +1 saves vs. death effects (increasing by +1 per 5 Hit Dice)
+* Attacks count as lawful for the purpose of overcoming damage reduction.
+++++ Celestial
+* DR 2/evil (increasing by +1 per 5 Hit Dice)
+* Energy resistance (acid, cold, electricity) equal to 1/2 Hit Dice
+* +1 saves vs. disease (increasing by +1 per 5 Hit Dice)
+* Attacks count as good for the purpose of overcoming damage reduction.
+++++ Fiendish
+* DR 2/good (increasing by +1 per 5 Hit Dice)
+* Energy resistance (cold, fire) equal to 1/2 Hit Dice
+* +1 saves vs. poison (increasing by +1 per 5 Hit Dice)
+* Attacks count as evil for the purpose of overcoming damage reduction.
+
++++ ##000000|Plant Creature (type)##
+Your companion mimics the properties of plants. While it is still an outsider, magical effects and spells that specifically target plant creatures may affect the companion as if it had the plant type. The companion gains low-light vision and a +2 bonus on saves against paralysis, poison, polymorph, sleep, and stunning effects. This bonus increases by +1 per 2 Hit Dice.
+
+You may take this talent twice. If taken twice, your companion gains a +2 bonus on saves against mind-affecting effects that increases by +1 per 2 Hit Dice, immunity to paralysis, poison, polymorph, sleep, and stunning effects, and no longer requires sleep.
+
++++ ##000000|Undead Creature (type) [Core]##
+Your companion mimics the properties of undead. It is healed by negative energy and harmed by positive energy. While it is still an Outsider, magical effects and spells that specifically target undead may affect the Companion as if it were undead. The companion also gains +2 Channel Resistance, as well as a +2 bonus on saves against disease, exhaustion, fatigue, paralysis, poison, sleep effects, and stunning. These bonuses and channel resistance increase by +1 per 2 Hit Dice. You may take this talent twice. If taken twice, your companion gains immunity to disease, exhaustion, fatigue, paralysis, poison, sleep effects, and stunning, and your companion no longer needs to breath, granting it immunity to drowning, suffocation, or gas-based effects.
+
+^^**Wiki Note:** This is a (form) talent in Core. The Conjurer's Handbook errata'd this into a (type) talent.^^
 
 ----
 
@@ -244,5 +439,35 @@ A companion with this archetype may never benefit from (form) talents that modif
 
 ++++ Note: Conjuration Companions and Spheres of Might
 Conjuration companions that possess the Battle Creature (form) talent taken twice may trade in their proficiency with all martial weapons for a martial tradition (See Spheres of Might).
+
+----
+
+++ ##000000|Extended Companion Table##
+In some cases, such as extending gameplay past level 20, using monsters with high Hit Dice and casting abilities, the mindless companion archetype, etc., it is possible to have greater than 20th caster level for the Conjuration sphere or a companion with more than 15 Hit Dice. Refer to the follow table to determine the statistics of a Conjuration sphere companion for such a case. The progression remains the same should the table need extension beyond 40th caster level.
+
+||~ Caster’s Caster Level ||~ Hit Dice ||~ Base Attack Bonus ||~ Skill Points^^1^^ ||~ Feats ||~ Natural Armor Bonus ||~ Good Saves ||~ Bad Saves ||~ Special || 
+|| 21st || 16 || +16 || 16 || 8 || +8 || +10 || +5 || Ability Score Increase || 
+|| 22nd || 17 || +17 || 17 || 9 || +8 || +10 || +5 || || 
+|| 23rd || 18 || +18 || 18 || 9 || +9 || +11 || +6 || || 
+|| 24th || 18 || +18 || 18 || 9 || +9 || +11 || +6 || || 
+|| 25th || 19 || +19 || 19 || 10 || +9 || +11 || +6 || || 
+|| 26th || 20 || +20 || 20 || 10 || +10 || +12 || +6 || Ability Score Increase || 
+|| 27th || 21 || +21 || 21 || 11 || +10 || +12 || +7 || || 
+|| 28th || 21 || +21 || 21 || 11 || +10 || +12 || +7 || || 
+|| 29th || 22 || +22 || 22 || 11 || +11 || +13 || +7 || || 
+|| 30th || 23 || +23 || 23 || 12 || +11 || +13 || +7 || || 
+|| 31st || 24 || +24 || 24 || 12 || +12 || +14 || +8 || Ability Score Increase || 
+|| 32nd || 24 || +24 || 24 || 12 || +12 || +14 || +8 || || 
+|| 33rd || 25 || +25 || 25 || 13 || +12 || +14 || +8 || || 
+|| 34th || 26 || +26 || 26 || 13 || +13 || +15 || +8 || || 
+|| 35th || 27 || +27 || 27 || 14 || +13 || +15 || +9 || || 
+|| 36th || 27 || +27 || 27 || 14 || +13 || +15 || +9 || || 
+|| 37th || 28 || +28 || 28 || 14 || +14 || +16 || +9 || Ability Score Increase || 
+|| 38th || 29 || +29 || 29 || 15 || +14 || +16 || +9 || || 
+|| 39th || 30 || +30 || 30 || 15 || +15 || +17 || +10 || || 
+|| 40th || 30 || +30 || 30 || 15 || +15 || +17 || +10 || || 
+^^1: Based on 2 skill points per Hit Die and an Intelligence of 7.^^
+
+----
 
 [[include sop-template]]
