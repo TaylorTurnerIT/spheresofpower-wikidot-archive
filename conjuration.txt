@@ -197,4 +197,48 @@ Your companion’s Wisdom increases by 2, +1 per 2 Hit Dice. In addition, whenev
 
 ----
 
++ ##000000|Type Talents##
+
+----
+
++ ##000000|Companion Archetypes##
+Upon gaining a Conjuration sphere companion, you may select archetypes to apply to it. Once selected, the archetype cannot be removed from that companion. Each companion may have different archetypes. A companion may have more than one archetype as long as the archetypes do not replace or modify the same features or abilities.
+
+Multiple changes to the cost to summon a companion stack (so a companion with the familiar and puppet archetypes would have its cost to summon reduced by 3).
+
++++ ##000000|Aquatic##
+Your companion reduces one of its speeds by 20 ft. and gains a 20 ft. swim speed. Companions with a base form that grants a speed of less than 20 ft. are not eligible for this archetype. If this companion later gains the Water Creature (form) talent, increase the swim speed granted by that talent by +10 feet.
+
++++ ##000000|Bestial##
+Your companion has an animal intellect, with its starting Intelligence reduced to 2. A bestial companion may not have its Intelligence raised by any (form) talent (though may still receive other benefits from such talents). Bestial companions count as possessing the animal creature type in addition to the outsider creature type for all skills and effects and require the use of the Handle Animal skill to direct. Without direction, they are friendly to the creature that summoned them but otherwise act according to their nature. A bestial companion gains an additional free (form) talent. A companion that has this companion archetype may not also possess the mindless or puppet companion archetypes. A bestial companion begins play trained for one purpose (see the Handle Animal skill) plus gains 1 bonus trick, +1 at 3 Hit Dice and every 3 Hit Dice thereafter. If using Spheres of Might, your bestial companion counts as an animal ally, though is not a valid target for the tame ability (per the rules in the Beastmastery sphere).
+
++++ ##000000|Familiar##
+Your companion only gains half its normal Hit Dice (rounded down), but has the spell point cost to summon it reduced by 2 (minimum 0). If the companion would normally only have 1 Hit Die, it still has 1 Hit Die, but receives half its normal hit points (rounded down, minimum 1).
+
++++ ##000000|Mage##
+Your companion gains poor base attack bonus progression (equal to 1/2 Hit Dice, rounded down) and uses a d6 for its Hit Dice. The companion must choose the Magical Companion (form) talent as its free (form) talent, but may choose Intelligence, Wisdom, or Charisma as its casting ability modifier, and is a Mid-Caster. A mage companion gains spell points equal to its Hit Dice plus its casting ability modifier and may gain a casting tradition.
+
+A mage companion must still spend feats to gain additional magic talents, as usual. A mage companion loses Climb and Swim as class skills but gains Knowledge (arcana) and Spellcraft as class skills. This archetype cannot be combined with the mindless companion archetype.
+
+**Reminder:** The Magical Companion (form) talent does not grant the two free bonus talents for possessing the casting class feature.
+
++++ ##000000|Martial Companion##
+A martial companion may combine combat spheres and talents to create powerful martial techniques. Martial companions use the Proficient talent progression. When first summoned, they may choose either Charisma, Intelligence or Wisdom as their practitioner modifier. A martial companion does not gain the evasion, devotion, multiattack, and improved evasion special abilities. A martial companion may choose to give up the natural attacks granted by its base form to gain the Battle Creature (form) talent as a bonus talent.
+
+This archetype requires [[[Spheres of Might]]].
+
++++ ##000000|Mindless##
+Your Conjuration sphere companion is mindless, having no Intelligence score (Int -) and cannot gain any (form) talents that would increase its Intelligence score. It gains no feats or skills and cannot speak, though it is still capable of following your simple instructions. A mindless companion is immune to mind-affecting effects. A mindless companion can receive bonus feats and skill ranks to a specific skill from talents such as Capable Companion and Camouflaged Companion. The companion gains an additional Hit Die at 4th caster level and every 4 caster levels thereafter.
+
++++ ##000000|Puppet##
+Your Conjuration sphere companion is incapable of action without your direct control. You must spend an action for your companion to take the same action (swift for swift, standard for standard, etc.). A puppet companion may make attacks of opportunity by spending your attacks of opportunity if you have controlled it since the beginning of your last turn. Spending at least a move action this way counts as concentrating on the summon for that round. Any round you do not spend directing the companion, it stands mindlessly and counts as having the dazed condition. Your companion may still gain feats and skills (unless also possessing the mindless archetype); you may use the companion’s feats, skills, casting, and other abilities when directing the companion, though you may not use your own through the companion. Any effect that would possess or exercise mental control over a puppet companion (including enchantment [charm] effects and enchantment [compulsion] effects) requires a successful MSB check against the summoner’s MSD.
+
+A puppet companion takes a -2 penalty on all rolls if it is outside of your close range. If you do not have line of sight to the puppet companion, it is treated as being blinded. Both these penalties are removed if you possess the Link talent.
+
+As a standard action, you may order a puppet companion to follow. Doing so causes the puppet to take move actions on its turn (including trading its standard action for a move action) to attempt to move adjacent to you (or as close as it is able) to the best of its ability. Should the companion be unable to find you (such as in a complex maze when you are out of sight for too long, if you are teleported out of view, etc.), the companion will remain in its current position. Taking any other action through the companion ends this ability. The spell point cost of summoning a puppet companion is reduced by 1 (minimum 0).
+
++++ ##000000|Warrior##
+This archetype may only be applied to bipedal companions. Your companion loses all natural attacks granted by its base form and never gains multiattack, but gains the benefits of the Battle Creature (form) talent taken twice.
+
+
 [[include sop-template]]
