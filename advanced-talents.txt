@@ -137,6 +137,45 @@ When using the Summoning advanced talent to summon hostile creatures, your traps
 
 If your check is successful, the summoned creature cannot use its Spell Resistance to attempt to escape its prison, nor use any dimensional or teleportation effects, nor can any of its abilities or attacks cross the prison’s border. When pitting its Charisma against your trap, the DC increases by 5. While a creature cannot disturb the summoning circle, if any outside force disturbs the circle (even a hair falling across it), the summoned creature is immediately freed.
 
+++ ##000000|Greater Altered Size (form)##
+**Prerequisites:** Conjuration sphere, Altered size, 15th caster level or higher.
+
+You may increase the size of a Huge companion to Gargantuan or a Gargantuan companion to Colossal. You may decrease the size of a Diminutive companion to Fine. Ability score changes are cumulative:
+||~ Original Size ||~ New Size ||~ Str ||~ Dex ||~ Con || 
+|| Diminutive || Fine || - || +2 || - || 
+|| Huge || Gargantuan || +4 || - || +2 || 
+|| Gargantuan || Colossal || +4 || - || +2 || 
+
+This talent may be taken more than once for the same companion to enlarge the companion from Gargantuan to Colossal.
+
+++ ##000000|Greater Earth Creature [Companion]##
+**Prerequisites:** Earth Creature, 5th caster level or higher.
+
+Your companion gains the earth glide ability.
+
+**Earth Glide (Ex):** When the creature burrows, it can pass through stone, dirt, or almost any other sort of earth except metal as easily as a fish swims through water. If protected against fire damage, it can even glide through lava. Its burrowing leaves behind no tunnel or hole, nor does it create any ripple or other sign of its presence. A move earth spell or the Forge Earth ability of the Nature sphere cast on an area containing the burrowing creature flings it back 30 ft., stunning it for 1 round unless it succeeds on a DC 15 Fortitude save.
+
+++ ##000000|Greater Healing (form)##
+**Prerequisites:** Conjuration sphere, Natural Aspect (fast healing option), companion with 3 Hit Dice or greater.
+
+Your companion’s fast healing increases by +1 per 3 Hit Dice.
+
+++ ##000000|Mass Summon##
+**Prerequisites:** Conjuration sphere, Extra Companion.
+
+You may spend an additional spell point as part of your summon to call an additional companion that you possess. You may spend 1 additional spell point per companion to summon additional companions you possess.
+
+Additional costs to summon each companion must be paid separately. Once the summon is cast, each companion counts as a separate effect.
+
+++ ##000000|Regenerating Companion (form)##
+**Prerequisites:** Conjuration sphere, Natural Aspect (fast healing option), 10th caster level or higher.
+
+Your companion’s fast healing becomes regeneration instead. Your companion is not dismissed if reduced to or below 0 hit points, nor are effects that trigger when the companion is reduced to 0 hit points (such as Explosive Companion) triggered, unless this regeneration is suppressed.
+
+This regeneration is overcome by two of the following damage types of your choice: acid, bludgeoning, cold, electricity, fire, negative energy, piercing, positive energy, or slashing. You cannot select a damage type that your companion possesses resistance or immunity to from a permanent ability, such as a (form) or (type) talent.
+
+Should your companion later gain resistance or immunity to the selected damage type from a permanent ability, you must select a new damage type.
+
 ++ ##000000|Summoning##
 
 **Prerequisites:** Conjuration sphere, 1st caster level or higher.
@@ -145,7 +184,7 @@ You may summon beings from other planes and bring them into your own. Summoning 
 
 To summon a target, you must choose a location within Close range for them to appear, and the kind of creature to be summoned must be known and stated. If you wish to summon a specific individual, you must use that individual’s proper name. You may summon multiple creatures with one use of this ability (up to 3 at once) but the combined Hit Dice of all summoned creatures cannot exceed your caster level.
 
-Hostiles: If a hostile creature is unwilling to be summoned, it is allowed a Will saving throw to resist. If the saving throw succeeds, the creature is not summoned. If the saving throw fails, the creature is immediately summoned (Spell Resistance does not keep it from being called).
+**Hostiles:** If a hostile creature is unwilling to be summoned, it is allowed a Will saving throw to resist. If the saving throw succeeds, the creature is not summoned. If the saving throw fails, the creature is immediately summoned (Spell Resistance does not keep it from being called).
 
 When a hostile creature is summoned, it is rooted to a specific location within range (you can decide how much space to give it, up to a 30 ft radius). It cannot leave this area until an agreement with you has been reached. It can escape this location by successfully pitting its Spell Resistance against your magic skill check, by teleportation or dimensional travel, or with a successful Charisma check pitted against a DC of your MSD + your Charisma modifier. It can try each method once per day. If it breaks loose, it can do as it pleases including fleeing, returning to its home plane, or attacking you.
 
@@ -153,7 +192,7 @@ If the creature does not break free of its prison, you can keep it bound for as 
 
 Once the requested service is completed, the creature need only to inform you to be instantly sent back whence it came. The creature might later seek revenge. If you assign some open-ended task that the creature cannot complete through its own actions, the effect remains for a maximum of 1 day per caster level, and the creature gains an immediate chance to break free (with the same chance to resist as when it was trapped). Note that a clever recipient can subvert some instructions.
 
-Allies: Allies are never hostile and do not resist, although additional payment is always expected for their services.
+**Allies:** Allies are never hostile and do not resist, although additional payment is always expected for their services.
 
 Payment can take a variety of forms, from donating gold or magic items to an allied temple, to a gift given directly to the creature, to a quest on your part that matches the creature’s alignment and goals. Regardless, this payment must be made before the creature agrees to perform any services. The bargaining takes at least 1 round, so any actions by the creature begin in the round after it arrives.
 
@@ -164,6 +203,25 @@ Few if any creatures will accept a task that seems suicidal (unlike a companion 
 If an agreement cannot be reached, the ally returns to their home plane immediately. If you are not willing to give the requested payment, but attempt to press the target into service anyway, treat the creature as hostile. Pressing a creature in this way may have a detrimental effect on any future attempts to summon an allied outsider.
 
 At the end of its task, or when the bargained duration expires, a summoned ally returns to its home plane (after reporting back to you, if appropriate and possible).
+
+++ ##000000|Swarm Companion (form)##
+**Prerequisites:** Conjuration sphere, Altered Size.
+
+You may grant your companion the swarm subtype, with constituent members of Tiny size. Your companion’s swarm damage is 1d6 +1d6 per 3 Hit Dice. At caster level 10th, you can reduce the swarm to Diminutive and at caster level 15th to Fine. The swarm possesses a hive mind with the mental abilities of the companion, so it may be targeted with mind affecting effects unless possessing another ability that would prevent it. The swarm loses all natural attacks, but counts its swarm damage as a natural attack for abilities that modify a natural attack, such as the poison option of the Monstrous Attacks (form) talent.
+
+This talent cannot be applied to a companion with the Troop Companion (form) talent.
+
+++ ##000000|Troop Companion (form)##
+**Prerequisites:** Conjuration sphere.
+
+You may grant your companion the troop subtype, with constituent members of a Small or Medium size. Your companion’s troop damage is 1d6 +1d6 per 3 Hit Dice with a enhancement bonus, reach, and threatened area per the companion’s attacks (thus a companion with the Battle Companion (form) talent summoned with a reach weapon threatens as a creature of the individual’s size with a reach weapon). The troop gains no benefit from additional natural attacks, but if it possesses at least one natural attack may count its troop damage as a natural attack for abilities that modify a natural attack, such as the poison option of the Monstrous Attacks (form) talent. The companion still counts as a single creature for the purpose of being targeted by mind affecting effects.
+
+This talent cannot be applied to a companion with the Swarm Companion (form) talent or with a size other than Medium or Small.
+
+++ ##000000|Vanishing Companion (form)##
+**Prerequisites:** Conjuration sphere, Camouflaged Companion, 10th caster level or higher.
+
+Your companion may use the Stealth skill to hide even while observed.
 ----
 + ##000000|Creation Talents##
 
