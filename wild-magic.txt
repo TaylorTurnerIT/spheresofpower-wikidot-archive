@@ -2,24 +2,44 @@ title:Wild Magic
 **THIS PAGE IS BEING TESTED**
 
 [[html]]
-<p id="randomResult"> </p>
-<button id="button">Generate Wild Magic</button>
-
+<style>
+    * {
+    margin: 0;
+    padding: 0;
+    }
+    #container {
+    width: 90%;
+    margin: 90px auto;
+    padding: 10px;
+    border: 1px solid #0000FF;
+    }
+    .alignleft {
+    float: left;
+    }
+    .alignright {
+    float: right;
+    }
+</style>
+<div id="container">
+    <p class="alignright" id="randomResult">&nbsp;</p>
+    <button class="alignleft" id="button">Click here to see random string of text!</button>
+    <div style="clear: both;"></div>
+</div>
 <script>
-function randString(){
-return stringArray[~~(rand()*stringArray.length)];
-}
-function randText(){
-var tx = randString();
-var txt = document.createTextNode(tx);
-var sp = document.createElement('span');
-sp.appendChild(txt);
-randomResult.innerHTML = '';
-randomResult.appendChild(sp) = tx;
-}
-rand = Math.random;
-stringArray = ['Result 1', 'Result 2', 'Result 3'];
-randomResult = document.getElementById('randomResult');
-document.getElementById("button").addEventListener('click',randText,false);
+    function randString(){
+        return stringArray[~~(rand()*stringArray.length)];
+    }
+    function randText(){
+        var tx = randString();
+        var txt = document.createTextNode(tx);
+        var sp = document.createElement('span');
+        sp.appendChild(txt);
+        randomResult.innerHTML = '';
+        randomResult.appendChild(sp) = tx;
+    }
+    rand = Math.random;
+    stringArray = ['string one', 'string two', 'string three', 'string four', 'string five', 'string six', 'string seven', 'string eight', 'string nine', 'string ten'];
+    randomResult = document.getElementById('randomResult');
+    document.getElementById("button").addEventListener('click',randText,false);
 </script>
 [[/html]]
