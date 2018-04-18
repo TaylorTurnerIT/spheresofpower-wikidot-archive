@@ -1,0 +1,6 @@
+title:Wild Magic
+**THIS PAGE IS BEING TESTED**
+
+[[html]]
+<div id="randomResult"></div> <script> var stringArray = ['Text One', 'Text Two', 'Text Three']; var rand = Math.floor(Math.random() * stringArray.length); function getResultString(){ document.getElementById('randomResult').innerHTML = stringArray[rand]; } getResultString(); </script>
+[[/html]]
