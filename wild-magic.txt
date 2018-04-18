@@ -2,5 +2,24 @@ title:Wild Magic
 **THIS PAGE IS BEING TESTED**
 
 [[html]]
-<div id="randomResult"></div> <script> var stringArray = ['Text One', 'Text Two', 'Text Three']; var rand = Math.floor(Math.random() * stringArray.length); function getResultString(){ document.getElementById('randomResult').innerHTML = stringArray[rand]; } getResultString(); </script>
+<p id="randomResult"> </p>
+<button id="button">Generate Wild Magic</button>
+
+<script>
+function randString(){
+return stringArray[~~(rand()*stringArray.length)];
+}
+function randText(){
+var tx = randString();
+var txt = document.createTextNode(tx);
+var sp = document.createElement('span');
+sp.appendChild(txt);
+randomResult.innerHTML = '';
+randomResult.appendChild(sp) = tx;
+}
+rand = Math.random;
+stringArray = ['Result 1', 'Result 2', 'Result 3'];
+randomResult = document.getElementById('randomResult');
+document.getElementById("button").addEventListener('click',randText,false);
+</script>
 [[/html]]
