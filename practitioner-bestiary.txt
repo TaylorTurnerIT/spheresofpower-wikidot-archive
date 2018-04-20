@@ -387,7 +387,7 @@ N Gargantuan construct (clockwork)
 **AC** 33, **touch** 13, **flat-footed** 26 (+5 Dex, +2 dodge, +20 natural, -4 size)
 **hp** 192 (24d10+60)
 **Fort** +8, **Ref** +15, **Will** +8
-**DR** 15/adamantine; **Immune** construct traits
+**Defenses** DR 15/adamantine; **Immune** construct traits
 **Weakness** vulnerable to electricity
 
 **Offense**
@@ -398,19 +398,20 @@ N Gargantuan construct (clockwork)
 **Special Attacks** deadly shot (+7d10), self-destruction, sweep +35, trample (3d6+25, DC 41)
 
 **Tactics**
-Rampagers try to begin each combat at a distance, using their cannons and the Sniper sphere for maximum damage. In close combat, they make use of Bestial Training, their sweep, and Sweeping kick to knock opponents down before tearing them apart.
+Rampagers try to begin each combat at a distance, using their cannons and the Sniper sphere for maximum damage. In close combat, they make use of their slam attacks, their sweep, and Sweeping kick to knock opponents down before tearing them apart.
 
 **Statistics**
 **Str** 45, **Dex** 20, **Con** —, **Int** —, **Wis** 11, **Cha** 1
 **Base Atk** +24; **CMB** +45 (+52 trip); **CMD** 62 (69 vs trip)
 **Feats** Improved Initiative^^B^^, Lightning Reflexes^^B^^
 **Tradition** None, **PAM** Wis, **DC** 22
-**Talents** Equipment (Expert Reloading), Open Hand (Axe Kick, Bestial Training, Greater Trip, Mystic Fists (adamantine, cold iron, magic, neutral, silver), Sweeping Kick), Sniper (Bouncing Shot, Focusing Reload, Tangling Shot, Unblockable)
+**Talents** Equipment (Expert Reloading, Unarmed Training), Open Hand (Axe Kick, Greater Trip, Mystic Fists (adamantine, cold iron, magic, neutral, silver), Sweeping Kick), Sniper (Bouncing Shot, Focusing Reload, Tangling Shot, Unblockable)
 **SQ** proficient practitioner, swift reactions, winding
 
 **Special Abilities**
 **Cannon (Ex)** One of the rampager’s arms ends in a cannon. The rampager may use this as one of its four slam attacks, or it can use it to fire cannonballs. A cannon has a range increment of 100 feet, and deals 6d6 points of bludgeoning and piercing damage on a hit with a x4 critical modifier. A clockwork rampager’s cannon can hold up to 12 cannonballs—reloading a single cannonball is a standard action (reduced to a move action with Expert Reloading).
-**Self-Destruction (Su)** When a rampager’s hit points are reduced to 10% its total (21 hp for most clockwork rampagers) or less but still above 0, it self-destructs on its next turn, bursting in an explosion of metal scraps and steam that deals 12d6 points of slashing damage plus 12d6 points of fire damage to all creatures within a 20-foot-radius burst. A successful DC 24 Reflex save halves the damage. The save is Constitution-based.
+
+**Self-Destruction (Su)** When a rampager’s hit points are reduced to 10% its total (21 hp for most clockwork rampagers) or less but still above 0, it self-destructs on its next turn, bursting in an explosion of metal scraps and steam that deals 12d6 points of slashing damage plus 12d6 points of fire damage to all creatures within a 20-foot-radius burst. A successful DC 24 Reflex  save halves the damage. The save is Constitution-based.
 
 **Clockwork Rampager Construction**
 The clockwork rampager is one of the most difficult of its kind to create. The creator must start with crafted clockwork pieces worth 20,000 gp.
@@ -545,7 +546,7 @@ The alpha tyrannosaurus is a simple, deadly creature. In close combat it will sh
 **Base Atk** +13; **CMB** +28 (+32 grapple); **CMD** 39
 **Feats** Extra Combat Talent x3, Improved Critical (bite), Skill Focus (Perception)
 **Martial Tradition** Behemoth **PAM** Wis, **DC** 18
-**Talents** Berserker (Bloody Counter, Deathless, Heavy Swing), Brute (Smash, Stampede) Open Hand (no base sphere, Bestial Training (bite))
+**Talents** Berserker (Bloody Counter, Deathless, Heavy Swing), Brute (Focused Might, Smash, Stampede)
 **Skills** Perception +37; **Racial Modifiers** +8 Perception
 **SQ** powerful bite
 
@@ -695,7 +696,7 @@ N Medium Dragon
 **Base Atk** +8; **CMB** +10; **CMD** 21 (25 vs. trip)
 **Feats** Flyby Attack, Hover, Vital Strike
 **Martial Tradition** Dragon, **PAM** Cha, **DC** 15
-**Talents** Berserker, Brute, Open Hand (no base sphere, Bestial Training (bite))
+**Talents** Berserker, Brute, Equipment (Unarmed Training)
 **Skills** Bluff +11, Fly +13, Intimidate +11, Knowledge (history) +11, Knowledge (local) +11, Perception +11, Stealth +13
 **Languages** Common, Draconic
 ----
@@ -721,7 +722,7 @@ N Large Dragon
 **Base Atk** +10; **CMB** +17; **CMD** 28 (32 vs. trip)
 **Feats** Flyby Attack, Hover, Lightning Reflexes, Vital Strike
 **Martial Tradition** Dragon, **PAM** Cha, **DC** 16
-**Talents** Berserker (Deathless, Rending Claws), Brute (Wing Buffet), Open Hand (no base sphere, Bestial Training (bite))
+**Talents** Berserker (Deathless, Rending Claws), Brute (Wing Buffet), Equipment (Unarmed Training)
 **Skills** Bluff +13, Fly +8, Intimidate +13, Knowledge (history) +13, Knowledge (local) +13, Perception +13, Stealth +11
 **Languages** Common, Draconic
 ----
@@ -748,7 +749,7 @@ N Large Dragon
 **Base Atk** +12; **CMB** +20; **CMD** 31 (35 vs. trip)
 **Feats** Flyby Attack, Hover, Lightning Reflexes, Muscular Reflexes, Vital Strike
 **Martial Tradition** Dragon, **PAM** Cha, **DC** 18
-**Talents** Berserker (Deathless, Rending Claws), Brute (Wing Buffet), Open Hand (no base sphere, Bestial Training (bite)), Shield (Protective Tail)
+**Talents** Berserker (Deathless, Rending Claws), Brute (Wing Buffet), Equipment (Unarmed Training), Shield (Protective Tail)
 **Skills** Bluff +16, Fly +10, Intimidate +16, Knowledge (history) +16, Knowledge (local) +16, Perception +16, Stealth +13, Swim +22
 **Languages** Common, Draconic, Elvish
 ----
@@ -775,7 +776,7 @@ N Huge Dragon
 **Base Atk** +14; **CMB** +24; **CMD** 34 (38 vs. trip)
 **Feats** Flyby Attack, Hover, Improved Vital Strike, Lightning Reflexes, Muscular Reflexes, Vital Strike
 **Martial Tradition** Dragon, **PAM** Cha, **DC** 19
-**Talents** Berserker (Deathless, Rending Claws), Brute (Wing Buffet), Open Hand (no base sphere, Bestial Training (bite)), Shield (Deflecting Shield, Flexible Cover, Protective Tail)
+**Talents** Berserker (Deathless, Rending Claws), Brute (Wing Buffet), Equipment (Unarmed Training), Shield (Deflecting Shield, Flexible Cover, Protective Tail)
 **Skills** Bluff +18, Fly +9, Intimidate +18, Knowledge (history) +18, Knowledge (local) +18, Perception +18, Stealth +14, Swim +25
 **Languages** Common, Draconic, Elvish
 ----
@@ -802,7 +803,7 @@ N Huge Dragon
 **Base Atk** +16; **CMB** +27; **CMD** 37 (41 vs. trip)
 **Feats** Flyby Attack, Hover, Improved Vital Strike, Lightning Reflexes, Muscular Reflexes, Vital Strike
 **Martial Tradition** Dragon, **PAM** Cha, **DC** 21
-**Talents** Berserker (Deathless, Rending Claws), Brute (Stampede, Unstoppable, Wing Buffet), Open Hand (no base sphere, Bestial Training (bite)), Shield (Deflecting Shield, Flexible Cover, Protective Tail)
+**Talents** Berserker (Deathless, Rending Claws), Brute (Stampede, Unstoppable, Wing Buffet), Equipment (Unarmed Training), Shield (Deflecting Shield, Flexible Cover, Protective Tail)
 **Skills** Bluff +21, Fly +15, Intimidate +21, Knowledge (history) +21, Knowledge (local) +21, Perception +21, Stealth +16, Survival +21, Swim +28
 **Languages** Common, Draconic, Dwarven, Elvish
 ----
@@ -829,7 +830,7 @@ N Huge Dragon
 **Base Atk** +18; **CMB** +30; **CMD** 40 (44 vs. trip)
 **Feats** Flyby Attack, Greater Vital Strike, Hover, Improved Vital Strike, Lightning Reflexes, Muscular Reflexes, Vital Strike
 **Martial Tradition** Dragon, **PAM** Cha, **DC** 22
-**Talents** Berserker (Deathless, Rending Claws), Brute (Focused Might, Follow-Through, Stampede, Unstoppable, Wing Buffet), Open Hand (no base sphere, Bestial Training (bite)), Shield (Deflecting Shield, Flexible Cover, Protective Tail)
+**Talents** Berserker (Deathless, Rending Claws), Brute (Focused Might, Follow-Through, Stampede, Unstoppable, Wing Buffet), Equipment (Unarmed Training), Shield (Deflecting Shield, Flexible Cover, Protective Tail)
 **Skills** Bluff +23, Fly +17, Intimidate +23, Knowledge (history) +23, Knowledge (local) +23, Perception +23, Stealth +18, Survival +23, Swim +31
 **Languages** Common, Draconic, Dwarven, Elvish
 ----
@@ -856,7 +857,7 @@ N Gargantuan Dragon
 **Base Atk** +20; **CMB** +35; **CMD** 44 (48 vs. trip)
 **Feats** Extra Combat Talent, Flyby Attack, Greater Vital Strike, Hover, Improved Vital Strike, Lightning Reflexes, Muscular Reflexes, Vital Strike
 **Martial Tradition** Dragon, **PAM** Cha, **DC** 24
-**Talents** Berserker (Bone-Breaker, Deathless, Rending Claws, Shieldbreaker), Brute (Earthquake Stomp, Focused Might, Follow-Through, Stampede, Unstoppable, Wing Buffet), Open Hand (no base sphere, Bestial Training (bite)), Shield (Deflecting Shield, Flexible Cover, Protective Tail)
+**Talents** Berserker (Bone-Breaker, Deathless, Rending Claws, Shieldbreaker), Brute (Earthquake Stomp, Focused Might, Follow-Through, Stampede, Unstoppable, Wing Buffet), Equipment (Unarmed Training), Shield (Deflecting Shield, Flexible Cover, Protective Tail)
 **Skills** Bluff +26, Fly +12, Intimidate +26, Knowledge (history) +26, Knowledge (local) +26, Perception +26, Stealth +15, Survival +26, Swim +34, Use Magic Device +26
 **Languages** Common, Draconic, Dwarven, Elvish, Undercommon
 ----
@@ -883,7 +884,7 @@ N Gargantuan Dragon
 **Base Atk** +22; **CMB** +38; **CMD** 47 (51 vs. trip)
 **Feats** Extra Combat Talent x2, Flyby Attack, Greater Vital Strike, Hover, Improved Vital Strike, Lightning Reflexes, Muscular Reflexes, Vital Strike
 **Martial Tradition** Dragon, **PAM** Cha, **DC** 25
-**Talents** Berserker (Beat Down, Bone-Breaker, Deathless, Leg-Smasher, Rending Claws, Shieldbreaker), Brute (Earthquake Stomp, Focused Might, Follow-Through, Stampede, Unstoppable, Wing Buffet), Open Hand (no base sphere, Bestial Training (bite)), Shield (Deflecting Shield, Flexible Cover, Protective Tail, Redirecting Shield)
+**Talents** Berserker (Beat Down, Bone-Breaker, Deathless, Leg-Smasher, Rending Claws, Shieldbreaker), Brute (Earthquake Stomp, Focused Might, Follow-Through, Stampede, Unstoppable, Wing Buffet), Equipment (Unarmed Training), Shield (Deflecting Shield, Flexible Cover, Protective Tail, Redirecting Shield)
 **Skills** Bluff +28, Fly +14, Intimidate +28, Knowledge (history) +28, Knowledge (local) +28, Perception +28, Stealth +17, Survival +28, Swim +37, Use Magic Device +28
 **Languages** Common, Draconic, Dwarven, Elvish, Undercommon
 ----
@@ -910,7 +911,7 @@ N Gargantuan Dragon
 **Base Atk** +24; **CMB** +41; **CMD** 50 (54 vs. trip)
 **Feats** Extra Combat Talent x2, Flyby Attack, Greater Vital Strike, Hover, Improved Vital Strike, Lightning Reflexes, Muscular Reflexes, Power Attack, Vital Strike
 **Martial Tradition** Dragon, **PAM** Cha, **DC** 27
-**Talents** Berserker (Beat Down, Bone-Breaker, Deathless, Leg-Smasher, Rending Claws, Shieldbreaker), Brute (Earthquake Stomp, Focused Might, Follow-Through, Greater Shove, Stampede, Unstoppable, Wing Buffet), Open Hand (Bestial Training (bite)), Shield (Deflecting Shield, Flexible Cover, Protective Tail, Redirecting Shield)
+**Talents** Berserker (Beat Down, Bone-Breaker, Deathless, Leg-Smasher, Rending Claws, Shieldbreaker), Brute (Earthquake Stomp, Focused Might, Follow-Through, Greater Shove, Stampede, Unstoppable, Wing Buffet), Equipment (Unarmed Training), Open Hand, Shield (Deflecting Shield, Flexible Cover, Protective Tail, Redirecting Shield)
 **Skills** Bluff +31, Fly +20, Intimidate +31, Knowledge (history) +31, Knowledge (local) +31, Perception +31, Stealth +20, Sense Motive +31, Survival +31, Swim +41, Use Magic Device +31
 **Languages** Common, Draconic, Dwarven, Elvish, Giant, Undercommon
 ----
@@ -937,7 +938,7 @@ N Gargantuan Dragon
 **Base Atk** +26; **CMB** +44; **CMD** 52 (56 vs. trip)
 **Feats** Extra Combat Talent x2, Flyby Attack, Greater Vital Strike, Hover, Improved Vital Strike, Lightning Reflexes, Muscular Reflexes, Power Attack, Skill Focus (Stealth), Vital Strike
 **Martial Tradition** Dragon, **PAM** Cha, **DC** 28
-**Talents** Berserker (Beat Down, Bone-Breaker, Deathless, Leg-Smasher, Rending Claws, Shieldbreaker), Brute (Earthquake Stomp, Focused Might, Follow-Through, Greater Shove, Stampede, Unstoppable, Wing Buffet), Lancer (Gore Toss), Open Hand (Bestial Training (bite)), Shield (Deflecting Shield, Flexible Cover, Protective Tail, Redirecting Shield)
+**Talents** Berserker (Beat Down, Bone-Breaker, Deathless, Leg-Smasher, Rending Claws, Shieldbreaker), Brute (Earthquake Stomp, Focused Might, Follow-Through, Greater Shove, Stampede, Unstoppable, Wing Buffet), Equipment (Unarmed Training), Lancer (Gore Toss), Open Hand, Shield (Deflecting Shield, Flexible Cover, Protective Tail, Redirecting Shield)
 **Skills** Bluff +33, Fly +21, Intimidate +33, Knowledge (history) +33, Kowledge (local) +33, Perception +33, Stealth +28, Sense Motive +33, Survival +33, Swim +44, Use Magic Device +33
 **Languages** Common, Draconic, Dwarven, Elvish, Giant, Undercommon
 ----
@@ -964,7 +965,7 @@ N Colossal Dragon
 **Base Atk** +28; **CMB** +52 (+60 sunder, bull rush, overrun, pull, reposition); **CMD** 61 (65 vs. trip, 69 vs. sunder, bull rush, overrun, pull, reposition)
 **Feats** Extra Combat Talent x2, Flyby Attack, Greater Vital Strike, Hover, Improved Vital Strike, Lightning Reflexes, Muscular Reflexes, Power Attack, Skill Focus (Stealth), Toughness, Vital Strike
 **Martial Tradition** Dragon, **PAM** Cha, **DC** 31
-**Talents** Berserker (Beat Down, Bone-Breaker, Deathless, Greater Sunder, Leg-Smasher, Rending Claws, Shieldbreaker), Brute (Earthquake Stomp, Focused Might, Follow-Through, Greater Brute, Greater Shove, Stampede, Unstoppable, Wing Buffet), Lancer (Gore Toss), Open Hand (Bestial Training (bite)), Shield (Deflecting Shield, Flexible Cover, Protective Tail, Redirecting Shield)
+**Talents** Berserker (Beat Down, Bone-Breaker, Deathless,Greater Sunder, Leg-Smasher, Rending Claws, Shieldbreaker), Brute (Earthquake Stomp, Focused Might, Follow-Through, Greater Brute, Greater Shove, Stampede, Unstoppable, Wing Buffet), Equipment (Unarmed Training), Lancer (Gore Toss), Open Hand, Shield (Deflecting Shield, Flexible Cover, Protective Tail, Redirecting Shield)
 **Skills** Bluff +37, Diplomacy +37), Fly +22, Intimidate +37, Knowledge (history) +37, Knowledge (local) +37, Perception +37, Stealth +29, Sense Motive +37, Survival +37, Swim +48, Use Magic Device +37
 **Languages** Common, Cyclops, Draconic, Dwarven, Elvish, Giant, Goblin, Halfling, Undercommon
 ----
