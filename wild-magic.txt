@@ -22,7 +22,7 @@ title:Wild Magic
 </style>
 <div id="container">
     <p class="alignright" id="randomResult">&nbsp;</p>
-    <button class="alignleft" id="button">Click here to see random string of text!</button>
+    <button class="alignleft" id="button">Trigger Universal Wild Magic</button>
     <div style="clear: both;"></div>
 </div>
 <script>
@@ -38,7 +38,7 @@ title:Wild Magic
         randomResult.appendChild(sp) = tx;
     }
     rand = Math.random;
-    stringArray = ['string one', 'string two', 'string three', 'string four', 'string five', 'string six', 'string seven', 'string eight', 'string nine', 'string ten'];
+    stringArray = ['Everything's awesome', 'Everything's working well'];
     randomResult = document.getElementById('randomResult');
     document.getElementById("button").addEventListener('click',randText,false);
 </script>
