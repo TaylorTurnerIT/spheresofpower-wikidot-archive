@@ -2,12 +2,92 @@ title:Wild Magic
 parent:spheres-of-power
 [[toc]]
 
-**THIS PAGE IS BEING TESTED**
-
-
 ^^**Where are the rest of the tables and generators?** Tables and generators for individual spheres can be found on their respective pages. This wiki originally planned to include each table and its associated generator on this page, but that's (significantly) more content than the pages of this website can actually hold.^^
 
 ^^**Some generator results are a bit different from the text on the tables. Why?** Coding issues mean some results had to be slightly tweaked. The meaning should be the same regardless of which version you're looking at.^^
+
+
+----
+
+++++ Wild Magic Chance
+Wild magic chance is the likelihood of a wild magic event occurring and can be increased or decreased by a variety of sources, such as class abilities, feats, boons, and drawbacks. Wild magic chance changes from different sources always stack unless noted. The result of all bonuses and penalties to an effect’s wild magic chance is referred to as its total wild magic chance. A creature is always aware of its wild magic chance unless otherwise noted. Total wild magic chance cannot be reduced below 0%.
+
+Wild magic chance applies to the casting of all spells and sphere abilities. Spell-like abilities and activated items do not normally have a base wild magic chance (unless an item is crafted with one as described in “wild magic and talent-based item crafting”), effects that would increase wild magic chance, such as Aura of Chaos mystic combat, do apply to any spell-like ability or item that requires activation each time it is used or activated. Extraordinary abilities, supernatural abilities, and items that grant a continuous effect are not subject to wild magic chance.
+
+++++ Wild Magic Event
+Wild magic events vary widely in effect. If an event calls for a save, the save DC is always that of the effect that triggered the event. If the event is triggered by an ability that does not have a defined save DC, such as using the Shift Cost feat on a mageknight’s mystic combat ability, the DC is equal to 10 + 1/2 the creature that originated the effect’s Hit Dice + the creature’s casting ability modifier (or highest mental ability score, if it does not possess the casting class feature).
+
+If multiple events are triggered by one effect, resolve them in the order they are rolled. If two or more events have conflicting results, such as each changing the damage type of a destructive blast, the last result rolled supersedes the previous results. Duplicate results do not stack.
+
+Events that modify the effect are applied before the triggering effect is resolved. All other events are resolved immediately after the triggering event is resolved.
+
+A wild magic event is subject to spell resistance if the triggering effect was subject to spell resistance. A caster’s spell resistance never applies to wild magic events triggered by that caster, nor are casters ever immune to the results of their own wild magic events, the chaotic nature of wild magic overcoming even creature type-based immunities. Any saves required by the wild magic result should be rolled before the result is revealed.
+
+++++ Making the Rolls
+For a total wild magic chance up to 100%, you risk a single wild magic event. Roll 1d100; If the result is less than or equal to the wild magic chance, then a wild magic result roll must be made. Roll 1d100 on the table corresponding to the effect’s base sphere to determine the result of the wild magic event. For wild magic chance of 100% to 200%, one wild magic event is guaranteed and a second is possible. Roll 1d100; if this result is less than or equal to the wild magic chance -100, then roll a d100 twice and apply both results. If rolling above the wild magic chance -100, then roll a single d100 and apply the result.
+
+If not using the major event rules (see Variant Rules), then no effect may have a wild magic chance above 200%. Any effect that would have its wild magic chance increased to above 200% simply fails. The spell points and actions are still spent and the caster takes untyped backlash damage equal to the effect’s caster level.
+
+++++ Multiple Spheres
+If more than one sphere is used in the effect, divide the total wild magic chance, up to 200%, by the number of base spheres, rounding up, then roll that wild magic result on the tables for each base sphere. If using the major events rules (see Variant Rules), wild magic chance over 200% is rolled on the major events table as usual, then the remaining 200% chance is divided by the total number of spheres and rolled on the sphere specific result tables.
+
+++++ No Base Sphere
+If an effect does not have a base sphere, such as applying a wild magic chance to a mystic combat or other class ability, roll on the universal wild magic table instead.
+
+++++ Wrapping Tables
+Should an effect that modifies a wild magic result roll ever reduce the roll below 1, add 100 to the result to determine the effect. If an effect would cause the wild magic result roll to be above 100, subtract 100 from the result roll.
+
+++++ Combat Results
+Some wild magic results have the (Combat) tag. Such results do not take effect unless the caster is in combat. If the result is rolled while the caster is acting under initiative count while aware of a hostile creature capable of acting against the caster or his allies, the result becomes active immediately. Otherwise, the result is delayed until the next time that the caster rolls initiative while aware of a hostile creature capable of acting against the him or his allies.
+
+++++ Wild Magic and Cantrips
+If you possess the Cantrips feat and the wild magic drawback, any wild magic feat, or another ability that imposes a wild magic chance on your casting abilities, you may, at will, as a standard action, roll 1d100 on the cantrips wild magic table. You may spend an additional spell point to reduce this to a swift action, to roll twice and take both results, or to instead roll on the general wild magic table. These options may be combined; the costs stack. The save DC for a wild magic cantrip is 10 + 1/2 caster level + casting ability modifier.
+
+++++ Wild Magic and Spellcrafting
+When attempting to cast a spellcrafted spell that you do not know from a spellbook, wild magic may take the place of the risk of mishap. No mishap roll is required; instead, increase the spell’s wild magic chance by 20% per missing prerequisite. The spell is cast regardless of the wild magic event being triggered. When crafting a spell, the complexity of the spell may be reduced by 1 for every 50% increase to wild magic chance that is added to the spell. Complexity may likewise be increased to reduce the spell’s wild magic chance at a ratio of 1 complexity for every 50% reduction.
+
+++++ Wild Magic and Talent-Based Item Crafting
+When crafting a magic item using the talent-based system (scrolls, potions, wondrous items and rods), the complexity of the item may be reduced by 1 for every 50% increase to wild magic chance that is added to the item. This wild magic chance is incurred each time the item is activated, treating the activator as the caster. If the item provides a continuous bonus, the increase to wild magic chance is incurred on all spells and sphere effects cast by the wearer as well as to every skill check, attack action, and full attack (once when the full attack is declared, not on each attack individually). An item’s complexity may not be increased to reduce the user’s wild magic chance.
+
+++++ Wild Magic and Traditional Casting
+Some feats and abilities in this book may be used with the normal Pathfinder magic system. Any class capable of casting spells counts as having the casting class feature for the purpose of qualifying for feats in this book. See the below table (taken from pg 132, Chapter 4, Advanced Magic in Spheres of Power) for guidelines on mapping sphere to spell schools and sub-schools. The GM has the final say on which sphere or spheres any spell belong in.
+
++++++ Table: School/Spheres Conversion
+||~ School (Subschool) ||~ Sphere || 
+|| Abjuration || Protection || 
+|| Abjuration (good, evil, lawful, chaotic) || Fate || 
+|| Conjuration (creation) || Creation || 
+|| Conjuration (healing) || Life || 
+|| Conjuration (calling, summoning) || Conjuration || 
+|| Divination || Divination || 
+|| Enchantment || Mind || 
+|| Evocation || Various^^1^^ || 
+|| Illusion || Illusion || 
+|| Necromancy || Death || 
+|| Transmutation || Enhancement || 
+|| Transmutation (polymorph) || Alteration || 
+|| Transmutation (earth, air, fire, water) || Nature || 
+^^1: Evocation includes so many different types of spells that a simple conversion isn’t possible. (Light) spells would be the Light sphere, (Darkness) spells would be the Dark sphere, but others could be Destruction, Weather, Mind, or even Creation depending on the spell in question. GMs should use their own good judgment to determine which sphere an Evocation spell should use.^^
+
+++++ Identifying Wild Magic
+A DC15 Knowledge (arcana) check reveals a basic knowledge that wild magic exists and that some practitioners of magic focus on channeling its power to increase the potency of their spells, though no check is required for those that possess the wild magic drawback, a (wild magic) feat, a class feature that gives a wild magic chance, or other means of incurring wild magic chance. A DC20 check reveals that the results are usually divided according to the type of magic that initiates the event and that some practitioners have learned to force wild magic events on others. The nature of a particular wild magic event may be identified as if it were a spell being cast, with the normal DC of 15 + caster level/2.
+
+++ Variant Rules
+
+++++ Dangerous Concentration
+Normally, when failing a concentration check to cast (defensively, when taking damage, during vigorous motion, etc.) you do not roll wild magic chance. As an optional rule, the GM may decide that a wild magic event is rolled for normally or even automatically triggered for any or all of these events.
+
+++++ Free Wild Cantrips
+The GM may choose to allow any caster with wild magic related abilities to access the wild cantrips table as described in the “wild magic and cantrips” section.
+
+++++ Major Events
+The GM may choose to use the major events table for wild magic chance above 200%. These events are significantly greater in scope, having the possibility of significantly altering the character or gameworld, including making a character unplayable.
+
+If the total wild magic chance is above 200%, then two wild magic events are guaranteed and a major event is possible. Roll 1d100; if the result is less than or equal to the wild magic chance -200, roll 1d100 on the major event table and apply the result before rolling 2d100 on the wild magic table and applying the results.
+
+Even using the major event rules, no sphere effect may have a wild magic chance above 300%. Any effect that would have its wild magic chance increased to above 300% simply fails. The spell points and actions are still spent and the caster takes untyped backlash damage equal to twice the effect’s caster level.
+
+
 
 ----
 
