@@ -65,7 +65,7 @@ Note that many mundane tools and options make these easier. You don't necessaril
 
 **Powers Like This Include:** The Cryptic Strike talent of the [[[Death]]] sphere, the Cascade Failure talent of the [[[Destruction]]] sphere, the Vitality talents of the [[[Life]]] sphere, and a significant number of martial sphere abilities (especially those that trigger whenever you successfully attack or use a combat maneuver)
 
-A "rider" is an effect that triggers when you do something else. For example, if you poison your weapon, that poison "rides" your attack and triggers when you successfully hit an enemy. Riders are usually debuffs or additional damage, but in rare cases - like the Vitality talents of the [[[Life]]] sphere - they can be beneficial instead. It's possible for a rider to trigger from another rider, although it's rare to see a chain more than 2-3 abilities 'deep'.
+A "rider" is an effect that triggers when you do something else. For example, if you poison your weapon, that poison "rides" your attack and triggers when you successfully hit an enemy. Riders are usually debuffs or additional damage, but in rare cases - like the Vitality talents of the [[[Life]]] sphere or a bonus that triggers when you hit something - they can be beneficial instead. It's possible for a rider to trigger from another rider, although it's rare to see a chain more than 2-3 abilities 'deep'.
 
 The key difference between a rider and a normal effect is that a rider is not normally part of whatever you're doing. You need to have invested in some additional option (a talent that adds an effect, poisoning your weapon, taking a feat, etc.) that adds to what you normally do. Most riders do not require any additional actions or payments at the time they're used. Abilities that require you to do things like take an additional penalty on your attacks to activate them should not be considered riders.
 
@@ -89,16 +89,15 @@ The common trend here is that the battlefield is something they want to be under
 
 As such, Battlefield Controllers should know what //other// people want to do before they make their ability selections.
 
-||~ Class ||~ Explanation ||~ Source ||
-||~ [[[Eliciter]]] || Eliciters specialize in the [[[Mind]]] sphere, which allows them to control the thoughts and actions of enemies. This makes them a natural fit for the Battlefield Controller role, and indeed, they tend to do best as a mix of this and Buffer. || [[[Spheres of Power]]] ||
-||~ [[[Fey Adept]]] || The Fey Adept specializes in the use of the [[[Illusion]]] sphere. Also, their Create Reality ability gives control options ranging from altering the battlefield to calling companions. When played creatively, Fey Adepts are particularly good in this role. Conversely, however, limited creativity may result in a reduction of the character's potential power. For this reason, the Fey Adept is somewhat harder to play than many other battlefield controllers. || [[[Spheres of Power]]] ||
-||~ [[[Soul Weaver]]] || Aside from their ability to summon minions with their Bound Nexus power, Soul Weavers will often grab the [[[Death]]] sphere and use it to call forth minions. This may not be as dramatic as reshaping the battlefield, but it falls under the battlefield control role by virtue of making it harder for enemies to move around. || [[[Spheres of Power]]] ||
+**Enemy Battlefield Controllers:** Enemy battlefield controllers tend to fall into three categories. First, some of them call forth minions for players to fight (think of a lich calling out waves of skeletons). Second, some aim to slow the party down and restrict your movement. Finally - and generally the worst - there's mind control. Given the amount of harm a mind-controlled damage dealer can do to the party, avoiding this tends to be high on most people's list of priorities.
 
 +++ ##000000|Sub-Role: Combat Maneuver Specialist##
 
 The Combat Maneuver Specialist uses one or more of the game's Combat Maneuvers to manipulate their foes and the battlefield as a whole. They might grapple foes to pin them in place, Bull Rush them into dangerous terrain, or Sunder their equipment to make them easier to take down. Combat Maneuver Specialists can quickly fall into a different Role based on the details of their build, but most ultimately end up being versatile enough that they end up controlling at least the part of the battlefield in the area immediately around them.
 
 Spheres of Might makes it much easier to be a Combat Maneuver Specialist thanks to the many effects and additional benefits that can be added to them. The ##993300|[[[Brute]]]##, ##993300|[[[Duelist]]]##, and ##993300|[[[Wrestling]]]## spheres are particularly good for this. Feinting isn't actually a combat maneuver, but it is used in a similar manner, and the ##993300|[[[Fencing]]]## sphere supports that.
+
+**Enemy Combat Maneuver Specialists:** Rare. When they do appear, they usually take the form of monsters that specialize in grappling foes. They may be more common in a game that draws heavily on Spheres of Might and has a variety of custom-made NPCs.
 
 ----
 
@@ -116,6 +115,8 @@ Some classes are **Self Buffers** who can only raise their own abilities. Others
 
 If a class comes with a built-in buffing ability - such as the Arcane Pool of the Magus - it's usually expected that they'll be using it as early and as often as possible in fights.
 
+**Enemy Buffers:** Relatively rare. Some enemies are able to buff before fights, and bosses often have a number of effects active. When an actual buffer shows up, it's usually as a supporter that helps their boss out, and they may need to be defeated quickly to make the fight more manageable.
+
 ----
 
 ++ ##000000|Role: Damage Dealer##
@@ -128,7 +129,9 @@ If a class comes with a built-in buffing ability - such as the Arcane Pool of th
 
 The Damage Dealer is focused on causing HP damage to enemies, and will usually be the most capable member of the party at doing so. However, regardless of type, no Damage Dealer can afford to focus solely on increasing their damage - after all, they need to be able to //hit// opponents, or they won't be able to fulfill their role. Full BAB classes are likely to hit with their first strike almost all the time - iterative attacks are increasingly less likely to be successful. Mid BAB classes often have abilities to improve their accuracy, but only for a certain number of attacks per-day. Low BAB classes should stick to targeting Touch AC, as they're not intended to hit foes in other ways.
 
-Damage Dealers come in a few different forms:
+Damage Dealers come in a few different forms, which are described below.
+
+**Enemy Damage Dealers:** Most foes are ultimately this. However, it's important to draw a distinction between something that merely does damage - like a common goblin swinging for 1d4 damage - and a //true// damage dealer that can take off half the party's health in one blast (hi, Dragons). The latter tend to require smarter strategies to bring down before they murder the PCs.
 
 +++ ##000000|Sub-Role: Blaster##
 
@@ -200,6 +203,8 @@ Much like Battlefield Controllers, Debuffers often want to hurt foes in ways tha
 
 Spheres of Might mostly avoids debuff-only abilities, instead adding them as riders to other effects. For example, the Debilitating Injuries talent of the ##993300|[[[Duelist]]]## sphere allows you to reduce a foe's accuracy when you successfully deal bleed damage to them (which can be as often as every round, as that effect is itself a rider on your attack action).
 
+**Enemy Debuffers:** Relatively common, especially among undead. Some foes have powers that damage or drain ability scores on strikes, inflict poison, tie you up, and generally make it harder to succeed. These are most dangerous at low levels, but even a high-level character can be quickly incapacitated if the group isn't prepared to handle this.
+
 ----
 
 ++ ##000000|Role: Healer##
@@ -216,6 +221,8 @@ Most Healers are focused on fixing Hit Point damage, but parties also need to be
 
 It's worth noting that a pure Healer may actually be a good choice in campaigns that feature undead as particularly common foes. Healing usually uses Positive Energy, which harms undead, so characters built in this role can double as effective Damage Dealers for as long as their daily powers last.
 
+**Enemy Healers:** Dedicated healers are relatively rare, mostly because they drag out combat and that tends to be a bit less fun for everyone. However, some enemies have significant amounts of natural healing and may be difficult or impossible to beat unless this can be overcome.
+
 ----
 
 ++ ##000000|Role: Skill Monkey## 
@@ -227,6 +234,8 @@ It's worth noting that a pure Healer may actually be a good choice in campaigns 
 **Related Martial Abilities:** The ##993300|[[[Alchemy]]]##, ##993300|[[[Athletics]]]##, ##993300|[[[Beastmastery]]]##, ##993300|[[[Fencing]]]##, ##993300|[[[Gladiator]]]##, ##993300|[[[Scoundrel]]]##, ##993300|[[[Scout]]]##, ##993300|[[[Trap]]]##, and ##993300|[[[Warleader]]]## spheres offer skill ranks just for taking them, and have talents that can further make use of their associated skills.
 
 The Skill Monkey is a character who has a particularly high number of skill points - usually 6/8+INT per-level - and a wide variety of class skills. While some skills (such as Climb) are easily replaced by magic, other talents like Disable Device, Perception, and various Knowledge skills offer benefits that can't be easily obtained in other ways. Skill Monkeys have enough points to invest in many different areas, and most parties will want to have at least one of them to help overcome any skill-based challenges they face.
+
+**Enemy Skill Monkeys:** Relatively rare. The most likely foes are rogues and assassins who try to sneak up on the party and steal things or slit your throats. On rare occasions, you may have to oppose their diplomatic skill, beat them at games, or otherwise interact with them in ways other than fighting. In most cases, though, enemy skill monkeys are not a serious concern.
 
 ----
 
@@ -244,6 +253,8 @@ The Tank's main role on the battlefield is to threaten enemies and encourage att
 
 Some Tanks intentionally provoke attacks from enemies - for example, getting foes to make attacks of opportunity against them so their friends can move safely past.
 
+**Enemy Tanks:** What most bosses want to be and what few actually are. In general, a party is in a good place if it can take down a foe of the same CR as the party in one round of attacks. True tank opponents tend to be harder to hit (including flying foes, like dragons), have Damage Reduction and Energy Resistance that's not too easy to get past, and may have Fast Healing or Regeneration. Or worse, an Anti-Magic Field, which will disable most of a party's abilities as long as it's up.
+
 ----
 
 ++ ##000000|Role: Utility##
@@ -257,6 +268,8 @@ Some Tanks intentionally provoke attacks from enemies - for example, getting foe
 Utility characters are a little different from most roles. Unlike other classes, they have almost no focus on combat itself - rather, they're focused on overcoming various skill challenges (much like a Skill Monkey) and otherwise helping the party accomplish a wide variety of goals. Things like hauling vast loads of treasure, safely reaching esoteric destinations, and crafting magical items tend to fall into this role.
 
 Utility is as much about creativity as actual character power. For example, even the basic Fighter can often carry a variety of tools and use those to help them get where they need to go, while intelligent use of spells and similar abilities can often be the key to resolving issues. As such, nearly any character can fulfill this role in addition to their other roles if they have the right equipment on hand. With that in mind, don't focus all of your attention on magical gear - review your options for mundane gear, too, because that's often where you'll find some of the best utility options.
+
+**Enemy Utility Characters:** Very different from what player Utility characters tend to be. A Utility villain is one that plays smart and knows how to use their powers to their full advantage. This can include making particularly nasty traps, scrying on you to figure out your weaknesses, or just teleporting away when you get too close. A capable Utility enemy can be one of the most frustrating opponents you'll ever face, and you may have to out-think them.
 
 +++ ##000000|Sub-Role: Face##
 
