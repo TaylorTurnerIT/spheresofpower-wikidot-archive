@@ -18,31 +18,20 @@ While veilweaving is quite different from standard spellcasting, the basic rule 
 
 Veils are mostly physical constructs of akasha, and as such can be targeted by effects like a Sunder attack; a veil that takes more than twice the veilweaver’s level in damage in a single attack is suppressed and does not function for 1d4 rounds. Veils have a Hardness score equal to the veilweaver’s level and gain a bonus to saves vs. targeted effects equal to the amount of essence currently invested. Veils can also be targeted by dispel magic, mage’s disjunction, or similar spells effects, and are treated as a magic item when determining the effects. A veil successfully affected by a mage’s disjunction is suppressed for the duration of the spell and effect and any essence invested in a suppressed veil becomes unavailable until the effect ends. Veils are nearly invisible until invested with at least one point of essence; a veilweaver gains a +5 circumstance bonus to Disguise checks to hide the fact that he has an uninvested veil shaped, though detect magic, true seeing, or similar effects automatically reveal their presence. As soon as a point of essence is invested in a veil they flare into tangibility and are easily noticeable.
 
+++++ Binding Essence
+Some feats and veils will require you to bind, rather than invest, essence into them. When essence is bound into a receptacle, it cannot be recovered or reassigned to another receptacle until 24 hours have passed, or the next time the user shapes their veils for the day, whichever comes first. If the receptacle is sundered or disjoined, the user immediately takes essence burn equal to the total essence invested in the veil. Once the burn has recovered, they can reinvest the essence normally.
+
 ++++ Bonuses from Shaped Veils
 Note that the general rules for stacking still apply; two bonuses of the same type do not stack, even if they come from two different veils or a veil and a spell or spell-like effect.
 
-++++ Identifying Veils and Effects
-Information about a veil’s properties or effects can be determined using the Knowledge (arcana) skill according to the following table:
-|| Identify a magical manifestation as akasha or veilweaving || DC 10 || 
-|| Identify a specific veil’s basic properties || DC 15 || 
-|| Identify a specific veil’s bind effects || DC 20 || 
-
-In areas where akashic magic is uncommon or otherwise unheard of, increase the DC of these checks by 5.
+++++ Companions
+Some veils grant the veilweaver the ability to conjure, create, or summon companion creatures, such as angels, treants, and zombies. Whenever a creature is granted or created by a veil ability, it is able to understand the veilweaver’s commands and always follows their instructions to the best of its ability. Creatures granted by veils cannot be banished or dismissed since they are tied to the veilweaver’s life force, but any effect that sunders, dispels, or otherwise unshapes a veil immediately dismisses the companion creature unless specifically noted otherwise.
 
 ++++ Descriptors
 Veils use many of the same descriptors as spells. Whenever a veil contains a descriptor, it carries all the same connotations as the spell descriptor of the same name. Since veils do not have schools, subschools, domains, or disciplines, these descriptors are the primary way to categorize and identify a veil and its effects.
 
-++++ Binding Essence
-Some feats and veils will require you to bind, rather than invest, essence into them. When essence is bound into a receptacle, it cannot be recovered or reassigned to another receptacle until 24 hours have passed, or the next time the user shapes their veils for the day, whichever comes first. If the receptacle is sundered or disjoined, the user immediately takes essence burn equal to the total essence invested in the veil. Once the burn has recovered, they can reinvest the essence normally.
-
 ++++ Essence Burn
 Some spells and abilities cause essence burn. Essence that has been burned cannot be used again for any other purpose until the veilweaver has had a chance to rest in a calm environment. Essence burn naturally recovers at a rate of 1 point of essence per minute.
-
-++++ Temporary Essence
-Some abilities may grant you temporary essence. Temporary essence points are always burned first, and cannot be recovered through normal rest, though they generally act and can be used in all other ways just like normal essence.
-
-++++ Ongoing Effects and Unconsciousness
-Veils do not require conscious action to maintain, but if a veilweaver is rendered unconscious while he has active veils shaped a number of things may occur. Any active aura powers granted by shaped veils are suppressed until the veilweaver regains consciousness, at which point the veilweaver must spend a move action to reactivate them. Any effects that occur automatically over time, such as the temporary hit point generation of the Stone Giant’s Girdle, continue to accrue as normal. Veils that are sundered while the veilweaver is unconciousness are not just suppressed, but destroyed completely and cannot be used again until the veilweaver reshapes his veils.
 
 ++++ Essence Capacity
 However large your essence pool is, you can only invest a certain amount of essence into any one veil, feat, class feature, magic item, or other akashic receptacle. Your character level determines this essence capacity as shown below, though some feats, class features, magic items, or other abilities or effects may modify your base capacity:
@@ -51,3 +40,30 @@ However large your essence pool is, you can only invest a certain amount of esse
 || 6th–11th || 2 || 
 || 12th–17th || 3 || 
 || 18th–20th || 4 ||
+
+++++ Identifying veils and effects
+Information about a veil’s properties or effects can be determined using the Knowledge (arcana) skill according to the following table:
+|| Identify a magical manifestation as akasha or veilweaving || DC 10 || 
+|| Identify a specific veil’s basic properties || DC 15 || 
+|| Identify a specific veil’s bind effects || DC 20 || 
+
+In areas where akashic magic is uncommon or otherwise unheard of, increase the DC of these checks by 5. Veilweavers can also disguise the presence or function of their veils using the Disguise skill, disguising their veils as extravagant clothing or even natural extensions of their own body. A creature cannot attempt to identify a disguised veil without first succeeding on a Perception check to notice that it is a veil.
+
+++++ Ongoing Effects and Unconsciousness
+Veils do not require conscious action to maintain, but if a veilweaver is rendered unconscious while he has active veils shaped a number of things may occur. Any active aura powers granted by shaped veils are suppressed until the veilweaver regains consciousness, at which point the veilweaver must spend a move action to reactivate them. Any effects that occur automatically over time, such as the temporary hit point generation of the Stone Giant’s Girdle, continue to accrue as normal. Veils that are sundered while the veilweaver is unconciousness are not just suppressed, but destroyed completely and cannot be used again until the veilweaver reshapes his veils.
+
+++++ Per Day Abilities
+Some veils grant spell-like abilities that can be used a limited number of times per day. These veils use the same saving throw DC as your other veil abilities. These uses are only refreshed when you reshape your veils for the day; abilities like the vizier’s veilshifting do not allow you to reshape the veil and replace it with a new instance of itself for additional uses.
+
+++++ Temporary Essence
+Some abilities may grant you temporary essence. Temporary essence points are always burned first, and cannot be recovered through normal rest, though they generally act and can be used in all other ways just like normal essence.
+
+++++ Temporary Hit Points and Additional Hit Dice
+Temporary hit points and additional HD granted by veils or other akashic effects start at full when essence is first invested and regenerate at a rate of 1 hit point per minute, but cannot be restored by removing and re-adding essence to the veil. Essence invested in a veil or other akashic receptacle that grants up to a certain amount of temporary hit points or bonus Hit Dice after the first time you invest essence for the day instead starts at 1 hit point and regenerates up to its normal maximum amount.
+
+++++ Weapon-like Veils
+Weapon-like veils are veils that can be wielded and used as a weapon, such as the Loyal Paladin’s Spear of Light or the Sword of Justice. These veils use the same damage dice and critical statistics as any weapon they are described as acting as. Veilweavers are always proficient with any weapon-like veil they shape. Veils that grant selectable weapon enhancements, such as the Reaper’s Scythe, may choose which weapon enhancements to use each time essence is invested. If a weapon-like veil is disarmed or otherwise removed or released from your grasp, it immediately dissipates and can be reformed as a free action on your next turn; this supersedes the limitations on previously published weapon-like veils, such as Loyal Paladin’s Spear of Light, which states that it requires a swift action to recover.
+
+----
+
+[[include akashic-template]]
