@@ -57,6 +57,10 @@ You may affect a normal, non-magical fire, increasing or decreasing its size by 
 || 11th || Huge || Burning Shack || 5d6 || 15 ft square ||
 || 15th || Gargantuan || Burning Tavern || 6d6 || 20 ft square ||
 || 20th || Colossal || Burning Inn || 7d6 || 30 ft square ||
+|| 25th || Colossal+ || 8d6 || 50 ft square || 
+|| 30th || Colossal++ || 9d6 || 70 ft square || 
+|| 35th || Colossal+++ || 10d6 || 100 ft square || 
+^^**Examples:** 2 adjacent Colossal-sized creatures or objects generally fit within a Colossal+ fire; 4 adjacent Colossal-sized creatures or objects generally fit within a Colossal++ fire; 8 adjacent Colossal-sized creatures or objects generally fit within a Colossal+++ fire.^^
 
 On a success, their ability functions normally, overlapping the first caster’s effect. The fire counts as its altered size for determining if the second caster can affect it. If a creature is on fire, treat that fire as being Tiny sized (1d6 damage) for the purpose of this effect. When you affect a fire on a creature, you also raise or lower the Reflex save DC to put the fire out by 1/2 your caster level (minimum: 0).
 
@@ -240,6 +244,9 @@ You may create a vortex out of sand or loose dirt. This is the same as a vortex 
 +++ ##000000|Boil Water (fire, water, geomancing)##
 As a concentration effect, you may, as a standard action, cause a 5 ft cube of water per 2 caster levels (minimum one 5-ft cube) within range to heat up and boil, dealing 1d6 per 2 caster levels (minimum 1d6, no save) Fire damage to any creature within. Each round at the beginning of your turn, any creature still within the boiling water suffers damage again. If a creature enters the boiling water, they immediately suffer damage, but only once during their movement, no matter how many times that movement takes them in and out of the boiling water.
 
++++ ##000000|Dragonlung (fire) [Apoc]##
+Gain a breath weapon. This breath weapon is either a 60-ft line or a 30-ft. cone as chosen at the time it is gained. The breath weapon deals 1d8 fire damage per 2 caster levels, and allows a Reflex save for half damage. The caster uses this breath weapon as a standard action, but must wait at least 1d4 rounds between uses.
+
 +++ ##000000|Feed on Fire (fire, spirit) [Core]##
 You may spend a spell point to gain the ability to absorb energy from fire for 1 minute per caster level. You gain fire resistance equal to your caster level. Whenever you take damage from fire (whether or not it is enough to penetrate your fire resistance), you are healed an amount equal to 1/2 the fire damage dealt, to a maximum amount equal to 1/2 the fire resistance granted by this ability (minimum: 1). Damage dealt in excess of this amount is handled normally.
 
@@ -249,6 +256,9 @@ When using the create fire geomancing ability, you may encompass the fire around
 1. You concentrate the fire around your hands. Rather than affecting an area, this allows you to be treated as armed when making unarmed strikes. In addition, you deal an extra amount of fire damage equal to your maximum create fire size with each unarmed strike. This does not cause targets to catch fire, nor grant you the ability to make extra attacks if you are maintaining the effect through concentration.
 
 2. You place the fire around yourself as a mantle. This does not deal fire damage to yourself, but all adjacent creatures are damaged by your fire and suffer a chance of catching fire, as if they were within the area where the fire was created.
+
++++ ##000000|Firelord (fire) [Apoc]##
+When using create fire, you may count your caster level as 5 higher for the purposes of determining the size category of magical fire you can create.
 
 +++ ##000000|Heat Metal (fire, metal, geomancing)##
 Requires metal. As a concentration effect, you may as a standard action heat up a piece of metal within your Nature range no larger than the size of ore that you may recover. Any creature who begins their round touching the heated metal takes 1d6 fire damage per 2 caster levels. If the heated metal is something they are holding such as a sword or coin, they may make a Reflex save to drop the item to take minimum damage, otherwise a creature is only allowed a Fortitude save for half damage (i.e. equipped metal armor that is targeted by this ability, only allows the creature wearing it a fortitude save). If the object is used as a weapon, it deals an additional 1d6 fire damage. If cast upon an unattended metal object with moving parts (such as a door with hinges), those pieces become non-functional, being partially welded together, requiring a strength check to beat your MSD to break loose and restore functionality.
@@ -261,8 +271,23 @@ As a concentration effect, you may spend 2 spell points and target a 5-ft space 
 +++ ##000000|Move Fire (fire, geomancing) [Core]##
 As a concentration effect, you may take a fire equal to or smaller than the maximum you may target with affect fire and move it up to 30 ft per round in any direction. A fire moved in this way continues to burn, even without fuel (although it may be drowned or extinguished otherwise as normal), and dies as soon as the effect ends if not moved to a new fuel source. If you have spent a spell point to make this ability self-sustaining, you must still focus as a move action to move the fire. When moving fire to a space occupied by a creature, that creature suffers the fire’s damage (Reflex half) and must pass a Reflex save or catch on fire.
 
++++ ##000000|Reflash (fire) [Apoc]##
+If a non-magical fire within range would become extinguished (through magical or mundane means), you may spend a spell point as an immediate action cause the fire to relight in a 15 ft. radius burst of flame dealing fire damage equal to the largest sized fire you can create. This can be used to re-ignite a character who has caught on fire and extinguished the flames. A successful Reflex save halves the damage and negates catching fire.
+
++++ ##000000|Ride the Flames (fire, spirit) [Apoc]##
+You may use heat waves to push yourself upward, granting a fly speed of 15 ft. + 5 ft. per 5 caster levels, with a maneuverability of clumsy for as long as you concentrate, or for 1 minute per caster level if you spend a spell point. This fly speed only functions on your turn (requiring you to spend separate actions for movement). If you are not on a surface that can support you on the end of your turn, you glide safely to the ground, at a speed of 60 ft. per round, taking no falling damage. Anyone using ride the flames cannot use its fly speed to hover.
+
 +++ ##000000|Smokescreen (fire)##
 Whenever you use the fire geomancing affect fire ability to decrease the size of a fire, you may have it bellow forth smoke as an emanation effect. The smoke radiates outward from the fire 5 ft per caster level. Those inside the smoke have concealment from those inside and outside the smoke, those outside the smoke gain concealment, but only against those inside the smoke. If you spend an additional spell point, the smoke grants total concealment instead. The smoke, unlike the affect fire ability, lasts 2 rounds per size category the fire is decreased. A fire may be increased and decreased again to recreate the effect.
+
++++ ##000000|Smokewalk (fire, spirit) [Apoc]##
+You may spend a spell point to gain the ability to walk on fire or smoke for 1 minute per caster level. Fire and its byproducts (such as smoke) become solid to you, allowing you to move over it as if it were normal ground. You may always choose to sink into the fire or smoke if you so desire, in which case you gain concealment (20% miss chance). While under the effects of Smokewalk, you gain fire resistance equal to your caster level, and the ability to see through smoke and breath in smoke harmlessly.
+
++++ ##000000|Trail Blaze (fire, geomancing) [Apoc]##
+As an instantaneous effect, you may spend a spell point as a standard action create a wave of ash, hot air and smoke in 120-ft. line which reveals a safe path to traverse, allowing creatures to ignore difficult terrain within the affected area for a number of rounds equal to 1/2 your caster level (minimum 1). Creatures who are caught in the area of effect when first cast must make a Fortitude save or become exhausted, creatures that make their saves become fatigued instead.
+
++++ ##000000|Wreath of Flames (fire, spirit)##
+When an enemy within your reach targets you with an attack or a combat maneuver, you may as an immediate action cause flames to erupt from your body toward the triggering enemy, causing fire damage equal to your caster level, Reflex save for half.
 ----
 + ##000000|Metal Talents##
 
@@ -396,6 +421,12 @@ As a concentration effect, you gain an extraordinary sense depending on geomanci
 
 +++ ##000000|Rejuvenation (spirit)##
 As a concentration effect, you may grant yourself fast healing equal to 1/2 your caster level (minimum 1). This fast healing only confers healing so long as you have 1/2 your maximum hit points or less (wounded or in critical condition).
+
++++ ##000000|Ride the Flames (fire, spirit) [Apoc]##
+You may use heat waves to push yourself upward, granting a fly speed of 15 ft. + 5 ft. per 5 caster levels, with a maneuverability of clumsy for as long as you concentrate, or for 1 minute per caster level if you spend a spell point. This fly speed only functions on your turn (requiring you to spend separate actions for movement). If you are not on a surface that can support you on the end of your turn, you glide safely to the ground, at a speed of 60 ft. per round, taking no falling damage. Anyone using ride the flames cannot use its fly speed to hover.
+
++++ ##000000|Smokewalk (fire, spirit) [Apoc]##
+You may spend a spell point to gain the ability to walk on fire or smoke for 1 minute per caster level. Fire and its byproducts (such as smoke) become solid to you, allowing you to move over it as if it were normal ground. You may always choose to sink into the fire or smoke if you so desire, in which case you gain concealment (20% miss chance). While under the effects of Smokewalk, you gain fire resistance equal to your caster level, and the ability to see through smoke and breath in smoke harmlessly.
 
 +++ ##000000|Speak with Animals (spirit) [Core]##
 You may spend a spell point to gain the ability to speak with animals for 1 minute per caster level. You can ask questions of and receive answers from animals, but the spell doesn’t make them any more friendly than normal. Wary and cunning animals are likely to be terse and evasive, while the more stupid ones make inane comments. If an animal is friendly toward you, it may do some favor or service for you.
