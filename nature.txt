@@ -218,14 +218,38 @@ As a concentration effect, you may spend a spell point to create a canopy made o
 ----
 + ##000000|Earth Talents##
 
++++ ##000000|Earthlord (earth) [Apoc]##
+When determining the radius area of your earth geomancing abilities, increase the radius by 5 ft. per (earth) talent you possess.
+
 +++ ##000000|Flying Debris (earth)##
 When you use the tremor ability, creatures who are flying up to 10 ft per caster level over the affected area must make a Fly check whose DC is equal to your combat maneuver check or fall to the ground. This fall does not cause falling damage, but does cause them to be affected by the tremor when they land.
 
 +++ ##000000|Forge Earth (earth, geomancing) [Core]##
 As an instantaneous effect, you may spend a spell point to alter the ground within a 5 ft + 5 ft per 5 caster levels radius area within range. You may raise or lower the terrain up to 5 ft + 5 ft per 5 caster levels, and may create variants within the affected area such as summoning a small wall or creating gradients and stair effects. You cannot both raise and lower the terrain with the same use of this ability and cannot create variants in anything smaller than 5 ft squares (i.e., you cannot create 1 ft diameter holes or create a spike of earth). Targets within this area are not damaged by falling if you lower the terrain, and climbing up the edges of lowered terrain usually requires a DC 15 Climb check.
 
++++ ##000000|Foundation (earth, spirit) (requires dirt, sand, or stone) [Apoc]##
+While concentrating on any Earth geomancing ability, you gain a deflection bonus to AC and CMD equal to 2 +1 per 5 caster levels. Alternatively, you may as a standard action spend a spell point to gain these benefits for 1 minute per caster level. However, you temporarily lose these benefits on any round that you end your turn not standing on dirt, sand, or stone.
+
++++ ##000000|Granulation (earth, geomancing) [Apoc]##
+As an instantaneous effect, you may spend a spell point to spontaneously create loose dirt or sand in an area within range. You may reduce the spell point cost by 1 (minimum 0) if you choose to break apart rock and stone already present (reducing their thickness by 1 inch, +1 inch per 5 caster levels), instead of creating the dirt or sand spontaneously. The created sand or dirt is enough to cover a 5 ft. + 5 ft. per 5 caster levels radius area. While this is its own geomancing ability, you may combine this effect with another earth package geomancing ability as part of the same standard action, in which case the second geomancing ability comes into effect immediately. You must pay any costs associated with both abilities to combine them in this manner.
+
+**Collapsing Structures with Granulation:** Generally speaking, single castings of Granulation on stone structures will not not be enough to compromise the structural integrity of a building. Should half of the structure’s load bearing columns, keystones, or walls be reduced to half thickness or less, a weakened area is created. Those who notice the weakened area (with a successful DC 20 Craft (stonemasonry) or Knowledge (engineering) check), may exacerbate the situation by destroying half of the structure’s load-bearing objects, triggering a cave-in or collapse. Rules for the cave-in and collapse hazard have been provided in the appendix for your convenience.
+
 +++ ##000000|Melt Earth (earth, fire, geomancing)##
 As a concentration effect, you may spend 2 spell points and target a 5-ft space within range filled with sand, dirt or stone, transmuting the top portion into lava. Creatures who touch or otherwise enter the square with lava created with melt earth take 1d6 fire damage per caster level (Reflex half). Even after a creature leaves the lava, the creature continues to take the fire damage (Fortitude save for half damage) for 1d3 rounds. If this effect ends while a creature is inside the space affected by this ability, the earth instantly cools around the creature, immobilizing it (Reflex negates). An immobilized creature cannot move until it makes a successful Strength or Escape Artist check against the caster’s Nature DC, both of which require a full-round action. Alternately, another creature may attempt a Strength check as a standard action to break the earth, or any creature may deal 5 damage per caster level to the earth to break it.
+
++++ ##000000|Sandstone (earth, geomancing) (requires dirt or sand) [Apoc]##
+As an instantaneous effect, you may spend a spell point to transform dirt or sand into stone in an area within range. The size of the created rock or stone depends both on your caster level and the radius of dirt or sand you target. Alternatively, you may encase a dirt or sand covered target in 1 inch thick stone. Refer to Table: Sandstone to determine the maximum target size to be encased. For every size smaller the encased target is than the required radius of dirt or sand, either double the thickness of the stone or increase the number of encased targets. Creatures and objects are allowed a Reflex save to avoid being trapped in stone. On a failure, creatures or objects caught in the area are encased; To escape, they must pass an Escape Artist or Strength check (equal to your bury geomancing DC) as a full-round action; alternatively, a creature may break free by dealing sufficient damage to the rock or stone. Stone has a hardness of 15 and 2 hit points per inch. On a successful save, affected targets are still entangled and immobilized until they escape or 1 minute per caster level, whichever comes first.
+
+**Table: Sandstone**
+||~ Minimum Caster Level ||~ Required Radius of Dirt/Sand ||~ Created Rock or Stone Size ||~ Maximum Target Size ||~ Encased Rock or Stone Weight (maximum) || 
+|| 1 || 1-ft. radius || Diminutive || Small || 1 lbs || 
+|| 1 || 5-ft. radius || Tiny || Medium || 8 lbs || 
+|| 2 || 10-ft. radius || Small || Large || 60 lbs || 
+|| 4 || 15-ft. radius || Medium || Huge || 500 || 
+|| 8 || 20-ft. radius || Large || Gargantuan || 2 tons || 
+|| 16 || 25-ft. radius || Huge || Colossal || 16 tons || 
+|| 32 || 30-ft. radius || Gargantuan || Colossal+ || 125 tons || 
 
 +++ ##000000|Speak with Stone (earth, spirit) [Core]##
 You may spend a spell point to speak with stones for 1 minute per caster level. This is not truly accomplished through speech, but rather by touching a stone you may learn what else has touched it, passed by it, what is hidden underneath it, etc. You can tell depth, weight, size, and number of passers by, but not more detailed information (the names or conversations of passers by, for instance). You can speak with both natural or worked stone.
@@ -235,6 +259,9 @@ When using tremor, you may have the shaken earth create stalagmite-like formatio
 
 +++ ##000000|Stoneskin (earth, spirit)##
 You may spend a spell point as a standard action to gain DR/adamantine equal to 1/2 your caster level for 1 minute per caster level. Once this has absorbed damage equal to 10 per caster level, it immediately ends even if its duration has not expired.
+
++++ ##000000|Unearth (earth, geomancing) [Apoc]##
+As a concentration effect, you may manipulate the earth surrounding a creature or object forcing them to be pushed or pulled 5 ft. + 5 ft. per 5 caster levels each round toward the surface (Fort save negates). While affected, the target is unable to burrow or Earth Glide, but is otherwise unimpeded. You may only target a creature or object whose location you have pinpointed (such as with a successful Perception check or with tremorsense). Unless the target has Earth Glide, the creature cannot be forcefully moved through stone (or lava if the target possesses fire resistance 20+ or fire immunity), but rather only sand or dirt. Each round, the target is allowed a new Fortitude save to end the effect.
 
 +++ ##000000|Whirlwind (earth, geomancing) [Core]##
 You may create a vortex out of sand or loose dirt. This is the same as a vortex made in water, except it travels over land. A whirlwind must remain in contact with the ground at all times, and may not fly.
@@ -415,6 +442,9 @@ You may spend a spell point as a standard action to grow plantlife all over your
 
 +++ ##000000|Feed on Fire (fire, spirit) [Core]##
 You may spend a spell point to gain the ability to absorb energy from fire for 1 minute per caster level. You gain fire resistance equal to your caster level. Whenever you take damage from fire (whether or not it is enough to penetrate your fire resistance), you are healed an amount equal to 1/2 the fire damage dealt, to a maximum amount equal to 1/2 the fire resistance granted by this ability (minimum: 1). Damage dealt in excess of this amount is handled normally.
+
++++ ##000000|Foundation (earth, spirit) (requires dirt, sand, or stone) [Apoc]##
+While concentrating on any Earth geomancing ability, you gain a deflection bonus to AC and CMD equal to 2 +1 per 5 caster levels. Alternatively, you may as a standard action spend a spell point to gain these benefits for 1 minute per caster level. However, you temporarily lose these benefits on any round that you end your turn not standing on dirt, sand, or stone.
 
 +++ ##000000|Naturesight (spirit)##
 As a concentration effect, you gain an extraordinary sense depending on geomancing you possess. Those with earth geomancing gain tremorsense, fire geomancers gain lifesense, metal geomancers gain blindsense, plantlife geomancers gain greensight, and water geomancers gain mistsight, each with a range of Close (25 ft + 5 ft/2 caster levels). Those with the nature spirit drawback may choose any singular extraordinary sense listed here each time they use this ability.
