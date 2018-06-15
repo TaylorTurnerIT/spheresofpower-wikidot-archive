@@ -72,6 +72,22 @@ Unlike a ritual book, a spellbook is simply a notebook detailing the theory invo
 **Crafting Time** 4 days
 **Effect** This spell covers the target is a writhing mass of vines, which both defend and attack. The target gains an aegis that grants them a +3 armor bonus, +1 per 5 caster levels. This does not stack with any armor the creature is already wearing. Any time a creature who comes within 5 ft + 5 ft per 5 caster levels of the target, whether by its own movement or when the bearer of the armor of vines moves past it, this armor reaches out a vine in an attempt to bind that creature. Any creature affected in this manner must pass a Reflex save or become entangled. If a creature is entangled in this fashion they cannot move, although they cease to be entangled once the bearer of this aegis moves away from them. Once a target is entangled, they may end this condition through a Strength check or Escape Artist check, as detailed in the entangle ability of the Nature sphere.
 
+++ ##000000|Bless/Corrupt Earth (earth) [curse]##
+**Sphere** Nature
+**Cost** 2 spell points
+**Casting Time** full-round action
+**Range** close
+**Duration** instantaneous; see text
+**Prerequisites** Fate sphere, Nature sphere (earth package), Forge Earth
+**Crafting Time** 3 days
+**Effect** This spell functions as the Forge Earth talent, except that you may also choose to bless or curse the affected land for 1 year per 2 caster levels (minimum 1 year).
+
+__Enrichment:__ Earth that is blessed, will yield a 50% more crops, attempting to use magic to grow plants in this area will grant a luck bonus to its caster level equal to +1 per 5 caster levels (minimum 1).
+
+__Stunt Growth:__ Earth that is cursed, will yield 50% less crops, attempting to use magic to grow plants in this area will grant a penalty to its caster level equal to -1 per 5 caster levels (minimum -1).
+
+You can only have one bless/corrupt earth spell in effect at one time. If you cast this spell while another casting is still in effect, the previous casting is dispelled. In addition, an area can only be under the effect of one instance of either bless earth or corrupt earth at a time. Casting bless earth on an area affected by corrupt earth requires a successful magic skill check (which dispels the effect). Casting corrupt earth on an area affected by bless earth requires a successful magic skill check (which dispels the effect). Dispelling bless/corrupt earth only removes the enrichment or stunt growth properties of the spell.
+
 ++ ##000000|Blessing of Time##
 **Sphere** Protection
 **Cost** 2 spell points
@@ -141,6 +157,18 @@ Unlike a ritual book, a spellbook is simply a notebook detailing the theory invo
 **Prerequisites** Destruction sphere (Force Blast, Explosive Orb)
 **Crafting Time** 3 days
 **Effect** You throw yourself at the ground, shaking the earth as you land. When you use this ability, you may move up to your speed in a straight line. This movement provokes attacks of opportunity as normal. When you end this movement, all targets within 10 ft of you +5 ft per 5 caster levels suffer 1d6 force damage per caster level and fall prone. A successful Reflex save halves this damage and the creature does not fall prone.
+
+++ ##000000|Earth Surfing (earth, spirit)##
+**Sphere** Nature
+**Cost** 2 spell points
+**Casting Time** full-round action
+**Range** personal
+**Duration** concentration
+**Prerequisites** Nature sphere (earth package), Telekinesis sphere
+**Crafting Time** 3 days
+**Effect (requires stone):** This spell moves the earth beneath the caster granting one of the following each round:
+* Increases the caster’s land speed by 10 ft. + 5 ft. per 5 caster levels.
+* Moves the caster over land at a speed of 40 ft. + 20 ft. per 5 caster levels. This movement does not provoke attacks of opportunity, is not impacted by difficult terrain, and occurs even if the caster is immobilized or would suffer movement speed penalties.
 
 ++ ##000000|Embrace of Flame##
 **Sphere** Nature
@@ -220,6 +248,32 @@ The flaming sphere must remain within Medium range of the caster at all times, o
 **Crafting Time** 1 day
 **Effect** The target gains an aegis, granting him a +1 Deflection bonus to AC for as long as you concentrate. This bonus increases by 1 for every 5 caster levels possessed.
 
+++ ##000000|Mudslide (earth, water, geomancing)##
+**Sphere** Nature
+**Cost** 2 spell points
+**Casting Time** full-round action
+**Area** 10-ft. line, +5 ft. per 5 caster levels
+**Duration** instantaneous
+**Saving Throw** Reflex half; Spell Resistance yes
+**Prerequisites** Nature sphere (earth package, water package, Wave)
+**Crafting Time** 3 days
+**Effect** Those within the area of effect must make a Reflex save or take 2d4 +1d4 per caster level bludgeoning damage and become immobilized as per bury from the earth geomancing package. Those that make the Reflex save only take half damage and are not immobilized. If combined with Create Water, the size of the line increases to 30 ft. + 5 ft. per 2 caster levels.
+
+++ ##000000|Sand Barrier (earth, geomancing)##
+**Sphere** Nature
+**Cost** 2 spell points
+**Casting Time** full-round action
+**Range** close (25 ft. + 5 ft. per 2 caster levels)
+**Duration** concentration
+**Saving Throw** none; **Spell Resistance** no
+**Prerequisites** Nature sphere (earth package), Protection sphere
+**Crafting Time** 3 days
+**Effect** (requires sand or loose dirt): You may create a 10 ft. + 5 ft. per 5 caster levels radius wall of sand within range. The wall is spherical in shape and stops movement, and blocks both line of sight and line of effect. The sand barrier grants both total cover and total concealment against creatures on opposite sides of the wall while the wall is at full hp, or partial cover and concealment if at half hit points or more. A sand barrier with less than half its hit points remaining does not block line sight, line of effect, or grant cover or concealment. If creating the wall would cause it to go through a creature or animated object, the sand barrier shunts the creature just outside the effect of the sphere. Creatures who are ethereal or who possess a burrow speed do not have their movement impeded by the wall.
+
+The wall has a hardness of 4 + 1 per 5 caster levels, hit points equal to your caster level (minimum 1), and a Break DC of 15 + 1/2 your caster level. If an attack is directed at a target through the wall, the attack first deals its damage to the wall itself. If this damage is enough to destroy the wall, the attack continues on its intended target, although damage dealt to the wall is subtracted from any damage done to the target or targets. Burst-effect attacks such as splash weapons, fireball spells, or others attempting to travel through the wall explode at the barrier’s edge and also must overcome the wall’s hp to damage the targets on the other side.
+
+If you maintain your wall through concentration, its hp is renewed each round on your turn.
+
 ++ ##000000|Shatter Mind and Body##
 **Sphere** Destruction
 **Cost** 1 spell point
@@ -231,6 +285,16 @@ The flaming sphere must remain within Medium range of the caster at all times, o
 **Prerequisites** Destruction sphere (Frost Blast, Nether blast)
 **Crafting Time** 3 days
 **Effect** This spell creates a ball of swirling energy that the caster hurls as a ranged touch attack. The target suffers 1d6 points of damage per caster level, half of which is frost damage, the other half negative energy. If the target is struck, they must make both a Fortitude save and a Will save. If the target fails their Fortitude saving throw, they are staggered for 1 round. If the target fails their Will save, they are shaken for 1 round. If the target is undead, they do not suffer the negative energy damage and instead must make a Will save or be frightened for 1 round.
+
+++ ##000000|Stalagmite (earth, geomancing)##
+**Sphere** Nature
+**Cost** 2 spell points
+**Casting Time** full-round action
+**Duration** concentration
+**Saving Throw** Reflex half; **Spell Resistance** yes
+**Prerequisites** Nature sphere (earth package), Destruction sphere (crystal blast)
+**Crafting Time** 3 days
+**Effect (requires sand or loose dirt)** This spell functions as dust storm from the earth package. Each round while it is in effect, you may as a swift action cause a stalagmite to instantaneously solidify out of the sand, impaling a target within the sand cloud. The stalagmite deals 2d4 + 1d4 points of piercing damage per caster level (Reflex half). In addition, a target that fails to make a saving throw against this spell and takes damage from it is impaled on the stalagmite and cannot move from its current location until it makes an Escape Artist or Strength check against the spell’s DC. All stalagmites created fall away naturally once the dust storm ends and can be removed in other ways as well, such as dealing 3 points of damage per caster level to the stalagmite. The stalagmite is 1 ft. wide at its base and rises 5 ft. + 5 ft. per 5 caster levels tall. If it encounters a ceiling before it reaches its maximum height, it stops growing.
 
 ++ ##000000|Violent Winds##
 **Sphere** Destruction
