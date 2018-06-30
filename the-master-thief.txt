@@ -25,7 +25,7 @@ N Medium humanoid (human)
 
 **Str** 10, **Dex** 16, **Con** 12, **Int** 18, **Wis** 10, **Cha** 8
 **Base Atk** +0; **CMB** +0 (+3 Dirty Trick/Steal); **CMD** 13
-**Feats** Point-Blank Shot, Rapid Reload
+**Feats** Extra Combat Talent (Barrage sphere), Extra Combat Talent (Equipment: Expert Reloading)
 **Traits** reactionary, seeker
 **Skills** Appraise +8, Bluff +3, Craft (traps) +8, Diplomacy +3, Disable Device +7, Knowledge (dungeoneering) +8, Knowledge (engineering) +8, Knowledge (geography) +8, Knowledge (local) +8, Perception +5 (+6 To Locate Traps), Profession (trapper) +4, Sense Motive +4, Sleight of Hand +6 (+8 to Conceal Weapon On Yourself), Stealth +6, Use Magic Device +3
 **Languages** Common, Dwarven, Elven, Gnome, Halfling
@@ -34,7 +34,17 @@ N Medium humanoid (human)
 
 ++ ##000000|Special Abilities##
 
+**Barrage Sphere** Barrage practitioners specialize in using ranged weapons to make fast shots, often from the middle of the melee itself. Practitioners of the Barrage sphere gain a +1 bonus on attack and damage rolls with ranged weapons at ranges of up to 30 ft. Associated Feat: Point-Blank Shot.
+
+All practitioners of the Barrage sphere gain the following ability: Barrage.
+
+**Barrage: Barrage** As a special attack action, you may make two ranged attacks at your full base attack bonus -2. Beginning at 6 base attack bonus, you may expend your martial focus to make an additional extra attack, increasing the penalty to all your attacks from -2 to -4. For every 5 points of base attack bonus you possess, when expending your martial focus you may increase this penalty by an additional -2 to make an additional extra attack.
+
+Some talents are marked (blitz). You may apply a maximum of one (blitz) per extra attack to a barrage, but only if the barrage meets the prerequisites, including that attack (for example, if a (blitz) requires a target be struck twice, you can only apply that (blitz) to a target that has been struck twice. If he is struck a third time, you could apply a second (blitz) that requires at least two attacks to that target). __Associated Feat:__ Rapid Shot
+
 **Combat Training** A technician may combine combat spheres and talents to create powerful martial techniques. Technicians are considered Adept combatants and use Intelligence as their practitioner modifier.
+
+**Equipment: Expert Reloading** Whenever you reload a ranged weapon with which you are proficient, you may decrease the required time; hand and light crossbows become free actions, heavy crossbows and one-handed firearms become move actions, and two-handed firearms become standard actions. If you possess the Crossbow Mastery feat, you do not provoke attacks of opportunity when reloading any crossbow. __Associated Feat:__ Rapid Reload.
 
 **Equipment: Rogue Weapon Training (Discipline)** You gain proficiency with the blade boot, butterfly knife, garrote, hand crossbow, kukri, rapier, sap, short sword, shortbow, starknife, switchblade knife, sword cane, war razor, and whip. Additionally, you gain a +2 competence bonus to Sleight of Hand checks made to conceal a weapon on your person. At +10 base attack bonus, this competence bonus increases to +4.
 
@@ -79,10 +89,6 @@ Some inventions have prerequisites, which must be met before the invention can b
 Creating an invention takes 8 hours of work. The work need not be consecutive, and the technician can do this work while out adventuring, but in that situation he can only devote 4 hours each day to item creation, and only nets 2 hours’ worth of work due to being in a distracting environment. Once the invention has been created, altering its improvements requires only 1 hour of work.
 
 **Martial Tradition: Thief** Thieves avoid fair fights whenever possible. Their favorite tactic is to take their opponents unaware, but barring that, a dirty trick or a well-placed feint will let them end the fight quickly. __Talents:__ Equipment: Rogue Weapon Training, Scoundrel Sphere, Fencing Sphere, Variable: Scoundrel Talent
-
-**Point-Blank Shot** +1 to attack and damage rolls with ranged weapons at up to 30 feet.
-
-**Rapid Reload (Hand crossbow)** You can reload fast with one type of Crossbow or Firearm.
 
 **Scoundrel Sphere** Masters of subtlety and guile, practitioners of the Scoundrel sphere know how to best manipulate opponents into dropping their guard before taking them for everything they have. When you gain the Scoundrel sphere, you gain 5 ranks in the Sleight of Hand skill, plus 5 ranks per additional talent spent in the Scoundrel sphere (maximum ranks equal to your total Hit Dice). If you already have ranks in the Sleight of Hand skill you may immediately retrain them, but you do not get to retrain when only temporarily gaining talents, such as through the armiger’s customized weapons class feature.
 
@@ -140,7 +146,7 @@ Unlike some thief types, you aren't too Charismatic, so Charisma is a dump stat.
 
 +++ ##993300|Playing The Master Thief##
 
-This build has a lot going on at first level, so you'll want to pay careful attention to your options. Your main offense is your hand crossbow, which does 1d4+1d4 damage thanks to your first Invention. Don't forget about Point-Blank Shot, which adds 1 to your accuracy and damage when you're within 30 feet. If you can go before the enemy, you can also add another 1d6 damage from the Fencing: Fatal Thrust ability. Rapid Reload will help you keep firing when that's what you want to do. This build has already purchased 30 crossbow bolts, which should see you through your first adventure. Buy more if you want to.
+This build has a lot going on at first level, so you'll want to pay careful attention to your options. Your main offense is your hand crossbow, which does 1d4+1d4 damage thanks to your first Invention. Don't forget about the passive of the Barrage sphere, which adds 1 to your accuracy and damage when you're within 30 feet. If you can go before the enemy, you can also add another 1d6 damage from the Fencing: Fatal Thrust ability. Expert Reloading will help you keep firing when that's what you want to do. This build has already purchased 30 crossbow bolts, which should see you through your first adventure. Buy more if you want to.
 
 You have three other major groups of options.
 
@@ -154,9 +160,9 @@ Aside from your direct abilities, you also have a lot of skills, with talents ra
 
 +++ ##993300|Future Abilities##
 
-As you level up, think about the options you use most frequently and either expand those or cover any weak spots that seem to be holding you down. You can deal some damage with your crossbow attacks, especially when enemies are flat-footed, but you're ultimately a ranged character. Think about what you can do with your traps to inflict debuffs and slow your foes so the heavy-hitters can take them down for good.
+As you level up, think about the options you use most frequently and either expand those or cover any weak spots that seem to be holding you down. You can deal some damage with your crossbow attacks, especially when enemies are flat-footed, but you aren't necessarily great at damage. Think about what you can do with your traps to inflict debuffs and slow your foes so the heavy-hitters can take them down for good.
 
-If you want to do well in offense //and// debuffs, invest in the Fencing Sphere. **Fast Feint** is a particularly helpful option that will let you move towards //or// away from your target. **Feint Strike** can help you do way more each round, though it doesn't play too well with the Scoundrel Sphere in general. Consider retraining out of Scoundrel in its entirety - and changing your Martial Tradition before your game begins - if you want more offense.
+If you want to do well in offense //and// debuffs, invest in the Fencing Sphere. **Fast Feint** is a particularly helpful option that will let you move towards //or// away from your target. **Feint Strike** can help you do way more each round, though it doesn't play too well with the Scoundrel Sphere in general. Consider retraining out of Scoundrel in its entirety - and changing your Martial Tradition before your game begins - if you want more offense. The Barrage sphere is good for pure damage.
 
 Also, consider picking up the Scout sphere when you can. You're probably going to be sneaking around a lot, and it has many talents that can help you with that.
 
