@@ -190,6 +190,9 @@ Some talents are marked (plant), (water), (fire), (earth), or (metal)^^1^^. You 
 ----
 + ##000000|Nature Talents##
 
++++ ##000000|Deep Nature [Apoc]##
+When you spend a spell point to make a geomancing ability last for 1 round per caster level without concentration, it lasts for 1 minute per caster level instead. When you spend a spell point to make a (spirit) talent last for 1 minute per caster level without concentration, it lasts for 10 minutes per caster level instead.
+
 +++ ##000000|Expanded Geomancing [Core]##
 Choose and gain a geomancing package you do not already possess. You may select this talent multiple times, gaining a new package each time.
 
@@ -358,6 +361,9 @@ You no longer require large quantities of earth to use recover ore, instead, you
 +++ ##000000|Manipulate Object (metal, geomancing)##
 Requires metal. As an instantaneous effect, you may, as a standard action, spend 2 spell points and target an unattended object (even non-metal objects) within close range. The target becomes fused with metal, permanently increasing or decreasing the hardness and AC of the object by 1, +1 per 5 caster levels. An object may only be under the effects of one manipulate object at a time, as each future casting dismisses and replaces the previous casting. This grants no further benefit or penalties due to the metals used.
 
++++ ##000000|Metallord (metal) [Apoc]##
+When you use the recover ore ability, you may create ore 1 size category larger than you otherwise could due to the maximum earth required or any CL restriction.
+
 +++ ##000000|Oxidation Ray (metal, geomancing)##
 As an instantaneous effect, you may, as a standard action, spend a spell point to make a ranged touch attack against a metal object or metal creature. If the target’s size is one or more sizes larger than the size of ore that you can recover, the creature or object takes 1d8 damage per 2 caster levels (Fortitude for half damage), otherwise the target takes 1d8 per caster level (Fortitude for half damage). This damage overcomes any hardness the creature or object may have. If an object receives sufficient damage to destroy it, it instead becomes non-functional for 1 minute per 2 caster levels, before returning to the broken condition with half their maximum hit points.
 
@@ -410,8 +416,14 @@ You may spend a spell point as a standard action to grow plantlife all over your
 +++ ##000000|Grow Plants (plantlife, geomancing) [Core]##
 As an instantaneous effect, you may spend a spell point to instantaneously grow plants in an area within range. This may create one tree (to a maximum size equal to that which you can control through the pummel geomancing ability) or a field of plants within a 5 ft radius + 5 ft per 5 caster levels area. This may create basic plants (corn, underbrush, ivy) but cannot create plants with inherent qualities (i.e., you cannot create rare herbs, etc.). While this is its own geomancing ability, you may combine this effect with another plant package geomancing ability as part of the same standard action, in which case the second geomancing ability comes into effect immediately. You must pay any costs associated with both abilities to combine them in this manner.
 
++++ ##000000|Mass Pummel (plantlife) [Apoc]##
+When using pummel, you may spend an additional spell point. If you do, you may affect an additional number of branches equal to 1 +1 per 5 CL.
+
 +++ ##000000|Nauseating Fog (plantlife, water)##
 Whenever you use the water geomancing fog ability, you may spend an additional spell point to cause the cloud to become nauseating, in addition to its other effects. Each creature in the area of the fog must make a Fortitude save or gain the nauseated condition, making them unable to attack, cast spells, concentrate on spells, or do anything else requiring attention. The only action a nauseated creature can take is a single move action per turn. This condition lasts as long as the creature is in the cloud and for a single round after it leaves. Any creature that succeeds on its save but remains in the cloud must continue to save each round on your turn.
+
++++ ##000000|Plantlord (plantlife) [Apoc]##
+When using pummel, you may animate trees or branches one size category larger than you are normally able. When using Grow Plants, treat your CL as 5 higher for the purpose of determining the maximum tree size which you can create.
 
 +++ ##000000|Ranged Pummel (plantlife)##
 When using the pummel geomancing ability, the tree branches may throw vegetation as a ranged attack instead of only making melee slam attacks. The attack is treated as a thrown weapon with a range increment equal to twice the tree branch’s reach. The attack roll and damage otherwise remain unchanged.
@@ -514,6 +526,9 @@ Whenever you use the water geomancing fog ability, you may spend an additional s
 
 +++ ##000000|Speak with Water (water, spirit)##
 You may spend a spell point to speak with water for 1 minute per caster level. This is not truly accomplished through speech, but rather by dipping a limb into the water you may learn what else has touched it, passed by it, what is hidden underneath it, etc. You can tell depth, weight, size, and number of passers by, but not more detailed information (the names or conversations of passers by, for instance). Because water is constantly moving, you can only receive information on things that have occurred less than 1 day per caster level ago. You can speak with both fresh or salt bodies of water. If attempting to converse with particularly large bodies of water, such as oceans, you can only aquire information from a portion of the body of water, to a maximum distance of 1000 ft +100 ft per caster level.
+
++++ ##000000|Waterlord (water) [Apoc]##
+When using freeze, you may affect twice as many equivalent medium-sized creatures without affecting the thickness of the ice.
 
 +++ ##000000|Waterwalk (water, spirit) [Core]##
 You may spend a spell point to gain the ability to walk on water for 1 minute per caster level. Water and all other liquid becomes solid to you, allowing you to move over it as if it were normal ground. Especially turbulent water (such as during a storm) may count as difficult terrain. You may always choose to sink into the water and swim if you so desire, in which case you are considered to have a Swim speed equal to your land speed, granting you all the usual benefits of a Swim speed, including a racial +8 bonus to Swim checks. This does not, however, grant you the ability to breath underwater.
