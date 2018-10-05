@@ -12,6 +12,27 @@ Geomancing effects come in two forms: instantaneous and concentration. Instantan
 
 When a caster gains the nature sphere, he chooses and gains one of the following geomancing packages, with its included abilities. A caster may gain the Expanded Geomancing talent to gain additional packages.
 
+++ ##000000|Air [Apoc]##
+
+Sphere talents and abilities from the air geomancing package have difficulty being performed inside areas with windy conditions. If an air package effect is created inside a weather effect with a wind severity level greater than 2, you must pass a magic skill check against the creator of the weather effect (you automatically succeed in weather conditions you yourself create).
+
+If the weather effect is naturally occurring (or otherwise lacks a magic skill defense), use the following values for the weather’s magic skill defense: MSD 12 for Strong, MSD 18 for Severe, MSD 25 for Windstorm, MSD 32 for Hurricane, and MSD 39 for Tornado. Succeeding the magic skill check doesn’t dispel the weather effect, but allows the air package to occur in spite of it.
+
++++ ##000000|Breeze##
+(concentration, requires air)
+
+You create a light wind that remains swirling around its target. The breeze grants the target a circumstance bonus equal to 2 +1 per 5 caster levels on saves against very hot conditions, severe heat, and saves against clouds, vapors, and gases (such as cloudkill, stinking cloud, and inhaled poisons).
+
++++ ##000000|Gust of Wind##
+(instantaneous, requires air)
+
+You may create a line-shaped gust of wind emanating out from you, affecting all creatures within range. The severity level of the wind is 3 + 1 per 5 caster levels (see the Wind category of the Weather sphere for more information).
+
++++ ##000000|Purify Air##
+(concentration, requires air, gas, or vaporous substance)
+
+You may convert polluted air, or a non-breathable gas or vapor into a cloud of breathable air in a radius of 5 ft. + 5 ft. per 5 caster levels radius area centered within range. Creatures who are entirely within the area of the cloud are able to breathe in sufficient air to sustain them.
+
 ++ ##000000|Earth [Core]##
 
 +++ ##000000|Bury##
@@ -210,6 +231,7 @@ As an instantaneous effect, you may, as a standard action, spend 2 spell points 
 
 **Nature’s Barrier**
 ||~ ||~ Transparent Example ||~ Opaque Example || 
+|| Air || Mist || Cloud ||
 || Earth || Glass || Stone || 
 || Fire || Flames || Lava || 
 || Metal || Bars or Grate || Metal || 
@@ -221,6 +243,45 @@ As a concentration effect, you may spend a spell point to create a canopy made o
 
 +++ ##000000|Spiritlord [Apoc]##
 When concentrating on a (spirit) talent, gain concealment (20% miss chance). Alternatively you may spend an additional spellpoint when concentrating on a (spirit) talent to gain total concealment instead (50% miss chance).
+----
++ ##000000|Air Talents##
+
++++ ##000000|Absorbing Inhalation (air, spirit)##
+As a concentration effect, you may as a standard action grant your lungs inhuman strength and capacity, allowing you to harmlessly and completely inhale one gas, fog, smoke, mist, or similar cloud-like effect during the duration of the talent. The cloud-like effect can have no larger of a radius than 10 ft. + 5 ft. per 5 caster levels. If the targeted cloud is a magical effect, you must succeed at a magic skill check to inhale it. Inhaling the cloud removes it from the area, leaving normal breathable air in its place. Gaseous creatures gain a Reflex save to avoid being inhaled. This talent can only affect an instantaneous-duration cloud (such as a breath weapon) if you ready an action to utilize the talent in response.
+
+You may keep the cloud harmlessly contained within you for as long as the talent remains active, but you must hold your breath do do so (even if you do not normally have to breathe).
+
+If the cloud has a duration, the time the cloud is contained within you counts toward that duration (gaseous creatures are immediately and harmlessly exhaled should their gaseous form expire). As a standard action, you may release the stored cloud as a breath weapon, filling a 60-ft. cone (or the cloud’s original area, if smaller). Any creature in the breath’s area is subject to its normal effects, making saving throws and spell resistance checks as appropriate against the cloud’s original DC. The exhaled cloud resumes its duration, if any. Exhaling the stored cloud immediately ends the duration of this talent. If you do not exhale the cloud before this talent’s duration expires, you suffer the cloud’s effects, automatically fail any saving throw made to resist it, and exhaling any gaseous creatures inhaled.
+
++++ ##000000|Air Ball (air, spirit) (requires air) [Apoc]##
+As a concentration effect, you may as a standard action create a rideable sphere of compressed air, which supports your weight. While riding the sphere, you ignore difficult terrain that is less than 1 foot high, you do not trigger effects based on weight (such as a pressure plate), and any creature trying to track you through areas you crossed with this spell takes a -10 penalty on its Perception or Survival check to do so. While riding the air ball, you cannot pass over liquid greater than 1 foot deep. In addition, because of the instability of the sphere, your speed is reduced by 10 ft. (to a minimum of 5 ft.) and you take a -4 penalty on Acrobatics, Climb, and Ride checks.
+
++++ ##000000|Air Geyser (air, geomancing) (requires air) [Apoc]##
+As an instantaneous effect, you may as a standard action create a powerful blast of air capable of flinging a Medium-sized or smaller target within range upward into the air (Reflex negates). If the target fails its Reflex save, the force of air hurls the target upward a number of feet equal to 5 x your caster level. If a solid object (such as a ceiling) is encountered, the target strikes the object in the same manner as it would during a normal fall. After this blast of air ceases, the target falls down (unless it was flying), taking falling damage as normal. The maximum size of the target increases by 1 size category every 5 caster levels.
+
++++ ##000000|Air Leap (air) [Apoc]##
+As long as you are surrounded by air or some other gaseous substance, you are always considered to have a running start when jumping. You add your caster level as a bonus on all Acrobatics checks to jump, you jump twice as far or high as the results of your check indicate, and you can once per round as a free action spend 1 spell point when jumping to double the distance you jump again (to a total of four times as far).
+
++++ ##000000|Air Support (air, spirit) (requires air) [Apoc]##
+You may as a standard action spend a spell point to increase or decrease your movement speed by 10 ft. + 10 ft. per 5 caster levels (applying to all movement modes) for 1 minute per caster level.
+
++++ ##000000|Airlord (air) [Apoc]##
+You no longer need to make magic skill checks to use a Nature sphere talent or ability from the air geomancing package in areas with weather conditions of wind severity levels of 3 or higher.
+
++++ ##000000|Buffeting Winds (air, geomancing) (requires air) [Apoc]##
+As an instantaneous effect, spend a spell point as an immediate action to respond to the attack with calculated bursts of wind. If responding to a melee attack, gain a deflection bonus to AC against the attack equal to 1 + 1 per 5 caster levels. If responding to a ranged attack, gain a 10% miss chance against the attack, increasing by 10% per 5 caster levels. In addition, during the round in which this talent is used, you gain moderate fortification (50% chance to negate a critical hit or sneak attack). You must be aware of the attack to use Buffeting Winds.
+
++++ ##000000|Create Air (air, geomancing) [Apoc]##
+As an instantaneous effect, you may spend a spell point to create a cloud of air anywhere within range. This creates one 5-ft. cube per 2 caster levels (minimum: 1 cube) of breathable air. While this is its own geomancing ability, you may combine this effect with another air package geomancing ability as part of the same standard action, in which case the second geomancing ability comes into effect immediately. You must pay any costs associated with both abilities to combine them in this manner. The created cloud of air will immediately displace other gases, liquids, and vapors in the area, but will shortly thereafter behave as normal air. For example, if this talent is used underwater, the created air cloud will form a bubble that will begin to ascend to the surface.
+
++++ ##000000|Feather Fall (air, spirit) (requires air) [Apoc]##
+As a concentration effect, you may spend a spell point as an immediate action to cause you and your equipment to fall slowly, changing the rate at which you fall to a mere 60 ft. per round (equivalent to the end of a fall from a few feet), and you take no damage upon landing while the talent is in effect. When the duration expires, a normal rate of falling resumes.
+
++++ ##000000|Steal Breath (air, geomancing) [Apoc]##
+As a concentration effect, you may as a standard action spend a spell point to pull the breath from a living creature’s lungs within range, leaving it unable to speak, use breath weapons, cast spells with verbal components, or anything else requiring breathing (Fortitude negates). Each round, the target has the remainder of the duration for which it can hold their breath reduced by double the normal amount (a target taking only move, swift, or free actions loses 2 rounds of breath each round, while a target taking standard or full-round actions loses 4 rounds of breath each round). If, during the duration, the target moves out of range or line of effect from you, the effect immediately ends. For the purpose of this talent, a barrier from the Protection sphere breaks line of effect. This talent has no effect on creatures that do not need to breathe air.
+
++++ ##000000|Wind Blades (air, geomancing) [Apoc]##
+(requires air) As a concentration effect, you may as a standard action create an cloud of harsh winds affecting a 10 ft. + 5 ft. per 5 caster levels radius area within range. Any creature or object moving in the area must make a Fortitude save or take 1d6 points of slashing damage for the first 5 ft. of movement, plus an additional 1d6 points of slashing damage for every additional 10 ft. of movement. Movement that doesn’t pass through the air cloud (such as burrowing, swimming, or teleportation) doesn’t cause this damage. If cast in an area with wind severity level above 2, increase the damage die by 1 size accordingly (d8 for strong, d10 severe, 2d6 windstorm, 2d8 hurricane, 3d6 tornado).
 ----
 + ##000000|Earth Talents##
 
@@ -447,6 +508,19 @@ When affected by an entangle effect, flying creatures are pulled to the ground b
 ----
 + ##000000|Spirit Talents##
 
++++ ##000000|Absorbing Inhalation (air, spirit) [Apoc]##
+As a concentration effect, you may as a standard action grant your lungs inhuman strength and capacity, allowing you to harmlessly and completely inhale one gas, fog, smoke, mist, or similar cloud-like effect during the duration of the talent. The cloud-like effect can have no larger of a radius than 10 ft. + 5 ft. per 5 caster levels. If the targeted cloud is a magical effect, you must succeed at a magic skill check to inhale it. Inhaling the cloud removes it from the area, leaving normal breathable air in its place. Gaseous creatures gain a Reflex save to avoid being inhaled. This talent can only affect an instantaneous-duration cloud (such as a breath weapon) if you ready an action to utilize the talent in response.
+
+You may keep the cloud harmlessly contained within you for as long as the talent remains active, but you must hold your breath do do so (even if you do not normally have to breathe).
+
+If the cloud has a duration, the time the cloud is contained within you counts toward that duration (gaseous creatures are immediately and harmlessly exhaled should their gaseous form expire). As a standard action, you may release the stored cloud as a breath weapon, filling a 60-ft. cone (or the cloud’s original area, if smaller). Any creature in the breath’s area is subject to its normal effects, making saving throws and spell resistance checks as appropriate against the cloud’s original DC. The exhaled cloud resumes its duration, if any. Exhaling the stored cloud immediately ends the duration of this talent. If you do not exhale the cloud before this talent’s duration expires, you suffer the cloud’s effects, automatically fail any saving throw made to resist it, and exhaling any gaseous creatures inhaled.
+
++++ ##000000|Air Ball (air, spirit) (requires air) [Apoc]##
+As a concentration effect, you may as a standard action create a rideable sphere of compressed air, which supports your weight. While riding the sphere, you ignore difficult terrain that is less than 1 foot high, you do not trigger effects based on weight (such as a pressure plate), and any creature trying to track you through areas you crossed with this spell takes a -10 penalty on its Perception or Survival check to do so. While riding the air ball, you cannot pass over liquid greater than 1 foot deep. In addition, because of the instability of the sphere, your speed is reduced by 10 ft. (to a minimum of 5 ft.) and you take a -4 penalty on Acrobatics, Climb, and Ride checks.
+
++++ ##000000|Air Support (air, spirit) (requires air) [Apoc]##
+You may as a standard action spend a spell point to increase or decrease your movement speed by 10 ft. + 10 ft. per 5 caster levels (applying to all movement modes) for 1 minute per caster level.
+
 +++ ##000000|Animal Friend (spirit) [Core]##
 You may spend a spell point as a standard action to cause animals to treat you as a friend for 1 minute per caster level. Indifferent animals (such as domesticated animals) become Friendly to you, while Unfriendly animals (such as wild animals) become Indifferent to you. This means that wild animals will not attack unless provoked, and you may make requests of animals, provided you may communicate with them (if you cannot communicate with a creature, only basic commands such as ‘go’, ‘come’, ‘fight’, or ‘stay’ may be communicated). This has no effect on animals who are hostile to you (such as those already in combat), and an animal with a master (such as an animal companion) will still attack if commanded to by its master.
 
@@ -455,6 +529,9 @@ Once during the duration of this ability, you may call the nearest animal of a p
 +++ ##000000|Barkskin (plantlife, spirit)##
 You may spend a spell point as a standard action to grow plantlife all over your body for 1 minute per caster level. This grants you a +1 enhancement bonus to natural armor, + 1 per 5 caster levels. In addition, in natural environments you gain a circumstance bonus to Stealth equal to 1/2 your caster level (minimum 1). You lose this circumstance bonus to Stealth in any round that it moves 5 or more feet.
 
++++ ##000000|Feather Fall (air, spirit) (requires air) [Apoc]##
+As a concentration effect, you may spend a spell point as an immediate action to cause you and your equipment to fall slowly, changing the rate at which you fall to a mere 60 ft. per round (equivalent to the end of a fall from a few feet), and you take no damage upon landing while the talent is in effect. When the duration expires, a normal rate of falling resumes.
+
 +++ ##000000|Feed on Fire (fire, spirit) [Core]##
 You may spend a spell point to gain the ability to absorb energy from fire for 1 minute per caster level. You gain fire resistance equal to your caster level. Whenever you take damage from fire (whether or not it is enough to penetrate your fire resistance), you are healed an amount equal to 1/2 the fire damage dealt, to a maximum amount equal to 1/2 the fire resistance granted by this ability (minimum: 1). Damage dealt in excess of this amount is handled normally.
 
@@ -462,7 +539,9 @@ You may spend a spell point to gain the ability to absorb energy from fire for 1
 While concentrating on any Earth geomancing ability, you gain a deflection bonus to AC and CMD equal to 2 +1 per 5 caster levels. Alternatively, you may as a standard action spend a spell point to gain these benefits for 1 minute per caster level. However, you temporarily lose these benefits on any round that you end your turn not standing on dirt, sand, or stone.
 
 +++ ##000000|Naturesight (spirit)##
-As a concentration effect, you gain an extraordinary sense depending on geomancing you possess. Those with earth geomancing gain tremorsense, fire geomancers gain lifesense, metal geomancers gain blindsense, plantlife geomancers gain greensight, and water geomancers gain mistsight, each with a range of Close (25 ft + 5 ft/2 caster levels). Those with the nature spirit drawback may choose any singular extraordinary sense listed here each time they use this ability.
+As a concentration effect, you gain an extraordinary sense depending on geomancing packages you possess. Those with air geomancing gain cloudsight, earth geomancers gain earthsight, fire geomancers gain firesight, metal geomancers gain metalsight, plant geomancers gain plantsight, and water geomancers gain watersense, each with a range of close (25 ft. + 5 ft. per 2 caster levels). Those with the nature spirit drawback may choose any singular extraordinary sense listed here each time they use this talent.
+
+//Cloudsight (Su):// You gain mistsight, except allowing you to only see through clouds of fog, mist, and smoke as if they were transparent. In addition, you don’t suffer miss chance from concealment or total concealment against creatures that are flying or have the air subtype provided they are within range of your cloudsight.
 
 +++ ##000000|Rejuvenation (spirit)##
 As a concentration effect, you may grant yourself fast healing equal to 1/2 your caster level (minimum 1). This fast healing only confers healing so long as you have 1/2 your maximum hit points or less (wounded or in critical condition).
