@@ -1,0 +1,512 @@
+title:Wraith
+[[module CSS]]
+.colored-links span > a {
+  color: inherit;
+}
+[[/module]]
+
+[[div class="colored-links"]]
+
+[[toc]]
+
+Emulating powerful and perilous creatures such as ghosts and shadow demons, wraiths gain the power to fade into the ether. A diverse group, each wraith is attuned to certain types of creatures or states of mind. This attunement can be exploited to seize control, turning foes into puppets. Some gain their talents from exposure to possessing entities, others obtain their power as part of returning from death themselves, or via other, more esoteric, paths.
+
+**Role:** Eerie casters able to slip out of phase with reality and leap into susceptible minds, seizing control.
+
+**Alignment:** Any
+
+**Hit Die:** d8
+
+**Starting Wealth:** 3d6 x 10 gp (average 105 gp). In addition, each character begins play with an outfit worth 10 gp or less.
+
+**Class Skills:** Bluff (Cha), Craft (Int), Disguise (Cha), Fly (Dex), Intimidate (Cha), Knowledge (arcana) (Int), Knowledge (history) (Int), Knowledge (nobility) (Int), Knowledge (religion) (Int), Linguistics (Int), Perception (Wis), Profession (Wis), Sense Motive (Wis), Spellcraft (Int), Stealth (Dex), Use Magic Device (Cha)
+
+**Skill Ranks Per Level:** 4+Int modifier
+
++ ##000000|Class Features##
+
+**Table: The Wraith**
+||~ Level ||~ Base Attack Bonus ||~ Fort Save ||~ Reflex Save ||~ Will Save ||~ Special ||~ Base Caster Level ||~ Magic Talents || 
+|| 1st || 0 || 0 || 2 || 2 || Casting, spell pool, wraith form, Haunt path (path sphere) || 0 (1) || 0(+2) || 
+|| 2nd || 1 || 0 || 3 || 3 || Possession, Haunt path (path possession) || 1 || 1 || 
+|| 3rd || 2 || 1 || 3 || 3 || Wraith haunt || 2 || 2 ||  
+|| 4th || 3 || 1 || 4 || 4 || Haunt path (path skill) || 3 || 3 || 
+|| 5th || 3 || 1 || 4 || 4 || Wraith haunt || 3 || 3 || 
+|| 6th || 4 || 2 || 5 || 5 || Possession (extraordinary abilities) || 4 || 4 || 
+|| 7th || 5 || 2 || 5 || 5 || Wraith haunt || 5 || 5 || 
+|| 8th || +6/+1 || 2 || 6 || 6 || Haunt path (improved path possession) || 6 || 6 || 
+|| 9th || +6/+1 || 3 || 6 || 6 || Wraith haunt || 6 || 6 || 
+|| 10th || +7/+2 || 3 || 7 || 7 || Greater possession || 7 || 7 || 
+|| 11th || +8/+3 || 3 || 7 || 7 || Wraith haunt || 8 || 8 || 
+|| 12th || +9/+4 || 4 || 8 || 8 || Possession (supernatural abilities) || 9 || 9  || 
+|| 13th || +9/+4 || 4 || 8 || 8 || Wraith haunt || 9 || 9 || 
+|| 14th || +10/+5 || 4 || 9 || 9 || Haunt path (greater path possession) || 10 || 10 || 
+|| 15th || +11/+6/+1 || 5 || 9 || 9 || Wraith haunt || 11 || 11 || 
+|| 16th || +12/+7/+2 || 5 || 10 || 10 || Possession (spell-like abilities) || 12 || 12 || 
+|| 17th || +12/+7/+2 || 5 || 10 || 10 || Wraith haunt || 12 || 12 || 
+|| 18th || +13/+8/+3 || 6 || 11 || 11 || Possession (spheres) || 13 || 13 || 
+|| 19th || +14/+9/+4 || 6 || 11 || 11 || Wraith haunt || 14 || 14 || 
+|| 20th || +15/+10/+5 || 6 || 12 || 12 || Wraith form mastery || 15 || 15 || 
+
+++ ##000000|Weapon and Armor Proficiencies##
+The wraith is proficient with all simple weapons, scythes, and light armor.
+
+++ ##000000|Casting##
+A wraith may combine spheres and talents to create magical effects. A wraith is a Mid-Caster and uses Charisma as his casting ability modifier. (Note: All casters gain 2 bonus talents and may select a casting tradition the first time they gain the casting class feature.)
+
+++ ##000000|Spell Pool##
+A wraith gains a small reservoir of energy he can call on to create truly wondrous effects, called a spell pool. This pool contains a number of spell points equal to his class level + his Charisma modifier (minimum 1). This pool replenishes once per day after roughly 8 hours of rest.
+
+++ ##000000|Magic Talents##
+A wraith gains 1 magic talent every time he gains a caster level, according to Table: Wraith.
+
+++ ##000000|Haunt Path##
+At 1st level, the wraith chooses a haunt path. Once selected, this choice cannot be changed. Path skills are always class skills for wraiths with that path.
+
+At 1st level, each path grants the listed path sphere, or a talent from that sphere if it is already possessed, as a bonus magic talent and uses his class level as his caster level with the path sphere. This stacks normally with caster levels gained from other sources.
+
+At 2nd level, the wraith gains a path possession, granting additional options for his possession ability.
+
+At 4th level, the wraith gains an insight bonus to the listed skill equal to half his class level.
+
+At 8th level, the wraith gains an improved path possession, granting further options to his possession ability.
+
+At 14th level, the wraith gains a greater path possession, granting a final expansion of options to his possession ability.
+
+See Haunt Paths (below) for details of each path.
+
+++ ##000000|Wraith Form (Su)##
+At 1st level, for a number of rounds per day equal to his class level plus his casting ability modifier, the wraith may gain the incorporeal subtype, with the following modifications:
+* The wraith takes half damage from non-magic weapons.
+* The wraith cannot make weapon or natural weapon attacks while in wraith form unless he uses a weapon with the ghost touch special ability.
+* Effects originating from corporeal sources that do not deal damage have a 20% chance to fail against the wraith instead of the normal 50%. Force effect are not subject to this failure chance.
+* The wraith retains all worn equipment not exceeding his maximum load as well as the benefits from any magic items that grant a continuous effect, but gains no benefit from physical armor or shields.
+* The wraith uses normal movement speeds (treat moving through solid objects as ground movement).
+* When not on or in a solid or liquid, the wraith falls slowly and may glide, moving with a speed of 30 ft. with maneuverability (perfect), but falling 1 ft. for every 5 ft. traveled (unless possessing a fly speed).
+
+Activating this ability is a move action and ending it is a free action. You may not activate this ability if carrying a load greater than your maximum load. Should the wraith become corporeal while in a solid object, he is immediately shunted to the nearest empty space, taking 1d6 untyped damage per per 5 ft. traveled.
+
+++++ Common Flight Alternate Rule
+In campaigns and settings where low-level flight is common (such as in the Skybourne campaign setting by Drop Dead Studios), the GM may choose to replace the movement portion of the wraith form ability with a fly speed of 15 ft. (perfect) while in wraith form. This speed can be increased by the Ghost Glide wraith talent.
+
+++++ Quick Notes on Incorporeality
+While incorporeal, you:
+* Gain a deflection bonus to AC equal to your Charisma modifier
+* Take half damage from corporeal sources (except for channel energy and force effects)
+* Have no natural armor
+* Cannot be moved by physical effects
+* Cannot move corporeal objects (preventing you from using combat maneuvers)
+* Have only a visual presence and leave no trail, though you may choose to be heard
+* Cab pass through objects not thicker than your space
+* Are immune to falling damage
+
+++ ##000000|Possession (Su)##
+At 2nd level, the wraith may to attempt to possess a creature within his natural reach as a standard action. This is a mind-affecting possession effect. The challenge rating of the creature determines the duration of the possession, per the Table: Possession Duration (creatures such as animal companions, Conjuration sphere companions, and familiars are treated as having a CR of their Hit Dice -2 for this purpose).
+
+The target is allowed a Will save to resist the effect with a DC of 10 + half the wraith’s class level + his casting ability modifier. A successful save to resist or end a possession increases the spell point cost for that individual wraith to possess that creature by 1 for 24 hours. This cost increase is cumulative, but is reset by a successful possession. Unless otherwise noted, creatures are aware of a failed possession attempt, having a feeling of a hostile force, but gain no other information. If the wraith is successful, his body is absorbed by and his life force occupies the host body. The duration of an ongoing possession may be reset with the same action and spell point cost that was required to initiate it.
+
+**Table: Possession Duration**
+||~ CR ||~ Active Possession Duration ||~ Unwilling Passive Possession Duration ||~ Willing Passive Possession Duration ||
+|| > Level +5 || 1 round/level (free action save to end possession each round) || 1 minute/level || 1 hour/level || 
+|| Level +2 to Level +5 || 1 round/level || 1 minute/level || 1 hour/level || 
+|| Level +1 to Level -4 || 1 minute/level || 1 hour/level || 8 hours/level || 
+|| < Level -4 || 10 minutes/level || 1 day/level || 1 day/level || 
+
+There are two types of possession: passive and active. The wraith chooses which to initiate as part of attempting possession. Possessing an unwilling target costs a spell point.
+
+**Passive Possession:** Passive possession grants no control over the possessed creature, though shares the creature’s senses and may communicate telepathically with it. Attempting to passively possess an unwilling target costs a spell point.
+
+The wraith maintains his Intelligence, Wisdom, Charisma, level, class, base attack bonus, alignment, mental abilities, extraordinary abilities not derived from physical form, combat talents, supernatural abilities, and magical abilities such as spells, sphere abilities, and spell-like abilities. Should the host become dazed, stunned, or unconscious, the wraith may control their body as normal as is actively possessing the host for the duration of the dazed, stunned, or unconscious condition. Targeted mind-affecting effects apply only to the mind in control of the body; if the wraith is not controlling the host, then the wraith is not the target. When successfully attempting a passive possession, if the wraith is unobserved by the target, he may make a Stealth check opposed by the target creature’s Perception check. If successful, the creature is not aware that it has failed a Will save or that it has become passively possessed.
+
+**Active Possession:** Active possession involves taking control of the possessed creature. Attempting active possession requires a spell point. The wraith maintains his abilities as in passive possession. The body retains its Strength, Dexterity, Constitution, hit points, natural abilities, and automatic abilities. A body with extra limbs does not allow the wraith to make more attacks (or more advantageous two-weapon or two-handed attacks) than normal. The wraith cannot choose to activate the body’s extraordinary or supernatural abilities. The creature’s combat talents, feats that require active use, magic talents, spells, sphere abilities, and spell-like abilities do not stay with the body. See Table: Active Possession for more details. An actively possessed creature (the host) is capable of taking mental only actions while possessed and may make a new save to end the possession early any time the wraith would force it to do something against its nature (see the Mind sphere for guidelines), though additional saves cannot be made more than once per round.
+
+The wraith cannot cause the the host to unwillingly harm itself (attacking itself, allowing others to attack it without defending itself, moving into obviously harmful positions, etc.).
+
+**Table: Active Possession**
+||~ Use the host’s ||~ Use the wraith’s || 
+|| Strength, Dexterity, and Constitution scores (this modifies the total modifiers for ability checks, armor class, attack rolls, CMB, CMD, skill checks, save DCs based on physical abilities, and saving throws) || Intelligence, Wisdom, and Charisma scores || 
+|| Skill checks, save DCs based on physical abilities, and saving throws) || - || 
+|| Defensive abilities (such as damage reduction, immunity, resistance, spell resistance) || Base attack bonus || 
+|| Physical weaknesses (light blindness, vulnerability to damage types) || Skill ranks || 
+|| Reflex and Fortitude saving throws || Will saving throw || 
+|| Space and reach || Class abilities (abilities that require specific anatomy may not be accessible while possessing a host lacking that anatomy) || 
+|| Racial movement speeds || Feats from Hit Dice, class, and bonus feats || 
+|| Natural attacks || Combat talents || 
+|| Racial senses (such as blindsense, blindsight, darkvision, lowlight vision, scent) || Magic talents || 
+|| Hit points || Caster level || 
+|| Fast healing (only affects host body) || Spell points || 
+|| Regeneration (only affects host body) || Languages || 
+|| Armor class || Mythic abilities || 
+|| Racial skill modifiers || Traits || 
+|| Passive special abilities (do not recalculate save DCs) || Alignment (other than alignment subtypes) || 
+|| Continuous magic items that affect physical ability scores, skills, and other bonuses to physical form and prowess. || Continuous magic items that affect mental ability scores, skills, and other bonuses to mental form and prowess. || 
+|| Extraordinary special abilities and special attacks that require active use, such as freeze, grab, pounce, rend, and swallow whole (do not recalculate save DCs) (requires 6th level) || - || 
+|| Supernatural special abilities that require activation, such a breath weapons (do not recalculate save DCs) (requires 12th level) || - || 
+|| Spell-like abilities (do not recalculate save DCs) (requires 16th level) || - || 
+|| Combat spheres, feats from Hit Dice, class levels, and bonus feats, magic spheres, spellcrafted spells (in addition to the wraith’s, requires 18th level) || - || 
+|| Auras (do not recalculate save DCs) || - || 
+|| Ongoing effects that target the body || Ongoing mind-affecting effects || 
+||||= Use the alignment subtypes of both wraith and host ||
+||||= Use both wraith and host racial bonus feats ||
+||||= Use both wraith and host weapon and armor proficiencies ||
+
+
+The wraith may attempt to change an active possession to a passive possession or vise versa as a move action. Unwilling creatures are allowed a save to prevent the wraith from going from passive to active possession. Each time unit expended from a passive possession (usually minutes or hours) reduces the time available for an active possession by 1 time unit (usually minutes or rounds) and vice versa.
+
+If the wraith possesses a creature that is unconscious due to being in negative hit points, the wraith remains conscious and can cause the body to act, but it remains staggered (though the wraith can still take additional mental-only actions, only the body is staggered) and may suffer hit point loss as normal. The host body may still make stabilization checks using its normal modifiers. When possessing an unconscious creature, effects that would wake the creature do not end the possession, though the possessed creature is allowed to make a save to end the possession once it would be awakened.
+
+The wraith may always end the possession early as a free or immediate action, appearing in an adjacent square of the wraith’s choice (or the nearest available square, if all adjacent squares are occupied). When possessing a willing host, the wraith may increase the duration by its normal time as a free action, paying any spell point cost as usual. When ending a possession, the wraith may choose to reappear with his wraith form ability active by spending a round of that ability as part of ending the possession. If the host body is slain, the possession ends and the wraith is dazed for 1 round with no saving throw and cannot activate wraith form as a free action as part of the possession ending.
+
+Mind-affecting effects that target the actively possessed body or a passively possessed body while the wraith is in control (such as when the host is dazed or stunned) continue to affect the wraith after the possession ends and do not affect the former host. The wraith does not benefit from any immunity to mind-affecting effects that the host possesses. If the wraith is concentrating on a spell or other effect and the host body is subject to an effect that would force a concentration check, the wraith makes the concentration check. Magical effects granting the wraith armor, deflection, resistance, and shield bonuses, polymorph effects, disease, poison, and other effects that alter or benefit the physical body of the wraith are suppressed for the duration of the possession but do not expend time from their durations. Effects targeting the possessed body (such as hit point damage, disease, healing, or poison) affect the possessed body and do not transfer to the wraith unless able to effect possessing creatures.
+
+If another creature attempts to possess a creature the wraith is possessing, it must make an MSB check against the wraith’s MSD. Success forces the wraith out; failure causes the attempt to fail. Effects that would allow a creature to command an actively possessed host are ineffective for the duration of the possession unless they would also affect the wraith.
+
+Effects that grant protection from mind control such as the Hallow word of the Fate sphere or the protection from (alignment) spells function against his ability.
+
+The host’s abilities and statistics derived from mental attributes are not altered by the possession. For example, a wraith with high Charisma does not increase the hit points of a zombie by possessing it, nor would it improve the zombie’s Fortitude save. A possessed nymph would not change its deflection bonus to AC.
+
+At 6th level, the wraith gains knowledge of a possessed creature’s extraordinary abilities and may activate them as normal for that creature.
+
+At 12th level, the wraith gains knowledge of a possessed creature’s supernatural abilities and may activate them as normal for that creature.
+
+At 16th level, the wraith gains knowledge of a possessed creature’s spell-like abilities and may activate them as normal for that creature.
+
+At 18th level, the wraith gains access to any combat spheres, magic spheres, magic talents, and spellcrafted spells possessed by the creature for the duration of the possession, but must supply his own spell points.The wraith gains access to spells as well, casting them from the possessed creature’s spell slots, though must pay spell points based on the level of the slot to do so: **level 1-2**: 1 spell point, **3-5**: 2 spell points, **6-8**: 3 spell points, **9**: 4 spell point. Cantrips and orisons may be used without spell point cost.
+
+++++ Psionics
+
+If possessing a creature with psionic manifesting (Psionics Unleashed by Dreamscarred Press), at 18th level the wraith gains access to that manifesting ability. Determine the equivalent spell level by adding 1 to the power point cost, then dividing by two. The power then requires spending spell points as a spell of that level.
+
+++ ##000000|Wraith Haunts##
+At 3rd level and every odd level thereafter, the wraith gains one haunt from the following list. Each haunt may only be selected once unless otherwise noted. If a haunt calls for a saving throw, the DC is 10 + half the wraith’s class level + casting ability modifier. All wraith haunts are considered supernatural abilities unless noted.
+
+++++ Amnesiac Possession
+As part of ending a possession, the wraith may force the host creature to succeed on a Will save or forget the duration of the possession as the Amnesia (charm) of the Mind sphere.
+
+++++ Benevolent Passenger
+When possessing an object or a willing creature, the wraith gains the benefits of the Silent Spell and Still Spell metamagic feats. If the wraith already possesses either of these feats, reduce the spell point cost of the possessed feat by 1 (minimum 0).
+
+++++ Consume Host
+While possessing a living creature, the wraith may spend a spell point as a move action to deal 1d6 untyped damage per 2 class levels to the host. A successful Fortitude save halves this damage. The wraith heals a number of hit points equal to the damage dealt. A creature that successfully saves against this ability becomes immune to it for the duration of the possession.
+
+++++ Deep Phase
+While in wraith form, the wraith may spend a spell point as a move action to attempt to pass through objects thicker than his own space. The wraith may move up to his speed through solid matter. If the wraith does not end his movement in a space he could occupy, he is shunted back to his starting position, taking 1d6 untyped damage per 5 ft. traveled.
+
+++++ Disorienting Possession
+When the wraith’s active possession ends, he may force the possessed creature must make a Fortitude save or be nauseated for a number of rounds equal to the wraith’s casting ability modifier. A successful save reduces this to being sickened for 1 round.
+
+++++ Dominate Ooze
+You may possess mindless creatures of the ooze type, bypassing the immunity to mind-affecting effects granted by the ooze type.
+
+++++ Expanded Path Possession (requires haunt path and the path sphere of the selected path)
+The wraith gains the path possession ability of a path he does not possess. This wraith haunt may be taken more than once, each time a different path possession may be selected.
+
+++++ Expanded Path Possession, Improved (requires Expanded Path Possession, wraith 12)
+The wraith gains the improved path possession ability of a path he chose for expanded path possession. This wraith haunt may be taken more than once, each time a different expanded path possession may be selected.
+
+++++ Extra Incorporeality
+The wraith gains 4 additional rounds of his wraith form ability per day. This talent may be taken more than once; the bonus rounds stack.
+
+++++ Forced Wraith Form (requires Share Wraith Form)
+The wraith may target an unwilling creature with Share Wraith Form via a melee touch attack. A successful Will save negates this effect. An unwilling creature cannot choose to end this effect, though the wraith may end it normally. The target creature may attempt a new Will save each round as a full-round action to end the effect early. This wraith haunt may be taken a second time to allow the wraith to use this ability with a ranged touch attack with a range of close (25 ft. + 5 ft. per 2 levels).
+
+++++ Ghostly Fade
+While in wraith form, the wraith may spend a spell point as a free or immediate action to gain concealment until the start of his next turn. At 4th level and every 4 levels thereafter, this concealment persists for an additional round.
+
+++++ Ghost Glide (requires wraith 7)
+The wraith gains a fly speed equal to his base speed with perfect maneuverability while in wraith form.
+
+++++ Ghost Glide, Improved (requires wraith 11)
+The fly speed granted by Ghost Glide applies even when the wraith is not in wraith form, though when not in wraith form the maneuverability decreases to average.
+
+++++ Ghost in the Machine (requires object ride & Technologist feat)
+While possessing a technological device, the wraith may spend SP in place of charges.
+^^Technologist feat: See Pathfinder Campaign Setting: Technology Guide^^
+
+++++ Ghostly Talent
+The wraith gains a talent from his path sphere as a bonus talent. This wraith haunt may be selected more than once; each time the wraith selects an additional talent.
+
+++++ Hidden Rider
+While possessing another creature or object, the wraith may hide from the divine ability of the Divination sphere and spells of the Divination school and pass through wards that would affect a possessing creature such as magic circle against evil or the effects of a forbiddance spell. The wraith must attempt a Will save against the spell or sphere ability (even if it doesn’t normally allow a saving throw). If he succeeds, the spell treats him as if he were his host (for instance, Divine Alignment would reveal only the host’s alignment, and forbiddance keyed to the host’s alignment wouldn’t damage the wraith). If the wraith’s saving throw fails, the spell functions against him as normal.
+
+++++ Hidden Possessor
+Creatures that are not aware of the wraith or do not count the wraith as a hostile creature take a -2 penalty on saves against his possession ability.
+
+++++ Into Thin Air
+The wraith may spend a spell point to activate his wraith form ability as an immediate action. If the wraith possesses the ghostly fade wraith haunt, he may choose to activate it as part of this immediate action, paying the spell point cost for that ability as usual.
+
+++++ Lengthened Control
+Upon successfully using his possession ability, the wraith may spend a spell point as a free action to calculate the duration of the possession as if the creature’s CR was 1 tier lower per Table: Possession Duration. For creatures with a challenge rating below the wraith’s class level -4, the duration instead increases from 10 minutes/level to 1 hour per level for active possession or to indefinite (new save granted every 24 hours) for passive possession.
+
+++++ Lingering Incorporeality
+When the wraith ends his wraith form ability, he may choose to remain in wraith form for two additional rounds without spending any rounds from his daily allotment. If the wraith was in wraith form when activating his possession ability, he automatically regains his wraith form upon ending the possession if within this time.
+
+++++ Moan
+As a standard action, the wraith may emit an unearthly moan, allowing the wraith to make an Intimidate skill check to demoralize all hostile creatures within 30 feet. If using Spheres of Might, the wraith instead may choose to gain the Gladiator sphere or a talent from that sphere if it is already possessed. If using this option, this wraith haunt may be taken more than once, granting an additional talent from the Gladiator sphere each time.
+
+++++ Object Ride
+The wraith may spend a spell point to passively possess an object for up to 1 hour per level. Attended objects receive a Will save. The object can be no smaller than Tiny and no larger than Huge. At level 10, the minimum object size decreases to Diminutive and the maximum increases to Gargantuan. The wraith retains his normal senses while possessing an object.
+
+Additionally, the wraith may designate a single object within the normal limits as his refuge. Possessing the refuge does not require a spell point. Designating an object as a refuge requires a 1-hour ritual. Designating a new object causing any previous refuges to cease functioning as a refuge.
+
+++++ Possess Armaments (Requires object ride or path of the poltergeist, Enhancement sphere)
+When possessing a weapon, shield, or suit of armor, the wraith may automatically grant it the benefit of one enhancement that he possesses for the duration of the possession. The object must be a valid target for the enhancement.
+
+The wraith uses his class level as his caster level to determine the effect of this enhancement. This stacks with caster levels gained from other sources. Any additional spell point cost of the enhancement must be paid as usual. Should the Animate Object enhancement be used, the wraith may issue commands to the object while possessing it.
+
+++++ Ranged Possession
+The wraith may attempt to possess valid targets within close range (25 ft. + 5 ft. per 2 class levels).
+
+++++ Reactive Possession (Requires possess armaments or path of the poltergeist improved path possession)
+When the wraith takes damage from a manufactured weapon, he may attempt to possess that weapon as an immediate action, paying the normal spell point cost.
+
+++++ Share Wraith Form
+The wraith may touch a willing creature as a standard action, granting them the benefits of his wraith form and any wraith haunts that modify it that the wraith possesses (such as lingering incorporeality). Either the creature or the wraith may end this effect as a free action. The touched creature expends rounds of wraith form from the wraith’s pool. The wraith may end this effect as a free action.
+
+++++ Steal Thoughts
+The wraith is intuitively aware of what actions are against his host’s nature. When possessing a creature, the wraith may spend a spell point as a standard action to read its mind, allowing him to make a single Knowledge check using its skill modifiers (even if the wraith has previously failed the same check using his own modifiers) or receive the answer to a single question that the creature would know (such as ‘Where did I leave my key?’ or ‘What is my mother’s maiden name?’).
+
+A successful Will save negates this effect. A creature is aware of succeeding on this save, sensing the mental probing of the wraith, though not the details of the information sought. Additional uses of this ability while possessing the same creature do not allow Knowledge checks to be retried if they would not otherwise be possible to retry.
+
+++++ Wraith’s Blade
+The wraith may spend a spell point as a swift action to cause all his attacks to become incorporeal touch attacks (and thus be resolved as touch attacks, though effects that apply against incorporeal touch attacks function normally) until the end of his turn. This ability also allows the attacks to be made against corporeal targets while wraith form is active.
+
+++ ##000000|Greater Possession##
+At 10th level, when the wraith succeeds in actively possessing a target, he may chose to maintain control of that target while moving on to another. The wraith may choose to exit the creature, appearing in an adjacent square or the nearest available square. The wraith may act normally, dividing his actions between the actively possessed creature and himself. Multiple creatures may be actively possessed; actions are divided between all possessed creatures and the wraith.
+
+For example, if the wraith possesses an orc, the wraith may spend his next standard action to posses the nearby goblin, then move the orc up to its speed (a move action), and cast a quickened sphere effect (a swift action). The following round, the goblin could reload a light crossbow (a move action), the orc could make an attack action (a standard action), and the wraith would still have a swift action. The number of creatures possessed at one time may not exceed the Wraith’s casting ability modifier (minimum 2). The wraith may choose to end his control of any possessed creature as a free action.
+
+++ ##000000|Wraith Form Mastery##
+At 20th level, the wraith may remain in wraith form for any number of rounds in a day. Any instances of the extra wraith form and lingering incorporeality wraith haunts may immediately be retrained for other wraith haunts for which the wraith qualifies.
+
+----
+
++ ##000000|Haunt Paths##
+++++ Path of the Ancestor
+Rather than a malevolent controller, an ancestor protects those he is attached to.
+
+**Path Sphere:** Protection
+
+**Path Possession:** When a willing creature the ancestor is possessing takes hit point damage, as a free action that can be taken even when it it not his turn, the ancestor may choose to redirect up to half the damage to himself. The damage is determined after the possessed creature’s damage reduction, immunity, resistance, and vulnerability have been calculated and may not be further reduced or redirected by any means. Additionally, the ancestor may choose to count the possessed willing creature as himself for the purposes of effects that only target self.
+
+**Path Skill:** Knowledge (history)
+
+**Improved Path Possession:** A willing creature the ancestor is possessing gains the benefit of one (aegis) talent the ancestor possesses for the duration of the possession. The cost of activating this aegis is reduced by 1 spell point, but the aegis is lost when the possession ends.
+
+**Greater Path Possession:** The ancestor may now activate two (aegis) talents instead of one as part of possessing a willing creature; the spell point reduction applies separately to each.
+
+++++ Path of the Anima
+An anima manipulates the very elements around himself.
+
+**Path Sphere:** Nature or Weather
+
+**Path Possession:** The anima may actively possess natural elements, creating a small elemental or animated plant. The creature dissipates when the possession ends. The created creature counts as willing. There must be a suitable volume of appropriate material. The anima may use talents such as Create Water, Grow Plants, or the Create Fire base ability of the Fire package as part of activating this ability to supply the required material, paying the normal cost for doing so. The available forms depend on the spheres and packages possessed.
+* Air elementals require the Weather sphere and a given number of 5-ft. cubes of air.
+* Earth elementals require the Earth geomancing package and a given number of 5-ft. cubes of stone, dirt, or sand.
+* Water elementals require the Water geomancing package and a given number of 5-ft. cubes of water.
+* Fire elementals require the Fire geomancing package and a fire of at least the given size.
+* Animated plants require the Plantlife geomancing package and a plant of at least the given size.
+
+||~ Class Level ||~ Maximum Elemental Size ||~ Minimum 5-ft. Cubes ||~ Minimum Size^^1^^ || 
+|| 2nd || Small (halve hp, CR 1/2) || 1/4 || Small || 
+|| 4th || Small || 1/4 || Small || 
+|| 8th || Medium || 1 || Medium || 
+|| 12th || Large || 8 || Large || 
+|| 16th || Huge || 27 || Huge || 
+|| 20th || Greater (Huge) Elemental or Gargantuan Animated Plant || 64 || Gargantuan || 
+^^1: When creating a fire or water elemental with this ability, the wraith may choose to increase the time taken to reduce the required material volume. For every time step (standard to full-round, full-round to one round), the required size category decreases by one step. Doing so draws either heat (for fire) or moisture (for water) from the surrounding area. Drawing heat decreases the temperature in an area out to medium range by one step (per the Weather sphere) per size reduction for 10 minutes. This ability cannot be used if it would set the temperature beyond category 7 cold. Drawing moisture leaves an area out to medium range (close range in moist, humid environments and long range in more arid environments) unusually dry for 10 minutes.^^
+
+**Path Skill:** Knowledge (Nature)
+
+**Improved Path Possession:** The anima may possess creatures with the plant type or the elemental subtype corresponding to the spheres and packages possessed, ignoring any typebased immunity to mind-affecting effects. Such creatures take a -2 penalty on saves against the anima’s possession.
+
+**Greater Path Possession:** The anima does not need to spend a spell point to create and actively possess an elemental or plant creature with his path possession ability. Creatures with the plant type or elemental subtype gain no benefit from the Hallow word of the Fate sphere, the protection from evil spell, or similar effects against possession attempts by the anima. Mindless creatures of the plant type or elemental subtype no longer receive a saving throw against the anima’s possession.
+
+++++ Path of the Corruptor
+A corruptor marshals an undead army to spread his influence.
+
+**Path Sphere:** Death
+
+**Path Possession:** The corruptor may actively possess dead bodies. The possessed creature has statistics as if it had been animated per the reanimate ability of the Death sphere, including any talents of that sphere that he possesses, and must meet all requirements of that ability. The target creature may have Hit Dice up to twice the corruptor’s class level. The created creature counts as willing. When the possession ends, the reanimate effect also ends. The possessed body does not count against the number of Hit Dice of undead the wraith can control.
+
+**Path Skill:** Knowledge (Religion)
+
+**Improved Path Possession:** The corruptor may possess creatures of the undead type, ignoring any type-based immunity to mind-affecting effects. Mindless undead both do not receive a save against this ability and count as willing unless they are being controlled by a creature other than the corruptor.
+
+**Greater Path Possession:** The corruptor does not need to spend a spell point to possess an undead creature under his control. Undead creatures gain no benefit from the Hallow word of the Fate sphere, the protection from evil spell, or similar effects against possession attempts by the corruptor.
+
+++++ Path of the Cryptid
+Able to unlock the primal wrath of wild beasts, cryptids can be fearsome warriors.
+
+**Path Sphere:** Alteration
+
+**Path Possession:** Creatures of the animal type that are no worse than indifferent to the cryptid are counted as willing targets for possession. Creatures of the animal or magical beast types take a -2 penalty on saves against the cryptids possession.
+
+**Path Skill:** Handle Animal
+
+**Improved Path Possession:** The cryptid reduces the time required to cast shapeshift targeting a host he is possessing (and no creatures that he is not possessing) by one step (normally a standard action to a move action). This ability cannot reduce the casting time below a swift action. The shapeshift automatically ends when the possession ends. The cryptid may possess swarms of the animal type, ignoring their subtype based immunity to mind-affecting abilities.
+
+**Greater Path Possession:** Creatures of the animal type are always counted as willing when the cryptid attempts to possess them unless they are already controlled by another creature (such as being an animal companion, being under a (compulsion) effect, or being tame per the Beastmastery sphere).
+
+Creatures with the animal or magic beast types gain no benefit from the Hallow word of the Fate sphere, the protection from evil spell, or similar effects against possession attempts by the cryptid.
+
+++++ Path of the Despoiler
+A despoiler feeds on pestilence and decay.
+
+**Path Sphere:** Death
+
+**Path Possession:** The despoiler may possess any creature of the vermin type, ignoring any type-based immunity to mind-affecting effects. Creatures suffering from the effects of poison or disease take a -2 penalty on saves against the despoiler’s possession.
+
+**Path Skill:** Heal
+
+**Improved Path Possession:** The despoiler may possess swarms of the vermin type, ignoring their subtype based immunity to mind-affecting abilities. By spending 1 minute attracting local vermin, the despoiler can create a swarm to actively possess.This swarm disperses when the possession ends. To create the swarm, use the statistics of a Conjuration sphere companion summoned with a caster level equal to the despoiler’s class level and the following base form:
+
+**Speed** 20 ft., **Climb** 20 ft.; **AC** +2 natural armor; **Fort** (good), **Ref** (good), **Will** (bad); **Attack** N/A; **Str** 12, **Dex** 16, **Con** 13, **Int** -, **Wis** 10, **Cha** 11.
+
+The swarm has the swarm subtype, with constituent members of Tiny size and a 10-ft. space. It’s swarm damage is 1d6 +1d6 per 3 Hit Dice and has a distraction DC of 10 + 1/2 Hit Dice + the despoiler’s casting ability modifier. The appearance of the constituent members of the swarm formed will be based on the GM’s discretion given the environment. If the despoiler is of at least 5th level, he may spend an additional spell point as part of beginning the possession to grant the swarm a fly speed of 20 ft. (perfect).
+
+Creatures of the vermin type are always counted as willing when the despoiler attempts to possess them unless they are already controlled by another creature (such as being an animal companion, being under a (compulsion) effect, or being tame per the Beastmastery sphere).
+
+**Greater Path Possession:** The despoiler does not need to spend a spell point to possess creature of the vermin type. Such creatures gain no benefit from the Hallow word of the Fate sphere, the protection from evil spell, or similar effects against possession attempts by the wraith.
+
+++++ Path of the Poltergeist
+A poltergeist is adept at moving creatures and objects as well as possessing and animating objects.
+
+**Path Sphere:** Telekinesis
+
+**Path Possession:** The poltergeist may actively possess unattended objects, animating them to serve. These objects count as being willing. The object must be of a size the wraith could animate per the Animate Objects talent of the Enhancement sphere, using his class level as his caster level. The object gains the statistics and abilities as an animated object per the Animate Object talent of the Enhancement sphere.
+
+**Path Skill:** Fly
+
+**Improved Path Possession:** The poltergeist may possess creatures of the construct type, ignoring any type-based immunity to mind-affecting effects. The poltergeist may also lift, as the Telekinesis sphere, an animated object or construct as a free action immediately after successfully possessing it. Normal size limits on lift apply. Additionally, your path possession ability now also applies to attended objects, which receive a Will save as usual for possession.
+
+**Greater Path Possession:** The poltergeist may possess large numbers of tiny or smaller objects, creating a swarm; treat a swarm so animated as a Medium-sized animated object with the swarm subtype (generate statistics per the improved path possession of the Path of the Despoiler, but with the construct type). Mindless creatures of the construct type no longer receive a save against your possession.
+
+++++ Path of the Phantasm
+Hunters that hide inside their illusion, deceiving their prey into a false security.
+
+**Path Sphere:** Illusion
+
+**Path Possession:** Creatures within the area of an illusion created by the phantasm take a -2 penalty on saves against the phantasm’s possession.
+
+**Path Skill:** Disguise
+
+**Improved Path Possession:** When attempting to possess a creature within the area of an illusion that the phantasm created, the phantasm may attempt an MSB check against the MSD of any magical effect that would prevent possession, such as the Hallow word of the Fate sphere, the protection from evil spell, or similar effects. If successful, the phantasm may possess the creature and is unaffected by the bypassed effect for the duration of the possession.
+
+**Greater Path Possession:** The phantasm’s possession ability does not count as a mind-affecting effect when used on creature’s within an area of an illusion that the phantasm created.
+
+++++ Path of the Shadow
+A shadow lurks in darkness, seizing those foolish enough to enter their penumbra.
+
+**Path Sphere:** Dark
+
+**Path Possession:** Creatures within the area of a darkness created by the shadow take a -2 penalty on saves against the shadow’s possession.
+
+**Path Skill:** Stealth
+
+**Improved Path Possession:** When attempting to possess a creature within the area of a darkness that the shadow created, the shadow may attempt an MSB check against the MSD of any magical effect that would prevent possession, such as the Hallow word of the Fate sphere, the protection from evil spell, or similar effects. If successful, the shadow may possess the creature and is unaffected by the bypassed effect for the duration of the possession
+
+**Greater Path Possession:** The shadow’s possession ability does not count as a mind-affecting effect when used on creature’s within an area of darkness that the shadow created.
+
+++++ Path of the Spook
+A spook feeds on fear and insanity.
+
+**Path Sphere:** Mind
+
+**Path Possession:** Creatures the spook is passively possessing take a -2 penalty on saves against the spook’s charm abilities of the Mind sphere. Creatures that are cowering, panicked, or paralyzed take an additional -2 penalty on saves against the spook’s possession ability.
+
+**Path Skill:** Intimidate
+
+**Improved Path Possession:** Creatures that are shaken or frightened take an additional -2 penalty on saves against the spook’s possession ability. This does not stack with the penalty from the spook’s path possession. Creature’s that are confused or panicked count as willing for the spook’s possession ability.
+
+**Greater Path Possession:** The penalty that creatures that are frightened, cowering, panicked, or paralyzed take on saves against the wraith’s possession ability increases to -4. When attempting to possess a creature with one of these conditions, the spook may attempt an MSB check against the MSD of any magical effect that would prevent possession, such as the Hallow word of the Fate sphere, the protection from evil spell, or similar effects. If successful, the spook may possess the creature and is unaffected by the bypassed effect for the duration of the possession.
+
+----
+
++ ##000000|Favored Class Bonuses##
+
++ ##000000|Favored Class Bonuses##
+Races that count as multiple other races, such as half elves counting as both elves and humans and half orcs counting as humans and orcs, enables them to choose favored class bonuses from either race.
+
+++++ Core Races
+* **Dwarf:** Increase the failure chance of magic effects originating from a corporeal source while in wraith form by 1%.
+* **Elf:** Add +1 ft. to all of the wraith’s speeds while incorporeal. In combat this option has no effect unless the wraith has selected it five times (or another increment of five).
+* **Gnome:** Gain +1 round of wraith form per day.
+* **Halfling:** Gain +1/6th of a new wraith haunt.
+* **Human:** Gain +1/6th of a new magic talent.
+
+++++ Other Races
+* **Aasimar:** Gain +1/4 sacred bonus on saves against effects that would end possession.
+* **Dhampir:** Gain +1/8 bonus to path sphere DC.
+* **Goblin:** Gain +1 round of wraith form per day.
+* **Hobgoblin:** Gain +1/6th of a new combat feat.
+* **Orc:** Increase effective class level by +1/3 when determining what creatures of the animal and magical beast types you can possess.
+* **Tiefling:** Gain +1/8 bonus to possession DC.
+
+----
+
++ ##000000|Archetypes##
+
+++ -##00c000|[[[Draugr]]]## [CS]
+The Draugr is a champion that learns to use rage and martial techniques to augment their magical force.
+
+++ -[[[Mistshade]]]
+The Mistshade turns into mist instead of a wraith, obscuring themselves from enemies and improving their flight.
+
+++ -[[[Swarmheart]]]
+The Swarmheart transforms into a swarm of vermin instead of a wraith, filling up more space and crawling all over their enemies.
+
+++ -[[[Unbodied]]]
+The Unbodied is permanently locked into their Wraith Form, and must spend a great deal of time possessing creatures or objects to safeguard themselves.
+
+----
+
++ ##000000|Appendix##
+
+++++ Incorporeal
+An incorporeal creature has no physical body. It can be harmed only by other incorporeal creatures, magic weapons or creatures that strike as magic weapons, and spells, spell-like abilities, or supernatural abilities. It is immune to all nonmagical attack forms. Even when hit by spells or magic weapons, it takes only half damage from a corporeal source (except for channel energy). Although it is not a magical attack, holy water can affect incorporeal undead. Corporeal spells and effects that do not cause damage only have a 50% chance of affecting an incorporeal creature. Force spells and effects, such as from a magic missile, affect an incorporeal creature normally.
+
+An incorporeal creature has no natural armor bonus but has a deflection bonus equal to its Charisma bonus (always at least +1, even if the creature’s Charisma score does not normally provide a bonus).
+
+An incorporeal creature can enter or pass through solid objects, but must remain adjacent to the object’s exterior, and so cannot pass entirely through an object whose space is larger than its own. It can sense the presence of creatures or objects within a square adjacent to its current location, but enemies have total concealment (50% miss chance) from an incorporeal creature that is inside an object. In order to see beyond the object it is in and attack normally, the incorporeal creature must emerge. An incorporeal creature inside an object has total cover, but when it attacks a creature outside the object it only has cover, so a creature outside with a readied action could strike at it as it attacks. An incorporeal creature cannot pass through a force effect.
+
+An incorporeal creature’s attacks pass through (ignore) natural armor, armor, and shields, although deflection bonuses and force effects (such as mage armor) work normally against it.
+
+Incorporeal creatures pass through and operate in water as easily as they do in air. Incorporeal creatures cannot fall or take falling damage. Incorporeal creatures cannot make trip or grapple attacks, nor can they be tripped or grappled. In fact, they cannot take any physical action that would move or manipulate an opponent or its equipment, nor are they subject to such actions. Incorporeal creatures have no weight and do not set off traps that are triggered by weight.
+
+An incorporeal creature moves silently and cannot be heard with Perception checks if it doesn’t wish to be. It has no Strength score, so its Dexterity modifier applies to its melee attacks, ranged attacks, and CMB. Nonvisual senses, such as scent and blindsight, are either ineffective or only partly effective with regard to incorporeal creatures. Incorporeal creatures have an innate sense of direction and can move at full speed even when they cannot see.
+
+++++ Swarm Subtype
+A swarm is a collection of Fine, Diminutive, or Tiny creatures that acts as a single creature. A swarm has the characteristics of its type, except as noted here. A swarm has a single pool of Hit Dice and hit points, a single initiative modifier, a single speed, and a single Armor Class. A swarm makes saving throws as a single creature. A single swarm occupies a square (if it is made up of nonflying creatures) or a cube (of flying creatures) 10 ft. on a side, but its reach is 0 ft., like its component creatures.
+
+In order to attack, it moves into an opponent’s space, which provokes an attack of opportunity. A swarm can occupy the same space as a creature of any size, since it crawls all over its prey. A swarm can move through squares occupied by enemies and vice versa without impediment, although the swarm provokes an attack of opportunity if it does so. A swarm can move through cracks or holes large enough for its component creatures.
+
+A swarm of Tiny creatures consists of 300 nonflying creatures or 1,000 flying creatures. A swarm of Diminutive creatures consists of 1,500 nonflying creatures or 5,000 flying creatures. A swarm of Fine creatures consists of 10,000 creatures, whether they are flying or not. Swarms of nonflying creatures include many more creatures than could normally fit in a 10-ft. square based on their normal space, because creatures in a swarm are packed tightly together and generally crawl over each other and their prey when moving or attacking. Larger swarms are represented by multiples of single swarms. The area occupied by a Large swarm is completely shapeable, though the swarm usually remains in contiguous squares.
+
+**Traits:** A swarm has no clear front or back and no discernible anatomy, so it is not subject to critical hits or flanking. A swarm made up of Tiny creatures takes half damage from slashing and piercing weapons. A swarm composed of Fine or Diminutive creatures is immune to all weapon damage. Reducing a swarm to 0 hit points or less causes it to break up, though damage taken until that point does not degrade its ability to attack or resist attack. Swarms are never staggered or reduced to a dying state by damage. Also, they cannot be tripped, grappled, or bull rushed, and they cannot grapple an opponent.
+
+A swarm is immune to any spell or effect that targets a specific number of creatures (including single-target spells such as disintegrate), with the exception of mind-affecting effects (charms, compulsions, morale effects, patterns, and phantasms) if the swarm has an Intelligence score and a hive mind. A swarm takes half again as much damage (+50%) from spells or effects that affect an area, such as splash weapons and many evocation spells.
+
+Swarms made up of Diminutive or Fine creatures are susceptible to high winds, such as those created by a gust of wind spell. For purposes of determining the effects of wind on a swarm, treat the swarm as a creature of the same size as its constituent creatures. A swarm rendered unconscious by means of nonlethal damage becomes disorganized and dispersed, and does not reform until its hit points exceed its nonlethal damage.
+
+**Swarm Attack:** Creatures with the swarm subtype don’t make standard melee attacks. Instead, they deal automatic damage to any creature whose space they occupy at the end of their move, with no attack roll needed. Swarm attacks are not subject to a miss chance for concealment or cover. A swarm’s stat block has “swarm” in the melee entries, with no attack bonus given.
+
+The amount of damage a swarm deals is based on its Hit Dice, as shown on Table: Swarm Damage by Size.
+
+A swarm’s attacks are nonmagical, unless the swarm’s description states otherwise. Damage reduction sufficient to reduce a swarm attack’s damage to 0, being incorporeal, or other special abilities usually give a creature immunity (or at least resistance) to damage from a swarm. Some swarms also have acid, blood drain, poison, or other special attacks in addition to normal damage.
+
+Swarms do not threaten creatures, and do not make attacks of opportunity with their swarm attack. However, they distract foes whose squares they occupy, as described below. Swarms possess the distraction ability. Spellcasting or concentrating on spells within the area of a swarm requires a caster level check (DC 20 + spell level). Using skills that involve patience and concentration requires a DC 20 Will save.
+
+**Table: Swarm Damage by Size**
+||~ Swarm Hit Dice ||~ Swarm Base Damage || 
+|| 1–5 || 1d6 || 
+|| 6–10 || 2d6 || 
+|| 11–15 || 3d6 || 
+|| 16–20 || 4d6 || 
+|| 21 or more || 5d6 || 
+[[/div]]
+
+----
+
+[[include sop-template]]
+[[include cots]]
