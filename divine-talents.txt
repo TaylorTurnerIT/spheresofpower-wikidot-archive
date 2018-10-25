@@ -3,9 +3,11 @@ title:Divine Talents
 
 + ##000000|THIS PAGE IS A WORK IN PROGRESS.##
 
-**About:** Divine Talents are **not** official Spheres material. Instead, these talents represent unusual or extreme powers that go beyond even [[[Advanced Talents]]]. These are not necessarily appropriate for players, though temporary access to specific Divine Talents can be a plot point within the game. These talents are more appropriate for major villains, epic NPCs, and similar notable figures within a game world. The default rule is that player characters cannot take Divine Talents without the GM's permission.
+**About:** Divine Talents are **not** official Spheres material. Instead, these talents represent unusual or extreme powers that go beyond even [[[Advanced Talents]]]. These are not necessarily appropriate or intended for players, though temporary access to specific Divine Talents can be a plot point within the game. These talents are more appropriate for major villains, epic NPCs, and similar notable figures within a game world. The default rule is that player characters cannot take Divine Talents without the GM's permission.
 
-Each Divine Talent is associated with a base sphere. Divine Talents can only be taken by characters who have that base sphere. GMs may choose to impose additional prerequisites. If there is a conflict in effects, the Divine Talent takes precedence.
+Each Divine Talent is associated with a base sphere. Divine Talents can only be taken by characters who have that base sphere. GMs may choose to impose additional prerequisites. If there is a conflict in effects, the Divine Talent takes precedence. If two Divine Talents would oppose each other, the one with the higher Caster Level in that sphere takes precedence. If they have the same caster level, the two characters in question must make opposing d20 rolls, rerolling ties, until a winner is determined. A character may always choose to have their divine talent fail against another divine talent.
+
+All references to Caster Level refer to the user's Caster Level with the associated sphere.
 
 ++++ Giving Divine Talents To Characters
 
@@ -13,6 +15,7 @@ There are several ways for a character (typically, but not necessarily, an NPC) 
 
 * **Single Slot:** In this format, the character is given a single slot for Divine Talents.
 * **Expert Access:** With this rule, a character can take a Divine Talent in place of a normal talent as long as they have at least five talents in the base sphere.
+* **Expensive Talents:** When this rule is active, each Divine Talent costs two magic talents. Characters may choose to not spend a talent at any given level in order to 'save up' for a Divine Talent.
 * **Plot Gift:** In this format, a character gains one or more Divine Talents based on the needs of the plot. For example, a deity may give someone a selection of Divine Talents (typically from one or two spheres) to help them accomplish a specific task. In most cases, these should be thematic choices, rather than chosen specifically for their power.
 
 ----
@@ -84,6 +87,9 @@ As an immediate action when targeted by a mind-affecting effect, you may expend 
 **Hammer Your Foes**
 Each weapon, natural attack, or unarmed attack you use rolls at least a 1d10 damage die (or higher, if they normally would). All of your attacks are treated as magical, regardless of whether or not they're enchanted. Your attacks bypass all Hardness.
 
+**Strength Of The Mountain**
+When you make a Strength ability check (not a strength-based attack roll - an ability check), you may expend your Martial Focus to treat the result as a Natural 20 instead of rolling. While using this effect, your carrying and lifting capacity is treated as if your Strength is 6 higher than normal.
+
 ----
 
 ++ Creation
@@ -144,12 +150,15 @@ As a Move Action, you may perceive the area around any one object that you creat
 **Know the Maker**
 As a full-round action, you may inspect a crafted object to understand its purpose and how to use it. You also gain an understanding of each person who meaningfully contributed to the creation of the item and how they did so.
 
+**Unblinking**
+As a swift action, you may spend a spell point. For 1 hour per Caster Level, you always know when someone is lying to you or otherwise trying to deceive you. You automatically see through all illusions and disguises, and do not need to interact with them to determine that they are false.
+
 ----
 
 ++ Enhancement
 
 **Take Command**
-As a Move Action, you can take control of any door, mechanism, vehicle, or other object up to Colossal size. If you created the object, there is no size limit. You may control the object as if it were being pilot, driven, manipulated, or otherwise controlled by you. You must Concentrate each round to maintain this effect, but do not need to make any checks to successfully control the target of this ability. Other controls on your target (such as wheels on a ship) simply stop working for others while this ability is in effect unless the person trying to control things makes a Will Save (DC 14 + 1/2 your Caster Level + your Casting Ability Modifier).
+As a move action, you can take control of any door, mechanism, vehicle, or other object up to Colossal size. If you created the object, there is no size limit. You may control the object as if it were being pilot, driven, manipulated, or otherwise controlled by you. You must Concentrate each round to maintain this effect, but do not need to make any checks to successfully control the target of this ability. Other controls on your target (such as wheels on a ship) simply stop working for others while this ability is in effect unless the person trying to control things makes a Will Save (DC 14 + 1/2 your Caster Level + your Casting Ability Modifier).
 
 ----
 
@@ -160,10 +169,29 @@ As an immediate action, you may expend your Martial Focus to reduce the damage o
 
 ----
 
+++ Illusion
+
+**Flawless Lies**
+Your lies cannot be detected as such by magic, special abilities, or other means of normally uncovering lies. Creatures with fewer Hit Dice than you always believe your lies unless they are completely implausible, emotionally intolerable, or would obligate the listener to hurt themselves.
+
+**Perfect Disguise**
+As a Swift Action, you may disguise yourself as any creature of your type (but not necessarily subtype) that you have seen. Only foes with 5 or more Hit Dice than you or those who personally know the individual you're disguising yourself as may make a Will Save (DC 14 + 1/2 Caster Level + Caster Ability Modifier) to realize you're not who you're pretending to be. They immediately get to make a saving throw if you do anything incredibly out of character (such as a beloved Healer suddenly stabbing someone). You instinctively know how to mimic the voice, clothing, mannerisms, and expected behaviors of the individual you're disguising yourself as.
+
+**Shadows In Reality**
+As a standard action, you may create an illusion that is perfect in sound, smell, and visual appearance. The illusion appears anywhere you can see, and may be up to 30 feet in diameter. You can make it move and seem lifelike. However, you cannot make yourself or anything else invisible with this illusion (though you could, for example, create the illusion of a box or rock around yourself). This illusion is not tangible and cannot directly affect the world.
+
+**Wear A Familiar Face**
+As a swift action, you may spend a spell point to blend in with any population or group for 1 hour per Caster Level. Unless they are actively vigilant for intruders, none of the group will bother you unless you wish them to, and you instinctively know how to speak, act, and generally conduct yourself so as to avoid drawing attention. This blending works with any group of creatures, even those who do not look or act like your race.
+
+----
+
 ++ Mind
 
 **Bearer Of The Crown**
 You have an uncanny way of knowing things that happen. You know all publicly-known major events in all groups and communities you control, and you can communicate your will and intentions to your subordinates (though they cannot respond in kind).
+
+**Convinced Of Wrongdoing**
+As a standard action, you may expend your martial focus to convince all targets in sight that one of their beliefs (that you choose) is a horrible lie that has been imposed upon them. Targets with equal to or more HD than you may make a Will Save (DC 14 + 1/2 Caster Level + Casting Ability Modifier) to disbelieve this. This only works on sincerely-held beliefs (whether or not they are true). For example, you cannot convince someone who believes the King is a terrible ruler that he is terrible - they already think that. However, you could convince them that the King is a good ruler.
 
 **Geas Of The Faithful**
 You may make the oath of a creature with equal or fewer hit dice than your character level who freely pledges their loyalty to you completely binding. Only magical coercion can force them to disobey or betray you until you release them from the effect (a standard action) - even if your orders are suicidal or unnatural for them. This ability cannot affect more than one creature per character level.
@@ -182,6 +210,38 @@ As a standard action, you may summon up to 100 Level 1 commoners or up to 6 foll
 
 **Wisdom Of The Followers**
 As a standard action, you may share the senses of anyone formally allied with you or part of your main group. You may also communicate telepathically with them, regardless of range. Any target can break their bond with you, but you are immediately aware of this.
+
+----
+
+++ Nature
+
+++++ Commune With Stone
+As a move action, you may commune with earth or stone within 30 feet of you, seeing and hearing everything it was present for at a specific time of your choice.
+
+++++ Creator Of The Land
+As a full-round action, you may create, modify, or destroy a stone or earth structure of up to a 20-foot cube within your line of sight. The structure may be as elaborate as you desire, though it must be structurally sound at the end. You cannot trap creatures inside earth or stone with this power, but you can create earth and stone within the 20-foot cube, even if it is not present in the area.
+
+++++ Destroyer Of The Land
+As a standard action, you may destroy one visible non-magical stone or metal object that is no larger than a 20-foot cube. Things primarily composed of stone, such as stone walls, are treated as one stone for the purpose of this ability. Larger targets may be destroyed one piece at a time, and you may affect a smaller area than normal if you want to. This destruction can be destructive (which is treated as a Cave-In/Collapse; see Chapter 13 in the CRB), or it can be controlled (in which case anyone inside is unharmed and can safely leave, though the area destroyed is treated as difficult terrain).
+
+++++ Fury Of The World
+As a standard action, you may spend a spell point to cause the very ground to attack all targets within medium range. Each foe takes 1d12 bludgeoning, piercing, and slashing damage per Caster Level (Reflex halves, DC 14 + 1/2 Caster Level + Caster Ability Modifier). You can only target creatures with this ability - objects, including structures, are unaffected.
+
+++++ Jeweled Eyes
+As a swift action, you can gain the ability peer through dirt and stone within 120 feet until the start of your next turn. While looking this way, the dirt and stone appear clearly transparent to you and are easy to see even if there is no source of light. Jewels, precious metals, and other substances are not transparent and are easy to distinguish from the surrounding area.
+
+++++ Shake The World
+As the Earthquake [[[Advanced Talent]]], but reaching out 240 feet instead of 80.
+
+++++ Walk Through The Earth
+As a standard action, you may spend a spell point to grant yourself and one companion per Caster Level a Burrow speed equal to their highest other speed. This effect lasts for 10 minutes per caster level. While burrowing, any creature affected by this ability does not need to breathe.
+
+----
+
+++ ##993300|Scout##
+
+**Hidden Steps**
+While stealthing, you cannot be detected by creatures with fewer HD than you as long as you stay out of their immediate presence and do not draw attention to yourself. Creatures with equal to or more HD than you may make a Will Save (DC 14 + 1/2 your BAB + your Practitioner Ability Modifier). If successful, they can still make a Perception check to try and notice you.
 
 ----
 
