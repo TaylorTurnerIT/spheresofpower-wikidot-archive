@@ -5,9 +5,11 @@ title:Divine Talents
 
 **About:** Divine Talents are **not** official Spheres material. Instead, these talents represent unusual or extreme powers that go beyond even [[[Advanced Talents]]]. These are not necessarily appropriate or intended for players, though temporary access to specific Divine Talents can be a plot point within the game. These talents are more appropriate for major villains, epic NPCs, and similar notable figures within a game world. The default rule is that player characters cannot take Divine Talents without the GM's permission.
 
-Each Divine Talent is associated with a base sphere. Divine Talents can only be taken by characters who have that base sphere. GMs may choose to impose additional prerequisites. If there is a conflict in effects, the Divine Talent takes precedence. If two Divine Talents would oppose each other, the one with the higher Caster Level in that sphere takes precedence. If they have the same caster level, the two characters in question must make opposing d20 rolls, rerolling ties, until a winner is determined. A character may always choose to have their divine talent fail against another divine talent.
+Each Divine Talent is associated with a base sphere. Divine Talents can only be taken by characters who have that base sphere. GMs may choose to impose additional prerequisites. If there is a conflict in effects, the Divine Talent takes precedence. If two Divine Talents would oppose each other, the one with the higher Caster Level in that sphere takes precedence. If they have the same caster level, the two characters in question must make opposing d20 rolls, rerolling ties, until a winner is determined. A character may always choose to have their divine talent fail against another divine talent. Divine talents always lose to actual divine intervention (including the Miracle spell or direct action by a deity, though demigods are not strong enough to automatically overcome them).
 
 All references to Caster Level refer to the user's Caster Level with the associated sphere.
+
+Regardless of effect, Divine Talents cannot harm or destroy artifacts, though it is possible to hide, move, or otherwise conceal such powerful magical items.
 
 ++++ Giving Divine Talents To Characters
 
@@ -129,7 +131,7 @@ As a move action, you learn the exact location of every corpse, undead, and frag
 As a Standard Action, you may destroy all undead in sight that have fewer Hit Dice than you. All other undead suffer your Caster Level in untyped damage. This damage is tripled against swarms of undead.
 
 **Mantle of Death**
-Attacking you is dangerous. Any creature with fewer Hit Dice than you that attacks you suffers one of their average hit dice worth of damage (rounded up). This triggers before they hit you. Foes with multiple attacks only suffer this damage once per round.
+Attacking you is dangerous. Any creature with fewer Hit Dice than you that attacks you suffers one of their average hit dice worth of negative energy damage (rounded up). This triggers before they hit you. Foes with multiple attacks only suffer this damage once per round. This negative damage is always harmful and does not heal undead.
 
 **No Mercy For The Fallen**
 All creatures within 200 feet of you that are reduced to 0 HP immediately die or stabilize (you may choose the result for each creature). You may choose to allow willing, living creatures at 0 HP to continue acting (without being staggered) for as many rounds as your Caster Level. At the end of this time, they fall unavoidably dead.
@@ -141,7 +143,7 @@ As a standard action, you may spend a spell point and attempt to kill a creature
 As a Standard Action, choose one target you can see and expend a spell point. That target cannot die until you reclaim the spell point used on them (which you may do as a Standard Action, regardless of where they are). If the target would normally die, they are incapacitated for one hour (and appear dead) before reviving with 1 hit point. If their body is destroyed or scattered, it reforms in one week in the closest safe square to their point of death and they revive with 1 hit point. You always know the condition of the target of this power. You cannot use this power on yourself.
 
 **Scythe Of The Reaper**
-Your gaze or your weapon are exceptionally dangerous. You can make attacks with them against targets up to 200 feet away (though you do not threaten areas with this attack). This counts as a ranged gaze attack if done with your eyes, or a melee attack if done with your weapon. The attack deals 1d10 + your Casting Ability Modifier in negative energy damage. At every odd caster level beyond 1st (3rd, 5th, etc.), this attack deals an additional 1d10 negative energy damage.
+Your gaze or your weapon are exceptionally dangerous. You can make attacks with them against targets up to 200 feet away (though you do not threaten areas with this attack). This counts as a ranged gaze attack if done with your eyes, or a melee attack if done with your weapon. The attack deals 1d10 + your Casting Ability Modifier in negative energy damage. At every odd caster level beyond 1st (3rd, 5th, etc.), this attack deals an additional 1d10 negative energy damage. You cannot deal damage with this ability more than once per round.
 
 **Sow The Seeds of Death**
 You may make a Ghost Strike that affects the target with cancers and dangerous growths. Targets may make a Fortitude Saving Throw (DC 14 + 1/2 Caster Level + Caster Ability Modifier) to resist this effect. If they do not, they will die of cancer in 1d6 months unless they receive magical healing.
@@ -263,33 +265,58 @@ As a standard action, you may share the senses of anyone formally allied with yo
 ----
 
 ++ Nature
+**Special:** Divine Nature Talents require the corresponding geomancing package.
 
-**Blessed Growth**
+**Blade Of Flames** (fire)
+Your flames are exceptionally dangerous, and you can either hurl it or cover one of your weapons with them (this does not harm the weapon). When using it at a distance, you can make attacks with fire against targets up to 200 feet away (though you do not threaten areas with this attack). This counts as a ranged touch attack. Whether you're applying the flames at range or covering your weapon with them, your attack deals 1d10 + your Casting Ability Modifier in fire damage. At every odd caster level beyond 1st (3rd, 5th, etc.), this attack deals an additional 1d10 fire damage. You can only deal damage with this ability once per round.
+
+**Blessed Growth** (plantlife)
 As a standard action, you may spend a spell point to bless the land in a 10 mile radius. This land becomes impossibly fertile, with planted crops growing in 2d4 hours and feeding as many people as necessary. Weeds and other undesired plants will not grow at all within this range, and will disappear within 24 hours.
 
-**Bounty Of The Land**
+**Bounty Of The Land** (plantlife)
 As a standard action, you may spend a spell point to bless a container containing a non-magical agricultural substance (such as wheat or corn). The spell point remains committed until you choose to reclaim it (a standard action), at which point this effect ends. While the blessing remains, the supply within the container will never run out, and it can produce up to 10 tons of goods per day (assuming the opening is large enough to let such amounts out).
 
-**Commune With Stone**
+**Burning Gaze** (fire)
+As a standard action, you may spend a spell point to incinerate one object in sight, up to a 20-foot cube in size. The target is consumed in flames and turns to fine ash, even if it's not normally combustible. Particularly dense or durable objects may take several rounds to burn away. Objects currently being carried by a creature are not affected. Magic items get a Saving Throw (DC 12 + 1/2 Caster Level + Casting Ability Modifier) to avoid damage. If they succeed, they cannot be affected by this power again for 24 hours.
+
+**Burning Words** (fire)
+As a standard action, you may spend a spell point. For 10 minutes per caster level, each foe with fewer Hit Dice than you takes 1d12 fire damage per round as long as they heard you speak in the last round. You may ignite a flammable, unattended object as a free action once per round.
+
+**Commune With Stone** (earth)
 As a move action, you may commune with earth or stone within 30 feet of you, seeing and hearing everything it was present for at a specific time of your choice.
 
-**Creator Of The Land**
+**Creator Of The Land** (earth)
 As a full-round action, you may create, modify, or destroy a stone or earth structure of up to a 20-foot cube within your line of sight. The structure may be as elaborate as you desire, though it must be structurally sound at the end. You cannot trap creatures inside earth or stone with this power, but you can create earth and stone within the 20-foot cube, even if it is not present in the area.
 
-**Destroyer Of The Land**
+**Destroyer Of The Land** (earth)
 As a standard action, you may destroy one visible non-magical stone or metal object that is no larger than a 20-foot cube. Things primarily composed of stone, such as stone walls, are treated as one stone for the purpose of this ability. Larger targets may be destroyed one piece at a time, and you may affect a smaller area than normal if you want to. This destruction can be destructive (which is treated as a Cave-In/Collapse; see Chapter 13 in the CRB), or it can be controlled (in which case anyone inside is unharmed and can safely leave, though the area destroyed is treated as difficult terrain).
 
-**Fury Of The World**
+**Fiery Tempest** (fire)
+As a standard action, you may spend a spell point and select a location within sight. Each target within 100 feet of that location is struck by falling flames dealing 1d8 points of fire damage per caster level (Reflex halves, DC 14 + 1/2 Caster Level + Casting Ability Modifier).
+
+**Fury Of The World** (earth)
 As a standard action, you may spend a spell point to cause the very ground to attack all targets within medium range. Each foe takes 1d12 bludgeoning, piercing, and slashing damage per Caster Level (Reflex halves, DC 14 + 1/2 Caster Level + Caster Ability Modifier). You can only target creatures with this ability - objects, including structures, are unaffected.
 
-**Jeweled Eyes**
+**Jeweled Eyes** (earth)
 As a swift action, you can gain the ability peer through dirt and stone within 120 feet until the start of your next turn. While looking this way, the dirt and stone appear clearly transparent to you and are easy to see even if there is no source of light. Jewels, precious metals, and other substances are not transparent and are easy to distinguish from the surrounding area.
 
-**Shake The World**
+**Lord Of Flames** (fire)
+As a standard action, you may control all flames in sight, moving them up to their size or extinguishing them.
+
+**Mantle Of Fire** (fire)
+Attacking you is dangerous. Any creature with fewer Hit Dice than you that attacks you suffers one of their average hit dice worth of fire damage (rounded up). This triggers before they hit you. Foes with multiple attacks only suffer this damage once per round.
+
+**Restore The Ashes** (fire)
+As a standard action, you may spend a spell point to undo the effects of fire in a space up to a 20-foot cube. This repairs damage caused by fire to objects and creatures, but cannot revive any creature that died from fire. However, it can turn a cremated body back into a solid corpse, which may allow another ability to revive them.
+
+**Shake The World** (earth)
 As the Earthquake [[[Advanced Talent]]], but reaching out 240 feet instead of 80.
 
-**Walk Through The Earth**
+**Walk Through The Earth** (earth)
 As a standard action, you may spend a spell point to grant yourself and one companion per Caster Level a Burrow speed equal to their highest other speed. This effect lasts for 10 minutes per caster level. While burrowing, any creature affected by this ability does not need to breathe.
+
+**Walk Through The Flames** (fire)
+As a standard action, you may know the location of all flames within a mile of your current location. As part of the same action, you may spend a spell point to teleport yourself and any willing companions who are touching you (up to one companion per Caster Level) to any flame larger than a candle that you detected. You cannot travel more than one mile with this ability per hour.
 
 ----
 
