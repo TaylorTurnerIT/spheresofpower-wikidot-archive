@@ -6,9 +6,11 @@ parent:start
 
 **About:** Divine Talents are **not** official Spheres material. Instead, these talents represent unusual or extreme powers that go beyond even [[[Advanced Talents]]]. These are not necessarily appropriate or intended for players, though temporary access to specific Divine Talents can be a plot point within the game. These talents are more appropriate for major villains, epic NPCs, and similar notable figures within a game world. The default rule is that player characters cannot take Divine Talents without the GM's permission.
 
-Each Divine Talent is associated with a base sphere. Divine Talents can only be taken by characters who have that base sphere. GMs may choose to impose additional prerequisites, or to reassign the sphere a Divine Talent is linked to if it makes more sense for their game. If there is a conflict in effects, the Divine Talent takes precedence. If two Divine Talents would oppose each other, the one with the higher Caster Level in that sphere takes precedence. If they have the same caster level, the two characters in question must make opposing d20 rolls, rerolling ties, until a winner is determined. A character may always choose to have their divine talent fail against another divine talent. Divine talents always lose to actual divine intervention (including the Miracle spell or direct action by a deity, though demigods are not strong enough to automatically overcome them).
+Each Divine Talent is associated with a base sphere. Divine Talents can only be taken by characters who have that base sphere. GMs may choose to impose additional prerequisites, or to reassign the sphere a Divine Talent is linked to if it makes more sense for their game. If there is a conflict in effects, the Divine Talent takes precedence (though all ongoing Divine Talents can be dispelled or countered by the appropriate abilities). If two Divine Talents would oppose each other, the one with the higher Caster Level in that sphere takes precedence. If they have the same caster level, the two characters in question must make opposing d20 rolls, rerolling ties, until a winner is determined. A character may always choose to have their divine talent fail against another divine talent. Divine talents always lose to actual divine intervention (including the Miracle spell or direct action by a deity, though demigods are not strong enough to automatically overcome them).
 
 All references to Caster Level refer to the user's Caster Level with the associated sphere. Any creature that succeeds on a saving throw against a Divine Talent cannot be affected by the same talent from the same target for 24 hours. When abilities grant you the ability to teleport to a destination under certain criteria, you may either pick an appropriate location you know of or move to the valid destination closest to the place you're trying to reach. If an ability allows a saving throw, you may choose to grant one to a creature even if they would not normally be allowed to make one.
+
+Any creature with a Divine Talent in a martial sphere acquires an additional Martial Focus, gained and spent separately from any other Martial Focus they have, that can only be spend on Divine Talent(s). The character can still spend their normal Martial Focus on Diving Talents.
 
 You may always choose to use a Divine Talent at less than maximum power (as if you were weaker), but you cannot reduce the effect below 1 CL/BAB and a +1 in your relevant ability modifier. Some talents have additional limits on how much they can be weakened.
 
@@ -663,11 +665,35 @@ You can defeat any mundane seal, binding, trap, lock, or tie without needing to 
 
 ++ ##993300|Warleader##
 
+**Courage Of The Masses**
+You inspire and sustain the citizens of a city you occupy. Every normal citizen gains +1 Hit Dice, a bonus to attack rolls equal to 1/2 your BAB, and immunity to fear when facing threats to the city as a whole. You may exclude specific groups or hostile locals from these benefits.
+
+**Creator Of The City**
+As a standard action, you may summon forth permanent buildings and civil engineering in a style appropriate to any city you have visited. Each use of this creates structures within one 100-foot cube per BAB of the user. The creations rise and form over the course of one hour. Any construction appropriate to a city may be created, even if the local environment lacks the necessary materials. Buildings are equipped with mundane furnishings and objects appropriate to their function. You may not have more than one instance of this ability active at any one time. You may destroy buildings and civil engineering you created with this ability at the same range and speed as you can create them.
+
+**Curse The City**
+You may curse a city or a specific structure within it. If you target a specific building, it will collapse, inflicting 1d10 bludgeoning damage per BAB on all creatures inside. Up to an entire palace can be collapsed in a single curse as long as it is one building. If the curse is directed at a city, the city itself becomes unable to function - citizens begin to fight each other and the city will be abandoned within a month unless you relent and cancel the curse or the effect is dispelled.
+
 **Hour Of Need**
 As a standard action, you may expend your martial focus to send a message up to a week back in time, summoning up to a dozen allies to arrive in the current round if they were willing to come. The power of this ability shields effects of causality from disrupting reality.
 
 **Invincible General**
 All NPC soldiers serving in an army you control gain an additional level in the class they most recently gained. They also gain a bonus to hit equal to your practitioner ability modifier. All officers in your armies know your will, and you are always aware of the general location, condition, and activities of military units that accept your authority.
+
+**Lord Of The City**
+As a standard action, you may expend your martial focus. While your focus remains expended, the occupants of the city will unconsciously treat you as their legitimate ruler. You will be obeyed as if you were equal to the mayor, lord, council, or other supreme authority of the city, insofar as the target actually respects and obeys any of these personages. (Thieves' guilds, for example, may not be inclined to obey.) Occupants who leave the city may make a Will Saving Throw (DC 14 + 1/2 BAB + Practitioner Ability Modifier) to throw off the effect, but it will fall over them if they return and the effect is still going.
+
+**One Of The Masses**
+You have an intuitive connection with the common citizens of a city when you are within its boundaries. Citizens who have fewer hit dice than you will never initiate violence against you unless vigorously provoked and will always provide favors and assistance that do not significantly inconvenience them (as determined by the GM). You automatically know the major figures of the city, their locations, and their general roles (such as the mayor, the guildmaster of thieves, secret leaders, and beloved pillars of the community).
+
+**Unseen Walls**
+While within a city, you may expend your martial focus and target up to a small mob (as determined by the GM to be appropriate in size for the city - cities with higher populations have more people in a small mob). Until the next time you regain your martial focus, the targeted creatures are unable to move from their current vicinity, finding every path elsewhere somehow blocked or confusing - even if others try to carry them out. Alternatively, you may curse them so that every path leads them to a particular place within the city. Any creatures with equal to or more hit dice than you get a Will Save (DC 12 + 1/2 BAB + Practitioner Ability Modifier) to negate this effect. They get a new saving throw every 24 hours if you are continuing to curse them with this power.
+
+**Walk The Streets**
+As a swift action, you may expend your martial focus to transport yourself and any companions on the same street to any location on another street in the same city. Creatures with fewer hit dice than you will not notice anything unusual about your movement, rationalizing it as a quick getaway or a presence they simply hadn't noticed before.
+
+**Word Of The Street**
+As a move action, you may speak to or eavesdrop on any person in any city as long as you have met them. Only you and the target of this ability hear any conversation between the two of you, while eavesdropping is imperceptible. Creatures with equal to or more hit dice than you get a Will Save (DC 12 + 1/2 BAB + Practitioner Ability Modifier) to negate this. You may also expend your martial focus as a move action to send a message to any group you know of in a city you've visited, ranging from a single person to an entire cult, profession, or population. The recipients are not obligated to obey anything you tell them to do, but they will intuitively recognize you as the sender.
 
 ----
 
