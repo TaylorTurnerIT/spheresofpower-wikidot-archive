@@ -12,7 +12,7 @@ All references to Caster Level refer to the user's Caster Level with the associa
 
 Any creature with a Divine Talent in a martial sphere acquires an additional martial focus, gained and spent separately from any other martial focus they have, that can only be spend on Divine Talent(s). The character can still spend their normal Martial Focus on Diving Talents. Any references to regaining martial focus refer specifically to regaining the martial focus spent on that talent - the ability does not end if you regain a separate martial focus you have.
 
-You may always choose to use a Divine Talent at less than maximum power (as if you were weaker), but you cannot reduce the effect below 1 CL/BAB and a +1 in your relevant ability modifier. Some talents have additional limits on how much they can be weakened.
+You may always choose to use a Divine Talent at less than maximum power (as if you were weaker), but you cannot reduce the effect below 1 CL/BAB and a +1 in your relevant ability modifier. Some talents have additional limits on how much they can be weakened. Many talents can only be resisted by foes with equal to or more hit dice than the user - this is meant to make them distinctly stronger against weak foes, and more challenging to use against creatures ultimately more powerful than the user.
 
 Regardless of effect, Divine Talents cannot control, harm, or destroy artifacts, though it is possible to hide, move, or otherwise conceal such powerful magical items.
 
@@ -162,6 +162,9 @@ As a swift action, you may expend your martial focus to maximize any one damage 
 
 ++ Creation
 
+**Functional Life**
+As a standard action, you may spend a spell point and target an object no larger than a cottage. The object is immediately aged and eroded one thousand years. Most objects will be destroyed or ruined by this (especially organic materials like wood), though some stronger materials (like adamantine) will be unaffected. This can be used on constructs, which may make a Fortitude Save (DC 10 + 1/2 Caster Level + Casting Ability Modifier) to negate. This is an aging effect, and so will not work on any object somehow granted immunity to aging.
+
 **Perfect Repair**
 You can fix anything as long as you have the materials and tools on hand. You can repair up to a 10-foot cube of materials each round (though this cannot return magic to permanently-destroyed magic items). All forms of decay, damage, and corruption can be reversed, and even rotting foods can be made like new.
 
@@ -251,8 +254,23 @@ As a swift action, you may use your Reanimate ability to create a single undead 
 
 ++ Destruction
 
+**Destroy Bonds**
+As a standard action, you may spend a spell point and target a visible creature. Choose one emotional relationship they have (or a class of emotional relationships). The target and those in the relationship lose all feelings for each other, positive or negative, and cannot develop them again unless you release them from this effect. Targets with equal to or more hit dice than you may make a Will Save (DC 14 + 1/2 Caster Level + Casting Ability Modifier) to negate this effect.
+
 **Destroy Knowledge**
 As a standard action, you may spend a spell point and target a creature within sight. The targeted creature loses knowledge of one language you decide on, all points in one skill, or knowledge of a particular topic. This cannot erase their knowledge of their own spellcasting or other special abilities they possess. Targets get a Will Save (DC 14 + 1/2 Caster Level + Casting Ability Modifier) to negate this effect.
+
+**Disordered Mind**
+As a standard action, you may spend a spell point and select a visible creature while defining a specific purpose or action that creature is trying to carry out (such as killing a target, proclaiming an edict, or bartering for a good price on a rare magic item). They will immediately take the most disruptive and harmful action they can take in contradiction of that goal (except harming themselves), whether that's intentionally missing or critically misjudging things. They will be convinced that they are behaving in a sensible manner, despite all argument against them. Creatures with equal to or more hit dice than you may make a Will Save (DC 12 + 1/2 Caster Level + Casting Ability Modifier) to negate this effect.
+
+**Everything Falls Apart In Time**
+The damage dice of your destructive blast increases by 2 steps (typically 1d6 to 1d10). Against objects, your destructive blast always deals the maximum damage.
+
+**Reduced Impact**
+As an immediate action, you may spend a spell point and select an attack or harmful even that just occurred. The event is negated and the target of the bad effect is left unaffected. This ability only applies to things that deal hit point damage or other directly harmful effects (such as debuffs, poison, mind control, etc.), and does not apply to more indirect harmful events like being divorced by an angry spouse.
+
+**Sap Strength**
+As an immediate action, you may spend a spell point and target a creature that has just expended a resource (such as a spell point, martial focus, or something from a class resource pool). The resource is lost and the creature must spend it again (which they may do as a free action, if they have it, to continue their action) to make their effect come to pass. Targets with equal to or more hit dice than you may make a Fortitude Save (DC 10 + 1/2 Caster Level + Casting Ability Modifier) to resist this effect.
 
 ----
 
@@ -273,6 +291,9 @@ As a Move Action, you may perceive the area around any one object that you creat
 
 **Know The Best Course**
 As a standard action, you may spend a spell point to gain one truthful sentence from the GM about the best way to accomplish a stated desire or goal. You cannot gain additional information with this talent until you act on the previous information or abandon the previous goal.
+
+**Know The Worst Course**
+As a standard action, you may spend a spell point to gain one truthful sentence from the GM about the best way to hinder a stated goal or desire (typically that of an enemy). You cannot gain additional information with this talent until you act on the previous information or abandon your attempts to hinder that plan.
 
 **Know The Enemy**
 As a standard action, you may spend a spell point and lay out a plan. The GM announces the most relevant problem or complication relating to the plan that you do not already known. You can only gain insight once for any particular plan you're working on, with the GM deciding what constitutes a plan. The most relevant complication is not necessarily the only complication.
@@ -496,6 +517,9 @@ As a standard action, you may expend your martial focus to convince all targets 
 **Create A Friend**
 As a standard action, you may spend a spell point to make a creature your friend. The target gets a Will Save (DC 10 + 1/2 Caster Level + Caster Ability Modifier) to negate this effect. The target will not question this feeling of friendship (no matter how irrational it is), and the effect will persist until you choose to lift it (a standard action) or you obviously betray or harm the target.
 
+**Enslaving Will**
+Your mind is so powerful that your attention alone is enough to affect people. As a standard action, you may assault people directly with your mind (this does not trigger any drawbacks you may have, such as Somatic Casting or Verbal Casting, but it is visibly obvious that you are using this power), dealing 1d8 untyped damage per caster level (Will negates, DC 10 + 1/2 Caster Level + Casting Ability Modifier). Creatures without minds are immune to this damage. The damage dealt by this attack affects the emotions, and any creature that would drop to 0 or less HP is instead brought to 1 HP, at which point they become the user's thrall for 1 minute per caster level and will perform any non-suicidal act until they regain their senses.
+
 **Follow The Friends**
 As a standard action, you may study a target to learn the six most emotionally significant people to them, including their appearance (as the target knows it), the name the target knows them as, and a brief description of their relationship. Targets with equal or more Hit Dice than you may make a Will Save (DC 14 + 1/2 Caster Level + Casting Ability Modifier) to negate.
 
@@ -510,6 +534,9 @@ As a standard action, you may plant the seeds of an emotion in a target you can 
 
 **Invoke Terror**
 As a standard action, you may spend a spell point to affect all targets in medium range with the Frightened condition. Targets get a Will Save (DC 10 + 1/2 Caster Level + Casting Ability Modifier) to negate this fear. This is a fear effect.
+
+**Know The Desires**
+As a standard action, you may choose a visible target and learn all of their romantic tastes, any significant pleasures (from obsession over raising a pet to drug addictions), and the desire of theirs that is most relevant to your interests or goals. If the use of this ability is phrased as a question for what they want in return for a specific favor or service, the most necessary inducement is revealed according to the GM's judgement. Creatures with equal to or more hit dice than you get a Will Save (DC 12 + 1/2 Caster Level + Casting Ability Modifier) to negate this effect.
 
 **Know The King**
 You automatically spot the true leader of any group you're interacting with (if any). As a standard action, you may spend a spell point to convince all creatures in the area who have less than half your Hit Dice that you are their superior. If confronted with the strangeness of this, they must make a Will Save (DC 14 + 1/2 Caster Level + Casting Ability Modifier) to shake off the mind control.
@@ -530,7 +557,13 @@ As a standard action, you may spend a spell point to affect all creatures with f
 As a standard action, you may summon up to 100 Level 1 commoners or up to 6 followers of yours that are above Level 1 at your current location. These individuals must be within ten miles of you to begin with. They cannot be called to any location they could not normally reach under their own abilities. They appear wherever makes the most sense based on their previous location.
 
 **Snuff The Passion**
-As a standard action, you can quell an emotion in a target you can see. This could be an entire emotion (such as loyalty or love), or selectively snuffed towards particular targets (such as not feeling loyalty to a king). Foes with fewer hit dice than you are always affected, while foes with equal to or more Hit Dice may make a Will Save (DC 12 + 1/2 Caster Level + Casting Ability Modifier) to negate it. This effect lasts until you choose to end it (a standard action) or for one week per caster level. 
+As a standard action, you can quell an emotion in a target you can see. This could be an entire emotion (such as loyalty or love), or selectively snuffed towards particular targets (such as not feeling loyalty to a king). Foes with fewer hit dice than you are always affected, while foes with equal to or more Hit Dice may make a Will Save (DC 12 + 1/2 Caster Level + Casting Ability Modifier) to negate it. This effect lasts until you choose to end it (a standard action) or for one week per caster level.
+
+**Unbearable Visage**
+You gain a +5 circumstance bonus to AC against intelligent creatures that can see you. The first attack against you any intelligent creature makes is an automatic miss as they hesitate to strike you.
+
+**Unbreakable Will**
+You gain immunity to all mind-affecting powers and abilities that allow a Will save.
 
 **Wisdom Of The Followers**
 As a standard action, you may share the senses of anyone formally allied with you or part of your main group. You may also communicate telepathically with them, regardless of range. Any target can break their bond with you, but you are immediately aware of this.
@@ -640,8 +673,18 @@ As a standard action, you may destroy any non-magical object you are touching, u
 
 ++ ##993300|Open Hand##
 
+**Perfected Efficiency**
+You gain an additional martial focus, gained and expended separately from the others. You may not use this martial focus for divine talents.
+
 **Shattering Strike**
 As a swift action, you may expend your martial focus. Until the next time you regain martial focus, your damage with unarmed strikes is always treated as if you rolled the maximum possible amount. As a full-round action, you may destroy up to a five-foot cube of earth, stone, wood, or similar materials, smashing them with a single blow. Magical substances cannot be broken this way.
+
+----
+
+++ Protection
+
+**Undisrupted**
+As an immediate action, you may spend a spell point to gain immunity to HP damage and negative effects until the start of your next turn.
 
 ----
 
