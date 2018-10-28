@@ -33,6 +33,19 @@ There are several ways for a character (typically, but not necessarily, an NPC) 
 
 ----
 
+++ ##993300|Alchemy##
+
+**Always Prepared**
+You are immune to poison.
+
+**Eyes Of A Murderer**
+You can study a murder victim for one minute to gain a full and contextual understanding of how they died, why they died, and who killed them. As a move action, you can study a visible creature and learn whether or not they were involved in murderous violence against a specific target you have in mind. If they were, you gain a brief vision of how the event took place.
+
+**Hands Full Of Venom** (requires Poison package)
+As a swift action, you may expend your martial focus and gain the ability to poison a target. The poison may be any you know of and can affect them as fast or as slow as you desire, but if they fail their final saving throw, they will die. Use the normal saving throw(s) for the poison in question.
+
+----
+
 ++ ##993300|Athletics##
 
 **Anywhere I Wish To Be**
@@ -275,11 +288,17 @@ As a move action, you learn the exact location of every corpse, undead, and frag
 **Harvest The Wheat**
 As a Standard Action, you may destroy all undead in sight that have fewer Hit Dice than you. All other undead suffer your Caster Level in untyped damage. This damage is tripled against swarms of undead.
 
+**I Have An Alibi**
+You may spend a spell point when you personally kill someone to stop others from magically uncovering that you did it. This stops auguries and divinations, magically scanning the scene, petitioning divine powers for information, and similar effects. You control the results of all such abilities. Creatures with fewer hit dice than you cannot identify you as the culprit, even if they watched you do it or hear you confess to it.
+
 **Mantle of Death**
 Attacking you is dangerous. Any creature with fewer Hit Dice than you that attacks you suffers one of their average hit dice worth of negative energy damage (rounded up). This triggers before they hit you. Foes with multiple attacks only suffer this damage once per round. This negative damage is always harmful and does not heal undead.
 
 **No Mercy For The Fallen**
 All creatures within 200 feet of you that are reduced to 0 HP immediately die or stabilize (you may choose the result for each creature). You may choose to allow willing, living creatures at 0 HP to continue acting (without being staggered) for as many rounds as your Caster Level. At the end of this time, they fall unavoidably dead.
+
+**Nobody Will Miss You**
+As a standard action, you may spend a spell point and target a visible creature. If they fail a Will Save (DC 12 + 1/2 Caster Level + Casting Ability Modifier), killing them is no longer considered criminal or inherently unacceptable by society, regardless of the circumstances of their death. NPCs with strong emotional ties or a loyal sense of duty to the target (such as those sworn to protect the innocent) will still defend the target, but others will not involve themselves unless paid or given another appropriate inducement. Any creature with a strong desire to kill the target is immediately and intuitively made aware of the target's unprotected status. As a move action, you may release this effect from a target. You may only affect one creature with equal to or more hit dice than you with this effect at any given time, but you may affect any number of creatures with fewer hit dice than you.
 
 **Reaper's Command**
 As a standard action, you may spend a spell point and attempt to kill a creature within close range. Any creature with HD equal to your HD - 2 instantly dies. Any creature above this point may make a Fortitude Save (DC 14 + 1/2 Caster Level + Casting Ability Modifier) to avoid this effect; they automatically succeed if they are at full HP. This is a death effect.
@@ -408,6 +427,12 @@ As a free action when making a melee attack, you may expend your martial focus. 
 
 ++ ##993300|Gladiator##
 
+**Boast Of Victory**
+As a boast, you may inspire your allies to victory. All of your allies (including you) gain immunity to HP damage and effects that allow saving throws until the start of your next turn.
+
+**Chorus Like Thunder**
+Your voice and your music penetrate all non-magical barriers and can be audible for up to ten miles per BAB (although it's not necessarily louder). You may pitch your shouts and music in such a way that only particular individuals or groups can hear them, and can hear any replies as long as people sing them. Allies and enemies within the range of this chorus sound are considered to be within range for the effects of your boasts and demoralizations (though some talents have other requirements for use, and this does not remove those).
+
 **Elegant Sidestep**
 As an immediate action, you may expend your martial focus to negate a single physical attack against you that could theoretically be dodged. If it is an area-of-effect attack (such as a massive thrown boulder), you deftly reposition yourself to the closest safe square outside its effect.
 
@@ -423,14 +448,23 @@ As a swift action, you may expend your martial focus to convey an idea or emotio
 **Light As A Feather**
 As a swift action, you may expend your martial focus to safely traverse terrain until you regain your martial focus. You may cross any surface at your full speed, whether it's liquid, vertical, or otherwise unable to bear your weight normally. While moving in this way, your movement does not trip wards or traps that rely on pressure to function.
 
+**Master Of Sound**
+As an immediate action, you may expend your martial focus to gain control of all sound within your line of sight until you regain your martial focus. You may create or alter any sound in this area, including redirecting sonic attacks, effects that rely on sound, or faking voices and words. As a move action, you may concentrate to clearly hear and understand all speech within the affected area, even in languages you can't normally understand. While this ability is active, you and your companions always succeed on sound-based stealth and listening checks.
+
 **Performance Battle**
-As a swift action, you may expend your martial focus to turn your dance into a deadly weapon. As an attack action, you can make a ranged touch attack dealing 1d8 untyped damage per BAB (Will halves, DC 10 + 1/2 BAB + Practitioner Ability Modifier). Mindless creatures and creatures immune to emotion effects are immune to this damage. If a creature would be killed by this damage, you may instead choose to force it to flee or dominate it (as the Mind Control option of the Mind sphere; see [[[Advanced Talents]]]) until you regain your martial focus. Dominated creatures are brought to 1 HP when domianted and are suicidally obedient. You may only deal damage with this ability once per round.
+As a swift action, you may expend your martial focus to turn your dance, song, or music into a deadly weapon. As an attack action, you can make a ranged touch attack dealing 1d8 untyped damage per BAB (Will halves, DC 10 + 1/2 BAB + Practitioner Ability Modifier). Mindless creatures and creatures immune to emotion effects are immune to this damage. If a creature would be killed by this damage, you may instead choose to force it to flee or dominate it (as the Mind Control option of the Mind sphere; see [[[Advanced Talents]]]) until you regain your martial focus. Dominated creatures are brought to 1 HP when dominated and are suicidally obedient. You may only deal damage with this ability once per round.
 
 **Rhythm Of The World**
 You are extraordinarily graceful, and gain a +6 Circumstance Bonus to AC. You are immune to all falling damage and cannot be tripped, knocked prone, or moved from your chosen position by force (unless you will it).
 
 **Shake The Walls**
 As a standard action, you may expend your martial focus to create a ruinously destructive vibration that destroys solid buildings and structures up to 100 feet per BAB away, sparing only those reinforces with magic. Enemy creatures caught within this range suffer 1d10 bludgeoning damage per BAB. Your allies and targets exempted by you never suffer harm from collapsing structures.
+
+**Shout The Walls Down**
+As a standard action, you may expend your martial focus and turn your voice into a wave of destruction. All glass, stone, wood, and metal constructions larger than a suit of armor are blown apart in a cone up to 30 feet long per BAB. Enemies within this area suffer 1d8 points of bludgeoning damage per BAB (Reflex halves, DC 12 + 1/2 BAB + Practitioner Ability Modifier). You may narrow the effect (shortening it to a minimum of five feet long and five feet wide), and may spare creatures or objects within the targeted zone from damage.
+
+**Silent Performance**
+As an immediate action, you may expend your martial focus and gain immunity to sonic damage and effects that rely on sound until you regain your martial focus.
 
 **Walk The Roughest Path**
 As a standard action, you may expend your martial focus and target a number of creatures up to your Practitioner Ability Modifier. A Will Save (DC 12 + 1/2 BAB + Practitioner Ability Modifier) negates this effect. Until you regain your martial focus, the targets become unable to move in graceful or controlled ways and lose their normal move action (though they may still trade their standard action for a move action). 
@@ -554,8 +588,11 @@ As a move action, you may focus to allow your sight to penetrate anything and ev
 **Bearer Of The Crown**
 You have an uncanny way of knowing things that happen. You know all publicly-known major events in all groups and communities you control, and you can communicate your will and intentions to your subordinates (though they cannot respond in kind).
 
+**Convinced Of Importance**
+As a standard action, you may spend a spell point to convince all targets in sight that one person, object, or topic (that you choose) is the most important thing in their life, as long as it's not obviously self-harmful. Targets with equal to or more HD than you may make a Will Save (DC 14 + 1/2 Caster Level + Casting Ability Modifier) to negate this effect.
+
 **Convinced Of Wrongdoing**
-As a standard action, you may expend your martial focus to convince all targets in sight that one of their beliefs (that you choose) is a horrible lie that has been imposed upon them. Targets with equal to or more HD than you may make a Will Save (DC 14 + 1/2 Caster Level + Casting Ability Modifier) to disbelieve this. This only works on sincerely-held beliefs (whether or not they are true). For example, you cannot convince someone who believes the King is a terrible ruler that he is terrible - they already think that. However, you could convince them that the King is a good ruler.
+As a standard action, you may spend a spell point to convince all targets in sight that one of their beliefs (that you choose) is a horrible lie that has been imposed upon them. Targets with equal to or more HD than you may make a Will Save (DC 14 + 1/2 Caster Level + Casting Ability Modifier) to disbelieve this. This only works on sincerely-held beliefs (whether or not they are true). For example, you cannot convince someone who believes the King is a terrible ruler that he is terrible - they already think that. However, you could convince them that the King is a good ruler.
 
 **Create A Friend**
 As a standard action, you may spend a spell point to make a creature your friend. The target gets a Will Save (DC 10 + 1/2 Caster Level + Caster Ability Modifier) to negate this effect. The target will not question this feeling of friendship (no matter how irrational it is), and the effect will persist until you choose to lift it (a standard action) or you obviously betray or harm the target.
@@ -574,6 +611,9 @@ You gain immunity to all fear effects and all mind-affecting effects. As a swift
 
 **Infecting Passion**
 As a standard action, you may plant the seeds of an emotion in a target you can see. They get a Will Save (DC 10 + 1/2 Caster Level + Casting Ability Modifier) to resist this. If the seed takes hold, they will attempt to spread this attitude to their friends and associates the next time they meet with them. Each person thus interacted with must make a Will Save (at the same DC) or become a new carrier for the emotion. The planted emotion lasts until you release the effect (a standard action) or the emotion is blatantly inappropriate for the situation.
+
+**Insane Leaps Of Logic**
+Creatures with fewer hit dice than you will not consider your actions unreasonable or inappropriate while you are in their presence. They will fight to defend themselves and those they care about, and will resist attempts to rob them or blatantly do harm, but they will never consider your actions illicit, irrational, or worth reporting to the authorities. At minimum, they will believe you have the right to be where you are and do whatever you're doing. If the actions are brought to their attention after you've left, they may realize the unnatural nature of these thoughts. This ability has no effect on creatures with equal to or more hit dice than you.
 
 **Invoke Terror**
 As a standard action, you may spend a spell point to affect all targets in medium range with the Frightened condition. Targets get a Will Save (DC 10 + 1/2 Caster Level + Casting Ability Modifier) to negate this fear. This is a fear effect.
@@ -598,6 +638,12 @@ You may give a command to a large group of NPCs (up to 1000 creatures). All of t
 
 **Passionate Power**
 As a standard action, you may spend a spell point to affect all creatures with fewer hit dice than you with a powerful emotion that you choose (acting as any effect of your choice from the Emotions ability of the [[[Eliciter]]]). 
+
+**Puppeteer Of The Insane**
+As a standard action, you may take control of a visible creature that is mentally ill (such as those suffering from an insanity effect) and force them to perform an action of your choice. They will not perform any suicidal or significantly self-harming action. Targets with equal to or more hit dice than you may make a Will Save (DC 6 + 1/2 Caster Level + Casting Ability Modifier) to resist this intrusion into their thoughts. This ability is easier to resist than most Divine Talents - it's extremely difficult to control a powerful mind that isn't working correctly.
+
+**Resist The Truth**
+As a standard action, you may spend a spell point to convince all targets in sight to avoid thinking about or admitting a particular fact unless their physical health requires it. Even then, they will only admit it to the degree necessary to preserve their lives. For example, you could convince them to refuse to admit that a building is on fire - while they would move out of immediate danger, they would otherwise ignore it and take no action to stop it. Foes with equal to or more hit dice than you may make a Will Save (DC 12 + 1/2 Caster Level + Casting Ability Modifier) once per minute to throw off this effect. A creature can only be affected by one instance of this ability at a time.
 
 **Seize Him!**
 As a standard action, you may summon up to 100 Level 1 commoners or up to 6 followers of yours that are above Level 1 at your current location. These individuals must be within ten miles of you to begin with. They cannot be called to any location they could not normally reach under their own abilities. They appear wherever makes the most sense based on their previous location.
@@ -744,6 +790,9 @@ While stealthing, you cannot be detected by creatures with fewer HD than you as 
 
 **Open A Path**
 As a standard action, you may expend your martial focus to create a hole in a type of security you know of. This could result in a guard leaving their post, a hole appearing in a magical barrier, or a fence breaking. The hole is always large enough to allow you and your allies a clear path of entry (although it may not allow you any further into a well-built facility). This hole in security lasts until you regain your martial focus.
+
+**Trustworthy**
+As a standard action, you may expend your martial focus and choose a particular social or professional role, or the identity of a creature you know with fewer hit dice than you. Creatures with fewer hit dice than you believe automatically believe you belong to the role or are the person you're disguised as, despite any evidence to the contrary. Creatures with equal to or more hit dice than you get a Will Save (DC 12 + 1/2 BAB + Practitioner Ability Modifier) to see through your disguise if you draw attention to yourself. The disguise lasts until you regain your martial focus.
 
 ----
 
