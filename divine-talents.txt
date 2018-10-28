@@ -14,7 +14,7 @@ If there is a conflict in effects, the Divine Talent takes precedence (though al
 
 All references to Caster Level refer to the user's Caster Level with the associated sphere. Any creature that succeeds on a saving throw against a Divine Talent cannot be affected by the same talent from the same target for 24 hours. When abilities grant you the ability to teleport to a destination under certain criteria, you may either pick an appropriate location you know of or move to the valid destination closest to the place you're trying to reach. If an ability allows a saving throw, you may choose to grant one to a creature even if they would not normally be allowed to make one.
 
-Any creature with a Divine Talent in a martial sphere acquires an additional martial focus, gained and spent separately from any other martial focus they have, that can only be spend on Divine Talent(s). The character can still spend their normal Martial Focus on Diving Talents. Any references to regaining martial focus refer specifically to regaining the martial focus spent on that talent - the ability does not end if you regain a separate martial focus you have.
+Any creature with a Divine Talent in a martial sphere acquires an additional martial focus, gained and spent separately from any other martial focus they have, that can only be spend on Divine Talent(s). The character can still spend their normal Martial Focus on Diving Talents. Any references to regaining martial focus refer specifically to regaining the martial focus spent on that talent - the ability does not end if you regain a separate martial focus you have. You do not automatically regain this martial focus after rest (or through any other method) unless you wish to.
 
 Some abilities (particularly those dealing a high amount of damage) say that they can only be used once per round. This limit applies even if you gain an extra attack or standard action, and you cannot use such extra actions to use another ability with the same limit.
 
@@ -194,6 +194,19 @@ As an immediate action when targeted by a mind-affecting effect, you may expend 
 
 **Loosen The Teeth Of The Gods**
 While you are berserking, you may make an unarmed strike as an attack action targeting the foe's Touch AC. If this hits, you deal your strength modifier in damage to the creature's average hit dice, alternating between high and low. For example, if you have a strength modifier of +4 and attack a creature with a d8 hit dice, you would deal four hit dice worth of damage to that creature, dealing 5 + 4 + 5 + 4 damage to it. This damage bypasses all damage reduction except DR/Epic and DR/-. Any creature struck by this attack is battered.
+
+----
+
+++ ##993300|Boxing##
+
+**Mantle Of The Foe**
+As an immediate action you may take after you or an ally suffers hit point damage, you may expend your martial focus to negate an active ability the enemy is using (treat this as dispelling their ability). You cannot negate passive or permanent abilities (such as flight granted by physical wings).
+
+**Raging Counter**
+As a swift action, you may expend your martial focus. Until you regain your martial focus, whenever you are suffer damage from an attack, you may a counterattack after the damage is done. Treat this strike as a counter punch for the purpose of applying talents and other benefits to it.
+
+**Wrathful Vengeance**
+As a swift action, you may expend your martial focus and target a creature that inflicted hit point damage or targeted you with a hostile power in the current encounter. Until you regain your martial focus, your attacks against that target always strike it and you roll your damage dice twice (taking the best result).
 
 ----
 
@@ -398,6 +411,12 @@ As a move action, you can take control of any door, mechanism, vehicle, or other
 **Avert Calamity**
 As a standard action, you may spend a spell point and name a particularly disastrous event. This cannot be "losing a battle" or "failing at a task" - these are too vague. The event named must be more specific, such as the use of a particularly devastating power or the chance that allies will come to a foe's aid. The event will not occur if there is any physical way it can be avoided. Only one calamity can be averted at a time; the caster may cancel the protection against a calamity already described, but they do not regain the spend spell point.
 
+**Bloody Vengeance**
+As a swift action, target a creature who inflicted damage on you or one of your allies in the previous round. That creature suffers the same amount of damage they inflicted (if they harmed more than one ally, they only suffer the damage done to one ally). Foes with equal to or more hit dice than you may make a Reflex Save (DC 12 + 1/2 Caster Level + Casting Ability Modifier) to halve the damage.
+
+**Condition Of Forgiveness**
+As a standard action, you may spend a spell point and target a creature you can see. Name an offense they have committed. If they ever perform a substantially similar act, they immediately suffer a curse of your choice. The offense named must not be something necessary for their survival or physical health. Creatures with equal to or more hit dice than you may make a Will Save (DC 12 + 1/2 Caster Level + Caster Ability Modifier) to negate this fated punishment.
+
 **Curse The Unlucky**
 As a standard action, you may curse a creature you see. Targets with equal or more Hit Dice than you get a Will Save (DC 14 + 1/2 Caster Level + Casting Ability Modifier) to negate. While cursed in this way, the target will always lose games of chance, non-fatal accidents will occur on a regular basis, and they most roll twice and take the lower result whenever they roll a d20. They cannot benefit from any ability that allows them to reroll and take a better result. The curse lasts until you choose to lift it, a curse-removing power breaks it, or a specific event of your choosing occurs.
 
@@ -410,14 +429,23 @@ As a standard action, you may spend a spell point and dictate an event. As long 
 **Lucky Life**
 Automatically reroll any attack roll or saving throw that would result in your death or mortal injury. The second roll is taken, even if it is worse, and it cannot be rerolled by any other power.
 
+**Mark Of Sin**
+As a standard action, you may target a creature you can see and spend a spell point while accusing them of a specific offense. This offense can be against the laws of the land, your faith, or any other group. If the creature actually committed the act, they are marked with an unconcealable magical mark that imparts the truth of the accusation to anyone who sees it. Creatures with equal to or more hit dice than you may make a Will Save (DC 10 + 1/2 Caster Level + Casting Ability Modifier) to resist this effect or deface an existing mark.
+
 **Once In A Lifetime**
 One time, you may succeed in a conflict or immediate situation through pure, blind luck (this cannot help you become a god). While the victory may not be complete, you will accomplish your main goal. Afterwards, you lose this power and can never again regain it. No other ability can duplicate the effects of this power or return it to someone once they've used it.
+
+**Pursuit Of The Wicked**
+As a standard action, you may spend a spell point and choose a creature that has caused a particular offense against you or another person. This spell point remains expended until you find the creature or give up on chasing it. While the spell point is expended, you have a constant awareness of the target's location and the fastest path you can take to reach them.
 
 **Save Up The Luck**
 As an immediate action when you roll a d20 during a consequential act (such as attacking an enemy in combat), you may spend a spell point to save the initial result and reroll, using the second result to determine the effects of your action. The GM decides what qualifies as a consequential act. You may only save one die result at a time. As a free action, you can use the result of this die in place of another character's d20 roll as long as you can see the target (this could mean giving an ally a high saving throw or an enemy a low attack roll, among other uses). Unwilling targets get a Will Save (DC 12 + 1/2 Caster Level + Casting Ability Modifier) to resist; if successful, your saved die is lost.
 
 **Spin The Wheel Of Fate**
 As an immediate action, you may spend a spell point to reroll any d20 roll you are aware of.
+
+**The Pendulum Swings**
+When you fail or forgo a saving throw against a hostile effect, the source of that effect fails their next saving throw against an ability you use against them (as long as the ability allows one). You may always choose to forgo making a saving throw against an effect used on you.
 
 **Turn The World Against Them**
 You may use luck itself as a weapon, inflicting wildly improbable calamities and destruction on one target within 100 feet. This attack deals 1d10 damage per caster level. The source of this bad luck is not perceptible to any non-supernatural being, even if you have a casting tradition that would normally make it obvious. You may not deal damage with this ability more than once per round, and it never harms anyone besides the target - anyone else in range (such as other people under a sudden falling piano) miraculously escape completely unscathed.
@@ -824,6 +852,9 @@ You may expend your martial focus to have others treat everything you are carryi
 **Prowling Power**
 You can move along sheer surfaces and overhangs as if they are flat ground. You gain a +5 circumstance bonus to all stealth checks. Creatures with fewer hit dice than you cannot make Perception checks to notice you while you are stealthing.
 
+**Sense Treasure**
+As a move action, you may intuitively sense the location of any metals, gemstone, water, or other notable materials beneath the earth in a radius of 100 feet per BAB. You may create up to 1000 x BAB your level in gold, gems, and other valuables each day. Non-precious substances are limited to a 10-foot cube of material each day.
+
 **Steal The Crown**
 As a standard action, you may expend your martial focus and target a visible creature. You may steal one ability from them (such as spellcasting or spherecasting, a class ability, or proficiency with a type of equipment). Creatures with equal to or more Hit Dice than you get a Fortitude Save (DC 10 + 1/2 BAB + Practitioner Ability Modifier) to resist. If you do not know what power you're stealing, the GM rolls and picks randomly. The target cannot use the ability until you return it. You may use the ability once - after that, it is automatically returned. This effect also ends when you regain your martial focus, whether or not you used the ability you stole.
 
@@ -834,8 +865,17 @@ As a standard action, you may target a creature and expend your martial focus to
 
 ++ ##993300|Scout##
 
+**Blessing Of The Deep Lands**
+You are immune to fire and acid damage, including from environmental sources. You may expend your martial focus to grant yourself and your allies disregard for air and sustenance until you regain your martial focus.
+
+**Bore Beneath**
+You gain a Burrow speed of 30 feet, but this movement only allows you to pass through unworked stone or earth. You may leave behind a self-supporting tunnel slightly larger than you are. As an immediate action, you may withdraw your support of any such tunnel(s) you've made and allow the natural environment to collapse it. If you collapse the ground under a building, it may be destroyed (based on the GM's determination).
+
 **Hidden Steps**
 While stealthing, you cannot be detected by creatures with fewer HD than you as long as you stay out of their immediate presence and do not draw attention to yourself. Creatures with equal to or more HD than you may make a Will Save (DC 14 + 1/2 your BAB + your Practitioner Ability Modifier). If successful, they can still make a Perception check to try and notice you.
+
+**Keeper Of What's Beneath**
+As a move action, you may expend your martial focus and indicate a person, object, or type of object you are capable of carrying. If such an object is below ground level within half a mile per BAB, you may draw it forth from the ground, even if it's guarded or hidden. As a different move action, you may transport yourself and your companions to a chosen subterranean location. This talent cannot move you and your companions more than ten miles in an hour.
 
 **Open A Path**
 As a standard action, you may expend your martial focus to create a hole in a type of security you know of. This could result in a guard leaving their post, a hole appearing in a magical barrier, or a fence breaking. The hole is always large enough to allow you and your allies a clear path of entry (although it may not allow you any further into a well-built facility). This hole in security lasts until you regain your martial focus.
@@ -912,6 +952,13 @@ You can defeat any mundane seal, binding, trap, lock, or tie without needing to 
 
 ----
 
+++ War
+
+**Determined March**
+You and any companions or soldiers you are leading can march overland at twenty miles per hour, and you do not require sleep or sustenance while marching. You are not slowed by any terrain except fortified areas, regardless of hostility or environmental perils. You cannot use this ability if you are alone.
+
+----
+
 ++ ##993300|Warleader##
 
 **Courage Of The Masses**
@@ -923,17 +970,29 @@ As a standard action, you may summon forth permanent buildings and civil enginee
 **Curse The City**
 You may curse a city or a specific structure within it. If you target a specific building, it will collapse, inflicting 1d10 bludgeoning damage per BAB on all creatures inside. Up to an entire palace can be collapsed in a single curse as long as it is one building. If the curse is directed at a city, the city itself becomes unable to function - citizens begin to fight each other and the city will be abandoned within a month unless you relent and cancel the curse or the effect is dispelled.
 
+**Escort Of The General**
+As a move action, you may expend your martial focus to summon a small group of soldiers who are suicidally loyal to you, up to one soldier for every three points of BAB. The GM determines the exact strength of these soldiers, but they always have fewer hit dice than you. These soldiers remain in existence until you regain your martial focus. The soldiers may or may not have individual identities, but the same individuals (if any) can be resummoned the next time you use this ability. Any soldiers slain cannot be resummoned for 24 hours.
+
 **Hour Of Need**
 As a standard action, you may expend your martial focus to send a message up to a week back in time, summoning up to a dozen allies to arrive in the current round if they were willing to come. The power of this ability shields effects of causality from disrupting reality.
 
+**Insight Of The Strategist**
+As a move action, you may target a visible group of armed creatures (up to the size of an army). You immediately become as aware of their goals and intended tactics as the best-informed leader among them.
+
 **Invincible General**
 All NPC soldiers serving in an army you control gain an additional level in the class they most recently gained. They also gain a bonus to hit equal to your practitioner ability modifier. All officers in your armies know your will, and you are always aware of the general location, condition, and activities of military units that accept your authority.
+
+**Know The Land**
+As a move action, you may concentrate and gain a perfect mental map of the terrain around you in a radius up to two miles per BAB. This map makes you immediately aware of any army-sized group (or part of an army) in the area. It also gives you perfect awareness of the locations of any soldiers following you. The detail of the map is enough to identify the weak points in a fortification, but it is not detailed enough to provide an internal map of a constructed building.
 
 **Lord Of The City**
 As a standard action, you may expend your martial focus. While your focus remains expended, the occupants of the city will unconsciously treat you as their legitimate ruler. You will be obeyed as if you were equal to the mayor, lord, council, or other supreme authority of the city, insofar as the target actually respects and obeys any of these personages. (Thieves' guilds, for example, may not be inclined to obey.) Occupants who leave the city may make a Will Saving Throw (DC 14 + 1/2 BAB + Practitioner Ability Modifier) to throw off the effect, but it will fall over them if they return and the effect is still going.
 
 **One Of The Masses**
 You have an intuitive connection with the common citizens of a city when you are within its boundaries. Citizens who have fewer hit dice than you will never initiate violence against you unless vigorously provoked and will always provide favors and assistance that do not significantly inconvenience them (as determined by the GM). You automatically know the major figures of the city, their locations, and their general roles (such as the mayor, the guildmaster of thieves, secret leaders, and beloved pillars of the community).
+
+**The Invincible Army**
+Soldiers currently under your command are immune to physical damage while you are present on the battlefield. This benefit does not apply to individual soldiers, only to units fighting in formation.
 
 **Unseen Walls**
 While within a city, you may expend your martial focus and target up to a small mob (as determined by the GM to be appropriate in size for the city - cities with higher populations have more people in a small mob). Until the next time you regain your martial focus, the targeted creatures are unable to move from their current vicinity, finding every path elsewhere somehow blocked or confusing - even if others try to carry them out. Alternatively, you may curse them so that every path leads them to a particular place within the city. Any creatures with equal to or more hit dice than you get a Will Save (DC 12 + 1/2 BAB + Practitioner Ability Modifier) to negate this effect. They get a new saving throw every 24 hours if you are continuing to curse them with this power.
@@ -954,14 +1013,23 @@ As a standard action, you may spend a spell point to bring the icy cold of the p
 **Blade Of The Storm**
 Your lightning is exceptionally dangerous, and you can either hurl it or cover one of your weapons with it (this does not harm the weapon). When using it at a distance, you can make attacks with lightning against targets up to 200 feet away (though you do not threaten areas with this attack). This counts as a ranged touch attack. Whether you're applying the lightning at range or covering your weapon with bolts, your attack deals 1d10 + your Casting Ability Modifier in electricity damage. At every odd caster level beyond 1st (3rd, 5th, etc.), this attack deals an additional 1d10 electricity damage. Attacks against wet or metal-covered targets do the minimum damage if your attack misses. You can only deal damage with this ability once per round.
 
+**Frozen Chains**
+As a standard action, you may spend a spell point to trap up to one foe per Caster Level in icy chains for one minute. Targets with equal to or more hit dice than you may make a Fortitude Save (DC 12 + 1/2 Caster Level + Casting Ability Modifier) to resist this effect. Trapped foes cannot take any action that requires physical movement, and at your discretion may suffer one point of cold damage per caster level per round they are trapped in the ice. Trapped creatures may make a Fortitude Save each round to break free.
+
 **Fury Of The Storm**
 As a move action, you may spend a spell point to create a storm over the battlefield. Once per round, as a standard action, you may call down a bolt of lightning that deals 1d10 electricity damage per caster level (Fortitude halves, DC 12 + 1/2 Caster Level + Casting Ability Modifier). These blasts can destroy structures less sturdy than a stone building, but do not harm any structures made of materials with 8 or more hardness. If used on a structure with a lightning rod, the lightning rod can ground 1d6 bolts from this ability before the heat and power render it useless.
+
+**Jaws Of Winter**
+When you kill a creature, you gain its maximum hit dice as bonus hit points. If these points are in excess of your maximum hit points, they are lost after the fight.
 
 **Master Of The Winds**
 When you Control Weather, the changes happen in 1 round regardless of how many steps are being changed. When you stop controlling weather, it ends just as quickly.
 
 **Rain Of Bolts**
 As a standard action, you may spend a spell point and select a point you can see. Every target creature within 100 feet of that point suffers 1d10 points of electricity damage as lightning strikes down from the sky. These bolts are harmful to creatures, but cannot destroy objects.
+
+**Sculpt Ice**
+As a standard action, you may summon up to a 20-foot cube of ice or snow in whatever shape you desire. If made into a barrier at least one foot thick, it has three times your caster level in hit points per foot. The structure will last permanently in sub-freezing environments, but will collapse in one day and melt away in two in any warmer areas.
 
 **The Clouds Below Your Feet**
 You can fill the area in up to a 300 foot radius around you with fog, as the Rain effect of the Weather sphere. You and your allies can see through this fog without trouble. This fog can douse any mundane fire, and grants all allies (including you) Fire Resistance 5 while you remain within it.
