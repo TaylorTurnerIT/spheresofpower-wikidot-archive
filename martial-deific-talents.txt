@@ -67,6 +67,13 @@ While traveling, you will never be hindered by random encounters or bad weather.
 
 ----
 
+++ ##993300|Barrage##
+
+**Rain Of Death**
+As a free action after making a Barrage, you may expend your martial focus to make a second Barrage. You may only use Rain of Death once per round.
+
+----
+
 ++ ##993300|Barroom##
 
 **Bad Drinks**
@@ -166,7 +173,10 @@ While you are berserking, you may make an unarmed strike as an attack action tar
 As an immediate action you may take after you or an ally suffers hit point damage, you may expend your martial focus to negate an active ability the enemy is using (treat this as dispelling their ability). You cannot negate passive or permanent abilities (such as flight granted by physical wings).
 
 **Raging Counter**
-As a swift action, you may expend your martial focus. Until you regain your martial focus, whenever you are suffer damage from an attack, you may a counterattack after the damage is done. Treat this strike as a counter punch for the purpose of applying talents and other benefits to it.
+As a swift action, you may expend your martial focus. Until you regain your martial focus, whenever you are suffer damage from an attack, you may make a counterattack after the damage is done. Treat this strike as a counter punch for the purpose of applying talents and other benefits to it.
+
+**Thunder Strike**
+As an immediate action, you may expend your martial focus to make an unarmed strike. Treat this strike as a counter punch for the purpose of applying talents and other benefits to it.
 
 **Wrathful Vengeance**
 As a swift action, you may expend your martial focus and target a creature that inflicted hit point damage or targeted you with a hostile power in the current encounter. Until you regain your martial focus, your attacks against that target always strike it and you roll your damage dice twice (taking the best result).
@@ -203,8 +213,17 @@ As a swift action, you may expend your martial focus to maximize any one damage 
 
 ++ ##993300|Duelist##
 
+**Heavenly Defense**
+When you are targeted by an attack and have a weapon in hand, you may expend your martial focus to negate that attack. You must decide whether to use this ability after the attack roll is made but before any damage is rolled. If used against an area-of-effect attack, your square and any squares behind you, opposite the source of the ability, are unaffected by that attack. This defense places great strain on weapons. Non-magical weapons immediately break after they are used for a Heavenly Defense, while magical weapons can be safely used a number of times equal to their total enhancement bonus before breaking. (For example, a +1 weapon can be safely used one time, but after the second time, it will become broken.) The stress on a magical weapon can be reduced by 1 point for every two hours spent caring for the weapon (or 1 hour caring for it at a forge or other location appropriate for making/repairing weapons of its type), allowing it to continue being used for a Heavenly Defense.
+
+**Hungry Blade**
+You may expend your martial focus when making an attack with a weapon (including natural weapons) to roll twice and combine the results. If either roll would threaten a critical, roll for confirmation as normal. If either roll is a Natural 1, the attack misses. If you would both threaten a critical (even if you don't roll a 20) and miss from a Natural 1, you do not threaten a critical but do not automatically miss.
+
 **Thirsty Strike**
 Your melee attacks with weapons (manufacturer or natural) and unarmed strikes always hit targets with fewer Hit Dice than you. This ability does not work on other effects that involve hitting a foe.
+
+**Wind Of Iron**
+When making an attack as an attack action, you may make an additional number of attacks equal to the number you could make during a full attack action. These extra strikes do not count as attack actions (and cannot benefit from most effects in Spheres of Might).
 
 ----
 
@@ -212,6 +231,9 @@ Your melee attacks with weapons (manufacturer or natural) and unarmed strikes al
 
 **Flawless Strike**
 As a free action when making a melee attack, you may expend your martial focus. Your attack hits on anything except a Natural 1 and deals maximum damage.
+
+**Raptor Strike**
+Increase the range of all of your melee weapons by their normal reach (so a 5-foot range becomes 10 feet, a 10-foot range becomes 20 feet, etc). 
 
 ----
 
@@ -313,6 +335,9 @@ As a swift action, you may expend your martial focus. Until the next time you re
 **Case The Target**
 As a full-round action, you may expend your martial focus examine a structure or location to gain an intuitive sense of any treasures or objects inside that are relevant to your desires. You also learn the most practical way to reach those treasures and gain an awareness of any guards, traps, or defenses along the way. You cannot regain the martial focus you spent until you make an honest effort to steal at least one of the items inside, if any such things exist. If they do not, you immediately regain your martial focus.
 
+**Concealed Attack**
+When making an attack, you may expend your martial to target your foe's Flat-Footed AC. The foe is denied their Dexterity Bonus to AC against this attack for all purposes (such as Sneak Attacks).
+
 **Hidden Up Your Sleeves**
 As an immediate action, you can conceal a held or touched object up to a 20-foot cube (as the Extradimensional Storage talent of the [[[Warp]]] sphere). You can bring this item back out as a standard action, and they automatically appear if you die. Objects are held in stasis while hidden, and time does not pass for them. Creatures may also be concealed this way, but must be willing. You may hide up to one object per BAB.
 
@@ -333,6 +358,9 @@ You can move along sheer surfaces and overhangs as if they are flat ground. You 
 
 **Sense Treasure**
 As a move action, you may intuitively sense the location of any metals, gemstone, water, or other notable materials beneath the earth in a radius of 100 feet per BAB. You may create up to 1000 x BAB your level in gold, gems, and other valuables each day. Non-precious substances are limited to a 10-foot cube of material each day.
+
+**Silent Strike**
+When making an attack, you may expend your martial focus to silence the target of your attack. This is a supernatural ability and renders them completely silent for one round - they cannot talk, yell, or even make noise by hitting other items. Creatures with equal to or more hit dice than you get a Fortitude Save (DC 12 + 1/2 BAB + Practitioner Ability Modifier) to negate this effect.
 
 **Steal The Crown**
 As a standard action, you may expend your martial focus and target a visible creature. You may steal one ability from them (such as spellcasting or spherecasting, a class ability, or proficiency with a type of equipment). Creatures with equal to or more Hit Dice than you get a Fortitude Save (DC 10 + 1/2 BAB + Practitioner Ability Modifier) to resist. If you do not know what power you're stealing, the GM rolls and picks randomly. The target cannot use the ability until you return it. You may use the ability once - after that, it is automatically returned. This effect also ends when you regain your martial focus, whether or not you used the ability you stole.
@@ -376,11 +404,23 @@ As a swift action while wielding a shield, you may expend your martial focus and
 
 ++ ##993300|Sniper##
 
+**Ignore The Wind**
+You no longer suffer penalties to your ranged attacks caused by things like distance increments, the use of various abilities and feats (such as Deadly Aim), or weather conditions that would normally impose penalties or even make it impossible to strike foes. You still gain the benefits of abilities you are using. However, this does not protect against penalties from things like damaged or drained ability scores.
+
+**Imbue With Power**
+You can imbue your ammunition with special power. When you make a Deadly Shot, you may expend your martial focus to imbue your attack with acid, cold, electricity, or fire. Your Deadly Shot deals an additional 1d8 damage of that element per BAB you have.
+
 **Perfect Aim**
 You always hit targets with your Deadly Shot when they are unaware of your presence. (Enemies are aware of your presence if you have already attacked someone in battle. They do not become unaware of you if you turn invisible, stealth, or otherwise try to disguise your location.) You still need to roll the attack - it is possible to strike for a Critical Hit, but you do not miss if the roll is otherwise too low to hit them.
 
+**Phantom Arrows**
+You no longer need ammunition to fire ranged weapons (except massive weapons). When making attacks without ammunition, the ammunition automatically appears in the weapon at whatever speed you can normally reload it, taking whatever appearance you desire that is appropriate for what it is. (For example, arrows must have an arrow-like shape and cannot look like boulders.)
+
 **Seeking Arrows**
 As a move action, you may designate a creature you can see as your target. Deadly Shots against this target always target Touch AC.
+
+**Storm Of Arrows**
+Your skill with ranged weapons is, quite frankly, ridiculous. When making a Deadly Shot, you may expend your martial focus to attack an additional number of targets equal to 1/2 your BAB (minimum 1, rounded up) using the same attack roll. These targets must be within range, and you must have enough ammunition to attack each of them.
 
 **Ultimate Sniper**
 You always hit foes that have 1/2 your Hit Dice or less when using your Deadly Shot.
