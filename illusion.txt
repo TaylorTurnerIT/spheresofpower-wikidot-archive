@@ -16,7 +16,7 @@ You may create unconvincing illusions. This is the same as creating an illusion 
 
 You may make minor changes to objects or creatures up to your Illusion maximum size, such as changing their color, making them appear clean or dirty, making writing appear, or other minor alterations. This counts as having a disguise kit when making Disguise checks (which take the usual time instead of a standard action), but such a disguise still counts as being magical for the purposes of detecting magic or for spells and effects that allow a target to see through magical effects and illusions.
 
-+ Illusion [Core]
++ Illusion (sensory: sight) [Core]
 
 As a standard action, you may spend a spell point to create a silent visual illusion within range for as long as you concentrate, to a maximum of 1 minute per caster level. You cannot move further away from the illusion than your illusion range while maintaining it through concentration, and the illusion is limited in size according to Table: Illusion Maximum Size. The image may be anything you may clearly imagine, and behaves according to your desires.
 
@@ -46,50 +46,121 @@ You may only create visual illusions although certain talents may be taken to ad
 || An army of orcs chasing the target || Illusionary Sound, Complex Illusion, Illusionary Touch (to engage in combat w/ target) ||
 
 If creating an illusionary creature, your illusion has an attack bonus equal to your caster level + your casting ability modifier, and a touch armor class equal to 10 + its size modifier + 1/2 your caster level + your casting ability modifier. An illusionary creature may provide a flanking bonus against targets who fail to disbelieve it. Any creature who strikes an illusion in combat automatically disbelieves it.
-----
-+ Illusion Talents
 
-++++ ##000000|Complex Illusion [Core]##
-When creating an illusion, you may spend an additional spell point to divide the illusion into multiple, independent components. The combined size and range of these illusions must still be within your maximum illusion size, but each component can appear differently and behave differently. While each component can be given its own set of programmed instructions, you can only actively control one component at a time. Ex: when creating an illusion of a tavern, a creature with this talent could create a bustling group of people inside the tavern as part of the same illusion. The caster could only control one such illusionary person at a time though; and the rest would only perform their last set of instructions. Giving a component a new set of instructions is a move action. If a creature makes its saving throw against a complex illusion, it sees through the entire illusion rather than only one component part.
++ Illusion Talent Types
+
+++++ (Figment)
+Illusions or tricks cast on an area are called figments and are transparent when disbelieved. You may choose to believe or disbelieve your own figments at-will, but not both at once. You must choose to believe or disbelieve your own illusions once per round as a non-action that may be taken any time during your turn.
+
+Allies do not automatically disbelieve your figments, but situations may occur that help them identify them. If you possess Selective Illusions, you may allow anyone to be treated as if they automatically saved. Even without Selective Illusions, you may grant your allies +5 to their Will saves to disbelieve your illusions by giving them information about your style or artistry present in your illusions or including a subtle tell. Alerting them to a specific casting improves this bonus to a +10. You may, however, always make alterations as you see fit and revoke this bonus from allies should the need arise to fool even them.
+
+A figment may be created anywhere within your maximum illusion range without need of line of sight nor line of effect and may be moved, directed or have its appearance altered after creation as a standard action or as part of the action to maintain via concentration. Figments can be moved at a speed of 20 ft. + 5 ft. per 5 caster levels per round and must remain within maximum illusion range. You still need to be able to see the figment to issue new orders, direct movement, or alter how it appears.
+
+The following original talents published in Spheres of Power have the (figment) descriptor: Complex Illusion, Enlarged Illusion, and Silence.
+
+++++ (Glamer)
+Illusions or tricks cast on an object or creature are called glamers and are usually but not always considered harmless. The caster of the glamer and the recipient can see through the glamer and ignore its effects. Targets of the Hostile Glamers talent may make a Will save to negate the effect as normal. You must have line of sight, but are not required to have line of effect to place a glamer on a target.
+
+Glamers remain on the creature or object they are placed upon regardless of how quickly the target moves or distance between them and the caster.
+
+The following original talents published in Spheres of Power have the (glamer) descriptor: Illusionary Disguise, Invisibility, and Silence.
+
+++++ (Sensory)
+Sensory talents are talents that modify all illusions by expanding what senses are able to be modified, created or subverted. The sense added is also noted in the tag. The following original talents published in Spheres of Power have the (sensory) descriptor: Illusion sphere (Sight), Illusionary Odor (Taste & Smell), Illusionary Sound (Sound), Illusionary Touch (Touch), and Manipulate Aura (Magic).
+
+++++ (Shadow)
+Shadow magic, despite its description relying on shadowstuff (which in most settings originates from the Shadow Plane), is not planar in nature. Shadowstuff does not require access, temporary or otherwise, to the Shadow Plane. In settings where shadow magic originates from an extraplanar source, shadow magic manipulates this other plane remotely and has an effect on the Material Plane without using or requiring any additional planar connection beyond the already relative closeness of the two planes.
+
+Shadow magic, by its nature, has a very real effect even if disbelieved, although usually a reduced one. Shadow magic is a descriptor applied to abilities such as create reality or the Shadow Infusion talent. Unless stated otherwise, objects created as shadow illusions are made of shadowstuff (stable), and creatures have 1/5th their normal hit points.
+
+Any damage done by a shadow effect is untyped and may either be lethal or nonlethal.
+
+Shadow illusions, if disbelieved or otherwise would be negated or ignored by effects that only apply to illusions, has its effectiveness reduced by half (rounded down), including damage, miss chance, or granted circumstance bonuses or penalties. For Will saves, this changes the save to a Will partial save instead of Will negates. For effects such as the true seeing spell (or True Seeing advanced talent) and the fey adept’s truesight class feature interacting with shadow glamers, see the rules for fooling complex senses.
+
+++++ (Suppression)
+Suppression talents are talents that destroy a sense or prevent it from functioning. The following original talent published in Spheres of Power has the (suppression) descriptor: Silence.
+
+----
+
++ Illusion Talents
 
 ++++ ##000000|Daylight [Core]##
 Your illusions may give off bright light, in a radius of up to 60 ft. The next 60 ft beyond that is raised one light level to a maximum of normal light. Creatures with Light Blindness or Light Sensitivity take penalties while in this bright light, but creatures damaged by daylight are unaffected.
 
-++++ ##000000|Enlarged Illusion [Core]##
-Increase your illusion’s maximum size by one size category.
-
-++++ ##000000|Illusionary Disguise [Core]##
-You may attach an illusion directly onto a creature or object, making it appear as something or someone else entirely. This grants a +10 circumstance bonus to Disguise checks. Targets who interact with the disguise receive a Will save to disbelieve, and some actions can simply give the disguise away. (For example, touching a target disguised as a different size category, or seeing a creature disguised as an inanimate object move.)
-
-++++ ##000000|Illusionary Odor [Core]##
-You may add smell and taste to your illusions. For example, you may change something’s taste or create the smell of smoke. As a trick, you may add half your caster level to the DC required to detect poison in foods or to track a target by smell.
-
-++++ ##000000|Illusionary Sound [Core]##
-You may add whatever sounds you desire to an illusion. You cannot make more sound than four normal humans per caster level could make. (A horde of rats running and squeaking is equal to eight humans running and shouting. A roaring lion is equal to the noise from 16 humans, while a roaring dragon is equal to the noise from 32 humans.)
-
-As a trick, you may create effects of non-specific noises (feet marching, laughing and muttering of a party) or throw your voice, making it appear as if it comes from somewhere else within your range. Targets are allowed a Will save as usual to disbelieve these sounds, or recognize your voice is not actually coming from where it appears to be.
-
-++++ ##000000|Illusionary Touch [Core]##
-You may make an illusion that feels real to the touch, including temperature and texture. When a creature comes into physical contact with your illusions (touching them, striking them in melee, etc.), they do not automatically disbelieve the illusion. Instead, they are allowed a new saving throw each round they are in contact with the illusion. Your illusion still cannot hold weight (thus while touching the wall would only grant a new saving throw, leaning on the wall would still cause the creature to fall through and disbelieve).
-
-You may take this talent a total of twice; when taken a second time, your illusions may also cause pain. When coming into contact with an appropriate illusion (stepping into fire, being hit by an illusionary enemy, etc.), if the subject fails their Will save to disbelieve, they take non-lethal damage equal to your caster level + your casting ability modifier. A target can only be damaged by your illusions once in a round, no matter how many times it thinks the illusion has hurt it.
-
-++++ ##000000|Invisibility [Core]##
-You may make things disappear. As a trick, you may add 1/2 your caster level to Sleight of Hand checks made to palm a small object or hide a light weapon
-
-You may also place an illusion on a creature or object that makes it harder to see. Rather than make a Will save to disbelieve, creatures must make Perception checks to detect the hidden creature or object. Objects have a flat Perception DC equal to 10 + their size bonus + your caster level, while creatures gain a bonus to their Stealth checks equal to your caster level. In addition, since they are invisible, creatures may make Stealth checks even while being observed and do not require cover to retain or initiate Stealth. Even when detected by another creature, an invisible creature gains a +2 bonus to attack rolls against sighted targets and ignores their Dexterity bonus to AC. Attacks against the invisible creature have a 50% chance they will simply miss, even if the attack has targeted the correct square. Making a creature or object invisible also hides its magical aura from such effects as detect magic or the base Divination sphere divine ability.
-
 ++++ ##000000|Lingering Illusion [Core]##
 When you create an illusion, the illusion remains for 2 rounds after you stop concentrating. You may also spend a spell point to allow the illusion to remain for 1 minute per caster level without the need for concentration. When an illusion isn’t maintained through concentration, it performs whatever set of actions it was last commanded to do, and cannot move beyond Medium range of where it was placed. Giving an illusion a new series of programmed activities is a move action.
-
-++++ ##000000|Manipulate Aura [Core]##
-As a trick, you may change a creature or object’s magical aura to appear to be non-magical, or to appear as a magic item you specify, or as if under the effects of a spell or sphere ability you specify for up to 1 day per caster level. A target examining this aura through detection magic is allowed a Will save to see through the trick, but on a failure believes the aura and does not detect this trick. Artifacts are too powerful to have their auras hidden or altered in this manner.
 
 ++++ ##000000|Ranged Illusion [Core]##
 Increase the distance by which you may manifest an illusion or trick by one category (Close to Medium, Medium to Long). You may take this talent multiple times. The effects stack.
 
-++++ ##000000|Silence [Core]##
+----
+
++ Figment Talents
+
+++++ ##000000|Complex Illusion (figment) [Core]##
+When creating an illusion, you may spend an additional spell point to divide the illusion into multiple, independent components. The combined size and range of these illusions must still be within your maximum illusion size, but each component can appear differently and behave differently. While each component can be given its own set of programmed instructions, you can only actively control one component at a time. Ex: when creating an illusion of a tavern, a creature with this talent could create a bustling group of people inside the tavern as part of the same illusion. The caster could only control one such illusionary person at a time though; and the rest would only perform their last set of instructions. Giving a component a new set of instructions is a move action. If a creature makes its saving throw against a complex illusion, it sees through the entire illusion rather than only one component part.
+
+++++ ##000000|Enlarged Illusion (figment) [Core]##
+Increase your illusion’s maximum size by one size category.
+
+++++ ##000000|Silence (figment) (glamer) (suppression) [Core]##
 You may place an illusion on a creature or in an area that negates sound. The creature (or creatures standing in the area of effect) makes no noise, and cannot perform verbal components of any skill or magic. Creatures in an area of silence are immune to sonic or language-based attacks, spells, and effects, and gain a +4 bonus to Stealth checks.
+
+----
+
++ Glamer Talents
+
+++++ ##000000|Illusionary Disguise (glamer) [Core]##
+You may attach an illusion directly onto a creature or object, making it appear as something or someone else entirely. This grants a +10 circumstance bonus to Disguise checks. Targets who interact with the disguise receive a Will save to disbelieve, and some actions can simply give the disguise away. (For example, touching a target disguised as a different size category, or seeing a creature disguised as an inanimate object move.)
+
+++++ ##000000|Invisibility (glamer) [Core]##
+You may make things disappear. As a trick, you may add 1/2 your caster level to Sleight of Hand checks made to palm a small object or hide a light weapon
+
+You may also place an illusion on a creature or object that makes it harder to see. Rather than make a Will save to disbelieve, creatures must make Perception checks to detect the hidden creature or object. Objects have a flat Perception DC equal to 10 + their size bonus + your caster level, while creatures gain a bonus to their Stealth checks equal to your caster level. In addition, since they are invisible, creatures may make Stealth checks even while being observed and do not require cover to retain or initiate Stealth. Even when detected by another creature, an invisible creature gains a +2 bonus to attack rolls against sighted targets and ignores their Dexterity bonus to AC. Attacks against the invisible creature have a 50% chance they will simply miss, even if the attack has targeted the correct square. Making a creature or object invisible also hides its magical aura from such effects as detect magic or the base Divination sphere divine ability.
+
+++++ ##000000|Silence (figment) (glamer) (suppression) [Core]##
+You may place an illusion on a creature or in an area that negates sound. The creature (or creatures standing in the area of effect) makes no noise, and cannot perform verbal components of any skill or magic. Creatures in an area of silence are immune to sonic or language-based attacks, spells, and effects, and gain a +4 bonus to Stealth checks.
+
+----
+
++ Sensory Talents
+
+++++ ##000000|Illusionary Odor (sensory: taste & smell) [Core]##
+You may add smell and taste to your illusions. For example, you may change something’s taste or create the smell of smoke. As a trick, you may add half your caster level to the DC required to detect poison in foods or to track a target by smell.
+
+++++ ##000000|Illusionary Sound (sensory: sound) [Core]##
+You may add whatever sounds you desire to an illusion. You cannot make more sound than four normal humans per caster level could make. (A horde of rats running and squeaking is equal to eight humans running and shouting. A roaring lion is equal to the noise from 16 humans, while a roaring dragon is equal to the noise from 32 humans.)
+
+As a trick, you may create effects of non-specific noises (feet marching, laughing and muttering of a party) or throw your voice, making it appear as if it comes from somewhere else within your range. Targets are allowed a Will save as usual to disbelieve these sounds, or recognize your voice is not actually coming from where it appears to be.
+
+++++ ##000000|Illusionary Touch (sensory: touch) [Core]##
+You may make an illusion that feels real to the touch, including temperature and texture. When a creature comes into physical contact with your illusions (touching them, striking them in melee, etc.), they do not automatically disbelieve the illusion. Instead, they are allowed a new saving throw each round they are in contact with the illusion. Your illusion still cannot hold weight (thus while touching the wall would only grant a new saving throw, leaning on the wall would still cause the creature to fall through and disbelieve).
+
+You may take this talent a total of twice; when taken a second time, your illusions may also cause pain. When coming into contact with an appropriate illusion (stepping into fire, being hit by an illusionary enemy, etc.), if the subject fails their Will save to disbelieve, they take non-lethal damage equal to your caster level + your casting ability modifier. A target can only be damaged by your illusions once in a round, no matter how many times it thinks the illusion has hurt it.
+
+++++ ##000000|Manipulate Aura (sensory: magic) [Core]##
+As a trick, you may change a creature or object’s magical aura to appear to be non-magical, or to appear as a magic item you specify, or as if under the effects of a spell or sphere ability you specify for up to 1 day per caster level. A target examining this aura through detection magic is allowed a Will save to see through the trick, but on a failure believes the aura and does not detect this trick. Artifacts are too powerful to have their auras hidden or altered in this manner.
+
+----
+
++ Shadow Talents
+
+
+----
+
++ Suppression Talents
+
+++++ ##000000|Silence (figment) (glamer) (suppression) [Core]##
+You may place an illusion on a creature or in an area that negates sound. The creature (or creatures standing in the area of effect) makes no noise, and cannot perform verbal components of any skill or magic. Creatures in an area of silence are immune to sonic or language-based attacks, spells, and effects, and gain a +4 bonus to Stealth checks.
+
+----
++ Archetypes
+
+++ -[[[Operative]]]
+Operatives are Symbiats who use their mastery of Illusion and [[[War]]] to manage the battlefield.
+
+++ -[[[Solipsist]]]
+Solipsists are Fey Adepts who use Intelligence to analyze and control the world.
 
 ----
 + Wild Magic
