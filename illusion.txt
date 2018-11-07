@@ -84,31 +84,190 @@ Suppression talents are talents that destroy a sense or prevent it from function
 
 + Illusion Talents
 
+++++ Committed Deception
+You may increase the casting time of an illusion by one step to reduce its total spell point cost by one (minimum 0).
+
 ++++ ##000000|Daylight [Core]##
 Your illusions may give off bright light, in a radius of up to 60 ft. The next 60 ft beyond that is raised one light level to a maximum of normal light. Creatures with Light Blindness or Light Sensitivity take penalties while in this bright light, but creatures damaged by daylight are unaffected.
+
+++++ Focused Imagination
+When you create an illusion, you may maintain it through concentration for 10 minutes per caster level. If you also possess the Lingering Illusion talent, when you spend an additional spell point to allow your illusions to remain for 1 minute per caster level without concentration, it instead remains for 10 minutes per caster level.
 
 ++++ ##000000|Lingering Illusion [Core]##
 When you create an illusion, the illusion remains for 2 rounds after you stop concentrating. You may also spend a spell point to allow the illusion to remain for 1 minute per caster level without the need for concentration. When an illusion isn’t maintained through concentration, it performs whatever set of actions it was last commanded to do, and cannot move beyond Medium range of where it was placed. Giving an illusion a new series of programmed activities is a move action.
 
+++++ Mage Feint
+As a trick you may aid another on any target within your illusion range with attack or defense.
+
+As a trick you may force a target to make a Will save or lose their Dexterity bonus to armor class until their turn. This trick is treated as a feint for feats, talents, and effects that trigger off of a feint.
+
+As a trick you may create a harmless sensory disruption around a target. The target must make a Will save or this triggers any readied actions the target may have regardless of their actual trigger.
+
+You may spend a spell point to use any of these tricks as a swift action.
+
+++++ Overwhelming Sensations
+As a trick you may force a target to make a Will save or suffer extreme sensation for one round per two caster levels (minimum 1). Select one of the following effects based on what sensory talents you possess.
+
+||~ Sense ||~ Effect || 
+|| Magic || Treat your caster level as 5 higher when creating, but not concealing or modifying, auras using the Manipulate Aura trick. || 
+|| Odor || Sickened || 
+|| Sight || Dazzled, this becomes staggered for 1 round if the target is already dazzled. || 
+|| Sound || Shaken, this becomes frightened for 1 round if the target is already shaken. || 
+|| Touch || Fatigued || 
+
+++++ Programmed Illusion
+Whenever you create an illusion, you may add a specific circumstance that, when met, changes the nature of the illusion immediately. You may create an additional circumstance per 5 caster levels.
+
+For example, you could create an illusion that only activates when a humanoid comes within 10 ft. of it, at which point it becomes a high pitched siren and flashing bright lights.
+
 ++++ ##000000|Ranged Illusion [Core]##
 Increase the distance by which you may manifest an illusion or trick by one category (Close to Medium, Medium to Long). You may take this talent multiple times. The effects stack.
+
+++++ Selective Illusions
+By spending an additional spell point at the time you create an illusion, you may designate any number of targets to automatically disbelieve that illusion. Once per round per illusion as a free action, you may allow any number of targets to be treated as automatically disbelieving the illusion or completely suppress the effect without ending it (but must still concentrate if the effect is being maintained via concentration).
+
+//Example 1:// When under the effects of Invisibility or Illusionary Disguise, you may allow your allies to see you as if you had no concealment or disguise while still maintaining the effect against everyone else.
+
+//Example 2:// For a single round, you may suppress your Silence talent on an enemy to make them vulnerable to a sound based attack, then resume the silence effect the following round.
+
+Anyone you designate as unaffected is still aware of the effect just as if they had disbelieved it, allowing them to appropriately react in the case of a ruse or the need to make tactical decisions. Illusions that have effects regardless of belief or disbelief, such as Silence or Shadow Infusion, still have those effects unless you opt to suppress them. Suppressing and reactivating an illusion does not force those whom already successfully disbelieved the illusion to re-roll their saves.
+
+++++ Stable Image
+Double the duration of your illusions.
+
+++++ Synesthesia
+As a trick, you can link two senses allowing you to, for example, see sound or smell color. You become dazed until the end of your next turn and gain a complex sense you can fool with your illusions and until the end of your next turn. The range of this sense is limited to 5 ft. per 2 caster levels (minimum 5 ft.).
+
+If you possess Amplify Senses, improve the range of the sense to 5 ft. per caster level.
+
+If you possess Overwhelming Sensation, you may improve the range of the sense by an additional 5 ft. per caster level but become deafened and blinded instead of dazed.
+
+++++ Talented Trickster
+You may spend a spell point to use any trick you know as a swift action. For every 5 caster levels you may use an additional (maximum 5 at 20th caster level) trick you know simultaneously when using this talent.
+
+++++ Windtalker
+As a trick you may use your illusions to signal or communicate. This functions as the deliver secret message use of the Bluff skill but you gain a 5 + caster level circumstance bonus to the Bluff check and can do so within your maximum illusion range without penalty. The recipients must still interact with the illusion in some way to get the intended message.
+
+This communication only works one way but is not language dependant and may rely on any sense or complex sense the intended recipients possess.
+
+If you possess Selective Illusions, there is no chance of the message being intercepted.
 
 ----
 
 + Figment Talents
 
+++++ Artisan Figments (figment)
+The Will save to disbelieve your figments improves by 1 for every 2 (sensory) talents you possess.
+
+This bonus is tripled for creatures under the effects of the True Sight talent from the Divination sphere and similar effects that specifically grant a Will save bonus against illusions.
+
+++++ Blur (figment, glamer)
+As a trick you may designate a single 5-ft. cube as distorting to perception. This distortion lasts for one round per caster level. Any effect originating from a source whose line of sight crosses this area incurs a 20% miss chance + 5% per caster level (maximum 50%) due to concealment. Any creature may make a Will save to ignore this miss chance for 1 round. You may only have one such disruption at a time. Using this trick a second time immediately end the duration of the previous casting of this trick.
+
+As an illusion you may create a distorting figment. This creates a figment version of the distortion created by the trick.
+
+As an illusion you may create a distorting glamer. This functions in all other ways as the trick except it does not allow for a Will save to ignore the miss chance and has the duration of a standard illusion.
+
+**Stacking Miss Chance:** There are several sources that potentially cause an attack to automatically miss that stack. Rolling percentile three or more times for each attack against a well-prepared target can definitely slow down combat. Alternatively, when calculating multiple miss chances from separate sources, a single roll will suffice to produce the same probability of a miss.
+
+Greatest counts for full. Second-highest counts for 1/2. Third-highest counts for 1/4. Fourth-highest counts for 1/8. And so on, rounded down to the nearest 5%.
+
+When using this method, the miss chance may become greater than 50%, but should never be allowed to be higher than 95%. For additional effects that depend on the source (such as determining if a decoy was destroyed), roll an additional die to randomly select what effect ultimately caused the attack to miss.
+
 ++++ ##000000|Complex Illusion (figment) [Core]##
 When creating an illusion, you may spend an additional spell point to divide the illusion into multiple, independent components. The combined size and range of these illusions must still be within your maximum illusion size, but each component can appear differently and behave differently. While each component can be given its own set of programmed instructions, you can only actively control one component at a time. Ex: when creating an illusion of a tavern, a creature with this talent could create a bustling group of people inside the tavern as part of the same illusion. The caster could only control one such illusionary person at a time though; and the rest would only perform their last set of instructions. Giving a component a new set of instructions is a move action. If a creature makes its saving throw against a complex illusion, it sees through the entire illusion rather than only one component part.
+
+++++ Control Figment (figment)
+As a full-round action you may make a magic skill check against the magic skill defense of the controller of an existing figment. If successful you gain control of the figment and may command it as if it was your effect. Treat the figment in all ways as if it was cast by you except this does not change any of the original variables related to caster level, Illusion sphere talents, class abilities or spell points. You however must remain within the maximum range that you may control illusions to maintain this effect as normal.
+
+++++ Distracting Phantoms (figment)
+As a trick you may designate a 5 ft. cube within your illusion range as a flanking partner for you and your allies. This partner remains for one round per caster level. You may only have one phantasmal flanking partner at a time. Creating a new cube causes the previous one to immediately dissipate.
+
+As a trick you may use the aid another action on attack or defense within range of your illusions. Instead of an attack roll the target is allowed a Will save to ignore this effect. Your figments count as flanking partners with reach appropriate for their size against all creatures that have failed their Will save to disbelieve.
+
+++++ Decoy (figment, glamer)
+As a trick you may create an illusionary creature in the same square as the target. This illusionary creature follows and occupies the same square as the target. Anyone attempting to attack the target must make a Will save or suffer a 50% miss chance. On a miss caused by this effect, the attacker targets the illusionary creature instead. The illusionary creature has an AC of 5 and is unaffected by area attacks. Illusionary creatures created by this trick last 1 round per two caster levels (minimum 1) or until struck with a single target effect. As a trick you may create a coaxing decoy in an adjacent square.
+
+The coaxing decoy may immediately move up to the speed of your figments in any direction unimpeded. The coaxing decoy is immune to damage and vanishes at the end of your turn. If the movement of the coaxing decoy would provoke an attack of opportunity from a creature, that creature must use it on the coaxing decoy. Creatures may make a Will save for each attack the decoy provokes from them to ignore this effect.
+
+As a glamer you may surround a target with a number of illusionary creatures equal to 2 +1 per 3 caster levels each granting a separate miss chance to be struck instead of the target. These decoys function exactly like the illusionary copies described in the illusionary creature trick except they possess AC equal to the touch AC of the target and have the normal duration for your illusions. Multiple castings of this glamer stack but a target cannot have more illusionary creatures attached to them than half their Hit Dice if targeted multiple times.
+
+If you possess the Complex Illusions talent one or more of the illusionary creatures granted by the glamer may act as as the coaxing decoy trick. As a free action once per round each illusionary creature may move 5 ft. per 2 caster levels independently of the original target. Illusionary creatures moving independently instantly vanish if they are beyond 15 ft. of the original target. While moving independently illusionary creatures provoke attacks of opportunity as the coaxing decoy trick. Unless adjacent to the original target illusionary creatures are treated in all ways as figments and if disbelieved do not grant their miss chance or provoke attacks of opportunity. If disbelieved as figments, copies acting independently reset the status of their disbelief by returning to the same square as the original.
 
 ++++ ##000000|Enlarged Illusion (figment) [Core]##
 Increase your illusion’s maximum size by one size category.
 
+++++ Illusionary Labyrinth (figment)
+As a trick, you may choose to perform a reposition maneuver on any target within your illusion range using your (caster level + your casting modifier -5) in place of your CMB.
+
+When creating a figment you may spend an additional spell point to require anyone that has failed to disbelieve the effect to pass an additional Will save when attempting to move from or through the area of your figment or immediately end their movement and remain in the first space occupied by the figment that they also occupied.
+
+++++ Illusionary Terrain (figment)
+As a trick, you may designate a single cube as difficult terrain for one round per caster level. A Will save to disbelieve is allowed by all who enter the cube. On a successful save they treat the area as normal. This difficult terrain applies to all travel through the area regardless of type of movement.
+
+You may treat the area of your figments as difficult terrain regardless of type of movement for those who fail to disbelieve.
+
+++++ Insistent Illusions (figment)
+As a swift action, you may spend a spell point to force all creatures that currently disbelieve any of your figments to re-roll their Will saves to disbelieve. Failure indicates that they believe the illusion is real regardless of the results of previous Will saves.
+
+++++ Inspire Doubt (figment)
+Anyone who successfully saves against your figments takes a -1 penalty to all saving throws and MSD against your other sphere effects and abilities for the next minute or until they attempt a save against one of your sphere effects. This penalty increases by an additional one per 5 caster levels you possess.
+
+++++ Patterns (figment)
+You may create disorienting and impossible forms and sensations with your figments. Targets who interact with your figments and fail their Will save to disbelieve suffer a penalty on Perception checks equal to your caster level for one round.
+
+++++ Phantasmaterial Pain (figment, glamer)
+You may spend an additional spell point when creating a figment to create phantasmaterial pain. Whenever a creature inside the figment negates damage due to energy resistance or damage reduction, they suffer an equal amount of nonlethal damage, as if the damage was never negated. This damage is felt even if the figment is disbelieved.
+
+You may place a glamer on a target that causes its energy resistance and damage reduction to convert damage to nonlethal damage rather than prevent it.
+
 ++++ ##000000|Silence (figment) (glamer) (suppression) [Core]##
 You may place an illusion on a creature or in an area that negates sound. The creature (or creatures standing in the area of effect) makes no noise, and cannot perform verbal components of any skill or magic. Creatures in an area of silence are immune to sonic or language-based attacks, spells, and effects, and gain a +4 bonus to Stealth checks.
+
+++++ Swift Figments (figment)
+The speed your figments may move within a single round improves to 25 ft. + 5 ft. per 2 caster levels. This talent may be taken twice. If taken a second time, the speed your figments may move within a single round improves to 100 ft. + 10 ft. per caster level.
 
 ----
 
 + Glamer Talents
+
+++++ Artisan Glamers (glamer)
+Skill bonuses granted by your glamers improve by +1 for each (sensory) talent you possess. This does not break maximums, such as stated in the Muffle talent.
+
+++++ Amplify Senses (glamer)
+As a trick you may make a Perception check, adding your casting ability modifier as a competence bonus to the result. This bonus only applies to Perception checks based on one sense related to your (sensory) talents.
+
+As an illusion you may create a glamer that allows targets to focus their senses beyond their normal limits, granting a circumstance bonus to Perception checks equal to half your caster level. This bonus only applies to Perception checks based on senses related to your (sensory) talents.
+
+++++ Bestow Focus (glamer)
+When creating a glamer you may have the target use their action to maintain concentration of the glamer instead of yourself. In all other ways the glamer still behaves as if cast by you. You may only have one creature concentrating in your place at any time. The number of creatures that can simultaneously concentrate in your place improves by an additional 1 per 10 caster levels.
+
+++++ Blur (figment, glamer)
+As a trick you may designate a single 5-ft. cube as distorting to perception. This distortion lasts for one round per caster level. Any effect originating from a source whose line of sight crosses this area incurs a 20% miss chance + 5% per caster level (maximum 50%) due to concealment. Any creature may make a Will save to ignore this miss chance for 1 round. You may only have one such disruption at a time. Using this trick a second time immediately end the duration of the previous casting of this trick.
+
+As an illusion you may create a distorting figment. This creates a figment version of the distortion created by the trick.
+
+As an illusion you may create a distorting glamer. This functions in all other ways as the trick except it does not allow for a Will save to ignore the miss chance and has the duration of a standard illusion.
+
+**Stacking Miss Chance:** There are several sources that potentially cause an attack to automatically miss that stack. Rolling percentile three or more times for each attack against a well-prepared target can definitely slow down combat. Alternatively, when calculating multiple miss chances from separate sources, a single roll will suffice to produce the same probability of a miss.
+
+Greatest counts for full. Second-highest counts for 1/2. Third-highest counts for 1/4. Fourth-highest counts for 1/8. And so on, rounded down to the nearest 5%.
+
+When using this method, the miss chance may become greater than 50%, but should never be allowed to be higher than 95%. For additional effects that depend on the source (such as determining if a decoy was destroyed), roll an additional die to randomly select what effect ultimately caused the attack to miss.
+
+++++ Decoy (figment, glamer)
+As a trick you may create an illusionary creature in the same square as the target. This illusionary creature follows and occupies the same square as the target. Anyone attempting to attack the target must make a Will save or suffer a 50% miss chance. On a miss caused by this effect, the attacker targets the illusionary creature instead. The illusionary creature has an AC of 5 and is unaffected by area attacks. Illusionary creatures created by this trick last 1 round per two caster levels (minimum 1) or until struck with a single target effect. As a trick you may create a coaxing decoy in an adjacent square.
+
+The coaxing decoy may immediately move up to the speed of your figments in any direction unimpeded. The coaxing decoy is immune to damage and vanishes at the end of your turn. If the movement of the coaxing decoy would provoke an attack of opportunity from a creature, that creature must use it on the coaxing decoy. Creatures may make a Will save for each attack the decoy provokes from them to ignore this effect.
+
+As a glamer you may surround a target with a number of illusionary creatures equal to 2 +1 per 3 caster levels each granting a separate miss chance to be struck instead of the target. These decoys function exactly like the illusionary copies described in the illusionary creature trick except they possess AC equal to the touch AC of the target and have the normal duration for your illusions. Multiple castings of this glamer stack but a target cannot have more illusionary creatures attached to them than half their Hit Dice if targeted multiple times.
+
+If you possess the Complex Illusions talent one or more of the illusionary creatures granted by the glamer may act as as the coaxing decoy trick. As a free action once per round each illusionary creature may move 5 ft. per 2 caster levels independently of the original target. Illusionary creatures moving independently instantly vanish if they are beyond 15 ft. of the original target. While moving independently illusionary creatures provoke attacks of opportunity as the coaxing decoy trick. Unless adjacent to the original target illusionary creatures are treated in all ways as figments and if disbelieved do not grant their miss chance or provoke attacks of opportunity. If disbelieved as figments, copies acting independently reset the status of their disbelief by returning to the same square as the original.
+
+++++ Hostile Glamers (glamer)
+Targets of your glamers do not automatically ignore their effects as normal unless you allow them to. Additionally you may roll related skill checks on behalf of any unwilling targets that failed their saving throw against your glamer. The target is treated as if they made the check regardless of their desire to for the duration of the effect. Unwilling targets affected by this talent are not automatically aware of the glamer (as normal) unless you allow them to be or if the glamer physically hampers or harms them. Affected targets interact with any glamer attached to them as if it was a figment occupying the same space.
+
+When combined with the decoy talent, the decoys acts as flanking partners and attempts to position accordingly at the end of the original creature’s turn. Attacks against the decoy by anyone other than the original creature have a 50% chance to instead hit the original. If you also possess Distracting Phantoms, so long as at least one copy remains the original creature can be flanked without the need of a flanking partner and attack rolls against them gain a +1 circumstance bonus per copy.
 
 ++++ ##000000|Illusionary Disguise (glamer) [Core]##
 You may attach an illusion directly onto a creature or object, making it appear as something or someone else entirely. This grants a +10 circumstance bonus to Disguise checks. Targets who interact with the disguise receive a Will save to disbelieve, and some actions can simply give the disguise away. (For example, touching a target disguised as a different size category, or seeing a creature disguised as an inanimate object move.)
@@ -117,6 +276,39 @@ You may attach an illusion directly onto a creature or object, making it appear 
 You may make things disappear. As a trick, you may add 1/2 your caster level to Sleight of Hand checks made to palm a small object or hide a light weapon
 
 You may also place an illusion on a creature or object that makes it harder to see. Rather than make a Will save to disbelieve, creatures must make Perception checks to detect the hidden creature or object. Objects have a flat Perception DC equal to 10 + their size bonus + your caster level, while creatures gain a bonus to their Stealth checks equal to your caster level. In addition, since they are invisible, creatures may make Stealth checks even while being observed and do not require cover to retain or initiate Stealth. Even when detected by another creature, an invisible creature gains a +2 bonus to attack rolls against sighted targets and ignores their Dexterity bonus to AC. Attacks against the invisible creature have a 50% chance they will simply miss, even if the attack has targeted the correct square. Making a creature or object invisible also hides its magical aura from such effects as detect magic or the base Divination sphere divine ability.
+
+++++ Masques (glamer)
+Whenever you take this talent select two of the following skills: Bluff, Diplomacy, Intimidate, or Perform.
+
+As a trick, you may aid another on any target within your illusion range with the selected skills.
+
+As a glamer, you may grant an enhancement bonus to skill checks with the selected skills equal to half your caster level. This talent may be taken twice to allow it to work with all 4 skills.
+
+You may use this glamer as part of the action required to cast Illusionary Disguise at no additional cost. When added to an illusionary disguise in this way, the duration ends when the illusionary disguise expires.
+
+If you possess the Hostile Glamers talent, you may create glamers that grant a penalty instead of a bonus to the selected skills.
+
+++++ Mass Glamer (glamer)
+When creating glamers, you may affect multiple targets with the same glamer so long as they are all within your illusion range and the combined size of affected targets does not exceed your maximum figment size.
+
+++++ Muffle (glamer)
+As a trick, you may grant a target a circumstance bonus to Stealth checks made when sniping equal to your caster level (maximum 20). This bonus lasts for 1 minute.
+
+As a trick you may grant a creature a circumstance bonus to Stealth equal to your caster level. This bonus may not exceed their armor check penalty to Stealth and lasts for 1 minute.
+
+As a glamer you may grant a circumstance bonus to Stealth checks made when sniping equal to 10 + 1 per caster level (maximum 20).
+
+As a glamer you may grant a creature a circumstance bonus to Stealth equal to 5 + your caster level. This bonus may not exceed their armor check penalty to Stealth.
+
+Multiple bonuses of the same type granted by this talent do not stack.
+
+++++ Phantasmaterial Pain (figment, glamer)
+You may spend an additional spell point when creating a figment to create phantasmaterial pain. Whenever a creature inside the figment negates damage due to energy resistance or damage reduction, they suffer an equal amount of nonlethal damage, as if the damage was never negated. This damage is felt even if the figment is disbelieved.
+
+You may place a glamer on a target that causes its energy resistance and damage reduction to convert damage to nonlethal damage rather than prevent it.
+
+++++ Shift Glamers (glamer)
+As a standard action, you may move any number of your glamers still within your maximum illusion range to new targets also within your maximum illusion range.
 
 ++++ ##000000|Silence (figment) (glamer) (suppression) [Core]##
 You may place an illusion on a creature or in an area that negates sound. The creature (or creatures standing in the area of effect) makes no noise, and cannot perform verbal components of any skill or magic. Creatures in an area of silence are immune to sonic or language-based attacks, spells, and effects, and gain a +4 bonus to Stealth checks.
@@ -145,6 +337,10 @@ As a trick, you may change a creature or object’s magical aura to appear to be
 
 + Shadow Talents
 
+++++ Shadow Infusion (shadow)
+When using an Illusion sphere effect you may spend an additional spell point to render the illusion quasi-real, granting it the shadow descriptor.
+
+If you have a shadow pool you may use a shadow point instead of a spell point.
 
 ----
 
