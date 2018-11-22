@@ -76,6 +76,9 @@ When you cause one of your glow effects to shed bright light by concentrating on
 ++++ ##000000|Ranged Light [Core]##
 You may target creatures and objects within Long range rather than Medium range when applying a glow, and when causing a glowing object to shed normal or bright light.
 
+++++ Solar Strike [Apoc]
+When you hit a creature with an attack, you may use a swift action to make it glow. As part of this action, you may spend a spell point to make the creature glow brightly instead.
+
 ++++ ##000000|Style##
 Your glows may be composed of multiple colors, allowing you to outline or highlight specific portions of a glowing object or create art. When you cause your glow to shed light, you may also create patterns and different colors in the light it sheds, casting intricate designs on surfaces. These patterns may be highly detailed and complex, though creating art of high craftsmanship requires you to succeed on an appropriate Craft check, usually Craft (Art). You determine and create the pattern as part of making the glow or light, but may change it as a free action once per turn.
 
@@ -95,6 +98,9 @@ You can cause light and color to shift around a target, granting it the ability 
 
 ++++ ##000000|Dim Light (lens)##
 You cause a target to suffer no ill effects from light. The target of this (lens) talent is immune to the negative effects of your glows, including the effects of any (light) talents applied to them. It also gains no visibility related penalties from your glows, acting as if they did not exist in the area.
+
+++++ Halo Effect (lens) [Apoc]
+You may place a lens upon a creature that subtly controls light around them. This is a powerful aid to communication, and can be used to communicate basic ideas and emotions to anyone who can see the creature. In addition, the creature gains a +2 circumstance bonus to bluff and diplomacy checks against creatures that can see them with conventional or low-light vision, with a +1 increase every 4 caster levels. At the GM’s discretion, this bonus may also apply to certain types of performance checks as well.
 
 ++++ ##000000|Infravision (lens)##
 You may slightly shift the spectrum of light, granting the target the ability to see heat. This allows them to ignore the miss chance for less than total concealment on living creatures. In addition, the target is capable of tracking living creatures by the heat they leave in their tracks. So long as the trail is no more than an hour old, the ground condition is never treated as worse than soft ground (DC 10), though strong temperature conditions (such as winter snow or a desert noon) can negate this benefit.
@@ -135,6 +141,11 @@ Blind creatures (or creatures that have closed their eyes) and creatures that do
 ++++ ##000000|Encompassing Light (light) [Core]##
 You may create bright light that encompasses the glowing creature, allowing it to function as if it were larger than it is. The glowing creature deals damage and gains reach as if it were 1 size category larger than it is. This improves to 2 size categories at 10th caster level, and 3 size categories at 20th caster level.
 
+++++ Fenestrate (light) [Apoc]
+You can create bright light that makes everything and everyone within the area of the bright light translucent enough that they can be seen through. This includes creatures, objects, structures, and even the ground itself. Objects are not invisible, however, and seeing through them is difficult. Objects that grant cover still grant concealment, but any creature using such an object to hide receives a -10 penalty to their Stealth. Magical fog effects are countered by this Light talent the way magical darkness can be countered by Light talents. Effects based on light (such as most Light sphere abilities) can pass through to affect other objects, but other effects are still stopped by solid objects.
+
+This light can be placed on a single structure to make it translucent. If the structure larger than the area of the glow, then only part of the structure is made translucent.
+
 ++++ ##000000|Flicker (light)##
 You may create bright light that partially assimilates a glowing creature, allowing them to momentarily shed their physical form. A creature under this effect can choose to move through solid objects as long as there are no factors that block normal sight (such as concealment from darkness or fog). This allows them to pass through transparent barriers like glass or through impossibly small gaps (such as a keyhole).
 
@@ -143,6 +154,11 @@ When you cause a creature to glow, you may choose to grant all creatures a +1 ci
 
 ++++ ##000000|Hypnotic Pattern (light) [Core]##
 You may spend a spell point when creating bright light to fascinate creatures. All creatures within this area of bright light that can see become fascinated (Will negates) for as long as they remain within this area of bright light. These targets take no action on their turn but to stare into the light, and suffer a -4 penalty to all Perception checks. A target is allowed a new saving throw each round to throw off the effect, and on a successful save, may make their actions as normal. Once a target has saved against this effect, they are immune to the effect for the rest of its duration. Hostile action taken against a hypnotized target automatically breaks the effect, as if the target had succeeded at their saving throw. If the target was already in combat when this ability is used, they gain a +2 bonus to their initial saving throw.
+
+++++ Inner Sun (light) [Apoc]
+You grant a creature that you have caused to glow brightly a weapon of light they may wield as a weapon. The weapon can be shaped into any melee weapon the holder is proficient with as a swift action, and initially appears as whatever weapon they choose. On a hit, does an additional 1d4 fire damage + 1d4 damage for every 4 caster levels that you possess.
+
+The weapon can not harm invisible or translucent enemies or structures, and passes through them harmlessly. At the GM’s discretion, creatures that are reflective can also have a 50% miss chance against attacks with this weapon. If the creature deliberately lets go of the weapon, it disappears. Otherwise, the creature can not be disarmed.
 
 ++++ ##000000|Irradiance (light)##
 Your glow sheds ionizing radiation along with visible light. When you cause a target to glow you may choose to make it sickened, giving it a -2 penalty to attack rolls, weapon damage rolls, saving throws, skill checks, and ability checks.
@@ -154,6 +170,19 @@ You may create an area of bright light that lures creatures towards it. All crea
 
 The effect of this (light) talent is considered a mind-affecting effect.
 
+++++ Precious (light) [Apoc]
+You may spend a spell point to create bright light on an object 2 or more sizes smaller than yourself, that compels those who see it to try and acquire it. Those who see the targeted object spend their turn frantically trying to acquire the precious object.
+
+They will not automatically become violent, and affected creatures will not attempt to acquire the precious object if attempting to do so would be obviously fatal, would inflict serious injury upon them, or be against their alignment or nature.
+
+They will not ignore enemies either, but their priority will be to acquire the precious object. They will try to acquire the object by direct and immediate means (not by bribery) and they won’t stop just if they lose sight of the object. A creature might attack someone to acquire the object, but only if it is someone they might consider attacking anyways, and most likely they will try to grab the object and run rather than fight in a prolonged conflict.
+
+If the creature manages to acquire the precious object, they hold it in their hands and admire it as a standard action on their turn, doing whatever is required to keep it other than letting it go.
+
+Each creature gets a Will save to negate the effect when they first see the precious object, and a new save whenever they spend a standard action admiring the object. You are immune to this effect, but your allies are not.
+
+This is a mind-affecting compulsion effect.
+
 ++++ ##000000|Repelling Light (light) [Core]##
 You may spend a spell point to create light that repels unwanted creatures. Choose one creature type. In the case of humanoids and outsiders, you must instead choose one subtype. Any creature of this type or subtype within the area of bright light must pass a Fortitude save or be unable to move closer to the source of the light. Affected creatures may move sideways or backwards, but cannot move closer, although the source of the light may move closer to them. Creatures who make their saving throw but remain within the area of bright light must make a new saving throw every round to avoid being affected.
 
@@ -162,8 +191,20 @@ If a creature enters this area of bright light (or if the source of bright light
 ++++ ##000000|Revealing Light (light) [Core]##
 You may spend a spell point to create bright light that reveals all invisible creatures and objects. These creatures and objects lose all the benefits of invisibility for as long as they are within the area of bright light.
 
+++++ Revelation (light) [Apoc]
+You may place a glow on a source of written information, such as a book, to cause it to reveal any information deliberately recorded in it. Anyone who takes even a moment to examine the light (a free action) can read the entire body of work, regardless of length, damage to the text or language barriers - the observer does not even need to be able to read. Even erased text can be read.
+
+If information is recorded with a magical protection that prevents detection or understanding, the caster may make a Magic Skill Check against the Magic Skill Defence of the caster to determine if the information can be detected or understood. Once absorbed, the information can be retained as reading any other book can, and for a period of 1 hour after reading, the information remains especially clear. During this time, any creature making a knowledge check on a topic relevant to the written work receives a +2 circumstance bonus to the check, with +1 increase every 4 caster levels.
+
+This ability may be used on objects with no visible writing, in order to reveal hidden messages. The light can allow a person to read a magical scroll, but does not necessarily allow them to cast or copy it. Observing the light does not trigger magical effects that occur in response to an object being read.
+
 ++++ ##000000|Searing Light (light) [Core]##
 You may create bright light that burns creatures in its area. All creatures in the area suffer 1 point of fire damage per caster level per round they are within this area of bright light. Undead, oozes, and creatures harmed by daylight take 2 points of fire damage per caster level.
+
+++++ Shining Arsenal (light) [Apoc]
+You may place a glow on a weapon, a piece of armor or a shield. When placed on a weapon, it does full damage to incorporeal creatures. If placed on a shield or piece of armor, you may apply its full bonus to AC against the melee attacks of incorporeal creatures.
+
+In addition, you can use this ability to duplicate the effect of any single metal or material, chosen when this ability is used. The glowing object does not gain the material properties of the material, but creatures vulnerable to the material you have selected are vulnerable to a weapon made of the material as well.
 
 ++++ ##000000|Sunstroke (light)##
 When you place a glow effect on a creature, you may choose to deal it 1d4 nonlethal damage per odd caster level. The creature takes this damage each round the glow is in effect. A successful Fortitude save negates the damage for that round, while two consecutive Fortitude saves ends the effect.
