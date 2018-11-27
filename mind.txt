@@ -1,5 +1,17 @@
 title:Mind
 parent:spheres-of-power
+[[module CSS]]
+.noselect {
+  -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome and Opera */
+}
+[[/module]]
+
 [[toc]]
 
 You gain the ability to alter the minds of others, causing them to act as you see fit. All mind sphere abilities are Enchantment (compulsion) mind-affecting abilities.
@@ -17,14 +29,29 @@ You gain the ability to alter the minds of others, causing them to act as you se
 
 + Charm [Core]
 
-You may place charms on creatures. Charms require a standard action to use and have a range of Close. You may only use charms on targets that possess your own creature type (humanoid for humanoids, etc.) although the Expanded Mind talent changes this. Each charm has three strengths; lesser, greater, and powerful. Lesser charms are at-will abilities, but you may not target an individual creature more than once in a day with any individual lesser charm. Greater charms cost a spell point to use and powerful charms cost 2 points to use. You must possess the Powerful Charm talent before you may use any powerful charms.
+[[div class="noselect" style="float:right; width: 20%; padding: 0 2%"]]
+[[=]]
+[[image http://spheresofpower.wikidot.com/local--files/test-page/Spheres_of_Power.jpg link="https://www.drivethrurpg.com/product/129448/Spheres-of-Power?affiliate_id=549120"]]
+**Spheres of Power**
+$19.99
+----
+[[/=]]
+[[/div]]You may place charms on creatures. Charms require a standard action to use and have a range of Close. You may only use charms on targets that possess your own creature type (humanoid for humanoids, etc.) although the Expanded Mind talent changes this. Each charm has three strengths; lesser, greater, and powerful. Lesser charms are at-will abilities, but you may not target an individual creature more than once in a day with any individual lesser charm. Greater charms cost a spell point to use and powerful charms cost 2 points to use. You must possess the Powerful Charm talent before you may use any powerful charms.
 
 When you gain the Mind sphere, you gain the following charm:
 
 ++++ Suggestion [Core]
 You may plant thoughts into a target’s mind.
 
-//Lesser Charm:// You may plant a suggestion in a target’s mind, which they obey as if the thought had been their own (Will negates). The suggested course of activity must be limited to a sentence or two and must be a very simple request. The creature performs the suggested action until it finishes, or for 1 hour per caster level, whichever comes first. If you choose, you can instead specify conditions the creature should look for, (i.e., “you should search the next person who enters this room, looking for weapons.”) If the condition is not met before this duration expires, the activity is not performed.
+//Lesser Charm:// You may plant a suggestion in a target’s mind, which they obey as if the thought had been their own (Will negates). [[div class="noselect" style="float:right; width: 20%; padding: 0 2%"]]
+[[=]]
+[[image http://spheresofpower.wikidot.com/local--files/test-page/The_Mentalist's_Handbook.jpg link="https://www.drivethrurpg.com/product/218592/The-Mentalists-Handbook?affiliate_id=549120"]]
+**The Mentalist's Handbook**
+$4.99
+
+----
+[[/=]]
+[[/div]]The suggested course of activity must be limited to a sentence or two and must be a very simple request. The creature performs the suggested action until it finishes, or for 1 hour per caster level, whichever comes first. If you choose, you can instead specify conditions the creature should look for, (i.e., “you should search the next person who enters this room, looking for weapons.”) If the condition is not met before this duration expires, the activity is not performed.
 
 //Greater Charm:// This is the same as the Suggestion lesser charm, but may be up to a basic request. Very simple requests cause the save to be made with a -2 penalty. The target cannot be asked to do anything it would not normally do.
 
