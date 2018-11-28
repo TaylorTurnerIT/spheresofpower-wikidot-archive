@@ -36,12 +36,35 @@ $4.99
 [[/=]]
 [[/div]]You must concentrate to maintain this effect, but may spend a spell point as a free action to allow it to remain for 1 round per caster level without concentration.
 
+When using the haste ability, you may choose to grant the target an extra attack of opportunity instead of an extra attack on their full attack actions. For every 5 caster levels you possess, you grant the target one additional attack of opportunity. All other costs and restrictions of the haste ability apply as normal.
+
 ++++ Slow [Core]
 You cause the target to become staggered, allowing it to only take a single move action or standard action on its turn, but not both (Will negates). You must concentrate to maintain this effect, but may spend a spell point as a free action to increase its duration to 1 round per caster level without concentration. If a slow and haste ability are used on the same creature, the second caster must pass a magic skill check. On a failure the target is unaffected. On a success, the effects counter each other, leaving neither in place.
+
+When using the slow ability, you may choose to prevent the target from making attacks of opportunity for the duration of the effect instead of causing them to be staggered. All other costs and restrictions of the slow ability apply as normal.
 
 Some Time talents are marked (time). These talents grant you additional alter time abilities.
 ----
 + Time Sphere Talents
+
+++++ Age Object
+You may touch an object, aging or restoring it. Attended objects are permitted a Will save to negate this ability. Unless noted, the chosen effect persists for as long as you concentrate, or for 1 minute per caster level if you spend an additional spell point. Applications with a duration may be dismissed as an immediate action. Choose from the following effects:
+* **Restore** - As an instantaneous effect, you may spend a spell point when targeting an object with the broken condition to restored it to the form it previously had, removing the broken condition. This does not restore any charges to limited use items nor restore expended alchemical items. This option can also be used to counter or dispel the other applications of this talent with requiring a magic skill check.
+* **Rewind Enchantment** - You return the object to the state it was in before it was enchanted. Make a magic skill check against the item’s magic skill defense. If successful, the object becomes non-magical. This has no effect on artifacts.
+* **Spoilage** - As an instantaneous effect, you may cause an amount of food sufficient to feed 1 Medium creature per caster level to spoil or cause an equal amount of spoiled food to return to a palatable state. This does not remove other changes made to the food, such as adding poison or magical effects unless you spend a spell point and succeed on a magic skill check against the poison or effect’s DC. Restoring the food does not prevent future spoilage.
+* **Weather** - The object if shifted to its future state, reducing its hardness by your caster level.
+
+If you possess the Group Time talent, you may target multiple objects, but the same effect must be applied to each.
+
+++++ Augment Healing
+When you use haste or slow on a creature (or group of creatures, such as with the Group Time talent), you may spend an extra spell point to augment the natural healing abilities of all affected targets. With haste, you can grant them fast healing equal to 1 + 1 per 5 caster levels you possess for the duration of the effect.
+
+With slow, you can suspend the target’s natural healing abilities, preventing any fast healing or regeneration they may possess for the duration of the effect. Magical or extraordinary healing from other sources continues to function as normal. A creature whose regeneration can’t be suppressed or ignored (such as the tarrasque) is immune to this effect.
+
+++++ Delay Pain
+As an immediate action, when an allyallied or object with your natural reach (or within Time sphere range, if you possess the Ranged Time talent) would take damage or be subject to any effect, you may spend a spell point to delay the onset of that damage and/or effect until the end of the creature’s next turn (for creatures and attended objects) or the caster’s next turn (for unattended objects). The delayed damage and/or effect is incurred with at this time, though is subject to any changes to immunity, resistances, etc. A given effect or instance of damage cannot be delayed more than once. Unwilling creatures and objects attended by unwilling creatures require a successful touch attack and are allowed a Will save to negate this delay.
+
+If you spend an additional spell point as part of using this ability, you may partially delay ability damage, ability drain, and hit point damage further, causing the creature to receive half (round up) of the damage or drain at the end of its next turn and the remainder at the end of the following turn.
 
 ++++ ##000000|Group Time [Core]##
 When targeting creatures with an alter time effect, you may spend an extra spell point to affect up to 1 additional creature per 2 caster levels (minimum: 1) within range. All targets must be affected by the same alter time effect. Alternately, you may spend an extra spell point to double the size of an alter time effect that targets an area.
@@ -54,6 +77,41 @@ When you use slow on a target, that target also has its movement speed halved an
 
 ++++ ##000000|Ranged Time [Core]##
 Your alter time effects gain a range of Close. You may select this talent multiple times. Each time it is selected, you may increase the range by one level (Close to Medium, Medium to Long). Increasing the range beyond Close also increases the range at which you may maintain an effect through concentration.
+
+++++ Retroactive Preparation
+As a standard action, you may spend a spell point to edit the past, retroactively obtaining a generic object worth less than 100 gp per caster level. The object immediately appears on your person or in a container or extradimensional space attended by you. The cost of the item is immediately deducted from the wealth (usually coins, but can be nonmagical gemstones or other nonmagical objects used for trade) you currently carry.
+
+You cannot obtain an object worth more than you have the wealth to purchase. The object must be one that would have been available in a settlement you have visited within the past 1 week per caster level.
+
+++++ Second Chance
+As an immediate action, you may spend a spell point to allow any creature currently benefiting from one of your alter time effects to reroll a saving throw they just failed. They must accept the new result even if it is worse than the original roll.
+
+++++ Store Time
+You may activate this power as a swift action to store actions for future use for the next three rounds, or as long as you concentrate; you may alternatively spend an additional spell point to maintain this effect for 1 round per caster level. On your turn, you may expend a standard, move, or swift action. Before the end of your next turn, you gain an extra action of the stored type as a free action. Stored standard actions may be used for either move or standard actions as normal. Unspent actions are lost at the end of your next turn. If you spend a spell point as part of activating this talent, you may store the action for a number of rounds equal to your casting ability modifier (minimum 2 rounds). You may touch a willing creature as a free action on your turn to grant the stored action to that creature. Ranged Time increases the distance at which this transfer functions.
+
+If you possess Group Time, you may target multiple creatures, granting each of them the benefits of this ability for as long as you concentrate, or for 1 round per caster level if you spend an additional spell point. You may not store more than one action with this ability at a time.
+
+++++ Temporal Trap
+You may spend a spell point to place an alter time effect onto an adjacent, unoccupied 5-ft. square. If the alter time effect normally requires you to spend 1 or more spell points, that cost is added to the cost to create a temporal trap. Any creature who steps onto the square activates the alter time effect; if it is normally a targeted ability, the creature is immediately affected by that ability, though they are allowed a saving throw as normal, if appropriate. If the alter time effect normally creates an area effect, the square itself is used as the center of that effect (even if it would normally be centered on the caster) and all creatures within the area are immediately affected by the ability, making saves as normal if appropriate. Any alter time effect with a duration longer than instantaneous lasts for 1 round per caster level, regardless of its normal duration, though you may dismiss it on your turn as a free action.
+
+You may only have 1 active temporal trap at a time; placing a second trap deactivates the first. Temporal traps may be made permanent with the permanency spell or ritual; permanent temporal traps do not count against your total number of active traps and automatically reset after their duration expires.
+
+When used with an ability that includes a variable cost, such as the Time Clone talent, the cost must be paid up front; if the cost is insufficient to affect the creature that triggers this effect, the trap is not activated. If the variable cost is greater than required to affect the triggering creature, the excess spell points are wasted but the trap and effect otherwise occur as normal.
+
+You may select this talent multiple times, increasing the number of temporal traps you may have active at once by 1 each time you do so.
+
+++++ Time Strike
+As a standard action, you may make a single weapon attack in conjunction with using an alter time effect that targets a single creature. Any creature damaged by the attack is also subjected to the alter time effect. This attack can be be used with the Spell Attack feat (from Champions of the Spheres).
+
+++++ Time Zone
+You may target an area with your (time) effects. Choose one of the following shapes:
+* **Globe:** Radius of up to 10 ft. + 5 ft. per 2 caster levels centered on you. This effect radiates from a central point, and cannot extend through walls. You may choose to exclude yourself from the effect.
+* **Wall:** You may arrange your alter time as up to three 10-ft. cubes, +1 cube per caster level. You must be able to perceive all areas your alter time will inhabit. You must occupy a space in or adjacent to one of the cubes.
+
+You may imbue this area with a single alter time ability that targets creatures. You may not apply (time) talents that target areas. Creatures that enter or begin their turn in this area are affected as if targeted by an alter time ability that targets individual creatures. If leaving the area, the effects last until the start of the creature’s next turn. If the alter time ability allows a saving throw, the creature must make it the first time each round it enters or begins its turn within the area.
+
+You must concentrate to maintain this effect, but may spend a spell point as a free action to allow it to remain for 1 round per caster level without concentration. Alter time abilities, such as haste, cannot be extended beyond this duration. If you possess the Ranged Time talent, the selected area may be anywhere with range and does not have to be centered on or adjacent to you, but the effect cannot extend beyond your Ranged Time range.
+
 ----
 + Time Talents
 
@@ -76,11 +134,29 @@ This cannot cause the target to die of old age, nor become so young they were ne
 || Old Age || -2 to all physical ability scores || 
 || Venerable || -3 to all physical ability scores || 
 
+++++ Broken Time (time)
+You cause time to move at an unnatural pace around the target for as long as you concentrate, jumping and skipping in distorted shudders unless they succeed at a Will saving throw. Targets who fail their saving throw take a penalty on all skill checks equal to 1/2 your caster level and must succeed on a concentration check against your MSD to cast a spell; failing this concentration check means the spell fails and the effort is wasted. You may spend a spell point to allow this effect to continue for 1 round per caster level without concentration.
+
+Creatures affected by this ability may make a new Will saving throw each round to attempt to end its effects.
+
+++++ Causality (time)
+You may spend a spell point to pull causality from an alternate timeline, making cause follow effect rather than the other way around. The target or targets must pass a Will save or suffer 1d8 bludgeoning damage per 2 caster levels and fall prone. The cause of this damage could be a falling rock, the target tripping over something, or any other random occurrence (the details are left to the GM).
+
 ++++ ##000000|Eject (time) [Core]##
 You may spend a spell point to attempt to eject a target from time itself for 1 round per caster level (Will negates). The target disappears completely and cannot be the target of any damage or effect while it is vanished. When the effect ends, the target returns in the exact spot it disappeared from (or the closest unoccupied square). From the target’s perspective no time has passed, and any effect already on the target with a duration (such as magic or poison) continues as if the time spent ejected simply hadn’t happened.
 
 ++++ ##000000|Fast Time (time) [Core]##
 You may spend a spell point to accelerate time within a 10 ft radius burst, + 5 ft per 5 caster levels. All effects that are in effect within this area or on a creature within this area have their duration decreased by 1 round per caster level. This affects magic (spells, sphere abilities, etc.), poisons, diseases, etc., but does not grant extra actions to the targets within this area or provide any other benefit. In the case of effects that target areas, only the effect contained within fast time’s area is accelerated. Unwilling targets (including allies if they choose) are allowed a Will save to negate this effect for themselves or area effects originating from them. You can choose whether or not to affect yourself with your own fast time.
+
+++++ Lethargy (time)
+You may spend a spell point and make a melee touch attack (or a ranged touch attack with the Ranged Time talent) to cause a target within reach to experience a massive amount of time in a single instant, rendering them exhausted unless they succeed at a Fortitude saving throw. Targets who are already fatigued or exhausted fall asleep.
+
+Sleeping creatures are helpless. Slapping or wounding awakens a sleeping creature, but normal noise does not. Awakening a creature is a standard action (an application of the aid another action), and unless the target has gotten at least 30 minutes of sleep, they awaken exhausted.
+
+++++ Rapid Response (time)
+You grant the target a competence bonus to initiative checks equal to 1/2 your caster level (minimum 1) and the ability to act in the surprise round even if they fail their Perception check to notice the presence of foes. You must concentrate to maintain this effect, but may spend a spell point to allow it to remain for 10 minutes per caster level without concentration.
+
+You may take this talent up to three times; the second time you take this talent, affected targets also gain evasion (or improved evasion if they already have evasion) and a +2 competence bonus on Reflex saving throws. The third time you take this talent, affected targets also gain uncanny dodge (or improved uncanny dodge if they already have uncanny dodge) as a rogue of your caster level and increase the competence bonus on Reflex saving throws to +4.
 
 ++++ ##000000|Repetition (time) [Core]##
 You may spend a spell point to momentarily extend time for a target, allowing them to take extra care when performing an action. This allows the target to take 20 on a Strength or Dexterity-based skill check without increasing the time required to perform the action, even if stress or distractions would normally prevent the target from taking 10 or taking 20.
@@ -93,13 +169,31 @@ As an immediate action, you may spend 2 spell points to force a target to redo t
 ++++ ##000000|Shift Time (time) [Core]##
 You may spend a spell point to grant the target the ability to immediately take a standard, move, or swift action if they choose. Any target who takes an action with this ability loses that action for their next turn. You may use this ability on yourself and only yourself as a swift action, or a free action if you choose to take a swift action with this ability. You cannot use this ability as a swift or free action in this manner if combining it with the Group Time talent. A creature cannot benefit from Shift Time more than once per round.
 
+++++ Slow Time (time)
+You may spend a spell point to decelerate time within a 10-ft.radius burst, +5 ft. per 5 caster levels.
+
+All effects that are active within this area or on a creature within this area have their duration extended by 1 round per caster level, to a maximum extended duration of twice the effect’s normal duration (so an effect that normally only lasts for 1 round could not be extended in this manner for more than 1 additional round). This affects magic (spells, sphere abilities, etc.) poisons, diseases, etc., but does not prevent creatures within the area from taking actions as normal. In the case of effects that target areas, only the portion of the effect contained within slow time’s area is decelerated. Unwilling targets (including allies if they so choose) are allowed a Will save to negate this effect for themselves or area effects originating from them. You can choose whether or not to affect yourself with your own slow time. Slow time counters the effects of fast time within its affected area and vice versa.
+
 ++++ ##000000|Steal Time (time) [Core]##
 You may spend a spell point to attempt to erase a target’s turn from existence. The target is dazed for 1 round (Will negates). If successful, you immediately gain an additional standard action. An individual target cannot suffer the effects of this ability more than once per round. Even if you successfully target multiple creatures in the same round with this ability (such as through the Group Time talent), you cannot gain more than a single standard action in a round in this manner.
+
+++++ Time Bubble (time)
+You may spend a spell point to create a bubble of distorted time around yourself that extends outward in a 15-ft. radius sphere, +5 ft. per 5 caster levels you possess. This sphere lasts for 1 round per caster level and moves with you, remaining centered around you at all times. Time passing within this sphere moves at a different rate than time outside, granting all creatures within the sphere partial concealment from attacks originating from outside the sphere. If a creature occupies a space both within the sphere and without (such as a Large or larger creature), creatures within the sphere do not gain partial concealment against its attacks, but the creature takes 1d8 damage per two caster levels as its body is torn apart by conflicting temporal forces. This damage occurs when the creature first enters the spaces within and without the time bubble, and at the start of their turn each round they remain within the affected area. Creatures cannot be damaged by this effect more than once per round. You may spend an additional spell point when you create this sphere to apply the effects of the haste or slow abilities (including the effects from Improved Haste or Improved Slow) to all creatures within the sphere’s affected area; you may choose at the time of casting whether or not to subject yourself to these additional effects.
+
+++++ Time Clone (time)
+You draw a version of the target from an alternate timeline to assist you on the battlefield by spending a number of spell points equal to 1/2 the target’s total Hit Dice (minimum 1). Activating this ability informs the caster of how many spell points it will cost for their intended target; if they do not have enough spell points, the action is wasted but no spell points are spent.
+
+This copy lasts for a number of rounds equal to 1/2 your caster level and appears in a square adjacent to the target and acts immediately on your turn, moving and acting as you direct it (a free action). The copy shares all of the target’s statistics (including current spell points after the talent is used and other limited-use abilities), movement speeds, and abilities, including equipped items (but not consumable or limited use items such as potions, wands, and scrolls), but its tether to this timeline is tenuous and the copy instantly vanishes if it takes any damage or fails a saving throw against any spell or effect. Any items the time clone may have possessed instantly disappear when the target is destroyed or when the duration of this effect ends. You must succeed on a melee touch attack (or a ranged touch attack if you possess the Ranged Time talent) to use this ability on an unwilling target, and they are allowed a Will saving throw against this effect; on a successful saving throw this ability fails and any spell points spent on it are wasted.
+
+Time clones created with this talent cannot create additional time clones or similar copies of themselves.
 
 ++++ ##000000|Time Freeze (time) [Core]##
 You may spend one spell point to freeze all activity within a 10 ft radius burst, + 5 ft per 5 caster levels. If used as a readied action, this can stop ranged attacks or instantaneous magical effects (such as destructive blasts), but in the case of effects that target areas, only the effect contained within the time freeze’s area is stopped. Unwilling targets (including allies if they choose) are allowed a Will save to negate this effect for themselves or effects originating from them (attacks, magic, etc.). You can choose whether or not to affect yourself with your own time freeze.
 
 All affected objects and creatures within this area cannot act for 1 round, neither can they be acted upon (moved, dealt damage to, etc.). Once the effect is in place, non-affected creatures can enter the area of effect without incident, so long as they don’t disturb an affected creature or object. After one round has passed, everything within the area is unfrozen; creatures resume moving, ranged attacks hit the square they were targeting, and blast effects resolve as normal.
+
+++++ Timeline Bridge (time)
+By connecting the target to versions of themselves that exist in alternate timelines, you grant the target an insight bonus on all Knowledge checks equal to 1/2 your caster level and the ability to make such checks untrained. You must concentrate to maintain this effect, but may spend a spell point to allow it to remain for 1 minute per caster level without concentration. As an immediate action, you may spend a spell point to end this effect on the target and apply the insight bonus to their AC against a single attack or to a single saving throw by giving them a surge of revelation from a version of themselves that has already survived the attack or effect in another timeline.
 
 ----
 + Wild Magic
