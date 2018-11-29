@@ -1,8 +1,27 @@
 title:Weather
 parent:spheres-of-power
+[[module CSS]]
+.noselect {
+  -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome and Opera */
+}
+[[/module]]
+
 [[toc]]
 
-You can command the weather to do your bidding.
+[[div class="noselect" style="float:right; width: 20%; padding: 0 2%"]]
+[[=]]
+[[image http://spheresofpower.wikidot.com/local--files/test-page/Spheres_of_Power.jpg link="https://www.drivethrurpg.com/product/129448/Spheres-of-Power?affiliate_id=549120"]]
+**Spheres of Power**
+$19.99
+----
+[[/=]]
+[[/div]]You can command the weather to do your bidding.
 
 + Control Weather [Core]
 As a standard action, you may control all weather within Medium range, adjusting either the wind, temperature, or precipitation levels. If you are in a confined area such as inside a building, your control only extends to the edge of that space. This change in weather lasts as long as you concentrate, but you may always spend a spell point as a free action to allow this change to continue for 1 minute per caster level without concentration. When using control weather to change the weather’s severity, the change happens 1 level change per category per round until the desired severity is reached. When the effect ends, the severity of the altered weather categories returns to normal by 1 step per round. If you are maintaining the effect through concentration, the effect moves with you. If it is being maintained through a spell point, it remains stationary.
