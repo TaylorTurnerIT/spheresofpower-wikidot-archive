@@ -14,7 +14,26 @@ color: #c40000;
 
 [[div class="redtext"]]
 
-“If it only works as intended, it’s not working well enough.”
+[[module CSS]]
+.noselect {
+  -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome and Opera */
+}
+[[/module]]
+
+[[div class="noselect" style="float:right; width: 20%; padding: 0 2%"]]
+[[=]]
+[[image http://spheresofpower.wikidot.com/local--files/test-page/Spheres_of_Might.jpg link="https://www.drivethrurpg.com/product/223758/Spheres-of-Might?affiliate_id=549120"]]
+**Spheres of Might**
+$19.99
+----
+[[/=]]
+[[/div]]“If it only works as intended, it’s not working well enough.”
 
 A technician is a man with a plan, capable of taking a piece of equipment and seeing not what it is, but what it could be. No matter what the problem, the technician is the one who will find a way to invent, contrive, or improvise a way to solve it. A technician could be a professional thief, a medieval engineer, or a master mechanic, but such details are unimportant in the long run. What is important is that when something needs doing or needs improving, the technician is the one who will see it gets done.
 
