@@ -48,8 +48,26 @@ You may have a total number of reanimated creatures active at any one time whose
 ----
 + Death Talents
 
+++++ Corpse Bomb
+You may make any of your ghost strikes against any corpse capable of being raised as a skeleton or zombie, or against any corporeal mindless undead under your control. The corpse explodes in a 20-ft. radius, affecting all creatures in range as if they had been struck by the chosen ghost strike; if the ghost strike does not allow a saving throw, creatures affected are allowed a Reflex save to negate its effects.
+
+The corpse or undead collapses and is destroyed; it cannot be reanimated or targeted by another Corpse Bomb.
+
+++++ Corpse Manipulation
+You can alter a corpse in one of the following ways by touching it as a standard action:
+* You grow flesh on a decomposed or skeletonized corpse, providing it with sufficient flesh that it can be animated as a zombie rather than a skeleton. The corpse looks as it did just before death. The new flesh is not fit for eating.
+* You decompose the flesh from a corpse, leaving behind a perfectly cleaned skeleton.
+* You can spend a spell point to touch a collapsed or destroyed undead corpse, mending it so it is a valid target to be reanimated again.
+* You can spend a spell point to preserve the remains of a dead creature for 1 day per caster level so that they do not decay. Doing so effectively extends the time limit on raising that creature from the dead. Days spent under the influence of this spell don’t count against the time limit. Additionally, this makes transporting a slain (and thus decaying) comrade less unpleasant. This ability also works on severed body parts and the like.
+* You can reshape the dead body look like another creature or even a specific person so long as you have firsthand knowledge of how that creature or person actually looks. You can make the corpse one size larger or smaller or change its apparent type, gender, or age. Creatures interacting with the corpse may make a Will save to detect the deception. If you chose to make the corpse look like a specific individual anyone who knows that individual can make a Will save to realize that the corpse is not actually that person.
+
+However, if a creature fails its Will save by 5 or less they believe the corpse is that of someone who closely resembled the person they knew rather than a deliberate fake.
+
 ++++ ##000000|Cryptic Strike [Core]##
 As a standard action, you may make a single ranged or melee attack coupled with a ghost strike. If the attack hits, the target is also affected by the ghost strike.
+
+++++ Dark Sacrifice
+Whenever you would take hit point damage that would reduce you to 0 hit points or less, you can spend 1 spell point as an immediate action to sacrifice a mindless undead creature you control within close range (or the range of your Master’s Presence, whichever is greater), destroying it instantly; reduce the damage you take by the sacrificed undead’s current hit points (to a minimum of 0).
 
 ++++ ##000000|Empowered Reanimate [Core]##
 All creatures you reanimate gain a +4 enhancement bonus to their Strength and Dexterity.
@@ -57,12 +75,24 @@ All creatures you reanimate gain a +4 enhancement bonus to their Strength and De
 ++++ ##000000|Expanded Necromancy [Core]##
 When you reanimate a creature, you may reanimate it as a bloody skeleton, burning skeleton, fast zombie, or plague zombie. When reanimating a creature in this way, they count as twice their Hit Dice against the total amount you may have reanimated at once.
 
+++++ Gravetongue
+You may spend a spell point as a standard action to gain the ability to speak with undead and corpses for 1 minute per caster level. You can communicate with, ask questions of, and receive answers from them. A mindless undead or corpse spoken to with gravetongue does not maintain any memory of its life or death - only the time that has elapsed since its death (and reanimation). A normal corpse’s sense of its surroundings is limited, so it won’t be able to give (or recognize) detailed descriptions of creatures or answer questions about events outside its immediate vicinity. The spell doesn’t make undead creatures any more friendly or cooperative than normal, and while mindless undead and corpses will always answer truthfully, their ability to answer more than simple questions is restricted. You do not need to share a language with the target.
+
 ++++ ##000000|Greater Ghost Strike [Core]##
 When making a ghost strike, you may spend an additional spell point to form your ghost strike into a Close-range cone, allowing you to make an attack roll against every target within this area.
 
 ++++ ##000000|Greater Reanimate [Core]##
-Increase the total Hit Dice of creatures you may have reanimated at once by an additional 1 per caster level. You may select
-this talent up to 3 times.
+Increase the total Hit Dice of creatures you may have reanimated at once by an additional 1 per caster level. You may select this talent up to 3 times.
+
+++++ Haunting Apparition
+You may place a ghost strike of your choice onto an adjacent, unoccupied area up to one 5-ft. square per two caster levels (minimum one 5-ft. square), that lashes out at the first creature who enter its area, similar to a haunt.
+
+Any creature who steps onto that square is affected by your ghost strike. If the ghost strike does not allow a saving throw, the creature affected is allowed a Will save to negate its effects.
+
+A haunting apparition lasts for 10 minutes per caster level before becoming inert. It shares your alignment, and its Perception DC and hp are equal to its save DC. You may only have one active haunt apparition at a time; placing a second haunting apparition deactivates the first. You may select this talent multiple times. Each time it is taken, increase the number of haunting apparitions you may have active at once by 1.
+
+++++ Icy Grip
+When you use a ghost strike, instead of unleashing an attack yourself, you may have an undead you control within range deliver the attack as a melee touch attack sometime within the next round. This charge is ‘held’ through the round; if the undead gets multiple attacks, it can attempt to deliver the touch attack additional times if the first attempt failed. If you spend an additional spell point, you may grant a use of this ghost strike to each undead you control, but multiple undead cannot affect the same target with the same ghost strike that round.
 
 ++++ ##000000|Killing Curse [Core]##
 Your ghost strike can rip the very soul from the living. If a target fails their saving throws against your ghost strike 3 times within a 1-minute period, they immediately die (Fortitude negates). If a ghost strike does not allow a save, it is not usable with this talent.
@@ -73,13 +103,62 @@ When you reanimate a corpse or corpses, they remain for 1 hour per caster level 
 ++++ ##000000|Mass Reanimate [Core]##
 When using your reanimate ability, you may spend an additional spell point to reanimate multiple creatures at once. All corpses to be reanimated must be within Close range. Your Hit Dice limits apply to the total number you may reanimate at once with this ability.
 
+++++ Master’s Presence
+You can telepathically order and communicate with undead creatures within close range that you control. You do not need line of sight or effect to maintain this connection.
+
+You can select this talent up to 3 times; each time you do after the first, increase its range by one step (close to medium, medium to long).
+
 ++++ ##000000|Necrotic Senses [Core]##
 As a full-round action, you may concentrate on one undead creature under your control. This allows you to perceive that creature’s surroundings as if you were standing where that creature was. While you may use the creature’s special sense (i.e., Darkvision, etc.), you must use your own Perception skill if making a check. Only targets completely under your control are valid; charmed undead are not truly under your control, and as such as such do not qualify.
+
+++++ Reanimated Warriors
+Choose a combat talent, combat feat, or teamwork feat you possess. Undead you reanimate and control gain the benefit of this feat when they are within close range of you (or the range of your Master’s Presence, whichever is greater). You cannot choose a feat that has another feat as a prerequisite nor feats that grant open-ended bonuses (such as Extra Combat Talent), but your undead do not otherwise need to meet the feat’s prerequisites.
+
+Whenever you rest and recover spell points, you may change the feat or talent chosen. You may take this talent multiple times; each time you do, you may grant an additional combat talent, combat feat, or teamwork feat to your undead.
+
+++++ Shroud
+Whenever you succeed on an attack roll made as part of a ghost strike, you can choose to mark the affected creature with necrotic energy as a free action. If a marked creature dies within close range (or the range of your Master’s Presence, whichever is greater) within 1 round per caster level, you can spend 1 spell point as an immediate action to reanimate its body. If you possess Sustained Reanimation, you may use this feat to animate the body without spending a spell point if you sustain it via that talent. You can only have a number of creatures marked at a time equal to your casting ability modifier (minimum 1).
+
+++++ Sustained Reanimation
+When you reanimate a corpse, you may do so without spending a spell point, but the duration is changed to ‘concentration’. A sustained undead only counts as half their Hit Dice (rounded up, minimum 1) against the total amount you may have reanimated at once. You can never have more than 1 sustained undead at a time.
+
+++++ Taint Soul
+Whenever you succeed on a ghost strike, the creature affected has all healing effects used on it halved for 1 round per 2 caster levels. If you spend an additional spell point, it cannot heal hit point damage by any means for the duration, including fast healing and regeneration.
+
+In addition, you can touch a willing creature as a standard action to cause them to be healed by negative energy and harmed by positive energy for 1 minute (Fortitude negates if unwilling); as normal, fast healing is unaffected.
+
+++++ Tomb of Flesh
+You can make a melee touch attack against a living creature up to your size to attempt to absorb it into your body, similar to the swallow whole ability (Reflex negates).
+
+Being absorbed causes a creature to take negative energy damage each round equal to 1d6 + 1d6 for every three caster levels you have (undead are not affected). An absorbed creature gains the grappled condition, while you do not. An absorbed creature can try to cut its way free with any light slashing or piercing weapon (the amount of cutting damage required to get free is equal to 1/10 your total hit points), or it can just try to escape as if escaping a grapple (using your CMD or your MSD, whichever is higher). The armor class of your interior is 10 + 1/2 your caster level, with no modifiers for size or Dexterity. If an absorbed creature cuts its way out, you cannot use this talent again until the damage is healed.
+
+Alternatively, you can touch a corpse or undead that you control as a move action to absorb it into your body or to expel an absorbed corpse or undead into an adjacent square. While absorbed, an undead cannot use any of its senses or take any actions, and time passes normally - corpses rot and reanimate’s duration continues to pass.
+
+You can have a number of corpses or controlled undead absorbed at a time equal to 1 plus 1 for every 3 caster levels you have. You can spend a spell point to expel all absorbed corpses and undead with a single swift action. While you have at least one undead absorbed, you give off an aura that can be detected by divine undead equal to the highest Hit Dice undead absorbed, but your appearance is not otherwise changed.
+
+Creatures and bodies storied within your Tomb of Flesh are stored in an extra-dimensional space; you do not increase in size no matter how many creatures and bodies are stored inside you.
+
+++++ Undead Whisperer
+Choose any 2 tricks + 1 per 5 caster levels that can be taught to an animal or the Pose as Scenery trick (see the Handle Animal skill). Mindless undead you control are able to perform these tricks when ordered to as a move action. This does not allow you to train undead for a purpose, “push” an undead to perform a task it normally wouldn’t be able to, or accomplish other effects of the Handle Animal skill.
+
+In addition, when you attempt to reanimate a creature that would push your Hit Dice total beyond your limit, you choose which creatures cease to be reanimated or released from your control (rather than following sequential order).
+
+**Controlling Undead:** Normally, skeletons or zombies obey your spoken commands. They can be made to follow you, or they can be made to remain in an area and attack any creature (or just a specific kind of creature) entering the place.
+
+++++ Versatile Undead
+Undead you reanimate and control gain one skill rank per caster level, which they may only spend in skills keyed off of either Strength or Dexterity.
+
+If you possess Undead Whisperer, you may grant your undead ranks in any skill rather than just skills with Strength or Dexterity as their key modifier. However, either you or the creature (when it was alive) must possess/ have possessed ranks in any mental skill before it can be gained. The undead cannot possess more ranks in a skill than either you possess or that it possessed in life. Commanding undead to make basic use of their skills (such as crafting with the Craft skill or performing music with the Perform skill) does not require a specific trick.
+
+If you possess Master’s Presence, your undead may use your skill ranks in place of their own for any valid skill check, so long as they are within your Master’s Presence range. This cannot be used for mental skills without Undead Whisperer.
 ----
 + Ghost Strikes
 
 ++++ ##000000|Bleeding Wounds (ghost strike) [Core]##
 You may make a ghost strike that deals 1 bleed damage per 2 caster levels (minimum: 1; no save). Targets take damage on the round they are hit, plus each additional round until the bleed effect stops (usually through the Heal skill or an application of magical healing). You may spend a spell point before making this ghost strike to improve this effect to 1 bleed damage per caster level (minimum: 2).
+
+++++ Cannibalistic Urge (ghost strike) [curse]
+You may spend a spell point to make a ghost strike that fills a creature with unnatural urges for flesh (Will negates). On a failed save, the subject is staggered for 1 round and takes nonlethal damage equal to 1d8 per caster level. Similar to starvation damage, creatures that take an amount of nonlethal damage equal to their total hit points begin to take lethal damage instead, and this nonlethal damage cannot be recovered until 24 hours have passed or the target spends a full-round action consuming the corpse of a creature with Intelligence 3 or higher - until then, not even magic that restores hit points heals this damage. This is considered a curse effect, and can only be removed by Break Enchantment, remove curse, or similar effect.
 
 ++++ ##000000|Command Undead (ghost strike) [Core]##
 You may spend a spell point to make a ghost strike that grants you a measure of control over an undead creature (Will negates). For 1 minute per caster level, an unintelligent undead creature falls under your control or an intelligent undead become friendly toward you. You can give an intelligent undead creature orders, but you must win an opposed Charisma check to convince it to do anything it wouldn’t ordinarily do. Retries are not allowed. An intelligent commanded undead never obeys suicidal or obviously harmful orders, but it might be convinced that something very dangerous is worth doing. Any act by you or your apparent allies that threatens the commanded undead (regardless of its Intelligence) breaks this effect. Your commands are not telepathic; the undead creature must be able to hear you. Intelligent undead remember they were manipulated and may seek revenge.
@@ -93,11 +172,17 @@ You may spend a spell point to make a ghost strike that imposes 1 temporary nega
 ++++ ##000000|Inflict Disease (ghost strike) [Core]##
 You may spend a spell point to make a ghost strike that causes the target to contract a disease (Fortitude negates). The subject contracts one of the following diseases: blinding sickness, bubonic plague, cackle fever, filth fever, leprosy, mindfire, red ache, shakes, or slimy doom. The disease is contracted immediately (the onset period does not apply). Use the disease’s listed frequency and save DC to determine further effects.
 
+++++ Lich Strike (ghost strike)
+You may spend 2 spell points to make a ghost strike that paralyzes the target for 1 round per 2 caster levels on a failed Fortitude save. A creature is allowed a new saving throw each round as a full-round action to end this effect early. Anyone paralyzed by a lich strike seems dead, though a DC 20 Perception check or a DC 15 Heal check reveals that the victim is still alive.
+
 ++++ ##000000|Manipulate Undeath (ghost strike) [Core]##
 You may make a ghost strike that harms undead, dealing 1d8 damage per 2 caster levels (minimum: 1d8, Will half). You may spend a spell point to instead heal the undead for this amount.
 
 ++++ ##000000|Necrotic Feeding (ghost strike) [Core]##
 You may spend a spell point to make a ghost strike that, when it strikes a target with -1 or fewer hit points, kills it instantly (Will negates). If the target fails their saving throw, you gain temporary hit points equal to twice the target’s Hit Dice, as well as a +2 enhancement bonus to Strength and Dexterity, which increases to +4 if the target has 8 HD or more and +6 if the target has 16 HD or more. These effects last for 10 minutes per HD of the slain creature. Bonuses from multiple creature do not stack; only the highest bonuses apply.
+
+++++ Poltergeist (ghost strike)
+You may make a ghost strike that attaches a vengeful poltergeist to the target, disrupting their actions. Whenever the target makes a d20 roll within 1 round per caster level, you can choose for them take a -3 penalty to the roll, ending this effect. This penalty is increased by 1 for every 6 caster levels you have. If you spend a spell point when you use this ghost strike, you can impose the penalty on up to one d20 roll the target makes each round for the effect’s duration, and imposing the penalty does not end the effect. A creature can only be affected by one poltergeist at a time.
 
 ++++ ##000000|Sickening (ghost strike) [Core]##
 You may make a ghost strike that causes the target to be sickened for 1 round per caster level (Fortitude negates). You may spend a spell point to cause the target to instead become nauseated. On a successful save, the target is still sickened for 1 round.
