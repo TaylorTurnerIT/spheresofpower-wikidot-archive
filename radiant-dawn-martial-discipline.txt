@@ -92,22 +92,22 @@ Essence invested into a maneuver is temporarily bound when that maneuver is expe
 * **Bolster:** Counter – Ally gains DR for one round.
 * **Decree of Mercy:** Counter – Cause an attack to become nonlethal.
 * **Dismiss:** Strike – An attack that knocks down and knocks back a foe.
-* **Festival of the Bloodied Goddess:** Stance – Allies may offer a bit of their life to end their enemies.
+* **The Caged Sun:** Stance – Turn your healing inwards to become a formidable warrior.
 * **Spoils of War:** Stance – Heals your allies when they attack your enemies.
 * **Staunching Strike:** Strike – A strike that draws from an enemy’s akasha to heal another.
 
 **2nd Level**
 * **Curate’s Strike:** Strike – An Akashic Arrow that causes the target to leak essence, healing allies.
 * **Decree of Torment:** Strike – Unbalance an enemy to set them up for failure.
-* **Disrupt Essence:** Strike – A debilitating blow that weakens an opponent’s offensive abilities.
 * **Expose Weakness:** Boost – A quick blow that exposes an enemy’s weakpoint.
+* **Healer's Bane:** Counter – Steal healing from others, dealing damage in the process.
 * **Witness to Glory:** Counter – Grant a bonus to initiative and temporary HP.
 
 **3rd Level**
 * **Armaments of the Empire:** Stance – Improve you and your allies weapon with a veil of akasha.
 * **Decree of Death:** Boost – An opponent becomes vulnerable to one attack.
+* **Disrupt Essence:** Strike – A strike that inhibits the use of abilities.
 * **Lifeburst Strike:** Strike – A strike that causes one’s essence to flair, healing all within range.
-* **Sky Asunder:** Strike – A strike of Akasha that inhibits flying opponents.
 
 **4th Level**
 * **Decree of Silence:** Counter – Force a caster to make a concentration check as if they had taken damage.
@@ -116,26 +116,26 @@ Essence invested into a maneuver is temporarily bound when that maneuver is expe
 * **Sunstroke:** Boost – You or an ally strike with an improved Sun’s Gleam.
 
 **5th Level**
-* **Curse of the Pharaoh:** Strike – A cursed blow that invites death.
+* **Divide and Conquer:** Strike – A blow that divides the enemy across the battlefield.
 * **Decree of Purity:** Boost – Immediately end an effect affecting you or an ally.
 * **Noblesse Oblige:** Save an ally from certain death.
-* **Wake of the Emperor:** Stance – Create a safe area for your allies to follow.
+* **Stance of the Sunlight Shield:** Stance – Create akashic shields to defend allies.
 
 **6th Level**
 * **Battle Against the Sun:** Stance – Become like the sun and strike down foes with solar flares.
 * **Decree of Freedom:** Boost – Allow you or an ally to move unhindered for 1 round.
+* **Karmic Strike:** Strike – Heal allies and mark an enemy for retribution.
 * **King’s Castle:** Counter – Instantly draw an ally to your side to absorb a hit and retaliate.
-* **Render Unto Gods And I:** Strike – Attack the resources of an enemy.
-* **The Sword of Damocles:** Strike – A weak attack that leaves the enemy vulnerable, maximizing the next attack made against it.
+* **Path of the Sun:** Strike – Fire off a beam of sunlight, then allow allies to traverse the area instantly.
 
 **7th Level**
-* **Decree of Ruin:** Boost – You or one ally automatically threatens a critical hit on their next attack.
+* **Awaken the Sleeper:** Boost – Embolden an ally for a brief moment.
+* **Harsh Light of Day:** Strike – A strike that reveals an enemy’s true form.
 * **Push the Advantage:** Counter – An ally gains a standard action and heals after defeating a foe.
-* **Tyrant’s Command:** Strike – A strike that commands an opponent under threat of pain.
 
 **8th Level**
 * **Decree of Vengeance:** Counter – You or an ally may initiate a strike against a target who has attacked you, healing in the process.
-* **The Path of the Sun:** Stance – Lose ability to invest essence in maneuvers, but gain scaling essence to maneuvers as you expend maneuvers.
+* **Sun’s Zenith:** Stance – Lose ability to invest essence in maneuvers, but gain scaling essence to maneuvers as you expend maneuvers.
 * **Tyrant’s End:** Strike– A blow that crushes all defenses.
 
 **9th Level**
@@ -183,7 +183,7 @@ When determining your combat maneuver bonus for this strike, you may use your in
 
 **Essence:** For each point of essence invested into this strike, you gain a cumulative +2 bonus to this maneuver’s trip attempt.
 
-++++ Festival of the Bloodied Goddess
+++++ The Caged Sun
 **Discipline:** Radiant Dawn (Stance)
 **Level:** 1
 **Initiation Action:** 1 swift action
@@ -191,9 +191,11 @@ When determining your combat maneuver bonus for this strike, you may use your in
 **Target:** You
 **Duration:** Stance
 
-Dancing, fluid movements are the hallmarks of this stance, a trance-like celebration of the horrors of combat. While you maintain this stance, whenever an ally within close range (25 feet + 5 feet per 2 initiator levels) of you successfully hits a creature with an attack, that ally may choose to sacrifice a number of hit points up to twice their Hit Dice (minimum 2) to increase the damage of that attack by an amount equal to ½ the number of hit points spent. An ally may only use this ability once per round, regardless of the number of allies maintaining this stance nearby.
+If you have 50% or fewer hit points, entering this stance can be done as a free action instead of a swift. While you maintain this stance, you cannot heal creatures other than yourself, but any healing you receive is increased by 50%. If you would be healed for more than your maximum amount of hit points, you instead gain an amount of temporary hit points equal to the excess healing.
 
-**Essence:** Whenever an ally sacrifice hit points via this stance, they also gain a dodge bonus to AC equal to the amount of essence invested into this stance for 1 round.
+These temporary hit points stack with other temporary hit points granted by you, up to a maximum of your maximum hit points, and last for one minute, until initiative is rolled, or you abandon this stance.
+
+**Essence:** Each point of essence invested into this stance increases the amount of healing you receive by 2 (before modified by the stances effects). Each point of essence also increases your attack, AC, and saves by 1.
 
 ++++ Spoils of War
 **Discipline:** Radiant Dawn (Stance)
@@ -248,18 +250,6 @@ When determining their combat maneuver bonus for this strike, creatures may use 
 
 **Essence:** Each point of essence invested into this strike lowers the branded creature’s CMD by 1 for a number of rounds equal to your initiation modifier.
 
-++++ Disrupt Essence
-**Discipline:** Radiant Dawn (Strike)
-**Level:** 2
-**Initiation Action:** 1 standard action
-**Range:** Melee or ranged attack
-**Target:** One creature
-**Duration:** Instantaneous
-
-A powerful blow that disrupts an enemy’s essence. Make an attack. If it hits, the attack deals damage as normal, and the target is sickened for a number of rounds equal to onehalf your initiation modifier (minimum 1).
-
-**Essence:** For each point of essence invested into this strike, the target suffers an additional -1 penalty on all attack rolls, weapon damage rolls, saving throws, skill checks, and ability checks for the same duration.
-
 ++++ Expose Weakness
 **Discipline:** Radiant Dawn (Boost)
 **Level:** 2
@@ -271,6 +261,18 @@ A powerful blow that disrupts an enemy’s essence. Make an attack. If it hits, 
 You strike with a weak, but swift, attack that hampers an opponent. Make an attack. If it hits, it deals no damage, and the target becomes flat-footed for 1 round.
 
 **Essence:** Each point of essence invested into this boost also lower the target’s AC by 2. This lasts for one round.
+
+++++ Healer’s Bane
+**Discipline:** Radiant Dawn (Counter)
+**Level:** 2
+**Initiation Action:** 1 immediate action
+**Range:** Close (25 ft. + 5 ft./2 levels)
+**Target:** One creature
+**Duration:** Instantaneous
+
+Made to combat other practitioners of the Radiant Dawn discipline, this maneuver hijacks healing for one’s own purpose. You may initiate this counter in response to a target within range healing hit point damage. The target must make a will save (DC 12 + initiation modifier) or have their healing stolen. Instead of the target (and any other creatures affected by that instance of the effect) being healed, you draw the total amount of healing done into a pool, and may redistribute this pool of healing to allies within close range (25 feet + 5 feet per 2 initiator levels), divided as you choose between you and your allies. Targets that would have been healed by the healing then take damage equal to half of the healing stolen.
+
+**Essence:** Each point of essence invested into this counter increases the DC by 2, and the healing and damage done by your initiation modifier.
 
 ++++ Witness to Glory
 **Discipline:** Radiant Dawn (Counter)
@@ -310,6 +312,19 @@ You single out a single target for execution. Make an attack. If it hits, the at
 
 **Essence:** The first attack made against the target within 1 round deals an additional 2 points of damage for each point of essence invested into this boost. This damage is eligible to be increased by the effect of the boost.
 
+++++ Disrupt Essence
+**Discipline:** Radiant Dawn (Strike)
+**Prerequisites:** One Radiant Dawn maneuver
+**Level:** 3
+**Initiation Action:** 1 standard action
+**Range:** Melee or ranged attack
+**Target:** One creature
+**Duration:** Instantaneous; see text
+
+A powerful blow that disrupts one’s essence, inhibiting the use of abilities. Make an attack. If it hits, the target must make a Will save (DC 10 + ½ your initiation level + your initiation modifier) or have a single Extraordinary (Ex) or supernatural (Su) ability that requires an action to activate, special sense, or special movement type of your choice disabled for rounds equal to your initiation modifier. You must be aware of the ability in order to disable it (Such as a successful knowledge check, or having seen it in action).
+
+**Essence:** Each point of essence invested into this strike increases the DC by 1 and the number of rounds an ability is disabled by 1. At two essence, and every two essence thereafter, you may choose an additional ability to disable.
+
 ++++ Lifeburst Strike
 **Discipline:** Radiant Dawn (Strike)
 **Prerequisites:** One Radiant Dawn maneuver
@@ -322,19 +337,6 @@ You single out a single target for execution. Make an attack. If it hits, the at
 You strike out with a simple blow with an uncanny power to heal and harm. Make an attack. If it hits, it deals weapon damage as normal plus an additional 1d6 points of damage, and you can heal yourself and allies within close range (25 feet + 5 feet per 2 initiator levels) for a total number of hit points equal to three times your initiation modifier, divided as you choose between you and your allies. Alternatively, you may choose to grant a single ally within close range a saving throw against an ongoing effect on them that offers a saving throw to negate, at the effect’s original DC. If it succeeds, the effect ends. This does not progress poison, diseases, or similar effects on a failed saving throw.
 
 **Essence:** Each point of essence invested into this strike increases the total amount of healing done by 5 hit points. This healing is split up between targets normally.
-
-++++ Sky Asunder
-**Discipline:** Radiant Dawn (Strike)
-**Prerequisites:** One Radiant Dawn maneuver
-**Level:** 3
-**Initiation Action:** 1 standard action
-**Range:** Melee or ranged attack.
-**Target:** One creature
-**Duration:** Instantaneous
-
-You strike down those who would fly close to the sun. Make an attack, If it hits, it deals weapon damage as normal plus an additional 1d6 points damage. The target of this maneuver must also make a Reflex save (DC 14 + initiation modifier) or be struck from the sky, losing their ability to fly. If the target fails their saving throw, they are rendered incapable of flying for a number of rounds equal to your initiation modifier; they loses any and all fly speeds they possesses, are treated as having no ranks in the Fly skill, and cannot hover, leap, or levitate higher than ten feet from the ground. If the victim is flying when they are affected by this maneuver, they plummet straight down to the earth, taking falling damage as normal should they collide with the ground.
-
-**Essence:** Each point of essence invested into this strike increases the amount of damage a creature rendered flightless by this maneuver takes from falls by 1d6 points for as long as they are prevented from flying.
 
 ++ 4th Level
 ++++ Decree of Silence
@@ -388,19 +390,6 @@ Your akasha shapes an attack into a powerful solar flare. Choose one ally within
 **Essence:** Each point of essence invested into this boost increases the minimum area of the chosen ally’s attack. While at least one point of essence is invested, the attack becomes a burst with a radius of 5 feet per point of essence invested. A single attack roll is made for the attack, and compared against all creatures within the burst.
 
 ++ 5th Level
-++++ Curse of the Pharaoh
-**Discipline:** Radiant Dawn (Strike) [Curse]
-**Prerequisites:** Two Radiant Dawn maneuvers
-**Level:** 5
-**Initiation Action:** 1 standard action
-**Range:** Melee or ranged attack
-**Target:** One creature
-**Duration:** Instantaneous
-
-This attack brings with it a short lived curse that weakens one’s will to live. Make an attack. If it hits, it deals an additional 3d6 points of damage and the target must make a Will save (DC 15 + initiation modifier) or be cursed for 1 round. While cursed in this way, if an attacker hits this target with a melee or ranged weapon attack, they may make another melee or ranged weapon attack at their highest BAB against this target as a free action. Attackers may only gain one bonus attack from this strike per round.
-
-**Essence:** Each point of essence increases the damage of the bonus attack granted by this maneuver by 3.
-
 ++++ Decree of Purity
 **Discipline:** Radiant Dawn (Boost)
 **Level:** 5
@@ -415,6 +404,19 @@ In addition, you may heal yourself and allies within close range for a total num
 
 **Essence:** Each point of essence invested into this boost increases the total amount of healing done by 7 hit points. This healing is split up between targets normally.
 
+++++ Divide and Conquer
+**Discipline:** Radiant Dawn (Strike)
+**Prerequisites:** Two Radiant Dawn maneuvers
+**Level:** 5
+**Initiation Action:** 1 standard action
+**Range:** Melee or ranged attack
+**Target:** One creature
+**Duration:** Instantaneous; see text.
+
+This strike pulls essence from the target, creating an effigy of the creature. When the essence returns to its creature, it brings its wounds with it. Make an attack. If it hits, it deals an additional 3d6 points of damage, and the target must make a Will save (DC 15 + initiation modifier) or have its essence drawn into one effigy until the end of your next turn. This translucent effigy appears within close range (25 feet plus 5 feet per 2 levels) of you. The effigy is the size of the target of this maneuver, but otherwise does not block movement or occupy spaces, and may be targeted by attacks, spells, or other abilities. Any attack, spell, or other ability used against the effigy (or including it in its affected area) is redirected against the target of this maneuver as if they were the original target regardless of range, and the target may defend themselves normally against these attacks.
+
+**Essence:** Each point of essence invested into this strike increase amount of effigies created by 1 and the save DC of the strike by 1.
+
 ++++ Noblesse Oblige
 **Discipline:** Radiant Dawn
 **Level:** 5
@@ -427,7 +429,7 @@ When all else fails, your allies turn to you to save them. Whenever an ally with
 
 **Essence:** The ally is also healed for 7 hit points per point of essence invested into this maneuver after the attack is made.
 
-++++ Wake of the Emperor
+++++ Stance of the Sunlight Shield
 **Discipline:** Radiant Dawn (Stance)
 **Prerequisites:** Two Radiant Dawn maneuvers
 **Level:** 5
@@ -436,9 +438,13 @@ When all else fails, your allies turn to you to save them. Whenever an ally with
 **Target:** You
 **Duration:** Stance
 
-You travel fearlessly through magic and flames, and where you tread shows your followers the way. While you maintain this stance, whenever you would enter, or begin your turn in, difficult terrain or an area with negative effects (such as caltrops, lava, inhaled poison hanging in the air, acid fog, mists that obscure vision, etc), you suppress those effects within squares you pass through until the end of your next turn. If the effect requires a save (such as prismatic wall), you must make the save in order to suppress the effect.
+This stance sits halfway between martial form and magic prowess, conjuring shields of light to defend yourself and others. While you maintain this stance, you may create sunlight shields. Creating a single sunlight shield is done as free action that can be done once per round, and is done automatically when you enter this stance. A sunlight shield can be created anywhere within close range (25 feet plus 5 feet per 2 levels) of you (to include in the air, where they float until destroyed, dismissed, or removed). Treat a sunlight shield as a 10ft by 10ft by 1 inch thick wall of force, but with hardness equal to your initiator level plus your initiation modifier, and 1 hit point. They may be made smaller at the initiator’s discretion. You may have a number of sunlight shields equal to your initiation modifier, and these shields last indefinitely, or until they are no longer within close range of you, you dismiss them as a free action, or you leave this stance. These sunlight shields can be made at any angle, and are treated as normal terrain when stepped on. You may command these shields to fly an amount of feet equal to your movement speed as a move action.
 
-**Essence:** Each point of essence invested into this stance grants you a +1 bonus on all saves made against effects that can be suppressed by the stance
+You may also create a sunlight shield as an immediate action, but doing so is dangerous as the hasty construction leaves your essence tied to it. Until the start of your next turn, any damage that the shield takes (before hardness is taken into account), or any spell that would fail because of the shield’s sudden appearance between its caster and its target is also inflicted on you, regardless of distance.
+
+Creatures can attack other creatures on the other side of these shields, dealing damage to the shield first. If an attack would break the shield, the remainder of the damage is dealt to the creature if the original attack would have hit. When you enter this stance, you may designate any number of allies. These allies’ attacks and abilities are not impeded by your sunlight shields.
+
+**Essence:** Each point of essence invested into this stance increases the hardness of the sunlight shields by 3, the number of sunlight shields you create when entering this stance by 1, and the number of sunlight shields you can possess at one time by 2.
 
 ++ 6th Level
 ++++ Battle Against the Sun
@@ -467,6 +473,21 @@ With a gesture and a single word, you cause a target’s essence to flare, freei
 
 **Essence:** Each essence invested into this boost increases the duration by 1 round.
 
+++++ Karmic Strike
+**Discipline:** Radiant Dawn (Strike)
+**Prerequisites:** Two Radiant Dawn maneuvers
+**Level:** 6
+**Initiation Action:** 1 standard action
+**Range:** Melee or ranged attack
+**Target:** One creature
+**Duration:** Instantaneous; See text
+
+This blow marks an enemy with a simple brand that burrows into their essence. As they do harm, the brand sees to it that they are harmed as well. Make an attack. If it hits, it deals an extra 4d6 points of damage, you may heal yourself and allies within close range (25 feet + 5 feet per 2 initiator levels) for a total number of hit points equal to six times your initiation modifier, divided as you choose between you and your allies.
+
+The target must also make a Will save (DC 16 + Initiation modifier) or have a brand placed upon them for one minute. Whenever the target would deal damage, as a free action that can be done on any turn, the creature that took damage may remove the brand, and only take half of the damage that they would have taken from the attack. The branded creature then takes half of the damage mitigated this way.
+
+**Essence:** Each point of essence invested in this maneuver increases the healing done by 8 points and the number of brands placed on the creature after a failed will save by 1.
+
 ++++ King’s Castle
 **Discipline:** Radiant Dawn (Counter)
 **Prerequisites:** Two Radiant Dawn maneuvers
@@ -480,48 +501,51 @@ Your faithful respond to your call for help. You may initiate this counter in re
 
 **Essence:** Each point of essence invested into this maneuver increases the temporary hit points granted by this maneuver by 6, the damage reduction by 1, and the damage made by that ally’s next attack by 1d6.
 
-++++ Render Unto Gods And I
+++++ Path of the Sun
 **Discipline:** Radiant Dawn (Strike)
 **Prerequisites:** Two Radiant Dawn maneuvers
 **Level:** 6
 **Initiation Action:** 1 standard action
-**Range:** Melee or ranged attack
-**Target:** One creature
-**Duration:** Instantaneous
+**Range:** Close range foot line
+**Target:** One or more creatures
+**Duration:** Instantaneous; see text
 
-Those who would rise against you will pay twice over for their transgressions. Make an attack. If it hits, you deal damage as normal, plus an additional 4d6 points of damage, and the target must make a Will save (DC 16 + initiation modifier) or have their powers taxed for a number of rounds equal to your initiation modifier (minimum 2).
+Coalesce the power of the sun into a powerful beam that washes over enemies and allies alike, leaving behind thousands of motes of light. Allies of the initiator may traverse these motes as if they were light themselves. When you initiate this maneuver, you create a close range (25 feet + 5 feet per 2 levels) foot line of light. Enemies caught within this line take damage equal to your initiator level plus your initiation modifier, and must make a Reflex save (DC 16 + initiation modifier) or be Blinded for rounds equal to your half your initiation modifier.
 
-If the taxed creature casts a prepared spell, they also sacrifice another spell of their choice of equal level. If the taxed creature casts a spontaneous spell, they sacrifice an additional spell slot of the same level. If that creature initiates a maneuver, they also expend an additional maneuver of the same level. If that creature manifests a power, they lose additional power points equal to that power’s cost (these power points are not considered to be spent on the power). If that creature has an essence pool, it suffers essence burn equal to twice the greatest amount of essence invested into any of their receptacles. If the creature cannot sacrifice a prepared spell, spell slot, or maneuver of the appropriate level, they instead lose an appropriate article of the next-lowest level available (except 0-level), or the next-highest level if there are no articles of a lower level.
+This line persists as a field of golden motes for rounds equal to your initiation modifier. Enemies who enter the line or start their turn within the area take damage and must make a save as if they were struck by this maneuver. Allies do not provoke attack of opportunities when entering or moving through these squares, and can enter or move through these squares as free actions on their turn. Treat creatures within these squares as being exposed to direct sunlight.
 
-In addition, you may heal yourself and allies within close range (25 feet + 5 feet per 2 initiator levels) for a total number of hit points equal to six times your initiation modifier, divided as you choose between you and your allies
-
-**Essence:** Each point invested increases the DC by 1 and the healing done by 8 points.
-
-++++ The Sword of Damocles
-**Discipline:** Radiant Dawn (Strike)
-**Prerequisites:** Two Radiant Dawn maneuvers
-**Level:** 6
-**Initiation Action:** 1 standard action
-**Range:** Melee or ranged attack
-**Target:** One creature
-**Duration:** Instantaneous
-
-A deceptively weak attack leaves an opponent open for a devastating follow up. Make an attack. If it hits, it deals an extra 4d6 points of damage. The next attack made against that target within one round treats all damage variables and numeric effects as if the maximum result was rolled.
-
-**Essence:** Each point of essence adds an additional 1d6 points of damage to the maximized attack. This damage is similarly maximized..
+**Essence:** Each point invested increases the DC and duration of this maneuver by 1.
 
 ++ 7th Level
-++++ Decree of Ruin
+++++ Awaken the Sleeper
 **Discipline:** Radiant Dawn (Boost)
+**Prerequisites:** Three Radiant Dawn maneuvers
 **Level:** 7
 **Initiation Action:** 1 swift action
 **Range:** Close (25 ft. + 5 ft./2 levels)
 **Target:** One ally
-**Duration:** 1 round or until discharged
+**Duration:** 1 round; see text.
 
-The flow of akasha foretells of a ruinous blow. The next time the target hits with an attack, that attack is considered to be a critical threat.
+It’s said that the soul of a mortal contains power that can rival the gods, and this maneuver awakens a fraction of that power for a brief moment. When you initiate this maneuver, choose one ally within close range other than yourself. That ally gains a maneuver known by you of 6th or lower level, readied and unexpended for the duration of this maneuver.
 
-**Essence:** Each essence invested into this maneuver grants the ally a +2 to confirm any critical hit made within 1 round.
+An ally may choose to use your initiation modifier and initiator level in place of their own (if any) for this granted maneuvers. Additionally, the ally may may roll twice for any attack, saving throw, damage roll, or any skill check made as part of a maneuver they make during that round. Finally, that ally also gains temporary hit points equal to half of their maximum hit points. These temporary hit points last for 1 round.
+
+**Essence:** Each point of essence invested into this maneuver increases the target’s movement speeds by 15 feet.
+
+++++ Harsh Light of Day
+**Discipline:** Radiant Dawn (Strike)
+**Prerequisites:** Three Radiant Dawn maneuvers
+**Level:** 7
+**Initiation Action:** 1 standard action
+**Range:** Melee or ranged attack
+**Target:** One creature; see text
+**Duration:** Instantaneous; See text
+
+This attack brings with it a blast of light, forcing enemies to reveal their true selves. Make an attack. This attack ignores miss chance (such as granted by concealment, or spells) and attempts at redirection (such as Mirror Image), and if it hits, you deal weapon damage as normal plus an additional 5d6 points of damage. The target must then make a Will save (DC 17 + Initiation modifier) or have all illusions and polymorph effects you choose dispelled from them. Additionally, if they fail this will save, the target loses the ability to benefit from miss chance for rounds equal to your initiation modifier.
+
+You may attack an empty space with this maneuver. If you do so, the attack automatically veers towards the nearest enemy to the targeted space within 10ft of it, even enemies that you are unaware of or cannot see, and affects them as if they were the original target of this maneuver, even if they are out of range of the original attack. Creatures you are completely unaware of count as enemies if their attitude to you is unfriendly or worse, or if they have used a harmful ability on you or your allies within the last minute.
+
+**Essence:** Each point of essence invested in this veil increases the save DC and the duration of this maneuver by 1, and increase the seeking radius of an attack aimed at an empty square by 5 feet.
 
 ++++ Push the Advantage
 **Discipline:** Radiant Dawn (Counter)
@@ -534,19 +558,6 @@ The flow of akasha foretells of a ruinous blow. The next time the target hits wi
 With the enemy defeated, you spurn an ally towards further glory. You may initiate this counter when you or an ally defeats an enemy. That ally may immediately take a standard action, and you may also heal yourself and allies within close range (25 feet + 5 feet per 2 initiator levels) for a total number of hit points equal to seven times your initiation modifier, divided as you choose between you and your allies.
 
 **Essence:** Each point of essence invested into this counter increases the total amount of healing done by 9 hit points, and while essence is invested into this counter, the target gains the option to move up to 5 feet per point of essence invested after this maneuver is initiated, provoking attacks of opportunity as normal. This healing is split up between targets normally.
-
-++++ Tyrant’s Command
-**Discipline:** Radiant Dawn (Strike)
-**Prerequisites:** Three Radiant Dawn maneuvers
-**Level:** 7
-**Initiation Action:** 1 standard action
-**Range:** Melee or ranged attack
-**Target:** One creature
-**Duration:** Instantaneous; See text
-
-An attack against the body and soul that places a deep seated suggestion in the target. To resist it is to go against themselves. Make an attack. If it hits, you deal weapon damage as normal. The target must then choose ‘Command’ or ‘Damage’. If the target chooses command, they are affected by the command spell (no saving throw) as if they had failed their will save. You may also have the target make an attack against a target of your choosing instead of issuing this command. If they chose ‘Damage’, they take 10d6 points of damage as they claw and struggle against themselves. The additional damage and command effect are mind-affecting effects.
-
-**Essence:** For each point of essence invested in this stance, the target also takes an additional 2d6 points of damage if they chose ‘Command’ or 1d6 points of damage if they chose ‘Damage’.
 
 ++ 8th Level
 ++++ Decree of Vengeance
@@ -564,7 +575,7 @@ You also heal yourself and allies within close range (25 feet + 5 feet per 2 ini
 
 **Essence:** Each point of essence invested into this counter increases the total amount of healing done by 10 hit points, and allows another ally within range to perform an attack action or initiate a standard-action strike a single standard attack against the attacker. This healing is split up between targets normally.
 
-++++ The Path of the Sun
+++++ Sun’s Zenith
 **Discipline:** Radiant Dawn (Stance)
 **Prerequisites:** Three Radiant Dawn maneuvers
 **Level:** 8
@@ -573,7 +584,7 @@ You also heal yourself and allies within close range (25 feet + 5 feet per 2 ini
 **Target:** You
 **Duration:** Stance
 
-You mimic the eternal dance of the sun across the sky with this stance. When you assume this stance, any essence you currently have invested in maneuvers becomes uninvested (reducing their totals to 0). Essence bound into an expended maneuver remains invested until that maneuver is recovered. While you maintain this stance, you cannot invest essence into maneuvers. This does not prevent you from using Sun’s Gleam. Each of your unexpended maneuvers and stances is treated as though it had essence invested in it equal to the number of maneuvers you’ve expended from this stance’s source, to a maximum of ½ your initiator level. Only maneuvers from the class (not feats) that granted this stance are counted towards this.
+You mimic the eternal dance of the sun across the sky with this stance. When you assume this stance, any essence you currently have invested in maneuvers becomes uninvested (reducing their totals to 0). Essence bound into an expended maneuver remains invested until that maneuver is recovered. While you maintain this stance, you cannot invest essence into maneuvers. This does not prevent you from using Sun’s Gleam. Each of your unexpended maneuvers and stances is treated as though it had essence invested in it equal to the number of maneuvers you’ve expended from this stance’s source, to a maximum of ½ your initiator level (This essence can exceed the maneuver’s essence cap). Only maneuvers from the class (not feats) that granted this stance are counted towards this.
 
 Unlike other Radiant Dawn stances, essence may not be invested into this stance.
 
@@ -607,8 +618,6 @@ Allies within range are healed for 50 points of damage. This healing acts like t
 A creature may only benefit from the breath of life effect of this maneuver once, and must experience sunrise before they can gain its benefit again, though it still benefits from this maneuver’s healing normally.
 
 **Essence:** Each point of essence invested into this maneuver increases the healing and damage done by 15 points each, the DC by 1, and the results of new saving throws against death effects by 2.
-
-
 
 ----
 
