@@ -1,0 +1,476 @@
+title:Skill Challenges
+[[toc]]
+
+It takes more than a strong arm and an arsenal of spells and weapons to be an adventurer. While adventuring, characters will often stumble upon challenging situations that cannot be solved quickly through combat, situations that require prolonged effort in order to solve. Such challenges always have a specific goal in mind and require dedication (and sometimes teamwork) in order to be overcome.
+
+Skill challenges are a special type of noncombat encounter that require the use of player abilities (specifically skills) to accomplish objectives. Though often distinct from combat encounters, skill challenges can be interwoven with combat encounters to add variety and a sense of purpose or urgency to the combat. Like a creature, a skill challenge has a Challenge Rating that denotes its difficulty in comparison to the party’s Average Party Level, and lists the amount of XP that the party receives should they defeat the encounter.
+
+Note that not every obstacle that the PCs face that requires a skill check is a skill challenge. When an obstacle requires only a single skill check, such as an Acrobatics check to jump across a chasm or a Diplomacy check to adjust the attitude of an NPC, it is not a skill challenge. Furthermore, not all obstacles that require multiple skill checks are skill challenges. For instance, a character that fails a Reflex save against a pit trap and falls 10 feet down into the pit does not necessarily enter a skill challenge. (Though she might at the GM’s decision, depending upon the hazards that await her at the pit’s bottom.)
+
+++ Running a Skill Challenge
+Like combat, skill challenges are cyclical; every character acts in turn in a regular cycle. The amount of time that each cycle of actions takes is determined by the skill challenge’s frequency (if the frequency is listed as standard, each cycle of actions takes 1 round). Skill challenges follow this sequence:
+
+1. When the skill challenge begins, all characters roll initiative.
+
+2. If the skill challenge has the surprise start special quality, a surprise cycle occurs. Determine which characters are aware of the skill challenge. These characters can act during the surprise cycle. If all the characters are aware of the skill challenge, proceed with normal rounds. See the surprise start optional element on page 15 for more information.
+
+3. After the surprise cycle (if any), all characters are ready to begin with the first cycle of the skill challenge.
+
+4. Characters act in initiative order (highest to lowest).
+
+5. When everyone has had a turn, the next cycle begins with the character with the highest initiative, and steps 4 and 5 repeat until the skill challenge ends (either because the characters succeeded or failed).
+
+++ The Skill Challenge Cycle
+Each cycle during a skill challenge represents a specific amount of time that varies from skill challenge to skill challenge—this is listed in the skill challenge’s frequency. A cycle normally allows each character involved in the skill challenge to act. Each cycle’s activity begins with the character with the highest initiative result and then proceeds in order. When a character’s turn comes up in the initiative sequence, that character performs her entire cycle’s worth of actions, though some exceptions exist. Each cycle, a character has her choice of one cycle action or two half-cycle actions.
+
+When the rules refer to a “full cycle”, they usually mean a span of time from a particular initiative count in one cycle to the same initiative count in the next cycle. Effects that last a certain number of cycles end just before the same initiative count they began on.
+
++++ Initiative
+At the start of a skill challenge, each participant makes an initiative check. An initiative check is a Dexterity check. Each character applies her Dexterity modifier to the roll, as well as other modifiers from feats, spells, and other effects. Characters act in order, counting down from the highest result to the lowest. In every round that follows, the characters act in the same order (unless a character takes an action that results in her initiative changing).
+
+If two or more participants have the same initiative check result, the combatants with the higher initiative modifier acts first. If there is still a tie, the tied characters roll to determine which of them goes before the other.
+
+**Flat-Footed:** At the start of a skill challenge, characters who have not taken their first regular turn in the initiative order are flat-footed. A flat-footed character cannot use her Dexterity bonus to AC (if any) while flat-footed. Some abilities allow characters to avoid being caught flat-footed, such as the uncanny dodge barbarian class feature.
+
+**Inaction:** Characters retain their initiative result for the duration of the skill challenge, even if they cannot take actions (such as from falling unconscious or becoming paralyzed).
+
++++ Surprise
+Skill challenges with the surprise start special quality have the potential for characters to become surprised, causing a surprise cycle to occur (see below). When a skill challenge with the surprise start special quality starts, if a character is not aware of her opponents and they are aware of her, she is surprised. Sometimes all the participants on a side are aware of their opponents, sometimes none are, and sometimes only some of them are. Sometimes a few participants on each side are aware and the other participants on each side are unaware. Determining awareness may call for Perception checks, Sense Motive checks, or other checks.
+
+**The Surprise Cycle:** If some but not all of the participants are aware of their opponents, a surprise cycle happens before regular cycles begin. In initiative order (highest to lowest), participants who started the skill challenge aware of their opponents each take a half-cycle action during the surprise cycle. If no one or everyone is surprised, no surprise cycle occurs.
+
+**Unaware Participants:** Skill challenge participants who are unaware at the start of a skill challenge don’t get to act in the surprise cycle. Unaware participants are flat-footed because they have not acted yet, so they lose any Dexterity bonus to AC.
+
+++ Completion Methods
+The goal of every skill challenge is to clear it by performing a number of specific tasks relevant to the challenge. Completion represents the overall effort required to successfully clear a skill challenge, and is determined based upon the skill challenge’s CR.
+
+Each skill challenge lists one of three basic methods used to track completion earned towards clearing it—movement, progress, or successes. This section summarizes these three completion methods and the statistics that determine how completion is earned during a skill challenge, then details how to use them.
+
++++ Movement
+Movement-based skill challenges require participants to advance to a specific place in order to clear them. Movement-based skill challenges measure completion in squares, an abstraction that represents the amount of distance covered by a character moving at a speed of 10 feet per six seconds. As a result, the distance represented by a square is determined by the skill challenge’s frequency, and Table: Square Distance by Frequency lists the amount of distance represented by a square during skill challenges with common frequency counts.
+
++++++ Table: Square Distance by Frequency
+||~ Skill Challenge Frequency ||~ Square Size || 
+|| 1 round || 10 feet || 
+|| 1 minute || 100 feet || 
+|| 10 minutes || 1,000 feet || 
+|| 1 hour || 6,000 feet || 
+|| 8 hours || 48,000 feet || 
+
+During a movement-based skill challenge, a character can advance a number of squares up to her speed divided by 10 as a half-cycle action. Effects that modify a character’s speed are applied before her speed is divided by 10.
+
+A character can move backwards during a movement-based skill challenge if she wishes, using the appropriate action to subtract a number of squares from the amount of squares that she has advanced. A character can move backwards as often as she likes, but she cannot move further backward than where she started at the beginning of the skill challenge.
+
+Movement-based skill challenges are cleared when a character has advanced the number of squares listed in the skill challenge’s completion entry.
+
+**Hustling:** Characters can run as a cycle action. When a character hustles, she advances a number of squares equal to her speed divided by 5. A character loses her Dexterity bonus to AC during any cycle that she hustles unless she has the Run feat. Each character participating in the skill challenge can hustle for a number of rounds equal to 1 + the character’s Constitution modifier. These rounds don’t need to be consecutive. After that, the character must make a DC 10 Constitution check to continue hustling—this counts as a Constitution check made to continue running for the purpose of determining the character’s bonus on her Constitution check. Characters must check again each round in which they continue to hustle, and the DC of this check increases by 1 for each check made. When a character fails this check, she stops hustling and advances a number of squares equal to her speed divided by 10 that round, as if she had only used a half-cycle action to move instead of a cycle action. A character who has hustled to this limit cannot hustle for the rest of the skill challenge, and must rest for at least 1 minute (10 rounds) before she can hustle or use the run action again.
+
+**Mounts and Vehicles:** Riding a mount during a movement-based skill challenge allows the rider to use the mount’s speed in place of her own when determining the number of squares that she advances. A mounted character must make a Ride check whenever she uses a half-cycle or cycle action to advance any number of squares—the DC for this check is up to the GM based upon the difficulty of riding a mount during the skill challenge and other factors, but the DC should always be between that of an easy skill challenge and a difficult skill challenge appropriate to the skill challenge’s CR (see Table: Skill Challenge DCs by CR). If she fails this check, the character still advances normally, but the number of squares she advances is reduced by half and she can take no other actions during her turn. If she fails this check by 10 or more, the character does not advance any squares that round and her turn ends.
+
+Driving a vehicle in a skill challenge functions in the same way as riding a mount and confers the same benefits, except drivers must make checks using a skill listed under the vehicle’s propulsion whenever they use a half-cycle or cycle action to advance any number of squares. This skill check assumes that the character is using the reverse, turn, and keep it going driving actions to participate in the skill challenge. Increasing or decreasing her vehicle’s speed using the accelerate or decelerate driving actions is a half-cycle action.
+
+**Squares and Targeting:** Since squares represent distance moved during a movement-based skill challenge, characters that have advanced different numbers of squares effectively have swaths of distance between them. This distance can make creatures ineligible targets for spells and abilities.
+
+When determining if two or more participants within a skill challenge are within range of one another for any purpose, first determine the number of squares between the two characters, then multiply that number by the amount of distance represented by the square. To determine the amount of distance represented by a square, convert the skill challenge’s frequency to rounds and multiply this amount by 10 feet. For instance, a skill challenge with a frequency of 2 minutes converts to 20 rounds, which multiplies to 200 feet. Table: Square Distance by Frequency can be used to quickly determine the distance of a square during skill challenges with common frequencies.
+
+**Obstacles:** Movement-based skill challenges are peppered with obstacles—things that either hinder or outright obstruct the participant’s ability to advance towards clearing the skill challenge. Movement-based skill challenges have a number of obstacles based upon their CR, which are generally designed to impede or outright halt progress towards completing the skill challenge unless they are overcome. Obstacles are explained in-depth on page 16.
+
++++ Progress
+Progress-based skill challenges require participants to slowly work their way towards a larger goal, typically rewarding skillful expertise over mere proficiency. Progress-based skill challenges measure completion in progress, an abstraction that represents how far along towards their goal that the characters are.
+
+During a progress-based skill challenge, a character can attempt to earn progress as a half-cycle action by attempting a skill check using one of the skills listed as one of the skill challenge’s primary skills. Each primary skill lists a DC for skill checks using that skill as well as the general difficulty of the skill check. Whenever a character succeeds on a skill check to earn progress, the amount of progress earned is based upon the character’s proficiency with the skill she used. If she has either 10 ranks in the skill, Skill Focus in the skill, or both 5 ranks in the skill and the skill as a class skill, a successful check causes her to earn progress equal to 1d12 + her ability score modifier with the skill’s associated ability score (Dexterity for Acrobatics, Intelligence for Spellcraft, and so on).
+
+If she has either 5 ranks in the skill or the skill as a class skill (but not both), a successful checks causes her to earn progress equal to 1d8 + her ability score modifier with the skill’s associated ability score. Otherwise, a successful check causes her to earn progress equal to 1d4 + her ability score modifier with the skill’s associated ability score. In addition to these base amounts, for every 5 by which a character’s skill check result to earn progress exceeds its DC, the amount of progress the character earns increases by 1. Progress-based skill challenges are cleared when a character has earned the amount of progress listed in the skill challenge’s completion entry.
+
+**Automatic Successes and Failures:** When a character makes a skill check to earn progress and gets a natural 20 (the d20 shows 20), she succeeds regardless of the skill check’s DC, and has scored a “threat,” meaning the success might be a critical success (or a “crit”). To determine if its a critical success, the character immediately makes an attempt to “confirm” the critical success—another skill check with all the same modifiers as the skill check she just made. If the confirmation roll also results in a success against the skill check’s DC, the original success is a critical success. (The confirmation roll just needs to beat the skill check’s DC to cause a critical success, it does not need to come up 20 again.) If the confirmation roll does not beat the skill check’s DC, then the success is just a regular success.
+
+A critical success means that the character rolls her progress twice, with all her usual bonuses based, and adds the rolls together. When determining the amount of additional progress gained for beating a skill check’s DC by increments of 5, use the original roll’s result for both progress rolls. When a character makes a skill check to earn progress and get a natural 1 (the d20 shows 1), she fails her skill check regardless of the skill check’s DC.
+
+**Secondary Skills:** With the GM’s permission, characters can use skills other than those listed as primary skills to attempt to earn progress during a progress-based skill challenge. Skill checks made with skills that are not listed as primary skills are considered secondary skills, and use the skill check DC listed as the skill challenge’s secondary skills DC.
+
+When a character succeeds on a skill check to earn progress with a secondary skill, reduce the amount of progress that the character earns by one die step (d12 to d8, d8 to d4, and d4 to d3, respectively). Otherwise, calculate the amount of progress earned normally. A secondary skill check can earn progress as if it were a primary skill if the skill is used in a way that is thematically appropriate to the skill challenge, as determined by the GM.
+
++++ Successes
+Success-based skill challenges require participants to accrue a specific number of successful skill checks adequately—so long as the task is completed adequately, expertise isn’t rewarded over inexperience. Success-based skill challenges measure completion simply by counting the number of times that characters succeed on skill checks to clear the skill challenge. During a success-based skill challenge, a character can attempt to earn successes by attempting a skill check using one of the skills listed as one of the skill challenge’s primary skills. Each primary skill lists a DC for skill checks using that skill as well as the general difficulty of the skill check. Whenever a character succeeds on a skill check to earn successes, she earns 1 success. Success-based skill challenges are cleared when a character has earned the number of successes in the skill challenge’s completion entry.
+
+**Automatic Successes and Failures:** When a character makes a skill check to earn a success and gets a natural 20 (the d20 shows 20), she succeeds regardless of the skill check’s DC, and has scored a “threat,” meaning the success might be a critical success (or a “crit”). To determine if its a critical success, the character immediately makes an attempt to “confirm” the critical success—another skill check with all the same modifiers as the skill check she just made. If the confirmation roll also results in a success against the skill check’s DC, the original success is a critical success. (The confirmation roll just needs to beat the skill check’s DC to cause a critical success, it does not need to come up 20 again.) If the confirmation roll does not beat the skill check’s DC, then the success is just a regular success.
+
+A critical success means that the character earns two successes towards clearing the skill challenge instead of one. When a character makes a skill check to earn a success and get a natural 1 (the d20 shows 1), she fails her skill check regardless of the skill check’s DC.
+
+**Secondary Skills:** With the GM’s permission, characters can use skills other than those listed as primary skills to attempt to earn a success during a success-based skill challenge. Skill checks made with skills that are not listed as primary skills are considered secondary skills, and use the skill check DC listed as the skill challenge’s secodary skills DC.
+
++++ Special Actions
+This section discusses all of the various actions that you can perform during a skill challenge other than attempting to earn completion.
+
+++++ Aid Another
+In a skill challenge, a character can help an ally earn completion towards earning completion or clearing an obstacle. In order to assist her ally, the character makes a DC 10 skill check using any of the skill challenge’s primary skills as a half-cycle action. If successful, her ally gains a +2 bonus on its next skill check made with any primary skill to earn completion or clear an obstacle. Multiple characters can aid the same ally, and similar bonuses stack. A character cannot use aid another to assist an ally and use a half-cycle action to attempt to earn completion or clear an obstacle during the same cycle.
+
+**Secondary Skills:** With the GM’s permission, characters can use skills other than those listed as primary skills to attempt to aid an ally. Likewise, if the GM allows a character to use a secondary skill to earn completion or clear an obstacle, the character applies all bonuses from successful aid another attempts to her secondary skill check result, as if she had attempts to earn progress or clear an obstacle with a primary skill. GMs should generally lean towards permissiveness when deciding which secondary skills are appropriate for using with the aid another action, forbidding only the use of outlandish skills that cannot be applied reasonably to the skill challenge.
+
+++++ Create Advantage
+During a movement-based skill challenge, a character can attempt to gain an advantage as a half-cycle action by attempting a skill check using one of the skills listed as one of the skill challenge’s primary skills. Each primary skill lists a DC for skill checks using that skill as well as the general difficulty of the skill check. Some obstacles may add or remove skills to and from this list based upon new circumstances introduced by the obstacle, such as a change in environment or weather. Whenever a character succeeds on a skill check to gain an advantage, she immediately advances 1 square, plus 1 additional square for every 5 that her skill check’s result beat the DC by.
+
+A character cannot advance more squares using an advantage than the number indicated by the skill challenge’s advantage special quality. Making a skill check to gain an advantage counts as making a skill check to earn completion for all purposes and effects.
+
+++++ Discovery
+During a skill challenge, its generally assumed that the characters have some general knowledge about the skill challenge and the skills applicable to completing it. For example, characters might know that using a Perform (comedy) skill might allow them to earn completion towards clearing the babysitting skill challenge because its common knowledge that children like jokes and comedy. However, sometimes skill challenges require knowledge that isn’t obvious or intuitive, or is even concealed from them. In such situations, the PCs can attempt discovery checks to learn more information about the skill challenge.
+
+At the beginning of the skill challenge, each PC can attempt a relevant Knowledge check to recognize some aspect of the skill challenge as a discovery check as a free action. Characters must choose whether to try and learn about the skill challenge’s skills or completion prior to making a skill challenge. A discovery check’s DC is always equal to 15 + the skill challenge’s CR. The Knowledge check needed to make a discovery check is determined by the GM, but it should always relate to the situation in a logical way. For example, in the aforementioned babysitting skill challenge, it makes sense that characters might be able to glean information regarding how they can occupy a child’s attention using Knowledge (local).
+
+Before attempting a discovery check, a character chooses whether to learn about the skill challenge’s skills or completion. When a PC chooses to attempt a discovery check, the GM should tell that PC the possible skills that she can use to make her discovery check (though not the DCs), and let her pick which to attempt. If the character is successful, she gains one piece of information about the skill challenge of her choice, plus one additional piece of information for every 5 by which she beats her discovery check’s DC. The information  that a character learns from a successful discovery check is based upon her choice of information. If she chose skills, she learns one primary skill that can be used to earn completion during the skill challenge, starting with the skill with the lowest DC. She doesn’t learn the skill’s DC on a successful discovery check, but she does learn its relative difficulty (easy, average, challenging, difficult, or very difficult). If she chose completion, she can learn the skill challenge’s completion method (but not the amount of completion needed to clear the skill challenge) or one of the skill challenge’s special qualities that she was previously unaware of.
+
+If the skill challenge has obstacles, a character can choose to learn about an obstacle that she is aware of instead of the skill challenge’s skills or completion. If her discovery check succeeds, she learns the obstacle’s type, plus one of the following: one bypass skill (as if she were learning about one of a skill challenge’s primary skills), one special quality (as if she were learning about one of a skill challenge’s special qualities), or the obstacle’s effect. For every 5 by which the character’s discovery check beats the skill challenge’s DC, she learns one additional piece of information from the list provided above.
+
+Characters can attempt to glean additional information about a skill challenge while actively participating in a skill challenge as a half-cycle action. Characters can also freely share information they have discovered about a skill challenge with other characters, provided they are capable of conveying, receiving, and understanding such information.
+
+At the GM’s decision, skills other than Knowledge may be applicable. For instance, characters might be able to steal information using Sleight of Hand, search for it using Perception, or intuit it from bystanders using Sense Motive. Discovery checks provide significantly different information during an influence challenge.
+
+++++ Use an Ability, Class Feature, Feat, or Spell
+A near innumerable number of abilities, class features, feats, and spells exist in the Pathfinder Roleplaying Game, many of which were designed to handle niche situations that could ultimately become the focus of a skill challenge. During a skill challenge, a character can generally use its abilities (such as using a class feature or casting a spell) in the same amount of time that she could during combat or in other noncombat situations. Abilities with temporary effects count only if they last for the cycle’s entirety, based upon its frequency. Likewise, they can continue to linger for multiple cycles if they possess sufficient duration. For instance, an invisibility spell cast by a 3rd level caster does not grant the caster a bonus on Stealth checks made to earn completion to clear a skill challenge with a frequency of 10 minutes because the spell’s duration doesn’t last the entire amount of time that it takes the caster to make her skill challenge (in this case, 10 minutes). In contrast, an invisibility spell cast by a 10th level caster in the same scenario would receive the normal benefit of invisibility when making her Stealth check, but only for 1 cycle as the spell will expire at the end of the 10 minutes it takes to make the skill check.
+
+Using abilities, class features, feats, or spells during a skill challenge counts against a character’s daily uses per day of those abilities, as well as their duration. A character must be able to benefit from an ability for a full cycle in order for it to grant her a bonus on any skill checks she makes to gain completion. For instance, a barbarian who uses her rage class ability during a skill challenge with a frequency of 1 minute must be able to rage for 10 rounds in order to gain any benefit on skill checks to earn completion from her rage, and uses 10 rounds of her rage class ability in the process.
+
+The action needed to use an ability depends upon the skill challenge’s frequency, as described below. For information regarding how to incorporate abilities with problematic effects into a skill challenge, see below.
+
+**Free Actions:** Characters can use as many free action abilities as they like during their turn. However, the GM can enforce reasonable limits to the number of free actions abilities that characters can use during their turn in a skill challenge.
+
+**Swift/Immediate Actions:** Characters can use one swift action ability during their turn. Using an immediate action on a character’s turn is the same as using a swift action and counts as her swift action for that turn. A character cannot use another immediate action or a swift action until after her next turn if she has used an immediate action when it is not currently her turn (effectively, using an immediate action before a character’s turn is equivalent to using her swift action for the coming turn). A character also cannot use an immediate action if she is flat-footed.
+
+**Move/Standard Actions:** Characters can use one move action ability or one standard action ability as a half-cycle action if the skill challenge’s frequency is 1 minute or less, or two move action or standard action abilities in any combination as a half-cycle action if the skill challenge’s frequency is 10 minutes or more. Using a half-cycle action to use a standard action ability during a skill challenge with a frequency of 1 round prevents a character from using any other half-cycle actions during her turn, with the exception of half-cycle actions taken to advance squares of movement during a movement-based skill challenge and half-cycle actions taken to use move action abilities.
+
+**Full-Round Actions:** Characters can use one full-round ability as a cycle action if the skill challenge’s frequency is 1 minute or less, or one full-round action as a half-cycle action if the skill challenge’s frequency is 10 minutes or more.
+
+**1 Round or Longer:** Characters can use abilities that require 1 or more rounds using the number of cycle actions needed to perform the action, rounded up to the nearest half-cycle.
+
+For instance, if a character attempts to cast divination, a spell with a 10 minute casting time during a skill challenge with a frequency of 1 minute, the spell would take 10 cycle actions to complete because one cycle is equivalent to 1 minute in the skill challenge.
+
++++++ Applying Outlier Abilities to Skill Challenges
+Oftentimes an ability (such as a class feature, feat, racial trait, or spell) will produce an effect that is thematically appropriate for a skill challenge, but its effects either won’t be applicable to the skill challenge (i.e. they do not bolster skill checks) or their effects imply that the character could use the effect to automatically clear the skill challenge. In such situations, the GM can allow the ability to grant the character using the ability (as well as any allies that could potentially benefit from its effects) up to a +10 bonus on applicable skill checks made to attempt to earn completion towards clearing the skill challenge. Alternatively, the GM can allow a character to roll 1d20 + the character’s Hit Dice, base attack bonus, caster level, or class level (whichever is most applicable to the ability used) + the character’s ability score modifier in a relevant ability score. If the ability is exceptionally applicable to the situation, the character might also be allowed up to a +4 bonus to the result.
+
+For instance, in a skill challenge where a bard and sorcerer must sneak into a prison, the bard might ask his GM if he can cast silence to help them move undetected. The GM determines that silence is well-suited to the skill challenge, specifically Stealth checks. Because silence can include both the bard and the sorcerer in its area, the GM grants both the bard and the sorcerer a +10 circumstance bonus on Stealth checks as a result of silence’s effects. Later, the bard and the sorcerer must make their way across a crowded courtyard of guards. Instead of sneaking past them, the sorcerer might ask her GM if she can cast dimension door to teleport the pair directly across undetected. The GM rules that dimension door could certainly do this, but instead of allowing dimension door to automatically complete that leg of the skill challenge, the GM asks the sorcerer to roll 1d20 and add her caster level and Charisma modifier, as well as a +4 bonus because of how effective dimension door is in that situation. She then allows the sorcerer to count her result as a primary skill check to determine how much completion (if any) the sorcerer earns from using dimension door in this manner.
+
++++ Elements of a Skill Challenge
+All skill challenges, regardless of completion method, have the following elements: CR, type, goal, primary skills, secondary skills, frequency, completion, benefit, and penalty. Some skill challenges might also include optional elements, such as demerits or thresholds. These characteristics are described below and are presented in the order in which they appear on a skill challenge’s stat block.
+
++++ Type
+Most skill challenges are general, meaning that no special rules govern them as a group. Others belong to a specific group with unique rules governing how they are run. Listed below are several different types of skill challenges that are detailed elsewhere in the Skill Challenges Handbook.
+
+**Chases:** A chase skill challenge is a movement-based skill challenge in which opposing characters compete to be the first to complete the skill challenge. Chase skill challenges are further divided into two subtypes—pursuits and races. In a pursuit, one or more participants attempts to apprehend or slay a second group, whose ultimate goal is to evade their pursuers. In a race, participants attempt to be the first to reach the end of the skill challenge.
+
+**Contests:** A contest skill challenge is one where opposing characters attempt to beat one another in a specific activity.
+
+**Influence:** An influence skill challenge is one where participants attempt to successfully sway an individual’s emotions, opinions, or actions through direct interaction.
+
+**Verbal Duel:** A verbal duel skill challenge is one where two characters attack one another with ideas and rhetoric to win a debate.
+
++++ Goal
+Each skill challenge has a goal that describes what its participants are attempting to accomplish and why. A skill challenge’s goal has no mechanical effect on the skill challenge, but it should reflect the skill challenge’s themes and elements (including its optional elements).
+
++++ Primary Skills
+Skill challenges have specific lists of skills that are the most viable at earning completion or gaining advantages, based upon their themes. These skills are known as primary skills. Each primary skill has a listed difficulty from among the following: easy, average, challenging, or difficult. A primary skill’s DC is determined by its difficulty in relation to its CR, as shown on Table: Skill Challenge DC by CR on page 28.
+
++++ Secondary Skills
+Whenever the GM allows a character to attempt to earn completion or gain an advantage using a skill that isn’t listed among the skill challenge’s primary skills, her skill check’s DC uses the difficulty and DC listed under the skill challenge’s list of secondary skills instead.
+
+As with primary skills, the secondary skills entry has a listed difficulty. The difficulty of a skill challenge’s secondary skill DC should always be at least one step more difficult than the highest difficulty among its primary skills, typically chosen from among the following: average, challenging, difficult, or very difficult. A secondary skill’s DC is determined by its difficulty in relation to its CR, as shown on Table: Skill Challenge DC by CR (below).
+
++++ Frequency
+The amount of time represented by one cycle varies from skill challenge to skill challenge based upon theme, and a skill challenge’s frequency notes the amount of time that each cycle represents. Cycles can be measured in one of 5 specific time intervals: 1 round, 1 minute, 10 minutes, 1 hour, or 8 hours. A skill challenge’s frequency limits which abilities and effects are applicable to the skill challenge. Each cycle that passes reduces the duration by the amount of time indicated by its frequency. For instance, each effect active on a character who is participating in a skill challenge with a frequency of 10 minutes would have its duration reduced every cycle by 10 minutes. As a general rule, an ability or effect cannot have a meaningful impact upon a skill challenge if its duration is less than the skill challenge’s frequency, for it is unable to last for the entire cycle.
+
++++ Languages (Optional Element)
+When skill challenges involve oral or written comprehension, such as talking to people or reading ancient texts, a character must often be able to speak or read a specific language in order to earn completion towards clearing the skill challenge. Language elements note any languages that a character must possess in order to attempt to earn completion during the skill challenge. Note that this doesn’t impact a character’s ability to use the aid another action to assist an ally, though your ineptitude with the indicated languages may prevent you from using certain skills to attempt to aid another, as determined by the GM.
+
+Languages listed under this element sometimes list specific skills that require knowledge of each language to make checks. For instance, Common (Knowledge [arcana]) would indicate that a character must be able to speak Common in order to make Knowledge (arcana) checks during the skill challenge. If “read only” is listed next to the language’s name, characters need only to know the indicated language when attempting skill checks that involve reading. Spells like comprehend languages can allow characters to make checks using the indicated skill, provided the effect’s duration is sufficient enough to last for the entire cycle (see Frequency). Likewise, if “spoken only” is listed next to the language’s name, characters need only to know the indicated language when attempting skill checks that involve communicating with others. Spells like tongues can allow characters to make checks using the indicated skill, provided the effect’s duration is sufficient enough to last for the entire cycle (see Use an Ability, Class Feature, Feat, or Spell).
+
++++ Skill Bonus (Optional Element)
+Circumstances surrounding where a skill challenge takes place and what task characters are expected to complete can sometimes confer a bonus upon specific courses of actions, usually in the form of a bonus on certain skill checks. When attempting a primary skill check to earn completion or gain an advantage with such a skill, you gain the indicated bonus. Sometimes the word “untrained” will be listed next to such a bonus. This notes that the indicated skill is a trained skill that can be used untrained to earn completion or gain an advantage thanks to the nature of the skill challenge.
+
++++ Time Pressure (Optional Element)
+Skill challenges with a time pressure element allow characters a limited amount of time to complete them. The number listed by the element is the number of cycles that participants have to earn enough completion to finish the skill challenge. There are no easy rules for designing time pressures because each skill challenge is a unique entity unto itself. However, keeping the following guidelines in mind will help assure that your time pressures create ample tension without being unfun. A skill challenge’s time pressure should always be sufficient enough for characters to complete the skill challenge even with a limited number of failed attempts to earn completion.
+
+As a general rule, a good time pressure is strict enough that it looms over characters’ heads, adding to the encounter’s tension, while also being relaxed enough that characters have a reasonable chance to successfully complete the skill challenge with at least a 25% margin of error (meaning that they should be able to fail roughly 1 in 4 skill attempts to earn completion and skill be successful in the skill challenge).
+
++++ Completion
+All skill challenges list their completion method—movement, progress, or successes—and the amount of completion needed to clear the skill challenge. Earning completion is discussed in detail on page 05.
+
+Determining the amount of completion needed to clear a skill challenge follows a standardized formula that is determined by the skill challenge’s completion method, as described below. These values are also listed on Table: Completion, Obstacles, & Thresholds by CR.
+* **Movement:** The minimum number of squares needed to clear a movement-based skill challenge is equal to 2 + 1/2 of the skill challenge’s CR (minimum 2). Longer movement-based skill challenges often have a number of squares equal to ten times this amount, while exceptionally long skill challenges have twenty times this amount instead. That being said, movement-based skill challenges typically use obstacles to challenge participants rather than movement itself, so as a result there is no maximum to the number of squares that a character might need to clear a movement-based skill challenge, though increasing the number of squares needed to clear a skill challenge too far beyond this amount runs the risk of creating an encounter that is a chore that the PCs must slog through rather than a fun, memorable encounter.
+* **Progress:** The amount of progress needed to clear a progress-based skill challenge is equal to 3 x the skill challenge’s CR (minimum 3).
+* **Successes:** The number of successes needed to clear a success-based skill challenge is equal to 2 + 1/3 of the skill challenge’s CR (minimum 2).
+
+++++ Clearing Skill Challenges as a Group
+Unless they possess a special quality that demands otherwise, skill challenges generally assume that allies work together to clear any skill challenges that they participate in together. Generally, this means that allied characters pool any completion that they earn together to determine when the group clears the skill challenge. As a result, the term “character” as it appears in the skill challenge rules is synonymous with “group of characters” for the purpose of running a skill challenge with several exceptions, which mostly occur during movement-based skill challenges.
+
+In a movement-based skill challenge, a group cannot earn squares of movement unless every member of the group uses the same action to earn squares (either a half-cycle action or a cycle action). When its members use actions collaboratively to earn squares, treat the group as a single character with a speed equal to the movement speed of the slowest member of the group for the purpose of determining the number of squares that the group advances. If the group hustles, treat the group as a single character with a Constitution modifier equal to the lowest Constitution modifier among those possessed by the group’s members for the purpose of determining how long the group can hustle and its bonus on Constitution checks should it attempt to continue hustling beyond that amount.
+
+In situations where groups cannot perform an action without acting collaboratively (such as when attempting to each squares in a movement-based skill challenge), the GM may rule that certain abilities and effects cannot benefit the group unless all members of the group are benefiting from a similar ability. For instance, a group that must cross a chasm during a movement-based skill challenge could not use a fly spell to fly over the chasm unless every member of the group is capable of flight.
+
++++ Backlash (Optional Element)
+A backlash element is a specific effect that triggers whenever a character fails a skill check to earn completion or gain an advantage by 5 or more. Backlash effects are generally comparable to spells with a spell level equal to 1 + 1/3 of the skill challenge’s CR, though the GM can increase this effective spell level by 1 for especially dangerous backlashes.
+
+Unless noted otherwise, backlashes occur each time a character fails a skill check to earn completion or gain an advantage. Some backlashes allow a saving throw to negate their effects. The saving throw DC against a backlash is always equal to 10 + the backlash’s CR. Likewise, if a backlash is required to make an attack roll, its attack bonus is always equal to 1-1/2 times its CR (minimum +0). A backlash’s attack bonus and saving throw DC (if any) are always noted in its description in the skill challenge’s stat block.
+
++++ Demerits (Optional Element)
+For skill challenges with a demerit element, the quality of the benefit gained from completing the skill challenge deteriorates based upon the number of times characters participating in the skill challenge failed a skill check made to earn completion or gain an advantage. Likewise, the penalty for failing such skill challenges intensifies based upon such failures. Whenever a character fails a skill check to earn completion or gain an advantage during a skill challenge with a demerits element, she gains 1 demerit. The number listed denotes the maximum number of demerits that a character can earn during the skill challenge, with more demerits generally resulting in worse results. Generally, most skill challenges allow up to 3 demerits, though they can allow more barring GM approval.
+
++++ Failures Allowed (Optional Element)
+When a skill challenge allows characters a limited number of attempts to earn completion, they often possess a failures allowed element. Skill challenges with the failures allowed optional element track the total number of failed skill checks that characters make during the skill challenge. When her total number of failures equals the number listed by the element, the character automatically fails the skill challenge.
+
+Most skill challenges with this element allow a number of failures equal to 2 + 1/3 of the skill challenge’s CR (minimum 3), though this number can be adjusted to suit the theme and needs of the skill challenge.
+
++++ SQ (Optional Element)
+Skill challenges can possess numerous special qualities—specific qualities that use standard rules that are referenced (but not repeated) in skill challenge stat blocks. These qualities are listed below.
+
+**Advantage:** Movement-based skill challenges allow characters to make primary skill checks in order to gain an advantage, as described above. This special quality notes the maximum number of advantages that a character can gain during a single cycle.
+
+**Critical Fumble:** Whenever a character rolls a natural 1 (the d20 shows 1), she fails regardless of her skill check’s result and has “fumbled,” meaning the failure might be a critical failure. To determine if its a critical failure, the character immediately makes an attempt to “confirm” the critical fumble—another skill check with all the same modifiers as the skill check she just made. If the confirmation roll also results in a failure against the skill check’s DC, the original failure is a critical failure. (The confirmation roll just needs to fail to equal or exceed the skill check’s DC to cause a critical fumble, it does not need to come up 1 again.) If the confirmation roll beats the skill check’s DC, then the failure is just a regular failure.
+
+A critical failure means that the character loses completion towards clearing the skill challenge. The amount of completion lost depends upon the skill challenge’s completion method, as
+described below.
+* **Movement:** Reduce the number of squares that the character has advanced by 1/4 of the number of squares needed to clear the skill challenge.
+* **Progress:** Reduce the amount of progress that the character has earned by 1/4 of the amount of progress needed to clear the skill challenge.
+* **Successes:** Reduce the number of successes that the character has earned by 1/4 of the number needed to clear the skill challenge.
+
+**Decipherable:** Sometimes when skill challenges include the languages optional element, they allow skilled linguists to attempt skill checks to decipher the required language even if they aren’t able to read or speak that language. During a skill challenge with the decipherable special quality, a character who is trained in Linguistics can attempt a Linguistics check against the skill challenge’s secondary skills DC as a half-cycle action. If the character is successful, she counts as being able to speak and read one language of her choice that is applicable to the skill challenge for 1d4 cycles, plus 1 additional cycle for every 5 by which her result exceeded the DC.
+
+If the skill challenge also has the failures allowed special quality, failing this Linguistics check by 5 or more counts as a failure for the purpose of determining the number of failed skill checks that the character is allowed to make before she fails the skill challenge. Skill challenges must have the languages optional element in order to possess this special quality. A skill challenge cannot have both the decipherable special quality and the specific skills special quality simultaneously.
+
+**Imbued:** The area where the skill challenge takes place is imbued with one or more spells, whose effects linger for the duration of the skill challenge. The spells imbued in the area are listed in the entry along with their caster levels and save DCs (if any). Imbued spells have no duration; their effects are permanent, though a successful dispel magic attempt (or a similar effect) can suppress an imbued spell for 1d4 cycles. Most imbued spells use the minimum caster level and ability score required to cast the spell to determine their effects, but the GM can use more powerful magic if necessary.
+
+**Individual Completion:** Allied characters participating in a skill challenge with the individual completion special quality do not pool their completion together to determine when they have cleared the skill challenge—each character must track his or her own completion and advantages separately. Usually a skill challenge with the individual completion special quality is cleared for all allied characters if any one of those allies successfully clears the skill challenge. If multiple characters must clear the skill challenge, the number needed is noted in parenthesis. If the skill challenge also has the demerits or failures allowed optional elements, characters also track their demerits and failures separately.
+
+**Limited Completion:** The nature of some skill challenges prevents multiple allied characters from attempting to earn completion or advantages at the same time or assisting the same character. Skill challenges with the limited completion special quality only allow a limited number of characters to make skill checks to earn completion or bypass an obstacle—these characters are known as primary participants. Likewise, they might restrict the number of allies who can act as assistants to a primary participant using the aid another action.
+
+**Specific Completion:** Although most skill challenges allow some flexibility in regards to the skills that can be used to clear them, skill challenges with the specific completion special quality require successes with one or more specific skills in order to complete them. The required skills are always primary skills for that skill challenge, and use the same skill DC listed under the skill challenge’s primary skills. The entry typically notes which skill checks are required to clear the skill challenge and amount of completion that must be earned using those skill challenges to complete it. Completion earned to satisfy a skill challenge’s specific completion special quality still counts towards clearing that skill challenge as normal. For instance, if a skill challenge that requires 4 successes to clear it has the special completion (Knowledge [arcana] 2) special quality, the character must successfully make 4 skill checks to clear the skill challenge, at least two of which must be Knowledge (arcana) checks.
+
+Skill challenges must have either progress or successes as their completion method in order to possess this special quality.
+
+**Specific Skills:** Although most skill challenges allow enough flexibility that characters can use their skills creatively during skill challenges with GM permission, such tactics are not appropriate for every skill challenge. A skill challenge with the specific skills special quality does not allow skill checks to be made with skills other than those listed as primary skills. As a result, the skill challenge also doesn’t have a secondary skills entry.
+
+**Surprise Start:** Perceptive characters sometimes gain the ability to act during a skill challenge before the skill challenge officially begins. Skill challenges with the surprise start special quality allow characters to attempt a skill check to act in the surprise round. Typically, Perception checks are made for this purpose, but other skills can be applicable in some situations (such as Knowledge [engineering] to notice that the ceiling is collapsing before a race to escape a cavern, or a Sense Motive check to realize that an opponent is readying to attack).
+
+The special quality notes the difficulty and skill check DC for this perception check in parenthesis. The difficulty and DC of the skill check to act in a skill challenge’s surprise round is determined in the same manner as the difficulty and skill check DC of a skill challenge’s primary skills.
+
+**Trap-Like:** Skill challenges with the trap-like special quality act similarly to traps towards characters who are participating in them, and characters who receive special bonuses against traps receive those bonuses while attempting to clear the skill challenge. For the purpose of determining any effects that characters possess, attacks made by the skill challenge count as attacks made by a trap, and skill checks made to earn completion to clear the skill challenge count as skill checks made to disarm a trap.
+
+If the skill challenge has the surprise start special quality, a character with the trap spotter rogue talent or a similar ability counts Perception checks made to notice a trap-like obstacle or act in a surprise round against a trap-like skill challenge as if they were Perception checks made to notice a trap.
+
+**Variable Difficulty:** Although most skill challenges have static difficulties, others include aspects that make their challenge more random. Instead of having static skill DCs for attempting to earn completion or bypass an obstacle, skill challenges with the variable difficulty special quality list a numeric bonus. Whenever a character attempts a skill check to earn completion or bypass an obstacle, the GM rolls an opposed skill check and adds the indicated bonus, using the result as the skill check’s DC.
+
+Typically, the skill bonuses for a skill challenge with the variable difficulty special trait are equal to the appropriate skill check DC for each skill based upon its difficulty and the skill challenge’s CR – 10. Use Table: Completion & Challenge Intervals by CR to determine the appropriate DCs for each skill check used in the skill challenge. This special quality may apply to all skill DCs included in the skill challenge or just to the skill DCs of several specific skills.
+
+**Special:** Some skill challenges have miscellaneous qualities that produce special effects, such as drowning or ability damage. Saving throws are typically equal to 10 + the skill challenge’s CR.
+
++++ Obstacles
+Rather than require characters to make skill checks to earn squares of movement, movement-based skill challenges use obstacles as the primary hindrance towards completing the skill challenge. In many ways, obstacles function like shorter skill challenges that characters must bypass in order to successfully complete the skill challenge. Only movement-based skill challenges have the obstacles optional element.
+
+Each obstacle is associated with a specific square count, such as “5 Squares” or “12 Squares.” When a character’s total number of squares earned equals the lowest number listed by the obstacle’s square count, the obstacle’s effects immediately trigger. Characters are considered to have moved a number of squares equal to the obstacle’s count when it takes effect, and the obstacle may interrupt any remaining movement they have left, preventing them from moving the entire distance allowed by their action. If a character begins her turn with a number of squares earned that is listed in an obstacle’s square count, she must attempt a new skill check to bypass the obstacle again. If she fails, the obstacle’s effects immediately trigger again.
+
+For example, a character starts his cycle at 5 squares, and an obstacle with a count of 10 Squares lays before him. If he uses the hustle action to move six squares, the obstacle at the 10 Squares count takes effect before he advances to the 11th square. If the obstacle prevents him from moving (such as by knocking him prone or causing him to fall asleep), his total number of squares earned remains at 10—the 11th square is effectively lost.
+
+Movement-based skill challenges list obstacles in ascending order based upon their square count. Since squares are accumulated, this means that obstacles are listed in chronological order—the first obstacle is encountered first, the second is encountered second, and so on. When an obstacle lists a single, specific number as its square count (such as “5 Squares”), the obstacle takes effect when a character’s square total equals the listed number of squares. If a plus sign (+) accompanies the obstacle’s square count (such as “5+ Squares”), the obstacle takes effect when a character’s square total equals the listed number of squares, and continues to take effect at the start of that character’s cycle for the rest of the skill challenge. If a range of numbers accompanies the obstacle’s square count (such as “5–10 Squares”), the obstacle takes effect when a character’s square total equals the lower of the two square counts, and continues to take effect at the start of that character’s cycle until the character’s number of squares earned exceeds the higher of the two square counters. Movement-based skill challenges typically have a number of obstacles equal to 2 + 1/2 of the skill challenge’s CR (minimum 2), as shown on Table: Completion, Obstacles, & Thresholds by CR. These obstacles are typically spread out at regular intervals throughout the skill challenge, though the GM has the final say regarding where thresholds occur.
+
+In many ways, obstacles act like small-scale skill challenges in their own right. Like skill challenges, obstacles have elements that govern how characters interact with and overcome them.
+
+All obstacles have the following elements: squares, type, notice, primary skills, secondary skills, and effect. Some obstacles also include optional elements, such as completion or time pressure. These characteristics are described below and are presented in the order in which they appear on a skill challenge’s stat block.
+
+**Squares:** Obstacles are organized by their square count in ascending order. A brief description of the obstacle accompanies its square count.
+
+**Type:** Three types of obstacles exist—hazards, obstructions, and perils.
+* **Hazards:** A hazard obstacle places a passive, hindering condition upon a character upon reaching its square count. Environmental effects such as terrain or weather are often classified as hazards, and they commonly create areas of difficult terrain or impart negative conditions upon characters. Hazards do not prevent characters from moving past them unless specifically noted otherwise by their effects.
+* **Obstructions:** An obstruction obstacle is a structure that actively prevents characters from advancing past the obstacle’s square count. Characters cannot earn squares of movement beyond the amount listed by the obstacle’s square count without first successfully bypassing the obstacle.
+* **Perils:** A peril obstacle actively attacks characters when they reach its square count by making attack rolls and forcing characters to make saving throws to avoid its effects. Unless a peril affects a creature with a condition that prevents it from acting (such as by paralyzing it or knocking it unconscious), perils do not prevent characters from moving past them.
+
+**Notice:** Characters who fail to notice an upcoming obstacle are significantly more likely to succumb to it. The first time a character’s square count becomes equal to an obstacle’s square count, determine whether the character notices the obstacle by attempting a skill check with the skill noted in the obstacle’s notice entry. Like a skill challenge’s primary skill, an obstacle’s notice DC is determined by based upon the difficulty of the skill check and the CR of the skill challenge. (Use Table: Completion & Challenge Intervals by CR to determine the appropriate skill check DC for an obstacle’s notice DC.)
+
+Making a skill check to attempt to notice an obstacle does not require an action. If the check is successful, the character notices the obstacle and can attempt a skill check to bypass it normally. If the check fails, the character is unaware of the obstacle and cannot attempt to bypass it. Furthermore, an unaware character is flat-footed against any attacks made by the obstacle.
+
+Most obstacles require a successful Perception check to notice, but others might allow other skills, such as using Knowledge (engineering) to recognize that a building has a weak foundation or Sense Motive to recognize that a slumbering monster might wake up.
+
+**Bypass Skills:** Characters who notice obstacles are able to attempt to bypass them by making skill checks. An obstacle’s bypass skills note which skills can be used to bypass the obstacle, as well as the difficulty and skill check DC for those skills. Each bypass skill’s DC is determined by its difficulty in relation to its CR, as shown on Table: Skill Challenge DC by CR.
+
+Characters do not need to spend an action to attempt to overcome an obstacle—doing so is part of the action used to attempt to earn squares towards clearing the skill challenge. A character may be required to make multiple checks to bypass an obstacle if its square count is listed as a range, such as “1+ Squares.”
+
+**Secondary Skills:** Whenever the GM allows a character to attempt to bypass an obstacle using a skill that isn’t listed among the obstacle’s bypass skills, her skill check’s DC uses the difficulty and DC listed under the obstacle’s list of secondary skills instead.
+
+As with bypass skills, the secondary skills entry has a listed difficulty. The difficulty of an obstacle’s secondary skill DC should always be at least one step more difficult than the highest difficulty among its bypass skills, typically chosen from among the following: average, challenging, difficult, or very difficult. A secondary skill’s DC is determined by its difficulty in relation to its CR, as shown on Table: Skill Challenge DC by CR.
+
+**Special Qualities (Optional Element):** Obstacles can possess a variety of special qualities that alter how characters bypass them. This functions exactly like the special qualities optional element for skill challenges, except any special qualities chosen affect the obstacle rather than the entire skill challenge. With the exception of special qualities that impact initiative (such as the surprise start special quality), obstacles can generally possess any special quality that a skill challenge can possess. Special qualities that alter a skill challenge’s primary skills instead interact with an obstacle’s bypass skills, and special qualities that interact with skill checks made to earn completion instead interact with skill checks made to bypass the obstacle.
+
+The following special quality is unique to obstacles. Other unique special qualities may exist.
+
+__Creature:__ The obstacle is a living creature who is posed to attack characters that disturb it. The obstacle notes a specific type of creature with a CR equal to the skill challenge’s CR – 1. Whenever a character disturbs the creature by failing a bypass check, it attacks the creature using one of its attacks or abilities (see the creature’s stat block for its attack bonus and damage). The creature entry notes the creature’s tactics when disturbed.
+
+Creature obstacles are further divided into two types of obstacles: mobile creatures and stationary creatures. A mobile creature joins the skill challenge when disturbed, no longer acting as an obstacle. Mobile creatures typically pursue the nearest creature when disturbed and attack that creature, as well as any creature whose square count is equal to their square count. Stationary creatures remain at their listed square count and do not join the skill challenge, though they continue to attack any creature that fails to bypass them. Creature obstacles can only trigger on a specific square count; they cannot list a plus sign (such as “5+ Squares”) or a range of numbers (such as “5–10 Squares”) as their square count.
+
+**Limited Occurrence:** Some obstacles cannot pose a constant threat to multiple characters, and are relevant for only a limited number of times as a result. This entry notes the number of times that the obstacle can be encountered; once a number of characters have reached the square count noted by the obstacle, it cannot be encountered again for the rest of the skill challenge.
+
+**Unavoidable:** Despite anyone’s best efforts, some obstacles cannot be avoided. An obstacle with this quality cannot be bypassed, although a successful skill check made to bypass the obstacle often reduces the effects created by the obstacle, as noted in its effect. If no notation is made, the obstacle cannot be avoided—it immediately triggers as soon as a character’s square count equals the obstacle’s square count. An obstacle with this quality does not list any bypass skills or secondary skills.
+
+**Effect:** The effect of an obstacle is what happens to those who fail to bypass it. This often takes the form of either difficult terrain, damage, or a spell effect, but some obstacles have special effects. Many obstacles make attack rolls or forces saving throws to avoid them. Occasionally an obstacle uses both of these options, or neither.
+
+**Attack Obstacles:** These obstacles involve both melee attacks (such as rocks falling from ceilings or sharp blades that emerge from walls) and ranged attacks (such as flinging darts, arrows, and spears). Whenever a character fails a bypass check to bypass an attack obstacle, it attacks them using the listed attack bonus. An attack obstacle’s attack bonus is equal to 1-1/2 times the skill challenge’s CR (minimum +0). When dealing damage, an attack obstacle deals whatever damage that the weapon or object used to make the attack normally deals, and its Strength bonus for the purpose of determining its damage bonus is equal to half the skill challenge’s CR (minimum +0). Some attack obstacles include additional effects that are tied to a successful attack, such as bleed damage, poison, or free combat maneuver attempts. These additional effects are also noted in the obstacle’s effects entry.
+
+**Blockade Obstacles:** These obstacles are objects that bar a character’s passage through the skill challenge. Only obstruction obstacles have this type of effect, and they always list the material that the blockade is made from, its hardness, its hit points, and the number of successful bypass checks needed to bypass the obstacle. The number of checks needed can range from a minimum of 1 up to a maximum equal to the maximum number of thresholds allowed by the skill challenge based on its CR, as described on Table: Completion, Obstacles, & Thresholds By CR.
+
+**Difficult Terrain Obstacles:** These obstacles create difficult that hinders characters’ ability to earn squares towards completing the skill challenge. Whenever a character fails a bypass check to bypass a difficult terrain obstacle, the character’s movement speed is reduced by half for the purpose of determining the number of squares it can advance during the skill challenge. A character is only considered to be in difficult terrain while her number of squares earned is listed in the obstacle’s square count.
+
+**Hazard Obstacle:** The obstacle is a hazard (such as a thunderstorm or an avalanche) that triggers when the PCs reach the indicated square count. The type of hazard acting as an obstacle is noted first, followed by the consequences that occur whenever a character fails a bypass check to bypass the hazard.
+
+**Magical Obstacles:** These obstacles produce the effects of one or more spells, which are noted in the effect. If the spell in a magical device obstacle makes an attack roll, its attack bonus is equal to 1-1/2 times the skill challenge’s CR. If the spell in a magical device obstacle allows a saving throw, its save DC is 10 + the spell’s level + half of the skill challenge’s CR. If the effect produce has no spell level, the obstacle’s save DC is 10 + the skill challenge’s CR instead.
+
+**Pits:** These obstacles are holes (covered or not) that characters can fall into causing them to take damage. Pit obstacles follow all of the usual rules associated with pit traps, as described in the traps section of Chapter 13 in Pathfinder Roleplaying Game: Core Rulebook.
+
+**Spell Obstacles:** These obstacles are created by spells (such as wall of iron or stinking cloud) and produce the spell’s effects. Like a spell obstacle that allows a saving throw, its save DC is 10 + the spell’s level + half of the skill challenge’s CR.
+
+**Special:** Some obstacles have miscellaneous features that produce special effects, such as drowning for swept down river or ability damage for poison. Saving throws and damage are noted in the effect’s description, and either use the appropriate effect for the effect produced (such as a poison’s DC if a specific poison is mentioned) or 10 + the skill challenge’s CR.
+
++++ Thresholds (Optional Element)
+Progress-based and success-based skill challenges with the thresholds optional element have specific events that occur at key intervals as the challenge nears completion. These intervals can provide key information to participants, create effects that hinder a character’s ability to participate in the skill challenges, and similar complications. Only progress-based and success-based skill challenges can have the thresholds optional element.
+
+Each obstacle is associated with a specific completion count, such as “3 Progress” or “1 Success”. When a character’s total amount of completion equals the threshold’s completion count, the threshold takes effect. Thresholds only take effect the first time each character reaches the indicated threshold count unless noted otherwise.
+
+For example, a character starts his cycle at 10 Progress, and a threshold with a count of 15 Progress lays before him. If he earns 9 progress after succeeding on a skill check to earn completion, the threshold at the 15 Progress count takes effect. Skill challenges list thresholds in ascending order based upon their completion count. Since completion is accumulated, this means that thresholds are listed in chronological order—the first threshold triggers first, the second triggers second, and so on. Thresholds only list specific numbers as their square count (such as “5 Progress”), they do not list ranges in the way obstacles do.
+
+Thresholds list the effect that takes place when the threshold is reached or the information gained immediately after their square count. When a threshold produces an effect, use the rules for determining the effects of obstacles to determine how the threshold functions. (See page 16 for more information regarding obstacles).
+
+Skill challenges with the threshold optional element typically have a number of thresholds equal to 2 + 1/2 of the skill challenge’s CR (minimum 2), as shown on Table: Completion, Obstacles, & Thresholds by CR. These thresholds are typically spread out in intervals of 3 or 5 for progress-based skill challenges or 2 or 5 for success-based skill challenges, with the final threshold always occurring at completion count that equals the skill challenge’s total amount of progress or number of successes needed to clear the skill challenge, though the GM has the final say regarding where thresholds occur.
+
+----
+
++ Designing Skill Challenges
+Use the following steps to design a skill challenge.
+
++++ Determine the Challenge’s Purpose
+
+Before you design anything mechanical about your skill challenge, you must first determine its purpose—what exactly are the players trying to accomplish in the skill challenge? What do they gain if they succeed, and what happens when they fail? These questions correspond directly to the skill challenge’s type, goal, completion method, frequency, benefit, and penalty, and ultimately help set the overall theme of the skill challenge.
+
+Note that while it helps to determine each of these three elements before designing the skill challenge’s mechanics, they ultimately impact the skill challenge’s mechanics very little, and therefore can be set aside until later in the skill challenge’s design or adjusted to suit new skill encounters at a later time. Each aspect of the skill challenge that is decided during this stage of design is summarized below.
+
+**Type:** The skill challenge’s type notes whether the skill challenge follows the general skill challenge rules, such as those noted above, or uses an alternate subset of rules, such as the chase rules or influence rules.
+
+**Goal:** The skill challenge’s goal is the objective that its participants are attempting to accomplish.
+
+**Completion Method:** The three types of completion method are movement, progress, and successes. Movement-based skill challenges involve characters trekking from one area to another, progress-based skill challenges reward expertise over proficiency, and success-based skill challenges only concern themselves with the number of successes accrued. Each completion method is explained in-depth above.
+
+**Frequency:** A skill challenge’s frequency is the amount of real time that each cycle of the skill challenge takes. Skill challenges always have one of the following frequencies: 1 round, 1 minute, 10 minutes, 1 hour, or 8 hours. Frequency is explained in-depth on page 12.
+
+**Benefit:** The benefit is the reward or boon that the participants will earn by completing the skill challenge. Penalty: The penalty is the consequence that the participants will suffer should they fail to complete the skill challenge.
+
++++ Determine Base Challenge Rating
+Second, determine the base Challenge Rating (CR) of the skill challenge. A skill challenge’s CR should always equal the party’s Average Party Level (APL), as skill challenges possess a difficulty mechanic that allows GMs to determine how challenging a skill challenge is by posing a number of skill challenges that characters of various APLs can meet with varying degrees of difficulty.
+
++++ Determine Skills and Skill DCs
+After determining the skill challenge’s CR, next determine which skills are primary skills for the skill challenge, as well as how difficult it is to earn completion using primary skills and secondary skills. Table: Skill Challenge DCs by CR provides five skill DCs per CR that fall into one of five categories: easy, average, challenging, difficult, or very difficult. Primary skills should always have a difficulty that ranges between easy to difficult, while secondary skills should always have a difficulty that is one step higher than the difficulty of the most difficult primary skill. For instance, if the most difficult primary skill is challenging, than the secondary skill DC should be difficult.
+
+++++ Table: Skill Challenge DCs by CR
+||~ Base CR ||~ Easy ||~ Average ||~ Challenging ||~ Difficult ||~ Very Difficult || 
+|| 1 or lower || 11 || 16 || 18 || 21 || 23 || 
+|| 2 || 13 || 18 || 20 || 23 || 25 || 
+|| 3 || 14 || 19 || 21 || 24 || 26 || 
+|| 4 || 15 || 20 || 22 || 25 || 27 || 
+|| 5 || 16 || 21 || 23 || 26 || 28 || 
+|| 6 || 18 || 23 || 25 || 28 || 30 || 
+|| 7 || 19 || 24 || 26 || 29 || 31 || 
+|| 8 || 20 || 25 || 27 || 30 || 32 || 
+|| 9 || 22 || 27 || 29 || 32 || 34 || 
+|| 10 || 24 || 29 || 31 || 34 || 36 || 
+|| 11 || 26 || 31 || 33 || 36 || 38 || 
+|| 12 || 27 || 32 || 34 || 37 || 39 || 
+|| 13 || 28 || 33 || 35 || 38 || 40 || 
+|| 14 || 30 || 35 || 37 || 40 || 42 || 
+|| 15 || 31 || 36 || 38 || 41 || 43 || 
+|| 16 || 33 || 38 || 40 || 43 || 45 || 
+|| 17 || 34 || 39 || 41 || 44 || 46 || 
+|| 18 || 36 || 41 || 43 || 46 || 48 || 
+|| 19 || 38 || 43 || 45 || 48 || 50 || 
+|| 20 || 40 || 45 || 47 || 50 || 52 || 
+|| 21 || 42 || 47 || 49 || 52 || 54 || 
+|| 22 || 44 || 49 || 51 || 54 || 56 || 
+|| 23 || 46 || 51 || 53 || 56 || 58 || 
+|| 24 || 48 || 53 || 55 || 58 || 60 || 
+|| 25 || 50 || 55 || 57 || 60 || 62 || 
+|| 26 || 52 || 57 || 59 || 62 || 64 || 
+|| 27 || 54 || 59 || 61 || 64 || 66 || 
+|| 28 || 56 || 61 || 63 || 66 || 68 || 
+|| 29 || 58 || 63 || 65 || 68 || 70 || 
+|| 30 || 60 || 65 || 67 || 70 || 72 || 
+
++++ Determine Completion
+Third, you must determine the amount of completion that characters must accrue in order to clear the skill challenge. Each type of skill challenge uses a specific formula to determine the amount of progress, squares, or successes that must be accrued to clear it, as described below. These values are listed by CR on Table: Completion, Obstacles, & Thresholds by CR.
+
+++++ Table: Completion, Obstacles, & Thresholds by CR
+||~ CR ||~ Progress ||~ Squares (Minimum) ||~ Successes ||~ Obstacles & Thresholds || 
+|| 1 or lower || 3 || 2 || 2 || 2 || 
+|| 2 || 6 || 3 || 3 || 2 || 
+|| 3 || 9 || 3 || 3 || 3 || 
+|| 4 || 12 || 4 || 4 || 3 || 
+|| 5 || 15 || 4 || 4 || 3 || 
+|| 6 || 18 || 5 || 5 || 4 || 
+|| 7 || 21 || 5 || 5 || 4 || 
+|| 8 || 24 || 6 || 6 || 4 || 
+|| 9 || 27 || 6 || 6 || 5 || 
+|| 10 || 30 || 7 || 7 || 5 || 
+|| 11 || 33 || 7 || 7 || 5 || 
+|| 12 || 36 || 8 || 8 || 6 || 
+|| 13 || 39 || 8 || 8 || 6 || 
+|| 14 || 42 || 9 || 9 || 6 || 
+|| 15 || 45 || 9 || 9 || 7 || 
+|| 16 || 48 || 10 || 10 || 7 || 
+|| 17 || 51 || 10 || 10 || 7 || 
+|| 18 || 54 || 11 || 11 || 8 || 
+|| 19 || 57 || 11 || 11 || 8 || 
+|| 20 || 60 || 12 || 12 || 8 || 
+|| 21 || 63 || 12 || 12 || 9 || 
+|| 22 || 66 || 13 || 13 || 9 || 
+|| 23 || 69 || 13 || 13 || 9 || 
+|| 24 || 72 || 14 || 14 || 10 || 
+|| 25 || 75 || 14 || 14 || 10 || 
+|| 26 || 78 || 15 || 15 || 10 || 
+|| 27 || 81 || 15 || 15 || 11 || 
+|| 28 || 84 || 16 || 16 || 11 || 
+|| 29 || 87 || 16 || 16 || 11 || 
+|| 30 || 90 || 17 || 17 || 12 || 
+
+**Movement:** The number of squares needed to clear a movement-based skill challenge varies, but it is never less than 2 + 1/2 of the skill challenge’s CR (minimum 2).
+
+Typically, the number of squares in a movement-based skill challenge are determined by the top speed of the characters participating in the skill challenge and the number of obstacles in the skill challenge (see the obstacles section). A good benchmark to shoot for when designing a movement-based skill challenge is having a number of squares between each obstacle equal to 3 cycles worth of movement from a an average character. In most cases, this is 30 feet, or 9 squares per obstacle. However, GMs should use as few or as many squares as they need to create the skill challenge that best suits their campaign.
+
+**Determining Obstacles:** Rather than require skill checks to earn completion, movement-based skill challenges possess a number of obstacles that characters must bypass in order to progress in the skill challenge. Every movement-based skill challenge has a predetermined number of obstacles based upon its CR.
+
+The number of obstacles that a movement-based skill challenge has is typically equal to 2 + 1/3 of the skill challenge’s CR (minimum 2), though GMs can add additional thresholds if they need to. Obstacles are explained in-depth above.
+
+**Progress:** The amount of progress needed to clear a progress-based skill challenge is equal to 3 x the skill challenge’s CR (minimum 3).
+
+**Successes:** The number of successes needed to clear a success-based skill challenge is equal to 2 + 1/2 of the skill challenge’s CR (minimum 2).
+
++++ Determine Skill Bonus
+If characters attempting to clear the skill challenge gain any special bonuses on skill checks during the skill challenge, those bonuses (and the skills they apply to) are noted here. Typically, a skill challenge only offers a bonus if that bonus makes sense within the context of the adventure. For example, granting a the PCs a bonus on Knowledge checks during a skill challenge that takes place in a library makes sense, but granting the PCs a bonus on Knowledge checks during a skill challenge that takes place in a prison doesn’t. In addition, this bonus may allow some skill checks to be performed untrained, as determined by the GM. Such allowances are also noted in this section.
+
++++ Determine Optional Elements
+Finally, determine whether the skill challenge has any optional elements after all other elements of the skill challenge are decided. This is also when the obstacles for a movement-based skill challenge is decided, despite obstacles being a core element for those kinds of skill challenges. There is no limit to the number of optional elements that can be added to a skill challenge, though some optional elements (especially specific kinds of special qualities) may not be compatible with one another, as noted in their descriptions.
+
+Several of the more common optional elements that need special considerations needed when designing them are described below.
+
+**Backlashes:** A backlash generally produces an effect that is equivalent to that of a spell with a spell level equal to 1 + 1/3 of the skill challenge’s CR.
+
+**Demerits:** Most skill challenges with the demerits optional element allow a maximum of three demerits, though GMs can increase the amount of demerits that characters can accrue.
+
+**Failures Allowed:** Most skill challenges with the failures allowed optional element allow a number of failures equal to 2 + 1/3 of the skill challenge’s CR (minimum 3), though GMs can increase the number of failures that characters can accrue before failing the skill challenge.
+
+**SQ:** A skill challenge can include any number of special qualities, provided that all special qualities chosen are compatible with one another. A GM can even create her own special qualities for truly unique skill challenges, such as by using the ‘special’ special quality on page 14 or by creating entirely new special qualities that meet the needs of the scene she wishes to set with her skill challenge.
+
+When choosing which special qualities to give to a skill challenge, it is helpful to keep in mind the complexity of each special quality. Having several special qualities that each require a PC to make several attack rolls, skill checks, or saving throws might sound appealing, but doing so can slow down the otherwise fast-pace of the skill challenge mechanic, creating a sluggish atmosphere that quickly drains the participants’ energy and enthusiasm. The exact number of special qualities that players will tolerate will vary from group to group, so it is often helpful to get a feel for your players and how comfortable they are with complexity before designing particularly complex skill challenges.
+
+**Thresholds:** The number of thresholds that a skill challenge has is typically equal to 2 + 1/3 of the skill challenge’s CR (minimum 2), though GMs can add additional thresholds if they need to. Thresholds are explained in-depth above.
+
++++ Running Skill Challenges Together
+Just as you can combine multiple monsters together to create a larger, multifaceted combat encounter, you can combine multiple skill challenges together into a large noncombat encounter. When combining two or more skill challenges together, use Table: High CR Equivalencies in Chapter 12 of the Pathfinder Roleplaying Core Rulebook to determine the final CR of the encounter, treating each skill challenge as if it were a separate creature for this purpose. When combining skill challenges together, you can run each skill challenge concurrently or in a chain.
+
+When running skill challenges concurrently, it is easier to manage the skill challenges if each uses the same frequency—while it isn’t impossible to have one skill challenge with a frequency of 1 round running side by side with a skill challenge with a frequency of 1 minute, this disconnect will often leave players incorrectly thinking that they should deal with the skill challenge with the lower frequency first, because that skill challenge appears to most “faster” during gameplay.
+
+Running skill challenges in a chain is much simpler than running them concurrently. Instead of trying to handle both skill challenges at the same time, the second skill challenge simply starts immediately after the first one ends. Both styles of skill challenge can be used to effectively set the stage for a larger noncombat encounter, however.
+
+Skill challenges can also be run as part of combat encounters, in which characters must meet some sort of skill-based goal in addition to combating enemies. In most cases, only progress-based and success-based skill challenges can be run as part of combat encounters, although combat can occur as a result of any type of skill challenge (especially chases and movement-based skill challenges with the creatures special quality). In such skill challenges, the skill challenge’s benefit typically gives the PCs some sort of advantage in the battle or weakens their opponents in some fashion.
+
+Take note that some skill challenges will have a very awkward feeling if run together depending upon how they’re presented. It might feel odd to have a skill challenge involving scaling a chasm happen at the same time as an influence challenge, but having a dancing contest in the middle of an influence challenge occurring at a gala feels natural. In either case, the GM should strive to provide an atmosphere that is conductive to all skill challenges occurring so that they feel logical and warranted.
