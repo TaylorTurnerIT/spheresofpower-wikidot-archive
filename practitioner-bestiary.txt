@@ -1270,10 +1270,10 @@ N Medium construct (robot)
 **Init** +6; **Senses** darkvision 60 ft., low-light vision, superior optics; **Perception** +17
 
 **Defense**
-**AC** 34, **touch** 29, **flat-footed** 24 (+9 armor, +10 Dex, +5 natural)
-**hp** 152 (15d10+70), force field (55 hp, fast healing 11)
+**AC** 33, **touch** 28, **flat-footed** 23 (+8 armor, +10 Dex, +5 natural)
+**hp** 102 (15d10+40), force field (70 hp, fast healing 14)
 **Fort** +12, **Ref** +15, **Will** +12
-**Defensive Abilities** hardness 10, **Immune** cold, construct traits
+**Defensive Abilities** hardness 10, Immune cold, construct traits
 **Weaknesses** vulnerable to critical hits, vulnerable to electricity
 
 **Offense**
@@ -1283,30 +1283,34 @@ N Medium construct (robot)
 **Special Attacks** barrage +17 (5 attacks), brutal strike (+30), deadly shot (+4d10), rockets, scout +18, self destruct
 
 **Tactics**
-The sureshot sniper KH7 is a master at stealth and combat, and possesses many skills. When possible, it prefers to remain hidden, using Active Camouflage and Hidden Focus to snipe targets while remaining hidden, combining its deadly shots and Vital Strike feats and its Deadly Strike Scout talent.
-
-If it cannot hide, the sureshot sniper KH7 will constantly fly, using Mobile Focus and Moving Target to evade danger while continually making deadly shots and barrages against its foes. If multiple sureshot snipers are working together, they will make liberal use of Suppressing Fire to keep their enemies pinned down from multiple directions.
+The sureshot sniper KH7 is a master at stealth and combat, and possesses many skills. When possible, it prefers to remain hidden, using Active Camouflage and Hidden Focus to snipe targets while remaining hidden, combining its deadly shots and Vital Strike feats and its Deadly Strike Scout talent. If it cannot hide, the sureshot sniper KH7 will constantly fly, using Mobile Focus and Moving Target to evade danger while continually making deadly shots and barrages against its foes. If multiple sureshot snipers are working together, they will make liberal use of Suppressing Fire to keep their enemies pinned down from multiple directions.
 
 The sureshot sniper KH7 tends to avoid melee if possible, keeping its enemies away with its Vigilant Sharpshooter talent, but can make deadly use of its Rending Claws if necessary.
 
-++++ Statistics
+**Statistics**
 **Str** 30, **Dex** 30, **Con** —, **Int** 12, **Wis** 14, **Cha** 1
 **Base Atk** +15; **CMB** +25 (+29 grapple); **CMD** 35
 **Feats** Combat Reflexes, Flyby Attack, Great Fortitude, Hover, Improved Initiative, Improved Vital Strike, Skill Focus (Perception), Vital Strike
 **Martial Tradition** None, **PAM** Wis, **DC** 19
-**Talents** Athletics (run, leap, and fly packages, Expanded Training, Moving Target), Barrage (Blitz Focus, Distracting Shot, Mobile Focus, Spinning Shot, Suppressing Fire, Vigilant Sharpshooter (x2)), Berserker (Rending Claws), Equipment (Firearm Training, Unarmored Training), Scout (Active Camouflage, Deadly Strike, Find Gap, Hidden Focus, Reflexive Stealth), Sniper (Head Shot, Perfect Shot, Piercing Shot, Sniper Shot, Steady Shot, Targeted Assault, Trap Technician, Unblockable),
+**Talents** Athletics (run, leap, and fly packages, Expanded Training, Moving Target), Barrage (Blitz Focus, Distracting Shot, Mobile Focus, Spinning Shot, Suppressing Fire, Vigilant Sharpshooter (x2)), Berserker (Rending Claws), Equipment (Firearm Training, Unarmored Training), Scout (Active Camouflage, Deadly Strike, Find Gap, Hidden Focus, Reflexive Stealth), Sniper (Head Shot, Perfect Shot, Piercing Shot, Sniper Shot, Steady Shot, Targeted Assault, Trap Technician, Unblockable)
 **Skills** Acrobatics +32, Fly +33, Knowledge (engineering) +16, Perception +23, Stealth +25
 **Languages** Common
 **SQ** combat programming, redundancies
 
 **Special Abilities**
-**Combat Programming** The sureshot sniper KH7 gains 2 combat talents per hit die.
-**Force Field** The sureshot sniper KH7 possesses a forcefield. This forcefield functions as temporary hit points; all damage dealt to the sureshot sniper is first dealt to the forcefield. This forcefield replenishes itself as if it had fast healing 11, but shuts down for 24 hours if reduced to 0.
+**Combat Programming** The sureshot sniper KH7 gains 2 combat talents per Hit Die.
+
+**Force Field** The sureshot sniper KH7 possesses a forcefield. This forcefield functions as temporary hit points; all damage dealt to the sureshot sniper is first dealt to the forcefield. This forcefield replenishes itself as if it had fast healing 14, but shuts down for 24 hours if reduced to 0.
+
 **Laser Rifle (Ex)** A sureshot sniper KH7 uses a laser rifle with unlimited ammunition, integrated into its arm. It can hold and fire the laser rifle with only one hand. The rifle has a range increment of 250 ft. and targets touch AC.
-**Redundancies** The sureshot sniper possesses many failsafe parts and backup systems to keep it functioning at peak capacity even in the heat of battle. The sureshot sniper gains a +5 bonus to its Fortitude and Will saving throws, as well as +50 additional hp.
-**Rockets (Ex)** As a standard action, a sureshot sniper KH7 can fire a rocket to a range of 800 feet. A rocket explodes on impact in a 30-ft. radius burst, dealing 6d6 points of fire damage and 6d6 points of bludgeoning damage to all creatures in the area (Reflex DC 18 half). A myrmidon carries a maximum of five rockets. It can replenish fired rockets at the rate of one per 12 hours, crafting new rockets from scrap metal and other collected components. The save DC is Intelligence-based.
-**Self Destruct** As a full-round action, the sureshot sniper can activate each of its carries rockets. At the end of his next round, whether he is still functional or not, he deals damage to himself and all creatures within 30 ft. as if he had targeted his own position with each of them at the same time.
-**Superior Optics (Ex)** sureshot sniper KH7’s see invisible creatures and objects as if they were visible.
+
+**Redundancies** The sureshot sniper KH7 possesses many failsafe parts and backup systems to keep it functioning at peak capacity even in the heat of battle. The sureshot sniper gains a +5 bonus to its Fortitude and Will saving throws.
+
+**Rockets (Ex)** As a standard action, a sureshot sniper KH7 can fire a rocket to a range of 800 feet. A rocket explodes on impact in a 30-ft. radius burst, dealing 6d6 points of fire damage and 6d6 points of bludgeoning damage to all creatures in the area (Reflex DC 18 half). A sureshot sniper KH7 carries a maximum of five rockets. It can replenish fired rockets at the rate of one per 12 hours, crafting new rockets from scrap metal and other collected components. The save DC is Intelligence-based.
+
+**Self Destruct** As a full-round action, the sureshot sniper KH7 can activate each of its carried rockets. At the end of his next round, whether he is still functional or not, he deals damage to himself and all creatures within 30 ft. as if he had targeted his own position with each of them at the same time.
+
+**Superior Optics (Ex)** Sureshot sniper KH7’s see invisible creatures and objects as if they were visible.
 
 **Ecology**
 **Environment** any
