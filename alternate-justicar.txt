@@ -46,14 +46,14 @@ Justicars must follow a strict moral code. Failure to follow these rules may res
 
 **Table: Justicar**
 ||~ Level ||~ Base Attack Bonus ||~ Fort Save ||~ Ref Save ||~ Will Save ||~ Special ||~ Spells per Day ||~ Warleader Talents || 
-|| 1 || +1 || +1 || +0 || +1 || Celestial companion, enemy of evil, Exotic Weapon Proficiency (bastard sword), resist illusions, righteous command, zone of truth || +1 level of existing class || 1 (+base) ||
+|| 1 || +1 || +1 || +0 || +1 || Celestial companion, enemy of evil, exotic weapon proficiency (bastard sword), resist illusions, righteous command, zone of truth || +1 level of existing class || 1 (+base) ||
 || 2 || +2 || +1 || +1 || +1 || Discern lies || +1 level of existing class || 2 ||
 || 3 || +3 || +2 || +1 || +2 || Shield of truth || +1 level of existing class || 3 ||
-|| 4 || +4 || +2 || +1 || +2 || Mark of justice || +1 level of existing class || 4 || 
+|| 4 || +4 || +2 || +1 || +2 || Mark of justice (1) || +1 level of existing class || 4 || 
 || 5 || +5 || +3 || +2 || +3 || Immunity to illusions || +1 level of existing class || 5 ||
-|| 6 || +6 || +3 || +2 || +3 || Scourge of evil, sword of courage || +1 level of existing class || 6 ||
+|| 6 || +6 || +3 || +2 || +3 || Mark of justice (2), scourge of evil, sword of courage || +1 level of existing class || 6 ||
 || 7 || +7 || +4 || +2 || +4 || True seeing || +1 level of existing class || 7 ||
-|| 8 || +8 || +4 || +3 || +4 || Armor of honor || +1 level of existing class || 8 ||
+|| 8 || +8 || +4 || +3 || +4 || Armor of honor, mark of justice (3) || +1 level of existing class || 8 ||
 || 9 || +9 || +5 || +3 || +5 || Holy word || +1 level of existing class || 9 || 
 || 10 || +10 || +5 || +3 || +5 || Avatar, demon-bane || +1 level of existing class || 10 ||
 
@@ -66,6 +66,9 @@ A Justicar gains no proficiency with any weapon or armor
 When a Justicar level is gained, the character gains new spells per day as if he had also gained a level in any one spellcasting class he belonged to before he added the prestige class. He does not, however, gain other benefits a character of that class would have gained, except for additional spells per day, spells known (if he is a spontaneous caster), and an increased effective level of spellcasting. If a character had more than one spellcasting class before becoming a Justicar, he must decide to which class he adds the new spell level for purposes of determining spells per day.
 
 If using an alternative casting system, such as Spheres of Power, the Justicar gains progression (spells/talents/etc. per day, points in a spell pool, and so on) as their chosen casting class. The GM is the final arbiter of what abilities should advance under this ability.
+
+++ Ability Modifier
+Justicars may choose to use Intelligence, Wisdom, or Charisma as their Practitioner Modifier and their Caster Ability Modifier for all talents, spell-like abilities, and sphere-like abilities provided by this class.
 
 ++ Celestial Companion (Su)
 A Justicar gains a celestial falcon — the holy animal of the goddess of paladins — as a companion per the druid animal companion rules (see “Druid” in Chapter 3 of the Pathfinder Roleplaying Game). The Justicar’s effective druid level is equal to her Justicar plus paladin levels.
@@ -86,14 +89,14 @@ Justicars gain proficiency in the bastard sword as an exotic weapon per the feat
 A Justicar gains a +4 divine bonus on Will saves against illusion magic. In addition, Justicars are allowed to save to disbelieve illusions without having to interact with the illusion, even if that is normally required to disbelieve the illusion.
 
 ++ ##993300|Righteous Command##
-At 1st level, the Justicar gains the [[[warleader-sphere | Warleader]]] sphere and one additional talent from the Warleader sphere, as well as the ability to gain and expend Martial Focus. If they already possess the Warleader sphere, they may choose another Warleader talent. If they already possess other talents in the Warleader sphere, they may retrain as many of them as they want (including into other spheres). At 2nd level and every level thereafter, Justicars gain an additional talent from the Warleader sphere. Justicars may choose to use Intelligence, Wisdom, or Charisma as their Practitioner Modifier.
+At 1st level, the Justicar gains the [[[warleader-sphere | Warleader]]] sphere and one additional talent from the Warleader sphere, as well as the ability to gain and expend Martial Focus. If they already possess the Warleader sphere, they may choose another Warleader talent instead of gaining the base sphere. If they already possess other talents in the Warleader sphere, they may retrain as many of them as they want (including into other spheres they have access to). At 2nd level and every level thereafter, Justicars gain an additional talent from the Warleader sphere. 
 
-Whenever the Justicar would gain a Warleader talent from this ability, they may instead choose to gain a feat that improves their ability to use the Warleader Sphere (as long as they meet any prerequisites except for the number of combat spheres known). For example, the Justicar may obtain the Combat Sphere Specialization or Great Focus feats. The GM is the final arbiter of which feats may be selected. (See [[[Practitioner Feats]]] and [[[Champion Feats]]] for the most likely candidates.)
+Whenever the Justicar would gain a Warleader talent from this ability, they may instead choose to gain a feat that improves their ability to use the Warleader Sphere (as long as they meet any prerequisites except for the number of combat spheres known). For example, the Justicar may obtain the Combat Sphere Specialization (Warleader) or Great Focus feats. The GM is the final arbiter of which feats may be selected. (See [[[Practitioner Feats]]] and [[[Champion Feats]]] for the most likely candidates.)
 
 Justicars do not gain a Martial Tradition (though they do not lose any Martial Tradition already possessed).
 
 ++ Zone of Truth (Sp)
-Once per day plus one for every three Justicar levels, a Justicar can cast the spell zone of truth as a spell-like ability. The ability functions as if cast by a caster of a level equal to the Justicar’s total character level.
+Once per day plus one for every three Justicar levels, a Justicar can cast the Truth talent of the Fate sphere as a sphere-like ability, except it targets all creatures in a radius of 40 feet. The ability functions as if cast by a caster of a level equal to the Justicar’s total character level.
 
 ++ Discern Lies (Su)
 At 2nd level, a Justicar can discern lies as the spell once per day and an additional time per day for every 3 Justicar levels thereafter (2 at 5th, 3 at 8th). The ability functions as if cast by a caster of a level equal to the Justicar’s total character level. This is a supernatural ability and is not treated as a spell for the purpose of interacting with other effects.
@@ -101,12 +104,14 @@ At 2nd level, a Justicar can discern lies as the spell once per day and an addit
 ++ Shield of Truth (Su)
 Beginning at 3rd level, a Justicar can invoke the goddess' shield of truth once per day for every two Justicar levels they possess. Invoking this ability either enhances the Justicar’s current shield or temporarily creates a supernatural shield for the Justicar to use.
 
-The shield has the following abilities: +2 divine truth bonus to AC (if the shield is created, this is the only armor benefit it provides) and becomes a blinding shield (see the “Magic Items” section in Chapter 15 of the Pathfinder Roleplaying Game), except the blinding effect only affects evil creatures. In addition, the shield radiates the effects of a prayer spell for its duration. This ability lasts for 30 minutes. Shield of truth cannot be used in combination with either sword of courage or armor of honor until the Justicar gains the avatar ability.
+The shield has the following abilities: +2 divine truth bonus to AC (if the shield is created, this is the only armor benefit it provides) and becomes a blinding shield (see below), except the blinding effect only affects evil creatures. In addition, the shield radiates the effects of the Serendipity [[[Fate]]] talent (with the effects of Greater Serendipity) for its duration.
 
-The Justicar may dismiss the shield of truth as a free action.
+This ability lasts for 30 minutes. Shield of truth cannot be used in combination with either sword of courage or armor of honor until the Justicar gains the avatar ability. The Justicar may dismiss the shield of truth as a free action.
+
+**Blinding:** A shield with this ability flashes with a brilliant light up to twice per day upon command of the wielder. Except for the wielder, anyone within 20 feet must make a successful DC 14 Reflex save or be blinded for 1d4 rounds.
 
 ++ Mark of Justice (Su)
-Beginning at 4th level, the Justicar gains the ability to pass holy judgment on others once per day and place a mark of justice on persons so judged as the spell (but as a standard action). The ability functions as if cast by a caster of a level equal to the Justicar’s total character level.
+Beginning at 4th level, the Justicar gains the ability to pass holy judgment on others once per day as a standard action and place a Geas (as the Advanced Fate Talent) on a target. The ability functions as if cast by a caster of a level equal to the Justicar’s total character level. At 6th level, this effect gains the powers of the Greater Geas Advanced Talent. At 8th level, it also gains the effects of the Mark of Judgement Advanced Talent.
 
 ++ Immunity to Illusions (Su)
 Beginning at 5th level, a Justicar is immune to all illusions that allow spell resistance. A Justicar notes the presence of illusions but recognizes them for what they are and disbelieves them immediately and automatically.
@@ -115,22 +120,30 @@ Beginning at 5th level, a Justicar is immune to all illusions that allow spell r
 At 6th level, a Justicar gains an additional +1 divine bonus to attack and damage rolls and double the normal critical threat range against all evil-aligned creatures (of all types). This ability stacks with the enemy of evil ability and the Improved Critical feat or keen weapon quality if the Justicar has these as well.
 
 ++ Sword of Courage (Su)
-Beginning at 6th level, a Justicar can invoke the goddess' sword of courage once per day for every two Justicar levels they possess. Invoking this ability either enhances the Justicar’s current weapon or temporarily creates a supernatural magical bastard sword for the Justicar to use. The sword gains a +2 divine courage bonus to attack and damage rolls. The sword also becomes a holy weapon (see the “Magic Items” section in Chapter 15 of the Pathfinder Roleplaying Game) for its duration. In addition, the sword radiates //remove fear// in a 30-foot radius for its duration (caster level equal to the Justicar’s total character level). The ability lasts for 30 minutes. Sword of courage cannot be used in combination with either shield of truth or armor of honor until the Justicar gains the avatar ability.
+Beginning at 6th level, a Justicar can invoke the goddess' sword of courage once per day for every two Justicar levels they possess. Invoking this ability either enhances the Justicar’s current weapon or temporarily creates a supernatural magical bastard sword for the Justicar to use. The sword gains a +2 divine courage bonus to attack and damage rolls. The sword also becomes a holy weapon (see below) for its duration; if it already possesses the holy quality, it deals an additional 1d6 points of damage against creatures of evil alignment.
 
-The Justicar may dismiss the sword of courage as a free action.
+In addition, the sword radiates the effects of the Courage powerful charm of the [[[Mind]]] sphere in a 30-foot radius for its duration (caster level equal to the Justicar’s total character level, except that the Justicar does not get the bonus to attack rolls from this effect). This only affects the Justicar's allies.
+
+This ability lasts for 30 minutes. Sword of courage cannot be used in combination with either shield of truth or armor of honor until the Justicar gains the avatar ability. The Justicar may dismiss the sword of courage as a free action.
+
+**Holy:** A holy weapon is imbued with holy power. This power makes the weapon good-aligned and thus bypasses the corresponding damage reduction. It deals an extra 2d6 points of damage against all creatures of evil alignment. It bestows one permanent negative level on any evil creature attempting to wield it. The negative level remains as long as the weapon is in hand and disappears when the weapon is no longer wielded. This negative level cannot be overcome in any way (including by restoration spells) while the weapon is wielded.
 
 ++ True Seeing (Su)
-Beginning at 7th level, a Justicar can use true seeing as the spell once per day. The ability functions as if cast by a caster of a level equal to the Justicar’s total character level.
+Beginning at 7th level, a Justicar can use True Seeing as the Advanced Divination Talent once per day. The ability functions as if cast by a caster of a level equal to the Justicar’s total character level. This is a supernatural power and is not treated as a spell or sphere-like ability for the purpose of interactions with any other effect.
 
 ++ Armor of Honor (Su)
-Beginning at 8th level, a Justicar can invoke the goddess' armor of honor once per day for every two Justicar levels they possess. Invoking this ability either enhances the Justicar’s current armor or temporarily creates a suit of magical chainmail around the Justicar. The armor gains a +2 divine honor bonus to AC. The armor also has the qualities of moderate fortification, invulnerability, and spell resistance (15) (see the “Magic Items” section in Chapter 15 of the Pathfinder Roleplaying Game) for its duration. This ability lasts for 30 minutes.
+Beginning at 8th level, a Justicar can invoke the goddess' armor of honor once per day for every two Justicar levels they possess. Invoking this ability either enhances the Justicar’s current armor or temporarily creates a suit of magical chainmail around the Justicar. The armor gains a +2 divine honor bonus to AC. The armor also has the qualities of moderate fortification, invulnerability, and spell resistance (15) (see below) for its duration.
 
-Armor of honor cannot be used in combination with either shield of truth or sword of courage until the Justicar gains the avatar ability.
+This ability lasts for 30 minutes. Armor of honor cannot be used in combination with either shield of truth or sword of courage until the Justicar gains the avatar ability. The Justicar may dismiss the armor of honor as a free action.
 
-The Justicar may dismiss the armor of honor as a free action.
+**Fortification:** This suit of armor or shield produces a magical force that protects vital areas of the wearer more effectively. When a critical hit or sneak attack is scored on the wearer, there is a chance that the critical hit or sneak attack is negated and damage is instead rolled normally. The chance is 25% for light fortification, 50% for moderate fortification, and 75% for heavy fortification.
+
+**Invulnerability:** This suit of armor grants the wearer damage reduction 5/magic. Invulnerable armor emits a strong aura of abjuration (and evocation if miracle is used).
+
+**Spell Resistance (15):** This special ability grants the armor or shield’s wearer the specified amount of spell resistance while the armor or shield is worn.
 
 ++ Holy Word (Su)
-Beginning at 9th level, a Justicar can speak a //holy word// (as the spell) a number of times per day equal to the Justicar’s Charisma modifier (minimum of once per day). The ability functions as if cast by a caster of a level equal to the Justicar’s total character level.
+Beginning at 9th level, a Justicar can speak a //holy word// (as the spell) a number of times per day equal to the Justicar’s casting ability modifier (minimum of once per day). The ability functions as if cast by a caster of a level equal to the Justicar’s total character level. This is a supernatural effect and is not treated as a spell or spell-like ability for the purpose of interaction with other rules.
 
 ++ Avatar (Su)
 At 10th level, a Justicar can use shield of truth, sword of courage, and armor of honor at the same time up to once per week. When all three powers are invoked at the same time it seems as if a spectral figure moves behind them. In combat against evil creatures the figure of the goddess becomes even more apparent. In addition to allowing all three powers to operate in unison, when a Justicar becomes an Avatar he is treated as if under the effects of a //greater heroism// spell (caster level equal to the Justicar’s total character level) for the duration of the ability. The avatar ability lasts only so long as all three abilities — shield of truth, sword of courage, and armor of honor — are in effect at the same time.
@@ -148,7 +161,7 @@ Your smite evil attacks are especially deadly to those who would work evil upon 
 
 **Benefit:** Once per use of your smite evil ability, you may automatically confirm a critical threat against an outsider with the evil subtype, an evil-aligned dragon, or an undead creature. In addition, on this attack you may opt to forgo all the extra damage normally gained from a successful critical hit to instead inflict a –10 penalty to the target’s Dexterity and reduce all its movement speeds by half (to a minimum of 5’). These penalties remain until the target receives magical healing sufficient to remove the damage dealt by the attack. If the penalty reduces the target’s Dexterity to 0, the target is paralyzed and cannot move until the penalty is removed. The penalty applies even if the target is normally immune to ability damage.
 
-**Special:** Paladin and Justicar levels stack for qualifying for this feat.
+**Special:** Paladin and Justicar levels stack for qualifying for this feat. At the GM's discretion, other 'holy warrior' class levels may also qualify.
 
 ++++ Fear No Evil
 Your courage emboldens your allies.
@@ -159,19 +172,14 @@ Your courage emboldens your allies.
 
 **Normal:** Aura of courage extends to a range of 10 feet.
 
-++++ Goddess' Fury
-Your faith in your deity imbues you with strength when battling evil.
-
-**Prerequisites:** Smite evil class feature, Justicar level 1st.
-
-**Benefit:** You add your Justicar levels to your paladin levels to determine your bonus damage from your smite evil ability.
-
 ++++ Improved Caster
 Your spells are more powerful than other paladins of your level.
 
 **Prerequisites:** Ability to cast paladin spells, Cha 15.
 
 **Benefit:** Your caster level when casting paladin spells is equal to your paladin level –1. This feat has no effect on the number of spells you may cast per day; that value is still determined as per the table in the Pathfinder Roleplaying Game, and is still modified by your Charisma bonus (if any). Otherwise, all effects dependent upon caster level (duration, range, damage, etc.) are increased based upon your new caster level.
+
+If you have the Sphere Paladin archetype, you count your Paladin level -1 as casting class levels.
 
 **Normal:** Your caster level is equal to your paladin level –3.
 
