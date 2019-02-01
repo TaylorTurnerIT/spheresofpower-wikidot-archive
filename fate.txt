@@ -51,9 +51,9 @@ Some Fate talents are marked (word). These talents grant you additional words.
 
 As a standard action, you may affect a 20 ft radius centered on you with a consecration. This aura moves as you do. When you gain the Fate sphere, you gain the following consecration:
 
-++++ Serendipity [Core]
+++++ Serendipity (curse) [Core]
 
-You may bestow luck upon your allies. All allies within range gain a +1 luck bonus to attack rolls, skill checks, ability checks, and saving throws. This bonus lasts as long as you concentrate. You may spend a spell point as a free action to allow this effect to continue for 1 round per caster level without concentration.
+You may bestow luck upon your allies. All allies within range gain a +1 luck bonus to attack rolls, skill checks, ability checks, and saving throws. This bonus lasts as long as you concentrate. You may spend a spell point as a free action to allow this effect to continue for 1 round per caster level without concentration. This is only a curse effect when used with Greater Serendipity.
 
 Fate talents marked (consecration) grant you additional consecrations.
 ----
@@ -278,7 +278,7 @@ When you or one of your allies is making an attack roll, skill check, ability sc
 ++++ ##000000|Borrow Luck (word)##
 When a creature within range fails a saving throw, skill check, or ability check, or misses with an attack, you may spend a spell point as an immediate action to allow them to reroll the saving throw, skill check, ability check, or attack roll. However, starting after the reroll, they take a -4 penalty to that category of roll until they fail another such saving throw or check or, if they reroll an attack roll, until they miss with another attack. Failing the rerolled saving throw or check or missing with the rerolled attack does not end this effect, nor does deliberately failing a saving throw, failing a saving throw against a harmless effect, or attacking an object or ally.
 
-++++ ##000000|Borrow Trouble (word) [curse]##
+++++ ##000000|Borrow Trouble (word, curse)##
 When a creature within range succeeds on a saving throw, skill check, or ability check, or hits with an attack, you may spend a spell point as an immediate action to force them to reroll the saving throw, skill check, ability check, or attack roll. However, starting after the reroll, they gain a +4 bonus to that category of roll until they succeed on another such saving throw or check or, if they reroll an attack roll, until they hit with another attack. Succeeding on the rerolled saving throw or check or hitting with the rerolled attack does not end this effect.
 
 ++++ ##000000|Classify (word)##
@@ -292,10 +292,10 @@ Rather than targeting creatures, this word targets doors, chests, windows, and o
 ++++ ##000000|Conjunction (word)##
 When an ally within range fails a saving throw, you may spend a spell point as an immediate action to allow them to reroll it using your modifier. Alternatively, when you fail a saving throw, you may spend a spell point as an immediate action to reroll it using the modifier of an ally within range. If they or you still fail, whatever effect required your ally to make that saving throw affects your ally and you as if both of you had been the target, had been in its area of effect, or were subject to its ongoing effect. If the saving throw was to end an ongoing effect and a failure has no penalty other than the effect remaining, you (if your ally rerolled the saving throw) or your ally (if you rerolled the saving throw) are affected by it until the end of your next turn.
 
-++++ ##000000|Curse (word) [Core]##
+++++ ##000000|Curse (word, curse) [Core]##
 When an enemy within range is making an attack roll, skill check, ability score check, or saving throw, you may spend a spell point as an immediate action to force that target to make the roll twice and take the lower result. You must use this word before the roll in question is made.
 
-++++ ##000000|Enmity (word) [curse]##
+++++ ##000000|Enmity (word, curse)##
 You may spend a spell point as a standard action to place a word on a target debilitating them more severely the less similar their outlook on life is to yours. The effect of this word depends on the number of steps away its alignment is from your own. A target with the same alignment as you is unaffected, while all others are affected as follows:
 
 **Table: Enmity**
@@ -319,10 +319,10 @@ If you succeed, the effect ends and you may spend a spell point to learn the nam
 ++++ ##000000|Freedom (word) [Core]##
 You may spend a spell point to speak a word that frees the target from physical bondage. You must concentrate to maintain this ability, to a maximum of 1 round per caster level. You may spend an additional spell point as a free action to allow this ability to continue for 1 round per caster level without concentration. The target may move and attack normally, even when under the influence of magic and effects that would otherwise impede movement. This includes paralysis, slow effects, entanglement, etc. All combat maneuver checks made to grapple the target automatically fail, and the subject automatically succeeds on any combat maneuver checks and Escape Artist checks made to escape a grapple or a pin. The subject may even move and attack normally while underwater, provided that the weapon is wielded in the hand rather than hurled. This does not, however, grant waterbreathing.
 
-++++ ##000000|Harm (word) [Core]##
+++++ ##000000|Harm (word, curse) [Core]##
 Whenever the target of this word suffers damage, they suffer an additional amount of damage equal to 1/2 your caster level (minimum: 1). This effect lasts as long as you concentrate, but you may always spend a spell point as a free action to allow this word to continue for 1 round per caster level without concentration.
 
-++++ ##000000|Malice (word) [curse]##
+++++ ##000000|Malice (word, curse)##
 You may place this word on a creature, who then designates a victim within range that is entitled to a Will save to negate the effect. This is a curse effect only on the victim, while it is harmless to the attacker. Once per round when the attacker deals damage to or succeeds on a combat maneuver check against the victim the attacker gains a +1 bonus on attack rolls, damage rolls, and saving throws for a number of rounds equal to your casting ability modifier. This bonus increases by +1 for every 10 caster levels. Multiple bonuses from a single instance of this word stack with each other, up to your casting ability modifier, but not from other instances of the same word.
 
 Only direct damage gives the attacker this bonus; ongoing damage such as from acid arrow does not. As a swift action the attacker may change victims; if the new victim succeeds on their Will save the effect ends.
@@ -331,7 +331,7 @@ You may choose to instead place this word on a single creature, in which case it
 
 This effect lasts as long as you concentrate, but you may always spend a spell point to allow the effect to endure for 1 minute per caster level without concentration.
 
-++++ ##000000|Mercy (word) [Core]##
+++++ ##000000|Mercy (word, curse) [Core]##
 You may spend a spell point to reduce the target’s ability to deal lethal damage. The target is allowed a Will save, and on a failure, deals nonlethal damage with all of its weapon attacks for 1 round per caster level. Damage taken by creatures or objects that are not subject to nonlethal damage is not converted to nonlethal and remains lethal damage.
 
 ++++ ##000000|Metaphysical Cloak (word)##
@@ -340,7 +340,7 @@ Choose an alignment within one step of your own on each axis. The target of this
 ++++ ##000000|Open (word) [Core]##
 Rather than targeting creatures, this word targets doors, chests, and other objects that can open or close. You may spend a spell point to open a door or container, as if you were making a Disable Device check to unlock it or, if the opening is stuck and no lock is present, a Strength check to force it open. Make a magic skill check with a +10 bonus against the lock’s Disable Device DC or the door’s Stuck DC. If the check is successful, the portal unlocks and opens. This word may open doors, chests, shackles, and chains, and any other type of fastening. It cannot, however, raise a barred gate, lift a portcullis, or otherwise provide force in and of itself.
 
-++++ ##000000|Pain (word) [Core]##
+++++ ##000000|Pain (word, curse) [Core]##
 The target suffers debilitating pain. The target suffers 1d4 + 1/2 your caster level in nonlethal damage (no save). You may spend a spell point to cause this target to suffer this damage each round for a total number of rounds equal to your caster level. For 1 round (or as long as this word is in effect) the target suffers a -4 penalty to all mental skill checks (such as Bluff, Spellcraft, Sense Motive, or Survival), and must pass a magic skill check (DC 10 + 1/2 the damage dealt + 1/2 the caster level) to use a sphere effect or spell.
 
 ++++ ##000000|Perfect (word)##
@@ -355,13 +355,13 @@ You may spend a spell point to place a word on a creature that enhances its exis
 
 This effect lasts as long as you concentrate, but you may always spend a spell point to allow the effect to endure for 1 minute per caster level without concentration.
 
-++++ ##000000|Subvert Weapon (word) [curse]##
+++++ ##000000|Subvert Weapon (word, curse)##
 You may spend a spell point to place a curse upon a weapon that causes it to turn against its wielder. The next time it is used to make an attack, the attack automatically hits the wielder. This word itself does not obviously modify the weapon, so unless alerted by other means (such as detect magic or the divine use of the Divination sphere) the wielder cannot attempt to deal nonlethal damage. At 10th level, the attack automatically threatens a critical hit. An attended or magic weapon is entitled to a Will saving throw to negate this effect. This curse remains up to 1 hour per caster level or until discharged.
 
-++++ ##000000|Truth (word) [Core]##
+++++ ##000000|Truth (word, curse) [Core]##
 The target cannot speak deliberate or intentional lies (Will negates). They are always aware of this word being placed on them and the caster always knows if the target made its saving throw. An effected target may still be evasive, refuse to answer, or word their responses carefully. This effect lasts as long as you concentrate, but you may always spend a spell point to allow the effect to endure for 1 minute per caster level without concentration.
 
-++++ ##000000|Villainy (word) [curse]##
+++++ ##000000|Villainy (word, curse)##
 You may place this word on a creature marking them as a villain regardless of their actual role in fate’s story. A successful Will save negates this effect. While this word is in effect, any of your allies may use their smite, challenge, or similar ability that requires marking a particular adversary, or a class feature that only affects a particular alignment, even if the target would not normally be affected by the ability (such as a neutral creature by a paladin’s smite evil). When this word’s effect ends, so does the effect of these abilities. You may also, as a free action even when it isn’t your turn, spend a spell point to allow an ally to use such an effect without spending a daily use or to give an ally without one of these abilities or who choose not to use that ability a +1 bonus to attack and weapon damage rolls against the target of this word. This bonus increases by +1 for every 3 caster levels.
 
 This effect lasts as long as you concentrate, but you may always spend an additional spell point to allow the effect to endure for 1 round per caster level without concentration.
