@@ -461,6 +461,8 @@ You may not take this drawback if you also have the Magical Signs drawback.
 ----
 ++ Sphere-Specific Drawbacks
 Rather than grant bonus spell points, sphere-specific drawbacks grant the target an extra magic talent in their prerequisite sphere. A creature does not gain this bonus magic talent until they gain the sphere-specific drawback’s prerequisite sphere. A sphere-specific drawback may be removed by spending a magic talent, in essence ‘paying back’ the talent gained from the drawback. All sphere-specific drawbacks require their base sphere.
+
+Sphere-specific drawbacks that grant bonus feats instead of talents, such as Personal Mantle, cannot be bought off by spending a talent like most sphere-specific drawbacks. Instead, they must be bought off by taking the granted feat normally, using a feat gained by leveling up or as a bonus feat. You must meet the feat's prerequisites to take it, even if the drawback gives it to you without meeting its prerequisites.
 ----
 +++ Alteration
 
@@ -875,11 +877,22 @@ You may only target yourself with your teleport ability. You cannot gain the Unw
 ----
 +++ Weather
 
-++++ Focused Weather [Core]
-You may only affect one weather category: Wind, Precipitation, Cold, or Heat. If you choose cold you may lower the severity of heat but cannot increase it. If you choose heat you may lower the severity of cold but cannot increase it. You cannot take talents that alter an aspect of the weather you cannot affect.
+++++ Focused Weather
+You may only affect one weather category: Aridity, Cold, Heat, Precipitation, or Wind. If you choose Cold, you may lower the severity of Heat but cannot increase it; if you choose Heat, you may lower the severity of Cold but cannot increase it; if you choose Precipitation, you may lower the severity of Aridity but cannot increase it; and if you choose Aridity, you may lower the severity of Precipitation but cannot increase it. For example, if you chose Heat, you could change severe cold to chilled, warm heat to extreme, or severe heat to cool, but you could not change warm heat to chilled. You also cannot take (shroud) or (mantle) talents of a different weather type or talents that alter an aspect of the weather you cannot affect.
+
+This supersedes the Focused Weather sphere-specific drawback in Spheres of Power.
+
+++++ Localized Weather
+You do not gain the base ability to control weather and you cannot take talents that improve this ability.
+
+++++ Personal Mantle
+You cannot place your mantle on other creatures. When you take this drawback, you do not gain an additional talent. Instead, you gain the Mantled Caster feat, even if you do not meet its prerequisites.
 ----
 + Boons
 Boons are the opposite of drawbacks: instead of adding limitations and requirements to a caster’s magic, they add bonuses and benefits. A caster must possess 2 general drawbacks for each boon gained. Drawbacks used to purchase boons in this way are not counted toward bonus spell points.
+
+++++ Atmoturgy
+Choose a weather category (Aridity, Cold, Heat, Precipitation, or Wind). While in weather of this type of severity level 3 or higher, you gain a +1 bonus to your caster level. At severity level 6 or higher, this bonus becomes +2.
 
 ++++ ##000000|Bound Creature##
 Your magic is tied to a magical creature, who shares essence and power with you.
