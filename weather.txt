@@ -1,6 +1,14 @@
 title:Weather
 parent:spheres-of-power
 [[module CSS]]
+.colored-links span > a {
+  color: inherit;
+}
+[[/module]]
+
+[[div class="colored-links"]]
+
+[[module CSS]]
 .noselect {
   -webkit-touch-callout: none; /* iOS Safari */
     -webkit-user-select: none; /* Safari */
@@ -372,7 +380,7 @@ Click the header above to visit the Advanced Talents page. This page includes ta
 ++ -[[[Storm Herald]]]
 The Storm Herald is a Skald who's learned to call down the weather with their voice.
 
-++ -##00c000|[[[Vajrahasta]]]##
+++ -##00c000|[[[Vajrahasta]]]## [CS]
 The Vajrahasta is an Armorist who's learned how to summon weapons made of lightning.
 
 ++ -[[[Weather Harvester]]]
@@ -380,7 +388,7 @@ The Weather Harvester is an Alchemist who channels the power of weather with har
 
 ++ -##00c000|[[[Wendigo]]]## [CS]
 The Wendigo is a Bloodrager who channels a ravenous snow spirit to sap the power of their foes.
-
+[[/div]]
 ----
 
 + Wild Magic
