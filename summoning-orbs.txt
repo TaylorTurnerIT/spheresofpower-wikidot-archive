@@ -6,7 +6,7 @@ parent:spheres-of-power
 
 Summoning orbs are handheld spheres usually made of a durable dense substance such as bone, metal, stone, or wood. Carved into the surface of the orb is usually an image or symbol giving a clue as to the creature that may be summoned with the wondrous items. Spellcasters often use these summoning orbs as pawns in magical strategy games not unlike chess. On the other hand, practitioners with the Beastmastery sphere may utilize these as mobile animal allies that can be tucked away or summoned at a moment's notice without the hassle of traveling with an entire herd or circus of animals.
 
-++ Summoning Orb - Emissary Archon
+++ Summoning Orb - Emissary Archon [Wiki]
 **Price** 400 gp; **Slot** none; **CL** 3rd; **Weight** 1 lb.; **Aura** faint Conjuration; **Scaling** wonder.
 
 This particular summoning orb is coated with polished silver, and has etched upon its surface the image of merchant scales centered within a sun. While held, the orb grants a +2 competence bonus to Charisma-based checks made with archons and other creatures possessing both the good and lawful subtypes.
@@ -147,8 +147,130 @@ divine (alignment, enhancement, illusions, protection)
 **Aligned Attacks** The hound archon’s attacks count as good for the purpose of overcoming damage reduction.
 
 **Construction Requirements**
-Cost 7,000 gp; Feats Craft Wondrous Item; **Spheres** Conjuration sphere, Armored Companion, Battle Creature, Fortified Companion, Magical Companion, Planar Creature
+Cost 7,000 gp; **Feats** Craft Wondrous Item; **Spheres** Conjuration sphere, Armored Companion, Battle Creature, Fortified Companion, Magical Companion, Planar Creature
+----
+++ Summoning Orb - Emissary Demon [Wiki]
+**Price** 400 gp; **Slot** none; **CL** 3rd; **Weight** 1 lb.; **Aura** faint Conjuration; **Scaling** wonder.
 
+This particular summoning orb is coated with a thin layer or lead, and has etched upon its surface the image of a menacing grimace centered within a moon. While held, the orb grants a +2 competence bonus to Charisma-based checks made with demons and other creatures possessing both the chaotic and evil subtypes.
+
+++++ 5th Level
+3,600 gp: 1/day, you may activate the summoning orb to conjure forth, an emissary dretch demon into an empty adjacent square, and remains for 3 rounds before disappearing. If the summoner can communicate with the creature (usually by speaking abyssal), the summoner can direct it not to attack, to attack particular enemies, or to perform other actions. If the summoner lacks the ability to properly communicate with the demon (such as lacking the abyssal language), the demon must be “pushed” with a DC 20 Diplomacy or Linguistics check as if using the Handle Animal skill. The demon usually has no qualms obeying the directions or orders given by the summoner, regardless of their alignment, however their only true allegiance is to themselves and will turn on or betray their summoner if it would be beneficial to the fiend.
+
+**Emissary Dretch Demon**
+CE Small outsider (demon, extraplanar)
+**Init** +2; **Perception** +0
+
+**Defense**
+**AC** 16, **touch** 13, **flat-footed** 14 (+2 Dex, +3 natural, +1 size)
+**hp** 19 (3d10+3)
+**Fort** +4, **Ref** +3, **Will** +3; +1 vs Poison
+**Defensive Abilities** evasion; DR 2/good
+
+**Offense**
+**Speed** 30 ft.
+**Melee** 2 slams +6 (1d4+2)
+**Space** 5 ft.; **Reach** 5 ft.
+
+**Magic**
+**Caster Level** 1; **MSB** +3, **MSD** 12, **Concentration** +4
+**Tradition** Inherent Divinity (drawbacks: emotional casting, verbal casting; boons: easy focus); **CAM** Cha
+**Spell Points** 1
+**Mind Sphere** - **DC** 11, **Duration** concentration; **Range** close (25 ft.); **Talents** Expanded Charm, Fear
+ . charm 1sp greater (fear, suggestion)
+
+**Statistics**
+**Str** 14, **Dex** 14, **Con** 13, **Int** 7, **Wis** 10, **Cha** 12
+**Base Atk** +3; **CMB** +4; **CMD** 16
+**Feats** Extra Magic Talent x2
+**Skills** Bluff +4
+**Languages** abyssal
+
+++++ 7th Level
+6,400 gp: Instead of summoning an emissary dretch demon, you may summon an emissary cambion demon, and the summon remains for 4 rounds before disappearing.
+
+**Emissary Cambion Demon**
+CE Medium outsider (demon, extraplanar)
+**Init** +1; **Perception** +0
+
+**Defense**
+**AC** 14, **touch** 11, **flat-footed** 13 (+1 Dex, +3 natural)
+**hp** 25 (3d10+9)
+**Fort** +6, **Ref** +3, **Will** +3; +1 vs Poison
+**DR** 2/good
+
+**Offense**
+**Speed** 30 ft.
+**Melee** +1 scimitar +7 (1d6+4/18-20)
+**Ranged** +1 composite longbow +5 (1d8+4/x3)
+**Space** 5 ft.; **Reach** 5 ft.
+
+**Magic**
+**Caster Level** 1; **MSB** +3, **MSD** 12, **Concentration** +4
+**Tradition** Inherent Divinity (drawbacks: emotional casting, verbal casting; boons: easy focus); **CAM** Cha
+**Spell Points** 1
+**Mind Sphere** - **DC** 11, **Duration** concentration; **Range** close (25 ft.); **Talents** Command, Expanded Charm
+ . charm 1sp greater (command, suggestion)
+
+**Martial**
+**Tradition** None; **PAM** Cha
+**Barrage Sphere** - **DC** 12
+ . barrage +3/+3 (special attack action, make two ranged attacks at full bab -2)
+ . melee archer (+1 atk and damage w/ ranged weapons at range of up to 30 ft.)
+
+**Statistics**
+**Str** 16, **Dex** 12, **Con** 16, **Int** 7, **Wis** 10, **Cha** 12
+**Base Atk** +3; **CMB** +6; **CMD** 17
+**Feats** Extra Magic Talent x2; **Associated Feats** Point-Blank Shot, Rapid Shot
+**Skills** Bluff +4
+**Languages** abyssal
+
+++++ 9th Level
+14,000 gp: Instead of summoning an emissary dretch demon or cambion demon, you may summon an emissary succubus demon, and the summon remains for 7 rounds before disappearing.
+
+**Emissary Succubus Demon**
+CE Medium outsider (demon, extraplanar)
+**Init** +1; **Perception** +0
+
+**Defense**
+**AC** 16, **touch** 11, **flat-footed** 15 (+1 Dex, +5 natural)
+**hp** 57 (6d10+24)
+**Fort** +9, **Ref** +3, **Will** +5; +2 vs Poison
+**DR** 3/good
+
+**Offense**
+**Speed** 30 ft.
+**Melee** +2 dagger +11/+5 (1d4+5)
+**Space** 5 ft.; **Reach** 5 ft.
+
+**Magic**
+**Caster Level** 3; **MSB** +6, **MSD** 17, **Concentration** +8
+**Tradition** Inherent Divinity (drawbacks: emotional casting, verbal casting; boons: easy focus); **CAM** Cha
+**Spell Points** 2
+**Mind Sphere** - **DC** 11, **Duration** concentration; **Range** close (25 ft.); **Talents** Enthrall, Expanded Charm, Powerful Charm
+ . charm 1sp greater, 2sp powerful (enthrall, suggestion)
+
+**Martial**
+**Tradition** None; **PAM** Cha
+**Fencing Sphere** - **DC** 15, **Talents** Fast Feint, Feint Strike
+ . fast feint (move action, feint)
+ . fatal thrust (+2d6 precision damage)
+ . feint strike (free attack with successful feint)
+
+**Statistics**
+**Str** 16, **Dex** 12, **Con** 18, **Int** 7, **Wis** 10, **Cha** 14
+**Base Atk** +6; **CMB** +9; **CMD** 20
+**Feats** Extra Magic Talent x3; **Associated Feats** Improved Feint
+**Skills** Disguise +11; **Associated Skills** Bluff +8
+**Languages** abyssal
+
+**Special Abilities**
+**Transformative (Sp)** At-will, as a standard action, the succubus may change her appearance using the Disguise skill.
+
+**Construction Requirements**
+**Cost** 7,000 gp; **Feats** Craft Wondrous Item; **Spheres** Conjuration sphere, Battle Creature, Fortified Companion, Magical Companion, Planar Creature, Transformative
+
+----
 ++ Summoning Orb - Primal Bear [Wiki]
 **Price** 400 gp; **Slot** none; **CL** 5th; **Weight** 1 lb.; **Aura** moderate Conjuration; **Scaling** wonder.
 
