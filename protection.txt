@@ -1,6 +1,14 @@
 title:Protection
 parent:spheres-of-power
 [[module CSS]]
+.colored-links span > a {
+  color: inherit;
+}
+[[/module]]
+
+[[div class="colored-links"]]
+
+[[module CSS]]
 .noselect {
   -webkit-touch-callout: none; /* iOS Safari */
     -webkit-user-select: none; /* Safari */
@@ -315,12 +323,12 @@ The Impossible Warrior is a Fighter who specializes in negating various types of
 ++ -[[[Living Weapon]]]
 The Living Weapon is an [[[Armorist]]] who focuses on conjuring pure magic for defense, rather than armor or other physical gear.
 
-++ -[[[Marshal Controller]]]
+++ -##00c000|[[[Marshal Controller]]]##
 The Marshal Controller is a [[[Mageknight]]] who also uses [[[Spheres of Might]]] to create zones imposing rules of their choosing.
 
 ++ -[[[Shield of the Gods]]]
 The Shield of the Gods is an Inquisitor who is especially good at using the Protection sphere to shield themselves from harm.
-
+[[/div]]
 ----
 + Wild Magic
 
