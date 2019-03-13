@@ -119,9 +119,10 @@ As a move action, the entitled may store energy within this veil as a ‘charge�
 **Class:** Rajah
 **Slot:** Chest
 **Saving Throw:** Reflex
+
 Golden akasha settles within the Dragon’s chest. When the Dragon proves themselves worthy, the essence within surges forth as a white hot flame.
 
-When the entitled hits with an attack from both their primary hand and an off hand or two different naturals (two different claws, a claw and a bite, but not two bites, for example) in the same turn, once per round, they may, as a free action before the end of the turn, breath a 20-foot cone or a 40-foot line of white-hot akasha, dealing 1d6 points of untyped damage to all opponents within the area (Reflex negates).
+When the entitled hits with an attack from both their primary hand and an off hand or two different naturals weapons (two different claws, a claw and a bite, but not two bites, for example) in the same turn, once per round, they may, as a free action before the end of the turn, breathe a 20- foot cone or a 40-foot line of white-hot akasha, dealing 1d6 points of untyped damage to all opponents within the area (Reflex negates).
 
 In addition, as a standard action, the entitled may make a single attack against a creature with their primary and offhand weapon, taking penalties as normal for two-weapon fighting.
 
@@ -129,7 +130,7 @@ Unlike for other veils, the save DCs for this veil are equal to 10 + 1/2 your ve
 
 **Essence:** Every point of essence reduces the entitled’s penalty for fighting with two weapons by 1. Every 2 points of essence invested in this veil increases the damage done by this veil by 1d6.
 
-**Chakra Bind (Chest):** After hitting a creature with weapons in both their primary hand and an off hand in the same round, the entitled’s weapons ignite until the end of their next turn; such ignition allows these weapons to ignore an amount of DR equal to 1/2 your veilweaver level (minimum 1) + 1 for each point of essence invested in this veil.
+**Chakra Bind (Chest):** After hitting a creature with weapons in both their primary hand and an off hand in the same round, the entitled’s weapons ignite until the end of their next turn; such ignition allows these weapons to ignore an amount of DR equal to 1/2 your veilweaver level (minimum 1) + 1 for each point of essence invested in this veil. Additionally, the damage done by this veil is increased by 2 for each die of damage it deals.
 
 ++++ The Duelist
 **Descriptors:** Title
@@ -164,10 +165,10 @@ As a move action, the entitled can teleport a distance up to their speed into an
 **Class:** Rajah
 **Slot:** Headband
 **Saving Throw:** none
+
 Two black horns curl up from either side of the Fallen’s head, the tips tinged with a deep red.
 
-Once per round as a free action, the entitled may conjure and direct a black feather to unerringly strike a creature within close range (25 feet + 5 feet per 2 veilweaver levels). This action does not provoke an attack of opportunity. Creatures struck by the black feather find it painful and hard to remove, requiring a move action to pull the feather from their body. A creature may have any number of feathers
-from this veil embedded in them.
+Once per round as a free action, the entitled may conjure and direct a black feather to unerringly strike a creature within close range (25 feet + 5 feet per 2 veilweaver levels). This action does not provoke an attack of opportunity. Creatures struck by the black feather find it painful and hard to remove, requiring a move action to pull the feather from their body. A creature may have any number of feathers from this veil embedded in them.
 
 While at least one feather from this veil is embedded into a creature, that creature takes a –1 penalty on attack rolls and suffers a 10% spell failure chance, and all weapon damage dealt to that creature is profane damage. Additional feathers do not increase these penalties.
 
@@ -183,13 +184,18 @@ The Fallen makes use of the Profane damage type. Profane damage deals full damag
 **Class:** Rajah
 **Slot:** Neck
 **Saving Throw:** none
+
 Bloody handprints wrap around the Gravekeeper’s neck. This blood is always wet to the touch.
 
-The entitled can gain a charge as move action that does not provoke attacks of opportunity. Whenever they hit with an attack, they can expend one of these charges as a free action to heal themselves for half of the damage their attack dealt. The entitled may have up to one charge at any given time, and can only use this ability once per attack. If the attack hits multiple creatures, this ability heals the entitled for half of the highest amount of damage dealt amongst the creatures.
+The entitled gains a blood pool with a maximum equal to their total hit points. When the entitled rolls initiative, this blood pool becomes 0. Whenever the entitled deals damage, they store half of the damage they deal into this blood pool. If they deal damage in an area of effect, they store half of the highest damage they deal to any one individual target in this blood pool.
 
-**Essence:** For every point of essence invested in this veil, the number of charges this veil can hold increases by one.
+As a standard action, the entitled may remove any amount of points from their blood pool and heal themselves for an amount of hit points equal to the amount of blood points removed.
 
-**Chakra Bind (Neck):** Whenever the entitled reduces an opponent to 0 or fewer hit points, they gain the maximum number of charges that this veil can hold.
+**Essence:** Whenever you heal hit points from this veil, your next attack deals an additional 1d6+1 points of damage for each point of essence invested into this veil. This effect lasts for 1 minute or until you hit with an attack.
+
+**Chakra Bind (Neck):** Whenever the entitled reduces an opponent to 0 or fewer hit points, they may, as a free action, empty up to half of their current blood pool, healing that amount of hit points.
+
+Additionally, as a move action, the entitled may empty up to half of their current blood pool, healing that amount of hit points.
 
 ++++ The Memory
 **Descriptors:** Title
@@ -372,12 +378,16 @@ Whenever the entitled chooses to move, they can will their duplicate to move an 
 **Class:** Rajah
 **Slot:** Belt
 **Saving Throw:** See text
+
 An akashic belt that contains dozens of crystal filled vials sits around the Venomous’ hips.
 
 The entitled gains the poison use class feature, no longer risking accidentally poisoning themselves. In addition, their weapons are always considered to be coated in a vile akashic poison with the following stats:
 
 **Akashic Poison**
-**Type** poison (injury); **Save** Fortitude DC (10 + 1/2 veilweaver level + veilweaving modifier) **Onset** -; **Frequency** 1/round for 6 rounds; **Effect** 2 Con damage; **Cure** 1 save
+**Type** poison (injury); **Save** Fortitude DC (10 + 1/2 veilweaver level + veilweaving modifier)
+**Onset** -; **Frequency** 1/round for 6 rounds
+**Effect** 2 Con damage; **Cure** 1 save
+**Special** This poison cannot deal ability damage that would equal or exceed an enemy’s ability score. If it would, the excess ability damage is instead applied to a different attribute of the entitled’s choosing, provided the ability damage would not equal or exceed that ability score. If there are no valid attributes for this redirection, this poison fails to do any more damage.
 
 As a swift action, the entitled may change any number of the following attributes:
 * **Save** Fortitude or Will
@@ -385,9 +395,11 @@ As a swift action, the entitled may change any number of the following attribute
 * **Frequency** 1/round for 6 rounds, 1/minute for 6 minutes, or 1/10 minutes for 1 hour.
 * **Effect** 2 damage to an ability score of your choice or 1 point of essence burn.
 
-**Essence:** For each point of essence invested in this veil, the save DCs of poisons the entitled uses, and Steel Serpent maneuvers the entitled initiates, increase by +1. For every 2 points of essence invested in this veil, the ability damage or essence burn dealt by the Akashic Poison increases by 1.
+Alternatively, as a swift action, the entitled may suppress this veils effects. The entitled may undo this suppression as a swift action.
 
-**Chakra Bind (Belt):** The Akashic Poison granted by this veil ignores poison immunity, and creatures that are ability damaged or poisoned are denied their Dexterity bonus to their AC against the entitled’s attacks.
+**Essence:** For each point of essence invested in this veil, the save DCs of poisons the entitled uses, and Steel Serpent maneuvers the entitled initiates, increase by +1. For every 2 points of essence invested in this veil, the ability damage or essence burn dealt by the akashic poison increases by 1.
+
+**Chakra Bind (Belt):** Poisons the entitled uses ignore poison and ability damage immunity, and creatures that are ability damaged or poisoned are denied their Dexterity bonus to their AC against the entitled’s attacks. If any poison’s save DC that the entitled uses is less than 10 + 1/2 the veilweaver’s level + the veilweaver’s veilweaving modifier, it becomes that instead. Poisons that have their base DC modified by this veil also benefit from this veil's essence benefit after their DC has been modified.
 
 ++++ The Watcher
 **Descriptors:** Curse, Title
@@ -409,11 +421,14 @@ The entitled also gains the ability to make a special melee attack as a standard
 **Class:** Rajah
 **Slot:** Shoulders
 **Saving Throw:** none
+
 A heavy weight settles into the Warlord’s shoulders, as a symbol of hope forms overhead.
 
-An akashic seal forms over the head of the entitled, projecting an aura within close range (25 feet + 5 feet per two veilweaver levels). Allies within this aura gain a +1 morale bonus on attack rolls, weapon damage rolls, and saving throws against fear and mind affecting effects.
+As a swift action, the entitled may designate a creature within close range (25 feet + 5 feet per two veilweaver levels).
 
-**Essence:** For each point of essence invested in this veil, the bonus on saving throws against fear and mind affecting effects increases by +1. For every two points of essence invested, the bonus granted on attack and weapon damage rolls increases by +1.
+Attacks made against the designated target gain a +2 bonus on attack and damage rolls. During each of the entitled’s allies’ turns, that ally may, as a free action, move 5 feet if they are within close range of the designated creature. This movement must place the ally closer to the designated target, and does not interfere with the entitled’s allies’ ability to make 5 foot steps. Only one creature may be designated this way at a time. Designating a new creature removes the old designation. Designations can be removed as a swift action.
+
+**Essence:** Each point of essence invested in this veil increases the amount of movement granted by this veil by 5 feet. For every two points of essence invested, the bonus granted on attack and weapon damage rolls increases by +1.
 
 **Chakra Bind (Shoulders):** As a free action once per round, the entitled may designate a 5-foot square with an akashic symbol. Allies within or adjacent to this square gain a morale bonus to AC equal to the attack bonus granted by this veil. Allies of the entitled who start their turn in this area also gain temporary hit points equal to your veilweaving modifier plus the essence invested in this veil. These temporary hit points last for 1 minute or until used. The entitled may only have one akashic symbol laid out at a time.
 
