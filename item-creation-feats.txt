@@ -6,11 +6,284 @@ Item Creation feats are used to create magical items or access other types of ad
 
 ----
 
++++ Capture Spell (replaces Scribe Scroll)
+**Prerequisites:** Caster level 1st.
+
+A character who possesses this feat can create scrolls. In addition to ritual scrolls (which function the same as scrolls from the core Pathfinder Roleplaying Game), they can create scrolls using the talent-based item creation system. Scrolls have the same requirements for deciphering and activating as core Pathfinder scrolls, and a creature must possess a scroll’s base sphere, or else must activate the scroll through the Use Magic Device skill.
+
+A scroll has a base cost of 25 gp x caster level x complexity.
+
++++ Craft Apparatus (replaces Craft Rod)
+**Prerequisites:** Caster level 1st.
+
+This feat allows for the creation of talent-based magic items that require no activation except to hold, wear, or carry them.
+
+Creating an apparatus costs 2,000 gp x caster level x complexity. An item must have an effect measured in hours to be made into an apparatus. Thus, as an example, if making an apparatus of the War sphere totem talent-based item creation effect, which is measured in rounds, the effect would need to have its duration increased by 3 steps (+6 complexity) before it could be made into an apparatus.
+
+**Continual Life Sphere Effects:** Creating an apparatus that grants what is normally an instantaneous effect, such as life sphere effects, has a base complexity of 6. If crafting an apparatus that grants a continual cure, the effect becomes instead fast healing 1 (+1 per additional +1 in complexity). If an apparatus grants a continual restore, it instead grants immunity to one effect (+1 per additional +1 in complexity; a creature cannot gain immunity to effects that require a magic skill check to remove or are unaffected by the Life sphere). Temporary hit points cannot be made into a continual effect.
+
++++ Craft Implement of Power (replaces Craft Staff)
+**Prerequisites:** Magic skill bonus +3.
+
+Just as a weapon can grant enhancement bonuses to its wielder’s attack and damage rolls, an implement of power serves as a focus for magical power, adding enhancement bonuses to its wielder’s caster level with a particular sphere. These bonuses are always enhancement bonuses, and therefore multiple implements benefiting the same sphere do not stack. These bonuses only apply to the wielder themselves; this bonus does not apply to wands nor other magic items they might be using. Implements of Death and Conjuration do not increase the number or statistics of undead or companions; instead, such implements grant circumstance bonuses to attack rolls and skill checks for controlled companions and undead.
+
+Just like a magical weapon, an implement of power has its cost calculated according to its maximum bonus; an implement of power grants an enhancement bonus from +1 to +5, with a total possible bonus of +10. Just like a magic weapon, an implement costs 2,000 gp x (total bonus) squared.
+
+An implement uses the crafter’s MSB rather than their caster level when determining the maximum caster level implement they can create. The item’s caster level must be at least 3x the enhancement bonus granted by the implement. If the implement has other magical enchantments placed upon it, use the highest caster level. An implement must have at least a +1 enhancement bonus to have any other implement special abilities.
+
+The following special abilities can be added to an implement:
+* **Magic Talent:** The bearer gains access to a specific talent while they wield the implement. The crafter must have access to a talent to add it to an implement. If the talent is a (form) Conjuration talent, it may be applied to any companion the caster summons, but no more than one creature at any given time. To contain an advanced talent, the implement needs a minimum caster level equal to the talent’s prerequisites; the bearer of the implement does not gain access to the talent unless they or the implement possess all of its prerequisite talents. This benefit can be granted multiple times. **Cost:** +2
+* **Second Sphere:** The staff’s granted enhancement bonus applies to the wielder’s caster level with an additional sphere. This benefit can be granted multiple times. The crafter must have access to any sphere to be added in this fashion. **Cost:** +1
+
+**Implements and Automatic Bonus Progression**
+In games making use of the automatic bonus progression rules (Pathfinder Unchained, Copyright 2015, Paizo Inc.), treat implements that grant an enhancement bonus to caster level as weapons for the purpose of attunement bonuses.
+
 ++++ Craft Rituals (Item Creation feat)
 
 **Prerequisite:** 3rd caster level or higher.
 
 **Benefit:** You may research [[[rituals]]]. See that page for more information on researching rituals.
+
++++ Craft Spell Engine (replaces Craft Wand)
+**Prerequisites:** Caster level 1st.
+
+This feat allows a creature to create spell-trigger items, known as wands, which casters can use as if they were their own sphere abilities. A creature must possess a wand’s base sphere, or else must activate the wand through the Use Magic Device skill.
+
+A wand contains a limited amount of casting ability, which can be activated by the one wielding the wand as a standard action, as if the magic were their own. A wand possesses a base sphere, a caster level, and a small pool of spell points. The wand uses its own caster level and spell points to fuel its casting ability; under normal circumstances, a caster cannot spend their own spell points or use their own caster level when activating a wand. If a wand’s effects call for a saving throw, the DC is equal to 10 + 1/2 the item’s caster level.
+
+Once per day, a caster whose caster level is at least equal to the wand’s caster level may spend one of their spell points to restore 1 spell point to the wand. A wand may only have one spell point per day restored in this fashion, regardless of how many casters attempt to do so.
+
+The simplest wand a crafter may create contains a base sphere, 1 spell point, and a caster level of 2. This wand has a base price of 1,000 gp. When a crafter increases a wand’s caster level (to a maximum of their own), for every 2 caster levels a wand gains, the crafter may place an additional magic talent into the wand, or may increase the wand’s maximum spell point pool by 1. A crafter must possess each talent to be placed in the wand, or else must have access to that talent through another caster. Likewise, if a crafter possesses a sphere-specific drawback for the wand’s base sphere (or simply wants to create a focused wand), that want also possess that sphere-specific drawback, and gains either a bonus magic talent or a spell point in exchange.
+
+A wand may contain an advanced talent, but must possess that talent’s minimum caster level, as well as all of its prerequisite talents. A wand may be used to meet the prerequisites for creating other magic items.
+
+A wand’s pricing is determined by comparing it to Table: Wand Pricing.
+
+**Table: Wand Pricing**
+||~ Caster Level ||~ # of Additional Magic Talents/Spell Points ||~ Price (gp) || 
+|| 2 (base wand) || 0 || 1,000 || 
+|| 4 || 1 || 4,000 || 
+|| 6 || 2 || 9,000 || 
+|| 8 || 3 || 16,000 || 
+|| 10 || 4 || 25,000 || 
+|| 12 || 5 || 36,000 || 
+|| 14 || 6 || 49,000 || 
+|| 16 || 7 || 64,000 || 
+|| 18 || 8 || 81,000 || 
+|| 20 || 9 || 100,000 || 
+
++++ Craft Marvelous Item (replaces Craft Wondrous Item)
+**Prerequisites:** Caster level 1st.
+
+A marvelous item is a device that produces a magical effect that must be activated (usually activated as a standard action) often through the touch of a button, the speaking of a command word, or some other action such as striking the item against the ground, holding it against the intended target, throwing the item through the air. Marvelous items use the talent-based method of magic item creation. If a wondrous item’s effect requires a saving throw from any creature, the DC is equal to 10 + 1/2 the item’s caster level.
+
+A marvelous item can be used once per day by default, and costs 400 gp x caster level x complexity. Additionally, a marvelous item can possess the following custom multipliers.
+
+**Multiple Uses:** If a marvelous item can be used multiple times per day, multiply the cost by the number of daily uses. If its uses per day is increased to 5, it becomes usable an unlimited number of times per day.
+
+**Limited Uses:** If a marvelous item can be used at will but only a maximum of 50 times before it loses all of its magic, multiply its cost by 2.5.
+
++++ Distill Compound (replaces Brew Potion)
+**Prerequisites:** Caster level 1st.
+
+A creature with the Distill Compound feat is adept at creating potions, oils, and powders. Potions, oils, and powders are magical effects stored in physical form; they use the talent-based method of item creation, and are usable only once.
+
+A potion targets the creature who drinks the potion (one target with a range of personal), while oils target the creature or object is is applied to (one target with a range of touch), while any effect that targets an area is a powder. It is possible to place a compound-like effect into another item as well (for example, a jewel that explodes when thrown or an apple that applies a potion-like effect when eaten, etc.).
+
+A potion, oil, or powder has a base cost of 50 gp x caster level x complexity. If a potion, oil, or powder requires a saving throw, the DC is equal to 10 + 1/2 its caster level.
+
++++ Forge Charm (replaces Forge Ring)
+**Prerequisites:** Magic skill bonus +1.
+
+A creature with the Forge Charm feat knows how to add permanent enhancements and effects to an item, such that whoever wears or uses that item gains that bonus for as long as they are wearing or using that item.
+
+When forging a charm, the crafter must possess the base sphere associated with the charm to be made. The base cost of a charm, as well as the minimum magic skill bonus required, vary depending on the type of charm being made. As always, crafting a charm costs 1/2 the base cost.
+
+A charm uses the crafter’s MSB rather than their caster level when determining the maximum caster level charm they can create. The item’s minimum caster level is determined by the charm being created, as detailed below. If the item possess multiple charms or other enchantments, use the higher caster level of all included enchantments.
+
+**Table: Charm Bonuses**
+||~ Charm ||~ Minimum Caster Level ||~ Required Base Sphere ||~ Maximum Bonus ||~ Base Cost ||
+|| Grant an enhancement bonus to an ability score || 2x enhancement bonus || Enhancement || +6 || Bonus squared x 1,000 gp ||
+|| AC bonus (deflection) || 3x bonus || Protection || +5 || Bonus squared x 2,000 gp || 
+|| AC bonus (natural armor) || 3x bonus || Alteration || +5 || Bonus squared x 2,000 gp || 
+|| AC bonus (other) || 3x bonus || Various^^1^^ || +3 || Bonus squared x 2,500 gp || 
+|| Energy Resistance || 1/2 granted resistance || Protection || +30 || 1,600 x resistance -4,000, resistance 5 minimum || 
+|| Save bonus (resistance) || 3x bonus || Protection || +5 || Bonus squared x 1,000 gp || 
+|| Save bonus (other) || 3x bonus || Various* || +3 || Bonus squared x 2,000 gp || 
+|| Skill bonus (competence) || 1x competence bonus || Mind || +20 || Bonus squared x 100 gp || 
+|| Spell resistance || 1/2 granted resistance || Protection || - || 10,000 gp per point over SR 12, SR 13 minimum || 
+|| CMB/CMD (competence, one combat maneuver) || 3x bonus || Enhancement || +5 || Bonus squared x 1,000 gp || 
+^^**1:** While uncommon, it is possible to have magic items that grant luck, insight, profane, or sacred bonuses to AC or saving throws, morale bonuses to saving throws, or other bonuses. When applying such benefits through a charm, morale bonuses have Mind as a base sphere, insight bonuses have Divination as a base sphere, and luck, profane, and sacred bonuses have Fate as a base sphere.^^
+
++++ Forge Construct (replaces Craft Construct)
+**Prerequisites:** Any two of the following feats: +5 MSB, Craft Apparatus, Craft Marvelous Item, Forge Charm, Smith Magical Weapons and Armor.
+
+This feat is functionally identical to Craft Construct.
+
++++ Smith Magical Weapons and Armor (replaces Craft Magical Arms or Armor)
+**Prerequisites:** Magic skill bonus +3.
+
+This feat allows the user to craft magical weapons and magical armor. Crafting magical weapons and magical armor follows the same rules as core Pathfinder magical weapons and armor, except that a creature must possess the base sphere associated with any special ability before it can be added. Some core Pathfinder special abilities that can be added to magical weapons or armor carry prices calculated in gp costs rather than bonus increases; some of these special abilities are enchantments more appropriately created through the Craft Marvelous Item or Craft Apparatus feats, which should be used to craft such enchantments.
+
+Magical weapons and armor use the crafter’s MSB rather than their caster level when determining the maximum caster level item they can create. The item’s caster level must be at least 3x the enhancement bonus of the weapon or armor. If the item has other magical enchantments placed upon it, use the higher caster level. A magical weapon or magical piece of armor must have at least a 1 enhancement bonus to have any other special abilities.
+
+Table: Magical Weapon and Armor Pricing
+||~ Weapon Bonus ||~ Base Price (gp) ||~ Armor/Shield Bonus ||~ Base Price (gp) || 
+|| +1 || 2,000 || +1 || 1,000 || 
+|| +2 || 8,000 || +2 || 4,000 || 
+|| +3 || 18,000 || +3 || 9,000 || 
+|| +4 || 32,000 || +4 || 16,000 || 
+|| +5 || 50,000 || +5 || 25,000 || 
+|| +6 || 72,000 || +6 || 36,000 || 
+|| +7 || 98,000 || +7 || 49,000 || 
+|| +8 || 128,000 || +8 || 64,000 || 
+|| +9 || 162,000 || +9 || 81,000 || 
+|| +10 || 200,000 || +10 || 100,000 || 
+
+**Table: Weapons Special Qualities**
+||~ Weapon Special Quality ||~ Cost ||~ Sphere || 
+|| Adaptive || +1 bonus || Creation || 
+|| Allying || +1 bonus || Enhancement || 
+|| Bane || +1 bonus || Light || 
+|| Benevolent || +1 bonus || War || 
+|| Called || +1 bonus || Warp || 
+|| Conductive || +1 bonus || Death || 
+|| Conserving || +1 bonus || Warp || 
+|| Corrosive || +1 bonus || Destruction || 
+|| Countering || +1 bonus || Enhancement || 
+|| Courageous || +1 bonus || Mind || 
+|| Cruel || +1 bonus || Death || 
+|| Cunning || +1 bonus || Divination || 
+|| Deadly || +1 bonus || Death || 
+|| Defending || +1 bonus || Protection || 
+|| Distance || +1 bonus || Divination || 
+|| Dispelling || +1 bonus || Life || 
+|| Flaming || +1 bonus || Destruction || 
+|| Frost || +1 bonus || Destruction || 
+|| Furious || +1 bonus || Mind || 
+|| Ghost touch || +1 bonus || Warp || 
+|| Grayflame || +1 bonus || Fate || 
+|| Grounding || +1 bonus || Weather || 
+|| Guardian || +1 bonus || Protection || 
+|| Heartseeker || +1 bonus || Death || 
+|| Huntsman || +1 bonus || Divination || 
+|| Impervious || +1 bonus || Protection || 
+|| Jurist || +1 bonus || Enhancement || 
+|| Keen || +1 bonus || Enhancement || 
+|| Ki focus || +1 bonus || Enhancement || 
+|| Limning || +1 bonus || Light || 
+|| Lucky || +1 bonus || Fate || 
+|| Menacing || +1 bonus || War || 
+|| Merciful || +1 bonus || Life || 
+|| Mighty cleaving || +1 bonus || War || 
+|| Mimetic || +1 bonus || Protection || 
+|| Neutralizing || +1 bonus || Nature || 
+|| Ominous || +1 bonus || Mind || 
+|| Planar || +1 bonus || Conjuration || 
+|| Reliable || +1 bonus || Creation || 
+|| Returning || +1 bonus || Telekinesis || 
+|| Quenching || +1 bonus || Nature || 
+|| Seaborne || +1 bonus || Nature || 
+|| Seeking || +1 bonus || Divination || 
+|| Shock || +1 bonus || Destruction || 
+|| Spell storing || +1 bonus || Destruction || 
+|| Thawing || +1 bonus || Nature || 
+|| Throwing || +1 bonus || Telekinesis || 
+|| Thundering || +1 bonus || Destruction || 
+|| Valiant || +1 bonus || War || 
+|| Vicious || +1 bonus || Death || 
+|| Advancing || +2 bonus || War || 
+|| Anarchic || +2 bonus || Fate || 
+|| Anchoring || +2 bonus || Enhancement || 
+|| Axiomatic || +2 bonus || Fate || 
+|| Corrosive burst || +2 bonus || Destruction || 
+|| Defiant || +2 bonus || Life || 
+|| Designating, lesser || +2 bonus || Fate || 
+|| Dispelling burst || +2 bonus || Life || 
+|| Disruption || +2 bonus || Life || 
+|| Dueling || +2 bonus || Enhancement || 
+|| Endless ammunition || +2 bonus || Creation || 
+|| Flaming burst || +2 bonus || Destruction || 
+|| Furyborn || +2 bonus || Mind || 
+|| Glorious || +2 bonus || Light || 
+|| Holy || +2 bonus || Fate || 
+|| Icy burst || +2 bonus || Destruction || 
+|| Igniting || +2 bonus || Destruction || 
+|| Impact || +2 bonus || Telekinesis || 
+|| Invigoration || +2 bonus || Life || 
+|| Ki intensifying || +2 bonus || Enhancement || 
+|| Lifesurge || +2 bonus || Life || 
+|| Negating || +2 bonus || Fate || 
+|| Phase locking || +2 bonus || Warp || 
+|| Shocking burst || +2 bonus || Destruction || 
+|| Stalking || +2 bonus || War || 
+|| Unholy || +2 bonus || Fate || 
+|| Wounding || +2 bonus || Death || 
+|| Lucky, greater || +3 bonus || Fate || 
+|| Nullifying || +3 bonus || Protection || 
+|| Reliable, greater || +3 bonus || Creation || 
+|| Repositioning || +3 bonus || War || 
+|| Speed || +3 bonus || Time || 
+|| Spell stealing || +3 bonus || Destruction || 
+|| Brilliant Energy || +4 bonus || Light || 
+|| Dancing || +4 bonus || Enhancement || 
+|| Designating, greater || +4 bonus || Fate || 
+|| Nimble Shot || +4 bonus || Divination || 
+|| Second Chance || +4 bonus || Telekinesis || 
+|| Vorpal || +5 bonus || Death || 
+
+**Table: Armor Special Qualities**
+||~ Armor/Shield Special Quality ||~ Cost ||~ Sphere ||
+|| Benevolent || +1 bonus || War || 
+|| Arrow Catching || +1 bonus || Abjuration || 
+|| Balanced || +1 bonus || Telekinesis || 
+|| Bashing || +1 bonus || Enhancement || 
+|| Bitter || +1 bonus || Alteration || 
+|| Blinding || +1 bonus || Light || 
+|| Bolstering || +1 bonus || War || 
+|| Brawling || +1 bonus || Enhancement || 
+|| Champion || +1 bonus || Fate || 
+|| Clangorous || +1 bonus || Destruction || 
+|| Creeping || +1 bonus || Dark || 
+|| Dastard || +1 bonus || Fate || 
+|| Deathless || +1 bonus || Protection || 
+|| Defiant || +1 bonus || Light || 
+|| Fortification, light || +1 bonus || War || 
+|| Grinding || +1 bonus || Enhancement || 
+|| Impervious || +1 bonus || Enhancement || 
+|| Mirrored || +1 bonus || Protection || 
+|| Poison-Resistant || +1 bonus || Life || 
+|| Rallying || +1 bonus || Mind || 
+|| Ramming || +1 bonus || Destruction || 
+|| Spell storing || +1 bonus || Destruction || 
+|| Stanching || +1 bonus || Life || 
+|| Warding || +1 bonus || Protection || 
+|| Wyrmsbreath || +1 bonus || Destruction || 
+|| Adhesive || +2 bonus || Alteration || 
+|| Animated || +2 bonus || Enhancement || 
+|| Arrow Deflection || +2 bonus || Protection || 
+|| Delving || +2 bonus || Alteration || 
+|| Hosteling || +2 bonus || Warp || 
+|| Merging || +2 bonus || Creation || 
+|| Putrid || +2 bonus || Death || 
+|| Radiant || +2 bonus || Light || 
+|| Spell Resistance (13) || +2 bonus || Protection || 
+|| Energy Resistance || +3 bonus || Protection || 
+|| Fortification (moderate) || +3 bonus || War || 
+|| Ghost Touch || +3 bonus || Warp || 
+|| Harmonizing || +3 bonus || Illusion || 
+|| Invulnerability || +3 bonus || Protection || 
+|| Martyring || +3 bonus || Life || 
+|| Spell Resistance (15) || +3 bonus || Protection || 
+|| Titanic || +3 bonus || Alteration || 
+|| Wild || +3 bonus || Alteration || 
+|| Energy Resistance, Improved || +4 bonus || Protection || 
+|| Spell Resistance (17) || +4 bonus || Protection || 
+|| Energy Resistance, Greater || +5 bonus || Protection || 
+|| Etherealness || +5 bonus || Alteration || 
+|| Fortification (heavy) || +5 bonus || War || 
+|| Reflecting || +5 bonus || Protection || 
+|| Spell Resistance (19) || +5 bonus || Protection || 
 
 ----
 
