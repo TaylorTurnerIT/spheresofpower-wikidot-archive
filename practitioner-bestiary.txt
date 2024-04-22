@@ -2,6 +2,9 @@ title:Practitioner Bestiary
 parent:spheres-of-might
 [[toc]]
 
+++ Creating Practitioner Monsters
+See the [[[Sphere Bestiary]]] page for guidelines on creating monsters as practitioners.
+----
 ++ ##993300|Martial Monster Tactics##
 
 Combat spheres allow PCs to change tactics, add combat maneuvers and special attacks to their repertoire, and still be able to move around the field as necessary. However, for a truly dynamic and cinematic combat, the enemies the PCs face need to create movement and tactical variety as well, whether through being mobile combatants themselves, or through having abilities that allow them to shove, jostle, and drag their opponents around the battlefield. The following are a few examples of traditional enemy types you can easily adapt to this dynamic:
@@ -46,10 +49,21 @@ The following talents are designed to add a little extra edge and flexibility to
 You may deliver any poison you possess through your bite or sting natural attack, and may apply the effects of any (toxin) talent you possess to your own racial poison, if any, at the time of the attack (for example, a wyvern with this talent who damages a creature with its poisonous sting could apply any (toxin) talent it knows to its poison before the creature makes its save).
 
 +++ ##993300|Athletics##
+++++ Compact Girth [SA:MT2]
+**Prerequisites:** Athletics sphere (Canny Compression) or Athletics sphere, compression universal monster ability.
+
+When using an associated movement mode or standing still you can use the compression ability or the Canny Compression talent even without having to go into a tight space. Thus, a Gargantuan ooze could occupy a 10-by-10-foot space as long as it wants (but still retain its normal reach and size penalties). A creature cannot return to its normal space if the required spaces are currently occupied.
+
 ++++ Talon Snatch
 **Prerequisites:** Athletics sphere, talon natural attack, ability to attack a creature during your movement.
 
 Whenever you use Flyby Attack, Spring Attack, the Mobile Striker talent, or a similar ability to successfully attack a creature with a talon natural attack during your movement, you may attempt a drag combat maneuver against the target of your attack as a free action that does not provoke attacks of opportunity, though you cannot drag the creature farther than your remaining movement for the round.
+
++++ ##993300|Barroom##
+++++ Bloodsucker [SB:DE]
+**Prerequisites:** Barroom sphere, attach or bite natural attack.
+
+Whenever you successfully strike an opponent who possesses a Constitution score with an attach or bite natural attack, you may as a swift action gain the drunk status for a number of rounds equal to your practitioner ability modifier (minimum 1). You may gain the drunk status in this way, even if you lack a Constitution score.
 
 +++ ##993300|Berserker##
 ++++ Rending Claws
@@ -67,7 +81,7 @@ Whenever you successfully strike a single opponent with two wing natural attacks
 ++++ Multi-Limbed Combat [Apoc]
 **Prerequisites:** Dual Wielding Sphere, two or more offhand attacks.
 
-When making your offhand attacks with the Dual Wielding sphere, you may make an additional off-hand attack with every off-hand weapon or natural attack you possess whose limb is not already engaged in making an attack. For every additional attack take an additional -2 penalty to all your attack rolls. You may forgo making additional attacks with extra limbs to reduce the penalty for fighting like this by 2 (to a minimum of 4). **Associated Feat:** Multi-attack, Multiweapon Fighting.
+When making your offhand attacks with the Dual Wielding sphere, you may make an additional off-hand attack with every off-hand weapon or natural attack you possess whose limb is not already engaged in making an attack. For every additional attack take an additional -2 penalty to all your attack rolls. You may forgo making additional attacks with extra limbs to reduce the penalty for fighting like this by 2 (to a minimum of 4). **Associated Feat:** Multiattack, Multiweapon Fighting.
 
 +++ ##993300|Duelist##
 ++++ Blood Drinker
@@ -77,13 +91,42 @@ Whenever you successfully deal damage with a bite natural attack to a creature c
 
 +++ ##993300|Equipment##
 ++++ Breath Weapon Specialist [Apoc]
-**Prerequisites:** Breath weapon universal monster ability that deals damage.
+**Prerequisites:** Breath weapon universal monster ability that deals damage (Or a similar ability deemed appropriate by the GM).
 
-You have learned to use your breath weapon in a more refined manner, allowing you to use it as a weapon. The weapon uses the base statistics of a longbow (adjusted for size), except using your breath weapon’s distance as a range increment if it’s longer, and using your breath weapon’s damage type. If the breath weapon deals multiple types of damage choose a single type of damage it inflicts with every shot (you can choose to deal multiple types of physical damage with one shot).
+You have learned to use your breath weapon in a more refined manner, allowing you to use it as a weapon. The weapon deals 1d8 damage (1d6 if you're small), has a critical multiplier of X3, has a range increment of 100 ft or your breath weapon's distance (whichever is longer) and deals the same type of damage as your breath weapon. If the breath weapon deals multiple types of damage choose a single type of damage it inflicts with every shot (you can choose to deal multiple types of physical damage with one shot). Using this weapon doesn't count towards uses of your breath weapon (it doesn’t count towards uses per day, or how often your breath weapon can be used). Specific additional effects of the breath weapon don’t apply. When used this way, creatures hit by the breath weapon don’t get a save for half damage.
 
-Specific additional effects of the breath weapon don’t apply. This weapon has unlimited ammunition and does not provoke attacks of opportunity to reload. Otherwise it functions as a regular weapon and can be used in conjunction with talents and feats that depend on one. When used this way, creatures hit by the breath weapon don’t get a save for half damage. At the time of selecting this talent you can choose if your weapon is considered a thrown weapon or not.
+This weapon has unlimited ammunition and does not provoke attacks of opportunity to reload (which is a free action). Otherwise it functions as a regular weapon and can be used in conjunction with talents and feats that depend on one (Though it may not function with some talents such as using the lancer sphere with a weapon of liquid acid). At the time of selecting this talent you can choose if your weapon is considered a thrown weapon or not (If used as a thrown weapon, it counts as a one handed thrown weapon). 
 
 You can select this talent twice to allow the weapon to target touch AC.
+
+**Author's Note:** The "weapon" granted by this talent can be targeted and interacted with as though it were a normal weapon (i.e. enhanced with the Enhancement sphere, and so on).
+
+++++ Cast Iron Stomach [SA:MT2]
+**Prerequisite:** Swallow whole universal monster ability.
+
+The armor class of your stomach increases to 10 + your natural armor bonus + your practitioner modifier. In addition the amount of damage required in order to escape your stomach is increased to 1/4 your hit points.
+
+++++ Extradimensional Stomach [SA:MT2]
+**Prerequisite:** Swallow whole universal monster ability.
+
+Increase the maximum size category of the creature you could normally swallow by one size category. You can also have double the normal amount of creatures swallowed at once. So a Gargantuan-sized creature with the swallow whole ability and this talent would be able to swallow up to 2 creatures of Gargantuan size.
+
+The amount of creatures you can swallow at once increases by 1 for every 5 points of base attack bonus you possess. If taken an additional time, increase the maximum size category of the creature you could normally swallow by two size categories. This is a supernatural effect and your stomach is considered extradimensional space.
+
+++++ Impervious Hide [SA:MT2]
+**Prerequisite:** At least +2 natural armor bonus.
+
+You may add your natural armor bonus to your touch AC. If you choose to do so, your natural armor bonus no longer stacks with armor bonuses to AC (such as from worn armor or the Unarmored Training talent or similar abilities).
+
+++++ Web Expertise [SA:MT]
+**Prerequisite:** Web universal monster ability.
+
+Increase the amount of times per day you can use the web ability by twice your practitioner modifier.
+
+Additionally you gain the following benefits with your web:
+* Add your base attack bonus to Perception checks to detect your web.
+* Increase its base range increment by 10 feet and its maximum range is increased to 200 feet. It can remain connected to you as if a net with a rope.
+* You can generate your web as a rope as a free action with a 50 foot length + 10 per Hit Die, hit points equal to twice your Hit Dice, and a Break DC equal to 20 + 1/2 your Hit Dice + practitioner modifier. If used to tie up grappled creatures the penalty to do so is reduced to -5.
 
 +++ ##993300|Lancer##
 ++++ Gore Toss
@@ -97,14 +140,97 @@ Whenever you impale a creature who is your size or smaller with your gore natura
 
 You may treat your tail (if you possess one) as a shield for the purposes of feats and talents that require a shield. In addition, you gain a +2 shield bonus to your AC as long as you have a tail.
 
+++++ Warding Wings [BTH]
+**Prerequisites:** Shield sphere, wings or wing natural attack.
+
+You may treat your wings as a shield (buckler, light shield, or heavy shield) for the purposes of feats, talents, and effects that require a shield.
+
+In addition, you gain a +1 shield bonus to your AC as long as you have wings and creatures take a -1 penalty on attack rolls against you while you are in the air. If you possess wing natural attacks, increase the shield bonus from this talent to +2.
+
++++ ##993300|Trap##
+++++ Silky Trap [SA:MT]
+**Prerequisites:** Trap sphere, web universal monster ability.
+
+You can expend a use your web as part of creating a trap. If done so, creatures that are hit by your darts or fail a saving throw against your snares become entangled by your web as well.
+
 +++ ##993300|Wrestling##
+++++ Combat Swallow [SA:MT2]
+**Prerequisites:** Wrestling sphere, engulf or swallow whole universal monster ability.
+
+Creatures that you swallow whole or engulf are considered to be grappled by you for Wrestling sphere effects that modify the effects of grapples (such as the Choke Hold or Inescapable Grasp talents). They are still inside of you and cannot work off effects that depend on holding a creature (so the Rest Hold talent would not apply). If an effect would require ending a grapple to work, you expel the creature as part of your effect (and as such could not be performed if your mouth was full).
+
+In addition you may expend martial focus as an immediate action at the beginning of your turn to apply a (slam) talent to a creature you have inside of you as if you successfully maintained a grapple against the target. If a (slam) effect allows you to perform a melee attack on a swallowed target (such as Clinch Strike) you may only perform an unarmed strike, in this case representing a controlled intestinal muscle spasm.
+
+++++ Compulsive Eating [SA:MT2]
+**Prerequisites:** Wrestling sphere, bite natural attack.
+
+Any bite natural attacks you possess are treated as having the grab special attack. In addition you gain the swallow whole universal monster ability dealing 1d6 bludgeoning damage + an additional 1d6 acid damage per 3 Hit Dice (the damage type may be substituted for something more appropriate depending on the GMs discretion). You may swallow creatures up to one size smaller than yourself. If you already possess either the grab or swallow whole universal monster abilities, you also gain a +2 competence bonus to your CMB and CMD when performing, maintaining, or resisting a grapple.
+
+++++ Intestinal Tangle (slam) [SA:MT2]
+**Prerequisites:** Wrestling sphere (Combat Swallow), engulf or swallow whole universal monster ability.
+
+You may make a grapple check against a creature that you have swallowed and grappled inside of you. If successful that creature is pinned until the end of your next turn. If the creature is already pinned or unconscious you instead tie them up with internal strands of mucus or other such gastrointestinal materials. This material has a number of hit points equal to your Hit Dice and a Break DC of 20 + 1/2 your Hit Dice.
+
+++++ Rapid Swallow (slam) [SA:MT2]
+**Prerequisites:** Wrestling sphere (Combat Swallow), engulf or swallow whole universal monster ability.
+
+When you succeed on a grab check granted to your bite as part of a grab special attack, you can expend your martial focus to make an additional grab check against the target. If you succeed the creature is immediately swallowed.
+
 ++++ Tentacle Squeeze
 **Prerequisites:** Wrestling sphere, tentacle natural attack.
 
 Any tentacle attacks you possess are treated as having the constrict and grab special attacks. Your constrict ability deals damage equal to your tentacle natural attack’s normal damage. If you already possessed either the constrict or grab special attack, you also gain a +2 competence bonus to your CMB and CMD when performing, maintaining, or resisting a grapple.
 ----
+++ ##993300|Monster Drawbacks##
+The following drawbacks were designed for monsters. Players looking to take one of the following drawbacks should seek GM approval first:
+
+++++ Leader of Monsters [SA:MT]
+You must select the (cohorts) package when you first gain the Leadership sphere and gain the Advanced Cohorts talent as this drawback’s bonus talent. You cannot recruit cohorts from towns or other such places, and they cannot possess class levels (including NPC levels).
+
+All your cohorts must be individual creatures that have joined you. Your cohorts may possess no Intelligence score greater than 2, and creatures sharing your type treat their Hit Dice as equal to their CR for the purpose of determining the number of Hit Dice required from your Hit Dice pool to possess them as a cohort.
+----
+++ ##993300|Monster Feats##
+Feats with the (Monster) tag were designed for monsters and NPCs. Players should not take such feats without GM approval.
+
++++ Artisanal Breath (Monster) [SA:MT2]
+You can manipulate your inner breath as a true extension of your body.
+
+**Prerequisites:** Breath weapon universal monster ability; casting or martial focus.
+
+You are a master of channeling your breath weapon into unusual shapes. If your breath weapon is a cone, you can channel it into a line twice its length. If your breath weapon is a line, you can channel it into a cone that is half its base length.
+
+Your breath weapon counts as the destructive blast ability from the Destruction sphere and may be modified by talents with the (blast shape) descriptor. In addition, you may take (blast shape) talents without having the Destruction base sphere.
+
+If a (blast shape) would require you to make an attack roll, your breath weapon becomes a melee or ranged touch attack with a range of close.
+
+**Special:** If you lack the casting feature, you substitute your Hit Dice for your caster level and your practitioner modifier for casting modifier the purposes of calculating any of its effects, and may take Destruction (blast shape) talents as combat talents. If a talent requires you to expend a spell point as part of applying a blast shape, you instead expend your martial focus and cannot use your breath weapon again for 4 rounds. You can concentrate on an effect by spending a standard action each turn.
+
++++ Focusing Exhalation (Monster) [SA:MT2]
+Whenever a foe is engulfed in your flames you regain your composure.
+
+**Prerequisites:** Breath weapon universal monster ability, martial focus.
+
+**Benefit:** Whenever a creature fails a saving throw against your breath weapon, you can regain martial focus as an immediate action.
+
++++ Tricky Underlings (Combat, Monster) [SA:MT]
+Your followers maintain your traps in your stead.
+
+**Prerequisites:** Trap sphere (Persistent Trap), Leadership sphere ((followers) package, Base Of Operations).
+
+**Benefit:** When you create a Trap sphere trap (including trap doors) within an area you declared your base of operations you can have its duration increased to permanent as long as one of your cohorts or followers there spend at least an hour each day maintaining it (trap doors can be maintained with only 10 minutes of work). If a trap is activated, disabled, or broken it can be reset, enabled, and fixed with an hour of work from a follower.
+
+As normal for followers, the space must be safe for them to visit reliably and maintain, and will not maintain traps in areas they find dangerous.
+
+You can have a number of permanent traps this way equal to your practitioner modifier plus half your ranks in Diplomacy (and do not count towards the maximum persistent traps you can have at once). Trap doors do not count towards this limitation.
+
+----
 ++ ##993300|Martial Monster Traditions##
 The following martial monster traditions can be used to quickly modify a monster with a handy array of abilities that can make it a more dynamic combatant. Generally, a monster should have at least three feats listed in its entry which it can sacrifice to take a martial monster tradition, but GMs can also add a tradition without exchanging anything by treating the tradition as a +1 CR template. If you are the GM of a group with highly optimized characters who typically easily defeat encounters with CRs above their APL, adding a martial monster tradition to your monsters without increasing their CR can be a viable option for making your encounters more challenging. Monsters who would gain a feat or talent already granted by their tradition may take any other feat or talent they qualify for instead. Martial monster traditions do not necessarily follow the same formula as standard martial traditions, and players shouldn’t take a martial monster tradition without GM approval.
+
++++ ##993300|Alchemical Trapper## [SB:F&F]
+Alchemical trappers are careful and cunning creatures who take time to prepare alchemical items and assemble traps to protect their homes. The alchemical trapper tradition is best used on intelligent, patient and creative creatures who can creatively lay traps across their territory.
+
+* **Bonus Talents:** Alchemy sphere ((formulae) package, Improved Flash Powder, Snap Toss), Trap sphere (Trap Wielder)
 
 +++ ##993300|Assassin##
 Assassins are monsters that specialize in hit and run tactics, darting in to strike a foe before retreating to safety. The assassin tradition is best used on monsters with high Dexterity and Acrobatics scores.
@@ -118,11 +244,32 @@ Behemoths are giant powerhouses who dominate their surroundings through strength
 * **Bonus Talents:** Brute sphere, Smash, Stampede
 * **Variable:** Behemoths gain one talent of their choice from the Brute sphere, or gain Unarmed Training from the Equipment sphere.
 
++++ ##993300|Breath Devastator## [SA:MT2]
+Breath devastators take area devastation to the next level. They remain at a distance while their foes are mulched into paste. The breath devastator tradition works best with creatures with powerful breath attacks.
+
+* **Bonus Talents:** Equipment sphere (Breath Weapon Specialist)
+* **Bonus Feats:** Artisanal Breath, Focusing Exhalation
+* **Variable:** Breath devastators gain the Sniper sphere or their choice of (blast shape) talent from the Destruction sphere.
+
 +++ ##993300|Butcher##
 Butchers don’t care about taking hits so long as they can give them back tenfold, combining brutal strikes and impaling to end their enemies quickly. The butcher tradition is best used on monsters with high Strength and hit points.
 
-* **Bonus Talents:** Berserker sphere, Bloody Counter Lancer base sphere
+* **Bonus Talents:** Berserker sphere, Bloody Counter
+* Lancer base sphere
 * **Variable:** Butchers gain one talent of their choice from either the Berserker or Lancer spheres.
+
++++ ##993300|Crafty Predator## [SA:MT]
+Some creatures are smart enough to adjust their environment to better capture prey. This works best for spiders, carnivorous plants that blend in with their environment, or other such creatures.
+
+* **Bonus Talents:** Trap sphere (Persistent Traps, Trap Door), Equipment sphere (Natural Materials)
+* **Variable:** Crafty Predators gain either the Alchemy or Scout sphere and one talent of their choice from the corresponding sphere.
+* **Drawbacks:** Slow Worker
+
++++ ##993300|Devourer## [SA:MT2]
+While there are many creatures that can swallow their prey whole, devourers make sure they stay swallowed. The tradition works best for larger creatures with high Strength and hit points.
+
+* **Bonus Talents:** Wrestling sphere (Compulsive Eating), Berserker sphere
+* **Variable:** Devourers get one talent of their choice from the Wrestling sphere, or gain Cast Iron Stomach from the Equipment sphere.
 
 +++ ##993300|Dragon##
 Dragons are the undisputed rulers of their dominions, dominating all who oppose them. The dragon tradition is best used on Large or larger monsters with a fly speed.
@@ -131,17 +278,73 @@ Dragons are the undisputed rulers of their dominions, dominating all who oppose 
 * **Bonus Talents:** Brute base sphere
 * **Variable:** Dragons gain either the Wing Buffet monster talent from the Brute sphere, or the Berserker sphere as a bonus talent.
 
++++ ##993300|Dungeon Dweller## [SA:MT2]
+Dungeon dwellers make dungeons their natural habitats and learn to cohabitate with its innate dangers. This applies to natural dungeons such as underground cave networks as well as man made dungeons such as crypts.
+
+* **Bonus Talents:** Athletics sphere (package should reflect monster’s primary movement mode), Scout sphere (Heightened Awareness)
+* **Variable:** Dungeon dwellers gain one talent of their choice from the Athletics or Scout sphere.
+
++++ ##993300|Eldritch Knight## [SB:DE]
+Eldritch knights are practitioners who dedicate most of their time into martial prowess, but supplement their training with magical abilities. The eldritch knight tradition is best used on monsters who are primarily martial, but have one single magical or supernatural ability, like warp spiders.
+* **Bonus Talents:** Your choice of any single talent from the Equipment sphere.
+* **Variable:** Your choice of Arcane Armor, Armor Training, Shield Training, Unarmed Training, or Unarmored Training.
+* **Bonus Feats:** Basic Magic Training, Advanced Magic Training
+
++++ ##993300|Fey Hooligan## [SB:F&F]
+Fey Hooligans are tricksters, malcontents, and playful fey who dart in and out of reach, playing tricks on their foes and disrupting the flow of combat. The fey hooligan tradition is best used on smaller fey creatures with playful natures who can make use of Close Quarters Training.
+
+* **Bonus Talents:** Athletics sphere ((run) package, Close Quarters Training), Scoundrel sphere (Playing Dirty)
+
++++ ##993300|Minion Master## [SA:MT]
+Minion masters bully those weaker than themselves into submitting as their minions. While those weaker creatures rarely provide massive combat support, they can be leveraged into supporting their master in other ways.
+* **Bonus Talents:** Leadership sphere (Base Of Operations, Expanded Leadership), Trap sphere (Persistent Traps)
+* **Bonus Feats:** Tricky Underlings
+* **Variable:** Minion masters gain one talent of their choice from the Leadership or Trap sphere.
+* **Drawbacks:** Dread Master, Sedentary, Slow Worker
+
 +++ ##993300|Octopus##
 The octopus is not necessarily an actual octopus, but is any aberration, plant, or other creature that possesses vines, tentacles, or other appendages designed to grab an opponent and wrap them up so they can’t escape, often before poisoning them or swallowing them whole.
 
 * **Bonus Talents:** Wrestling base sphere, Tentacle Squeeze (the octopus may treat any vines or other similar natural attacks as tentacles for this talent).
 * **Variable:** Octopuses gain either the Alchemy sphere and the Virulent Sting talent, or the Berserker sphere and one talent from that sphere.
 
++++ ##993300|Organic Archer## [SA:MT2]
+Organic archers do not necessarily use bows or generate organic projectiles, but represent monsters with a focus on naturalistic ranged attacks. This could represent creatures with innate weaponry (such as breath weapons or launching spines) or those that leverage weapons from the existing environment.
+* **Variable:** Organic archers gain Breath Weapon Specialist or the Rock Toss (discipline) talent from the Equipment sphere
+* **Variable:** Organic archers gain the Barrage sphere and Mobile Focus talents, or the Berserker sphere and Barbaric Throw talents.
+* **Variable:** Organic archers gain the Athletics sphere (package should reflect monster’s primary movement mode), and the Mobile Striker or Skillful Charge talent.
+
++++ ##993300|Pack Alpha## [SA:MT]
+Many creatures hunt in packs, and at the head of the pack is the alpha. The one responsible for ensuring the pack’s safety and the one that reaps the most rewards. This tradition works best for creatures that leverage numbers to their advantage.
+* **Bonus Talents:** Leadership sphere ((cohorts) package, Advanced Cohorts, Greater Recruitment, Pack Tactics)
+* **Variable:** Pack Alphas get one additional combat talent of their choice.
+* **Drawbacks:** Leader Of Monsters
+
++++ ##993300|Pack Hunter## [SB:DE]
+Pack hunters are practitioners who rarely travel alone, and almost exclusively with others with the pack hunter martial tradition. Lions, velociraptors, and wolves all make great pack hunters.
+
+* **Bonus Talents:** Guardian sphere (patrol) package, Warleader sphere
+* **Variable:** Pack hunters gain either the Athletics or Scout sphere, and one talent of their choice from the corresponding sphere.
+
++++ ##993300|Parasite## [SB:DE]
+Parasites are practitioners who are usually in it for the long game. They are patient killers who are not in a hurry to drop their foe, but prefer to attach themselves to their foe slowly draining their lifeforce. Leeches and other vermin are the most common parasites, although this tradition may also be fitting for vipers and other disease or poison-ridden animals.
+
+* **Bonus Talents:** Boxing sphere, Wrestling sphere
+* **Variable:** Parasites gain either the Alchemy sphere (poison) package or Scout sphere, and one talent of their choice from the corresponding sphere.
+
 +++ ##993300|Power Forward##
 The power forward is a monster that forces his enemies to come to him and then punishes them for doing so. The power forward tradition is best used on high strength monsters with natural reach of 10 ft. or greater.
 
 * **Bonus Proficiencies:** The power forward gains either proficiency with all shields and shield bashes, or the Protective Tail talent from the Shield sphere (the monster must have a tail or a reliable means of obtaining one to choose the latter option). The monster also gains the Muscular Reflexes and Shield Slam feats, even if it would not normally qualify for them.
 * **Bonus Talents:** Shield Sphere, Redirecting Shield
+
++++ ##993300|Spider## [SB:DE]
+The spider is not necessarily always a vermin, let alone arachnid in appearance, but is any creature who modifies their environment, creating traps for their prey.
+
+* **Bonus Talents:** Trap sphere, Drawbacks Focused Trapper (dart): Net, Guardian sphere (patrol) package
+* **Variable:** Spiders gain either the Scout or Wrestling sphere, and one talent of their choice from the corresponding sphere.
+
+**Note:** Despite possessing the (dart) package of the Trap sphere, spiders should almost exclusively use the Net (dart) talent (refluffed as webbing) when laying traps.
 
 ++ ##993300|Optional Abilities##
 Many monsters have abilities that are designed around full attack mechanics, or which rely on older, outdated mechanics that don’t stack up very well against the options available in the modern game. In the following section, we’ll discuss some of these mechanics and how you can exchange or update them to make your monsters more dynamic and effective.
