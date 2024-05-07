@@ -1,0 +1,282 @@
+title:Communication
+[[module CSS]]
+.colored-links span > a {
+  color: inherit;
+}
+[[/module]]
+
+[[module CSS]]
+.noselect {
+  -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome and Opera */
+}
+[[/module]]
+
+[[toc]]
+
+[[tabview]]
+[[tab Spheres of Guile]]
+[[div class="noselect" style="float:right; width: 20%; padding: 0 2%"]]
+[[=]]
+[[image http://spheresofpower.wikidot.com/local--files/test-page/spheres-of-guile.png link="https://www.drivethrurpg.com/product/431419/Spheres-of-Guile?affiliate_id=549120"]]
+**Spheres of Guile**
+$24.99
+----
+[[/=]]
+[[/div]]
+Operatives of the Communication sphere are skilled at clear speech, clever wordplay, persuasive rhetoric, and translation across all sorts of differences. They can easily understand other creatures despite language barriers. Others listen to the operative and weigh their words seriously.
+
+**Associated Skill:** Diplomacy or Linguistics. Choose one to be the associated skill when you gain the sphere.
+
+You gain the following benefits when you gain the Communication sphere.
+
+You gain 5 ranks in that skill, plus 5 ranks per additional talent spent in the Communication sphere (maximum ranks equal to your Hit Dice). If you already have ranks in the associated skill not from a skill sphere, you may immediately retrain them.
+
+**Skill Leverage:** You unlock skill leverage with the Diplomacy and Linguistics skills.
+
+**Bonus Talent:** You gain a bonus talent with the (rapport) tag, described below. It cannot be an exceptional talent. If you choose a [utility] talent as this bonus talent, you can take the base sphere as a [utility] talent.
+
+You also gain the Betray and Build Rapport abilities.
+
+++ ##4B0092|Betray (Ex)##
+You can outwit allied NPCs, but only as part of taking a hostile action against them. If a creature believes you are an ally, you can outwit the creature by worsening their attitude (generally to hostile, though the GM might rule otherwise).
+
+++ ##4B0092|Build Rapport (Ex)##
+When you interact with a creature that is not hostile to you within 30 feet, you can choose to form a rapport with that creature as a standard action, or as a move action if you know one of the creature’s motivations. You cannot form a rapport with a mindless creature. The rapport remains until 24 hours pass, you or the creature chooses to end the rapport as a swift action, or you form another rapport. You can form a rapport with multiple creatures at once if you know a motivation for each of them, up to a number of targets equal to your operative ability modifier.
+
+You can always use gestures to communicate simple concepts to creatures you share a rapport with without using words just as easily as with words, regardless of whether you share a language. Communicating complex information this way requires a successful DC 25 Linguistics check; failing by 5 or more conveys inaccurate information rather than what the creature intended to share.
+
+Each creature that shares a rapport with you (including you) automatically succeeds at Bluff (or Linguistics) checks to send secret messages to each other, although they still attempt a skill check to determine if observers understand. They can use their Linguistics modifier in place of their Bluff modifier to pass the secret message at no penalty.
+
+You can choose one or two (rapport) talents you have when you form a rapport and apply the effect to creatures sharing your rapport (including you). You can only choose two (rapport) talents to apply at once if one or both of them have the [utility] tag.
+
+If you target a creature who already shares a rapport with someone else, you can join the existing rapport without counting against its maximum number of targets, and you can add one of your own (rapport) talents for all members to benefit from. You cannot add a talent the rapport already has. This replaces build rapport’s usual effect.
+----
+++ ##4B0092|Communication Talent Types##
+Some Communication talents have the (rapport) tag described below.
+
+++++ Rapport
+(Rapport) talents grant additional benefits to creatures you form a rapport with. You may only apply the effects of a single (rapport) talent when forming a rapport, or two talents if one of them has the [utility] tag. These talents provide a benefit to all creatures that share your rapport, which always includes you (unless noted otherwise).
+----
+++ ##4B0092|Communication Talents##
+++++ Analytical Linguist [utility]
+You can decipher script or read lips at a distance of up to close range (25 feet + 5 feet per 2 ranks in the associated skill) without having to attempt a skill check. When attempting a skill check to read lips, you may use your Linguistics modifier in place of your Perception modifier. When attempting to read lips without being trained or understanding spoken or signed communication you do not know, you always understand simple concepts even if you fail your Linguistics check.
+
+++++ Beast Whisperer [utility]
+You can communicate and understand simple concepts with any animal, magical beast, or vermin that lacks a language. Its comprehension is limited by its Intelligence, but even a mindless creature can understand simple directions to food or warnings about danger. You take a –4 penalty on skill checks that would otherwise be impossible to attempt with the creature. You can use the associated skill in place of Handle Animal to push an animal. In addition, you unlock skill leverage with Handle Animal.
+
+++++ Careful Liar [utility]
+You carefully phrase your lies to prevent their implications from being as obvious, talking circles around your target. You can use your Linguistics modifier in place of Bluff to pass a secret message at no penalty. As long as you take at least 1 round to lie or convey an implausible truth (like casting a spell with a 1 round casting time), you can use your Linguistics modifier for the Bluff check. For every 2 ranks in the associated skill you possess, you reduce penalties for unlikely, far-fetched, or impossible claims by 1 as long as you spent at least 1 round making the attempt. (Successfully telling an impossible lie still merely convinces the target you are honestly mistaken.)
+
+You may make a Diplomacy check in place of a Linguistics check to deniably phrase a Bluff or Intimidate check. If you spend 1 use of skill leverage, you may deniably phrase the Bluff or Intimidate check after you have already failed such a check or may deniably phrase the Bluff or Intimidate check of an ally in your rapport.
+
+++++ Clever Contextualization
+You halve any penalties to your Bluff, Diplomacy, Handle Animal, Intimidate, Linguistics, or Perform skill checks for targeting a creature of animal level intelligence, a different size category, a different social class or culture, or a different creature type. You likewise halve any increase to a DC or a bonus opponents get to their opposed skill checks in those circumstances.
+
+You also reduce by 2 any bonus to saving throws a creature gets due to its creature type against your mind-affecting effect (such as hideous laughter or a creature that gets a bonus for being targeted when otherwise immune via Communication Breakthrough).
+
+++++ Conversational Decorum [approach] [utility]
+You may adopt this approach as a standard action. While in this approach, you are aware of any action that could cause a creature’s attitude towards you to shift negatively. You acquire this information prior to performing such an action. In addition, you become aware of any changes in a creature’s attitude towards you or another creature you can perceive due to your own or another creature’s actions, gaining this insight after such an action is made.
+
+You can spend 1 use of skill leverage when you or any ally within your rapport take such an action to instead have the action be something you or they simply thought of, but did not actually do.
+
+++++ Heart To Heart [utility]
+You can bare your soul with a major motivation or comparable secret (Diplomacy option on page 43) to use build rapport as a move action. (This might be a goal you care deeply about, a vulnerability the target could exploit, or a desire the target could hold over you.) You can include one hostile creature in your rapport as long as they didn’t know the revealed secret. If you reveal a motivation that closely aligns with the major motivations of any creature you invite to your rapport this way, you learn that they do unless they succeed at a Bluff check opposed by your associated skill check. If you lie, the minimum Bluff penalty is –5 and the rapport also ends if the lie comes to light.
+
+If you share your rapport with an unfriendly or hostile creature, they must succeed at a Will saving throw or become uncertain for 1 minute. They can only leave the rapport by successfully ending the uncertain condition, which they can attempt a Will save to do as a move action once per turn. While you share your rapport with an unfriendly or hostile creature, you and anyone who shares your rapport can make requests of them that are not costly or risky as if they were indifferent.
+
+This does not prevent them taking actions against you or your allies. The first time you successfully make a request of the target while the rapport lasts, the creature accidentally or willingly shares a useful piece of information in addition to granting your request. The fact is chosen by the GM to be useful in influencing or harming the target; you can choose whether you prefer to influence or harm the target by the sort of things you talk about. A minor motivation or tactical vulnerability is a suitable piece of information.
+
+In addition, you regain 1 use of skill leverage whenever you first invoke a creature’s goal or other motivation as part of a successful Diplomacy or Linguistics check or Communication talent, even in the middle of an encounter. The creature must pose a significant challenge to you (in combat or otherwise). You cannot regain skill leverage again this way until you regain it from another source.
+
+++++ Keep ‘Em Talking
+You can distract a creature with your words. The creature must be able to understand your words and be within 60 feet. You can choose either to fascinate the target or to distract the target from an ongoing effect you choose; you can only distract them from an auditory or visual mind-affecting effect that allowed a saving throw or required a skill check.
+
+If you attempt to fascinate a target, it can negate the effect with a successful Will saving throw. On a failure, it remains fascinated for 2 rounds per rank you possess in the associated skill or until you cease conversing with it as a move action each round, whichever comes first. Actions you spend keeping the target fascinated do not slow down your attempts to use skills over rounds or minutes.
+
+To distract the target from a mind-affecting effect, you must succeed at a skill check using your associated skill against the effect’s skill check result or save DC. If you succeed against a skill check, the effect ends. If you succeed against a save DC, the target attempts a new saving throw against the mind-affecting effect at the end of your turn each round with a +4 bonus, ending the effect on a success.
+
+You can also spend a standard action to fascinate or distract another target each round you maintain this talent, each time taking a cumulative –4 penalty on checks you make to use the talent and to your save DC for this talent and allowing currently fascinated opponents a new Will save to end the effect. When the fascinated condition ends on a target by any means, you cannot fascinate them with this talent again for 24 hours. When you possess 10 or more ranks in the associated skill, the foe takes a –10 penalty to all Perception checks while fascinated rather than the typical –4. This is a language-dependent effect.
+
+++++ Mediator’s Mien [approach]
+Adopting this approach is a swift action. Whenever a creature first becomes aware of you while you maintain the approach and would otherwise have a starting attitude of unfriendly or hostile toward you, you can attempt a Diplomacy check to improve their attitude without using an action. The improvement ends when you abandon this approach.
+
+Even if your allies take hostile actions, opponents who are not yet hostile to you do not become worse than unfriendly toward you as long as you do not take hostile actions yourself and do not take actions to help your allies fight more effectively (or you prevent them from noticing you took such an action).
+
+++++ Mental Loophole
+You can use the Linguistics skill to find a loophole (new skill use) in any mind-affecting effect other than a curse. If the effect was language-dependent, the new save is attempted with a +4 insight bonus. You end the effect if the new saving throw succeeds. This is a harmless language-dependent, mind-affecting effect.
+
+++++ Not The Face
+When a creature targets you with a hostile effect, you can convince them to show a moment of mercy as a free action even if it is not your turn if you spent at least a swift action on your last turn talking (or otherwise communicating) with that creature. You cannot target a creature that you have taken a hostile action against in the past 24 hours. Unless they succeed at a Will saving throw, the creature must target another creature or take a different action.
+
+Once a creature succeeds at this saving throw, they are immune to this talent for 24 hours or until you improve their attitude toward you. This is a language-dependent effect.
+
+++++ Reputable [plan] [utility]
+You can spread a positive rumor that improves your reputation with 1 hour of effort in a settlement or among members of an organization. You can also reveal such a rumor as a plan. You attempt a Diplomacy check to improve a creature’s attitude when you spread the rumor and apply the result to the first time you encounter each creature from that group or settlement who has not encountered you before or since you last gained a level. If you exceed the DC by 5 or more, the creature also gains the impressed condition for 10 minutes upon meeting you. A hostile creature’s attitude cannot be improved this way.
+
+++++ Peaceful Resolution
+You can attempt Diplomacy checks to make requests as a move or standard action and can make reasonable requests of hostile creatures even without appealing to motivations. In combat, hostile creatures generally only consider requests to establish rules of battle, such as neither side attacking neutral or helpless targets.
+
+You can also attempt to change a creature’s attitude over the course of 1 round by spending 1 use of skill leverage, even in combat. (Like casting a spell with a casting time of 1 round, you do not attempt your Diplomacy check until the start of your next turn.) Attempting this check in combat is only possible if you and your apparent allies take no hostile actions or other actions to prepare for further combat (including moving into advantageous positions, drawing tactically useful items, or casting spells).
+
+You take a –20 penalty on your check if the target has time-limited tactical advantages such as short-duration spells in effect. If you succeed, the target cannot take hostile actions against you without succeeding at a Will saving throw for 1 minute or until you or your apparent allies take a hostile action. On a failed save, the creature can choose a different action.
+
+**Associated Feat:** Call Truce (Pathfinder Roleplaying Game Ultimate Intrigue).
+
+++++ Polyglot [utility]
+You learn 3 languages, plus 1 language for every rank you have in Linguistics. When you gain a rank in Linguistics, you learn an additional language beyond the 1 you usually learn. If you gained this talent temporarily, you must choose languages known by allies within 60 feet whom you already shared a language with.
+
+++++ Rabble-Rouser
+When you use Diplomacy or Linguistics with a limited number of targets, you can choose another target per 2 ranks in the associated skill you possess. When you increase the number of targets for a skill check, you attempt a single check and compare it to the DC for each target separately. You also increase the number of allies you can include in your rapport by 1 + 1 per 7 ranks you possess in the associated skill.
+
+If you have at least 7 ranks in the associated skill, you can target an additional creature with any Communication talent that affects a limited number of targets.
+
+In addition, you can direct a crowd to move as you wish as a swift action and need not attempt a skill check unless an opponent is also trying to guide the crowd in a different direction. You cannot urge crowds into an area obviously more harmful to them than their current location.
+
+++++ Revise Rapport
+As a swift action or as part of an action to aid another, you change the (rapport) talents you applied to your existing rapport.
+
+++++ Shocking Gossip [utility]
+If you successfully alter a target creature’s attitude toward a third party using the Diplomacy skill and either spend 1 use of skill leverage or invoke the target’s motivation, the target must succeed at a Will saving throw or gain one of the following conditions: shocked (if you worsened their attitude) or impressed (if you improved their attitude, in which case the target is impressed with the subject of your gossip). Either condition lasts for 10 minutes. If the target's Hit Dice are lower than your ranks in the associated skill, the effect lasts for 1d4 rounds even on a successful save.
+
+In addition, you can spend 1 use of skill leverage to use the Diplomacy skill to alter a creature’s attitude toward a third creature as a standard action, even in combat.
+
+++++ Skilled Communicator [utility]
+When you gain this talent, you gain Bluff, Diplomacy, or Linguistics as an additional associated skill for this sphere. You also unlock skill leverage with the skill if you have not already; if you have, you unlock skill leverage with another skill of your choice that you are trained in. (You cannot choose a skill already associated with the sphere.)
+
+++++ Subtle Coaxing [utility]
+Over a conversation of at least 1 minute, you can manipulate a target into doing something seemingly of their own volition without realizing you are influencing their choices. You attempt a Diplomacy check with the same base DC and modifiers as making a request of them. You can attempt to coax actions even from creatures who would not normally consider your request, but the target must believe they will benefit from the action in some way. Targets only realize you were attempting to manipulate them if you fail the check by 10 or more, in which case their attitude toward you generally worsens by at least one step.
+
+++++ Subtle Humiliation [utility]
+You are a master of demonstrating you are dangerous through very subtle, clever wordplay that leaves your victim unsure you have even really threatened them even as they take care not to draw your ire. You can use your Linguistics skill modifier for Intimidate checks against targets you can communicate with. If you choose to spend longer to use Intimidate to improve a creature’s attitude or pose a menace (whether or not you substitute your Linguistics modifier), the action is not interpreted as aggressive, does not break invisibility or other effects ended by your hostile actions, and never worsens a creature’s attitude toward you. Improving a creature’s attitude subtly takes 5 minutes. Posing a menace (new skill use) subtly takes 1 round (as if casting a spell with a casting time of 1 round).
+
+++++ Wordmonger [plan] [utility]
+You can gather information in 1d4 x 10 minutes or as a plan. Revealing this plan is a swift action. When you reveal this plan, you attempt a Diplomacy check to gather information. You can take 10 on this check.
+
+In addition, when you request someone give you information, you can spend 1 use of skill leverage to goad them into accidentally telling you more than they meant to. That might mean giving you a partial clue even while refusing or spilling a vital tactical detail when they meant to just give you a vague outline of the situation. You cannot coax extra information out of the same person this way again for 24 hours.
+----
+++ ##4B0092|Rapport Talents##
+++++ Bolstering Rapport (rapport)
+Creatures that share your rapport understand each other well enough to share their willpower. Whenever a creature sharing your rapport (including you) attempts a Will saving throw, another creature sharing the rapport may spend an immediate action to attempt a skill check with the associated skill against the DC of the saving throw; if successful, the saving throw is attempted with a +2 morale bonus. This can be used after the result of the roll to change the outcome, and both allies must be able to see or hear each other to give an encouraging word, meaningful glance, or other sign of support.
+
+Similarly, a creature sharing your rapport can spend an immediate action when an enemy attempts an Intimidate check against another creature sharing your rapport with to grant a +4 morale bonus to the DC of the check.
+
+These benefits increase by 1 for every 6 ranks you possess in the sphere’s associated skill.
+
+++++ Clockwork Coordination (rapport)
+You can coordinate a collaborative project as flawlessly as if the collaborators shared one mind. When a creature who shares your rapport successfully aids another creature who shares your rapport with a skill use, the recipient of the aid can forgo the bonus in order to complete the skill use faster. You cannot use Clockwork Coordination on a skill use that cannot benefit from aid another, and neither the aid another action nor the aided skill use can be combined with other actions (for example, Acrobatics is always combined with other move actions). If the skill use would normally take 2 rounds or longer, the recipient of the aid finishes in half the time. If the skill use would normally take 1 round or less, reduce the time it takes by one step along this list: 1 round, 1 full-round action, 1 standard action, 1 move action, 1 swift action, 1 immediate action (taken at the end of the turn the aid was received).
+
+++++ Communal Pidgin (rapport) [utility]
+Each creature who shares your rapport can understand simple concepts conveyed in any language known to any creature who also shares your rapport and can likewise convey simple concepts to a creature who shares any of those languages. This allows them to communicate with others who do not share your rapport without requiring an ally to translate as long as the concept is simple. When a creature joins this rapport, they can choose any number of languages they know to withhold from the group (for example, druids are required by their oaths to withhold Druidic). You can proficiently speak and understand all the languages of each creature who shares your rapport if you know one of their major motivations and they know one of yours.
+
+++++ Communication Coach (rapport)
+You choose one Communication talent you possess and temporarily grant it to each creature that shares your rapport. It must not be an exceptional talent. This counts as a [utility] talent for your count of (rapport) talents applied to a rapport if the talent you grant to others has the [utility] tag.
+
+**GM’s Note:** Some talents might not make sense to grant this way, so it is best to go over the talents a character might grant this way before they come up in play.
+
+++++ Corrective Advice (rapport) [utility]
+Your allies are quick to view their efforts from another perspective when collaborating with a skill. When any creature that shares your rapport successfully uses the aid another action with a skill they are trained in, they grant an additional +1 competence bonus on the aided check. The bonus increases by 1 for every 6 ranks you possess in the associated skill.
+
+In addition, if a creature who shares your rapport fails on a skill check that another creature sharing the rapport aided, either one of them (but not both) can spend 1 use of skill leverage as a free action even if it’s not their turn to allow the failing creature to roll again (still with the bonus from aid another) and use the new result (even if it is worse). Either the creature who failed or the creature who aided must have unlocked skill leverage with that skill to spend it this way.
+
+++++ Friend Of A Friend (rapport)
+Creatures that share your rapport know just the right way to introduce each other. When a creature who shares your rapport improves a creature’s attitude toward them, the new attitude towards them also applies to all creatures that share your rapport (unless the target’s attitude would otherwise be better). If any creature that shares the rapport takes an action that worsens someone’s attitude, they no longer benefit from this talent against the offended creature.
+
+In addition, whenever one of you charms a creature or uses a language-dependent or mind-affecting ability that prevents a creature from attacking or targeting one of you, they can also extend that protection to all creatures that share your rapport by spending a move action identifying those allies in a way the target can understand. If the effect can be ended by saving throws or hostile actions, breaking it for any character sharing the effect breaks it for all sharing characters.
+
+++++ Inspiring Advice (rapport) [utility]
+You let your allies know just what to say for others to learn from their experiences. Whenever a creature that shares your rapport attempts a skill check, another creature sharing the rapport within 30 feet can spend 1 use of skill leverage to verbally aid another as an immediate action before the recipient rolls their skill check if either of them have unlocked skill leverage with that skill.
+
+++++ Instant Loophole (rapport)
+You can use the Linguistics skill to find a loophole (new skill use) in an effect targeting you or a creature that shares your rapport as an immediate action. If you successfully interrupt the effect beginning, you and everyone who can understand you can roll twice and use the higher result for their saving throw. (This counts as using find a loophole on that effect, so you cannot find a loophole in that effect again for 24 hours.)
+
+++++ Monitor Movements (rapport)
+Each creature that shares your rapport (including you) instinctively knows how the others act in combat, allowing them to avoid getting in the way of each other’s actions. Each creature knows where their allies are as long as they have line of sight, even if they are invisible or using Stealth, and whether they are conscious. No creature that shares your rapport provides soft cover against the attacks of any of the others. Each gets a +2 insight bonus to AC against each other’s attack and on saving throws against each other’s spells and abilities. The bonus increases by 1 for every 6 ranks in the associated skill you possess.
+
+++++ Perfect Synchronization (rapport) [utility]
+Whenever a creature that shares your rapport attempts a skill check with which they have unlocked skill leverage, they can spend 1 use of skill leverage after rolling to guide other creatures within 60 feet who share your rapport in attempting the same skill check if they can see or hear the guiding creature. Each guided creature that attempts the same skill check before the start of the guiding creature’s next turn can use the guiding creature’s d20 roll instead of rolling. Each creature still uses their own skill modifier.
+
+++++ Veiled Dialogue (rapport) [utility]
+Any creature who shares your rapport can use your associated skill modifier to pass secret messages and takes no longer than speaking plainly to do so. In addition, all who share your rapport can communicate up to 25 words per round with just a look or a gesture, so that observers cannot tell they are communicating at all without succeeding at a Perception or Sense Motive check against DC 20 + your ranks in the sphere’s associated skill. Among other things, this allows them to briefly discuss tactics during an encounter without alerting foes as long as they can see or touch each other.
+----
++ ##4B0092|Exceptional Talents##
+++++ Communication Breakthrough
+**Prerequisites:** Linguistics 3 ranks, Communication sphere.
+
+Plant creatures, constructs, oozes, vermin, and undead that share your rapport and who know at least one language are not immune to your language-dependent abilities even if those abilities are mind-affecting. If you also have the Beast Whisperer talent, you can add non-construct mindless creatures to your rapport and affect any non-construct creatures that share your rapport with language-dependent effects even if they don’t have a language. If a creature would otherwise be immune, it gets a +5 bonus on saving throws against the effect.
+
+You can choose this talent multiple times. Each time you take it after the first, choose a creature type. Creatures of that type do not have to share your rapport for you to bypass their immunity to language-dependent mind-affecting effects (although they must still know a language unless you have the Beast Whisperer talent).
+
+++++ Demanding Letter [utility] [plan]
+**Prerequisites:** Associated skill 3 ranks, Communication sphere.
+
+You have many contacts among merchants, explorers, mages, and other travelers who can carry your missives far and wide. You can reveal a plan that you have sent a missive to a recipient up to 100 miles away per rank in the associated skill you possess. The target receives the letter when you reveal the plan. You must unambiguously identify the recipient by name or location and profession. Someone impersonating the target at their usual location receives the letter in their place.
+
+If you cannot adequately specify the target, the letter returns to you unopened the next day. If the target hides from the public, the letter finds them if they have left a trail that could be found with a successful Survival check using your associated skill modifier.
+
+If you possess at least 7 ranks in the associated skill, the range is anywhere on the same planet and has a chance to find a target if their trail is within 100 miles of any settlement. If you possess at least 10 ranks, the range extends to any plane of existence known to you and can reach targets who are hidden as long as they are not shielded from magic that would reveal their location.
+
+If you spend 1 use of skill leverage, the letter can carry the effect of any one use of Diplomacy or of a Communication talent you possess, but only to the intended recipient and only if they read it. You must spend an additional use of skill leverage to impart the effect of an exceptional talent. The effect of the letter lasts no more than 24 hours once read, even if it would usually last longer.
+
+++++ Disenchanting Diatribe
+**Prerequisites:** Linguistics 5 ranks, Communication sphere (Mental Loophole).
+
+You can use Linguistics to find a loophole in any one spell that allowed a Will saving throw other than a curse. If the spell was mind-affecting, the new save is attempted with a +4 insight bonus. You end the spell if the new saving throw succeeds.
+
+If you have at least 10 ranks in Linguistics, you can find a loophole in any curse (regardless of whether it allowed a saving throw or what the save was) if you spend 1 minute and a total of 2 uses of skill leverage per target and your Linguistics check succeeds against the DC to dispel it. If the curse did not normally allow a save, the target can attempt a Will saving throw to end it.
+
+++++ Failure To Communicate (approach) [utility] [Jester's Handbook]
+**Prerequisites:** Linguistics 5 ranks, Communication sphere (Veiled Dialogue (utility)). 
+
+Adopting this approach is a swift action. Until you adopt a new approach, you distract all other creatures from communicating using any language, causing affected creatures to shout nonsense or make distracting gestures instead of their intended speech. Each other creature within 60 feet of you is unable to use or understand any language or provide verbal components for spellcasting until it leaves this approach’s radius or this approach ends. A creature may attempt a Will saving throw as a standard action. You cannot affect a creature with this approach for 24 hours after they successfully save against this effect. This is a visual and auditory effect. Creatures are only affected by this approach as long as they can see or hear you. This is a supernatural effect.
+
+++++ Flawless Rapport (rapport) [utility] (Su)
+**Prerequisites:** Linguistics 10 ranks, Communication sphere (Veiled Dialogue).
+
+You can establish a better rapport with your allies by spending 1 hour in deep conversation or another emotionally intimate activity with those allies. This action does not take longer if you and the creatures you share a rapport with each know at least one major motivation of at least one other creature sharing the rapport. Creatures who share your rapport can communicate telepathically with each other. This telepathic communication can be over any distance and does not require a shared language.
+
+++++ Green Whisperer (rapport) [utility] (Su)
+**Prerequisites:** Knowledge (nature) 7 ranks or Linguistics 7 ranks, Communication sphere.
+
+You can communicate with any plant or fungus or ooze, even one that is not a creature, by forming a rapport with it as a standard action. When you form a rapport with a mindless target, you can spend 1 use of skill leverage to allow it to recall vague details about what has transpired within 30 feet of it during the previous 24 hours. If the target is normally immobile, you can spend another use of skill leverage to magically impart on it the ability to lean aside or grasp objects within reach equal to its height, which are released if you form a rapport with another immobile target. This is a supernatural effect.
+
+++++ Inspire Devotion
+**Prerequisites:** Diplomacy 10 ranks, Communication sphere.
+
+You can use the Diplomacy skill to improve a creature’s attitude toward you above helpful, but only if you appeal to one of the creature’s major motivations as part of a Diplomacy check to improve its attitude. If you do and either you exceed the DC to make the creature helpful by 5 or you make an already helpful creature helpful, the target attempts a Will saving throw. On a failed save, for 1 hour per rank in Diplomacy you possess the creature gains a new minor motivation: their relationship with you. On a successful save, the target’s new motivation lasts for 1 round.
+
+While the creature has this motivation, you need not attempt checks to request help that is not costly. They grant one modestly costly request without compensation, including assisting you in combat if they believe they are unlikely to die. You cannot target that creature again for 24 hours. This is a mind-affecting charm effect.
+
+At 15 ranks, this motivation is a major one.
+
+++++ Omniglot [utility]
+**Prerequisites:** Linguistics 7 ranks, Communication sphere.
+
+You can speak and understand any language after you hear it spoken for at least 1 minute, as well as sign and understand any nonverbal language after you see it signed for at least 1 minute. You can learn to read and write a language by having it read for you for 1 minute (which might mean someone repeating the text in a language you know, or a parallel piece of text that says the same thing in a language you know). You can learn to speak or sign and understand a language in 1 round by spending 1 use of skill leverage. You can learn to read and write a language when you succeed at a Linguistics check to decipher the writing by spending 1 use of skill leverage. You can only learn one language from this talent at a time per 5 ranks you possess in Linguistics; learning more than that causes you to forget a previous one of your choice.
+
+++++ Overwhelming Suggestion
+**Prerequisites:** Diplomacy 5 ranks, Communication sphere.
+
+As a standard action, you can make a request without attempting a Diplomacy check as long as you can phrase it as furthering one of the target’s desires or goals or avoiding one of the target’s fears (however tenuously). The target attempts a Will saving throw. They get a +5 bonus on the saving throw if the request would be costly or dangerous to them. On a failed save, they agree for 1 hour as long as the request is not obviously self-destructive. You cannot target that creature again for 24 hours. This is a language-dependent mind-affecting compulsion effect.
+
+++++ Stone Whisperer (rapport) [utility]
+**Prerequisites:** Knowledge (dungeoneering) 13 ranks or Linguistics 13 ranks, Communication sphere.
+
+You can communicate with any construct, magic item, or Gargantuan or smaller continuous piece of stone, even one that is not a creature, by forming a rapport with it as a move action. When you form a rapport with a mindless target, you can spend 1 use of skill leverage to allow it to recall vague details about what has transpired within 30 feet of it during the previous 24 hours. If the item or stone is normally immobile, you can spend another use of skill leverage to magically impart on it the ability to lean aside or grasp creatures or objects within reach equal to its height, which are released if your rapport ends. This is a supernatural effect.
+----
++ ##4B0092|Drawbacks##
+
+++++ Aggressive [alternate start]
+You use Intimidate for the associated skill. You cannot communicate simple concepts or complex information with creatures you share a rapport with. Instead, you can use Intimidate to demand cooperation from any creature who shares your rapport or whose motivation you know as a full-round action without taking a penalty.
+
+++++ Animal Whisperer [alternate start]
+You find it much easier to empathize and relate to beasts. You may only use your Communication sphere abilities with creatures of the animal, magical beast, or vermin types, and use Handle Animal in place of the associated skill. You gain the Beast Whisperer talent from this drawback.
+[[/tab]]
+[[/tabview]]
+
+[[include sog-template]]
