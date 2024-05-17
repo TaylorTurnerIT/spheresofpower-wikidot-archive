@@ -1,0 +1,462 @@
+title:Artifice
+[[module CSS]]
+.colored-links span > a {
+  color: inherit;
+}
+[[/module]]
+
+[[module CSS]]
+.noselect {
+  -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome and Opera */
+}
+[[/module]]
+
+[[toc]]
+
+[[tabview]]
+[[tab Spheres of Guile]]
+[[div class="noselect" style="float:right; width: 20%; padding: 0 2%"]]
+[[=]]
+[[image http://spheresofpower.wikidot.com/local--files/test-page/spheres-of-guile.png link="https://www.drivethrurpg.com/product/431419/Spheres-of-Guile?affiliate_id=549120"]]
+**Spheres of Guile**
+$24.99
+----
+[[/=]]
+[[/div]]
+Operatives of the Artifice sphere are adept at using objects to their fullest potential at a fast pace, offering operatives ways of creating, fixing, and augmenting objects to make them fit the operatives needs at a given moment.
+
+**Associated Skill:** One Artistry or Craft skill (depending on your chosen package).
+
+You gain the following benefits when you gain the Artifice sphere:
+
+You gain 5 ranks in the chosen associated skill, plus 5 ranks per additional talent spent in the Artifice sphere (maximum ranks equal to your Hit Dice). If you already have ranks in the associated skill you may immediately retrain them.
+
+**Skill Leverage:** You unlock skill leverage with your chosen package’s associated skill, and one Artistry skill, one Craft skill, or Knowledge (engineering).
+
+**Package:** When you gain the Artifice sphere, you gain one of the following packages with its included trinket function. You may take the Expanded Artificer talent to gain an additional package. When you gain a package, you choose one of the package’s associated skills to be the associated skill for that package and its effects.
+
+Additionally, you gain the Trinket and Cobbled Creation abilities.
+
+++ ##4B0092|Trinket (Ex)##
+You can spend 1 minute with an artisan’s kit to create a temporary, makeshift object, called a trinket. The necessary materials for creating a trinket are gathered over the course of a given day; there is no monetary cost to creating a trinket. A trinket replicates an object that is associated with the packages you possess, but cannot be magical, alchemical, or require knowledge you do not possess (such as a key you do not have a copy of that fits a lock you did not construct).
+
+A trinket shares the same statistics as the replicated item, including the material it is typically made of (although you may alter this as long as you have the appropriate materials).
+
+You must succeed at a Craft check against the replicated object’s Craft DC to create a fully-functional trinket; you can take 10 on this check, even while distracted or in combat. If you succeed, the trinket lasts for 1 hour, plus an additional 10 minutes per point that your check exceeds the Craft DC (maximum 24 hours); if you fail, the trinket only lasts for 30 minutes. Regardless of the result, you can add a single function to the trinket; which can be changed by spending 1 minute with an artisan’s kit.
+
+A created trinket returns to its base components after the duration has elapsed. Trinkets that are particularly complex or involve moving parts increase the Craft DC by 5.
+
+The trinket’s size must normally be at least two size categories smaller than you, although you can increase the time to create the trinket by 5 minutes and the Craft DC by 5 to increase the size category of the trinket by one, to a maximum size one size category larger than you. This time and DC increase is cumulative for each size category adjustment. Some trinkets must be made to be a larger size to be functional, such as a ladder, clothing, etc.
+
+A trinket is relatively simple (DC 0 Appraise) to recognize that it has no monetary value.
+
+**Note:** You cannot create a trinket that replicates an item from another sphere talent (even if you possess that sphere), such as an Alchemy sphere formulae, Trap sphere trap, etc.
+
+++ ##4B0092|Cobbled Creation [approach] (Ex)##
+You can adopt this approach as a swift action. While maintaining this approach, you can create a trinket as a full-round action, even if you do not have access to an artisan’s kit. When you create a trinket this way, it only lasts for 1 round per associated skill rank you possess. You can create a larger trinket this way by spending 1 round (not a full-round action) for each minute normally required.
+----
+++ ##4B0092|Artifice Sphere Packages##
+
+++++ Artwork Package
+Your creations are mostly for creative expression, outward appearance, and hidden meanings. Your trinkets can replicate the function of objects such as flags, art pieces, statues, clothing, jewelry, items used for Charisma-based skill checks (such as musical instruments), or any other form of artistic expression.
+
+**Associated Skill:** Artistry (choreography, literature, musical composition, or playwriting) or Craft (books, calligraphy, carpentry, cloth, clothing, glass, jewelry, musical instruments, paintings, pottery, sculptures, stonemasonry, tattoos, or taxidermy).
+
+You can provide the following function to your trinkets:
+
+**Social (+5 DC):** You create a trinket that can be used to help in certain social situations. When you create this trinket, choose a specific faction, cultural group, or motivation. The user gains a +2 circumstance bonus to Charisma-based ability checks and skill checks when attempted against members of the chosen faction, people belonging to the chosen cultural group, or creatures who possess the chosen motivation.
+
+++++ Fabrication Package
+You are versed in the wider scope of creation and construction, creating things that have more generic, domestic uses than other packages. When you gain this package, your trinkets can replicate the function of objects that increase your carrying capacity (such as a basket or backpack), offer a different or enhanced mode of transport (such as a rope, ladder, sledge, etc.), or are tools suitable for skill checks (such as a crowbar or magnifying glass).
+
+**Associated Skill:** Craft (baskets, blacksmithing, carpentry, clockwork, cloth, clothing, glass, leather, locks, mechanical, shoes, or stonemasonry).
+
+You can provide the following function to your trinkets:
+
+**Tool (+5 DC):** You create a trinket that can be used as a tool that grants a +2 circumstance bonus to an Artistry, Craft, or Profession skill you are trained in, Strength or Dexterity checks (except initiative checks), or to a Strength- or Dexterity-based skill check of your choice, chosen when you create this trinket.
+
+++++ Gear Package
+The things you create have specific, functional uses, and typically need to be held or worn to be of any use. When you gain this package, your trinkets can replicate the function of objects that damage objects or surfaces (such as a saw or drill), are ammo or weapons (or function as improvised weapons), or that can be worn (such as armor, clothing, or manacles). If you replicate a weapon that you are not proficient with, you must be able to examine such a weapon (or talk with a creature who is proficient) while creating the trinket, and it is considered to be complex when determining its Craft DC. You can only replicate weapons that you have seen before.
+
+**Associated Skill:** Craft (alchemy, armor, blacksmithing, bows, clothing, firearms, leather, shoes, traps, or weapons).
+
+You can provide the following function to your trinkets:
+
+**Weapon (+5 DC):** You create a trinket that can be used as a simple light melee or ranged weapon that you are proficient with, which deals 1d6 bludgeoning, slashing, or piercing damage (chosen when created) for a Medium-sized creature (changing to 1d4 for a Small creature, or 1d8 for a Large creature). If it is a ranged weapon, it has a range of 60 feet, can be reloaded as a move action, and is created with 20 pieces of ammunition.
+
+||~ Weapon Type ||~ Size Adjustment (From Size of Intended Wielder) || 
+|| Shuriken, needles, etc. || Four sizes smaller || 
+|| Daggers || Three sizes smaller || 
+|| Light weapons || Two sizes smaller || 
+|| One-handed weapons || One size smaller || 
+|| Two-handed weapons || Same size || 
+
+A trinket with the weapon function has the fragile weapon quality. (Pathfinder Roleplaying Game: Ultimate Equipment).
+----
+++ ##4B0092|Artifice Talent Types##
+Some talents are marked (artwork), (fabrication) or (gear), granting you unique ways of altering and creating things; you must possess at least one relevant package to gain such a talent.
+
+++++ Artwork
+A creature can engage with an artwork for 1 minute to gain its listed effects (unless otherwise specified), some of which allow the creature to adopt an approach associated with the talent. Engaging with an artwork is usually a visual, mind-affecting emotion effect, although some forms of artwork may be auditory.
+
+A play, musical composition, dance, or other text of a type of live performance must be performed for at least 1 minute for a creature to engage with it if they are not trained in the associated Artistry or Perform skill; if they are trained, they can simply read the text to engage with it. If an artwork talent is applied as a flourish, it does not require maintenance.
+
+++++ Fabrication
+(Fabrication) talents have an effect that requires the (fabrication) package.
+
+++++ Flourish
+Some Artifice talents are designated (flourish). Whenever you create an object using one of your package’s associated skills (including when you create a trinket), you can apply a single flourish to the created item. An object can only have a single flourish applied to it at one time. Some talents can only be added to certain items, which are listed in the talent’s description. If a talent provides multiple flourishes, each option is considered its own flourish.
+
+Additionally, you can spend 8 hours modifying an object to apply a flourish to it. A flourish that is applied to an object requires constant upkeep and refining, requiring you to spend at least 1 minute with an object every day you have applied a flourish to for it to function. Only you can perform this maintenance to a flourish, due to the specific nature of its construction. If a flourish does not receive maintenance for 24 hours, the flourish itself (not the attached object) ceases to function until it receives maintenance. Additionally, a flourish does not increase an item's value when sold, due to its unstable nature.
+
+Some flourishes require special or tailored maintenance, either for it to function or to improve its functionality; you can spend 1 use of skill leverage to provide special maintenance to a number of flourishes equal to your operative modifier (minimum 1).
+
+++++ Gear
+(Gear) talents have an effect that requires the (gear) package.
+
+++++ Trinket
+(Trinket) talents add one or more options when you create a trinket.
+----
+++ ##4B0092|Artifice Talents##
+++++ Artificer's Eye [approach] [utility]
+You can adopt this approach as a swift action. While you maintain this approach, you can spend a swift action observing a lock (or an object that includes a lock, such as a chest or door) to automatically determine whether it is open, closed, or jammed; you can instead spend a standard action to observe a lock to also determine the quality of the lock (simple, average, good, or superior).
+
+You can spend 1 use of skill leverage when adopting this approach. If you do you can spend a standard action to observe two objects and determine how related they are to one another, with potential options listed below:
+* **Identical:** The objects are an exact match, such as two teeth being from the same creature, or two fragments of cloth being from the same article of clothing.
+* **Related:** The objects are similar to one another but not exactly, or they have some sort of connection due to outside context (for example, a brick used to shatter a window, and the associated shattered glass would be related to one another).
+* **Unrelated:** The objects are not associated with each other in any way.
+
+++++ Confident Craftsmanship [utility]
+When crafting mundane items, you count your progress in gold pieces instead of silver pieces. You never ruin any material if you fail your check by 5 or more. At 5 ranks in the associated Craft skill, you may multiply your check result by 2 when counting your progress; this multiplier increases by 1 at 10 ranks and every 5 ranks thereafter. Also, the time required to craft a trinket is halved (this excludes if the trinket is created in 1 round or shorter).
+
+Additionally, when creating a masterwork item using a Craft skill you have unlocked skill leverage for, you pay for the materials for the masterwork component normally but ignore them when calculating how much progress you need to finish (effectively, the masterwork component costs no time).
+
+++++ Expanded Artifice
+You gain one Artifice sphere package which you do not already possess. You unlock skill leverage with the package’s associated skill (in addition to the other benefits associated with gaining a new package). You may select this talent multiple times, each time selecting a different package.
+
+++++ Favorite Tools [approach] [utility]
+When you adopt this approach as a swift action, you gain a +1 circumstance bonus when using a set of artisan’s tools, increasing by 1 per 5 ranks in the appropriate skill, and stacks with the bonus from using masterwork tools.
+
+++++ Field Repair
+As a standard action that provokes attacks of opportunity, you may make temporary repairs to an object, granting it temporary hit points equal to twice the number of ranks you possess in the associated skill. These temporary hit points may restore a broken item to functioning (or remove the broken condition on a firearm for the duration), but cannot raise its current hit points plus its temporary hit points beyond its maximum hit points. These temporary hit points last 10 minutes, but may be converted to normal hit points (effectively repairing the item) with 1 minute of work. Temporary repair requires an artisan’s kit for the Craft skill associated with the object; permanent repair also costs an appropriate amount of raw materials (generally 20% the item’s market price).
+
+++++ Forgery [plan] [utility]
+Whenever you disguise an object as an object (new skill use), you disguise it in the least time possible (usually to 10 minutes), or as part of creating a trinket. Whenever you disguise an object, using it does not automatically spoil the disguise, instead only allowing observers a new chance to attempt a Perception check against the disguise; if the discrepancy is minor, observers do not receive a chance to perceive the disguise.
+
+You can also use an appropriate Artistry skill to forge documents in place of Linguistics.
+
+Additionally, you can spend 10 minutes (or reveal as a plan) to attempt to create a copy of a key, although you must have some level of familiarity with the original key or lock to do so. Attempt a Craft check against the lock's Disable Device DC; on a success, the key functions as the original (bar any exceptional qualities it may possess). The Craft check may suffer a penalty due to how familiar you are with the key or lock.
+
+||~ Familiarity ||~ DC Penalty || 
+|| Have only description or have seen illustration || -16 || 
+|| Seen once or have illustration || -12 || 
+|| Seen repeatedly or handled || -8 || 
+|| Studied carefully || -4 || 
+|| Intimately familiar with || +0 || 
+
+You can reveal a plan as a standard action to treat your familiarity with an object as being one higher for an attempt.
+
+++++ Greater Trinkets
+When you create a trinket, they last 8 hours, plus an additional hour for every point your check exceeds the Craft DC before it returns to its base components. You can also create trinkets that are complex in nature without increasing its Craft DC.
+
+Additionally, while you maintain the cobbled creation approach, you can create a trinket as a standard action instead of a full-round action. For every 10 ranks you possess in the associated skill, this action cost is reduced by one step (standard to move, move to swift). This does not benefit trinkets created in 1 round or shorter, or those created with Cobbled Creation.
+
+++++ Magical Crafter [utility]
+You use your ranks in the associated skill as your caster level for the purposes of qualifying for item creation feats. You can create magic items using these feats, substituting your ranks in an appropriate Craft skill for your total caster level. If you do not have a caster level, you must use a Craft skill to create the item. The DC to create the item still increases for any necessary requirements you lack (see the magic item creation rules in the Pathfinder Roleplaying Game Core Rulebook).
+
+**Associated Feat:** Master Craftsman.
+
+++++ Nebulous Functionality [plan]
+When you prepare this plan, you can designate an additional function of a trinket you have created (or will create, if you possess the Secret Project talent) as a nebulous function.
+
+A nebulous function has no benefit, except that you or the trinket's user can reveal this plan as a swift or immediate action to replace the nebulous function with a function you could add to the trinket, making any checks or paying any costs when revealed. Regardless of who reveals the plan, it counts towards your prepared plans.
+
+++++ Reinforce Material
+You reinforce the object and the materials that make it up, usually by applying certain waxes, lotions, or similar maintenance techniques.
+
+Whenever you provide maintenance to a flourish, the attached object (if any) and the flourish does not deteriorate through natural causes (this includes effects that replicate natural deterioration, such as a rust monster’s rust ability) for as long as the flourish is active. Additionally, the object gains an additional amount of hit points equal to twice your operative ability modifier (minimum 2), in addition to increasing the Break DC and the wielder’s CMD against sunder maneuvers by an amount equal to your operative ability modifier (minimum 1).
+
+++++ Secret Project [plan]
+When you prepare this plan, you may set aside up to 10 gp worth of unspecified starting materials per rank in the associated skill you possess, working to create an item in the occasional moments you are able to break out your tools. When you reveal this plan, you produce an item you can create (including a trinket) with the unspecified starting materials. The Craft DC for the item must be no greater than 10 + the modifier for the Craft skill used + any bonuses from magic items or tools (if any). You may apply flourishes to this creation as normal.
+
+At 10 ranks in the associated skill, you may set aside up to 100 gp worth of starting materials per rank in the associated skill you possess.
+
+++++ Sizeable Trinkets
+You can treat your size as being one larger for the purposes of determining craft time and check DC increases when creating the trinket. You can also create trinkets up to two size categories larger than you, but the craft time is increased by an additional 30 minutes (instead of 5 minutes) for each step over your usual maximum size. For every 5 ranks in the associated skill you possess, you can create trinkets an additional size category larger than you, to a maximum size of Colossal.
+
+For example, if you are a Medium-sized creature and attempt to create a Colossal trinket, it would take you 105 minutes and increase the DC to create it by 30.
+
+++++ True Artist
+You may apply two flourishes to an item you create. You can take this talent an additional time for every 10 ranks you possess in the associated skill, allowing you to add an additional flourish for each time you have taken this talent.
+
+If you apply this to an artwork, you can have its gleaned meaning depend on the creature. You can designate when you create an artwork with multiple flourishes to have each applied artwork flourish confer its effects to certain creatures (including a specific creature). For example, you could have the Comforting Design talent only benefit your allies, and a distressing artwork only affect creatures from a certain faction.
+----
+++ ##4B0092|Flourish Talents##
+++++ Alloyed Plating (flourish)
+As part of applying this flourish, you choose another material to plate, reinforce, or otherwise apply to the crafted object. This requires you to provide the materials that would normally be required to create an object made of the special material (for example, applying this flourish to a chain shirt with mithral would cost 500 gp in mithral). The crafted object is treated as if it were the chosen material and its original material for overcoming damage reduction and uses the better of the two hardnesses and hit points and has the restrictions and penalties of both. If both materials apply a weight modifier, apply the new material’s alteration after the initial one. You may choose to give it the visual appearance of either, or both.
+
+Additionally, as long as the crafted object’s material cost increase does not exceed 500 gp, it no longer confers its detrimental effects (such as a silver weapon’s penalty to damage or gold armor’s fragile quality) and ignores any restrictions that the material possesses to what items it can be crafted into (such as creating glass armor or a bone weapon).
+
+At 10 ranks in this package’s associated skill, you can have the crafted object be treated as if it were both materials, choosing your preferred properties between each material when they are mutually exclusive and avoiding penalties and limitations on what kind of material can be used for the item regardless of the material’s cost.
+
+++++ Comforting Design (artwork, flourish)
+As a flourish, a creature can spend 15 minutes engaging with the artwork to gain a number of temporary hit points equal to twice your operative ability modifier (minimum 1). A creature can only benefit from the temporary hit points granted by this flourish twice per day, plus an additional time for every 5 ranks in associated skill you possess. Additionally, creatures who engage with the artwork can gain the following approach:
+
+**Serene [approach]:** A creature who adopts this artwork’s approach halves the duration of harmful emotion-based conditions and effects, to a minimum of 1 round. The creature also gains a +1 morale bonus to checks when taking 10 or 20, increasing by 1 per 5 ranks in this package’s associated skill.
+
+++++ Compound Creation (flourish)
+You can create items that possess multiple functions, choosing one additional item to add to the crafted item (as long as both items are within three size categories of each other, and is not a trinket). If the additional item is not already crafted, you must spend any costs associated with crafting the additional item. For every 10 ranks you possess in the package’s associated skill, you can incorporate an additional item into such a creation.
+
+You must succeed an additional Craft check against a DC equal to 5 + the additional item’s Craft DC to successfully apply this flourish. If you are successful, the user can spend a move action to switch between the two uses. The combined item weighs as much as the heavier item, but otherwise functions as whichever item it is being used as. At 5 ranks in this package’s associated skill, the user of the flourish can switch uses as part of the same action to draw a weapon, allowing them to do so as part of moving.
+
+Each item contained within the combined item is treated as their own individual item for the purposes of magic item creation. For example, if you create a combined dagger and longsword and attempt to give them a +1 enhancement bonus, it would require you to enhance the dagger and the longsword individually, as if it were a double weapon.
+
+If this flourish is applied to a trinket, the trinket can instead have an additional function, plus one additional function for every 10 ranks in the package’s associated skill you possess.
+
+++++ Convenient Designs (flourish, gear)
+You gain the following flourishes:
+
+**Applicator:** This flourish can only be applied to objects that hold weapons (such as a sheath, or a compartment flourish within a weapon). A single use of an oil, blanch, poison, or similar liquid can be applied to the flourish as a full-round action (which still runs the risk of exposing themselves to the poison). The next time a weapon is drawn from the object, the applied liquid is applied to the weapon, consuming it in the process. The flourish can only hold one use of a specific liquid at one time, plus an additional dose per 4 ranks in the associated skill you possess.
+
+**Compactible:** You can alter an object so that it can be folded up to occupy a smaller amount of space. While folded, the item is considered to be one size category smaller than its normal size, but cannot be used for its original purpose. A compactible object can be folded or unfolded as a swift action.  For every 5 ranks in the associated skill you possess, the item is considered to be an additional size category smaller than its normal size while folded.
+
+If you possess the Compound Creation talent, you can combine the uses of two incorporated items as part of applying the flourish, effectively allowing you to apply both uses of the items concurrently. The two items must generally have a similar method of use (as in, both being a held item for example; you could combine a longsword and a flute, but not a set of full plate and a guitar); up to GMs discretion.
+
+++++ Evocative Visuals (artwork, flourish)
+When you create an artwork, you may choose to have creatures who engage with the artwork become fascinated and distracted with the artwork for as long as they engage with the artwork. Additionally, you gain the following flourishes you may add to your artworks:
+
+**Articulating:** If you possess the Bluster or Performance sphere, you can add the effects of a single discouraging (lyric) or (quip) talent you possess to the artwork. The talent must not have any costs associated with it (such as outwitting a creature or skill leverage), and makes the effect visual or auditory as suits the artwork. Any checks associated with the chosen talent (such as a quip relying on an Intimidate check) are treated as if you had rolled a 10 on such a check. A creature that engages with the artwork is affected as if they were targeted by the chosen talent, receiving a saving throw if applicable. You can choose to have this effect use your Artifice sphere DC or the sphere DC of the chosen talent.
+
+**Distressing:** The artwork invokes a sharp emotional reaction, especially upon later exposure to the subject. Choose a creature as part of creating this artwork. When a creature engages with this artwork, they must succeed at a Will saving throw or for the next 24 hours, they become shaken, livid (against the chosen creature) or sickened for 1 minute whenever they perceive the chosen creature (Will negates the condition). If the affected creature has fewer Hit Dice than the ranks you possess in this sphere’s associated ranks, they become frightened, enraged or nauseated instead on a failed save.
+
+++++ Influential Artistry (artwork, flourish) [utility]
+You gain the following flourishes you can add to your artworks:
+
+**Dramatic:** This artwork naturally draws attention, and usually acts as an example of the best you can do. Creatures who engage with the artwork are treated as if you had performed an impressive display of skill towards them with a check result equal to 10 + the Craft bonus of the package’s associated skill.
+
+You can outwit a creature as a cost by expending the impressed condition inflicted by this flourish as an immediate action, forcing them to succeed at a Will saving throw or be unable to maintain any approaches (and lose any they are currently maintaining) for 8 hours, receiving a new saving throw against this effect every hour to negate the effect.
+
+**Review:** When you create this artwork, choose a creature or organization. Creatures who engage with the artwork and are friendly, indifferent, or unfriendly towards the chosen target must succeed at a Will saving throw or see the target in a different light, altering their attitude towards the target by one step (chosen when you apply this artwork). Friendly and unfriendly creatures get a +2 bonus on their saving throws. Additionally, the creature gains a minor motivation involving the target for 1 week, usually one that is in line with their current motivations.
+
+If the creature has Hit Dice at least 4 lower than your number of associated skill ranks, the creature does not receive a saving throw.
+
+If you have at least 5 ranks in the associated skill, you can spend 1 use of skill leverage when you create an artwork with one of these flourishes to have the artwork’s influence spread for 1 day. If a creature fails their saving throw against one of these flourishes, they are inclined to bring it up in idle conversation; creatures they interact with for more than 1 minute who do not avoid the topic of your artwork also engage with it (forcing them to attempt a saving throw, which can then spread the effect further). If triggered among the denizens of a settlement, this usually causes the settlement’s starting attitude toward the subject to change for 1 day; the GM should roll a saving throw for individuals who have interacted in the community when they encounter the subject to see if they have been affected.
+
+++++ Inspiring Composition (artwork, flourish) [utility]
+Whenever you create an artwork, you can spend any amount of uses of skill leverage to create a pool of skill leverage equal to the amount spent within the artwork. Creatures that engage with this artwork can withdraw any number of uses of skill leverage from the artwork’s pool, regaining the chosen amount of skill leverage uses.
+
+Any creature engaging with the artwork can use the basic uses of skill leverage (change tactics, draw on intuition, and seize an opportunity) in skills that you have unlocked skill leverage with for 24 hours.
+
+Unlike most (artwork) flourishes, this flourish must be maintained. Even with maintenance, the pool loses 1 use of skill leverage every 24 hours. If it does not receive maintenance for 24 hours, its pool becomes inaccessible until it is maintained. Whenever you provide maintenance to the artwork, you can spend skill leverage to refill the pool, up to a maximum equal to the original amount spent on the artwork.
+
+Additionally, as a flourish, the artwork can grant the following approach to creatures that engage with it:
+
+**Instructive [approach]:** When you create this artwork, choose two skills you are trained in. A creature who adopts this artwork’s approach gains a +2 competence bonus to one of the chosen skills (chosen when adopting the approach), increasing by 1 per 5 ranks in the associated skill you possess.
+
+++++ Sensory Protections (flourish, gear)
+The following options grant the wearer a +2 circumstance bonus to certain saving throws, depending on the flourish chosen. This bonus increases by 1 per 4 ranks in this package’s associated skill you possess.
+
+**Insulated (Head):** The bonus applies to saving throws against clouds, vapors, and gasses (such as cloudkill, stinking cloud, and inhaled poisons), in addition to any effects that would cause the sickened or nauseated condition.
+
+**Mirrored (Eyes):** The bonus applies to saving throws against (and to the skill DC to apply) gaze attacks and visual effects, in addition to any effects that would cause the dazzled or blinded condition. Additionally, if the wearer succeeds a saving throw against a gaze attack, they can spend an immediate action to force the originator of the gaze attack to succeed at a saving throw to resist its own gaze or lose access to its gaze attack for 1 round.
+
+**Muffled (Head):** The bonus applies to saving throws against (and to the skill DC to apply) auditory and sonic effects, in addition to any effects that would cause the deafened condition.
+
+++++ Stabilizing Reinforcements (flourish, gear)
+You may create items that further reinforce your stature or position. The following options grant the wearer a +2 competence bonus to certain rolls, depending on the flourish chosen. This bonus increases by 1 per 5 ranks in this package’s associated skill you possess.
+
+**Grippy Palms (Hand):** The bonus applies to Climb checks, Ride checks to stay in a saddle or use a mount as cover, and to Sleight of Hand checks to lift or palm an object, in addition to the wearer’s CMD against disarm combat maneuvers and CMB to attempt grapple combat maneuvers.
+
+**Heavy Soles (Feet):** The bonus applies to Acrobatics checks attempted to move across narrow or uneven surfaces, in addition to the wearer’s CMD against bull rush, pull, and reposition combat maneuvers. Additionally, any unarmed strikes using their feet gain a bonus to damage rolls equal to half their Strength bonus (minimum 1).
+
+**Webbed Netting (Body or Shoulders):** The bonus applies to Acrobatics checks to soften a fall and to Fly and Swim checks. Additionally, you can use this webbed netting to increase the DC to soften a fall by 5. If you succeed, you ignore the first 20 feet fallen and convert the damage from the next 10 feet of the fall to nonlethal damage; you avoid falling prone at the end of your jump even if you take damage.
+
+++++ Storage Enhancement (fabrication, flourish) [utility]
+You can augment items that store or reinforce things. Choose from one of the following flourishes:
+
+**Commodious:** This flourish can only be applied to containers. The object’s user treats their Strength score as +1 higher than normal when calculating their carrying capacity. Additionally, the object can hold an additional 50% more ounces or cubic feet within it (for example, a backpack would be able to hold 3 cubic feet of material). If this flourish is not maintained, the container breaks, spilling its contents. For every 5 ranks in the (fabrication) package’s associated skill you possess, these benefits increase by +1 and 50% of its original volume respectively. 
+
+**Compartment:** The object gains a small compartment that can hold at least 1 ounce of liquid or a single object that is at least two size categories smaller than the object benefiting from this flourish. The compartments are usually within an object, making it difficult to discover without a successful Perception check (DC 10 + the (fabrication) package’s associated skill modifier). For every 5 ranks you possess in the associated skill, you can add an additional compartment. If you possess the Convenient Designs talent, the compartment’s contents can be ejected as a free action. If the compartment is holding a consumable liquid (and it would normally be imbibed or applied as a standard action), the user can imbibe or apply the liquid within the compartment as a move action. 
+
+**Resistant:** This flourish can only be applied to containers. The container and any objects stored within it halve any damage they suffer from external effects, and is immune to any water damage that would be caused due to its material. Effects that originate from within the container still affect items normally. If the container would spill its contents due to being broken or destroyed, it retains its contents for 1 minute (or until it is damaged again, whichever comes first).
+
+++++ Underlying Connotations (artwork, flourish)
+Your artworks are filled with double meanings or complex interpretations. Choose from one of the following flourishes:
+
+**Perplexing:** The artwork is confusing and filled with red herrings. When a creature engages with this artwork, they must succeed a Will saving throw or gain the shocked condition for 24 hours. A creature can attempt to orient themselves by spending 1 minute attempting to decipher one of the meanings of the artwork.
+
+**Thought-Provoking:** A creature who engages with this artwork gains a +4 competence bonus to Linguistics checks attempted to detect forgeries, to Sense Motive checks to discern secret messages, detect lies, or any similar checks to discover hidden meanings in words or visual imagery. Additionally, they gain a +2 competence bonus to saving throws against illusions, visual effects, and effects that would give them a disorientation condition. The bonuses granted by this artwork last for 1 hour per rank in this package’s associated skill you possess.
+----
+++ ##4B0092|Trinket Talents##
+++++ Chemical Armaments (gear, trinket)
+Your trinkets can replicate alchemical items (except alchemical remedies, concoctions, drugs, and poisons), such as fireworks, grenades, etc., as long as the cost of such an item does not exceed 25 gp per rank in this package’s associated skill. These items function as the normal alchemical item, except that the DC is equal to your Artifice sphere DC. 
+
+Additionally, if such an item deals damage, the damage is maximized; any splash damage dealt by the item instead deals damage as if it were a direct hit (but is otherwise not treated as a direct hit).
+
+You can provide the following function to your trinkets:
+
+**Volatile Compound (+10 DC):** You create a trinket that can be used as a splash weapon with a range increment of 10 feet, and deals 1d6 points of bludgeoning, piercing, and slashing damage on a direct hit (no save), and 1 point of splash damage per damage die to every creature within 5 feet of the point of contact (Reflex halves).
+
+Additionally, you can add one of the following options to the volatile compound, plus one per 3 ranks you possess in this package’s associated skill (unless otherwise specified, an addition can only be applied once):
+* The damage type changes to acid, cold, electricity, or fire damage. You can take this addition a second time to choose one of the following effects that is applied on a direct hit and failed save: deafened for 1 minute (electricity only), sickened for 1 round, catch fire (fire only), treat all creatures as having concealment for 1 round.
+* The range increment of the volatile compound increases by 10 feet. This addition can be chosen multiple times.
+* The damage dealt increases by 1d6. This addition can be chosen multiple times.
+* On a direct hit, the creature takes 1 point of the same damage type per damage die on their next turn.
+
+++++ Defensive Equipment (gear, trinket)
+You can provide the following function to your trinkets:
+
+**Warding (+10 DC):** You create a trinket that can be worn underneath armor or clothing. While this trinket is worn, the wearer gains DR 2, which is bypassed by a single physical damage type (your choice when creating the trinket), increasing by 1 per 4 ranks in the (gear) package’s associated skill you possess.
+
+Once the warding trinket has absorbed damage equal to 5 x the number of ranks in the (gear) package’s associated skill you possess, the trinket and any other warding trinket you wear is destroyed.
+
+If you possess the Chemical Armaments talent, you can instead have a warding function grant resistance to one of acid, cold, electricity, or fire equal to the DR’s value.
+
+++++ Embarrassing Satire (artwork, trinket) [utility]
+You can add the following function to your trinkets:
+
+**Mocking (+10 DC):** You create a trinket that has a particularly confusing, mocking, or embarrassing design. The user can spend a standard action to force all creatures of their choice within 30 feet of them to succeed at a Will saving throw or become livid or shocked (chosen when you create this trinket) for 1 round, plus 1 round for every 5 ranks you possess in the (artwork) package’s associated skill. You can invoke a motivation as part of creating this trinket to cause creatures with that motivation to be affected by the condition for twice as long.
+
+++++ Impressive Creativity (artwork, trinket) [utility]
+Whenever you create a trinket with the social function, you can increase the trinket’s Craft DC by +10 to have the trinket appeal to a larger audience. You can choose an additional social group, faction, or motivation when creating this trinket.
+
+Additionally, the user of the trinket gains a +2 circumstance bonus to Charisma-based ability checks and skill checks, and double the bonus granted against the chosen group, members of the chosen faction, or creatures who possess the chosen motivation.
+
+++++ Impressive Tools (fabrication, trinket) [utility]
+Whenever you create a trinket with the tool function, you can increase the trinket’s Craft DC by +10 to create a masterwork tool, increasing the circumstance bonus granted by the trinket by 2. The masterwork tool trinket also temporarily unlocks skill leverage with the chosen skill for its user while it is used (which is not replaced if the user already has that skill unlocked).
+
+You can spend 1 use of skill leverage whenever you create a trinket with the tool function to also allow you to choose any Artistry, Craft, or Profession skill to confer its benefits to, not just one you are trained in.
+
+++++ Impressive Weaponry (gear, trinket)
+Whenever you create a trinket with the weapon function, you can increase the trinket’s Craft DC by +5 to create a masterwork version of the weapon, in addition to granting one of the following additions to the weapon, plus one per 7 ranks you possess in this package’s associated skill (unless otherwise specified, an addition can only be applied once):
+* Gain one of the following properties: blocking, brace, disarm, distracting, nonlethal, performance, reach, or trip.
+* The weapon becomes a thrown weapon with a range increment of 50 feet, or 30 feet if the weapon is one-handed, or 20 feet if the weapon is two-handed. If the weapon is a ranged weapon, its range increment increases by 30 feet.
+* The critical threat range increases to 19-20. This can be chosen a second time to increase the threat range to 18-20.
+* The critical multiplier increases to x3.
+* The action cost to reload the weapon is reduced by one step (full-round action, standard action, move action, swift action, free action). This can be chosen multiple times.
+
+Additionally, you can create one-handed or two-handed weapons, not just light weapons. A onehanded weapon deals 1d8 damage, whereas a twohanded weapon deals 1d12 damage. If the weapon is ranged, it requires a move action (if one-handed) or standard action (if two-handed) to reload. You may also choose to create a trinket with the weapon function without the fragile weapon quality.
+
+++++ Mobile Defenses (fabrication, trinket)
+You can provide the following function to your trinkets:
+
+**Cover (+10 DC):** You create a trinket that can be deployed on the ground as a standard action, folding out to be a 5-foot wall that is half your height (or generally whatever height would grant you partial cover), 5-foot wide wall.
+
+When deployed, the user chooses one edge of their space to treat as granting partial cover to creatures that use it. While deployed, all other functions that the trinket possesses cannot be used until it is retracted as a standard action. This cover can be moved as a swift action, choosing a new edge, or moved to a new square completely as part of an action to move.
+
+Additionally, you can grant one of the following additions to the cover, plus one per 7 ranks you possess in this package’s associated skill (unless otherwise specified, an addition can only be applied once):
+* The width of the wall increases by 5 feet, allowing you to choose an additional edge as long as it is contiguous. This addition can be chosen multiple times.
+* The height of the wall increases by 50%, granting creatures cover (instead of partial cover).
+* The cover may be deployed and retracted as a move action. This addition can be chosen a second time to change the time to deploy and retract the cover to a swift action.
+----
++ ##4B0092|Exceptional Talents##
+
+++++ Exquisite Equipment (flourish)
+**Prerequisite:** Artifice sphere.
+
+You may craft equipment far beyond the quality of other smiths. The crafted item becomes a masterwork item. At 4 ranks in a package’s associated skill, you can provide special maintenance to the flourish to improve the item further.
+
+If you possess the (fabrication) package, you can provide this flourish to a tool, which increases the circumstance bonus associated with being masterwork by 1 per 4 ranks in the package’s associated skill you possess.
+
+If you possess the (gear) package, you can provide this flourish to a set of armor, a shield or a weapon. An exquisite weapon has an enhancement bonus to attack rolls equal to 1 + 1 per 4 ranks in the package’s associated skill you possess (maximum +5). This does not stack with any other enhancement bonuses, and counts towards the maximum enhancement bonus a weapon can have (which cannot exceed a +10 bonus-equivalent as normal). Unlike most enhancement bonuses, this bonus is non-magical and does not allow the weapon to bypass any special damage resistances.
+
+If you create an exquisite shield or armor, you may choose one of the following options:
+* Reduce the item’s armor check penalty by 1 per 3 ranks in the package’s associated skill you possess. This is applied before any abilities from the wearer that might reduce their armor check penalties.
+* Increase the item’s maximum Dexterity bonus by 1 per 6 ranks in the package’s associated skill you possess.
+
+++++ Flawless Flourish
+**Prerequisites:** Associated skill 3 ranks, Artifice sphere (at least one (flourish) talent).
+
+Your flourishes no longer require maintenance.
+
+++++ Magical Feverish Pace [utility]
+**Prerequisites:** Artistry or Craft 6 ranks, Artifice sphere (Confident Craftsmanship).
+
+You may craft much faster than normal. Whenever you craft a magical item using an Artistry or Craft skill you have unlocked skill leverage for, the time required to craft the object is reduced by half.
+
+At 12 ranks in the associated skill, the time required to craft a magical item is reduced by two-thirds instead of half.
+
+++++ Massive Trinkets
+**Prerequisites:** Associated skill 5 ranks, Artifice sphere.
+
+Whenever you create a trinket that is up to your own size category, the trinket does not take any additional time to create due to its size. The time taken to create a trinket that is beyond your size category is halved (including with trinkets created with the Sizeable Trinkets talent).
+
+You also do not increase the craft DC of a trinket due to its size.
+
+++++ Perfect Portrayal (artwork, flourish) [utility] (Su)
+**Prerequisites:** Associated skill 10 ranks, Artifice sphere ((artwork) package).
+
+The created artwork must include your likeness in some discernible fashion. You can spend a standard action to transfer your consciousness into an artwork with this flourish that you created, allowing you to observe (and in some cases, interact with) an area up to close range around the artwork. This allows you to observe with all of your normal senses (but not special senses such as blindsight), although the DC of any Perception checks are increased by 10 when observing in this way.
+
+You are flat-footed and senseless (from your physical form) while you have your consciousness transferred to an artwork, but you may return to your body as an immediate action. You can transfer your consciousness to any artwork with this flourish regardless of distance, but it must be on the same plane as you. When you transfer your consciousness into an artwork, it becomes slightly animated; three-dimensional depictions (such as statues) can move its head, make gestures, and talk, but cannot attack or leave their square without assistance. Two-dimensional depictions (such as portraits) can talk and the depiction itself can move within the artwork or even temporarily alter it (such as by picking a flower in the artwork); although you cannot use spells or other abilities inside.
+
+When you cease to inhabit an artwork, it immediately reverts to the appearance it had before you entered it. If the artwork is destroyed or damaged, you return to your body unharmed.
+
+When you create the artwork with this flourish and have at least 15 ranks in the associated skill, you can choose to accept 1 temporary negative level to store a portion of your soul within, which cannot be removed until the artwork is destroyed. You can only have your soul bound into one artwork at one time. If you die while your soul is bound this way, your soul is transferred to the soulbound artwork if it is on the same plane of existence. Your soul persists within your soulbound artwork indefinitely (or until resurrected), and you may still transfer your consciousness to any artwork with the Perfect Portrayal flourish. If you are resurrected and the soulbound artwork your soul is occupying is used as an additional material component for the spell, any negative levels caused by your revivification are reduced by 1.
+
+If your soulbound artwork is destroyed with your soul within, your soul is released into the afterlife.
+
+++++ Prison Of Depiction (artwork, flourish) (Su)
+**Prerequisites:** Associated skill 15 ranks, Artifice sphere ((artwork) package).
+
+When creating this artwork, you can increase the Craft DC by 10 and spend 2 uses of skill leverage to create an artwork that bonds flesh and soul to itself. If a creature engages with the artwork, they must succeed at a Will saving throw or be magically transported within the artwork itself, bringing along their equipment (which becomes non-functional while within the demiplane).
+
+While within the artwork, the creature is treated as being within a demiplane, and may move around freely within the artwork itself (which is apparent on the artwork's surface).
+
+Such an artwork can hold a single creature, plus an additional creature for every 10 by which you exceed the Craft DC. While within the artwork, the creature does not need to breathe, eat, drink, or sleep, and cannot be harmed by anything depicted within the artwork.
+
+Creatures outside of the artwork cannot interact with creatures within the artwork. If the item is destroyed, all creatures contained within the artwork are harmlessly shunted out of the artwork.
+
+++++ Reconstruct Dweomer
+**Prerequisites:** Associated skill 5 ranks, Artifice sphere.
+
+You can spend 8 hours and 1 use of skill leverage to repair a destroyed magic item, in addition to restoring the magical properties of the item as long as the item’s caster level is equal to or less than your ranks in the associated skill. Limited-use items (such as wands, potions, and scrolls) cannot be repaired in this way.
+
+If you possess the Industrious Engineer feat, you can ignore the repair limit associated with the feat when repairing a construct by spending 8 hours and 1 use of skill leverage when doing so.
+
+++++ Stupendous Crafter
+**Prerequisites:** Craft (any) 1 rank, Artifice sphere (Magical Crafter).
+
+You gain an item creation feat you qualify for which you may only use with the Magical Crafter talent. You may take this talent multiple times, selecting a different feat each time.
+
+++++ Underwater Basketweaving [utility]
+**Prerequisites:** Craft (any three) 3 ranks, Artifice sphere.
+
+You may use any Craft skill you are trained in in place of any other Craft skill by taking a -10 penalty on the skill check. At 10 ranks in the associated skill, this penalty is reduced to -5.
+
+++++ Vivid Creativity
+**Prerequisites:** Associated skill 8 ranks, Artifice sphere ((artwork) package).
+
+When you create an artwork, you can spend 1 use of skill leverage to have it be a vivid artwork. A creature only needs to observe a vivid artwork to engage with it; with a successful Will saving throw negating its effects for that round. This functions akin to a gaze attack, and a creature who is aware of the artwork can choose to avert their eyes so that they are not affected by the artwork. The vivid artwork’s effects last for as long as the creature can see the artwork, plus 1 round after (instead of its normal duration). A creature can only be affected by a single vivid artwork at one time this way.
+
+You can outwit a hostile creature that is being affected by a vivid artwork as a cost to have the artwork’s effects last for 1 minute after instead of 1 round after.
+
+++++ Wondrous Project [plan]
+**Prerequisites:** Associated skill 5 ranks, Artifice sphere (Magical Crafter, Secret Project), any item creation feat.
+
+When you reveal your Secret Project plan, you may produce a magic item you are capable of creating with the starting materials you have set aside; doing so increases the amount of starting materials you can set aside with this plan to 1000 gp worth of starting materials per rank in the associated skill you possess. This may be any item except one with a spell completion (such as a scroll) or spell trigger (such as a wand) function.
+----
++ ##4B0092|Drawbacks##
+
+++++ Careful Engineer
+You cannot create trinkets (nor can you benefit from talents that augment them) and you lose the function granted by your chosen package. You gain the Artificer’s Eye or Favorite Tools talent, in addition to a (flourish) talent of your choice.
+
+**Special:** This drawback can be taken as a [utility start] if the chosen (flourish) talent is a utility talent.
+
+++++ Expensive Parts
+Whenever you create a flourish, you must pay a further material cost based on the number of ranks you possess in the Artifice sphere’s associated skill. The cost is equal to half the appropriate resource budget from the Faction sphere for the item’s type (either permanent or temporary) for your number of associated skill ranks. You gain the Flawless Flourish talent.
+
+**Note:** This drawback grants an exceptional talent, and should be used at the GM's discretion. This alternate start gives GMs a clear method for NPCs to provide flourishes, or to simply remove the maintenance requirements from PCs that might not fit the style of the game. The GM might simultaneously rule that certain flourishes require a higher price when applied to certain items indefinitely.
+
+++++ Rapid Crafter
+You can only create a trinket using the cobbled creation approach, and you gain the Greater Trinkets talent.
+[[/tab]]
+[[/tabview]]
+
+[[include sog-template]]
