@@ -35,7 +35,7 @@ Some talents are marked (snipe). These talents add additional effects when you p
 + ##993300|Sniper Talents##
 
 ++++ Breaking Blast
-Your ranged attack deals full damage to objects.
+Your ranged attacks deal full damage to objects.
 
 ++++ Covering Fire
 As a standard action, you may choose an area with a 5-ft. radius. This area must be within your first range increment. You threaten this area until the beginning of your next turn, and may make attacks of opportunity using a ranged weapon that you are wielding against any creature in this area that provokes them. If the weapon uses ammunition, it must either be loaded or you must be able to load it as a free action and thrown weapons must be in hand or able to be drawn as a free action to make these attacks of opportunity. For every 4 points of base attack bonus you possess, this radius increases by 5 ft.
@@ -43,8 +43,16 @@ As a standard action, you may choose an area with a 5-ft. radius. This area must
 ++++ Focusing Reload
 You may regain martial focus whenever you use a move, standard, or full-round action to reload a weapon you are wielding (including nocking an arrow to a bow). If you can normally reload your weapon faster than a move action, you may choose to reload as a move action to gain this benefit.
 
+++++ Lethal Precision [Conq. HB]
+After performing a deadly shot made while hiding, you may use the Stealth skill’s sniping function as a swift action. You may expend martial focus to reduce this to a free action. In addition, when making a deadly shot, you can deal Fencing sphere precision damage, sneak attack damage, or damage from other similar effects and abilities at any distance.
+
+**Normal:** Using Stealth immediately after a ranged attack is a move action.
+
 ++++ Perfect Shot
 As long as you have martial focus, whenever you would suffer a miss chance due to concealment, roll the miss chance twice and take the most favorable result. In addition, as long as you have martial focus, you no longer automatically miss when rolling a natural 1 on a ranged attack roll; your attack must still hit the target’s AC as normal. At +10 base attack bonus, you can reroll a result of 1 on a ranged attack roll once per round.
+
+++++ Retaliating Fire (stance) [Youxia HB]
+While in this stance, whenever a creature misses you with a ranged attack, you may make a ranged attack against that creature as an attack of opportunity. You may not use this talent in conjunction with (deflect) talents or any other ability that would grant you an attack or combat maneuver due to a missed attack against you.
 
 ++++ Sniper Shot
 You may increase the time required to use deadly shot to a full-round action to apply two (snipe) talents to it. This attack still counts as an attack action.
@@ -88,13 +96,22 @@ If you hit a shield-using creature with your deadly shot, the target loses the A
 ++++ Steady Shot (snipe)
 When performing a deadly shot, you may ignore the cover bonus to AC granted to targets by anything less than total cover, and the miss chance granted to targets by anything less than total concealment. Total cover and total concealment provide their normal benefits against your ranged attacks. At +10 base attack bonus, you also ignore total concealment.
 
+++++ Tactile Shot (snipe) [utility] [Conq. HB]
+When performing a deadly shot with this talent, you may choose to deal no damage. Your attacks allow you to manipulate objects in precise ways. An unattended object has an AC equal to 3 + the object’s size modifier (minimum +0) + its hardness. If the object is attended, the deadly shot resolves against the possessing creature’s AC as normal. You may use the following options with this deadly shot:
+* **Detach Object:** You can make a deadly shot to cause an object to drop off your target, such as causing a quiver on someone’s back or a keyring on someone’s waist to fall to the ground. On a successful deadly shot, you may make a free ranged steal attempt against the target, using your original attack roll for the deadly shot as your combat maneuver check. An object or item you steal this way falls harmlessly into an unattended square adjacent to the target. You do not provoke an attack of opportunity for this combat maneuver, except as usual when making ranged attacks.
+* **Open/Close Object:** You can make a deadly shot to open or close an object, such as an unattended door, window, or container, within the first range increment of your weapon. On a successful deadly shot, the object opens if it was closed or closes if it was open. Otherwise, your deadly shot functions as the open/close spell.
+* **Use Object:** You can make a deadly shot to use a simple object, such as a lever or switch. On a successful deadly shot, you pull, push, or otherwise manipulate the object in such a way that it activates, such as pulling a lever for a drawbridge or pressing a button.
+* **Light/Extinguish:** You can make a deadly shot to light or extinguish a Diminutive-size or smaller mundane light source, such as match, torch, lantern, or fuse. On a successful deadly shot, you light or extinguish the object.
+
+**Special:** When using the Trap Technician talent, you may choose to not deal damage to an object you attempt a Disable Device check against, and no longer take a -5 penalty to disable traps with that talent.
+
 ++++ Tangling Shot (snipe)
 On a successful deadly shot, you give the target the entangled condition. The target may spend a standard action to end this effect.
 
 ++++ Thread the Needle (snipe)
 On a successful deadly shot, you aim for the target’s eyes, seeking to take away their vision. The first time you hit a target while using this ability, they are dazzled for 1d4 rounds; if you successfully use this ability against a target already suffering from the dazzled condition, they are instead blinded for 1 minute. The blind condition can be removed with a DC 20 Heal check, or when the target receives at least 1 hit point of healing. If your base attack bonus is +10 or higher, you may use the blinding option of this ability even if the target is not dazzled.
 
-++++ Trap Technician (snipe)
+++++ Trap Technician (snipe) [utility]
 On a successful deadly shot against an object, you can attempt a Disable Device check substituting your attack roll for the results, although you deal damage equal to your weapon’s damage die to the object being disabled (this can be used with traps, but takes a -5 penalty). You can also use this check to instead activate a trap upon making a successful Disable Device check. You can also jam a lock with this talent, requiring a Disable Device check equal to your attack roll to open it.
 
 ++++ Trip Shot (snipe)
@@ -105,15 +122,36 @@ On a successful deadly shot, you may make a free ranged disarm attempt against t
 ----
 + ##993300|Legendary Talents##
 
+++++ Eviscerating Shot (snipe) [Conq. HB]
+**Prerequisites:** Sniper sphere, base attack bonus +15.
+
+You fire your weapon in such a way that it shreds through the hard plate and scales of your enemies. Your deadly shot ignores all armor, natural armor, and shield bonuses the target may have.
+
+**Associated Feat:** Pinpoint Targeting.
+
 ++++ Fragmenting Shot
 **Prerequisites:** Sniper sphere, base attack bonus +7.
 
 If you attack a creature or object with a deadly shot and reduce it to 0 or fewer hit points, it is instantly killed as its head (or equivalent body part) explodes in a shower of gore. Each creature within 10 ft. of the target takes an amount of bludgeoning and piercing damage equal to your weapon’s base damage die plus your base attack bonus (Reflex half).
 
+++++ I Miss You My Darling [Jester's HB]
+**Prerequisites:** Stealth ranks 10, Scout sphere (Track The Scene), Sniper sphere.
+
+Whenever you miss your target when performing a deadly shot, you may expend martial focus as a free action. If you do, you designate that target as your prey. While following the tracks of your prey, you may take 10 on Survival skill checks while moving at normal speed, without penalty. In addition, you receive a +2 insight bonus on attack rolls made against your prey, and automatically confirm the first critical threat you make against your prey. This effect ends when you confirm a critical threat against your prey, or 24 hours pass, whichever comes first. A creature cannot be designated as your prey more than once every 24 hours.
+
+You may not have more than one creature designated as your prey at any time, and may dismiss this effect at any time as a free action.
+
 ++++ Phasic Shot
 **Prerequisites:** Sniper sphere, Perfect Shot, base attack bonus +15.
 
 Your shot is fired with such force and deadly accuracy that it cuts through the very bonds of reality, bypassing any obstacle between it and its target. Targets gain no benefit from cover, even total cover, against your attacks. If you possess the Star Scraper legendary talent, you may attack a target anywhere within its advanced range, even if they are completely enclosed by protective surfaces, though you must still have a reliable means of ascertaining your target’s exact location. This is a supernatural effect.
+
+++++ Precise Marksmanship (snipe) [EO3]
+**Prerequisites:** Sniper sphere, base attack bonus +5.
+
+Whenever you perform a deadly shot special attack action, you may choose to make a called shot. If you do, you reduce the penalty associated with the called shot by 2 (minimum 0). **Associated Feat:** Improved Called Shot.
+
+**Note:** This talent requires the called shot optional rule from Ultimate Combat.
 
 ++++ Star Scraper (snipe)
 **Prerequisites:** Sniper sphere, Perfect Shot, base attack bonus +10.
