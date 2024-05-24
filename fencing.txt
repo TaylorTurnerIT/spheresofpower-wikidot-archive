@@ -32,11 +32,17 @@ A fencer may apply the effects of a single (exploit) talent to any fatal thrust.
 ----
 + ##993300|Fencing Talents##
 
+++++ Darting Crane (stance) [Youxia HB]
+While in this stance, whenever a creature within reach misses you with a melee attack, you may expend an attack of opportunity to perform a feint against that creature as a free action that can be taken outside of your normal turn. You may not use this talent in conjunction with (deflect) talents or any other ability that would grant you an attack or combat maneuver due to a missed attack against you.
+
 ++++ Death From Afar [Apoc]
 You may use fatal thrust on a ranged attack action out to your first range increment.
 
 ++++ Expert Feint
 When you succeed at a feint check against a target, that target also loses its Dexterity bonus to its armor class against all attacks until the beginning of your next turn, in addition to your next attack. **Associated Feat:** Greater Feint.
+
+++++ Expert Fence [Jester's HB]
+As a swift action, you may choose one edge of your space and create a metaphorical fence for 1 round. That edge is treated as partial cover for attacks targeting you only. At +10 base attack bonus, you may expend martial focus to reduce this to an immediate action. Partial cover provided by this talent does not block line of effect and cannot be used to attempt a Stealth check.
 
 ++++ Fast Feint
 You may attempt to feint a creature as a move action. In addition, once per round when you succeed on a feint attempt against a creature, you may expend martial focus to move up to your speed. This movement does not provoke attacks of opportunity from the target of your feint. **Associated Feat:** Improved Feint.
@@ -61,6 +67,9 @@ Your quick movements allow you to temporarily use one enemy as cover against ano
 ++++ Impassable Defense
 When you take the total defense action, you still may make attacks of opportunity. If you possess the Lunge talent, you may increase your threatened area by 5 ft. when determining the range at which you may make attacks of opportunity while using the total defense action, but suffer a -2 penalty to attacks made at this extended range, as detailed under the Lunge talent.
 
+++++ Isolating Repartee (utility) [LotS]
+When you are the only creature within 10 feet of a target which the target perceives, that target takes a penalty on Bluff, Diplomacy, Intimidate, and Perform checks equal to your practitioner modifier. If you possess at least 10 ranks in either Bluff or Sense Motive, this penalty increases to twice your practitioner modifier.
+
 ++++ Lunge
 As long as you have martial focus, you may increase the range at which you may make melee attacks by 5 ft., but suffer a -2 penalty to attack rolls made against targets within this extended range. This does not affect your threatened area, only the reach of your attacks, and does not stack with other, similar effects. **Associated Feat:** Lunge.
 
@@ -73,10 +82,10 @@ Whenever you feint a target, that target is battered for 1 round.
 ++++ Pace Setter
 Whenever you deal your Fencing sphere precision damage to a target, you can force the creature to move 5 ft. in any direction as long as this would not cause them to end their movement in dangerous terrain. This movement does not provoke attacks of opportunity.
 
-++++ Parry and Riposte
+++++ Parry And Riposte
 When a creature makes a melee attack against you, you may expend your martial focus and use an attack of opportunity to attempt to parry that attack. Make an attack roll as if you were making an attack of opportunity, but for each size category the attacking creature is larger than you, you take a –2 penalty on this roll. If your result is greater than the attacking creature’s result, the creature’s attack automatically misses and you regain your martial focus. If your base attack bonus is +5 or greater, you may choose to make a single melee attack against a creature whose attack you have successfully parried instead of regaining your martial focus.
 
-++++ Read Foe
+++++ Read Foe [utility]
 You have learned to read the subtle cues of your enemy, and to see through enemy feints. You gain 5 ranks in the Sense Motive skill, plus 5 ranks per additional talent spent in the Fencing sphere (maximum ranks equal to your total Hit Dice). If you already have ranks in the Sense Motive skill you may immediately retrain them, but you do not get to retrain when only temporarily gaining talents, such as through the armiger’s customized weapons class feature.
 
 ++++ Skewer
@@ -119,7 +128,7 @@ The target’s movement types are halved for 1d4 rounds. For every 5 points of b
 ++++ Repositioning Strike (exploit)
 You cause the target to stumble, letting you slip past them. You may immediately move up to half your movement speed as a free action, so long as you end your movement in a space adjacent to the target, and may even move through the target’s occupied space when doing so. This movement does not provoke attacks of opportunity from the target.
 
-++++ To the Hilt (exploit)
+++++ To The Hilt (exploit)
 You create a large wound on the target that others can exploit. For 1 round, the target’s damage resistance is reduced by an amount equal to 1/2 your base attack bonus (minimum 1). For every 5 points of base attack bonus you possess, this penalty lasts for an additional round.
 
 ++++ Wide Open (exploit)
@@ -127,25 +136,48 @@ The target suffers a -2 penalty to its armor class until the end of your next tu
 ----
 + ##993300|Legendary Talents##
 
-++++ Master of Deception
+++++ Master Of Deception
 **Prerequisites:** Fencing sphere, Expert Feint, Bluff 10 ranks.
 
 You don’t just catch opponents off guard; your misdirection warps reality. When you successfully feint a target, they must pass a Will save or become confused for 1 round. This is a supernatural effect.
 
-++++ Master of Words
+++++ Master Of Words [utility]
 **Prerequisites:** Fencing sphere, Gladiator sphere, Warleader sphere, Bluff 3 ranks, Diplomacy 3 ranks, Intimidate 3 ranks.
 
 You are a master of all forms of communication. Whenever you make a Bluff, Diplomacy, or Intimidate check, you may use whichever of these skills you desire to make the check.
 
 ++++ Parry Anything
-**Prerequisites:** Fencing sphere, Parry and Reposte, base attack bonus +5.
+**Prerequisites:** Fencing sphere, Parry and Riposte, base attack bonus +5.
 
 You may use your Parry and Riposte talent against ranged attacks and spells which require attack rolls as well as melee attacks. You still cannot make a retaliatory attack against the target unless it is within your reach. In addition, you may use Parry and Riposte in place of making a Reflex save against a spell, supernatural, or extraordinary ability you are aware of. If you succeed on this check, the effect is reduced as if you had the evasion rogue class feature.
+
+++++ Parry Intent [EO3]
+**Prerequisites:** Bluff ranks 10, Fencing sphere (Parry And Riposte), base attack bonus +10.
+
+Whenever you would use your Parry And Riposte talent against an appropriate attack (including the expanded options granted by Parry Anything, except area-based effects), you may attempt a Bluff check instead of an attack roll. If your Bluff check is greater than the attack, the creature must succeed at a Will saving throw (using your ranks in Bluff instead of your base attack bonus) or change the target of the relevant attack from you to another creature of your choice, even if it is one of their allies. On a successful save, the attack targets you as normal. This is a supernatural mind-affecting compulsion effect.
+
+++++ Reaving Strike [Alienist HB]
+**Prerequisites:** Fencing sphere, base attack bonus +5.
+
+As long as you have martial focus, when you strike an opponent that has a chance of negating critical hits or precision damage, such as from the fortification armor special ability, reduce that chance by 5% per point of base attack bonus you possess.
+
+When you use this effect, you may expend martial focus to treat creatures that are normally immune to critical hits and precision damage as having a 150% chance to negate the critical hit or precision damage, reduced as normal by this talent’s effect. Treat creatures with a 100% fortification chance or greater as if they were immune to critical hits and precision damage (thus having an effective 150% chance to negate such effects) for the purposes of this talent. **Associated Feat:** Anatomical Savant.
+
+++++ Sequestering Facade (stance) [EO3]
+**Prerequisites:** Bluff 10 ranks, Fencing sphere (Expert Feint, Master Of Deception), base attack bonus +10.
+
+You can bend reality with your deceptions. When you successfully feint a hostile creature using Master Of Deception, you may have the creature become sequestered for 1 round instead of being confused. If you feint multiple creatures, choose a single feinted creature to sequester.
+
+While sequestered, the feinted creature can only see you, as their reality becomes warped and shifted to believing you and themselves are the only creatures to exist. During this time, the target cannot be interacted with in any way by other creatures, (except you) and vice versa.
+
+Alternatively, when you successfully sequester a creature using this talent, you may enter a stance, allowing the creature to remain sequestered for as long as you remain within the stance. The creature may attempt a Will saving throw at the end of each of their turns as a free action to no longer be sequestered, ending the stance and its effects on a successful save.
+
+This is a supernatural mind-affecting effect.
 
 ++++ Shadow Strike (exploit)
 **Prerequisites:** Fencing sphere.
 
-Your attack cuts through essence. Your attack deals full damage to ethereal creatures. Against corporeal creatures, your attack deals nonlethal damage, and the target must pass a Fortitude save or become fatigued for 1d4 rounds. For every 5 points of base attack bonus you possess, this penalty lasts for an additional round. This is a supernatural ability.
+Your attack cuts through essence. Your attack deals full damage to ethereal creatures and incorporeal creatures. Against corporeal creatures, your attack deals nonlethal damage, and the target must pass a Fortitude save or become fatigued for 1d4 rounds. For every 5 points of base attack bonus you possess, this penalty lasts for an additional round. This is a supernatural ability.
 
 ++++ Soul Strike (exploit)
 **Prerequisites:** Fencing sphere.
