@@ -14,377 +14,710 @@ parent:spheres-of-power
 
 [[toc]]
 
+[[tabview]]
+[[tab Ultimate]]
 [[div class="noselect" style="float:right; width: 20%; padding: 0 2%"]]
 [[=]]
-[[image http://spheresofpower.wikidot.com/local--files/test-page/Spheres_of_Power.jpg link="https://www.drivethrurpg.com/product/129448/Spheres-of-Power?affiliate_id=549120"]]
-**Spheres of Power**
-$19.99
+[[image http://spheresofpower.wikidot.com/local--files/test-page/UltimateSpheresofPower.jpg link="https://www.drivethrurpg.com/product/300249/Ultimate-Spheres-of-Power?affiliate_id=549120"]]
+**Ultimate Spheres of Power**
+$29.99
 ----
 [[/=]]
-[[/div]]You can alter a battlefield, affecting both allies and enemies with your magic. The War sphere’s magic is divided into four types of abilities: totems, rallies, momentum and mandates.
+[[/div]]You can alter a battlefield, affecting both allies and enemies with your magic.
 
-**Totems** allow the War caster to create an area with all allies within getting a bonus, or all enemies within getting a penalty. Totems are fixed to a specific location, unless the caster has the Totemic Aura or Totemic Presence talent which allow totems to be attached to creatures and move with them. These totems are called totemic auras. Totems that are specifically not auras are called fixed totems. Some totems require a spell point to be spent at the time of creation, some do not, and some give you the option to spend a spell point when the totem is being created to give it a greater effect.
+++ Totem
+As a standard action, you may place a totem. A totem is an effect on a 50-foot + 5 feet per 2 caster level radius area centered on you, but does not move as you do (if a totem is created entirely on top of a vehicle, it will move with that vehicle but only extend to the edge of the vehicle’s space). Creatures who leave this area lose the effects of your totem. You must concentrate to maintain a totem, but may always spend a spell point as a free action to allow a totem to remain for 1 minute per caster level without concentration.
 
-**Rallies** are immediate actions that allow War casters to let their allies perform actions. The target of a rally must be able to perform the action, and must be either within range of one of the War caster’s totems, or share a mandate with the the War caster. Some rallies can be used in response to other events, in which case the rally occurs before the triggering event completes, unless noted otherwise. Rallies that work from triggers can only be used when that trigger occurs, and can only affect those allies that the trigger applies to.
+You must remain within long range of the center of your totems when maintaining them through concentration. If you move beyond this range, the totem ends. The effects of a totem are subject to spell resistance.
 
-[[div class="noselect" style="float:right; width: 20%; padding: 0 2%"]]
-[[=]]
-[[image http://spheresofpower.wikidot.com/local--files/test-page/The_Battlemage's_Handbook.jpg link="https://www.drivethrurpg.com/product/204473/The-Battlemages-Handbook?affiliate_id=549120"]]
-**The Battlemage's Handbook**
-$4.99
+When you gain the War sphere, you gain the following totem:
 
-----
-[[/=]]
-[[/div]]Some War talents do not provide a static benefit to allies, but instead provide a resource that allies can use. A War caster who has at least one (**Momentum**) talent can use that talent as a standard action by spending a spell point. This gives them a momentum pool. This pool lasts 1 hour per caster level, and holds a number of points of momentum equal to the war caster’s caster level plus their casting ability modifier. Allies within 30 ft. of the War caster can spend points of momentum from this pool to activate any ability from any of the caster’s (momentum) talents. A War caster can only have one pool of momentum, and all of their (momentum) talents draw from the same pool. Using a (momentum) talent refills the momentum pool to its maximum value (any surplus momentum generated is lost). Using momentum is not a sphere ability and does not draw attacks of opportunity. The caster level of any momentum ability used is determined by the caster level of caster when they last filled their momentum pool. Being knocked unconscious or made helpless makes the momentum pool inaccessible until the caster is conscious again.
-
-**Mandates** are effects that exist between a pair of allies, each of whom benefits from the actions of the other. As a standard action, a War caster can create a mandate between two allies within medium range, or between themselves and one other ally in medium range. Each mandate has an objective that activates the mandate, and an advantage which gives a bonus to the other member of the mandate, allowing the two characters sharing the mandate to help each other in a unique way. This advantage sometimes takes the form of an immediate action, and other times it is a static bonus. Bonuses granted last until the end of the next turn of the ally who received the bonus. The advantage of a mandate can be triggered over and over again, though it does not stack with itself.
-
-A War caster can concentrate to maintain a mandate, or can spend a spell point to make it last 1 minute per level. A mandate only works while the two sharing the mandate are within medium range of each other, and both are conscious and able to act. A creature can be part of multiple mandates with the same or different creatures, but can not be a member of the same mandate type talent multiple times.
-
-+ Totem [Core]
-
-As a standard action, you may place a totem. A totem is an effect on a 50 ft + 5 ft per 2 caster level radius area, centered on you, but does not move as you do. Creatures who leave this area lose the effects of your totem. You must concentrate to maintain a totem, but may always spend a spell point as a free action to allow a totem to remain for 1 round per caster level without concentration.
-
-You must remain within Long range of the center of your totems when maintaining them through concentration. If you move beyond this range, the totem ends.
-
-When you gain the war sphere, you gain the following totem:
-
-++++ ##000000|Totem of War [Core]##
+++++ Totem Of War
 You and your allies gain a +2 circumstance bonus to all weapon damage rolls. This bonus increases by 1 for every 5 caster levels.
 
-Talents marked (totem) grant you new totems.
+++ Rally
+A rally is a magical effect you may enact as an immediate action, targeting a creature within the area of effect of one of your totems (or with whom you share a mandate, as detailed below), granting the target bonuses or allowing them to take certain actions. You must be within long range of a target to rally that target. If a rally targets a specific creature, it is subject to spell resistance.
 
-+ Mandate
-Some talents are marked (mandate) and grant you ways of creating mandates, as described above.
+Some rallies can be used in response to other events, in which case the rally occurs before the triggering event completes, unless noted otherwise. Rallies that work from triggers can only be used when that trigger occurs, and can only affect those allies that the trigger applies to.
 
-+ Momentum
-Some talents are marked (momentum) and grant you methods of using a momentum pool, as described above.
+When you gain the War sphere, you gain the following rally:
 
-+ Rally [Core]
-Some talents are marked (rally) and grant you methods of rallying targets. Rallying a target is an immediate action, and may only be used on a target within the area of effect of one of your totems. You must be within Long range of a target to rally that target.
+++++ Commanding Aid
+You may use the aid another action on the target. You must use your caster level + your casting ability modifier in place of your melee attack bonus for this purpose, and may aid them against any creature also within range of your rally.
+
++++ War Talent Types
+Talents marked (totem) grant you new totems. Talents marked (rally) grant you additional rallies.
+
+++++ Mandate
+Talents marked (mandate) grant you ways of creating mandates. Mandates are effects that exist between a pair of allies, each of whom benefits from the actions of the other. As a standard action, you can create a mandate between two allies within medium range, one of whom may be yourself. You may concentrate to maintain a mandate, or can spend a spell point to make it last 1 minute per level without concentration. A mandate only works while the two sharing the mandate are within medium range of each other, and both are conscious and able to act.
+
+A creature can be part of multiple mandates with the same or different creatures, but cannot be a member of the same mandate type talent multiple times. Bonuses granted last until the end of the next turn of the ally who received the bonus. The advantage of a mandate can be triggered over and over again, though it does not stack with itself.
+
+++++ Momentum
+Talents marked (momentum) grant you a momentum pool, as well as a method of using it.
+
+If you have at least one (momentum) talent, you can spend a spell point as a standard action to gain a momentum pool. This pool lasts 1 hour per caster level, and holds a number of points of momentum equal to the War caster’s caster level plus their casting ability modifier. Using this ability again refills your momentum pool; it does not create additional pools.
+
+Allies within 30 feet of you can spend points of momentum from this pool to activate any ability from any of your (momentum) talents (using a (momentum) talent spends momentum points, not spell points). All of your (momentum) talents draw from the same pool, and using momentum is not considered a sphere ability and does not provoke attacks of opportunity.
+
+The caster level associated with the momentum pools is that of the caster when they last filled their pool. Being knocked unconscious or made helpless makes the momentum pool inaccessible until you are conscious again.
 ----
-+ War Talents
+++ War Talents
+++++ Bleeding Battlefield
+When you create a totem, enemies within your totem cannot heal naturally, and fast healing and regeneration are halved. Multiple totems do not reduce the healing further. Magical healing works normally.
 
-++++ ##000000|Bleeding Battlefield##
-When you create a totem, enemies within your totem can’t heal naturally, and fast healing and regeneration are halved. Multiple totems do not reduce the healing further. Magical healing works normally.
-
-++++ ##000000|Blood Bond##
+++++ Blood Bond
 When you create a mandate and spend a spell point to maintain it without concentration, the mandate lasts for 10 minutes per caster level rather than 1 minute per caster level. If you are a member of the mandate, it instead lasts 1 hour per caster level.
 
-++++ ##000000|Call to Arms##
-You may spend an additional spell point when creating a totem or mandate to create it as a move action. You may take this talent a second time. If you do, you can create a totem or mandate as a move action, or spend an additional spell point to create it as a swift action, but not both in the same round.
+++++ Call To Arms
+You may create a totem or mandate as a move action, or spend an additional spell point to create one as a swift action. You may not use this talent to both create a totem or mandate as a move action and a swift action in the same round.
 
-++++ ##000000|Close Cooperation##
+++++ Close Cooperation
 Allies you share mandates with are considered within touch range for the purposes of your sphere abilities and supernatural abilities.
 
-++++ ##000000|Combat Inertia##
-Whenever you spend a spell point to use a War sphere ability, you regain a point of momentum, provided you currently have at least one point of momentum remaining.
+++++ Combat Inertia
+Whenever you spend a spell point to use a War sphere ability, you regain a point of momentum + 1 per 10 caster levels, provided you currently have at least one point of momentum remaining.
 
-++++ ##000000|Declaration of War##
+++++ Declaration Of War
 When you create a totem, you may designate a type or subtype of creature (using the ranger’s favored enemy categories). Enemies of that type take a -2 to saving throws against that totem.
 
-++++ ##000000|Eternal Vigilance##
-You may rally any ally within 30 ft. of you even without a totem in place, and you can always rally yourself.
+++++ Eternal Vigilance
+You may rally any ally within 30 feet of you even without a totem in place, and you can always rally yourself.
 
-++++ ##000000|Greater Rally [Core]##
-When rallying a target, you may spend an extra spell point to rally up to 1 additional creature per 2 caster levels (minimum: 1). You must affect every selected creature with the same rally.
-
-++++ ##000000|Hammer and Anvil##
+++++ Hammer And Anvil
 Whenever you enter a mandate with an ally, you may choose a combat or teamwork feat you possess. Your ally gains the benefits of that feat for the duration of the mandate. This ally must qualify for the feat in order to gain its benefits. You may share an additional feat for every 10 caster levels you possess.
 
-++++ ##000000|Lingering Resentment##
+++++ Lingering Resentment
 When you cease concentrating on a totem or mandate effect, you may choose to have it remain for two rounds before dissipating.
 
-++++ ##000000|Mental Assault##
+++++ Mass Rally [mass]
+When rallying a target, you may spend an extra spell point to rally up to 1 additional creature per 2 caster levels (minimum 1). You must affect every selected creature with the same rally.
+
+++++ Mental Assault
 When you use a mind-affecting ability against an enemy that is within the area of one of your totems, the DC to resist increases by +2. This includes sphere abilities, but not the abilities of the totem itself or any other totem it might overlap areas with.
 
-++++ ##000000|Ranged Totem [Core]##
-When placing a totem, you may center it anywhere within Close range. You may select this talent multiple times. Each time it is taken, increase the range by one range increment (Close to Medium, Medium to Long).
+++++ Ranged Totem [range]
+When placing a totem, you may center it anywhere within close range. You may select this talent multiple times. Each time it is taken, increase the range by one range increment (close to medium, medium to long).
 
-++++ ##000000|Redeployment##
-You can move totems you created as a swift action. In order to move a totem, it must be your totem, and it must be within the range you can create totems. The totem can be moved to anywhere in range. It is still the same totem, so creatures which made saving throws against it do not reroll.
+++++ Redeployment
+You can move totems you created as a swift action. In order to move a totem, it must be your totem, and it must be within the range you can create totems. The totem can be moved to anywhere within range. It is still the same totem, so creatures which made saving throws against it do not reroll.
 
-If you have the ability to create totemic auras, then you may move auras between creatures (even while they are unconscious), or turn them into fixed totems and back again. Doing so may change the range of the totem.
+If you have the ability to create totemic auras, then you may move auras between creatures (even while they are unconscious), or turn them into fixed totems and back again, but unwilling targets receive a Will save to resist. Doing so may change the range of the totem.
 
-++++ ##000000|Resounding Rally##
+++++ Resounding Rally
 Whenever you rally an ally other than yourself, you may also rally yourself at the same time with the same rally without expending any additional spell points. If the rally is triggered by an event, that event must affect you for the rally to affect you as well.
 
-++++ ##000000|Resourcefulness##
+++++ Resourcefulness
 The maximum size of your momentum pool increases by the number of (momentum) talents you possess. In addition, when you refill your momentum pool, it refills to its maximum value, including these additional points. You may take this talent multiple times; its effects stack.
 
-++++ ##000000|Steadfast Totem##
-When you spend a spell point to make a totem last 1 round per caster level without concentration, it lasts for 1 minute per caster level instead.
+++++ Totem Merger [Alienist HB]
+Whenever one of your totems contains one of your other totems or the totem of an allied spellcaster within its area, the effects of each totem extends into the area of the other. This can be used to chain any number of totems together.
 
-++++ ##000000|Totemic Aura##
-You may create totems attached to yourself or to other creatures. A totem attached to a creature is called a totemic aura. It functions as a regular totem, except that it has a radius of 30 ft., it moves with the creature it is attached to, becomes inactive if that creature is knocked unconscious and is dispelled if they are killed. They continue to function if they go beyond long range of their creator, but the creator can only rally those within that totem (including the creature it is attached to) if they are within long range.
+++++ Totemic Aura
+You may create totems attached to yourself or to other creatures. A totem attached to a creature is called a totemic aura. This functions as a regular totem, except that it has a radius of 30 feet, it moves with the creature it is attached to, becomes inactive if that creature is knocked unconscious and is dispelled if they are killed. They continue to function if they go beyond long range of their creator, but the creator can only rally those within that totem (including the creature it is attached to) if they are within long range.
 
 The recipient must be within range (adjacent to you, or in close range if you possess the Ranged Totem talent). An unwilling creature can have a totem attached to them as a touch attack; no saving throw is allowed, but the Break Enchantment talent from the Life sphere or a similar effect effect can dispel the totem before its natural duration expires. An enemy with a totem attached to them still receives any saving throws the totem allows to avoid being affected. A successful save means they are unaffected by the totem, but it remains attached to them and it still affects those within range of it.
 
 Spell resistance can prevent a totemic aura from being attached to a creature. A failed spell penetration check dispels the totem.
 
-++++ ##000000|Totemic Presence##
-You may create totemic auras attached to yourself as if you were using the Totemic Aura talent. In addition, when you create a totemic aura attached to yourself, you may do so as a move action, or you may spend a spell point to create a totemic aura attached to yourself as a swift action.
-----
-+ Mandate Talents
+++++ Totemic Emblem
+You may create totems attached to objects. A totem attached to an object is called a totemic emblem. This functions as a regular totem, except that it has a radius of 30 feet, it moves with the object it is attached to, and is dispelled if the object is destroyed. totemic emblems continue to function if they go beyond long range of their creator, but the creator can only rally those within that totem if they are within long range.
 
-++++ ##000000|Adroitness (mandate)##
+The recipient object must be within range (adjacent to you, or in close range if you possess the Ranged Totem talent). An unwilling creature can have a totem attached to its equipment as a touch attack; no saving throw is allowed, but the Break Enchantment talent from the Life sphere or a similar effect can dispel the totem before its natural duration expires.
+
+An object with a totem attached to it still receives any saving throws the totem allows to avoid being affected. A successful save means it is unaffected by the totem, but it remains attached to it and it still affects those within range of the totem.
+
+Spell resistance can prevent a totemic emblem from being attached to an object. Failing to bypass the intended target’s spell resistance in attempting to attach the totem dispels the totem.
+----
+++ Mandate Talents
+++++ Adroitness (mandate)
 When a member of this mandate is missed by an enemy, the other member of this mandate receives a +4 morale bonus to damage rolls against that enemy.
 
-++++ ##000000|Aptitude (mandate)##
-When a member of this mandate succeeds in a skill check, the other member gains +4 morale bonus to the same skill. If both members of a mandate make a skill check at the same time with the same skill and one succeeds, it can change the results of the other’s skill check.
+++++ Aptitude (mandate)
+When a member of this mandate succeeds in a skill check, the other member gains +4 morale bonus to the same skill. If both members of a mandate attempt a skill check at the same time with the same skill and one succeeds, it can change the result of the other’s skill check.
 
-++++ ##000000|Awareness (mandate)##
+++++ Awareness (mandate)
 When a member of this mandate damages an enemy, the other member can make attacks without the enemy benefiting from any form of concealment, displacement, invisibility or effects that attempt to prevent an attacker from knowing where a target is.
 
-++++ ##000000|Guile (mandate)##
-When a member of this mandate succeeds in a combat maneuver against an enemy, the other member gains full concealment against that enemy.
+++++ Guile (mandate)
+When a member of this mandate succeeds in a combat maneuver against an enemy, the other member gains total concealment against that enemy.
 
-++++ ##000000|Mobility (mandate)##
+++++ Impose (mandate) [Warden]
+Whenever a member of this mandate takes damage, the other member of this mandate may choose to transfer up to an amount of damage equal to twice your caster level (minimum 1) to themselves as a free action (usable outside their turn).
+
+**Author's Note:** Damage transferred by this effect is not further reduced by damage reduction, energy resistance, or any other effect.
+
+++++ Mobility (mandate)
 When a member of this mandate moves adjacent to a creature, the other member may use an immediate action to move up to their speed, provided this movement ends in a square adjacent to the same creature.
 
-++++ ##000000|Perseverance (mandate)##
+++++ Perseverance (mandate)
 When a member of this mandate regains hit points, the other member gains an equal number of temporary hit points, up to a maximum equal to their maximum hit point total. The temporary hit points gained do not stack with each other, and last until the mandate ends.
 
-++++ ##000000|Resolve (mandate)##
-When a member of the mandate hits an enemy with an attack, the other member gains a +4 morale bonus to AC and CMD against that enemy, and a +4 morale bonus to saving throws against that enemies’ abilities.
+++++ Resolve (mandate)
+When a member of this mandate hits an enemy with an attack, the other member gains a +4 morale bonus to AC and CMD against that enemy, and a +4 morale bonus to saving throws against that enemies’ abilities.
 
-++++ ##000000|Ruthlessness (mandate)##
+++++ Ruthlessness (mandate)
 When a member of this mandate misses an enemy with an attack, the other member may use an immediate action to use a combat maneuver against that enemy. This does not provoke attacks of opportunity.
 
-++++ ##000000|Tenacity (mandate)##
-When a member of this mandate succeeds in a saving throw, the other member gains +4 morale bonus to saving throws. If both members of a mandate make a saving throw at the same time and one succeeds while the other fails, the bonus can change the results of failed allies’ saving throw if the bonus is sufficient to meet the original DC required.
+++++ Tenacity (mandate)
+When a member of this mandate succeeds in a saving throw, the other member gains +4 morale bonus to saving throws. If both members of a mandate attempt a saving throw at the same time and one succeeds while the other fails, the bonus can change the results of failed allies’ saving throw if the bonus is sufficient to meet the original DC required.
 
-++++ ##000000|Vindictiveness (mandate)##
+++++ Vindictiveness (mandate)
 When a member of this mandate is hit by an enemy, the other member of this mandate receives a +2 morale bonus to attack rolls and CMB against that enemy.
 ----
-+ Momentum Talents
+++ Momentum Talents
+++++ Aggressive Momentum (momentum)
+As a swift action, any ally may spend three points of momentum to grant themselves an additional attack made at their highest base attack bonus for that round. This does not stack with effects that grant extra attacks as part of a full-round action.
 
-**Wiki Note:** As a reminder, using any Momentum talent (to create or refill a Momentum Pool) costs a Spell Point. Spending points from the pool does not cost a Spell Point.
+++++ Cooperative Momentum (momentum) [Warden]
+Whenever an ally would be affected by an ability originating from another ally that is subject to spell resistance and covers an area, the ally may spend a point of momentum to treat themselves and their equipment as if they were immune.
 
-++++ ##000000|Aggressive Momentum (momentum)##
-As a swift action, any ally may spend 3 points of momentum to grant themselves an additional attack made at their highest base attack bonus for that round. This stacks with effects that grant extra attacks as part of a full-round action.
+++++ Damaging Momentum (momentum)
+Whenever an ally hits an enemy with a weapon attack, natural weapon attack or unarmed strike, they may spend two points of momentum to add your casting ability modifier to the amount of damage done. The damage is of the same type as the attack. This may be done only once per attack.
 
-++++ ##000000|Damaging Momentum (momentum)##
-Whenever an ally hits an enemy with a weapon attack, natural weapon attack or unarmed strike, they may spend 2 points of momentum to add your casting ability modifier to the amount of damage done. The damage is of the same type as the attack. This may be done only once per attack.
+++++ Demoralizing Momentum (momentum)
+Whenever an ally hits an enemy with an attack, they may spend a point of momentum as an immediate action to try and demoralize that enemy with their Intimidate skill. If the enemy is already shaken, they may instead spend three points to attempt to make the shaken enemy frightened. If they are already frightened, they may instead spend five points to attempt to make the frightened enemy panicked.
 
-++++ ##000000|Demoralizing Momentum (momentum)##
-Whenever an ally hits an enemy with an attack, they may spend a point of momentum as an immediate action to try and demoralize that enemy with their intimidate skill. If the enemy is already shaken, they may instead spend 3 points to attempt to make the shaken enemy frightened. If they are already frightened, they may instead spend 5 points to attempt to make the frightened enemy panicked.
+++++ Disrupting Momentum (momentum) [Warden]
+Whenever an ally would be attacked with a melee attack or combat maneuver, the ally may spend 2 points of momentum as an immediate action to force the attacker to roll their attack roll or combat maneuver check twice and take the lowest result (Will negates).
 
-++++ ##000000|Favorable Momentum (momentum)##
-Allies may spend two points of momentum to add a 1d6 circumstance bonus to any skill or attribute roll. The decision to add this bonus must be made before the skill check is rolled. Each ally may do this only once per turn.
+++++ Favorable Momentum (momentum)
+Allies may spend two points of momentum to add a 1d6 circumstance bonus to any skill or ability check. The decision to add this bonus must be made before the skill or ability check is rolled. Each ally may do this only once per turn.
 
-++++ ##000000|Marauding Momentum (momentum)##
-On their turn, an ally may spend a point of momentum to move 5 ft. This is a free action that draws attacks of opportunity normally. The ally may do this up to 4 times on their turn, and these movements may be taken between attacks.
+++++ Focusing Momentum (momentum) [Warden]
+As a move action, an ally may spend 2 points of momentum to regain their martial focus. Alternatively, the ally may spend 3 points of momentum to regain their martial focus as a swift action instead.
 
-++++ ##000000|Resilient Momentum (momentum)##
-Whenever an ally takes hit point damage, they may spend a point of momentum to reduce the damage of the attack by your casting ability modifier (minimum: 1). This is not a form of damage resistance.
+++++ Marauding Momentum (momentum)
+On their turn, an ally may spend a point of momentum to move 5 feet. This is a free action that draws attacks of opportunity normally. The ally may do this up to 4 times on their turn, and these movements may be taken between attacks.
 
-++++ ##000000|Tactical Momentum (momentum)##
-When an ally attempts a combat maneuver, they may spend a point of momentum to receive an insight bonus equal to your casting ability modifier (minimum: 1). If they do, the combat maneuver does not provoke any attacks of opportunity. Only one point of momentum may be spent per combat maneuver.
+++++ Resilient Momentum (momentum)
+Whenever an ally takes hit point damage, they may spend a point of momentum to reduce the damage of the attack by your casting ability modifier (minimum 1). This is not a form of damage resistance and does not stack with itself.
 
-++++ ##000000|Threatening Momentum (momentum)##
+++++ Revitalizing Momentum (momentum) [Warden]
+As a swift action, an ally may spend any amount of momentum (maximum equal to your casting ability modifier). The ally gains a number of temporary hit points equal to 1d4 per momentum spent. These temporary hit points last for a number of rounds equal to the amount of momentum spent.
+
+++++ Tactical Momentum (momentum)
+When an ally attempts a combat maneuver, they may spend a point of momentum to receive an insight bonus equal to 1/2 your casting ability modifier (minimum 1). If they do, the combat maneuver does not provoke any attacks of opportunity. Only one point of momentum may be spent per combat maneuver.
+
+++++ Threatening Momentum (momentum)
 When an ally hits an enemy with a weapon attack with a natural roll of 16 or greater, they may spend a point of momentum to have the attack be considered a critical hit for the purpose of triggering critical feats. This does not make the hit an actual critical hit, and no confirmation roll is required. This can allow a critical feat to be triggered even if the target is immune to critical hits. The normal rules for critical feats apply. If the attack was already a threat, they may spend a point of momentum to confirm it instead. They must do this before rolling to confirm.
 ----
-+ Rally Talents
+++ Rally Talents
+++++ Absorb (rally)
+When an enemy deals damage to an ally you can rally, you may spend a spell point to transfer half of this damage to another ally you can rally. This damage cannot be reduced or divided further.
 
-++++ ##000000|Absorb (rally) [Core]##
-When an enemy deals damage to an ally within the area of effect of one of your totems, you may spend a spell point to transfer half of this damage to another ally within the area of effect of one of your totems. This damage cannot be reduced or divided further.
+++++ Counterattack (rally)
+When an enemy misses an ally with a melee attack, you may spend a spell point to rally that ally, allowing them to make an attack with a natural or manufactured weapon on the enemy that missed them. If the attack hits, the ally gains a +4 dodge bonus against that enemy until the end of their next turn. If the ally was flat-footed against the enemy, they are no longer flat-footed.
 
-++++ ##000000|Counterattack (rally)##
-When an enemy misses an ally with a melee attack, you may spend a spell point to rally that ally, allowing them to make an attack with a natural or manufactured weapon on the enemy that missed them. If the attack hits, the ally gains a +4 dodge bonus against that enemy until the end of their next turn. If the ally was flat-footed against the enemy, they are no longer flat-footed, unless they are somehow immobilized or the attacker successfully feints after the counterattack.
+++++ Empower (rally)
+You may spend a spell point to rally a target, giving them a +4 morale bonus to either attack rolls and CMB, AC and CMD, saving throws, or concentration checks and spell penetration checks. The bonus from this rally lasts 1 round. The decision to use this rally in response to an attack must be made prior to the attack roll, and the decision to use this rally in response to a saving throw must be made before the save is rolled.
 
-++++ ##000000|Empower (rally)##
-You may spend a spell point to rally a target, giving them a +4 morale bonus to attack rolls, AC, saving throws, concentration checks, spell penetration checks, CMB and CMD. The bonus from this rally lasts 1 round.The decision to use this rally in response to an attack must be made prior to the attack roll, and the decision to use this rally in response to a saving throw must be made before the save is rolled.
+++++ Engage (rally)
+You may spend a spell point to rally a target, allowing them to attempt an Escape Artist check, draw a weapon, ready a shield, set a weapon against a charge, retrieve a stored item, stand-up from a prone position, or any other simple, non-offensive action the GM deems appropriate. The action is taken by the ally immediately as a free action and does not draw any attacks of opportunity.
 
-++++ ##000000|Engage (rally)##
-You may spend a spell point to rally a target, allowing them to make an escape artist check, draw a weapon, ready a shield, set a weapon against a charge, retrieve a stored item, stand-up from a prone position, or any other simple, non-offensive action the GM deems appropriate. The action is taken by the ally immediately as a free action and does not draw any attacks of opportunity.
-
-++++ ##000000|Finish (rally)##
+++++ Finish (rally)
 You may spend a spell point to rally an ally, allowing them to reroll an attack roll (even an attack roll to confirm a critical hit) or CMB check. The decision to roll must be made before the results of a roll are announced, and the second result must be used.
 
-++++ ##000000|Intercept (rally)##
+++++ Intercept (rally)
 You may spend a spell point to rally a target, allowing them to swap positions with an adjacent ally. This does not draw attacks of opportunity. Both allies must be capable of movement for this to work, even if they can only crawl. If this is done in response to an attack, then the target of the attack changes to the other ally.
 
-++++ ##000000|Position (rally) [Core]##
-You may spend a spell point to rally a target, allowing it to immediately move up to 5 ft per 2 caster levels (minimum: 5 ft). This movement does not provoke attacks of opportunity and must end within the area of effect of one of your totems.
+++++ Position (rally)
+You may spend a spell point to rally a target, allowing it to immediately move up to 5 feet per 2 caster levels (minimum 5 feet). This movement does not provoke attacks of opportunity and must end within the area you can rally. If used to avoid an attack or area effect (or to move the attacker), this grants the defender evasion and a dodge bonus to AC and Reflex saves equal to half your caster level (minimum 1).
 
-++++ ##000000|Retribution (rally) [Core]##
-When an enemy deals damage to an ally and both ally and enemy are within the area of effect of one of your totems, you may spend a spell point to deal 1d6 damage to the attacker for every 2 caster levels you possess (minimum: 1d6). This damage may be either acid, electricity, cold, or fire.
-
-++++ ##000000|Revitalize (rally) [Core]##
+++++ Replenish (rally)
 You may spend a spell point to rally a target, allowing them to reroll a saving throw they just failed. They must take the second result, even if it is worse.
 
-++++ ##000000|Safety (rally) [Core]##
-When a target confirms a critical hit against a target within one of your totems, you may spend a spell point to cause that critical hit to resolve as a normal hit instead.
+++++ Retribution (rally)
+When an enemy deals damage to an ally and both ally and enemy are within the area you can rally, you may spend a spell point to deal 1d6 damage to the attacker for every 2 caster levels you possess (minimum 1d6). This damage may be either acid, electricity, cold, or fire.
 
-++++ ##000000|Strike (rally)##
-You may spend a spell point to rally an ally, allowing them to use a combat maneuver (but not an escape check or grapple) on an enemy they threaten. The combat maneuver does not provoke an attack of opportunity, and receives a morale bonus to CMB equal to your caster level.
+++++ Safety (rally)
+When a creature confirms a critical hit against the target, you may spend a spell point to cause that critical hit to resolve as a normal hit instead.
+
+++++ Strike (rally)
+You may spend a spell point to rally an ally, allowing them to use a combat maneuver (but not an Escape Artist check or grapple) on an enemy they threaten. The combat maneuver does not provoke an attack of opportunity, and receives a morale bonus to CMB equal to 1/5th your caster level (minimum 0).
 ----
-+ Totem Talents
-
-++++ ##000000|Absolute Totem (totem)##
+++ Totem Talents
+++++ Absolute Totem (totem)
 You must spend a spell point to create an absolute totem. Within this totem, the weapons, armor and equipment allies are wearing or carrying receive a bonus to their hardness equal to your caster level. While using these weapons, allies receive a +1 competence bonus to sunder attempts. This increases by +1 for every 5 caster levels, and whenever an enemy strikes them with a melee attack using a manufactured weapon, they may attempt to sunder their opponent’s weapon as an immediate action.
 
-++++ ##000000|Blood Totem (totem) [Core]##
-You may spend a spell point to create a blood totem. Whenever an enemy within this totem’s area deals damage to an ally within this totem’s area, the damage roll is reduced by 1 (to a minimum of 0), and the attacker takes 1 damage that bypasses all damage resistance. The damage reduced and the damage dealt by this totem increases by 1 for every 5 caster levels you possess.
+++++ Blood Totem (totem)
+You must spend a spell point to create a blood totem. Whenever an enemy within this totem’s area deals damage to an ally within this totem’s area, the damage roll is reduced by 1 (to a minimum of 0), and the attacker takes 1 damage that bypasses all damage resistance. The damage reduced and the damage dealt by this totem increases by 1 for every 5 caster levels you possess.
 
-++++ ##000000|Divisive Totem (totem)##
-You must spend a spell point to create a divisive totem. While within this totem, enemies lose trust in all other creatures. They have no allies except themselves, only enemies. If an effect can only target allies, they can only use it on themselves. They resist the help of other creatures, make saving throws even when an ability is harmless (such as healing), and resist being touched. Enemy creatures can not move through other creatures squares. Summoned and conjured creatures no longer obey commands. This is a mind-affecting compulsion ability.
+++++ Divisive Totem (totem)
+You must spend a spell point to create a divisive totem. While within this totem, enemies lose trust in all other creatures. They have no allies except themselves, only enemies. If an effect can only target allies, they can only use it on themselves. They resist the help of other creatures, attempt saving throws even when an ability is harmless (such as healing), and resist being touched. Enemy creatures can not move through other creatures’ squares. Summoned and conjured creatures no longer obey commands. This is a mind-affecting compulsion ability.
 
 A creature within this totem gets a Will saving throw upon first encountering it, and an additional Will saving throw at the end of each turn they are affected by it until they successfully save. Even when a successful save is made, their allies may still treat the creature as an enemy if they are also within the totem and have not made a save.
 
-++++ ##000000|Giving Totem (totem)##
-You may spend a spell point to create a giving totem. Whenever a creature is subjected to a positive energy effect that causes them to regain or lose hit points (but not temporary hit points granted or ability damage dealt) the number of hit points gained or lost increases by your caster level or by the original value, whichever is less.
+++++ Giving Totem (totem)
+You must spend a spell point to create a giving totem. Whenever a creature is subjected to a positive energy effect that causes them to regain or lose hit points (but not temporary hit points granted or ability damage dealt) the number of hit points gained or lost increases by your caster level or by the original value, whichever is less.
 
-++++ ##000000|Gyroscopic Totem (totem)##
-You must spend a spell point to create a gyroscopic totem. Gravitational fluctuation keep enemies within this totem unbalanced while they remain within. An unbalanced creature moves with less grace and agility than normal. They can still move, but entering squares draws attacks of opportunity as if they had left the square, and the creature can not take 5-ft. steps.
+++++ Gyroscopic Totem (totem)
+You must spend a spell point to create a gyroscopic totem. Gravitational fluctuations keep enemies within this totem unbalanced while they remain within. An unbalanced creature can still move, but entering squares draws attacks of opportunity as if they had left the square, and the creature can not take 5-foot steps.
 
-In addition, at the end of any movement with a total distance greater than 5 ft., the creature must make a Reflex save or fall prone. If the creature has more than 2 legs, it gains a +1 bonus to this saving throw for each additional leg, and creatures that are flying, crawling, swimming, or burrowing are unaffected, as are creatures that are not affected by gravity, such as incorporeal creatures. Teleporting creatures do not draw attacks of opportunity because of this totem.
+In addition, at the end of any movement with a total distance greater than 5 feet, the creature must succeed at a Reflex save or fall prone. If the creature has more than 2 legs, it gains a +1 bonus to this saving throw for each additional leg, and creatures that are flying, crawling, swimming, or burrowing are unaffected, as are creatures that are not affected by gravity such as incorporeal creatures. Teleporting creatures do not draw attacks of opportunity because of this totem.
 
-++++ ##000000|Hallowed Totem (totem) [Core]##
-All creatures within the area of this totem suffer a -1 penalty to saving throws made to resist channeled positive energy and positive energy effects such as cure spells and Life sphere effects. This penalty increases by 1 for every 10 caster levels. If you place an hallowed totem in a location that already has a unhallowed totem present, you must succeed at a magic skill check to place your totem. On a success, the two totems cancel each other, leaving neither hallowing totem nor unhallowed totem in place.
+++++ Hallowed/Unhallowed Totem (totem)
+You may create either a hallowed or unhallowed totem. If creating a hallowed totem, all creatures within the area of this totem suffer a -1 penalty to saving throws made to resist channeled positive energy and positive energy effects such as cure spells and Life sphere effects. This penalty increases by 1 for every 10 caster levels. If creating an unhallowed totem, this penalty instead applies to channeled negative energy and negative energy effects, such as inflict spells and Death sphere effects. If you place a hallowed totem in a location that already has an unhallowed totem present or vice versa, you must succeed at a magic skill check to place your totem. On a success, the two totems cancel each other, leaving neither hallowed totem nor unhallowed totem in place.
 
-++++ ##000000|Haunting Totem (totem)##
-Enemies within this totem must make a Will save, or become distracted by hallucinations at the edge of their perception. If they fail, any of the caster’s allies threatening them are considered to be flanking them. This lasts as long as are in the totem, ends if they leave the totem, and resumes if they reenter the totem. They do not get a new saving throw if the leave and then reenter the totem area. This is a mind-affecting illusion (phantasm) effect, and creatures with blindsense or blindsight automatically pass their saving throw.
+++++ Haunting Totem (totem)
+Enemies within this totem must succeed at a Will save, or become distracted by hallucinations at the edge of their perception. If they fail, any of the caster’s allies threatening them are considered to be flanking them. This lasts as long as are in the totem, ends if they leave the totem, and resumes if they reenter the totem. They do not get a new saving throw if the leave and then reenter the totem area. This is a mind-affecting illusion (phantasm) effect, and creatures with blindsense or blindsight automatically succeed at their saving throw.
 
-++++ ##000000|Invigorating Totem (totem) [Core]##
-You and your allies gain 1 temporary hit point, +1 temporary hit point every subsequent round at the end of your turn. These temporary hit points stack with themselves, to a maximum number of temporary hit points equal to your caster level. These temporary hit points only remain as long as you remain within the area of effect of this totem.
+++++ Invigorating Totem (totem)
+You and your allies gain 1 temporary hit point per round at the end of your turn, +1 per 5 caster levels. These temporary hit points stack with themselves, to a maximum number of temporary hit points equal to your caster level. These temporary hit points only remain as long as you remain within the area of effect of this totem.
 
-++++ ##000000|Quickening Totem (totem)##
-You and your allies gain a +2 dodge bonus to AC vs attacks of opportunity. This increases by +1 for every 4 caster levels you possess.
+++++ Quickening Totem (totem)
+You and your allies gain a +2 dodge bonus to AC vs. attacks of opportunity. This increases by +1 for every 4 caster levels you possess.
 
-++++ ##000000|Rebellious Totem (totem)##
-You create a totem that interferes with charm and compulsion magic as well as other powers that let a caster enforce their will on others. Whenever a creature attempts to exert or maintain mental control over another creature inside your totem, they must make a magic skill check against your magic skill defense or else their attempt fails, and their control is suspended for as long as the target remains within the totem. During the intervening time, the controlled creature is free. A mindless creature may do nothing, or continue in their previous activity, while a creature with their own mind may act normally. They are still under the effects of any ability that controlled them, they simply are not receiving new orders. The controlling caster may attempt to resume control on their next turn.
+++++ Rebellious Totem (totem)
+You create a totem that interferes with charm and compulsion magic as well as other powers that let a caster enforce their will on others. Whenever a creature attempts to exert or maintain mental control over another creature inside your totem, they must attempt a magic skill check against your magic skill defense or else their attempt fails, and their control is suspended for as long as the target remains within the totem. During the intervening time, the controlled creature is free. A mindless creature may do nothing, or continue in their previous activity, while a creature with their own mind may act normally. They are still under the effects of any ability that controlled them, they simply are not receiving new orders. The controlling caster may attempt to resume control on their next turn.
 
-This totem’s effects apply to summoned (but not called) creatures, mindless creatures, or creatures that are controlled against their will. It does not expel a controlling life force (such as a ghost or projected spirit), but it does prevent them from controlling the target.
+This totem’s effects apply to summoned (but not called) creatures, mindless creatures, or creatures that are controlled against their will. It does not expel a controlling life force (such as a ghost or projected spirit), but it does prevent them from controlling the target. This totem ignores spell resistance, spell immunity or any other effect that would render a creature invulnerable, as it is the interaction that is affected by the totem, not the creature itself.
 
-This totem ignores spell resistance, spell immunity or any other effect that would render a creature invulnerable, as it is the interaction that is affected by the totem, not the creature itself.
+**Author's Note:** This totem applies against mind-affecting charm or compulsion effects which exert active control or manipulate the attitude of a subject against their will, such as a dominate spell, charm person spell or Mind sphere Enthrall sphere effect, possession effect, or other similar abilities. This totem does not interfere with other charm and compulsion effects, such as confusion, sleep, and similar.
 
-++++ ##000000|Scourging Totem (totem) [Core]##
-This totem emits pulses of energy, damaging every enemy within your totem’s range for an amount per round equal to 1/2 your caster level (minimum: 1). This damage may be acid, electricity, cold, or fire, as chosen when the totem is created. Creatures who enter the area of effect of this totem suffer damage immediately. Creatures who remain within the area of this totem suffer damage each round at the end of your turn.
+++++ Scourging Totem (totem)
+This totem emits pulses of energy, damaging every enemy within your totem’s range for an amount per round equal to 1/2 your caster level (minimum 1). This damage may be acid, electricity, cold, or fire, as chosen when the totem is created. Creatures who enter the area of effect of this totem suffer damage immediately. Creatures who remain within the area of this totem suffer damage each round at the end of your turn.
 
-++++ ##000000|Tactical Totem (totem)##
+++++ Tactical Totem (totem)
 When you activate this totem, choose a teamwork feat you possess. Allies within the totem that qualify for that feat gain the benefits of that feat. In addition, all allies are considered to have that feat for the purpose of determining whether other allies benefit from that feat. For every 10 caster levels, choose an additional teamwork feat. When you create this totem, you may choose to spend a spell point. If you do, you may share any teamwork feats you qualify for, not just teamwork feats you possess.
 
-++++ ##000000|Taking Totem (totem)##
+++++ Taking Totem (totem)
 You must spend a spell point in order to create a taking totem. Whenever a creature is subjected to a negative energy effect that causes them to regain or lose hit points (but not temporary hit points granted or ability damage dealt) the number of hit points gained or lost increases by your caster level or the original value, whichever is less.
 
-++++ ##000000|Totem of Allegiance (totem) [Core]##
-You may spend a spell point to create a totem that aids creatures of a particular alignment. Choose an end of the alignment spectrum (good, evil, lawful, or chaotic) when you create this totem. Creatures within the area of this totem who possess that alignment gain a +1 bonus to all saving throws and attack rolls. This bonus increases by 1 per 10 caster levels.
+++++ Totem Of Agility (totem) [Alienist HB]
+You and your allies ignore nonmagical difficult terrain within the area of the totem. At caster level 10th, you and your allies may ignore magical difficult terrain and may open doors as a free action rather than a move action within the area of the totem.
 
-You must select an alignment that you possess. If you are True Neutral, you may select neutrality with this totem. This only benefits True Neutral creatures; Neutral Good, Neutral Evil, Lawful Neutral, and Chaotic Neutral creatures are unaffected.
+++++ Totem Of Allegiance (totem)
+You must spend a spell point to create a totem of allegiance. Choose an end of the alignment spectrum (chaotic, evil, good, or lawful) when you create this totem. Creatures within the area of this totem who possess that alignment gain a +1 circumstance bonus to all saving throws and attack rolls. This bonus increases by 1 per 10 caster levels.
 
-++++ ##000000|Totem of Courage (totem) [Core]##
-You must spend a spell point to create a totem of courage. You and your allies gain a +1 morale bonus to attack rolls and saves vs fear. The bonus to attack rolls increases by 1 for every 10 caster levels you possess, and the bonus to saves vs fear increases by 1 for every 5 caster levels you possess.
+You must select an alignment that you possess. If you are true neutral, you may select neutrality with this totem. This only benefits true neutral creatures; chaotic neutral, lawful neutral, neutral evil, and neutral good creatures are unaffected.
 
-++++ ##000000|Totem of Deep Thought (totem)##
-Your allies gain a +4 competence bonus to concentration. This increases by +1 for every 5 caster levels you possess. When you create this totem, you may spend a spell point. If you do, the bonus applies not only to concentration rolls, but spell penetration rolls as well.
+++++ Totem Of Courage (totem)
+You must spend a spell point to create a totem of courage. You and your allies gain a +1 competence bonus to attack rolls and a +1 morale bonus to saves vs. fear. The bonus to attack rolls increases by 1 for every 10 caster levels you possess, and the bonus to saves vs. fear increases by 1 for every 5 caster levels you possess.
 
-++++ ##000000|Totem of Doom (totem) [Core]##
-You must spend a spell point to place a totem that causes all enemies in the area to become shaken (no save). This effect lasts as long as they remain within the totem’s effect area. The effects of this totem are not cumulative with itself or other sources of fear.
+++++ Totem Of Deep Thought (totem)
+Your allies gain a +1 competence bonus to concentration. This increases by +1 for every 5 caster levels you possess. When you create this totem, you may spend a spell point. If you do, the bonus applies not only to concentration rolls, but spell penetration rolls as well.
+
+++++ Totem Of Doom (totem)
+You must spend a spell point to place a totem of doom. All enemies in the area become shaken (no save). This effect lasts as long as they remain within the totem’s effect area. The effects of this totem are not cumulative with itself or other sources of fear.
 
 You may take this talent a total of three times. If taken twice, your totem of doom becomes cumulative; if a creature comes into contact with your totem of doom who is already shaken from another effect, the effect of your totem of doom is changed to frightened for that specific creature. If you gain this talent three times, a creature who comes into contact with your totem of doom who is already frightened from another effect becomes panicked. Multiple totems of doom do not stack with each other for this purpose.
 
-++++ ##000000|Totem of Enemies (totem) [Core]##
-You may spend a spell point to create a totem that hinders creatures of a particular alignment. Choose an end of the alignment spectrum (good, evil, lawful, or chaotic) when you create the totem. Creatures within the area of this totem who possess that alignment suffer a -1 penalty to all saving throws and attack rolls. This penalty increases by 1 per 10 caster levels. You must select an alignment that you do not possess. If you are Lawful Good, Lawful Evil, Chaotic Good, or Chaotic Evil, you may select True Neutral with this totem.
+++++ Totem Of Dread (totem) [Alienist HB]
+Enemies within the totem’s area must attempt a Will save. On a failed saving throw, they cannot benefit from morale bonuses so long as they remain in the area of the totem. A creature within this totem gets a Will saving throw upon first encountering it, and an additional Will saving throw at the end of each turn they are affected by it until they successfully save.
 
-++++ ##000000|Totem of Expulsion (totem)##
-You must spend a spell point to create a totem of expulsion. The totem creates a field of energy that applies interdimensional pressure to creatures that do not belong on your plane, and weakens them. All non-native outsiders (including allies) within are sickened (no save) while they remain inside the area of the totem. In addition, they receive a penalty to any damage reduction, energy resistance, and spell resistance they possess equal to your caster level. Energy immunity is also affected: treat immune creatures as having a resistance equal to twice their total Hit Dice, then subtract your caster level asyou would with normal resistance, to a minimum of 0. You can only create this totem on your home plane.
+++++ Totem Of Enemies (totem)
+You must spend a spell point to create a totem of enemies. Choose an end of the alignment spectrum (chaotic, evil, good, or lawful) when you create the totem. Creatures within the area of this totem who possess that alignment suffer a -1 penalty to all saving throws and attack rolls. This penalty increases by 1 per 10 caster levels. You must select an alignment that you do not possess. If you are chaotic neutral, lawful neutral, neutral evil, or neutral good, you may select true neutral with this totem.
 
-++++ ##000000|Totem of Foresight (totem)##
+++++ Totem Of Expulsion (totem)
+You must spend a spell point to create a totem of expulsion. The totem creates a field of energy that applies interdimensional pressure to creatures that do not belong on your plane, and weakens them. All non-native outsiders (including allies) within are sickened (no save) while they remain inside the area of the totem. In addition, they receive a penalty to any damage reduction, energy resistance, and spell resistance they possess equal to your caster level. Energy immunity is also affected: treat immune creatures as having a resistance equal to twice their total Hit Dice, then subtract your caster level as you would with normal resistance, to a minimum of 0. You can only create this totem on your home plane.
+
+++++ Totem Of Foresight (totem)
 You must spend a spell point to create a totem of foresight. Whenever an ally in the area of the totem attacks, they may choose two possible target enemies for the attack, and then roll the d20 for each target. They may then choose which enemy they attack, and use the d20 rolled for that enemy as their hit roll.
 
-++++ ##000000|Totem of Insanity (totem)##
-You must spend a spell point to create a totem of insanity. Enemies within this totem are filled with bloodlust and confusion, and must make a Will save upon entering the area of the totem or upon it being created. If they fail, then on the beginning of their next turn there is a 50% chance they will attack their own nearest ally instead of their enemy. If they do, they are considered an ally for the purposes of your totems for the duration of the attack. At the end of any turn they do this, they receive another saving throw.
+++++ Totem Of Insanity (totem)
+You must spend a spell point to create a totem of insanity. Enemies within this totem are filled with bloodlust and confusion, and must succeed at a Will save upon entering the area of the totem or upon it being created. If they fail, then on the beginning of their next turn there is a 50% chance they will attack their own nearest ally instead of their enemy. If they do, they are considered an ally for the purposes of your totems for the duration of the attack. At the end of any turn they do this, they receive another saving throw.
 
-Leaving the totem causes the effect to end for a creature, but re-entering it causes the effect to resume if they have not yet made a successful saving throw. The effects of this totem are a mind-affecting, compulsion effect.
+Leaving the totem causes the effect to end for a creature, but re-entering it causes the effect to resume if they have not yet made a successful saving throw. These are mind-affecting, compulsion effects.
 
-++++ ##000000|Totem of Iron (totem) [Core]##
-You may spend a spell point to create a totem of iron. This grants you and your allies a +1 natural armor bonus. This bonus increases by +1 for every 10 caster levels you possess.
+++++ Totem Of Iron (totem)
+You must spend a spell point to create a totem of iron. This grants you and your allies a +1 natural armor bonus. This bonus increases by +1 for every 10 caster levels you possess.
 
-++++ ##000000|Totem of Liberation (totem) [Core]##
-You may spend a spell point to create a totem of liberation. You and your allies gain a +1 insight bonus against all mind-altering effects, enchantment (charm) effects, enchantment (compulsion) effects, and Mind sphere abilities. This bonus increases by 1 for every 5 caster levels you possess.
+++++ Totem Of Liberation (totem)
+You must spend a spell point to create a totem of liberation. You and your allies gain a +1 insight bonus against all mind-altering effects, enchantment (charm) effects, enchantment (compulsion) effects, and Mind sphere abilities. This bonus increases by 1 for every 5 caster levels you possess.
 
-++++ ##000000|Totem of Mobility (totem) [Core]##
-You may spend a spell point to create a totem of mobility. As a swift action, allies within this area may make a 5 ft step. This is in all ways similar to a normal 5 ft step, except this does not prohibit them from taking their usual 5 ft step, nor using a move action to move normally.
+++++ Totem Of Mobility (totem)
+You must spend a spell point to create a totem of mobility. As a swift action, allies within this area may make a 5-foot step. This is in all ways similar to a normal 5-foot step, except this does not prohibit them from taking their usual 5-foot step, nor using a move action to move normally.
 
-++++ ##000000|Totem of Screaming Skin (totem)##
-You must spend a spell point to create a totem of screaming skin. Enemies within this are haunted by the sensation of a pain from far away. Whenever their skin is even slightly broken, a wound rips open in the shape of a mouth and screams, making even the smallest injuries horrific. Whenever a weapon or natural weapon attack is made on an enemy inside the totem, if the attack roll misses by 5 or less, and is not a natural 1, the attack is a glancing blow and does damage equal to your caster level. Effects that trigger on a hit, such as a melee touch attack delivering a sphere ability, do not trigger on a glancing blow.
+++++ Totem Of Screaming Skin (totem)
+You must spend a spell point to create a totem of screaming skin. Enemies within this are haunted by the sensation of pain from far away. Whenever their skin is even slightly broken, a wound rips open in the shape of a mouth and screams, making even the smallest injuries horrific. Whenever a weapon or natural weapon attack is made on an enemy inside the totem, if the attack roll misses by 5 or less, and is not a natural 1, the attack is a glancing blow and does damage equal to your caster level. Effects that trigger on a hit, such as a melee touch attack delivering a sphere ability, do not trigger on a glancing blow.
 
-++++ ##000000|Totem of Shared Sight (totem)##
-You and your allies can share perception, seeing through each other’s eyes and hearing through each other ears. Anything visible or noticed by one is also perceived by everyone else, including with special senses such as blindsense or scent. This can prevent a character from being surprised. If any ally within the totem successfully saves versus an illusion effect, then everyone else automatically passes their saving throw as well, even if they previously failed. This totem does not prevent allies from being flanked.
+++++ Totem Of Shared Sight (totem)
+You and your allies can share perception, seeing through each other’s eyes and hearing through each other’s ears. Anything visible or noticed by one is also perceived by everyone else, including with special senses such as blindsense or scent. This can prevent a character from being surprised. If any ally within the totem successfully saves versus an illusion effect, then everyone else automatically succeeds at their saving throw as well, even if they previously failed. This totem does not prevent allies from being flanked.
 
-++++ ##000000|Totem of Speed (totem) [Core]##
-You and your allies gain a +5 bonus to all movement speeds, + 5 ft per 5 caster levels.
+++++ Totem Of Speed (totem)
+You and your allies gain a +5 bonus to all movement speeds, + 5-foot per 5 caster levels.
 
-++++ ##000000|Totem of Stability (totem) [Core]##
+++++ Totem Of Stability (totem)
 You and your allies gain a +2 bonus to CMD. This bonus increases by +1 for every 5 caster levels you possess.
 
-++++ ##000000|Totem of Stumbling (totem) [Core]##
+++++ Totem Of Stumbling (totem)
 All enemies suffer a -2 penalty to their CMD. This penalty increases by 1 for every 5 caster levels.
 
-++++ ##000000|Totem of Tactical Coordination (totem)##
-Allies within this totem do not take hit point damage from attacks, spells, or abilities of other allies within this totem, and may choose to automatically pass any saving throws vs the abilities of allies within the totem.
+++++ Totem Of Tactical Coordination (totem)
+Allies within this totem do not take hit point damage from attacks, spells, or abilities of other allies within this totem, and may choose to automatically succeed at any saving throws vs. the abilities of allies within the totem.
 
-++++ ##000000|Totem of Tactical Prowess (totem) [Core]##
+++++ Totem Of Tactical Prowess (totem)
 Whenever you or your allies would gain a bonus to attack rolls or to AC due to battlefield positioning, such as flanking, higher ground, or cover, that bonus is increased by 1, +1 per 5 caster levels.
 
-++++ ##000000|Totem of the Dragonslayer (totem)##
-You and your allies gain a +1 competence bonus to Reflex saves vs area effects. This increases by +1 for every 5 caster levels you possess. When you create this totem, you may spend a spell point. If you do, whenever an ally makes a Reflex saving throw that benefits from this totem against an attack that normally deals half damage on a successful save, they takes no damage on a successful save instead.
+++++ Totem Of The Dragonslayer (totem)
+You and your allies gain a +1 competence bonus to Reflex saves vs. area effects. This increases by +1 for every 5 caster levels you possess. When you create this totem, you may spend a spell point. If you do, whenever an ally attempts a Reflex saving throw that benefits from this totem against an attack that normally deals half damage on a successful save, they take no damage on a successful save instead.
 
-++++ ##000000|Totem of the Heroic Heart (totem)##
-You must spend a spell point to create a totem of the heroic heart. Allies gain a +4 competence bonus to checks and skill checks using Strength, Constitution, or Dexterity. This increases by +1 for every 5 caster levels.
+++++ Totem Of The Heroic Heart (totem)
+You must spend a spell point to create a totem of the heroic heart. Allies gain a +4 competence bonus to ability and skill checks using Strength, Constitution, or Dexterity. This bonus increases by +1 for every 5 caster levels.
 
-++++ ##000000|Totem of the War Dance (totem)##
-You must spend a spell point to create a totem of the war dance. You and your allies may use your move actions to allow other allies to move. The giving character can not move (or take a 5-ft. step), while the receiving ally gets another move action to spend. This extra move action must be used immediately and can only be used with a movement ability. They may not leave the area of the totem during this move. Their actions provoke attacks of opportunity normally. No single ally can be moved by more than 2 allies until their next turn has occurred. Any ally may swap places with an adjacent ally as a move action. This does not provoke attacks of opportunity. Both allies must be capable of moving for this to work.
+++++ Totem Of The War Dance (totem)
+You must spend a spell point to create a totem of the war dance. You and your allies may use your move actions to allow other allies to move. The giving character cannot move (or take a 5-feet step), while the receiving ally gets another move action to spend. This extra move action must be used immediately and can only be used with a movement ability. They may not leave the area of the totem during this move. Their actions provoke attacks of opportunity normally. No single ally can be moved by more than 2 allies until their next turn has occurred. Any ally may swap places with an adjacent ally as a move action. This does not provoke attacks of opportunity. Both allies must be capable of moving for this to work.
 
-++++ ##000000|Totem of Whispers (totem)##
-The area of your totem is filled with quiet voices that distract and unnerve your enemies. Enemies take a -1 penalty to their concentration checks and Perception checks involving listening. This increases by -1 for every 2 caster levels you possess. This does not work against deaf enemies, or enemies in an environment where it is difficult to hear. The whispers also interfere with using abilities that require speaking - such an ability has a 20% chance of failing when used, even if the user is deaf. Whenever a creature uses such an ability, they can attempt a Perform (oratory) or similar Perform check with a DC of 20 to negate this effect.
+++++ Totem Of Whispers (totem)
+The area of your totem is filled with quiet voices that distract and unnerve your enemies. Enemies take a -1 penalty to their concentration checks and Perception checks involving listening. This increases by -1 for every 2 caster levels you possess.
 
-++++ ##000000|Unhallowed Totem (totem) [Core]##
-All creatures within the area of this totem suffer a -1 penalty to saving throws made to resist channeled negative energy and negative energy effects such as inflict spells and Death sphere effects. This penalty increases by 1 for every 10 caster levels. If you place an unhallowed totem in a location that already has a hallowed totem present, you must succeed at a magic skill check to place your totem. On a success, the two totems cancel each other, leaving neither hallowed totem nor unhallowed totem in place.
+This does not work against deaf enemies, or enemies in an environment where it is difficult to hear. The whispers also interfere with using abilities that require speaking - such an ability has a 10% chance of failing when used plus 5% per 5 caster levels, even if the user is deaf. Whenever a creature uses such an ability, they can attempt a Perform (oratory) as part of the action required to activate the ability with a DC of 10 + your caster level to negate this effect.
 
-----
-
-+ [*http://spheresofpower.wikidot.com/sphere-focused-feats#war-feats War Feats]
-Click the header above to visit the Sphere-Focused Feats page. This section includes feats that directly improve or rely upon this sphere.
+++++ What Is It Good For? (totem) [Jester's HB]
+You create a totem that amplifies the futility of war. Enemies within this totem do not gain bonuses to attack rolls or to AC due to battlefield positioning, such as flanking, higher ground, or cover.
 
 ----
 
-+ [*http://spheresofpower.wikidot.com/advanced-talents#advanced-war-talents Advanced War Talents]
-Click the header above to visit the Advanced Talents page. This page includes talents that are more powerful than the ones presented on this page - but remember, Advanced Talents are only available with GM permission.
+++ Advanced War Talents
+Advanced talents are part of an optional rule and are only available with GM permission.
+
+++++ Carry The Flag
+**Prerequisites:** War sphere, caster level 10th.
+
+If you are the commander of a ship or similar large vessel weighing at least 2,000 pounds, you may create a totem attached to the vessel itself. The area of the totem includes the entire vessel, and extends outward from it to affect any creature within close range of the vessel.
+
+++++ Commander [utility]
+**Prerequisites:** War sphere, caster level 10th.
+
+If you are the commander of an army, that army gains a +1 bonus to its Offensive Modifier, Defensive Value, and to all morale checks.
+
+++++ Monument
+**Prerequisites:** War sphere, caster level 10th.
+
+The caster may attach a totem to a manufactured object that is at least 2,000 pounds and is of high quality - such as a great statue, masterwork building, or impressive sailing vessel.
+
+The object can not be animated, and can not become animated without dispelling the totem first. The range of the totem increases to 1 mile per caster level, and it remains for one day per caster level. Multiple totems may be attached to the same monument.
+
+The owner of a monument does not need to stay within range of it to maintain it, and they can share ownership with allies, allowing those allies to use it to rally their own allies. When created, the creator must specify an easily perceived condition by which allies of the monument will be identified, such as their race, uniform or equipment.
+
+Creating a monument takes 8 hours.
+
+++++ Penetrating Totems [Alienist HB]
+**Prerequisites:** War sphere, caster level 5th.
+
+Your totems do not require line of effect to function, expanding out to their normal range through any barriers. If creating the totem would cause it to go through another object, the totem cuts harmlessly through the material (without compromising the integrity of the object or creature).
+
+++++ Totem Of Tenuous Mortality (totem) [EO3]
+**Prerequisites:** War sphere, caster level 5th.
+
+You must spend a spell point to create a totem of tenuous mortality. Whenever an enemy within this totem’s area would be reduced to 0 hit points or fewer, they must succeed at a Fortitude saving throw or instantly die. This is a death effect. Additionally, allies within this totem’s area gain regeneration (acid or fire) equal to 1/2 your caster level (minimum 1), but only when they are at a negative hit point total. Creatures that possess abilities that allow them to stay conscious at 0 or fewer hit points still fall unconscious if they would normally die from the amount of damage they have received.
 
 ----
 
-+ [*http://spheresofpower.wikidot.com/casting-traditions#war-drawbacks War Drawbacks]
-Click the header above to see the Sphere-Specific Drawbacks for this sphere. If you're using the optional Casting Tradition rules, Drawbacks allow you to acquire one or more bonus talents in a sphere in exchange for a limit on using this sphere.
++ War Sphere Feats
+
+++++ Asymmetrical Warfare (Dual Sphere)
+**Prerequisites:** Illusion sphere, War sphere.
+
+**Benefit:** You may use your rally abilities on those under the effects of your glamers or in the areas of your figment as if they can see and hear you and are within the area of your totems.
+
+++++ Black Totem (Dual Sphere)
+**Prerequisites:** Dark sphere, War sphere.
+
+**Benefit:** When you create a totem, you may spend a spell point to add the effects of a darkness ability you have to it. If you do, the entire area of your totem is a darkness, and your melds work within this totem as if they were within any other darkness that you created.
+
+++++ Deduction
+**Prerequisites:** War sphere, studied combat class feature.
+
+**Benefit:** Whenever you create a mandate that you share with another ally, they benefit from your studied combat ability, receiving the same bonuses you do against the same target. If you possess abilities that trigger from studied combat (such as studied strike), they may trigger that ability as well. Only one ally (other than yourself) can benefit from your studied combat this way.
+
+++++ Defensive Vigilance (Dual Sphere)
+**Prerequisites:** Protection sphere, War sphere.
+
+**Benefit:** While an ally is within the area of one of your wards, you may rally that ally. When you rally an ally who has an aegis you created attached to them, you may sacrifice an aegis to reduce the spell point cost of the rally by 1 spell point.
+
+++++ Enhanced Vigilance (Dual Sphere)
+**Prerequisites:** Enhancement sphere, War sphere.
+
+**Benefit:** While an ally is under the effect of one of your enhancements, you may rally that ally. The ally must be the target of the enhancement, not an object they are carrying or wielding.
+
+++++ Expanding Presence
+**Prerequisites:** War sphere (Totemic Aura); antipaladin or paladin.
+
+**Benefit:** The range of your antipaladin or paladin auras increases to that of any totemic aura you created that is attached to you.
+
+++++ Eyes Of Battle (Dual Sphere) [Alienist HB]
+**Prerequisites:** Divination sphere, War sphere
+
+**Benefit:** Whenever you would use a (divine) talent that targets a space or creature within the area of one of your totems, you may reduce the casting time by 1 step, to a minimum of a swift action.
+
+++++ Hail
+**Prerequisites:** War sphere, Mystic Focus, casting class feature, ability to gain martial focus.
+
+**Benefit:** You may spend a spell point to rally an ally who has the ability to gain martial focus to restore their martial focus.
+
+++++ Illuminated Vigilance (Dual Sphere)
+**Prerequisites:** Light sphere, War sphere.
+
+**Benefit:** While an ally is within 30 feet of any object that you have caused to glow, you may rally them.
+
+++++ Invigorating Rally (Dual Sphere)
+**Prerequisites:** Life sphere, War sphere.
+
+**Benefit:** Whenever you rally an ally, you may also invigorate them.
+
+++++ Martial Presence (Combat)
+**Prerequisites:** Combat Stamina, base attack bonus +1.
+
+**Benefit:** Choose a basic totem from the War sphere (including totem of war). You can spend 5 points from your stamina pool to create a 30-foot aura that moves with you and that duplicates the effects of this totem. The action required to activate this ability depends on the totem. If the totem has no spell point cost, it is a swift action to create it, if the totem requires a spell point to be created, then activating it is a move action, and if it requires more than 1 spell point, it requires a standard action.
+
+For the purposes of the totem ability, use your base attack bonus in place of your caster level and use your highest mental ability modifier as your casting ability modifier, if you do not already possess a casting tradition. The aura created is not a true totem, and does not qualify for feats that alter totems. Once activated, the aura remains active for 1 minute. Falling unconscious or dying causes the aura to end.
+
+This is an extraordinary ability.
+
+++++ Martial Totem (Combat)
+**Prerequisites:** War sphere, base attack bonus +1.
+
+**Benefit:** When you create a totem, you may use your base attack bonus as your War caster level for purposes of effect (but not size or duration).
+
+++++ Mystical Reinforcement
+**Prerequisites:** War sphere, Circle Casting.
+
+**Benefit:** You may use your circle casting to aid other spellcasters within totems you control or whom you share a mandate with as if they had the Circle Casting feat.
+
+++++ Reflexive Magic
+**Prerequisites:** War sphere, base attack bonus +11.
+
+**Benefit:** You gain 2 spell points that can only be spent to rally yourself. You regain each of these spell points 1 minute after they are used.
+
+++++ Sanctified Vigilance (Dual Sphere)
+**Prerequisites:** Fate sphere, War sphere (any (rally) talent).
+
+**Benefit:** You may use rallies on allies within the area of your consecrations even if you do not share a mandate with them and they are not within range of one of your totems.
+
+++++ Savagery
+**Prerequisites:** War sphere, animal focus class feature.
+
+**Benefit:** Whenever you create a mandate that you share with another ally, they benefit from any animal focuses you have active. Only one ally (other than yourself) can benefit from your animal focuses this way.
+
+++++ Shoulder To Shoulder
+**Prerequisite:** Grit, luck pool or panache class feature.
+
+**Benefit:** When you gain this feat, choose a mandate from the War sphere. You may spend a point of grit, luck or panache to create this mandate between yourself and an adjacent ally as a swift action. This is a supernatural ability. For purposes of this mandate, the attribute that governs the maximum amount of grit, panache or luck you can possess is your casting ability and your base attack bonus is your caster level. The mandate lasts for one minute, or ends immediately if you create another mandate with this ability, fall unconscious, or if you move beyond 60 feet from each other.
+
+If the person you share the mandate with performs an action that would allow you to regain grit, luck, or panache, then you may regain grit, luck, or panache as if you had performed the action yourself.
+
+++++ Spirit Beacon
+**Prerequisite:** War sphere.
+
+**Benefit:** When you create a totem, you may make it manifest as a glowing pillar of ethereal light that extends upward for hundreds of feet (though not through ceilings). Any creature within 100 feet per caster level that can see the light is affected by your totem, even if they are seeing the totem indirectly. For enemies, it is trivial to avert their eyes (so they can choose to simply not be affected by the totem), but any ally with a line of sight to the spirit beacon can easily keep it in view.
+
+++++ Succor
+**Prerequisites:** War sphere, lay on hands class feature.
+
+**Benefit:** You may spend a spell point to rally an ally, and use your lay on hands class feature on them. This costs the normal number of uses of your lay on hands class feature in addition to the spell point cost of the rally, but does not require the ally to be within the normal range of your lay on hands ability.
+
+++++ Tides Of War (Dual Sphere) [Archmagi's HB]
+**Prerequisites:** Mana sphere (Magical Conduit), War sphere.
+
+**Benefits:** You may create a manabond as part of using a rally with the target of your rally, or as part of creating a mandate on one or both creatures. If the rally or mandate does not cost a spell point to use, you must spend a spell point to create the manabond.
+
+Additionally, when you create a totem, you may spend a spell point to create a manabond with a single creature within the area of the totem. If the creature is unwilling, they may attempt a Will save to resist the manabond. If you possess the Magical Conduit talent, you may create a manabond with each creature in the area, spending an additional spell point for each creature. An action used to concentrate on the totem counts as if you were concentrating on the manabond for the purpose of (manabond) talents.
+
+++++ Totem Of Undoing
+**Prerequisites:** War sphere, caster level 10th.
+
+**Benefit:** You must spend 2 spell points to create a totem of undoing. Enemy creatures must succeed at a Fortitude save or become faded for as long as they remain within the totem.
+
+Leaving the area of the totem ends this effect, but they must save again if they re-enter the area. A faded creature has become less real and less material than before. Faded creatures do half damage with attacks and abilities, unless that attack or ability does full damage against incorporeal creatures (such as force damage or a ghost touch weapon). Faded creatures have no weight and do not set off traps that are triggered by weight.
+
+They may still fall, and take double normal falling damage while the surface they fall onto takes none. Faded creatures suffer a penalty equal to your caster level to their Strength score (to a minimum Strength of 1) when determining their CMB, CMD, as well as their ability to lift, break or otherwise manipulate objects around them.
+
+++++ Totem Tactics (Combat)
+**Prerequisite:** War sphere.
+
+**Benefit:** Allies inside any of your totems or sharing a mandate with you are treated as if they possessed the same teamwork feats as you for the purpose of determining whether you receive a bonus from those feats. Your allies do not receive any bonuses from these feats unless they actually possess the feats themselves. The allies’ positioning and actions must still meet the prerequisites listed in the teamwork feat for you to receive the listed bonus.
+
+++++ Totemic Channeling (Channeling)
+**Prerequisites:** War sphere, channel energy class feature.
+
+**Benefit:** When you use your channel energy feature, instead of affecting everyone in a specific radius, you may spend a spell point to have it affect all allies or all enemies in a totem you control. You do not need to be within the chosen totem.
+
+++++ Totemic Radar (Dual Sphere) [Alienist HB]
+**Prerequisites:** Divination sphere (Blindfolded Oracle (sense)), War sphere.
+
+**Benefit:** When you close your eyes to use Blindfolded Oracle while within the area of your totem, you may choose to have your blindsense extend to the entire area of the totem rather than close range. When used in this way, your blindsense stops at the edge of your totem’s area.
+
+++++ Totemic Stamina (Combat)
+**Prerequisites:** War sphere, Combat Stamina.
+
+**Benefit:** When you create a totem or mandate, you may spend a stamina point each round to maintain it as a free action. You are still considered concentrating and can have your concentration disrupted as usual. You may maintain multiple effects this way. You can not recover the stamina points spent while the totem or mandate maintained this way remains in effect.
+
+++++ Tribal Fortification (Dual Sphere)
+**Prerequisites:** Protection sphere, War sphere.
+
+**Benefit:** When you create a ward, you may spend a spell point to add the effects of a totem ability you have to it. If you do, the entire area of your ward is a totem (even if your totem would normally be smaller), and your rallies work within this ward as if they were within any other totem that you created.
+
+++++ Tribal Mark (Dual Sphere)
+**Prerequisites:** Enhancement sphere, War sphere.
+
+**Benefit:** You may create enhancements that duplicate the effect of being within totems. The tribal mark works as an enhancement, using your Enhancement caster level. If used on a creature, the creature is treated as if being within the totem that is the basis for the enhancement. If used on an object, then any creature carrying the object is affected as if they were the target of the enhancement themselves. Only the creature enhanced or carrying the enhanced object is considered inside the totem for effects that require another ally or an enemy to also be within the totem. The enhancement can not be used to rally.
+
+++++ Tribal Rhythm
+**Prerequisites:** War sphere; bardic performance or raging song class feature.
+
+**Benefit:** The character gains the ability to attach totems they create to their songs. When they do so, the totem affects all allies (but not enemies) who are affected by the song. As long as the song continues, the character may maintain the totem as part of the song without concentration or spending spell points, but must still pay any regular spell point cost to create the totem.
+
+Allies affected by a totem attached to a song can be rallied. In the case of a raging song, the ally need only have the choice to be affected; they do not need to choose to be affected in order for the caster to be able to rally them. Whenever the character creates a new totem, they may attach it to their song or create it normally. Totems attached to songs can be ended as a free action. If the character has the ability to move totems, they may attach and detach totems from their song as if the totems were totemic auras attached to themselves.
+
+When you use a standard action to begin a song, you may create a totem attached to it as part of the same action.
+
+++++ Warlord Of The Damned (Dual Sphere)
+You can rally the hearts of your people - even after they have stopped beating.
+
+**Prerequisites:** Death sphere (Master’s Presence), War sphere; or Death sphere, War sphere (Hallowed/Unhallowed Totem (totem)).
+
+**Benefit:** As a free action, you can shift concentration of a single active totem to an undead you control (using your concentration modifier); if its concentration is broken, the totem is ended as normal. In addition, undead you control can benefit from morale bonuses granted by your totems and rallies.
+
+++++ Warning Sign (Dual Sphere)
+**Prerequisites:** Protection sphere, War sphere.
+
+**Benefit:** Allies receive a +1 circumstance bonus to initiative per aegis they bear that you created. This bonus stacks with itself.
+
+++++ Witch Hunt
+**Prerequisites:** War sphere, judgment class feature.
+
+**Benefit:** Whenever you create a mandate that you share with another ally, they benefit from judgments you have active. Only one ally (other than yourself) can benefit from your judgments this way.
+
+----
+
++ Squadron Feats
+Based around the use of the Squadron Commander feat, these feats offer various ways for allies to help each other - unlike teamwork feats, however, only one person in the party needs to know the feat being used.
+
+Similar to the Mana sphere, many Squadron feats offer potent supportive abilities to a wide variety of creatures, including those which would not otherwise be able to make significant contributions to an encounter. Thus, Squadron feats cannot be selected by animal companions, Conjuration companions, familiars, or other subordinate creatures.
+
+**Author's Note:** Unless noted otherwise, you must have line of sight to use Squadron feats (and members must generally have line of sight to benefit each other). This means that you can use them over things like scrying and that their range is otherwise unlimited, but obstacles like opaque clouds can stop them.
+
+++++ Battlefield Tactics (Squadron)
+**Prerequisites:** War sphere, Squadron Commander; or Warleader sphere, Troop Commander.
+
+**Benefit:** You may give your actions to members of your squadron. The type of action required to do this is equal to the type of action given: swift, move, standard, full-round, or attack of opportunity. If you give an attack of opportunity action to another squadron member, they must use it to attack the target that provoked the attack of opportunity from you. A character can not receive more than one extra action per round this way, regardless of how many squadrons they might be a member of.
+
+++++ Close Formation (Squadron)
+**Prerequisites:** War sphere, Squadron Commander; or Warleader sphere, Troop Commander.
+
+**Benefit:** When members of your squadron use the aid another action on other squadron members, they grant their ally an additional +2 bonus.
+
+++++ Focused Fire Tactics (Squadron)
+**Prerequisites:** War sphere, Squadron Commander; or Warleader sphere, Troop Commander.
+
+**Benefit:** As a swift action, you may spend a spell point or expend your martial focus and designate a target. Until the beginning of your next turn, whenever a member of your squadron hits that target, all members of your squadron receive an additional +1 circumstance bonus to attack rolls and damage against that target. Members with iterative attacks can benefit from bonuses generated earlier in the same turn. This bonus stacks with itself, up to a maximum equal to your War caster level or your ranks in Diplomacy, whichever is higher.
+
+++++ Hive Mind (Squadron) [Alienist HB]
+**Prerequisites:** War sphere, Squadron Commander; or Warleader sphere, Troop Commander; caster level 5th or 5 ranks in Diplomacy.
+
+**Benefit:** You gain the ability to communicate telepathically with all members of your squadron regardless of range, allowing you to send messages and for them to send their own. In addition, you do not need to touch members of your squadron in order to renew your bond with them; they need only be in telepathic contact with you when you take a minute to renew your bond. So long as at least one member of your squadron is aware of a threat, all members are aware of the threat and cannot be flanked by threats that others are aware of. Such awareness can spread along a “chain” of creatures under appropriate circumstances, potentially alerting distant creatures.
+
+++++ Instructive Command (Squadron)
+**Prerequisites:** War sphere, Squadron Commander; or Warleader sphere, Troop Commander.
+
+**Benefit:** Choose a skill you are trained in. All members of your squadron are treated as having at least as many ranks in that skill as you. If you possess the skill unlock for that skill, members of your squadron may use the skill unlock powers made available by your number of ranks in the skill. Whenever you rest for 8 hours, you may change the skill you have chosen to share.
+
+++++ Lightning Tactics (Squadron)
+**Prerequisites:** War sphere, Squadron Commander; or Warleader sphere, Troop Commander; character level 10th.
+
+**Benefit:** After you roll initiative, you may spend a spell point or expend your martial focus. If you do, squadron members may use your natural d20 roll in place of their own roll. They keep their own modifiers.
+
+++++ Mass Command (Squadron)
+**Prerequisites:** War sphere, Squadron Commander; or Warleader sphere, Troop Commander, casting class feature.
+
+**Benefit:** When using a sphere ability on a single creature in your squadron other than yourself, you may spend an additional spell point to target any number of creatures in your squadron. All squadron members must be within the range of the sphere ability. You must have line of sight and line of effect to affect them, and you may include yourself as a target. This cannot be used with sphere effects that do not have the option of being augmented by a (mass) talent. If the sphere ability has a duration greater than 1 hour, it is reduced to 1 hour.
+
+++++ Mixed Formation (Squadron)
+**Prerequisites:** War sphere, Squadron Commander; or Warleader sphere, Troop Commander.
+
+**Benefit:** Members of your squadron do not provide cover to enemies, and members do not take penalties for shooting into melee against enemies in melee exclusively with other squadron members.
+
+++++ Mobile Tactics (Squadron)
+**Prerequisites:** War sphere, Squadron Commander; or Warleader sphere, Troop Commander.
+
+**Benefit:** Squadron members may use a swift action to move a squadron member who is in a square adjacent to them to another square that is also adjacent to them. This movement does not provoke attacks of opportunity.
+
+++++ Phalanx Formation (Squadron)
+**Prerequisites:** War sphere, Squadron Commander; or Warleader sphere, Troop Commander.
+
+**Benefit:** While a member of your squadron is adjacent to another member of your squadron, they receive a +2 circumstance bonus to AC and melee attack rolls. This bonus increases by +1 for every additional member adjacent after the first.
+
+++++ Pincer Formation (Squadron)
+**Prerequisites:** War sphere, Squadron Commander; or Warleader sphere, Troop Commander.
+
+**Benefit:** When two or more members of your squadron flank an enemy, their flanking bonus applies to damage rolls as well as attack rolls.
+
+++++ Platoon Commander (Squadron)
+**Prerequisites:** War sphere, Squadron Commander; or Warleader sphere, Troop Commander.
+
+**Benefit:** The number of members of your squadron increases. Your squadron includes yourself and 4 allies plus an additional ally for every 2 caster levels or ranks in Diplomacy (whichever is higher) you possess. You may add troop or crew creatures to your squadron, with each counting as 4 creatures.
+
+++++ Ranged Command (Squadron)
+**Prerequisites:** War sphere, Squadron Commander; or Warleader sphere, Troop Commander; casting class feature.
+
+**Benefit:** You may choose to have your sphere talents or abilities which target a willing creature have a range of close rather than touch when targeting members of your squadron.
+
+++++ Requested Command (Squadron)
+**Prerequisites:** War sphere, Squadron Commander; or Warleader sphere, Troop Commander.
+
+**Benefit:** Any member of your squadron may expend a standard action requesting assistance. You may immediately respond by using a sphere ability that targets them (and only them, not an area around them) as a free action. You must be in range, and you must be able to use the sphere ability. Using the sphere ability draws attacks of opportunity normally.
+
+++++ Scouting Tactics (Squadron)
+**Prerequisites:** War sphere, Squadron Commander; or Warleader sphere, Troop Commander.
+
+**Benefit:** As a swift action, you may spend a spell point or expend your martial focus to mentally communicate with the rest of your squadron the location of an enemy you have successfully damaged that turn. Until the beginning of your next turn, the target does not benefit from concealment or any form of stealth.
+
+++++ Shielded Formation (Squadron)
+**Prerequisites:** War sphere, Squadron Commander; or Warleader sphere, Troop Commander.
+
+**Benefit:** Whenever a member of your squadron leaves a square adjacent to another member of your squadron, they do not provoke attacks of opportunity from adjacent enemies.
+
+++++ Squad Triangulation (Squadron) [Alienist HB]
+**Prerequisites:** War sphere, Squadron Commander; or Warleader sphere, Troop Commander.
+
+**Benefit:** You always know the position of members of your squad relative to yourself even if you cannot see or hear them. Members of your squad are always aware of your position and each others’ positions in a similar manner. In addition, you are treated as having line of sight on all members of your squadron at all times but increase the action necessary to affect creatures you cannot directly see with your Squadron feat abilities by one step.
+
+++++ Squadron Commander (Squadron)
+**Prerequisite:** War sphere.
+
+**Benefit:** You have a squadron of allies who experience greater benefits from your totems. Your squadron can include yourself and up to 3 additional allies, plus an additional ally for every 5 caster levels you possess or for every 5 ranks in Diplomacy you possess, whichever is higher. You can change the membership any time you rest and regain spell points, but you must touch a creature to add it to your squadron. You must spend 1 minute every day renewing the links between you and your squad members. You must have access to each member you wish to include. Your caster level at the time you renew this connection is used for this ability through the day, even if your caster level changes.
+
+Squadron members must be specific individuals. Squadrons can include summoned companions that are effectively the same creature being summoned each time (such as the companion summoned with the Conjuration sphere), but not spontaneously created creatures.
+
+Alternatively, instead of allies, your squadron may consist of yourself and one crew or troop.
+
+Members of your squadron gain increased bonuses from your totems. If a totem grants a bonus to any d20 roll or any number that is the target of a d20 roll (such as AC, attack rolls, saving throws, CMB, CMD, ability checks, skill checks, concentration checks, or spell penetration checks), that bonus increases by +1, and an additional +1 for every 10 War caster levels you possess.
+
+++++ Squadron Network (Squadron) [Alienist HB]
+**Prerequisites:** War sphere, Squadron Commander; or Warleader sphere, Troop Commander; character level 10th.
+
+**Benefit:** If a creature is a member of the squadron of one of your squadron members, you may treat that creature as a member of your squadron.
+
+++++ Vigilant Command (Squadron)
+**Prerequisites:** War sphere, Squadron Commander; or Warleader sphere, Troop Commander.
+
+**Benefit:** You may rally any ally in your squadron within long range or that you can see, even if they are not within range of a totem, and you can always rally yourself.
 
 ----
 
 + Archetypes Specializing in War
 
-++ -[[[Combat Engineer]]]
+++ [[[Combat Engineer]]]
 The Combat Engineer is an archetype for the Alchemist that focuses on creating Devices that enhance their abilities with the War sphere.
 
-++ -[[[Dark Presence]]]
+++ [[[Dark Presence]]]
 The Dark Presence is an archetype for the [[[Eliciter]]] that focuses on disabling enemies through the use of negative emotions.
 
-++ -[[[Divine Heretic]]]
+++ [[[Divine Heretic]]]
 The Divine Heretic is an archetype for the Warpriest that takes them away from their deity and focuses more on war as a whole.
 
-++ -[[[Ghost Sovereign]]]
-The Ghost Sovereign is an archetype for the [[[Soul Weaver]]] that allows them to command a court of undead followers - and eventually rule their very own twilight kingdom.
-
-++ -[[[Iron Mage]]]
+++ [[[Iron Mage]]]
 The Iron Mage is an archetype for the [[[Hedgewitch]]] that focuses on martial combat and assisting their allies.
 
-++ -[[[War Hero]]]
+++ [[[Operative]]]
+The Operative is a Symbiat who uses both [[[Illusion]]] and [[[War]]] for covert missions.
+
+++ [[[War Hero]]]
 The War Hero is an archetype for the Fighter that allows them to call forth beneficial auras when they ascend to greatness.
 
-++ -[[[Wardmage]]]
-The Wardmage is an archetype for the [[[Mageknight]]] that focuses on protecting their allies with various supernatural abilities.
-
-++ -[[[Warmonger]]]
+++ [[[Warmonger]]]
 The Warmonger is an archetype for the [[[Symbiat]]] that focuses on battle and using their psionic abilities during conflicts.
 ----
 + Wild Magic
@@ -424,7 +757,7 @@ The Warmonger is an archetype for the [[[Symbiat]]] that focuses on battle and u
         var sp = document.createElement('span');
         sp.appendChild(txt);
         randomResult.innerHTML = '';
-        randomResult.appendChild(sp) = tx;
+        randomResult.appendChild(sp);
     }
     rand = Math.random;
     stringArray = ['1 The effect fails and the action is lost. Spell points or spell slots are not lost.', '2: All allied creatures within medium range of the caster share all teamwork feats possessed by the caster for 1 round per caster level.', '3: All affected creatures add the caster level to their skill checks for 1 round.', '4: All affected creatures subtract the caster level from their skills checks for 1 round.', '5: The caster gains knowledge of one talent of his choice from this sphere for 1 round.', '6: The caster may immediately make an attack action.', '7: The caster makes a single magical skill check against all War sphere effects within medium range to dispel them as if using the Counterspell feat. This is resolved after the triggering effect.', '8: Roll twice and take both results. Ignore any results that require rerolls. If both rolls thus ignored, there is no effect.', '9: All creatures within close range of the caster gain an additional attack on any full attack made before the end of their next turn. This bonus attack stacks with the haste alter time ability of the Time sphere, the haste spell, and similar effects.', '10: (Combat) All affected creatures subtract caster level to the damage of their next attack (minimum 0 damage).', '11: For 1 round per caster level, all creatures within close range of the caster may roll twice and take the better result on any attacks made against creatures that dealt damage to them since the start of their previous turn.', '12: (Combat) Until the end of the next turn of the caster, all movement by any allied creature within close range of the caster, including 5-foot steps, provokes attacks of opportunity.', '13: All affected creatures subtract half caster level (minimum 1) to CMB for 1 round.', '14: (Combat) All hostile creatures within medium range of the caster share all teamwork feats possessed by the caster for 1 round per caster level.', '15: The caster makes a single magical skill check against all War sphere effects within medium range to dispel them as if using the Counterspell feat. This is resolved before the triggering effect.', '16: The caster takes untyped nonlethal damage equal to caster level. This damage does not force concentration checks to cast or maintain sphere effects or spells.', '17: The next attack roll made by an allied creature against a target other than the caster within close range of the caster that would have been capable of targeting the caster is instead resolved against the caster. The caster receives all the effects of the attack as if he was the original target.', '18: (Combat) All hostile creatures within close range of the target or center of the target area may take a free move action immediately.', '19: All allied creatures within close range of the caster may make an attack action as an immediate action.', '20: (Combat) Creatures within close range of the caster double the bonus from flanking for 1 round per caster level.', '21: (Combat) All hostile creatures within close range of the caster may make an attack action as an immediate action.', '22: The next attack roll made by a creature against a target other than the caster within close range of the caster that would have been capable of targeting the caster is instead resolved against the caster. The caster receives all the effects of the attack as if he was the original target.', '23: Effect receives a +2 bonus to caster level.', '24: The caster takes 1d4 Constitution damage even if he would normally be immune to ability damage. Creatures without a Constitution score instead take Charisma damage.', '25: For 1 round per caster level, all hostile creatures within close range of the caster may roll twice and take the better result on any attacks made against creatures that dealt damage to them since the start of their previous turn.', '26: All hostile creatures within medium range of the caster lose the benefits of their teamwork feats for 1d6 rounds.', '27: (Combat) For 1 round per caster level, all allied creatures within close range of the caster gain 1 temporary hit point per caster level each round. These temporary hit points do not stack with themselves or any other source of temporary hit points and disappear as soon as the creature is outside this effect.', '28: The caster is affected by the greater charm option of the Hostility talent of the Mind sphere for 1d6 rounds.', '29: All affected creatures subtract half caster level (minimum 1) to all saves for 1 round.', '30: The caster takes a number of points of ability damage to his casting attribute equal to the caster level/4 (minimum 1) of the effect, even if he would normally be immune to ability damage.', '31: (Combat) All allied creatures within medium range of the target or center of the target area lose the benefits of their teamwork feats for 1d6 rounds.', '32: Hostile creatures treat all squares within close range of the caster as difficult terrain for 1d6 rounds.', '33: (Combat) Allied creatures within close range of the caster cannot benefit from flanking bonuses for 1 round per caster level.', '34: (Combat) The caster is stunned for 1 round.', '35: All creatures within medium range of the target or center of the target area share all teamwork feats possessed by the caster for 1 round per caster level.', '36: The casting time increases by 1 step.', '37: The spell point cost of the effect increases by 1d4. If the caster does not have enough spell points, he is instead dazed until the end of his next turn.', '38: All affected creatures subtract half caster level (minimum 1) to their AC for 1 round.', '39: All affected creatures provoke attacks of opportunity when making 5 foot steps for 1 round.', '40: Roll again on the Universal wild magic table.', '41: (Combat) All creatures within close range of the caster may immediately make an attack action.', '42: Roll twice and choose the result. Ignore any results that require rerolls. If both rolls thus ignored, there is no effect.', '43: (Combat) The caster is dazed for 1 round.', '44: The caster loses knowledge of any of the talents used in the effect (but not the base sphere) for the length of the effect (minimum 1 round).', '45: (Combat) The caster loses the benefits of his teamwork feats for 1 round per caster level.', '46: All affected creatures add half caster level (minimum 1) to their AC for 1 round.', '47: (Combat) All creatures within medium range of the target may take a free 5-foot step immediately.', '48: (Combat) All creatures within close range of the caster may make an attack action as an immediate action.', '49: All affected creatures add half caster level (minimum 1) to CMB for 1 round.', '50: (Combat) Until the end of the next turn of the caster, all movement by any creature within close range of the caster, including 5-foot steps, provokes attacks of opportunity.', '51: (Combat) All hostile creatures within medium range of the caster may take a free 5-foot step immediately.', '52: (Combat) For 1 round per caster level, all hostile creatures within close range of the caster gain 2 temporary hit points per caster level each round. These temporary hit points do not stack with themselves or any other source of temporary hit points and disappear as soon as the creature is outside this effect.', '53: Ferocious warcries sound from the square of the caster, breaking Stealth. All creatures within 60 ft. must pass a Will save or become frightened for 1 round.', '54: All allied creatures within close range of the target may take a free move action immediately.', '55: All allied creatures within medium range of the target or center of the target area share all teamwork feats possessed by the caster for 1 round per caster level.', '56: (Combat) All creatures within close range lose their armor bonus to AC until they move from their current squares.', '57: The next time during the next 24 hours that the target or a creature in the target area perceives a creature that appears to pose a physical threat, he charges directly at it and attempts to engage it in melee. This compulsion ends after the caster resolves one melee attack roll.', '58: All creatures within close range of the caster must succeed on a Will save or be affected by the greater charm option of the Hostility talent of the Mind sphere for 1d6 rounds.', '59: The casting time increases by 2 steps.', '60: (Combat) The caster is nauseated for 1 round.', '61: (Combat) All creatures within close range lose their natural armor bonus to AC until they move from their current squares.', '62: Allied creatures within close range of the caster double the bonus from flanking for 1 round per caster level.', '63: (Combat) Creatures within close range of the caster cannot benefit from flanking bonuses for 1 round per caster level.', '64: The casting time decreases by 1 step.', '65: For 1 round per caster level, all allied creatures within close range of the caster may roll twice and take the better result on any attacks made against creatures that dealt damage to them since the start of their previous turn.', '66: All allied creatures within close range of the caster may immediately make an attack action.', '67: All hostile creatures within medium range of the target or center of the target area lose the benefits of their teamwork feats for 1d6 rounds.', '68: (Combat) Hostile creatures within close range of the caster double the bonus from flanking for 1 round per caster level.', '69: (Combat) All allied creatures within medium range of the caster lose the benefits of their teamwork feats for 1d6 rounds.', '70: (Combat) For 1d6 rounds, creatures within close range of the caster are unable to recover hit points by any means.', '71: The next attack roll made by a hostile creature against a target other than the caster within close range of the caster that would have been capable of targeting the caster is instead resolved against the caster. The caster receives all the effects of the attack as if he was the original target.', '72: All affected creatures add caster level to the damage of their next attack.', '73: (Combat) All creatures within close range lose their shield bonus to AC until they move from their current squares.', '74: (Combat) All hostile creatures within close range have their natural armor bonus to AC doubled until they move from their current squares.', '75: The spell point cost of the effect decreases by 1. If the effect did not require any spell points, the caster instead gains 1 temporary spell point that expires at the end of his next turn.', '76: (Combat) All hostile creatures within close range of the caster may immediately make an attack action.', '77: All allied creatures within medium range of the target may take a free 5-foot step immediately.', '78: (Combat) All creatures within medium range of the target or center of the target area lose the benefits of their teamwork feats for 1d6 rounds.', '79: The caster loses access to this sphere for 1d6 rounds.', '80: (Combat) Until the end of the next turn of the caster, all movement by any hostile creature within close range of the caster, including 5-foot steps, provokes attacks of opportunity.', '81: The caster is fatigued.', '82: All affected creatures add half caster level (minimum 1) to all saves for 1 round.', '83: The spell point cost of the effect increases by 1. If the caster does not have enough spell points, he is instead staggered until the end of his next turn.', '84: (Combat) All hostile creatures within medium range may move up to their speed as a swift action on their next turn.', '85: All creatures within medium range of the caster share all teamwork feats possessed by the caster for 1 round per caster level.', '86: (Combat) All hostile creatures within medium range of the target or center of the target area share all teamwork feats possessed by the caster for 1 round per caster level.', '87: (Combat) All creatures within medium range of the caster lose the benefits of their teamwork feats for 1d6 rounds.', '88: The caster is exhausted.', '89: (Combat) All creatures within close range have their shield bonus to AC doubled until they move from their current squares.', '90: The caster gains a teamwork feat of his choice for 10 minutes per caster level. He must meet any prerequisites.', '91: The effect fails, but the action is not lost. Spell points or spell slots spent are lost.', '92: The effect fails and the action is lost. Spell points or spell slots are lost.', '93: (Combat) All hostile creatures within close range of the caster may take a free move action immediately.', '94: (Combat) All creatures treat all squares within close range of the caster as difficult terrain for 1d6 rounds.', '95: The next time during the next 24 hours that the caster perceives a creature that appears to pose a physical threat, he charges directly at it and attempts to engage it in melee. This compulsion ends after the caster resolves one melee attack roll.', '96: Effect receives a -4 penalty to caster level (minimum 1).', '97: The casting time decreases by 2 steps.', '98: (Combat) All creatures within medium range may move up to their speed as a swift action on their next turn.', '99: Hostile creatures within close range of the caster cannot benefit from flanking bonuses for 1 round per caster level.', '100: (Combat) Allied creatures treat all squares within close range of the caster as difficult terrain for 1d6 rounds.'];
@@ -444,7 +777,8 @@ The Warmonger is an archetype for the [[[Symbiat]]] that focuses on battle and u
 || 7 || The caster makes a single magical skill check against all War sphere effects within medium range to dispel them as if using the Counterspell feat. This is resolved after the triggering effect. || 
 || 8 || Roll twice and take both results. Ignore any results that require rerolls. If both rolls thus ignored, there is no effect. || 
 || 9 || All creatures within close range of the caster gain an additional attack on any full attack made before the end of their next turn. This bonus attack stacks with the haste alter time ability of the Time sphere, the haste spell, and similar effects. || 
-|| 10 || (Combat) All affected creatures subtract caster level to the damage of their next attack (minimum 0 damage). 11 For 1 round per caster level, all creatures within close range of the caster may roll twice and take the better result on any attacks made against creatures that dealt damage to them since the start of their previous turn. || 
+|| 10 || (Combat) All affected creatures subtract caster level to the damage of their next attack (minimum 0 damage). ||
+|| 11 ||  For 1 round per caster level, all creatures within close range of the caster may roll twice and take the better result on any attacks made against creatures that dealt damage to them since the start of their previous turn. || 
 || 12 || (Combat) Until the end of the caster’s next turn, all movement by any allied creature within close range of the caster, including 5-foot steps, provokes attacks of opportunity. || 
 || 13 || All affected creatures subtract half caster level (minimum 1) to CMB for 1 round. || 
 || 14 || (Combat) All hostile creatures within medium range of the caster share all teamwork feats possessed by the caster for 1 round per caster level. || 
@@ -534,29 +868,11 @@ The Warmonger is an archetype for the [[[Symbiat]]] that focuses on battle and u
 || 98 || (Combat) All creatures within medium range may move up to their speed as a swift action on their next turn. || 
 || 99 || Hostile creatures within close range of the caster cannot benefit from flanking bonuses for 1 round per caster level. || 
 || 100 || (Combat) Allied creatures treat all squares within close range of the caster as difficult terrain for 1d6 rounds. ||
-
-----
-
-+ Player's Guide
-
-There are a number of different ways to build an effective War caster. Each will employ totems, rallies, and mandates differently, and will require other spheres and other abilities to be most effective.
-
-++++ The Channeler
-Casters with strong energy channeling features such as the cleric or [[[soul weaver]]] will think about picking up choices that offer new ways to use their channeling power. The hallowed and unhallowed totems have good synergy with channel energy, and are free to cast, and the giving and taking totems are also good if the channeler can acquire the other spheres that are prerequisites. [[[feats | Channel Resolve]]] can also provide a powerful alternative use for their energy channeling.
-
-++++ ##000000|The General##
-The general wants to drop totems as often as possible. With the large size of totems, they don’t worry about needing to get into battle, and instead concentrate their resources on getting more totems in play with talents like Call to Arms (possibly multiple times) and on moving totems with Redeployment. They are effectively force multipliers, and benefit from having as many allies as possible to enhance. When they don’t, they resort to totems that weaken their enemies instead. These also increase in usefulness as the number of enemies grows. They are least useful in smaller fights, and might need to supplement their totems with rallies, mandates, and momentums.
-
-++++ ##000000|The Interceptor##
-The interceptor is a highly mobile fighter with casting ability who uses rallies to respond to events. They often possess a form of vigilance that allows them easy rallying such as the Eternal Vigilance talent, and have ways of rallying multiple allies, such as with Greater Rally. They are especially adept at rallying themselves, such as with Resounding Rally, and have extra resources to do so like [[[feats | Reflexive Magic]]] and have abilities that trigger from them being rallied. Interceptors are more likely to use totemic auras so they can enhance themselves and nearby allies.
-
-++++ ##000000|The Master##
-War casters make allies stronger, so it’s not surprising that an effective tactic is to have an ally with you at all times who can be on the receiving end of your helpful spells. One of the best ways to do that is to have a conjured companion or to have a battle-capable companion through your class features (such as druids and hunters do). Mandates can be extremely useful to this kind of caster if they don’t want to invest heavily in the War sphere or have a low caster level. The [[[casting traditions | Battlefield Strategist drawback]]] can exchange the base totem with a mandate of your choice, and the Blood Bond talent can give you an all-day duration on your ally. With a shared mandate in place, you can target your rallies on them without a totem.
-
-++++ ##000000|The Vanguard##
-The vanguard is a melee combatant as well as a caster. Often, they are heavily armored with a high base attack bonus and a lower caster level. Many will take the Martial Magic feat. The vanguard attempts to empower themselves and nearby allies, or lay down controller effects by attaching totems to themselves with Totemic Presence. They use their swift actions to create totems while using full-round actions to attack. They will often possess several costless totems to activate when they have swift actions to spare, plus a few momentums they can prepare outside of battle.
-
-Vanguards are the warcasters most likely to multiclass into non-caster classes, and will often have extremely limited spell points. The [[[casting traditions | Strenuous drawback]]] can be of help with this if they are willing to sacrifice rallies, the [[[feats | Totemic Stamina feat]]] is suitable for some martial classes, and the [[[casting traditions | Squadron Elite drawback]]] for the War sphere is suitable for them.
+[[/tab]]
+[[tab Original]]
+[[include old-war]]
+[[/tab]]
+[[/tabview]]
 
 ----
 
