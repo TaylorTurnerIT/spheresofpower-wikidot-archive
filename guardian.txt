@@ -46,7 +46,7 @@ If you possess the (patrol) package and the Defend Other talent, when an ally wi
 
 If you possess the (challenge) package, any time a creature under the effects of your challenge casts a spell or uses a spell-like ability that does not include you in its effect, it suffers a -2 penalty to the spell’s save DC. This penalty increases by 1 for every 4 points of base attack bonus you possess.
 
-^^**Wiki Note:** Per discussion with the author, this is intended to permit characters to cure effects caused by things this ability can delay before they take effect.^^
+**Author's Note:** This is intended to permit characters to remove effects caused by things this ability can delay before they take effect. While effects are "treated" as damage when stored, they are removed using the appropriate effect (such as a remove paralysis spell removing a delayed paralysis condition).
 
 ++++ Complex Patrol
 You may expend your martial focus when using patrol to apply two (zone) talents instead of only one. If you possess the Swift Guardian talent, you may increase the required action to initiate a patrol by one step (standard action to full-round action) instead of expending your martial focus.
@@ -56,6 +56,11 @@ When an ally within your threatened area is the target of an attack roll, you ma
 
 If you possess the (patrol) package, when using this talent you may move to put the ally within your reach (with the normal limits for moving as part of your patrol) as part of activating this talent.
 
+++++ Defiant Boar (stance) [Youxia HB]
+While in this stance, whenever you damage a creature with an attack action, you may remove an amount of damage from your delayed damage pool equal to the damage dealt by your attack, up to a maximum of your base attack bonus.
+
+^^**Wiki Note:** This ability only removes hit point damage from your delayed pool. It cannot automatically cure conditions, spell effects, ability damage, and other things you may be storing in it.^^
+
 ++++ Durable
 When targeted by a natural, extraordinary or supernatural ability that inflicts ability damage, ability drain, disease, negative levels, poison or any of the following conditions: (blinded, confused, cowering, dazed, dazzled, entangled, exhausted, fascinated, fatigued, frightened, nauseated, panicked, paralyzed, petrified, shaken, sickened, staggered, stunned, unconscious) you may delay the onset of its effects until the end of your next turn. Each effect is treated as if it were an amount of hit point damage equal to the attacking creature’s Hit Dice for determining the capacity of your delayed damage pool. If you do not have enough space remaining in the delayed damage pool, you may not delay the effect.
 
@@ -63,7 +68,7 @@ If you possess the (patrol) package and the Defend Other talent, when an ally wi
 
 If you possess the (challenge) package, any time a creature under the effects of your challenge uses such an ability that does not include you in its effect, it suffers a -2 penalty to the ability’s save DC. This penalty increases by 1 for every 4 points of base attack bonus you possess.
 
-^^**Wiki Note:** Per discussion with the author, this is intended to permit characters to cure effects caused by things this ability can delay before they take effect.^^
+**Author's Note:** This is intended to permit characters to remove effects caused by things this ability can delay before they take effect. While effects are "treated" as damage when stored, they are removed using the appropriate effect (such as a remove paralysis spell removing a delayed paralysis condition).
 
 ++++ Endure Pain
 When you receive damage from your delayed damage pool, you take it as nonlethal damage. This nonlethal damage ignores any resistance or immunity to nonlethal damage you may possess.
@@ -71,8 +76,13 @@ When you receive damage from your delayed damage pool, you take it as nonlethal 
 ++++ Expanded Guardian
 You gain one Guardian package you do not possess.
 
-++++ Flush of Victory
+++++ Flush Of Victory
 When a creature affected by your challenge is reduced to 0 or fewer hit points, you gain temporary hit points equal to your base attack bonus. These temporary hit points expire after 1 round + 1 round per 2 points of base attack bonus you possess. The creature must have a CR of at least half your character level (rounded down, minimum 0).
+
+++++ Glutton For Punishment [Jester's HB]
+As long as your delayed damage pool is at maximum capacity, you gain DR/– equal to 1/2 your base attack bonus.
+
+As long as you have martial focus, whenever you redirect damage dealt by another creature to your delayed damage pool, you may scream out in pain and attempt an Intimidate check against that creature to demoralize them as an immediate action.
 
 ++++ Greater Delayed Damage
 The size of your delayed damage pool increases by +1 per point of base attack bonus you possess. You may take this talent twice; the effects stack.
@@ -96,6 +106,13 @@ If you possess the (challenge) package, if the creature is under the effects of 
 
 ++++ Mass Challenge
 When using your challenge ability, you may increase the required time by one step (move to standard or swift to move if expending martial focus) to issue your challenge to one additional creature, + 1 additional creature per 2 points of base attack bonus you possess (minimum 1).
+
+++++ Seeking Challenge [Apoc]
+^^**Source:** [https://www.drivethrurpg.com/product/348126/Spheres-Apocrypha-Radiant-and-Righteous?affiliate_id=549120 Spheres Apocrypha: Radiant and Righteous]^^
+
+When a creature affected by your challenge is reduced to 0 or fewer hit points, you may issue a challenge to a creature you can see as a free action (even if it is not your turn). A creature challenged this way gains an additional +2 bonus on attack rolls against you until the end of its next turn.
+
+If you have Mass Challenge, challenging a creature this way does not end your challenge on any other creatures.
 
 ++++ Steel Hide
 If a creature under the effects of your challenge confirms a critical hit against you, you may end the challenge on that creature only to have the attack instead deal normal damage. If you possess the Defend Other talent, you may use this talent whenever a creature affected by your challenge confirms a critical against an ally within your threatened area while your patrol is active.
@@ -137,6 +154,20 @@ All hostile creatures treat your threatened area as difficult terrain until the 
 ----
 + ##993300|Legendary Talents##
 
+++++ Challenge The Masses [EO3]
+**Prerequisites:** Guardian sphere (Mass Challenge), base attack bonus +7.
+
+When using the Mass Challenge talent to affect multiple creatures, you can instead issue your challenge to all hostile creatures (including swarms) within close range (25 feet + 5 feet per 2 points of base attack bonus). You can expend your martial focus when using this talent to increase this to medium range (100 feet + 10 feet per point of base attack bonus).
+
+++++ Cruel Worg’s Challenge [BTH]
+You channel the wicked cruelty of the worg, demanding the attention of the mighty and cowing the meek.
+
+**Prerequisites:** Guardian sphere ((challenge) package), base attack bonus +5.
+
+You may challenge creatures with no Intelligence score (Intelligence score of (–)).
+
+Whenever a creature affected by your challenge ends its turn and that creature did not make an attack roll or otherwise target you or include you in a non-harmless effect, you may move up to your speed as an immediate action, provided that you move into a space closer to the creature. If the creature is within your reach at the end of this movement, that creature must succeed at a Reflex save or be knocked prone. This movement does not provoke an attack of opportunity from the creature but does provoke from other creatures as normal.
+
 ++++ Final Retribution
 **Prerequisites:** Guardian sphere, Indomitable, Punishment, base attack bonus +10.
 
@@ -147,10 +178,12 @@ When you use the Punishment talent while postponing death with Indomitable, you 
 
 When a creature calls you with the I Will Hear talent, you may spend a full-round action to teleport to their location. You can bring along objects as long as their weight doesn’t exceed your maximum load. You may also bring one additional willing Medium or smaller creature (carrying gear or objects up to its maximum load) or its equivalent per three points of base attack bonus you possess. A Large creature counts as two Medium creatures, a Huge creature counts as two Large creatures, and so forth. All creatures to be teleported must be in contact with one another, and at least one of those creatures must be in contact with you. You arrive in the safe space nearest to the calling creature that is large enough for you and any creatures you bring along to occupy. You are exhausted for 10 minutes after using this ability, and fatigued for 1 hour thereafter. You may expend focus as a free action to delay these conditions for a number of rounds equal to your base attack bonus. You incur the penalties of these conditions even if you are immune to the exhausted and fatigued conditions. You may attempt to use this ability while exhausted or fatigued, but doing so incurs a 50% chance that the ability fails to work; regardless of whether you succeed at this attempt, you suffer 1d6 points of Constitution damage and the duration of the exhausted and fatigued conditions caused by using this ability are doubled. You may only travel to a particular creature using this ability once per day. This is a supernatural teleportation effect.
 
-++++ I Will Hear
+++++ I Will Hear [utility]
 **Prerequisites:** Guardian sphere, Defend Other.
 
 You may form a bond with a creature as a full-round action. A bonded creature can call your name as an immediate action; if you are within 1 mile per base attack bonus, you become immediately aware of the call and the direction to the creature. At +5 base attack bonus, this range increases to 10 miles per base attack bonus. At +10 base attack bonus, the range becomes unlimited as long as you are both on the same plane. At +15 base attack bonus, you may hear the call across the planes and gain knowledge of what plane the calling creature is on. You may maintain a number of these bonds equal to your base attack bonus.
+
+**Author's Note:** To form a bond, a creature must be within your reach + 5 ft. + 5 ft. for every 4 points of base attack bonus you possess.
 
 ++++ Indomitable
 **Prerequisites:** Guardian sphere, delayed damage pool, base attack bonus +6.
@@ -158,26 +191,38 @@ You may form a bond with a creature as a full-round action. A bonded creature ca
 When you would die, you may expend your martial focus to delay the onset of the dead condition until the end of your next turn. If you are not unconscious, you do not fall unconscious from hit point loss during this time. Any healing you receive during that turn that would bring you above your death threshold can prevent you from dying. Such healing has no affect on death from anything other than hit point damage. You may only delay death in this manner once per time that you would die.
 
 ++++ Inescapable Challenge
-**Prerequisites:** Guardian sphere, base attack bonus +7.
+**Prerequisites:** Guardian sphere ((challenge) package), base attack bonus +7.
 
 A creature affected by your challenge must make a Will save each time it attempts to move away from you (including via teleportation or other magical effects) or lose the attempted action. The creature does not lose any spell, spell points, or magic item uses on a failed save if this prevents a teleportation attempt. The creature may be moved normally by other creatures. This is an extraordinary mind affecting compulsion effect.
 
 ++++ Punishing Challenge
-**Prerequisites:** Guardian sphere, base attack bonus +5.
+**Prerequisites:** Guardian sphere ((challenge) package), base attack bonus +5.
 
 Whenever a creature affected by your challenge makes an attack roll or casts a non-harmless spell that does not target you or include you in its effect, that creature takes untyped damage equal to your base attack bonus. This damage is not subject to resistance or damage reduction. This is a supernatural effect.
 
 ++++ Punishment
 **Prerequisites:** Guardian sphere, base attack bonus +5.
 
-When you deal damage to a creature while you have damage in your delayed damage pool, you may spend an immediate action to expend your martial focus and deal damage equal to your delayed damage pool to the target creature. If you possess the Cold Iron Call or Durable talents, you may also inflict any effects you are postponing with those abilities. If the effect allowed a save, the target may make a save immediately at the original DC.
+When you deal damage to a creature while you have damage in your delayed damage pool, you may spend an immediate action to expend your martial focus and deal damage equal to the damage in your delayed damage pool to the target creature. If you possess the Cold Iron Call or Durable talents, you may also inflict any effects you are postponing with those abilities. If the effect allowed a save, the target may make a save immediately at the original DC.
 
-A successful Fortitude save reduces the amount of damage transferred by half and negates the transfer of any effects.
+A successful Fortitude save reduces the amount of damage inflicted by this talent by half and negates the infliction of any effects.
+
+**Wiki Note:** Adjusted for clarity.
+
+++++ Push The Limit [Alienist HB]
+**Prerequisite:** Guardian sphere.
+
+As an immediate action while you have martial focus, you may take 2 points of Constitution burn to remove all damage (but not other effects such as conditions delayed with durable) from your delayed damage pool.
 
 ++++ Singularity (zone)
 **Prerequisites:** Guardian sphere, base attack bonus +5.
 
 At the start of their turns, hostile creatures within the area of your patrol must succeed on a Fortitude save or be moved 5 ft. closer to you, though stop when they become adjacent. This movement does not provoke attacks of opportunity. Hostile creatures within the area of your patrol count every square of movement directed away from you as two squares when determining their movement for the round. This stacks with the effects of difficult terrain. At +10 base attack bonus, the distance moved toward you and the additional cost of movement away from you increases by 5 ft. This is a supernatural effect.
+
+++++ Turbo Sweep [Youxia HB]
+**Prerequisites:** Athletics sphere (Mobile Striker), Guardian sphere (Sweeping Defense), base attack bonus +10.
+
+When you use Mobile Striker and Sweeping Defense in the same round, instead of attacking multiple adjacent targets, you may instead target multiple creatures you threaten with the weapon used for the attack at some point during your movement. Resolve the attack action after completing the movement from Mobile Striker. At base attack bonus +15, you may instead target any number of creatures threatened during movement.
 
 ----
 
