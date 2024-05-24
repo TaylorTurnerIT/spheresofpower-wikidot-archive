@@ -21,16 +21,24 @@ parent:spheres-of-might
 $19.99
 ----
 [[/=]]
-[[/div]]Barrage practitioners specialize in using ranged weapons to make fast shots, often from the middle of the melee itself. Practitioners of the Barrage sphere gain a +1 bonus on attack and damage rolls with ranged weapons at ranges of up to 30 ft. **Associated Feat:** Point-Blank Shot.
+[[/div]]Barrage practitioners specialize in using ranged weapons to make fast shots, often from the middle of the melee itself.
 
-All practitioners of the Barrage sphere gain the following ability:
+All practitioners of the Barrage sphere gain the following abilities:
+
++ ##993300|Melee Archer##
+You gain a +1 bonus on attack and damage rolls with ranged weapons at ranges of up to 30 ft. **Associated Feat:** Point-Blank Shot.
 
 + ##993300|Barrage##
-As a special attack action, you may make two ranged attacks at your full base attack bonus -2. Beginning at 6 base attack bonus, you may expend your martial focus to make an additional extra attack, increasing the penalty to all your attacks from -2 to -4. For every 5 points of base attack bonus you possess, when expending your martial focus you may increase this penalty by an additional -2 to make an additional extra attack.
+As a special attack action, you may make two ranged attacks at your full base attack bonus -2. Beginning at 6 base attack bonus, you may expend your martial focus to make an additional extra attack, increasing the penalty to all your attacks from -2 to -4. For every 5 points of base attack bonus you possess beyond 6, when expending your martial focus you may increase this penalty by an additional -2 to make an additional extra attack.
 
 Some talents are marked (blitz). You may apply a maximum of one (blitz) per extra attack to a barrage, but only if the barrage meets the prerequisites, including that attack (for example, if a (blitz) requires a target be struck twice, you can only apply that (blitz) to a target that has been struck twice. If he is struck a third time, you could apply a second (blitz) that requires at least two attacks to that target). **Associated Feat:** Rapid Shot
+
+**Wiki Note:** You do not need to expend martial focus to apply a (blitz). You cannot apply a (blitz) to the first attack you make in a barrage, but can to each additional attack, including the second attack.
 ----
 + ##993300|Barrage Talents##
+
+++++ 100,000 Arrows (stance) [Youxia HB]
+While in this stance, whenever you use the barrage action you can expend twice the number of thrown weapons or ammunition for each ranged attack while taking a -2 penalty to those attack rolls. If you do, striking a target for the first time in the barrage counts as striking a target twice with the same barrage for the purposes of barrage talents.
 
 ++++ Augmented Grip
 You have mastered how to hold multiple pieces of ammunition in one hand for faster reloading and more accurate barrages. You may reduce your attack penalty by 1 when using the barrage ability. At +10 base attack bonus, you further reduce the penalty when using the barrage ability by 1. In addition, so long as you have martial focus, you do not provoke an attack of opportunity for reloading a ranged weapon.
@@ -59,7 +67,7 @@ If you possess the Vigilant Sharpshooter talent, you may use an attack of opport
 ++++ Mobile Focus
 Whenever you move at least 10 ft. but no more than half your total speed using a move action on your turn, you regain your martial focus.
 
-++++ Shove and Shoot [Apoc]
+++++ Shove And Shoot [Apoc]
 When you make a barrage special attack action, you may forgo making your first ranged attack and instead make a Bull Rush combat maneuver as a free action against a creature within your natural reach. This does not provoke an attack of opportunity. Your barrage penalty to attack rolls also applies to your CMB with this combat maneuver. **Associated Feat:** Stabbing Shot.
 
 ++++ Spinning Shot
@@ -84,6 +92,11 @@ You are accurate enough to follow one shot with another, striking the same spot 
 ++++ Distracting Shot (blitz)
 You may intentionally miss with your extra attack in order to manipulate your opponent’s movements. Rather than make this extra attack, you instead may make a feint check at range against your target before making any other attacks as part of the barrage, including with the original attack action. If successful, the target loses its Dexterity bonus to AC against your next attack, and you may force the target to take a 5-foot step that does not provoke an attack of opportunity in any direction that does not place it in a spot that is intrinsically dangerous.
 
+++++ Double Tap (blitz) [Jester's HB]
+You fire an additional piece of ammunition, striking the target twice as hard where they've already been damaged. When a target is struck by an additional attack modified by this (blitz), the target also takes an additional +1 precision damage for each attack that previously damaged that target as part of this barrage. This additional damage increases by +1 for every 7 base attack bonus you possess. A character with 14 BAB would deal +3 damage on the second successful attack, then +6, +9, and so on.
+
+You expend an additional piece of ammunition when using this (blitz).
+
 ++++ Hammering Shots (blitz)
 When striking a target twice with the same barrage, the target has their initiative check reduced by -5 when determining when they act in this combat, changing that creature’s order in initiative for a number of rounds equal to your practitioner modifier. If the creature hasn’t made an initiative check yet, their initiative roll takes this penalty as long as this initiative check is made within 1 minute. This (blitz) does not stack with itself.
 
@@ -98,7 +111,14 @@ When performing a barrage, you may make 2 extra attacks instead of one, but must
 ----
 + ##993300|Legendary Talents##
 
-++++ Cone of Death
+++++ Ceaseless Ammo
+**Prerequisite:** Barrage sphere.
+
+So long as you have at least 10 pieces of ammunition of a particular non-magical type, you may fire as many pieces of that ammunition as you desire without actually expending your ammunition.
+
+When the combat is finished, you cannot retrieve more pieces of ammunition than you had before the combat began; you always end the combat with the same amount of ammunition you started with. This is a supernatural effect.
+
+++++ Cone Of Death
 **Prerequisite:** Barrage sphere, base attack bonus +5.
 
 You may expend your martial focus as a full-round action to make a special barrage. You forgo your ability to add (blitz) talents and instead make a single attack against every creature within a close range (25 ft. +5 ft. per 2 base attack bonus) cone. Roll a single attack and apply it to every creature within range, dealing damage to any creature you successfully strike. This may affect swarms that are usually immune to weapon damage.
@@ -107,14 +127,12 @@ You may take this talent a total of three times, up to once per 5 base attack bo
 
 Using Cone of Death is the equivalent of making 10 attacks with ranged or thrown weapons; if you do not have enough ammunition or are incapable of reloading your weapon or drawing weapons as a free action, you cannot use Cone of Death. Special abilities, features, or other enhancements (special ammunition, enhancement bonuses, etc.) only apply to Cone of Death if all 10 ranged or thrown attacks would be augmented by them.
 
-++++ Ceaseless Ammo
-**Prerequisite:** Barrage sphere.
+++++ Death Blossom [Youxia HB]
+**Prerequisites:** Barrage sphere (Cone Of Death), base attack bonus +5.
 
-So long as you have at least 10 pieces of ammunition of a particular non-magical type, you may fire as many pieces of that ammunition as you desire without actually expending your ammunition.
+When using Cone Of Death, you may change the area affected from a cone into a burst centered on you with the same range. You are excluded from the targeting of Death Blossom.
 
-When the combat is finished, you cannot retrieve more pieces of ammunition than you had before the combat began; you always end the combat with the same amount of ammunition you started with. This is a supernatural effect.
-
-++++ Stair Shot
+++++ Stair Shot [utility]
 **Prerequisite:** Barrage sphere.
 
 As an attack action, you may expend 10 pieces of ammunition from a ranged weapon to create a staircase of arrows/bolts. There must be a wall, cliff, or another suitable mostly-vertical surface for you to use when creating a staircase of arrows, and the staircase cannot extend more than 5 ft. per point of base attack bonus you possess, but you may choose its shape (going straight across, or up or down as desired, but no steeper than 45 degrees either direction). You may expend your martial focus to perform this maneuver as an immediate action, such as to build a platform to stop someone from falling.
