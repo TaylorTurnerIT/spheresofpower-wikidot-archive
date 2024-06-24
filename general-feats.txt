@@ -1,453 +1,485 @@
 title:General Feats
 parent:feats
 [[toc]]
-General feats have no tags and do not belong in any other category. They mostly feature abilities that are good for many types of characters and enhancements to specific class abilities, but anything that doesn't fit into any other category is likely to be found here.
-
+[[module CSS]]
+.noselect {
+  -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome and Opera */
+}
+[[/module]]
+[[tabview]]
+[[tab Ultimate]]
+[[div class="noselect" style="float:right; width: 20%; padding: 0 2%"]]
+[[=]]
+[[image http://spheresofpower.wikidot.com/local--files/test-page/UltimateSpheresofPower.jpg link="https://www.drivethrurpg.com/product/300249/Ultimate-Spheres-of-Power?affiliate_id=549120"]]
+**Ultimate Spheres of Power**
+$29.99
 ----
+[[/=]]
+[[/div]]
++++ Advanced Magic Training
+**Prerequisite:** Basic Magic Training or casting class feature.
 
-++++ Advanced Magical Training [Core]
+**Benefit:** Treat any racial Hit Dice not granting spherecasting and your levels in non-spherecasting classes as Low-Casting classes when determining your total caster level, magic skill bonus, and magic skill defense. You gain spell points from casting tradition drawbacks, but otherwise do not add these levels when determining your spell point pool. If you do not possess levels in an actual spherecasting class or racial Hit Dice granting spherecasting, increase your spell point pool to become equal your casting ability modifier (minimum 1).
 
-**Prerequisites:** Basic Magical Training or 1 level in a casting class.
+**Special:** For retraining purposes, having the casting class feature counts as Advanced Magic Training.
 
-**Benefit:** Treat your levels in non-casting classes as low-casting classes when determining your total caster level. If you do not possess levels in a casting class, increase your spell point pool to equal your casting ability modifier. With GM permission, you may also select a casting tradition when you gain this feat.
++++ Aeolian Flautist
+**Prerequisite:** Bardic performance or raging song class feature.
 
-++++ Aeolian Flautist
+**Benefit:** When you use Perform (wind) to produce a bardic performance or a raging song in an areas of wind, treat your relevant class level and ranks in Perform (wind) as 1 higher for each category above severity level 1.
 
-**Prerequisites:** Bardic performance or raging song.
-
-**Benefit:** When you use Perform (wind) to produce a bardic performance in an area of wind, treat your bard level and ranks in Perform (wind) as 1 higher for each category above severity level 1.
-
-++++ Arcane Empowerment [Core]
-
-**Prerequisites:** Spell pool, the ability to cast arcane or divine spells.
++++ Arcane Empowerment
+**Prerequisites:** Spell pool; the ability to cast arcane, divine, or psychic spells.
 
 **Benefit:** When casting a spell, you may spend 1 spell point as a free action to either increase the caster level by 2 or increase the spell’s DC by 2. You cannot spend more than 1 spell point in this manner. This does not stack with an arcanist’s ability to increase a spell’s caster level or DC through the expenditure of points from their arcane reservoir.
 
-++++ Armored Casting
+**Author's Note:** This feat interacts with traditional spells and does not work with magic sphere effects.
 
-**Prerequisites:** Light Armor Proficiency.
++++ Armorist Training
+**Prerequisites:** One or more of the following class features: arcane pool, divine bond, sacred armor, sacred weapon.
 
-**Benefit:** You may add the armor bonus from any armor you are wearing (but not armor enhancement bonus or natural armor bonus) to concentration checks made to cast defensively or while grappled. You must be proficient with the armor in question.
+**Benefit:** You may add all the special abilities from the list of special abilities an armorist may add to their summon and bound weapons to the list of special abilities your weapons or armor may possess. When you add weapon special abilities to a weapon using your arcane pool, divine bond, or sacred weapon ability, you may choose from the special abilities an armorist has access to. Similarly, when you add special abilities to armor using your sacred armor ability, you may choose armor special abilities an armorist has access to.
 
-++++ Artificery [Core]
++++ Armorist Trick
+**Prerequisites:** One or more of the following class features: arcane pool, divine bond, sacred armor, sacred weapon.
 
-**Prerequisite:** Any Craft or Profession skill (5 ranks).
+**Benefit:** You may choose an armorist’s arsenal trick that allows you to add special abilities to the list of special abilities your weapons or armor may possess. Treat your class level as your armorist level when meeting the prerequisites for this arsenal trick. When you add weapon special abilities to a weapon using your arcane pool, divine bond, or sacred weapon ability, you may choose from the special abilities provided by the trick. Similarly, when you add special abilities to armor using your sacred armor ability, you may choose armor special abilities provided by the trick. You may take this feat more than once. Each time you do, choose another arsenal trick.
 
-**Benefit:** Select one Craft or Profession skill in which you have at least 5 ranks. You gain a +2 bonus on your chosen Craft or Profession skill. You may use your ranks in this Craft or Profession skill as if it were your caster level when qualifying for Item Creation feats, and when determining how powerful of an enchantment you may place upon an item. Possessing this feat does not, however, grant you access to any magic spheres when determining which enchantments you may place upon an item. You must use your chosen Craft or Profession skill when creating a magic item, and cannot work with any item or material not related to your chosen skill.
++++ Artificery
+**Prerequisite:** Any Craft or Profession 5 ranks.
 
-++++ Artificery, Improved [Core]
+**Benefit:** Select one Craft or Profession skill in which you have at least 5 ranks. You gain a +2 bonus on your chosen Craft or Profession skill. You may use your ranks in this Craft or Profession skill as if it were your caster level and magic skill bonus when qualifying for item creation feats, and when determining how powerful of an enchantment you may place upon an item. Possessing this feat does not, however, grant you access to any magic spheres when determining which enchantments you may place upon an item. You must use your chosen Craft or Profession skill when creating a magic item, and cannot work with any item or material not related to your chosen skill.
 
-**Prerequisites:** Any Craft or Profession skill (10 ranks), Artificery
+**Special:** This feat counts as, and does not stack with, the Master Craftsman feat, and may be selected in place of Master Craftsman whenever that feat is gained.
+
++++ Artificery, Improved
+**Prerequisites:** Any Craft or Profession 10 ranks, Artificery.
 
 **Benefit:** When using the skill chosen with the Artificery feat to create a magic item, you may craft that magic item whether or not you possess its prerequisite base sphere. Crafting a magic item in this fashion increases the skill check required to make the item by +5.
 
-++++ Basic Magical Training [Core]
++++ Basic Magic Training
+**Prerequisite:** No casting class feature.
 
-**Prerequisite:** No levels in any spellcasting class.
+**Benefit:** Choose a sphere of magic. You gain access to this basic sphere. You gain an effective caster level of 1, a magic skill bonus of 1, a magic skill defense of 12, and a spell pool of 1. You may also select a casting tradition when you gain this feat. You are considered to possess the casting class feature, but do not gain the +2 magic talents a caster gains for their 1st level in a casting class.
 
-**Benefit:** Choose a sphere of magic. You gain access to this basic sphere. You gain an effective caster level of 1 and a spell pool of 1. Use your highest mental ability as your casting ability score.
+If you later gain levels in a class granting the casting class feature, exchange this feat for the Extra Magic Talent feat.
 
-If you later gain levels in a spellcasting class, exchange this feat for the Extra Magical Talent feat.
+**Special:** For retraining purposes, having the casting class feature counts as Basic Magic Training.
 
-++++ Blessing/Blight Mastery [Core]
++++ Beckon And Pspsps [Catgirl HB]
+**Prerequisites:** Maker’s call class feature, phantom recall class feature, or other similar ability; spherecasting.
 
-**Prerequisites:** Blessing/Blight class feature, Channel Energy class feature
+**Benefits:** You may spend 1 spell point as a free action to regain 1 use of your maker’s call, phantom recall, or other similar class feature. This does not allow you to have more uses of that ability than you normally could.
 
-**Benefit:** When you channel energy, you may spend an additional use of channel energy to apply a blessing or blight to one creature that was affected by your channeling. This creature is allowed a saving throw as usual, if they would normally be granted one.
+In addition, you may summon or manifest your eidolon or phantom as a full-round action (instead of as 1 minute ritual).
 
-++++ Blessing/Blight Versatility [Core]
+**Note:** A “similar ability” is an ability with a limited number of uses per day used to teleport your companion, eidolon, phantom, or other similar creature to your side. The unchained summoner and spiritualist are the two primary examples of this ability.
 
-**Prerequisites:** Blessing/Blight class feature, Channel Energy class feature, Versatile Channeler.
++++ Cantrips
+**Prerequisite:** Basic Magic Training or casting class feature.
 
-**Benefit:** If you can apply Blessings to targets, you may now also apply Blights, treating your soul weaver level as being effectively 2 levels lower for this purpose.
-
-If you can apply Blights to targets, you may now also apply Blessings, treating your soul weaver level as being effectively 2 levels lower for this purpose.
-
-++++ Cantrips [Core]
-
-**Prerequisite:** Casting class feature or Basic Magic Training.
-
-**Benefit:** You can create a variety of small magical effects. These effects are not powerful and are treated as sphere effects in all ways. They require a standard action to use, have a range of Close, and are either instantaneous or have a duration of 1 hour depending on the effect created.
-
+**Benefit:** You can create a variety of small magical effects. These effects are not powerful and are treated as sphere effects in all ways. They require a standard action to use, usually have a range of close, and are either instantaneous or have a duration of 1 hour depending on the effect created.
 * You may make a ranged touch attack, dealing 1d3 acid, electricity, fire, or cold damage to a target.
-* You may clean, soil, or color up to 1 cubic ft of material per round.
-* You may create floating lights the size of candle flames and move them up to 20 ft per round as a free action.
+* You may clean, soil, or color up to 1 cubic foot of material per round.
+* You may create floating lights the size of candle flames and move them up to 20 feet per round as a free action.
 * You may create a spark such as with flint and steel, which may ignite flammable, unattended Fine objects.
 * You may open or close a door or container weighing no more than 30 lbs.
-* You may chill, warm, or flavor 1 lbs. of nonliving material.
+* You may chill, warm, or flavor 1 lb. of nonliving material.
 * You may create a small breeze from whichever direction you choose, strong enough to rustle clothing and flicker candles.
-* You may lift objects weighing up to 1 lbs. and move them up to 10 ft per round.
+* You may lift objects weighing up to 1 lb. and move them up to 10 feet per round.
 * You may create small non-speech sounds, such as that of a mouse screeching, soft simple harp music, or the hubbub of a whispered conversation.
+* You may touch a creature or object and detect whether it possesses a magical aura. You may use Spellcraft to identify its aura as if using the detect magic spell.
 
 You can make up new effects, but they should not be more powerful than those listed above. The GM is the final arbiter of what is or is not a cantrip.
 
-**Wiki Note:** An optional rule for Spheres of Power is giving this feat for free to all casters. Ask your GM about this if you're interested.
+**Wiki Note:** An optional rule for Spheres of Power is giving this feat for free to all casters. The GM may decide whether to hand out this feat for free.
 
-++++ Channel Destruction
++++ Cantrips, Improved [Archmagi's HB]
+**Prerequisites:** Basic Magic Training or casting class feature, Cantrips.
 
-**Prerequisites:** Destruction sphere, Channel Energy class feature
+**Benefit:** You can create a larger variety of small magical effects. You may create any of the following effects in addition to the normal effects you can create when utilizing Cantrips. Additionally, the range of your cantrips becomes medium (or long, if it was already medium) unless stated otherwise.
+* You may make a ranged touch attack, dealing 1d8 acid, electricity, fire or cold damage to a target. The damage increases by 1d8 at 5th caster level and every 6 levels thereafter.
+* You may create a floating orb of light that floats and follows you, emitting light as a torch. As a standard action, it can be moved to a spot within range, but remains there until returned to you; if it moves out of range, the effect ends.
+* You may create 1 cubic foot of water within range. The water is quick to dissipate, and disappears after 1 minute. This water cannot be used as a beverage, disappearing if a creature attempts to drink it.
+* You may create a stronger gust of wind, powerful enough to extinguish Tiny flames or push around loose, light objects (such as loose paper).
+* You can create a non-magical object of Tiny size or smaller. The object cannot be used as a weapon and provides no bonus to skill checks, but can function as a tool (such as a pen or magnifying glass), and disappears if it leaves your hands. It must be made of a common material of hardness no greater than 3.
+* You may create sounds or speech as loud as a human speaking at a location within range, although they are erratic and obviously magical. Any creature within 15 feet of the sound can attempt a DC 10 Perception check to hear the noise.
+* You may concentrate for 3 rounds on an object or creature within range to use the ability from the Cantrips feat to detect magic on them.
 
-**Benefit:** You may imbue your channel energy with a blast type talent. This channeled energy may only be used to harm, but affects all creatures in the area, not just living or undead. The channeled energy does its normal number of damage dice of a die size and damage type corresponding to the chosen blast type. Additional effects apply as usual for the chosen blast type. If more than one blast type is known, a different blast type may be selected each time channel energy is used. For example, a 5th level soul weaver with this feat and the Crystal Blast talent could channel energy, dealing 3d4 piercing damage as well as the effects of Crystal Blast in the normal area and with the normal DC of her Channel Energy. If, for example, she also possesses the Searing Blast talent, the next round she can channel energy, dealing 3d8 fire damage.
 
-If the (blast type) talent chosen has additional spell point costs, an additional use of channel energy must be used in place of each spell point required.
++++ Catnip Connoisseur [Catgirl HB]
+**Prerequisite:** Character level 3rd.
 
-++++ Channel Destruction, Greater
+**Benefits:** Whenever you consume a drug and succeed at your saving throw to avoid addiction, you do not suffer ability damage from that drug. You still suffer other secondary negative effects, if any.
 
-**Prerequisites:** Destruction sphere, Channel Energy class feature, Channel Destruction
+If consuming catnip (see section Recreational Substances for Cats in [[[Alchemical Items]]]), you instead avoid the secondary effects of the catnip.
 
-**Benefit:** When using Channel Destruction, you may spend a spell point to increase the damage to one die per level in the class that grants channel energy that you possess.
++++ Cautious Incantation [HMH]
+**Prerequisite:** 3 ranks in any 1 skill.
 
-++++ Channel Life
+**Benefit:** Choose a skill that you have at least 3 ranks in. When you perform an incantation which involves attempting a check with that skill, you do not suffer the effects of backlash if the incantation succeeds.
 
-**Prerequisites:** Life sphere, channel energy class feature.
+**Special:** This feat may be selected multiple times, each time applying to a different skill.
 
-**Benefit:** You may channel energy and augment it with your Life sphere abilities. You must spend a spell point in addition to the normal cost of the ability, but do not need to pay the cost associated with Mass Healing or Mass Restore. The Life sphere ability affects everyone affected by the channeled energy, even if they would normally be out of range of your ability. You are not actually using the sphere ability, and other abilities triggered by using sphere abilities are not triggered (such as vitality feats).
++++ Circle Casting
+**Prerequisites:** Casting class feature, magic skill bonus +10.
 
-++++ Channel Resolve
+**Benefit:** You may assist another spellcaster who also possesses this feat, granting them a temporary +1 bonus to their caster level, as well as granting them access to your spell points and talents as if they possessed them. You must spend a standard action every round to maintain this ability, and you must be within 30 feet of the caster you are aiding in this manner. A target may be helped by multiple casters at once in this manner, but all involved casters must remain within 30 feet of each other, and the effects are not strictly cumulative. It takes one assisting caster to add a +1 bonus, three to add a +2 bonus, six to add a +3 bonus, ten to add a +4 bonus, and fifteen to add a +5 bonus. No caster may receive more than a +5 bonus in this manner.
 
-**Prerequisites:** Channel energy class feature
-
-**Benefit:** When you channel energy, instead of its normal effects, you may instead grant those within range a single attack. These attacks are made immediately in initiative order. Each attack receives a bonus to damage equal to the number of dice you would have rolled for your channel energy.
-
-++++ Circle Casting [Core]
-
-**Prerequisites:** Casting class feature, 10th caster level or higher
-
-**Benefit:** You may aid another spellcaster who also possesses this feat, granting them a temporary +1 bonus to their caster level, as well as granting them access to your spell points and talents as if they possessed them. You must spend a standard action every round to maintain this ability, and you must be within 30 ft of the caster you are aiding in this manner.
-
-A target may be aided by multiple casters at once in this manner, but all involved casters must remain within 30 ft of each other, and the effects are not strictly cumulative. It takes one aiding caster to add a +1 enhancement bonus, three to add a +2 bonus, six to add a +3 bonus, ten to add a +4 bonus, and fifteen to add a +5 bonus. No caster may receive more than a +5 bonus in this manner.
-
-++++ Commanding Presence
-
-**Prerequisites:** 3rd level.
-
-**Benefit:** A creature with this feat can command two crews at once rather than just one. Both crews must still be able to see or hear this creature to gain the benefits of having him as their commanding officer.
-
-++++ Complex Harmony
-**Prerequisite:** Bardic Performance, 10th Level.
++++ Complex Harmony
+**Prerequisites:** Bardic performance class feature, character level 10th.
 
 **Benefit:** You may start a second bardic performance while maintaining another. Starting the second performance costs 2 rounds of bardic performance instead of 1. Maintaining both performances costs a total of 3 rounds of bardic performance for each round they are maintained.
 
 This ability does not stack with any other method of maintaining simultaneous bardic performances.
 
-++++ Contingency [Core]
++++ Contingency
+**Prerequisites:** Casting class feature, caster level 10th.
 
-**Prerequisites:** Casting class feature, 10th caster level or higher.
+**Benefit:** You may spend a spell point and ten minutes of preparation to use a sphere effect in such a way that it comes into effect under some later condition you have previously dictated. You must pay any spell point costs associated with the desired effect and must place the effect on yourself or onto a creature or location within close range. The creature or area selected must be the target of the sphere effect.
 
-**Benefit:** You may spend a spell point and ten minutes of preparation to use a sphere effect in such a way that it comes into effect under some later condition you have previously dictated. You must pay any spell point costs associated with the desired effect and must place the effect on yourself or onto a creature or location within Close range. The creature or area selected must be the target of the Sphere effect.
+The conditions needed to activate the effect must be clear, but they can be general. (If the caster is dropped below half hit points, if an elf enters the room, or if Madame Deflour comes within close range are all examples of contingency conditions.)
 
-The conditions needed to activate the effect must be clear, but they can be general. (If the caster is dropped below half hit points, if an elf enters the room, or if Madame Deflour comes within Close range are all examples of contingency conditions.)
+In all cases, the contingency causes the sphere effect to manifest instantly when the prescribed circumstances occur. If complicated or convoluted conditions are prescribed, the effect may fail when triggered. The effect occurs based solely on the stated conditions, regardless of whether you want it to. You may only have one contingency active at a time; any previous unused contingency effect is dispelled when a new one is created.
 
-In all cases, the contingency causes the sphere effect to manifest instantly when the prescribed circumstances occur. If complicated or convoluted conditions are prescribed, the effect may fail when triggered. The effect occurs based solely on the stated conditions, regardless of whether you want it to. You may only have one contingency active at a time; any previous unused contingency effect is dispelled when a new one is created. A caster always knows when their contingency is triggered, even if they aren’t present. If a contingency is placed on a creature or location, it can be detected and dispelled like any other sphere effect. For this purpose, a contingency is considered a magical trap with a Perception and Disable Device DC equal to 25 + 1/2 the caster level.
+A caster always knows when their contingency is triggered, even if they are not present. If a contingency is placed on a creature or location, it can be detected and dispelled like any other sphere effect. For this purpose, a contingency is considered a magic trap with a Perception and Disable Device DC equal to 25 + 1/2 the caster level.
 
 If a contingency remains unused when a caster rests to regain spell points, they may choose to dispel the contingency or sustain it, in which case they do not recover the spell points used to create the contingency.
 
-++++ Contingency Tampering
++++ Contingency, Enhanced
+**Prerequisites:** Enhancement sphere, Contingency.
 
-**Prerequisites:** Enhanced Contingency.
+**Benefit:** You may enhance a contingency effect. If the contingency creates or summons a valid target for that enhancement, the enhancement is transferred to that target. Otherwise, the enhancement is transferred to the sphere effect once it takes effect. You may spend an additional spell point when applying the enhancement to tie it into the contingency; if you do so, time spent prior to the contingency triggering does not count towards the enhancement’s duration.
 
-**Benefits:** You gain the following enhancements, which may be used to enhance sphere abilities enhanced by Contingency.
-* Introduce Flexibility: You may spend 1 spell point to enhance a contingency, granting it an additional condition – this additional trigger must be a valid condition, as defined by the Contingency feat. If either condition is met, the contingent sphere ability triggers immediately.
-* Suppress Triggers: You may spend 1 spell point to enhance a contingency, removing its trigger condition for the duration.
++++ Contingency, Spread [3PP]
+^^**Source:** Expanded Spheres: Baron's Lost Apocrypha^^
 
-You may only target your own contingencies, as well as any other contingencies that you know the trigger condition for.
+**Prerequisites:** Contingency, any [mass] talent
 
-++++ Create Spell Book [Core]
+**Benefit:** When you use the Contingency feat to create an effect to which you could apply a [mass] talent, you may spend 3 additional spell points to apply the Contingency effect to a number of targets which you could normally affect with the [mass] talent (for example, if using a shapeshift with the Contingency feat, you could apply the contingency to one target per 2 caster levels if you possess the Mass Alteration feat). This effect has the same trigger across all targets and thus activates simultaneously on all targets if triggered.
 
-**Prerequisites:** Casting class feature, Spellcrafting.
++++ Contingency Tampering
+**Prerequisite:** Enhanced Contingency (see [[[Enhancement]]] feats).
 
-**Benefit:** You may write down your spells in a magic book, allowing you access to more spells than the usual limit. See the Advanced Magic section for more information on spellcrafting and spellbooks.
+**Benefit:** You gain the following enhancements, which may be used to enhance sphere abilities augmented by Contingency.
+* **Introduce Flexibility:** You may spend 1 spell point to enhance a contingency, granting it an additional trigger– this additional trigger must be a valid condition, as defined by the Contingency feat. If either condition is met, the contingent sphere ability triggers immediately.
+* **Suppress Triggers:** You may spend 1 spell point to enhance a contingency, removing its trigger condition for the duration. You may only target your own contingencies or any other contingencies that you know the trigger condition for.
 
-++++ Elicit Strike [Core]
++++ Cunning Caster
+**Prerequisites:** Deceitful, caster level 1st.
 
-**Prerequisites:** Improved Unarmed Strike, Emotion class feature.
+**Benefit:** When creating a magical sphere effect, you can attempt a Bluff check (opposed by observers’ Perception checks) to conceal your actions from onlookers.
 
-**Benefit:** If you make a successful unarmed strike against an opponent, in addition to dealing your unarmed strike damage, you can spend a swift action to deliver the effects of an emotion power with ‘touch’ in its name. Doing so provokes no attacks of opportunity.
+Every drawback possessed that could be heard or seen (materials, somatic components, verbal components, requiring a focus, etc.) imposes a cumulative -4 penalty to this Bluff check.
 
-++++ Emergency Repair
-Desperate times call for desperate measures. A working device can save your life.
+If the magic sphere effect is obvious (such as a summoned creature or a destructive blast), you also take a –4 penalty on the Bluff check, and even if your check is successful, observers still see the effect (though they fail to notice that you are responsible for it).
 
-**Prerequisite:** Technological racial trait.
++++ Dreamwalking Initiate [Alienist HB]
+**Prerequisite:** Dreamspace.
 
-**Benefit:** As a full-round action, you may quickly jury-rig a repair on a destroyed object, elevating it to functional with the broken condition for 1d6 minutes. Any given item can only be so repaired once before real work has to be done to coax it back to life. Any additional damage will immediately destroy the item again. This does not restore magic to a destroyed magic item. Alternately, you may use this feat to remove the broken condition from an object for 1d6 minutes, but again, only once per object.
+**Benefit:** You gain the acolyte dreaming hedgewitch secret. You may use this feat to qualify for the Extra Secret feat, but may only use it to select additional instances of the acolyte dreaming secret.
 
-++++ Enhanced Contingency
+**Note:** If you do not have hedgewitch levels, you may use your character level as your effective hedgewitch level for determining the power of the acolyte dreaming hedgewitch secret.
 
-**Prerequisites:** Contingency, access to the Enhancement sphere.
++++ Embraced By Kindred [DbH]
+Your abilities and commitments have been recognized by immortal features.
 
-**Benefit:** You may enhance a contingency effect. If the contingency creates or summons a valid target for that enhancement, the enhancement is transferred to that target. Otherwise, the enhancement is transferred to the sphere effect once it takes effect. You may spend an additional spell point when applying the enhancement to tie it into the Contingency; if you do so, time spent prior to the Contingency triggering does not count towards the enhancement’s duration.
+**Prerequisites:** Outsider with the native subtype, alignment matching either an extraplanar ancestor or a patron.
 
-++++ Fool Magic [Core]
+**Benefit:** You lose the native subtype, no longer aging or requiring food but becoming incapable of being resurrected by normal means. You no longer gain bonuses or suffer penalties from advancing in age, although you retain any bonuses and penalties you may already possess from your age. If you are the descendant of or patroned by an outsider with an alignment or elemental subtype (such as good, chaotic, fire, or earth), you gain these subtypes. Patronage in this context refers to a being that you gain class features from (such as cleric gaining domains or a thaumaturge gaining benefits from a pact). Gods should generally be considered outsiders with subtypes corresponding to their alignment for the purposes of this feat.
 
-**Prerequisites:** Deceitful, Iron Will, Bluff 7 ranks, Disguise 7 ranks
++++ Expedited Incantation [HMH]
+**Prerequisite:** 3 ranks in any 1 skill.
 
-**Benefit:** When you succeed at a Will saving throw made against any magical effect, the caster of that effect does not automatically know you have succeeded at your saving throw. This allows you to attempt a Bluff check against their Sense Motive check to convince them that you failed your saving throw and are under the effects of the magic. You can choose to allow supplementary effects of the magic (such as the telepathic link provided by the dominate person spell or the Dominate advanced Mind talent) to function as if you had failed your saving throw, to aid in the deception. You may dismiss the supplementary effect early as a standard action.
+**Benefit:** When you perform an incantation, you may increase the DCs of all skill checks made for the incantation by 5. If you do, the incantation’s casting time is halved (minimum 1 minute).
 
-++++ Greater Hypnosis [Core]
++++ Favored Metamagic [HMH]
+**Prerequisite:** Any metamagic feat.
 
-**Prerequisite:** Hypnotism class feature.
+**Benefit:** Choose one metamagic feat that you possess. When you apply that metamagic feat to an effect you create, you do not increase the casting time for the effect (you must still expend spell points as normal).
 
-**Benefit:** The range at which you may affect targets with your hypnotism increases to Medium range.
+**Special:** You may select this feat multiple times, each time selecting a different metamagic feat.
 
-**Normal:** You may only affect targets with your hypnotism at Close range.
++++ Feline Heritage [Catgirl HB]
+You didn’t see anything wrong with calling your mother “maw”, but everyone always looked concerned about calling your father “paw”, given his… paws.
 
-++++ Greater Shadowmark [Core]
+**Benefits:** You count as both your current race and as a catfolk for any effects related to race; such as taking traits, feats, how spells and magic items affect you, qualifying for archetypes, and so on.
 
-**Prerequisite:** Shadowmark class feature.
+In addition, you gain one of the following feline abilities. Once chosen, this cannot be changed.
+* **Cat’s Eyes:** You gain low-light vision and a +2 bonus on Perception checks. If you have 10 or more ranks in Perception, this bonus increases to +4.
+* **Cat’s Meow:** You gain the ability to speak with cats, as though under a constant Nature sphere Speak With Wildlife effect as an extraordinary ability. This only grants the ability to speak with cats (of any kind, e.g. house cats, lions, etc.), not all animals.
+* **Deft Paws and Tricky Tail:** You gain a +2 bonus on Sleight of Hand checks. If you have 10 or more ranks in Sleight of Hand, this bonus increases to +4. In addition, you gain a tail (if you did not already have one), and may use your tail as though it were a free hand for the purposes of performing disarm and steal combat maneuvers and Sleight of Hand checks. You may hold and retrieve objects with this tail but cannot manipulate a held object or wield weapons with your tail unless you could with another ability.
+* **Quick Steps:** You gain a +10 feet bonus to your base land speed.
 
-**Benefit:** Your shadowmark deals d8s for damage instead of d6s.
+When you gain this feat, you may decide if your chosen feline abilities cause you to gain subtle (or obvious) cat-like features, such as cat eyes, whiskers and a “nya”-ccent, paws, or a tail. These changes are purely cosmetic unless otherwise mentioned. You may choose to suppress or resume these cat-like features as a free action.
 
-++++ Improved Favored Element
+**Special:** You can take this feat a second time. If you do, you gain the other three feline abilities you did not originally choose.
 
-**Prerequisites:** Two favored elements
++++ Fool Magic
+**Prerequisites:** Bluff 3 ranks; Deceitful or Skill Focus (Bluff); Iron Will.
 
-**Benefit:** Your second and third favored elements receive the same damage bonus as your first favored element.
+**Benefit:** When you succeed at a Will saving throw made against any magical effect, the caster of that effect does not automatically know you have succeeded at your saving throw. This allows you to attempt a Bluff check against their Sense Motive check to convince them that you failed your saving throw and are under the effects of the magic. You can choose to allow supplementary effects of the magic (such as the telepathic link provided by the dominate person spell or the Mind Control advanced Mind talent) to function as if you had failed your saving throw, to aid in the deception. You may dismiss the supplementary effect early as a standard action.
 
-++++ Jumbled Organs
-The general placement of your organs often baffles your foes, making you even more unique when compared to your bizarre peers.
++++ Grenade Master
+**Benefit:** When determining the save DC of an explosive or splash weapons such as an alchemical weapon, dust, oil, or potion you are activating, you may add your casting ability modifier (or Intelligence modifier, if you do not possess the casting class feature) to the save DC. This only applies to explosives and splash weapons that do not already add an ability modifier to the DC (so while it would apply to alchemical weapons, it would not apply to an Alchemist’s bomb class feature).
 
-**Prerequisites:** Construct type or subtype.
++++ Harmonic Resilience [S&P]
 
-**Benefit:** Your natural fortification improves by 10%.
+Miracles of any shape fail to penetrate your defenses.
 
-++++ Lingering Link [Core]
+**Benefit:** Any spell or power resistance or immunity that you possess applies against magic from any source, including those from casters with the Alien Source boon. If using any ruleset in which psionics and magic are not transparent, any spell resistance or immunity that you possess also applies against psionic powers that allow power resistance, and vice versa.
 
-**Prerequisites:** Psionics class feature, mind link psionic effect.
++++ Hexblade [DbH]
+Your attacks channel your fell will.
 
-**Benefit:** When affecting targets with your mind link psionic effect, you only need to spend 1 round of psionic power per minute the effect is maintained, rather than every round.
+**Prerequisite:** Hex class feature.
 
-++++ Lingering Link, Greater [Core]
+**Benefit:** Once per round, when you successfully make a melee attack as part of an attack action against a creature, you may use one of your hexes on that creature as a swift action that does not provoke attacks of opportunity from the target.
 
-**Prerequisites:** Psionics class feature, mind link psionic effect, Lingering Link.
++++ Item Mastery
+**Prerequisite:** Caster level 10th.
 
-**Benefit:** You may use your mind link psionic effect jointly with other psionic effects. You must start each psionic effects individually and must spend the cost for each effect while maintaining them. Ending one effect does not necessitate ending the other.
+**Benefit:** When determining the save DC of a magic item you activate that determines its power by the formulae 10 + 1/2 the item’s caster level, you may add your casting ability modifier to the save DC. In addition, you may use your casting ability modifier for any sphere effects from any magic item you activate that require it (such as the Chameleon talent from the Light sphere).
 
-++++ Lingering Psionics [Core]
-
-**Prerequisite:** Psionics class feature.
-
-**Benefit:** The bonuses and penalties from your psionics continue for 2 rounds after you cease using it. Any other requirement, such as range or specific conditions, must still be met for the effect to continue. If you begin a new psionic effect during this time, the bonuses and penalties of the previous psionic effect immediately cease.
-
-++++ Lurker in Darkness
-
++++ Lurker In Darkness
 **Prerequisite:** Stealth 6 ranks.
 
-**Benefit:** Creatures using unusual forms of sensory perception such as blindsight, greensight, or tremorsense cannot automatically foil your use of Stealth; such creatures must make a Perception check as normal to detect you when you make use of the Stealth skill. Lurker in Darkness foils divination sphere sense abilities in the manner described above, but has no effect on sphere, spell-like and/or supernatural abilities specifically used to uncover information about you rather than enhancing the user’s perception, such as with the divination sphere divine abilities.
+**Benefit:** Creatures using unusual forms of sensory perception such as blindsight, greensight, or tremorsense cannot automatically foil your use of Stealth; such creatures must attempt a Perception check as normal to detect you when you make use of the Stealth skill, though they gain a +2 bonus for each unusual form of perception you must try to avoid beyond the first. Lurker In Darkness foils indirect detection (such as a creature using detect magic to search for your magical items while you are using Stealth) in the manner described above, but has no effect on psi-like abilities, powers, spells, spell-like abilities, and/or supernatural abilities specifically used to uncover information about you rather than enhancing the user’s perception, such as the augury spell. However, when interacting with sphere talents and abilities, Lurker In Darkness foils Divination sphere sense abilities in the manner described above, but has no effect on the Divination sphere divine abilities.
 
-//Note:// This feat was previously published in the Psionic Bestiary, by Dreamscarred Press. It has been modified to work with Spheres of Power.
+**Note:** This feat was previously published in the Psionic Bestiary, by Dreamscarred Press. It has been modified to work with Spheres of Power.
 
-++++ Master Artisan [Core]
++++ Metamagic Aficionado [HMH]
+**Prerequisites:** Favored Metamagic (any three metamagic feats), caster level 15th.
 
-**Prerequisites:** Forbidden lore class feature, at least 1 item creation feat.
+**Benefit:** The benefits of Favored Metamagic apply to all metamagic feats you possess, not just those specific metamagic feats you have chosen with Favored Metamagic.
 
-**Benefit:** Choose one item creation feat that you possess. Add your forbidden lore bonus to your caster level when determining how powerful of an enchantment you may place upon an item.
++++ Oneiric Assault [Alienist HB]
+**Prerequisites:** Dreamspace, caster level 10th.
 
-++++ Master Engineer
-When you learn the ins and outs of an engine, you can coax more from it than another engineer could.
+**Benefit:** When you are in the dreamscape of another creature, you may target that creature’s real body with a single magic sphere effect as if you were adjacent to the creature. Using this feat causes your presence to be immediately ejected from their dreamscape, returning you to your own dreamscape and separating the two dreamscapes if they are merged. The creature is allowed a Will save against this effect, gaining bonuses to their saving throw as if you had just attempted to scry on the location of their dreamscape (for example, the mental block ritual protects against this ability). The DC is equal to the higher of your Mind sphere or Warp sphere DCs (or your hedgewitch secret DC, if you possess neither sphere). Should they fail their saving throw, the target is immediately affected with the sphere effect upon waking up. If the effect allows a saving throw, the target is allowed a saving throw as normal and applies spell resistance as normal, but any attack rolls used as part of the sphere effect are treated as if they had successfully hit the target.
 
-**Prerequisites:** Profession (engineer) 5 ranks.
+If you spend 2 additional spell points on the magic sphere effect, any target which fails their Will saving throw to repel the magic sphere effect becomes fatigued and is unable to regain spell points from rest for the next 24 hours.
 
-**Benefit:** When you serve as a ship’s engineer for at least 1 week, you can coax greater feats than normal from that ship’s engine. When pushing an engine, its power increases by 75%. When overloading the engine, its power increases by 150%. When successfully aiding the pilot, you grant them an additional +2 bonus to their piloting checks.
+You cannot use this feat in the same dreamscape more than once every 24 hours.
 
-++++ Master of Cosmos [Core]
+Special: If a creature possesses special abilities which would apply additional effects to their nightmare spell-like ability (such as the dreams of madness ability of Cthulhu and similar abilities possessed by other Great Old Ones), those effects also apply to any sphere effects created through this feat. If these abilities also expand the targeting possibilities of nightmare (such as dreams of madness targeting any creature with 1 or more ranks in a Craft or Perform skill), the creature with this feat automatically locates the dreamscapes of such creatures and may travel to them through normal means.
 
-**Prerequisites:** Forbidden lore class feature, Conjuration sphere.
-
-**Benefit:** Your companions gain a circumstance bonus to attack rolls and skill checks equal to your forbidden lore bonus.
-
-++++ Master of Death [Core]
-
-**Prerequisites:** Forbidden lore class feature, Death sphere.
-
-**Benefit:** Add your forbidden lore bonus to your caster level when determining the number of undead creatures you may control at any one time through the Death sphere.
-
-++++ Master of Small Magics
-
-**Prerequisites:** Cantrips, access to the Enhancement sphere.
-
-**Benefit:** You may use leaked magic from your enhancements to improve your Cantrips. Whenever you use Cantrips while under the effects of one of your own enhancements, you may either increase the range to Medium, double the duration, or double the amount of matter you can affect at one time. In addition, you may choose to use any creature or object within 30 ft. that is under the effects of one of your enhancements as the origin for any Cantrip you use.
-
-++++ Mind Opener [Core]
-
-**Prerequisites:** Psionics class feature, battlefield relay psionic effect.
-
-**Benefit:** Increase the save DC of your battlefield relay psionic effect by +2.
-
-++++ Mystic Assault
-
-**Prerequisites:** Casting class feature, base attack bonus +6.
-
-**Benefit:** You may spend a spell point to make a full-round attack that replaces the first attack with any sphere ability or supernatural ability that can be used as a standard action and requires an attack roll. You must pay any costs required by this sphere ability or supernatural ability, such as spell points. Using the ability replaces your first attack among your iterative attacks. If you are using two weapons, then it replaces both the primary and secondary weapon attacks.
-
-Using the sphere or supernatural ability can provoke an attack of opportunity (if it normally does so), and if the ability is disrupted, the associated attack is lost, but the remaining iterative attacks are not. You may decide after you have used your sphere or supernatural ability whether to continue with your full-round attack or if you wish to take a move action instead. The spell point is spent when you decide to proceed with your full-round attack. Abilities that replace any of your attacks in a full-round attack are not compatible with mystic assault, nor are other abilities that allow you to use a supernatural or sphere ability as part of an attack. Abilities that grant extra attacks (such as the haste ability of the Time sphere) are compatible. You can still use other abilities that can normally be used during a full-round attack as part of a mystic assault.
-
-++++ Mystic Assault, Improved
-
-**Prerequisites:** Mystic Assault.
-
-**Benefit:** You do not need to spend a spell point to use mystic assault.
-
-++++ Mystical Reinforcement
-
-**Prerequisites:** War sphere, Circle Casting.
-
-**Benefit:** You may use your circle casting to aid other spellcasters within totems you control or whom you share a mandate with as if they had the Circle Casting feat.
-
-++++ Occult Savant [Core]
-
-**Prerequisites:** Occult Knowledge class feature, Spellcraft, Use Magic Device, or any Knowledge skill 10 ranks.
-
-**Benefit:** You may take 10 with any Knowledge, Spellcraft, or Use Magic Device check, regardless of stress or other situations where taking 10 would otherwise be impossible.
-
-++++ Otherworldly Mind
-
-**Benefit:** Due to some quirk of your consciousness or oddity in your background, your heart and mind are like that of another realm entirely. Scrying to locate your Dreamscape now treats your Dreamscape as if it is on another Plane rather than on the same Plane as your physical form, granting a +5 bonus to your Will save to avoid the Scrying attempt. In addition, any effect that numerically boosts the difficulty of getting into your Dreamscape or moving within it is increased by 1.
++++ Otherworldly Mind
+**Benefit:** Due to some quirk of your consciousness or oddity in your background, your heart and mind are like that of another realm entirely. Scrying to locate your Dreamscape now treats your Dreamscape as if it is on another Plane rather than on the same Plane as your physical form, granting a +5 bonus to your Will save to avoid the scrying attempt. In addition, any effect that numerically boosts the difficulty of getting into your Dreamscape or moving within it is increased by 1.
 
 **Note:** There will usually be some actual world or realm in a campaign’s cosmology connected to this feat when it is taken. People within that world or realm, or others who also have the Otherworldly Mind feat connected to that realm, ignore your Dreamscape’s extra +5 bonus.
 
-**Wiki Note:** See the [[[Mind]]] sphere for more information on Dreamscapes.
++++ Pacified Strike
+**Prerequisites:** Casting class feature, one talent from any sphere that has the strike descriptor, caster level 3rd
 
-++++ Perceptive Psionics [Core]
+**Benefit:** When utilizing a sphere effect using a talent with the [strike] descriptor, you may choose to not deal any damage with the attack (including both the sphere effect and the weapon attack). Doing so provides you with a bonus to the attack roll equal to your caster level.
 
-**Prerequisites:** Psionics class feature, battlefield relay psionic effect, Perception 7 ranks, Sense Motive 7 ranks.
++++ Primal Emblem
+**Prerequisite:** Banner class feature.
 
-**Benefit:** You may read a target’s subtle movements, even if you cannot read their mind. If a target makes their saving throw against your battlefield relay, you may still activate the effect against them. When using battlefield relay in this fashion, the bonuses granted are divided by 2.
+**Benefit:** Choose a totem from the War sphere that does not require spell points to be spent when it is created. Your banner can also create the effects of that totem, using your class level as your caster level and your Charisma modifier (or practitioner modifier, if using Spheres of Might) as your casting ability modifier, if you do not already possess a casting tradition. If the totem produces the same type of bonus as your banner, these bonuses stack and are considered a single bonus. You can create the effects of the totem for a maximum number of rounds per day equal to your casting ability modifier + 1/2 your base attack bonus (minimum 1). Activating this ability is a free action, and a free action must be spent each round to maintain it.
 
-Your battlefield relay persists at half strength for as long as it is maintained. If you wish to attempt your battlefield relay again, you must cease your battlefield relay and use it again.
-
-You may even target creatures with your battlefield relay that are usually immune to mind-affecting abilities. These targets needn’t make a Will save, and the bonuses are always divided by 2 against them.
-
-++++ Primal Emblem
-
-**Prerequisites:** Banner class feature.
-
-**Benefit:** Choose a (totem) talent (from the [[[War]]] sphere) that does not require spell points to be spent when it is created. Your banner can also creates the effects of that totem, using your class level as your caster level and your Charisma modifier as your casting ability modifier. If the totem produces the same type of bonus as your banner, these bonuses stack and are considered as a single bonus. You can create the effects of the totem for a maximum number of rounds per day equal to your Charisma modifier + 1/2 your base attack bonus (minimum: 1). Activating this ability is a free action, and a free action must be spent each round to maintain it.
-
-You may purchase this feat multiple times. Each time choose a different totem. Rounds of use of one totem can not be used to fuel a different totem. You may only have one totem active at a time.
+You may purchase this feat multiple times. Each time choose another totem. Rounds of use of one totem can not be used to fuel a different totem. You may only have one totem active at a time.
 
 This is an extraordinary ability.
 
-++++ Psychosomatic Healing
++++ Realmwalker Adept [RW HB]
+Your experiences and travels help you gain new insights in terrains, surviving their natural dangers and navigating with greater ease.
 
-**Prerequisites:** Create reality class feature.
+**Prerequisites:** Knowledge (planes) 3 ranks, Survival 3 ranks.
 
-**Benefit:** You may create an illusion around a creature that gives the appearance and feeling that the creature is in good health. This illusion works not only on the creature, but on anyone observing the creature. Whenever the creature takes damage from any source, the amount of damage taken is reduced by half your caster level to a minimum of 0 damage. Unlike damage reduction, this can not be bypassed, except if the attacker manages to disbelieve the illusion.
+**Benefit:** You always know what plane you are currently on as though you succeeded on a DC 15 Knowledge (planes) check to recognize the current plane.
 
-++++ Robustness
+You may take 1 hour to attune to the current plane you are on, selecting it as your favored plane. Attuning to the current plane is a purely mental action. You gain a +2 bonus on initiative checks and Knowledge (planes), Perception, Stealth, and Survival checks made while on your favored plane. In addition, you gain a +2 bonus on ability checks, saving throws, and skill checks made against the planar traits and conditions of your favored plane (such as planar hazards, checks made against gravity, weather, etc.).
 
+**Special:** If you possess favored terrain, as the ranger class ability, the bonuses from this feat stack with any favored terrain bonus you possess. While not on the material plane (or an equivalent), you may treat your favored plane as your favored terrain for any abilities or effects which require you to be in your favored terrain.
+
+**Note:** This feat can be used to attune to an area with planar traits not native to the plane, such as attuning to a pocket of the material plane with fire-dominant traits.
+
++++ Realmwalker Master [RW HB]
+“And so you walk our path too, and shall experience and be a great many things, be you a traveler, wanderer, savior, or scourge to those you will cross paths with.” – A Realmwalker’s Initiation
+
+**Prerequisites:** Knowledge (planes) 7 ranks, Survival 7 ranks, Realmwalker Adept.
+
+**Benefit:** You may select your favored plane with the Realmwalker Adept feat as a free or immediate action (rather than taking 1 hour).
+
+In addition, you gain the following new abilities which grant benefits while in your favored plane:
+* **Any Plane Is Home (Ex):** While on your favored plane, you may treat that plane as your native plane. Whenever you would be treated as an extraplanar creature for the purposes of a dismissal spell, the Warp sphere Plane Manipulator (space) talent, or another effect which would send you back to your home plane, you may choose to be unaffected, as though you were an improper target for that effect.
+* **Planar Endurance (Ex):** You and your equipment are protected from weather conditions and can exist comfortably in any temperature without having to attempt Fortitude saves while in your favored plane. In addition, you gain energy resistance equal to 10 + your ranks in Knowledge (planes) against planar traits and weather native to your favored plane (such as the fire damage on a fire-dominant plane). This resistance stacks with other energy resistance you may possess.
+* **Realmwalker’s Stride (Ex):** You can move through your favored plane’s terrain at your normal speed, ignoring any difficult terrain native to your favored plane (such as moving through spike-like caltrops, snow, thorns, etc.). This ability counts as woodland stride, as the druid class ability, for the purposes of prerequisites and effects.
+* **Trailblazer (Ex):** You gain a +10 bonus to your base land speed while in your favored plane. In addition, you are immune to fatigue caused by hustling or forced marches (although you still take nonlethal damage as usual) while in your favored plane.
+
+**Note:** The abilities granted by this feat provide benefits against both natural and magical conditions, hazards, terrain, and weather which are native to your favored plane. These abilities do not provide benefits against effects which are not native to your favored plane, such as creature-made terrain and weather. For example, the planar endurance ability from this feat would protect against a fire-dominant plane’s traits, but not against a magical blizzard created by the Weather sphere on such a plane.
+
++++ Resist Expulsion [3PP]
+**Prerequisites:** Casting class feature
+
+**Benefit:** Whenever one of your subordinates would be banished or dispelled, you may spend a spell point as a free action (even outside of your turn) to allow the subordinate to remain for one additional round. Each turn, you may spend an additional spell point to allow them to remain for one additional round.
+
+^^**Source:** Card Casting 2: Counters and Control^^
+
++++ Rigorous Student [Origin]
+**Benefit:** Choose a class you have levels in. For the purpose of calculating the DCs of class features based on that class’ level (such as scholar material impositions and thaumaturge invocations), you treat your class level as 4 higher, to a maximum of your character level. This does not improve other effects of the class feature (for example, a character with 18 Intelligence, 5 levels in scholar, and 3 levels in conscript would have a flashbang save DC of 18, but their sulfuric detonation would only add 2d6 damage to their flashbang). This does not affect abilities which use your caster level to calculate the DC.
+
+**Special:** You may select this feat multiple times. The effects of this feat stack if applied to the same class multiple times.
+
++++ Ritualistic Perseverance [HMH]
+**Prerequisite:** 3 ranks in any 2 skills.
+
+**Benefit:** Choose two skills that you have at least 3 ranks in. You may take 10 on a single skill check made with each of these skills as part of an incantation even if there is a backlash component to the incantation.
+
+**Special:** You may select this feat multiple times, each time selecting two different skills.
+
++++ Robustness
 **Benefit:** Whenever you are the target of a sphere ability or supernatural ability that allows you to regain hit points that does not grant fast healing, you heal additional hit points equal to your Hit Dice. The increase in healing can not be greater than the original amount of healing granted. When you are granted fast healing, the fast healing heals 1 additional hit point per round.
 
-++++ Shadowblast [Core]
++++ Shared Magic
+**Benefit:** When you use a sphere ability that has an ongoing effect, you may spend a free action to designate an ally within close range as the owner of the ability. That ally gains control of the ability at the beginning of their next turn. The new owner is considered the creator of the spell, and can do whatever the owner can with the spell, including concentrating to maintain it, dismissing it, moving it (if it can be moved), spending spell points on it, or any other effect that can take place after the ability has been created. The new owner must be a spherecaster with a caster level equal to a minimum of half the caster level of the sphere ability they are being given. They use their own concentration and magical skill bonus to maintain the spell, but the sphere ability still uses your caster level.
 
-**Prerequisite:** Shadowmark class feature.
++++ Shoulder To Shoulder
+**Prerequisite:** Grit, luck pool or panache class feature.
 
-**Benefit:** When using your shadowmark, you may spend an extra shadow point to change the effect from a ranged touch attack into a Close-ranged cone. All creatures within this area are allowed a Reflex save for half damage. If they succeed at this Reflex save, they do not suffer the penalty to Will saves.
-
-++++ Shared Magic
-
-**Benefit:** When you use a sphere ability that has an ongoing effect, you may spend a free action to designate an ally within close range as the owner of the ability. That ally gains control of the ability at the beginning of their next turn. The new owner is considered the creator of the spell, and can do whatever the owner can with the spell, including concentrating to maintain it, dismissing it, moving it (if it can be moved), spending spell points on it, or any other effect that can take place after the ability has been created. The new owner must be a spherecaster with a caster level equal to a minimum of half the caster level of the sphere ability the are being given. They use their own concentration and magical skill bonus to maintain the spell, but the sphere ability still uses your caster level.
-
-++++ Shoulder to Shoulder
-
-**Prerequisites:** Grit, luck pool or panache class feature.
-
-**Benefit:** When you gain this this feat, choose a mandate (from the [[[War]]] sphere). You may spend a point of grit, luck or panache to create this mandate between yourself and an adjacent ally as a swift action. This is a supernatural ability. For purposes of this mandate, the attribute that governs the maximum amount of grit, panache or luck you can possess is your casting ability and your base attack bonus is your caster level. The mandate lasts for one minute, or ends immediately if you create another mandate with this ability, fall unconscious, or if you move beyond 60 ft. from each other.
+**Benefit:** When you gain this feat, choose a mandate from the War sphere. You may spend a point of grit, luck or panache to create this mandate between yourself and an adjacent ally as a swift action. This is a supernatural ability. For purposes of this mandate, the attribute that governs the maximum amount of grit, panache or luck you can possess is your casting ability and your base attack bonus is your caster level. The mandate lasts for one minute, or ends immediately if you create another mandate with this ability, fall unconscious, or if you move beyond 60 feet from each other.
 
 If the person you share the mandate with performs an action that would allow you to regain grit, luck, or panache, then you may regain grit, luck, or panache as if you had performed the action yourself.
 
-++++ Soul-Piercing Gaze
++++ Solitary Incantation [HMH]
+**Prerequisite:** 5 ranks in any 1 skill.
 
-**Prerequisites:** Emotion class feature.
+**Benefit:** You may perform an incantation in which you are the primary caster that does not have the requisite number of secondary casters. For every secondary caster omitted from the incantation, the DC of all skill checks associated with the incantation increase by 2.
 
-**Benefit:** As a standard action, you may attempt to make eye contact with all enemies within close range. The enemies must be able to see and hear you to be affected. Each enemy receives a Reflex saving throw against a DC 10 + 1/2 your class level + your Charisma modifier against the gaze. Enemies may attempt to avert your gaze as they would a gaze attack (such as by averting their eyes of wearing a blindfold).
++++ Soulfire
+**Prerequisite:** Caster level 5th.
 
-If at least one enemy fails their saving throw, you may choose one enemy that failed their saving throw and use an emotion from your emotion class feature on them as if you had made a successful melee touch attack. They still receive the regular saving throw against the emotion, if any. If every target succeeds on their saving throw against your gaze, the emotion is not expended.
+**Benefit:** You may accept 2 or more points of Constitution burn as a free action. Doing so grants 1 temporary spell point per 2 points of burn that expires at the end of your turn. If these temporary spell points are spent on a sphere effect that deals damage, half that damage becomes untyped damage and the effect bypasses spell resistance. The number of spell points granted per 2 points of burn increases by +1 every ten character levels. You cannot use this ability if doing so would reduce your Constitution to 0.
 
-When using Soul-Piercing Gaze, it is difficult for observers to detect the use of any supernatural ability. You may make a Bluff check vs the passive perception of any observers to disguise what you are doing.
++++ Special Transport [3PP]
+^^**Source:** Card Casting Bonus Content^^
+**Prerequisites:** Conjuration Sphere, Warp Sphere (Teleport Beacon)
 
-++++ Spellcrafting [Core]
+**Benefit:** Creatures that are your teleport beacons are considered to be conjuration companions for the purpose of the Link, Otherworldly Audience, Spell Conduit, and Spell-Linked Companion talents. Whenever you summon a companion, you may summon a willing teleport beacon creature in place of a companion.
 
++++ Sphere Focus
 **Prerequisite:** Casting class feature.
 
-**Benefit:** You may mix and match powers from various spheres into spells of your own creation. See the [[[Spellcrafting]]] page for more information.
+**Benefit:** Choose a sphere. You gain a +1 bonus to saving throw DCs for all abilities from that sphere. You may take this feat multiple times. The effects do not stack. Each time it is gained, apply this benefit to a different sphere.
 
-++++ Sphere Focus [Core]
++++ Sphere Virtuoso
+**Prerequisites:** Casting class feature; two or more talents from any sphere that both have the instill, mass, range or strike descriptors.
 
-**Prerequisite:** Casting class feature.
+**Benefit:** If you possess two talents from separate spheres that both possess the instill, mass, range, or strike descriptors, you count as possessing all talents of that corresponding type from all spheres that possess such a talent. You must possess the corresponding base sphere before gaining access to any talent, and if such a talent can be taken multiple times, this only counts as possessing the talent once.
 
-**Benefit:** Choose a sphere. You gain a +1 bonus to saving throw DCs for all abilities from that sphere. You may take this feat multiple times. The effects do not stack. each time it is gained, apply this benefit to a different sphere.
+**Example:** If a character possesses Energy Strike and Cryptic Strike, they would count as possessing all other talents with the strike descriptor. If a character possesses Instill Life and Instill Death, they would count as possessing all other talents with the instill descriptor.
 
-++++ Strengthened Arms
++++ Superior Salvage [LotS]
+**Prerequisites:** Any item creation feat, character level 5th.
 
-**Prerequisites:** Secondary arms racial trait.
+**Benefit:** When salvaging a magic item (see Pathfinder Roleplaying Game: Ultimate Wilderness), you may increase the salvage DC by 5 to yield raw material worth the creation cost of the destroyed item rather than 2/3 the cost of the destroyed item.
 
-**Benefit:** Your secondary arms are as powerful as regular arms. You may use your secondary arms to hold shields, fulfill somatic requirements, or make attacks (although this does not grant you additional attacks or actions per round). When wielding a weapon in two hands, add 1.5 times your Strength modifier to damage instead of 1 or .5 times your Strength modifier. When wielding a weapon in all 4 hands, add 2 times your Strength modifier to damage instead of 1.5 times your Strength modifier.
+When salvaging an item with a limited number of uses, divide the cost of creating the item by the original number of charges, then multiply by the remaining uses to find the amount of raw material gained. If the item was created at lower than the usual cost, you only gain the actual amount the item cost to create as magical essence. Artifacts and Spellzones cannot be salvaged, nor may this feat be used to salvage costless magic items generated by class abilities. Constructs may be salvaged, but they must be willing (which usually means mindless and under your control), or helpless during the entire process.
 
-**Special:** Taking this feat qualifies a tatulani to take the Unreasonable Coordination feat.
+**Note:** This feat may not be appropriate for all games, and is designed for worlds where magic items and the ability for players to craft them are reasonably commonplace. Thus, it may not be appropriate for all tables and campaigns and is thus usable at GM discretion.
 
-++++ Strengthened Possession
++++ Tenacity
+**Prerequisite:** Judgment class ability.
 
-**Prerequisites:** Possession class feature.
+**Benefit:** Whenever you activate a judgment, if you have not previously activated that judgment today, you gain temporary hit points equal to your Hit Dice + your casting ability modifier. These last until you rest and regain uses of your judgment class ability.
 
-**Benefit:** You count your wraith level as 4 higher when determining the maximum CR of a creature you may possess, the save DC of your possession ability, and your effective wraith level for determining the effect of path abilities (though does not grant access to path abilities that have not yet been gained). This bonus cannot increase your effective wraith level above your Hit Dice.
++++ Termination Clause [DbH]
+The gifts you bestow can be taken away should their recipients fail to serve you.
 
-++++ Synchronicity
+**Prerequisite:** Fleeting Spell.
 
-**Prerequisites:** Emotion class feature.
+**Benefit:** When you create a magic sphere effect with the Fleeting Spell feat, you may set a condition in the same manner as the Contingency feat. When this condition is triggered, the sphere effect immediately ends as if you had dismissed it. In addition, you may apply the Fleeting Spell feat to permanent (but not instantaneous) magic sphere effects
 
-**Benefit:** You may enhance an emotion power that has a range of touch and a single target to extend the range to 30 ft. and the maximum number of targets to be equal to your Charisma modifier. Each target of the emotion power must be within close range of each other as well as you. If the power grants a saving throw to resist, the DC is reduced by 2. Using an emotion power in this way costs 3 daily uses of the power instead of 1.
-
-++++ Tenacity
-
-**Prerequisites:** Judgment class ability.
-
-**Benefit:** Whenever you activate a judgement, if you have not previously activated that judgment today, you gain temporary hit points equal to your Hit Dice + your casting ability modifier. These last until you rest and regain uses of your judgment class ability.
-
-++++ Tough as Nails
-
-**Prerequisites:** Grit, luck, or panache pool.
++++ Tough As Nails
+**Prerequisite:** Grit, luck, or panache pool.
 
 **Benefit:** When you spend a point of your grit, luck, or panache, you gain temporary hit points equal to your character level. These last 1 minute.
 
-++++ Trance [Core]
++++ Transformation
+//Errata:// The Transformation feat (Ultimate Spheres of Power pg. 487) has received an errata, clarifying some interactions and allowing the feat to be taken more than once.
 
-**Prerequisite:** Emotion class feature.
+**Benefit:** Choose one (transformation) Alteration sphere talent that does not cost a spell point. If you choose Anthropomorphic Transformation and are humanoid or of a similar makeup, choose another (transformation) or (body) talent to choose traits from for Anthropomorphic Transformation’s effects.
 
-**Benefit:** You may apply any emotion power with ‘touch’ in the name to yourself as a move action instead of a standard action. Doing so does not provoke an attack of opportunity.
+As a full-round action, you may assume the form of a single creature whose type corresponds to the chosen (transformation) talent. This functions as the Alteration sphere shapeshift sphere effect as a supernatural ability. The same form and appearance is mimicked each time you assume this form (e.g. the same wolf, spider, treant, etc.). The chosen form may be the same as your base size or Medium or Small, applying size change bonuses and penalties as appropriate if your size would change. This transformation lasts until you choose to revert to your original form as a full-round action.
 
-++++ Triage
+While in your chosen form, you gain all the abilities granted by your chosen form (movement modes, natural attacks, special abilities, etc.) but do not gain any additional traits from this shapeshift effect. Treat your Hit Dice as your caster level for the purposes of this effect. If an Alteration sphere effect from your chosen form would use your casting ability modifier (and you do not have one), you use your Charisma modifier to determine the effects (such as the save DC of a trait). This is a polymorph effect.
 
-**Prerequisites:** Caster class ability or ki class ability, Heal 1 rank.
+You gain the shapechanger subtype.
+
+**Special:** You may gain traits from the Alteration sphere Blank Transformation while under the effects of this feat, even though it is a polymorph effect. This feat counts as possessing the Alteration sphere and the chosen (transformation) talent for the purpose of meeting feat prerequisites. If you possess the Perfect Imitation talent or Shifting Disguise feat, you may make cosmetic changes to your Transformation form per the base Alteration sphere trait.
+
+**Special:** This feat may be taken more than once; each time gaining a new form and selecting any Alteration (transformation) talent or other (transformation) or (body) talent if choosing Anthropomorphic transformation.
+
++++ Transformation, Eternal [Alienist HB]
+**Benefit:** This functions as the Transformation feat, save that you may not return to your original form and must always remain in a form selected with the Transformation feat or a hybrid form from the Hybrid Transformation feat (the form selected at the time you take this feat, although you may change this form whenever you select a feat or talent that affects your transformation). Your transformation is not considered a magical effect and cannot be suppressed or removed by any effects which could suppress, remove, or override polymorph effects or magical effects (such as an antimagic field or the true form spell). Unlike the Transformation feat, you do not gain the shapechanger subtype.
+
+**Special:** This counts as Transformation for the purpose of meeting prerequisites. Abilities that modify the Transformation feat (such as Improved Transformation) may also affect this feat. Whenever you would receive Transformation as a bonus feat, you may instead select Eternal Transformation.
+
++++ Transformation, Hybrid
+**Prerequisite:** Transformation.
+
+**Benefit:** When changing into a form granted by the Transformation feat, you may instead assume a hybrid form, blending your base form and your transformation form. This cannot be used if your transformation form is already similar to your base form, such as a humanoid using Anthropomorphic Transformation.
+
+When in hybrid form, you gain all limbs, natural attacks, special abilities, and movement modes from your transformation form, but without changing your basic shape nor melding your equipment. You may choose to retain limbs and movement speeds from your base form if your transformation form lacks them or has lesser versions, such as a humanoid keeping arms when assuming a hybrid form based on Serpentine Transformation or Vermin Transformation, adding legs to Aquan Transformation, or a winged creature retaining its wings under Animalistic Transformation.
+
+If your transformation would grant you additional legs, you may instead gain them as arms, although they do not grant any additional attacks, are not strong enough to gain any natural attacks, and may not assist in wielding weapons, activate magic items, or wield a shield. They may hold items and as a swift action you can use them to draw a sheathed or hidden weapon, don a shield, retrieve a stored item, load a crossbow, open a door, pick up an unattended item, sheathe or store an item, or take other non-offensive actions involving manipulating objects. Items do not automatically merge with the new form if it is capable of wearing them, but the size of the items does not change if they do not resize on their own.
+
+**Special:** Traits granted from the Improved Transformation feat apply to both your base transformation form and your hybrid form.
+
++++ Transformation, Improved
+**Prerequisites:** Transformation, character level 5th.
+
+**Benefit:** Choose one trait for every 5 character levels you possess (minimum 1) from the Blank Transformation ability of the Alteration sphere, from the talent chosen for the Transformation feat, another Alteration sphere talent you possess, or another trait deemed appropriate to the form selected for your Transformation feat by the GM. You may not select a trait that carries an additional spell point cost. You gain one set of traits for each instance of the Transformation feat that you possess. Once selected, these traits and their specific manifestations cannot be changed. You may take the Perfect Imitation talent or the Retain Ability talent in place of a trait and may apply them to your Transformation form. Additionally, the time required to change shape with the Transformation feat is reduced to a swift action.
+
+**Special:** Traits gained from this feat count against the maximum number of traits you may receive from the shapeshift ability of the Alteration sphere. You may choose to suppress one or more traits granted by this ability when you assume a particular Transformation form. Alternatively, you may choose to gain one or more traits from a particular set without the base form.
+
++++ Triage
+Prerequisites: Heal 1 rank; caster class ability or ki class ability.
 
 **Benefit:** You may spend a spell point or ki point to treat deadly wounds on a creature as a full-round action as per the Heal skill. You may do this even if the creature that has already received such treatment that day.
 
-++++ Two Minds
++++ Versed Student [Origin]
+**Benefit:** Choose a class you have levels in. For the purpose of determining class features selected individually at advancing levels you may select (such as alchemist discoveries, shifter bestial traits, striker arts, and witch hexes), you treat your level in that class as 4 higher, to a maximum of your character level. For example, a character with 4 levels in mageknight and 6 levels in shifter who has selected shifter with this feat may select bestial traits as if they were a 10th-level shifter (although they would have a total of three bestial traits, not 5). This does not include advanced rogue talents, grand hexes, and other such abilities which would normally only be selectable starting at higher levels unless you already have access to such abilities from one of your classes. This feat does not grant any such abilities when it is taken, nor does it cause levels in any class to count as levels in other classes for the purpose of determining the effects of class abilities.
 
-**Prerequisites:** Extra Limbs talent or multiple heads.
+**Special:** You may select this feat multiple times. The effects of this feat stack if applied to the same class multiple times.
 
-**Benefit:** When you have more than one head and are the target of a mind-affecting ability that allows a Will save, you may spend a spell point as a free action, even if it is not your turn, to reroll the save after the die is rolled but before the result is revealed.
++++ Vigilant Skeptic
+**Prerequisites:** Perception 5 ranks and Sense Motive 5 ranks; or Alertness.
 
-++++ Vigilant Skeptic
+**Benefit:** You are automatically treated as interacting with any figments you come within 5 feet of, increasing by an additional 5 feet per 2 ranks you have in Perception. As a full-round action you may interact with all figments within 30 feet. You get a +1 bonus to Perception and Sense Motive checks per 2 character levels against targets benefiting from glamers.
 
-**Prerequisites:** Perception 5 ranks, Sense Motive 5 ranks or Alertness.
-
-**Benefit:** You are automatically treated as interacting with any figments you come within 5 ft. of, increasing by an additional 5 ft. per 2 ranks you have in Perception. As a full-round action you may interact with all figments within 30 feet. Gain +1 Perception and Sense Motive checks per 2 character levels against targets benefiting from glamers, this bonus stacks with all other skill bonuses.
-
-++++ Vital Magic
-
-**Prerequisites:** Fervor or lay on hands class feature.
++++ Vital Magic
+**Prerequisite:** Fervor or lay on hands class feature.
 
 **Benefit:** You may spend 1 spell point as a free action to regain 1 use of your fervor or lay on hands ability.
 
-++++ Wand Wielder [Core]
++++ Wand Charger
+**Prerequisites:** Craft Spell Engine, caster level 4th.
 
-**Prerequisite:** 10th caster level or higher.
+**Benefit:** When recharging a spell engine, you may spend a number of spell points not exceeding half your caster level, restoring an equal number of spell points to the spell engine.
 
-**Benefit:** When wielding a wand, use your caster level in place of the wand’s caster level (if it is higher) when calculating its abilities.
+You may not exceed the spell engine’s maximum charges this way. You may recharge a spell engine more than once a day with this ability, but the total transferred spell points cannot exceed half your caster level. Additionally, you may count your caster level as 4 higher when determining what spell engines you can recharge.
 
-++++ Wind Dancer
++++ Wand Wielder
+**Prerequisite:** Caster level 10th.
 
+**Benefit:** When wielding a spell engine, use your caster level in place of the spell engine’s caster level (if it is higher) when calculating its abilities.
+
++++ Wind Dancer
 **Benefit:** Whenever you drive an air vehicle you treat the Wind severity level either one step higher or one step lower (to a minimum of 0 and a maximum of 7), whichever you prefer. You may change this decision once per round as a free action. If you have 11 ranks in Fly or Profession (pilot), you no longer suffer the negative effects of any Wind of severity level 5 or lower while driving an air vehicle. If you have 17 ranks in Fly or Profession (pilot) you no longer suffer the negative effects of any wind while driving an air vehicle. It cannot be sucked into or damaged by a tornado.
+[[/tab]]
+[[tab Original]]
+[[include old-general-feats]]
+[[/tab]]
+[[/tabview]]
 
 ----
 
