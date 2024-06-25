@@ -223,8 +223,10 @@ You refine a creature’s scent glands, pheromones, or some other attracting sce
 **Refinement DC:** 15
 
 You refine the particularly odorous parts of a creature, like specific glands or waste, creating a stink bomb that can be thrown as a ranged touch attack with a range increment of 20 feet. Creatures within a 10-foot radius burst of the point of contact are sickened for 1 round per 3 ranks in the associated skill you possess (Fortitude negates).
-* **Potency:** Affected creatures become nauseated for 1 round on a failed save, and sickened for the remaining duration. On a successful save, the creature is still sickened for 1 round. 
-* **Talisman:** The stench talisman’s wearer exudes a palpable, yet barely tolerable odor, granting creatures adjacent to the wearer a -2 penalty to saving throws against the sickened and nauseated conditions, and increases the penalties associated with the sickened condition by 1.
+
+**Potency:** Affected creatures become nauseated for 1 round on a failed save, and sickened for the remaining duration. On a successful save, the creature is still sickened for 1 round. 
+
+**Talisman:** The stench talisman’s wearer exudes a palpable, yet barely tolerable odor, granting creatures adjacent to the wearer a -2 penalty to saving throws against the sickened and nauseated conditions, and increases the penalties associated with the sickened condition by 1.
 ----
 ++ ##4B0092|Ground Talents##
 ++++ Adjust Visibility (ground)
@@ -303,6 +305,15 @@ Additionally, whenever a creature within the dredged area successfully bares the
 **Tense Atmosphere:** Creatures within the dredged area reduce the DC required to inflict them with disorientation effects (including saving throw DCs) by 2. Additionally, creatures within the dredged area gain a +2 morale bonus to Perform checks attempted to entertain (dispirit or spook). The DC reductions and bonuses increase by 1 per 4 ranks in the associated skill you possess.
 ----
 + ##4B0092|Exceptional Talents##
+++++ Animate Earth (ground) (Su) [DS:TP]
+**Prerequisites:** Survivalism sphere (Alter Stability), associated skill 5 ranks.
+
+When you apply a dredge option granted by the Alter Stability (ground) talent, it gains additional benefits depending on the option you choose:
+
+**Gyroscopic Terrain:** If you choose stabilizing terrain, the terrain adapts and lurches in response to those within it. Creatures within the dredged area gain a +4 bonus to saving throws and skill checks made to resist becoming prone, and even if such a creature falls prone, they do not provoke attacks of opportunity to stand up from prone. Additionally, creatures within the dredged area reduce any forced movement they are subject to by 10 feet (minimum 0 feet).
+
+**Turbulent Terrain:** If you choose destabilizing terrain, the terrain becomes especially turbulent, causing it to actually shift and churn. Creatures within the dredged area that attempts a saving throw or skill check to not become prone suffers a -4 penalty to the attempt. Additionally, creatures that start their turn within the dredged area are moved 15 feet in a random direction within the dredged area (a successful Reflex save reduces this forced movement to 5 feet); this movement does not provoke attacks of opportunity.
+
 ++++ Cursed Effigy (harvest) (Su)
 **Prerequisites:** Survival ranks 7, Survivalism sphere ((harvest) package).
 
@@ -317,6 +328,23 @@ A curse inflicted on a creature using this talent cannot be harvested and refine
 **Potency:** You may release a refined curse to a creature within 60 feet, and the cursed effigy gains an additional use.
 
 **Talisman:** The cursed talisman’s wearer gains a +4 luck bonus to saving throws against curses; if the saving throw would already benefit from the base talisman, the wearer can instead roll twice and take the highest result. Additionally, the talisman functions as a cursed effigy as above but has a number of uses equal to your operative modifier. Whenever the wearer would be damaged by an attack and the attacker is within 30 feet, they can expend one the uses from the talisman to expose it to the attacker (Will negates).
+
+++++ Entrails (harvest) (Su) [utility] [DS:TP]
+**Prerequisites:** Survivalism sphere, associated skill 5 ranks.
+**Refinement DC:** 20
+
+You can harvest and refine the innards and entrails of a creature. You or a creature that is trained in Spellcraft can spend 1 minute reading through the refined entrails with particular intent on a particular action and whether it will bring good or bad results for the user, as long as such an action is within the next day. Once used, the entrails lose their potency. There is a 70% chance for receiving an answer, + 1% per associated skill rank you possess (maximum 90%); this roll is made secretly. On a success, the diviner gets one of four results:
+* Weal (if the action will probably bring good results).
+* Woe (for bad results).
+* Weal and woe (for both).
+* Nothing (for actions that don't have especially good or bad results, or the effect fails; the user has no way of differentiating).
+Actions taken after the scope of this effect does not affect the result, and so may not factor in the long-term consequences of the action. Subsequent attempts from the same diviner about the same topic gain the same result as the first. This is a divination effect. 
+
+**Potency:** When divined, the refined entrails can grant insight that pertains to an action or event within 1 week. Additionally, the user can spend 1 use of skill leverage to gain a more intense divination from the entrails. Instead of gaining one of the four results, they gain more open advice in the form of a short phrase or cryptic rhyme.
+
+**Talisman:** The wearer of an entrail talisman enhances their own uses of divination. Whenever the wearer casts a divination effect, they gain one of the following benefits, depending on the kind of effect: increase the likelihood of a percentage-based divination to work correctly by 5%, a +2 insight bonus to Perception checks while perceiving through a scrying sensor (increasing by +1 per 4 associated ranks), choose an additional creature when using a Divination sphere divine that normally targets one creature at a time, or they may ask one additional question (such as with speak with dead).
+
+**Potency:** The wearer of a refined entrail talisman gains a +1 competence bonus to their caster level to divination effects. Plus, the maximum chance of any percentage-based divination roll that the wearer makes is increased to 100% (instead of the usual 90%), and the perceivable area of a scrying sensor is tripled.
 
 ++++ Expansive Preparation (Su)
 **Prerequisites:** Associated skill 5 ranks, Survivalism sphere.
