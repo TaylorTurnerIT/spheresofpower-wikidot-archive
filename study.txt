@@ -125,6 +125,11 @@ If the chosen skill would strain credibility (such as using Knowledge (nobility)
 If you begin a theory as part of a successful use of recall information, you gain one notion on the theory, plus another for every 10 by which you exceed the DC (maximum equal to your operative ability modifier).
 
 You can outwit the creature as a cost to instead gain one notion for every 5 by which you exceed the DC (rather than every 10).
+
+++++ Tome Raider [utility] [DS:TP]
+You gain a +4 bonus to saving throws against written magical effects, ‘symbol’ effects, and similar effects (such as explosive runes, glyph of warding, symbol of death, etc), as well as any effects that may originate from reading a book, inscription, scroll, or any form of writing (such as a curse), but not from effects cast from such forms of writing (such as a scroll of fireball). You gain an automatic Perception check to notice such effects that you come 10 feet within, although this is made in secret by the GM.
+
+In addition, you can decipher magical writings on objects that would otherwise be unintelligible, such as those found in scrolls. 
 ----
 ++ ##4B0092|Complication Talents##
 ++++ Connect The Dots (complication) [utility]
@@ -184,6 +189,19 @@ This research can gain notions in the following ways:
 **Breakthrough:** You can spend 1 notion as a free action that can be taken outside of your turn to learn the DC of any Acrobatics, Climb, Disable Device, Fly, Survival, or Swim check before you attempt it.
 
 **Breakthrough:** You can spend any amount of notions as a free action that can be taken even when it is not your turn whenever you suffer the effects of a trap or hazard to delay any associated damage, poison, or effects for a number of minutes equal to the number of notions spent on this breakthrough.
+
+++++ Build a Case (research, theory) [utility] [DS:TP]
+As long as your research topic is of a creature, event, or group, you can begin to speculate about its activities or history. You can spend 1 minute in deep contemplation upon learning a new piece of information or about a creature that appears to have a connection to the subject of your research topic, learning if the piece of information is inconsequential to it.
+If the research topic has at least 3 notions, whenever you enter a new location, you immediately notice something or someone of particular interest or out of the ordinary (or otherwise, if there is nothing of interest) that is relevant to your research topic.
+
+This research can gain notions in the following ways:
+* You discover a hidden object that has a DC higher than 15 + your character level to find.
+* You discover the motivation of a significant creature.
+* You come to a revelation or discover a piece of information that alters your view on a goal you are pursuing (up to GMs discretion).
+
+**Breakthrough:** You can spend 1 notion when using the base ability of this research  to learn how important the piece of information is to the subject of your research topic. Importance is generally gauged by how integral the information is to discover the truth, but also as to how closely tied the information may be to your research topic: the murder weapon or suspicious guard could be inextricably tied, whereas a maid or broken window could be useful.
+
+**Breakthrough:** You can spend any number of notions as a standard action to gain an equivalent insight bonus to Appraise, Linguistics, Perception, Sense Motive, and Survival checks for 1 hour. During this time, you unlock skill leverage with these skills.
 
 ++++ Circumvent Defenses (theory)
 As long as the subject of your theory is a creature, you can figure out ways of briefly bypassing its defenses.
@@ -283,6 +301,37 @@ This research can gain notions in the following ways:
 **Breakthrough:** You can spend 2 notions when using the base ability of this research to learn of another group of creatures (such as a district, faction, etc.) that holds your research topic in high regard, and another group of creatures that holds your research topic in low regard.
 
 **Breakthrough:** You can spend 3 notions when using the base ability of this research to learn more information. You learn of a great legend surrounding your research topic; this could be a legend that is still current or even somewhat forgotten, as long as the information is not completely lost or restricted. In general, a legend will speak of a single creature (or small group) and some grand event that they participated within, such as slaying or becoming a lich, saving or destroying a city, etc.
+
+++++ Triangulate Teleportation (research, theory) [utility] [DS:TP]
+As long as your research topic is about teleportation spells or the planes, you can provide more stability or potency to teleportation attempts. This research begins with one notion if your research topic requires a Knowledge (geography) or Knowledge (planes) check.
+
+You can spend 1 minute researching an area to learn about a nearby landmark within 100 miles of the area. This is treated as if you possess a reliable description of a location for the purposes of teleportation abilities that rely on it (such as greater teleport), or have studied an area carefully for abilities reliant on familiarity (such as teleport). This amount decreases by 25 miles for each notion this research possesses (minimum 1 mile).
+
+This theory can gain notions in the following ways:
+* A creature uses a teleportation effect and travels at least 1 mile when doing so (or travels to a new plane).
+* A creature uses a portal or similar structure or object to teleport a distance (including planar travel); once such a structure has been used to gain a notion this way, you cannot gain a notion from the same structure a second time.
+* You learn a substantial and novel piece of information about your research topic that comes from any source but yourself.
+* You succeed at a Knowledge (geography) or Knowledge (planes) check that has a DC higher than 20.
+
+**Breakthrough:** You can spend any amount of notions as part of casting a teleportation effect to treat your caster level as an amount higher for determining the distance traveled for the teleport equal to the number of notions spent on this breakthrough. This breakthrough can only be used on a teleportation effect used on willing targets.
+
+**Breakthrough:** You can spend 2 notions to use this research's base ability to benefit planar travel more effectively, allowing you to arrive 5d20 miles away from your intended destination instead of 5d% miles away. You can spend 3 notions to instead arrive 5d10 miles away, or 4 notions to arrive 5d6 miles away.
+
+**Associated Feats:** Cartogramancer, Planar Wanderer
+
+++++ Trigonometric Angling (research, theory) [DS:TP]
+As long as your research topic is about ranged or siege weapons or physics, you can work out a way of mitigating any extraneous circumstances. You reduce any penalties to ranged attack rolls you may suffer due to wind (or similar weather conditions, such as rain) by an amount equal to the number of notions this research has.
+
+This research can gain notions in the following ways:
+* An ally succeeds a ranged weapon attack roll against a hostile creature (or vice versa) that was subject to concealment, cover, strong wind, or was outside of its first range increment.
+* An ally completely negates an attack originating from a hostile creature (or vice versa) due to an ability such as the Deflect Arrows feat or the Ray Deflection Protection sphere talent.
+Such methods of gaining notions require a level of stakes or stress to be reasonably applicable, and requires both relevant creatures to have a CR of at least half your associated ranks.
+
+**Breakthrough:** You can spend 1 notion as part of attempting a ranged weapon attack to calculate the perfect way of making the attack, allowing it to bounce across surfaces. You target a solid 5-foot surface, treating it as the new point of origin when attacking a target. This can allow you to attack around corners or possibly ignore cover. The target still has total concealment if you do not possess line of sight to them. You can spend additional notions to have it bounce additional times at a 1 to 1 ratio. A surface hit this way suffers no damage, and you use the total distance traveled when determining range penalties.
+
+**Breakthrough:** You can spend 1 notion as part of attempting a ranged weapon attack to ignore any penalties caused by range or weather. If such an attack would normally be impossible due to the weather or deflected, the attack is indeed possible, but instead suffers a -5 penalty (which is not considered a weather-based penalty).
+
+
 ----
 + ##4B0092|Exceptional Talents##
 ++++ Anamnesis [utility]
@@ -341,6 +390,23 @@ You can spend 3 uses of skill leverage and 1 hour in deep contemplation, searchi
 You have a 70% chance + 1% per rank in the associated skill you possess of gaining a true answer.
 
 If the roll fails, you gain no information from this ability, while a roll of 91% or higher produces a misunderstanding. If you use this ability to ask the same question, you receive the same answer as you did previously, unless you have leveled up since you asked the question, which allows a new roll.
+
+++++ Lexical Obfuscation (Su) [utility] [DS:TP]
+**Prerequisites:** Study sphere.
+
+You can spend 1 minute touching a piece of text of up to 10 pages to magically remove all text (or similar symbols used to convey information) permanently; you can spend 1 use of skill leverage to also attempt to dispel scrolls, or glyph or symbol spells (or similar spells) using this ability, attempting a caster level check using your ranks in this sphere's associated skill instead of your caster level for the attempt. If this check fails by 5 or more, you activate the spell instead.
+Instead of removing text, you can choose other forms of obfuscation (such as covering the text in illegible stains, having the text become garbled, etc.).
+
+At 5 ranks in this sphere's associated skill, you can spend 10 minutes touching a single page to create an alternate version of the page. This alternate page starts blank and can be switched to by speaking a phrase of your choice as a standard action (chosen when you create this alternate page). A page can only contain a single alternate version of itself at a time.
+
+A detect magic spell reveals dim magic on the page in question but does not reveal its true contents (although true seeing does reveal this).
+    
+++++ Retrocognition [utility] (Su) [DS:TP]
+**Prerequisites:** Study sphere, Knowledge (any) ranks 10.
+
+You may spend 1 use of skill leverage when attempting to recall information to do so from the point of view of another creature you know of, even if you do not know them personally. This may allow a Knowledge check to be made at a reduced DC due to its relevance in the creature’s life, or even allow you to attempt a Knowledge check that would only be possible using that creature’s insights and life experiences (such as the intricacies of an ancient deity or piece of information). This can reveal information that has been lost or forgotten, but not information that the chosen creature intended to keep secret or obfuscated.
+
+
 ----
 + ##4B0092|Drawbacks##
 
