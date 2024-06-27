@@ -132,8 +132,26 @@ Additionally, ravels recover 1 minute after being unweaved instead of after 10 m
 **All Races:** Gain +1/6 of a bonus ravel feat.
 ----
 
-+ ##00c000|Ravel Descriptions##
-++ ##00c000|Anticipating Coils##
++ ##00c000|Ravels##
+
+Ravels are continuous magical effects that can be accessed by a raveler that are unweaved to fuel their spells and abilities. Ravels have two abilities, a woven effect and an unwoven effect. You gain access to the woven effect of a ravel until it has been unweaved. While it is unwoven, you instead gain access to its unwoven effect. If an unwoven effect would grant a benefit to the spells you cast or abilities you activated as part of unweaving it, you gain those benefits for the spell or ability that caused the ravel to become unwoven.
+
+When unwoven, a ravel remains in that state for 10 minutes (unless otherwise specified by the ability that unweaved it). After this duration has expired, you can choose to leave your ravel unwoven. If you do so, it remains unwoven until you choose to return it to its woven state as a free action on your turn.
+
+While unwoven, a ravel cannot be unweaved again. If an ability, bonus, or effect with a duration is created as part of unweaving a ravel (including using a resource granted by unweaving to pay for said ability or bonus), that ability, bonus, or effect is lost when the ravel returns to its woven state. If an unwoven ravel is returned to its woven state before the normal 10 minutes pass, any abilities, bonuses, or effects with an ongoing duration created by unweaving it end early as well.
+
+**Associated School:** Each ravel has an associated school of magic or magic sphere. The effects of a ravel are treated as a spell or effect of its associated school or sphere for the purposes of your abilities, feats, magic items, and talents. For example: if you have the Spell Focus (evocation) feat, that feat would apply to your ravels with evocation as their associated school of magic. 
+
+**Effective Caster Level:** The effects of your ravels are determined by your effective caster level with that ravel. Your effective caster level with a ravel is equal to your level in the class that granted you the ravel or your caster level with the ravel’s associated school of magic or magic sphere, whichever is higher.
+
+**Ravel Modifier:** Your class that grants you the ability to create ravels defines your ravel modifier, which is based off of one of your ability scores. This modifier is used to determine the effects of some ravels, and is used to determine your 
+
+**Saving Throw DC:** If an effect of one of your ravels has a saving throw, the DC of that saving throw is equal to 10 + your ravel modifier + half your effective caster level with that ravel (rounded up, minimum 1).
+
+**Spell Resistance:**Unless noted by the ravel, the effects of a ravel that target creatures or affect creatures in an area are subject to spell resistance, using the ravel’s effective caster level as your caster level for the effect. Your ravels automatically bypass your own spell resistance.
+
+++ ##00c000|Ravel Descriptions##
++++ ##00c000|Anticipating Coils##
 **Associated School/Sphere:** Divination/Divination
 
 **Woven Effect:** You gain a preternatural danger sense that allows you to more easily spot and react to danger. You gain a +2 insight bonus to Perception checks and initiative checks. This bonus increases by +1 for every 4 caster levels.
@@ -142,14 +160,14 @@ Additionally, ravels recover 1 minute after being unweaved instead of after 10 m
 
 You can choose a new creature to affect with this ability as a standard action, removing the benefits granted against the first creature and forcing the newly chosen creature to make a saving throw against its effects.
 
-++ ##00c000|Bloodied Hem##
++++ ##00c000|Bloodied Hem##
 **Associated School/Sphere:** Necromancy/Blood
 
 **Woven Effect:** Whenever a creature within 5 feet of you plus 5 feet per 5 caster levels (minimum 5 feet) of you takes slashing or piercing damage or suffers from bleed damage, you can cause them to suffer blood loss as a free action, even if it isn’t your turn. A particular creature can only take blood loss in this way once each round. A creature suffering blood loss from this effect takes damage equal to half Bloodied Hem’s caster level (minimum 1).
 
 **Unwoven Effect:** You automatically sense the locations of creatures within 60 feet of you who have suffered bleed damage or blood loss within the past minute per caster level, as per blindsense. If you attack a creature you can sense in this way and they are benefitting from percentile miss chance (such as that granted by concealment), you reduce the effective miss chance for that attack by 5% per 2 caster levels (minimum 5% reduction), to a minimum of 0% percentile miss chance. 
 
-++ ##00c000|Constructive Loops##
++++ ##00c000|Constructive Loops##
 **Associated School/Sphere:** Conjuration/Creation
 
 **Woven Effect:** As a swift action, you can create Small or smaller hand-held object composed of wood, stone, or basic metals (copper, iron, steel) in one of your free hands, as per the create ability of the Creation sphere. You do not need to spend spell points on this creation, you do not need to concentrate to maintain the effect, and the created object persists until it either leaves your hand, is destroyed, or Constructive Loops is unwoven. 
@@ -166,35 +184,35 @@ If you create a tool, it grants you a +2 circumstance bonus to skill checks made
 
 This cloud of floating debris swirls at high speeds, damaging creatures who remain within it. Whenever a creature other than you ends their turn within the cloud of debris, they must make a Reflex saving throw or take 1d6 points of bludgeoning, slashing and piercing damage on a failed save. This damage increases by 1d6 at caster level 3 and every 3 caster levels thereafter. This damage counts as magical for the purposes of bypassing damage reduction. At caster level 11, it counts as cold iron and silver for the purposes of bypassing damage reduction. 
 
-++ ##00c000|Deathless Reams##
++++ ##00c000|Deathless Reams##
 **Associated School/Sphere:** Necromancy/Death
 
 **Woven Effect:** As a standard action you may make a melee touch attack against another creature, dealing 1d6 points of damage + 1d6 per three caster levels on a successful hit. You then gain temporary hit points for 1 minute equal to the damage dealt. These temporary hit points do not stack with themselves. This damage ignores damage reduction and resistances.
 
 **Unwoven Effect:** You gain a number of temporary hit points equal to 1d10 + 1 per caster level. These temporary hit points stack with other temporary hit points, and persist until lost or until Deathless Reams stops being unwoven. At caster level 8, and every 8 caster levels thereafter, the number of temporary hit points gained increases by 1d10.
 
-++ ##00c000|Duplicating Inlay##
++++ ##00c000|Duplicating Inlay##
 **Associated School/Sphere:** Illusion/Illusion
 
 **Woven Effect:** When you roll initiative, you gain one illusory double, as per the mirror image spell. These doubles persist until destroyed, until Duplicating Inlay is unweaved, or until combat ends. At caster level 4, and every 4 levels thereafter, you gain one additional illusory double upon rolling initiative. These images stack with those produced by the mirror image spell, or similar effects.
 
 **Unwoven Effect:** You are surrounded by a haze of constantly shifting energy that conceals your location, causing attacks made against you to be treated as if you had partial concealment (20% miss chance). At caster level 4, and every 4 levels thereafter, this miss chance increases by 5%, to a maximum of 50%. You cannot use the concealment granted by this ability alone to hide.
 
-++ ##00c000|Elemental Threads##
++++ ##00c000|Elemental Threads##
 **Associated School/Sphere:** Evocation/Destruction
 
 **Woven Effect:** Choose one of the following energy types: Acid, Cold, Electricity, or Fire. You gain resistance to the chosen energy type equal to 5 + your caster level. You can change the chosen energy type as a swift action.
 
 **Unwoven Effect:** Choose one of the following energy types when Elemental Threads is unweaved: Acid, Cold, Electricity, or Fire. Whenever you deal damage of the chosen energy type using a sphere effect, spell, strike, or psionic power, you deal additional damage of the chosen type equal to your caster level. This additional damage is not multiplied on a critical hit. You can change the chosen energy type as a swift action. 
 
-++ ##00c000|Enhancing Sheer##
++++ ##00c000|Enhancing Sheer##
 **Associated School/Sphere:** Transmutation/Enhancement
 
 **Woven Effect:** You radiate an aura in a 15-foot radius that empowers your allies, granting your allies within this aura (but not yourself) a +1 insight bonus to attack rolls and a +1 insight bonus to weapon damage rolls. This bonus to weapon damage rolls increases by +1 at caster level 3, and every 3 caster levels thereafter.
 
 **Unwoven Effect:** You radiate an aura in a 15-foot radius that weakens your enemies, causing your enemies within this aura to suffer a -1 penalty on attack rolls, and reducing the damage of their weapon attacks by -1 (to a minimum of 1 damage). This penalty to weapon damage rolls worsens by -1 at caster level 3, and every 3 caster levels thereafter, and does not stack with similar effects. Enemies who enter this aura immediately realize that you are its source.
 
-++ ##00c000|Gleaming Goldwork##
++++ ##00c000|Gleaming Goldwork##
 **Associated School/Sphere:** Evocation/Light
 
 **Woven Effect:** You gleam with light, emitting bright light in a 30 foot radius and then increasing the light level in an additional 30 feet by one step. At caster level 2, and every 2 levels thereafter, the radius of light produced by this aura increases by 5 feet (both the bright light and light level increase). The bright light produced by this effect is not the equivalent of daylight for the purposes of creatures that are damaged or destroyed by daylight, but it may affect creatures with light blindness or other conditions.
@@ -213,14 +231,14 @@ Whenever the light produced by one of these orbs or by a creature you have cause
 
 When this ravel returns to its woven state, any orbs of light you have created wink out of existence, and any creature caused to glow by your orbs stops glowing.
 
-++ ##00c000|Lucky Buttons##
++++ ##00c000|Lucky Buttons##
 **Associated School/Sphere:** Divination/Fate
 
 **Woven Effect:** Whenever you or an ally within Close range of you rolls a d20, as an immediate action you can grant a +1 luck bonus to that roll. You can grant this bonus after the roll is made, potentially changing the results of the roll. At caster level 8, and every 8 caster levels thereafter, this bonus increases by +1.
 
 **Unwoven Effect:** Whenever an enemy within Close range of you rolls a d20, as an immediate action you can impose a -1 penalty to that roll. You can grant this bonus after the roll is made, potentially changing the results of the roll. At caster level 8, and every 8 caster levels thereafter, this penalty worsens by -1.
 
-++ ##00c000|Martialist’s Weave##
++++ ##00c000|Martialist’s Weave##
 **Associated School/Sphere:** Transmutation/War
 
 **Woven Effect:** You gain a +1 insight bonus to attack rolls and weapon damage rolls. This increases by an additional +1 at caster level 5, and every 4 levels thereafter.
@@ -229,7 +247,7 @@ When this ravel returns to its woven state, any orbs of light you have created w
 
 This ability can be used once each time Martialist’s Weave is unweaved, plus one additional time each time it is unweaved at caster level 5, and every 4 levels thereafter. Any unused uses of this ability are lost when Martialist’s Weave stops being unwoven.
 
-++ ##00c000|Mending Hitch##
++++ ##00c000|Mending Hitch##
 **Associated School/Sphere:** Conjuration/Life
 
 **Woven Effect:** You can touch yourself or a willing creature as a standard action and infuse them with energy that mends their wounds, healing them for 1d8 points of damage per 2 caster levels (minimum 1d8) + your ravel modifier. You can only heal a particular creature with this ability a number of times per day equal to your ravel modifier + 1/2 your caster level (minimum 1).
@@ -242,7 +260,7 @@ If you choose fear, you treat the effects of fear conditions (panicked, frighten
 
 If you choose sickness, you treat the effects of sickness conditions (nauseated, sickened) as 1 category lower for each time you choose it (if this would reduce you below sickened, you do not suffer the effects of the sickened condition). 
 
-++ ##00c000|Mentalist’s Banding##
++++ ##00c000|Mentalist’s Banding##
 **Associated School/Sphere:** Enchantment/Mind
 
 **Woven Effect:** You can speak telepathically with creatures you share a language with that are within Close range of you. Creatures you speak to in this way can respond to you telepathically as well. Creatures under the effects of the Mind Shield charm, or similar effects, can choose to block your telepathic communication with them. At caster level 8, this telepathic communication increases to Medium range. At caster level 16, it increases to Long range. 
@@ -260,28 +278,28 @@ Additionally, you receive an insight bonus on Survival checks to track the bonde
 
 You can change the target of your mental bond to a different creature you can see as a move action.
 
-++ ##00c000|Naturalist’s Tooling##
++++ ##00c000|Naturalist’s Tooling##
 **Associated School/Sphere:** Transmutation/Nature
 
 **Woven Effects:** You do not leave footprints or a scent trail while traveling, and may move through any natural forms of difficult terrain (such as overgrowth, snow, uneven rocks, shallow water, mud, sand, and so on) without treating those spaces as difficult terrain. Additionally, you gain an insight bonus on Stealth and Survival checks equal to half your caster level (minimum +1) to hide within natural terrain and to survive and avoid getting lost within natural terrain.
 
 **Unwoven Effects:** You cause the natural world to surge outwards in a 10-foot radius burst within Medium range of you. Creatures other than you treat this area as if it were difficult terrain. The actual effects of this surge depend on the terrain within its area; plants grow wild to entangle those who step through it, air grows thick and turbulent with chaotic winds, water gains swirling disruptive currents, earth grows muddy and slick, and so on. This difficult terrain affects all forms of movement within the area. As a move action, you can move this surge to a different location within range, returning the original location to normal. At caster level 6, and every 6 caster levels thereafter, the radius of this burst increases by 5 feet.
 
-++ ##00c000|Shadowed Lace##
++++ ##00c000|Shadowed Lace##
 **Associated School/Sphere:** Evocation/Dark
 
 **Woven Effect:** Darkness radiates outwards from you in a radius of 10 feet, causing the light level in the area to drop by 1 step (to a minimum of darkness). Creatures within this area do not suffer penalties from bright light or from sunlight, and you can see through darkness within this area as if you had darkvision. At caster level 4, and every 4 caster levels thereafter, this radius increases by 5 feet. You can disable or enable the effects of this aura as a free action on your turn. This counts as a magical darkness effect. 
 
 **Unwoven Effect:** Motes of magical darkness cling to your body, allowing you to seamlessly meld into darkness. While in dim light or darkness, you gain concealment (in dim light) or total concealment (in darkness) against creatures that use darkvision to see, allowing you to hide from them using Stealth as if they had normal vision in addition to imposing a miss chance against their attacks against you. Additionally, while in dim light or darkness you gain an insight bonus to Stealth checks equal to half your caster level (minimum +1). The see in darkness ability, or other abilities that allow a creature to see through magical darkness or illusions, negates the concealment granted by this ability.
 
-++ ##00c000|Stepping Knots##
++++ ##00c000|Stepping Knots##
 **Associated School/Sphere:** Conjuration/Warp
 
 **Woven Effect:** As a swift action, you teleport to a space within 5 feet of you plus 5 feet per 2 caster levels (minimum 5 feet). This teleportation does not provoke attacks of opportunity, and requires you to possess line of sight and line of effect to your destination.
 
 **Unwoven Effect:** You treat creatures you can see as 5 feet closer to you, plus 5 feet per 2 caster levels (minimum 5 feet), for the purposes of the range of your supernatural abilities, spells you cast, and magical sphere effects you cast (including melee touch effects and spells). This does not apply to any auras you possess or to abilities that affect an area, and does not treat those creatures as closer to you for any other purpose (such as you taking an action that provokes attacks of opportunity).
 
-++ ##00c000|Summoner’s Seams##
++++ ##00c000|Summoner’s Seams##
 **Associated School/Sphere:** Conjuration/Conjuration
 
 **Woven Effect:** You gain a familiar, using your caster level as your arcane caster level when determining its effects. This familiar is formed entirely of magic and is considered to be a summoned creature and a supernatural effect. If it would be permanently dispelled, it reappears in a space within your reach after 10 minutes. If it is slain, it reappears in a space within your reach at 1 HP after 10 minutes. If Summoner’s Seams is unweaved, the familiar is dismissed until this ravel returns to its original state, after which the familiar reappears in a space within your reach with the same amount of HP it had when Summoner’s Seams was unweaved. By meditating for 10 minutes, you can teleport this familiar to a space within your reach.
@@ -294,7 +312,7 @@ Any choices made for this familiar (such as its archetype or the base type of cr
 
 This bonus to concentration checks increases by +1 at caster level 4 and every 4 caster levels thereafter, and this insight bonus to MSD increases by +1 at caster level 8 and every 8 caster levels thereafter.
 
-++ ##00c000|Telekinetic Cuffs##
++++ ##00c000|Telekinetic Cuffs##
 **Associated School/Sphere:** Transmutation/Telekinesis
 
 **Woven Effect:** This ravel grants you telekinetic powers, allowing you to interact with or hold objects within your reach plus 10 feet as if you had two additional invisible telekinetic hands. Your carrying capacity with these telekinetic hands is equal to 10 times your ravel modifier, and these hands cannot be used to wield weapons, make attacks, wield shields, or touch creatures. You can use these hands to lift or drag items as normal per carrying, but doing so encumbers you as normal. You can also combine your telekinesis with your normal hands to lift, hold or drag objects, combining their carrying capacity when doing so. These telekinetic hands function otherwise as if you had two additional hands, save that they do not ever grant you additional actions each turn.
@@ -303,7 +321,7 @@ If you are holding a touch spell, touching something with these hands does not t
 
 **Unwoven Effect:** A storm of telekinetic energy surrounds a creature you can see within Medium range of you. You can move this storm to a different creature within range as a move action. As a standard action, you can use this storm to perform a combat maneuver on that creature as long as they are in range. When doing so, this combat maneuver does not provoke attacks of opportunity, you use your ravel modifier in place of your Strength when making this combat maneuver, and you use your caster level in place of your base attack bonus. If that combat maneuver would normally allow you to move, you cannot choose to do so. At caster level 8, and every 8 thereafter, you treat yourself as 1 size category larger for the purposes of creatures you can effect with these telekinetic combat maneuvers.
 
-++ ##00c000|Tempestuous Embroidery##
++++ ##00c000|Tempestuous Embroidery##
 **Associated School/Sphere:** Abjuration/Weather
 
 **Woven Effect:** You and your equipment you wield, hold, or wear are affected by weather as if it were 1 step less severe, to a minimum of 1 severity. If this would reduce the severity to 1, you suffer no effects from the weather. This reduction in severity increases by 1 step at caster level 8, and every 8 caster levels thereafter.
@@ -312,7 +330,7 @@ If you are holding a touch spell, touching something with these hands does not t
 
 This increase in severity does not stack with other magical effects that change that specific category of weather’s severity, such as the control weather ability of the Weather sphere. It can, however, overlap with such effects if they change the effects of different categories of weather. If this area overlaps an area of magical weather of the same category, you may attempt to overwrite their weather effects as per the control weather ability of the Weather sphere by concentrating on this effect as a standard action on your turn.
 
-++ ##00c000|Transformative Ties##
++++ ##00c000|Transformative Ties##
 **Associated School/Sphere:** Transmutation/Alteration
 
 **Woven Effect:** As a standard action, you can change your cosmetic appearance as per the Alteration sphere’s blank transformation ability. You gain an additional insight bonus to Disguise checks while your appearance is changed equal to half your caster level (minimum +1). This is a polymorph effect, and persists until you use this ability again or you end the effect as a free action on your turn. If Transformative Ties is unweaved, you can choose to regain this appearance when it returns to its original state.
@@ -321,27 +339,21 @@ This increase in severity does not stack with other magical effects that change 
 
 This is a polymorph effect. If Transformative Ties was unweaved to activate a polymorph effect, you may combine this unwoven effect with the effects of that polymorph effect that only affect you.
 
-++ ##00c000|Walking Stitch##
++++ ##00c000|Walking Stitch##
 **Associated School/Sphere:** Abjuration/Time
 
 **Woven Effect:** You can take an additional 5-foot step each round. This follows the normal restrictions for taking 5-foot steps. Additionally, as long as you haven’t moved yet on your turn except for taking 5-foot steps, you gain a +2 bonus on concentration checks to cast defensively and a +2 dodge bonus to AC against attacks made against you that are provoked by your ranged attacks, spells, spell-like abilities, and supernatural abilities. These bonuses increase by an additional +1 at caster level 4, and every 4 levels thereafter.
 
 **Unwoven Effect:** Whenever a creature makes an attack against you, after that attack is resolved you may move up to 5 feet as an immediate action. At caster level 8, and every 8 levels thereafter, you may move up to an additional 5 feet with this movement. Moving using this ability does not provoke attacks of opportunity.
 
-++ ##00c000|Warding Bindings##
++++ ##00c000|Warding Bindings##
 **Associated School/Sphere:** Abjuration/Protection
 
 **Woven Effect:** You gain a +1 bonus to AC and Reflex saving throws, increasing by +1 at caster level 3 and every 3 levels thereafter. This bonus to AC applies to your flat footed AC and is considered a force effect, incorporeal creatures can’t bypass it the way they would armor.
 
 **Unwoven Effect:** You are surrounded by a field of repelling force out to a radius of 10 feet. Your enemies treat this area as difficult terrain that applies to all forms of movement through the area. Since this is a force effect, it also applies to the movement made by incorporeal creatures. Whenever you or one of your allies in this area make a successful Reflex saving throw against an attack that normally deals half damage on a successful save, they instead take no damage. At caster level 6, and every 6 levels thereafter, the radius of this field increases by 5 feet.
 
-
 ----
-
-
-
-
-
 
 + ##00c000|Archetypes##
 
