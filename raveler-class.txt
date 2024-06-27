@@ -41,7 +41,7 @@ These skilled casters and combatants weave lingering magic energy into supernatu
 
 **Starting Wealth:** 4d6 x 10 gp (average 140 gp). In addition, each character begins play with an outfit worth 10 gp or less.
 
-**Class Skills:** The raveler’s class skills are Appraise (Int), Acrobatics (Dex), Climb (Str), Cra􀀰 (Int), Diplomacy (Cha), Fly (Dex), Knowledge (all) (Int), Perception (Wis), Profession (Wis), Ride (Dex), Sense Motive (Wis), Spellcraft (Int), Swim (Str), and Use Magic Device (Cha).
+**Class Skills:** The raveler’s class skills are Appraise (Int), Acrobatics (Dex), Climb (Str), Craft (Int), Diplomacy (Cha), Fly (Dex), Knowledge (all) (Int), Perception (Wis), Profession (Wis), Ride (Dex), Sense Motive (Wis), Spellcraft (Int), Swim (Str), and Use Magic Device (Cha).
 
 **Skill Ranks Per Level:** 4 + Int modifier.
 
@@ -366,6 +366,12 @@ This is a polymorph effect. If Transformative Ties was unweaved to activate a po
 [[/div]]
 ----
 + ##00c000|Feats##
+
+++++ Centering Mightweaving (Combat, Ravel)
+**Prerequisites:** Mightweaving
+
+**Benefits:** Whenever you use mightweaving, you regain your martial focus.
+
 ++++ Dedicated Raveler (Ravel)
 You have continued your training with your ravels even when focusing your efforts on other goals.
 
@@ -390,6 +396,13 @@ You have learned to more flexibly utilize your ravels, allowing you to more easi
 **Prerequisites:** Ability to weave 2 or more ravels.
 
 **Benefits:** As a move action, you can return one of your ravels to its woven state and unweave a different ravel in its place. This newly unweaved ravel remains unwoven for the same duration as the previous ravel, and any effects that were tied to the previous ravel are now tied to this one. This newly unweaved ravel cannot be affected by this ability again until it returns to its woven state.
+
+++++ Raveled Eureka (Ravel)
+**Prerequisites:** Hypothesis Dice 2d6, ability to weave ravels
+
+**Benefits:** You may spend a spell point to reroll your hypothesis dice whenever you unweave a ravel and may spend spell points gained from magicweaving to reroll your hypothesis dice (in addition to using those spell points on the ability selected with magicweaving). 
+
+When you weave a ravel, you may select up to one d6 result for every temporary spell point the ravel would grant through magicweaving. You may select the same result multiple times. When you roll your hypothesis dice as a result of unweaving that ravel, you may use each chosen d6 result in place of a single roll with your hypothesis dice.
 
 ++++ Restorative Raveling (Ravel)
 You can infuse an unwoven ravel with your magical power, restoring it to its original state.
@@ -416,6 +429,13 @@ You have learned to form your ravels from shadowstuff.
 **Prerequisites:** Ability to weave ravels.
 
 **Benefits:** When you finish a night’s rest, you can choose any ravels you possess that are associated with the Conjuration or Evocation schools and cause them to be associated with the Illusion school and Illusion sphere instead of their normal school and sphere until you next finish a night’s rest. Any effects created by those ravels are illusions formed of shadowstuff instead of their normal effects. Creatures who can see through illusions can see through these effects as if they were translucent and these effects do not block their line of sight (such as magical darkness, concealment, or cover), but they otherwise treat them as real. Creatures who have saving throw bonuses against illusions gain those bonuses against these effects.
+
+++++ Stitched Channeling [Channeling, Ravel]
+**Prerequisites:** Ability to weave either the Deathless Reams or Mending Hitch ravel
+
+**Benefits:** When you use the touch attack of Deathless Reams or Mending Hitch, you may unweave the ravel to instead affect all living or undead creatures within 30 feet. Creatures in the area are allowed a Will saving throw against your ravel DC for half damage. This ability counts as channel positive energy (for Mending Hitch) or channel negative energy (for Deathless Reams) for the purpose of prerequisites and feats which modify channel energy, using the number of d8s healed with Mending Hitch or the number of d6s dealt with Deathless Reams as the number of d6s in channel energy.
+
+Whenever an ability would require you to spend a use of channel energy, you may choose to unweave a ravel in place of spending a use of channel energy.
 
 ++++ Synergistic Unweaving (Ravel)
 You have learned to further empower your spells by using a ravel of their associated magical school or sphere.
@@ -450,6 +470,14 @@ The rules for ravels can be found here.
 
 **Special:** This feat can be selected an additional time at 12th and 19th level. You do not gain additional ravels when selecting this feat additional times. When selected twice, if you unweave a ravel to cast a spell you may cast a spell of 2nd level or lower, or 3rd level or lower if this feat is selected three times. If you unweave a ravel to cast a sphere effect, you gain 2 temporary spells points if this feat is selected twice, or 3 temporary spell points if this feat is selected 3 times.
 
+++++ Woven Recharge [Drawback, Ravel]
+**Prerequisites:** Charged Spells (drawback), magicweaver or sphereweaving class feature
+**Benefits:** You may use temporary spell points gained from unweaving a ravel or shattering a veil to pay for a charged sphere effect instead of investing spell points in a charged sphere effect. You may create a charged sphere effect without investing the sufficient spell points needed to cast it, in which case the remaining spell points must come from a ravel or veil. 
+Whenever you reweave a veil or ravel that you have unwoven or shattered, you may recharge a single charged sphere effect, spending a number of spell points equal to the number of spell points spent on the charged sphere effect you recharge.
+
+Whenever you use an ability which recharges a charged sphere effect, if you unwove a ravel or shattered a veil to pay the spell point cost of the charged sphere effect, the spell point cost of recharging the the spell is reduced by the number of temporary spell points granted by the ravel or veil.
+
+**Special:** If you possess the Restorative Ravel feat, you may use the Restorative Ravel feat any number of times as a free action as part of using any feat other than Woven Recharge which allows you to recharge charged spells. The number of ravels rewoven cannot exceed the number of charges recharged.
 
 + ##00c000|Magic Items##
 ++++ Raveler’s Boon
@@ -487,6 +515,3 @@ Craft Wondrous Item or Craft Marvelous Item, creator must be able to weave ravel
 
 
 [[include cots]]
-
-[[include sop-template]]
-[[include som-template]]
