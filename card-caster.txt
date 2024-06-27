@@ -1,0 +1,77 @@
+title:Card Caster (Raveler Archetype)
+[[module CSS]]
+.noselect {
+  -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome and Opera */
+}
+[[/module]]
+
+[[div class="noselect" style="float:right; width: 20%; padding: 0 2%"]]
+[[=]]
+[[image http://spheresofpower.wikidot.com/local--files/raveler-class/unwoven link="https://www.drivethrurpg.com/en/product/443430/akashic-spheres-unwoven-magic?affiliate_id=549120"]]
+**Akashic Spheres: Unwoven Magic**
+$7.50
+----
+[[/=]]
+[[/div]] Utilizing the powers of ensorcelled cards, these ravelers utilize their ravels to modify their deck and to perform explosive plays that dramatically alter the battle.
+
+++ ##00c000|Card Caster##
+At 1st level, the card caster must select the Card Casting drawback as part of their casting tradition. If a character who already has a casting tradition takes levels in this class and doesn’t already have the Card Casting drawback, they gain that drawback (and any modifications to that drawback, if they wish) and gain an appropriate number of boons for doing so.
+
+This modifies the raveler’s casting class feature.
+
+++ ##00c000|Cardweaving (Su)##
+The card caster has developed a unique method of casting their spells, known as cardweaving, that involves unweaving a ravel to fuel the effects of their cards.
+
+Once per turn as a free action (even outside of their turn) the card caster may unweave one of their ravels to gain 1 temporary spell point until the beginning of their next turn. At 7th level, and again at 13th and 19th level, the card caster gains 1 additional temporary spell point when unweaving a ravel in this way.
+
+Whenever the card caster unweaves a ravel as part of cardweaving, they may choose to gain the benefits of an effect from **Table: Cardweaving Effects** in place of the normal unwoven effects granted by the ravel. If an effect has a prerequisite, the card caster must meet the prerequisite to choose that effect. 
+
+If the card caster unweaves a ravel outside of combat as part of using cardweaving and chooses to gain a cardweaving effect, they instead store that cardweaving effect instead of immediately gaining the benefits of it. If the triggering ravel is still unwoven when they next enter combat, at the start of combat after drawing their opening hand the stored effect is triggered. Additionally, when using this ability outside of combat they can unweave a ravel to gain temporary spell points after spending 1 minute to draw the card from their deck to use those temporary spell points to cast that card.
+
+When the card caster uses the spell points granted by this ability on a sphere effect, that effect is tied to the ravel that granted those spell points. If such a sphere effect has a duration longer than 10 minutes (including sphere effects with a duration of permanent, but not sphere effects with an instantaneous effect), the card caster must choose whether to end the sphere effect after the ravel is no longer unwoven (normally after 10 minutes), or whether they leave it unwoven for the effect’s remaining duration. As a free action on their turn, the card caster can choose to end the duration of all effects tied to a ravel and return that ravel to its normal state (only after the initial 10 minutes has passed). If the ravel is restored to its normal state before this 10 minutes passes, any effects associated with it end at that time as well. 
+
+This modifies the raveler’s magicweaving class feature.
+
+**Table: Cardweaving Effects**
+
+||~ Name ||~ Prerequisites ||~ Effect ||
+|| Abundant Draw || — || The card caster draws one card, +1 card per 6 class levels. ||
+|| Peering Insight || — || The card caster looks at a number of cards from the top of their deck equal 1 + 1 per 3 class levels. They may put any of these cards on the bottom of their deck in any order, and the remainder on the top of their deck in any order. ||
+|| Twist of Luck || — || The card caster selects a number of cards in their hand up to 1 + 1 per 3 class levels. They place those cards on the bottom of their deck in any order, and then draw that many cards. ||
+|| Test Fate || — || The card caster shuffles their hand into their deck, and then draws 1 card + 1 per 3 class levels. ||
+|| Looter’s Pilfer || Cooldown || The card caster draws a number of cards up to 1 + 1 per 3 class levels, and then discards a number of cards of their choice equal to the number of cards drawn -1. ||
+|| Exhume the Disposed || Cooldown (cannot possess Deckout) || The card caster chooses a number of cards in their discard pile up to 1 + 1 per 3 class levels. They place one of those cards in their hand, and the rest are placed on the bottom of their deck in any order. ||
+|| Mana Burst || Mana Pool || The card caster is treated as having one additional Mana Point card in play for as long as the ravel that triggered this effect is unraveled. At 6th level, and again at 12th and 18th level, they are treated as having an additional Mana Point card in play. This effect can be chosen multiple times, its effects stack. If the card caster has the Colored Mana modification, they choose a single color of mana for each of these Mana Point cards as the effect is created. If they have the Mana Graveyard modification, these effective Mana Points are lost if they are discarded; they are not placed in the discard pile. ||
+|| Mana Rewind || Mana Graveyard || The card caster chooses a number of Mana Point cards in their discard pile up to 1 + 1 per 3 class levels and returns them to play. ||
+|| Hue Shift || Colored Mana || The card caster chooses a number of their Mana Point cards in play up to 1 + 1 per 3 class levels. For each chosen Mana Point, they may assign that Mana Point an additional color for as long as the triggering ravel is unwoven.  ||
+
+++ ##00c000|Deckmaster##
+At 5th level, the card caster gains a bonus Deck feat of their choice that they meet the prerequisites for. Whenever the card caster rests to regain their spell points for the day, they may exchange any Deck feats they possess for any other Deck feat they meet the prerequisites for. They may also change any deck manipulations they have in this way, even if they choose to keep their original Deck feats.
+
+Additionally, they add Deck feats to the list of feats they may select using their bonus feats.
+
+This replaces the raveler’s metaweaving class feature and their bonus feat gained at 5th level.
+
++ ##00c000|Casting Raveler Card Casters##
+This archetype can be combined with the casting raveler archetype, even though they replace or modify the same class features. When combining these archetypes, the casting raveler archetype is applied first, followed by the card casting raveler archetype with the following adjustments: 
+
+++ ##00c000|Focused Magicweaving (Su)##
+This feature instead increases the number of spell points granted by the card caster’s cardweaving feature.
+
+++ ##00c000|Bonus Feats##
+The casting raveler adds deck feats to the list of feats they may select using their bonus feats gained from this class feature.
+
+++ ##00c000|Deckmaster##
+This feature replaces the casting raveler’s bonus feat gained at 5th level.
+
+----
+
+[[include cots]]
+[[include sop-template]]
+[[include som-template]]
