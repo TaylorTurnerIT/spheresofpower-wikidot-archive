@@ -1,369 +1,498 @@
 title:Combat Feats
 parent:feats
 [[toc]]
-Combat feats are combat-related options, and most notably, they can be selected as bonus feats by a number of different classes.
-
+[[module CSS]]
+.noselect {
+  -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome and Opera */
+}
+[[/module]]
+[[tabview]]
+[[tab Ultimate]]
+[[div class="noselect" style="float:right; width: 20%; padding: 0 2%"]]
+[[=]]
+[[image http://spheresofpower.wikidot.com/local--files/test-page/UltimateSpheresofPower.jpg link="https://www.drivethrurpg.com/product/300249/Ultimate-Spheres-of-Power?affiliate_id=549120"]]
+**Ultimate Spheres of Power**
+$29.99
 ----
+[[/=]]
+[[/div]]Combat feats are combat-related options, and most notably, they can be selected as bonus feats by a number of different classes.
 
-++++ Aligned Attacks (Combat)
-
-**Prerequisites:** Non-neutral alignment, Alteration sphere, Fate sphere, 5th caster level or higher.
++++ Aligned Attacks (Combat)
+**Prerequisites:** Non-neutral alignment, caster level 5th.
 
 **Benefit:** Choose one alignment you possess. Your natural attacks count as that alignment for the purposes of overcoming damage reduction. If your alignment changes, you may select a new non-neutral alignment that you possess in place of the originally chosen alignment. If you cease to possess a non-neutral alignment, you lose the benefits of this feat until you gain a non-neutral alignment. This is an extraordinary (Ex) ability.
 
-++++ Arcane Grip (Combat)
++++ Arcane Grip (Combat, Counterspell)
+**Prerequisites:** Counterspell, Improved Grapple.
 
-**Prerequisites:** Improved Grapple, Counterspell.
+**Benefit:** When initiating a grapple, you may use the Counterspell feat as a free action. Resolve the counterspell attempt prior to applying the effects of freedom of movement, the Freedom word of the Fate sphere, and similar effects. Additionally, you are always entitled to attempt a Spellcraft check to identify such an effect on a creature within your reach as a free action.
 
-**Benefit:** When initiating a grapple, you may use the Counterspell feat as a free action. Resolve the counterspell attempt prior to applying the effects of freedom of movement, the freedom word of the Fate sphere, and similar effects. Additionally, you are always entitled to make a spellcraft check to identify such an effect on a creature within your reach as a free action.
++++ Arcing Strike (Combat)
+**Prerequisites:** Destruction sphere (Guided Strike (blast shape)), caster level 11th.
 
-++++ Augur of Combat (Combat)
+You may spend a spell point to make your destructive blast fly in an erratic path, unerringly striking your target no matter what lies between you. Your destructive blast ignores the AC bonus granted to targets by anything less than total cover, and the miss chance granted to targets by anything less than total concealment. Total cover and total concealment provide their normal benefits against your ranged attacks.
 
+**Special:** If you possess the Divination sphere Viewing talent, you can use Arcing Strike to strike any target that you can see that is within range of both your destructive blast and your divination, as long as it is not inside a completely enclosed space (GM’s discretion).
+
++++ Armored Casting (Combat)
+**Prerequisite:** Light Armor Proficiency.
+
+**Benefit:** You may add the armor bonus from any armor you are wearing (but not armor enhancement bonus or natural armor bonus) to concentration checks made to cast defensively or while grappled. You must be proficient with the armor in question.
+
++++ Augur Of Combat (Combat)
 **Prerequisite:** Int 13.
 
-**Benefit:** As long as you are last in the initiative count, use your intelligence modifier for attack rolls in place of the ability modifier that you would normally use.
+**Benefit:** As long as you are last in the initiative count, use your Intelligence modifier for attack rolls in place of the ability modifier that you would normally use.
 
-++++ Calculated Shot (Combat)
++++ Calculated Shot (Combat)
 Attack smarter, not harder.
 
-**Prerequisite:** Intelligence 13, Point-Blank Shot, Precise Shot, Focused Shot.
+**Prerequisites:** Int 13, Focused Shot, Point-Blank Shot, Precise Shot.
 
-**Benefit:** You may use Focused Shot with any ranged weapon, not just bows or crossbows. You gain a +2 bonus to attack and damage rolls when using Focused Shot.
+**Benefit:** You may use Focused Shot with any ranged weapon, not just bows or crossbows. You gain a +2 bonus to attack and damage rolls when using Focused Shot. If using Spheres of Might, this counts as a special attack action.
 
-++++ Champion’s Strike (Combat)
-**Prerequisite:** Arcane strike or imbued strike.
++++ Champion’s Strike (Combat)
+**Prerequisite:** Arcane Strike or Imbued Strike.
 
-**Benefit:** Your arcane or imbued strike is in effect at all times without you needing to take an action to activate it. In addition, when you use this ability with an attack action that only affects one target and has only one attack roll, the bonus on damage rolls for your strike is increased 100% for every +5 Base Attack Bonus you possess.
+**Benefit:** Your arcane strike or imbued strike is in effect at all times without you needing to take an action to activate it. In addition, when you use this ability with an attack action that only affects one target and has only one attack roll, the bonus on damage rolls for your strike is increased 100% for every +5 base attack bonus you possess.
 
-++++ Cherufe Sweep (Combat)
-With lightning reflexes, you sweep your tail against an opponent that has left them exposed, knocking them down.
-
-**Prerequisites:** Tail natural attack, base attack bonus +6.
-
-**Benefit:** When using your tail to make an attack of opportunity, you may make a free trip combat maneuver that does not provoke attacks of opportunity against a target if you successfully hit it.
-
-**Special:** If you possess the Improved Trip feat or are otherwise unable to provoke an attack of opportunity when making a trip attempt, you gain a +2 bonus to your CMB with this trip attempt.
-
-++++ Counterspelling Strike (Combat) [Abj. HB]
-**Prerequisites:** Counterspell.
++++ Counterspelling Strike (Combat, Counterspell)
+**Prerequisites:** Counterspell, casting class feature, magic skill bonus +5.
 
 **Benefit:** Whenever you strike a target with a weapon attack, you may spend a spell point as an immediate action to attempt to dispel an existing magical effect on the target using your Counterspell ability, or multiple effects with your Improved or Greater Counterspell ability.
 
-++++ Devourer (Combat)
++++ Deadly Targeting (Combat)
+**Prerequisite:** Destruction sphere.
 
-**Prerequisites:** Serpentine Transformation talent or swallow whole ability, 10th caster level or higher.
+**Benefit:** The base critical threat range of your destructive blast increases to 19-20.
 
-**Benefit:** When you are grappling a creature, you may attempt to use your swallow whole ability as a free action. You gain a +2 competence bonus to CMB and CMD to make and resist grapple checks relating to the swallow whole ability. This is an extraordinary (Ex) ability.
++++ Desensitized (Combat) [Cata. HB]
+Your experience with the horrific dulls the impact of atrocities.
 
-++++ Disarming Transformation (Combat)
+**Benefits:** Whenever you would take sanity damage, that sanity damage is reduced by 1 for every lesser madness you possess and by 3 for every greater madness you possess. This cannot reduce sanity damage taken below 1.
 
-**Prerequisites:** Transform Object advanced talent.
++++ Destructive Counter (Combat)
+**Prerequisites:** Creation sphere (any (material) talent).
 
-**Benefit:** When targeted by an attack with a manufactured weapon within the range, you may spend a spell point as an immediate action to briefly shapeshift the weapon into an animal, disarming your foe. You must be aware of the attack. The target is allowed a Will save to negate this effect. On a failed save, the weapon immediately transforms into a Small animal or a group of Tiny animals and moves a short distance away before returning to its original form in a square of your choosing within 30 ft. of the target. The weapon’s movement does not provoke attacks of opportunity. The transformed weapon will not pass through dangerous squares such as an energy wall, instead stopping in the previous square.
+**Benefit:** When targeted by a ranged attack or spell effect that originates from another square (such as a destructive blast but not a vortex from (water) geomancing), or being in a square that such an effect passes through (such as an Energy Sphere destructive blast), you may attempt to destroy the projectile or spell effect as an immediate action by spending 1 spell point (this spell point cost can not be reduced in any way). If the attack is a projectile, it functions as normal unless it loses half or more of its hit points and gains the broken condition, suffering the usual effects, or is destroyed at which point it deals no damage. If the target is a spell effect of a material you can affect with your alter ability (for example, a fire damage destructive blast with Plasma Production, or a dropped stone object with Expanded Materials) you may attempt to damage the spell effect.
 
-Alternately, you may spend a spell point as a standard action to shapeshift a manufactured weapon in the range into a hostile serpent that whips around to attack its wielder. The weapon’s wielder must make a Will save or the next time the weapon is used within 1 round per caster level for an attack, the damage of the attack is instead dealt to the wielder. The wielder cannot willingly reduce or deal nonlethal damage with this attack. Once the damage has been dealt, the effect is discharged. If you spend an additional spell point, the effect persists for 1 round per caster level, each attack after the first granting a Will save to end the effect.
+You must succeed at a magic skill check against the caster in question. If you succeed then the targeted effect is damaged. Reduce the damage the spell effect would deal by 1d6 per caster level (increasing to 1d8 per caster level plus your casting ability modifier if you possess Potent Alteration). If this would reduce the spell’s damage to 0, the effect ends when it reaches your square. If the targeted spell deals no damage, instead lower any save DC it might have by your casting ability modifier. If this would reduce the save DC to 9 or lower, the effect ends when it reaches your square. Any effect that would occur in or beyond your square is negated while any square the effect passed through prior to yours is affected normally.
 
-++++ Dodging Rally (Combat)
++++ Devourer (Combat)
+**Prerequisites:** Alteration sphere (Serpentine Transformation (transformation)) or swallow whole ability, character level 10th.
 
+**Benefit:** When you are grappling a creature, once per round you may attempt to use your swallow whole ability as a free action. You gain a +2 competence bonus to CMB and CMD to make and resist grapple checks relating to the swallow whole ability. This is an extraordinary ability.
+
++++ Disarming Transformation (Combat)
+**Prerequisites:** Alteration sphere (Transform Object).
+
+**Benefit:** When targeted by an attack with a manufactured weapon within your shapeshift range, you may spend a spell point as an immediate action to briefly shapeshift the weapon into an animal, disarming your foe. You must be aware of the attack.
+
+The target is allowed a Will save to negate this effect. On a failed save, the weapon immediately transforms into a Small animal or a group of Tiny animals and moves a short distance away before returning to its original form in a square of your choosing within 30 feet of the target. The weapon’s movement does not provoke attacks of opportunity. The transformed weapon will not pass through dangerous squares such as an energy wall, instead stopping in the previous square.
+
+Alternatively, you may spend a spell point as a standard action to shapeshift a manufactured weapon in the range into a hostile serpent that whips around to attack its wielder. The weapon’s wielder must succeed at a Will save or the next time the weapon is used within 1 round per caster level for an attack, the damage of the attack is instead dealt to the wielder.
+
+The wielder cannot willingly reduce or deal nonlethal damage with this attack. Once the damage has been dealt, the effect is discharged. If you spend an additional spell point, the effect persists for 1 round per caster level, each attack after the first granting a Will save to end the effect.
+
++++ Dodging Rally (Combat)
 **Benefit:** Whenever you are rallied, you receive a +4 dodge bonus to AC until the end of your next turn.
 
-++++ Flexible Tail (Combat)
++++ Elicit Strike (Combat)
+**Prerequisite:** Emotion class feature.
 
-**Prerequisites:** Tail natural attack, base attack bonus +6.
+**Benefit:** If you make a successful melee attack against an opponent, in addition to dealing your weapon damage, you can spend a swift action to deliver the effects of an emotion power delivered by touch.
 
-**Benefit:** You may use your tail as a normal natural attack, and are no longer limited to only using it to make attacks of opportunity.
++++ Energy Snake (Combat)
+**Prerequisites:** Destruction sphere (Energy Sphere (blast shape)).
 
-++++ Gritting Teeth (Combat) [Abj. HB]
-**Prerequisites:** Combat Stamina.
+**Benefit:** When using the Energy Sphere blast shape, you may spend 2 spell points instead of 1 to form the energy sphere into a serpent, which grows with every target it damages. Whenever the energy sphere successfully deals damage to a target, its size increases by 1 5-foot square. When moving the energy sphere each round, its squares must be arranged contiguously in an arrangement that follows the movement of the ‘head’ of the serpent.
+
++++ Extradimensional Gullet (Combat) [Alienist HB]
+**Prerequisites:** Swallow whole, Alteration sphere (Serpentine Transformation (transformation)), or Death sphere (Tomb Of Flesh); Warp sphere (Extradimensional Room (space)).
+
+**Benefit:** When you swallow a creature whole or entrap them using Tomb Of Flesh, you may shunt it into your extradimensional room or into a seemingly endless maze of entrails rather than your stomach. You may choose whether or not a creature in your extradimensional room takes damage as if swallowed whole, but either way a creature may attempt to cut their way out of your extradimensional room as if you had swallowed the creature whole. If a swallowed creature successfully cuts its way out of you, it must attempt an Intelligence check (DC 10 + 1/2 your Warp or Alteration sphere caster level) as it crawls out of the hole. If the victim is successful, it escapes you, but on a failure, the victim merely crawls from one extradimensional intestine to another and must endure another round of being swallowed whole. You still take damage from being cut regardless of the creature’s success. You may have four times the number of creatures swallowed with this ability that you normally could, although this does not allow you to swallow larger creatures.
+
+You can continue to use swallow whole even after a creature cuts its way out. When under the effects of an ability which would impede extradimensional travel, you lose this ability but your swallow whole or Tomb Of Flesh ability functions normally.
+
+If you die, the extradimensional space contracts, disgorging any swallowed creature into your corpse’s space.
+
++++ Fear And Flame (Combat)
+**Prerequisites:** Destruction sphere (Fire Blast (blast type, fire)).
+
+**Benefit:** When a creature is set on fire by your destructive blast, they must succeed at a Will save each round they remain on fire or become shaken. If shaken, they become frightened. If frightened, they become panicked. A successful save reduces the severity by one step and ending the on fire condition ends the effects of this feat, though not fear conditions from other sources.
+
++++ Frozen To The Bone (Combat)
+**Prerequisites:** Destruction sphere (at least one (blast type) talent that deals cold damage).
+
+**Benefit:** When using a destructive blast blast shape that allows a Reflex save with a blast type that deals cold damage, you may replace the Reflex save with a Fortitude save.
+
++++ Gritting Teeth (Combat)
+**Prerequisite:** Combat Stamina.
 
 **Benefit:** You can prepare yourself for harm if you have advance warning. As a swift action, you may spend 3 stamina points to give yourself resistance to one type of energy damage (acid, cold, electricity, fire, or sonic). This resistance is equal to your character level + your highest mental attribute modifier and lasts 1 minute. You may use this ability multiple times to give yourself resistance against different energy types.
 
-++++ Imbued Strike (Combat)
-**Prerequisite:** Spherecasting caster level 1.
++++ Hardened Psyche (Combat) [Cata. HB]
+Your experience with violence renders you resistant to mental stress.
 
-**Benefit:** As a swift action, you can imbue your weapons with a fraction of your power. For 1 round, your weapons deal +1 damage and are treated as magic for the purpose of overcoming damage reduction. For every +5 Magic Skill Bonus you possess, this bonus increases by +1, to a maximum of +5. This ability counts as arcane strike for the purposes of qualifying or using feats, items, and abilities, and the bonus from this ability does not stack with the bonus from arcane strike. In addition, you are considered an arcane caster for the purpose of qualifying for feats that require arcane strike as a prerequisite.
+**Benefit:** You may add your Constitution score to your sanity score and use your Constitution modifier to determine your sanity threshold. In addition, you may attempt a Fortitude save in place of Will save against a situation which would deal sanity damage.
 
-++++ Impressionistic Strike (Combat)
+**Making Sanity More Manageable:** The system of sanity and madness is somewhat notorious for its brutality, especially against martial characters. If a GM feels that the sanity mechanics are problematically punishing as they are written, they may grant characters the Hardened Psyche feat for free either to all characters or to non-spellcaster characters (the reasoning being that exposure to the unnatural makes your mind more vulnerable). Alternatively or perhaps in addition, all characters may be granted the Desensitized feat as a bonus feat, reflecting how trauma makes them less vulnerable to horrific events.
 
-**Prerequisites:** Emotion class feature, Elicit Strike.
++++ Heavy Hand (Combat)
+**Prerequisites:** Destruction sphere (at least one (blast type) talent that deals nonlethal damage).
 
-**Benefit:** Whenever you successfully strike an opponent with a weapon you are proficient with, you may spend a swift action to affect the target with an emotion power that is delivered by touch.
+**Benefit:** When using a destructive blast blast type that deals nonlethal damage, you may instead deal lethal bludgeoning damage, but your die size is reduced one step. Additionally, you gain a +1 insight bonus to attack rolls and save DCs with destructive blasts that deal nonlethal damage.
 
-++++ Martial Presence (Combat)
++++ Imbued Strike (Combat)
+**Prerequisites:** Casting class feature, caster level 1st.
 
-**Prerequisites:** Base Attack Bonus +1, Combat Stamina.
+**Benefit:** As a swift action, you can imbue your weapons with a fraction of your power. For 1 round, your weapons deal +1 damage and are treated as magic for the purpose of overcoming damage reduction. For every +5 magic skill bonus you possess, this bonus increases by +1, to a maximum of +5. This ability counts as Arcane Strike for the purposes of qualifying or using feats, items, and abilities, and the bonus from this ability does not stack with the bonus from Arcane Strike. Any feat, item, or ability referencing the caster level of Arcane Strike instead uses the magic skill bonus. In addition, you are considered an arcane caster for the purpose of qualifying for feats that require Arcane Strike as a prerequisite.
 
-**Benefit:** Choose a basic totem from the War sphere (including Totem of War). You can spend 5 points from your stamina pool to create a 30 ft. aura that moves with you and that duplicates the effects of this totem. The action required to activate this ability depends on the totem. If the totem has no spell point cost, it is a swift action to create it, if the totem requires a spell point to be created, then activating it is a move action, and if it requires more than 1 spell point, it requires a standard action. For the purposes of the totem ability, use your base attack bonus in place of your caster level and use your highest mental ability modifier as your casting ability. The aura created is not a true totem, and does not qualify for feats that alter totems. Once activated, the aura remains active for 1 minute. Falling unconscious or dying causes the aura to end.
++++ Improved Assistance (Champion, Combat) [S&P]
+You add a bit of extra aid when coordinating a technique.
+
+**Prerequisite:** Knowledge of at least one technique.
+
+**Benefit:** When you initiate a multi-character technique where you do not perform the action, you may attempt the aid another action on the character performing the action as part of the action to initiate the technique. So long as you are in range to initiate the technique, you do not need to be in the normal range to aid another.
+
+If you possess the Circle Casting feat, you may maintain that feat’s effects on the target so long as you are within range of the technique (rather than 30 feet).
+
++++ Improved Chain Blast (Combat) [DbH]
+The energy at your fingertips hungers for mass ruin.
+
+**Prerequisites:** Destruction sphere (Chain Blast (blast shape)).
+
+**Benefit:** The number of targets you may select with Chain Blast improves to 1 + your caster level (minimum 3). You may spend an additional spell point when using Chain Blast to force targets to make a Reflex save for half damage rather than making an attack roll against them. The chain stops as normal if a target takes no damage.
+
++++ Improved Energy Leap (Combat)
+**Prerequisites:** Destruction sphere (Energy Leap (blast shape), Explosive Orb (blast shape)).
+
+**Benefit:** When you end your movement when using Energy Leap, you may choose to also deal your destructive blast damage in a burst centered on your square with a 5-foot radius, + 5 feet per 10 caster levels. Creatures that take damage from your energy leap do not suffer additional damage from the burst.
+
++++ Improved Energy Wall (Combat)
+**Prerequisites:** Destruction sphere (Energy Wall (blast shape)).
+
+**Benefit:** You may spend an additional spell point when using the Energy Wall blast shape. The wall now grants concealment from creatures on the other side and any non-magical ammunition passing through the wall are destroyed and other non-magical projectiles suffer a -2 penalty to their attack roll. At caster level 9th the wall can also affect ammunition with a +1 enhancement bonus, increasing by +1 for every 3 caster levels thereafter. Unusually massive ranged weapons (such as boulders or ballista bolts) and ranged attacks generated by natural attacks or spell effects are not affected by this ability.
+
+**Special:** If you possess the Demolition talent or apply a (blast type) talent that ignores hardness and deals full damage to objects, such as Shattering Blast or Disintegrate, treat the wall’s caster level as 3 higher for determining the effects of this feat.
+
++++ Improved Spell Combat (Combat)
+**Prerequisites:** Casting class feature; any talent with the strike descriptor.
+
+**Benefit:** When activating a magic sphere talent with the strike descriptor, you may spend a spell point to instead use the sphere effect in conjunction with making a full attack. The magic sphere effect is delivered through the first successful attack made as part of that full attack routine; if no attack is successful, no creature is targeted with the magic sphere effect and any spell points spent are wasted.
+
+**Author's Note:** "Instead" means if the spell effect is delivered with the first normal attack of your full attack action and not with the strike's "normal" attack; a spell delivered this way otherwise follows all the normal rules for a talent with the [strike] descriptor. This means that the Improved Spell Combat feat is not compatible with the Spell Attack champion feat.
+
++++ Leveraged Magic (Combat) [3PP]
+^^**Source:** Expanded Spheres: Baron's Lost Apocrypha^^
+
+**Prerequisites:** Base attack bonus +1
+
+**Benefit:** Whenever you would deliver a spell effect which would allow for a combat maneuver as part of a melee attack, you may use your base attack bonus in place of your caster level and your Strength modifier in place of your casting ability modifier for the purpose of calculating your CMB. If you possess the Agile Maneuvers feat, you may use your Dexterity modifier in place of your casting ability modifier for this maneuver. 
+
++++ Martial Aegis (Combat)
+**Prerequisites:** Protection sphere, base attack bonus +1.
+
+**Benefit:** When you create an aegis on yourself, you may use your base attack bonus as your caster level for the purpose of effect (but not duration). If you use a (succor) talent on this aegis, you may also use your base attack bonus as your caster level for the succor.
+
++++ Martial Presence (Combat)
+**Prerequisites:** Combat Stamina, base attack bonus +1.
+
+**Benefit:** Choose a basic totem from the War sphere (including totem of war). You can spend 5 points from your stamina pool to create a 30-foot aura that moves with you and that duplicates the effects of this totem. The action required to activate this ability depends on the totem. If the totem has no spell point cost, it is a swift action to create it, if the totem requires a spell point to be created, then activating it is a move action, and if it requires more than 1 spell point, it requires a standard action.
+
+For the purposes of the totem ability, use your base attack bonus in place of your caster level and use your highest mental ability modifier as your casting ability modifier, if you do not already possess a casting tradition. The aura created is not a true totem, and does not qualify for feats that alter totems. Once activated, the aura remains active for 1 minute. Falling unconscious or dying causes the aura to end.
 
 This is an extraordinary ability.
 
-++++ Martial Reflexes (Combat)
++++ Martial Reflexes (Combat)
+**Prerequisites:** Combat Stamina or a grit pool, ki pool, luck pool, or panache class feature; base attack bonus +1.
 
-**Prerequisites:** Base Attack Bonus +1, Combat Stamina.
+**Benefit:** Choose a basic (rally) talent. You may rally yourself with this talent at any time by spending either 5 stamina points or one grit, ki, luck, or panache point for every spell point you would normally need to spend. If you do so, the rally is considered an extraordinary ability, and may be used within areas where magic does not function. For the purposes of this rally, you use your base attack bonus as your caster level and your highest mental ability for your casting ability, if you do not already possess a casting tradition. This ability is not a true rally and does not interact with other abilities that affect rallies.
 
-**Benefit:** Choose a basic (rally) talent. You may rally yourself at any time without spending spell points by spending 5 stamina points for every spell point you would normally need to spend. If you do so, the rally is considered an extraordinary ability, and may be used within areas where magic does not function. For the purposes of this rally, you use your base attack bonus as your caster level and your highest mental ability for your casting ability. This ability is not a true rally and does not interact with other abilities that affect rallies.
++++ Martial Totem (Combat)
+**Prerequisites:** War sphere, base attack bonus +1.
 
-This is an extraordinary ability.
+**Benefit:** When you create a totem, you may use your base attack bonus as your War caster level for purposes of effect (but not size or duration).
 
-++++ Militant Animation (Combat)
++++ Melee Caster (Combat)
+**Prerequisite:** Combat Casting.
 
-**Prerequisites:** Animate Object, BAB +1.
+**Benefit:** When using a magic sphere effect as (or as part of) a melee attack or melee touch attack, the casting does not provoke an attack of opportunity.
 
-**Benefit:** Whenever you create an animated object, you may grant it a single Combat feat it qualifies for as a bonus feat. You may spend an additional spell point when using Animate Object to grant the object an additional bonus Combat feat it qualifies for.
++++ Militant Animation (Combat)
+**Prerequisites:** Enhancement sphere (Animate Object (enhance)), base attack bonus +1.
 
-**Normal:** Animated Objects are mindless, and do not possess any feats.
+**Benefit:** Whenever you create an animated object, you may grant it a single combat feat it qualifies for as a bonus feat. You may spend an additional spell point when using Animate Object to grant the animated object an additional bonus combat feat it qualifies for.
 
-++++ Mind Over Matter (Combat)
+**Normal:** Animated objects are mindless, and do not possess any feats.
 
-**Prerequisites:** Mind sphere, 5th caster level or higher, spell pool.
++++ Mind Over Matter (Combat)
+**Prerequisites:** Mind sphere, caster level 5th.
 
-**Benefit:** When you take hit point damage and are not flat-footed against the damage’s source, you may choose to spend spell points as a free action (even when it isn’t your turn) to delay some or all of the damage, effectively nullifying it for the moment when it occurs. For every spell point spent, you may delay an amount of damage equal to twice your caster level (meaning a level 7 thaumaturge could delay 28 points of damage by spending 2 spell points). The damage is delayed for a number of rounds equal to your casting ability modifier.
+**Benefit:** When you take hit point damage and are not flat-footed against the damage’s source, you may choose to spend spell points as a free action (even when it is not your turn) to delay some or all of the damage, effectively nullifying it for the moment when it occurs. For every spell point spent, you may delay an amount of damage equal to twice your Mind caster level (meaning a level 7 thaumaturge could delay 28 points of damage by spending 2 spell points). The damage is delayed for a number of rounds equal to your casting ability modifier.
 
-In addition, by spending a spell point as a standard action, you may will your metabolic functions to respond differently. You may delay the effect of poison on yourself by altering its frequency by one step (rounds to minutes, minutes to hours, or hours to days, only usable once per poison), you may use your casting ability score instead of Constitution for holding your breath, and you may add your CAM as a bonus to checks to disguise your health under close observation (such as when feigning death).
+In addition, by spending a spell point as a standard action, you may will your metabolic functions to respond differently. You may delay the effect of poison on yourself by altering its frequency by one step (rounds to minutes, minutes to hours, or hours to days, only usable once per poison), you may use your casting ability score instead of Constitution for holding your breath, and you may add your casting ability modifier as a bonus to checks to disguise your health under close observation (such as when feigning death).
 
 This is treated as a supernatural ability. Any delayed damage can be taken at a point prior to the expiration of the delay by dismissing the effect, as if dismissing a spell. Healing received while damage is delayed can preemptively negate the damage before the effect ends if you wish. If an attack’s damage is negated entirely, secondary effects of the damage are also negated if the secondary effect would be negated through damage reduction.
 
-++++ Pierce the Veil (Combat)
++++ Mystic Assault (Combat)
+**Prerequisites:** Casting class feature, base attack bonus +6.
 
+**Benefit:** When making a full attack, you may spend a spell point to replace the first attack with any sphere ability or supernatural ability that can be used as a standard action and requires an attack roll or touch attack roll. You must still pay any costs required by this sphere ability or supernatural ability (such as spell points), and if you are using two weapons, this replaces both the primary and secondary weapon attacks. Abilities that replace any of your attacks in a full-round attack are not compatible with mystic assault, nor are other abilities that allow you to use a supernatural or sphere ability as part of an attack.
+
+Using the sphere or supernatural ability provokes an attack of opportunity if it normally would, and if the ability is disrupted, the associated attack is lost but the remaining iterative attacks are not. You may decide after you have used your sphere or supernatural ability whether to spend the spell point and continue with your full-round attack or if you wish to take a move action instead.
+
++++ Mystic Assault, Improved (Combat)
+**Prerequisite:** Mystic Assault.
+
+**Benefit:** You do not need to spend a spell point to use mystic assault.
+
++++ Perpetual Sphere (Combat)
+**Prerequisites:** Destruction sphere (Energy Sphere (blast shape)).
+
+**Benefit:** Whenever you successfully deal damage to a target with your energy sphere, increase its duration by 1 round. You can only extend the sphere’s duration by up to a number of rounds equal to your Destruction caster level.
+
++++ Pierce The Veil (Combat)
 **Prerequisites:** Wis 13, base attack bonus +2.
 
 **Benefit:** When attacking a target with a miss chance granted from a spell, sphere effect, supernatural or spell-like ability, you may take a penalty to your attack roll to reduce the miss chance for that attack. Each -1 penalty to the attack roll you take reduces the miss chance by 10%. You cannot use this feat to take a penalty greater than half of your base attack bonus (rounded up).
 
-++++ Practiced Reflex (Combat)
++++ Precision Bombardment (Combat)
+**Prerequisites:** Creation sphere (Created Momentum).
 
-**Prerequisites:** Base attack bonus +5, grit, ki pool, luck pool, or panache class feature.
+**Benefit:** When using create to drop objects on a target or attack them with Created Momentum and are doing so in a way that targets normal AC, you may treat the attack as a weapon attack roll for all purposes; you may apply feats to your attack as you could with any ranged weapon, and may treat creating and dropping a single object on a target as a standard action as an attack action. Dropping the object has its range increment increased to 40 feet just as when using it as a weapon. Additional damage from feats or talents such as Deadly Aim or Vital Strike is not multiplied based on hardness or falling distance.
 
-**Benefit:** Choose a (rally) talent. You may rally yourself with this talent at any time by spending two points of grit, ki, luck or panache. When doing this, treat your Dexterity attribute as your casting ability and 1/2 your base attack bonus as your caster level. This is an extraordinary ability.
++++ Precogniscent Protection (Combat)
+**Prerequisites:** Divination sphere (one or more (sense) talents or abilities).
 
-++++ Precognicient Protection (Combat)
+**Benefit:** You gain an insight bonus to armor class equal to the number of senses from the Divination sphere you have active (maximum 1 + 1 per 5 Hit Dice). In addition, you may as an immediate action spend a spell point and dismiss a sense you have active to cause a critical hit against you to become a regular hit instead.
 
-**Prerequisite:** Divination sphere, one or more (sense) talents or abilities.
++++ Precogniscent Resistance (Combat)
+**Prerequisites:** Divination sphere (one or more (sense) talents or abilities).
 
-**Benefit:** You gain an insight bonus to armor class equal to the number of divination (sense) talents or abilities you have active (maximum 1 + 1 per 5 HD). In addition, you may as an immediate action spend a spell point and dismiss a (sense) ability you have active to cause a critical hit against you to become a regular hit instead.
+**Benefit:** You gain a resistance bonus to saves equal to the number of senses from the Divination sphere you have active (maximum 1 + 1 per 4 Hit Dice). In addition, you may as an immediate action spend a spell point and dismiss a sense you have active to reroll a saving throw you have failed.
 
-++++ Precognicient Resistance (Combat)
++++ Precogniscent Smite (Combat)
+**Prerequisites:** Divination sphere (one or more (sense) talents or abilities).
 
-**Prerequisite:** Divination sphere, one or more (sense) talents or abilities.
+**Benefit:** You gain an insight bonus to attack and damage equal to the number of senses from the Divination sphere you currently have active (maximum 1 + 1 per 5 Hit Dice). You may as an immediate action spend a spell point and dismiss a sense you have active to ignore a percentage of miss chance (maximum 5% + 5% per 5 Hit Dice) for 1 round.
 
-**Benefit:** You gain a resistance bonus to saves equal to the number of divination (sense) talents or abilities you have active (maximum 1 + 1 per 4 HD). In addition, you may as an immediate action spend a spell point and dismiss a divination (sense) ability you have active to reroll a saving throw you have failed.
++++ Portal Combat (Combat) [DbH]
+Magical gateways are tools you can weaponize.
 
-++++ Precognicient Smite (Combat)
+**Prerequisites:** Warp sphere (Mass Teleport [mass], Portal (advanced), Wormhole (space)), caster level 5th.
 
-**Prerequisite:** Divination sphere, one or more (sense) talents or abilities.
+**Benefit:** You can use portals you create in a variety of offensive and defensive ways depending on what other abilities you have.
+* **Adhesive Portal:** (requires Creation sphere) As part of creating a portal, you may cause it to stick to a flat surface that you can alter and that is large enough to keep the entire portal on a flat plane. The portal moves with whatever surface it is stuck to. Targets that collide with the surface pass through the portal unless they succeed at a Reflex save against your Warp sphere DC.
+* **Slicing Portal:** Whenever a creature is passing through a portal you have created, you may spend an immediate action to forcibly close the portal while they are in transit. The creature passing through takes 1d6 damage per two Warp sphere caster levels you possess, taking half damage and remaining on whatever side of the portal they choose if they succeed at a Reflex save against your Warp sphere DC. On a failed save, you choose what side of the portal the creature ends up on.
+* **Throw Portal:** (requires Ranged Warp and Unwilling Teleport) You may move a portal you have created up to 5 feet per 2 caster levels as a standard action (this action counts as concentrating on the portal). Any creature which would have the portal move into their space must make a Reflex save against your warp sphere DC to avoid passing through the portal. The portal must remain within the range of your Ranged Warp talent at all times.
 
-**Benefit:** You gain an insight bonus to attack and damage equal to the number of divination (sense) abilities you currently have active (maximum 1 + 1 per 5 HD). You may as an immediate action spend a spell point and dismiss a divination (sense) ability you have active to ignore a percentage of miss chance (maximum 5% + 5% per 5 HD) for 1 round.
+**Note: Moving Portals:** For any circumstance in which a portal would be moving (in a manner similar to that outline with Throw Portal), creatures in the way are allowed a Reflex save against your Warp sphere DC to avoid passing through the portal.
 
-++++ Pressure Point Proficiency (Combat)
-
-**Prerequisites:** Improved Unarmed Strike, Mind sphere.
++++ Pressure Point Proficiency (Combat)
+**Prerequisites:** Mind sphere, Improved Unarmed Strike.
 
 **Benefit:** By studying precisely where and how to strike your enemies, you can interrupt the biological processes that contribute to mental stability. If you make a successful unarmed strike against an opponent, it takes a -1 penalty to all Will saves until the end of your next turn. Multiple strikes you make against the same target do not stack, and the penalty to Will saves can apply to mind-affecting effects channeled through the strike.
 
-++++ Pressure Point Pugilist (Combat)
-
-**Prerequisites:** Pressure Point Proficiency, character level 5th.
++++ Pressure Point Pugilist (Combat)
+**Prerequisites:** Mind sphere, Improved Unarmed Strike, Pressure Point Proficiency, character level 5th.
 
 **Benefit:** The penalty from Pressure Point Proficiency increases to -2 if you successfully hit the target a second time in the same round.
 
-++++ Psychosomatic Suffering (Combat)
+++++ Puncturing Strike [Combat]
+**Prerequisites:** any [strike] talent, one of Piercing Spell or Spell Penetration
 
-**Prerequisites:** Illusion sphere, Illusionary Touch (twice), Phantasmaterial Pain.
+**Benefits:** When using a talent with the [strike] descriptor, any bonuses to bypass Spell Resistance from Spell Penetration, Greater Spell Penetration, or Piercing Spell are doubled.
 
-**Benefit:** Any damage you deal that is prevented by damage reduction, energy resistance or immunity is instead converted to nonlethal damage. You do not take a penalty on attack rolls when using a lethal weapon to deal nonlethal damage. Nonlethal weapon or converted damage caused by this feat is an Illusion sphere (figment) effect.
+^^**Source:** Expanded Spheres: Weaves of War^^
 
-++++ Rage of the Grave (Combat)
++++ Rage Of The Grave (Combat)
 Your revenant-like anger fuels you even in death, granting you one last chance to take down your killers.
 
-**Prerequisites:** Rage class feature, Death sphere; 6th caster level or higher or base attack bonus +6.
+**Prerequisites:** Death sphere, rage class feature; caster level 6th or base attack bonus +6.
 
-**Benefit:** Whenever you are dealt hit point damage that would kill you, you can spend all your remaining rounds of rage as an immediate action. If you do, you are immediately reanimated as a fast zombie as if you had reanimated yourself, except your duration is equal to the number of rounds of rage you spent to use this ability. You gain all passive benefits and detriments of your rage despite being undead, and may still use rage powers. Each round, you must attempt to kill the creatures that killed you to the best of your ability, (as determined by the GM), or the duration immediately expires.
+**Benefit:** Whenever you are dealt hit point damage that would kill you, you can spend all your remaining rounds of rage as an immediate action. If you do, you are immediately reanimated as a fast zombie as if you had reanimated yourself, except you possess Hit Dice equal to your racial Hit Dice plus your class level, and your duration is equal to the number of rounds of rage you spent to use this ability. You gain all passive benefits and detriments of your rage despite being undead, and may still use rage powers. Each round, you must attempt to kill the creatures that killed you to the best of your ability, (as determined by the GM), or the duration immediately expires.
 
 When the duration expires (assuming you were not destroyed while a fast zombie), you are returned to life with -1 hit points (stable), gaining 2 temporary negative levels that last 24 hours.
 
-You must have at least one round or rage remaining to use this ability, and you can only use this ability once per day.
+You must have at least one round of rage remaining to use this ability, and you can only use this ability once per day.
 
-++++ Shadowstuff Armament (Combat) (Surreal)
++++ Reach Blade (Combat)
+**Prerequisites:** Destruction sphere, destructive blade class feature.
 
-**Benefit:** You may, as a free action, spend a shadow point to create and instantaneously equip any weapon, piece of ammunition, light armor, or light shield you are proficient with out of stable shadowstuff. This object dissipates one round after you are no longer in contact with it or if you use this feat a second time. You may spend a move action in place of a shadow point to activate this feat. Creating ammunition using this feat may be done as part of the same action required to load a weapon instead of a move action without having to spend a shadow point.
+**Benefit:** Your destructive blade may be shaped with the reach property. This property can be added or removed each time you shape the blade.
 
-**Special:** You may create an additional simultaneous object with a single use of this feat per 5 character levels.
++++ Ready Initiation (Champion, Combat, Teamwork) [S&P]
+When one of your allies primes a technique, you respond immediately.
 
-(See Also: [[[Surreal Feats]]])
+**Prerequisite:** Knowledge of at least one technique.
 
-++++ Siege Engineer (Combat)
-Your skill with large weapons is great.
+**Benefit:** When multiple characters with this feat work together to initiate a multi-character technique, the technique is performed on the highest of the participants’ initiative counts rather than the lowest. All participants have their actions for the turn moved up to the initiative count where the technique is performed.
 
-**Prerequisites:** Proficiency with at least 1 siege engine.
++++ Rebuff, Improved (Combat)
+**Prerequisites:** Destruction sphere (Rebuff (blast shape)).
 
-**Benefit:** You are considered proficient with all siege engines, and no longer suffer a chance of misfire when rolling a 1 with a siege engine.
+**Benefit:** Whenever a creature within range is the target of a ranged attack, you may spend a spell point as an immediate action to target the projectile with a destructive blast. Make an opposed attack roll using your caster level in place of your base attack bonus to destroy the projectile and negate the attack. Unusually massive projectiles (such as boulders or ballista bolts) and ranged attacks generated by natural attacks or spell effects are not affected by this ability.
 
-++++ Skeletal Contortionist (Combat)
++++ Rebuff, Superior (Combat)
+**Prerequisites:** Destruction sphere (Rebuff (blast shape)), Improved Rebuff, improved evasion class feature.
+
+**Benefit:** When using the Rebuff talent to provide cover to allies, you also grant them the benefits of improved evasion.
+
++++ Resolute Expertise (Combat) [Alienist HB]
+**Prerequisite:** Combat Expertise.
+
+**Benefit:** Whenever you are benefiting from a dodge bonus to AC from Combat Expertise, you also gain a +1 competence bonus to saving throws. When your base attack bonus reaches +8, and every +8 thereafter, this bonus increases by +1.
+
++++ Shape Expert (Combat)
+**Prerequisites:** Destruction sphere (Energy Wall (blast shape) or Explosive Orb (blast shape)).
+
+**Benefit:** When using the Energy Wall (blast shape) talent without a spell point, increase the wall’s size to a 10-foot-by-10-foot wall, plus an additional 10 feet per 10 caster levels. When using the Explosive Orb (blast shape) talent without a spell point, the radius becomes 5 feet + 5 feet per 10 caster levels.
+
++++ Skeletal Contortionist (Combat)
 You have extreme control over your bones and joints, allowing you to respond to a variety of physical threats.
 
-**Prerequisites:** Charmed life class feature, Death sphere.
+**Prerequisites:** Death sphere, charmed life class feature.
 
-**Benefit:** You can expend a daily use of charmed life as an immediate action to gain one of the following benefits: Reduce all damage taken from bludgeoning, piercing, and slashing damage until the start of your next turn by amount equal to your Charisma modifier + 1/2 your character level.
+**Benefit:** You can expend a daily use of charmed life as an immediate action to gain one of the following benefits:
+* Reduce all damage taken from bludgeoning, piercing, and slashing damage until the start of your next turn by an amount equal to your casting ability modifier + 1/2 your character level.
+* Add your casting ability modifier as an insight bonus to your CMB and CMD until the start of your next turn.
+* Ignore all penalties to attack rolls, AC, and movement for being prone until the start of your next turn.
 
-Add your Charisma modifier as an insight bonus to your CMB and CMD until the start of your next turn. Ignore all penalties to attack rolls, AC, and movement for being prone until the start of your next turn.
++++ Shifting Style (Combat) [Alienist HB]
+**Prerequisites:** Transformation, customized weapons class feature.
 
-++++ Staff Technique (Combat)
+**Benefit:** You may assign each form you can take (including your base form) to a specific customized weapon you possess. You may reassign these forms whenever you gain an additional customized weapon, a new instance of the Transformation feat, or a feat with Transformation as a prerequisite. When you swap to that specific customized weapon, you may swap to the corresponding form as part of the same action. This does not require the form you are currently in to be able to draw or use the customized weapon you are swapping to.
 
-**Prerequisites:** Base attack bonus +1.
++++ Spell Absorption (Combat, Counterspell) [DbH]
+You may bind yourself to an oncoming spell at great risk.
 
-**Benefit:** When you use a staff as a weapon, the base damage die increases to that of a weapon two sizes larger.
+**Prerequisites:** Guardian sphere (Cold Iron Call, Defend Other), Counterspell, Counterspell Mastery, magic skill bonus +7.
 
-++++ Sunlight Strike (Combat)
-**Prerequisites:** Arcane or Imbued Strike, Light sphere.
+**Benefit:** When counterspelling an effect that would affect you and only you, you may roll twice and take the higher result on the magic skill check to counterspell. If you fail, you take a -2 penalty on your AC, spell resistance, and saving throws against the effect. When using Defend Other to redirect a spell from an ally to yourself, you may spend 2 spell points to attempt to Counterspell the effect as part of the action to use Defend Other.
 
-**Benefit:** Whenever you successfully hit an enemy that is vulnerable to light (such as by the light blindness, light sensitivity, or sunlight powerlessness universal monster rules) with a melee weapon you’ve imbued with your Arcane or Imbued Strike feat, you deal an additional 1d6 points of damage to the target of your attack. The struck creature must also succeed at a Fortitude saving throw (DC 10 + 1/2 your character level + your Strength modifier) or become staggered for 1 round.
++++ Sunlight Strike (Combat)
+**Prerequisites:** Light sphere; Arcane Strike or Imbued Strike.
 
-++++ Swarm Coordination (Combat)
+**Benefit:** Whenever you successfully hit an enemy that is vulnerable to light (such as by the light blindness, light sensitivity, or sunlight powerlessness universal monster rules) with a melee weapon you have imbued with your Arcane Strike or Imbued Strike feat, you deal an additional 1d6 points of damage to the target of your attack. The struck creature must also succeed at a Fortitude saving throw (DC 10 + 1/2 your character level + your Strength modifier) or become staggered for 1 round. This bypasses the immunity to Fortitude saves usually granted by some creature types.
 
-**Prerequisites:** Alteration sphere, Swarm Transformation talent.
++++ Swarm Coordination (Combat)
+**Prerequisites:** Alteration sphere (Swarm Shape).
 
-**Benefit:** When under the effects of the Swarm Transformation talent, you may perform combat maneuvers in place of dealing swarm damage. You may choose individually to deal damage or perform a maneuver against each creature that would receive swarm damage and may perform different maneuvers against each creature. These maneuvers provoke attacks of opportunity as normal. You may also hold and carry objects while in swarm form, though may not wield weapons or activate magic items. You count as a Small creature for determining your size bonus on these maneuvers and for carrying capacity, increasing by one size per 5 caster levels. Additionally, you threaten the squares you occupy while in swarm form, but still may not deal swarm damage as an attack of opportunity.
+**Benefit:** When under the effects of the Swarm Shape talent, you may perform combat maneuvers in place of dealing swarm damage. You may choose individually to deal damage or perform a maneuver against each creature that would receive swarm damage and may perform different maneuvers against each creature. These maneuvers provoke attacks of opportunity as normal. You may also hold and carry objects while in swarm form, though may not wield weapons or activate magic items. You count as a Small creature for determining your size bonus on these maneuvers and for carrying capacity, increasing by one size per 5 caster levels. Additionally, you threaten the squares you occupy while in swarm form, but still may not deal swarm damage as an attack of opportunity.
 
-++++ Swarming Strike (Combat)
-
-**Prerequisite:** Psionics class feature, coordination class feature.
++++ Swarming Strike (Combat)
+**Prerequisites:** Coordination class feature, psionics class feature.
 
 **Benefit:** When using the coordination class feature, you may receive the bonus to damage from a number of allies equal to your casting ability modifier. This expends 3 rounds of your daily uses of psionic effects for the day.
 
-++++ Swift Warrior (combat)
-**Prerequisites:** Time sphere.
++++ Swift Warrior (Combat)
+**Prerequisite:** Time sphere.
 
 **Benefit:** When targeting yourself and only yourself with an alter time effect, you gain a +1 bonus to your caster level, increasing by +1 at 5 Hit Dice and every 4 Hit Dice thereafter (9, 13, 17). This bonus cannot cause your caster level to exceed your Hit Dice.
 
-++++ Tentacle Adept (Combat)
-Hard training and dedication have taught you how to make the best use out of your tentacles, twisting, turning, pirouetting, and bending to strike opponents from farther away than they suspect.
++++ Tactical Aid (Combat) [S&P]
+Your aid fortifies your ally’s martial capabilities.
 
-**Prerequisites:** Base attack bonus +5 or monk 3, Tentacle Novice, Improved Unarmed Strike.
+**Benefit:** Whenever you use the aid another action, you may choose to increase the target’s base attack bonus by 2 for the duration of the aid another action rather than providing the normal benefit. This ability cannot be affected by effects which would increase the benefit granted from aid another.
 
-**Benefit:** Increase the reach of any attacks you make with your tentacles by +5 feet.
++++ Technique Crafting (Combat) [S&P]
+You have learned how to create elaborate and unique actions.
 
-++++ Tentacle Grappler (Combat)
-Enemies quickly learn to fear your tentacles — even being grazed by your many appendages can lead to a quick death.
+**Benefit:** You gain the ability to create techniques, as per the technique rules.
 
-**Prerequisites:** Tentacle Master, Tentacle Adept, Tentacle Novice, Improved Unarmed Strike.
++++ Tether Adept (Combat)
+**Prerequisites:** Destruction sphere (Energy Tether (blast shape)).
 
-**Benefit:** Once per round when you successfully attack a target with your tentacles, you may make a grapple combat maneuver against that target as a free action. This does not provoke an attack of opportunity.
+**Benefit:** When using the Energy Tether blast shape, instead of targeting a creature, you can anchor it to a solid surface within its range such as a wall or ceiling (but not floor) as a standard action. This can only work to a maximum range of close, whatever your destructive blast’s maximum range. Once the tether is anchored, you may, as a move action, attempt to move to any other legal square within the tether’s reach (as determined from the anchor point) without provoking an attack of opportunity, regardless of your normal move speed, by attempting an Acrobatics check and comparing the result to the CMD of each creature adjacent to the start and destination points; success on this check allows you to complete the movement, and failure causes you to fall prone in a square adjacent to the creature whose CMD you failed to beat. This movement can include squares on elevated or recessed surfaces, or even walls. If you have a climb speed, you may even end this movement on a wall or ceiling. You must have a clear path towards the destination (this ability does not allow you to pass through solid obstacles or opponents, though it may allow you to circumvent an enemy if you have a clear path around them within the tether’s reach).
 
-**Normal:** Making a grapple combat maneuver check is a standard action.
+You must have a free hand to use this ability. Blast types that carry a spell point cost do not incur that cost when using this feat. The anchoring object receives no damage nor other effects of your destructive blast.
 
-**Special:** Though this has a style feat as a requirement, Tentacle Grappler is not a style feat.
++++ Totem Tactics (Combat)
+**Prerequisite:** War sphere.
 
-++++ Tentacle Master (Combat)
-You are truly a paragon of cecaelia combat prowess, able to strike opponents as soundly with a tentacle as any weapon.
+**Benefit:** Allies inside any of your totems or sharing a mandate with you are treated as if they possessed the same teamwork feats as you for the purpose of determining whether you receive a bonus from those feats. Your allies do not receive any bonuses from these feats unless they actually possess the feats themselves. The allies’ positioning and actions must still meet the prerequisites listed in the teamwork feat for you to receive the listed bonus.
 
-**Prerequisites:** Tentacle Adept, Tentacle Novice, Improved Unarmed Strike.
-
-**Benefit:** You gain a +1 racial bonus to attack rolls and damage rolls made with your tentacles.
-
-++++ Tentacle Novice (Combat, Style)
-You’ve developed greater control over your tentacles, allowing you to move your center of gravity around to overturn opponents.
-
-**Prerequisites:** Two or more tentacles, base attack bonus +2 or monk 1, Improved Unarmed Strike.
-
-**Benefit:** You gain a +2 racial bonus to CMD to resist grapple checks and gain a +1 racial bonus to CMB when making a grapple or trip check. You may use your tentacles to make unarmed strikes.
-
-++++ Totem Tactics (Combat)
-
-**Prerequisites:** War sphere.
-
-**Benefit:** Allies inside any of your totems or sharing a mandate with you are treated as if they possessed the same teamwork feats as you for the purpose of determining whether you receives a bonus from those feats. Your allies do not receive any bonuses from these feats unless they actually possess the feats themselves. The allies’ positioning and actions must still meet the prerequisites listed in the teamwork feat for you to receive the listed bonus.
-
-++++ Totemic Stamina (Combat)
-
++++ Totemic Stamina (Combat)
 **Prerequisites:** War sphere, Combat Stamina.
 
 **Benefit:** When you create a totem or mandate, you may spend a stamina point each round to maintain it as a free action. You are still considered concentrating and can have your concentration disrupted as usual. You may maintain multiple effects this way. You can not recover the stamina points spent while the totem or mandate maintained this way remains in effect.
 
-++++ Two-Headed Adept (Combat)
++++ Two-Headed Adept (Combat)
+**Prerequisites:** Alteration sphere (Additional Limbs) or multiple heads.
 
-**Prerequisites:** Extra Limbs talent or multiple heads.
+**Benefit:** When you have more than one head you do not take two-weapon fighting penalties.
 
-**Benefit:** When you have more than one head you do not take two-weapon fighting penalties to off-hand attacks or for wielding non-light weapons in your off hand.
-
-++++ Two-Headed Sight (Combat)
-
-**Prerequisites:** Extra Limbs talent or multiple heads.
++++ Two-Headed Sight (Combat)
+**Prerequisites:** Alteration sphere (Additional Limbs) or multiple heads.
 
 **Benefit:** When you have more than one head you are immune to flanking.
 
-++++ Unreasonable Coordination (Combat)
-Those extra arms are not just for display. A little practice and dedication and you can get them all moving independently.
++++ Venom Spitter (Combat)
+**Prerequisites:** Alteration sphere (Serpentine Transformation (transformation) or Vermin Transformation (transformation)), poison bestial trait, or racial poison ability.
 
-**Prerequisite:** Three or more arms, base attack bonus +6, Dexterity 13, Two-Weapon Fighting.
+**Benefit:** You may spit your poison as a ranged touch attack with a range of 20 feet. Treat the poison as a contact poison for this feat. This is an extraordinary (Ex) ability.
 
-**Benefit:** When two-weapon fighting, you may treat an additional hand as an off-hand, allowing you to make an additional off-hand attack with that hand whenever you make a usual off-hand attack.
++++ Venomous Ichor (Combat)
+**Prerequisites:** Alteration sphere (Serpentine Transformation (transformation) or Vermin Transformation (transformation)), poison bestial trait, or racial poison ability.
 
-**Special:** You may take this feat a number of times equal to the number of arms you possess beyond two. A tatulani must possess the Strengthened Arms feat to gain this feat.
+**Benefit:** Any creature that confirms a critical hit against you with a piercing or slashing melee weapon is sprayed with your poison (treat the poison as a contact poison for this application). Melee weapons with reach do not endanger their users in this way. You cannot use this ability if you do not have poison.
 
-++++ Venom Spitter (Combat)
+Additionally, you can apply your poison to a weapon or natural attack by dipping it in your own blood as a swift action. This requires dealing 1d4 damage to yourself as part of the swift action unless you suffer from an ongoing bleed effect or are below half your maximum hit points. This is an extraordinary (Ex) ability.
 
-**Prerequisites:** Poison bestial trait or Alteration sphere and Serpentine Transformation or Vermin Transformation talents, or racial poison ability.
-
-**Benefit:** You may spit your poison as a ranged touch attack with a range of 20 ft. Treat the poison as a contact poison for this feat. This is an extraordinary (Ex) ability.
-
-++++ Venomous Ichor (Combat)
-
-**Prerequisites:** Poison bestial trait or Alteration sphere and Serpentine Transformation or Vermin Transformation talents, or racial poison ability.
-
-**Benefit:** Any creature that confirms a critical hit against you with a piercing or slashing melee weapon is sprayed with your poison (treat the poison as a contact poison for this application). Melee weapons with reach don’t endanger their users in this way. You cannot use this ability if you do not have poison.
-
-Additionally, you can apply your poison to a weapon or natural attack by dipping it in your own blood as a Swift action. This requires dealing 1d4 damage to yourself as part of the swift action unless you suffer from an ongoing bleed effect or are below half your maximum hit points. This is an extraordinary (Ex) ability.
-
-++++ Venomous Soul (Combat)
-
-**Prerequisites:** Poison bestial trait or Alteration sphere and Serpentine Transformation or Vermin Transformation talents, or racial poison ability.
++++ Venomous Soul (Combat)
+**Prerequisites:** Alteration sphere (Serpentine Transformation (transformation) or Vermin Transformation (transformation)), poison bestial trait, or racial poison ability.
 
 **Benefit:** You gain a +2 bonus to the DC of the poison granted by your bestial trait, shapeshift, or race and the cure now requires an additional save. This is an extraordinary (Ex) ability.
 
-++++ Venomous Spit (Combat, Companion)
-**Prerequisites:** Conjuration sphere, Monstrous Attacks with poison option.
++++ Warded Step (Combat)
+**Prerequisite:** Casting class feature.
 
-**Benefit:** Your companion may spit its poison as a ranged touch attack with a range of 20 feet. Treat the poison as a contact poison for this feat.
+**Benefit:** Your sphere effects that cover an area (including darknesses, totems, and wards) are especially easy for you to move through. The area inside one of your sphere effects is never difficult terrain for you, and you receive a +4 circumstance bonus to AC vs. attacks of opportunity caused by moving through any square of a sphere effect you created.
 
-++++ Warded Step (Combat) [Abj. HB]
-**Prerequisites:** Sphere casting class feature.
++++ Warrior-Disciple (Combat) [S&P]
+In spite of your diverse magical training, your armed discipline still remains.
 
-**Benefit:** Your sphere effects that cover an area (including darknesses, totems, and wards) are especially easy for you to move through. The area inside one of your sphere effects is never difficult terrain for you, and you receive a +4 circumstance bonus to AC versus attacks of opportunity caused by moving through any square of a sphere effect you created.
+**Prerequisites:** Base attack bonus +3; ability to cast 2nd-level spells, manifest 2nd-level powers, or spherecaster level 3rd.
 
-++++ Web Mastery (Combat)
-**Prerequisites:** Web bestial trait or Alteration sphere and Vermin Transformation talent.
+**Benefits:** At every level that a prestige class advances spellcasting, manifesting, or spherecasting from one of your classes, you may choose to have it also advance as if the prestige class had the same Hit Dice, base attack bonus, and caster level progression of the class whose spellcasting it advances.
 
-**Benefit:** If you possess the Web bestial trait, increase the number of times per day you may use the Web bestial trait by twice your Constitution modifier. When you possess the Web alteration trait, it may be used a number of times per minute equal to your Constitution modifier.
+For example, a mageknight 10/forest lord 3 could take this feat choosing mageknight as its advanced casting class at its forest lord levels, causing the forest lord Hit Dice to become d10s, for the forest lord to grant full base attack bonus progression rather than normal 1/2 base attack bonus progression, and for the forest lord’s caster level progression to advance at 1/2 class level as per a mageknight.
 
-Additionally, as a full round action, you may render a creature that is entangled by your web and within your reach helpless. Such a creature counts as being tied up, increasing the DC to escape to 20 + 1/2 of your Hit Dice + Constitution modifier. The helpless creature may still attempt Strength and Escape Artist checks to free themselves as normal.
++++ Web Mastery (Combat)
+**Prerequisites:** Alteration sphere (Vermin Transformation (transformation)) or web bestial trait.
 
-++++ Web Mastery (Combat, Companion)
-**Prerequisites:** Conjuration sphere, Web Spinner.
+**Benefit:** If you possess the web bestial trait, increase the number of times per day you may use the web bestial trait by twice your Constitution modifier. When you possess the Web Alteration trait, it may be used a number of times per minute equal to your Constitution modifier.
 
-**Benefit:** Your companion may use its web ability a number of times per minute equal to its Constitution modifier. 
+Additionally, as a full-round action, you may render a creature that is entangled by your web and within your reach helpless. Such a creature counts as being tied up, increasing the DC to escape to 20 + 1/2 of your Hit Dice + Constitution modifier. The helpless creature may still attempt Strength and Escape Artist checks to free themselves as normal.
 
-Additionally, as a full-round action, your companion may render a creature that is entangled by its web and within its reach helpless. Such a creature counts as being tied up, increasing the DC to escape to 20 + 1/2 of the companion’s Hit Dice + Constitution modifier. The helpless creature may still attempt Strength and Escape Artist checks to free themselves as normal.
++++ Weird Assault (Combat)
+**Prerequisites:** Illusion sphere (Decoy (glamer), Mage Feint), base attack bonus +3.
 
-^^Wiki Note: Yes, they have the same name in the books. We encourage errata'ing that sometime.^^
+**Benefit:** You may suppress two decoys surrounding you until the start of your next turn to use the Mage Feint talent as a swift action.
 
-++++ Weird Assault (Combat)
+**Special:** If you possess the Weird Defense feat, you may end its effect instead of suppressing two decoys to use the Mage Feint talent as a swift action
 
-**Prerequisites:** Illusion sphere, Decoy, Mage Feint, base attack bonus +3.
-
-**Benefit:** As part of any action requiring an attack roll, you may suppress up to two of the illusionary copies surrounding you until the start of your next turn. For each copy suppressed, you gain a temporary spell point that may only be used on the Mage Feint talent.
-
-**Special:** If you possess the Weirding Defense feat, you may end its effect in place of suppressing one of your illusionary copies to use this feat.
-
-++++ Weird Defense (Combat)
-
-**Prerequisites:** Illusion sphere, Blur, Decoy.
++++ Weird Defense (Combat)
+**Prerequisites:** Illusion sphere (Blur (glamer), Decoy (glamer)).
 
 **Benefit:** As a swift action, you may grant yourself a miss chance equal to 10% + 5% per 2 caster levels (maximum 95%) until the start of your next turn or until an attack misses due to this feat. Effects that ignore concealment only reduce this miss chance by half (rounded down). This is a spell-like ability. For abilities that allow for re-rolls for attacks that miss due to concealment such as the Blind-Fight feat, instead calculate the miss chance as 10% + 5% per 3 caster levels and reroll on a miss as per normal for the ability.
 
-++++ Weird Motion (Combat)
-
-**Prerequisites:** Illusion sphere, Mage Feint, base attack bonus +3.
++++ Weird Motion (Combat)
+**Prerequisites:** Illusion sphere (Mage Feint), base attack bonus +3.
 
 **Benefit:** Add your casting ability modifier as a circumstance bonus to AC against attacks of opportunity incurred when charging or making ranged attacks. In addition, as a full-round action you may make a single ranged or charge attack and use your Mage Feint talent as part of the same action against that target.
+[[/tab]]
+[[tab Original]]
+[[include old-combat-feats]]
+[[/tab]]
+[[/tabview]]
 
 ----
 
