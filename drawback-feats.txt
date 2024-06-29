@@ -1,69 +1,585 @@
-title:Drawback Feats
+title:Drawback/Defiler Feats
 parent:feats
 [[toc]]
 
-Drawback feats present a way of taking advantage of a specific drawback in a manner more specific than just gaining extra spell points. At your GM’s option, you may take a drawback feat in place of a boon. An [[[Incanter]]] may select drawback feats as bonus feats.
-
+[[module CSS]]
+.noselect {
+  -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome and Opera */
+}
+[[/module]]
+[[tabview]]
+[[tab Ultimate]]
+[[div class="noselect" style="float:right; width: 20%; padding: 0 2%"]]
+[[=]]
+[[image http://spheresofpower.wikidot.com/local--files/test-page/UltimateSpheresofPower.jpg link="https://www.drivethrurpg.com/product/300249/Ultimate-Spheres-of-Power?affiliate_id=549120"]]
+**Ultimate Spheres of Power**
+$29.99
 ----
-++++ Addictive Power (Drawback)
+[[/=]]
+[[/div]]
++ Drawback Feats
+Drawback feats present a way of taking advantage of a specific drawback in a manner more specific than just gaining extra spell points. At your GM’s option, you may take a drawback feat in place of a boon. An incanter may select drawback feats as bonus feats. Characters can also take [[[Theurge Feats]]] instead of drawback feats.
 
-**Prerequisites:** Addictive Casting, access to the Enhancement sphere.
++++ Addictive Power (Drawback)
+**Prerequisites:** Enhancement sphere, Addictive Casting drawback.
 
 **Benefit:** Your enhancements satisfy your addiction, to a degree; whenever you spend a spell point to relinquish concentration on an enhancement targeting yourself, the time until you begin suffering penalties extends to the end of the enhancement’s duration. In addition, you gain a +1 bonus to all saving throws while you are suffering the penalties from your addiction.
 
-++++ Battlecry (Drawback)
++++ Backdoor Arcana (Drawback) [Cata. HB]
+Your strange magic grants a degree of consistency in tumultuous situations.
 
-**Prerequisites:** Verbal Casting drawback.
+**Prerequisite:** Incompatible Energies drawback.
 
-**Benefit:** Whenever you use a sphere ability, you can unleash a powerful battlecry as part of your verbal casting. Until the end of your next turn, you receive a bonus to your intimidate checks equal to half your caster level.
+**Benefit:** By spending an additional spell point, you may ignore any dead magic (but not antimagic) or wild magic zones you are in for the purpose of the talents’ effect.
 
-++++ Careful Magic (Drawback)
++++ Battlecry (Drawback)
+**Prerequisite:** Verbal Casting drawback.
 
-**Prerequisites:** Extended Casting, access to the Enhancement sphere.
+**Benefit:** Whenever you use a sphere ability, you can unleash a powerful battlecry as part of your verbal casting. Until the end of your next turn, you receive a circumstance bonus to your Intimidate checks equal to half your caster level.
 
-**Benefit:** Your slow casting style results in more firmly constructed sphere effects. You add your casting ability score modifier as a bonus to your MSD (minimum +1) for the purposes of countering or dispelling your sphere effects. You may spend an additional spell point when enhancing a creature or object to force any creature attempting to dispel or counter that effect to roll twice and take the worse result.
++++ Bloody Savage (Drawback) [Origin]
+**Prerequisites:** Vampiric Casting drawback
 
-++++ Hidden Heretic (Drawback)
+**Benefit:** When you drain the blood of a creature to gain the benefits of Vampiric Casting, you are considered to have eaten a pound of food and a gallon of water for the purpose of staving off starvation. In addition, choose a single natural attack you possess or may gain through magic sphere abilities. Once per round, when you hit a creature with that natural attack or succeed on a grapple check against a creature, you may drain their blood as if they were a helpless or willing creature as a free action (this does not allow you to drain blood from a creature more often than you normally would).
 
-**Prerequisites:** Witchmarked.
++++ Bottled Salvage (Drawback) [CrimDan]
+**Prerequisite:** Vampiric Casting drawback.
 
-**Benefit:** As a full-round action, you may conceal your witchmark for 24 hours while simultaneously hampering your magic. Using magic while your witchmark is concealed requires you to make a concentration check (DC 20 + 1/2 the caster level) to produce the desired effect. Failure means either your witchmark manifests and the effect happens as normal or you may instead choose to have any time (and any spell points) are spent, but no effect happens and your witchmark remains concealed. You may choose to re-manifest your witchmark as a full-round action.
+**Benefit:** When draining a creature, you may instead spend 1 minute harvesting the blood of that creature, creating a single bottle of their blood. You can only harvest the blood from a number of creatures equal to your casting ability modifier each week, and bottled blood expires after a week of being bottled. You may drink bottled blood at any time as if it were a potion to grant yourself +1 morale bonus on the next saving throw you attempt for one minute, and be treated as if you drained the creature of which you created the bottle of blood from.
 
-++++ Magical Focus (Drawback)
+**Special:** You can mix a bottle of blood with any other potion, formulae, or similar item to gain the effects of drinking bottled blood whenever you drink that potion or use the formulae on yourself. If you have taken the Vampiric Casting drawback twice, the morale bonus applies to all saving throws made for one minute after consumption, rather than only one, and stacks with itself up to +2.
 
-**Prerequisites:** Focus Casting, access to the Enhancement sphere.
++++ Bottled Spells (Drawback) [Apoc]
+^^**Source:** [https://www.drivethrurpg.com/product/286411/Spheres-Apocrypha-Casting-Traditions?affiliate_id=549120 Spheres Apocrypha: Casting Traditions]^^
 
-**Benefits:** Whenever you enhance your focus, you may choose to have the effect continue without concentration without spending a spell point. This feat only applies to the spell point spent to relinquish concentration. If another feat, talent, or class feature grants you the ability to spend more spell points when relinquishing concentration to improve the effects, you still need to spend the additional spell points to gain those benefits.
+**Prerequisites:** Charged Spells.
 
-++++ Mystic Choreography (Drawback, Proxy)
-See the [[[proxy-feats | Proxy]]] section.
+**Benefit:** You can imbue a consumable item (such as a fluid or an easy to break trinket) with a charged sphere ability. When you create a charge, you also create a small item such as a pill, pebble, or a pinch of dust in which to store that charge.
 
-++++ Suffer by Proxy (Drawback)
-See the [[[proxy-feats | Proxy]]] section.
+These items are considered to have negligible cost, and an individual item can only store a single charge. The consumable remains potent until you rest and regain spell points, and possesses an aura as if it were the original target of the effect. Such an item can be dispelled as normal for the effect even in its inactive state. Effects with a duration of ‘concentration’ cannot be imbued into items.
 
-++++ Terrain Defiler (Drawback) [Apoc]
+Any creature, not just yourself, can use the charge by using the item (eating the pill, spreading the dust, throwing the pebble, etc.) This requires the same action as the sphere effect would normally require.
 
-**Prerequisites:** Non-good alignment, Terrain Casting.
+The user is considered the creator of the spell, and can do whatever the creator can with the spell, including dismissing it, moving it (if it can be moved), or any other effect that can take place after the ability has been created. However, the charge still uses your caster level, spell DC, casting ability modifier, concentration and magical skill bonus (determined at the time of the charge’s creation).
 
-**Benefit:** Whenever you blight, corrupt, or drain an area of its nutrients with the terrain casting drawback, you may choose to increase the radius of the corrupted area by 10 ft +5 ft per 5 caster levels of the sphere talent or ability used. Doing so decreases the spell point cost of any metamagic feat by 1 (minimum: 0), but also increases the time required for the area to naturally recover to 10 years per caster level of the sphere talent or ability used.
++++ Burn My Body (Drawback) [CrimDan]
+You fuel your magic with your body with purpose, refining it more than ever before.
+
+**Prerequisites:** Addictive Casting drawback or Decrepit Casting drawback, magic skill bonus 5 .
+
+**Benefit:** When you create a sphere effect, you can choose to fail your saving throw from the drawback used to qualify for this feat in order to fuel the power behind the sphere effect.
+
+The sphere effect manifests with a +1 competence bonus to its caster level, and costs 1 less spell point (minimum 0). Sphere effects reduced to 0 spell points still count as if they cost at least 1 spell point when determining the effects of your drawbacks.
+
+You can utilize this feat three times per day, plus an additional use at 8th level and every 3 levels thereafter.
+
++++ Burst of Concentration (Drawback) [Apoc]
+^^**Source:** [https://www.drivethrurpg.com/product/286903/Spheres-Apocrypha-Casting-Traditions-2?affiliate_id=549120 Spheres Apocrypha: Casting Traditions 2]^^
+
+**Prerequisites:** Mental Focus.
+
+**Benefits:** You can expend your mental focus on any single concentration check you make to treat your concentration check as if you rolled a 15. This functions as taking 10, except that the number you add to your concentration modifier is 15.
+
++++ Careful Magic (Drawback)
+**Prerequisites:** Enhancement sphere, Extended Casting drawback.
+
+**Benefit:** Your slow casting style results in more firmly constructed sphere effects. You add your casting ability modifier as a bonus to your MSD (minimum +1) for the purposes of countering or dispelling your sphere effects. You may spend an additional spell point when enhancing a creature or object to force any creature attempting to dispel or counter that effect to roll twice and take the worse result.
+
++++ Combat Recharge (Drawback) [DbH]
+Your expensive and painstaking miracles can be salvaged should the situation require.
+
+**Prerequisites:** Charged Spells (drawback).
+
+**Benefit:** Whenever you expend a charge as part of using a sphere effect, you may spend a number of spell points equal to 1 + the spell point cost of the charge. If you do, you regain the used charge at the start of your turn after 1d4 rounds.
+
++++ Combat Recharge, Improved (Drawback) [3PP]
+**Prerequisites:** Charged Spells, Combat Recharge
+
+**Benefits:** The spell point cost of Combat Recharge is reduced to the number of spell points equal to the number of spell points spent on the charged sphere effect you recharge. In addition, whenever you use Combat Recharge to regain the use of a charged sphere effect, you are considered to have rolled a 15 on the d20 roll of any concentration checks needed to cast the effect.
+
+^^**Source:** Expanded Spheres: Weaves of War^^
+
++++ Combatant Caster (Drawback) [Apoc]
+^^**Source:** [https://www.drivethrurpg.com/product/286903/Spheres-Apocrypha-Casting-Traditions-2?affiliate_id=549120 Spheres Apocrypha: Casting Traditions 2]^^
+
+**Prerequisites:** Galvanized.
+
+**Benefit:** You have an increased selection of weapons. As long as you wield any kind of weapon that you are proficient in and can attack with, it counts towards meeting the requirements of Galvanized.
+
+For the purposes of unarmed strikes or natural attacks you are considered wielding your weapons when you are not impeded in using them. Having your arms bound, or wearing heavy chains on your legs are an example of how an average human would be considered unarmed with unarmed strikes.
+
+While wielding a weapon appropriate for your drawback, you gain a +4 bonus on concentration checks while casting defensively, being grappled, or casting a spell while in the area of an environment that calls for concentration checks to successfully cast a spell such as weather or a battlefield.
+
+**Special:** This feat counts as Combat Casting for the purposes of meeting other prerequisites that depend on it. This feat's benefits to concentration checks do not stack with Combat Casting.
+
++++ Corrupted Form (Drawback) [Cata. HB]
+Your magic overtakes your body, blessing you with an advanced physiology as you sink deeper into depravity.
+
+**Prerequisites:** Addictive Casting drawback or Unsettling Casting drawback, Witchwarped, magic skill bonus 5.
+
+**Benefits:** Select one additional trait that you could select with the Witchwarped feat. While you possess a lesser madness or a moderate addiction as a result of a casting drawback, you gain the benefits of this trait in addition to the trait granted from Witchwarped.
+
+When your magic skill bonus reaches 10, you may select a third trait which you gain while you possess a greater madness or severe addiction
+
+Traits gained from this feat count towards the number of traits you may possess when under the effects of Blank Transformation, but are not considered a polymorph effect.
+
++++ Curse Mastery (Drawback) [Apoc]
+^^**Source:** [https://www.drivethrurpg.com/product/286903/Spheres-Apocrypha-Casting-Traditions-2?affiliate_id=549120 Spheres Apocrypha: Casting Traditions 2]^^
+
+**Prerequisites:** Innate Curse.
+
+**Benefit:** You gain all the benefits of your oracle curse; both the base benefit as well as the benefits that come with increasing in level (treat your magic skill bonus as your oracle level).
+
+**Special:** If your curse provides you with spells known, instead of normally granting bonus spells (for example, Haunted), you do not gain spells or talents. Instead, you gain a bonus spell point at the levels you would normally gain the spells.
+
++++ Eldritch Supplies (Champion, Drawback) [LotS]
+
+**Prerequisites:** Faction sphere, casting class feature.
+
+**Benefit:** You may use Faction sphere resources to pay for spell components, ritual component costs, and components for crafting magic items. Most spell and ritual components are temporary resources, but components for magic items, permanent effects, or instantaneous effects with lasting consequences should be considered permanent resources.
+
+**Special:** If you possess the Expensive Locus or Material Casting drawback, you may select this feat as a drawback feat.
+
++++ Environment Charge (Drawback) [Cata. HB]
+You maintain the power of a location even as you depart it.
+
+**Prerequisite:** Charged Spells drawback.
+
+**Benefit:** For the purpose of drawbacks or boons which alter your casting based on the location in which they are cast (such as the Area Bound or Terrain Casting drawbacks or the Atmoturgy or Draw Magic boons), you may determine all variables of any effect you create as if you were in the location in which you charged the effect rather than in the location in which you are casting the spell. This feat allows characters with the Terrain Casting drawback to cast spells in a blighted space so long as they prepared the spell charge in a non-blighted space.
+
++++ Fast Focus (Drawback) [Apoc]
+^^**Source:** [https://www.drivethrurpg.com/product/286903/Spheres-Apocrypha-Casting-Traditions-2?affiliate_id=549120 Spheres Apocrypha: Casting Traditions 2]^^
+
+**Prerequisites:** Mental Focus.
+
+**Benefits:** You can take a move action to regain mental focus.
+
+**Normal:** A character without this feat must take a full-round action to regain mental focus.
+
++++ Habit Forming (Drawback, Metamagic) [Apoc]
+^^**Source:** [https://www.drivethrurpg.com/product/286903/Spheres-Apocrypha-Casting-Traditions-2?affiliate_id=549120 Spheres Apocrypha: Casting Traditions 2]^^
+
+**Benefit:** Creatures affected by your sphere effects can develop an addiction to receiving your magic. Whenever a creature fails a saving throw (or accepts an effect willingly) against a sphere effect that is also affected by this feat, it must make a Fortitude saving throw (DC is identical to the saving throw for the sphere effect itself), or develop dependance to your magic, as if they possessed the Addictive Casting drawback, except instead of having to make Fortitude saves against addiction whenever they spend a spell point (or do not spend a spell point), they instead must make Fortitude saves whenever they are affected by one of your sphere effects that spends one or more spell points. This dependance may be cured as dependance is cured, the addiction DC resets itself to 10 once more if they are subjected to this feat again.
+
+**Cost:** +1 spell point. If you possess this feat as a drawback feat, the cost is reduced to 0 as long as it is used with a sphere ability that requires spending 1 or more spell points.
+
+**Special:** You may only take this feat as a drawback feat if you possess the Addictive Casting drawback.
+
++++ Hidden Heretic (Drawback)
+**Prerequisite:** Witchmarked drawback.
+
+**Benefit:** As a full-round action, you may conceal your witchmark for 24 hours without the need for a Disguise check. You may even attempt to use magic without giving away your witchmark, but in order to do so you must attempt a concentration check (DC 20 + 1/2 the caster level). On a failure you may choose to either manifest your witchmark or keep your witchmark hidden but have no magical effect manifest, wasting any time and spell points spent. You may choose to re-manifest your witchmark as a free action.
+
++++ Insidious Magic (Drawback) [S&P]
+Your magic is subtle and difficult to detect.
+
+**Prerequisite:** Incompatible Energies drawback.
+
+**Benefits:** The divine ability of the Divination sphere has a 50% chance of not detecting any magic effects you create unless the Divination effect uses the same Alien Source that you do. Even if the effects are detected, their aura is one step weaker than it would normally be (meaning faint effects would have no aura).
+
++++ Insinuating Incantation (Champion, Drawback) [LotS]
+
+**Prerequisites:** Bluster sphere, caster level 1st.
+
+**Benefit:** Whenever you create a magic sphere effect as a standard action, you may spend 3 additional spell points as a swift action to target a single creature affected by the effect with a quip. If you possess the Prolific Bluster talent, you may target as many affected creatures as you could normally target with the quip, although you must be able to outwit every target to apply a quip which requires outwitting a target.
+
+**Special:** If you possess the Verbal Casting drawback, you may select this feat as a drawback feat.
+
++++ Instinctual Skittishness (Drawback) [Apoc]
+^^**Source:** [https://www.drivethrurpg.com/product/286903/Spheres-Apocrypha-Casting-Traditions-2?affiliate_id=549120 Spheres Apocrypha: Casting Traditions 2]^^
+
+**Prerequisites:** Coy Caster.
+
+**Benefit:** You still do not like having others look at you while your casting, but you have enough self control to prevent them from looking. Whenever you use magic that would enable you to hide from creatures currently observing you either by enabling you to make a Stealth check to hide or making you better at hiding if the opportunity to hide already exists, you do not have to make a concentration check to produce the desired effect. This only prevents you from having to make concentration checks caused by your drawback, not concentration checks required from other reasons (like casting defensively).
+
+In addition you receive a +2 circumstance bonus to Stealth checks.
+
++++ Ley Line Affinity (Drawback) [RW HB]
+Your magic naturally bonds to the overflowing power of ley lines, granting you strength even in regions your magic would not flourish.
+
+**Prerequisite:** Area Bound drawback.
+
+**Benefit:** You may bond to a ley line with your Area Bound casting tradition drawback even if the ley line’s location is not the same type of location you would normally bond to (bonding to a ley line does not automatically attune you to the ley line).
+
+In addition, you gain a bonus on Spellcraft checks made to attune to a ley line equal to 1/2 your magic skill bonus (minimum 1). You may treat any ley line you have successfully attuned to as a bonded area for the Area Bound general casting drawback, allowing your magic to work normally within a number of miles of the ley line even if you are bound to another location. Normal: The Area Bound general casting drawback restricts the caster to a specific type of location when forming a bond with a new area.
+
+**Note:** This drawback is not useful or appropriate in games without ley lines. A character interested in this drawback feat should speak with their GM before selecting this feat.
+
++++ Life Conversion (Drawback) [3PP]
+**Prerequisites:** Draining Casting
+
+**Benefit:** When you spend 1 or more spell points, you may increase the damage from Draining Casting to be equal to your MSB in order to reduce the spell point cost by 1 (to a minimum of 0).
+
+**Special:** If you possess the Card Casting drawback, this feat is also considered a Deck feat. In addition to the feats normal effects, whenever you would discard a card you may take nonlethal damage equal to half your MSB to instead put that card in your hand. This damage is difficult to heal in the same manner as damage from Draining Casting.
+
+^^**Source:** Card Casting 2: Counters and Control^^
+
++++ Magic Runes (Drawback) [Apoc]
+^^**Source:** [https://www.drivethrurpg.com/product/286411/Spheres-Apocrypha-Casting-Traditions?affiliate_id=549120 Spheres Apocrypha: Casting Traditions]^^
+
+**Prerequisites:** Diagram Magic.
+
+**Benefit:** You may imbue your diagrams with magic that triggers on a later time.
+
+You can imbue a diagram with a magic sphere effect by spending a spell point (in addition to any spell point costs of the sphere effect itself).
+
+The imbuement effect lasts for 1 hour per magic skill bonus or until activated by a trigger specified by the caster at the time it is created (a diagram can only have one trigger). A diagram is considered as intelligent as its caster in relation to detecting and following its triggers, and can see and hear as well as a humanoid could with regular senses and a bonus to Perception equal to your magic skill bonus. The trigger can be one of many things, but the diagram runs the risk of being deceived if the trigger is too complicated. A diagram knows when it has been read, and this information may be used as part of a trigger.
+
+If the spell effect has a target, the diagram must be large enough to encompass all of the targets’ area before triggering. When activated, the diagram becomes the center point for the effect, and it performs its function, and then the ability ends. A diagram can only hold one magic sphere effect and a creature can only be affected by 1 imbued effect in a round, regardless of the number of diagrams triggered. You can create a hidden imbued diagram by spending an additional full-round action to hide it for every 5 feet it occupies.
+
+A hidden diagram can be seen by effects that detect or sense magic, and is detectable as a magical trap. In order for someone to spot one of your hidden diagrams it requires a Perception Check with a DC equal to 25 + 1/2 your magic skill bonus (minimum 1). Disabling the diagram simply requires disrupting it.
+
++++ Magical Focus (Drawback)
+**Prerequisites:** Enhancement sphere; Focus Casting drawback or Galvanized drawback.
+
+**Benefit:** Whenever you enhance your focus or a weapon you are wielding with Galvanized Casting, you may choose to have the effect continue without concentration without spending a spell point. This feat only applies to the spell point spent to relinquish concentration. If another feat, talent, or class feature grants you the ability to spend more spell points when relinquishing concentration to improve the effects, you still need to spend the additional spell points to gain those benefits. You may only have one effect benefiting from this feat at a time.
+
++++ Manifold Foci (Drawback) [Alienist HB]
+**Prerequisite:** Center Of Power or Focus Casting.
+
+**Benefit:** You possess multiple foci or multiple centers of power, to a maximum of your casting ability modifier. You may use any of these focuses to cast if you have the Focus Casting drawback and are not dazed by having your Center Of Power targeted unless all of your other centers of power have been struck by attacks since you last regained spell points. However, you take a -1 penalty to your caster level for each of foci or centers of power that has been damaged since you last regained spell points. This penalty is reduced by 1 whenever you repair one of your foci or receive healing which equals or exceeds your MSD (in which case you choose one of your centers of power to no longer be considered damaged). For every undamaged focus or center of power you are using beyond the first, you gain a +1 bonus on concentration checks made to cast defensively.
+
+**Special:** This feat counts as Combat Casting for the purposes of meeting other prerequisites that depend on it. This feat’s benefits to concentration checks do not stack with Combat Casting.
+
++++ Mastery of Many (Drawback) [3PP]
+**Prerequisites:** Charged Spells
+
+**Benefits:** For every 2 magic spheres whose talents are among those in charged spells you have prepared, you gain a +1 bonus to damage rolls. 
+
+^^**Source:** Expanded Spheres: Weaves of War^^
+
++++ Mystic Choreography (Drawback, Proxy)
+**Prerequisites:** Enhancement sphere; at least one of the Skilled Casting, Somatic Casting, or Verbal Casting drawbacks; Circle Casting, Spell Proxy.
+
+**Benefit:** Whenever you use a sphere ability, any creature currently under the effects of Create Proxy may take an immediate action to perform one of your required components for you. As long as that creature meets the criteria for the drawback in question, you may ignore it for the purposes of that sphere ability. Regardless of whether or not this attempt is successful, the Create Proxy effect ends immediately.
+
++++ No Cost Too Great (Drawback) [DbH]
+Success sometimes necessitates losing more than you bargained for.
+
+**Prerequisite:** Draining Casting (drawback) or Unsettling Casting (drawback).
+
+**Benefit:** When you use Draining Casting or Unsettling Casting, you may double the amount of damage or sanity damage that you take. If you do, you gain a +1 competence bonus to your caster level on the effect. You must take damage or sanity damage from Draining Casting or Unsettling casting with the sphere effect to use this feat.
+
++++ Off In A Blink (Drawback) [Alienist HB]
+**Prerequisite:** Coy Caster.
+
+**Benefit:** When you create a magic sphere effect while observed, you may choose to delay the onset of the effect until you are no longer observed, to a maximum number of rounds equal to your casting ability modifier (after which the effect dissipates harmlessly and any spent spell points are wasted).
+
+You do not suffer the normal penalties for Coy Caster when using an effect in this way. The effect activates immediately when you are no longer observed. If only a single creature is observing you, they must attempt a Will save every round beyond the first (DC 10 + 1/2 your caster level + your casting ability modifier) or momentarily take their attention off you, causing the effect to activate immediately.
+
++++ Poisoned Apple (Drawback) [Cata. HB]
+Your charged spells can react violently to interlopers.
+
+**Prerequisites:** Charged Spells drawback, Bottled Spells.
+
+**Benefit:** Whenever you imbue a consumable item with a charged sphere ability using Bottled Spells, you may choose to have the item target any creature which attempts to use the item rather than granting the ability to use the sphere ability. If the sphere ability in the item would normally require an attack roll, the sphere effect is considered to hit automatically when the target tries to use the item.
+
++++ Power Of Fear (Drawback) [Cata. HB]
+The terror in your foes powers your magic.
+
+**Prerequisite:** Emotional Casting drawback.
+
+**Benefit:** You gain a +1 competence bonus to your caster level whenever there is at least one creature within 30 feet of you (excluding yourself) which is affected by a fear effect. If there are 4 or more creatures, this bonus increases to +2. Creatures with fewer Hit Dice than half your MSB do not count for this feat.
+
++++ Power of Friendship (Drawback) [Apoc]
+^^**Source:** [https://www.drivethrurpg.com/product/286411/Spheres-Apocrypha-Casting-Traditions?affiliate_id=549120 Spheres Apocrypha: Casting Traditions]^^
+
+**Prerequisites:** Emotional Casting.
+
+**Benefit:** While negative emotions can hinder your casting, positive emotions make you stronger.
+
+When under a magical effect that invokes an emotion (spells with the (emotion) descriptor, or charms such as Inspiration or Hostility), and the source of the effect is an ally, you may choose to roll concentration checks twice and take the higher result.
+
++++ Powerful Focus (Drawback) [Apoc]
+^^**Source:** [https://www.drivethrurpg.com/product/286903/Spheres-Apocrypha-Casting-Traditions-2?affiliate_id=549120 Spheres Apocrypha: Casting Traditions 2]^^
+
+**Prerequisites:** Mental Focus.
+
+**Benefit:** You can expend your mental focus as part of casting a sphere effect to increase the saving throw DC by a +1 competence bonus. A sphere effect that does not require a saving throw to resist or lessen the effect cannot be used with this feat.
+
++++ Prepared Diagram (Drawback) [Apoc]
+^^**Source:** [https://www.drivethrurpg.com/product/286903/Spheres-Apocrypha-Casting-Traditions-2?affiliate_id=549120 Spheres Apocrypha: Casting Traditions 2]^^
+
+**Prerequisites:** Diagram Magic.
+
+**Benefit:** Choose one sphere of magic. For that sphere of magic you can prepare a reusable, portable diagram on a wearable or holdable items (such as a glove, tattoo, ring, or holy symbol) that you (and only you) can use to cast that sphere of magic without having to make a larger diagram for it beforehand. If the diagram is lost, torn, or disrupted, the caster must create a new diagram by spending 8 hours to jot it down on another re-usable item. You can instead create the portable diagram in a minute by making a concentration check (DC 20 + your magic skill bonus).
+
+When casting spells through your prepared diagram, you receive a +1 competence bonus to saving throw DCs for all abilities from that sphere. The bonus from this feat does not stack with Sphere Focus, but counts as possessing Sphere Focus with the selected sphere for the purpose of meeting prerequisites.
+
+**Special:** You may select this feat multiple times. Each time you do select another sphere. You may create a separate prepared diagram for that sphere.
+
++++ Preserved Integrity (Drawback) [Alienist HB]
+**Prerequisite:** Charged Spells.
+
+**Benefit:** When you use a sphere effect that you have prepared a charge for, you ignore any ability damage, ability drain, negative levels, or other effects which would penalize your caster level or save DCs so long as you did not have these penalties when you prepared the charge.
+
++++ Push/Pull Mastery (Drawback)
+**Prerequisites:** Telekinesis sphere (Directional Control drawback).
+
+**Benefit:** You may use telekinesis to move objects both directly towards you and directly away from you. If you push or pull an object that does not move (for example, a building or the ground/an object pushed into the ground) you may instead apply the movement to yourself, using the stalled momentum of your telekinesis to push or pull yourself in the opposite direction. This means that, as a standard action, you can move yourself at a speed equal to double your telekinesis speed but only towards or away from a stationary object that you can affect with telekinesis (if you end in the air, you do not fall until the end of your next turn). You may grant yourself this ability as a sustained force, gaining a fly speed equal to twice your telekinesis speed, but may only move in a single direction per move action that is toward or away from an appropriate object for telekinesis.
+
++++ Racing Ramp (Drawback) [3PP]
+**Prerequisites:** Ramp Up, Time sphere
+
+**Benefit:** Every round of combat you are affected by one of your alter time effects, all of your movement speeds are increased by 5 feet. This bonus stacks with itself and ends at the end of combat.
+
+^^**Source:** Card Casting 2: Counters and Control^^
+
+
++++ Refined Amplification (Drawback) [3PP]
+**Prerequisites:** Mana Sphere (any (amp) talent), Skilled Casting drawback
+
+**Benefits:** When you use an (amp) talent, for every 10 by which you exceed the skill check DC for Skilled Casting, you may reduce the caster level penalty of the (amp) by 1 (to a minimum of 0).
+
+^^**Source:** Expanded Spheres: Weaves of War^^
+
++++ Reinforced Structure (Drawback) [EO3]
+The magic objects that you create can be reinforced to be stronger.
+
+**Prerequisites:** Substantial Magic drawback.
+
+When creating a magic object with the Substantial Magic general drawback, the created magic object increases their AC by an amount equal to your casting ability modifier, their hardness by +2, and their hit points by twice your magic skill bonus.
+
+When using a magic effect that affects an area, you may manifest the magic object anywhere inside the affected area, not centered in the area as normal.
+
+When using a magic effect that would affect individual creatures (or otherwise create a worn item), the CMD required to sunder the magic object increases by an amount equal to your casting ability modifier.
+
++++ Resistant Veins (Drawback) [Apoc]
+^^**Source:** [https://www.drivethrurpg.com/product/286903/Spheres-Apocrypha-Casting-Traditions-2?affiliate_id=549120 Spheres Apocrypha: Casting Traditions 2]^^
+
+**Prerequisites:** Anemic.
+
+**Benefit:** Your enhanced blood vessels serves as a source of protection for you, granting you a natural armor of + 1 + 1 for every 5 points magic skill bonus you possess.
+
++++ Restorative Rush (Drawback) [3PP]
+**Prerequisites:** Charged Spells
+
+**Benefits:** Choose two of the following methods of restoring charges for charged spells you have cast within the last minute. For each method, in addition to the cost of actions and the method’s specific trigger, for each spell you recharge, you must spend a number of spell points equal to the number of spell points spent on the charged sphere effect you recharge. Whenever you recharge one or more spells, you gain a +1 bonus to attack rolls until the end of your next turn.
+* //Celebratory Boast (requires Gladiator Sphere):// whenever you perform a boast, you may also recharge a number of charged sphere effects up to your casting ability modifier
+* //Devoted Recharge:// You may spend a standard action to recharge one charged sphere effect. If you also spend a swift action on this ability on the same turn, you instead recharge a number of charged sphere effects up to your casting ability modifier
+* //Iaido Readiness:// Once per round, when you sheathe a weapon (normally a move action), you may recharge one charged sphere effect
+* //Inward Recollection:// When you use the total defense action, you may recharge a number of charged sphere effects up to your casting ability modifier
+* //Malicious Claim: (requires Scout sphere)// Whenever you scout a creature as at least a swift action, you recharge a single charged sphere effect. If you reduce a scouted creature to 0 or fewer hit points, you may recharge a number of charged sphere effects up to your casting ability modifier
+* //Outward Extension:// Whenever you use the aid another action as a move or standard action, you may recharge a number of charged sphere effects up to your casting ability modifier
+* //Vigilant Patrol: (requires Guardian Sphere (patrol package))// Whenever you activate your patrol as a full-round action, you may recharge a number of charged sphere effects up to your casting ability modifier
+* //Vindicating Impetus: (requires Channel Energy)// You may spend a use of channel energy as a swift action to recharge one charged sphere effect.
+**Special:** You may select this feat multiple times, each time selecting two different methods.
+
+^^**Source:** Expanded Spheres: Weaves of War^^
+
++++ Sanctum Magic (Drawback) [Cata. HB]
+Your area of power amplifies your strength.
+
+**Prerequisite:** Area Bound drawback.
+
+**Benefit:** While you are within the area designated by your Area Bound drawback, you gain a +1 competence bonus to your caster level.
+
++++ Sanguinivorous (Drawback) [Origin]
+**Prerequisites:** Bloody Savage, Vampiric Casting drawback.
+
+**Benefit:** You no longer gain sustenance from food or drink, only from draining blood. However, you may drain blood from creatures who have been dead for no more than an hour. Whenever you drain blood from a creature, you gain a +2 bonus to damage rolls which last for 1 minute.
+
++++ Soul Harvester (Drawback) [Cata. HB]
+Death replenishes your magical abilities.
+
+**Prerequisite:** Charged Spells drawback.
+
+**Benefit:** Whenever a creature within close range of you dies, you may spend spell points as an immediate action to replenish one charged spell you have cast and spent the charge of in the past within a number of minutes equal to your caster level. The number of spell points spent in this way must be equal to the number of spell points spent on the charged spell. The creature that dies must have a number of Hit Dice equal to at least half your MSB.
+
++++ Spells to Life (Drawback) [3PP]
+^^**Source:** Expanded Spheres: Baron's Lost Apocrypha^^
+
+**Prerequisites:** Enhancement sphere (animate object), Substantial Magic
+
+**Benefit:** You may use the animate object (enhance) talent on objects created using Substantial Magic, and may spend an additional spell point to do so as part of summoning the creature. If the sphere effect associated with the animated object affects an area, that area remains centered on the animated object if it moves. If the sphere effect associated with the animated object targets a creature, the effect now targets one creature which the animated object is sharing its space with (you may choose to have the animated object move with a willing target). You may have the animated object change its target once per round, in which case any creature which has not previously succeeded at a saving throw against the effect is allowed a new saving throw.
+
++++ Suffer By Proxy (Drawback, Proxy)
+**Prerequisites:** Enhancement sphere, Draining Casting drawback, Circle Casting, Spell Proxy.
+
+**Benefit:** Whenever you use a sphere ability, you may choose to have a creature under the effects of Create Proxy suffer the nonlethal damage for you. The creature must be within the range of one of your Proxy feats, and must not be immune to nonlethal damage. You cannot choose to split up the nonlethal damage; all of it must be dealt to a single creature.
+
++++ Terrain Defiler (Drawback)
+**Prerequisites:** Terrain Casting drawback, non-good alignment.
+
+**Benefit:** Whenever you blight, corrupt, or drain an area of its nutrients with the Terrain Casting drawback, you may choose to increase the radius of the corrupted area by 10 feet + 5 feet per 5 caster levels of the sphere talent or ability used. Doing so decreases the spell point cost of any metamagic feat by 1 (minimum 0), but also increases the time required for the area to naturally recover to 10 years per caster level of the sphere talent or ability used.
 
 **Special:** You cannot gain this feat if you possess the Terrain Focus feat.
 
-++++ Terrain Focus (Drawback) [Apoc]
++++ Terrain Focus (Drawback)
+**Prerequisites:** Nature sphere, Terrain Casting drawback.
 
-**Prerequisites:** Nature sphere, Terrain Casting.
-
-**Benefit:** You have learned to draw upon the nutrients in some terrain more easily than others, which powers your primal magics. Choose one of the following terrains: Cold, Desert, Forest, Jungle, Mountain, Plains, Planes (pick one, other than Material Plane), Swamp, Underground, Urban, or Water. Gain a +2 insight bonus to caster level with the Nature sphere while using magic within the chosen terrain.
+**Benefit:** You have learned to draw upon the nutrients in some terrain more easily than others, which powers your primal magics. Choose one of the following terrains: Cold, Desert, Forest, Jungle, Mountain, Plains, Planes (pick one, other than the Material Plane), Swamp, Underground, Urban, or Water. Gain a +2 insight bonus to caster level with the Nature sphere while using magic within the chosen terrain.
 
 **Special:** You can gain this feat multiple times. Its effects do not stack. Each time you take the feat, it applies to a new terrain. You cannot gain this feat if you possess the Terrain Defiler feat.
 
-++++ Thematic Augmentation (Drawback)
++++ Thematic Augmentation (Drawback)
+**Prerequisite:** Magical Signs drawback.
 
-**Prerequisites:** Magical Signs
+By interweaving illusions with all of your spells and sphere effects you change their sensory manifestation.
 
-By interweaving illusions with all of your spells you change their sensory manifestation. When you select this feat chose a theme such as weapons, cubes, demons, skulls, or slime. You may change the appearance but not any other effect of any spell or sphere ability you cast to manifest instead as the chosen theme. Spells altered in this way gain a +5 to the spellcraft DC to identify them and a +1 circumstance bonus against dispelling or counterspell attempts. Illusions you create within your theme gain a +1 competence bonus to their caster level.
+When you select this feat chose a theme such as weapons, cubes, demons, skulls, or slime. You may change the appearance but not any other effect of any spell or sphere ability you cast to manifest instead as the chosen theme. 
 
-This feat can only affect spells that have an obvious auditory or visual manifestation.
+Magical Signs still breaks stealth, revealing you as the source of the magic, and your casting tradition. However, Magical Signs no longer automatically identifies altered spells, sphere abilities, or talents you use, but must be identifed gaining a +5 to the Spellcraft DC to identify them. Additionally, altered spells and sphere effects gain a +1 circumstance bonus against dispelling or counterspell attempts. Illusions you create within your theme gain a +1 competence bonus to their caster level.
+
+This feat can only alter spells or sphere effects that have an obvious auditory or visual manifestation.
+
++++ Unified Focus (Champion, Drawback) [Apoc]
+^^**Source:** [https://www.drivethrurpg.com/product/286903/Spheres-Apocrypha-Casting-Traditions-2?affiliate_id=549120 Spheres Apocrypha: Casting Traditions 2]^^
+
+**Prerequisites:** Fast Focus, ability to gain martial focus.
+
+**Benefits:** You can take a standard action to regain both your mental focus and your martial focus.
+
++++ Unlocked Power (Drawback) [3PP]
+**Prerequisites:** Ramp Up
+
+**Benefit:** Choose three magic talents. You gain these magic talents, but may only use them (and any advanced talents which use them as prerequisites) starting on the 3rd, 5th, and 7th rounds of combat, respectively. 
+
+**Special:** If you possess the Card Casting drawback, you may create spell cards which incorporate these talents, but you may play such cards starting on the turns that their required talents become available.
+
+^^**Source:** Card Casting 2: Counters and Control^^
+
++++ Wild Casting (Drawback)
+**Prerequisite:** Somatic Casting drawback or Verbal Casting drawback.
+
+**Benefit:** You may supply somatic and verbal components even when in a form not normally able to do so, such as when subject to a polymorph effect.
+
++++ Wishbound Casting (Drawback) [DbH]
+The desires of others can ease the burdens of your magic.
+
+**Prerequisites:** Extended Casting (drawback), Verbal Casting (drawback).
+
+**Benefit:** You may use the wishes of creatures other than yourself in place of the normal verbal components of your magic sphere effects. A creature can make a wish as an immediate action at any time, even during your turn. You must be able to hear and understand a wish in order to use it as a spell component but must still take the normal actions required to create the sphere effect. A wish does not need to mention the name of a specific effect, but must describe an outcome that can be accomplished through one of your magic abilities (for example, wishing to be bigger could supply the verbal component for a shapeshift that increases size). When you grant a wish using a magic effect, you do not need to supply a verbal component yourself, nor do you need to extend the casting time as per Extended Casting (if you've taken Extended Casting twice, you instead cast as if you'd only taken it once when using this effect). You may not grant your own wish or that of one of your subordinate creatures.
+
+As a swift action, you may spend a spell point to force a single creature within 30 feet to confess its deepest desire. The target receives a Will save (DC 10 + 1/2 your caster level + your casting ability modifier) to negate this effect. On a failed save, the creature must wish aloud in a clear voice for something it truly desires, allowing you to activate your wishbound casting if you know an effect that can fulfill that wish (this does not require them to spend an action). This is a mind-affecting effect. Regardless of whether the save is successful, a creature cannot be the target of this wish-forcing ability again for 24 hours.
+
++++ Witchwarped (Drawback) [Apoc]
+^^**Source:** [https://www.drivethrurpg.com/product/286903/Spheres-Apocrypha-Casting-Traditions-2?affiliate_id=549120 Spheres Apocrypha: Casting Traditions 2]^^
+
+**Benefit:** You are infused with the traits of something else other than just your being.
+
+You gain the Witchmarked general drawback (even if you are not a spherecaster) unless you already have it, using your Hit Dice as your caster level to determine its effects (if you are not a spherecaster a successful Knowledge (arcana) check successfully identifies the abilities from this feat rather then your spheres and caster level). You do not gain any bonus spell points from possessing the drawback gained exclusively from this feat.
+
+Choose one trait from the Blank Form ability of the Alteration sphere or another trait deemed appropriate to your witchmark by the GM. You may not select a trait that carries an additional spell point cost. You gain that trait as a permanent supernatural ability. This trait only functions while your witchmark traits are not suppressed (such as with the Hidden Heretic feat). Treat your Hit Dice as your caster level for the purposes of this effect.
+
+**Special:** The trait obtained this way counts towards the number of traits you may possess when under the effects of Blank Form, but is not considered a polymorph effect.
+
+You may only take this feat as a drawback feat if you already possess the Witchmarked drawback from your casting tradition. In which case you still gain the extra spell points (or boon) from the drawback, and substitute your magic skill bonus for your Hit Dice when calculating the abilities of this feat and may use your casting ability modifier for any effects that would require one, such as determining saving throw DCs.
+----
++ Defiler Feats
+Defiler feats are a subcategory of Drawback feats which specifically deal with the Terrain Casting drawback. Most alter the ways in which Terrain Casting affects the environment. In addition, Defiler feats often grant additional benefits based on how many Defiler feats you possess.
+
++++ Agonizing Defiling (Defiler, Drawback) [Cata. HB]
+Your powers drain the energies of those around you.
+
+**Prerequisites:** Terrain Casting drawback, non-good alignment.
+
+**Benefit:** Whenever you blight, corrupt, or drain an area of its nutrients with the Terrain Casting drawback, you may choose to weaken all creatures caught inside the defiled area. Creatures other than yourself inside the corrupted area become sickened for one round per caster level (Fortitude save negates, DC 10 + 1/2 your character level + your casting ability modifier).
+
+**Four Defiler Feats:** Any creatures that fail their saving throw against this feat are nauseated for 1 round in addition to being sickened.
+
++++ Broken Earth (Defiler, Drawback) [Cata. HB]
+Your magic shatters the ground, transforming into hazardous terrain.
+
+**Prerequisite:** Terrain Casting drawback.
+
+**Benefit:** Whenever you blight, corrupt, or drain an area of its nutrients with the Terrain Casting drawback, you may cause any affected area to become difficult terrain for all creatures.
+
+**Four Defiler Feats:** Creatures moving through terrain you have defiled take 1d4 points of piercing damage for each 5 feet of movement through the spiked area.
+
++++ Charged Despoilation (Defiler, Drawback) [Cata. HB]
+You are capable of keeping your ruinous powers hidden.
+
+**Prerequisites:** Charged Spells drawback, Terrain Casting drawback.
+
+**Benefit:** When you prepare a spell charge, you may choose to blight the area around you as if you had cast a spell with the Terrain Casting drawback. If you do, you do not blight the terrain around you when you cast the charged effect even if you do not spend additional spell points or increase the casting time.
+
++++ Defiler’s Channel (Channeling, Defiler, Drawback) [Cata. HB]
+You draw life energy directly from your environment.
+
+**Prerequisites:** Terrain Casting drawback, channel energy 3d6.
+
+**Benefit:** Whenever you channel energy, you may drain an area of its nutrients as per the Terrain Casting drawback. If you do, the number of dice used with your channel energy increases by 2.
+
+**Four Defiler Feats:** The number of dice increases by 4 rather than 2.
+
++++ Distant Defiling (Defiler, Drawback) [Cata. HB]
+You can draw magic beyond that which is around you.
+
+**Prerequisites:** Terrain Casting drawback.
+
+**Benefits:** Whenever you would blight, corrupt, or drain an area of its nutrients with the Terrain Casting drawback, you may choose to center the blight effect on a space within close range of you rather than in your space.
+
+**Four Defiler Feats:** You can create magic effects in blighted terrain so long as you blight an area within close range of you when casting. The area you blight cannot overlap with any already- blighted terrain.
+
++++ Inhuman Defiler (Defiler, Drawback, Necrosis) [Cata. HB]
+Your destructive powers and undead ambitions feed into each other.
+
+**Prerequisites:** Death sphere, Terrain Casting drawback, non-good alignment.
+
+**Benefit:** For the purpose of determining how many feats of each type you have, you treat your Defiler feats as Necrosis feats and vice versa.
+
+**Four Defiler/Necrosis Feats:** You gain one bonus spell point for every 2 Defiler or Necrosis feats you possess.
+
++++ Intense Defiling (Defiler, Drawback) [Cata. HB]
+You enlarge the area of your despoilation to amplify its effects.
+
+**Prerequisite:** Terrain Casting drawback.
+
+**Benefit:** Whenever you blight, corrupt, or drain an area of its nutrients with the Terrain Casting drawback, you may extend the radius of area corrupted by 5 feet + 5 feet for every 5 caster levels you possess. If you do, increase the DC of the blighting effect by 1. If you possess any feats that force saving throws from creatures in the blighted area (such as Agonizing Defiling), you increase their DC by the same amount.
+
+**Four Defiler Feats:** The DC is increased by 2 rather than 1.
+
++++ Purging Despoilation (Defiler, Drawback) [Cata. HB]
+Your destructive magics nullify magical workings.
+
+**Prerequisites:** Terrain Casting drawback, Counterspell, Improved Counterspell, casting class feature, magic skill bonus +5.
+
+**Benefit:** Whenever you blight, corrupt, or drain an area of its nutrients with the Terrain Casting drawback, you may use Counterspell or Improved Counterspell as a free action as part of casting. You may only target effects within your blighted area.
+
+**Four Defiler Feats:** You may use Greater Counterspell (if you have the feat) as a free action as part of casting, targeting effects within your blighted area as normal. The spell point cost of any counterspell used as part of blighting is reduced by 1 (minimum 0).
+
++++ Ruinous Defiling (Defiler, Drawback) [Cata. HB]
+Your despoilation inflicts pain on those caught in your path.
+
+**Prerequisites:** Terrain Casting drawback, non-good alignment.
+
+**Benefit:** Whenever you blight, corrupt, or drain an area of its nutrients with the Terrain Casting drawback, you may choose to damage all creatures caught inside the defiled area. Creatures other than yourself inside the corrupted area take 1 point of negative energy damage per caster level (Will save negates, DC 10 + 1/2 your character level + your casting ability modifier). This damage does not heal creatures which would be healed by negative energy.
+
+**Four Defiler Feats:** The damage from this feat increases to 2 points of negative energy per caster level.
+
++++ Specialist Defiler (Defiler, Drawback) [Cata. HB]
+You draw extra energy from certain environments.
+
+**Prerequisites:** Terrain Casting drawback, non-good alignment.
+
+**Benefit:** Choose one type of terrain from the ranger’s list of favored terrains. Whenever you use Terrain Casting to blight this terrain, you may increase your caster level for the blight-causing effect by 1. This bonus to caster level is a competence bonus.
+
+**Four Defiler Feats:** Rather than 1, your caster level increases by 2.
+
+**Special:** You can gain this feat multiple times. Its effects do not stack. Each time you take the feat, it applies to a new terrain. You cannot gain this feat if you possess the Terrain Focus feat and vice versa.
+
++++ Terrain Defiler (Defiler, Drawback) [Cata. HB]
+You can increase the damage to the land around you to amplify your power.
+
+**Prerequisites:** Terrain Casting drawback, non-good alignment.
+
+**Benefit:** Whenever you blight, corrupt, or drain an area of its nutrients with the Terrain Casting drawback, you may choose to increase the radius of the corrupted area by 10 feet + 5 feet per 5 caster levels of the sphere talent or ability used. Doing so decreases the spell point cost of any metamagic feat by 1 (minimum 0), but also increases the time required for the area to naturally recover to 10 years per caster level of the sphere talent or ability used.
+
+**Four Defiler Feats:** When using this feat, you may choose to increase the radius of the corrupted area by an additional 5 feet per 5 caster levels (minimum 5 feet) to decrease the spell point of cost of any metamagic feat by an additional 1.
+
+**Special:** You cannot gain this feat if you possess the Terrain Focus feat and vice versa.
+[[/tab]]
+[[tab Original]]
+[[include old-drawback-feats]]
+[[/tab]]
+[[/tabview]]
 
 ----
 
