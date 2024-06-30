@@ -46,52 +46,6 @@ If there are multiple eligible targets for an effect (such as “an ally adjacen
 Effects on the critical hit deck/table use terms such as “diminished damage”, “critical damage”, and “magnified damage”. If an effect deals diminished damage, the weapon’s critical damage multiplier is reduced by x1 on the effect (to a minimum of x1, or normal damage). Critical damage uses the weapon’s normal critical damage multiplier, while magnified damage increases the weapon’s critical damage multiplier on the attack (to a maximum of x3). 
 Effects that refer to “elemental damage” refer to acid, cold, electricity, or fire damage.
 
-++++ Critical Hit Card Generator
-[[html]]
-<style>
-    * {
-    margin: 0;
-    padding: 0;
-    }
-    #container {
-    width: 90%;
-    margin: 90px auto;
-    padding: 10px;
-    border: 1px solid #606060;
-    }
-    .alignleft {
-    float: left;
-    }
-    .alignright {
-    float: right;
-    }
-</style>
-<div id="container">
-    <p class="alignjustify" id="randomResult">&nbsp;</p>
-    <button class="alignleft" id="button">Trigger Critical Hit</button>
-    <div style="clear: both;"></div>
-</div>
-<script>
-    function randString(){
-        return stringArray[~~(rand()*stringArray.length)];
-    }
-    function randText(){
-        var tx = randString();
-        var txt = document.createTextNode(tx);
-        var sp = document.createElement('span');
-        sp.appendChild(txt);
-        randomResult.innerHTML = '';
-        randomResult.appendChild(sp);
-    }
-    rand = Math.random;
-    stringArray = ['||1 || Diminished damage and target cannot breathe or speak. DC 20 Heal check to provide first aid ends this condition. || Critical damage and target drops whatever is being held (1 item). || Diminished damage and 8 bleed. A successful Heal check to provide first aid cuts the bleeding in half rather than ending it. Each successive first aid halves the bleed again, with the bleed being stopped if it would be reduced below 1. Effects other than first aid affect this bleed normally. || Critical damage and if the effect did elemental damage the target is now vulnerable to that element for 3 rounds. ||', '|| 2 || Diminished damage and 1d4 Con bleed (DC 15 Fort negates, save each round). || Critical damage and 2 bleed. The Heal DC to stop this bleeding is increased by 5. || Critical damage and 3d6 Dex damage (Fort half). || Diminished damage and target is charmed (as the charm person spell) for 3 rounds (Will negates). ||
-', '|| 3 || Diminished damage and either 1d3 Dex damage and halved speed (leg) or 1d3 Str damage (arm), determined randomly. The damaged limp cannot be used until healed. || Critical damage and target begins to drown 3 rounds later. DC 20 Fort save each round to end effect. || Critical damage and 2d6 nonlethal damage. || Critical damage and you may give the target 1 suggestion as per the suggestion spell (Will negates). ||', '|| 4 || Diminished damage and target is staggered for 1d6 minutes. || Diminished damage and target is stunned for 1d6 rounds (Fort save each round to act). || Critical damage and 1 Con bleed. || Critical damage and you and target switch places. ||', '|| 5 || Diminished damage and 1d6 bleed. This bleed can only be cured with magical healing. || Diminished damage and 1d6 Dex and 1d6 Str damage. || Magnified damage, but you drop your weapon. || Critical damage and target spends 1 round laughing (as hideous laughter spell, Will negates). ||', '|| 6 || Critical damage and target is nauseated for 1 round (Fort negates).|| Critical damage and target is disarmed (1 item). || Critical damage and one free attack against the target with a -5 penalty. || Critical damage and 1d4 damage to a random ability score. ||', '|| 7 || Diminished damage and target is dazed for 1d4 rounds. || Diminished damage and 1d4 bleed. The target gains 50% spell failure chance for spells with verbal components until healed. || Diminished damage and target is permanently blinded (Ref negates). || Critical damage and target can take only one move or standard action next round. ||', '|| 8 || Critical damage and target cannot heal naturally for 1d4 days. || Diminished damage and -4 penalty on attack rolls, skill checks, and ability checks for 1d4 rounds. || Critical damage and target can take only one move or standard action next round. || Critical damage and 2d6 random energy damage (Ref half). ||', '|| 9 || Diminished damage and target is unconscious for 1d4 rounds (Fort negates). || Critical damage and target can take only one move or standard action next round. || Diminished damage and 2d6 bleed. || Critical damage or magnified damage to humanoids and monstrous humanoids. ||', '|| 10 || Critical damage and 2d6 nonlethal damage. || Critical damage and target is pushed 1d6x5 feet directly away. || Critical damage and diminished damage to target’s armor.|| Critical damage and target loses one random prepared spell, one random spell slot, 1d4 spell points, or one use of a random spell-like ability. ||'];
-    randomResult = document.getElementById('randomResult');
-    document.getElementById("button").addEventListener('click',randText,false);
-</script>
-[[/html]]
-
-
 **Table: Critical Hit Card Results**
 ||~ Value ||~ Bludgeoning Damage ||~ Piercing Damage ||~ Slashing Damage ||~ Other Damage || 
 || 1 || Diminished damage and target cannot breathe or speak. DC 20 Heal check to provide first aid ends this condition. || Critical damage and target drops whatever is being held (1 item). || Diminished damage and 8 bleed. A successful Heal check to provide first aid cuts the bleeding in half rather than ending it. Each successive first aid halves the bleed again, with the bleed being stopped if it would be reduced below 1. Effects other than first aid affect this bleed normally. || Critical damage and if the effect did elemental damage the target is now vulnerable to that element for 3 rounds. ||
