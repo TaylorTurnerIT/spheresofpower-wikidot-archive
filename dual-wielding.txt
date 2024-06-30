@@ -71,7 +71,7 @@ You may spend a move action to regain your martial focus and gain a +1 circumsta
 Whenever you use an attack action and successfully strike a single creature with both your main-hand and off-hand weapons before the start of your next turn, you can make an additional attack with your off-hand weapon against a different creature as a free action.
 
 ++++ Gemini Dancer (stance) [3PP]
-At the start of your turn, you can spend a swift action to use this talent. When you do, until the beginning of your next turn whenever you use the dual strike ability, if your attacks with your main hand or off hand weapon miss due to not hitting the creature’s armor class, as long as your attack was within 5 points of the creature’s armor class (if the creature’s AC was 25, this talent would trigger if your attack roll was 24 to 20), you still deal damage as though you had rolled the minimum result for the attack (if you miss with your off-hand attack which would normally deal 1d6+2 damage, you would still deal 3 damage); this talent is treated as dealing damage for abilities which rely on doing so, such as sneak attack. At +10 base attack bonus, you instead roll damage normally for this talent, dealing half of the damage it would have dealt. If you expend your martial focus while activating this talent, it instead lasts a number of rounds equal to your practitioner modifier.
+At the start of your turn, you can spend a swift action to use this talent. When you do, until the beginning of your next turn whenever you use the dual attack ability, if your attacks with your main hand or off hand weapon miss due to not hitting the creature’s armor class, as long as your attack was within 5 points of the creature’s armor class (if the creature’s AC was 25, this talent would trigger if your attack roll was 24 to 20), you still deal damage as though you had rolled the minimum result for the attack (if you miss with your off-hand attack which would normally deal 1d6+2 damage, you would still deal 3 damage); this talent is treated as dealing damage for abilities which rely on doing so, such as sneak attack. At +10 base attack bonus, you instead roll damage normally for this talent, dealing half of the damage it would have dealt. If you expend your martial focus while activating this talent, it instead lasts a number of rounds equal to your practitioner modifier.
 
 ++++ High-Low Combination
 Whenever you use dual attack and successfully strike a creature with your main-hand weapon, you may forgo your off-hand weapon attack to make a trip attempt against the target of your main-hand attack without provoking an attack of opportunity (if you use a ranged weapon to make this trip attempt, the creature must be within 30 ft.).
@@ -80,7 +80,7 @@ Whenever you use dual attack and successfully strike a creature with your main-h
 You can reload without needing a free hand. In addition, you treat ranged weapons you are wielding which can be wielded in one hand as light weapons for the purpose of determining what penalties you take while fighting with two weapons.
 
 ++++ Mercurial Flow
-You deal your full Strength modifier to damage on attacks made with your off-hand attack instead of half. You may treat off-hand attacks as though they were made with your main hand for the purpose of Power Attack or similar abilities. **Associated Feat:** Dual Slice.
+You deal your full Strength modifier to damage on attacks made with your off-hand attack instead of half. You may treat off-hand attacks as though they were made with your main hand for the purpose of Power Attack or similar abilities. **Associated Feat:** Double Slice.
 
 ++++ Mixed Assault
 Whenever you wield a melee weapon in one hand and a ranged weapon in the other, you don’t provoke attacks of opportunity from firing or reloading while threatened. If you successfully attack two different creatures more than 5 ft. apart from each other in the same round you make an attack using the attack action, you gain a +2 circumstance bonus on damage rolls against each creature until the end of your next turn; for every 5 base attack bonus you have, this bonus increases by +2.
@@ -96,14 +96,21 @@ Each combat feat, class feature, or combat talent which would apply to your main
 
 At +10 base attack bonus, combat feats, class features, or combat talents which would apply to your off-hand weapon also applies to your main hand weapon, unless they would also be an illegal choice. The only exception to this is special attack actions, such as brutal strikes, barrages, and deadly shots, which are not applied to the off-hand weapon.
 
+**Author's Note:** This talent is designed to make it viable to use different types of weapons when dual wielding, rather than two copies of the same weapon. It does not allow additional actions, allow you to vital strike with both weapons, etc.
+
 ++++ Perfect Set-Up
 As long as you have martial focus, as part of an attack action you may make a touch attack with your main-hand weapon which deals only the weapon’s damage die. If this attack is successful, the next attack you make with your off-hand weapon gains a +2 bonus to its damage roll and targets the creature’s flat-footed AC (the target is not actually flat-footed for this attack), ignoring cover or concealment as long as that attack is made before the end of your next round. For every 4 points of base attack bonus you possess, this bonus damage increases by +2.
+
+**Author's Note:** Perfect Set-Up replaces the main-hand attack action with an attack which deals only your weapon's base damage dice. This attack is no longer treated as an attack action and cannot be modified by other effects such as Vital Strike or various attack action modifiers from other spheres (Duelist's blooded strike, Fencing's fatal thrust, etc.).
 
 ++++ Repositioning Routine
 Whenever you use an attack action and successfully strike a single creature with both your main-hand and off-hand weapons before the start of your next turn, you can attempt a reposition combat maneuver against the target of the attacks as a free action which does not provoke attacks of opportunity (if the creature is not within your natural reach, you may attempt this reposition combat maneuver with a -2 penalty as long as that creature is within the first range increment of a ranged weapon you wield, although doing so requires you to expend a piece of ammunition or throw a weapon to do so).
 
+++++ Snapping Crab (stance) [Youxia HB]
+While in this stance, whenever you miss a creature with a melee attack made as part of a dual attack, the first melee attack that creature makes against you until the beginning of your next turn provokes an attack of opportunity from you. You must make the attack of opportunity with a melee weapon you missed the creature with during your dual attack, and the attack suffers the same penalties as it did during the dual attack. You may not use this talent in conjunction with (deflect) talents or any other ability that would grant you an attack or combat maneuver due to a missed attack against you.
+
 ++++ Strategic Set-Up
-Whenever you use dual attack and successfully damage a creature with your main-hand weapon, if you attempt a combat maneuver check against that same creature in place of your offhand attack, treat yourself as if you were 1 size category larger than you are when calculating your combat maneuver bonus and your ability to affected that target. For every 5 points of base attack bonus you possess, you are treated as an additional size larger.
+Whenever you use dual attack and successfully damage a creature with your main-hand weapon, if you attempt a combat maneuver check against that same creature in place of your offhand attack, treat yourself as if you were 1 size category larger than you are when calculating your combat maneuver bonus and your ability to affect that target. For every 5 points of base attack bonus you possess, you are treated as an additional size larger.
 
 ++++ Synchronous Accuracy
 Whenever you miss an attack with your main hand weapon, you may expend your martial focus as an immediate action to make an additional attack with your off-hand weapon. This effect lasts until the start of your next turn, allowing you to make an off-hand attack whenever you miss with an attack made with your main hand weapon.
@@ -113,13 +120,33 @@ As long as you have martial focus, if you successfully use the attack action to 
 
 At +10 base attack bonus, your off-hand weapon is also treated as though it were made of the same material as your main-hand weapon for the purposes of penetrating damage reduction.
 
+++++ Two In The Hand [Jester's HB]
+Whenever you use dual attack and successfully strike a creature with your main-hand attack, you may increase your reach by +5 feet when making your off-hand attack. At +10 base attack bonus, your reach increases by +10 feet instead.
+
 ----
 + ##993300|Legendary Talents##
 
 ++++ Cyclone Cut
 **Prerequisites:** Dual Wielding sphere, base attack bonus +5.
 
-While wielding two weapons, as a standard action you expend your martial focus to twirl the two weapons with enough force to create a damaging cyclone of air. Each creature within 10 ft. of you must takes damage equal to your weapon damage for both your primary and one of your off-hand attacks. A successful Reflex save reduces this damage by half. For every 5 additional base attack bonus you possess, you may increase the radius by an additional 5 ft.
+While wielding two weapons, as a standard action you expend your martial focus to twirl the two weapons with enough force to create a damaging cyclone of air. Each creature within 10 ft. of you takes damage equal to your weapon damage for both your primary and one of your off-hand attacks. A successful Reflex save reduces this damage by half. For every 5 additional base attack bonus you possess, you may increase the radius by an additional 5 ft.
+
+++++ Hurricane Twist [EO3]
+**Prerequisites:** Dual Wielding sphere (Cyclone Cut), base attack bonus +10.
+
+When using the Cyclone Cut talent, you may instead use it as a full-round action to twirl the weapons with such speed that you begin to form dangerous winds. Until the beginning of your next turn, you increase the Wind severity within the affected area by one step, plus an additional step for every 5 points of base attack bonus you possess beyond base attack bonus +10 (maximum wind severity 6); in addition to the normal effects of the talent. You are immune to the effects of the increased Wind severity caused when you use this talent.
+
+++++ Spinning Reflection (stance) [EO3]
+**Prerequisites:** Dual Wielding sphere, base attack bonus +5.
+
+While in this stance, you begin to spin your main-hand and off-hand weapons rapidly in front of you. Whenever a weapon attack roll is made against you (and you are aware of it), you may attempt to disrupt the attack before it can harm you. Unusually massive weapons and attacks generated by spell effects cannot be deflected in this way.
+
+You can expend an attack of opportunity and make a melee attack roll with both your main-hand and off-hand weapons, both at your highest bonus (but suffering the penalties associated with dual attack to both attacks). If one result is greater than the attack roll total of the attack, the attack deals half damage, before applying damage reduction and similar abilities. If both results are greater than the attack, the attempted attack misses you completely.
+
+++++ Tandem Enchantment [EO3]
+**Prerequisites:** Dual Wielding sphere (Tandem Offensive), base attack bonus +5.
+
+As long as you have martial focus, your off-hand weapon gains all of the special weapon abilities and the enhancement bonus your main-hand possesses, replacing any enhancement bonuses or special weapon abilities your off-hand weapon may possess at the time. This does not allow your off-hand weapon to benefit from abilities that are not applicable to that weapon, and does not grant any other effects that your main-hand weapon possesses, such as the unique benefits of a holy avenger.
 
 ++++ Three-Sword Style
 **Prerequisites:** Dual Wielding sphere, base attack bonus +6.
@@ -130,6 +157,13 @@ You gain the ability to wield a sword in your teeth, treating your mouth as an a
 **Prerequisites:** Dual Wielding sphere, Three-Sword Style, base attack bonus +16.
 
 When making a dual attack, you may expend your martial focus and forego any extra attacks that you might otherwise be able to make during your turn to treat each attack as an attack action. This means that each of the three attacks may be modified by feats such as Vital Strike, but cannot trigger any additional attacks, such as combat maneuvers added by talents when making an attack action normally.
+
+++++ Underhanded Blades [3PP]
+**Prerequisites:** Dual Wielding sphere,
+
+When making a dual attack, you may use d16s in place of d20s for each attack roll. If you do, you reduce any attack roll penalties from dual attack by 2 and threaten a critical hit on a 16 before your critical threat range is increased or doubled (so for example, a weapon which normally has an 18-20 critical threat range threatens a critical on a 14-16). 
+
+^^**Source:** Card Casting 3: Volatile Variance^^
 
 ----
 
