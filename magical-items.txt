@@ -2,85 +2,150 @@ title:Magical Items
 parent:spheres-of-power
 [[toc]]
 
+[[module CSS]]
+.noselect {
+  -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome and Opera */
+}
+[[/module]]
+[[tabview]]
+[[tab Ultimate]]
+[[div class="noselect" style="float:right; width: 20%; padding: 0 2%"]]
+[[=]]
+[[image http://spheresofpower.wikidot.com/local--files/test-page/UltimateSpheresofPower.jpg link="https://www.drivethrurpg.com/product/300249/Ultimate-Spheres-of-Power?affiliate_id=549120"]]
+**Ultimate Spheres of Power**
+$29.99
+----
+[[image http://spheresofpower.wikidot.com/local--files/test-page/Treasures_of_the_Spheres.jpg link="https://www.drivethrurpg.com/product/315654/Treasures-of-the-Spheres?affiliate_id=549120"]]
+**Treasures of the Spheres**
+$5.99
+----
+[[/=]]
+[[/div]]
 Whether the party is searching for a powerful artifact or brewing potions before an adventure, magical items are an integral part of virtually all fantasy campaigns.
 
 The following rules and guidelines cover the use and creation of magic items through the SoP system.
 
-**Important Note:** The rules presented on this page consist mainly of those from Items of Power, an official supplement that //replaces// the crafting rules found in the original Spheres of Power book (and will be replacing them in Ultimate Spheres of Power, an omnibus).
-
-See the following pages for specific examples of items:
+See the following pages for specific examples of items. In addition, many class pages have magical items that are specifically written for those classes. Those items are kept on the class pages, rather than the pages below, for easy reference.
 * [[[Alchemical Items]]]
-* [[[Potions]]]
-* [[[Rings]]]
-* [[[Rods]]]
+* [[[Apparatuses]]]
+* [[[Apparatuses, Metamagic]]]
+* [[[Charms]]]
+* [[[Compounds]]]
+* [[[Fabled Items]]]
+* [[[Implements]]]
+* [[[Marvelous Items]]]
+* [[[Radiances]]]
+* [[[Schematics]]]
 * [[[Scrolls]]]
-* [[[Staves]]]
+* [[[Spell Engines]]]
+* [[[Spellzones]]]
 * [[[Summoning Orbs]]]
-* [[[Wands]]]
-* [[[Wondrous Items]]]
+* [[[Talent Crystals]]]
+
+**See Also:** [[[Loot Tables]]], for randomized treasure generation
+**See Also:** [[[Mastering Magical Items]]], a guide to choosing, using, and creating magic items in Spheres of Power, including how to deal with corner cases like changing slots for items that normally need to be held. (These are published guidelines, not merely a Wiki guide.)
 
 + Using Magic Items
++++ Spell Trigger and Spell Completion Items
+While some Pathfinder magic items (swords, potions, armor, etc.) are usable by virtually any creature, some items (scrolls, wands, and staves) can only be used by magic-users who meet their prerequisites. Specifically, the core Pathfinder system requires the caster to use magic of their same source (arcane or divine), and to have the spell on their spell list. However, while GMs may add distinctions such as the arcane/divine divide to the Spheres of Power system through casting traditions, concepts such as spell lists do not exist in the Spheres of Power system.
 
-++ ##000000|Spell Trigger and Spell Completion Items##
+Instead, when using the Spheres of Power system and determining if a creature may activate a spell completion item such as a scroll, the creature must possess the base sphere associated with that item, and their caster level must be at least equal to the caster level of the item. If their caster level is lower than the caster level of the spell-completion item, they suffer a chance of failure, as detailed in the description of scrolls from the Pathfinder Roleplaying Game Core Rulebook.
 
-While some Pathfinder magic items (swords, potions, armor, etc.) are usable by virtually any creature, some items (scrolls, wands, and staves) can only be used by magic-users who meet their prerequisites. Specifically, the core Pathfinder system requires the caster to use magic of their same source (arcane or divine), and to have the spell on their spell list. However, while GMs may add distinctions such as the arcane/divine divide to the SoP system through casting traditions, concepts such as spell lists don’t exist in the SoP system.
+In order to activate a spell trigger item such as a wand, the caster must possess the base sphere associated with that item. When converting a pre-existing magic item to the Spheres of Power system, or when determining which base sphere an Spheres of Power caster must possess in order to activate a spell trigger or spell completion magic item from the core Pathfinder magic system, see Rituals under Advanced Magic.
 
-Instead, when using the SoP system and determining if a creature may activate a spell completion item such as a scroll, the creature must possess the base sphere associated with that item, and their caster level must be at least equal to the caster level of the item. If their caster level is lower than the caster level of the spell-completion item, they suffer a chance of failure, as detailed in the description of scrolls from the Pathfinder Roleplaying Game Core Rulebook.
-
-In order to activate a spell trigger item such as a wand, the caster must possess the base sphere associated with that item. When converting a pre-existing magic item to the SoP system, or when determining which base sphere an SoP caster must possess in order to activate a spell trigger or spell completion magic item from the core Pathfinder magic system, see the conversion chart listed on the [[[Rituals]]] page. As always, the GM is the final arbiter of what magic falls under which sphere.
-
-++ ##000000|Adjusting Wealth by Level##
-
-The Pathfinder Roleplaying Game contains guidelines for estimating the amount of wealth a character is expected to have at any given level, commonly referred to as Wealth-by-Level.
-
-While not a hard rule of the game, Wealth-by-Level was created as a GM aid when determining how powerful characters are expected to be at different points in the game.
++++ Adjusting Wealth by Level
+The Pathfinder Roleplaying Game contains guidelines for estimating the amount of wealth a character is expected to have at any given level, commonly referred to as Wealth-by-Level. While not a hard rule of the game, Wealth-by-Level was created as a GM aid when determining how powerful characters are expected to be at different points in the game.
 
 The rules and guidelines presented below can produce both new magic items as well as altered prices for standard magic items. This could alter both how a character spends their money, as well as how much power a certain amount of gold can bring them. When mixing multiple magic item creation systems together, this can cause even greater inconsistencies, as the same item may have a variety of costs depending on which system was used to create it.
 
 While the following rules are designed for balanced gameplay, GMs are encouraged (especially when mixing systems) to adjust prices, powers, and availability of items as needed for a particular game, and to disallow any options that prove disruptive or unbalancing.
+
+++++ Wiki Note: Magic Items And Magic Skill Checks
+If an item's effect requires making a magic skill check, the MSB for the item is equal to its caster level. If you are able to change the caster level for the effect, such as using the Wand Wielder feat for spell engines, you may use the altered caster level instead of the item's caster level to determine the MSB for the effect.
 ----
-+ Crafting Magic Items
++ Crafting Magic Items: Quick Conversions
+In Pathfinder, all pre-written magic items are listed with a set of prerequisites for their creation, often in the form of feats, spells, a minimum caster level, and required material components. When using the Spheres of Power system to create these pre-existing magic items, there are two ways to quickly adapt their prerequisites to fit with the Spheres of Power system. These methods require substitutions to be made with either magic talents or rituals.
 
-++ ##000000|Quick Conversions##
+**Magic Talents:** When creating a pre-existing magic item, with GM permission, a caster may simply substitute an appropriate magic talent for the required spell: Fire Blast can replace burning hands or fireball, while the Suppression Illusion talent can substitute for the invisibility spell in a similar fashion. The GM is always the final arbiter when determining which talent would replace which spell.
 
-In Pathfinder, all pre-written magic items are listed with a set of prerequisites for their creation, often in the form of feats, spells, a minimum caster level, and required material components. When using the Spheres of Power system to create these pre-existing magic items, there are two ways to quickly adapt their prerequisites to fit with the SoP system. These methods require substitutions to be made with either magic talents or rituals.
+**Rituals:** For games that employ rituals and/or traditional Pathfinder spellcasting, a Spheres of Power caster may use an item’s prerequisite spell as a ritual in order to meet the item’s crafting prerequisites. This can even allow a spherecaster to use the traditional magic item creation rules, using ritual level in place of spell level when determining the cost of a new magic item. When using this method, treat the ritual’s material cost as if it were a spell’s costly material component.
+----
++ Item Creation with Spheres of Power
+It is entirely possible to use the Spheres of Power system with the Pathfinder Roleplaying Game magic item crafting rules without issue; most of the Pathfinder Roleplaying Game’s magic item creation rules differentiate magic items by slot only, and through the ritual system, spherecasters can even meet all of the prerequisites for an item without the need for conversion of any kind. However, Spheres of Power introduces many alternate forms for various magic items to better synergize them with the Spheres of Power system (changing how magical effects are constructed, altering how staves and wands work, etc.) and introduces new crafting guidelines to better work with these changes. These rules are included below.
 
-++ ##000000|Magic Talents##
-
-When creating a pre-existing magic item, with GM permission, a caster may simply substitute an appropriate magic talent for the required spell: Fire Blast can replace fireball or burning hands, while the Invisibility Illusion talent can substitute for the illusion spell in a similar fashion. The GM is always the final arbiter when determining which talent would replace which spell.
-
-++ ##000000|Rituals##
-For games that employ rituals and/or traditional Pathfinder spellcasting, an SoP caster may use an item’s prerequisite spell as a ritual in order to meet the item’s crafting prerequisites. This can even allow a sphere caster to use the traditional magic item creation rules, using ritual level in place of spell level when determining the cost of a new magic item. When using this method, treat the ritual’s material cost as if it were a spell’s costly material component.
-
-++ ##000000|Item Creation with Spheres of Power##
-
-It is entirely possible to use the Spheres of Power system with the Pathfinder Roleplaying Game magic item crafting rules without issue; most of the Pathfinder Roleplaying Game’s magic item creation rules differentiate magic items by slot only, and through the ritual system, spherecasters can even meet all of the prerequisites for an item without the need for conversion of any kind. However, Spheres of Power introduced many alternate forms for various magic items to better synergize them with the Spheres of Power system (changing how magical effects are constructed, altering how staves and wands work, etc.) and introduced new crafting guidelines to better work with these changes. These rules have been updated and expanded, and are included below.
-
-**Note:** The rules and guidelines for creating magic items, both here and in core Pathfinder, are suggestions only; there will always be items that 'should' cost more or less than what the guidelines would indicate, and items whose powers are so unique that they don't quite fit into any guidelines at all. When creating custom magic items, prices should be compared to those of existing items that accomplish similar effects, and the GM is always the final arbiter if a particular price is too high, too low, or whether a desired item simply should not be able to exist.
-
+**Note:** The rules and guidelines for creating magic items, both here and in core Pathfinder, are suggestions only; there will always be items that ‘should’ cost more or less than what the guidelines would indicate, and items whose powers are so unique that they do not quite fit into any guidelines at all. When creating custom magic items, prices should be compared to those of existing items that accomplish similar effects, and the GM is always the final arbiter if a particular price is too high, too low, or whether a desired item simply should not be able to exist.
+----
 + Creating Magic Items
-To create a magic item, a caster must possess the appropriate item creation feat, the base sphere associated with the item’s abilities, and a caster level with that sphere equal to or greater than the caster level of the item (note: charms, implements, and magical arms and armor use the crafter’s MSB instead of caster level). Temporary increases in caster level, such as a Thaumaturge’s forbidden lore class feature or benefits gained through certain casting tradition boons or magic items, do not count towards a caster’s maximum caster level for the purpose of crafting magic items. A creature cannot create a magic item dependent on an ability they cannot use due to a casting tradition drawback.
+To create a magic item, a caster must possess the appropriate item creation feat, the base sphere associated with the item’s abilities and any talents expressly required to create its effect (for example, a talent from Destruction’s fire (blast type) group to create an item that uses fire), and a caster level with that sphere equal to or greater than the caster level of the item (charms, implements, and magical arms and armor use the crafter’s MSB instead of caster level). Temporary increases in caster level, such as a thaumaturge’s forbidden lore class feature or benefits gained through certain casting tradition boons or magic items, do not count towards a caster’s maximum caster level for the purpose of crafting magic items. A creature cannot create a magic item dependent on an ability they cannot use due to a casting tradition drawback.
+
+(**Wiki Note:** You must meet all prerequisites when crafting compounds, spell completion, or spell trigger items; you cannot bypass a talent prerequisite for these items by increasing the DC by +5.)
 
 Additionally, the crafter must supply materials whose cost is equal to 1/2 the base cost of the item to be created. When adding an enchantment to an existing object, the object must be supplied separately (for example, when creating a magic sword, a masterwork sword must be supplied in addition to the cost of the enchantment itself).
 
-Finally, the crafter needs a fairly quiet, comfortable, and well-lit place in which to create a magic item. The crafter must spend 8 hours (1 day) per 1,000 gp in the item’s base cost crafting the magical item. Scrolls, potions, oils, and dusts only take 2 hours to craft if their base cost is 250 gp or lower, but all other items require a minimum of 8 hours to create. The crafter spends the materials required to create the item at the beginning of the crafting process, and cannot create more than one item per day. A creature cannot spend more than 8 hours per day crafting. The days spend crafting needn’t be consecutive.
+Finally, the crafter needs a fairly quiet, comfortable, and well-lit place in which to create a magic item. The crafter must spend 8 hours (1 day) per 1,000 gp in the item’s base cost crafting the magical item. Scrolls and compounds such as potions, oils, and dusts only take 2 hours to craft if their base cost is 250 gp or lower, but all other items require a minimum of 8 hours to create. The crafter spends the materials required to create the item at the beginning of the crafting process, and cannot create more than one item per day. A creature cannot spend more than 8 hours per day crafting. The days spend crafting do not need to be consecutive.
 
 Crafting must be done in 4 hour blocks at a minimum. If a crafter is working in an area that is distracting or dangerous (such as in the back of a wagon or in an area that is not quiet), they net only half benefit from time spent crafting. A caster can attempt to work on crafting a magic item throughout a day of adventuring (spending time during meals or their shift during watch to do what work they can), but the combination of distracting environments and lack of time mean they only net 2 hours of crafting per day spent in this fashion.
 
-At the end of the crafting period, the caster must make a single skill check (usually Spellcraft, but the caster may substitute an appropriate Craft skill determined by the nature of the item in question) to determine if the item was created correctly. The DC of this check is equal to 10 + the caster level of the item. Failing this check means the item does not function correctly and the materials and time are wasted. Failing this check by 5 or more results in the creation of a cursed item.
+At the end of the crafting period, the caster must attempt a single skill check (usually Spellcraft, but the caster may substitute an appropriate Craft skill determined by the nature of the item in question) to determine if the item was created correctly. The DC of this check is equal to 10 + the caster level of the item. Failing this check means the item does not function correctly and the materials and time are wasted. Failing this check by 5 or more results in the creation of a cursed item. When creating a magic item, the crafter must possess the base sphere associated with the enchantment created, either on their own or through an ally, implement, wand/spell engine, or scroll. If the item requires a talent the crafter does not have access to either on their own or through another caster willing to help (other than the base sphere), they may attempt to create the item anyway, increasing the Spellcraft DC by +5 for each missing talent.
 
-When creating a magic item, the crafter must possess the base sphere associated with the enchantment created, either on their own or through an ally, implement, wand, or scroll. If the item requires a talent the crafter does not have access to either on their own or through another caster willing to help (other than the base sphere), they may attempt to create the item anyway, increasing the Spellcraft DC by +5 for each missing talent.
++++ Cooperative Casting
+If you need another character or a magic item (such as a wand or spell engine, implement, or scroll) to supply one of an item’s requirements, both you and the other character or the magic item must be present for the entire duration of the crafting process.
 
-**Cooperative Casting**
-If you need another character or a magic item (such as a wand, implement, or scroll) to supply one of an item’s requirements, both you and the other character or the magic item must be present for the entire duration of the crafting process.
++++ Awakening [TS:WAT]
+Some items are capable of undergoing a process known as Awakening. When a piece of equipment Awakens, it becomes a minor artifact with a caster level of 20 and gains improved effects. When or how equipment Awakens should be set by the GM to match the campaign, but it should typically involve something like completing a great quest or receiving the blessing of a deity before a particularly important battle. Awakened items usually have powers suitable for high-level characters, so regardless of other factors, GMs should not set Awakening conditions that allow these items to display their true power too early in the game. Awakened equipment does not have a predetermined value because artifacts have no cost, but are worth approximately 250,000 gp (for weapons and implements, or half that for armor/shields and other equipment) if GMs need to know how much of a character’s wealth they should treat it as.
 
+Items with Awakening effects can still be upgraded normally before that happens, but cannot be upgraded further once awakening occurs. The GM may adjust the effects of the Awakening based on previous upgrades.
+
++++ Construction Requirements [TS:WAT]
+Creatures cannot ignore any class feature requirements for crafting items from Treasures of the Spheres: Weapons and Tools (items marked [TS:WAT]) by increasing the DC of the skill check to make the item. The creature crafting these items (or an ally helping them craft) must have the actual class feature being used for such items. This rule includes mythic options that might normally let creatures bypass such requirements.
+
+A character cannot use the Use Magic Device skill, or a similar effect, to emulate having class features for items from Treasures of the Spheres: Weapons and Tools. These items are limited to characters who actually possess the class feature.
+
++++ Mythic Magic Items
+Magic items can be just as iconic as the heroes who wield them, and this is especially true for items in mythic games. Mythic spheres items (i.e. any item with Mythic Crafter in its requirements, or with an effect referencing mythic power) are designed specifically for games using the mythic rules and may use advanced talents or other particularly high-powered effects, although they may also be appropriate for other games depending on the intended power level. As always, the GM is the final arbiter of which items are obtainable in any particular game. Remember, a character cannot craft an item that uses advanced talents without access to that talent; they cannot simply increase the skill check to bypass the talent requirement. Additionally, a character cannot bypass the Mythic Crafter requirement for items that have that.
+
+++++ Legendary Implements
+As implements can take almost any form, a legendary item made out of an implement can be considered any type of legendary item that matches the implement’s form (for example, the legendary surge of a necklace implement would apply to saving throws and the legendary surge of a staff implement would apply to concentration checks and magic skill checks to overcome spell resistance). Alternatively, a legendary implement’s legendary surge may always apply to concentration checks and magic skill checks regardless of what form it takes (chosen at the time the legendary item is created). Any legendary item ability that applies to caster level checks applies to magic skill checks. A handheld implement such as a rod or staff is also considered a weapon for the purpose of determining what legendary item abilities may be applied to it. Implements can also have the following legendary item ability applied to them:
+
++++++ Unstoppable Magic
+The wielder can expend two uses of legendary power when creating a magic effect with this implement to ignore any spell resistance, spell immunity, damage reduction, energy resistance, or energy immunity the target possesses. An item must be an implement and be a minor or major artifact to have this ability.
+
+++++ Legendary Item Ability: Servant Of The Spheres
+Once per day, as a standard action, your legendary item can take the form of a companion (as a summon of the Conjuration sphere, except the item itself transforms into the creature), with a number of Hit Dice equal to twice your tier. This companion is considered a mythic creature and its natural weapons can overcome DR/epic. It also gains the benefits of one talent from the Conjuration for every two tiers you have (rounded down), in addition to the one (type) or (form) talent it has from being a companion. Whenever your legendary item companion would be dismissed, it instead reverts to its item form and returns to either your hand or a slot on your body (as appropriate for the type of item it is).
+
+The appearance of this servant is extremely flexible, but is usually somehow evocative of its original item form. The servant can remain for up to 10 minutes per tier (this time must be used consecutively).
+
+The item must be a minor or major artifact with the intelligent legendary item ability, as described in Chapter 5 of Pathfinder Roleplaying Game Mythic Adventures, to take this ability.
+
+++++ Item Special Ability: Mythic Mastery
+This ability can be placed on any magical item for 40,000 gp by any creature who meets the prerequisites for crafting that specific item. An item with the mythic mastery ability grants its user access to a single mythic sphere mastery^^MSoP/MSoM^^ chosen when the item is made, but only as long as its user is a mythic creature and possesses the appropriate base sphere. If that creature already knows the mythic sphere mastery, they may activate its effects twice per day without spending mythic power if it has a mythic power cost. A creature can only gain the benefits of this ability from one item per day, but may equip multiple items with the mythic mastery effect and choose which one to activate when they need it.
+----
 + Talent-Based Item Creation
-
 Some magic items, such as magical weapons and charms, pick their powers from a predetermined list. For other magic items, their power and effects are created by building and combining effects, not unlike the method a caster uses to combine spheres and talents when casting.
 
 When creating a magic item that uses the talent-based creation system, its base cost is determined by multiplying its caster level x its complexity x a base cost determined by the type of item being created, as detailed under the different magic item creation feats listed below. While the item’s caster level determines its power just as it does for casters, the enchantment’s complexity is determined by the number and type of benefits it possesses.
 
 All items created through the talent-based creation system must choose a base sphere and ability from the list presented below, and begin with a complexity of 1. The crafter may increase or decrease the item’s complexity through any of the following alterations, but an effect’s complexity always has a minimum of 1. When combining multiple talent-based effects or spell engine/wand effects, they all must be crafted with the same caster level, though each may have its own complexity (charms, implements, and magical weapons and armor do not follow this rule, as their prices are not calculated depending on caster level). An effect’s caster level must be equal to or greater than its complexity.
+
+**Activation Time:** You may increase or decrease the time needed to activate the item, increasing or decreasing its complexity as follows. [DbH]
+
+**Table: Activation Time changes**
+||~ Activation Time ||~ Complexity Alteration || 
+|| 1 full-round action || -1 Complexity || 
+|| 1 move action || +3 Complexity || 
+|| 1 swift action || +5 Complexity || 
+
+**Add Talent:** You may add the effects of any talent from the item’s base sphere at a cost of +1 complexity per talent. If adding the effects of a talent would normally require the caster to spend additional spell points, increase the complexity by 1 per spell point required.
+
+//Note:// If adding an advanced talent, the complexity increase becomes +2, +1 per spell point required for its use. All talents listed as prerequisites for that advanced talent must have already been added to the effect, and the item must have a caster level equal to or higher than the talent’s prerequisites. A crafter must have access to an advanced talent to add it to an item; advanced talents cannot be bypassed by increasing the Spellcraft check DC.
+
+**Feat Integration:** You may apply non-metamagic feats you possess (such as Frozen To The Bone or any Dual Sphere feat) to any sphere effects created by the item at the cost of +1 complexity per feat. The item’s caster level must be equal to or higher than the minimum caster level or MSB needed to take the feat. [DbH]
 
 **Increased Range:** You may increase or decrease the range of an effect by 1 step at a cost of +1 complexity per increase, or -1 complexity per decrease.
 
@@ -92,7 +157,7 @@ All items created through the talent-based creation system must choose a base sp
 || Medium (100 ft. + 10 ft./caster level) || 
 || Long (400 ft. + 40 ft./caster level) || 
 
-**Increased Duration:** You may increase or decrease the duration of an effect by 1 step at a cost of +2 complexity per increase or -2 complexity per decrease.
+**Increased Duration:** You may increase or decrease the duration of an effect by 1 step at a cost of +2 complexity per increase or -2 complexity per decrease. Note that you cannot modify durations for talent-based items by applying talents instead of using this modifier.
 
 **Chart: Duration**
 ||~ Duration Increments || 
@@ -101,26 +166,44 @@ All items created through the talent-based creation system must choose a base sp
 || 10 minutes/caster level || 
 || 1 hour/caster level || 
 
-**Add Talent:** You may add the effects of any talent from the item’s base sphere at a cost of +1 complexity per talent. If adding the effects of a talent would normally require the caster to spend additional spell points, increase the complexity by 1 per spell point required.
+**Metamagic Integration:** You may apply metamagic feats to any sphere effects created by the item at the cost of +1 complexity per feat +1 complexity for each additional spell point spent to use the metamagic feat (for example, applying the Maximize Spell feat to an item would increase its complexity by +4). The item’s caster level must exceed the minimum caster level or MSB needed to take the feat. [DbH]
 
-**Note:** If adding an advanced talent, the complexity increase becomes +2, +1 per spell point required for its use. All talents listed as prerequisites for that advanced talent must have already been added to the effect, and the item must have a caster level equal to or higher than the talent’s prerequisites. A crafter must have access to an advanced talent to add it to an item; advanced talents cannot be bypassed by increasing the Spellcraft check DC.
+**Simultaneous Triggers:** If an item has the ability to trigger multiple different effects, you may construct the item so that two or more of these effects may be activated as part of the same action. This increases the complexity of the item by 3 for every effect beyond the first that can be triggered as part of the same action. [DbH]
 
 **Unique Changes:** Because magic items are at their best when they are unique and original, there is technically no limitation to what alterations you may make to a magic item. When making a unique change to a magic item’s abilities that is of equal power to adding a magic talent or an additional spell point, increase the complexity by +1. If adding a unique limitation that would be the equivalent of a drawback, decrease the complexity by 1.
 
 **Variable Effects:** It is possible to create a magic item that gives choice to its user; for example, an item that creates a destructive blast that allows the user to pick from a variety of blast types or blast shapes. For such an item, the complexity increase for every option beyond the most expensive would be 1/2 the usual increase.
 
-+ Item Base Powers
-
+++++ Mythic Talent-Based Item Crafting
+When crafting items, characters may wish to include mythic abilities in addition to typical sphere effects. If a character possesses the Mythic Crafter path ability, they may utilize the following options in talent-based item creation.
+* **Advanced Integration:** Advanced talents applied to items made by a character with Mythic Crafter only increase the item’s complexity by 1 each rather than 2.
+* **Mythic Infusion:** You may increase an item’s complexity by 1 to apply a single Mythic Sphere Mastery that you possess to whatever effect the item generates. If an ability requires mythic power to use, the wielder of the item must spend any mythic power necessary to fuel the effect. You may increase the item’s complexity further, in which case the item can supply one use of mythic power per point of additional complexity per day to fuel its own abilities.
+----
+++ Item Base Powers
 +++ Alteration
 **Range:** personal
 **Duration:** 1 round/caster level
-**Effect:** The target gains the effects of a shapeshift (Fortitude negates), gaining the blank form and 1 trait +1 per 5 caster levels chosen from the basic Alteration sphere. These must be chosen when the item is crafted and do not change from use to use.
+**Effect:** The target gains the effects of a shapeshift (Fortitude negates), gaining the Blank Transformation and 1 trait +1 per 5 caster levels chosen from the basic Alteration sphere. These must be chosen when the item is crafted and do not change from use to use.
 
-**Complexity**
-* **Forms and Traits:** Changing the form or traits granted by this effect increases the complexity by 1 for every talent required. If using a talent, form, or trait would normally cost extra spell points, increase the complexity by an additional +1 per spell point required.
-* **Increased Traits:** You may add an additional trait to the form, increasing the complexity by 1.
-* **Other Talents:** Adding the effect of the Mass Alteration talent to this item increases the complexity by 2.
-* **Multiple Forms:** If the target may change or choose their form or traits from among the talents included in the item, increase the complexity by an additional +1.
+__**Complexity**__
+
+**Forms and Traits:** Changing the form or traits granted by this effect increases the complexity by 1 for every talent required. If using a talent, form, or trait would normally cost extra spell points, increase the complexity by an additional +1 per spell point required.
+
+**Increased Traits:** You may add an additional trait to the form, increasing the complexity by 1.
+
+**Other Talents:** Adding the effect of the Mass Alteration talent to this item increases the complexity by 2.
+
+**Multiple Forms:** If the target may change or choose their form or traits from among the talents included in the item, increase the complexity by an additional +1.
+
++++ Bear
+**Bear Spirit**
+**Range:** personal
+**Duration:** 1 minute/caster level
+**Effect:** Apply a bear spirit to the target, as the base Bear sphere.
+
+__**Complexity**__
+
+**Improved Bear Spirit:** You may give a target bearacteristics, or the ability to activate a bearacteristic once per bear spirit, by improving the complexity by +1, +1 per spell point required. To give a target unlimited uses of a bearacteristic, the complexity increases by +3, +2 per spell point required.
 
 +++ Blood
 **Blood Control**
@@ -128,73 +211,87 @@ All items created through the talent-based creation system must choose a base sp
 **Duration:** 1 round/caster level
 **Effect:** Apply blood control (with either the bleed or coagulate ability) to the target, as the base Blood sphere.
 
-**Complexity**
-* **Improved Blood Control:** You may change the (quicken) or (still) effect granted or apply a Blood talent to the effect by increasing the complexity by 1. If the talent or ability would normally cost extra spell points, increase the complexity by an additional +1 per spell point required.
-* **Control Required:** Instead of the base abilities, you may apply a (quicken) or (still) ability that requires the target to already be under the effects of your blood control to a target that is under the effects of your blood control. This does not increase complexity.
-
 **Extract Blood Construct**
 **Range:** touch
-**Duration:** 1 round/caster level.
-**Effect:** Create a blood construct per the Extract Blood Construct talent of no more than 1 HD per caster level.
+**Duration:** 1 round/caster level
+**Effect:** Create a blood construct per the Extract Blood Construct talent of no more than 1 Hit Die per caster level.
+
+__**Complexity**__
+
+**Improved Blood Control:** You may change the (quicken) or (still) effect granted or apply a Blood talent to the effect by increasing the complexity by 1. If the talent or ability would normally cost extra spell points, increase the complexity by an additional +1 per spell point required.
+
+**Control Required:** Instead of the base abilities, you may apply a (quicken) or (still) ability that requires the target to already be under the effects of your blood control to a target that is under the effects of your blood control. This does not increase complexity.
 
 +++ Conjuration
 **Range:** personal (adjacent space)
 **Duration:** 1 round/caster level
 **Effect:** Summons a companion from the Conjuration sphere. Unlike other summoned companions, this companion does not begin with 1 (form) talent.
 
-**Complexity**
-* **Form Talents:** Increase the complexity by 1 for every (form) talent the companion possesses.
-* **Increased Duration:** Adding the Lingering Companion talent or the Greater Summoning talent to this effect increases the duration by 1 step for +1 complexity instead of +2 instead of their usual effects. You may increase the duration to 24 hours by adding both talents and increasing the complexity by an additional +2, for a total of +4.
+__**Complexity**__
+
+**Form Talents:** Increase the complexity by 1 for every (form) talent the companion possesses.
+
+**Increased Duration:** Adding the Lingering Companion talent or the Greater Summoning talent to this effect increases the duration by 1 step for +1 complexity instead of +2 instead of their usual effects. You may increase the duration to 24 hours by adding both talents and increasing the complexity by an additional +2, for a total of +4.
 
 +++ Creation
-**Create**
-**Range:** personal (adjacent space)
-**Duration:** 1 round/caster level
-**Effect:** Create an object, as the Creation sphere.
-
 **Alter**
 **Range:** touch
 **Duration:** instantaneous
 **Effect:** Repair or Destroy the target as the base Creation sphere.
 
-**Complexity**
-* **Greater Creation:** To add the effects of a Creation talent (or to change the alter effect bestowed), increase the complexity by 1 for every talent added. If a talent would normally cost extra spell points, increase the complexity by an additional +1 per spell point required. When changing the alter effect from repair or destroy, change the duration to match the ability chosen.
+**Create**
+**Range:** personal (adjacent space)
+**Duration:** 1 round/caster level
+**Effect:** Create an object, as the Creation sphere.
+
+__**Complexity**__
+
+**Greater Creation:** To add the effects of a Creation talent (or to change the alter effect bestowed), increase the complexity by 1 for every talent added. If a talent would normally cost extra spell points, increase the complexity by an additional +1 per spell point required. When changing the alter effect from Repair or Destroy, change the duration to match the ability chosen.
 
 +++ Dark
 **Range:** personal (centered on item)
-**Duration:** 1 round/caster level.
-**Effect:** Create an area of darkness as the Dark sphere, filling a 10 ft. + 5 ft. per 2 caster levels radius area.
+**Duration:** 1 round/caster level
+**Effect:** Create an area of darkness as the Dark sphere, filling a 10 feet + 5 feet per 2 caster levels radius area.
 
-**Complexity**
-* **Blot:** You may change the effect from creating darkness to creating a blot and add a single (blot) talent to the item at no increase in complexity.
-* **Meld:** You may change the effect from creating darkness to granting the target the benefits of a single (meld) talent. This does not increase the complexity unless selecting the Feed on Darkness (meld) talent, in which case it increases the complexity by 2.
-* **Greater Darkness:** To add the effects of a Dark sphere talent, increase the complexity by +1 per talent. If a talent would normally cost extra spell points, increase the complexity by an additional +1 per spell point required.
-* **Shadow:** You may change the effect from creating darkness to generating the effect of a (shadow) talent. Doing so increases the complexity by 1, plus an amount equal to the spell point cost of the talent. Adjust the duration (and casting time if it is less than a standard action) to match that of the talent selected.
+__**Complexity**__
+
+**Blot:** You may change the effect from creating darkness to creating a blot and add a single (blot) talent to the item at no increase in complexity.
+
+**Meld:** You may change the effect from creating darkness to granting the target the benefits of a single (meld) talent. This does not increase the complexity unless selecting the Feed On Darkness (meld) talent, in which case it increases the complexity by 2.
+
+**Greater Darkness:** To add the effects of a Dark sphere talent, increase the complexity by +1 per talent. If a talent would normally cost extra spell points, increase the complexity by an additional +1 per spell point required.
+
+**Shadow:** You may change the effect from creating darkness to generating the effect of a (shadow) talent. Doing so increases the complexity by 1, plus an amount equal to the spell point cost of the talent. Adjust the duration (and casting time if it is less than a standard action) to match that of the talent selected.
 
 +++ Death
+**Ghost Strike**
+**Range:** touch
+**Duration:** variable (as ghost strike)
+**Effect:** Affect the target as with the basic ghost strike from the Death sphere. You may increase the power of your ghost strike (as if spending a spell point) by increasing the complexity by 1.
+
 **Reanimate**
 **Range:** touch
 **Duration:** 1 round/caster level.
-**Effect:** Reanimate a corpse into a skeleton or zombie of no more than 1 HD per caster level.
+**Effect:** Reanimate a corpse into a skeleton or zombie of no more than 1 Hit Die per caster level.
 
-**Ghost Strike**
-**Range:** touch
-**Duration:** variable (as ghost strike/reanimate)
-**Effect:** Affect the target as with the basic ghost strike from the Death sphere. You may increase the power of your ghost strike (as if spending a spell point) by increasing the complexity by 1.
+__**Complexity**__
 
-**Complexity**
-* **Ghost Strike:** If changing the ghost strike bestowed, increase the complexity by 1. When using a ghost strike would normally cost extra spell points, increase the complexity by an additional +1 per spell point required. The ghost strike’s duration always changes to match the ghost strike selected.
-* **Multiple Targets:** When reanimating targets, you may increase the complexity by 2 to reanimate multiple targets at once, by no more than 2 HD per caster level, each target must be within close range, and each reanimated creature cannot exceed 1 HD per caster level. For every additional +1 added to the complexity, you may increase the total number of reanimated creatures by 1 HD, to a total amount equal to your Death sphere maximum.
-* **Death Talents:** You may add the effects of any Death sphere talent by increasing the complexity by 1. If a talent would normally cost extra spell points, increase the complexity by an additional +1 per spell point required.
+**Ghost Strike:** If changing the ghost strike bestowed, increase the complexity by 1. When using a ghost strike would normally cost extra spell points, increase the complexity by an additional +1 per spell point required. The ghost strike’s duration always changes to match the ghost strike selected.
+
+**Multiple Targets:** When reanimating targets, you may increase the complexity by 2 to reanimate multiple targets at once, by no more than 2 Hit Dice per caster level, each target must be within close range, and each reanimated creature cannot exceed 1 Hit Die per caster level. For every additional +1 added to the complexity, you may increase the total number of reanimated creatures by 1 Hit Die, to a total amount equal to your Death sphere maximum.
+
+**Death Talents:** You may add the effects of any Death sphere talent by increasing the complexity by 1. If a talent would normally cost extra spell points, increase the complexity by an additional +1 per spell point required.
 
 +++ Destruction
 **Range:** touch
 **Duration:** instantaneous
 **Effect:** 1d6 bludgeoning damage per 2 caster levels. You may increase the damage to one die per caster level by increasing the complexity by 1.
 
-**Complexity**
-* **Destruction Talents:** You may apply the effects of a (blast shape) or (blast type) talent to the magic item by increasing the complexity by 1 for each talent added. If a talent would normally cost extra spell points, increase the complexity by an additional +1 per spell point required.
-* **Admixture:** Adding the Admixture talent to an item does not increase the complexity, but the complexity is increased for each blast type added, as outlined above under ‘Destruction Talents’.
+__**Complexity**__
+
+**Destruction Talents:** You may apply the effects of a (blast shape) or (blast type) talent to the magic item by increasing the complexity by 1 for each talent added. If a talent would normally cost extra spell points, increase the complexity by an additional +1 per spell point required.
+
+**Admixture:** Adding the Admixture talent to an item does not increase the complexity, but the complexity is increased for each blast type added, as outlined above under ‘Destruction Talents’.
 
 +++ Divination
 **Divine**
@@ -207,161 +304,557 @@ All items created through the talent-based creation system must choose a base sp
 **Duration:** 1 minute/caster level
 **Effect:** Grant the target the base sense from the Divination sphere.
 
-**Complexity**
-* **Divine:** You may change the subject of your divining to one of the other subjects you may divine for from the base Divination sphere (divine alignment, divine undead, etc.) by increasing the complexity by 1.
-* **Sense:** You may change the sense granted by increasing the complexity by 1 per spell point in the sense’s cost.
-* **Greater Divination:** You may apply any other talent from the Divination sphere by increasing the complexity by 1. If this sense or divine would normally cost additional spell points, increase the complexity by +1 per the number of additional spell points instead.
+__**Complexity**__
+
+**Divine:** You may change the subject of your divining to one of the other subjects you may divine for from the base Divination sphere (Divine Alignment, Divine Undead, etc.) by increasing the complexity by 1.
+
+**Sense:** You may change the sense granted by increasing the complexity by 1 per spell point in the sense’s cost.
+
+**Greater Divination:** You may apply any other talent from the Divination sphere by increasing the complexity by 1. If this sense or divine would normally cost additional spell points, increase the complexity by +1 per the number of additional spell points.
 
 +++ Enhancement
 **Range:** touch
-**Duration:** 1 round/caster level.
+**Duration:** 1 round/caster level
 **Effect:** Apply the basic enhancement of the Enhancement sphere to a target.
 
-**Complexity**
-* **Change Enhancement:** You may change the enhancement applied by increasing the complexity by +1. If the applied enhancement would normally cost extra spell points, increase the complexity by an additional +1 per spell point required.
+__**Complexity**__
+
+**Change Enhancement:** You may change the enhancement applied by increasing the complexity by 1. If the applied enhancement would normally cost extra spell points, increase the complexity by an additional +1 per spell point required.
 
 +++ Fallen Fey
 **Range:** personal
 **Duration:** 1 minute/caster level
 **Effect:** Apply fey-link to the target, as the base Fallen Fey sphere, as well as the Nature-connection fey-blessing linked to a terrain selected when the item is created.
 
-**Complexity**
-* **Improved Fey-Blessing:** You may change the fey-blessing effect granted, add an additional terrain to Nature-connection, or apply a Fallen Fey talent to the effect by increasing the complexity by 1. If the talent or ability would normally cost extra spell points, increase the complexity by an additional +1 per spell point required.
+__**Complexity**__
+
+**Improved Fey-Blessing:** You may change the fey-blessing effect granted, add an additional terrain to Nature-connection, or apply a Fallen Fey talent to the effect by increasing the complexity by 1. If the talent or ability requires the expenditure of a spell point, increase the complexity instead by 2.
 
 +++ Fate
 **Range:** personal
 **Duration:** 1 round/caster level
-**Effect:** Create a serendipity consecration, affecting a 20-ft. radius burst.
+**Effect:** Create a Serendipity consecration, affecting a 20- foot radius burst.
 
-**Complexity**
-* **Word:** To apply the effects of a word instead of a consecration, increase the complexity by 1, +1 for every spell point required by the word in question. Adjust the duration (and casting time if it is less than a standard action) to match that of the word selected.
-* **Greater Fate:** You may apply the benefits of a Fate sphere talent to the item by increasing the complexity by 1. If applying a talent would normally cost extra spell points, increase the complexity by an additional +1 per spell point required.
-* **Motif:** You may change the effect to granting a target the effects of a motif. When doing, so, increase the duration to 1 minute per caster level, and increase the complexity by 1.
+__**Complexity**__
+
+**Word:** To apply the effects of a word instead of a consecration, increase the complexity by 1, +1 for every spell point required by the word in question. Adjust the duration (and casting time if it is less than a standard action) to match that of the word selected.
+
+**Greater Fate:** You may apply the benefits of a Fate sphere talent to the item by increasing the complexity by 1. If applying a talent would normally cost extra spell points, increase the complexity by an additional +1 per spell point required.
+
+**Motif:** You may change the effect to granting a target the effects of a motif. When doing so, increase the duration to 1 minute per caster level, and increase the complexity by 1.
 
 +++ Illusion
 **Range:** touch (adjacent space)
 **Duration:** 1 round/caster level.
 **Effect:** Create a silent visual illusion as the Illusion sphere ability.
 
-**Complexity**
-* **Change Sense:** If you wish to change the affected sense, losing the visual aspect of the illusion and replacing it with another sense, do not increase the complexity.
-* **Altered Effects:** To add an Illusion talent to this ability, increase the complexity by 1. If the talent would normally cost extra spell points, increase the complexity by an additional +1 per spell point required.
-* **Glamer:** To change the effect from creating a figment to creating a glamer (an illusion that is attached to a target, such as Illusionary Disguise or another talent), increase the complexity by 1 as normal when adding a talent. When adding invisibility, increase the complexity by +2 instead of +1.
+__**Complexity**__
+
+**Change Sense:** If you wish to change the affected sense, losing the visual aspect of the illusion and replacing it with another sense, do not increase the complexity.
+
+**Altered Effects:** To add an Illusion talent to this ability, increase the complexity by 1. If the talent would normally cost extra spell points, increase the complexity by an additional +1 per spell point required.
+
+**Glamer:** To change the effect from creating a figment to creating a glamer (an illusion that is attached to a target, such as Illusionary Disguise or another talent), increase the complexity by 1 as normal when adding a talent. When adding Suppression, increase the complexity by +2 instead of +1.
 
 +++ Life
-**Range:** personal
+**Range:** touch
 **Duration:** instantaneous
 **Effect:** Cure or restore the target, as the base Life sphere.
 
-**Complexity**
-* **Increased Restoration:** To add the effects of a Life talent to this ability, increase the complexity by 1 for every talent added.
-* **Versatile Restoration:** To allow this affect to function as both a cure and restore ability, increase the complexity by 2.
-* **Temporary Hit Points:** To change this effect from cure or restore to granting 1 temporary hit point per caster level, increase the duration to 1 minute/caster level and do not change the complexity. To add temporary hit points onto the effect without replacing the initial effect, increase the complexity by 1.
+__**Complexity**__
+
+**Increased Restoration:** To add the effects of a Life talent to this ability, increase the complexity by 1 for every talent added.
+
+**Versatile Restoration:** To add the ability to use different variants of restore or to usable either as a cure or a restore, increase the complexity by 1 for each additional option. If these different options are all used as part of the same usage, increase the complexity by 2 instead.
+
+**Temporary Hit Points:** To change this effect from cure or restore to granting 1 temporary hit point per caster level, increase the duration to 1 minute/caster level and do not change the complexity. To add temporary hit points onto the effect without replacing the initial effect, increase the complexity by 1.
 
 +++ Light
 **Range:** personal (object)
 **Duration:** 1 minute/caster level
-**Effect:** Create bright light, as the Light sphere.
+**Effect:** The target glows and creates bright light, as the Light sphere.
 
-**Complexity**
-* **Lesser Light:** To create normal light (as the Light sphere), decrease the complexity by 1. This cannot decrease the complexity lower than 1.
-* **Lens:** When changing the effect from creating light to instead bestowing a lens, increase the complexity by 1.
-* **Nimbus:** Adding a (nimbus) talent to the effect increases the complexity by 1.
-* **Powerful Light:** To apply the effects of a Light talent, increase the complexity by 1. If this talent would normally cost extra spell points, increase the complexity by an additional +1 per spell point required.
+__**Complexity**__
+
+**Lesser Light:** To create a glow that only produces normal light (as the Light sphere), decrease the complexity by 1. This cannot decrease the complexity lower than 1.
+
+**Lens:** When changing the effect from creating light to instead bestowing a lens, increase the complexity by 1.
+
+**Nimbus:** Adding a (nimbus) talent to the effect increases the complexity by 1.
+
+**Powerful Light:** To apply the effects of a Light talent, increase the complexity by 1. If this talent would normally cost extra spell points, increase the complexity by an additional +1 per spell point required.
+
++++ Mana
+**Expunge**
+**Range:** Close
+**Duration:** Instantaneous
+**Effect:** Apply the Spellburn talent to the target, as the base Mana sphere.
+
+__**Complexity**__
+
+**Alternate Expunge:** Instead of applying the Spellburn talent, you may apply the effects of an (expunge) talent. This increases the complexity by 1.
+
+**Enhanced Expunge:** You may apply the effects of a talent that modifies the expunge, such as Explosive Expunge. This increases the complexity by 2.
+
+**Manabond:** Applying the effects of any manabond talent to the item increases the complexity by 2, and an additional +1 if the manabond requires an additional spell point.
+
+**Manipulate**
+**Range:** Close
+**Duration:** 1 round
+**Effect:** A targeted area with a radius of 10 feet + 5 feet per 5 caster levels is affected by a single effect as listed under the Shuffle base ability. This lasts for 1 round, but you may spend a spell point to allow the effect to last 1 round per caster level.
+
+__**Complexity**__
+
+**Alternate Manipulation:** Instead of applying the base manipulate ability, you may apply the effects of another ((manipulation)) talent. This increases the complexity by 1, and the item must have another talent to be granted to grant a talent through Gift Of Knowledge. You may not apply the effects of the Transfer talent.
+
+**Enhanced Manipulation:** You may apply the effects of a talent that modifies the manipulate, such as Retained Imbuement. This increases the complexity by 2.
+
+**Manabond:** Applying the effects of any manabond talent to the item increases the complexity by 2, and an additional +1 if the manabond requires an additional spell point.
 
 +++ Mind
 **Range:** touch
 **Duration:** as charm
 **Effect:** Plant a Suggestion in the target’s mind, as the base Mind sphere lesser charm. The target must be of your own creature type.
 
-**Complexity**
-* **Alternate Charm:** To change the charm applied by this effect, increase the complexity by 1.
-* **Cloud:** When changing the effect to that of a (cloud) talent, the area becomes either a 10-ft. radius + an extra 5 ft. per caster level, or a 10 ft. wide area that extends for a length of 10 ft. + 10 ft. per caster level. Increase the complexity by +2.
-* **Open Mind:** To allow this charm to affect all creature types (so long as the creature isn’t immune to mind-altering effects), increase the complexity by 1.
-* **Group Charm:** To affect an additional 1 target per 2 caster levels (minimum +1), increase the complexity by 2.
-* **Greater Charm:** To use a charm’s greater variant, increase the complexity by 1. To use a charm’s powerful variant, increase the complexity by 3.
+__**Complexity**__
+
+**Alternate Charm:** To change the charm applied by this effect, increase the complexity by 1.
+
+**Cloud:** When changing the effect to that of a (cloud) talent, the area becomes either a 10-foot radius + an extra 5 feet per caster level, or a 10-foot wide area that extends for a length of 10 feet + 10 feet per caster level. Increase the complexity by +2.
+
+**Open Mind:** To allow this charm to affect all creature types (so long as the creature is not immune to mind-altering effects), increase the complexity by 1.
+
+**Mass Charm:** To affect an additional 1 target per 2 caster levels (minimum +1), increase the complexity by 2. 
+
+**Greater Charm:** To use a charm’s greater variant, increase the complexity by 1. To use a charm’s powerful variant, increase the complexity by 3.
 
 +++ Nature
 **Range:** personal (centered on item)
-**Duration:** 1 round/caster level.
+**Duration:** 1 round/caster level
 **Effect:** Produce a geomancing effect, as one included in the base Nature sphere. The user is not immune to a geomancing effect they create.
 
-**Complexity**
-* **Greater Geomancing:** To change the geomancing effect to one granted by a talent, or to add the effects of a talent to this ability, increase the complexity by 1. If the talent or effect would normally cost extra spell points, increase the complexity by an additional +1 per spell point required.
-* **Nature Spirit:** To change the effect to bestowing a (spirit) effect, increase the complexity by 1.
+__**Complexity**__
+
+**Greater Geomancing:** To change the geomancing effect to one granted by a talent, or to add the effects of a talent to this ability, increase the complexity by 1. If the talent or effect would normally cost extra spell points, increase the complexity by an additional +1 per spell point required.
+
+**Nature Spirit:** To change the effect to bestowing a spirit effect, increase the complexity by 1.
 
 +++ Protection
-**Ward**
-**Range:** personal (centered on caster)
-**Duration:** 1 round/caster level
-**Effect:** Create the basic ward, as the base Protection sphere.
-
 **Aegis**
 **Range:** personal
 **Duration:** 1 minute/caster level
 **Effect:** Grant the target the benefits of the basic aegis granted by the Protection sphere.
 
-**Complexity**
-* **Greater Protection:** To change the ward or aegis granted, or to apply the effects of a Protection talent, increase the complexity by 1. If the talent or ability would normally cost extra spell points, increase the complexity by an additional +1 per spell point required. This is in addition to the spell point usually required to create an aegis.
-* **Succor:** When adding a (succor) talent without changing the aegis granted, increase the complexity by +1. If adding a succor to replace a granted aegis, do not increase the complexity; the succor can be activated at any time during the effect’s duration.
+**Ward**
+**Range:** personal (centered on caster)
+**Duration:** 1 round/caster level
+**Effect:** Create the basic ward, as the base Protection sphere.
+
+__**Complexity**__
+
+**Greater Protection:** To change the aegis or ward granted, or to apply the effects of a Protection talent, increase the complexity by 1. This is in addition to the spell point usually required to create an aegis.
+
+**Succor:** When adding a (succor) talent without changing the aegis granted, increase the complexity by +1. If adding a succor to replace a granted aegis, do not increase the complexity; the succor can be activated at any time during the effect’s duration.
 
 +++ Telekinesis
 **Range:** personal (item, user, or object attached to item)
 **Duration:** 1 round/caster level
 **Effect:** You may cause a target to move through space, as the Telekinesis base sphere Sustained Force ability (Will negates). If moved into a square occupied by another object, this may perform a Bludgeon maneuver.
 
-**Complexity**
-* **Greater Telekinesis:** You may apply the effects of any Telekinesis talent to this item by increasing the complexity by 1. If the talent would normally cost extra spell points, increase the complexity by an additional +1 per spell point required.
+__**Complexity**__
+
+**Greater Telekinesis:** You may apply the effects of any Telekinesis talent to this item by increasing the complexity by 1. If the talent would normally cost extra spell points, increase the complexity by an additional +1 per spell point required.
 
 +++ Time
 **Range:** personal
 **Duration:** 1 round/caster level
 **Effect:** Apply a Haste or Slow to the target, as the base Time sphere.
 
-**Complexity**
-* **Improved Time:** You may change the alter time effect granted or apply a Time talent to the effect by increasing the complexity by 1. If the talent or ability would normally cost extra spell points, increase the complexity by an additional +1 per spell point required.
+__**Complexity**__
+**Improved Time:** You may change the alter time effect granted or apply a Time talent to the effect by increasing the complexity by 1. If the talent or ability would normally cost extra spell points, increase the complexity by an additional +1 per spell point required.
 
 +++ War
 **Range:** personal (centered on caster)
 **Duration:** 1 round/caster level
-**Effect:** Apply the effects of the base totem from the War sphere to a stationary 50-ft. area centered on the caster.
+**Effect:** Apply the effects of the base totem from the War sphere to a stationary 50-foot area centered on the caster.
 
-**Complexity**
-* **Rally:** To use a rally on a target instead of creating a totem, increase the complexity by +2. If the rally costs more than 1 spell point, increase the complexity by +1 for every additional spell point. Change the duration to instantaneous and the activation time to an immediate action. To apply Greater Rally and affect an additional 1 target per 2 caster levels within range, increase the complexity by another +2.
-* **Greater Totem:** To change the totem placed or apply the effects of another War talent, increase the complexity by 1. If the talent would normally cost extra spell points, increase the complexity by an additional +1 per spell point required.
-* **Mandate:** When changing the granted effect to creating a mandate between two people, the range becomes touch and the duration becomes 1 round per caster level.
-* **Momentum:** When changing the effect to granting the benefits of a (momentum) talent increase the duration to 1 minute per caster level, and increase the complexity by 1. The item grants a number of momentum points equal to the item’s caster level.
+__**Complexity**__
+
+**Rally:** To use a rally on a target instead of creating a totem, increase the complexity by +2. If the rally costs more than 1 spell point, increase the complexity by +1 for every additional spell point. Change the duration to instantaneous and the activation time to an immediate action. To apply Greater Rally and affect an additional 1 target per 2 caster levels within range, increase the complexity by another +2.
+
+**Greater Totem:** To change the totem placed or apply the effects of another War talent, increase the complexity by 1. If the talent would normally cost extra spell points, increase the complexity by an additional +1 per spell point required.
+
+**Mandate:** When changing the granted effect to creating a mandate between two people, the range becomes touch and the duration becomes 1 round per caster level.
+
+**Momentum:** When changing the effect to granting the benefits of a (momentum) talent, increase the duration to 1 minute per caster level, and increase the complexity by 1. The item grants a number of momentum points equal to the item’s caster level.
 
 +++ Warp
 **Range:** personal
 **Duration:** instantaneous
-* **Effect:** Teleport the target anywhere within close range that the user can see (Will negates if unwilling).
+**Effect:** Teleport the target anywhere within close range that the user can see (Will negates if unwilling).
 
-**Complexity**
-* **Increased Effect:** To increase the range the target is teleported (close to medium, medium to long), increase the complexity by 2 for each increase.
-* **Greater Warp:** To apply the effects of a Warp talent, increase the complexity by 1. If that talent would normally cost extra spell points, increase the complexity by an additional +1 per spell point required.
-* **Bend Space:** To change the effect to bending space, increase the complexity by 1. If the bend space effect would normally cost extra spell points, increase the complexity by an additional +1 per spell point required. Change the duration to match the chosen bend space effect.
+__**Complexity**__
+
+**Increased Effect:** To increase the range the target is teleported (close to medium, medium to long), increase the complexity by 2 for each increase.
+
+**Greater Warp:** To apply the effects of a Warp talent, increase the complexity by 1. If that talent would normally cost extra spell points, increase the complexity by an additional +1 per spell point required.
+
+**Bend Space:** To change the effect to bending space, increase the complexity by 1. If the bend space effect would normally cost extra spell points, increase the complexity by an additional +1 per spell point required. Change the duration to match the chosen bend space effect.
 
 +++ Weather
 **Range:** personal
 **Duration:** 1 round/caster level
 **Effect:** Change one weather category’s severity level as the base Weather sphere within a close-range radius burst.
 
-**Complexity**
-* **Increase Effect:** To increase the size of the area affected (close-range radius burst to medium-range radius burst, medium-range radius burst to long-range radius burst), increase the complexity by 2 for each such increase.
-* **Greater Weather:** You may apply the effects of a Weather talent by increasing the complexity by 1. If the talent would normally cost extra spell points, increase the complexity by an additional +1 per spell point required.
-* **Mantles and Shrouds:** When changing the base effect to bestowing a mantle or a shroud, do not increase the complexity, and change the range to touch.
+__**Complexity**__
 
-++++ Miscellaneous Variables
+**Increase Effect:** To increase the size of the area affected (close-range radius burst to medium-range radius burst, medium-range radius burst to long-range radius burst), increase the complexity by 2 for each such increase.
+
+**Greater Weather:** You may apply the effects of a Weather talent by increasing the complexity by 1. If the talent would normally cost extra spell points, increase the complexity by an additional +1 per spell point required.
+
+**Mantles and Shrouds:** When changing the base effect to bestowing a mantle or a shroud, do not increase the complexity, and change the range to touch.
+
++++ Miscellaneous Variables
 When creating a magic item, the following options are also available.
 
-**No Space Limitation:** If an item needn’t be worn nor held in hand to be used (for example, a magical tattoo or an orbiting ioun stone), multiply the cost by 2.
+**No Space Limitation:** If an item does not need to be worn nor held in hand to be used (for example, a magical tattoo or an orbiting ioun stone), multiply the cost by 2.
 
-**Permanency:** Generally, effects bestowed by magic items are not permanent. When dealing with an exception to this rule (for example, the potion of love everlasting), the item must have a duration measured at least in hours, a caster level of at least 10, and the complexity must be raised by an additional +2. Permanent effects may be dispelled or removed by the Break Enchantment Life talent, or a similar effect such as the break enchantment spell. A GM should be careful when allowing permanent effects.
+**Permanency:** Generally, effects bestowed by magic items are not permanent. When dealing with an exception to this rule (for example, the love everlasting potion), the item must have a duration measured at least in hours, a caster level of at least 10, and the complexity must be raised by an additional +2. Permanent effects may be dispelled or removed by the Break Enchantment Life talent, or a similar effect such as the break enchantment spell. A GM should be careful when allowing permanent effects.
 
 **Multiple Effects:** It is possible to add two or more effects to the same magic item (for example, an item that both can create a destructive blast that also grants its wearer a bonus to Intelligence). When doing so, the crafter must have all of the appropriate item creation feats, and every effect must have the same caster level (the caster level of the item itself), but can have different complexities. When finished, multiply the cost of every effect except for the most expensive one by 1.5.
 
 **Mixing Effects:** Just as it is possible to add two or more different effects onto the same magic item, it is possible to make an effect that is a combination of two different sphere abilities (for example, instead of a device that can create darkness or destructive blasts, you could create a device that creates darkness and affects everything within that darkness with a destructive blast). When creating such an effect, calculate each effect separately (they must have the same caster level but can have different complexities), then multiply the cost of every effect except for the most expensive one by 2.
+----
++ Crafting Traditions [TS]
+Casting traditions in Spheres of Power are a way to thematically and mechanically distinguish spellcasters from each other. In the same way, crafting traditions represent a way to uniquely modify magic items in order to better represent the personality and style of each crafter or culture. Characters gain their first crafting tradition the first time they become able to craft magic items.
+
+A character can change their crafting tradition (or learn a new one) by spending one day per character level studying under someone who has that tradition or from an instruction manual. Characters cannot mix and match elements of crafting traditions, or choose to not apply effects (unless the effect states otherwise) - traditions represent specific ways of crafting items and all of the techniques must be used to get items to function properly.
+
+This means that some crafting traditions may not be able to craft all types of items, though crafters may always choose to craft an item without applying a crafting tradition they know. Identifying the properties of a magic item reveals all details of its crafting tradition.
+
+As magical items are permanent objects, retraining never retroactively changes existing items, and any in-progress items must be restarted, although the cost of the materials is not lost. Characters may know up to 2 crafting traditions, plus an additional crafting tradition for every crafting feat beyond their first.
+
+++++ How Strong Are Crafting Traditions?
+
+Crafting traditions are a low-power way of adding flavor to magical items, and this is by design. Items already provide bonuses and useful effects for characters, and crafting traditions are not meant as a way to replace that. To put it another way, crafting traditions should not be better or more exciting than the item itself, even for low-cost items.
+
+Crafting traditions work especially well for items that players find or that are part of a local society. A town with a bottle that pours out endless fresh water is lucky, but a town might be built around a bulky, near-immobile fountain in order to take advantage of it. They can also represent the unique characteristics of the societies that made them. For example, items made by fey may be vulnerable to cold iron, while items made by a society without reliable metalworking or advanced tools may be fragile and prone to breaking. In short, crafting traditions are mainly about style and personality, rather than power, and should be used as such.
+
+++ Creating a Crafting Tradition
+Crafting traditions are split into drawbacks (which are penalties to items or their users), qualities (which provide balanced effects), and boons (which can be gained by taking drawbacks). The overall combination of these determines the effects of the crafting tradition. The GM is the final arbiter of which crafting traditions exist in a specific game world and whether or not new traditions can be made. In many cases, crafting traditions are defined by the setting and could be limited by casting tradition. For example, wizards trained at an arcane school may craft one way while desert nomads may craft in a completely different way.
+
+Not every drawback, quality, or boon is applied to every type of item. Some traits only apply to specific types of items, as specified in their description. Also, crafters are not required to apply boons to a tradition, regardless of the number of drawbacks it has. Some crafters simply enjoy messing with anyone who uses their items.
+
+++++ Note: Characters Who Magically Form Equipment
+Characters who can create equipment through magic, such as armorists, may apply a crafting tradition they know to that summoning. The crafting tradition must have effects that are relevant for the item; this bars drawbacks such as Expensive, which does not apply to conjured gear. The GM is the final arbiter of whether or not a given drawback, quality, or boon is appropriate for a character who can magically form equipment.
+
++++ Drawbacks
+A crafting tradition can have any number of drawbacks, though most only have 2-4, and rarely more than 6 at any one time.
+
+++++ Area-Bound
+Area-Bound items are attuned to a single location, such as a cave, leyline intersection, or magical tower. The item only functions when within 1 mile per caster level of that spot, though creators may choose to lower this maximum distance when crafting the item.
+
+Alternatively, the item may need to be placed in a specific area in its bonded location, such as a holy spring, alchemical charging station, or on top of a shrine dedicated to a specific deity. It must remain there for at least 5 minutes in order to regain its daily uses (and can only be recharged this way once per day). Items without daily uses need to be recharged every 24 hours or they will stop functioning until recharged in this way, but can be used at any distance from their bound location.
+
+Area-Bound items may be bound to different locations of the same type by attempting a Spellcraft check with a DC of 25 + its caster level after an 8 hour ritual. You gain a +15 bonus to this check if you possess the same crafting tradition as the item. How similar an area must be depends on the item. For example, sacred relics could be bound to any altar of a particular faith, but druidic items might need to be linked to rare and special groves or natural wonders.
+
+**Items Affected:** Apparatuses, Charms, Constructs, Implements, Magical Weapons And Armor, Marvelous Items
+
+++++ Bulky
+Bulky items are so large and/or dense that they are functionally immobile, weighing 200x more than normal. This weight cannot be reduced by any means. Although this is a drawback, Bulky items typically have far more hit points than most items because they are so large.
+
+++++ Charged
+Charged items require the user to add charges to them before they function. The items require a number of charges to activate equal to 1 per complexity of the item + 1 additional charge for every spell point that would have been spent. See the Tech sphere in The Inventor’s Handbook for more information on charges.
+
+**Items Affected:** Marvelous Items (unlimited uses/day items only)
+
+++++ Clingy
+Clingy items stay attached to their users once they are first held or worn (as appropriate for the type of item), refusing to come off under any circumstances. Some Clingy items are mildly movable, allowing for things like switching the hand holding them or what finger they are on, but they cannot be removed through any normal method. This is a curse effect and can be temporarily suppressed through options like the Exorcism (word) talent or the Break Enchantment talent, normally against a check equal to 10 + the item’s caster level. This curse is an innate part of the item and cannot be permanently removed except by effects that specifically have that power, which also negates the qualities and/or boons the item gained from its crafting tradition.
+
+This drawback can only be applied to items that you can reasonably hold, wear, or carry.
+
+++++ Clumsy [3PP]
+The item is unwieldy, with misuse producing disastrous results. Whenever the character rolls a natural 1 on an attack roll made with the item, the attack is considered to be a critical fumble threat. Use the Critical Fumble Deck/Table to determine the effects of this critical fumble.
+
+**Items Affected:** Magical Weapons, Marvelous Items which require attack rolls
+
+^^**Source:** Card Casting 3: Volatile Variance^^
+
+++++ Collective
+Crafters with this tradition can only make items in sets. Collective items are always crafted in groups of two or more items, and must be completed together. Thus, crafters must spend the time and resources to complete all of the items before using them. The number of items required for a collected set is determined by the crafting tradition and cannot be changed without retraining the tradition. All items in a collected set must be worn or collected together for any of them to function properly.
+
+If a tradition requires a Collective of two items, this counts as one drawback. If a tradition requires a Collective of four items, this counts as two drawbacks. If a tradition requires a Collective of six or more items, this counts as three drawbacks.
+
+++++ Complex
+Complex items require a specific skill to use, with a DC of 5 + the item’s caster level. For example, users may need to Intimidate the item and threaten it into working, attempt a Heal check to pour a potion on the right part of the body, or use Perform (comedy) to tell a joke that amuses the item. The skill check is made as part of attempting to use the item and does not require any additional actions. This drawback may be taken multiple times. Each time it is, it adds another skill roll that a character must make each time they try to use the item. The crafter must be trained in the skill required, but may select a different skill (or skills) they are trained in each time they craft an item.
+
+++++ Cumbersome [Alienist HB]
+Cumbersome items are awkward to utilize, requiring that an additional hand be used to gain their benefits. For example, Cumbersome armor could require that a character constantly hold it in place using one hand while a Cumbersome implement may require two hands to use.
+
+++++ Deckbound [3PP]
+This magic item only functions when its effect is played as an item card by a character with the Custom Cards feat. This drawback may only be applied to compounds, marvelous items, scrolls, spell engines, and summoning orbs
+
+++++ Educated
+Educated items can only be used by people who are trained in a specific magic or martial sphere. This drawback may be selected up to three times. Each time it is, you may select a different sphere, and items crafted under traditions that require training in multiple spheres require users to be trained in all of them. The tradition this drawback is part of cannot be used to create items that normally require training in a specific sphere, such as spell trigger items. This drawback cannot be bypassed through the Use Magic Device skill or similar methods.
+
+++++ Expensive
+Expensive items cost 25% more than usual to craft. This does not increase their selling price, only the cost to craft them. A crafting tradition cannot have both this and the Cheap boon.
+
+++++ Fragile
+Fragile items have half their usual hardness and half their usual number of hit points. Any successful critical hit against the item gives it the broken condition, regardless of damage done. Incompatible: Resilient
+
+++++ General Drawbacks
+A general drawback from the following list can be applied as a drawback for a crafting tradition: Addictive Casting, Draining Casting, Emotional Casting, Extended Casting, Fey-Infused Magic, Madness Mantra, Magical Signs, Material Casting, Narcoleptic Casting, Painful Magic, Somatic Casting, Terrain Casting, Unsettling Casting, and Verbal Casting. At GM discretion, certain applications of Innate Curse may also be applicable as General Drawbacks. If a general drawback can be taken more than once for a casting tradition, it may also be taken more than once for a crafting tradition.
+
+If the tradition has the Taxing drawback, the following general drawbacks can also be selected: Coy Caster, Mental Focus, and Rigorous Concentration.
+
+Any casting drawback that depends on the user’s spellcasting ability instead applies to the item. For example, emotional casting as a crafting drawback will prevent the user from using the magic item while under an emotional effect. The casting drawback selected must be one that would not normally apply to items of that type. (If it does not somehow restrict the use of the item, it is not actually a drawback, so there are no benefits for selecting it.)
+
+Use the item’s caster level to determine any effect based on caster level, and half of the item’s caster level (rounded down, minimum 1) as its casting ability modifier. Any effect that triggers on spending spell points instead triggers when the item is activated.
+
+With the GM’s approval, other general drawbacks can be applied.
+
+**Items Affected:** Apparatuses, Compounds, Marvelous Items, Spell Engines
+
+++++ Heretical
+Heretical items have a 15% chance of causing backlash when activated. When this occurs, the magical effect fails to manifest (although it still expends uses, if applicable), the item takes a -1 penalty to its effective caster level (becoming nonfunctional if its effective caster level reaches 0), and the user takes a -1 penalty to attack rolls, saving throws, skill checks, and to their effective caster level (minimum 1). This penalty is cumulative and stacks with both itself and the penalties of the thaumaturge’s forbidden lore class feature. Only items that must be activated to be used can be crafted as Heretical items.
+
+Penalties from this effect reset after both the user and the item get eight hours of rest.
+
+++++ Inhuman Use [Alienist HB]
+Items with the Inhuman Use drawback are designed to be used by creatures with abnormal physiology. A creature must possess and use one of the following natural attacks to wear or operate the item, chosen at the time the item is created: a bite attack, a claw attack, a tentacle attack, a tail attack, or some other specific type of natural attack at GM discretion.
+
+++++ Lagging
+The item gets in your way as you attempt to perform tasks. Whenever you would roll an initiative check while holding or wearing this item, you roll a d16 rather than a d20.
+
+^^**Source:** Card Casting 3: Volatile Variance^^
+
+++++ Oath-Bound
+Oath-Bound items require their users to adhere to some type of behavioral code known as an oath. These items actively draw their power from the existence and impact of this oath, and as such, do not function if they are too similar to any oath a character already follows (such as a paladin’s code of conduct). The details of an Oath-Bound item’s code is always decided by the GM and should be a genuine limit on any character that attempts to use the item, but appropriate examples include class codes of conduct, monk vows, and oaths from Champions of the Spheres: Study and Practice. Oath-Bound items immediately and instantly convey the details of their oath to any creature that picks them up.
+
+++++ Sacrificing
+Sacrificing items only recharge their uses when their user sacrifices a creature whose Hit Dice are equal to at least half the item’s caster level to the item. Making this sacrifice requires a coup de grace against a valid target while the item is within 5 feet. If a creature survives the sacrifice attempt, the sacrificing item does not recharge.
+
+Sacrificing items can only be recharged once per day through this method. This drawback can only be applied to items that have a limited number of uses per day. This drawback may be added to a crafting tradition a second time. When it is, the item can only be recharged by sacrificing creatures of a specific type or subtype, such as outsiders or undead. This otherwise functions as detailed above.
+
+With the GM’s permission, Sacrificing items can also be powered by sacrificing 10 creatures with 5 or fewer Hit Dice per caster level of the item. There may be specific locations where creatures can be sacrificed further away, such as ritual chambers to kill peasants en masse.
+
+++++ Taxing
+This drawback may only be applied to magic items with an effect that needs to be activated and functions instantaneously or for a specific period of time. This drawback never applies to items that can be used for an unlimited period of time.
+
+The user must attempt a concentration check in order to use the item when applicable (such as when grappled or in bad weather), though attempting to use the item does not provoke an attack of opportunity unless it normally would. The user may use their normal bonus to concentration checks or half their Hit Dice (rounded down, minimum 1) instead, whichever is higher.
+
+If this drawback is taken a second time, using the item always provokes attacks of opportunity and requires concentration checks to activate defensively. Treat this as casting defensively for all other mechanical purposes.
+
+++++ Unsalvageable [DbH]
+The item does not change hands easily, eliminating itself should it come into the wrong hands. When a creature wielding or wearing this item is reduced to 0 hit points, the item disintegrates into dust and is no longer usable for any purposes. Certain other conditions (such as being picked up by a creature that the User-Bound quality would not permit or when the wielder utters a certain command word) may also cause the item to disintegrate in this way.
+
+++++ Unwieldy
+This drawback can only be applied to items that require an attack roll or are used as part of a skill check. Unwieldy items are constructed roughly and take a -1 penalty to attack rolls made with them or to skill checks that involve using them, increasing by -1 at CL 4th and every four caster levels thereafter (to a maximum of -6 at CL 20th).
+
+This stacks with any other penalties. If you have any effect that modifies the caster level of an item, the effect of the item, or anything similar, take the worse number for determining this penalty.
+
+++++ Vulnerable
+The item is particularly vulnerable to one type of damage, such as cold iron or fire damage. Damage of this type bypasses the item’s hardness, and taking 25% or more of its hit points in damage of that type gives a vulnerable item the broken condition. This drawback is particularly appropriate for items with an obvious thematic vulnerability and may be applied separately from a regular crafting tradition. For example, it makes sense for items made of regular paper to be particularly weak to fire. Boons, qualities, and other traits cannot protect an item from its vulnerability (although external sphere effects applied to the item can). For example, if an item has the Resilient boon, its extra hardness would not apply to damage from this vulnerability. The damage type should be reasonably common within the setting.
+
++++ Qualities
+Qualities offer both positive and negative traits. A crafting tradition can have one quality and no drawbacks or boons, though they should rarely have more than one quality.
+
+++++ Binding
+The item has a creature (usually an outsider of some kind) serving as the item’s power source, adding its power to the item’s but also granting it a measure of control. When creating the item, an extra material ingredient is required: one or more thematically appropriate creatures with at least a total number of Hit Dice equal to the caster level of the item. The creature(s) must be present for the entirety of the item’s construction and either be willing or helpless as a participant. The creature is then fused into the item when the item is completed, becoming a part of the item. Creatures do not physically age or change while bound within the item.
+
+The item becomes an intelligent magic item, using the creature’s mental ability scores, alignment, senses, skills, spells and spell-like abilities as its own, with an ego score calculated off these abilities, and retaining the original creature’s motivations. When creating the magic item, the creator(s) may choose to try to reduce the creature’s natural abilities (excluding its mental ability scores and skills) in order to reduce the item’s ego by taking a -1 penalty to the Craft check for every 1 point of ego that would be reduced. Even if the item’s Intelligence is stripped of the ability to use its spell-like abilities, those abilities can be substituted for a spell requirement. If the item is ever destroyed, the bound creature is set free.
+
+++++ Dregs Of Magic
+Users can attempt to use items with this quality even if the item is out of daily uses. Only items with a limited number of daily uses, and at least three uses per day, can have the Dregs Of Magic. It is possible to apply this tradition to items that gain more uses later, in which case it does not function until the item has at least three daily uses. Each time the item is used while out of daily uses, it gains a cumulative 20% chance that it fails whenever it is used (even if it currently has daily uses left). Roll for its failure chance before the item is activated. When an item with Dregs Of Magic fails, it does not activate (wasting the action used to try and activate it), it gains the broken condition, and it becomes unusable until repaired.
+
+Repairing the item does not reduce its chance of failure; instead, for every 24 hours straight that the item has its maximum number of charges, its failure chance goes down by 10% (to a minimum of 0%). Creatures cannot attempt to draw the Dregs Of Magic from an item more than twice per day.
+
+++++ User-Bound
+User-Bound items are limited to a specific type of user (such as a paladin, a human with red hair, or a wizard with a Charisma score of at least 16). Unless wielded by such a user, the item either functions at reduced power (such as lower caster level, reduced abilities, or fewer uses), or not at all. The creator determines how much of a reduction in the item’s effects this quality grants.
+
+In addition, the creator may specify that when wielded by another kind of specific creature (such as an evil-aligned creature or a mermaid with tattoos), it bestows a negative level to the wielder for as long as they are in a position to use the item (such as by wielding a weapon or wearing an amulet).
+
+All variables of this effect are decided at the time of the item’s creation, and do not need to be the same as other items the user crafts.
+
++++ Boons
+Boons represent benefits that can be gained by taking drawbacks, with one boon gained for every two drawbacks taken. Each boon may only be applied to an item once unless it specifically says otherwise.
+
+++++ Alien Energies
+Your item draws its magic from an unusual location, such as some forms of technology or an alternate matrix of magic (the specifics should be determined by both the player and the GM working together). Those who are unfamiliar with this source take a -2 penalty against attempts to suppress the effects of items with this boon, and their spell resistance is reduced by 2 against any effects from your item that allow spell resistance. Creatures familiar with alien energies are those who possess this same boon as part of a crafting tradition they know, the Alien Source casting tradition boon for the same source of power, the Harmonic Counter feat, or one magic sphere used in constructing the item (if there were more than one, you choose which one applies for this effect at the time you make the item).
+
+++++ Brutalizing
+The item has erratic and deadly effects when it strikes true. Whenever the character confirms a critical hit on an attack roll made with the item or a sphere effect augmented with this item., the character applies a drawn or rolled effect from the Critical Hit Deck/Table which is applied to the attack (drawing additional cards based on the attack’s critical damage multiplier as normal).
+
+**Items Affected:** Implements, Magical Weapons and Armor, Marvelous Items which require attack rolls
+
+^^**Source:** Card Casting 3: Volatile Variance^^
+
+
+++++ Cheap
+Reduce the crafting cost of the item by 10% of its original crafting cost (to 45% of the full price of the item). This stacks with other cost reductions and is applied at the same time, but cannot reduce the crafting cost below 40% of the full price. This reduction affects both the crafting and selling price of the item (normally to 90% of the original selling price).
+
+++++ Graft [DbH]
+This item is not a wielded item but rather a component integrated into the user’s body, perhaps replacing a limb or organ.
+
+A graft cannot be forcibly removed or disarmed, nor does it occupy an item slot, but is somewhat difficult to install. Applying a graft to a target requires a 1-hour surgical procedure, during which time the subject must be either willing or helpless. At the end of the hour, the surgeon must attempt a Heal check against a DC of 10 + the graft’s caster level. Failure indicates the patient’s body rejects the graft, indicating that another procedure must be performed to attach the graft.
+
+A graft can be removed with another hour-long surgery and a successful Heal check against the original DC. On a failure, either the graft remains or the surgeon removes the graft, destroying it and killing the subject (surgeon’s choice). Alternatively, the surgeon can remove the graft more delicately and use some manner of healing ability to save the subject, attempting a DC 15 Heal check and applying a heal or regenerate spell (or similar effect) immediately afterward. Failing this Heal check always results in the destruction of both graft and subject. A successful surgery removes and destroys the graft.
+
+++++ Holy Relic
+Holy Relics are items that are particularly special to, or revered by, a faith or philosophy. Some incorporate body parts from deities or saints, while others are simply crafted with techniques and designs preferred by a deity or philosophy, such as writings and prayers. Holy Relics can always be used as holy symbols by members of the associated group and grant immunity to one type of effect (such as curses, diseases, poisons, or being fatigued) selected by the GM. A character can only use one Holy Relic unless it is part of a collective set. Alternatively, instead of providing an immunity, once per week a Holy Relic may provide valuable information about the future (as the Read Omens (divine) advanced Divination talent, except that it has a 100% success rate). This effect counts as two boons for determining the number of drawbacks required for the crafting tradition.
+
+++++ Imbued
+Imbued items gain the benefits of a single type of special material from the following list, chosen when the crafting tradition is created. A crafting tradition may select this boon more than once to give crafters a choice of which imbuement to give an item. Imbued items have an increased cost equal to half the price the material would normally cost; for example, Darkwood-Imbued items increase their cost by 5 gp per pound instead of 10 gp per pound. At the GM’s discretion, other imbuement materials may be available, and any materials (such as bone) that are exclusively negative may be treated as drawbacks instead. This boon cannot be used on existing items already made of a special material (such as enchanting an adamantine sword).
+
+Imbued items must be appropriate for the material chosen; for example, if a material can only be used for weapons, then a crafting tradition cannot be used to imbue that material into armor (and, in fact, that tradition can only be used to make weapons). Imbued items often have the visual appearance of their imbued material, but a DC 5 Appraisal check reveals their true nature. Imbuements never protect an item with the Vulnerable drawback from the substance or damage type it is weak to, and imbuements cannot be the same as the item’s vulnerability.
+
+**Imbuement Materials:** Abysium^^PAP61^^, alchemical silver^^CRB^^, angelskin^^UE^^, arcsilver, aszite^^PCS:DR^^, blight quartz^^PA^^, blood crystal^^UE^^, bronze^^UC^^, cold iron^^UE^^, cryptstone^^PAP139^^, darkleaf cloth^^ARG^^, darkwood^^CRB^^, dragonhide^^PPC:DSH^^, dragonskin^^PPC: DSH^^, druchite^^PCS:DR^^, eel hide^^UE^^, elysian bronze^^UE^^, featherglass, fire-forged steel^^UE^^, flowstone, frost-forged steel^^UE^^, gold^^UC^^, greenwood^^UE^^, griffon mane^^UE^^, horacalcum^^PAP61^^, inubrix^^PAP61^^, living steel^^UE^^, mindglass^^PAP126^^, mithral^^CRB^^, noqual^^PAP61^^, obsidian^^UC^^, serpentstone^^PAP41^^, shadow cord, siccatite^^PAP61^^, silversheen^^PC:QGttE^^, singing steel^^PPC:AA2^^, spiresteel^^PAP139^^, stable shadowstuff, stone^^UC^^, sunsilver^^PPC:AA2^^, viridium^^UE^^, voidglass^^PM:TDD^^, whipwood^^ARG^^, wyroot^^ARG^^
+
+^^**Author's Note:** In general, items cannot gain the benefits of more than one type of special material, so this cannot be applied when creating items from other special materials. The primary use of this boon is the ability to create items without requiring access to the material you want to use.^^
+
+++++ Ley-Charged
+Ley-Charged items gain a +2 bonus to caster level or a +1 bonus to their normal effect or save DC when used atop a leyline (with the exact bonus determined by the GM). At the GM’s discretion, items that do not easily fit with these bonuses (or in cases where such bonuses would be inappropriately powerful) may gain another small boost instead. As a general rule, the bonus should be roughly equivalent to a boost in power for having crafted that item at 1 or 2 caster levels higher.
+**Items Affected:** Apparatuses, Compounds, Marvelous Items, Spell Engines
+
+++++ Living
+Living items regain 1 hit point per day as long as they are continually exposed for at least 8 hours to at least a fist-sized amount of a substance that acts as nutrients for them, as described on the following table. At the GM’s discretion, other nutrients may be appropriate for a given item. These items can repair themselves even if broken, though they take two days of continual exposure to a nourishing material to heal each hit point as long as they are broken.
+
+**Table: Materials and Nutrients**
+||~ Item Material ||~ Nutrients || 
+|| Bone || Bones, with or without a corpse around them || 
+|| Leather || Leather skins and animal hides || 
+|| Wood || Damp soil or sunlight || 
+|| Metal || Raw ore or a metal ingot (this can be any metal) || 
+
+++++ Maker’s Mark [DbH]
+The creator of this item has programmed a failsafe into the item to prevent their enemies from using it. Whoever is carrying or using the item takes a -5 penalty on all saving throws against effects created by the item’s original creator or beings which serve the creator.
+
+++++ Resilient
+Resilient items have an extra 2 hardness and 25% more hit points than usual (rounded down, minimum 1). In addition, Resilient armor has a 25% chance to negate the extra damage of any critical hit the user would be affected by. This does not stack with the fortification special ability or any similar effects.
+**Incompatible:** Fragile
+
+++++ Self-Contained
+Self-contained items contain all the energies they need to activate within themselves. They have spell resistance equal to 10 + their caster level, but only against anti-magic effects like an antimagic field (and treat such effects as if the effects allowed spell resistance, even if the effects normally do not). Self-contained items are also capable of working in passive magic-dead zones (no check is required for this). Some areas are active magic-dead zones instead of passive, and self-contained items do not work in those areas. The GM is the arbiter of which areas are active and which are passive, but in general, passive areas are those that merely lack magic, while active magic-dead zones are those where a specific force is blocking off all magic in the area (such as a deity or an artifact preventing spellcasting through means other than an antimagic field, or a planar quality suppressing magic). Self-contained items are not powerful enough to resist such blocks.
+
+Items crafted with this boon, but without varying costs based on their caster level, cannot count more of their caster level towards the special spell resistance than the crafter's character level at the time they crafted the item. For example, if the crafter is level 5 but the item is caster level 10, they could only add five levels for the purpose of calculating spell resistance (giving the item a total SR of 15 against anti-magic effects).
+
+++++ Self-Destruct Protocol [DbH]
+When the item would be destroyed (including when it disintegrates as a result of the Unsalvageable drawback), it explodes violently. This functions as a destructive blast with the Explosive Blast (blast shape) centered on the item with an increased radius (as if a spell point was spent on the effect) but without the enhanced damage from spending a spell point on the blast. The caster level of this blast is equal to the caster level of the item (to a maximum caster level equal to yours at the time of crafting). For example, an item with a caster level of 5 exploding would deal 3d6 damage. The damage type of this blast is usually piercing, bludgeoning, and slashing, although certain items may deal other types of damage depending on their nature (for example, a flaming weapon may deal fire damage when it self-destructs). If multiple items worn by a creature would all be destroyed within the same turn, use only the range and damage of the item with the highest caster level.
+
+++++ Simple
+Simple items have their complexity reduced by 1 (to a minimum of 1). This boon is only applicable to items created with the talent-based system. This counts as two boons, and requires at least four drawbacks to take.
+
+++++ Singular Target [DbH]
+An item is tailored to harm a singular specific creature decided when the item is crafted. The singular target could be a specific named individual or a unique individual that the creator is capable of identifying based on a certain condition (for example, “the person who killed my brother” is acceptable even if the crafter does not know the identity of this person). Against the singular target, any abilities used by the item increase their saving throw DCs by 1, ignore miss chances from concealment, and automatically confirm threatened critical hits.
+
+++++ Unified Power [DbH]
+These items are created in a group and grant additional properties when utilized together. When multiple items with this boon are used by the same creature, they also provide the effects of a single other slotless magic item the creator is capable of making (chosen at the time of creation). The value of this additional item cannot be more than 10% of the total gp value of all of the items currently being wielded. The creator may assign different magic item effects with this ability based on the number of magic items being wielded (for example, a character may be able to use a lesser effect when using 2-4 items with this boon and a greater effect when using 5 or more items with this boon).
+----
+++ Sample Crafting Traditions
++++ City Construction
+Items crafted with this tradition are designed for municipal use and deterring theft, mainly by being so large and so useless away from their construction sites that there’s no point trying to steal them. Several variations of this exist, with varying general drawbacks based on the intended use of the item, but all of them are Area-Bound to their construction site and Bulky.
+**Drawbacks:** Area-Bound (construction site), Bulky, Somatic Casting, Verbal Casting
+**Boons:** Cheap, Resilient
+
++++ Cryptwood Artifice
+Magical items crafted with the Cryptwood Artifice tradition almost always appear to be made of interwoven vines or fungi that grab and wrap around their users, making it very difficult to get rid of once possessed. Because their magic is drawn from the cryptwood, such magic items must also be used near a cryptwood or returned regularly to recharge.
+**Drawbacks:** Area-Bound (cryptwood), Clingy
+**Boons:** Imbued (greenwood)
+
++++ Diviner’s Sight
+Items created with the Diviner’s Sight require familiarity with the delicate art of seeing the future, whereupon a user can see the item itself showing how to activate it. Sadly, such items are easy to knock out of alignment when hit too hard.
+**Drawbacks:** Educated (Divination), Fragile
+**Boons:** Cheap
+
++++ Dregs
+Popular among crafters who have no reason to apply another tradition, the Dregs Of Magic offer a chance for salvation when out of other options… though only with a very real risk of breaking the item.
+**Qualities:** Dregs Of Magic
+
++++ Evil Artifice
+It’s all in the name.
+**Drawbacks:** Clingy, Magical Signs (evil aura), Sacrificing (bulk sacrifices allowed), Vulnerable (good)
+**Qualities:** User-Bound (evil characters; inflicts a negative level on good characters)
+**Boons:** Resilient, Simple
+
++++ Fey-Touched
+Fey-Touched items are either made by the hidden spirits of the land or imbued with their power, and seem to remake themselves when in contact with the natural world.
+**Drawbacks:** Complex (Knowledge (nature)), Vulnerable (cold iron)
+**Boons:** Living
+
++++ Ley-Linked
+Ley-Linked items require more focus to use than most items, but are capable of drawing out extra power when near a suitable vein of energy.
+**Drawbacks:** Mental Focus, Taxing
+**Boons:** Ley-Charged
+
++++ Ridiculously Complicated
+The student who created this tradition was physically removed from their school by an outraged professor, but later got a diploma in the mail grudgingly acknowledging the technical skill involved with creating such intricately - if pointlessly - Complex items.
+**Drawbacks:** Complex (Acrobatics, Disable Device, Linguistics, and Use Magic Device)
+
++++ Sacred Artifice
+This tradition is favored by crafters who create sacred relics.
+**Drawbacks:** Magical Signs (good aura), Verbal Casting
+**Qualities:** User-Bound (good or neutral characters; inflicts a negative level on evil characters)
+**Boons:** Simple
+
++++ Sealing
+The Sealing tradition is used primarily to seal dangerous entities into magical items in order to contain and limit their abilities. This does not always work as intended, especially when intelligent items start learning to move themselves…
+**Qualities:** Binding
+
+----
++ Intelligent Items
+Magic items sometimes have intelligence of their own. Magically imbued with sentience, these items think and feel the same way characters do and should be treated as NPCs. While the rules for creating and using intelligent items is mostly the same between the core and spheres magic systems, the following intelligent item powers and dedicated powers may be used to more fully integrate intelligent item creation into the Spheres of Power magic system.
+
++++ Intelligent Item Senses
+The following are the special senses that intelligent items can acquire. If an effect has multiple levels (Empathy/Speech/Telepathy and Senses 30/60/120), the item can only have one of those levels.
+
+**Table: Intelligent Item Senses and Communication**
+||~ Ability ||~ Base Price Modifier ||~ Ego Modifier ||
+|| Empathy || — || — ||
+|| Speech || +500 gp || — || 
+|| Telepathy || +1,000 gp || +1 || 
+|| Senses (30 ft.) || — || — || 
+|| Senses (60 ft.) || +500 gp || — || 
+|| Senses (120 ft.) || +1,000 gp || — || 
+|| Darkvision || +500 gp || — || 
+|| Blindsense || +5,000 gp || +1 || 
+|| Read languages || +1,000 gp || +1 || 
+|| Read magic || +2,000 gp || +1 || 
+
++++ Intelligent Item Powers
+Each intelligent item should possess at least one power, although more powerful items might possess a host of powers. To find the item’s specific powers, choose or roll on the table below. All powers function at the direction of the item, although intelligent items generally follow the wishes of their owner. Activating a power or concentrating on an active one is a standard action the item takes. The caster level for these effects is equal to the item’s caster level. Save DCs are based off the item’s highest mental ability score.
+
+**Table: Intelligent Item Powers**
+||~ d100 ||~ Item Power ||~ Base Price Modifier ||~ Ego Modifier ||
+|| 01-12 || Cantrips || +1,000 gp || +1 || 
+|| 13-24 || Spherecasting (CL 2nd) || +1,200 gp || +1 || 
+|| 25-38 || Spherecasting (CL 4th) || +2,400 gp || +1 || 
+|| 39-50 || Item has 5 ranks in one skill^^1^^ || +2,500 gp || +1 || 
+|| 51-62 || Spherecasting (CL 6th) || +6,000 gp || +1 || 
+|| 63-74 || Item has 10 ranks in one skill^^1^^ || +10,000 gp || +2 || 
+|| 75-86 || Item has a fly speed of 30 ft. || +10,000 gp || +2 || 
+|| 87-98 || Spherecasting (CL 8th) || +12,000 gp || +2 || 
+|| 99-00 || Spherecasting (CL 10th) || +24,000 gp || +2 || 
+^^1: Intelligent items can only possess Intelligence-, Wisdom-, or Charisma-based skills, unless they also possess some form of ability to move.^^
+
+**Cantrips:** The intelligent item gains the benefits of the Cantrips feat, even if it does not meet the feat’s prerequisites. When using the Cantrips feat, the intelligent item has an effective caster level equal to 1/2 its Ego (to a maximum of caster level 20).
+
+**Spherecasting:** Choose a sphere of magic. The intelligent item gains access to this basic sphere, with an effective caster level equal to that listed in the table above and a spell point pool equal to its highest mental ability score modifier (minimum 1), which becomes its casting ability modifier. If spherecasting is selected more than once, use the higher of the two caster levels, and you may exchange the unused caster levels of the lower spherecasting effect in the following ways: An additional magic talent (for 4 caster levels), an additional spell point (for 2 caster levels). With GM permission, the item may also select a casting tradition.
+
++++ Dedicated Powers
+A dedicated power operates only when an intelligent item is in pursuit of its special purpose. This determination is always made by the item. It should always be easy and straightforward to see how the ends justify the means. Unlike its other powers, an intelligent item can refuse to use its dedicated powers even if the owner is dominant. The caster level for these effects is equal to the item’s caster level. Save DCs are based on the item’s highest mental ability score. See the table below for a list of dedicated powers.
+
+**Table: Special Purpose Item Dedicated Powers**
+||~ d100 ||~ Dedicated Power ||~ Base Price Modifier ||~ Ego Modifier ||
+|| 01-20 || Item can detect any special purpose foes within 60 ft. || +10,000 gp || +1 || 
+|| 21-35 || Full spherecasting (CL 10) || +56,000 gp || +2 || 
+|| 36-50 || Wielder gets a +2 luck bonus on attacks, saves, and checks || +80,000 gp || +2 || 
+|| 51-65 || Full spherecasting (CL 12) || +90,000 gp || +2 || 
+|| 66-80 || Full spherecasting (CL 14) || +132,000 gp || +2 || 
+|| 81-95 || Full spherecasting (CL 16) || +182,000 gp || +2 || 
+|| 96-100 || Item can resurrect its wielder once per month without requiring bodily remains, restoring it to full health with no negative levels. || +200,000 gp || +2 || 
+
+**Full Spherecasting:** Full spherecasting functions similarly to spherecasting, except the intelligent item gains a bonus magic talent and a bonus spell point for every 2 caster levels it possesses. If the intelligent item possesses two dedicated powers that are both spherecasting, it keeps the highest caster level and gains bonus magic talents and spell points equal to 1/2 the lower dedicated power’s caster level.
 ----
 + New Crafting Feats
 The core crafting feats in the Pathfinder Roleplaying Game divides magic item creation into different groups, sometimes relating to the item’s function, other times depending on the item slot the magic item uses. In order to make crafting more seamless with the Spheres of Power system, the following new crafting feats are used throughout this book. Whenever a character would gain or use a base crafting feat (or if you wish to use the basic crafting feats instead of the new ones listed here), they map to the new crafting feats in the following way:
@@ -370,7 +863,7 @@ The core crafting feats in the Pathfinder Roleplaying Game divides magic item cr
 ||~ New Crafting Feat ||~ Core Crafting Feat || 
 || Capture Spell || Scribe Scroll || 
 || Craft Apparatus || Craft Rod || 
-|| Craft Implement of Power || Craft Staff || 
+|| Craft Implement Of Power || Craft Staff || 
 || Craft Spell Engine || Craft Wand || 
 || Craft Marvelous Item || Craft Wondrous Item || 
 || Distill Compound || Brew Potion || 
@@ -381,51 +874,71 @@ The core crafting feats in the Pathfinder Roleplaying Game divides magic item cr
 +++ Capture Spell (replaces Scribe Scroll)
 **Prerequisites:** Caster level 1st.
 
-A character who possesses this feat can create scrolls. In addition to ritual scrolls (which function the same as scrolls from the core Pathfinder Roleplaying Game), they can create scrolls using the talent-based item creation system. Scrolls have the same requirements for deciphering and activating as core Pathfinder scrolls, and a creature must possess a scroll’s base sphere, or else must activate the scroll through the Use Magic Device skill.
+**Benefits:** A character who possesses this feat can create scrolls. In addition to ritual scrolls (which function the same as scrolls from the core Pathfinder Roleplaying Game), they can create scrolls using the talent-based item creation system. Scrolls have the same requirements for deciphering and activating as core Pathfinder scrolls, and a creature must possess a scroll’s base sphere, or else must activate the scroll through the Use Magic Device skill.
 
 A scroll has a base cost of 25 gp x caster level x complexity.
+
+**Wiki Note:** If activating a scroll through the Use Magic Device skill, remember that you must either have an appropriate casting ability score or emulate that through the Use Magic Device skill. The check for that is 10 + Equivalent Spell Level (see Table: Spherecasting and Equivalent Spell Level on the [[[Using Spheres of Power]]] page for Equivalent Spell Levels).
 
 +++ Craft Apparatus (replaces Craft Rod)
 **Prerequisites:** Caster level 1st.
 
-This feat allows for the creation of talent-based magic items that require no activation except to hold, wear, or carry them.
+**Benefits:** This feat allows for the creation of talent-based magic items that require no activation except to hold, wear, or carry them.
 
 Creating an apparatus costs 2,000 gp x caster level x complexity. An item must have an effect measured in hours to be made into an apparatus. Thus, as an example, if making an apparatus of the War sphere totem talent-based item creation effect, which is measured in rounds, the effect would need to have its duration increased by 3 steps (+6 complexity) before it could be made into an apparatus.
 
-**Continual Life Sphere Effects:** Creating an apparatus that grants what is normally an instantaneous effect, such as life sphere effects, has a base complexity of 6. If crafting an apparatus that grants a continual cure, the effect becomes instead fast healing 1 (+1 per additional +1 in complexity). If an apparatus grants a continual restore, it instead grants immunity to one effect (+1 per additional +1 in complexity; a creature cannot gain immunity to effects that require a magic skill check to remove or are unaffected by the Life sphere). Temporary hit points cannot be made into a continual effect.
+**Continual Life Sphere Effects:** Creating an apparatus that grants what is normally an instantaneous effect, such as Life sphere effects, has a base complexity of 6. If crafting an apparatus that grants a continual cure, the effect becomes instead fast healing 1 (+1 per additional +1 in complexity). If an apparatus grants a continual restore, it instead grants immunity to one effect (+1 per additional +1 in complexity; a creature cannot gain immunity to effects that require a magic skill check to remove or are unaffected by the Life sphere). Temporary hit points cannot be made into a continual effect.
 
-+++ Craft Implement of Power (replaces Craft Staff)
++++ Craft Implement Of Power (replaces Craft Staff)
 **Prerequisites:** Magic skill bonus +3.
 
-Just as a weapon can grant enhancement bonuses to its wielder’s attack and damage rolls, an implement of power serves as a focus for magical power, adding enhancement bonuses to its wielder’s caster level with a particular sphere. These bonuses are always enhancement bonuses, and therefore multiple implements benefiting the same sphere do not stack. These bonuses only apply to the wielder themselves; this bonus does not apply to wands nor other magic items they might be using. Implements of Death and Conjuration do not increase the number or statistics of undead or companions; instead, such implements grant circumstance bonuses to attack rolls and skill checks for controlled companions and undead.
+**Benefits:** Just as a weapon can grant enhancement bonuses to its wielder’s attack and damage rolls, an implement of power serves as a focus for magical power, adding enhancement bonuses to its wielder’s caster level with a particular sphere. These bonuses are always enhancement bonuses, and therefore multiple implements benefiting the same sphere do not stack.
 
-Just like a magical weapon, an implement of power has its cost calculated according to its maximum bonus; an implement of power grants an enhancement bonus from +1 to +5, with a total possible bonus of +10. Just like a magic weapon, an implement costs 2,000 gp x (total bonus) squared.
+These bonuses only apply to the wielder; this bonus does not apply to spell engines nor other magic items they might be using. Implements of Conjuration, Death, and Enhancement do not increase the number or statistics of companions, undead, or animated objects; instead, such implements grant circumstance bonuses to the creature’s attack rolls and skill checks.
+
+Most implements are staves; 3-5 feet long sticks of wood or metal that the caster holds, but an implement can take any shape. Just like a magical weapon, an implement of power has its cost calculated according to its maximum bonus; an implement of power grants an enhancement bonus from +1 to +5, with a total possible bonus of +10. Just like a magic weapon, an implement costs 2,000 gp x (total bonus) squared.
 
 An implement uses the crafter’s MSB rather than their caster level when determining the maximum caster level implement they can create. The item’s caster level must be at least 3x the enhancement bonus granted by the implement. If the implement has other magical enchantments placed upon it, use the highest caster level. An implement must have at least a +1 enhancement bonus to have any other implement special abilities.
 
-The following special abilities can be added to an implement:
-* **Magic Talent:** The bearer gains access to a specific talent while they wield the implement. The crafter must have access to a talent to add it to an implement. If the talent is a (form) Conjuration talent, it may be applied to any companion the caster summons, but no more than one creature at any given time. To contain an advanced talent, the implement needs a minimum caster level equal to the talent’s prerequisites; the bearer of the implement does not gain access to the talent unless they or the implement possess all of its prerequisite talents. This benefit can be granted multiple times. **Cost:** +2
-* **Second Sphere:** The staff’s granted enhancement bonus applies to the wielder’s caster level with an additional sphere. This benefit can be granted multiple times. The crafter must have access to any sphere to be added in this fashion. **Cost:** +1
+**Note:** Implements cannot be used to meet caster level prerequisites. If a talent has prerequisites, the user or the staff must have access to all prerequisites to use that talent. Implements can be either slotted items or handheld items, like staves or weapons. They can be combined with other magic items as normal.
 
-**Implements and Automatic Bonus Progression**
-In games making use of the automatic bonus progression rules (Pathfinder Unchained, Copyright 2015, Paizo Inc.), treat implements that grant an enhancement bonus to caster level as weapons for the purpose of attunement bonuses.
+++++ Implements and Automatic Bonus Progression
+In games making use of the automatic bonus progression rules (Pathfinder Unchained), treat implements that grant an enhancement bonus to caster level as weapons for the purpose of attunement bonuses.
+
++++ Craft Marvelous Item (replaces Craft Wondrous Item)
+**Prerequisites:** Caster level 1st.
+
+**Benefits:** A marvelous item is a device that produces a magical effect that must be activated (usually activated as a standard action) often through the touch of a button, the speaking of a command word, or some other action such as striking the item against the ground, holding it against the intended target, throwing the item through the air. Marvelous items use the talent-based method of magic item creation. If a wondrous item’s effect requires a saving throw from any creature, the DC is equal to 10 + 1/2 the item’s caster level.
+
+A marvelous item can be used once per day by default, and costs 400 gp x caster level x complexity. Additionally, a marvelous item can possess the following custom multipliers.
+
+**Multiple Uses:** If a marvelous item can be used multiple times per day, multiply the cost by the number of daily uses. If its uses per day is increased to 5, it becomes usable an unlimited number of times per day.
+
+**Limited Uses:** If a marvelous item can be used at will but only a maximum of 50 times before it loses all of its magic, multiply its cost by 2.5.
+
++++ Craft Rituals (item creation)
+**Prerequisite:** Ritual Caster, casting class feature.
+
+**Benefits:** You may research rituals. See Advanced Magic for more information on researching rituals.
 
 +++ Craft Spell Engine (replaces Craft Wand)
 **Prerequisites:** Caster level 1st.
 
-This feat allows a creature to create spell-trigger items, known as wands, which casters can use as if they were their own sphere abilities. A creature must possess a wand’s base sphere, or else must activate the wand through the Use Magic Device skill.
+**Benefits:** This feat allows a creature to create spell-trigger items which casters can use as if they were their own sphere abilities. A creature must possess a spell engine’s base sphere, or else must activate the spell engine through the Use Magic Device skill.
 
-A wand contains a limited amount of casting ability, which can be activated by the one wielding the wand as a standard action, as if the magic were their own. A wand possesses a base sphere, a caster level, and a small pool of spell points. The wand uses its own caster level and spell points to fuel its casting ability; under normal circumstances, a caster cannot spend their own spell points or use their own caster level when activating a wand. If a wand’s effects call for a saving throw, the DC is equal to 10 + 1/2 the item’s caster level.
+The most common form of spell engine is a wand; a handheld stick usually between 5 and 12 inches long that the caster points to direct the magic. However, a spell engine can take any form.
 
-Once per day, a caster whose caster level is at least equal to the wand’s caster level may spend one of their spell points to restore 1 spell point to the wand. A wand may only have one spell point per day restored in this fashion, regardless of how many casters attempt to do so.
+A spell engine contains a limited amount of casting ability, which can be activated by the one wielding the spell engine as a standard action, as if the magic were their own. A spell engine possesses a base sphere, a caster level, and a small pool of spell points. The spell engine uses its own caster level and spell points to fuel its casting ability; under normal circumstances, a caster cannot spend their own spell points or use their own caster level when activating a spell engine. If a spell engine’s effects call for a saving throw, the DC is equal to 10 + 1/2 the item’s caster level.
 
-The simplest wand a crafter may create contains a base sphere, 1 spell point, and a caster level of 2. This wand has a base price of 1,000 gp. When a crafter increases a wand’s caster level (to a maximum of their own), for every 2 caster levels a wand gains, the crafter may place an additional magic talent into the wand, or may increase the wand’s maximum spell point pool by 1. A crafter must possess each talent to be placed in the wand, or else must have access to that talent through another caster. Likewise, if a crafter possesses a sphere-specific drawback for the wand’s base sphere (or simply wants to create a focused wand), that want also possess that sphere-specific drawback, and gains either a bonus magic talent or a spell point in exchange.
+Once per day, a caster whose caster level is at least equal to the spell engine’s caster level may spend one of their spell points to restore 1 spell point to the spell engine. A spell engine may only have one spell point per day restored in this fashion, regardless of how many casters attempt to do so.
 
-A wand may contain an advanced talent, but must possess that talent’s minimum caster level, as well as all of its prerequisite talents. A wand may be used to meet the prerequisites for creating other magic items.
+The simplest spell engine a crafter may create contains a base sphere, 1 spell point, and a caster level of 2. This spell engine has a base price of 1,000 gp. When a crafter increases a spell engine’s caster level (to a maximum of their own), for every 2 caster levels a spell engine gains, the crafter may place an additional magic talent into the spell engine, or may increase the spell engine’s maximum spell point pool by 1. A crafter must possess each talent to be placed in the spell engine, or else must have access to that talent through another caster. Likewise, if a crafter possesses a sphere-specific drawback for the spell engine’s base sphere (or simply wants to create a focused spell engine), that spell engine also possesses that sphere-specific drawback, and gains either a bonus magic talent or a spell point in exchange.
 
-A wand’s pricing is determined by comparing it to Table: Wand Pricing.
+A spell engine may contain an advanced talent, but must possess that talent’s minimum caster level, as well as all of its prerequisite talents. A spell engine may be used to meet the prerequisites for creating other magic items.
 
-**Table: Wand Pricing**
+A spell engine’s pricing is determined by comparing it to Table: Spell Engine Pricing.
+
+**Table: Spell Engine Pricing**
 ||~ Caster Level ||~ # of Additional Magic Talents/Spell Points ||~ Price (gp) || 
 || 2 (base wand) || 0 || 1,000 || 
 || 4 || 1 || 4,000 || 
@@ -438,30 +951,28 @@ A wand’s pricing is determined by comparing it to Table: Wand Pricing.
 || 18 || 8 || 81,000 || 
 || 20 || 9 || 100,000 || 
 
-+++ Craft Marvelous Item (replaces Craft Wondrous Item)
-**Prerequisites:** Caster level 1st.
-
-A marvelous item is a device that produces a magical effect that must be activated (usually activated as a standard action) often through the touch of a button, the speaking of a command word, or some other action such as striking the item against the ground, holding it against the intended target, throwing the item through the air. Marvelous items use the talent-based method of magic item creation. If a wondrous item’s effect requires a saving throw from any creature, the DC is equal to 10 + 1/2 the item’s caster level.
-
-A marvelous item can be used once per day by default, and costs 400 gp x caster level x complexity. Additionally, a marvelous item can possess the following custom multipliers.
-
-**Multiple Uses:** If a marvelous item can be used multiple times per day, multiply the cost by the number of daily uses. If its uses per day is increased to 5, it becomes usable an unlimited number of times per day.
-
-**Limited Uses:** If a marvelous item can be used at will but only a maximum of 50 times before it loses all of its magic, multiply its cost by 2.5.
-
 +++ Distill Compound (replaces Brew Potion)
 **Prerequisites:** Caster level 1st.
 
-A creature with the Distill Compound feat is adept at creating potions, oils, and powders. Potions, oils, and powders are magical effects stored in physical form; they use the talent-based method of item creation, and are usable only once.
+**Benefits:** A creature with the Distill Compound feat is adept at creating compounds including potions, oils, and powders. Compounds are magical effects stored in physical form; they use the talent-based method of item creation, and are usable only once.
+* A potion targets the creature who drinks it, usually as a standard action (one target with a range of personal).
+* An oil may be applied to an object or creature within your reach as a standard action. For unwilling targets this requires a melee touch attack that does not provoke an attack of opportunity. You may attempt to apply an oil to a target at range, treating the oil as a splash weapon that only affects the target of a direct hit. Additionally, if the oil affects creatures but not objects, you may use the oil as a contact poison such as by applying it to a weapon.
+* An effect that targets an area can be made into a powder. A powder may be thrown as a splash weapon (centering itself on the square it strikes), or may be spread by hand (centering the effect anywhere between directly on the user and far enough away so the area of effect borders the user’s space).
+* With GM permission, it is also possible to place a compound-like effect into a different, appropriate item (for example, a jewel that explodes when thrown or an apple that applies a potion-like effect when eaten, etc.).
 
-A potion targets the creature who drinks the potion (one target with a range of personal), while oils target the creature or object is is applied to (one target with a range of touch), while any effect that targets an area is a powder. It is possible to place a compound-like effect into another item as well (for example, a jewel that explodes when thrown or an apple that applies a potion-like effect when eaten, etc.).
+A compound has a base cost of 50 gp x caster level x complexity. If a compound requires a saving throw, the DC is equal to 10 + 1/2 its caster level.
 
-A potion, oil, or powder has a base cost of 50 gp x caster level x complexity. If a potion, oil, or powder requires a saving throw, the DC is equal to 10 + 1/2 its caster level.
++++ Eldritch Craft (Item Creation) [Cata. HB]
+Your strange magics bleed into the devices you forge.
+
+**Prerequisite:** Any item creation feat.
+
+**Benefit:** Any magic items that you craft share the benefits of boons that you possess. For example, you possess the Alien Source boon, creatures take penalties to counterspell the item and spell resistance against the item’s effects. Similarly, the item’s caster level would increase in specific weather conditions if you possess the Atmoturgy boon or when at least three creatures are already affected by the item if you possess the Draw Magic boon. Boons which apply negative conditions (such as Overcharge) or which are dependent upon certain factors of the user (such as Deathful Magic) consider the state of the creature using the effect rather than the item to determine effects. This feat cannot be used in conjunction with boons that require a specific drawback such as Fortified Casting.
 
 +++ Forge Charm (replaces Forge Ring)
 **Prerequisites:** Magic skill bonus +1.
 
-A creature with the Forge Charm feat knows how to add permanent enhancements and effects to an item, such that whoever wears or uses that item gains that bonus for as long as they are wearing or using that item.
+**Benefits:** A creature with the Forge Charm feat knows how to add permanent enhancements and effects to an item, such that whoever wears or uses that item gains that bonus for as long as they are wearing or using that item.
 
 When forging a charm, the crafter must possess the base sphere associated with the charm to be made. The base cost of a charm, as well as the minimum magic skill bonus required, vary depending on the type of charm being made. As always, crafting a charm costs 1/2 the base cost.
 
@@ -469,32 +980,32 @@ A charm uses the crafter’s MSB rather than their caster level when determining
 
 **Table: Charm Bonuses**
 ||~ Charm ||~ Minimum Caster Level ||~ Required Base Sphere ||~ Maximum Bonus ||~ Base Cost ||
-|| Grant an enhancement bonus to an ability score || 2x enhancement bonus || Enhancement || +6 || Bonus squared x 1,000 gp ||
+|| Grant an enhancement bonus to an ability score || 2x enhancement bonus || Enhancement || +6 || Bonus squared x 1,000 gp || 
 || AC bonus (deflection) || 3x bonus || Protection || +5 || Bonus squared x 2,000 gp || 
 || AC bonus (natural armor) || 3x bonus || Alteration || +5 || Bonus squared x 2,000 gp || 
 || AC bonus (other) || 3x bonus || Various^^1^^ || +3 || Bonus squared x 2,500 gp || 
 || Energy Resistance || 1/2 granted resistance || Protection || +30 || 1,600 x resistance -4,000, resistance 5 minimum || 
 || Save bonus (resistance) || 3x bonus || Protection || +5 || Bonus squared x 1,000 gp || 
-|| Save bonus (other) || 3x bonus || Various* || +3 || Bonus squared x 2,000 gp || 
+|| Save bonus (other) || 3x bonus || Various^^1^^ || +3 || Bonus squared x 2,000 gp || 
 || Skill bonus (competence) || 1x competence bonus || Mind || +20 || Bonus squared x 100 gp || 
 || Spell resistance || 1/2 granted resistance || Protection || - || 10,000 gp per point over SR 12, SR 13 minimum || 
 || CMB/CMD (competence, one combat maneuver) || 3x bonus || Enhancement || +5 || Bonus squared x 1,000 gp || 
-^^**1:** While uncommon, it is possible to have magic items that grant luck, insight, profane, or sacred bonuses to AC or saving throws, morale bonuses to saving throws, or other bonuses. When applying such benefits through a charm, morale bonuses have Mind as a base sphere, insight bonuses have Divination as a base sphere, and luck, profane, and sacred bonuses have Fate as a base sphere.^^
+^^1: While uncommon, it is possible to have magic items that grant luck, insight, profane, or sacred bonuses to AC or saving throws, morale bonuses to saving throws, or other bonuses. When applying such benefits through a charm, morale bonuses have Mind as a base sphere, insight bonuses have Divination as a base sphere, and luck, profane, and sacred bonuses have Fate as a base sphere.^^
 
 +++ Forge Construct (replaces Craft Construct)
-**Prerequisites:** Any two of the following feats: +5 MSB, Craft Apparatus, Craft Marvelous Item, Forge Charm, Smith Magical Weapons and Armor.
+**Prerequisites:** Any two of the following feats: Craft Apparatus, Craft Marvelous Item, Forge Charm, Smith Magical Weapons And Armor; magic skill bonus +5.
 
 This feat is functionally identical to Craft Construct.
 
-+++ Smith Magical Weapons and Armor (replaces Craft Magical Arms or Armor)
++++ Smith Magical Weapons And Armor (replaces Craft Magical Arms or Armor)
 **Prerequisites:** Magic skill bonus +3.
 
-This feat allows the user to craft magical weapons and magical armor. Crafting magical weapons and magical armor follows the same rules as core Pathfinder magical weapons and armor, except that a creature must possess the base sphere associated with any special ability before it can be added. Some core Pathfinder special abilities that can be added to magical weapons or armor carry prices calculated in gp costs rather than bonus increases; some of these special abilities are enchantments more appropriately created through the Craft Marvelous Item or Craft Apparatus feats, which should be used to craft such enchantments.
+**Benefits:** This feat allows the user to craft magical weapons and magical armor. Crafting magical weapons and magical armor follows the same rules as core Pathfinder magical weapons and armor, except that a creature must possess the base sphere associated with any special ability before it can be added. Some core Pathfinder special abilities that can be added to magical weapons or armor carry prices calculated in gp costs rather than bonus increases; some of these special abilities are enchantments more appropriately created through the Craft Marvelous Item or Craft Apparatus feats, which should be used to craft such enchantments.
 
 Magical weapons and armor use the crafter’s MSB rather than their caster level when determining the maximum caster level item they can create. The item’s caster level must be at least 3x the enhancement bonus of the weapon or armor. If the item has other magical enchantments placed upon it, use the higher caster level. A magical weapon or magical piece of armor must have at least a 1 enhancement bonus to have any other special abilities.
 
-Table: Magical Weapon and Armor Pricing
-||~ Weapon Bonus ||~ Base Price (gp) ||~ Armor/Shield Bonus ||~ Base Price (gp) || 
+**Table: Magical Weapon and Armor Pricing**
+||~ Weapon Bonus ||~ Base Price (gp) ||~ Armor/Shield Bonus ||~ Base Price (gp) ||
 || +1 || 2,000 || +1 || 1,000 || 
 || +2 || 8,000 || +2 || 4,000 || 
 || +3 || 18,000 || +3 || 9,000 || 
@@ -506,178 +1017,47 @@ Table: Magical Weapon and Armor Pricing
 || +9 || 162,000 || +9 || 81,000 || 
 || +10 || 200,000 || +10 || 100,000 || 
 
-**Table: Weapons Special Qualities**
-||~ Weapon Special Quality ||~ Cost ||~ Sphere || 
-|| Adaptive || +1 bonus || Creation || 
-|| Allying || +1 bonus || Enhancement || 
-|| Bane || +1 bonus || Light || 
-|| Benevolent || +1 bonus || War || 
-|| Called || +1 bonus || Warp || 
-|| Conductive || +1 bonus || Death || 
-|| Conserving || +1 bonus || Warp || 
-|| Corrosive || +1 bonus || Destruction || 
-|| Countering || +1 bonus || Enhancement || 
-|| Courageous || +1 bonus || Mind || 
-|| Cruel || +1 bonus || Death || 
-|| Cunning || +1 bonus || Divination || 
-|| Deadly || +1 bonus || Death || 
-|| Defending || +1 bonus || Protection || 
-|| Distance || +1 bonus || Divination || 
-|| Dispelling || +1 bonus || Life || 
-|| Flaming || +1 bonus || Destruction || 
-|| Frost || +1 bonus || Destruction || 
-|| Furious || +1 bonus || Mind || 
-|| Ghost touch || +1 bonus || Warp || 
-|| Grayflame || +1 bonus || Fate || 
-|| Grounding || +1 bonus || Weather || 
-|| Guardian || +1 bonus || Protection || 
-|| Heartseeker || +1 bonus || Death || 
-|| Huntsman || +1 bonus || Divination || 
-|| Impervious || +1 bonus || Protection || 
-|| Jurist || +1 bonus || Enhancement || 
-|| Keen || +1 bonus || Enhancement || 
-|| Ki focus || +1 bonus || Enhancement || 
-|| Limning || +1 bonus || Light || 
-|| Lucky || +1 bonus || Fate || 
-|| Menacing || +1 bonus || War || 
-|| Merciful || +1 bonus || Life || 
-|| Mighty cleaving || +1 bonus || War || 
-|| Mimetic || +1 bonus || Protection || 
-|| Neutralizing || +1 bonus || Nature || 
-|| Ominous || +1 bonus || Mind || 
-|| Planar || +1 bonus || Conjuration || 
-|| Reliable || +1 bonus || Creation || 
-|| Returning || +1 bonus || Telekinesis || 
-|| Quenching || +1 bonus || Nature || 
-|| Seaborne || +1 bonus || Nature || 
-|| Seeking || +1 bonus || Divination || 
-|| Shock || +1 bonus || Destruction || 
-|| Spell storing || +1 bonus || Destruction || 
-|| Thawing || +1 bonus || Nature || 
-|| Throwing || +1 bonus || Telekinesis || 
-|| Thundering || +1 bonus || Destruction || 
-|| Valiant || +1 bonus || War || 
-|| Vicious || +1 bonus || Death || 
-|| Advancing || +2 bonus || War || 
-|| Anarchic || +2 bonus || Fate || 
-|| Anchoring || +2 bonus || Enhancement || 
-|| Axiomatic || +2 bonus || Fate || 
-|| Corrosive burst || +2 bonus || Destruction || 
-|| Defiant || +2 bonus || Life || 
-|| Designating, lesser || +2 bonus || Fate || 
-|| Dispelling burst || +2 bonus || Life || 
-|| Disruption || +2 bonus || Life || 
-|| Dueling || +2 bonus || Enhancement || 
-|| Endless ammunition || +2 bonus || Creation || 
-|| Flaming burst || +2 bonus || Destruction || 
-|| Furyborn || +2 bonus || Mind || 
-|| Glorious || +2 bonus || Light || 
-|| Holy || +2 bonus || Fate || 
-|| Icy burst || +2 bonus || Destruction || 
-|| Igniting || +2 bonus || Destruction || 
-|| Impact || +2 bonus || Telekinesis || 
-|| Invigoration || +2 bonus || Life || 
-|| Ki intensifying || +2 bonus || Enhancement || 
-|| Lifesurge || +2 bonus || Life || 
-|| Negating || +2 bonus || Fate || 
-|| Phase locking || +2 bonus || Warp || 
-|| Shocking burst || +2 bonus || Destruction || 
-|| Stalking || +2 bonus || War || 
-|| Unholy || +2 bonus || Fate || 
-|| Wounding || +2 bonus || Death || 
-|| Lucky, greater || +3 bonus || Fate || 
-|| Nullifying || +3 bonus || Protection || 
-|| Reliable, greater || +3 bonus || Creation || 
-|| Repositioning || +3 bonus || War || 
-|| Speed || +3 bonus || Time || 
-|| Spell stealing || +3 bonus || Destruction || 
-|| Brilliant Energy || +4 bonus || Light || 
-|| Dancing || +4 bonus || Enhancement || 
-|| Designating, greater || +4 bonus || Fate || 
-|| Nimble Shot || +4 bonus || Divination || 
-|| Second Chance || +4 bonus || Telekinesis || 
-|| Vorpal || +5 bonus || Death || 
++++ Versatile Crafter
+**Prerequisite:** Any item creation feat.
 
-**Table: Armor Special Qualities**
-||~ Armor/Shield Special Quality ||~ Cost ||~ Sphere ||
-|| Benevolent || +1 bonus || War || 
-|| Arrow Catching || +1 bonus || Abjuration || 
-|| Balanced || +1 bonus || Telekinesis || 
-|| Bashing || +1 bonus || Enhancement || 
-|| Bitter || +1 bonus || Alteration || 
-|| Blinding || +1 bonus || Light || 
-|| Bolstering || +1 bonus || War || 
-|| Brawling || +1 bonus || Enhancement || 
-|| Champion || +1 bonus || Fate || 
-|| Clangorous || +1 bonus || Destruction || 
-|| Creeping || +1 bonus || Dark || 
-|| Dastard || +1 bonus || Fate || 
-|| Deathless || +1 bonus || Protection || 
-|| Defiant || +1 bonus || Light || 
-|| Fortification, light || +1 bonus || War || 
-|| Grinding || +1 bonus || Enhancement || 
-|| Impervious || +1 bonus || Enhancement || 
-|| Mirrored || +1 bonus || Protection || 
-|| Poison-Resistant || +1 bonus || Life || 
-|| Rallying || +1 bonus || Mind || 
-|| Ramming || +1 bonus || Destruction || 
-|| Spell storing || +1 bonus || Destruction || 
-|| Stanching || +1 bonus || Life || 
-|| Warding || +1 bonus || Protection || 
-|| Wyrmsbreath || +1 bonus || Destruction || 
-|| Adhesive || +2 bonus || Alteration || 
-|| Animated || +2 bonus || Enhancement || 
-|| Arrow Deflection || +2 bonus || Protection || 
-|| Delving || +2 bonus || Alteration || 
-|| Hosteling || +2 bonus || Warp || 
-|| Merging || +2 bonus || Creation || 
-|| Putrid || +2 bonus || Death || 
-|| Radiant || +2 bonus || Light || 
-|| Spell Resistance (13) || +2 bonus || Protection || 
-|| Energy Resistance || +3 bonus || Protection || 
-|| Fortification (moderate) || +3 bonus || War || 
-|| Ghost Touch || +3 bonus || Warp || 
-|| Harmonizing || +3 bonus || Illusion || 
-|| Invulnerability || +3 bonus || Protection || 
-|| Martyring || +3 bonus || Life || 
-|| Spell Resistance (15) || +3 bonus || Protection || 
-|| Titanic || +3 bonus || Alteration || 
-|| Wild || +3 bonus || Alteration || 
-|| Energy Resistance, Improved || +4 bonus || Protection || 
-|| Spell Resistance (17) || +4 bonus || Protection || 
-|| Energy Resistance, Greater || +5 bonus || Protection || 
-|| Etherealness || +5 bonus || Alteration || 
-|| Fortification (heavy) || +5 bonus || War || 
-|| Reflecting || +5 bonus || Protection || 
-|| Spell Resistance (19) || +5 bonus || Protection || 
+**Benefit:** When creating a magic item, you may create an item even if you lack the base sphere or do not have a high enough caster level or MSB. This increases the DC of the item creation check by +5 for each base sphere or individual caster level/point of MSB bypassed in this fashion.
 
+**Wiki Note:** Versatile Crafter is on this page because it is about creating magic items. However, it is not a true item creation feat, and does not count as such for any purpose. This feat does not allow you to bypass talent prerequisites for creating compounds, spell completion items, or spell trigger items.
+
+++++ Weapons With Talent-Like Powers [TS]
+If you want to make your own equipment that can unleash talent-based powers, you do not have to make it too complicated! There are just a few pointers to keep in mind.
+
+For effects that are limited per-day, use marvelous items as the base. Unlike regular marvelous items, which can have unlimited uses, items that are integrated into weapons should have no more than five uses per day (for balance reasons). Many of the marvelous items found earlier in this product are excellent templates for applying effects. In particular, the thunderbolt ring is a good choice for any situation where you want to swing a weapon and unleash a big area attack. It is acceptable to have unlimited uses when an effect has no major impact on combat; for example, the lasso of honesty forces targets to tell the truth, which is practically never abusable in combat.
+
+For effects that you can use more consistently, use spell engines as the base. This can give unlimited uses of basic effects, as well as limited uses of stronger effects (i.e. those that Cost spell points). Consider applying drawbacks when creating these; they can help bring the price back down. Spell engines require Use Magic Device checks to activate unless a character knows the base sphere, so you can also use the Forge Charm feat to integrate a bonus to UMD checks if a character really needs it.
+
+If you want an item to deliver a talent-like effect when it hits the enemy, add the strike talent from the appropriate sphere. This will allow the effect to work when characters hit foes with a single attack made as a standard action, or as part of an attack action if they have the Spell Attack feat. Weapons with talent-based effects do not have to activate them on hits; it is okay for them to be additional powers the weapon has, separate from smacking enemies around. For example, a sword could also create food.
+
+Effects from items or effects added onto weapons and other gear can have their own caster level, separate from the weapon’s normal caster level. (If faced with an effect that could shut them down based on their caster level, use the item’s highest caster level; it is still one item.) Items generally have lower saving throws than talents cast by characters - sometimes much lower. This helps to balance out the easy access to them. If characters want to get around this, look for talents that either have an effect even if the foe saves (for example, many options from the Light sphere), talents that do not rely on saving throws, or options that allow characters to add their casting ability modifier when determining the saving throws required by items.
+
+Remember to multiply the cost of the less-expensive side(s) of the item, normally the weapon itself, by 1.5x as the price for combining items. It’s usually easier to make and price the magical item side first, then add the weapon to that. If the magical effect has minimal combat impact, GM’s may waive the 1.5x multiplier for additional effects at their discretion. Players may be hesitant to craft or purchase such complex, expensive weapons when getting them as separate items would save them money, so consider adding weapons with talent-like powers to your game as treasure.
 ----
-
-+++ Light Generation
-
++ Light Generation
 Light is often a byproduct or sign of an item’s magical power: a magical sword shines when it is unsheathed, or a shields mystic runes glow ominously. Below are different forms of light that magic items might shed, expanding on the light generation rules for magic weapons. While weapons are the most common items to shed light, any magic item that costs at least 1,000 gp can be created to glow in the same manner; items that cost less than 1,000 gp may still be created to glow, but only shed light as a candle and cannot use any of the alternate light generation methods below. Creating an item that generates light does not affect the price or creation of the item, but the decision cannot be changed once the creator makes it. Only a single form of light generation can be chosen per item. A single use or limited charge item (such as a scroll or wand) that runs out of uses or charges no longer generates light.
 
-**Celestial:** This form of light generation is tied to a time of day. During either the day or night, the item sheds normal light in a 30 ft. radius, and increase the level of illumination by one step (to a maximum of normal) in a 60 ft. radius. At the opposite time of day it only sheds light as a candle. The time of day the item is attuned to is chosen when it is made, and cannot be changed.
+**Celestial:** This form of light generation is tied to a time of day. During either the day or night, the item sheds normal light in a 30-foot radius, and increase the level of illumination by one step (to a maximum of normal) in a 60-foot radius. At the opposite time of day it only sheds light as a candle. The time of day the item is attuned to is chosen when it is made, and cannot be changed.
 
-**Lantern:** The item sheds normal light in a 40 ft. cone, and increases the level of illumination by one step (to a maximum of normal) in an 80 ft. cone. You may change the direction of the cone as a free action once per turn.
+**Lantern:** The item sheds normal light in a 40-foot cone, and increases the level of illumination by one step (to a maximum of normal) in an 80-foot cone. You may change the direction of the cone as a free action once per turn.
 
-**Line:** The item sheds normal light in an 80 ft. long, 10 ft. wide line, and increases the level of illumination by one step (to a maximum of normal) in a 160 ft. long, 20 ft. wide line. You may change the direction of the line as a free action once per turn. 
+**Line:** The item sheds normal light in an 80 feet long, 10 feet wide line, and increases the level of illumination by one step (to a maximum of normal) in a 160 feet long, 20 feet wide line. You may change the direction of the line as a free action once per turn.
 
-**Motes:** The item sheds light as a candle. In addition, it generates four small motes that also shed light as a candle that hover wherever the wielder directs. These motes can be placed anywhere within a 100 ft. radius as a free action once per turn.
+**Motes:** The item sheds light as a candle. In addition, it generates four small motes that also shed light as a candle that hover wherever the wielder directs. These motes can be placed anywhere within a 100-foot radius as a free action once per turn.
 
 **Strobe:** Whenever this item is used as part of a standard or longer action (such as attacking with a weapon), or brandished as a move action, it sheds light as a torch until the beginning of your next turn.
 
-**Trail:** Any square the item passes through sheds normal light in a 5 ft. radius for one round, and increases the level of illumination by one step (to a maximum of normal) in a 10 ft. radius.
+**Trail:** Any square the item passes through sheds normal light in a 5-foot radius for one round, and increases the level of illumination by one step (to a maximum of normal) in a 10-foot radius.
 
-**Variable:** The amount of light that the item generates can be adjusted. It can shed normal or dim light in a 10 ft. or smaller radius, and you may choose whether or not it also increases the light level up to the same level in a radius twice that size. You may even cause the item to shed no light at all. Adjusting the light the item sheds is a standard action.
+**Variable:** The amount of light that the item generates can be adjusted. It can shed normal or dim light in a 10-foot or smaller radius, and you may choose whether or not it also increases the light level up to the same level in a radius twice that size. You may even cause the item to shed no light at all. Adjusting the light the item sheds is a standard action.
 
-**Warning:** Select a creature type (if you select humanoid or outsider, you must also select one subtype). The item sheds light as a torch whenever that category of creatures comes within 100 ft. of it.
-
+**Warning:** Select a creature type (if you select humanoid or outsider, you must also select one subtype). The item sheds light as a torch whenever that category of creatures comes within 100 feet of it.
 ----
-
-+++ Creativity and Custom Magic Items
-
-When creating a custom magic item, the rules explained above are guidelines, and not hard rules. A sword could be enchanted as a wand, a rod could grant ring-like benefits to its holder, or a necklace could hold gemstones that have each been enchanted with potion-like single-use magical effects. In many ways, each item creation feat maps less to a particular type of item, and more to a particular type of enchantment: a caster with Craft Magical Arms and Armor could create a magical frying pan, but it would need to be enchanted as a weapon unless he possessed another item-creation feat.
++ Creativity and Custom Magic Items
+When creating a custom magic item, the rules explained above are guidelines, and not hard rules. A sword could be enchanted as a wand, a rod could grant ring-like benefits to its holder, or a necklace could hold gemstones that have each been enchanted with potion-like single-use magical effects. In many ways, each item creation feat maps less to a particular type of item, and more to a particular type of enchantment: a caster with Craft Magical Arms And Armor could create a magical frying pan, but it would need to be enchanted as a weapon unless he possessed another item-creation feat.
 
 Likewise, while the above rules are designed to help determine an item’s price and powers, in reality the scope of what a magic item can do is limited only by the crafter’s imagination. Magic items are at their best when they are unique, wondrous, and personalized, which can mean creating new abilities beyond the scope of the basic spheres. The GM is the final arbiter for determining an item’s final market price, and may adjust a price higher, lower, or even disallow any item or option if it becomes unbalancing or disruptive.
 
@@ -708,6 +1088,11 @@ Keep in mind that this is based on effect, not necessarily on crafting feat, as 
 || Slotless || Various effects || The //Bag of Holding//, which allows a character to carry more than they normally could ||
 ^^Note that Protection shows up more often than anything else, but each slot has a different focus. Rings tend to focus on Deflection and Energy Resistance, for example, while Neck slot items are more likely to provide Natural Armor bonuses and the Armor slot is for wearing actual body armor. The Body slot allows different types of protection, and even multiple types at once. Keep this in mind when creating new items, since bonuses usually don't stack and the magic item creation rules specifically recommend //against// allowing cross-slot items.^^
 
+[[/tab]]
+[[tab Original]]
+[[include old-magical-items]]
+[[/tab]]
+[[/tabview]]
 ----
 
 [[include sop-template]]
