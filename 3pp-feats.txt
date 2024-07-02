@@ -86,7 +86,7 @@ You may choose to draw a card for this feat outside of combat, but may only do s
 
 **Special:** If you possess both Harrowed Capability and Harrowed Talents, you draw a single card to determine the effects of both feats.
 
-++++ Land-Attuned Magic [Drawback]  
+++++ Land-Attuned Magic (Drawback)  
 
 **Prerequisites:** Area Bound or Terrain Casting
 
@@ -228,6 +228,15 @@ You may take this deck manipulation a second time. If you do, you may look at th
 
 **Benefit:** As a swift action, you may discard a number of cards from the top of your deck to a maximum of ¼ your character level (minimum 1). For every card discarded, you gain the ability to reroll one die as part of a damage roll before the start of your next turn. 
 
+++++ Caging Spell (Deck, Drawback, Metamagic)
+**Prerequisites:** Card Casting (Cooldown), Control Caster
+
+**Benefits:** As long as you have an ongoing effect affected by this metamagic feat active, no cards in any creature’s discard pile may leave that discard pile as long as that creature is within close range of the effect (or within the effect's area if the effect covers a range of close or greater.
+
+**Cost:** +2 spell points
+
+^^**Source:** Card Casting 3: Volatile Variance^^
+
 ++++ Card Shark (Deck, Drawback)  
 
 **Prerequisite:** Card Casting
@@ -265,6 +274,13 @@ You may take this deck manipulation a second time. If you do, you may look at th
 * **Pilfered Magic:** (requires Mana Sphere, Gift of Knowledge, Warp Sphere, and Cooldown) Whenever you exile a card from a creature’s deck, hand, or play, you may use the effect printed on that card as if you had all of the talents necessary to use it until the end of your next turn, paying spell points as normal.
 * **Smothering Curse:** (requires Fate Sphere) Whenever a creature affected by one of your consecrations or (curse) words draws a card, you may force them to choose between spending a spell point or making a Will save. On a failed save, they take 1d6 points of damage plus an additional 1d6 for every 4 caster levels you possess. A creature may be affected by this ability once per round per word or consecration affecting them.
 * **Sustainable Counterspell:** (requires Counterspell) Whenever you counterspell an effect created by a character with the Card Casting drawback, you may gain either a +1 or +2 insight bonus to the MSB check for the purpose of that specific effect. If you choose the +1 bonus, any dispelled effect has its card either shuffled back into the owner’s deck or put on top of their deck rather than be discarded (your choice). If you choose the +2 bonus, any dispelled effect is returned to its owner’s hand.
+
+++++ Crashing Outburst (Deck, Drawback)
+**Prerequisites:** Card Casting, Outburst Spell
+
+**Benefits:** You may designate any number of effect cards in your deck as crashing effect cards. Crashing effect cards cannot be cast normally but are considered to cost 2 fewer spell points than their normal cost for the purpose of being revealed and cast with the Outburst Spell metamagic feat.
+
+^^**Source:** Card Casting 3: Volatile Variance^^
 
 ++++ Custom Cards (Deck, Drawback)
 **Prerequisites:** Card Casting
@@ -344,6 +360,13 @@ Whenever you use a deck manipulation which would require an action, the companio
 
 **Benefits:** As a swift or immediate action, you may discard any number of cards from the top of your deck, granting you 1 temporary hit point for every card you discard. The number of temporary hit points granted per card increases by 1 for every 8 caster levels you possess. These temporary hit points cannot exceed your life sphere caster level and last until the start of your next turn. 
 
+++++ Mass Offerings (Deck, Drawback)
+**Prerequisites:** Card Casting, Conjuration Sphere, Mana Sphere (Essentialize), Tribute of Essence, one of Altered Summons, Exceptional Ally, or Fated Summons
+
+**Benefits:** When you summon your companion, you may cast any number of magic sphere effects which target only your companion as part of the effect to summon it. Each such effect costs one additional spell point, and all spell points spent on these effects must come from temporary spell points gained through using the Tribute of Essence feat this turn.
+
+^^**Source:** Card Casting 3: Volatile Variance^^
+
 ++++ Miraculous Draw (Deck, Drawback)
 **Prerequisites:** Card Casting
 
@@ -359,17 +382,33 @@ Whenever you use a deck manipulation which would require an action, the companio
 
 **Benefit:** You may combine the spell decks, hands, and discard piles of any of your squadron members that share the Card Casting drawback (as well as the same associated combination of additions such as Cooldown and Mana Pool). Any member may use their actions to create an effect by playing a card, using their own class level, caster level, MSB, and MSD rather than those of the card’s original owner (if they have no levels in a class which provides a certain class ability, they cannot use that class ability). Characters creating effects in this way does not allow them to use Deck feats or Deck Manipulations they do not have.
 
+++++ Outburst Spell [Deck, Drawback, Metamagic]
+**Prerequisites:** Card Casting
+
+**Benefits:** When you cast an outburst spell, reveal cards from the top of your deck until you reveal an effect card that you could cast without spending more spell points than the total number spent on the outburst spell. You may choose to cast the revealed effect card as a swift action this turn, reducing its spell point cost by the spell point cost of the outburst spell (minimum 0) but not being able to spend any additional spell points on the revealed effect card. If you do not cast the revealed card, shuffle it back into your deck.
+
+**Cost:** +3 spell points
+
+^^**Source:** Card Casting 3: Volatile Variance^^
+
 ++++ Rainbow Efficiency (Deck, Drawback)
 **Prerequisites:** Card Casting (Mana Pool and Colored Mana)
 
 **Benefit:** You may assign two colors to any magic effect card in your deck. In order to play the card, you must have Mana Point Cards of both the card’s colors in play. However, the spell point cost of any magic effect card with two colors is reduced by 1 (to a minimum of 1). For the purpose of determining how many cards of each color you may have in your deck, no more than ¾ of the magic effect cards in your deck can possess any one color if you have 3 colors, and no more than ½ of the magic effect cards in your deck can possess any one color if you have 5 colors.
 
-++++ Starting Spell (Deck, Drawback Metamagic)
+++++ Starting Spell (Deck, Drawback, Metamagic)
 **Prerequisites:** Card Casting
 
 **Benefit:** At the start of combat, when you draw your hand for card casting, you may reveal a single magic effect card you have drawn that is affected by the Starting Spell metamagic feat. If you do, you may cast that effect as a free action on your first turn of combat without needing the necessary Mana Point Cards in play.
 
 **Cost:** +3 spell points
+
+++++ Superior Mana Cards (Deck, Drawback)
+**Prerequisites:** Card Casting (Mana Pool), Specialized Mana Cards deck manipulation
+
+**Benefits:** Mana point cards in your deck may have two abilities from Specialized Mana Cards rather than just one.
+
+^^**Source:** Card Casting 3: Volatile Variance^^
 
 ++++ Technical Combo (Deck, Drawback)
 **Prerequisites:** Card Casting, Technique Crafting
@@ -380,6 +419,13 @@ Whenever you use a deck manipulation which would require an action, the companio
 **Prerequisites:** Card Casting (Mana Pool), Conjuration Sphere, one of Altered Summons, Exceptional Ally, or Fated Summons
 
 **Benefit:** When you summon your companion, you may cast any number of magic sphere effects which target only your companion as part of the effect to summon it. Each such effect costs one additional spell point, and the combined spell point cost of the summon and all other effects cannot exceed the number of Mana Point Cards you have in play, as normal.
+
+++++ Trading Cards (Deck, Drawback, Teamwork)
+**Prerequisites:** Card Casting
+
+**Benefits:** When you rest to regain spell points, you may exchange any number of cards in your deck with any number of cards in the decks of allies who possess this feat and share all drawbacks associated with Card Casting that you do (such as Cooldown and Stagnant Pool). Until the next time you regain spell points, you may add the exchanged cards in your deck as if they were cards in your deck even if you lack the talents or deck manipulations necessary to create their effects. The total number of exchanged cards in your deck cannot exceed the number of non-exchanged cards in your deck.  
+
+^^**Source:** Card Casting 3: Volatile Variance^^
 
 ++++ Trap Card (Deck, Drawback)  
 **Prerequisite:** Card Casting drawback
