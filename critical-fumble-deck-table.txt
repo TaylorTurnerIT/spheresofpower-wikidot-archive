@@ -51,6 +51,180 @@ If an effect states “until healed”, this always refers to the additional dam
 
 If there are multiple eligible targets for an effect (such as “an ally adjacent to you or the target” or “your ally closest to the target”), roll randomly to determine which is affected.
 
+++++ Critical Fumble Card Generator
+[[html]]
+<style>
+    * {
+    margin: 0;
+    padding: 0;
+    }
+    #container {
+    width: 90%;
+    margin: 10px auto;
+    padding: 10px;
+    border: 1px solid #606060;
+    }
+    .alignleft {
+    float: left;
+    }
+    .alignright {
+    float: right;
+    }
+</style>
+<div id="container">
+    <p class="alignjustify" id="randomResult">&nbsp;</p>
+    <button class="alignleft" id="button">Trigger Melee Attack Fumble </button>
+    <div style="clear: both;"></div>
+</div>
+<script>
+    function randString(){
+        return stringArray[~~(rand()*stringArray.length)];
+    }
+    function randText(){
+        var tx = randString();
+        var txt = document.createTextNode(tx);
+        var sp = document.createElement('span');
+        sp.appendChild(txt);
+        randomResult.innerHTML = '';
+        randomResult.appendChild(sp);
+    }
+    rand = Math.random;
+    stringArray = ['1: You provoke an attack of opportunity from all adjacent opponents', '2: The attack hits you and is a critical threat. You must roll to confirm the critical hit.', '3: You take a -4 penalty on all attack rolls for 1 round.', '4: You take 1 point of bleed damage.', '5: You are flat-footed for 1 round.', '6: You take 1d4 points of Str damage.', '7: You drop your weapon and it lands 1d6 x 5 feet away in a random direction.', '8: The attack deals damage to you instead of the target.', '9: You take 1d6 points of bleed.', '10: You are sickened for 1d4 rounds', '11: You are knocked prone.', '12: Your weapon is destroyed (Ref negates). Magic weapons use their own save bonus.', '13: You become entangled in your gear until you spend a standard action to free yourself.', '14: You are fatigued.', '15: You drop your weapon.', '16: You take 1d4 points of Dex damage.', '17: You take a -2 penalty to AC for 1d4 rounds.', '18: Your weapon takes 1d6 points of damage, ignoring hardness.', '19: Your attack hits an ally adjacent to you or the target.', '20: You can only take a move action next round.', '21: You take a -1 penalty on attack rolls for 1d4 days or until you score a critical hit.', '22: Your attack hits an ally within reach and is a critical threat. You must roll to confirm the critical hit.', '23: The attack deals damage to your armor.', '24: You are stunned for 1 round (Fort negates).', '25: Your attack hits the target, but deals minimum damage.', '26: You take an amount of bleed damage equal to your Str bonus (minimum 1).', '27: The attack deals damage to you instead of the target.', '28: You are deafened until healed (DC 15 Heal check).', '29: Your target gains possession of your weapon (Ref negates).', '30: You drop whatever is in your off hand.', '31: You take a -4 penalty on all attack rolls with this weapon until it is repaired (DC 20 Craft check).', '32: Your attack deals damage to your shield.', '33: Your attack damages you instead. Use your target’s Str modifier in place of your own for this damage roll.', '34: You take 1 point of Str bleed.', '35: You are exhausted (Fort negates).', '36: Your weapon is stuck in a nearby surface. DC 20 Str check to free it as a standard action.', '37: All of your enemies have concealment from you for 1d4 rounds.', '38: You are confused for 1 round.', '39: If you’re using a slashing weapon, you take 1d6 points of damage and 1 point of bleed.', '40: If you’re using a bludgeoning weapon, you take 1d3 points of Str damage and drop your weapon.', '41: You are sickened for 1d6 rounds.', '42: You fall prone and are blinded for 1d3 rounds (Fort negates prone and blinded).', '43: Move 10 feet in a random direction and provoke attacks of opportunity as normal.', '44: You are dazed for 1d3 rounds.', '45: Your weapon deals nonlethal damage for the next 3 rounds.', '46: Your weapon flies 2d6x5 feet in a random direction.', '47: You are dazed for 1 round.', '48: You fall unconscious for 1d6 rounds (Will negates).', '49: You take 1 point of Con damage.', '50: Your weapon loses the reach property. You have a -4 penalty on attack rolls with it until repaired (DC 20 Craft check).', '51: You are blinded for 1 round.', '52: You threaten no squares for 1d6 rounds.'];
+    randomResult = document.getElementById('randomResult');
+    document.getElementById("button").addEventListener('click',randText,false);
+</script>
+[[/html]]
+
+[[html]]
+<style>
+    * {
+    margin: 0;
+    padding: 0;
+    }
+    #container {
+    width: 90%;
+    margin: 10px auto;
+    padding: 10px;
+    border: 1px solid #606060;
+    }
+    .alignleft {
+    float: left;
+    }
+    .alignright {
+    float: right;
+    }
+</style>
+<div id="container">
+    <p class="alignjustify" id="randomResult">&nbsp;</p>
+    <button class="alignleft" id="button">Trigger Ranged Attack Fumble </button>
+    <div style="clear: both;"></div>
+</div>
+<script>
+    function randString(){
+        return stringArray[~~(rand()*stringArray.length)];
+    }
+    function randText(){
+        var tx = randString();
+        var txt = document.createTextNode(tx);
+        var sp = document.createElement('span');
+        sp.appendChild(txt);
+        randomResult.innerHTML = '';
+        randomResult.appendChild(sp);
+    }
+    rand = Math.random;
+    stringArray = ['1: You are fatigued.', '2: You are knocked prone.', '3: Your attack hits your aly closest to the target.', '4: Your ammunition falls from its container and takes 1d6 rounds to gather up.', '5: Your weapon (not ammunition) takes 1d6 points of damage, ignoring hardness.', '6: You take a -2 penalty to AC for 1d4 rounds.', '7: You are sickened for 1d4 rounds.', '8: You are flat-footed for 1 round.', '9: You drop your weapon.', '10: You take 1 point of bleed damage', '11: The attack deals damage to you instead of the target.', '12: You take 1 point of Con damage.', '13: You take 1d4 points of Dex damage.', '14: Reroll attack against creature nearest the target (yourself excluded).', '15: If attack was made with a bow or crossbow, the string breaks and requires 1d3 rounds to fix.', '16: You become entangled in your gear until you spend a standard action to free yourself.', '17: The attack hits you and is a critical threat. You must roll to confirm the critical hit.', '18: You take 1d6 points of bleed damage.', '19: You take a -4 penalty on all attack rolls for 1 round.', '20: If you made a thrown attack, you throw a random object in your possession.', '21: You are deafened until healed (DC 15 Heal check).', '22: You take a -1 penalty on attack rolls for 1d4 days or until you score a critical hit.', '23: You can only take a move action next round.', '24: You take 1d2 points of Dex damage and your speed is reduced by half until healed.', '25: You are stunned for 1 round (Fort negates).', '26: If you made a thrown attack, you hit the target, but the weapon ends up in the target’s possession.', '27: Your attack hits the nearest ally and is a critical threat. You must roll to confirm the critical hit.', '28: You provoke attacks of opportunity from all threatening foes.', '29: Your weapon is destroyed (Ref negates). Magic weapons use their own save bonus.', '30: You attack the nearest allied animal or mount.', '31: You use twice as much ammunition on this attack.', '32: You are exhausted (Fort negates).', '33: If using a projectile weapon, it does not function. Spend 1 standard action to clear.', '34: The attack deals damage to you instead of the target.', '35: You take a -4 penalty to all attacks with this weapon until repaired (DC 20 Craft check).', '36: You take a -2 penalty on all ranged attack rolls for 1d4 minutes.', '37: For 3 rounds, you must spend a full-round action to make an attack action.', '38: For 3 rounds, you take an additional -2 penalty on ranged attacks for each ally in melee combat with your target.', '39: You take a -2 penalty on ranged attack rolls for 3 rounds.', '40: You move backward 5 feet and fall prone.', '41: You are unable to make ranged attacks for the next 1d6 rounds.', '42: All targets with cover gain an additional +4 bonus to AC against you for 3 rounds.', '43: All attacks beyond the first range increment have triple the normal distance penalty for 3 rounds.', '44: All your attacks have a 50% chance for 1 round.', '45: You are confused for 1 round.', '46: You are sickened for 1d6 rounds.', '47: You take 1 point of Dex bleed.', '48: If the attack was made with a thrown weapon, the weapon travels 5 times its range increment in a random direction.', '49: For the next 3 rounds, you have a +1 bonus on attack rolls, but you are flat-footed. ', '50: You lose your Dex bonus on attack rolls for 3 rounds.', '51: You take 1d6 points of damage.', '52: You are blinded for 1 round.'];
+    randomResult = document.getElementById('randomResult');
+    document.getElementById("button").addEventListener('click',randText,false);
+</script>
+[[/html]]
+
+[[html]]
+<style>
+    * {
+    margin: 0;
+    padding: 0;
+    }
+    #container {
+    width: 90%;
+    margin: 10px auto;
+    padding: 10px;
+    border: 1px solid #606060;
+    }
+    .alignleft {
+    float: left;
+    }
+    .alignright {
+    float: right;
+    }
+</style>
+<div id="container">
+    <p class="alignjustify" id="randomResult">&nbsp;</p>
+    <button class="alignleft" id="button">Trigger Natural Attack Fumble </button>
+    <div style="clear: both;"></div>
+</div>
+<script>
+    function randString(){
+        return stringArray[~~(rand()*stringArray.length)];
+    }
+    function randText(){
+        var tx = randString();
+        var txt = document.createTextNode(tx);
+        var sp = document.createElement('span');
+        sp.appendChild(txt);
+        randomResult.innerHTML = '';
+        randomResult.appendChild(sp);
+    }
+    rand = Math.random;
+    stringArray = ['1: You are sickened for 1d4 rounds.', '2: You cannot use this weapon for 1 round.', '3: You take 1d4 points of damage and you cannot use this weapon until healed.', '4: Your attack hits an ally adjacent to you or the target.', '5: The attack hits you and is a critical threat. You must roll to confirm the critical hit.', '6: You take 1 point of bleed damage.', '7: You provoke an attack of opportunity from all adjacent opponents.', '8: You are knocked prone.', '9: The attack deals damage to you instead of the target.', '10: You become entangled in your gear until you spend a standard action to free yourself.', '11: You can attack no other target for 1d4 rounds (or until the target is dead).', '12: You take a -4 penalty on all attack rolls for 1 round.', '13: You take 1d6 points of bleed damage.', '14: You take a -2 penalty to AC for 1d4 rounds.', '15: You take 1 point of Str drain (Fort negates).', '16: You are flat-footed for 1 round.', '17: You are fatigued.', '18: You take 1d4 points of Str damage.', '19: You take 1d4 points of Dex damage.', '20: Your attack hits the target but the target may attempt a grapple check against you as a free action that can be taken outside of their turn.', '21: You are sickened for 1d6 rounds.', '22: You are deafened until healed (DC 15 Heal check).', '23: You take a -2 penalty on skill checks and saves for 1d4 hours.', '24: You are exhausted (Fort negates).', '25: You take 1d2 points of Con damage.', '26: Your attack deals damage to all targets adjacent to you except the original target.', '27: You are dazed for 1d3 rounds.', '28: Your attack hits an ally within reach and is a critical threat. You must roll to confirm the critical hit.', '29: You kick up dust that blinds you for 1d4 rounds (Fort negates).', '30: You are stunned for 1 round (Fort negates).', '31: The target may attempt a trip, bull rush, or overrun combat maneuver against you as a free action that can be taken outside their turn (target’s choice).', '32: You take 1d6 points of damage + your Str modifier.', '33: You are dazed for 1 round.', '34: You take a -1 penalty on attack rolls for 1d4 days or until you score a critical hit.', '35: The target deals bite damage to you.', '36: You can only take a move action next round.', '37: Your attack hits, but you are stunned for 2 rounds (Fort save reduces the stun to 1 round).', '38: If you had reach greater than 5 feet, it is reduced to 5 feet for 3 rounds.', '39: Your target’s armor and natural armor bonuses are doubled against you for 3 rounds.', '40: You take 1d3 points of damage and your speed is halved until healed.', '41: If this was a claw attack, slam, or unarmed strike, you cannot use that attack for 1d6 rounds.', '42: If this was a bite attack, you are nauseated for 1d6 rounds.', '43: Your enemy’s armor takes 1d6 points of damage. You take 1d6 points of damage and cannot use this attack for 1d3 rounds.', '44: You take a -2 penalty on attack rolls for 1d6 minutes.', '45: You are blinded for 1 round.', '46: Move 10 feet in a random direction and provoke attacks of opportunity as normal.', '47: You take 1d6 points of nonlethal damage and a -2 penalty on attack rolls with that attack for 1d4 rounds.', '48: You take 1 point of Con damage.', '49: You fall unconscious for 1d6 rounds (Will negates).', '50: The attack deals damage to you instead of the target.', '51: You threaten no squares for 1d6 rounds.', '52: Your target takes normal damage, you take double this damage.'];
+    randomResult = document.getElementById('randomResult');
+    document.getElementById("button").addEventListener('click',randText,false);
+</script>
+[[/html]]
+
+[[html]]
+<style>
+    * {
+    margin: 0;
+    padding: 0;
+    }
+    #container {
+    width: 90%;
+    margin: 10px auto;
+    padding: 10px;
+    border: 1px solid #606060;
+    }
+    .alignleft {
+    float: left;
+    }
+    .alignright {
+    float: right;
+    }
+</style>
+<div id="container">
+    <p class="alignjustify" id="randomResult">&nbsp;</p>
+    <button class="alignleft" id="button">Trigger Spell Attack Fumble </button>
+    <div style="clear: both;"></div>
+</div>
+<script>
+    function randString(){
+        return stringArray[~~(rand()*stringArray.length)];
+    }
+    function randText(){
+        var tx = randString();
+        var txt = document.createTextNode(tx);
+        var sp = document.createElement('span');
+        sp.appendChild(txt);
+        randomResult.innerHTML = '';
+        randomResult.appendChild(sp);
+    }
+    rand = Math.random;
+    stringArray = ['1: The attack hits you and is a critical threat. You must roll to confirm the critical hit.', '2: You take 1d4 Int, Wis, or Cha damage (determined randomly).', '3: You lose one prepared spell, spell slot, or 1d4 spell points (prepared spell or spell slot is determined randomly).', '4: You are fatigued.', '5: You are teleported the nearest square adjacent to the target.', '6: You take 2d6 points of fire damage.', '7: The spell hits you instead of the target (normal saves apply).', '8: You become entangled in your gear until you spend a standard action to free yourself.', '9: Your attack hits your ally closest to the target.', '10: Reroll attack against creature nearest the target (yourself excluded).', '11: You take 1 point of bleed damage.', '12: Your spell is converted to a summon monster spell of the same level (effective level of a sphere effect is equal to half its caster level, to a maximum of 9th for the purpose of determining this spell). The monster attacks you.', '13: You are sickened for 1d4 rounds.', '14: You take 1d6 points of bleed damage.', '15: You cannot cast any spells for 1 round.', '16: You take 2d6 points of cold damage.', '17: You take 2d6 points of acid damage.', '18: You take 2d6 points of electricity damage.', '19: You take a -2 penalty to all of your spell DCs for 1d4 minutes.', '20: The target gains a +8 enhancement bonus to Str for 1d4 rounds.', '21: You provoke attacks of opportunity from all threatening foes.', '22: The attack deals damage to you instead of the target.', '23: The spell affects all targets within 30 feet of you. You are immune to this effect.', '24: One of your magic items permanently gains a random flaw (see the dynamic magic item creation rules in Pathfinder Unchained).', '25: Target increases one size category for 1d4 rounds.', '26: You can only take a move action next round.', '27: You are deafened until healed (DC 15 Heal check).', '28: You take a -1 penalty on attack rolls for 1d4 days or until you score a critical hit.', '29: The target is affected by the haste spell for 1d4 rounds.', '30: You cannot cast this spell or use this sphere for 24 hours.', '31: You are stunned for 1 round (Fort negates).', '32: The target gains DR 5/- for 1d4 rounds.', '33: You take 1 point of Cha bleed.', '34: Your attack hits the nearest ally and is a critical threat. You must roll to confirm the critical hit.', '35: The attack hits but you lose 1d4 spell points or a prepared spell or spell slot of the highest available level (your choice of prepared spell).', '36: The target gains SR equal to 11 + your caster level (or 11 + your MSB, if you are a spherecaster) for 1d6 rounds.', '37: The highest-level spell effect on you is transferred to your target.', '38: On their next turn, your target may give you one suggestion as per the suggestion spell. You are considered to have failed your Will save against this suggestion.', '39: You take 1 point of Int bleed.', '40: You take 1 point of Wis bleed.', '41: 1d3 spells active on you are dispelled (determined randomly).', '42: Lose one randomly determined spell or spell slot (or 1d4 spell points). Your target can cast either the lost spell or the spell you targeted them with on their next turn, using your caster level, ability modifiers, MSB/MSD, and save DC.', '43: A stinking cloud appears centered on you (using the caster level and equivalent save DC of the spell attack).', '44: 1d4+2 mirror images spring up around your target. These images last for 1 minute or until destroyed.', '45: You are thrown 1d6x10 feet into the air (or in a random direction if flying (Will negates).', '46: You are blinded for 1 round.', '47: You take a -4 penalty on attack rolls, saves, skill checks, and ability checks. This is a curse effect which can only be removed with remove curse or similar effects (DC equal to the spell attack’s equivalent DC).', '48: You automatically fail your next saving throw.', '49: Roll twice on the rod of wonder table, using both results.', '50: You take 1 point of Con damage.', '51: Your target becomes invisible for 1d4 rounds.', '52: You are shaken for 2d4 rounds.'];
+    randomResult = document.getElementById('randomResult');
+    document.getElementById("button").addEventListener('click',randText,false);
+</script>
+[[/html]]
+
+
 **Table: Critical Fumble Card Results**
 ||~ Value ||~ Melee Attack ||~ Ranged Attack ||~ Natural Attack ||~ Spell Attack ||
 || 1 ||You provoke an attack of opportunity from all adjacent opponents || You are fatigued. || You are sickened for 1d4 rounds. || The attack hits you and is a critical threat. You must roll to confirm the critical hit. ||
