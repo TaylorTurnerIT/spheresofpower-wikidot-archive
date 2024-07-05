@@ -45,7 +45,44 @@ The alchemy-implanted creature gains abilities depending on the item used:
 * As an immediate action, the alchemy-implanted may make a melee touch attack against a target within its natural reach and detonate the implanted splash weapon. The alchemy-implanted is reduced to 0 hit points, exploding with the effects of the implanted item. If the melee touch attack is successful, treat the target as if they were hit by the splash weapon normally and affect any other creatures, excluding the alchemically-implanted, in the splash weapon’s radius as normal. If the alchemical-implanted dies, the splash weapon is detonated automatically, centered on its space. Exploding this way mangles the corpse, making it difficult to reanimate without repairing the body first (such as with the Death sphere Corpse Manipulation talent).
 * **Other Implanted Alchemicals and Potions:** For any other implanted item, such as a Salve or Panacea (formulae) or a potion, the alchemy-implanted may expend the item to use it on a creature within its natural reach as a standard action or on itself as a swift action.
 
-+++ Antimemetic Creature
++++ Amalgamate Template (CR +1, see text) [SB:A]
+“Amalgamate” is an acquired template that can be added to any living, corporeal creature. A mutant retains the base creature's statistics and special abilities except as noted here.
+
+**CR:** As base creature +1. Keep in mind that a battle with an amalgamate creature should include the CRs of the fused creatures in addition to the amalgamate.
+
+**Type:** The creature's type changes to aberration. Do not recalculate Hit Dice, BAB, or saves. An amalgamate gains any subtypes possessed by its fused creatures.
+
+**Defensive Abilities:** An amalgamate creature possesses the following defensive abilities:
+
+//Conjoined Forms (Ex):// When an amalgamate takes damage, that damage is distributed evenly among the amalgamate and its fused creatures. Any remaining damage goes to the amalgamate. When an amalgamate attempts a saving throw, it may choose to use the saving throw modifier of one of its fused creatures in place of its own (this includes any special modifiers that the fused creature may possess, such as a bonus to saving throws vs. poison). An amalgamate and its fused creatures share the same alignment.
+
+//Entrapped Fusion (Ex):// An amalgamate is immune to polymorph effects aside from those that come from its altered form ability.
+
+//Fused Immensity (Ex):// An amalgamate is considered one size larger than their largest fused creature (or one size larger than themself, if they are larger than their fused creatures) for the purpose of determining what sphere effects, combat maneuvers, or other such abilities can affect them. If multiple fused creatures (including the amalgamate) are Large-sized or larger, they are considered 2 sizes larger rather than one size larger. This increases by an additional size larger if the amalgamate has at least 4 fused creatures, plus an additional size beyond that for every 4 fused creatures thereafter (for example, 13 Small-sized creatures fused together would be considered a Huge creature).
+
+//Fused Resolve (Ex):// An amalgamate gains a +2 bonus to its CMD and a +2 bonus on saving throws against mind-affecting effects for every fused creature it possesses.
+
+//Regeneration:// An amalgamate creature gains regeneration equal to its number of fused creatures. This regeneration is bypassed by effects of an opposite alignment to the amalgamate creature (for example, a chaotic evil amalgamate would have its regeneration bypassed by good or lawful weapons or spells. A true neutral amalgamate would have its regeneration bypassed by any aligned weapon or spell).
+
+**Weaknesses:** An amalgamate creature possesses the following weaknesses:
+
+//Bound Together:// An amalgamate creature must always remain adjacent to one or more of its fused creatures and cannot move or be moved in such a way such that they would fail to be adjacent. If a fused creature moves or is moved, the amalgamate creature moves with them. In addition, any condition which affects one of the amalgamate’s fused creatures also affects the amalgamate, ignoring any immunities that they may possess.
+
+**Special Attacks:** An amalgamate creature possesses the following special attacks:
+
+//Designate Action (Ex):// An amalgamate may grant any of its actions to its fused creatures. When the amalgamate would be allowed to perform a specific action, they may instead allow one of their fused creatures to perform that action. If the amalgamate creature gives an attack of opportunity action to a fused creature, they must use it to attack the target that provoked the attack of opportunity from the amalgamate.
+
+//Malleable Formation (Ex):// As a free action, an amalgamate creature may swap places with any of its fused creatures.
+
+**Special Qualities:** An amalgamate creature gains the following special qualities:
+
+//Altered Form (Ex):// An amalgamate creature gains Transformation and Improved Transformation as bonus feats with the Eternal Transformation drawback. All creatures that are fused together gain the same traits from this transformation, using the Hit Dice of the fused creature with the highest Hit Dice to determine the effects of these feats.
+
+//Fused Creatures (Ex):// An amalgamate creature is always bound to at least one other creature with the amalgamate template, known as a fused creature. The statistics of the fused creature(s) affect the amalgamate’s abilities in various ways.
+
+**Ability Scores:** If any of the amalgamate creature’s fused creatures possess ability scores that are better than the amalgamate’s own ability scores, the amalgamate uses these higher ability scores in place of its own.
+
++++ Antimemetic Creature (CR +1) [SB:A]
 “Antimemetic” is an acquired template that can be added to any creature, referred to hereafter as the base creature.
 
 **Challenge Rating:** Save as base creature +1
@@ -514,7 +551,7 @@ The indomitable creature template is inherited and can be added to any create (r
 
 For every 4 Hit Dice the indomitable creature possesses, the indomitable creature gains Extra Combat Talent as a bonus feat, selecting a bonus talent from the Guardian sphere.
 
-+++ Insectile Creature [SB:A]
++++ Insectile Creature (CR +1) [SB:A]
 “Insectile creature” is an acquired template that can be added to any intelligent, living corporeal
 creature, referred to hereafter as the base creature.
 
