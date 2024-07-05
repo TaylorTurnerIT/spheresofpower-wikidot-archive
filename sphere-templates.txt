@@ -2,144 +2,707 @@ title:Sphere Templates
 parent:spheres-of-power
 [[toc]]
 
-++++ Blood Brothers (CR +2)
-Blood brothers (and sisters) have trained together for years; perhaps their whole lives. They have thus gotten very good at watching each other’s backs. Each member has a number of tricks they can employ in combat.
-
-Their tricks are simple to counter and avoid once they have been witnessed, but most people will fall for them the first time. Treat each trick as being usable only once per combat by any group of blood brothers (not once per creature), except against those who do not witness the trick when it happens. The blood brothers template can be applied to any humanoid creatures, but often applied to a group of the same creatures, and often sized small or smaller.
-
-**Special Abilities:**
-
-**Ah! Move It Move It (Ex)** As an immediate action, a blood brother can move an adjacent target blood brother to any other square adjacent to them. They may do this in response to an enemy moving adjacent to the target blood brother.
-
-**Ha Ha Broke Your Toy (Ex)** As a reaction to an adjacent enemy missing with a melee attack on one of their brothers, a blood brother can make a free sunder attempt on the weapon the enemy used without provoking an attack of opportunity.
-
-**Just Kidding (Ex)** As a free action, a blood brother can turn a missed melee attack into a feint. When the blood brother misses, they may make a Bluff skill check. The DC of this check is equal to 10 + their opponent’s base attack bonus + their opponent’s Wisdom modifier. If their opponent is trained in Sense Motive, the DC is instead equal to 10 + their opponent’s Sense Motive bonus, if higher. If successful, the next melee attack made by a blood brother (other than the one who feinted) against the target does not allow him to use his Dexterity bonus to AC (if any). This attack must be made on or before the opponent’s next turn.
-
-**Mine Mine Mine (Ex)** As an immediate action, a blood brother can make a free steal combat maneuver on an enemy that has just been struck by a different blood brother.
-
-**Hands Off (Ex)** As an immediate action, a blood brother can attempt a trip combat maneuver on an adjacent enemy who just damaged another blood brother with a weapon attack.
-
-**Outta The Way (Ex)** As an immediate action, a blood brother can swap places with an adjacent enemy without provoking an attack of opportunity.
-
-**Snap Out Of It (Ex)** As an immediate action, a blood brother can let an adjacent brother reroll a Will save.
-
-**Step On Your Face (Ex)** When a blood brother makes a charge attack through a square occupied by another blood brother, that blood brother may use an immediate action to launch the charging brother into the air. The charger may make a Athletics check with a bonus equal to their brother’s Strength modifier. The extra movement from the jump is added to their movement, and their bonuses from the charge are doubled. If the jump is vertical, it can be used to strike targets not accessible from the ground.
-
-**Toss Shorty (Ex)** As a standard action, a blood brother can pick up and throw another blood brother. The blood brother being thrown must be conscious to guide the throw. The blood brother doing the throwing makes a Strength check with a DC of 10. If they succeed, they throw their brother 5 ft., plus an additional 5 ft. for every 5 they beat the DC by. If the thrown brother delayed their action, they can now take their action to make a full-round attack.
-
+[[module CSS]]
+.noselect {
+  -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome and Opera */
+}
+[[/module]]
+[[tabview]]
+[[tab Ultimate]]
+[[div class="noselect" style="float:right; width: 20%; padding: 0 2%"]]
+[[=]]
+[[image http://spheresofpower.wikidot.com/local--files/test-page/UltimateSpheresofPower.jpg link="https://www.drivethrurpg.com/product/300249/Ultimate-Spheres-of-Power?affiliate_id=549120"]]
+**Ultimate Spheres of Power**
+$29.99
 ----
+[[/=]]
+[[/div]]
++++ Alchemy-Implanted (CR +0) [Gravecaller's HB]
+**Acquired/Inherited Template** Acquired
+**Simple Template** Yes
+**Useable with Summons** No
+Creatures with the alchemy-implanted template can use the implanted substance, sometimes with explosive results.
 
-++++ Darkened (CR +Varies)
+This template may be added to any creature with a procedure that requires 1 hour and a successful DC 30 Heal check, expending one alchemical item or potion as part of the procedure.
+
+A creature cannot gain this template again until the previous implanted item (even if destroyed) is removed with a DC 30 Heal check. Failing the check to either implant or remove the item deals 4d6 points of damage to the creature.
+
+**Weaknesses:** The alchemy-implanted gains the unstable weakness.
+* **Unstable (Ex)** The implanted item is fragile. Whenever the alchemy-implanted is subject to a critical hit, there is a 10% chance the alchemy-implanted immediately uses the implanted item as described in the implanted special ability. This chance goes up by 5% each time it occurs.
+
+**Special Abilities:** The alchemy-implanted gains the following special abilities. Save DCs are equal to the implanted alchemical item’s save DC, unless otherwise noted.
+
+**Implanted (Ex)** When an alchemy-implanted creature is created, the creator expends one alchemical item or potion as part of the creation process, such as a mundane alchemical item, Alchemy sphere formulae, alchemist’s bomb, or a compound, potion, or instilled liquid. If the implanted item is detonated or used, the alchemy-implanted creature loses any effects of this template until the item is removed from their body with a DC 30 Heal check as described above.
+
+The alchemy-implanted creature gains abilities depending on the item used:
+* **Implanted Splash Weapon:** If the implanted item is a splash weapon, the alchemical-implanted deals an additional 1d6 points of damage of a type dealt by the splash weapon (if any) with its natural attacks, or may inflict 1d6 points on damage to itself as a swift action to coat a weapon it wields with the splash weapon’s fluids, oils or other substances, adding this additional damage to that weapon for the next minute.
+* As an immediate action, the alchemy-implanted may make a melee touch attack against a target within its natural reach and detonate the implanted splash weapon. The alchemy-implanted is reduced to 0 hit points, exploding with the effects of the implanted item. If the melee touch attack is successful, treat the target as if they were hit by the splash weapon normally and affect any other creatures, excluding the alchemically-implanted, in the splash weapon’s radius as normal. If the alchemical-implanted dies, the splash weapon is detonated automatically, centered on its space. Exploding this way mangles the corpse, making it difficult to reanimate without repairing the body first (such as with the Death sphere Corpse Manipulation talent).
+* **Other Implanted Alchemicals and Potions:** For any other implanted item, such as a Salve or Panacea (formulae) or a potion, the alchemy-implanted may expend the item to use it on a creature within its natural reach as a standard action or on itself as a swift action.
+
++++ Apostle Kyton [SB:FotC]
+The beings known as kytons pursue a higher state of being through self-mutilation, most often aiming for pleasure or a greater truth. Both impulses drive these immortals to share their discoveries with others, a process which continually expands the number of disciples eager to learn more about the great secrets of existence. Those who learn these secrets end up distancing themselves from their morality, their sensibility, and ultimately their humanity, living on as eternal horrors known as apostle kytons.
+
+“Apostle kyton” is an acquired template that can be added to any living creature (referred to hereafter as the base creature). Most apostle kytons were once humanoids. An apostle kyton uses the base creature’s statistics and abilities except as noted here.
+
+**Challenge Rating:** Base creature’s CR + 2.
+
+**Alignment:** Lawful evil.
+
+**Type:** The apostle kyton’s type changes to outsider (kyton, native). Do not recalculate Hit Dice, BAB, or saves. It gains the augmented subtype.
+
+**Senses:** An apostle kyton gains darkvision 60 feet.
+
+**Armor Class:** Natural armor bonus increases by 4.
+
+**Defensive Abilities:** An apostle kyton gains immunity to cold, spell resistance equal to 11 + its total CR, and regeneration equal to 1/2 its Hit Dice that is negated by good weapons, good spells, and silver weapons.
+
+**Special Attacks:** An apostle kyton gains the following special attacks.
+
+**Seductive Oration (Su):** An apostle kyton has a unique perspective due to her transition into her current form. As a full-round action that provokes attacks of opportunity, an apostle kyton can speak to the pleasures and wonders it experienced during its transformation. Any creature that listens to this speech for 1 continuous minute must succeed at a Will save (DC = 10 + 1/2 the apostle kyton’s Hit Dice + the apostle kyton’s Charisma modifier) or take 1d6 points of Wisdom damage. This Wisdom damage increases by 1d6 for every 8 Hit Dice of the apostle kyton. A creature that succeeds at its save cannot be affected by that apostle kyton’s seductive oration ability for 24 hours.
+
+After failing the save to resist the apostle kyton’s seductive oration, the target begins to question the definitions of morality, physicality, and life. Once per week, as long as the affected creature remains in communication with the apostle kyton, it must attempt a saving throw against seductive oration again or have its alignment shift one step toward lawful evil and take 1d6 additional points of Wisdom damage. The save DC increases by 1 per consecutive week of contact with the apostle kyton. A successful save prevents the alignment shift. A creature cannot take Wisdom damage from seductive oration more than once per week, even if it encounters multiple apostle kytons.
+
+When the target’s alignment completely shifts to lawful evil (or if the target is lawful evil when first seduced), the target must immediately succeed at a Will save (with the same DC as seductive oration, including any increases from extended contact) or gain a greater madness.
+
+If your campaign uses the sanity system, then instead of dealing Wisdom damage, seductive oration deals sanity damage equal to 1/2 the apostle kyton’s CR. If the target is turned lawful evil, the greater madness it gains is in addition to any madness it might gain from the sanity damage itself. Creatures that are driven insane by an apostle kyton often eventually become broken souls, but some rare individuals gain the shadowbound corruption or even transform into apostle kytons themselves.
+
+**Unnerving Gaze (Su):** An apostle kyton’s unnerving gaze (see the kyton subtype) causes those who fail their saving throws to be fascinated by the apostle kyton. The apostle kyton’s seductive oration does not break this fascination effect, but other attacks break the effect as normal.
+
+**Magic:** The kyton apostle gains a bonus magic talent plus an additional talent for every 2 Hit Dice it possesses beyond the first. If it does not already possess spellcasting or racial casting, the creature gains a caster level based on their racial Hit Dice (see Table: Racial Caster Level Progression by Creature Type) and may select a casting tradition. If the creature has no racial Hit Dice, they gain Basic Magic Training and Advanced Magic Training as bonus feats. Talents from these abilities must be from the Blood, Death, Mind, or Fate spheres.
+
+**Ability Scores:** Strength +6, Dexterity +4, Constitution +6, Intelligence +2, Wisdom +6, Charisma +6.
+
+**Skills:** An apostle kyton gains a +4 racial bonus on Bluff, Heal, and Intimidate checks.
+
+**Languages:** An apostle kyton learns Infernal as a bonus language.
+
++++ Blood Brothers (CR +2)
+Blood brothers (and sisters) are groups of creatures that have trained together for years; perhaps their whole lives. They have thus gotten very good at watching each other’s backs. Each member has a number of tricks they can employ in combat. “Blood Brothers” is an inherited or acquired template that can be applied to any two or more creatures.
+
+Their tricks are simple to counter and avoid once they have been witnessed, but most people will fall for them the first time. Treat each trick as being usable only once per combat by any group of blood brothers (not once per creature), except against those who do not witness the trick when it happens. The blood brothers template can be applied to any humanoid creature, but often applied to a group of the same creatures, and often sized Small or smaller.
+
+**Special Abilities**
+
+**Ah! Move It Move It (Ex):** As an immediate action, a blood brother can move an adjacent target blood brother to any other square adjacent to them. They may do this in response to an enemy moving adjacent to the target blood brother.
+
+**Ha Ha Broke Your Toy (Ex):** As a reaction to an adjacent enemy missing with a melee attack on one of their brothers, a blood brother can make a free sunder attempt on the weapon the enemy used without provoking an attack of opportunity.
+
+**Just Kidding (Ex):** As a free action, a blood brother can turn a missed melee attack into a feint. When the blood brother misses, they may attempt a Bluff check. The DC is equal to the higher of 10 + their opponent’s base attack bonus + their opponent’s Wisdom modifier and 10 + their opponent’s Sense Motive bonus. If successful, the next melee attack made by a blood brother (other than the one who feinted) against the target does not allow him to use his Dexterity bonus to AC (if any). This attack must be made on or before the opponent’s next turn.
+
+**Mine Mine Mine (Ex):** As an immediate action, a blood brother can make a free steal combat maneuver on an enemy that has just been struck by a different blood brother.
+
+**Hands Off (Ex):** As an immediate action, a blood brother can attempt a trip combat maneuver on an adjacent enemy who just damaged another blood brother with a weapon attack.
+
+**Outta The Way (Ex):** As an immediate action, a blood brother can swap places with an adjacent enemy without provoking an attack of opportunity.
+
+**Snap Out Of It (Ex):** As an immediate action, a blood brother can let an adjacent brother reroll a Will save.
+
+**Step On Your Face (Ex):** When a blood brother makes a charge attack through a square occupied by another blood brother, that blood brother may use an immediate action to launch the charging brother into the air. The charger may attempt an Athletics check with a bonus equal to their brother’s Strength modifier. The extra movement from the jump is added to their movement, and their bonuses from the charge are doubled. If the jump is vertical, it can be used to strike targets not accessible from the ground.
+
+**Toss Shorty (Ex):** As a standard action, a blood brother can pick up and throw another blood brother. The blood brother being thrown must be conscious to guide the throw. The blood brother doing the throwing attempts a Strength check with a DC of 10. If they succeed, they throw their brother 5 feet, plus an additional 5 feet for every 5 they beat the DC by. If the thrown brother delayed their action, they can now take their action to make a full-round attack.
+
++++ Bound One [SB:FotC]
+Bound one is an acquired template that can be added to any creature (referred to hereafter as the base creature). A bound one uses all the base creature’s statistics and special abilities except as noted here.
+
+**Challenge Rating:** Same as the base creature +1.
+
+**Senses:** A bound one gains darkvision 60 feet and low-light vision.
+
+**Defensive Abilities:** A bound one is immune to disease and poison. They are not subject to aging and do not need to breathe, eat, or sleep. They also gain fast healing 5. Other defensive abilities may be granted by the bound one’s investitures.
+
+**Weakness:** All bound ones gain the domain of entrapment weakness.
+
+**Domain of Entrapment:** Every bound one is confined within a specific region, be this a country, a building, or even a specific room. The bound creature cannot leave this domain of entrapment by any means, with any attempts to do so resulting in one of the following effects (chosen when this template is selected):
+* **Destruction:** The bound one’s body and mind are destroyed, killing the bound one instantly, if it ever moves outside of its domain of entrapment. If some circumstance would resurrect or rejuvenate the bound one, they reappear within their domain of entrapment rather than wherever they would normally appear.
+* **Reduction:** If the bound ever moves out of their domain of entrapment, it immediately loses all benefits of the bound one template (and potentially any abilities the creature which bound the bound one to their domain might have granted from class levels). The bound one cannot regain the template outside of the bound domain and may even need to atone for its departure in order to regain the benefits upon re-entry (usually by completing some quest or via an atonement spell). Should it fail to do this, the bound one could lose the template permanently, taking 3d6 points of Constitution drain as the years of lost food, drink, and sleep return to it tenfold. A creature that lacks a Constitution score takes 1d6 points of damage per Hit Die from this process.
+* **Replacement:** The bound one is unable to leave its domain by any means, and effects such as plane shift, shadow walk, teleport, and even wish fail. Attempts to simply walk beyond the boundaries creates a fog around the bound one (and any allies helping to move them) which blocks all senses and which inevitably guides the bound one back to its domain within 1 hour (at which point the fog dissipates).
+
+**Special Qualities:** A bound one gains the following special qualities.
+
+**Investitures:** Every bound one gains a series of investitures which reflect their connection to and power over their domain of entrapment. Each bound one selects a single investiture plus an additional investiture for every 4 Hit Dice they possess. If the bound one’s domain of entrapment is confined to a single structure or any smaller environment, they may select one additional investiture. The investitures a bound one may select are as follows. Unless otherwise noted, the saving throw DCs for these abilities are equal to 10 + 1/2 the bound one’s Hit Dice + the highest of its Intelligence, Wisdom, and Charisma modifier.
+
+**Ability Healing (Ex):** A bound one heals 1 point of ability damage per round in each damaged or drained ability score.
+
+**Fear Aura (Su):** The bound one is terrifying to behold. Any creature within a 60-foot radius that sees or hears the bound one must succeed at a Will save or be shaken for as long as it is within the aura, and for 1 minute thereafter. Whether or not the save is successful, that creature cannot be affected again by the same bound one’s fear aura for 24 hours. This is a mind-affecting fear effect.
+
+**Heightened Senses (Ex):** The bound one gains a +8 bonus on Perception and Sense Motive checks in addition to the see in darkness ability.
+
+**Invulnerability (Ex):** The bound one gains DR 5/silver and good/evil/lawful/chaotic, with the alignment being one that is opposite to the alignment of the bound one’s or the source of the bound one template. This damage reduction improves from 5 to 10 if the bound one has 10 or more Hit Dice. If the bound one already possesses higher damage reduction than this ability would grant, they may change that damage reduction to DR/silver and good/evil/lawful/chaotic.
+
+**Immortal Curse (Ex):** Even death cannot free a bound one from its domain of entrapment, and bound ones with this investiture that are killed return to life 24 hours later. When a bound one is created, a specific condition is determined by the source of the bound one template, which must be performed in order for the bound one to be permanently slain. The exact means vary with each bound one, are difficult but never impossible, and should be created specifically for each bound one by the GM.
+
+Examples include disinterring the corpse of the lord’s slain lover and reburying it outside the domain, stealing vast treasures from the lord’s castle and returning them to the poor people they were stolen from, or destroying a dam to set free a river the bound one has prevented from flowing through its lands. Certain variations may apply to this immortality, such as the bound one being affected by a reincarnate spell whenever they would return to life or the bound one template transferring to another creature within the domain of entrapment rather than resurrecting the bound one.
+
+**Magical Mastery (Su):** A bound one gains a +2 bonus to their caster level for all sphere effects.
+
+**One with the Land (Su):** A bound one can shape the hazardous landscapes formed as a consequence of its domain’s creation to its will. It can replace any normal or supernatural hazard present in its domain with another hazard, but the process takes 24 hours, during which time neither hazard functions. The combined CR of all hazards found within a lord’s domain (that is, the CR of a hypothetical encounter with all of the hazards at once) cannot exceed twice its Hit Dice, and it cannot create any hazards whose CR exceeds its own.
+
+**Physical Mastery (Su):** The bound one draws strength and deftness from its domain. It gains a +4 profane or sacred bonus to its Strength, Dexterity, and Constitution scores.
+
+**Realm Shaper (Su):** The bound one gains the domain ability of the fey noble template, although the range of this ability never extends beyond their domain of entrapment. The bound one may select this ability a second time, in which case they gain the domain mastery ability of the fey noble.
+
+**Sphere Dominion (Ex):** The bound one chooses a single combat sphere, although they may select a magic sphere if they possess a casting tradition. The bound one gains that sphere or a bonus talent from that sphere, plus an additional talent for every 4 Hit Dice they possess. This investiture can be selected multiple times, each time selecting a different sphere.
+
+**Ability Scores:** +4 Intelligence, +4 Wisdom, +4 Charisma.
+
++++ Contra-Legem [SB:FotC]
+There are those who attempt to circumvent a bargain for their soul by becoming undead, doubting the powers of the beyond to claim them. Over the eons, fiends have learned to counter such trickery, but often respect mortals for their ambition. Undead born of those who have pledged their souls are transformed into contra-legem, reanimated horrors bound by diabolic power. Contra-legem often perform painful or demeaning tasks for their fiendish masters, especially when a fiend wishes to warn other beings of the dangers of crossing them.
+
+“Contra-Legem Creature” is an acquired template that can be added to any intelligent undead. The creature retains all the base creature’s statistics and special abilities except as noted here.
+
+**Challenge Rating:** Same as the base creature +1.
+
+**Alignment:** Any evil.
+
+**Defensive Abilities:** A contra-legem gains resist 10 to three of the following damage types: acid, cold, electricity, fire, or sonic.
+
+**Spell Resistance:** A contra-legem gains spell resistance equal to its new CR+5. If it already had spell resistance from another source, use whichever is higher.
+
+**Weakness:** A contra-legem gains the following weakness:
+
+**Code-Bound (Ex):** Each contra-legem must swear at least one Oath for which they must select the Integral Oath Oath Boon. The contra-legem may never forswear this oath. Many outsiders may force contra-legem to swear additional oaths as a clause of their reanimation.
+
+**Languages:** A contra-legem speaks either Abyssal or Infernal as well as any languages spoken by the base creature, and gains telepathy out to 120 feet.
+
+**Special Attacks:** A contra-legem gains the following special attacks.
+
+**Legem Smite (Su):** A contra-legem can smite good, smite law, or smite chaos a number of times per day equal to its Charisma modifier (minimum 1). As a swift action, the contra-legem chooses one target within sight to smite and chooses either good, law, or chaos. If the target’s alignment matches the designated alignment, the contra-legem adds its Charisma bonus (if any) to attack rolls and adds its Hit Dice to all damage rolls made against the target of its smite.
+
+**Ability Scores:** Dexterity +2, Intelligence +2, Wisdom +2, Charisma +2.
+
++++ Darkened (CR +Varies)
 Through accident of birth, deliberate ritual, or simple longterm exposure, this creature’s very being has been suffused with darkness.
 
-**Creating a Darkened Creature**
 “Darkened” is an inherited or acquired template that can be applied to any creature. A darkened creature retains the base creature’s statistics and special abilities except as noted here.
 
-**CR** 8 HD or less, as base creature +2; 9 HD or more, as base creature +3.
+**CR:** 8 Hit Dice or less, as base creature +2; 9 Hit Dice or more, as base creature +3.
 
-**Type** The creature gains the darkened subtype.
+**Type:** The creature gains the darkened subtype.
 
-**Senses** A darkened creature gains low-light vision and darkvision 60 ft.
+**Senses:** A darkened creature gains low-light vision and darkvision 60 feet.
 
-**Weaknesses** A darkened creature gains light blindness.
+**Weaknesses:** A darkened creature gains light blindness.
 
-**Special Abilities** A darkened creature gains one of the following special abilities for every 4 HD or fraction thereof.
+**Special Abilities**
 
-//Hide in Plain Sight (Su)// A darkened creature can use the Stealth skill even while being observed. As long as it is within 10 ft. of an area of dim light or darkness, it may hide itself from view in the open without the benefit of cover or concealment. It cannot, however, hide in its own shadow.
+**Casting:** A darkened creature gains a caster level equal to its racial Hit Dice and a spell pool equal to its Hit Dice plus its Charisma modifier, as well as a number of bonus talents equal to 1/2 its Hit Dice (minimum 1). A darkened creature gains the Dark sphere. If the darkened creature already possesses the Dark sphere, then it gains a Dark sphere talent without the drawback. Magic talents gained by the darkened creature must be used to acquire talents from the Dark sphere. A darkened creature suffers a -1 penalty to its caster level when attempting to cast in normal light, and -2 when attempting to cast in bright light, to a minimum of 1. The location of the darkened creature is used to determine the light level for this penalty.
 
-//Evasion (Ex)// In areas of dim light or darker a darkened creature gains evasion, as the rogue ability of the same name. This ability may be selected a second time, granting improved evasion in areas of dim light or darker.
+**Darkened Nature:** A darkened creature gains one of the following special abilities for every 4 Hit Dice or fraction thereof.
 
-//Occulted (Su)// A darkened creature is protected from divinations as if under the effects of a permanent Obfuscation talent using its HD as its caster level. This ability can be taken a second time, granting the benefits of a second instance of Obfuscation.
+**Hide in Plain Sight (Su):** A darkened creature can use the Stealth skill even while being observed. As long as it is within 10 feet of an area of dim light or darkness, it may hide itself from view in the open without the benefit of cover or concealment. It cannot, however, hide in its own shadow.
 
-//See in Darkness (Su)// The creature can see perfectly in darkness of any kind, including that created by deeper darkness.
+**Evasion (Ex):** In areas of dim light or darker a darkened creature gains evasion, as the rogue ability of the same name. This ability may be selected a second time, granting improved evasion in areas of dim light or darker.
 
-//Shadow Rake (Su)// A darkened creatures can strike with its shadow. It gains a claw primary natural attack in addition to any attacks it already possesses. The damage for this attack is 1d6 plus its Charisma modifier. This special ability can be selected multiple times, each granting an additional claw attack.
+**Occulted (Su):** A darkened creature is protected from divinations as if under the effects of a permanent Obfuscation talent using its Hit Dice as its caster level. This ability can be taken a second time, granting the benefits of a second instance of Obfuscation.
 
-**Casting:** A darkened creature gains a caster level equal to its racial Hit Dice and a spell pool equal to its Hit Dice plus its Charisma modifier, as well as a number of bonus talents equal to 1/2 its Hit Dice (minimum 1). A darkened creature gains the Dark sphere, as well as the Photophobic Casting drawback. This drawback does not grant an additional talent and may be bought off as normal. If the darkened creature already possesses the Dark sphere, then it gains a Dark sphere talent without the drawback. Magic talents gained by the darkened creature must be used to acquire talents from the Dark sphere.
+**See in Darkness (Su):** The creature can see perfectly in darkness of any kind, including that created by deeper darkness.
 
-----
+**Shadow Rake (Su):** A darkened creatures can strike with its shadow. It gains a claw primary natural attack in addition to any attacks it already possesses. The damage for this attack is 1d6 plus its Charisma modifier. This special ability can be selected multiple times, each granting an additional claw attack.
 
-++++ Destructive Elemental (CR +2)
++++ Destructive Elemental (CR +2)
 “Destructive Elemental” is an acquired template that can be applied to any air, earth, fire, or water elemental (referred to hereafter as the base creature). A destructive elemental creature uses all the base creature’s statistics and special abilities, except as noted here.
 
-**Challenge Rating:** Same as base creature +2.
+**CR:** Same as base creature +2.
 
-**Casting:** The destructive elemental gains a caster level equal to its racial hit dice and the Destruction sphere as a bonus sphere and one blast type talent according to its element, as well as a spell pool equal to its CL plus its Charisma modifier. The destructive elemental may not use the default destructive blast and may only choose blast types from certain categories according to its type, listed below, but may select other talents normally. The destructive elemental gains one talent every odd racial HD beyond the first.
+**Casting:** The destructive elemental gains a caster level equal to its racial Hit Dice and the Destruction sphere as a bonus sphere and one (blast type) talent according to its element, as well as a spell pool equal to its caster level plus its Charisma modifier. The destructive elemental may not use the default destructive blast and may only choose blast types from certain categories according to its type, listed below, but may select other talents normally. The destructive elemental gains one talent every odd racial Hit Dice beyond the first.
+
 ||~ Elemental Type ||~ Available Blast Types Groups || 
-|| Air || Air, Electric || 
-|| Earth || Crystal, Stone || 
-|| Fire || Fire, Light || 
-|| Water || Cold, Crystal (in the form of ice) ||
+|| Air || Air, electric || 
+|| Earth || Crystal, stone || 
+|| Fire || Fire, light || 
+|| Water || Cold, crystal (in the form of ice) ||
 
-**Detonation:** When slain, a destructive elemental explodes in a burst of energy as if having used a destructive blast at its CL with the Explosive Orb blast shape and any one blast type talent it possesses.
+**Detonation:** When slain, a destructive elemental explodes in a burst of energy as if having used a destructive blast at its CL with the Explosive Orb blast shape and any one (blast type) talent it possesses.
 
-----
++++ Elemental, Geomancy Born (CR +1)
+Geomancy born is an inherited template that can be applied to any creature, but usually to creatures with the elemental subtype. While most commonly found with matching elemental and Nature packages, this need not always be the case. The CR of the creature increases by +1.
 
-++++ Elemental, Geomancy Born (CR +1)
-Geomancy Born is an inherited template that can be applied to any creature, but usually to creatures with the elemental subtype. While most commonly found with matching elemental and geomancy packages, this need not always be the case. The CR of the creature increases by +1.
+**Born of Geomancing:** A geomancy born elemental possesses an affinity for a particular element above and beyond the usual manifestations of its elemental nature. The geomancy- born elemental gains the Nature sphere with the package most closely associated with its elemental nature. A geomancy- born creature is considered a Low-Caster, possessing both a number of magic talents and a caster level equal to 1/2 its Hit Dice (minimum 1). These talents may only be spent gaining talents associated with its Nature package or (spirit) talents.
 
-A geomancy born elemental’s gain the following traits:
+**Spell Points:** A geomancy born elemental gains a small reservoir of energy that it can call upon to create wondrous effects, called a spell pool. This pool contains a number of spell points equal to its racial Hit Dice + its Wisdom modifier. If the elemental has spell points from another source, it gains a bonus their spell pool equal to the elemental’s racial Hit  Dice instead.
 
-**Born of Geomancing:** A geomancy born elemental possesses an affinity for a particular element above and beyond the usual manifestatinos of its elemental nature. The geomancy-born elemental gains the Nature sphere with the geomancing package most closely associated with its elemental nature (air elemental creatures instead gain the Weather sphere). A geomancy-born creature is considered a Low Caster, possessing both a number of magic talents and a caster level equal to 1/2 its Hit Dice (minimum: 1). These talents may only be spent gaining talents associated with its geomancing package.
++++ Embodiment Of Magic (CR+ Varies)
+Embodiment of Magic is an aquired template applied to a sphere effect, granting it intelligence, life, and a motive force. The Embodiment of Magic is naturally invisible; effects that can see magical auras reveal that it appears to be an aura shaped into the vague likeness of the caster, with visual tweaks corresponding to the effect it was created from.
 
-**Spell Points:** A geomancy born elemental gains a small reservoir of energy that it can call upon to create wondrous effects, called a spell pool. This pool contains a number of spell points equal to 1/2 its racial HD + its Wisdom modifier. If the elemental has spell points from another source, it gains a bonus their spell pool equal to 1/2 the elemental’s racial hit dice instead.
+“Embodiment of Magic” can be applied to any sphere ability with a duration longer than instantaneous that does not conjure, create, or summon a creature or object. For the purposes of this template, a sphere ability’s “potency” is equal to its spell point cost plus the number of talents or base spheres it incorporates.
 
-----
-
-++++ Embodiment of Magic (CR +Varies)
-This is a template applied to a sphere effect, granting it intelligence, life, and a motive force. The Embodiment of Magic is naturally invisible; effects that can see magical auras reveal that it appears to be an aura shaped into the vague likeness of the caster, with visual tweaks corresponding to the effect it was created from.
-
-**Creating an Embodiment of Magic**
-
-Embodiment of Magic is an acquired template that can be applied to any sphere ability with a duration longer than instantaneous. For the purposes of this template, a sphere ability’s “potency” is equal to its spell point cost plus the number of sphere effects it incorporates.
-
-**Challenge Rating:** An embodiment of magic has a challenge rating equal to two-thirds of its hit-dice, plus one-fourth of its potency minus one, rounded down.
+**Challenge Rating:** An embodiment of magic has a challenge rating equal to two-thirds of its Hit Dice, plus one-fourth of its potency minus one, rounded down.
 
 **Size and Type:** An embodiment of magic’s size is Medium by default; however, every 6 caster levels the effect has past the 1st increases its size by one, to a maximum of Huge. Its type is aberration (incorporeal).
 
-**AC:** An embodiment of magic possesses a Deflection bonus to AC equal to its potency plus its Charisma modifier (minimum potency + 1).
+**AC:** An embodiment of magic possesses a deflection bonus to AC equal to its potency plus its Charisma modifier (minimum potency + 1).
 
-**Hit Dice:** An embodiment of magic has hit dice equal to its caster level. Its hit dice are d8s.
+**Hit Dice:** An embodiment of magic has Hit Dice equal to its caster level. Its Hit Dice are d8s.
 
 **Alignment:** An embodiment of magic has the same alignment as its caster.
 
-**Defensive Abilities:** An embodiment of magic is incorporeal, possesses damage reduction bypassed by magic equal to its potency, and spell resistance equal to 10 plus its hit dice.
+**Defensive Abilities:** An embodiment of magic is incorporeal, possesses damage reduction bypassed by magic equal to its potency, and spell resistance equal to 10 plus its Hit Dice.
 
-**Speed:** An embodiment of magic has a 30 ft. base land speed.
+**Speed:** An embodiment of magic has a 30 feet base land speed.
 
-**Attacks:** An embodiment of magic possesses an incorporeal touch attack that deals Force damage equal to 1d6 + its Charisma modifier for a Medium embodiment, 1d8 + its Charisma modifier for a Large embodiment, and 2d6 + its Charisma modifier for a Huge embodiment.
+**Abilities:** As an incorporeal creature, an embodiment of magic lacks a Strength score. Three abilities have a score of 10 + its potency, while the rest have scores of 7 + 1/2 its potency, rounded up. These scores are given for a Medium embodiment of magic; adjust its Dexterity and Constitution scores accordingly for embodiments of other sizes.
 
-**Special Attacks:** An embodiment of magic created from an effect that targets creatures or objects possesses Mystic Touch; if it was created from an effect that affects an area, it instead has Mystic Aura:
+**Skills:** An embodiment of magic possesses 4 + Intelligence skill points, and treats the following as class skills: Acrobatics, Climb, Escape Artist, Fly, Intimidate, Knowledge (arcana), Perception, Spellcraft, Stealth, Survival, and Swim.
 
-**Mystic Touch (Su):** The embodiment of magic may use Embodiment Casting as part of an incorporeal touch attack made as a standard action. If they do so, they must target the creature they are attacking.
+**Attacks:** An embodiment of magic possesses an incorporeal touch attack that deals force damage equal to 1d6 + its Charisma modifier for a Medium embodiment, 1d8 + its Charisma modifier for a Large embodiment, and 2d6 + its Charisma modifier for a Huge embodiment.
 
-**Mystic Aura (Su):** The embodiment of magic possesses an aura that duplicates the effects of the sphere effect it was created from, centered on itself. If the area of effect can be moved, it reverts to centering on the embodiment at the beginning of its turn.
+**Special Attacks**
+An embodiment of magic created from an effect that targets creatures or objects possesses mystic touch; if it was created from an effect that affects an area, it instead has mystic aura:
 
-**Abilities:** As an incorporeal creature, an embodiment of magic lacks a Strength score. Three abilities have a score of 10 + its potency, while the rest have scores of 7 + one-half its potency, rounded up. These scores are given for a Medium embodiment of magic; adjust its Dexterity and Constitution scores accordingly for embodiments of other sizes.
+**Mystic Touch (Su):** The embodiment of magic may use embodiment casting as part of an incorporeal touch attack made as a standard action. If they do so, they must target the creature they are attacking.
 
-**Skills:** An embodiment of magic possesses 4 + Int skill points, and treats the following as class skills: Acrobatics, Climb, Escape Artist, Fly, Intimidate, Knowledge (Arcane), Perception, Spellcraft, Stealth, Survival, and Swim.
+**Mystic Aura (Su):** The embodiment of magic possesses an aura that duplicates the effects of the sphere effect it was created from, centered on itself. If the area of effect can be moved, it reverts to centering on the embodiment at the beginning of its turn. 
 
-**Special Qualities:** All embodiments of magic possess Embodiment Casting and Dispel Vulnerability. If the sphere effect was a positive effect that targets creatures, it also possesses Magical Nature.
+**Special Qualities**
+All embodiments of magic possess embodiment casting and dispel vulnerability. If the sphere effect was a positive effect that targets creatures, it also possesses magical nature.
 
-**Dispel Vulnerability (Ex):** Whenever an embodiment of magic is targeted by a dispel effect, it takes 1d6 damage per point of MSB of the dispel effect, which bypasses the embodiment’s damage reduction; in addition, it must make a Will save or have its supernatural abilities suppressed for 1d4 rounds. For the purposes of supernatural abilities that duplicate a sphere effect, they are considered to be recast on the turn they resume.
+**Dispel Vulnerability (Ex):** Whenever an embodiment of magic is targeted by a dispel effect, it takes 1d6 damage per point of MSB of the dispel effect, which bypasses the embodiment’s damage reduction; in addition, it must succeed at a Will save vs. a DC of 10 + 1/2 the MSB of the dispel effect + the casting ability modifier of the caster, or have its supernatural abilities suppressed for 1d4 rounds. For the purposes of supernatural abilities that duplicate a sphere effect, they are considered to be recast on the turn they resume.
 
 **Embodiment Casting (Su):** The embodiment of magic may cast the sphere effect it was created out of as if it knew all of the required talents. It does not receive the benefits of any metamagic that was incorporated into the original effect and reduces any non-optional spell point costs to 1 if they are not already lower.
 
-For all other purposes, the embodiment of magic has a spell pool equal to its potency, uses Charisma as its casting ability score, has a caster level equal to its hit-dice, and calculates its MSB and MSD as if its hit-dice were levels in a spellcasting class. This ability is considered to be the casting class feature for the purposes of prerequisites. Magical Nature (Su): The embodiment of magic is permanently under the effects of the sphere effect it was derived from.
+For all other purposes, the embodiment of magic has a spell pool equal to its potency, uses Charisma as its casting ability score, has a caster level equal to its Hit Dice, and calculates its MSB and MSD as if its Hit Dice were levels in a spellcasting class. This ability is considered to be the casting class feature for the purposes of prerequisites.
 
-**Environment:** Any
+**Magical Nature (Su):** The embodiment of magic is permanently under the effects of the sphere effect it was derived from.
 
-**Organization:** Unique
++++ Fey Noble [SB:F&F]
+The powerful rulers of Faerie, fey nobles are masters of their domains, shaping them to their will and defining reality there on a whim.
 
-**Treasure:** None
+How a creature becomes a fey noble will vary depending on the setting. In some settings, it may be an inherited template rather than an acquired one. When it is acquired, it involves not only claiming a portion of Faerie for your own, but binding the very land to your will. Other fey powers will not allow such things idly and doing so takes a great deal of time, so deep involvement in the byzantine layers of fairy politics is required and doing so will almost certainly incur obligations, oaths, and bargains that are nigh-inescapable. As such, this template is not intended for player characters.
 
-----
+**Creating A Fey Noble**
+Fey noble is an acquired template that may be applied to any creature of the fey type with at least 5 Hit Dice. All fey nobility gain the following abilities:
 
-++++ Meteorological Creature (CR +0–5)
-**Creating a Meteorological Creature**
-“Meteorological” is a template that can be applied to any creature.
+**CR:** base creature +2
 
-**CR:** HD 1 or less, as base creature; HD 2–3 or less, as base creature + 1; HD 4–9, as base creature +2; HD 10–17, as base creature +3; HD 18 or more, as base creature +4; plus +1 for fallout or volcanic weather
+**Domain:** Not merely a political or geographical region, the domain of a fey noble is intrinsically linked to them, mutable according to their will. A fey noble’s domain reacts to his thoughts; he may adjust the terrain’s shape as an at-will ability. By concentrating for 1 minute, a fey noble may adjust an area (per the Morphic Area column of Table: Domain) of earth, stone, and/or plantlife, shaping it however he will. This isn’t fast enough to do damage or trap creatures, but may be used to create fences and walls, ditches, human shapes, embankments, and others.
+
+Additionally, the noble can control the weather (as the control weather ability of the Weather sphere with a caster level equal to Hit Dice and permanent duration) and ambient light levels (from total darkness to bright light) within his domain, selecting areas as small as 1-mile radius to affect.
+
+More powerful nobles’ domains can contain those of their subordinates; each gains the normal benefits of this ability, though if one attempts to change something altered by another, a magic skill bonus check against the original caster’s MSD is required.
+
+A fey noble’s domain is usually suited to their nature; aquatic fey will rule rivers, lakes, and the surrounding areas, forest fey will hold dominion over great woods, etc.
+
+**Table: Domain**
+||~ Hit Dice ||~ Domain Size ||~ Morphic Area ||
+|| 5-10 || contiguous area with approximately 3-mile radius (or 1 hex^^1^^) || 150-ft. radius, 10 ft. deep || 
+|| 11-15 || 2-10 contiguous hexes^^1^^ || 300-ft. radius, 20 ft. deep || 
+|| 15-20 || 11-40 contiguous hexes^^1^^ || 1,000-ft. radius, 50 ft. deep || 
+|| 21+ || 41+ contiguous hexes^^1^^ || 1-mile radius, 100 ft. deep || 
+^^1: Assuming a 6 mile hex.^^
+
+**Domain Mastery:** A fey noble has great control over the material of his or her domain, allowing illusions to be infused with the material of Faerie. This acts as the create reality ability of a fey adept of class level equal to the fey noble’s Hit Dice. Doing so does not require the use of shadow points. This ability only functions while the fey noble is within his or her established domain.
+
+**Ability Scores:** Dex +4, Int +2, Wis +4, Cha +4.
+
+**Feats:** A fey noble gains the Basic Magic Training and Advanced Magic Training feats, selecting the Illusion sphere. Creatures that already have caster levels may choose to exchange Advanced Magic Training for Extra Magic Talent. Additionally, the fey noble gains 1 additional talent from the Illusion sphere for every 4 Hit Dice it possesses.
+
+**Skills:** Bluff and Diplomacy are always a class skills for a fey noble.
+
++++ Fiendbound [SB:FotC]
+Through diabolical agreements or strange circumstances, mortals sometimes find themselves sharing their bodies and/or souls with powerful evil outsiders. Most who enter these alliances are willing participants, relishing in the power given them despite losing their soul and potentially free will. The amount of control a fiendbound mortal exerts over their own body and mind varies heavily based on the agreement.
+
+“Fiendbound creature” is an acquired template that can be added to any creature with 5 or more Hit Dice and Intelligence, Wisdom, and Charisma scores of 3 or higher (referred to hereafter as the base creature). The creature retains all the base creature’s statistics and special abilities except as noted here.
+
+**Challenge Rating:** Same as the base creature +1.
+
+**Alignment:** Any evil. A fiendbound creature radiates an evil aura as if it were an evil outsider.
+
+**Senses:** A fiendbound creature gains darkvision 60 feet and the see in darkness ability.
+
+**Defensive Abilities:** A fiendbound creature gains four of the following defensive abilities. They may select each ability only once unless otherwise noted.
+* **Damage Reduction:** The fiendbound creature gains damage reduction 10 which is bypassed by either silver, cold iron, good, lawful, or chaotic effects, chosen when this ability is selected. The method to bypass this damage reduction must match the method used to bypass the damage reduction of the fiendish patron.
+* **Dual Mind:** When attempting a Will save, the fiendbound creature may roll twice and take the higher result.
+* **Energy Resistance:** The fiendbound creature gains energy resistance 30 against one type of energy damage their fiendish patron is immune to. This ability can be selected multiple times, each time selecting a different energy type.
+* **Fiendish Resolve:** The fiendbound creature gains a +4 bonus to saving throws against a type of effect their fiendish patron is immune to (such as poison, disease, death effects, or fear effects). This ability can be selected multiple times, each time selecting a different type of effect.
+* **Hardened Form:** The fiendbound creature’s natural armor improves by +4.
+* **Perpetual:** The fiendbound creature does not suffer from normal aging or aging magic. If released from the fiendish patron’s servitude, the base creature starts to age as normal as if no time has passed.
+* **Planar Grace:** The fiendbound creature is immune to the planar effects of the fiendish patron’s home plane, but is still susceptible to damage from non-planar sources. For example, an efreeti-bound creature is immune to the damaging effects from the Plane of Fire but still takes damage from fire from other sources.
+* **Regeneration:** The fiendbound creature gains regeneration 5 which is bypassed by either silver, cold iron, good, lawful, or chaotic effects, chosen when this ability is selected. The method to bypass this damage reduction must match the method used to bypass the regeneration of the fiendish patron (or another creature of the fiendish patron’s subtype if the patron lacks regeneration).
+* **Spell Resistance:** The fiendbound creature gains spell resistance equal to 11 + its CR.
+* **Tireless:** The fiendbound creature is immune to the fatigued and exhausted conditions.
+
+**Weaknesses:** A fiendbound creature gains one of the following weaknesses:
+* **Bond of the Master:** The fiendish patron is in constant telepathic communication with the fiendbound creature, imparting its thoughts and desires regardless of language or distance, even if its servitor is on another plane. The fiendish patron is constantly aware of its servant’s actions (but not its thoughts) and its condition (as though via a status spell). The fiendbound creature has no special awareness of the patron but can communicate with it telepathically. Because of this bond, the fiendish patron can use plane shift at will to move to any location in the planes that the fiendbound creature occupies. A fiendish patron that is displeased with its fiendbound creature can use a standard action to deal 1d6 points of damage to it or 1d4 points of damage to any one of its ability scores. The fiendish patron can also heal a like amount of damage that it has inflicted.
+* **Contract Bound:** The creature has signed a contract of service in return for this template. The fiend must reveal its nature as a creature of evil when it offers a contract, and it cannot hide the details of the contract in any way. The creature must enter the agreement willingly (without magical compulsion). Usually the creature must perform one or more tasks for the fiend, and in exchange the creature gains the template’s abilities, whether immediately, after a specific amount of time, or once the tasks are completed. The contract always includes a clause that damns the creature’s soul to the fiend’s native plane when the creature dies, with credit for the act and possession of the soul going to the fiend signing the contract. When the creature dies, its soul is automatically imprisoned in a gem, which immediately appears in the fiend’s domain as one of the fiend’s belongings. If the fiend is dead when the creature dies, the creature’s soul is destroyed, and cannot be restored to life except by miracle or wish. If the creature fails to perform the tasks in the allotted time, its soul is still damned and the fiend is not obligated to provide the promised abilities. Many contracts state that the fiend, its agents, and its allies will not attempt to kill the creature. This does not protect against all fiends, but does offer the creature a measure of protection against treachery from the signatory fiend. Breaking a contract with a fiend is difficult and dangerous. The fiendbound creature suffers a -2 penalty on all saving throws against effects created by the fiend or by other outsiders which share its subtype. Furthermore, as long as the contract remains in effect, a slain victim cannot be restored to life after death except by a miracle or wish. If the fiendbound creature is restored to life, the fiend immediately senses the name and location (as discern location) of the creature responsible.
+* **Encroaching Doom:** The fiendbound creature takes 1 hit point drain (no save) each day. The hit point drain cannot be healed by conventional means (including rest and magic) and is permanent until the fiendish patron leaves the creature or the fiendbound creature dies. Upon a fiendbound creature’s death its soul is devoured by the inhabiting fiend, who then returns to where it originated. After it dies, the base creature cannot be brought back to life except by miracle, true resurrection, or wish but will not necessarily be pursued by the fiendish patron if resurrected. The hit point drain can be avoided for one day per sapient (creature with Intelligence score 3 or higher) killed by the fiendbound creature up to a maximum of the fiendbound creature’s Wisdom modifier per day.
+* **Magic Vulnerability:** Certain spells have special additional effects against fiendbound creatures. A fiendbound creature subjected to a dispel evil spell, Exorcism word from the Fate sphere, or any banishment effect must succeed at a Will saving throw or lose all the modifications bestowed by the fiendbound creature template for a number of rounds equal to the opponent’s caster level. An antimagic field or any antimagic effect suppresses all the effects of the fiendbound creature template.
+* **Vulnerability to Virtue:** A fiendbound creature takes 50% more damage from divine or sacred damage and effects with the good descriptor.
+
+**Magic:** The fiendbound creature gains four bonus magic or combat talents. If it does not already possess spellcasting, the creature gains Basic Magic Training in place of a bonus talent, Advanced Magic Training as a bonus feat, and may select a casting tradition.
+
+**Ability Scores:** A fiendbound creature gains a +2 bonus on three ability scores of its choice.
+
+**Special Qualities:** A fiendbound creature gains the following special qualities:
+
+**Fiendish Patron (Ex):** Each fiendbound creature possesses a fiendish patron, a distinct type of fiend which determines what defensive abilities the fiendbound creature may select. This patron is selected when the fiendbound creature gains this template (typically corresponding to the type of fiend they made an agreement with) and cannot be changed.
+
++++ Forest-Corrupted (CR +2) [Woodfaring Adventures]
+Forest-corrupted creatures are intelligent beings who have been taken by the forest and transformed into pack animals for its own use. Nearly mindless and filled with an insatiable rage, those who believe the forest is sentient theorize the corrupted are the forest’s shock troops, which it sends to spread its seeds to new or damaged locations as subverted carriers. Forest-corrupted are easy to identify thanks to the plant-like vines that appear to be woven throughout their flesh. It is rare for a Chaotic creature to become a forest-corrupted, but it isnot unheard of.
+
+Forest-corrupted is an acquired template that can be added to any living, corporeal creature with an Intelligence score of at least 3 (referred to hereafter as the base creature). A forest-corrupted retains all the base creature’s statistics and special abilities except as noted here.
+
+**Challenge Rating:** Same as base creature +2
+
+**Alignment:** Always Chaotic Neutral. They are motivated only by rage and a desire to spread the Forest’s spores.
+
+**Type:** Creature type changes to plant. It retains any subtypes and gains the augmented subtype. Do not recalculate hit dice, base attack bonus, or saving throws.
+
+**Armor Class:** Natural armor bonus improves by +4.
+
+**Special Qualities and Defenses:** A forest-corrupted gains greensight 60 feet and plant traits.
+
+**Melee:** A forest-corrupted has two slam attacks. These slam attacks deals damage as appropriate for the base creature’s size (see “Natural Attacks”). If the base creature can use manufactured weapons, the forest-corrupted can as well.
+
+**Special Abilities:** A forest-corrupted retains all the special attacks of the base creature and gains all the special abilities listed below:
+
+**Breath Weapon (Ex):** A forest-corrupted gains a breath weapon usable once per minute. The breath weapon is a close range (25 ft + 5 ft per 2 HD) cone and infects any creatures within the area with Forest spores (Fortitude negates; DC 10 + 1/2 the creature’s HD + the creature’s Con modifier). forest-corrupted creatures that already have a breath weapon from another source instead infect every use of their breath weapon with Forest spores (see below).
+
+**//Forest Spores://** **Type** disease, inhaled **Save** Fortitude DC = 10 + 1/2 the forest-corrupted's hit dice + the forest-corrupted's Con modifier; **Onset** 1d4 days; **Frequency** 1/day; **Effect** 1d3 Int damage (this damage cannot be healed while the creature is infected); **Cure** 2 consecutive saves; **Note** Anyone who has their intelligence reduced to 0 while infected acquires the forest-corrupted template in 2d6 hours; **Special** Creatures who are already mindless or of animal intelligence (Intelligence of 1 or 2) are naturally immune to the effects of this disease.
+
+**Fungal Rejuvenation (Su):** So long as the creature remains within an area of Forest (temperate forest, jungle, or marsh) and is standing on moist earth, the forest-corrupted gains fast healing 5.
+
+**Abilities:** Increase from the base creature as follows: Str +6, Con +4. Forest-corrupted are mindless, meaning they have no Intelligence score.
+
+**Mindless:** A forest-corrupted loses all skill ranks and feats possessed by the base creature except those gained from combat talents.
+
+**Casting:** A forest-corrupted creature loses all spells and spherecasting abilities possessed by the base creature.
+
+**Combat Talents:** A forest-corrupted creature gains a martial tradition and 1 martial talent per hit die, using Constitution as its practitioner modifier.
+
++++ Forest-Touched (CR +1) [Woodfaring Adventures]
+Animals are welcomed in the forest much more readily than humanoids. Not only are animals immune to the Forest-corrupted template listed above, but sometimes they can exhibit powers and intelligence beyond their usual ability, as if some guiding power was directly influencing them.
+
+When an animal or creature of animal intelligence exhibits tactical prowess and coordination for beyond their usual ability, they are referred to as having been Forest-touched. Being forest-touched is not an inherited template; it comes and goes with seemingly randomness, whenever the Forest decides to impress itself onto its creations to further its own ends. Forest-touched is a template that can be added to any living, corporeal creature with an Intelligence score of 2 or less (referred to hereafter as the base creature), with the exception of domesticated animals, tamed animals, and animal companions, as their devotion cannot be swayed by the Forest.
+
+A forest-touched retains all the base creature’s statistics and special abilities except as noted here.
+
+**Challenge Rating:** Same as base creature +1
+
+**Alignment:** Always Chaotic Neutral. They are motivated by an unseen entity, and its desire to serve and defend the forest.
+
+**Armor Class:** Natural armor bonus improves by +2
+
+**Special Abilities:** A forest-touched retains all the special attacks of the base creature and gains all the special abilities listed below:
+
+**Devotion (Ex):** A forest-touched creature gains a +4 morale bonus on Will saves against enchantment spells and effects.
+
+**Telepathy (Su):** Forest-touched creatures gain telepathy out to 400 ft. that connects them to any other forest-touched creature within range. While animals do not communicate with words, this connection allows them to share sensations, locate each other with pinpoint accuracy, and coordinate tactical maneuvers with each other.
+
+**Tactics (Ex):** A forest-touched creature has access to every animal trick available through the Handle Animal skill, without the need to be taught them. They can enact any of these tricks on their turn without being directed to perform them; in essence, the check made to handle the animal is performed by the Forest itself as a free action and always succeeds. Similarly, the Forest guides the actions of these creatures, allowing them to coordinate and execute tactics far beyond what creatures of their intelligence would normally be able to do.
+
+**Coordinated Attacks (Ex):** All Forest-touched treat any other forest-touched creatures as allies for the purposes of feats. Forest-touched creatures gain the Gang Up feat, even if they do not possess its prerequisites.
+
+In addition, Forest-touched creatures gain 2 teamwork feats of the GM’s choice. They must meet the prerequisites of these feats. As a free action taken once per round, a Forest-touched creature may change one or both of these feats to any other teamwork feats for which they qualify.
+
+**Special:** A forest-touched creature who has become tame (such as with the Beastmastery sphere) or charmed (such as with the Animal Friend talent) loses the Forest-touched template for as long as the effect persists.
+
+++++ Using the Forest-Touched template
+The forest-touched template represents an animal through which the forest has decided to exert its will (or at least, that is the leading theory). While it does grant the affected creatures an increase in power, the greatest benefit of the template is that it allows animals and other creatures of low Intelligence to suddenly begin using advanced tactics; ambushes, disarms, formations, and other techniques that would normally be outside their capabilities.
+
+The forest-touched template requires very little rebuilding and can be applied and removed from monsters on a whim; whenever the Forest chooses to exert its will through its animal children, those children gain the forest-touched template.
+
+The forest-touched template is a great tool for increasing the danger of an encounter, and as there is very little rhyme or reason (at least that is observable by mortals) for why creatures might suddenly gain the forest-touched template, it is completely within the rights of the GM to apply the template as they desire. Perhaps the PCs have become high enough level that the Forest has taken notice of them. Perhaps they are about to uncover a powerful artifact and the forest does not wish them too. Any and all of these are valid reasons for why a group of animals might suddenly gain the forest-touched template.
+
++++ Godfoe (CR +3) [Cata. HB]
+There exist beings which the gods and their champions have brutalized in incomprehensible ways, beings who have sworn vengeance upon not only the gods but the concept of divinity itself. This twisted resolve transforms them into multiversal horrors known as godfoes, entities with the unique capacity not only to suppress the miracles of the divine and pseudo-divine but also to destroy these allegedly immortal beings.
+
+Godfoe is an acquired template that can be applied to any creature (referred to hereafter as the base creature). A godfoe creature uses all the base creature’s statistics and special abilities except as noted here.
+
+**Challenge Rating:** As base creature +3.
+
+**Aura:** A godfoe emanates the following aura.
+
+//Aura of Blighted Miracles (Su)//
+Creatures within 10 miles of a godfoe are incapable of regaining mythic power or using mythic power for any reason. In addition, spellcasters besides the godfoe are incapable of regaining spell points, spell slots, or prepared spells so long as they remain in this area.
+
+**Armor Class:** A godfoe’s natural armor bonus to AC improves by 4
+
+**Defensive Abilities:** A godfoe gains the following defensive abilities.
+
+//Rejuvenation (Ex)// A godfoe will always return so long as the deity they swore to destroy remains. If slain, a godfoe returns to life after a year and a day, their body rematerializing in a location significant to them. If a godfoe is slain with an artifact, it does not rematerialize for 100 years and a day. This process does not continue if the god which the godfoe has sworn to oppose is dead or has otherwise been stripped of their godly power.
+
+//Spell Repulsion (Ex)// A godfoe is immune to magic as if it possessed unbeatable spell resistance. Whenever a divine spellcaster attempts to cast a spell targeting the godfoe, the godfoe may attempt to counterspell and redirect the effect as per the Reflection talent from the Protection sphere (without having to expend an aegis).
+
+**Special Attacks:** A godfoe gains the following special attacks
+
+//Godripper (Su)// A godfoe’s attacks with natural or manufactured weaponry ignore all damage reduction and hardness that targets possess. In addition, the godfoe’s attacks gain the disjoining, ghost touch, and mythic bane special abilities and are considered epic and artifacts for the purpose of overcoming damage reduction, regeneration, and other defensive abilities.
+
+**Ability Scores:** Str +6, Con +8, Dex +6, Int +6, Wis +8, Cha +8
+
++++ Half-Fiend [SB:FotC]
+The intense magic of many fiends allows them to beget a variety of powerful and deadly offspring. It is said that every mortal creature has the potential to sire a half-fiend and that the mere presence of a mighty evil outsider can be sufficient to twist the shape of the unborn. These tales have spread across countless cultures in part due to the resilience of these hybrids; one of their number is capable of wrecking tremendous havoc across a vast domain.
+
+“Half-fiend” is an inherited or acquired template that can be added to a living, corporeal creature with an Intelligence score of 4 or more. A half-fiend uses all the base creature’s statistics and special abilities except as noted here.
+
+**Challenge Rating:** HD 4 or less, as base creature +1; HD 5 or more, as base creature +2
+
+**Alignment:** Any evil.
+
+**Type:** The creature’s type changes to outsider (native). Do not recalculate HD, BAB, or saves.
+
+**Armor Class:** Natural armor bonus improves by +1.
+
+**Defenses/Qualities:** Gains darkvision 60 feet; immunity to poison; acid, cold, electricity, and fire resistance 10; DR 5/magic (if HD 11 or less) or 10/magic (if HD 12 or more); and SR equal to creature’s CR + 11
+
+**Speed:** The half-fiend gains one of the following movement abilities:
+* **Flight:** Unless the base creature flies better, the half-fiend flies at twice the base creature’s land speed (good).
+* **Rapidity:** One of the half-fiend’s base speeds is increased by 30 feet.
+* **Swim:** The half-fiend gains a swim speed equal to the base creature’s land speed.
+
+**Melee:** A half-fiend gains two claw attacks and a bite attack. These natural attacks are primary attacks and deal damage as the claws and bite traits from the Alteration sphere.
+
+**Special Attacks:** A half-fiend gains the following:
+
+**Smite Good (Su):** Once per day, as a swift action, the half-fiend can smite good as an antipaladin of the same level as the halffiend’s Hit Dice. The smite persists until the target is dead or the half-fiend rests. For every 5 Hit Dice the half-fiend possesses, it may use this ability an additional time per day.
+
+**Magic:** The half-fiend gains a bonus magic talent plus an additional talent for every 2 Hit Dice it possesses beyond the first. If it does not already possess spellcasting or racial casting, the creature gains a caster level based on their racial Hit Dice (see Table: Racial Caster Level Progression by Creature Type) and may select a casting tradition. If the creature has no racial Hit Dice, they gain Basic Magic Training and Advanced Magic Training as bonus feats. Talents from these abilities must be from the Alteration, Death, Destruction, or Fate spheres.
+
+**Ability Scores:** A half-fiend gains a +4 bonus on three ability scores of its choice and a +2 bonus on the other three.
+
+**Feats:** A half-fiend may forgo gaining a new speed to instead gain Transformation as a bonus feat.
+
+**Skills:** A half-fiend with racial Hit Dice has skill points per racial Hit Die equal to 6 + Int mod. Racial class skills are unchanged, and class level skill ranks are unaffected.
+
++++ Indomitable Creature (CR +1) [SB:MBaCE]
+Indomitable creatures are unusually tough and resilient compared to others of their kind, able to deflect and ignore harm that others could not.
+
+The indomitable creature template is inherited and can be added to any create (referred to hereafter as the base creature). An indomitable creature uses the base creature’s statistics and abilities except as noted here.
+
+**Challenge Rating:** Same as base creature +1.
+
+**Type:** The creature’s type does not change. If this template is applied to a creature with the animal or vermin type, the creature’s type changes to magical beast. Do not recalculate its Hit Dice, base attack bonus, saves, or skill points.
+
+**Armor Class:** An indomitable creature increases their natural armor by +1 + 1 for every 4 Hit Dice it possesses. This stacks with the base creature’s natural armor bonus.
+
+**Defensive Abilities:** An indomitable creature gains the following defensive abilities:
+**Guardian’s Prowess (Ex):** An indomitable creature uses its Hit Dice in place of its base attack bonus when determining the effects of its Guardian sphere delayed damage pool. In addition, an indomitable creature’s delayed damage pool does not bypass the indomitable creature’s damage reduction or resistance when it empties at the end of its turn. When damage is emptied from the indomitable creature’s delayed damage pool, apply the indomitable creature’s damage reduction and resistance to the total damage dealt, not to individual instances of damage (such that 35 physical damage being emptied from the delayed damage pool would be treated as a single instance of 35 physical damage, not the 3 separate attacks that contributed to it).
+**Hardened (Ex):** An indomitable creature gains an amount of DR/– equal to 3 + 1/2 the indomitable creature’s Hit Dice. If the indomitable creature possesses damage reduction from another source, the indomitable creature may add half the damage reduction gained from this ability to that other source of damage reduction, if to do so would be beneficial. For example, if the indomitable creature possesses DR/silver from another source that would reduce incoming damage, and be more beneficial than the DR/– from this ability, the indomitable creature uses its DR/silver plus half its DR/– against that incoming damage.
+**Insuppressible (Su):** If the indomitable creature would be subject to a polymorph effect or other effect that would suppress their natural armor bonus, they retain the bonus natural armor granted by the indomitable creature template.
+
+**Abilities:** Str +2, Con +4. If the base creature’s Intelligence score is 2 or less (including mindless), the base creature’s Intelligence score becomes 3. A mindless base creature with this template gains skill ranks and feats as appropriate.
+
+**Feats:** An indomitable creature gains Extra Combat Talent as a bonus feat, selecting the Guardian sphere. An indomitable creature cannot select a drawback which removes the delayed damage pool ability; if the indomitable creature possesses a drawback which removes the delayed damage pool ability, it must buy back that drawback with the talent gained from the Extra Combat Talent feat.
+
+For every 4 Hit Dice the indomitable creature possesses, the indomitable creature gains Extra Combat Talent as a bonus feat, selecting a bonus talent from the Guardian sphere.
+
++++ Insectile Creature [SB:A]
+“Insectile creature” is an acquired template that can be added to any intelligent, living corporeal
+creature, referred to hereafter as the base creature.
+
+**Challenge Rating:** Same as base creature +1 (minimum 2).
+
+**Type:** The creature’s type changes to aberration. Do not recalculate Hit Dice, BAB, or saves. The creature retains its subtypes.
+
+**Armor Class:** The creature’s natural armor improves by +3.
+
+**Senses:** An insectile creature gains darkvision out to 60 feet.
+
+**Defensive Abilities:** An insectile creature gains the following defensive abilities:
+
+//Kinetic Defense (Su):// Piercing or slashing weapons, including natural weapons, that strike an insectile creature take 2d4 points of force damage from kinetic backlash. Such weapons are allowed a Fortitude save to avoid taking damage. The save DC is 10 + 1/2 the insectile creature’s Hit Dice + the insectile creature’s Constitution modifier.
+
+//Verminous Intellect (Ex):// Insectile creatures gain a +4 bonus on saving throws against mind-affecting spells and effects.
+
+**Melee:** An insectile creature retains the natural attacks of the base creature and gains a bite attack and two claw attacks if it did not already possess them. These weapons deal appropriate damage for the insectile creature’s size (1d4 for claws and 1d6 for bite for Medium creatures). An insectile creature cannot use manufactured weapons. An insectile creature’s bite attack also inflicts poison on its targets (see below).
+
+**Special Attacks:** An insectile creature retains the base creature’s special attacks and gains the attacks below.
+
+//Poison (Ex):// Bite—injury; save Fort DC 10 + 1/2 Hit Dice + Constitution modifier; frequency 1/round for 4 rounds; effect 1d3 Strength damage; cure 1 save. If the insectile creature possesses 10 or more Hit Dice, the Strength damage changes to 1d6 per round and the duration changes to 6 rounds. This poison ability replaces any existing poison that the base creature’s bite attack delivers.
+
+**Special Qualities:** An insectile creature retains the base creature’s special qualities. It gains the special qualities described below.
+
+//Diminished Consciousness (Ex):// While an insectile creature retains some of its intelligence,
+its ability to think and reason is significantly diminished. An insectile creature cannot speak or otherwise verbally communicate, though it can still communicate telepathically with any creature with the azaka subtypes. An insectile creature cannot act of its own free will, and does not cast spells, use skills, or take any other action except when commanded by its masters (these commands are typically given by verbal or telepathic speech). If attacked, an insectile creature still defends itself.
+
+//Insectile Servitude (Ex)//: An insectile creature is bound to the azaka which created it. It must follow that azaka’s commands, as well as the commands of any other azaka which is in the same squadron or possesses a spell proxy of the azaka which created it. If an insectile creature’s masters perish or otherwise lose control of the creature, the insectile creature becomes a masterless insectile creature (see below). Each day that an insectile creature goes without receiving some sort of command from its azaka masters, there is a cumulative 10% chance that it breaks free and becomes a masterless insectile creature.
+
+**Abilities:** An insectile creature has +2 Str, +2 Con, –6 Int (minimum 3), and –4 Cha.
+
+**Skills:** An insectile creature’s skill ranks and proficiencies are unaffected. Its racial bonus to Climb checks increases by +4. An insectile creature’s ability to use skills may be affected by the absence of its master; see insectile servitude above.
+
+**Feats:** An insectile creature’s feats are unaffected. Its ability to use feats may be affected by the absence of its master; see insectile servitude above.
+
+**Languages:** An insectile creature loses the ability to speak and understand any languages other than Azaka.
+
+++++ Masterless Insectile Creature
+When an insectile creature is no longer under the influence of its azaka masters, it becomes more vermin-like. Without the desires of its masters to drive it, it seeks only to satiate its hunger, and roams far and wide to find other creatures to eat. It feels no allegiance or kinship with other insectile creatures, or with creatures of its original type.
+
+**CR:** Increase by 0 instead of +1.
+
+**Abilities:** A masterless insectile creature has no Intelligence score. It becomes mindless (as the vermin trait).
+
+**Skills:** A masterless insectile creature has no skill points or class skills.
+
+**Special Attacks:** A masterless insectile creature loses its magic talents and spell-like abilities and cannot create magic effects but retains any extraordinary abilities.
+
+
++++ Lich (spheres) (CR +2) [SB:UatIF]
+Lichdom, a draconian solution to the fear of death, is a narrow path tread by those with power and the capacity to sacrifice, commit atrocity, or otherwise abandon their regular humanity to achieve a form of near perfect undeath. While most liches are evil, often due to the path of lichdom requiring sacrifices or costs that grossly prevent common morality, some find their path to lichdom in their own unique ways. Terrifyingly powerful practitioners of magic, a lich is a formidable foe with nothing but time on their side.
+
+The original lich template (Pathfinder RPG Bestiary pg. 188) has been adjusted from its original printing to offer stronger benefits in consideration of other powerful templates and routes to immortality available.
+
+“Lich” is an acquired template that can be added to any living creature (referred to hereafter as the base creature), provided it can create the required phylactery (or other vessel as appropriate to their lichdom ritual). A lich retains all the base creature’s statistics and special abilities except as noted here.
+
+**CR:** Same as the base creature +2.
+
+**Alignment:** Any. However, most lichdom rituals (or incantations) are conducted by those with an evil alignment.
+
+**Type:** The creature’s type changes to undead. Do not recalculate base attack bonus, saves, or skill ranks.
+
+**Senses:** A lich gains darkvision 60 feet.
+
+**Armor Class:** A lich has a +5 natural armor bonus or the base creature’s natural armor bonus, whichever is better.
+
+**Hit Dice:** Change all of the creature’s racial Hit Dice to d8s. All Hit Dice derived from class levels remain unchanged. As undead, liches use their Charisma modifiers to determine bonus hit points (instead of Constitution).
+
+**Defensive Abilities:** A lich gains channel resistance +4, DR 15/bludgeoning and magic, and immunity to cold and electricity (in addition to those granted by its undead traits). The lich also gains the following defensive ability.
+
+**Rejuvenation (Su):** When a lich is destroyed, its phylactery immediately begins to rebuild the undead spellcaster’s body nearby. This process takes 1d10 days—if the body is destroyed before that time passes, the phylactery merely starts the process anew. After this time passes, the lich awakens fully healed (albeit without any equipment it left behind on its old body).
+
+**Melee Attack:** A lich has a touch attack that it can use once per round as a natural weapon. A lich fighting without weapons uses its natural weapons (if it has any) in addition to its touch attack (which is treated as a primary natural weapon that replaces one claw or slam attack, if the creature has any). A lich armed with a weapon uses its weapons normally, and can use its touch attack as a secondary natural weapon.
+
+**Damage:** A lich’s touch attack uses negative energy to deal 1d8 points of damage to living creatures + 1 point of damage per 2 Hit Dice possessed by the lich. As negative energy, this damage can be used to heal undead creatures. A lich can take a fullround action to infuse itself with this energy, healing damage as if it had used its touch attack against itself.
+
+**Special Attacks:** A lich gains the two special attacks described below. Save DCs are equal to 10 + 1/2 lich’s Hit Dice + its Charisma modifier unless otherwise noted.
+
+//Fear Aura (Su):// Creatures of less than 5 Hit Dice in a 60-foot radius that look at the lich must succeed at a Will save or become frightened. Creatures with 5 Hit Dice or more must succeed at a Will save or be shaken for a number of rounds equal to the lich’s Hit Dice. A creature that successfully saves cannot be affected again by the same lich’s aura for 24 hours. This is a mind-affecting fear effect.
+
+//Paralyzing Touch (Su):// Any living creature a lich hits with its touch attack must succeed at a Fortitude save or be permanently paralyzed. The effect cannot be dispelled, but remove paralysis or any spell that can remove a curse can free the victim (MSD equal to 11 + the lich’s Hit Dice).
+
+Anyone paralyzed by a lich seems dead, though a DC 20 Perception check or a DC 15 Heal check reveals that the victim is still alive.
+
+**Abilities:** Int +4, Wis +4, Cha +4. Being undead, a lich has no Constitution score.
+
+**Skills:** Liches have a +8 racial bonus on Perception, Sense Motive, and Stealth checks. A lich always treats Climb, Disguise, Fly, Intimidate, Knowledge (arcana), Knowledge (religion), Perception, Sense Motive, Spellcraft, and Stealth as class skills. Otherwise, skills are the same as the base creature.
+
+**Feats:** Liches gain Advanced Magic Training, Basic Magic Training, Counterspell, and Magical Aptitude as bonus feats. Creatures that already have caster levels may choose to exchange Advanced Magic Training for Extra Magic Talent.
+
+++++ Lich Rituals and Ascension
+The Paizo-printed lichdom ritual, Eternal Apotheosis (Occult Realms pg. 55) offers one option towards gaining the normal lich template. This book introduces new incantations to attain lichdom as well as two incantations to gain the evasor ex fortuna and power lich variants of lichdom. These incantations include quirks to the lich template that are unique to the incantation, such as the lich’s still beating heart being detectable by lifesense from the Heart of Death incantation. These new lich incantations can be found later in this book in Other Content: Incantations.
+
+These incantations serve as suggestions for attaining lichdom and other appropriate methods may exist (subject to GM discretion).
+
++++ Variant Liches
+Undeath is a malleable tool for those who rise, or fall, to lichdom wield. Some liches are pronounced by their unique rituals, as detailed above.
+
+++++ Evasor Ex Fortuna (CR +2)
+The “evader of fates”, evasor ex fortuna are liches who exist as an unliving paradox. Rather than a perverse ritual or sacrifice of life, an evasor ex fortuna makes a foul bargain with lady luck herself, that they can escape and elude their own demise for eternity. Most evasor ex fortuna are just as lucky as they are skilled, and leverage their newfound power to take even greater risks.
+
+An evasor ex fortuna alters the lich template (“base template”) as follows:
+
+**Special Abilities:** An evasor ex fortuna gains the fate’s thread, powers that be, and well of luck special abilities. This replaces the base template’s rejuvenation defensive ability and fear aura special attack.
+
+//Fate’s Thread (Su):// An evasor ex fortuna uses its Hit Dice as its caster level with the Fate sphere.
+
+In addition, an evasor ex fortuna may spend 1 kismet after failing any d20 roll to add 1d6 to the check’s results without taking an action. This can cause the check to succeed instead of fail. The evasor ex fortuna must be conscious and aware to use this ability. At CR 10, the die increases to 1d8, and at CR 20 it increases to 1d10.
+
+//Powers That Be (Ex):// Rather than tie their soul to a phylactery, an evasor ex fortuna attained unlife through a perverse bargain with lady luck, that they’d be able to run forever. The evasor ex fortuna is under the Fate sphere Elude Fate advanced talent as a constant extraordinary effect. Whenever the circumstances the evasor ex fortuna has chosen are met, they must immediately spend 1 kismet point and choose new circumstances. If the evasor ex fortuna cannot pay the kismet point, or their kismet pool becomes empty, they lose the benefits of this ability. The evasor ex fortuna may also change the circumstances of this effect by spending 1 point of kismet as a full-round action.
+
+In effect, as long as the evasor ex fortuna possesses kismet, and continues to correctly predict or evade circumstances that would bring certain death, it is immortal and cannot die by any means. However, lady luck does not take kindly to an evasor ex fortuna who does not gamble or take risks. Every 7 days an evasor ex fortuna goes without spending kismet or does not trigger the circumstances set by the Elude Fate effect, they lose 1 kismet.
+
+//Well Of Luck (Su):// An evasor ex fortuna gains a pool of kismet, a fluctuating measure of its ability to manipulate and evade death itself. Unlike a normal kismet pool, an evasor ex fortuna does not regain kismet points at the start of each day even if the evasor ex fortuna possesses a kismet pool from another source, but the evasor ex fortuna may possess an unlimited amount of kismet in their kismet pool.
+
+The evasor ex fortuna gains kismet when it rolls a natural 1 on an attack roll or saving throw, and may also gamble a spell point whenever it uses a Fate sphere effect, subject to the same limitations as an ordained hunter inquisitor (Ultimate Spheres of Power pg. 153). The evasor ex fortuna cannot be forced to spend its kismet nor can its kismet be depleted, removed, or lost by any effect except by the powers that be special ability.
+
+In addition to the methods to regain kismet above, an evasor ex fortuna gains 1 kismet whenever a creature fails its saving throw against the evasor ex fortuna’s luck’s abandon special attack or when a creature cursed by luck’s abandon special attack is reduced to 0 or fewer hit points. A creature with a CR less than half the evasor ex fortuna’s CR does not restore kismet.
+
+**Special Attacks:** An evasor ex fortuna gains the luck’s abandon special attack. This replaces the base template’s paralyzing touch special attack.
+
+//Luck’s Abandon (Su):// Any creature an evasor ex fortune hits with its touch attack must succeed at a Will save or be permanently cursed with unluck. Whenever a creature cursed by this effect rolls a d20, they roll twice and take the lower result. This effect cannot be dispelled, but can be removed by the remove curse spell or Life sphere Break Enchantment talent (MSD equal to 11 + the lich’s Hit Dice).
+
+**Feats:** An evasor ex fortune gains Basic Magic Training, selecting the Fate sphere. Creatures that already have caster levels may choose to exchange Advanced Magic Training for Extra Magic Talent, selecting a bonus talent from the Fate sphere. For every 4 Hit Dice the evasor ex fortuna possesses, the evasor ex fortuna gains Extra Magic Talent as a bonus feat, selecting a bonus talent from the Fate sphere.
+
+This alters the base template’s Basic Magic Training and Advanced Magic Training feats.
+
+++++ Power Lich (CR +2)
+A power lich, as they became to be known, are frightening liches who strive to retain the trappings of physical mortality with their immortal bodies. While undead are normally unable to develop and improve their bodies as a living creature would, the power lich leverages powerful magical effects to mimic strengthening techniques across many spheres of magic, including Alteration, Enhancement, and Fate. As such, they are often not perceived as undead, and appear with toned and healthy muscular bodies.
+
+A power lich alters the lich template (“base template”) as follows:
+
+**Special Abilities:** A power lich gains the muscular, perfection of the body and phylactery of physique special abilities. This replaces the base template’s rejuvenation defensive ability and fear aura and paralyzing touch special attacks.
+
+//Muscular (Ex):// The power lich gains the Brute sphere as a bonus sphere, the Muscular Surge talent, and the Giant and Titan legendary talents as bonus talents, using its Hit Dice in place of its base attack bonus when determining the benefits. The power lich does not need to expend martial focus to gain the more powerful bonus from the Muscular Surge talent, and in essence, the heightened bonuses become permanent.
+
+//Perfection of the Body (Su):// A power lich uses its Hit Dice as its caster level with the Enhancement sphere. The power lich does not need to concentrate to maintain Enhancement sphere effects that target themselves or their body, and may maintain a number of Enhancement sphere effects in this manner equal to 1/2 their CR.
+
+In addition, the power lich gains an untyped bonus to its Strength and Dexterity equal to 1/2 its casting ability modifier or Charisma modifier (whichever is higher).
+
+//Phylactery of Physique (Ex):// A power lich forgoes a conventional phylactery, their undeath sustained through sheer physical commitment. A power lich must spend at least 1 hour exercising each day or suffer a -1 penalty to each ability score, increasing by -1 for each day a power lich forgoes this exercise. Each time a power lich completes these exercises, any penalties they have accrued from this effect are reduced by 1. This penalty can reduce the power lich’s ability scores to 0.
+
+As long as the power lich does not have any ability score penalties from this ability, whenever the power lich would be reduced to 0 or fewer hit points and destroyed, they are reformed 1d10 days later at the location they designated as their lair. A power lich accrues penalties from this ability even while reforming, and must spend days exercising to remove this penalty as normal.
+
+A power lich can designate their lair by spending 1 week in that location, and may relocate their lair in the same fashion. After being destroyed, the power lich’s former body can be studied with a Spellcraft check (DC 20 + the power lich’s CR) or examined with the Divination sphere Divine Warp alternate divination effect to reveal the general direction and distance of the power lich’s lair.
+
+__//Note://__ Many power liches will choose their home, lair, or other places of comfort to reform, ensuring they are undisturbed while working off these penalties.
+
+This ability refers to the power lich “exercising” or otherwise spending 1 hour doing physical activities, which can include weightlifting and sports to tai chi and other “physical” meditative practices. Many power liches will use their physical prowess to take this to extremes, lifting and wrestling with megafauna, hauling massive slabs of stone in quarries, and other such extreme activities. A power lich who is restrained or otherwise unable to move cannot exercise. If a power lich is unable to exercise by themself, they may do so via the help of another creature.
+
+**Feats:** A power lich gains Basic Magic Training, selecting the Enhancement sphere. Creatures that already have caster levels may choose to exchange Advanced Magic Training for Extra Magic Talent, selecting a bonus magic talent from the Enhancement sphere.
+
+For every 4 Hit Dice the power lich possesses, the power lich gains Extra Magic Talent as a bonus feat, selecting a bonus talent from the Enhancement sphere.
+
+This alters the base template’s Basic Magic Training and Advanced Magic Training feats.
+
++++ Living Idol [SB:FotC]
+“Living Idol” is an acquired template that can be added to any non-aeon outsider without the native subtype (referred to hereafter as the base creature). A living idol uses the base creature’s statistics and abilities except as noted here.
+
+**Challenge Rating:** Same as base creature; see below.
+
+**Alignment:** A living idol may be of any alignment. However, separation from their kind may result in living idols possessing drastically different alignments from other creatures of their kind (for example, living idol archons may be evil).
+
+**Type:** A living idol gains the native subtype. A living idol’s alignment subtype changes to match any change in its alignment.
+
+**Defensive Abilities:** A living idol calculates its spell resistance (if the base creature had spell resistance) as equal to the base creature’s CR +5. In addition, it gains the entrapped rejuvenation ability.
+
+**Entrapped Rejuvenation (Su):** After a living idol is killed, it leaves a powerful impression on the ethereal plane for one week. After this time the living idol begins to rebuild its body, a process which takes 1d10 days. During the revival process the living idol’s body begins to rebuild itself from coagulated essences of the ethereal plane and is considered helpless. If the creature is slain again before its body fully reforms, the process begins again. After the rebuild time has elapsed, the imprisoned outsider is reborn on the Material Plane, fully healed. The only way to permanently slay an imprisoned outsider is with a carefully worded miracle or wish or by transporting it back to the Outer Planes by means of a powerful spell such as gate and killing it there.
+
+**Weaknesses:** A living idol gains the following weakness:
+
+**Planar Isolation:** A living idol loses access to any talents from the Conjuration or Warp sphere they might have possessed and may not select talents from those spheres. A living idol loses access to any spell-like ability that falls within the teleportation subschool, if the base creature possessed them. Additionally, it loses access to any summon ability that the base creature possessed.
+
+**Special Qualities:** A living idol gains the demagogue powers special quality.
+
+**Demagogue Powers (Su):** A living idol both gains power and may bestow power on creatures that worship and revere it. While not true deities capable of granting spells to their followers, pacts with the divine spark of a living idol create unusual spiritual bonds that transcend the material. As a living idol gains worshippers, they also obtain unique supernatural abilities that grant them special power over their worshippers or additional strength for themselves.
+
+A living idol gains one demagogue power when it gains its first worshipper. At each following threshold the living idol gains one additional power. Once chosen these powers may not be changed, and if the living idol’s number of worshippers fluctuates, so too does its number of powers. If a living idol regains a power after having been reduced from a higher rank, it must select a power that it previously possessed. A living idol may choose which powers it loses if it loses worshippers, though some require a minimum living idol rank. The save DCs for living idol powers are 10 + 1/2 the living idol’s Hit Dice + the living idol’s Charisma modifier.
+
+Additionally, for every 2 powers a living idol obtains it gains 1 additional racial Hit Die and a +1 increase to its natural armor.
+
+Table: Living Idol Worshippers
+||~ Worshippers ||~ Rank ||~ Demagogue Powers ||~ Natural Armor Increase ||~ Bonus Hit Die ||~ CR Adjustment || 
+|| 1-10 || 1 (least) || 1 || +0 || 0 || +0 || 
+|| 11-50 || 2 (lesser) || 2 || +1 || 1 || +0 || 
+|| 51-100 || 3 (minor) || 3 || +1 || 1 || +1 || 
+|| 101-200 || 4 (intermediate) || 4 || +2 || 2 || +1 || 
+|| 201-500 || 5 (major) || 5 || +2 || 2 || +1 || 
+|| 501-1,000 || 6 (greater) || 6 || +3 || 3 || +2 || 
+|| 1,001-2,000 || 7 (eminent) || 7 || +3 || 3 || +2 || 
+|| 2,001-3,000 || 8 (paramount) || 8 || +4 || 4 || +3 || 
+|| 3,000+ || 9 (transcendent) || 9 || +4 || 4 || +3 || 
+
+++++ Demagogue Powers
+**Armor of Faith (Su):** The living idol gains a deflection bonus to armor class equal to its Charisma modifier (minimum 1). A living idol must be at least greater rank to select this power.
+
+**Blessing of Power (Su):** A living idol may grant a blessing of power to a worshipper with a touch as a standard action. This blessing grants a +4 profane or sacred bonus (as appropriate) to one of the worshipper’s ability scores and lasts for 24 hours per Hit Die of the living idol. A living idol may revoke this blessing as a free action at any distance and cannot use this benefit on itself.
+
+**Cabal Master (Su):** The living idol gains Circle Casting and Spell Proxy as bonus feats even if they do not meet the prerequisites. If they do not possess the Enhancement sphere, they gain the Enhancement sphere as a bonus talent but may only use the Create Proxy enhancement.
+
+**Channel Energy (Su):** The living idol can release a pulse of negative or positive energy to cause or heal damage. This functions as the channel energy ability of a soul weaver of the living idol’s Hit Dice, but the pulse radiates in a 60-foot radius centered on the idol. The idol can use this ability a number of times per day equal to 3 + its Charisma bonus.
+
+**Conceal (Su):** The living idol is warded from divination effects. Any magical attempt to gather information on the target (including scrying, effects that detect invisibility, detect alignment, or even miracle and wish spells when used in a similar manner) must succeed at a magic skill check in order to yield any information on the living idol (DC 11 + the living idol’s Hit Die). In the case of scrying that does not directly view the living idol (such as instead scanning the area they happen to be in), the spell or effect works normally, but the living idol is not detected.
+
+**Magical Development (Su):** The living idol gains 3 magic talents of its choice. If it does not already possess a casting tradition, it may select a casting tradition as part of gaining this power. As per normal racial caster level progression, the caster level for these talents is equal to 3/4 the living idol’s Hit Die unless it would be better. This power may be selected multiple times.
+
++++ Meteorological Creature (CR +0–5)
+“Meteorological” is a template that can be applied to any creature, and represents a creature that is connected to a particular type of weather to a powerful degree.
+
+**CR:** Hit Dice 1 or less, as base creature; Hit Dice 2–3 or less, as base creature + 1; Hit Dice 4–9, as base creature +2; Hit Dice 10–17, as base creature +3; Hit Dice 18 or more, as base creature +4; plus +1 for volcanic weather
 
 **Type:** Animals and vermin with this template become magical beasts with the augmented subtype, but otherwise the creature type is unchanged.
 
@@ -148,81 +711,465 @@ For all other purposes, the embodiment of magic has a spell pool equal to its po
 **Special Qualities**
 A meteorological creature gains the following:
 
-**Personal Climate (Su):** A meteorological creature is constantly followed by a certain type of weather. This functions as the control weather base sphere ability, except that the creature doesn’t need to concentrate on the effect and it can only create one type of weather. The meteorological creature has no control over the severity of the weather, which depends on the creature’s Hit Dice. The range also depends on the creature’s Hit Dice.
-
-||~ HD ||~ Severity ||~ Range || 
+**Personal Climate (Su):** A meteorological creature is constantly followed by a certain type of weather. This functions as the control weather Weather sphere ability, except that the creature does not need to concentrate on the effect and it can only create one type of weather. The meteorological creature has no control over the severity of the weather, which depends on the creature’s Hit Dice. The range also depends on the creature’s Hit Dice.
+||~ Hit Dice ||~ Severity ||~ Range || 
 || 1 || 1 || Medium || 
 || 2–3 || 2 || Medium || 
 || 4–5 || 3 || Long || 
 || 6–9 || 4 || Long || 
-|| 10–13 || 5 || Extreme (1,000 ft. + 100 ft. per HD) || 
+|| 10–13 || 5 || Extreme (1,000 feet + 100 feet per Hit Dice) || 
 || 14–17 || 6 || Extreme || 
 || 18+ || 7 || 2 miles || 
 
-The meteorological creature’s MSD for this effect is 10 + its Hit Dice and its MSB and caster level are equal to its Hit Dice.
+The meteorological creature’s MSD for this effect is 11 + its Hit Dice and its MSB and caster level are equal to its Hit Dice.
 
 **Adaptation (Ex):** A meteorological creature is immune to the negative effects of weather created by its personal climate ability.
 
-**Feats:** Meteorological creatures gain Mantled Caster as a bonus feat. They can also select Extra Magical Talent for (mantle) talents activated by their Personal Climate and Weather talents that modify their personal climate (but not its range or duration). They need not meet the prerequisites of this feat to select them.
+**Feats:** Meteorological creatures gain Mantled Caster as a bonus feat. They can also select Extra Magic Talent for (mantle) talents activated by their personal climate and Weather talents that modify their personal climate (but not its range or duration). They need not meet the prerequisites of this feat to select them.
 
-----
++++ Primarcane (CR +3) [Cata. HB]
+In the earliest days of the multiverse, before god or nature set down the laws of reality, magic flowed freely throughout existence. Boundless energies could be harnessed with even the most rudimentary magical training, while learned mages were capable of shaping the scope of existence in accordance with their whims. Perhaps it was the hubris of such beings that eventually ended this age of wonder or perhaps the cosmos simply stabilized in a manner that bound existence in its current state. Regardless, there are still some unknowably ancient beings which hold onto the unshackled magic of ages past, beings unrivaled in the raw magical energies at their command.
 
-++++ Rift-born (CR +2)
-“Rift-born” is an acquired template that can be applied to any living creature (referred to hereafter as the base creature). A rift-born creature uses all the base creature’s statistics and special abilities, except as noted here.
+Primarcane is an inherited template which can be applied to any creature (hereafter referred to as the base creature). A primarcane creature uses all the base creature’s statistics and special abilities except as noted here.
 
-**Challenge Rating:** Same as base creature +2.
+**Challenge Rating:** As base creature +3.
 
-**Planar Rift:** Each rift-born creature is attuned to one of the four elemental planes. As a standard action, the rift-born may create an aura with a 5 ft radius per HD, inside of which the planar traits (elemental and energy traits, gravity traits, and magic traits only) of their attuned plane override the traits of the plane they are on. The rift-born is immune to any negative effects of the traits of their attuned plane.
+**Defensive Abilities:** Primarcane creatures gain the following defensive abilities.
 
-----
+//Magic Barrier (Su)// Primarcane creatures are enveloped in a maelstrom of immensely powerful magic, granting them a resistance bonus to all saving throws and a deflection bonus to AC equal to half their casting ability modifier.
 
-++++ Virulent Sensor Template (CR +Varies)
-Virulent Sensor is an acquired template that can be applied to any creature who, while using the Divination sphere talent Viewing, saw a creature who died or was destroyed suffering from the effects of madness (although not necessarily because of the madness).
+//Spell Consumption (Su)// A primarcane creature gains spell resistance equal to 11 + its CR or improves its existing SR by 5, whichever yields a higher result. Whenever a spell is negated by the primarcane creature’s spell resistance, the primarcane creature heals a number of hit points equal to 5 x the primarcane creature’s caster level. Alternatively, the primarcane creature may redirect the effect of the spell as per the Reflection talent from the Protection sphere (without having to expend an aegis).
 
-The CR of the templated creature increases by +1 per 5 HD (minimum +0).
+**Special Attacks:** Primarcane creatures gain the following special attacks.
 
-A virulent sensor gains the following traits and modifications:
+//Miraculous Lore (Su)// A primarcane creature can draw upon raw magic to shape it into various abilities. This functions as the Path power of a spiritualism hedgewitch, using the creature’s Hit Dice as their effective hedgewitch level to determine effects and uses per day.
 
-**Alignment** Creatures with the virulent sensor template replace any good or evil alignment they have with neutral, thus lawful good becomes lawful neutral, and neutral evil becomes true neutral. Types of insanity or madness may override this alignment.
+**Special Qualities:** Primarcane creatures gain the following special qualities:
 
-**Type** Changes to Undead (keeping any subtypes their previous form may have had)
+//Font of Magic (Su)// Primarcane creatures have an unlimited number of spell points, but may only spend a number of spell points per round up to their casting ability score modifier (minimum 2). This infinite pool is in addition to any spell point pool the creature may normally possess.
 
-**Hit Dice** Change all HD (including those gained from class levels) into d8s. Virulent sensors use their Charisma modifier to determine bonus hit points (instead of Constitution)
+//Well of Miracles (Su)// For every 2 caster levels a primarcane creature possesses, it gains an additional magic talent as a bonus talent. Whenever it rests for at least 8 hours, a primarcane creature may exchange these talents and any other magic talents they know for other magic talents that they meet the prerequisites for. If the primarcane does not possess any spherecasting abilities from race, class, or some other source, they gain Advanced Magic Training as a bonus feat (even if they do not meet the prerequisites).
 
-**Saves** The base saves remain unchanged, except that fortitude uses charisma instead of constitution.
+**Ability Scores:** Con +6, Int +6, Wis +6, Cha +6
 
-**Defensive Abilities** The templated creature loses all defensive abilities and gain the qualities and immunities of the undead type. In addition, the templated creature gain the insubstantial quality.
++++ Sphere Incarnation Creature (CR+ Varies)
+“Sphere Incarnation” is a unique creature template that can be added to any creature, and sometimes objects. This template grants a number of abilities and adjustments, but does not have a fixed CR adjustment. A sphere incarnation creature retains the base creature’s statistics and special abilities except as noted here.
 
-**Speed** Virulent sensors lose all movement speeds. If the templated creature has the scrying divination advanced talent, it gains a fly speed of 150 ft.
+A sphere incarnation creature has a unique bond to a sphere of magic, acting as an near-limitless conduit of that type of magic as though they possessed every basic and advanced talent from that sphere. This template can be applied to animals, objects, or other valid targets for the Enhancement Bestow Life advanced talent, and is often the more frequent manifestation of a sphere incarnation of the Enhancement sphere. There are few known ways to acquire this template, many deeply rooted in mysticism, associated with artifacts, or a result of exceptionally powerful circumstances, and is otherwise not accessible under any normal circumstances.
 
-**Attacks** Virulent sensors lose all attacks (including special attacks) that are not sphere, spells or spell-like abilities.
+Creatures with this template become incomparably strong, able to create miracles, pose threats to all life, and can vary between deadly and chaotic forces of nature to saint-like creatures which usher in golden ages of peace and prosperity. These creatures are frequently worshipped as deities, and when worshipped by a cleric or other class which grants domains, treats any domain with an affiliated sphere matching their sphere of magic as their domain, as well as the magic domain and any other appropriate choices, subject to GM discretion.
 
-**Reach** The templated creature has its reach reduced to 0 ft.
+**Challenge Rating:** +X. This template adds a variable number of additional Hit Die, depending on the creature or object applied to, usually resulting in a creature between CR 27 to CR 30.
 
-**Abilities** Virulent sensors have no Str or Con scores.
+**Type:** The creature’s type does not change. Do not recalculate Hit Dice, base attack bonus, or saves.
 
-**Special Qualities** Virulent sensors lose special qualities that are dependant upon having a physical body. The virulent sensors gains insanity, insubstantial and naturally stealthy as special qualities.
+**Armor Class:** A sphere incarnation gains a sacred or profane bonus to AC equal to its casting ability modifier. If the sphere incarnation is neither good nor evil, choose either sacred or profane when applying the sphere incarnation qualities to the creature.
 
-**Insanity** The templated creature permanently suffers from the effects of whatever madness it had before its destruction.
+**Defensive Abilities:** A sphere incarnation gains a sacred or profane bonus on all saving throws equal to its casting ability modifier. If the sphere incarnation is neither good nor evil, choose either sacred or profane when applying the sphere incarnation qualities to the creature.
 
-**Insubstantial (Ex)** Virulent sensors may appear to be made out of flames, mist, smoke, or some other gaseous substance, and are effectively weightless. Virulent sensors being insubstantial are normally not hit or damaged by conventional means, but may still be attacked or even damaged by spells or abilities that do not target the virulent sensor, but rather affect everything in its area of effect. An insubstantial creature may still target itself however. Insubstantial creatures gain a size penalty to their Combat Maneuver Bonus (CMB) and may squeeze through openings as if they are up to three sizes smaller, but gain a size bonus to Combat Maneuver Defense (CMD) as if they are up to three sizes larger. In addition, insubstantial creatures gain DR 10/- and are not subject to precision damage or critical hits.
+In addition, the sphere incarnation gains DR 15/—, is under a constant freedom of movement effect, and immunity to ability damage, ability drain, charm effects, compulsion effects, disease, death effects, energy drain, petrification, and poison. A sphere incarnation gains spell resistance equal to its 11 + its newly adjusted CR. The sphere incarnation also gains the following ability.
 
-**Naturally Stealthy (Su)** The virulent sensor is particularly difficult to notice outside of combat and requires a perception check DC 20 + its caster level to spot. The virulent sensor if it casts a spell, instantly becomes visible to all creatures within line of sight for 1 minute before fading back into stealth.
+**Sphere Chrysalis (Su):** When a sphere incarnation is killed, its body is enveloped by a chrysalis of pure magic. This chrysalis is indestructible and does not take damage from normal effects, and is otherwise treated as an artifact for the purposes of dispelling. A creature with the ability to cast sphere effects corresponding to the sphere incarnation’s attuned sphere can destroy the chrysalis by meditating over it through a complex ritual that takes 24 hours to perform. The meditating creature must succeed on a DC 30 Will save to successfully destroy the chrysalis, and permanently kill the sphere incarnation. If the sphere incarnation’s chrysalis is not destroyed within one week, the creature is revived, cleansing all negative conditions and restoring it to full life.
 
-**Languages** The templated creature continues to understand any language it had before it acquired the template, but loses all ability to speak.
+**Special Qualities:** A sphere incarnation retains all the special attacks, qualities and abilities of the base creature and gains the following special abilities. Special abilities have a save DC equal to 10 + 1/2 the sphere incarnation’s Hit Dice + the sphere incarnation’s casting ability modifier unless otherwise noted.
 
-**Spell Points** Lose all spell points, except those gained through feats and traits.
+**Attuned Sphere (Ex):** Every sphere incarnation is attuned to one sphere of power. The creature gains every talent from that sphere. The sphere incarnation is a High Caster with their attuned sphere, using their Hit Dice for the caster level, magic skill bonus, and magic skill defense, selects a casting tradition and casting ability modifier, and gain spell points as normal.
 
-----
+If the sphere incarnation possessed spherecasting before gaining the sphere incarnation template, they use their casting tradition and casting ability modifier when using sphere effects from their attuned sphere, but use their Hit Dice as their caster level for sphere effects belonging to their attuned sphere, such that they are always treated as a High Caster with their attuned sphere.
 
-++++ Walking Bomb (CR +1)
-“Walking Bomb” is an acquired template that can be applied to any corporeal creature (referred to hereafter as the base creature). A walking bomb creature uses all the base creature’s statistics and special abilities, except as noted here.
+**Incarnation Conduit (Ex):** Any sphere effect belonging to the sphere incarnation’s attuned sphere costs 1 fewer spell point than normal (to a minimum of 0).
 
-**Challenge Rating:** Same as base creature +1.
+**Sphere Blessing (Sp):** The sphere incarnation is under every beneficial talent belonging to its attuned sphere as a constant, spell-like effect, using its caster level to determine the effects of each talent. Sphere effects from this ability are created with the maximum number of spell points allowed by the talent or sphere effect. If any effects from this ability would be dispelled, dismissed, or otherwise end, they automatically resume at the beginning of the sphere incarnation’s turn. Effects from this ability are not suppressed and function in an antimagic field (or other similar effect) unless the effect’s caster succeeds at a magic skill check against the sphere incarnation’s magic skill defense with their attuned sphere, which suppresses sphere effects from this ability for 1d4 rounds.
 
-**Detonation:** When the walking bomb is reduced to 0 or fewer HP, it detonates, dealing damage as a destructive blast (1d6 per odd HD) with the Explosive Orb blast shape and a blast type selected at creation with a caster level equal to its HD and save DCs equal to 10+1/2 HD+CON modifier.
+**Spontaneous Enlightenment (Ex):** Upon acquiring this template, a sphere incarnation immediately gains a number of class levels so that its CR is between 25 and 30, subject to GM discretion. These class levels are generally those which grant spherecasting, but some unique sphere incarnations may be more martially focused. If the creature gaining the sphere incarnation template is not sentient (such as an animal, object, or other similar creature or object capable of being affected by the Enhancement Bestow Life advanced talent or awaken spell), they are affected by the Bestow Life sphere effect when gaining the sphere incarnation template and gain the maximum mental ability scores from that effect.
 
-**Creating a walking bomb:** This template can be acquired through a variation of the walking bomb incantations, or by magical accidents or wild magic zones overcharging an exposed creature.
+**Abilities:** Str +8, Dex +8, Con +10, Int +8, Wis +8, Cha +8, plus an additional +12 to the sphere incarnation’s casting ability attribute.
+
+**Skills:** Sphere incarnations gain a +8 racial bonus on Perception and Spellcraft checks. It always treats all Knowledges, Perception, and Spellcraft as class skills. Otherwise, its skills are the same as those of the base creature.
+
+**Languages:** A sphere incarnation can speak in truespeech, as well as any languages spoken by the base creature.
+
++++ Thronefused [SB:FotC]
+“Thronefused” is an acquired template that can be added to any corporeal creature (hereafter referred to as the base creature). A thronefused creature uses all the base creature’s statistics and special abilities except as noted here.
+
+**Challenge Rating:** 4 HD or less, as base creature +1; 5 or more HD, as base creature +2.
+
+**Type:** The base creature’s type changes to outsider and gains the appropriate augmented and native subtypes. Do not recalculate base attack bonuses or saves.
+
+**Senses:** A thronefused gains darkvision +60 ft.
+
+**Armor Class:** The base creature’s natural armor class increases by +4.
+
+**Hit Dice:** Change all of the base creature’s racial HD to d10s.
+
+**Saving Throws:** A thronefused gains +4 on all saves vs. enchantments and illusions.
+
+**Defensive Abilities:** A thronefused gains DR 5/magic, immunity to sleep, and spell resistance equal to the thronefused’s CR + 11. A thronefused creature gains a +8 bonus to CMD to resist trip attempts.
+
+**Speed:** A thronefused loses all modes of movement and gains the following:
+
+**Bound Travel (Su):** As a full-round action, a thronefused can initiate travel at any one of the base creature’s previous modes of movement at the same rate. If the base creature could fly, its maneuverability is reduced by one step. Once travel is initiated, the only full-round actions it can take is to halt its movement, or other actions that involve movement such as running or a charge. Otherwise, the thronefused can only use its move action each round to move in the same mode of travel. In order to change modes of movement, the thronefused must first stop moving and restart in the new mode of movement (in other words spend one round stopping, and the next starting to move in a different mode).
+
+A thronefused cannot take a 5-foot step unless it already has initiated movement.
+
+The nature of the movement varies depending on the base creature. For example, an elf’s throne may travel on undulating vines, while a wizard may move via telekinesis.
+
+**Magic:** The thronefused gains a bonus magic or combat talent plus an additional talent for every 2 Hit Die it possesses beyond the first. If it does not already possess spellcasting, the creature gains a caster level based on their racial Hit Die (see Table: Racial Caster Level Progression by Creature Type) and may select a casting tradition. These talents must be from the Divination, Mind, Leadership, Telekinesis, War, or Warleader spheres.
+
+**Special Attacks:** A thronefused gains the following special attacks:
+
+A thronefused may make a touch attack that fuses the victim’s lower limbs together into a shape akin to a chess pawn or statue base. The target may attempt a Fortitude save to resist, and may attempt a new save at the start of each round to break the effect. While fused, the victim may not move, loses its Dex bonus to its AC, and takes a -10 penalty to Reflex saves. This ability may be used a number of rounds per day equal to 1 + the thronefused creature’s Charisma modifier (minimum 1). Targets without lower limbs are immune to this effect. The save DC is Charisma-based.
+
+**Ability Scores:** Dexterity –4 (minimum 0), Intelligence +4, Wisdom +4, Charisma +4.
+
+**Feats:** Any feats that a thronefused no longer qualifies for because of the reduction in Dexterity become bonus feats.
+
+**Skills:** A thronefused gains an additional +5 racial bonus on all Knowledge skills and Linguistics, and a –10 penalty to Acrobatics, Climb, Ride, and Swim.
+
++++ Twisted Spirit Tree [SB:F&F]
+Not all spirit trees are peaceful wardens of the forest. Some have grown to hate the races that walk about the land and seek to devour them.
+
+**Creating a Twisted Spirit Tree**
+This is an acquired template that may be applied to any spirit tree.
+
+**CR:** base creature +1
+
+**Alignment:** The creature’s alignment shifts to any evil.
+
+**Special Attacks:** The creature’s slam attack gains the grab property and the creature gains the swallow whole universal monster ability, dealing bludgeoning damage equal to its slam damage.
+
+**Magic:** The spirit tree usually trades all or most talents from the Life sphere for talents from the Death or Destruction spheres.
+
+**Skills:** Twisted spirit trees exchange their ranks in Diplomacy for ranks in either Bluff, Disguise, or Intimidate. Twisted spirit trees gain a +10 circumstance bonus to disguise themselves as regular trees or as normal spirit trees.
+
+Twisted spirit trees hate all that walks. Some simply slay or drive away any that come within their reach, but the more subtle will pretend to be helpful, giving false advice to lead the hearers to bad ends. Twisted spirit trees will gift their fruit, as would a normal spirit tree, but deceive the recipient of their effect, a cruel surprise in their moment of need.
+
++++ Vampire (spheres) (CR +2) [SB:UatIF]
+Sometimes the result of magical experimentation, other times by disease, vampirism is generally only “spread” from a willing host to the recipient, and is not a true disease like lycanthropy. Those who fall, or rise as a vampire would see their own transformation as, to vampirism become cunning, physically powerful undead who transcend their mortal form’s limitations for the gift of undeath.
+
+The oddities of vampirism are unique even amongst the undead. Vampires have a number of weaknesses, among which include the inability to enter homes when uninvited, aversion to garlic and holy symbols, and weakness to running water, making their powers as much a gift as a curse.
+
+Vampires are not required to eat, although many experience symptoms of hunger and madness following prolonged periods without sustenance. Many vampires enjoy the taste of blood, and even prefer blood from certain blood types and species, often preferring either intelligent and humanoid creatures or exotic beasts over common animals.
+
+The original vampire template (Pathfinder RPG Bestiary pg. 270) has been adjusted to better fit the Spheres of Power system. “Vampire” is an acquired template that can be added to any living creature with 5 or more Hit Dice (referred to hereafter as the base creature). Most vampires were once humanoids, fey, or monstrous humanoids. A vampire uses the base creature’s stats and abilities except as noted here.
+
+**Challenge Rating:** Same as the base creature +2.
+
+**Alignment:** Any. However, many of those who become vampires are evil, or their alignment shifts towards the evil spectrum as they are required to put their own well being above others to survive.
+
+**Type:** The creature’s type changes to undead (augmented). Do not recalculate class Hit Dice, BAB, or saves.
+
+**Senses:** A vampire gains darkvision 60 feet.
+
+**Armor Class:** Natural armor improves by +6.
+
+**Hit Dice:** Change all racial Hit Dice to d8s. Class Hit Dice are unaffected. As undead, vampires use their Charisma modifier to determine bonus hit points (instead of Constitution).
+
+**Defensive Abilities:** A vampire gains channel resistance +4, DR 10/magic and silver, and resistance to cold 10 and electricity 10, in addition to all of the defensive abilities granted by the undead type.
+
+A vampire also gains fast healing 5. If reduced to 0 or fewer hit points in combat, a vampire assumes mistform (see below) and attempts to escape. It must reach its coffin home and rest before sunrise or be utterly destroyed. A vampire forced into its mistform no longer takes damage, but no longer heals from its fast healing until it can rest. Once at rest, the vampire is helpless. It regains 1 hit point after 1 hour, then is no longer helpless and resumes healing at the rate of 5 hit points per round.
+
+**Weaknesses:** Vampires cannot tolerate the strong odor of garlic and will not enter an area laced with it. Similarly, they recoil from mirrors or strongly presented holy symbols. These things do not harm the vampire—they merely keep it at bay.
+
+A recoiling vampire must stay at least 5 feet away from the mirror or holy symbol and cannot touch or make melee attacks against that creature. Using a holy symbol to hold a vampire at bay takes a standard action. After 1 round of being repelled by one of these weaknesses, a vampire can overcome its revulsion of the object and function normally each round it succeeds at a DC 25 Will save.
+
+Vampires cannot enter a private home or dwelling unless invited in by someone with the authority to do so, although many more cunning vampires have learned how to subvert this limitation.
+
+Reducing a vampire’s hit points to 0 or lower incapacitates it but does not always destroy it (see fast healing). However, certain attacks can slay vampires. Exposing any vampire to direct sunlight staggers it on the first round of exposure and destroys it utterly on the second consecutive round of exposure if it does not escape (although a Dark sphere darkness effect or other forms of light suppression can protect them). Each round of immersion in naturally-running water causes a vampire to suffer damage equal to 1/3 its maximum hit points—a vampire reduced to 0 or fewer hit points in this manner is destroyed.
+
+Driving a wooden stake through a helpless vampire’s heart instantly slays it (as a full-round action, as though performing a coup de grace). If the stake is removed, the vampire returns to life unless the head is also severed and anointed with holy water.
+
+**Speed:** Same as the base creature. If the base creature has a swim speed, the vampire is not harmed by naturally-running water (see weaknesses).
+
+**Melee:** A vampire gains a slam attack if the base creature did not have one. Damage for the slam depends on the vampire’s size. Its slam also causes energy drain (see below). Its natural weapons are treated as magic weapons for the purpose of overcoming damage reduction.
+
+**Special Attacks:** A vampire gains several special attacks. Save DCs are equal to 10 + 1/2 vampire’s Hit Dice + its Charisma modifier unless otherwise noted.
+
+//Blood Drain (Su):// A vampire can suck blood from a grappled opponent; if the vampire establishes or maintains a pin, it drains blood, dealing 1d4 points of Constitution damage. The vampire heals 5 hit points or gains 5 temporary hit points for 1 hour (up to a maximum number of temporary hit points equal to its full normal hit points) each round it drains blood.
+
+//Create Spawn (Su):// A vampire can create spawn out of those it slays with blood drain or energy drain. The victim rises from death as a vampire in 1d4 days. This vampire is under the command of the vampire that created it, and remains enslaved until its master’s destruction. A vampire may have enslaved spawn totaling no more than twice its own Hit Dice; any spawn it creates that would exceed this limit become free-willed undead. A vampire may free an enslaved spawn in order to enslave a new spawn, but once freed, that vampire cannot be enslaved again.
+
+//Dominate (Sp):// At will, a vampire can use the Mind sphere Mind Control advanced talent augmented with the Expanded Charm talent as a sphere-like ability with a caster level equal to the vampire’s Hit Dice. A creature must be able to see and hear the vampire to be affected. Creatures who succeed at their saving throw against this ability cannot be affected for 24 hours.
+
+//Energy Drain (Su):// A creature hit by a vampire’s slam (or other natural weapon) gains two negative levels. This ability only triggers once per round, regardless of the number of attacks a vampire makes.
+
+**Special Qualities:** A vampire gains the following special qualities.
+
+//Mistform (Ex):// A vampire can transform into a mist, gas, or other fine particulate form as a move action. This functions as the Gaseous Body trait from the Alteration sphere Swarm Shape talent with a caster level equal to the vampire’s Hit Dice.
+
+//Shadowless (Ex):// A vampire casts no shadows and shows no reflection in a mirror. As such, vampires cannot be the target of a Dark sphere (shadow) talent.
+
+//Spider Climb (Ex):// A vampire is under the Climb trait from the Alteration sphere Vermin Transformation as a constant extraordinary effect with a caster level equal to the vampire’s Hit Dice.
+
+**Ability Scores** Str +6, Dex +4, Int +2, Wis +2, Cha +4. As an undead creature, a vampire has no Constitution score.
+
+**Skills** Vampires gain a +8 racial bonus on Bluff, Perception, Sense Motive, and Stealth checks.
+
+**Feats** Vampires gain Alertness, Combat Reflexes, Dodge, Improved Initiative, Lightning Reflexes, and Toughness as bonus feats. In addition, the vampire gains the Transformation feat, choosing the form of a wolf, bat, or other appropriate creature.
+
++++ Variant Vampires
+Different strains of vampirism have been observed to grant powers and abilities. While distinctly still a vampire, these vampirism strains’ powers manifest differently, granting different abilities, altering weaknesses, and providing for unique potential origins and stories.
+
+++++ Crimson Master (CR +2)
+While the classic vampire merely feeds on blood for sport or pleasure, the crimson master is both a powerful manipulator and ravenous consumer of the crimson fluids. Their unique strain of vampirism forgoes any powers of manipulation or disguise for magical might. Sometimes seen as brutish among the vampire communities, crimson master strains of vampirism take their craft and their hunger seriously. In some societies, crimson masters will place themselves in the position of a feudal lord, or similar, and demand tributes of blood from those they force into servitude.
+
+A crimson master alters the vampire (spheres) template (“base template”) as follows:
+
+**Weaknesses:** The crimson master gains the hunger weakness. This replaces the weakness to garlic and holy symbols of the base creature.
+
+//The Hunger:// While the normal vampire does not need to eat, a crimson master must consume blood. If a crimson master goes longer than three days without consuming the blood of another living creature with an Intelligence score of 3 or higher, it begins to starve, taking 2d8 points of damage each day until the crimson master consumes blood. This damage cannot be healed.
+
+**Special Attacks:** The crimson master gains the master haemotheurge special attack. This replaces the dominate and energy drain special attacks and the spider climb special quality.
+
+//Blood Empowerment (Su):// Whenever a creature who fails a saving throw against the crimson master’s Blood sphere abilities, the crimson master is flushed with power, absorbing some of the target’s vitality in the process. The crimson master gains its choice of one of the following for 1d4 rounds:
+* **Burst of Speed:** Each movement speed the crimson master possesses increases by +20 feet. The crimson master ignores difficult terrain during this effect.
+* **Manipulate Vortex:** The crimson master may change the (quicken) or (still) applied with one crimson vortex it controls or move one crimson vortex it controls (as though concentrating on it).
+* **Monstrous Power:** The crimson master increases to the next size category and gains a +4 bonus to its Strength. This benefit can stack up to two times.
+
+These effects do not stack with themselves unless otherwise noted. Choosing a benefit that is already active increases the duration by 1d4 rounds.
+
+//Master Haemotheurge (Su):// The crimson master uses its Hit Dice as its caster level with the Blood sphere. When using the Crimson Vortex talent, a crimson master does not need to spend an additional spell point to increase its radius or to allow the effect to persist.
+
+Creatures slain while inside the radius of the crimson master’s Crimson Vortex talent are treated as having died to a vampire’s energy drain special attack for the purposes of the vampire’s create spawn ability, producing crimson master-variant vampire spawn.
+
+**Feats:** A crimson master gains Basic Magic Training, selecting the Blood sphere, and Advanced Magic Training as bonus feats. A crimson master cannot select a drawback which removes the blood control ability; if the crimson master possesses a drawback which removes the blood control ability, it must buy back that drawback with the talent gained from the Extra Magic Talent feat. Creatures that already have caster levels may choose to exchange Advanced Magic Training for Extra Magic Talent, selecting a bonus magic talent from the Blood sphere. Additionally, the crimson master gains the Blood sphere Crimson Vortex talent.
+
+For every 4 Hit Dice the crimson master possesses, the crimson master gains Extra Magic Talent as a bonus feat, selecting a bonus talent from the Blood sphere.
+
+This replaces the base template’s Combat Reflexes, Toughness, and Transformation feats.
+
+++++ Suzerain Chymist (CR +2)
+The suzerain chemist is a vampire who understands the complexities of living and unliving biologics, enhancing weaponizing or preparing alchemical formulae and poisons in hidden laboratories or elsewhere. Their unique strain of vampirism grants them the ability to analyze substances, which gives them a predisposition towards alchemy and scientific experimentation. Many suzerain chymists are able to blend with society, acting as merchants of alchemical goods while sheltered from the sunlight in their own homes, shops, or warehouses.
+
+Suzerain chymists all eventually discover the strength of their own weaponized blood, which when vaporized by certain tools, emits a cloying, heavy black mist which saps the life force of those unfortunate enough to stand within. Some suzerain chymists hold this as the blessing of their unique strain of vampirism, while others see it as a deadly and egregious tool of mass death.
+
+A suzerain chymist alters the vampire (spheres) template (“base template”) as follows:
+
+**Special Abilities:** A suzerain chymist gains the analytical savant and practiced chemist special ability. This replaces the base template’s dominate and energy drain special abilities and spider climb special quality.
+
+//Analytical Savant (Ex):// The suzerain chymist can understand the current condition of any creature by observing it. Treat this as the Life sphere Diagnose talent as a constant extraordinary ability, except the suzerain chymist can learn about any creature it can see. In addition, the suzerain chemist gains a +10 bonus on checks made to identify substances (such as Craft (alchemy) for alchemical concoctions, Knowledge (nature) for mushrooms or minerals, etc.).
+
+//Practiced Chemist (Ex):// Through study, experimentation, and intuition, the suzerain chymist has mastered creating and modifying alchemical items. The suzerain chymist gains a bonus on all Craft (alchemy) checks equal to its Hit Dice. After 8 hours of rest (or study, contemplation, or other restful activity, as a vampire does not need to sleep), the suzerain chymist may exchange any (formulae) talents it possesses for any other (formulae) talent. The suzerain chymist must still meet any prerequisites (if legendary talent).
+
+In addition, the suzerain chymist may create a special formulae with the Alchemy sphere that carries quirks of its blood:
+
+//**Suzerain’s Mist (formulae)**//
+Craft DC: 15
+A suzerain chymist infuses a capsule with its own blood which is released as a spectral vapor. The formulae can be thrown as a ranged touch attack with a range increment of 10 feet that releases a heavy blanket of crimson, clinging mist into a 20-foot radius on impact. A moderate wind (11+ mph) disperses the smoke in 4 rounds; a strong wind (21+ mph) disperses the mist in 1 round. Otherwise the smoke dissipates after 1 minute.
+
+The mist does not obscure sight but is treated as difficult terrain by anyone other than a suzerain chymist, clinging to those who pass through as though feeding on them. Any creature which inhales the mist, begins their turn in the mist, or enters this mist during their turn must succeed at a Fortitude saving throw or take 1 negative level, as though struck by a vampire’s energy drain (this allows a suzerain chymist to raise those slain by this formulae to be raised as suzerain chymist vampire with its create spawn ability, should it choose to do so).
+
+The suzerain chymist can increase the Craft DC for this item in increments of 10; each time it does so, the area of effect improves by 10 feet. The suzerain chymist can separately increase the Craft DC for this item by 10; if it does, creatures who succeed at their saving throw against the mist’s effects are instead sickened for 1 round.
+
+**Feats:** A suzerain chymist gains Blood Potion, Distill Compound, Extra Combat Talent, selecting the Alchemy sphere and the (formulae) package, and Versatile Crafter as bonus feats. If the suzerain chymist possesses the Alchemy sphere and does not possess the (formulae) package, it must select the Alchemy sphere Master Chemist talent for the (formulae) package. A suzerain chymist uses its Charisma as its practitioner modifier.
+
+For every 4 Hit Dice the suzerain chymist possesses, the suzerain chymist gains Extra Combat Talent as a bonus feat, selecting a bonus talent from the Alchemy sphere.
+
+This replaces the base template’s Combat Reflexes, Toughness, and Transformation feats.
+
++++ Variant Skeleton and Zombie: Brutal Undead (CR +1) [SB:UatIF]
+A brutal undead is a variant skeleton or zombie that can be created using animate dead or the Death sphere Expanded Necromancy talent and count as twice their normal number of Hit Dice when casting the reanimate sphere effect.
+
+**Challenge Rating:** As a normal skeleton or zombie +1.
+
+**Abilities:** Wis +2, Cha +2. If the brutal undead possesses another template that would alter its ability scores, you may apply this change last.
+
+**Special Qualities:** A brutal undead gains the brutal combatant special quality.
+
+//Brutal Combatant (Ex):// A brutal undead gains one bonus combat talent, plus an additional combat talent for every 4 Hit Dice it possesses. Brutal undead are innately aware of how to use these abilities and use Wisdom as their practitioner modifier. Brutal undead may gain talents from any combat sphere except Alchemy, Beastmastery, Leadership, Tech, and Trap (or any similar sphere which grants minions or requires crafting or large amounts of time). Mindless brutal undead still gain skill ranks from combat spheres with associated skills. However, mindless brutal undead may only use those skills as appropriate for a mindless undead or to use its combat sphere abilities properly.
+
++++ Virulent Sensor Template (CR +Varies)
+Virulent sensor is an acquired template that can be applied to any creature who, while using the Divination sphere talent Viewing, saw a creature who died or was destroyed suffering from the effects of madness (although not necessarily because of the madness).
+
+**CR:** As base creature, +1 per 5 Hit Dice (minimum +0).
+
+**Alignment:** Creatures with the virulent sensor template replace any good or evil alignment they have with neutral, thus lawful good becomes lawful neutral, and neutral evil becomes true neutral. Types of insanity or madness may override this alignment.
+
+**Type:** Changes to undead (keeping any subtypes their previous form may have had)
+
+**Hit Dice:** Change all Hit Dice (including those gained from class levels) into d8s. Virulent sensors use their Charisma modifier to determine bonus hit points (instead of Constitution).
+
+**Saves:** The base saves remain unchanged, except that Fortitude uses Charisma instead of Constitution.
+
+**Defensive Abilities** The templated creature loses all defensive abilities and gain the qualities and immunities of the undead type. In addition, the templated creature gains the insubstantial quality.
+
+**Speed** Virulent sensors lose all movement speeds. If the templated creature has the Scrying Divination advanced talent, it gains a fly speed of 150 feet.
+
+**Attacks:** Virulent sensors lose all attacks (including special attacks) that are not magic talents, spells, sphere-like or spell-like abilities.
+
+**Reach:** The templated creature has its reach reduced to 0 feet.
+
+**Abilities:** Virulent sensors have no Strength or Constitution scores.
+
+**Special Qualities**
+Virulent sensors lose special qualities that are dependant upon having a physical body. The virulent sensors gains insanity, insubstantial and naturally stealthy as special qualities.
+
+**Insanity:** The templated creature permanently suffers from the effects of whatever madness it had before its destruction.
+
+**Insubstantial (Ex):** Virulent sensors may appear to be made out of flames, mist, smoke, or some other gaseous substance, and are effectively weightless. Virulent sensors being insubstantial are normally not hit or damaged by conventional means, but may still be attacked or even damaged by spells or abilities that do not target the virulent sensor, but rather affect everything in its area of effect. An insubstantial creature may still target itself however. Insubstantial creatures gain a size penalty to their combat maneuver bonus (CMB) and may squeeze through openings as if they are up to three sizes smaller, but gain a size bonus to combat maneuver defense (CMD) as if they are up to three sizes larger. In addition, insubstantial creatures gain DR 10/- and are not subject to precision damage or critical hits.
+
+**Naturally Stealthy (Su):** The virulent sensor is particularly difficult to notice outside of combat and requires a Perception check DC 20 + its caster level to spot. The virulent sensor if it casts a spell, instantly becomes visible to all creatures within line of sight for 1 minute before fading back into stealth.
+
+**Languages:** The templated creature continues to understand any language it had before it acquired the template, but loses all ability to speak.
+
+**Spell Points:** Lose all spell points, except those gained through feats and traits.
+
++++ Walking Bomb (CR +1)
+“Walking Bomb” is an acquired template that can be applied to any corporeal creature (referred to hereafter as the base creature). This template can be acquired through a variation of the walking bomb incantations, or by magical accidents or wild magic zones overcharging an exposed creature.
+
+**CR:** As base creature +1.
+
+**Detonation:** When the walking bomb is reduced to 0 or fewer hit points, it detonates, dealing damage as a destructive blast (1d6 per odd Hit Die) with the Explosive Orb (blast shape) and a blast type selected at creation with a caster level equal to its Hit Dice and save DCs equal to 10 + 1/2 Hit Dice + Constitution modifier.
+
++++ Walking God (CR +Varies) [Cata. HB]
+The gods, wherever in the universe they may reside, rarely cast themselves down to walk amongst mortals. When the physical body of a god appears upon a world, their presence pretends great fortune or great woe whose ramifications will echo for lifetimes. These physical walking gods may be avatars of divinity, the magically-bound essence of a deity, or even a god in the entirety of their power. What is known about these walking gods is that, in dramatic and often blasphemous circumstances, they can be destroyed. Such acts, rare though they may be, often have ramifications which reach all across existence.
+
+Walking god is an acquired or inherited template which can be applied to any creature with mythic ranks (hereafter referred to as the base creature). A walking god uses all the base creature’s statistics and special abilities except as noted here.
+
+**Challenge Rating:** As base creature +3, plus an additional +1 for every 2 mythic ranks the creature possesses.
+
+**Senses:** In addition to the abilities granted by the portfolio sense ability, a walking god gains low-light vision and the see in darkness ability.
+
+**Defensive Abilities:** A walking god gains DR 10/epic (which improves to DR 20/epic if they are above CR 12 and DR 30/ epic if they are above CR 20), and gains additional immunities depending on their mythic rank (see Table: Walking God Immunities, entries are cumulative). They gain SR equal to their final CR + 10 + half their mythic rank. If they already had SR at least this good, instead their SR increases by 4. They may allow effects to ignore this spell resistance if they so wish. In addition, a walking god gains the following abilities:
+
+//Divine Constitution (Ex)//
+A walking god gains additional hit points equal to their number of Hit Dice multiplied by their mythic tier. In addition, they gain both an increase to natural armor and a deflection bonus to AC equal to their mythic tier.
+
+//Unassailable Power (Ex)//
+A walking god may choose to ignore any dead magic zones, antimagic fields, or similar effects which would impede the function of their abilities or equipment.
+
+**Table: Walking God Immunities**
+||~ Mythic Rank ||~ Immunities || 
+|| 1-2 || Aging, death effects || 
+|| 3-4 || Ability damage, energy drain || 
+|| 5-6 || Disease, paralyses, poison, sleep || 
+|| 7-8 || Ability drain, petrification, polymorph (may allow themselves to be polymorphed), stunning || 
+|| 9-10 || Banishment, divinations (as per the Mind Blank advanced talent), mind-affecting effects (may allow themselves to be affected) || 
+
+**Special Attacks:** A walking god gain the following special attacks:
+
+//Divine Aura (Su)//
+A walking god projects an aura out to 60 feet which grants all of their allies (including the walking god) a +4 sacred or profane bonus to attack rolls, damage rolls, saves, and skill checks. Opponents of the walking god in this aura take a -4 penalty on all such rolls. A walking god may suppress or resume this aura as a free action.
+
+**Special Qualities:** A walking god gains the following special qualities:
+
+//Divine Providence (Ex)//
+Whenever a walking god would roll any sort of dice as part of using their abilities (such as an attack roll, damage roll, skill check, or saving throw), they may treat the die roll as having rolled twice their mythic tier or the maximum possible result of the die, whichever is lower. This ability does not cause a walking god to automatically succeed at an attack roll or saving throw as a result of having rolled a natural 20, however, nor does it apply on d% rolls. This ability can be used a number of times per round equal to the walking god’s mythic tier. This ability also applies to all of the walking god’s Hit Dice for the purpose of determining their hit points.
+
+//Divine Tradition//
+As it is a deity, a walking god may select a divine tradition (see [[[Divine Traditions]]]).
+
+//Domain Mastery (Su)//
+As an incarnate god, a walking god is capable of granting spells and other magic abilities to followers. Every walking god possesses three domains plus an additional domain for every 4 mythic ranks they possess. In addition, the walking god may select a single subdomain for every domain they possess. For every domain that a walking god possesses, they gain three bonus magic talents from the magic sphere corresponding to that domain (see Table: Domains and Spheres to see which magic spheres correspond to what domains). If the walking god does not already possess the domain’s base sphere, they gain the base sphere in place of one of the bonus talents. If the walking god does not possess any spherecasting abilities from race, class, or some other source, they gain Advanced Magic Training as a bonus feat (even if they do not meet the prerequisites).
+
+When a walking god creates effects from a sphere tied to one of their domains, the spell point cost is reduced by half their mythic tier (minimum 0).
+
+**Table: Domains and Spheres**
+||~ Domain ||~ Magic Sphere ||~ Example Event for Portfolio Sense ||
+|| Air || Weather || Pollution in the air || 
+|| Animal || Alteration || A change in the living conditions of animals || 
+|| Artifice || Creation || The construction or invention of something that affects many people || 
+|| Chaos || Fate || An ideological shift towards or away from chaos || 
+|| Charm || Mind || The rise of an influential or popular figure || 
+|| Community || Protection || The assembly of an organization or founding of a city || 
+|| Darkness || Dark || Activity under the cover of night || 
+|| Death || Death || The death of creatures || 
+|| Destruction || Destruction || A violent cataclysm || 
+|| Earth || Nature || Mining or quarrying of stone || 
+|| Evil || Fate || An ideological shift towards or away from evil || 
+|| Fire || Nature || A fire that consumes a location || 
+|| Glory || Enhancement || Feats of great personal achievement || 
+|| Good || Fate || An ideological shift towards or away from good || 
+|| Healing || Life || Creatures saved from death or disease || 
+|| Knowledge || Divination || Education or discoveries || 
+|| Law || Fate || An ideological shift towards or away from law || 
+|| Liberation || Warp || A people in bondage or freed from bondage || 
+|| Luck || Fate || Unlikely or ironic events || 
+|| Madness || Mind || The spread of an unstable or dangerous ideology || 
+|| Magic || Divination || A powerful ritual or invention of a new spell || 
+|| Nobility || War || The crowning of a new leader || 
+|| Plant || Nature || The cultivation of crops || 
+|| Protection || Protection || Displays of selflessness or repulsions of assault || 
+|| Repose || Life || Funerary rites (or lack thereof) of a person || 
+|| Rune || Enhancement || The recording of events or stories || 
+|| Scalykind || Alteration || The fate of dragons or other scaled creatures || 
+|| Strength || Enhancement || Great feats of athleticism || 
+|| Sun || Light || Activity during the daytime || 
+|| Travel || Warp || The movement of people or goods || 
+|| Trickery || Illusion || The spread of lies or great acts of deception || 
+|| Void || Warp || The arrival of creatures or relics from other worlds || 
+|| War || War || Conflict between groups or nations || 
+|| Water || Nature || The movement of ships across the sea || 
+|| Weather || Weather || A storm which would destroy an environment or provide for it || 
+
+//Mythic Outpouring (Ex)//
+A walking god is considered to have an infinite number of uses of mythic power and may use them however they wish.
+
+//Portfolio Sense (Su)//
+A walking god is capable of sensing events tied to their domains. A walking god gains the Divination sphere as a bonus sphere. Any (sense) talents as well as any divinations the walking god can utilize are always considered active. The caster level for these effects is equal to the walking god’s CR. In addition, a walking god can sense any events which are related to their domains. There is no limit to the range of a walking god’s portfolio sense, but a walking god may not be able to sense or figure out insignificant events depending on the walking god’s mythic rank (see Table: Portfolio Sense for details on what walking gods of various mythic ranks can detect and how they can interact with them). Depending on their role in the setting, walking gods may be restricted to sensing events of a certain type based on their designated purview (for example, a god of assassins with the Death domain may only be able to sense when creatures are killed by another intelligent creature, not when they perish of old age, disease, or other causes). All walking gods automatically sense when they are being worshiped or blasphemed against.
+
+**Table: Portfolio Sense**
+||~ Mythic Rank ||~ Portfolio Sense || 
+|| 1-2 || Senses events that affect 1,000 or more creatures || 
+|| 3-4 || Senses events that affect 50 or more creatures || 
+|| 5-6 || Senses events that affect 1 or more creatures, knows the name of each affected creature but not how they are affected || 
+|| 7-8 || Senses events that affect 1 or more creatures, knows the name of each affected creature and how they are affected, may observe and communicate with affected creatures as per the Scrying advanced talent and Project Thoughts talent without spending spell points (CL equal to twice mythic tier) || 
+|| 9-10 || Senses events that affect 1 or more creatures, knows the name of each affected creature and how they are affected, may observe and communicate with affected creatures as per the Greater Scrying and Greater Communication advanced talents as a free action without spending spell points (CL equal to twice mythic tier) || 
+
+//Powers of Faith (Su)//
+A walking god gains the Powers of Faith of a mythic character with 10 tiers. See [[[Churches and Powers of Faith]]] for the rules on the Powers of Faith.
+
+//Truespeech (Su)//
+A walking god is capable of speaking and understanding all languages.
+
+++++ Employing Walking Gods In Your Game
+Walking gods are intended to represent a deity emerging in the setting at their full power, and for this reason should be handled with a great deal of caution by GMs. Even beyond their immense combat potential, the ability of walking gods to grant spells means that their presence or removal can dramatically shape events on a grand scale across the setting. For these reasons, any sort of combat with a walking god should be a dramatic and world-shaking event with great long-term consequences, perhaps even as the final encounter of a campaign.
+
+The sheer amount of power given to a walking god makes them generally unsuitable for player use, and GMs should exercise extreme caution in allowing players access to the power of such a being. An adventure which procures a god's involvement is abnormally epic, but an adventure where the players actually are gods involves a completely unique set of paradigms.
+
+It should be noted that while deities have mythic ranks similar to players and other mythic creatures, the comparison may not always be completely analogous from a lore perspective. A character with multiple mythic tiers who ascends to godhood would likely lose at least some of them in the ascension process, as a tier 6 walking god is many steps above a tier 6 mythic character in terms of power and influence.
+
++++ Wightborne (CR +1) [SB:UatIF]
+“Wightborne” is an acquired template that can be added to any living humanoid creature (referred hereafter as the base creature). Wightborne are unusually rare wights (Pathfinder RPG Bestiary pg. 276) which retain a fragile sense of their former self, although warped and twisted by the rage and emotions surrounding their demise. A wight does not choose to create a wightborne, they are rare occurrences when a strong-willed humanoid dies at the hands of a wight, and gaining this template is subject to GM discretion.
+
+**Challenge Rating:** Base creature‘s CR +1.
+
+**Alignment:** Any evil. Although non-evil wightborne exist, they are usually a product of a free-willed wightborne having the time and capacity to overcome the strong rage and hatred which animated them.
+
+**Type:** The creature’s type changes to undead and keeps any subtypes.
+
+**Armor Class:** A wightborne gains a +4 natural armor bonus.
+
+**Hit Dice:** Change all of the creature’s racial Hit Dice to d8s. Hit Dice from class levels are unchanged. As undead, wightborne use their Charisma modifier to determine bonus hit points (instead of Constitution).
+
+**Defensive Abilities:** Wightborne lose all their defensive abilities and gain all the qualities and immunities granted by the undead type.
+
+**Weaknesses:** Wightborne gains the resurrection vulnerability and spawn’s shackles weaknesses.
+
+//Resurrection Vulnerability (Su):// A raise dead spell, Life sphere Resurrection sphere effect, or similar spell or ability destroys the wightborne (Will negates). Using a spell in this way does not require a material component.
+
+//Spawn’s Shackles (Su):// When spawned, a wightborne suffers spawn penalties and is under the command of the wight that spawned them (as detailed in the create spawn ability).
+
+**Speed:** Same as the base creature.
+
+**Melee:** A wightborne gains a slam attack if the base creature did not have one. Damage for the slam depends on the wightborne’s size.
+
+**Special Attacks:** A wightborne gains the create spawn and energy drain special attacks.
+
+//Create Spawn (Su):// Any humanoid creature that is slain by a wightborne becomes a wight in 1d4 rounds. Spawn created are less powerful than typical wights, and suffer a –2 penalty on all d20 rolls and checks, as well as –2 hit points per Hit Die. Spawn are under the command of the wightborne that created them and remain enslaved until its death, at which point they lose their spawn penalties and become full-fledged and freewilled wights. Wights spawned this way do not possess any of the abilities they had in life.
+
+**Energy Drain (Su):** Any creature hit by a wightborne’s attack action, first hit of a full-attack action, or attack of opportunity gains one negative level. The save DC is Charisma-based.
+
+**Ability Scores:** Cha +2. As an undead creature, a wightborne has no Constitution score.
+
+**Skills:** A wightborne gains a +8 racial bonus on Stealth checks.
+
+**Feats:** A wightborne gains Blind Fight as a bonus feat.
+[[/tab]]
+[[tab Original]]
+[[include old-sphere-templates]]
+[[/tab]]
+[[/tabview]]
 
 ----
 
