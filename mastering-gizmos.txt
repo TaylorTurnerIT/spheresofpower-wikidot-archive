@@ -540,12 +540,13 @@ A primary example is whether a gizmo can receive signals. A gizmo intentionally 
 
 ++ Detector Reference Tables
 This section includes the various tables that the (transmission) package //detectors// use to sense and display information. Each table notes the talent and detector name the table belongs to.
-**Table: Mechanism Signature Strength**
-**Gizmo Level	**Strength	**Lingering Signature Duration
-1-5	Weak	1d6 rounds
-6-11	Considerate	1d6 minutes
-12-20	Potent	1d6 x 10 minutes
-21+	Astounding	1d6 days
+
++++ **Table: Mechanism Signature Strength**
+||~ **Gizmo Level** ||~ **Strength** ||~ **Lingering Signature Duration** ||
+|| 1-5 || Weak || 1d6 rounds ||
+|| 6-11 || Considerate || 1d6 minutes ||
+|| 12-20 || Potent || 1d6 x 10 minutes ||
+|| 21+ || Astounding || 1d6 days ||
 
 **Talent**: Base (transmission) package
 **Detector**: Mechanism Sensor
@@ -554,48 +555,48 @@ This section includes the various tables that the (transmission) package //detec
 
 **Craft DCs and Signature Strength**: For non-sphere crafted items (mechanical items, alchemical items if using the alchemical sensor //detector//, etc.), use the object’s Craft DC as the relevant skill check DC to identify the item; if the detected item has no Craft DC, the DC to identify the item is subject to DM discretion.
 
-**Table: Armament Signature Strength**
-**Type	**Strength
-Unremarkable	Diluted
-Masterwork	Weak
-1-2 enchantment	Considerate
-3-4 enchantment	Potent
-5+ enchantment	Astounding
++++ **Table: Armament Signature Strength**
+||~ **Type** || **Strength**||
+|| Unremarkable || Diluted ||
+|| Masterwork || Weak ||
+|| 1-2 enchantment || Considerate ||
+|| 3-4 enchantment || Potent ||
+|| 5+ enchantment || Astounding ||
 
 **Talent**: Detection Mastery
 **Detector**: Armament Sensor
 
 **Note**: The Craft DC to identify a detected object is equal to the detected object’s Craft DC. If there is no Craft DC associated with the detected object, treat the DC as 15 (or higher, subject to GM discretion).
 
-**Table**: Creature Signature Strength
-**HD	**Strength
-1 or lower	Weak
-2-4	Considerate
-5-10	Potent
-11+	Astounding
++++ **Table**: Creature Signature Strength
+||~ **HD** ||~ **Strength ||
+|| 1 or lower || Weak ||
+|| 2-4 || Considerate ||
+|| 5-10 || Potent ||
+|| 11+ || Astounding ||
 
 **Talent: Detection Mastery**
 **Detector**: Ecology Sensor
 
-**Table**: Density Signature Strength
-**Density	**Example	**Signature Strength
-Ultra light	Balsa wood, feathers, shredded paper	Weak
-Light	Charcoal, cork, darkwood, flour, hay, snow	Considerate
-Dense	Flesh, iron, mithral, sand, soil, stone, water, wood	Potent
-Superdense	Adamantine, gold, lead, silver	Astounding
++++ **Table**: Density Signature Strength
+||~ **Density** ||~ **Example** ||~ **Signature Strength ||
+|| Ultra light || Balsa wood, feathers, shredded paper || Weak ||
+|| Light || Charcoal, cork, darkwood, flour, hay, snow || Considerate ||
+|| Dense || Flesh, iron, mithral, sand, soil, stone, water, wood || Potent ||
+|| Superdense || Adamantine, gold, lead, silver || Astounding ||
 
 **Talent**: Excavation Set
 **Detector**: Density Sensor
 
-**Table: Radiation Effects**
-**Radiation Level	**Fort Save	**Primary Effect	**Secondary Effect
-None	–	–	–
-Low	13	1 Con drain	1 Str damage/day
-Medium	17	1d4 Con drain	1d4 Str damage/day
-High	22	2d4 Con drain	1d6 Str damage/day
-Severe	30	4d6 Con drain	2d6 Str damage/day
++++ **Table: Radiation Effects**
+||~ **Radiation Level** ||~ **Fort Save** ||~  **Primary Effect** ||~ **Secondary Effect** ||
+|| None || – || – || – ||
+|| Low || 13 || 1 Con drain || 1 Str damage/day ||
+|| Medium || 17 || 1d4 Con drain || 1d4 Str damage/day ||
+|| High || 22 || 2d4 Con drain || 1d6 Str damage/day ||
+|| Severe || 30 || 4d6 Con drain || 2d6 Str damage/day ||
 
-**Talent**: Radiation Set
++++ **Talent**: Radiation Set
 **Detector**: Radiation Sensor
 
 The rules for radiation are reprinted for convenience from //Pathfinder Campaign Setting: Technology Guide//.
@@ -611,28 +612,29 @@ Radiation dangers are organized into four categories: low, medium, high, and sev
 **Removing Radiation Effects**: All radiation damage is a poison effect, and as such it can be removed with any effect that neutralizes poison. Ability damage and drain caused by radiation damage can be healed normally.
 
 **Table: Relativistic Signals**
-**Type	**Strength
-Equal to the relative variable	Equivalent
--3 or less of the relative variable	Diluted
--2 or less of the relative variable	Weak
-+/- 1 of the relative variable	Considerate
-+2 or more of the relative variable	Potent
-+3 or more of the relative variable	Astounding
+||~ **Type** ||~ **Strength ||
+|| Equal to the relative variable || Equivalent ||
+|| -3 or less of the relative variable || Diluted ||
+|| -2 or less of the relative variable || Weak ||
+|| +/- 1 of the relative variable || Considerate ||
+|| +2 or more of the relative variable || Potent ||
+|| +3 or more of the relative variable || Astounding ||
 
 **Talent**: Detection Mastery
 **Detector**: Relativistic Signals (any)
 
-**Table: Temperatures**
-**Temp (C/F)	**Reference Point	**Temp (C/F)	**Reference Point
--273.15 / -459.67	Absolute zero	38 / 100	Desert temperatures
--30/-22	Arctic temperatures	100 / 212	Water boils
-0/32	Water freezes	230 / 450	Tin melts
-0/32	Creatures with cold subtype1	233 / 451	Flashpoint of paper
-10/40	Incorporeal undead1	500 / 930	Campfire
-20/70	Average room temperature	510 / 950	Creature with fire subtype1
-20/70	Corporeal undead1	620 / 1,150	Wood-fueled forge
-37/98	Average human temperature	1,500 / 2,750	Iron melts
-1 This is the temperature of an average creature of its type/subtype, and variance within said type/subtype is to be assumed.
++++ **Table: Temperatures**
+||~ **Temp (C/F)** ||~ **Reference Point** ||~ **Temp (C/F)** ||~ **Reference Point ||
+|| -273.15 / -459.67 || Absolute zero || 38 / 100 || Desert temperatures ||
+|| -30/-22 || Arctic temperatures || 100 / 212 || Water boils||
+|| 0/32 || Water freezes || 230 / 450 || Tin melts||
+||0/32 || Creatures with cold subtype^^1^^ || 233 / 451	Flashpoint of paper||
+||10/40 || Incorporeal undead^^1^^ || 500 / 930	Campfire||
+||20/70 || Average room temperature || 510 / 950 || Creature with fire subtype1||
+||20/70 || Corporeal undead^^1^^ || 620 / 1,150 || Wood-fueled forge||
+||37/98 || Average human temperature || 1,500 / 2,750 || Iron melts||
+
+^^1^^ This is the temperature of an average creature of its type/subtype, and variance within said type/subtype is to be assumed.
 
 **Note**: When using a heat sensor, GMs are encouraged to approximate an area’s temperatures. **Table: Temperatures** provides average temperatures of common environments, locations, and creatures as suggestions and points of comparison.
 
