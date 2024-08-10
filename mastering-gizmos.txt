@@ -147,38 +147,39 @@ Modifying an AI’s classification is the same as building a new AI.
 
 ++ AI Statistics and Advancement
 AI statistics and abilities are based on their gizmo level (including Hit Dice, saving throws, etc.). An AI cannot be crafted with a gizmo level greater than its creator's ranks in the associated skill. **Table: AI determines the base statistics of an AI.
+
 **Table: AI**
-**Skill Ranks (Gizmo Level)**	**Hit Dice**	**BAB**	**Base Saves**	**Practitioner Bonus**	**Feats**	**Talents**	**Other**
-1	1	+1	+2	+0	1	0	
-2	2	+2	+3	+1	1	1	
-3	3	+3	+3	+1	2	1	
-4	3	+3	+3	+1	2	1	
-5	4	+4	+4	+2	2	2	Ability score increase
-6	5	+5	+4	+2	3	2	
-7	6	+6	+5	+3	3	3	
-8	6	+6	+5	+3	3	3	
-9	7	+7	+5	+3	4	3	
-10	8	+8	+6	+4	4	4	Ability score increase
-11	9	+9	+6	+4	5	4	
-12	9	+9	+6	+4	5	4	
-13	10	+10	+7	+5	5	5	
-14	11	+11	+7	+5	6	5	
-15	12	+12	+8	+6	6	6	Ability score increase
-16	12	+12	+8	+6	6	6	
-17	13	+13	+8	+6	7	6	
-18	14	+14	+9	+7	7	7	
-19	15	+15	+9	+7	8	7	
-20	15	+15	+9	+7	8	7	
-21	16	+16	+10	+8	8	8	Ability score increase
-22	17	+17	+10	+8	9	8	
-23	18	+18	+11	+9	9	9	
-24	18	+18	+11	+9	9	9	
-25	19	+19	+11	+9	9	9	
-26	20	+20	+12	+10	10	10	Ability score increase
-27	21	+21	+12	+10	10	10	
-28	21	+21	+12	+10	11	10	
-29	22	+22	+13	+11	11	11	
-30	23	+23	+13	+11	12	11	
+||~ **Skill Ranks (Gizmo Level)** ||~ **Hit Dice** ||~ **BAB** ||~ **Base Saves** ||~ **Practitioner Bonus** ||~ **Feats** ||~ **Talents** ||~ **Other** ||
+|| 1 || 1 || +1 || +2 || +0 || 1 || 0 || - ||
+|| 2 || 2 || +2 || +3 || +1 || 1 || 1 || - ||
+|| 3 || 3 || +3 || +3 || +1 || 2 || 1 || - ||
+|| 4 || 3 || +3 || +3 || +1 || 2 || 1 || - ||
+|| 5 || 4 || +4 || +4 || +2 || 2 || 2 || Ability score increase ||
+|| 6 || 5 || +5 || +4 || +2 || 3 || 2 || - ||
+|| 7 || 6 || +6 || +5 || +3 || 3 || 3 || - ||
+|| 8 || 6 || +6 || +5 || +3 || 3 || 3 || - ||
+|| 9 || 7 || +7 || +5 || +3 || 4 || 3 || - ||
+|| 10 || 8 || +8 || +6 || +4 || 4 || 4 || Ability score increase ||
+|| 11 || 9 || +9 || +6 || +4 || 5 || 4 || - ||
+|| 12 || 9 || +9 || +6 || +4 || 5 || 4 || - ||
+|| 13 || 10 || +10 || +7 || +5 || 5 || 5 || - ||
+|| 14 || 11 || +11 || +7 || +5 || 6 || 5 || - ||
+|| 15 || 12 || +12 || +8 || +6 || 6 || 6 || Ability score increase ||
+|| 16 || 12 || +12 || +8 || +6 || 6 || 6 || - ||
+|| 17 || 13	+13 || +8 || +6 || 7 || 6 || - ||
+|| 18 || 14 || +14 || +9 || +7 || 7 || 7 || - ||
+|| 19 || 15 || +15 || +9 || +7 || 8 || 7 || - ||
+|| 20 || 15 || +15 || +9 || +7 || 8 || 7 || - ||
+|| 21 || 16 || +16 || +10 || +8 || 8 || 8 || Ability score increase ||
+|| 22 || 17 || +17 || +10 || +8 || 9 || 8 || - ||
+|| 23 || 18 || +18 || +11 || +9 || 9 || 9 || - ||
+|| 24 || 18 || +18 || +11 || +9 || 9 || 9 || - ||
+|| 25 || 19 || +19 || +11 || +9 || 9 || 9 || - ||
+|| 26 || 20 || +20 || +12 || +10 || 10 || 10 || Ability score increase ||
+|| 27 || 21 || +21 || +12 || +10 || 10 || 10 || - ||
+|| 28 || 21 || +21 || +12 || +10 || 11 || 10 || - ||
+|| 29 || 22 || +22 || +13 || +11 || 11 || 11 || - ||
+|| 30 || 23 || +23 || +13 || +11 || 12 || 11 || - ||
 
 An AI’s creature type is construct, gaining a construct’s normal traits (except where otherwise noted).
 
@@ -271,7 +272,7 @@ Abilities granted by an AI Classification are extraordinary.
 * //Smooth Operator (Ex)//: Socialite AIs may take 15 minutes to coach or otherwise prepare another creature for a social encounter. For 1 hour per 2 gizmos levels after being prepared by a Socialite AI, the creature may use the Socialite AI’s bonuses to Bluff, Diplomacy, Intimidate, and Perform in place of their own bonuses. If the creature’s bonuses would already be higher, treat this instead as having received a successful aid another attempt from the Socialite AI for all Bluff, Diplomacy, Intimidate, and Perform checks made during this period of time.
 * //Team Affinity (Ex)//: Socialite AIs can use the aid another action as a move action; this improves to a swift action at gizmo level 7. Whenever a Socialite AI uses the aid another action to improve another creature’s AC, attack rolls, or skill checks, the granted bonus improves by +1, +1 per 10 gizmo levels.
 
-**Soldier (classification)
+**Soldier (classification)**
 **Ability Scores**: Int 12, Wis 12, Cha 14; **Practitioner Modifier**: Charisma; **Skill Ranks per HD**: 4 (increased to 5 due to Int); **Class Skills**: Climb (Str), Craft (Int), Handle Animal (Cha), Intimidate (Cha), Knowledge (dungeoneering) (Int), Knowledge (local) (Int), Knowledge (nobility) (Int), Perception (Wis), Ride (Dex), Swim (Str)
 * //Routine//: The user gains a +1 insight bonus to Fortitude saves and a +2 insight bonus to Intimidate checks; each bonus increases by +1 per 4 gizmo levels.
 * //Martial Tradition (Ex)//: Soldier AIs gain a martial tradition.
@@ -398,6 +399,7 @@ Colossal	+8	-8	-8	+8	30 ft.	30 ft.	-8	-16	125 tons
 
 ++ Mechanoid Statistics and Advancement
 //Mechanoids// statistics and abilities are based on their gizmo level (including Hit Dice, saving throws, etc.). A //mechanoid// cannot be crafted with a gizmo level greater than its creator's ranks in the associated skill. **Table: Mechanoid** determines the base statistics of a //mechanoid//.
+
 **Table: Mechanoid**
 **Skill Ranks (Gizmo Level)**	**Hit Dice**	**Base Saves**	**Natural Armor Bonus**	**Ability Bonus**	**Bonus Hit Points**	**Upgrades**	**Other**
 1	1d10	+0	+4	+0	+4	5	
@@ -569,7 +571,7 @@ This section includes the various tables that the (transmission) package //detec
 **Note**: The Craft DC to identify a detected object is equal to the detected object’s Craft DC. If there is no Craft DC associated with the detected object, treat the DC as 15 (or higher, subject to GM discretion).
 
 +++ **Table**: Creature Signature Strength
-||~ **HD** ||~ **Strength ||
+||~ **HD** ||~ **Strength** ||
 || 1 or lower || Weak ||
 || 2-4 || Considerate ||
 || 5-10 || Potent ||
@@ -579,7 +581,7 @@ This section includes the various tables that the (transmission) package //detec
 **Detector**: Ecology Sensor
 
 +++ **Table**: Density Signature Strength
-||~ **Density** ||~ **Example** ||~ **Signature Strength ||
+||~ **Density** ||~ **Example** ||~ **Signature Strength** ||
 || Ultra light || Balsa wood, feathers, shredded paper || Weak ||
 || Light || Charcoal, cork, darkwood, flour, hay, snow || Considerate ||
 || Dense || Flesh, iron, mithral, sand, soil, stone, water, wood || Potent ||
@@ -624,7 +626,7 @@ Radiation dangers are organized into four categories: low, medium, high, and sev
 **Detector**: Relativistic Signals (any)
 
 +++ **Table: Temperatures**
-||~ **Temp (C/F)** ||~ **Reference Point** ||~ **Temp (C/F)** ||~ **Reference Point ||
+||~ **Temp (C/F)** ||~ **Reference Point** ||~ **Temp (C/F)** ||~ **Reference Point** ||
 || -273.15 / -459.67 || Absolute zero || 38 / 100 || Desert temperatures ||
 || -30/-22 || Arctic temperatures || 100 / 212 || Water boils||
 || 0/32 || Water freezes || 230 / 450 || Tin melts||
