@@ -1,0 +1,650 @@
+title:Mastering Gizmos
+[[toc]]
+
+[[module CSS]]
+.noselect {
+  -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome and Opera */
+}
+[[/module]]
+[[tabview]]
+[[tab Ultimate Engineering]]
+[[div class="noselect" style="float:right; width: 20%; padding: 0 2%"]]
+[[=]]
+[[image http://spheresofpower.wikidot.com/local--files/test-page/ultimateengineering.jpg link="https://www.drivethrurpg.com/product/472038/Ulimate-Engineering?affiliate_id=549120"]]
+**Ultimate Engineering**
+$19.99
+----
+[[/=]]
+[[/div]]
+
+This section contains the lengthier rules for the Tinker packages, as well as specific abilities with more involved rules (such as AI or //mechanoids//) as a consolidated reference section.
+
++ Tinker Package Rules
+This section contains the basic rules for the various categories of gizmos granted by the Tinker base packages (excluding Artificial Intelligence and //mechanoids//, which have their own sections).
+++ Augmentation
++++ Augmentation
+//Augmentations// are a type of worn gizmo that provide benefits to the user when activated. Equipping or removing an //augmentation// takes 1 minute. An //augmentation’s// effects do not stack (the same //augmentation// with different selections may be used simultaneously, such as a physical augmentation gizmo assigned to different ability scores).
+
++++ Prosthetic
+The (augmentation) package grants the ability to craft prosthetics. Prosthetics come in a variety of kinds and abilities.
+
+//Prosthetics// are a type of //augmentation// gizmo that provide the functionality of a limb or other body part, either by replacing a missing body part or acting as a “sleeve” over an existing body part (i.e. a user could fully replace a limb that was destroyed, or can augment their existing limb with technology).
+
+A //prosthetic// may be crafted to be worn either over an existing limb or body part or to replace a missing limb or body part the user would normally possess (but lacks, such as a humanoid missing a leg, eye, etc.). A //prosthetic// may be worn or removed as a full-round action (unless it would replace an internal organ, and must be implanted). //Prosthetics// are crafted for a specific user and cannot be worn by or implanted in a different creature unless adjusted first (see **Section 4.1: Mastering Gizmos, Scavenging Gizmos).
+
+A //prosthetic// worn over an existing limb or body part can be used in all ways like a body part of that kind (such as a real hand, a real leg, etc.) and is usually done to access unique or specific abilities, rather than replace a missing or defective limb (such as wearing a custom mecha-fist over your perfectly good hand to have mecha-fist abilities). Unless otherwise specified, a worn or implanted //prosthetic// functions as the user’s original body part, is appropriately sized for the user, and is crafted with the necessary parts to emulate that body part (such as a //prosthetic// arm for a bear would function like that bear’s arm, including its claws, for all purposes; if a //prosthetic// organ were provided to replace a dragon’s gland that produces a breath weapon, the breath weapon would function normally with this organ).
+
+Certain //prosthetics// may alter how the body part functions by granting new or highly altered functionality (such as using the Primal Augmentations ophidian legs to have legs that act like a snake’s, rather than a bipeds, and substitutes that creature’s base land speed as appropriate), potentially restricting the creature’s normal use of that body part (subject to GM discretion).
+
+//Prosthetics// that grant or function as the user’s natural attack or that could otherwise be used as a weapon may be targeted by effects as though they were manufactured weapons (such as with a //magic weapon// spell). //Prosthetic// limbs count as manufactured weapons for the purposes of modification and enhancement, but cannot count as both natural and manufactured at once.
+
+//Prosthetics// may be sundered and targeted as any other gizmo. A //prosthetic// that is destroyed ceases to function as an appropriate body part for that creature and must be repaired. If using the optional called shots rules (//Ultimate Combat//), an internally implanted //prosthetic// may be targeted (such as making a called shot to the head or heart).
+
+**Secondary Functions**: Secondary functions are additional abilities or functionality granted to a //prosthetic//. Whenever you craft a //prosthetic//, you may grant it a single secondary function. If a //prosthetic// could be made as a matching pair (or a matching set), the matching pair must be used together, and the matching pair have the same qualities (secondary functions, etc.). Secondary functions belonging to paired //prosthetics// are considered a “single” secondary function (i.e. one set of wheels, but also a single storage capacity, or only a single innate gizmo, etc.) that is considered part of both of the //prosthetics//.
+
+Some secondary functions may conflict with the original //prosthetic’s// abilities (or another secondary function, if the prosthetic would have multiple); the user may use either the //prosthetic’s// normal abilities or the secondary function, but not both at the same time (such as a leg //prosthetic// with the wheels secondary function could be used as legs or wheels, but not as both simultaneously).
+
+Some secondary functions grant the user innate gizmos (see **Section 4.1: Mastering Gizmos, Innate Gizmos**).
+
+**Implanted and Internal Prosthetics**: While any gizmo can be implanted, a //prosthetic// of an internal organ must be implanted (see **Section 1.1: Introduction & Sphere Basics, Implanted Gizmos** for more).
+
+**Prosthetics and Batteries: Batteries are attached to a //prosthetic// the same as any other gizmo. Implanted //prosthetics// may include a “port” or similar means of accessing the outside of the user’s body, to which a battery may be attached normally.
+
+++++ Natural Prosthetics
+Some abilities may allow a crafted prosthetic to add new body parts to a creature as a natural extension of their body, rather than supplement what they already had (such as granting legs to a fish, or arms to a bird). This primarily comes from the Tinker sphere Advanced Prosthetics legendary talent or granting an innate //prosthetic// to a mechanoid.
+
+When a creature gains a body part they did not previously possess because of a prosthetic, the basic effects of that //prosthetic// are as follows:
+* **Arm (or Pair of Arms)**: The arms granted by the prosthetic may be used as a normal limb for all purposes. The arm may end in a hand or other prehensile feature.
+* **Head (including Senses)**: The head granted by the prosthetic grants the user normal vision, hearing, sense of smell, taste, and the ability to speak. The crafter may choose to exclude any sense or functionality. By default, a natural head //prosthetic// grants normal vision (and no special senses, such as low-light vision or darkvision) - despite senses that would normally be available to a creature with that creature type.
+* **Leg (or Pair of Legs)**: The legs granted by the prosthetic grant a 30-feet base land speed.
+
+For //prosthetics which grant a body part, limb, or organ a creature does not already possess, the creature gains the benefits of the appropriate supplemental prosthetic (as granted by the Tinker sphere Prosthetics Mastery talent). If a creature later gains body parts, limbs, or organs which they also possess from a natural //prosthetic, the //prosthetic are treated as supplemental //prosthetic (and lose any benefits as a natural //prosthetic while the creature would have other fully functional body parts, limbs, or organs of that kind).
+
+++ Computation
++++ Routine
+A //routine// is crafted and installed directly into an existing gizmo that you crafted (excluding batteries); a gizmo with an installed routine is referred to as the “host gizmo”. If a //routine// requires a battery, it must be attached to the host gizmo, and may deplete batteries attached to the host gizmo. A //routine// can be activated as long as its host gizmo is activated, and deactivates when the host gizmo is deactivated. If a //routine’s// host gizmo is destroyed, the //routine’s// stored data and other functions, if any, are unavailable but not destroyed or lost (and can be recovered and used normally once the host gizmo is repaired).
+
+//Routines// grant their benefits and effects to the host gizmo’s user while the host gizmo is active.
+
+**Transferring Routines**: You can transfer an installed //routine// from one active gizmo you crafted to another gizmo you crafted within your reach as a swift action. This does not deactivate an active //routine// unless the gizmo it is installed into is deactivated. Transferring a //routine// whose battery use ability is active (and depleting a battery) ends that battery use ability upon transferring the //routine// (ending the battery use ability’s duration early). //Routines// can be transferred between deactivated gizmos.
+
+If a //routine would store information (such as a storage routine, as granted by the (computation) package), stored information may also be transferred (usually to other //routines of the same kind) as though transferring a //routine.
+
+++ Modification
+//Modifications// are a type of gizmo that are attached to manufactured equipment or a specific type of object, as noted by that //modification//. //Modifications// refer to the object they are attached to as the “attached object” (i.e. attached weapon, attached armor, attached tool, attached creature, etc.). //Modifications// that are not attached to an appropriate object have no effects (even while active). Attaching or detaching a //modification// requires a swift action unless noted otherwise. //Modifications// can be activated or deactivated as part of drawing or stowing the attached equipment (or a minimum of a swift action, if the //modification// is already drawn, worn, etc.). Unless otherwise specified, you cannot attach multiple //modifications// of the same type to a single object, and if the same //modification// could apply, only the highest gizmo level effect is applied.
+
+//Modifications// can be directly attached to a creature’s body, provided it is attached to a relevant body part (i.e. a //modification// for weapons being attached to the body, improving unarmed strikes, or a //modification// for armor being attached to the skin, improving natural armor).
+
+++ Transmission
+**Signals**: Signals generated by gizmos are emanations that are blocked by sufficient barriers. A signal can penetrate, on average, 3 feet of wood or dirt, 1 foot of stone, 1 inch of common metal, or a thin sheet of lead or other signal-blocking material by GM discretion. The gizmo’s own materials do not block a signal it generates. Force effects and other obstructions made of pure magic do not block signals.
+
++++ Detector
+//Detectors// are used to gather information from its surroundings. Activating a //detector// requires spending 1 minute. A //detector deactivates unless the user spends a full-round action every turn keeping it activated, rendering the user flat-footed. //Detectors have a signal range of close range and reveal information about things within its signal range depending on the parameters it is designed to detect (i.e. mechanical information, alchemical, creature types, heat, etc.). An active //detector// constantly relays information to the user and can be relied upon as though it were an extraordinary sense. Some //detectors// allow the user to learn more information about what the //detector// senses, usually by attempting an appropriate Craft, Knowledge, or other similar check.
+
+**Pinpointing**: Some //detectors// may be able to designate the precise location of a detected subject. This detection allows the user to know exactly which square, how far, and in what direction the pinpointed subject is; this allows the user to bypass non-magical concealment the pinpointed subject might possess.
+
+**Specific Detection**: Any //detector// capable of detecting information which includes a large set of potential parameters (such as a mechanical sensor) may be adjusted as a standard action to sense a more limited subset of the options normally detected. For example, the mechanical sensor normally senses all mechanical items. A user could spend a standard action to tune the mechanical sensor’s parameters to only sense //prosthetics//, or even specific types of //prosthetics// (such as an arm //prosthetic//). Another example, the Detector Set talent’s ecology detector senses specific creature types. The ecology detector could be adjusted to search for only specific types of animals (such as cats only), or even a specific animal (such as a particular large mountain cat). The user must be aware of a creature (such as having succeeded at an appropriate Knowledge check or similar) to set a //detector’s// parameters to sense for a specific or unique piece of information. A //detector// cannot be adjusted to sense a specific object or creature unless you possess the Advanced Transmission legendary talent.
+
+All //detectors// have the following battery use:
+* **Battery Use: The user may deplete 1 battery to activate the //detector// as a standard action (down from 1 minute).
++++ Transmitter
+//Transmitters// use signals to send information, usually only to other gizmos crafted by the same crafter, but can be adjusted to receive information from other crafters as a swift action, and switch this function on and off as a free action. //Transmitters// have a signal range up to medium range (and may be intentionally crafted with a shorter signal range).
+
+Non-Transmitter Gizmos and the (Transmission) Package: Any gizmo may be crafted to receive (or not receive) certain signals, even if the crafter does not possess the (transmission) package. The crafter may permit or exclude any number of signals, such as only signals they created, all signals, signals only from certain types of gizmos, and so on.
+
+If a gizmo or other ability must be “within signal range”, the gizmo may be within the signal range of any //transmitter// the crafter could make (including the communicator accommodation). In essence, the crafter may adjust any //transmitter// to be able to function with gizmos or abilities which are activated, used, or must be within signal range, even if the //transmitter// would not normally produce that type of signal.
+
+**Special - (Computation) Package, Signals and Storage**: Storage routines (or other effects capable of storing information) may log, store, or track signals that its installed gizmo receives. Signals are generally short, specific messages (constituting 10 words or less), or may be longer or more complex, such as those from the communicator accommodation.
+
++ Projects
+Some gizmos require more materials than normal, and require more than just an engineering kit to craft. Such gizmos are considered projects.
+
+Projects have costly material components that must be gathered and prepared before construction on the project can begin. The time spent collecting and preparing the project materials is considered to be part of, and included in, the labor and craftsmanship of assembling a project. After all the necessary materials are collected, a project can be crafted in 1 hour of work.
+
+A project can also be modified with 30 minutes of work (such as changing the number of Hit Dice of a //mechanoid//). This still requires collecting the difference in materials. If modifying a project would cause a reduction in its cost, the excess materials are lost (unless otherwise stated).
+
+Unlike a normal gizmo, a project is a permanent construction and does not count against the crafter’s maximum number of gizmos maintained (although a project may have its own maximum number, such as total gizmo level of crafted //mechanoids// or number of power plants from the Energy Set talent).
+
+Projects are more permanent but can only be repaired by a crafter with the talents necessary to have built the project (and with the same Tinker tradition, if using Tinker traditions). While projects do not require maintenance like a normal gizmo, it is presumed some level of general maintenance is given to projects as they continue to function (whether by cleaning, general repairs for wear and tear, etc.).
+
+**“Project Materials” - Gathering and Preparing Materials for Projects**: As part of paying the cost of a project, the creator can scavenge, produce, or otherwise find the materials to continue the project. The creator can spend 4 hours gathering materials to attempt a DC 15 associated skill check generating 50 gp worth of materials + 50 gp for every 5 points the check exceeds the associated skill DC (always collecting a minimum of 50 gp of project materials). Project materials otherwise hold no value and follow the rule for selling gizmos if sold (see **Section 1.1: Introduction and Sphere Basics, Gizmos**).
+
+The time spent gathering project materials is also presumed to be time spent preparing the materials to be fabricated into the final product (i.e. forging the plates of a //mechanoid’s// chassis, preparing the copper wiring for an energy cable, mixing the cement for pipes, etc.).
+
+When gathering project materials, the character must decide which project the gathered materials are being allocated to (i.e. a power plant, a specific mechanoid, etc.). Project materials are gathered on a project-by-project basis and cannot be allocated to another project. A character cannot stockpile, hoard, or otherwise have multiple sets of project materials prepared for an individual project (i.e. multiple sets of project materials ready for a //mechanoid// and rebuilding that //mechanoid// again).
+
+Project materials can also be purchased for their gp cost while in a settlement.
+
+**Recycling and Recovering Project Materials**: Whenever a project is destroyed (either by willingly dismantling it, as part of maintaining your gizmos, or by other means), 25% of the total gold spent on the project can be recovered as project material (this includes spent project material). The amount of project material you can recover is increased if you possess the Redundant Systems talent.
+
++ Artificial Intelligence
+++ AI Basics
+AI are gizmo-creatures hosted within another gizmo. AI take their own actions and have their own mental ability scores, skills, feats, and other abilities, but lack a physical body. An AI’s capabilities are heavily dependent on their host gizmo’s functions. This can be as limited as opening or closing a technological door, activating and keeping a //detector// active, activating an auto injector gizmo, or other limited functions based on the host gizmo’s capabilities, to as enabling as piloting a //mechanoid// or activating talents through installed speakers or controlled //prosthetic//.
+
+A crafter may only have a certain number of Artificial Intelligences crafted at one time (by default, this is 1). This limit may be increased or interacted with by certain effects, such as the Tinker sphere Extra Automatons legendary talent or Advanced Computation legendary talent, or interacted with in special ways, such as Drone classification AI being able to be crafted as though they were a single AI.
+
+**AI Behavior**: An AI is innately loyal and obedient to their creator. Sapient AI (AI with an Intelligence score of 3 or greater) will generally not perform self-harmful or suicidal acts. AI with less than sapient Intelligence (less than 3, such as a Drone classification AI) or trained or otherwise knowledgeable that they could be retrieved or saved after the act may perform such acts.
+
+**Activating/Deactivating AI**: An AI is activated when installed into a gizmo. Once an AI is activated inside a host gizmo, the AI may control that gizmo. A host gizmo controlled by an AI becomes a creature (an AI-controlled gizmo), similar to an animated object, although a host gizmo does not innately possess the ability to move or take actions. Unlike an animated object, an AI-controlled gizmo may be freely manipulated as a normal gizmo (picked up, thrown, worn, etc.).
+
+Unlike other //routines//, an activated AI remains active, even if its host gizmo is broken, depleted, destroyed, or deactivated, but is incapable of taking any actions when in this state (similar to being helpless, but denying the AI the ability to take actions of any kind).
+
+An AI may be deactivated when the crafter maintains their gizmos or as a 1-minute process. Because AIs are loyal to their creator, they are generally willing to be deactivated or abandoned as a gizmo as part of creating a new AI.
+
+++ Crafting, Modifying, and Recrafting AI
+An AI is always a project (but does not require project materials); AI do not count against the crafter’s gizmo limit (and instead against the crafter’s total AI maintained). Crafting an AI requires 8 hours of crafting; this time may be divided. A crafted AI may be modified to increase or decrease their current gizmo level, adjusting the AI’s abilities as appropriate, up to a maximum of the creator’s ranks in the associated skill.
+
+Modifying an AI’s classification is the same as building a new AI.
+
+**AI Abilities and Classification**: An AI determines their abilities based on their gizmo level as well as their chosen classification. An AI always has the same alignment as its creator and possesses one language of the creator’s choice (that the creator knows). AI classifications determine the AI’s base ability scores, as well as additional abilities.
+
+++ AI Statistics and Advancement
+AI statistics and abilities are based on their gizmo level (including Hit Dice, saving throws, etc.). An AI cannot be crafted with a gizmo level greater than its creator's ranks in the associated skill. **Table: AI determines the base statistics of an AI.
+**Table: AI**
+**Skill Ranks (Gizmo Level)**	**Hit Dice**	**BAB**	**Base Saves**	**Practitioner Bonus**	**Feats**	**Talents**	**Other**
+1	1	+1	+2	+0	1	0	
+2	2	+2	+3	+1	1	1	
+3	3	+3	+3	+1	2	1	
+4	3	+3	+3	+1	2	1	
+5	4	+4	+4	+2	2	2	Ability score increase
+6	5	+5	+4	+2	3	2	
+7	6	+6	+5	+3	3	3	
+8	6	+6	+5	+3	3	3	
+9	7	+7	+5	+3	4	3	
+10	8	+8	+6	+4	4	4	Ability score increase
+11	9	+9	+6	+4	5	4	
+12	9	+9	+6	+4	5	4	
+13	10	+10	+7	+5	5	5	
+14	11	+11	+7	+5	6	5	
+15	12	+12	+8	+6	6	6	Ability score increase
+16	12	+12	+8	+6	6	6	
+17	13	+13	+8	+6	7	6	
+18	14	+14	+9	+7	7	7	
+19	15	+15	+9	+7	8	7	
+20	15	+15	+9	+7	8	7	
+21	16	+16	+10	+8	8	8	Ability score increase
+22	17	+17	+10	+8	9	8	
+23	18	+18	+11	+9	9	9	
+24	18	+18	+11	+9	9	9	
+25	19	+19	+11	+9	9	9	
+26	20	+20	+12	+10	10	10	Ability score increase
+27	21	+21	+12	+10	10	10	
+28	21	+21	+12	+10	11	10	
+29	22	+22	+13	+11	11	11	
+30	23	+23	+13	+11	12	11	
+
+An AI’s creature type is construct, gaining a construct’s normal traits (except where otherwise noted).
+
+**Skill Ranks (Gizmo Level)**: The creator's ranks in the associated skill determine the maximum gizmo level your crafted AI can possess. An AI’s gizmo level is equal to the number of associated skill ranks required to construct it (determined when crafted), and determines its other abilities.
+**HD**: This is the total number of 10-sided (d10) Hit Dice the AI possesses. Unlike other creatures, AI do not have hit points (and are active and “alive” when inside an active housing gizmo). An AI’s Hit Dice are used solely to determine its statistics, effects, and abilities dependent on Hit Dice. AI do not automatically gain Hit Dice when their creator gains ranks, but can be improved as a project to increase its Hit Dice. Generally, an AI’s CR is equal to its Hit Dice - 2 for purposes that require it.
+**BAB**: This is the AI’s base attack bonus.
+**Base Saves**: This is the AI’s base saving throw modifier for its Fortitude, Reflex, and Will saving throws. An AI has good Fortitude, Reflex, and Will saves.
+**Practitioner Bonus**: AI receive a bonus to their practitioner ability score. AI are considered practitioners even if they lack any combat talents and can maintain martial focus. An AI’s practitioner modifier is defined by their classification.
+**Feats**: An AI begins with 1 feat, and gains an additional feat every odd Hit Dice. An AI may select any feat it qualifies for except feats that grant it casting or magic (such as Basic Magic Training) or any other ability that cannot be possessed by a subordinate.
+
+AI uniquely qualify for any feat with a prerequisite physical ability score but can only use and benefit from a feat (or any feats or abilities that rely on that feat as a prerequisite) while installed in a host gizmo with physical ability scores that meet the prerequisite. AI cannot possess any feats that modify their body (such as increasing its hit points or natural armor bonus, polymorph effects, and similar).
+**Talents**: AI gain combat talents with the proficient progression (this may be altered by the AI’s classification). AI are innately aware of how to use their talents, and gain bonus skill ranks from spheres with associated skills as normal. Mindless AI may only use skills granted by their talents as appropriate to use their sphere talents.
+**Ability Score Increase**: The AI adds +1 to one of its ability scores (limited to Intelligence, Wisdom, and Charisma) as normal for advancement in Hit Dice.
+
+__Other Statistics__
+In addition to the statistics and advancement from Table: AI Advancement, AI also possess the following qualities at base (before being modified by their classification and other effects):
+
+**Ability Scores**: AI determine their base mental ability scores based on their classification. Any DCs or other statistics that rely on a physical ability score treat an AI as having a score of 10 (no bonus or penalty). If installed in a //mechanoid// (or otherwise given a body with physical statistics), the AI uses the physical ability scores of that mechanoid.
+**Ability Score Increase**: Just like a character or monster, an AI gains a permanent +1 bonus to an ability score of their choice for every 4 Hit Dice possessed.
+**Classification**: All AI are crafted with a classification, a package of abilities and qualities that determine the AI’s starting functions. Unless otherwise stated, abilities granted by an AI’s classification are extraordinary abilities.
+**Creator Initiative**: AI act on their creator’s turn (or user, if their host gizmo is in the possession of another creature). If an AI is an independent creature (such as an AI-piloted //mechanoid//), it acts on its creator’s initiative unless their creator is not present for the encounter.
+**Gizmo DC**: The Gizmo DC of an AI’s abilities (if one is called for) is equal to 10 + 1/2 the AI’s gizmo level + the AI’s practitioner modifier.
+**Magic Items**: AI do not have any magic item slots of their own. They instead benefit from any magic items worn by the gizmo they are controlling (if it is a body capable of wearing magic items). Unless otherwise stated, a gizmo does not have any magic item slots.
+**Proficiency**: AI are proficient with all simple manufactured weapons as well as any natural attacks or unarmed strikes of their host gizmo. AI cannot use weapons unless their host gizmo is capable of using weapons (i.e. mechanoids).
+**Routine**: Each AI classification possesses a //routine// effect that is granted to both the host-gizmo’s user and to the AI.
+**Skills**: An AI’s class skills and skill ranks per Hit Dice are determined by their classification, modified by their Intelligence bonus as normal. Each classification stat block includes their base skill ranks for level (adjusted for Intelligence bonus).
+
++++ AI Classifications
+This section contains all of the AI classifications which can be built. When you gain the (computation) package, you gain access to and may craft any AI classification that does not list an additional prerequisite.
+
+New AI classifications can be developed by using these classifications as suggested templates for effects and abilities (**Section 4.4: Gamemaster’s Toolkit, Inventioneering**). It is recommended to use the provided classifications as a guideline when determining its ability as a //routine// and abilities as an AI.
+
+Abilities granted by an AI Classification are extraordinary.
+
+**Archivist (classification)**
+**Ability Scores**: Int 14, Wis 12, Cha 12; **Practitioner Modifier**: Int; **Skill Points per Hit Die**: 4 (increased to 6 due to Int); **Class Skills**: Diplomacy (Cha), Knowledge (all) (Int), Linguistics (Int), Perception (Wis), Profession (Wis), Sense Motive (Wis), Spellcraft (Int), Use Magic Device (Cha)
+* //Routine//: Whenever the user attempts an Intelligence, Wisdom, or Charisma-based skill check, the user may choose to gain an insight bonus on that skill check equal to 1d4 + 1 per 4 gizmo levels. This effect may only be used once every 1d4 rounds.
+* //Martial Tradition (Ex)//: Archivist AIs gain a martial tradition; this martial tradition must grant the Scout sphere.
+* //Composure (Ex)//: Archivist AI may select a number of skills equal to 1+their practitioner modifier. The Archivist may take 10 on these skills even when distracted or threatened. The Archivist may reselect these skills after 8 hours of rest.
+* //Data Repository (Ex)//: Archivist AIs gain a circumstance bonus on all Knowledge and Linguistics checks equal to 1/2 their gizmo level (minimum 1). Archivist AI may attempt Knowledge checks untrained.
+* //Rewire Specialties (Ex)//: An Archivist AI selects 1 skill. The Archivist treats this skill as a class skill and gains 1 bonus skill rank in the chosen skill for every Hit Die it possesses. If the Archivist already possesses ranks in the chosen skill, the Archivist does not retrain these skill ranks (the skill ranks granted by this ability are temporary). The Archivist AI may reselect this skill after 8 hours of rest, losing any previously selected benefits.
+
+**Bestial (classification)**
+**Ability Scores**: Int 2, Wis 14, Cha 12; **Practitioner Modifier**: Wis; **Skill Ranks per HD**: 2 (reduced to 1 due to Int); **Class Skills**: Acrobatics (Dex), Climb (Str), Escape Artist (Dex), Fly (Dex), Intimidate (Cha), Perception (Wis), Stealth (Dex), Survival (Wis), and Swim (Str)
+* //Routine//: The user may reroll failed aid another checks once per round. When the user would receive an aid another bonus, or grant another creature an aid another bonus, the bonus granted is increased by +1.
+* //Martial Tradition(Ex)//: Bestial AIs gain a martial tradition of their choice (most Bestial AI avoid martial traditions which grant skill-heavy spheres, such as Alchemy or Scout).
+* //Simple (Ex)//: Bestial AIs can select only the following feats (unless they have a permanent Intelligence score of 3 or higher): Acrobatic, Agile Maneuvers, Armor Proficiency (light, medium, and heavy), Athletic, Blind-Fight, Combat Reflexes, Dodge, Great Fortitude, Improved Bull Rush, Improved Initiative, Martial Weapon Proficiency, Improved Overrun, Intimidating Prowess, Iron Will, Lightning Reflexes, Mobility, Power Attack, Run, Skill Focus, Spring Attack, Stealthy, Weapon Finesse, and Weapon Focus. Other feats may be appropriate, such as feats appropriate for an animal or animal companion, subject to GM discretion.
+* //Tasks (Ex)//: Bestial AIs have a limited number of tasks they know how to perform, similar to an animal performing tricks. Bestial AI can learn a maximum of 3 tasks per point of Intelligence, + 1 task per 2 gizmo levels they possess. The classification can be temporarily 'pushed' to perform a task they are not programmed to do if their creator succeeds at a proficiency check against the tasks' normal programming DC + 5 as a full-round action.
+* //Unskilled (Ex)//: Bestial AIs have the intelligence of a well-trained and clever animal; unless a Bestial has an Intelligence score of 3 or higher, they can only invest their skill ranks into their class skills.
+
+**Special**: A Tinker sphere practitioner may have two Bestial classification AI crafted at a time, as though they were a single AI for the purposes of their total number of crafted AI.
+
+**Drone (classification)**
+**Ability Scores** Int –, Wis 14, Cha 12; **Practitioner Modifier** Wis; **Skill Points per Hit Die** None; **Class Skills** None
+* //Routine//: The user gains a +2 insight bonus on all checks made to perform the aid another action; this bonus increases by +1 per 4 gizmo levels. Whenever the user (or AI) benefiting from this //routine// bonus would grant an aid another bonus, that bonus lasts until the beginning of the user’s next turn.
+* //Brute Force (Ex): Drone AIs gain a +1 bonus to all physical-based attack rolls, damage rolls, and skill checks (a physical-based check is Strength, Dexterity, or Constitution-based); this bonus increases by +1 per 5 gizmo levels.
+* //Mindless (Ex): Drone AIs lack an Intelligence score and gain no skill points or feats, nor can they benefit from any effect that grants Intelligence to mindless creatures (such as //awaken//). Drones can still understand their creator's language, but they cannot speak it. Drones will perform any actions they are tasked with without question or concern for their safety.
+* //Tasks (Ex): Drone AIs have a limited number of tasks they know how to perform, similar to an animal performing tricks. Drones can learn a maximum of 2 tasks, + 1 additional task for every 2 gizmo levels they possess. A Drone cannot be temporarily ‘pushed’ to perform a task they are not programmed to do.
+
+**Special**: A Tinker sphere practitioner may have two Drone classification AI crafted at a time, as though they were a single AI for the purposes of their total number of crafted AI. If a Drone classification AI ever gains an Intelligence score, it loses this special clause and is treated as a full, normal AI.
+
+**Guardian (classification)**
+**Ability Scores**: Int 12, Wis 14, Cha 12; **Practitioner Modifier**: Wis; **Skill Points per Hit Die**: 4 (increased to 5 due to Int); **Class Skills**: Acrobatics (Dex), Climb (Str), Escape Artist (Dex), Intimidate (Cha), (Int), Perception (Wis), Ride (Dex), Sense Motive (Wis), Stealth (Dex), Swim (Str)
+* //Routine//: The user gains a +1 insight bonus on Will saving throws and a +2 insight bonus to AC to avoid attacks of opportunity caused by moving out of or within a threatened area; each bonus increases by +1 per 4 gizmo levels.
+* //Martial Tradition (Ex)//: Guardian AIs gain a martial tradition; this martial tradition must grant the Guardian sphere.
+* //Emulated Loyalty (Ex)//: While within close range of another ally, the Guardian AI gains a +1 circumstance bonus to AC, CMD, and saving throws, increasing by +1 per 6 gizmo levels. This bonus increases by an additional +1 against any effect that would forcibly move, impair, or otherwise make the Guardian AI unable to protect its allies (such as, but not limited to, effects that forcibly move, prevent movement, prevent taking actions, slow, compel, etc.). This increased bonus also applies to any skill check or ability check to remove a movement-impairing effect (such as escaping from an //entangle// spell).
+* //Ward (Ex)//: Guardian AIs are proficient with all simple and martial weapons, light and medium armor, and all shields in addition to any proficiencies included with their martial tradition.
+
+**Mage (classification) (requires Magic Set)**
+**Ability Scores**: Int 14, Wis 14, Cha 14; **Practitioner Modifier**: Int, Wis, or Cha; **Skill Points per Hit Die**: 4 (increased to 6 due to Int); **Class Skills**: Diplomacy (Cha), Knowledge (all) (Int), Linguistics (Int), Profession (Wis), Sense Motive (Wis), Spellcraft (Int), Use Magic Device (Cha)
+* //Routine//: The user gains a +2 insight bonus on Spellcraft and Use Magic Device checks, as well as concentration checks; this bonus increases by +1 per 4 gizmo levels.
+* //Casting Tradition (Ex)//: Mage AIs gain a casting tradition of the crafter’s choice; this casting tradition includes the two free bonus talents a caster usually gains. Mage AI have a poor base attack bonus (equal to 1/2 their Hit Dice, rounded down). Mage AIs are considered a Low-Caster (caster level equal to 1/2 Hit Dice) and gain spell points equal to its Hit Dice plus its casting ability modifier. Mage AIs select 1 magic sphere; the Mage AI is considered a High-Caster in the chosen sphere (caster level equal to Hit Dice).
+* //Mage’s Assistant (Ex)//: A Mage AI can roll aid another to assist another caster with concentration checks; a Mage AI must generally ready an action to assist a caster this way.
+* //Mage’s Barrier (Ex)//: Whenever a Mage AI succeeds at a Knowledge (arcana) check against an ongoing spell effect or a Spellcraft check against a creature casting a spell, the Mage AI gains a +1 circumstance bonus to AC, CMD, and saving throws against that spell, increasing by +1 per 6 gizmo levels.
+
+**Pilot (classification)**
+**Ability Scores**: Int 12, Wis 14, Cha 12; **Practitioner Modifier**: Wis; **Skill Points per Hit Die**: 4 (increased to 5 due to Int); **Class Skills**: Acrobatics (Dex), Climb (Str), Fly (Dex), Knowledge (geography) (Int), Knowledge (nature) (Int), Perception (Wis), Profession (pilot) (Wis), Stealth (Dex), Swim (Str)
+* //Routine//: The user ignores up to 5 feet of non-magical difficult terrain each round (as if it were normal terrain) and gains a +2 insight bonus on Acrobatics, Climb, Fly, Profession (pilot), and Swim checks; each bonus increases by +1 per 4 gizmo levels.
+* //Martial Tradition (Ex)//: The Pilot AI gains a martial tradition; this martial tradition must grant the Athletics sphere or Beastmastery sphere (granting the (ride) package).
+* //Evasive (Ex)//: Pilot AIs gain evasion, allowing the AI, after attempting a successful Reflex saving throw against an attack that normally deals half damage on a successful save, to instead take no damage.
+* //Improved Positioning (Ex)//: The Pilot AI increases the bonus to attack rolls granted by flanking, high ground, and other battlefield positioning by +1, +1 per 10 gizmo levels.
+* //Nimble (Ex)//: Pilot AIs gain a circumstance bonus to all Acrobatics, Climb, Fly, Perception, Profession (pilot), Stealth, and Swim checks equal to 2 + 1/2 their gizmo level. The Pilot AI gains half this bonus again as a circumstance bonus to their AC to avoid attacks of opportunity caused by moving out of or within a threatened area (stacking with the Mobility feat and other similar bonuses).
+
+**Special - Piloting Non-Mechanoid Vehicles**: By GM discretion, a Pilot AI’s //routine// bonus may count as 2 crew members per gizmo level when operating a ship or other vehicle with a crew count (see Ultimate Combat’s vehicle rules for more). The ship must be of an appropriate technology level for an AI to interact with (subject to GM discretion, a character could craft a gizmo to allow the Pilot AI to crew and pilot the vehicle).
+
+**Socialite (classification)**
+**Ability Scores: Int 12, Wis 12, Cha 14; **Practitioner Modifier: Cha; **Skill Points per Hit Die: 4 (increased to 5 due to Int); **Class Skills: Bluff (Cha), Diplomacy (Cha), Disguise (Cha), Intimidate (Cha), Knowledge (local) (Int), Linguistics (Int), Perception (Wis), Perform (Cha), Sense Motive (Wis)
+* //Routine//: The user gains a +2 insight bonus to Bluff, Diplomacy, Intimidate, and Perform checks, +1 per 4 gizmo levels.
+* //Martial Tradition (Ex)//: Socialite AIs gain a martial tradition; this martial tradition must grant the Gladiator sphere or Warleader sphere.
+* //Smooth Operator (Ex)//: Socialite AIs may take 15 minutes to coach or otherwise prepare another creature for a social encounter. For 1 hour per 2 gizmos levels after being prepared by a Socialite AI, the creature may use the Socialite AI’s bonuses to Bluff, Diplomacy, Intimidate, and Perform in place of their own bonuses. If the creature’s bonuses would already be higher, treat this instead as having received a successful aid another attempt from the Socialite AI for all Bluff, Diplomacy, Intimidate, and Perform checks made during this period of time.
+* //Team Affinity (Ex)//: Socialite AIs can use the aid another action as a move action; this improves to a swift action at gizmo level 7. Whenever a Socialite AI uses the aid another action to improve another creature’s AC, attack rolls, or skill checks, the granted bonus improves by +1, +1 per 10 gizmo levels.
+
+**Soldier (classification)
+**Ability Scores: Int 12, Wis 12, Cha 14; **Practitioner Modifier: Charisma; **Skill Ranks per HD: 4 (increased to 5 due to Int); **Class Skills: Climb (Str), Craft (Int), Handle Animal (Cha), Intimidate (Cha), Knowledge (dungeoneering) (Int), Knowledge (local) (Int), Knowledge (nobility) (Int), Perception (Wis), Ride (Dex), Swim (Str)
+* //Routine//: The user gains a +1 insight bonus to Fortitude saves and a +2 insight bonus to Intimidate checks; each bonus increases by +1 per 4 gizmo levels.
+* //Martial Tradition (Ex)//: Soldier AIs gain a martial tradition.
+* //Combat Discretion (Ex)//: Soldier AIs gain a +1 insight bonus to attack and damage rolls, as well as 1 additional attack of opportunity per round, each increasing by +1 for every 4 gizmo levels.
+* //Equipment Savvy (Ex)//: Soldier AI gain 1 bonus Equipment sphere talent, +1 bonus Equipment sphere talent every 10 gizmo levels.
+* //Military Design (Ex)//: Soldier AIs are proficient with all simple and martial weapons, light and medium armor, and all shields in addition to any proficiencies included with their martial tradition.
+
++++ AI Tasks
+AI which have less than 3 Intelligence (normally Bestial or Drone AI) may learn tasks, similar to teaching an animal tricks with the Handle Animal skill. Sapient AI (3 or more Intelligence) do not need to be taught tasks and do not need to be commanded, but may have their actions overridden if its crafter commands it. At GM discretion, other tasks may be granted to an AI (either creating new tasks, borrowing Handle Animal tricks, etc.).
+
+Programming an AI to perform a task requires 30 minutes of work and succeeding at the listed associated skill DC. If an AI would be taught a task beyond its maximum, one of its existing tasks must be deleted first. Commanding an AI to perform a task normally requires a move action (or a swift action if you possess the Tinker sphere Mass Interface talent).
+
+**AI with Less Than 3 Intelligence**: For AI with an Intelligence score less than 3 (or mindless), such AI normally only takes commands from its creator, but may be instructed (as part of maintaining your gizmos) to take orders from other creatures as well. If such an AI is not told to perform a task, it does nothing and awaits a command. While engaged in a task, the AI will single mindedly pursue said task even if it means its own destruction.
+
+AI with an Intelligence score of 3 or greater can act independently, usually following their tasks or general designations from their creator (roughly defined on creation, i.e. a Guardian-classification AI would, without any orders or instructions, tend to defend their creator).
+
+While an AI can be programmed for any number of tasks, the AI still requires an appropriate host gizmo to perform that task. An AI installed in a immobile toaster cannot attack a bandit even if commanded to use the attack task.
+
+An AI can be taught a task from the following list, with other tasks available subject to GM discretion:
+
+**Aid (DC 15)**: The AI can perform the aid another action to aid yourself or an ally in combat against a specific foe. If the AI is trained in a skill, it can also use the aid another action with that skill to assist a specified individual.
+**Attack (DC 20)**: The AI will attack apparent enemies or obstacles. Specified foes or objects can be designated. The AI can be instructed to remain in melee with foes or try to remain at a distance and attack from a range. AI will focus on killing their target in the most straightforward manner using direct damage over any sort of combat tricks, or environmental maneuvers.
+**Come (DC 0)**: The AI will go to the targeted area and individual and can also be told to follow said target. This task can also be used to make an AI stand down from any other current task it is doing, by being told to simply stay in place. The AI may be commanded to stay in place completely still giving the impression it has been deactivated. This deception can be noticed with a successful DC 20 Perception check. Every AI knows this task automatically without counting towards the limited number of tasks they may know.
+**Deliver (DC 10)**: The AI will deliver a message, or an item, or a person (either by letting them ride on them or by escorting them) to a specified location or person. It can instead fetch a specified target instead of delivering one.
+**Free Self (DC 10)**: The AI will actively try to escape any bindings such as being in a cage or being tied up. The command can also be used to try to get the AI to knock off any of its current riders with an opposing Strength check.
+**Guard (DC 20)**: The AI will guard a target person or area. It can be made to guard the target so it cannot move freely or leave an area, or guard them to protect them from outside harm or injury.
+**Routine (DC 5)**: The AI will make function like a //routine for its owner until given the command to stop.
+**Maneuver (DC 25)**: The AI will engage in specified combat maneuvers, as well as demoralization and feinting. It can be commanded to use the environment in a specific way (such as push a foe off a cliff) or engage in more complex combat situations (such as prioritizing flanking a foe over other mobility options). This task may only be programmed if the AI already knows the attack task.
+**Rescue (DC 20)**: The AI will take a target out of danger. It can also be programmed to make specific creatures alert of the target's status, such as to attract medical aid to a being in need of assistance.
+**Retreat (DC 20)**: The AI will stop any attacks it is doing and retreat from the combat or dangerous scenario to a specified location or person. It will take any defensive actions required to protect itself, but not engage in any aggression itself.
+**Serve (DC 10)**: The AI can be programmed to take commands from other creatures as determined by the programmer, as well as serve as //routines// for them, as long as the AI can perform the task normally.
+**Speak (DC 15)**: The AI is programmed to engage in basic conversation. The conversation is primitive and is only the AI really responding with pre-programmed results. As an example; AI can flatter its master on their choice of attire, or demand that unauthorized personnel leave an area, but outside of a specific set of circumstances the AI has nothing to say, and will resort to error messages.
+**Subdue (DC 15)**: The AI is programmed to take down a target with nonlethal attacks. The AI must possess the attack task before being programmed with this one.
+**Track (DC 15)**: The AI tracks the tracks or scent presented to it. This requires the AI to be trained in Survival, or have the scent ability.
+**Use Gizmo (DC 10)**: The AI is programmed to use a single kind of gizmo. This can be its host gizmo, or a gizmo that it is capable of wielding with its host gizmo (such as a combined gizmo, or gizmo held by a //mechanoid// body). This task can be programmed multiple times for different gizmos. A //mechanoid// and any of its innate gizmos are treated as a single gizmo for this task.
+**Use Spell (DC 15)**: The AI is programmed to receive and use a specific spell (chosen at the time of programming), allowing it to fully take advantage of the spell’s effects. The spell should be one that grants the AI an ability it might not normally be intelligent enough to make use of or one that it might not even realize it has (such as //telepathy//). The AI is able to recognize when it has been affected by this spell and can take full advantage of the spell’s effects. At the GM’s discretion, an AI can also be programmed to receive certain non-spell effects, such as those granted by a //wand of fireballs//. The AI can be programmed for this task multiple times; each time it learns this task, it becomes trained to utilize a different spell effect.
+**Watch (DC 20)**: The AI can be told to keep watch over a specific area and sound an alert if unplanned activity or unauthorized personnel enter it. It can be instead programmed to seek out specific stimuli or people using whatever sensors it possesses.
+**Work (DC 10)**: The AI engages in basic menial labor or performs basic entertaining tricks or performances. If the AI has skill points in Craft, Perform, or Profession it will engage in said skills.
+
+++ Using AI
+Installing AI into Gizmos
+AI //routines// can be installed and transferred into gizmos the same as a normal //routine. An AI installed in its host gizmo is referred to, collectively, as an AI-hosted gizmo. Multiple AI can be installed in the same host gizmo, however, only one AI can control the host gizmo during a single round (see below for Multiple and/or Competing AI).
+
+**Installing AI into Combined Gizmos**: When installing an AI into a combined gizmo, the crafter may choose to install the AI into any number of the combined gizmo’s component gizmos (granting the AI access to the functions and abilities of each of those component gizmos). This may also be done as part of crafting a combined gizmo in such a way that an AI installed into it (at any point) may control any number of its combined parts.
+
++++ Installed AI Statistics
+When installed in a gizmo, an AI shares some of its statistics with the host gizmo, but relies on the host gizmo for many of its physical statistics. The rules presented here are for an ordinary gizmo hosting an AI (with additional stipulations for AI-hosted //mechanoid// below).
+
+**Hit Dice**: The AI-hosted gizmo is treated as having the same number of Hit Dice as the installed AI for effects that depend on Hit Dice, but uses its host gizmo’s hit points.
+**Senses**: The AI gains awareness of its host gizmo (its own health and structural integrity, the capabilities of its host gizmo, etc.) but does not gain any senses that the gizmo does not possess itself. An AI may benefit from senses its host gizmo would grant its user (such as an eye or ear //prosthetic) but otherwise does not gain senses or the ability to observe its surroundings without other abilities or effects. A common way to grant AI senses and capacity is to use the sensory gizmos granted by the Sensory Set talent (microphone, camera, etc.) to allow the AI to see, hear, smell, speak, etc. through those gizmos.
+
+An AI can communicate using its host gizmo, provided it possesses the display and input accommodation (displaying text on the screen) or a voice or other means of making sound (such as a playback device).
+**Saves**: The AI-hosted gizmo uses the AI’s Will saving throw and the host gizmo’s Fortitude and Reflex saving throws.
+**Defenses**: The AI-hosted gizmo uses the host gizmo's hit points, AC, and other physical defensive abilities (such as hardness), as well as weaknesses (such as a vulnerability to a specific type of damage).
+
+
+However, the AI-hosted gizmo still counts as an object for the purposes of effects that deal more damage to objects. An AI-hosted gizmo in the possession of another creature must be sundered, as though sundering the user.
+**Attacks**: AI-hosted gizmos may make attacks, but without senses or some means of movement, cannot articulate, manipulate, or position themselves. An AI-hosted firearm gizmo could theoretically fire itself, but could not orient, position, or reload itself unless the gizmo would normally be capable of such actions.
+**Ability Scores**: The AI-hosted gizmo does not possess a Strength or Dexterity score (treated as a score of “–”), and uses the AI’s Intelligence, Wisdom, and Charisma. The AI is not rendered unconscious or inhibited by lacking a Strength or Dexterity score and can use its housing gizmo to perform its normal functions (such as an AI controlling a conveyor belt could still operate that conveyor belt).
+**Skills and Feats**: The AI-hosted gizmo uses the AI’s skills and feats.
+**Gizmo Level**: The AI-hosted gizmo uses the host gizmo or AI’s gizmo level, whichever is lower, when determining any effect or statistic dependent on gizmo level (such as defenses, abilities, Tinker sphere DC, etc.).
+**Other**: The AI-hosted gizmo uses the AI’s alignment, initiative, languages and other such features.
+Installing AI into Mechanoids
+AI can be installed into //mechanoids// as though installing a //routine//. AI are able to easily control and pilot a //mechanoid// as though it were its own body (and treats that //mechanoid// as an attended object while controlling it). An AI installed into a //mechanoid// is referred to as an AI-controlled //mechanoid//.
+
+In addition to the changes for an AI-hosted gizmo, an AI-controlled //mechanoid’s// abilities and statistics function as follows:
+
+**Physical and Mental Statistics**: The AI-controlled //mechanoid// uses the Hit Dice of its host-gizmo //mechanoid// for its basic physical statistics (such as determining its physical ability scores, Fortitude and Reflex saving throws, movement speeds, etc.), and uses its AI statistics for any other effects (such as its base attack bonus, mental ability scores, Will saving throws, feats, mind-affecting effects, etc.). Mind-affecting and other targeted effects affect the AI controlling the //mechanoid//.
+**Proficiency**: The AI-controlled //mechanoid// retains the proficiencies (armor, weapon, etc.) of both the AI and the //mechanoid//.
+**Skills, Feats & Talents**: If a //mechanoid// possess its own skills, feats, talents, or other similar abilities, the AI-controlled mechanoid may use its //mechanoid// skill bonuses (if better) but may only use the feats and abilities of either the AI or the //mechanoid//, chosen at the start of the AI-controlled mechanoid’s turn. For example, the AI-controlled mechanoid could use its //mechanoid// bonuses to Acrobatics granted by its upgrades, but would need to choose whether it had access to its own talents or the //mechanoids// (if any).
+**Pilots**: An AI-controlled //mechanoid// is treated as the //mechanoid’s// pilot for effects and abilities, but may still be piloted as a normal //mechanoid. During any round the AI-controlled //mechanoid// is controlled by another creature (usually by piloting), the AI-controlled //mechanoid// cannot use any abilities or take actions which require the //mechanoid’s// body (physical actions, such as moving, attacking, etc.).
+
+If a //mechanoid// would be piloted or controlled against the controlling AI’s will (such as a competing pilot, a //control construct spell, etc.), the pilot must succeed at a proficiency check, taking a penalty to this check equal to 2 + the AI’s practitioner modifier.
+
++++ Using Installed AI
+AI-hosted gizmos can be used as a gizmo of its kind to perform any of its normal functions. An AI-hosted firearm gizmo may still be used as a weapon, and an AI-hosted //prosthetic// arm can be used by its user normally.
+
+**Gizmo Actions**: The AI-hosted gizmo can use any of its gizmo functionalities as if activated by a user. A //transmitter// may be used to send information, an auto injector may inject a potion into a user, a //detector’s// effects could be maintained or adjusted, but a firearm could not aim itself and could only fire blindly (or being incapable of orienting itself, even if it did have a means of sight). If a gizmo ability would provoke an attack of opportunity when used, the AI-hosted gizmo provokes an attack of opportunity (specifically allowing a creature to attack or sunder the gizmo, not its user); an AI-hosted gizmo struck this way has its action disrupted (losing that action). An AI otherwise has a full, normal set of actions (standard, move, swift, and so on), provided it has ways to use those actions.
+
+AI are able to use certain gizmos more freely (subject to GM discretion). If an AI’s host gizmo possesses Sensory Set sensory gizmos (camera, microphone, scent recorder), the AI may use those gizmos as though they possessed the appropriate sense or capacity. This may allow an AI to speak, hear, and see as though it possessed senses and use abilities which require these senses. Similarly, an AI installed in a //prosthetic could manipulate that //prosthetic// as though it were a rudimentary body.
+
+**Transferring AI**: An AI can be transferred to other gizmos, the same as transferring a normal //routine//. A host gizmo may only have a single controlling AI, although multiple AI may passively function as //routines// within the same host gizmo.
+
+**AI using Routines**: AI can use //routine// installed in their host gizmo as if they were the gizmo’s wielder.
+
+**Multiple and/or Competing AI**:
+* Cooperating AI: Multiple AI that are not competing for control (such as ones allied to one another) may “take turns” controlling their housing gizmo normally, provided they can cooperate, or otherwise support one another as passive routines. In essence, a single host gizmo with multiple AI cannot perform more than a “normal turn” of actions with the gizmo, but could potentially share or distribute actions being contributed to the gizmo.
+* Competing AI: If one or more AI would be activated to control the host gizmo that already has a controlling AI, and the controlling AI does not want to lose control of the host gizmo, each competing AI attempts an opposed gizmo penetration check (1d20 + its gizmo level); an AI with 4 or more gizmo levels than another competing AI gains an additional +4 to their check (compared to that AI). The AI with the highest result takes control of the host gizmo for that round, with a new opposed gizmo penetration check each round.
+
+If a competing AI has not been in control of the host gizmo for at least 3 rounds, it loses the ability to compete for control of the gizmo until the AI in control of the gizmo relinquishes control.
+
+**Already-Animated Host Bodies**: With the exception of //mechanoids//, an AI installed into a host gizmo that can already act as an independent creature due to another effect cannot be automatically controlled by an AI (such as an object made into a creature with an //awaken or //animate object spell effect). If an AI wants to control its host gizmo, it may attempt a gizmo penetration check against the animating effect’s magic skill defense (or other relevant statistic). On a successful check, the magical effect is suppressed and the AI takes control of the host gizmo. If the host gizmo is intelligent, it may attempt to reassert control (as though it were an activated, competing AI).
+
+++ Mechanoid
++++ Mechanoid Basics
+//Mechanoids// are a gizmo that function as a hybrid of rules between vehicles and construct creatures; unlike normal gizmos, //mechanoids// have their own hit points, AC, saving throws, and ability scores, and do not gain hardness. By default, //mechanoids// are mindless (lacking mental ability scores of their own) and cannot be awakened or modified as a normal construct (i.e. construct modifications, construct templates, etc.; unless otherwise specified).
+
+A Tinker sphere practitioner may craft any number of //mechanoids// provided that the total gizmo level of crafted //mechanoids// does not exceed your ranks in the associated skill. This limit may be increased by certain effects, such as the Tinker sphere Extra Automatons legendary talent. For example, a Tinker sphere practitioner with 10 ranks in the associated skill could have a single gizmo level 10 //mechanoid//, two gizmo level 5 //mechanoids, or any combination in between, so long as their total gizmo level does not exceed 10. If you exceed this limit, you must choose which //mechanoid// to abandon.
+
+//By Default//: A default //mechanoid can carry items like a simple barrel, container, or wagon could, before including upgrades to change its shape, appearance, and abilities. The crafter may choose to adjust the //mechanoid’s// appearance and “physical makeup” as the //mechanoid// gains abilities from its upgrades (such as where to place the arms, whether its able to stand upright or not, whether it is capable of motion, and so on).
+
+//Maintaining and Repairing Mechanoids//: //Mechanoids can be repaired by their crafter whenever their crafter maintains their gizmos, restoring a number of hit points equal to their ranks in their Tinker sphere associated skill + their practitioner modifier. //Mechanoids are destroyed when they reach 0 hit points (the same as a normal gizmo); //mechanoids can be repaired after being destroyed but require the crafter to maintain their gizmos for 4 times longer than normal (normally 1 or 2 hours, as 4 increments of 30 or 15 minutes). Repairing a destroyed //mechanoid this way restores it to 1 hit point (and must be repaired further as normal). An abandoned or destroyed //mechanoid can also be salvaged for project materials.
+
+Mechanoids are treated as gizmos for most effects and use their crafter’s practitioner modifier as their own practitioner modifier when determining the effects of their innate gadgets and other abilities (determined when crafted and may be adjusted whenever the crafter maintains their gizmos).
+
+++ Crafting a Mechanoid
+//Mechanoids are projects requiring 100 gp per gizmo level they possess. A crafted //mechanoid// may be modified to increase or decrease their current gizmo level, adjusting the //mechanoid’s// abilities as appropriate, up to a maximum of the creator’s ranks in the associated skill. Reducing a //mechanoid’s gizmo level refunds the crafter 100 gp in project materials per gizmo level reduced (which may be allocated to any other project, including a new //mechanoid//).
+
+**Other cost factors**: These cost factors affect the project cost of the mechanoid but does not alter the //mechanoid’s// gizmo level for any other purposes (such as when calculating many //mechanoids the crafter can maintain).
+* **Fewer Upgrades**: //Mechanoids// may optionally be constructed with fewer upgrades; treat the //mechanoid// as having 1 fewer gizmo level per uncrafted upgrade when determining its crafting cost (minimum gizmo level 1).
+* **Project Cost for Size**: //Mechanoids// are treated as possessing 2 additional gizmo levels for each size category the //mechanoid is larger or smaller than Medium when determining its crafting cost.
+
+**Table: Mechanoid Size**
+**Size**	**Str**	**Dex**	**AC/Attack**	**CMB/CMD**	**Space	**Natural Reach**	**Fly Skill**	**Stealth Skill**	**Weight**
+Fine	-8	+8	+8	-8	1/2 ft.	0 ft.	+8	+16	1/8th lbs.
+Diminutive	-6	+6	+4	-4	1 ft.	0 ft.	+6	+12	1 lb.
+Tiny	-4	+4	+2	-2	2 ft.	0 ft.	+4	+8	8 lbs.
+Small	-2	+2	+1	-1	5 ft.	5 ft.	+2	+4	40 lbs.
+Medium	+0	+0	+0	+0	5 ft.	5 ft.	+0	+0	200 lbs.
+Large	+2	-2	-1	+1	10 ft.	10 ft.	-2	-4	1 ton
+Huge	+4	-4	-2	+2	15 ft.	15 ft.	-4	-8	5 tons
+Gargantuan	+6	-6	-4	+4	20 ft.	20 ft.	-6	-12	25 tons
+Colossal	+8	-8	-8	+8	30 ft.	30 ft.	-8	-16	125 tons
+
++++ Mechanoid Statistics and Advancement
+//Mechanoids// statistics and abilities are based on their gizmo level (including Hit Dice, saving throws, etc.). A //mechanoid// cannot be crafted with a gizmo level greater than its creator's ranks in the associated skill. **Table: Mechanoid** determines the base statistics of a //mechanoid//.
+**Table: Mechanoid**
+**Skill Ranks (Gizmo Level)**	**Hit Dice**	**Base Saves**	**Natural Armor Bonus**	**Ability Bonus**	**Bonus Hit Points**	**Upgrades**	**Other**
+1	1d10	+0	+4	+0	+4	5	
+2	2d10	+0	+5	+1	+8	6	
+3	3d10	+1	+5	+2	+12	6	
+4	3d10	+1	+5	+2	+12	6	
+5	4d10	+1	+6	+2	+16	7	Ability score increase
+6	5d10	+1	+6	+3	+20	7	
+7	6d10	+2	+7	+4	+24	8	
+8	6d10	+2	+7	+4	+24	8	
+9	7d10	+2	+7	+4	+28	8	
+10	8d10	+2	+8	+5	+32	9	Ability score increase
+11	9d10	+3	+8	+6	+36	9	
+12	9d10	+3	+8	+6	+36	9	
+13	10d10	+3	+9	+6	+40	10	
+14	11d10	+3	+9	+7	+44	10	
+15	12d10	+4	+10	+8	+48	11	Ability score increase
+16	12d10	+4	+10	+8	+48	11	
+17	13d10	+4	+10	+8	+52	11	
+18	14d10	+4	+11	+9	+56	12	
+19	15d10	+5	+11	+10	+60	12	
+20	15d10	+5	+11	+10	+60	12	
+21	16d10	+5	+12	+10	+64	13	Ability score increase
+22	17d10	+5	+12	+11	+68	13	
+23	18d10	+6	+13	+12	+72	14	
+24	18d10	+6	+13	+12	+72	14	
+25	19d10	+6	+13	+12	+76	14	
+26	20d10	+6	+14	+13	+80	15	Ability score increase
+27	21d10	+7	+14	+14	+84	15	
+28	21d10	+7	+14	+14	+84	15	
+29	22d10	+7	+15	+14	+88	16	
+30	23d10	+7	+15	+15	+92	16	
+
+A //mechanoid’s// creature type is construct, gaining a construct’s normal traits (except where otherwise noted).
+
+**Skill Ranks (Gizmo Level)**: Your skill ranks in the associated skill determine the maximum gizmo level your crafted //mechanoid can possess. A //mechanoid’s gizmo level is equal to the number of associated skill ranks required to construct it (determined when crafted), and determines its other abilities.
+**Hit Dice**: This is the total number of 10-sided (d10) Hit Dice the //mechanoid possesses. As a construct, //mechanoids do not receive bonus hit points from their Constitution modifier. Generally, a //mechanoid's CR is equal to its Hit Dice - 2 for purposes that require it. An unpiloted //mechanoid has an effective CR of 0.
+**Base Saves**: This is the //mechanoid's base saving throw modifier for its Fortitude, Reflex, and Will saving throws. A //mechanoid has poor Fortitude, Reflex, and Will saves.
+**Natural Armor Bonus**: This is the //mechanoid’s base natural armor bonus of +4. This bonus improves +1 per 2 Hit Dice (effectively +1/2 per Hit Dice).
+**Ability Bonus**: The //mechanoid adds this bonus to both the //mechanoid’s Strength and Dexterity scores. This bonus improves +2 per 3 Hit Dice (effectively +2/3 per Hit Dice). The crafter may choose to decrease the granted bonus to one of the two scores by any increment of 2, increasing the other by +1 per increment (such as +6/+6 being adjusted to +2/+8).
+**Bonus Hit Points**: The //mechanoid gains +4 extra hit points per Hit Dice. They do not gain additional hit points based on size.
+**Upgrades**: The //mechanoid starts with 5 upgrades, +1 per 2 Hit Dice.
+**Ability Score Increase**: The //mechanoid adds +1 to one of its ability scores (limited to Strength and Dexterity, unless it gains other ability scores) as normal for advancement in Hit Dice.
+
+Mechanoid Base Form and Statistics
+//Mechanoids possess the following base form:
+**Size Medium; **Speed 0 ft.; **AC +4 natural armor; **Str 14, **Dex 14, **Con –, **Int –, **Wis –, **Cha –
+
+Mechanoid Ability Scores: A mechanoid, despite having the statistics of a creature, is an inanimate, mindless object. Any DCs or other statistics that rely on an ability score the //mechanoid does not have (marked as “–”) is treated as having a score of 10 (no bonus or penalty). //Mechanoids otherwise use the practitioner modifier granted to them by their crafter, determined when crafted. //Mechanoid statistics are generally altered while piloted.
+
+Mechanoid Base Chassis (Body, Limbs, Senses): By default a //mechanoid has a body, but has no senses (head, eyes, ears, nose, etc.) and no limbs (arms, legs). It is immobile, has no senses, and is not capable of manipulating objects. //Mechanoids lack magical item slots unless their form would accommodate them (such as a //mechanoid with legs could use magic boots, etc.).
+Mechanoid Upgrades
+A //mechanoid’s base form and statistics are modified by upgrades. Upgrades are selected and applied to the //mechanoid when it is first crafted. A //mechanoid’s upgrades can be changed whenever you maintain your gizmos (but only a single upgrade each time). Some Tinker sphere talents grant new upgrades for your //mechanoids which are marked with (upgrade).
+
+A //mechanoid can be crafted with up to 5 upgrades, +1 additional upgrade for every 2 Hit Dice. The upgrades it can select are listed below, however some other talents grant you other types of upgrades that can be granted to your //mechanoids. Unless otherwise stated, an upgrade can only be granted once. An upgrade does not count against the //mechanoid’s carrying capacity, but does increase the //mechanoid’s weight as applicable (such as the Energy Set’s portable plant upgrade).
+
+//Upgrade Gizmo Level and Innate Gizmos: An upgrade’s gizmo level is equal to the //mechanoid’s gizmo level. Upgrades are treated as gizmos for the purposes of effects that would target them (such as disabling one, repairing one, etc.), if it could be targeted at all. Most upgrades are inherent to the mechanoid’s statistics and a part of its body unless it provides a different “section” to the //mechanoid such as the storage upgrade (i.e. breaking the storage’s door/lid) and the majority of innate gizmos (weapons, armor, flashlights, gliders, and so on) that could be targeted. Targetable upgrades are determined by GM discretion. If an upgrade would be destroyed (including innate gizmos), the upgrade can be repaired or rebuilt whenever the crafter maintains their gizmos.
+
+A //mechanoid uses its crafter’s practitioner modifier when determining the effects of upgrades that would use a practitioner modifier (such as the //mechanoid’s gizmo DC, etc.).
+Default Mechanoid Upgrades
+A crafter gains access to new upgrades with Tinker sphere talents. By default, the following upgrades are available to anyone who can craft a //mechanoid:
+
+
+•	**Alternate Size (upgrade): The //mechanoid's base size is one size category larger or smaller than Medium. Changes due to size are detailed **Table: Mechanoid Size.
+•	**Aquatic (upgrade): The //mechanoid gains a means of independent aquatic propulsion (such as propellers, paddles, or a sail) and may automatically float on the surface of liquid. In addition, the //mechanoid gains a base swim speed of 40 feet, +20 feet per 5 gizmo levels (including the +8 racial bonus for gaining a swim speed). In addition, the //mechanoid gains 1 bonus skill rank in Swim for every Hit Die it possesses.
+
+Sidebar: Aquatic Vehicles and Tinker Traditions: If using the Tinker tradition rules (**Section 4.4: Gamemaster’s Toolkit, Tinker Traditions) and self-propelled aquatic vehicles do not fit the Tinker tradition, this upgrade may instead prevent the mechanoid from diving below water. If using sails, the swim speed may also be limited by the availability of sufficient wind in the correct direction (reducing the mechanoid’s swim speed as appropriate, minimum 5-feet).
+•	**Cover (upgrade) (requires passenger seats upgrade): The //mechanoid grants creatures in its passenger seats cover, instead of partial cover, against effects from outside of the //mechanoid.
+•	**Durability (upgrade): The //mechanoid gains an additional +2 hit points per gizmo level. This upgrade can be granted multiple times; each time this upgrade is selected after the first, the //mechanoid instead receives an additional +1 hit point per gizmo level.
+•	**Enclosure (upgrade) (requires cover, passenger seats upgrades): You improve the cover upgrade. An enclosure blocks line of effect and line of sight; the enclosure may optionally be transparent (instead of opaque), but no longer blocks line of sight if transparent. An enclosure is not airtight, so “cloud-like” effects (such as most spreads, fog effects, etc.) will still affect occupants within.
+
+An enclosure has 3 hit points per gizmo level; an enclosure benefits from any damage reduction or energy resistance the mechanoid possesses, but effects that would occur after the mechanoid is damaged do not occur if only attacking the enclosure (such as redirecting damage, “on-hit rider effects”, etc.). The enclosure’s AC, when targeted independently of the mechanoid, is the same as the mechanoid’s AC. Destroying the //mechanoid destroys its enclosure with it. Attacks directed at the enclosure, or targets within the enclosure, first deal damage to the enclosure (before passengers inside are harmed). If an attack is directed through the enclosure the target gains total concealment, and the attack first deals its damage to the enclosure itself. If an attack is enough to destroy the enclosure, the attack continues to its intended target, subtracting the damage dealt to the enclosure before striking the target(s). Burst effects (such as splash weapons, certain spells, etc.) explode at the enclosure’s edge and also must overcome the enclosure’s hit points before damaging targets inside the enclosure.
+
+Enclosures may optionally have a shutter (window, etc.); an open shutter grants line of sight into and out of the mechanoid. A shutter may be opened or closed as a move action. All enclosures have a latch, which is a door, hatch, or other means of entry. A latch may be opened and closed as a standard action, and while open grants line of effect into and out of the mechanoid.
+
+A latch may be forced open as a standard action; treat this as a grapple maneuver opposed by the //mechanoid's CMD. A successful check opens the latch (instead of grappling the creature). A latch may alternatively be opened with a successful Disable Device check as a standard action opposed by the //mechanoid's CMD.
+•	**Innate Augmentation (upgrade) (requires (augmentation) package): The //mechanoid is crafted with an //augmentation as an innate gizmo. The chosen //augmentation must be one you could craft. This upgrade may be granted more than once, each time granting an //augmentation to the //mechanoid.
+•	**Innate Modification (upgrade) (requires (modification) package): The //mechanoid is crafted with a //modification as an innate gizmo. The chosen //modification must be one you could craft. This upgrade may be granted more than once, each time granting an //modification to the //mechanoid.
+•	**Innate Prosthetic (upgrade): The //mechanoid is crafted with an innate //prosthetic of any kind you could craft. The //mechanoid treats a //prosthetic granted this way as a natural extension of the //mechanoid’s body (as though it had that body part naturally, and could use it normally). The crafter may modify an innate //prosthetic the same as they could modify a //prosthetic they craft normally. If you do not possess the (augmentation) package, you may only grant the following basic //prosthetic: arm (or pair of arms), head (granting sight, hearing, smell, and speech), or leg (or pair of legs) and cannot grant this //prosthetic a secondary function. See **Section 4.1: Mastering Gizmos, Natural Prosthetics for more information on these basic //prosthetic.
+
+Body parts and limbs granted this way, past the first //prosthetic of its kind, never grant the //mechanoid additional attacks (but may still be used to wield or threaten an attack of opportunity with a weapon, and so on) unless the crafter possesses the Advanced Prosthetics talent and could craft natural //prosthetics normally.
+•	**Passenger Seats (upgrade): The //mechanoid can carry a total number of Medium creatures equal to twice its size category (4 Medium creatures can fit inside a Large //mechanoid, 8 Medium creatures can fit inside a Huge //mechanoid, etc.), which is modified for their size category (Small counts as half a Medium, and Large counts as double a Medium). Creatures can mount or dismount the //mechanoid as a move action and gain partial cover while mounted. Any creature seated in the //mechanoid is referred to as a “passenger”.
+
+A single passenger seat can be designated as the pilot seat (the “pilot”; the pilot is still a passenger). A mechanoid that has a pilot seat may only be piloted manually from the pilot seat (or another appropriate control means, such as a remote control). A pilot must be able enter the pilot seat (appropriate size to mount the //mechanoid); passengers are not treated as being “mounted” for the purposes of mounted combat rules, although may considered as such subject to GM discretion (such as a bike ridden by a single character being a “mount”, whereas an armored personnel character with 16 orc assault troopers not being a “mount”).
+•	**Reins (upgrade): The //mechanoid is capable of being easily operated by another creature (“the muscle”) by pushing, pulling, carrying, etc. A creature must be at least 1 size smaller than the //mechanoid to be the muscle. The muscle may move the //mechanoid whenever they move and use their own movement speed. While the muscle is operating the //mechanoid, the muscle and //mechanoid occupy the same space, using the larger creature’s size to determine occupied squares.
+
+When actively piloted, the //mechanoid and its pilot are treated as being mounted, and the muscle is treated as the mount. The pilot may use the pilot’s Ride skill or the Tinker sphere associated skill to perform any relevant Ride checks. The muscle’s initiative, while operating the //mechanoid, is always equal to the //mechanoid’s pilot’s initiative.
+•	**Skillful Design (upgrade): The //mechanoid gains a circumstance bonus to two of the following skills: Acrobatics, Climb, Disable Device, Disguise, Escape Artist, Fly, Stealth, or Swim. This bonus is equal to 2 + 1 per 2 gizmo levels. This upgrade may be granted multiple times, each time choosing two skills not initially chosen.
+•	**Storage (upgrade): The //mechanoid has a storage compartment, such as a trunk, multiple closeable partitions, etc. This storage compartment is a space 1 size smaller than the //mechanoid and can fit objects inside the space accordingly. Objects stored this way count against the //mechanoid’s carrying capacity, as normal. The storage compartment can be opened or closed as a move action and may be locked (Disable Device DC equal to the //mechanoid’s CMD).
+•	**Wheels (upgrade): The mechanoid gains a set of wheel prosthetics (as per the Tinker sphere Movement Set talent); the crafter may optionally choose to make the //mechanoid quadrupedal (granting it 4 identical wheel //prosthetics as a single //prosthetic).
+Using Mechanoids
+A //mechanoid can ordinarily be piloted with exterior controls (such as wheels, levers, etc.), or with signals or AI. The crafter may choose to exclude piloting options when crafting or maintaining the //mechanoid (such as making a //mechanoid which could only be piloted with exterior controls, or one that could only be piloted by an AI). Certain Tinker sphere options may add new ways to pilot a //mechanoid (such as an immersive cockpit from the Transportation Mastery talent); the crafter chooses whether a //mechanoid they have crafted is able to be piloted using such a method.
+
+//Mechanoids are an unusual attempt to hybridize constructs, vehicles, and “everything in between” as a single concept. GMs should treat an activated, piloted //mechanoid as a creature (similar to an animated object or other construct), whereas an activated but unpiloted //mechanoid is similar to an idling vehicle or otherwise “inanimate” object.
+
+//Mechanoids cannot act, move, attack, or otherwise function on their own and must be given commands by their pilot. A //mechanoid’s controls (and how it is piloted) is determined when it is first crafted (or may be adjusted any time the crafter performs maintenance on their gizmos) - this determination is often cosmetic, unless choosing to not have manual controls (and relying on the ability to pilot the //mechanoid remotely) or similar.
+
+//Unpiloted Mechanoids: An unpiloted //mechanoid is treated as an attended (or unattended) gizmo and is otherwise interacted with as an object. A //mechanoid is still entitled to saving throws as a gizmo and, if activated, benefits from any passive defensive benefits it normally would (damage reduction, effects from innate personal field gizmos, etc.).
+Piloting Mechanoids
+Mechanoid Statistics While Piloted
+Mechanoid Base Attack Bonus: An unpiloted //mechanoid does not have a base attack bonus, as it is treated as an unattended gizmo. While piloted, the //mechanoid uses its pilot’s base attack bonus and the //mechanoid’s ability scores to determine its attack bonus, combat maneuver bonus (CMB), and combat maneuver defense (CMD) during any turn it is being piloted.
+
+Mechanoid Skill Bonuses: While piloted, the //mechanoid uses its pilot's ranks in any physical ability-based skill (Strength, Dexterity, or Constitution) and the //mechanoid’s relevant ability score to determine its skill bonus. If the //mechanoid would receive bonus skill ranks in a skill or possess a bonus when using a skill, such as from an upgrade, the pilot may choose to use the //mechanoid’s skill ranks (if higher) and benefits from the //mechanoid’s skill bonuses. A pilot’s bonuses to certain uses of a skill do not apply when performing that skill with a piloted //mechanoid (unless otherwise stated).
+
+Mechanoid Piloting and Senses: Unless granted independent senses, //mechanoids lack conventional senses and rely on their pilot's senses. If the pilot lacks a certain sense, the //mechanoid is treated as lacking it as well. If the //mechanoid takes its actions where the pilot cannot provide the appropriate sense (such as targeting a creature its pilot lacks line of sight to, or moving to a place its pilot cannot hear), it is treated as lacking that sense until the pilot can provide it (such as a //mechanoid attacking around a corner the pilot cannot see would be effectively blind when making that attack).
+
+A //mechanoid with an enclosure upgrade that blocks line of sight renders the pilot and passenger unable to see outside of the //mechanoid (and functionally blind). A //mechanoid may be granted the ability to share its senses with the pilot and passengers, such as with the Sensory Set sensory gizmos upgrade. Simply possessing senses (such as having a head) does not allow the //mechanoid to share its senses.
+
+Mechanoid Saving Throws: A piloted //mechanoid is an attended object of the pilot and, the same as a normal gizmo, either uses its own saving throw bonus or its pilot’s saving throw bonus (whichever is better) when it would be required to attempt a saving throw. An unpiloted //mechanoid is no different from an inanimate gizmo and does not receive saving throws except against effects that would directly harm the //mechanoid; if the //mechanoid could accommodate multiple creatures (such as having multiple passenger seats, etc.), the most recent creature to pilot the //mechanoid is considered to be attending the //mechanoid (until that passenger exits or leaves the //mechanoid).
+Actions in a Piloted Mechanoid
+Once activated, a //mechanoid can be piloted to perform its own set of actions. A creature adjacent to or riding the //mechanoid may pilot the //mechanoid by spending a standard or move action (if it possesses exterior controls) with a successful Profession (pilot) check or proficiency check. The //mechanoid’s crafter always succeeds at checks to pilot a //mechanoid they crafted. On a successful check, the //mechanoid is piloted and granted either a full action or partial action; a //mechanoid is treated as piloted by the piloting creature until the start of the pilot’s next turn (unless the pilot would be made unable to pilot the //mechanoid, such as being shoved off the //mechanoid, being stunned or otherwise prevented from taking actions, etc.).
+
+A //mechanoid cannot be piloted more than once per round (i.e., so long as the creator or another creature has piloted the //mechanoid that round, another creature cannot make actions with the //mechanoid unless the active pilot is prevented from controlling the //mechanoid).
+
+The pilot, as part of operating the //mechanoid cannot take certain reactions while actively piloting. If the pilot would use their immediate action, the //mechanoid cannot take an immediate action to respond to the same triggering action. If a creature provokes an attack of opportunity from the pilot (or the //mechanoid), the //mechanoid cannot take an attack of opportunity against that creature if the pilot chooses to make an attack of opportunity.
+
+**Full Action: Piloting a //mechanoid as a standard action grants it a full turn of actions (standard, move, swift, immediate, attacks of opportunity, etc.) that take place until the piloting creature's next turn. A //mechanoid cannot make attacks of opportunity outside of the turn it was activated (and as such do not possess a threatened area outside of their turn).
+
+**Partial Action: Piloting a //mechanoid as a move action grants it a single standard action. When piloted as a partial action, the //mechanoid cannot perform attacks of any kind, but otherwise can use its standard action normally (including using its standard action to move).
+Attacking with a Piloted Mechanoid
+The pilot determines all the actions taken by the //mechanoid. //Mechanoids apply their pilot’s feats, weapon proficiencies, and combat talents to attacks they make as if they were made by their pilot (and as such use their pilot’s practitioner modifier to determine combat sphere DCs and other abilities).
+
+Certain abilities do not grant their effects to the //mechanoid (subject to GM discretion), for example, a pilot could use the Power Attack feat to deal extra damage with a //mechanoid's weapons, but using the Combat Expertise feat would reduce his attack bonus, and grant the pilot the dodge bonus to AC and not the //mechanoid.
+Destroyed Mechanoids
+A destroyed //mechanoid provides no benefits to its pilot or passengers. Its upgrades, innate gizmos, and other properties immediately cease functioning. By GM discretion, a sufficiently large destroyed //mechanoid may be used as soft cover or cover (or be treated as a structure).
+Other Tinker Rules
+This section contains quick references and rules for certain detailed pieces and interactions of the Tinker sphere.
+Customizing Gizmos
+As a reminder, a Tinker practitioner is not required to use every Tinker talent they possess when crafting a gizmo, and may choose to include or exclude certain options at their discretion. A gizmo only has the abilities it is intentionally crafted with, and cannot be sabotaged (such as with Disable Device) to have abilities or the capacity for effects that were not intended. Any ability that allows a craft to do something (“can” or “may”) is optional when crafting and customizing the gizmo, including accommodations and other free or linear improvements.
+
+A primary example is whether a gizmo can receive signals. A gizmo intentionally crafted to be incapable of receiving signals cannot receive signals; this may be a decision of the crafter’s to prevent remote hacking at the cost of sending signals when the device would be hacked, and so on. A desktop computer without a Wi-Fi or bluetooth card cannot magically receive those signals, regardless of how hard a hacker might try.
+Detector Reference Tables
+This section includes the various tables that the (transmission) package //detectors use to sense and display information. Each table notes the talent and detector name the table belongs to.
+**Table: Mechanism Signature Strength
+**Gizmo Level	**Strength	**Lingering Signature Duration
+1-5	Weak	1d6 rounds
+6-11	Considerate	1d6 minutes
+12-20	Potent	1d6 x 10 minutes
+21+	Astounding	1d6 days
+
+**Talent: Base (transmission) package
+**Detector: Mechanism Sensor
+
+**Mechanism Signature Strength Notes: Mechanical items leave behind signs of their influence even after being removed from the area or being destroyed (such as gunpowder residue from a firearm, or lingering fuel particles from a used battery). In such a case, detection reveals a signature strength of diluted (even weaker than a weak signature). How long the signature lingers at this diluted level depends on its original power.
+
+**Craft DCs and Signature Strength: For non-sphere crafted items (mechanical items, alchemical items if using the alchemical sensor //detector, etc.), use the object’s Craft DC as the relevant skill check DC to identify the item; if the detected item has no Craft DC, the DC to identify the item is subject to DM discretion.
+**Table: Armament Signature Strength
+**Type	**Strength
+Unremarkable	Diluted
+Masterwork	Weak
+1-2 enchantment	Considerate
+3-4 enchantment	Potent
+5+ enchantment	Astounding
+
+**Talent: Detection Mastery
+**Detector: Armament Sensor
+
+**Note: The Craft DC to identify a detected object is equal to the detected object’s Craft DC. If there is no Craft DC associated with the detected object, treat the DC as 15 (or higher, subject to GM discretion).
+**Table: Creature Signature Strength
+**HD	**Strength
+1 or lower	Weak
+2-4	Considerate
+5-10	Potent
+11+	Astounding
+
+**Talent: Detection Mastery
+**Detector: Ecology Sensor
+**Table: Density Signature Strength
+**Density	**Example	**Signature Strength
+Ultra light	Balsa wood, feathers, shredded paper	Weak
+Light	Charcoal, cork, darkwood, flour, hay, snow	Considerate
+Dense	Flesh, iron, mithral, sand, soil, stone, water, wood	Potent
+Superdense	Adamantine, gold, lead, silver	Astounding
+
+**Talent: Excavation Set
+**Detector: Density Sensor
+**Table: Radiation Effects
+**Radiation Level	**Fort Save	**Primary Effect	**Secondary Effect
+None	–	–	–
+Low	13	1 Con drain	1 Str damage/day
+Medium	17	1d4 Con drain	1d4 Str damage/day
+High	22	2d4 Con drain	1d6 Str damage/day
+Severe	30	4d6 Con drain	2d6 Str damage/day
+
+**Talent: Radiation Set
+**Detector: Radiation Sensor
+
+The rules for radiation are reprinted for convenience from Pathfinder Campaign Setting: Technology Guide.
+
+Radiation is a poison effect, whose primary effect causes Constitution drain and secondary effect causes Strength damage.
+
+Radiation dangers are organized into four categories: low, medium, high, and severe.
+
+Primary Effect: Radiation initially deals Constitution drain unless the exposed character succeeds at a Fortitude saving throw. A new saving throw must be attempted to resist radiation’s initial damage each round a victim remains exposed to it.
+
+Secondary Effect: Secondary effects from radiation deal Strength damage at a much slower rate than most poisons. This secondary effect ends only after a character succeeds at two consecutive Fortitude saving throws to resist secondary radiation damage. If a character has Strength damage equal to his current Strength score, further damage dealt a secondary effect is instead Constitution damage.
+
+Removing Radiation Effects: All radiation damage is a poison effect, and as such it can be removed with any effect that neutralizes poison. Ability damage and drain caused by radiation damage can be healed normally.
+**Table: Relativistic Signals
+**Type	**Strength
+Equal to the relative variable	Equivalent
+-3 or less of the relative variable	Diluted
+-2 or less of the relative variable	Weak
++/- 1 of the relative variable	Considerate
++2 or more of the relative variable	Potent
++3 or more of the relative variable	Astounding
+
+**Talent: Detection Mastery
+**Detector: Relativistic Signals (any)
+**Table: Temperatures
+**Temp (C/F)	**Reference Point	**Temp (C/F)	**Reference Point
+-273.15 / -459.67	Absolute zero	38 / 100	Desert temperatures
+-30/-22	Arctic temperatures	100 / 212	Water boils
+0/32	Water freezes	230 / 450	Tin melts
+0/32	Creatures with cold subtype1	233 / 451	Flashpoint of paper
+10/40	Incorporeal undead1	500 / 930	Campfire
+20/70	Average room temperature	510 / 950	Creature with fire subtype1
+20/70	Corporeal undead1	620 / 1,150	Wood-fueled forge
+37/98	Average human temperature	1,500 / 2,750	Iron melts
+1 This is the temperature of an average creature of its type/subtype, and variance within said type/subtype is to be assumed.
+
+**Note: When using a heat sensor, GMs are encouraged to approximate an area’s temperatures. **Table: Temperatures provides average temperatures of common environments, locations, and creatures as suggestions and points of comparison.
+Innate Gizmos
+Some abilities may grant an “innate gizmo”, such as to a //mechanoid or a //prosthetic. Innate gizmos do not count against the crafter’s gizmo limit and are treated as though they were a gizmo the crafter crafted for all purposes (gaining any benefits or qualities that gizmo would have if the crafter made one normally).
+
+An innate gizmo is treated as being part of the “base” gizmo (the source of the innate gizmo, i.e. a //mechanoid or //prosthetic) and cannot be detached or removed from the base gizmo, nor can they be damaged separately from the base gizmo (unlike combined gizmos).
+
+The following are additional rules and clarifications for innate gizmos belonging to certain gizmo types:
+•	//Mechanoid: A //mechanoid is always treated as wielding all of their innate gizmos and may activate them regardless of their available limbs (although may be unable to if restrained, subject to GM discretion). Innate gizmos are treated as one of the //mechanoid’s upgrades for all purposes.
+•	//Prosthetic: An innate gizmo granted to a //prosthetic can be wielded and used by the user without additional hands, even if it would ordinarily require a hand. An innate gizmo does not grant the user extra attacks.
+Scavenging Gizmos
+Occasionally, a Tinker practitioner may come across gizmos crafted by other gizmo practitioners, who may be long gone. This can be a great way to introduce new Tinker traditions or provide unusual or lost technology.
+
+With a successful proficiency check (using the gizmo’s associated skill check), a Tinker practitioner can maintain a gizmo made by another crafter as though it were their own. A gizmo maintained this way cannot be altered or adjusted unless the crafter possesses the appropriate talents used to craft the gizmo, and their ranks in the associated skill equal or exceed the gizmo’s gizmo level; in effect, unless the Tinker practitioner could have built one themselves, they are only able to repair and maintain the gizmo in the state the crafter made it.
+
+Adjusting Scavenged Prosthetics: //Prosthetics can be adjusted for a new wearer, even if the tinker practitioner could not alter or adjust the //prosthetic normally, by succeeding at a proficiency check (using the //prosthetic’s associated skill check). For example, adjusting a //prosthetic arm designed for a massive draconid warrior to be worn by the human knight that bested it in combat.
+Sources of Mobility
+The Pathfinder core rules do not cover how a creature with multiple types of movements can use them during the same turn (or multiple sources of the same type of movement, such as two different base speeds granted by various sources.
+
+This book suggests the following, when considering the Tinker sphere granting numerous different movement modes of the same kind (such as treads for difficult terrain, wheels for flat surfaces, and so on):
+
+Multiple Movement Modes: You may gain or grant different kinds of mobility (such as legs, wheels, or treads), that each provide separate benefits if used as your primary method of mobility. Whenever you move, you decide which movement modes (of each kind) to use. If you use multiple movement modes of the same kind (i.e. a land speed with 20 feet (“A”) and a land speed of 30 feet “(B”)), you could move 15 feet using “A” and then the remaining 15 feet with “B”, but if you already moved 15 feet with “B”, could only move up to 5 feet with “A”.
+
+If you have multiple sources of legs, add all types of ‘legs’ together to determine if you are a quadruped for carrying capacity and bonuses against being tripped.
+
+[[/tab]]
+[[/tabview]]
+
+----
+
+[[include som-template]]
