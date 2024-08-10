@@ -140,7 +140,7 @@ Whenever the technician uses the Disable Device skill, he reduces the required t
 At 3rd level, a technician gains a +1 bonus on Reflex saves to avoid traps and a +1 dodge bonus to AC against attacks made by traps. In addition, he gains a +1 bonus on Perception checks to avoid being surprised by a foe. These bonuses increase by 1 every 3 technician levels thereafter (to a maximum of +6 at 18th level). This ability counts as trap sense for the purpose of any feat or class prerequisite. The bonuses gained from this ability stack with those gained from trap sense (from another class).
 
 ++ ##993300|Trap Insight (Ex)##
-At 3rd level the technician gains Heightened Awareness from the Scout sphere, whether or not he possess that sphere. If he already possess that talent, he may instead gain any one martial talent for which he qualifies.
+At 3rd level the technician gains Heightened Awareness from the Scout sphere, whether or not he possesses that sphere. If he already possesses that talent, he may instead gain any one martial talent for which he qualifies.
 
 ++ ##993300|Trapmaster (Ex)##
 At 7th level, all uses of the Disable Device skill have their required time decreased by 2 steps instead of 1.
@@ -225,12 +225,15 @@ In addition, he may create the following gadgets:
 ++++ Expert’s Insight
 The technician chooses a number of skills equal to his Intelligence modifier. He may take 10 on these skills, even when stress or other circumstances would normally impede him from doing so. A technician must be at least level 10 to select this insight. This insight may be gained multiple times, choosing additional skills each time.
 
+++++ Gadgeteer [SUE]
+The technician gains the Tinker sphere as a bonus talent. In addition, the technician’s gadgets class feature may use their ranks in their Tinker sphere associated skill instead of their technician class level to determine its effects.
+
 ++++ Golemsmith
 You gain the Craft Construct feat. You may use your ranks in any relevant Craft or Profession skills as your caster level with this feat and for the required check to create the construct, but you may only use it to create animated objects. These animated objects cannot possess the haunted drawback.
 
 If you have chemical insight, you may create any ‘alchemical’ constructs from official bestiaries, as well any construct so long as you give it the alchemical subtype.
 
-If you have electrical insight, you may create any ‘robot’ constructs from official bestiaries, as well any construct so long as you give it the robot subtype.
+If you have electric insight, you may create any ‘robot’ constructs from official bestiaries, as well any construct so long as you give it the robot subtype.
 
 If you have mechanical insight, you may create any ‘clockwork’ constructs from official bestiaries, as well any construct so long as you give it the clockwork subtype.
 
@@ -239,9 +242,11 @@ If you have steampowered insight, you may create any ‘steam’ constructs from
 If you possess the Craft Wondrous Items and Craft Magical Arms and Armor feats, these restrictions are lifted and you may craft any constructs you meet the prerequisites for. A technician must be at least level 8 and possess Greater Craftsman to gain this insight.
 
 ++++ Greater Craftsman
-The technitian may create permanent inventions. These inventions are still limited by the maximum number of improvements he is able to give them, but do not count against his usual maximum number of inventions. Just as with all inventions, permanent inventions still grant penalties to anyone other than the technician who uses them.
+The technician may create permanent inventions. These inventions are still limited by the maximum number of improvements he is able to give them, but do not count against his usual maximum number of inventions. Just as with all inventions, permanent inventions still grant penalties to anyone other than the technician who uses them.
 
 In addition to any other costs, a permanent invention costs 500 gp x (the technician’s level x the number of improvements) to create. Crafting a permanent invention uses the same time crafting rules as magic items, and just as with magic items, the technician may decrease his effective technician level when creating a permanent invention. However, an item must still have an effective technician level high enough for its total number of improvements (thus, an item must be constructed with a minimum technician level of 5 to gain 2 improvements, etc.). The technician must be at least level 6 to gain this insight.
+
+**Author's Note:** Greater Craftsman borrows from magic item crafting rules in many ways (except where it differs). Crafting a permanent invention does not require a Craft check (or similar check), however, you cannot (1) craft inventions with more improvements than you could with your normal inventions, (2) "bypass prerequisites" and add the effects or benefits of technician insights you do not possess.
 
 ++++ Gunpowder Insight
 The technician gains proficiency with all firearms (except siege weapons) and gains the Gunsmithing feat. If the technician already possesses these abilities via feats or martial talents, he may immediately retrain them.
@@ -308,6 +313,19 @@ A technician must possess the luck technical insight to gain this insight.
 ++++ Magic Craftsmanship
 The technician gains the Master Craftsman feat and either the Craft Wondrous Items or Craft Magical Arms and Armor feat (player’s choice). The technician may use his ranks in any relevant Craft or Profession skill as his caster level and when making checks with either feat, not just the skill selected with Master Craftsman. This insight may be gained twice. If gained a second time, the technician gains the feat not chosen the first time. The technician must be at least level 6 to gain this insight.
 
+++++ Mechanical Best Friends (Ex) [BTH]
+The technician gains either the Beastmastery sphere Animal Companion or Pet talent as a bonus talent, even if he does not possess the Beastmastery base sphere. The technician may use his ranks in Craft (mechanical) or Knowledge (engineering) in place of his base attack bonus when determining his effective druid level for the Animal Companion talent (not his base attack bonus -3) and his arcane caster level for the Pet talent. If the technician gains this technical insight a second time, he gains whichever talent he did not choose the first time (between Animal Companion and Pet).
+
+The technician can spend 8 hours creating a construct in the likeness of an animal companion or familiar, or modify their existing animal companion or familiar, to create a construct companion or familiar (hereby referred to as “construct pet”). A construct pet uses the appropriate animal companion or familiar’s base statistics and is otherwise treated as a normal animal companion or familiar, with the following exceptions:
+* **Type:** A construct pet’s type changes to construct and gains all the immunities and properties of the construct type (except immunity to mind-affecting effects).
+* **Properties:** The construct pet retains its Intelligence score (and skill points) and its base attack bonus and saving throws are unchanged, possessing a lower base attack bonus but higher saving throws than a normal construct of its Hit Dice. A construct pet has no Constitution score. Construct animal companions gain bonus hit points appropriate for a construct of its size. Construct familiars determine their statistics normally for a familiar, using their master’s statistics where appropriate after applying these changes. A construct pet cannot be awakened and cannot be modified as a normal construct can.
+* **Technician Synergy:** The technician can repair their construct pet as though it were an independent invention and does not need to spend money on raw materials to do so. Additionally, a construct pet is automatically trained and aware of how to use and activate the technician’s inventions as though it were the technician, and does not suffer penalties for using one.
+* **Still An Animal:** The technician’s construct pet is treated as an animal ally for the Beastmastery sphere, despite it being a construct, and the technician can use the Handle Animal skill on their construct pet normally for all purposes. When handling his construct pet, the technician may use his bonus in Craft (mechanical) or Knowledge (engineering) instead of his bonus in Handle Animal.
+
+If the technician’s animal companion or familiar would die, or their construct pet is destroyed, instead of finding a new animal companion or familiar, the technician can spend 8 hours either modifying the animal companion or familiar to become a construct pet or repairing their construct pet, returning it back to life.
+
+**Special:** If the technician gains the ability to add a subtype to an independent invention, he may give his construct pet one subtype (a construct pet cannot possess more than one subtype this way). The technician can add or change a subtype granted this way whenever he spends 8 hours repairing or building a construct pet.
+
 ++++ Mechanical Insight
 The technician unlocks special options for his inventions, as detailed under that section. He may also give his independent inventions the clockwork subtype by adding the following properties (a construct or independent invention cannot possess more than one subtype):
 * **Winding:** The construct must be wound with a special key in order to function. As a general rule, a fully wound clockwork can remain active for 1 day per HD, but shorter or longer durations are possible.
@@ -346,7 +364,7 @@ Inventions are usually improved versions of regular items, and can be made from 
 Because inventions are unwieldy objects, each invention also carries a penalty that anyone other than the technician suffers when trying to use an invention. Unless otherwise specified, an improvement may only be granted to an invention once.
 
 ++ ##993300|Grand Gadget##
-Rather than create an improved version of another object or an independent machine, it is possible for the technician to create a device that functions similarly to a gadget, but on a more permanent basis. A grand gadget is an object similar in size and structure to a light crossbow, meaning it suffers a -2 penalty to any attack rolls if wielded with only one hand, and is considered a crossbow for the purposes of drawing it, being considered armed while holding it, or integrating it with another invention. If the the technician possesses mechanical insight, he can craft smaller grand gadgets, about the size and structure of a hand crossbow, meaning they may be fired one handed without penalty and may be hidden with the Sleight of Hand skill. Anyone other than the technician suffers a -2 penalty to attack rolls or to the grand gadget’s save DCs per improvement when using it.
+Rather than create an improved version of another object or an independent machine, it is possible for the technician to create a device that functions similarly to a gadget, but on a more permanent basis. A grand gadget is an object similar in size and structure to a light crossbow, meaning it suffers a -2 penalty to any attack rolls if wielded with only one hand, and is considered a crossbow for the purposes of drawing it, being considered armed while holding it, or integrating it with another invention. If the technician possesses mechanical insight, he can craft smaller grand gadgets, about the size and structure of a hand crossbow, meaning they may be fired one handed without penalty and may be hidden with the Sleight of Hand skill. Anyone other than the technician suffers a -2 penalty to attack rolls or to the grand gadget’s save DCs per improvement when using it.
 
 **Prerequisites:** A grand gadget is not based on a pre-existing item, and therefore must be built out of other materials. A grand gadget costs 10 gp to create, and is considered to have a market price of 10 gp when calculating the cost of repairs.
 
@@ -364,8 +382,10 @@ Choose a gadget the technician can create. The grand gadget allows the wielder t
 
 **Note:** If the technician possesses mechanical insight, this improvement grants 4 uses instead of 3.
 
-++++ Laser (Requires Electrical Insight)
-With pressurized gas and an electrical array, the wielder can fire a short-range laser as a standard action, dealing 1d8 fire damage per technician level to a target. The laser has a range of close range (25 ft. +5 ft. per two levels), and requires a ranged touch attack to hit. This laser may be used 3 times per day. This improvement may be gained multiple times. Each time it is gained, increase the number of daily uses by 3. Note: If the technician possesses mechanical insight, this improvement grants 4 uses instead of 3.
+++++ Laser (Requires Electric Insight)
+With pressurized gas and an electrical array, the wielder can fire a short-range laser as a standard action, dealing 1d8 fire damage per technician level to a target. The laser has a range of close range (25 ft. +5 ft. per two levels), and requires a ranged touch attack to hit. This laser may be used 3 times per day. This improvement may be gained multiple times. Each time it is gained, increase the number of daily uses by 3.
+
+**Note:** If the technician possesses mechanical insight, this improvement grants 4 uses instead of 3.
 
 ++++ Machine Gun (Requires Steampower Insight)
 Through steam-powered centrifugal forces, the grand gadget can fire pellets in rapid succession to create a stream of death. As a standard action, the grand gadget deals 1d8 bludgeoning and piercing damage per 2 technician levels (minimum 1d8) to all creatures within a line that extends out to medium range (100 ft. +10 ft. per level). Creatures in this area of effect are allowed a Reflex save (DC 10 + 1/2 the technician’s level + his Int modifier) for half damage. This ability may be used 3 times per day. This improvement can be gained multiple times. Each time it is gained, the wielder may use this ability 3 additional times per day.
@@ -456,7 +476,7 @@ This improvement may be gained multiple times. Each time it is gained, the fly s
 ++++ Self-Supporting
 The backpack can hold x2 as much equipment as normal. This multiplier increases by 1 for every five technician levels possessed. In addition, the wearer gains a bonus equal to the technician’s level to their Strength score when determining their carrying capacity.
 
-++++ Transmitter (Requires Electrical Insight)
+++++ Transmitter (Requires Electric Insight)
 The improved backpack possesses a dish that serves as a central transmitter. The technician may create a number of small 1 lbs. metal boxes, to a maximum equal to his technician level. Any creature holding one of these boxes may speak into it and be heard by any other creature holding one of the boxes, provided these creatures are each within medium range (100 ft. +10 ft. per technician level) of the transmitter.
 
 This improvement can be gained twice. If taken a second time, the distance improves to long (400 ft. +40 ft. per level).
@@ -539,14 +559,14 @@ The time required to reload the crossbow is reduced by one step (I.e., full-roun
 As a swift or move action, the wielder may activate or deactivate an integrated current to super-heat the metal heads of the crossbow bolts. The crossbow deals an additional 1d4 fire damage. This counts as the flaming weapon special quality and does not stack with it. At 5th level and every four levels thereafter, this damage is increased by one die step (1d6, 1d8, 2d6, 3d6). If the integrated current is left on for more than 10 minutes at a time without taking at least 10 minutes to rest, the crossbow gains the broken condition and cannot use this current again until it is repaired.
 
 ++ ##993300|Improved Firearm##
-Anyone other than the technician himself suffers a -2 penalty to attack rolls when using an improved firearm.
+Anyone other than the technician himself suffers a -2 penalty to attack rolls per improvement when using an improved firearm.
 
 **Prerequisites:** The Gunsmith feat, any firearm.
 
 +++ ##993300|Improvements##
 
 ++++ Common Improvements
-The firearm may be given the Speed Lever, Far-Sight Scope, Integrated Shield, Integrated Weapon Powerful Load, or Pressurized Shot improvements, as described under the improved crossbow invention. The technician may treat a coat pistol as a hand crossbow for the purpose of the Integrated Weapon improvement.
+The firearm may be given the Speed Lever, Far-Sight Scope, Integrated Shield, Integrated Weapon, Powerful Load, or Pressurized Shot improvements, as described under the improved crossbow invention. The technician may treat a coat pistol as a hand crossbow for the purpose of the Integrated Weapon improvement.
 
 ++++ Enhanced Reliability
 The firearm’s misfire chance is reduced by 2. This improvement may be given to the firearm multiple times, but cannot improve the firearm’s misfire chance lower than 0.
@@ -602,7 +622,8 @@ Many improvements grant different lenses. Improved goggles can only have one len
 ++++ Microscope Lens
 This lens magnifies the wearer’s vision, letting him see in greater detail. The wearer cannot see further than 30 ft. away, but he gains a +1 circumstance bonus to Survival checks made to follow tracks, Appraise checks made to determine an item’s value, Craft checks made to create an item, and to all Disable Device checks. This bonus increases by +1 at 5th level and every four levels thereafter.
 
-**Mirrored Lens:** When this lens is active, it reflects and refracts the light in ways that subtly changes things. The wearer gains a +1 circumstance bonus on saves vs. gaze attacks and illusions, +1 at 5th level and every four levels thereafter (max +5 at Level 17), but suffers an equal penalty to all Perception checks.
+++++ Mirrored Lens
+When this lens is active, it reflects and refracts the light in ways that subtly changes things. The wearer gains a +1 circumstance bonus on saves vs. gaze attacks and illusions, +1 at 5th level and every four levels thereafter (max +5 at Level 17), but suffers an equal penalty to all Perception checks.
 
 **Note:** If the technician possesses mechanical insight, this bonus and penalty increase to become equal to 1/2 his technician level.
 
@@ -843,7 +864,7 @@ Catapults/trebuchets have a minimum firing distance; they cannot be used against
 || Colossal || 12d6 || 400 ft. (200 ft. minimum) || 4 || 50 gp || 
 
 ++++ Flamethrower
-If the technician possesses chemical insight, he may give the invention a flame thrower. This weapon deals 1d6 fire damage per technician level in a cone or line, but does not count as a weapon for the purpose of feats and talents, as other siege engines do:
+If the technician possesses chemical insight, he may give the invention a flamethrower. This weapon deals 1d6 fire damage per technician level in a cone or line, but does not count as a weapon for the purpose of feats and talents, as other siege engines do. Any creatures within the flamethrower's area of effect may make a Reflex save (DC 10 + 1/2 technician level + Intelligence modifier) to halve the damage.
 
 ||~ Size ||~ Range (cone) ||~ Range (line) ||~ Reload Time ||~ Cost per Shot || 
 || Fine || 5 ft. || 10 ft. || 2 || 5 gp || 
@@ -857,7 +878,7 @@ If the technician possesses chemical insight, he may give the invention a flame 
 || Colossal || 80 ft. || 160 ft. || 6 || 150 gp || 
 
 +++ ##993300|Vehicle##
-The invention is designed to carry creatures and cargo from one space to another. It can carry a total number of creatures equal to twice its size category (4 Medium creatures can fit inside a Large invention, 8 Medium creatures can fit inside a Huge invention, etc.), and is treated as a quadruped when determining its carrying capacity. A technician may choose to make the vehicle land, sea, or air-based: land vehicles begin with a speed of 40 ft., sea vehicles begin with a swim speed of 30 ft. (land base speed of 0 ft.), and air vehicles begin with the flight improvement (n0 land speed; a technician must possess steampower insight to create an air vehicle).
+The invention is designed to carry creatures and cargo from one space to another. It can carry a total number of creatures equal to twice its size category (4 Medium creatures can fit inside a Large invention, 8 Medium creatures can fit inside a Huge invention, etc.), and is treated as a quadruped when determining its carrying capacity. A technician may choose to make the vehicle land, sea, or air-based: land vehicles begin with a speed of 40 ft., sea vehicles begin with a swim speed of 30 ft. (land base speed of 0 ft.), and air vehicles begin with the flight improvement (no land speed; a technician must possess steampower insight to create an air vehicle).
 
 +++ ##993300|Improvements##
 
@@ -889,10 +910,10 @@ When the invention has been piloted for a round, the piloting creature may set t
 The invention must possess the siege engine form to gain this improvement. Once the invention has used its siege engine, the invention can spend a free action once per round instead of a move or standard action to reload the siege engine, and will automatically do so, even if not being piloted. If the invention possesses multiple siege engines, this improvement must be taken separately for each siege engine.
 
 ++++ Covered
-The invention must have either the vehicle form or the suit improvement to gain this improvement. This invention is designed to completely protect its passengers. All creatures inside of the invention gain total cover, but cannot interact or make attacks against anything outside the vehicle. Any creature within the vehicle may create an opening as a move action, reducing this bonus to improved cover (+8 to AC, +4 to Reflex saves), to allow him to still make attacks and interact with targets outside the vehicle. When making an attack in this fashion, targets outside the vehicle gain soft cover against attacks originating from inside the vehicle (+2 AC, +1 Reflex saves).
+The invention must have either the vehicle form or the suit improvement to gain this improvement. This invention is designed to completely protect its passengers. All creatures inside of the invention gain total cover, but cannot interact or make attacks against anything outside the vehicle. Any creature within the vehicle may create an opening as a move action, reducing this bonus to improved cover (+8 to AC, +4 to Reflex saves), to allow him to still make attacks and interact with targets outside the vehicle. When making an attack in this fashion, targets outside the vehicle gain partial cover against attacks originating from inside the vehicle (+2 AC, +1 Reflex saves).
 
 ++++ Electric Controls (Requires Electric Insight)
-The invention can be controlled from a distance via a small box, a tiny object weighing 1 lb. that the technician creates. Controlling the invention only requires a move action on the part of the pilot so long as they are holding this box, and the pilot can control the invention from anywhere within medium range (100 ft. +10 ft. per level). This does not stack with the mount or suit improvements.
+The invention can be controlled from a distance via a small box, a tiny object weighing 1 lb. that the technician creates. Controlling the invention only requires a move action on the part of the pilot so long as they are holding this box, and the pilot can control the invention from anywhere within medium range (100 ft. +10 ft. per level). This does not stack with the suit improvement.
 
 If this improvement is gained twice, the independent invention can act on its own without anyone needing to pilot it. It is considered a construct for all purposes such as controlling it or its interaction with magic, and gains a Wisdom and Charisma score of 1 and a base attack bonus equal to its Hit Dice. An autonomous invention acts on its own initiative and cannot benefit from another’s feats and talents.
 
@@ -919,9 +940,26 @@ The invention is designed to sit one creature (the pilot) who controls the inven
 It takes a full-round action to get into or out of the pilot’s seat. Once inside, the pilot can control the vehicle’s movements and actions as if he himself were the invention (moving the invention as a move action, attacking with a weapon it possesses as a standard action, etc.). If the invention possesses an appropriate weapon, the pilot may even make attacks of opportunity. The pilot may still perform actions not related to the invention (for example, throwing a detonator or other gadget), but doing so means the pilot cannot use that same action to control the invention.
 
 While in the pilot seat, the pilot and the independent invention are essentially a single creature, using the independent invention’s physical stats and the pilot’s mental stats. The pilot cannot be targeted by weapons or by magic that behaves like a weapon (for example, effects that require an attack roll or allow a Reflex save) until the independent invention is reduced to 0 hp, but otherwise is still susceptible to magical effects. A creature who successfully grapples the independent invention or climbs onto it using Scale Foe from the Athletics sphere may attack the pilot directly, or even move the pilot instead of the independent invention after a qualifying grapple check, removing the pilot from their seat.
+----
++ ##993300|Technician Alternate Class Features##
+**Tinker Specialist (Ex) [SUE]**: At 1st level, the technician gains the Tinker sphere as a bonus sphere.
+
+This ability alters trap specialist.
+
+**Battery Gadget (requires Tinker sphere) [SUE]**: The technician adds the following gadget to their list of options:
+The innovator may expend a gadget to create a temporary battery gizmo, which lasts for 10 minutes per technician level. The technician may attach this battery gizmo to a gizmo in their possession as part of expending a gadget. If this battery gizmo’s duration expires while being used to power another gizmo’s battery use ability, that battery use ability also ends.
+
+A battery gizmo created this way is treated as a gizmo the technician crafted, has a gizmo level equal to the technician’s class level, and does not count towards the technician’s gizmo limit.
+
+This ability alters gadgets.
 
 ----
 + ##993300|Archetypes##
+
+++ -[[[Adamantine Scientist]]]
+Adamantine Scientists are exceptionally good at punching their foes with augmented gloves.
+
+++ -[[[Innovator]]] [SUE]
 
 ++ -[[[Mad Scientist]]]
 Mad Scientists mix magic and mechanics to create magnificent monstrosities.
@@ -929,9 +967,73 @@ Mad Scientists mix magic and mechanics to create magnificent monstrosities.
 ++ -[[[Mythbreaker]]]
 Mythbreakers know that magic is often less mighty than it seems - and with the right tools, they can be dispelled more effectively.
 
+++ -[[[Rigger]]]
+Riggers excel at using the [[[Tech]]] sphere and jury-rigging devices together.
+
 ++ -[[[Suit Pilots]]]
 Suit pilots have one goal, and one goal only: Creating the best suit of powered armor they can.
 [[/div]]
+
+----
+
++ ##993300|Favored Class Bonuses##
+
+**Aasimar:** Increase the benefit of your danger sense class feature by +1/3.
+
+**Created:** Gain +1/8th of a new invention.
+
+**Dwarf:** Increase the range of your trap insight class feature by 1 foot.
+
+**Elf:** For every 4 times this favored class bonus is taken, your inventions count as possessing one fewer improvements when calculating the penalties other creatures suffers when using them.
+
+**Gnome:** Gain +1/8th of a new invention.
+
+**Goblin:** Gain 1/3rd of an additional gadget each day which can only be used as a detonator.
+
+**Halfling:** Add a +1/2 bonus to all Disable Device checks made to pick a lock or disarm or reset a trap.
+
+**Hobgoblin:** When you deal fire, cold, electricity, or acid damage with an invention, your invention ignores 1 point of resistance for that particular element.
+
+**Human:** Gain +1/6th of a technical insight.
+
+**Kobold:** Gain 1/6th of a Trap sphere talent.
+
+**Orc:** Gain +1 energy resistance to one kind of energy (+10 maximum per energy type).
+
+**Tatulani:** Gain +1/6th of a technical insight.
+
+**Tiefling:** Whenever you deal damage to a target within 30 ft. that is either flat-footed, that you are flanking, or that has lost its Dexterity bonus to ac, you deal an additional +1/2 damage to that target.
+
+----
+
++ ##993300|Class Equipment##
+
+++++ Gadget Guide [TS:WAT]
+**Aura** moderate Creation; **CL** 8th
+**Slot** none; **Price** 14,000 gp; **Weight** 2 lbs.
+
+This book contains detailed schematics for creating a specific invention. A creature with the inventions class feature can use these instructions to create an additional invention (that does not count against their normal limit) consisting of a base invention and one associated improvement, with the specific options chosen when this item is created. The creature following this guide must still meet any other prerequisites for creating the invention (including having any relevant insights), and cannot create any other inventions with the same base. For example, if a gadget guide teaches how to create an improved gloves invention with the webbing improvement, a creature following this guide cannot create any other glove inventions. A creature can only create an invention from one gadget guide at a time.
+
+**Construction Requirements**
+Craft Apparatus, Creation sphere, creator must have the inventions class feature; **Cost** 7,000 gp
+
+++++ Tinker’s Manual [TS:WAT]
+**Aura** strong Creation; **CL** 12th
+**Slot** none; **Price** 15,000 gp; **Weight** 8 lbs.
+
+This heavy tome is sometimes used as a reference for higher education, particularly in areas with extensive schooling opportunities. Despite being several hundred pages thick, every page is needed to detail the complex interactions of certain chemicals and materials. A creature with the technical insights class feature can study this manual to gain the benefits of one technical insight, chosen when this manual is written. They retain this knowledge for 24 hours, but can read this manual as part of their morning preparations to refresh their knowledge of the insight. Any existing options dependent on this insight (such as an invention using the mechanical insight) fail immediately if a creature loses access to the insight those options depend on. A creature cannot benefit from more than one of these manuals at a time, and studying a different manual erases their knowledge of the previous one.
+
+**Construction Requirements**
+Craft Apparatus, Creation sphere, creator must have the technical insights class feature, creator must know the technical insight added to this manual; **Cost** 7,500 gp
+
+++++ Trapspotter [TS:WAT]
+**Aura** weak Divination; **CL** 1st
+**Slot** eyes; **Price** 2,000 gp; **Weight** 1/8 lbs.
+
+This slender monocle hooks over one ear to stay in place without problems. As a standard action, a creature with the trapfinding ability can peer through this monocle to search for magical auras within 25 feet, and may continue looking for magical auras as long as they concentrate. This functions as the basic divine ability of the Divination sphere.
+
+**Construction Requirements**
+Craft Marvelous Item, Divination sphere; **Cost** 1,000 gp
 
 ----
 
