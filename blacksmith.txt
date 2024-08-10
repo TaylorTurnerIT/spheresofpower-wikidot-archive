@@ -10,7 +10,13 @@ color: #c40000;
 }
 [[/module]]
 
-[[div class="redtext"]]
+[[module CSS]]
+.colored-links span > a {
+  color: inherit;
+}
+[[/module]]
+
+[[div class="redtext" class="colored-links"]]
 
 [[module CSS]]
 .noselect {
@@ -38,6 +44,8 @@ $19.99
 Blacksmiths are craftsman who forge the tools they need by hand. Blacksmiths are masters of equipment, both in its use on the battlefield as well as destroying the tools of their foes. While not all blacksmiths will go adventuring, those who do find their allies are more than grateful to have someone on board who can help them make the most of the tools of their trade.
 
 **Starting Wealth:** 4d6 x 10 gp (average 140 gp). In addition, each character begins play with an outfit worth 10 gp or less.
+
+**Starting Age:** Trained
 
 **Role:** Blacksmiths support their party by crafting and maintaining potent weapons and armor, and wade into battle leveling powerful blows.
 
@@ -112,6 +120,11 @@ The blacksmith oils the joints and treats the leather of his and his allies’ g
 ++++ Sharpen Weapons
 The blacksmith and his allies gain a +2 bonus to all damage rolls made with manufactured weapons. This bonus increases by +2 at 5th level and every 5 levels thereafter.
 
+++++ Swarm Proofing
+^^**Source:** [https://www.drivethrurpg.com/product/284514/The-Highlanders-Handbook?affiliate_id=549120 The Highlander's Handbook]^^
+
+The blacksmith sews durable, yet flexible material into the gaps of the clothing and armor; all creatures affected by this maintenance gain DR 2/- against swarms of any size; at 5th level and every 5 levels thereafter the DR increases by 2.
+
 ++ ##993300|Thunderous Blows (Ex)##
 Starting at 1st level, the blacksmith becomes particularly adept at striking crafted creations in exactly the right place and manner to damage them most effectively. When the blacksmith makes an attack action or attack of opportunity, he deals an additional 1d6 damage if making a successful sunder attempt or if attacking a construct or object (including animated objects). This damage increases by 1d6 at 3rd level and every two levels thereafter. The blacksmith never provokes attacks of opportunity for attempting the sunder combat maneuver, and whenever the blacksmith chooses to destroy an item held or worn by a creature with a sunder attempt any excess damage is applied to the item’s wielder. The blacksmith counts as having the Improved Sunder feat for determining prerequisites.
 
@@ -125,6 +138,34 @@ Starting at 2nd level, the blacksmith may use Profession (blacksmith) in place o
 ++ ##993300|Smithing Insight (Ex)##
 The blacksmith’s expertise in crafting and maintaining weapons and equipment has given him a broader and deeper insight into the strengths and weaknesses of all kinds of equipment. Unless otherwise noted, a blacksmith cannot select an individual smithing insight more than once. At 2nd level and every 2 levels thereafter the blacksmith gains one smithing insight from the following list:
 
+++++ Alchemical Maintenance [Apoc]
+^^**Source:** [https://www.drivethrurpg.com/product/374214/Spheres-Apocrypha-Armor-Talents-2?affiliate_id=549120 Spheres Apocrypha: Armor Talents 2]^^
+
+You gain the Alchemy sphere for the (formulae) package and must select the Armor Maintenance Kit talent with the free (formulae) talent granted by that package.
+
+You may expend an armor maintenance kit when performing a maintenance to gain a unique benefit:
+
+**Polish:** You may expend a polish kit when performing the polish maintenance to allow the maintenance to be used one additional time per day per ray that could be deflected by the polish kit.
+
+**Lubrication:** You may expend a lubrication kit when applying the armor maintenance to apply the lubrication kit’s bonus to the armor maintenance.
+
+++++ Animal Grooming (Ex) [BTH]
+The blacksmith gains the Beastmastery sphere as a bonus talent.
+
+If the blacksmith possesses the maintenance class feature, by treating or grooming the ally as appropriate, the blacksmith can perform maintenance options on natural weapons, natural armor, and other body parts and appendages. Treat a creature’s natural weapons as manufactured weapons, natural armor as worn armor, and other body parts or appendages as the correct equipment when appropriate (such as a horse’s hooves as boots for the cobbling maintenance). If a maintenance would affect any number of manufactured weapons, it instead affects up to two of the ally’s natural weapons. Maintenance performed on an ally this way can take the form of grooming or pet care, such as cleaning and mending horseshoes, filing fangs and claws, or buffing and waxing shells to apply chosen maintenance options.
+
+When performing maintenance, the blacksmith can perform maintenance for one subordinate that does not count against the normal maximum number of allies he can perform maintenance for.
+
+**Special:** If the blacksmith possesses an archetype which alters or replaces the maintenance class feature with a similar ability that grants a number of allies long-term benefits (subject to GM discretion), the blacksmith can include one subordinate to receive benefits that does not count against the normal maximum number of allies he can grant benefits to (such as reserving table scraps to feed a pet wolf a meal or making a small mochaccino for a turtle familiar).
+
+++++ Armorclad Mastery [Conq. HB]
+The blacksmith learns to fight and maneuver in his armor better. While wearing armor, the blacksmith reduces the armor check penalty by 1 (to a minimum of 0) and increases the maximum Dexterity bonus allowed by his armor by 1. The blacksmith also learns to move at his normal speed when wearing medium armor. This counts as the fighter’s armor training class feature.
+
+In addition, the blacksmith gains an armor mastery feat (Armor Master’s Handbook pg. 16). The blacksmith must still meet all other prerequisites, but treats his blacksmith level as his fighter level when qualifying for armor mastery feats. The blacksmith must be at least 4th level to learn this insight. He may select this insight again at 8th and 16th level. If he does, the blacksmith increases his armor training benefits by 1 and gains a new armor mastery feat. When the blacksmith gains this insight a second time, he learns to move at his normal speed when wearing heavy armor.
+
+++++ Crafting Competence [Apoc]
+The blacksmith chooses one Craft skill. He gains a competence bonus to that Craft skill equal to his blacksmith level. He may select this talent multiple times, each time choosing a new Craft skill.
+
 ++++ Double-Edged Sword
 Whenever the blacksmith uses the sunder combat maneuver or a similar ability while using the attack action to cause a creature’s wielded weapon to gain the broken condition, he can damage the weapon in such a way that any attempt to make an attack with it inflicts 1d6 damage against the wielder, +1d6 per 5 class levels the blacksmith possesses. Repairing the equipment so that it no longer has the broken condition removes this effect.
 
@@ -133,6 +174,9 @@ The blacksmith’s time working over an anvil has forged not only weapons and ar
 
 ++++ Economic Crafting
 The blacksmith learns to craft with virtually no material waste. The raw material cost to create a non-magical item is reduced from 1/3rd the market price to 1/4, and all magical items and equipment have their raw material cost reduced by 10%.
+
+++++ Expanded Crafting [Apoc]
+The blacksmith gains one item crafting feat he meets the prerequisites for as a bonus feat. He may take this feat multiple times, each time gaining another item crafting feat he meets the prerequisites for.
 
 ++++ Gunsmith
 The blacksmith gains proficiency with all firearms, gains the Gunsmithing feat as a bonus feat, and may make sunder attempts at range when using a firearm, using his Dexterity in place of his Strength modifier when determining his combat maneuver bonus.
@@ -149,8 +193,16 @@ The blacksmith’s time spent working over a scorching forge has inured him to t
 ++++ Hobbling Strikes
 Whenever the blacksmith successfully deals damage to a creature’s armor with the sunder combat maneuver or a similar ability while using the attack action, the creature’s base speed is lowered by 5 ft. + 5 ft. per 5 class levels the blacksmith possesses; this ability cannot lower a target’s speed below 5 ft. Restoring at least 1 hit point to the damaged armor removes this effect.
 
+++++ Maker’s Know How [Conq. HB]
+Years of training and study made the blacksmith realize all items are fundamentally the same, granting him insight into the inner workings of magic items. The blacksmith chooses either Profession (blacksmith) or any one Craft skill. The blacksmith may use the chosen skill’s bonus in place of his Use Magic Device skill bonus.
+
 ++++ Master Shieldsmith (Requires Shieldsmith)
-The blacksmith’s shieldcraft has reached its pinnacle, allowing him to craft shields whose intricate details are too refined for anyone but him to truly master. The blacksmith does not lose his shield bonus to AC when attacking with a weapon wielded with his shield arm, and does not take two-weapon fighting penalties for his off-hand attacks when using a shield bash as one of his weapons when two-weapon fighting.
+The blacksmith’s shieldcraft has reached its pinnacle, allowing him to craft shields whose intricate details are too refined for anyone but him to truly master. The blacksmith does not lose his shield bonus to AC when attacking with a weapon wielded with his shield arm, and does not take two-weapon fighting penalties for his off-hand attacks when using a shield bash as one of his weapons when two-weapon fighting. This also negates the penalties from the Dual Wielding sphere.
+
+++++ Painful Shred [Apoc]
+^^**Source:** [https://www.drivethrurpg.com/product/374214/Spheres-Apocrypha-Armor-Talents-2?affiliate_id=549120 Spheres Apocrypha: Armor Talents 2]^^
+
+For a number of rounds equal to 1/2 the blacksmith's level after giving a creature’s armor the broken condition or reducing a creature’s natural armor bonus to 0, the creature is battered and takes an amount of damage equal to the 1/2 the blacksmith’s level + the blacksmith’s practitioner modifier whenever it moves more than 5 feet. This damage is of the same type as the weapon the blacksmith used to sunder the armor or natural armor and bypasses damage reduction in the same way.
 
 ++++ Penetrating Blows
 The blacksmith’s time spent pounding iron and steel has translated into an ability to strike with such force that the impact of his blows punches through his opponent’s defenses with ease. The blacksmith ignores 2 points of damage reduction his target possesses when attacking with a melee weapon using the attack action, plus an additional point at 5th level and every 5 levels thereafter.
@@ -158,14 +210,19 @@ The blacksmith’s time spent pounding iron and steel has translated into an abi
 ++++ Practiced Power
 Regardless of his actual physical might, the blacksmith’s time working at a forge has enabled him to strike with power beyond what his frame should allow. The blacksmith gains a +1 competence bonus to his combat maneuver bonus and damage rolls made with hammers when using an attack action to sunder, plus an additional +1 at 5th level and every 5 levels thereafter.
 
+++++ Rune-Charged Maintenance [Conq. HB]
+The blacksmith gains the ability to inscribe divine runewords and symbols onto equipment when performing maintenance, bestowing power to equipment. He learns two runes from the forgemaster^^ARG^^ cleric’s runeforger ability, treating his blacksmith level as his cleric level when determining the effects of runes, and may choose to apply one rune as a maintenance. The duration of a rune applied as a maintenance is the same as a regular maintenance, lasting 24 hours or until their next 8 hour or longer rest, whichever comes first. The blacksmith must still meet any level prerequisites to apply a rune with maintenance. Unlike other maintenance options, runes are supernatural and are suppressed by antimagic fields or other similar effects, and may be removed by an erase spell or other similar effect. Equipment inscribed with runes by the blacksmith bear symbols of the blacksmith’s faith or ideology. At 8th level, the blacksmith can apply two runes as part of the same maintenance.
+
+The blacksmith may take this insight multiple times, each time learning two new runes.
+
 ++++ Satisfying Crunch
 Whenever the blacksmith destroys or inflicts the broken condition on a weapon, item, or other piece of equipment with a sunder attempt, he gains a +2 morale bonus to attack rolls, and to combat maneuver checks made to perform a sunder, until the end of his next turn and may regain his martial focus as an immediate action. For every 6 class levels the blacksmith possesses, this morale bonus increases by an additional +1.
 
-++++ Siegesmith
-The blacksmith’s skill and knowledge of engineering make him particularly good at working on siege equipment. The blacksmith becomes proficient with all siege engines, lowers the costs to craft, enchant, or repair them by 25%, and no longer needs to pay any additional cost to craft a siege engine of masterwork quality (this reduction stacks with that granted by the economic crafting insight). In addition, the blacksmith gains a +2 bonus to Disable Device checks made to disable a siege engine and decreases the amount of time necessary to disable a siege engine by one round (minimum 1); at 5th level and every five levels thereafter the bonus to Disable Device checks increases by +2 and the number of rounds necessary to disable a siege engine decreases by an additional one round.
-
 ++++ Shieldsmith
 The blacksmith learns how to position the straps and clasps on a shield in such a way that he can wield it without hampering the use of an arm; the blacksmith may wear a light or heavy shield as a buckler, and does not suffer a penalty to attack rolls when using his shield arm to wield a weapon or when using a tower shield.
+
+++++ Siegesmith
+The blacksmith’s skill and knowledge of engineering make him particularly good at working on siege equipment. The blacksmith becomes proficient with all siege engines, lowers the costs to craft, enchant, or repair them by 25%, and no longer needs to pay any additional cost to craft a siege engine of masterwork quality (this reduction stacks with that granted by the economic crafting insight). In addition, the blacksmith gains a +2 bonus to Disable Device checks made to disable a siege engine and decreases the amount of time necessary to disable a siege engine by one round (minimum 1); at 5th level and every five levels thereafter the bonus to Disable Device checks increases by +2 and the number of rounds necessary to disable a siege engine decreases by an additional one round.
 
 ++++ Stunning Strikes
 The blacksmith’s time at the forge has taught him how to put every iota of his mighty frame into each swing of his weapon, resulting in truly devastating attacks. When the blacksmith successfully deals damage to a creature with a bludgeoning melee weapon while using the attack action, the creature must succeed on a Fortitude saving throw (DC 10 + 1/2 the blacksmith’s class level + his Constitution modifier) or be stunned for 1 round. The blacksmith must be at least 12th level to learn this insight. Regardless of whether a creature passes or fails its save against this effect, it cannot be affected by this ability again for 1d4 rounds.
@@ -176,13 +233,24 @@ Whenever the blacksmith uses the sunder combat maneuver or a similar ability whi
 ++++ Toolsmith
 The blacksmith’s training and practice with tools increases the bonus he gets from using masterwork tool kits, such as a set of masterwork thieves’ tools; the circumstance bonus granted to the blacksmith by such masterwork tools increases by +2, plus an additional +2 at 5th level and every 5 levels thereafter (so a 5th level blacksmith using a set of masterwork thieves’ tools would receive a +6 circumstance bonus on associated checks).
 
+++++ Toymaker (Ex) [BaP]
+The blacksmith gains a familiar, as the wizard’s arcane bond option, using his blacksmith levels as wizard levels for this purpose, as well as Object Familiar (Ultimate Spheres of Power pg. 481) as a bonus feat, even if he does not meet the prerequisites.
+
+The blacksmith must select a Tiny animated object in place of a normal creature whenever he could select a familiar, and the familiar gains a toy-like appearance. The blacksmith can choose any special ability a normal familiar could grant its master (such as a fox’s +2 bonus on Reflex saves or a cat’s +3 bonus on Stealth checks) and gains that bonus as though his animated object familiar were a familiar of that kind.
+
+The blacksmith may use his reforge ability on his familiar, spending 1 hour to change its appearance, so long as it retains a toy-like appearance. When he does this, the blacksmith may reselect the special ability his animated object grants him as a familiar.
+
 ++ ##993300|Artisan Savant##
 Starting at 3rd level, the blacksmith becomes proficient in creating powerful magic equipment, treating his class level as his caster level for crafting feats and abilities and using the appropriate Craft skill (weapons, armor, bows, etc.) for the check to complete the item. In addition, the blacksmith gains Craft Wondrous Item as a bonus feat at 3rd level, and Craft Magic Arms and Armor at 5th level.
+
+**Note:** If using Spheres of Power, you may exchange these feats for Craft Marvelous Items and Smith Magical Weapons And Armor, respectively.
 
 ++ ##993300|Reforge (Ex)##
 From 3rd level on, the blacksmith’s experience with crafting excellent equipment allows him to manipulate and rework magical equipment without damaging or sacrificing its magical potency. The blacksmith can spend 1 hour per total effective bonus (minimum 1 hour) of an enchanted armor, weapon, or shield (enhancement bonus plus permanent special ability bonus equivalents) at an operational forge to reforge the equipment into another equivalent item at no additional cost; weapons into weapons of another type, armor into a separate type of armor, and shields into weapons, armor, or other types of shields; a heavy shield can be converted into a light shield or vice versa, and a tower shield can be converted into any other type of shield, but bucklers, light shields and heavy shields cannot be converted into tower shields. When reforging, the blacksmith cannot exchange one piece of equipment for another that is not predominantly made out of the same dominant material; a greatclub can be reforged into a quarterstaff or spear, but not into a bastard sword, and a suit of platemail could be reforged into a breastplate or chain shirt, but not into a suit of leather armor. The new weapon or armor must be the same size or smaller as the original.
 
 In addition, the blacksmith can restore a magic weapon, armor, or shield that has been destroyed by a sunder attack or similar ability; if the blacksmith can acquire all the broken pieces of the equipment, he may restore it to its original complete condition, including all enchantments, with 8 hours of work at an operational forge.
+
+**Author's Note:** Reforge allows a blacksmith to change the type of item (i.e. longsword to greatsword, armor to armor, etc.). Reforge cannot alter the item's special abilities (i.e. you cannot change flaming to frost, etc.). When reforging an item with a special ability that can only be placed on specific categories of items (i.e. keen for weapons, mind-buttressing on armors), changing that item's form does not allow that special ability to apply to an "invalid" item (i.e. a bludgeoning weapon cannot benefit from keen, light armor cannot benefit from mind-buttressing). The resulting reforged item would retain the special ability, but would not grant that special ability's effects (effectively being "dormant").
 
 ++ ##993300|Rapid Maintenance (Ex)##
 The blacksmith’s skill at performing maintenance improves and he may now perform multiple maintenances at once. At 9th, 13th, and 17th level, the blacksmith may perform 1 additional maintenance during an 8 hour rest (for a total of 4 maintenances per affected creature at 17th level).
@@ -190,14 +258,118 @@ The blacksmith’s skill at performing maintenance improves and he may now perfo
 ++ ##993300|Smith’s Masterpiece##
 At 20th level the blacksmith reaches the pinnacle of his craft. Throughout his career, the blacksmith has collected and hoarded special materials, crafting secrets, and scraps of ancient rituals, all in preparation for his ultimate life’s work. The blacksmith crafts a single magic armor, weapon, or shield of his choice, imbuing it with power beyond what any normal piece of equipment can contain. The crafted item has a +5 enhancement bonus, and the smith may choose up to +8 effective enhancement bonus’ worth of special abilities to apply to this piece of equipment; once chosen, these enhancements cannot be changed. This ability supersedes the normal restriction preventing equipment from exceeding a total enhancement bonus of +10 including class abilities. As long as the blacksmith and his masterpiece are on the same plane, the blacksmith can recall the masterpiece to himself with 1 minute of concentration, even if it is currently in another creature’s possession.
 ----
++ ##993300|Blacksmith Alternate Class Features##
+**Skilled Tinkerer (Ex) [SUE]**: At 2nd level, any of the blacksmith class abilities that use Profession (blacksmith) instead use the blacksmith’s Tinker sphere associated skill (including blacksmith smithing insights, favored class bonuses, etc.).
+
+This ability alters skilled craftsman.
+
+**Special**: The blacksmith may choose to retrain the skilled craftsman ability into this ability immediately upon first gaining the Tinker sphere.
+
+----
 + ##993300|Archetypes##
 
-++ -[[[Iron Chef]]]
+++ -##00c000|[[[Artificer]]]## [LotS, CS]
+Artificers specialize in crafting specific types of items.
+
+++ -##993300|[[[Barista]]]## [Apoc]
+Baristas specialize in brewing drinks for their allies.
+
+++ -##993300|[[[Disciple of Goibniu]]]##
+Disciples of Goibniu are more familiar with fey and the natural world.
+
+++ -##00c000|[[[Essence Smith]]]## [Apoc, CS]
+The Essence Smith is a Champion who specializes in forging magical items.
+
+++ -##993300|[[[Fleshforger]]]##
+...This one's probably self-explanatory.
+
+++ -##993300|[[[Iron Chef]]]##
 Iron Chefs are experts at creating food and providing a variety of effects to those who eat their meals.
 
-++ -[[[Techsmith]]]
+++ -##993300|[[[Master-At-Arms]]]## [3PP]
+The master-at-arms specializes in training and equipping their allies.
+
+++ -##00c000|[[[Peltmonger]]]## [LotS, CS]
+Peltmongers focus on equipment whose components came from living creatures.
+
+++ -##00c000|[[[Spellforge]]]## [CS]
+Spellforges are blacksmiths who specialize in [[[Creation]]] magic.
+
+++ -##993300|[[[Techsmith]]]##
 Techsmiths focus more on mechanical tools than magical ones.
 [[/div]]
+
+----
+
++ ##993300|Favored Class Bonuses##
+
+**Aasimar:** Weapons you craft deal +1/4 points of damage to evil creatures when you wield them.
+
+**Cherufe:** Add +1/2 point of fire damage to thunderous blows.
+
+**Created:** Gain +1/8 of a creation point.
+
+**Dwarf:** Gain +1/8 of a blacksmith insight.
+
+**Elf:** Gain a +1/2 bonus on all Craft or Profession (blacksmith) checks made to craft any weapon from Elven Heritage of the Equipment sphere.
+
+**Gnome:** Gain +1/6 of an item creation feat.
+
+**Goblin:** Increase the bonus granted when performing the sharpen weapons maintenance by +1/4.
+
+**Halfling:** Reduce the penalty for using a weapon you are not proficient with which you crafted yourself by 1/3. When this penalty reaches 0, you are considered proficient with any weapon you craft yourself.
+
+**Hobgoblin:** Add +1/2 hit points and +1/4th hardness to your worn and wielded equipment.
+
+**Human:** Add +1/2 to all Profession (blacksmith) checks made to craft a weapon you are proficient with.
+
+**Leshy:** Gain a +1/2 bonus on all Craft or Profession (blacksmith) checks made to craft any weapon or armor made primarily out of wood.
+
+**Orc:** Gain a +1/2 bonus on all Craft or Profession (blacksmith) checks made to craft any weapon from the Orc Heritage talent of the Equipment sphere.
+
+**Tatulani:** Gain +1/8 of a blacksmith insight.
+
+**Tiefling:** Weapons you craft yourself deal +1/4 points of fire damage while you wield them.
+----
++ ##993300|Class Equipment##
+The following magical items are especially appropriate for blacksmiths.
+
+++++ Forging Hammer [TS:WAT]
+The forging hammer is a practical-looking smithing tool that is equally useful on the battlefield. In addition to its other properties, it always functions as a fire-forged steel^^UE^^ light hammer.
+
+**Power Level:** Heirloom, **Focuses:** Powerful (Blacksmith 6), Trained (Profession (blacksmith)) **Shape** Light hammer
+
+**Base Power:** As a standard action, the forging hammer can be used to ignite a Medium-sized fire, suitable for use as a forge, or quench a fire of Medium size or smaller; treat this as the Create Fire ability of the Nature sphere DC 10 + 1/2 user’s CL + user’s CAM. **Increases** none
+
+**5th Level:** The forging hammer becomes a +1 fire-forged steel light hammer. **Increases** At 6th level, the forging hammer becomes a +1 igniting fire-forged steel light hammer. At 10th level, the forging hammer becomes a +1 burning igniting fire-forged steel light hammer. At 12th level, the forging hammer becomes a +2 burning igniting fire-forged steel light hammer. At 14th level, the forging hammer becomes a +3 burning igniting fire-forged steel light hammer.
+
+**10th Level:** By spending five minutes concentrating, the wielder of the forging hammer can summon a complete forge in an open 15-foot cube of space on top of a solid surface. This forge is fully equipped with all the tools and equipment required to forge items, assuming the user has the raw materials.
+
+The forge vanishes one minute after the summoner leaves it, and any components teleport back inside without fail if removed from the forge, but it can otherwise last indefinitely (or at least until it is destroyed).
+
+**Destruction:** The forging hammer must be used to destroy every item made within its forge, then the forge itself must be quenched with the hammer’s base power.
+
+**Note:** This is a fabled item. For more information on this type of item, see the [[[Fabled Items]]] page.
+
+++++ Professional Repair Kit [TS:WAT]
+**Aura** faint Creation; **CL** 5th
+**Slot** none; **Price** 15,000 gp; **Weight** 15 lbs.
+
+This kit is full of various specialized tools. In addition to counting as a masterwork set of tools for blacksmithing (providing a +2 circumstance bonus on all Profession (blacksmith) checks), a creature who uses the skilled craftsman class feature to repair an item may repair an additional hit point per blacksmith level. In addition, a creature with the skilled craftsman ability counts as two levels higher when determining what items they can repair.
+
+**Construction Requirements**
+Craft Apparatus, Creation sphere (Potent Alteration), creator must have the skilled craftsman ability; **Cost** 7,500 gp
+
+++++ Resonant Striker [TS:WAT]
+**Aura** faint Destruction; **CL** 4th
+**Slot** special, see text; **Price** 18,000 gp; **Weight** 5 lbs.
+
+This heavy weight can be attached to a weapon and seems to vibrate at unusual frequencies when the weapon strikes certain types of targets. When a creature with the thunderous blows class feature sunders a target’s natural armor, any creature attempting to remove the penalty must first use a move action to steady the creature with the penalty and stop the resonance.
+
+When a creature with the thunderous blows class feature sunders a target’s natural weapon, the attack penalty lingers for an additional round, plus one more round at 5th Blacksmith level and every 5 levels thereafter.
+
+**Construction Requirements**
+Craft Apparatus, Destruction sphere (Reverberating Blast (blast type)), creator must have the thunderous blows ability; **Cost** 9,000 gp
 
 ----
 
