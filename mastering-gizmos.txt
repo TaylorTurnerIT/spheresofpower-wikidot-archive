@@ -364,8 +364,8 @@ If a competing AI has not been in control of the host gizmo for at least 3 round
 
 **Already-Animated Host Bodies**: With the exception of //mechanoids//, an AI installed into a host gizmo that can already act as an independent creature due to another effect cannot be automatically controlled by an AI (such as an object made into a creature with an //awaken or //animate object spell effect). If an AI wants to control its host gizmo, it may attempt a gizmo penetration check against the animating effect’s magic skill defense (or other relevant statistic). On a successful check, the magical effect is suppressed and the AI takes control of the host gizmo. If the host gizmo is intelligent, it may attempt to reassert control (as though it were an activated, competing AI).
 
-++ Mechanoid
-+++ Mechanoid Basics
++ Mechanoid
+++ Mechanoid Basics
 //Mechanoids// are a gizmo that function as a hybrid of rules between vehicles and construct creatures; unlike normal gizmos, //mechanoids// have their own hit points, AC, saving throws, and ability scores, and do not gain hardness. By default, //mechanoids// are mindless (lacking mental ability scores of their own) and cannot be awakened or modified as a normal construct (i.e. construct modifications, construct templates, etc.; unless otherwise specified).
 
 A Tinker sphere practitioner may craft any number of //mechanoids// provided that the total gizmo level of crafted //mechanoids// does not exceed your ranks in the associated skill. This limit may be increased by certain effects, such as the Tinker sphere Extra Automatons legendary talent. For example, a Tinker sphere practitioner with 10 ranks in the associated skill could have a single gizmo level 10 //mechanoid//, two gizmo level 5 //mechanoids, or any combination in between, so long as their total gizmo level does not exceed 10. If you exceed this limit, you must choose which //mechanoid// to abandon.
@@ -376,7 +376,7 @@ A Tinker sphere practitioner may craft any number of //mechanoids// provided tha
 
 Mechanoids are treated as gizmos for most effects and use their crafter’s practitioner modifier as their own practitioner modifier when determining the effects of their innate gadgets and other abilities (determined when crafted and may be adjusted whenever the crafter maintains their gizmos).
 
-++ Crafting a Mechanoid
++++ Crafting a Mechanoid
 //Mechanoids are projects requiring 100 gp per gizmo level they possess. A crafted //mechanoid// may be modified to increase or decrease their current gizmo level, adjusting the //mechanoid’s// abilities as appropriate, up to a maximum of the creator’s ranks in the associated skill. Reducing a //mechanoid’s gizmo level refunds the crafter 100 gp in project materials per gizmo level reduced (which may be allocated to any other project, including a new //mechanoid//).
 
 **Other cost factors**: These cost factors affect the project cost of the mechanoid but does not alter the //mechanoid’s// gizmo level for any other purposes (such as when calculating many //mechanoids the crafter can maintain).
@@ -395,7 +395,7 @@ Huge	+4	-4	-2	+2	15 ft.	15 ft.	-4	-8	5 tons
 Gargantuan	+6	-6	-4	+4	20 ft.	20 ft.	-6	-12	25 tons
 Colossal	+8	-8	-8	+8	30 ft.	30 ft.	-8	-16	125 tons
 
-+++ Mechanoid Statistics and Advancement
+++ Mechanoid Statistics and Advancement
 //Mechanoids// statistics and abilities are based on their gizmo level (including Hit Dice, saving throws, etc.). A //mechanoid// cannot be crafted with a gizmo level greater than its creator's ranks in the associated skill. **Table: Mechanoid** determines the base statistics of a //mechanoid//.
 **Table: Mechanoid**
 **Skill Ranks (Gizmo Level)**	**Hit Dice**	**Base Saves**	**Natural Armor Bonus**	**Ability Bonus**	**Bonus Hit Points**	**Upgrades**	**Other**
@@ -432,118 +432,128 @@ Colossal	+8	-8	-8	+8	30 ft.	30 ft.	-8	-16	125 tons
 
 A //mechanoid’s// creature type is construct, gaining a construct’s normal traits (except where otherwise noted).
 
-**Skill Ranks (Gizmo Level)**: Your skill ranks in the associated skill determine the maximum gizmo level your crafted //mechanoid can possess. A //mechanoid’s gizmo level is equal to the number of associated skill ranks required to construct it (determined when crafted), and determines its other abilities.
-**Hit Dice**: This is the total number of 10-sided (d10) Hit Dice the //mechanoid possesses. As a construct, //mechanoids do not receive bonus hit points from their Constitution modifier. Generally, a //mechanoid's CR is equal to its Hit Dice - 2 for purposes that require it. An unpiloted //mechanoid has an effective CR of 0.
-**Base Saves**: This is the //mechanoid's base saving throw modifier for its Fortitude, Reflex, and Will saving throws. A //mechanoid has poor Fortitude, Reflex, and Will saves.
-**Natural Armor Bonus**: This is the //mechanoid’s base natural armor bonus of +4. This bonus improves +1 per 2 Hit Dice (effectively +1/2 per Hit Dice).
-**Ability Bonus**: The //mechanoid adds this bonus to both the //mechanoid’s Strength and Dexterity scores. This bonus improves +2 per 3 Hit Dice (effectively +2/3 per Hit Dice). The crafter may choose to decrease the granted bonus to one of the two scores by any increment of 2, increasing the other by +1 per increment (such as +6/+6 being adjusted to +2/+8).
+**Skill Ranks (Gizmo Level)**: Your skill ranks in the associated skill determine the maximum gizmo level your crafted //mechanoid can possess. A //mechanoid’s// gizmo level is equal to the number of associated skill ranks required to construct it (determined when crafted), and determines its other abilities.
+**Hit Dice**: This is the total number of 10-sided (d10) Hit Dice the //mechanoid// possesses. As a construct, //mechanoids do not receive bonus hit points from their Constitution modifier. Generally, a //mechanoid's// CR is equal to its Hit Dice - 2 for purposes that require it. An unpiloted //mechanoid// has an effective CR of 0.
+**Base Saves**: This is the //mechanoid's// base saving throw modifier for its Fortitude, Reflex, and Will saving throws. A //mechanoid// has poor Fortitude, Reflex, and Will saves.
+**Natural Armor Bonus**: This is the //mechanoid’s// base natural armor bonus of +4. This bonus improves +1 per 2 Hit Dice (effectively +1/2 per Hit Dice).
+**Ability Bonus**: The //mechanoid// adds this bonus to both the //mechanoid’s Strength and Dexterity scores. This bonus improves +2 per 3 Hit Dice (effectively +2/3 per Hit Dice). The crafter may choose to decrease the granted bonus to one of the two scores by any increment of 2, increasing the other by +1 per increment (such as +6/+6 being adjusted to +2/+8).
 **Bonus Hit Points**: The //mechanoid gains +4 extra hit points per Hit Dice. They do not gain additional hit points based on size.
-**Upgrades**: The //mechanoid starts with 5 upgrades, +1 per 2 Hit Dice.
-**Ability Score Increase**: The //mechanoid adds +1 to one of its ability scores (limited to Strength and Dexterity, unless it gains other ability scores) as normal for advancement in Hit Dice.
+**Upgrades**: The //mechanoid// starts with 5 upgrades, +1 per 2 Hit Dice.
+**Ability Score Increase**: The //mechanoid// adds +1 to one of its ability scores (limited to Strength and Dexterity, unless it gains other ability scores) as normal for advancement in Hit Dice.
 
-Mechanoid Base Form and Statistics
-//Mechanoids possess the following base form:
-**Size Medium; **Speed 0 ft.; **AC +4 natural armor; **Str 14, **Dex 14, **Con –, **Int –, **Wis –, **Cha –
++++ Mechanoid Base Form and Statistics
+//Mechanoids// possess the following base form:
+**Size** Medium; **Speed** 0 ft.; **AC** +4 natural armor; **Str** 14, **Dex** 14, **Con** –, **Int** –, **Wis** –, **Ch**a –
 
-Mechanoid Ability Scores: A mechanoid, despite having the statistics of a creature, is an inanimate, mindless object. Any DCs or other statistics that rely on an ability score the //mechanoid does not have (marked as “–”) is treated as having a score of 10 (no bonus or penalty). //Mechanoids otherwise use the practitioner modifier granted to them by their crafter, determined when crafted. //Mechanoid statistics are generally altered while piloted.
+**Mechanoid Ability Scores**: A mechanoid, despite having the statistics of a creature, is an inanimate, mindless object. Any DCs or other statistics that rely on an ability score the //mechanoid// does not have (marked as “–”) is treated as having a score of 10 (no bonus or penalty). //Mechanoids// otherwise use the practitioner modifier granted to them by their crafter, determined when crafted. //Mechanoid// statistics are generally altered while piloted.
 
-Mechanoid Base Chassis (Body, Limbs, Senses): By default a //mechanoid has a body, but has no senses (head, eyes, ears, nose, etc.) and no limbs (arms, legs). It is immobile, has no senses, and is not capable of manipulating objects. //Mechanoids lack magical item slots unless their form would accommodate them (such as a //mechanoid with legs could use magic boots, etc.).
-Mechanoid Upgrades
-A //mechanoid’s base form and statistics are modified by upgrades. Upgrades are selected and applied to the //mechanoid when it is first crafted. A //mechanoid’s upgrades can be changed whenever you maintain your gizmos (but only a single upgrade each time). Some Tinker sphere talents grant new upgrades for your //mechanoids which are marked with (upgrade).
+**Mechanoid Base Chassis (Body, Limbs, Senses)**: By default a //mechanoid// has a body, but has no senses (head, eyes, ears, nose, etc.) and no limbs (arms, legs). It is immobile, has no senses, and is not capable of manipulating objects. //Mechanoids// lack magical item slots unless their form would accommodate them (such as a //mechanoid// with legs could use magic boots, etc.).
 
-A //mechanoid can be crafted with up to 5 upgrades, +1 additional upgrade for every 2 Hit Dice. The upgrades it can select are listed below, however some other talents grant you other types of upgrades that can be granted to your //mechanoids. Unless otherwise stated, an upgrade can only be granted once. An upgrade does not count against the //mechanoid’s carrying capacity, but does increase the //mechanoid’s weight as applicable (such as the Energy Set’s portable plant upgrade).
++++ Mechanoid Upgrades
+A //mechanoid’s// base form and statistics are modified by upgrades. Upgrades are selected and applied to the //mechanoid// when it is first crafted. A //mechanoid’s// upgrades can be changed whenever you maintain your gizmos (but only a single upgrade each time). Some Tinker sphere talents grant new upgrades for your //mechanoids// which are marked with (upgrade).
 
-//Upgrade Gizmo Level and Innate Gizmos: An upgrade’s gizmo level is equal to the //mechanoid’s gizmo level. Upgrades are treated as gizmos for the purposes of effects that would target them (such as disabling one, repairing one, etc.), if it could be targeted at all. Most upgrades are inherent to the mechanoid’s statistics and a part of its body unless it provides a different “section” to the //mechanoid such as the storage upgrade (i.e. breaking the storage’s door/lid) and the majority of innate gizmos (weapons, armor, flashlights, gliders, and so on) that could be targeted. Targetable upgrades are determined by GM discretion. If an upgrade would be destroyed (including innate gizmos), the upgrade can be repaired or rebuilt whenever the crafter maintains their gizmos.
+A //mechanoid// can be crafted with up to 5 upgrades, +1 additional upgrade for every 2 Hit Dice. The upgrades it can select are listed below, however some other talents grant you other types of upgrades that can be granted to your //mechanoids//. Unless otherwise stated, an upgrade can only be granted once. An upgrade does not count against the //mechanoid’s// carrying capacity, but does increase the //mechanoid’s weight as applicable (such as the Energy Set’s portable plant upgrade).
 
-A //mechanoid uses its crafter’s practitioner modifier when determining the effects of upgrades that would use a practitioner modifier (such as the //mechanoid’s gizmo DC, etc.).
-Default Mechanoid Upgrades
-A crafter gains access to new upgrades with Tinker sphere talents. By default, the following upgrades are available to anyone who can craft a //mechanoid:
+//Upgrade Gizmo Level and Innate Gizmos//: An upgrade’s gizmo level is equal to the //mechanoid’s// gizmo level. Upgrades are treated as gizmos for the purposes of effects that would target them (such as disabling one, repairing one, etc.), if it could be targeted at all. Most upgrades are inherent to the mechanoid’s statistics and a part of its body unless it provides a different “section” to the //mechanoid// such as the storage upgrade (i.e. breaking the storage’s door/lid) and the majority of innate gizmos (weapons, armor, flashlights, gliders, and so on) that could be targeted. Targetable upgrades are determined by GM discretion. If an upgrade would be destroyed (including innate gizmos), the upgrade can be repaired or rebuilt whenever the crafter maintains their gizmos.
 
+A //mechanoid// uses its crafter’s practitioner modifier when determining the effects of upgrades that would use a practitioner modifier (such as the //mechanoid’s// gizmo DC, etc.).
 
-•	**Alternate Size (upgrade): The //mechanoid's base size is one size category larger or smaller than Medium. Changes due to size are detailed **Table: Mechanoid Size.
-•	**Aquatic (upgrade): The //mechanoid gains a means of independent aquatic propulsion (such as propellers, paddles, or a sail) and may automatically float on the surface of liquid. In addition, the //mechanoid gains a base swim speed of 40 feet, +20 feet per 5 gizmo levels (including the +8 racial bonus for gaining a swim speed). In addition, the //mechanoid gains 1 bonus skill rank in Swim for every Hit Die it possesses.
+++++ Default Mechanoid Upgrades
+A crafter gains access to new upgrades with Tinker sphere talents. By default, the following upgrades are available to anyone who can craft a //mechanoid//:
 
-Sidebar: Aquatic Vehicles and Tinker Traditions: If using the Tinker tradition rules (**Section 4.4: Gamemaster’s Toolkit, Tinker Traditions) and self-propelled aquatic vehicles do not fit the Tinker tradition, this upgrade may instead prevent the mechanoid from diving below water. If using sails, the swim speed may also be limited by the availability of sufficient wind in the correct direction (reducing the mechanoid’s swim speed as appropriate, minimum 5-feet).
-•	**Cover (upgrade) (requires passenger seats upgrade): The //mechanoid grants creatures in its passenger seats cover, instead of partial cover, against effects from outside of the //mechanoid.
-•	**Durability (upgrade): The //mechanoid gains an additional +2 hit points per gizmo level. This upgrade can be granted multiple times; each time this upgrade is selected after the first, the //mechanoid instead receives an additional +1 hit point per gizmo level.
-•	**Enclosure (upgrade) (requires cover, passenger seats upgrades): You improve the cover upgrade. An enclosure blocks line of effect and line of sight; the enclosure may optionally be transparent (instead of opaque), but no longer blocks line of sight if transparent. An enclosure is not airtight, so “cloud-like” effects (such as most spreads, fog effects, etc.) will still affect occupants within.
-
-An enclosure has 3 hit points per gizmo level; an enclosure benefits from any damage reduction or energy resistance the mechanoid possesses, but effects that would occur after the mechanoid is damaged do not occur if only attacking the enclosure (such as redirecting damage, “on-hit rider effects”, etc.). The enclosure’s AC, when targeted independently of the mechanoid, is the same as the mechanoid’s AC. Destroying the //mechanoid destroys its enclosure with it. Attacks directed at the enclosure, or targets within the enclosure, first deal damage to the enclosure (before passengers inside are harmed). If an attack is directed through the enclosure the target gains total concealment, and the attack first deals its damage to the enclosure itself. If an attack is enough to destroy the enclosure, the attack continues to its intended target, subtracting the damage dealt to the enclosure before striking the target(s). Burst effects (such as splash weapons, certain spells, etc.) explode at the enclosure’s edge and also must overcome the enclosure’s hit points before damaging targets inside the enclosure.
-
-Enclosures may optionally have a shutter (window, etc.); an open shutter grants line of sight into and out of the mechanoid. A shutter may be opened or closed as a move action. All enclosures have a latch, which is a door, hatch, or other means of entry. A latch may be opened and closed as a standard action, and while open grants line of effect into and out of the mechanoid.
-
+* **Alternate Size (upgrade)**: The //mechanoid's// base size is one size category larger or smaller than Medium. Changes due to size are detailed **Table: Mechanoid Size.
+* **Aquatic (upgrade)**: The //mechanoid// gains a means of independent aquatic propulsion (such as propellers, paddles, or a sail) and may automatically float on the surface of liquid. In addition, the //mechanoid// gains a base swim speed of 40 feet, +20 feet per 5 gizmo levels (including the +8 racial bonus for gaining a swim speed). In addition, the //mechanoid// gains 1 bonus skill rank in Swim for every Hit Die it possesses. _
+ _
+**Sidebar: Aquatic Vehicles and Tinker Traditions**: If using the Tinker tradition rules (**Section 4.4: Gamemaster’s Toolkit, Tinker Traditions**) and self-propelled aquatic vehicles do not fit the Tinker tradition, this upgrade may instead prevent the mechanoid from diving below water. If using sails, the swim speed may also be limited by the availability of sufficient wind in the correct direction (reducing the mechanoid’s swim speed as appropriate, minimum 5-feet).
+* **Cover (upgrade) (requires passenger seats upgrade)**: The //mechanoid// grants creatures in its passenger seats cover, instead of partial cover, against effects from outside of the //mechanoid//.
+* **Durability (upgrade)**: The //mechanoid// gains an additional +2 hit points per gizmo level. This upgrade can be granted multiple times; each time this upgrade is selected after the first, the //mechanoid// instead receives an additional +1 hit point per gizmo level.
+* **Enclosure (upgrade) (requires cover, passenger seats upgrades)**: You improve the cover upgrade. An enclosure blocks line of effect and line of sight; the enclosure may optionally be transparent (instead of opaque), but no longer blocks line of sight if transparent. An enclosure is not airtight, so “cloud-like” effects (such as most spreads, fog effects, etc.) will still affect occupants within. _
+ _
+An enclosure has 3 hit points per gizmo level; an enclosure benefits from any damage reduction or energy resistance the mechanoid possesses, but effects that would occur after the mechanoid is damaged do not occur if only attacking the enclosure (such as redirecting damage, “on-hit rider effects”, etc.). The enclosure’s AC, when targeted independently of the mechanoid, is the same as the mechanoid’s AC. Destroying the //mechanoid destroys its enclosure with it. Attacks directed at the enclosure, or targets within the enclosure, first deal damage to the enclosure (before passengers inside are harmed). If an attack is directed through the enclosure the target gains total concealment, and the attack first deals its damage to the enclosure itself. If an attack is enough to destroy the enclosure, the attack continues to its intended target, subtracting the damage dealt to the enclosure before striking the target(s). Burst effects (such as splash weapons, certain spells, etc.) explode at the enclosure’s edge and also must overcome the enclosure’s hit points before damaging targets inside the enclosure. _
+ _
+Enclosures may optionally have a shutter (window, etc.); an open shutter grants line of sight into and out of the mechanoid. A shutter may be opened or closed as a move action. All enclosures have a latch, which is a door, hatch, or other means of entry. A latch may be opened and closed as a standard action, and while open grants line of effect into and out of the mechanoid. _
+ _
 A latch may be forced open as a standard action; treat this as a grapple maneuver opposed by the //mechanoid's CMD. A successful check opens the latch (instead of grappling the creature). A latch may alternatively be opened with a successful Disable Device check as a standard action opposed by the //mechanoid's CMD.
-•	**Innate Augmentation (upgrade) (requires (augmentation) package): The //mechanoid is crafted with an //augmentation as an innate gizmo. The chosen //augmentation must be one you could craft. This upgrade may be granted more than once, each time granting an //augmentation to the //mechanoid.
-•	**Innate Modification (upgrade) (requires (modification) package): The //mechanoid is crafted with a //modification as an innate gizmo. The chosen //modification must be one you could craft. This upgrade may be granted more than once, each time granting an //modification to the //mechanoid.
-•	**Innate Prosthetic (upgrade): The //mechanoid is crafted with an innate //prosthetic of any kind you could craft. The //mechanoid treats a //prosthetic granted this way as a natural extension of the //mechanoid’s body (as though it had that body part naturally, and could use it normally). The crafter may modify an innate //prosthetic the same as they could modify a //prosthetic they craft normally. If you do not possess the (augmentation) package, you may only grant the following basic //prosthetic: arm (or pair of arms), head (granting sight, hearing, smell, and speech), or leg (or pair of legs) and cannot grant this //prosthetic a secondary function. See **Section 4.1: Mastering Gizmos, Natural Prosthetics for more information on these basic //prosthetic.
+* **Innate Augmentation (upgrade) (requires (augmentation) package)**: The //mechanoid// is crafted with an //augmentation as an innate gizmo. The chosen //augmentation// must be one you could craft. This upgrade may be granted more than once, each time granting an //augmentation to the //mechanoid//.
+* **Innate Modification (upgrade) (requires (modification) package)**: The //mechanoid// is crafted with a //modification// as an innate gizmo. The chosen //modification// must be one you could craft. This upgrade may be granted more than once, each time granting an //modification// to the //mechanoid//.
+* **Innate Prosthetic (upgrade)**: The //mechanoid is crafted with an innate //prosthetic// of any kind you could craft. The //mechanoid treats a //prosthetic granted this way as a natural extension of the //mechanoid’s// body (as though it had that body part naturally, and could use it normally). The crafter may modify an innate //prosthetic// the same as they could modify a //prosthetic// they craft normally. If you do not possess the (augmentation) package, you may only grant the following basic //prosthetic//: arm (or pair of arms), head (granting sight, hearing, smell, and speech), or leg (or pair of legs) and cannot grant this //prosthetic// a secondary function. See **Section 4.1: Mastering Gizmos, Natural Prosthetics** for more information on these basic //prosthetic//.
 
-Body parts and limbs granted this way, past the first //prosthetic of its kind, never grant the //mechanoid additional attacks (but may still be used to wield or threaten an attack of opportunity with a weapon, and so on) unless the crafter possesses the Advanced Prosthetics talent and could craft natural //prosthetics normally.
-•	**Passenger Seats (upgrade): The //mechanoid can carry a total number of Medium creatures equal to twice its size category (4 Medium creatures can fit inside a Large //mechanoid, 8 Medium creatures can fit inside a Huge //mechanoid, etc.), which is modified for their size category (Small counts as half a Medium, and Large counts as double a Medium). Creatures can mount or dismount the //mechanoid as a move action and gain partial cover while mounted. Any creature seated in the //mechanoid is referred to as a “passenger”.
+Body parts and limbs granted this way, past the first //prosthetic// of its kind, never grant the //mechanoid additional attacks (but may still be used to wield or threaten an attack of opportunity with a weapon, and so on) unless the crafter possesses the Advanced Prosthetics talent and could craft natural //prosthetics// normally.
+* **Passenger Seats (upgrade)**: The //mechanoid// can carry a total number of Medium creatures equal to twice its size category (4 Medium creatures can fit inside a Large //mechanoid//, 8 Medium creatures can fit inside a Huge //mechanoid, etc.), which is modified for their size category (Small counts as half a Medium, and Large counts as double a Medium). Creatures can mount or dismount the //mechanoid// as a move action and gain partial cover while mounted. Any creature seated in the //mechanoid// is referred to as a “passenger”.
 
-A single passenger seat can be designated as the pilot seat (the “pilot”; the pilot is still a passenger). A mechanoid that has a pilot seat may only be piloted manually from the pilot seat (or another appropriate control means, such as a remote control). A pilot must be able enter the pilot seat (appropriate size to mount the //mechanoid); passengers are not treated as being “mounted” for the purposes of mounted combat rules, although may considered as such subject to GM discretion (such as a bike ridden by a single character being a “mount”, whereas an armored personnel character with 16 orc assault troopers not being a “mount”).
-•	**Reins (upgrade): The //mechanoid is capable of being easily operated by another creature (“the muscle”) by pushing, pulling, carrying, etc. A creature must be at least 1 size smaller than the //mechanoid to be the muscle. The muscle may move the //mechanoid whenever they move and use their own movement speed. While the muscle is operating the //mechanoid, the muscle and //mechanoid occupy the same space, using the larger creature’s size to determine occupied squares.
+A single passenger seat can be designated as the pilot seat (the “pilot”; the pilot is still a passenger). A mechanoid that has a pilot seat may only be piloted manually from the pilot seat (or another appropriate control means, such as a remote control). A pilot must be able enter the pilot seat (appropriate size to mount the //mechanoid//); passengers are not treated as being “mounted” for the purposes of mounted combat rules, although may considered as such subject to GM discretion (such as a bike ridden by a single character being a “mount”, whereas an armored personnel character with 16 orc assault troopers not being a “mount”).
+* **Reins (upgrade)**: The //mechanoid is capable of being easily operated by another creature (“the muscle”) by pushing, pulling, carrying, etc. A creature must be at least 1 size smaller than the //mechanoid to be the muscle. The muscle may move the //mechanoid whenever they move and use their own movement speed. While the muscle is operating the //mechanoid, the muscle and //mechanoid occupy the same space, using the larger creature’s size to determine occupied squares. _
+ _
+When actively piloted, the //mechanoid// and its pilot are treated as being mounted, and the muscle is treated as the mount. The pilot may use the pilot’s Ride skill or the Tinker sphere associated skill to perform any relevant Ride checks. The muscle’s initiative, while operating the //mechanoid//, is always equal to the //mechanoid’s pilot’s initiative.
+* **Skillful Design (upgrade)**: The //mechanoid// gains a circumstance bonus to two of the following skills: Acrobatics, Climb, Disable Device, Disguise, Escape Artist, Fly, Stealth, or Swim. This bonus is equal to 2 + 1 per 2 gizmo levels. This upgrade may be granted multiple times, each time choosing two skills not initially chosen.
+* **Storage (upgrade)**: The //mechanoid// has a storage compartment, such as a trunk, multiple closeable partitions, etc. This storage compartment is a space 1 size smaller than the //mechanoid// and can fit objects inside the space accordingly. Objects stored this way count against the //mechanoid’s// carrying capacity, as normal. The storage compartment can be opened or closed as a move action and may be locked (Disable Device DC equal to the //mechanoid’s// CMD).
+* **Wheels (upgrade)**: The mechanoid gains a set of wheel prosthetics (as per the Tinker sphere Movement Set talent); the crafter may optionally choose to make the //mechanoid// quadrupedal (granting it 4 identical wheel //prosthetics// as a single //prosthetic//).
 
-When actively piloted, the //mechanoid and its pilot are treated as being mounted, and the muscle is treated as the mount. The pilot may use the pilot’s Ride skill or the Tinker sphere associated skill to perform any relevant Ride checks. The muscle’s initiative, while operating the //mechanoid, is always equal to the //mechanoid’s pilot’s initiative.
-•	**Skillful Design (upgrade): The //mechanoid gains a circumstance bonus to two of the following skills: Acrobatics, Climb, Disable Device, Disguise, Escape Artist, Fly, Stealth, or Swim. This bonus is equal to 2 + 1 per 2 gizmo levels. This upgrade may be granted multiple times, each time choosing two skills not initially chosen.
-•	**Storage (upgrade): The //mechanoid has a storage compartment, such as a trunk, multiple closeable partitions, etc. This storage compartment is a space 1 size smaller than the //mechanoid and can fit objects inside the space accordingly. Objects stored this way count against the //mechanoid’s carrying capacity, as normal. The storage compartment can be opened or closed as a move action and may be locked (Disable Device DC equal to the //mechanoid’s CMD).
-•	**Wheels (upgrade): The mechanoid gains a set of wheel prosthetics (as per the Tinker sphere Movement Set talent); the crafter may optionally choose to make the //mechanoid quadrupedal (granting it 4 identical wheel //prosthetics as a single //prosthetic).
-Using Mechanoids
-A //mechanoid can ordinarily be piloted with exterior controls (such as wheels, levers, etc.), or with signals or AI. The crafter may choose to exclude piloting options when crafting or maintaining the //mechanoid (such as making a //mechanoid which could only be piloted with exterior controls, or one that could only be piloted by an AI). Certain Tinker sphere options may add new ways to pilot a //mechanoid (such as an immersive cockpit from the Transportation Mastery talent); the crafter chooses whether a //mechanoid they have crafted is able to be piloted using such a method.
+++ Using Mechanoids
+A //mechanoid// can ordinarily be piloted with exterior controls (such as wheels, levers, etc.), or with signals or AI. The crafter may choose to exclude piloting options when crafting or maintaining the //mechanoid// (such as making a //mechanoid// which could only be piloted with exterior controls, or one that could only be piloted by an AI). Certain Tinker sphere options may add new ways to pilot a //mechanoid// (such as an immersive cockpit from the Transportation Mastery talent); the crafter chooses whether a //mechanoid// they have crafted is able to be piloted using such a method.
 
-//Mechanoids are an unusual attempt to hybridize constructs, vehicles, and “everything in between” as a single concept. GMs should treat an activated, piloted //mechanoid as a creature (similar to an animated object or other construct), whereas an activated but unpiloted //mechanoid is similar to an idling vehicle or otherwise “inanimate” object.
+//Mechanoids// are an unusual attempt to hybridize constructs, vehicles, and “everything in between” as a single concept. GMs should treat an activated, piloted //mechanoid// as a creature (similar to an animated object or other construct), whereas an activated but unpiloted //mechanoid// is similar to an idling vehicle or otherwise “inanimate” object.
 
-//Mechanoids cannot act, move, attack, or otherwise function on their own and must be given commands by their pilot. A //mechanoid’s controls (and how it is piloted) is determined when it is first crafted (or may be adjusted any time the crafter performs maintenance on their gizmos) - this determination is often cosmetic, unless choosing to not have manual controls (and relying on the ability to pilot the //mechanoid remotely) or similar.
+//Mechanoids// cannot act, move, attack, or otherwise function on their own and must be given commands by their pilot. A //mechanoid’s// controls (and how it is piloted) is determined when it is first crafted (or may be adjusted any time the crafter performs maintenance on their gizmos) - this determination is often cosmetic, unless choosing to not have manual controls (and relying on the ability to pilot the //mechanoid// remotely) or similar.
 
-//Unpiloted Mechanoids: An unpiloted //mechanoid is treated as an attended (or unattended) gizmo and is otherwise interacted with as an object. A //mechanoid is still entitled to saving throws as a gizmo and, if activated, benefits from any passive defensive benefits it normally would (damage reduction, effects from innate personal field gizmos, etc.).
-Piloting Mechanoids
-Mechanoid Statistics While Piloted
-Mechanoid Base Attack Bonus: An unpiloted //mechanoid does not have a base attack bonus, as it is treated as an unattended gizmo. While piloted, the //mechanoid uses its pilot’s base attack bonus and the //mechanoid’s ability scores to determine its attack bonus, combat maneuver bonus (CMB), and combat maneuver defense (CMD) during any turn it is being piloted.
+//Unpiloted Mechanoids//: An unpiloted //mechanoid// is treated as an attended (or unattended) gizmo and is otherwise interacted with as an object. A //mechanoid// is still entitled to saving throws as a gizmo and, if activated, benefits from any passive defensive benefits it normally would (damage reduction, effects from innate personal field gizmos, etc.).
 
-Mechanoid Skill Bonuses: While piloted, the //mechanoid uses its pilot's ranks in any physical ability-based skill (Strength, Dexterity, or Constitution) and the //mechanoid’s relevant ability score to determine its skill bonus. If the //mechanoid would receive bonus skill ranks in a skill or possess a bonus when using a skill, such as from an upgrade, the pilot may choose to use the //mechanoid’s skill ranks (if higher) and benefits from the //mechanoid’s skill bonuses. A pilot’s bonuses to certain uses of a skill do not apply when performing that skill with a piloted //mechanoid (unless otherwise stated).
++++ Piloting Mechanoids
+++++ Mechanoid Statistics While Piloted
+**Mechanoid Base Attack Bonus**: An unpiloted //mechanoid// does not have a base attack bonus, as it is treated as an unattended gizmo. While piloted, the //mechanoid// uses its pilot’s base attack bonus and the //mechanoid’s// ability scores to determine its attack bonus, combat maneuver bonus (CMB), and combat maneuver defense (CMD) during any turn it is being piloted.
 
-Mechanoid Piloting and Senses: Unless granted independent senses, //mechanoids lack conventional senses and rely on their pilot's senses. If the pilot lacks a certain sense, the //mechanoid is treated as lacking it as well. If the //mechanoid takes its actions where the pilot cannot provide the appropriate sense (such as targeting a creature its pilot lacks line of sight to, or moving to a place its pilot cannot hear), it is treated as lacking that sense until the pilot can provide it (such as a //mechanoid attacking around a corner the pilot cannot see would be effectively blind when making that attack).
+**Mechanoid Skill Bonuses**: While piloted, the //mechanoid// uses its pilot's ranks in any physical ability-based skill (Strength, Dexterity, or Constitution) and the //mechanoid’s// relevant ability score to determine its skill bonus. If the //mechanoid// would receive bonus skill ranks in a skill or possess a bonus when using a skill, such as from an upgrade, the pilot may choose to use the //mechanoid’s// skill ranks (if higher) and benefits from the //mechanoid’s// skill bonuses. A pilot’s bonuses to certain uses of a skill do not apply when performing that skill with a piloted //mechanoid// (unless otherwise stated).
 
-A //mechanoid with an enclosure upgrade that blocks line of sight renders the pilot and passenger unable to see outside of the //mechanoid (and functionally blind). A //mechanoid may be granted the ability to share its senses with the pilot and passengers, such as with the Sensory Set sensory gizmos upgrade. Simply possessing senses (such as having a head) does not allow the //mechanoid to share its senses.
+**Mechanoid Piloting and Senses**: Unless granted independent senses, //mechanoids// lack conventional senses and rely on their pilot's senses. If the pilot lacks a certain sense, the //mechanoid// is treated as lacking it as well. If the //mechanoid// takes its actions where the pilot cannot provide the appropriate sense (such as targeting a creature its pilot lacks line of sight to, or moving to a place its pilot cannot hear), it is treated as lacking that sense until the pilot can provide it (such as a //mechanoid// attacking around a corner the pilot cannot see would be effectively blind when making that attack).
 
-Mechanoid Saving Throws: A piloted //mechanoid is an attended object of the pilot and, the same as a normal gizmo, either uses its own saving throw bonus or its pilot’s saving throw bonus (whichever is better) when it would be required to attempt a saving throw. An unpiloted //mechanoid is no different from an inanimate gizmo and does not receive saving throws except against effects that would directly harm the //mechanoid; if the //mechanoid could accommodate multiple creatures (such as having multiple passenger seats, etc.), the most recent creature to pilot the //mechanoid is considered to be attending the //mechanoid (until that passenger exits or leaves the //mechanoid).
-Actions in a Piloted Mechanoid
-Once activated, a //mechanoid can be piloted to perform its own set of actions. A creature adjacent to or riding the //mechanoid may pilot the //mechanoid by spending a standard or move action (if it possesses exterior controls) with a successful Profession (pilot) check or proficiency check. The //mechanoid’s crafter always succeeds at checks to pilot a //mechanoid they crafted. On a successful check, the //mechanoid is piloted and granted either a full action or partial action; a //mechanoid is treated as piloted by the piloting creature until the start of the pilot’s next turn (unless the pilot would be made unable to pilot the //mechanoid, such as being shoved off the //mechanoid, being stunned or otherwise prevented from taking actions, etc.).
+A //mechanoid// with an enclosure upgrade that blocks line of sight renders the pilot and passenger unable to see outside of the //mechanoid// (and functionally blind). A //mechanoid// may be granted the ability to share its senses with the pilot and passengers, such as with the Sensory Set sensory gizmos upgrade. Simply possessing senses (such as having a head) does not allow the //mechanoid// to share its senses.
 
-A //mechanoid cannot be piloted more than once per round (i.e., so long as the creator or another creature has piloted the //mechanoid that round, another creature cannot make actions with the //mechanoid unless the active pilot is prevented from controlling the //mechanoid).
+**Mechanoid Saving Throws**: A piloted //mechanoid// is an attended object of the pilot and, the same as a normal gizmo, either uses its own saving throw bonus or its pilot’s saving throw bonus (whichever is better) when it would be required to attempt a saving throw. An unpiloted //mechanoid// is no different from an inanimate gizmo and does not receive saving throws except against effects that would directly harm the //mechanoid; if the //mechanoid// could accommodate multiple creatures (such as having multiple passenger seats, etc.), the most recent creature to pilot the //mechanoid// is considered to be attending the //mechanoid// (until that passenger exits or leaves the //mechanoid//).
 
-The pilot, as part of operating the //mechanoid cannot take certain reactions while actively piloting. If the pilot would use their immediate action, the //mechanoid cannot take an immediate action to respond to the same triggering action. If a creature provokes an attack of opportunity from the pilot (or the //mechanoid), the //mechanoid cannot take an attack of opportunity against that creature if the pilot chooses to make an attack of opportunity.
+++++ Actions in a Piloted Mechanoid
+Once activated, a //mechanoid// can be piloted to perform its own set of actions. A creature adjacent to or riding the //mechanoid// may pilot the //mechanoid// by spending a standard or move action (if it possesses exterior controls) with a successful Profession (pilot) check or proficiency check. The //mechanoid’s// crafter always succeeds at checks to pilot a //mechanoid// they crafted. On a successful check, the //mechanoid// is piloted and granted either a full action or partial action; a //mechanoid// is treated as piloted by the piloting creature until the start of the pilot’s next turn (unless the pilot would be made unable to pilot the //mechanoid, such as being shoved off the //mechanoid//, being stunned or otherwise prevented from taking actions, etc.).
 
-**Full Action: Piloting a //mechanoid as a standard action grants it a full turn of actions (standard, move, swift, immediate, attacks of opportunity, etc.) that take place until the piloting creature's next turn. A //mechanoid cannot make attacks of opportunity outside of the turn it was activated (and as such do not possess a threatened area outside of their turn).
+A //mechanoid// cannot be piloted more than once per round (i.e., so long as the creator or another creature has piloted the //mechanoid// that round, another creature cannot make actions with the //mechanoid// unless the active pilot is prevented from controlling the //mechanoid//).
 
-**Partial Action: Piloting a //mechanoid as a move action grants it a single standard action. When piloted as a partial action, the //mechanoid cannot perform attacks of any kind, but otherwise can use its standard action normally (including using its standard action to move).
-Attacking with a Piloted Mechanoid
-The pilot determines all the actions taken by the //mechanoid. //Mechanoids apply their pilot’s feats, weapon proficiencies, and combat talents to attacks they make as if they were made by their pilot (and as such use their pilot’s practitioner modifier to determine combat sphere DCs and other abilities).
+The pilot, as part of operating the //mechanoid// cannot take certain reactions while actively piloting. If the pilot would use their immediate action, the //mechanoid// cannot take an immediate action to respond to the same triggering action. If a creature provokes an attack of opportunity from the pilot (or the //mechanoid//), the //mechanoid// cannot take an attack of opportunity against that creature if the pilot chooses to make an attack of opportunity.
 
-Certain abilities do not grant their effects to the //mechanoid (subject to GM discretion), for example, a pilot could use the Power Attack feat to deal extra damage with a //mechanoid's weapons, but using the Combat Expertise feat would reduce his attack bonus, and grant the pilot the dodge bonus to AC and not the //mechanoid.
-Destroyed Mechanoids
-A destroyed //mechanoid provides no benefits to its pilot or passengers. Its upgrades, innate gizmos, and other properties immediately cease functioning. By GM discretion, a sufficiently large destroyed //mechanoid may be used as soft cover or cover (or be treated as a structure).
-Other Tinker Rules
+**Full Action**: Piloting a //mechanoid//// as a standard action grants it a full turn of actions (standard, move, swift, immediate, attacks of opportunity, etc.) that take place until the piloting creature's next turn. A //mechanoid// cannot make attacks of opportunity outside of the turn it was activated (and as such do not possess a threatened area outside of their turn).
+
+**Partial Action**: Piloting a //mechanoid// as a move action grants it a single standard action. When piloted as a partial action, the //mechanoid cannot perform attacks of any kind, but otherwise can use its standard action normally (including using its standard action to move).
+
+++++ Attacking with a Piloted Mechanoid
+The pilot determines all the actions taken by the //mechanoid//. //Mechanoids// apply their pilot’s feats, weapon proficiencies, and combat talents to attacks they make as if they were made by their pilot (and as such use their pilot’s practitioner modifier to determine combat sphere DCs and other abilities).
+
+Certain abilities do not grant their effects to the //mechanoid// (subject to GM discretion), for example, a pilot could use the Power Attack feat to deal extra damage with a //mechanoid's// weapons, but using the Combat Expertise feat would reduce his attack bonus, and grant the pilot the dodge bonus to AC and not the //mechanoid//.
+
+++++ Destroyed Mechanoids
+A destroyed //mechanoid// provides no benefits to its pilot or passengers. Its upgrades, innate gizmos, and other properties immediately cease functioning. By GM discretion, a sufficiently large destroyed //mechanoid// may be used as soft cover or cover (or be treated as a structure).
+
++ Other Tinker Rules
 This section contains quick references and rules for certain detailed pieces and interactions of the Tinker sphere.
-Customizing Gizmos
+
+++ Customizing Gizmos
 As a reminder, a Tinker practitioner is not required to use every Tinker talent they possess when crafting a gizmo, and may choose to include or exclude certain options at their discretion. A gizmo only has the abilities it is intentionally crafted with, and cannot be sabotaged (such as with Disable Device) to have abilities or the capacity for effects that were not intended. Any ability that allows a craft to do something (“can” or “may”) is optional when crafting and customizing the gizmo, including accommodations and other free or linear improvements.
 
 A primary example is whether a gizmo can receive signals. A gizmo intentionally crafted to be incapable of receiving signals cannot receive signals; this may be a decision of the crafter’s to prevent remote hacking at the cost of sending signals when the device would be hacked, and so on. A desktop computer without a Wi-Fi or bluetooth card cannot magically receive those signals, regardless of how hard a hacker might try.
-Detector Reference Tables
-This section includes the various tables that the (transmission) package //detectors use to sense and display information. Each table notes the talent and detector name the table belongs to.
-**Table: Mechanism Signature Strength
+
+++ Detector Reference Tables
+This section includes the various tables that the (transmission) package //detectors// use to sense and display information. Each table notes the talent and detector name the table belongs to.
+**Table: Mechanism Signature Strength**
 **Gizmo Level	**Strength	**Lingering Signature Duration
 1-5	Weak	1d6 rounds
 6-11	Considerate	1d6 minutes
 12-20	Potent	1d6 x 10 minutes
 21+	Astounding	1d6 days
 
-**Talent: Base (transmission) package
-**Detector: Mechanism Sensor
+**Talent**: Base (transmission) package
+**Detector**: Mechanism Sensor
 
-**Mechanism Signature Strength Notes: Mechanical items leave behind signs of their influence even after being removed from the area or being destroyed (such as gunpowder residue from a firearm, or lingering fuel particles from a used battery). In such a case, detection reveals a signature strength of diluted (even weaker than a weak signature). How long the signature lingers at this diluted level depends on its original power.
+**Mechanism Signature Strength Notes**: Mechanical items leave behind signs of their influence even after being removed from the area or being destroyed (such as gunpowder residue from a firearm, or lingering fuel particles from a used battery). In such a case, detection reveals a signature strength of diluted (even weaker than a weak signature). How long the signature lingers at this diluted level depends on its original power.
 
-**Craft DCs and Signature Strength: For non-sphere crafted items (mechanical items, alchemical items if using the alchemical sensor //detector, etc.), use the object’s Craft DC as the relevant skill check DC to identify the item; if the detected item has no Craft DC, the DC to identify the item is subject to DM discretion.
-**Table: Armament Signature Strength
+**Craft DCs and Signature Strength**: For non-sphere crafted items (mechanical items, alchemical items if using the alchemical sensor //detector, etc.), use the object’s Craft DC as the relevant skill check DC to identify the item; if the detected item has no Craft DC, the DC to identify the item is subject to DM discretion.
+
+**Table: Armament Signature Strength**
 **Type	**Strength
 Unremarkable	Diluted
 Masterwork	Weak
@@ -551,29 +561,32 @@ Masterwork	Weak
 3-4 enchantment	Potent
 5+ enchantment	Astounding
 
-**Talent: Detection Mastery
-**Detector: Armament Sensor
+**Talent**: Detection Mastery
+**Detector**: Armament Sensor
 
-**Note: The Craft DC to identify a detected object is equal to the detected object’s Craft DC. If there is no Craft DC associated with the detected object, treat the DC as 15 (or higher, subject to GM discretion).
-**Table: Creature Signature Strength
+**Note**: The Craft DC to identify a detected object is equal to the detected object’s Craft DC. If there is no Craft DC associated with the detected object, treat the DC as 15 (or higher, subject to GM discretion).
+
+**Table**: Creature Signature Strength
 **HD	**Strength
 1 or lower	Weak
 2-4	Considerate
 5-10	Potent
 11+	Astounding
 
-**Talent: Detection Mastery
-**Detector: Ecology Sensor
-**Table: Density Signature Strength
+**Talent: Detection Mastery**
+**Detector**: Ecology Sensor
+
+**Table**: Density Signature Strength
 **Density	**Example	**Signature Strength
 Ultra light	Balsa wood, feathers, shredded paper	Weak
 Light	Charcoal, cork, darkwood, flour, hay, snow	Considerate
 Dense	Flesh, iron, mithral, sand, soil, stone, water, wood	Potent
 Superdense	Adamantine, gold, lead, silver	Astounding
 
-**Talent: Excavation Set
-**Detector: Density Sensor
-**Table: Radiation Effects
+**Talent**: Excavation Set
+**Detector**: Density Sensor
+
+**Table: Radiation Effects**
 **Radiation Level	**Fort Save	**Primary Effect	**Secondary Effect
 None	–	–	–
 Low	13	1 Con drain	1 Str damage/day
@@ -581,21 +594,22 @@ Medium	17	1d4 Con drain	1d4 Str damage/day
 High	22	2d4 Con drain	1d6 Str damage/day
 Severe	30	4d6 Con drain	2d6 Str damage/day
 
-**Talent: Radiation Set
-**Detector: Radiation Sensor
+**Talent**: Radiation Set
+**Detector**: Radiation Sensor
 
-The rules for radiation are reprinted for convenience from Pathfinder Campaign Setting: Technology Guide.
+The rules for radiation are reprinted for convenience from //Pathfinder Campaign Setting: Technology Guide//.
 
 Radiation is a poison effect, whose primary effect causes Constitution drain and secondary effect causes Strength damage.
 
 Radiation dangers are organized into four categories: low, medium, high, and severe.
 
-Primary Effect: Radiation initially deals Constitution drain unless the exposed character succeeds at a Fortitude saving throw. A new saving throw must be attempted to resist radiation’s initial damage each round a victim remains exposed to it.
+**Primary Effect**: Radiation initially deals Constitution drain unless the exposed character succeeds at a Fortitude saving throw. A new saving throw must be attempted to resist radiation’s initial damage each round a victim remains exposed to it.
 
-Secondary Effect: Secondary effects from radiation deal Strength damage at a much slower rate than most poisons. This secondary effect ends only after a character succeeds at two consecutive Fortitude saving throws to resist secondary radiation damage. If a character has Strength damage equal to his current Strength score, further damage dealt a secondary effect is instead Constitution damage.
+**Secondary Effect**: Secondary effects from radiation deal Strength damage at a much slower rate than most poisons. This secondary effect ends only after a character succeeds at two consecutive Fortitude saving throws to resist secondary radiation damage. If a character has Strength damage equal to his current Strength score, further damage dealt a secondary effect is instead Constitution damage.
 
-Removing Radiation Effects: All radiation damage is a poison effect, and as such it can be removed with any effect that neutralizes poison. Ability damage and drain caused by radiation damage can be healed normally.
-**Table: Relativistic Signals
+**Removing Radiation Effects**: All radiation damage is a poison effect, and as such it can be removed with any effect that neutralizes poison. Ability damage and drain caused by radiation damage can be healed normally.
+
+**Table: Relativistic Signals**
 **Type	**Strength
 Equal to the relative variable	Equivalent
 -3 or less of the relative variable	Diluted
@@ -604,9 +618,10 @@ Equal to the relative variable	Equivalent
 +2 or more of the relative variable	Potent
 +3 or more of the relative variable	Astounding
 
-**Talent: Detection Mastery
-**Detector: Relativistic Signals (any)
-**Table: Temperatures
+**Talent**: Detection Mastery
+**Detector**: Relativistic Signals (any)
+
+**Table: Temperatures**
 **Temp (C/F)	**Reference Point	**Temp (C/F)	**Reference Point
 -273.15 / -459.67	Absolute zero	38 / 100	Desert temperatures
 -30/-22	Arctic temperatures	100 / 212	Water boils
@@ -618,27 +633,30 @@ Equal to the relative variable	Equivalent
 37/98	Average human temperature	1,500 / 2,750	Iron melts
 1 This is the temperature of an average creature of its type/subtype, and variance within said type/subtype is to be assumed.
 
-**Note: When using a heat sensor, GMs are encouraged to approximate an area’s temperatures. **Table: Temperatures provides average temperatures of common environments, locations, and creatures as suggestions and points of comparison.
-Innate Gizmos
-Some abilities may grant an “innate gizmo”, such as to a //mechanoid or a //prosthetic. Innate gizmos do not count against the crafter’s gizmo limit and are treated as though they were a gizmo the crafter crafted for all purposes (gaining any benefits or qualities that gizmo would have if the crafter made one normally).
+**Note**: When using a heat sensor, GMs are encouraged to approximate an area’s temperatures. **Table: Temperatures** provides average temperatures of common environments, locations, and creatures as suggestions and points of comparison.
 
-An innate gizmo is treated as being part of the “base” gizmo (the source of the innate gizmo, i.e. a //mechanoid or //prosthetic) and cannot be detached or removed from the base gizmo, nor can they be damaged separately from the base gizmo (unlike combined gizmos).
+++ Innate Gizmos
+Some abilities may grant an “innate gizmo”, such as to a //mechanoid// or a //prosthetic//. Innate gizmos do not count against the crafter’s gizmo limit and are treated as though they were a gizmo the crafter crafted for all purposes (gaining any benefits or qualities that gizmo would have if the crafter made one normally).
+
+An innate gizmo is treated as being part of the “base” gizmo (the source of the innate gizmo, i.e. a //mechanoid// or //prosthetic//) and cannot be detached or removed from the base gizmo, nor can they be damaged separately from the base gizmo (unlike combined gizmos).
 
 The following are additional rules and clarifications for innate gizmos belonging to certain gizmo types:
-•	//Mechanoid: A //mechanoid is always treated as wielding all of their innate gizmos and may activate them regardless of their available limbs (although may be unable to if restrained, subject to GM discretion). Innate gizmos are treated as one of the //mechanoid’s upgrades for all purposes.
-•	//Prosthetic: An innate gizmo granted to a //prosthetic can be wielded and used by the user without additional hands, even if it would ordinarily require a hand. An innate gizmo does not grant the user extra attacks.
-Scavenging Gizmos
+•	//Mechanoid//: A //mechanoid// is always treated as wielding all of their innate gizmos and may activate them regardless of their available limbs (although may be unable to if restrained, subject to GM discretion). Innate gizmos are treated as one of the //mechanoid’s upgrades for all purposes.
+•	//Prosthetic//: An innate gizmo granted to a //prosthetic// can be wielded and used by the user without additional hands, even if it would ordinarily require a hand. An innate gizmo does not grant the user extra attacks.
+
+++ Scavenging Gizmos
 Occasionally, a Tinker practitioner may come across gizmos crafted by other gizmo practitioners, who may be long gone. This can be a great way to introduce new Tinker traditions or provide unusual or lost technology.
 
 With a successful proficiency check (using the gizmo’s associated skill check), a Tinker practitioner can maintain a gizmo made by another crafter as though it were their own. A gizmo maintained this way cannot be altered or adjusted unless the crafter possesses the appropriate talents used to craft the gizmo, and their ranks in the associated skill equal or exceed the gizmo’s gizmo level; in effect, unless the Tinker practitioner could have built one themselves, they are only able to repair and maintain the gizmo in the state the crafter made it.
 
-Adjusting Scavenged Prosthetics: //Prosthetics can be adjusted for a new wearer, even if the tinker practitioner could not alter or adjust the //prosthetic normally, by succeeding at a proficiency check (using the //prosthetic’s associated skill check). For example, adjusting a //prosthetic arm designed for a massive draconid warrior to be worn by the human knight that bested it in combat.
-Sources of Mobility
+**Adjusting Scavenged Prosthetics**: //Prosthetics// can be adjusted for a new wearer, even if the tinker practitioner could not alter or adjust the //prosthetic// normally, by succeeding at a proficiency check (using the //prosthetic’s// associated skill check). For example, adjusting a //prosthetic// arm designed for a massive draconid warrior to be worn by the human knight that bested it in combat.
+
+++ Sources of Mobility
 The Pathfinder core rules do not cover how a creature with multiple types of movements can use them during the same turn (or multiple sources of the same type of movement, such as two different base speeds granted by various sources.
 
 This book suggests the following, when considering the Tinker sphere granting numerous different movement modes of the same kind (such as treads for difficult terrain, wheels for flat surfaces, and so on):
 
-Multiple Movement Modes: You may gain or grant different kinds of mobility (such as legs, wheels, or treads), that each provide separate benefits if used as your primary method of mobility. Whenever you move, you decide which movement modes (of each kind) to use. If you use multiple movement modes of the same kind (i.e. a land speed with 20 feet (“A”) and a land speed of 30 feet “(B”)), you could move 15 feet using “A” and then the remaining 15 feet with “B”, but if you already moved 15 feet with “B”, could only move up to 5 feet with “A”.
+**Multiple Movement Modes**: You may gain or grant different kinds of mobility (such as legs, wheels, or treads), that each provide separate benefits if used as your primary method of mobility. Whenever you move, you decide which movement modes (of each kind) to use. If you use multiple movement modes of the same kind (i.e. a land speed with 20 feet (“A”) and a land speed of 30 feet “(B”)), you could move 15 feet using “A” and then the remaining 15 feet with “B”, but if you already moved 15 feet with “B”, could only move up to 5 feet with “A”.
 
 If you have multiple sources of legs, add all types of ‘legs’ together to determine if you are a quadruped for carrying capacity and bonuses against being tripped.
 
