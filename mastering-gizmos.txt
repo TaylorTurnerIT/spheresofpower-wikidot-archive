@@ -69,9 +69,11 @@ For //prosthetics// which grant a body part, limb, or organ a creature does not 
 
 ++ Computation
 +++ Routine
-A //routine// is crafted and installed directly into an existing gizmo that you crafted (excluding batteries); a gizmo with an installed routine is referred to as the “host gizmo”. If a //routine// requires a battery, it must be attached to the host gizmo, and may deplete batteries attached to the host gizmo. A //routine// can be activated as long as its host gizmo is activated, and deactivates when the host gizmo is deactivated. If a //routine’s// host gizmo is destroyed, the //routine’s// stored data and other functions, if any, are unavailable but not destroyed or lost (and can be recovered and used normally once the host gizmo is repaired).
+A //routine// is crafted and installed directly into an existing gizmo that you crafted; a gizmo with an installed routine is referred to as the “host gizmo”. If a //routine// requires a battery, it must be attached to the host gizmo, and may deplete batteries attached to the host gizmo. A //routine// can be activated as long as its host gizmo is activated, and deactivates when the host gizmo is deactivated. If a //routine’s// host gizmo is destroyed, the //routine’s// stored data and other functions, if any, are unavailable but not destroyed or lost (and can be recovered and used normally once the host gizmo is repaired).
 
 //Routines// grant their benefits and effects to the host gizmo’s user while the host gizmo is active.
+
+**Author's Note**: A battery can be used as a "blank" gizmo to insert a //routine// or accommodation into, however, a any installed //routines// or other functions do not work if the battery is depleted due to the gizmo being turned off (just like a normal depleted, destroyed, or otherwise inactive gizmo).
 
 **Transferring Routines**: You can transfer an installed //routine// from one active gizmo you crafted to another gizmo you crafted within your reach as a swift action. This does not deactivate an active //routine// unless the gizmo it is installed into is deactivated. Transferring a //routine// whose battery use ability is active (and depleting a battery) ends that battery use ability upon transferring the //routine// (ending the battery use ability’s duration early). //Routines// can be transferred between deactivated gizmos.
 
