@@ -86,27 +86,42 @@ AI statistics and abilities are based on their gizmo level (including Hit Dice, 
 An AI’s creature type is construct, gaining a construct’s normal traits (except where otherwise noted).
 
 **Skill Ranks (Gizmo Level)**: The creator's ranks in the associated skill determine the maximum gizmo level your crafted AI can possess. An AI’s gizmo level is equal to the number of associated skill ranks required to construct it (determined when crafted), and determines its other abilities.
+
 **HD**: This is the total number of 10-sided (d10) Hit Dice the AI possesses. Unlike other creatures, AI do not have hit points (and are active and “alive” when inside an active housing gizmo). An AI’s Hit Dice are used solely to determine its statistics, effects, and abilities dependent on Hit Dice. AI do not automatically gain Hit Dice when their creator gains ranks, but can be improved as a project to increase its Hit Dice. Generally, an AI’s CR is equal to its Hit Dice - 2 for purposes that require it.
+
 **BAB**: This is the AI’s base attack bonus.
+
 **Base Saves**: This is the AI’s base saving throw modifier for its Fortitude, Reflex, and Will saving throws. An AI has good Fortitude, Reflex, and Will saves.
+
 **Practitioner Bonus**: AI receive a bonus to their practitioner ability score. AI are considered practitioners even if they lack any combat talents and can maintain martial focus. An AI’s practitioner modifier is defined by their classification.
+
 **Feats**: An AI begins with 1 feat, and gains an additional feat every odd Hit Dice. An AI may select any feat it qualifies for except feats that grant it casting or magic (such as Basic Magic Training) or any other ability that cannot be possessed by a subordinate.
 
 AI uniquely qualify for any feat with a prerequisite physical ability score but can only use and benefit from a feat (or any feats or abilities that rely on that feat as a prerequisite) while installed in a host gizmo with physical ability scores that meet the prerequisite. AI cannot possess any feats that modify their body (such as increasing its hit points or natural armor bonus, polymorph effects, and similar).
+
 **Talents**: AI gain combat talents with the proficient progression (this may be altered by the AI’s classification). AI are innately aware of how to use their talents, and gain bonus skill ranks from spheres with associated skills as normal. Mindless AI may only use skills granted by their talents as appropriate to use their sphere talents.
+
 **Ability Score Increase**: The AI adds +1 to one of its ability scores (limited to Intelligence, Wisdom, and Charisma) as normal for advancement in Hit Dice.
 
 __Other Statistics__
 In addition to the statistics and advancement from Table: AI Advancement, AI also possess the following qualities at base (before being modified by their classification and other effects):
 
 **Ability Scores**: AI determine their base mental ability scores based on their classification. Any DCs or other statistics that rely on a physical ability score treat an AI as having a score of 10 (no bonus or penalty). If installed in a //mechanoid// (or otherwise given a body with physical statistics), the AI uses the physical ability scores of that mechanoid.
+
 **Ability Score Increase**: Just like a character or monster, an AI gains a permanent +1 bonus to an ability score of their choice for every 4 Hit Dice possessed.
+
 **Classification**: All AI are crafted with a classification, a package of abilities and qualities that determine the AI’s starting functions. Unless otherwise stated, abilities granted by an AI’s classification are extraordinary abilities.
+
 **Creator Initiative**: AI act on their creator’s turn (or user, if their host gizmo is in the possession of another creature). If an AI is an independent creature (such as an AI-piloted //mechanoid//), it acts on its creator’s initiative unless their creator is not present for the encounter.
+
 **Gizmo DC**: The Gizmo DC of an AI’s abilities (if one is called for) is equal to 10 + 1/2 the AI’s gizmo level + the AI’s practitioner modifier.
+
 **Magic Items**: AI do not have any magic item slots of their own. They instead benefit from any magic items worn by the gizmo they are controlling (if it is a body capable of wearing magic items). Unless otherwise stated, a gizmo does not have any magic item slots.
+
 **Proficiency**: AI are proficient with all simple manufactured weapons as well as any natural attacks or unarmed strikes of their host gizmo. AI cannot use weapons unless their host gizmo is capable of using weapons (i.e. mechanoids).
+
 **Routine**: Each AI classification possesses a //routine// effect that is granted to both the host-gizmo’s user and to the AI.
+
 **Skills**: An AI’s class skills and skill ranks per Hit Dice are determined by their classification, modified by their Intelligence bonus as normal. Each classification stat block includes their base skill ranks for level (adjusted for Intelligence bonus).
 
 +++ AI Classifications
@@ -196,27 +211,43 @@ While an AI can be programmed for any number of tasks, the AI still requires an 
 An AI can be taught a task from the following list, with other tasks available subject to GM discretion:
 
 **Aid (DC 15)**: The AI can perform the aid another action to aid yourself or an ally in combat against a specific foe. If the AI is trained in a skill, it can also use the aid another action with that skill to assist a specified individual.
+
 **Attack (DC 20)**: The AI will attack apparent enemies or obstacles. Specified foes or objects can be designated. The AI can be instructed to remain in melee with foes or try to remain at a distance and attack from a range. AI will focus on killing their target in the most straightforward manner using direct damage over any sort of combat tricks, or environmental maneuvers.
+
 **Come (DC 0)**: The AI will go to the targeted area and individual and can also be told to follow said target. This task can also be used to make an AI stand down from any other current task it is doing, by being told to simply stay in place. The AI may be commanded to stay in place completely still giving the impression it has been deactivated. This deception can be noticed with a successful DC 20 Perception check. Every AI knows this task automatically without counting towards the limited number of tasks they may know.
+
 **Deliver (DC 10)**: The AI will deliver a message, or an item, or a person (either by letting them ride on them or by escorting them) to a specified location or person. It can instead fetch a specified target instead of delivering one.
+
 **Free Self (DC 10)**: The AI will actively try to escape any bindings such as being in a cage or being tied up. The command can also be used to try to get the AI to knock off any of its current riders with an opposing Strength check.
+
 **Guard (DC 20)**: The AI will guard a target person or area. It can be made to guard the target so it cannot move freely or leave an area, or guard them to protect them from outside harm or injury.
-**Routine (DC 5)**: The AI will make function like a //routine// for its owner until given the command to stop.
+
 **Maneuver (DC 25)**: The AI will engage in specified combat maneuvers, as well as demoralization and feinting. It can be commanded to use the environment in a specific way (such as push a foe off a cliff) or engage in more complex combat situations (such as prioritizing flanking a foe over other mobility options). This task may only be programmed if the AI already knows the attack task.
+
 **Rescue (DC 20)**: The AI will take a target out of danger. It can also be programmed to make specific creatures alert of the target's status, such as to attract medical aid to a being in need of assistance.
+
 **Retreat (DC 20)**: The AI will stop any attacks it is doing and retreat from the combat or dangerous scenario to a specified location or person. It will take any defensive actions required to protect itself, but not engage in any aggression itself.
+
+**Routine (DC 5)**: The AI will make function like a //routine// for its owner until given the command to stop.
+
 **Serve (DC 10)**: The AI can be programmed to take commands from other creatures as determined by the programmer, as well as serve as //routines// for them, as long as the AI can perform the task normally.
+
 **Speak (DC 15)**: The AI is programmed to engage in basic conversation. The conversation is primitive and is only the AI really responding with pre-programmed results. As an example; AI can flatter its master on their choice of attire, or demand that unauthorized personnel leave an area, but outside of a specific set of circumstances the AI has nothing to say, and will resort to error messages.
+
 **Subdue (DC 15)**: The AI is programmed to take down a target with nonlethal attacks. The AI must possess the attack task before being programmed with this one.
+
 **Track (DC 15)**: The AI tracks the tracks or scent presented to it. This requires the AI to be trained in Survival, or have the scent ability.
+
 **Use Gizmo (DC 10)**: The AI is programmed to use a single kind of gizmo. This can be its host gizmo, or a gizmo that it is capable of wielding with its host gizmo (such as a combined gizmo, or gizmo held by a //mechanoid// body). This task can be programmed multiple times for different gizmos. A //mechanoid// and any of its innate gizmos are treated as a single gizmo for this task.
+
 **Use Spell (DC 15)**: The AI is programmed to receive and use a specific spell (chosen at the time of programming), allowing it to fully take advantage of the spell’s effects. The spell should be one that grants the AI an ability it might not normally be intelligent enough to make use of or one that it might not even realize it has (such as //telepathy//). The AI is able to recognize when it has been affected by this spell and can take full advantage of the spell’s effects. At the GM’s discretion, an AI can also be programmed to receive certain non-spell effects, such as those granted by a //wand of fireballs//. The AI can be programmed for this task multiple times; each time it learns this task, it becomes trained to utilize a different spell effect.
+
 **Watch (DC 20)**: The AI can be told to keep watch over a specific area and sound an alert if unplanned activity or unauthorized personnel enter it. It can be instead programmed to seek out specific stimuli or people using whatever sensors it possesses.
+
 **Work (DC 10)**: The AI engages in basic menial labor or performs basic entertaining tricks or performances. If the AI has skill points in Craft, Perform, or Profession it will engage in said skills.
 
 ++ Using AI
-Installing AI into Gizmos
-AI //routines// can be installed and transferred into gizmos the same as a normal //routine//. An AI installed in its host gizmo is referred to, collectively, as an AI-hosted gizmo. Multiple AI can be installed in the same host gizmo, however, only one AI can control the host gizmo during a single round (see below for Multiple and/or Competing AI).
+**Installing AI into Gizmos:** AI //routines// can be installed and transferred into gizmos the same as a normal //routine//. An AI installed in its host gizmo is referred to, collectively, as an AI-hosted gizmo. Multiple AI can be installed in the same host gizmo, however, only one AI can control the host gizmo during a single round (see below for Multiple and/or Competing AI).
 
 **Installing AI into Combined Gizmos**: When installing an AI into a combined gizmo, the crafter may choose to install the AI into any number of the combined gizmo’s component gizmos (granting the AI access to the functions and abilities of each of those component gizmos). This may also be done as part of crafting a combined gizmo in such a way that an AI installed into it (at any point) may control any number of its combined parts.
 
@@ -224,27 +255,38 @@ AI //routines// can be installed and transferred into gizmos the same as a norma
 When installed in a gizmo, an AI shares some of its statistics with the host gizmo, but relies on the host gizmo for many of its physical statistics. The rules presented here are for an ordinary gizmo hosting an AI (with additional stipulations for AI-hosted //mechanoid// below).
 
 **Hit Dice**: The AI-hosted gizmo is treated as having the same number of Hit Dice as the installed AI for effects that depend on Hit Dice, but uses its host gizmo’s hit points.
+
 **Senses**: The AI gains awareness of its host gizmo (its own health and structural integrity, the capabilities of its host gizmo, etc.) but does not gain any senses that the gizmo does not possess itself. An AI may benefit from senses its host gizmo would grant its user (such as an eye or ear //prosthetic//) but otherwise does not gain senses or the ability to observe its surroundings without other abilities or effects. A common way to grant AI senses and capacity is to use the sensory gizmos granted by the Sensory Set talent (microphone, camera, etc.) to allow the AI to see, hear, smell, speak, etc. through those gizmos.
 
 An AI can communicate using its host gizmo, provided it possesses the display and input accommodation (displaying text on the screen) or a voice or other means of making sound (such as a playback device).
+
 **Saves**: The AI-hosted gizmo uses the AI’s Will saving throw and the host gizmo’s Fortitude and Reflex saving throws.
+
 **Defenses**: The AI-hosted gizmo uses the host gizmo's hit points, AC, and other physical defensive abilities (such as hardness), as well as weaknesses (such as a vulnerability to a specific type of damage).
 
-
 However, the AI-hosted gizmo still counts as an object for the purposes of effects that deal more damage to objects. An AI-hosted gizmo in the possession of another creature must be sundered, as though sundering the user.
+
 **Attacks**: AI-hosted gizmos may make attacks, but without senses or some means of movement, cannot articulate, manipulate, or position themselves. An AI-hosted firearm gizmo could theoretically fire itself, but could not orient, position, or reload itself unless the gizmo would normally be capable of such actions.
+
 **Ability Scores**: The AI-hosted gizmo does not possess a Strength or Dexterity score (treated as a score of “–”), and uses the AI’s Intelligence, Wisdom, and Charisma. The AI is not rendered unconscious or inhibited by lacking a Strength or Dexterity score and can use its housing gizmo to perform its normal functions (such as an AI controlling a conveyor belt could still operate that conveyor belt).
+
 **Skills and Feats**: The AI-hosted gizmo uses the AI’s skills and feats.
+
 **Gizmo Level**: The AI-hosted gizmo uses the host gizmo or AI’s gizmo level, whichever is lower, when determining any effect or statistic dependent on gizmo level (such as defenses, abilities, Tinker sphere DC, etc.).
+
 **Other**: The AI-hosted gizmo uses the AI’s alignment, initiative, languages and other such features.
-Installing AI into Mechanoids
+
+++++ Installing AI into Mechanoids
 AI can be installed into //mechanoids// as though installing a //routine//. AI are able to easily control and pilot a //mechanoid// as though it were its own body (and treats that //mechanoid// as an attended object while controlling it). An AI installed into a //mechanoid// is referred to as an AI-controlled //mechanoid//.
 
 In addition to the changes for an AI-hosted gizmo, an AI-controlled //mechanoid’s// abilities and statistics function as follows:
 
 **Physical and Mental Statistics**: The AI-controlled //mechanoid// uses the Hit Dice of its host-gizmo //mechanoid// for its basic physical statistics (such as determining its physical ability scores, Fortitude and Reflex saving throws, movement speeds, etc.), and uses its AI statistics for any other effects (such as its base attack bonus, mental ability scores, Will saving throws, feats, mind-affecting effects, etc.). Mind-affecting and other targeted effects affect the AI controlling the //mechanoid//.
+
 **Proficiency**: The AI-controlled //mechanoid// retains the proficiencies (armor, weapon, etc.) of both the AI and the //mechanoid//.
+
 **Skills, Feats & Talents**: If a //mechanoid// possess its own skills, feats, talents, or other similar abilities, the AI-controlled mechanoid may use its //mechanoid// skill bonuses (if better) but may only use the feats and abilities of either the AI or the //mechanoid//, chosen at the start of the AI-controlled mechanoid’s turn. For example, the AI-controlled mechanoid could use its //mechanoid// bonuses to Acrobatics granted by its upgrades, but would need to choose whether it had access to its own talents or the //mechanoids// (if any).
+
 **Pilots**: An AI-controlled //mechanoid// is treated as the //mechanoid’s// pilot for effects and abilities, but may still be piloted as a normal //mechanoid//. During any round the AI-controlled //mechanoid// is controlled by another creature (usually by piloting), the AI-controlled //mechanoid// cannot use any abilities or take actions which require the //mechanoid’s// body (physical actions, such as moving, attacking, etc.).
 
 If a //mechanoid// would be piloted or controlled against the controlling AI’s will (such as a competing pilot, a //control construct// spell, etc.), the pilot must succeed at a proficiency check, taking a penalty to this check equal to 2 + the AI’s practitioner modifier.
@@ -261,11 +303,11 @@ AI are able to use certain gizmos more freely (subject to GM discretion). If an 
 **AI using Routines**: AI can use //routine// installed in their host gizmo as if they were the gizmo’s wielder.
 
 **Multiple and/or Competing AI**:
-* Cooperating AI: Multiple AI that are not competing for control (such as ones allied to one another) may “take turns” controlling their housing gizmo normally, provided they can cooperate, or otherwise support one another as passive routines. In essence, a single host gizmo with multiple AI cannot perform more than a “normal turn” of actions with the gizmo, but could potentially share or distribute actions being contributed to the gizmo.
-* Competing AI: If one or more AI would be activated to control the host gizmo that already has a controlling AI, and the controlling AI does not want to lose control of the host gizmo, each competing AI attempts an opposed gizmo penetration check (1d20 + its gizmo level); an AI with 4 or more gizmo levels than another competing AI gains an additional +4 to their check (compared to that AI). The AI with the highest result takes control of the host gizmo for that round, with a new opposed gizmo penetration check each round.
-
-If a competing AI has not been in control of the host gizmo for at least 3 rounds, it loses the ability to compete for control of the gizmo until the AI in control of the gizmo relinquishes control.
-
+* **Cooperating AI:** Multiple AI that are not competing for control (such as ones allied to one another) may “take turns” controlling their housing gizmo normally, provided they can cooperate, or otherwise support one another as passive routines. In essence, a single host gizmo with multiple AI cannot perform more than a “normal turn” of actions with the gizmo, but could potentially share or distribute actions being contributed to the gizmo.
+* **Competing AI:** If one or more AI would be activated to control the host gizmo that already has a controlling AI, and the controlling AI does not want to lose control of the host gizmo, each competing AI attempts an opposed gizmo penetration check (1d20 + its gizmo level); an AI with 4 or more gizmo levels than another competing AI gains an additional +4 to their check (compared to that AI). The AI with the highest result takes control of the host gizmo for that round, with a new opposed gizmo penetration check each round. _
+ _
+If a competing AI has not been in control of the host gizmo for at least 3 rounds, it loses the ability to compete for control of the gizmo until the AI in control of the gizmo relinquishes control. _
+ _
 **Already-Animated Host Bodies**: With the exception of //mechanoids//, an AI installed into a host gizmo that can already act as an independent creature due to another effect cannot be automatically controlled by an AI (such as an object made into a creature with an //awaken// or //animate object// spell effect). If an AI wants to control its host gizmo, it may attempt a gizmo penetration check against the animating effect’s magic skill defense (or other relevant statistic). On a successful check, the magical effect is suppressed and the AI takes control of the host gizmo. If the host gizmo is intelligent, it may attempt to reassert control (as though it were an activated, competing AI).
 
 + Mechanoid
@@ -338,12 +380,19 @@ A Tinker sphere practitioner may craft any number of //mechanoids// provided tha
 A //mechanoid’s// creature type is construct, gaining a construct’s normal traits (except where otherwise noted).
 
 **Skill Ranks (Gizmo Level)**: Your skill ranks in the associated skill determine the maximum gizmo level your crafted //mechanoid// can possess. A //mechanoid’s// gizmo level is equal to the number of associated skill ranks required to construct it (determined when crafted), and determines its other abilities.
+
 **Hit Dice**: This is the total number of 10-sided (d10) Hit Dice the //mechanoid// possesses. As a construct, //mechanoids// do not receive bonus hit points from their Constitution modifier. Generally, a //mechanoid's// CR is equal to its Hit Dice - 2 for purposes that require it. An unpiloted //mechanoid// has an effective CR of 0.
+
 **Base Saves**: This is the //mechanoid's// base saving throw modifier for its Fortitude, Reflex, and Will saving throws. A //mechanoid// has poor Fortitude, Reflex, and Will saves.
+
 **Natural Armor Bonus**: This is the //mechanoid’s// base natural armor bonus of +4. This bonus improves +1 per 2 Hit Dice (effectively +1/2 per Hit Dice).
+
 **Ability Bonus**: The //mechanoid// adds this bonus to both the //mechanoid’s// Strength and Dexterity scores. This bonus improves +2 per 3 Hit Dice (effectively +2/3 per Hit Dice). The crafter may choose to decrease the granted bonus to one of the two scores by any increment of 2, increasing the other by +1 per increment (such as +6/+6 being adjusted to +2/+8).
+
 **Bonus Hit Points**: The //mechanoid// gains +4 extra hit points per Hit Dice. They do not gain additional hit points based on size.
+
 **Upgrades**: The //mechanoid// starts with 5 upgrades, +1 per 2 Hit Dice.
+
 **Ability Score Increase**: The //mechanoid// adds +1 to one of its ability scores (limited to Strength and Dexterity, unless it gains other ability scores) as normal for advancement in Hit Dice.
 
 +++ Mechanoid Base Form and Statistics
@@ -382,7 +431,7 @@ A latch may be forced open as a standard action; treat this as a grapple maneuve
 * **Innate Augmentation (upgrade) (requires (augmentation) package)**: The //mechanoid// is crafted with an //augmentation// as an innate gizmo. The chosen //augmentation// must be one you could craft. This upgrade may be granted more than once, each time granting an //augmentation// to the //mechanoid//.
 * **Innate Modification (upgrade) (requires (modification) package)**: The //mechanoid// is crafted with a //modification// as an innate gizmo. The chosen //modification// must be one you could craft. This upgrade may be granted more than once, each time granting an //modification// to the //mechanoid//.
 * **Innate Prosthetic (upgrade)**: The //mechanoid// is crafted with an innate //prosthetic// of any kind you could craft. The //mechanoid// treats a //prosthetic// granted this way as a natural extension of the //mechanoid’s// body (as though it had that body part naturally, and could use it normally). The crafter may modify an innate //prosthetic// the same as they could modify a //prosthetic// they craft normally. If you do not possess the (augmentation) package, you may only grant the following basic //prosthetic//: arm (or pair of arms), head (granting sight, hearing, smell, and speech), or leg (or pair of legs) and cannot grant this //prosthetic// a secondary function. See **Section 4.1: Mastering Gizmos, Natural Prosthetics** for more information on these basic //prosthetic//.
-
+ _
 Body parts and limbs granted this way, past the first //prosthetic// of its kind, never grant the //mechanoid// additional attacks (but may still be used to wield or threaten an attack of opportunity with a weapon, and so on) unless the crafter possesses the Advanced Prosthetics talent and could craft natural //prosthetics// normally.
 * **Passenger Seats (upgrade)**: The //mechanoid// can carry a total number of Medium creatures equal to twice its size category (4 Medium creatures can fit inside a Large //mechanoid//, 8 Medium creatures can fit inside a Huge //mechanoid//, etc.), which is modified for their size category (Small counts as half a Medium, and Large counts as double a Medium). Creatures can mount or dismount the //mechanoid// as a move action and gain partial cover while mounted. Any creature seated in the //mechanoid// is referred to as a “passenger”. _
  _
