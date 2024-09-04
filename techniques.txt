@@ -100,13 +100,15 @@ You may increase a technique’s complexity by 1 to allow it to be initiated in 
 || Decrease range or duration by 1 step. || -1 ||
 || Changing a personal effect to ‘touch’ || +1 ||
 || Multiple characters perform the Technique || -2 for each additional performer (determined at time of performance) ||
-|| Drawpower (target draws cards) (Requires Card Casting) || +1 per 2 cards drawn ||
 || Instant Initiation (use as immediate action if any part can be used as immediate action) || +1 ||
 || Interminate (can’t be dispelled, but lasts for CAM rounds) || +2 ||
+|| Versatile Technique (alternate mode of use) || +1 for each alternate mode ||
+||~ Card Casting Complexity Changes ||
+|| Drawpower (target draws cards) (Requires Card Casting) || +1 per 2 cards drawn ||
 || Millpower (target or user discards cards from their deck) || +1 +1 for every card from hand/2 cards from deck ||
 || Token Mana (creates one-use mana cards) (requires Card Casting and Mana Pool) || +1 for every card created ||
 || Tutored Magic (searches deck for an effect) (requires Card Casting) || Cost various based on search ||
-|| Versatile Technique (alternate mode of use) || +1 for each alternate mode ||
+
 
 ++ Learning Techniques
 A character who creates a technique automatically knows the technique, and can teach it to others either directly or through scribing it in a technique script. The character learning the technique directly must spend at least one hour studying with someone who knows the technique for every point of the technique’s complexity, and must attempt a skill check with a DC of 10 + 2 x the complexity of the technique. The skill check made must use one of the skills used to create the technique. A character need not know all of the talents used in the creation of a technique to learn the technique, but must have access to all of them in various forms (be it from knowledge, magic items that replicate the talent, or allies in the case of multi-character techniques) in order to perform the technique.
