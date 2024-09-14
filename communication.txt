@@ -27,6 +27,11 @@ title:Communication
 **Spheres of Guile**
 $24.99
 ----
+[[image https://spheresofpower.wdfiles.com/local--resized-images/communication/harmony/small.jpg link="https://www.drivethrurpg.com/en/product/492540/diamond-spheres-harmony-and-discord?affiliate_id=3028400"]]
+**Diamond Spheres: Harmony & Discord**
+$6.99
+----
+
 [[/=]]
 [[/div]]
 Operatives of the Communication sphere are skilled at clear speech, clever wordplay, persuasive rhetoric, and translation across all sorts of differences. They can easily understand other creatures despite language barriers. Others listen to the operative and weigh their words seriously.
@@ -60,6 +65,11 @@ If you target a creature who already shares a rapport with someone else, you can
 ++ ##4B0092|Communication Talent Types##
 Some Communication talents have the (rapport) tag described below.
 
+++++ Assist [DRS]
+^^**Source:** [https://www.drivethrurpg.com/en/product/492540/diamond-spheres-harmony-and-discord?affiliate_id=3028400 Diamond Spheres: Harmony & Discord]^^
+
+Some talents possess the (assist) tag, granting you expanded options when you use the aid another action. Whenever you use the aid another action as a standard, move, swift, or immediate action, you can apply any amount of applicable (assist) talents to the action. Such talents may have greater benefits if used on a creature that shares your rapport.
+
 ++++ Rapport
 (Rapport) talents grant additional benefits to creatures you form a rapport with. You may only apply the effects of a single (rapport) talent when forming a rapport, or two talents if one of them has the [utility] tag. These talents provide a benefit to all creatures that share your rapport, which always includes you (unless noted otherwise).
 ----
@@ -69,6 +79,24 @@ You can decipher script or read lips at a distance of up to close range (25 feet
 
 ++++ Beast Whisperer [utility]
 You can communicate and understand simple concepts with any animal, magical beast, or vermin that lacks a language. Its comprehension is limited by its Intelligence, but even a mindless creature can understand simple directions to food or warnings about danger. You take a –4 penalty on skill checks that would otherwise be impossible to attempt with the creature. You can use the associated skill in place of Handle Animal to push an animal. In addition, you unlock skill leverage with Handle Animal.
+
+++++ Briber [utility] [DRS]
+^^**Source:** [https://www.drivethrurpg.com/en/product/492540/diamond-spheres-harmony-and-discord?affiliate_id=3028400 Diamond Spheres: Harmony & Discord]^^
+
+Whenever you bribe a creature, you treat their level as being 2 lower for determining how many gold pieces they expect (see bribes). You can spend 1 use of skill leverage when attempting to bribe a creature to treat their level as being 1 additional lower, plus 1 per 5 ranks in the sphere’s associated skill you possess.
+
+You gain a +2 bonus to Diplomacy checks made to bribe someone and to Diplomacy and Charisma checks made to bargain with a conjured creature (such as with planar ally or planar binding), increasing by 1 per 5 ranks in the sphere’s associated skill you possess.
+
+Additionally, the first time a specific creature refuses a bribe that you offer, their attitude towards you does not worsen (even if the attempt would normally offend them). Plus, a creature that you fail to bribe only reports you to the authorities (or their equivalent) if you fail the attempt by 5 or more.
+
+**Associated Feat:** Persuasive Bribery (//Ultimate Intrigue//).
+
+++++ Candid Disclosure [utility] [DRS]
+^^**Source:** [https://www.drivethrurpg.com/en/product/492540/diamond-spheres-harmony-and-discord?affiliate_id=3028400 Diamond Spheres: Harmony & Discord]^^
+
+You can outwit a creature by baring your soul to them (new skill use) with a major motivation or comparable secret that they are unaware of (subject to GM discretion), although the creature receives a Will saving throw to negate the outwit attempt unless the revealed motivation closely aligns with one of their own major motivations. On a successful save, the action or ability used to outwit functions without the additional benefit due to outwitting (as long as it can function, otherwise the action is wasted).
+
+**Special:** If you possess the Heart to Heart talent, if you attempt to outwit an unfriendly or hostile creature by baring your soul to them and they share your rapport, they do not gain a saving throw to negate the outwit attempt.
 
 ++++ Careful Liar [utility]
 You carefully phrase your lies to prevent their implications from being as obvious, talking circles around your target. You can use your Linguistics modifier in place of Bluff to pass a secret message at no penalty. As long as you take at least 1 round to lie or convey an implausible truth (like casting a spell with a 1 round casting time), you can use your Linguistics modifier for the Bluff check. For every 2 ranks in the associated skill you possess, you reduce penalties for unlikely, far-fetched, or impossible claims by 1 as long as you spent at least 1 round making the attempt. (Successfully telling an impossible lie still merely convinces the target you are honestly mistaken.)
@@ -126,7 +154,7 @@ You can also attempt to change a creature’s attitude over the course of 1 roun
 
 You take a –20 penalty on your check if the target has time-limited tactical advantages such as short-duration spells in effect. If you succeed, the target cannot take hostile actions against you without succeeding at a Will saving throw for 1 minute or until you or your apparent allies take a hostile action. On a failed save, the creature can choose a different action.
 
-**Associated Feat:** Call Truce (Pathfinder Roleplaying Game Ultimate Intrigue).
+**Associated Feat:** Call Truce (//Pathfinder Roleplaying Game Ultimate Intrigue//).
 
 ++++ Polyglot [utility]
 You learn 3 languages, plus 1 language for every rank you have in Linguistics. When you gain a rank in Linguistics, you learn an additional language beyond the 1 you usually learn. If you gained this talent temporarily, you must choose languages known by allies within 60 feet whom you already shared a language with.
@@ -159,50 +187,134 @@ You are a master of demonstrating you are dangerous through very subtle, clever 
 You can gather information in 1d4 x 10 minutes or as a plan. Revealing this plan is a swift action. When you reveal this plan, you attempt a Diplomacy check to gather information. You can take 10 on this check.
 
 In addition, when you request someone give you information, you can spend 1 use of skill leverage to goad them into accidentally telling you more than they meant to. That might mean giving you a partial clue even while refusing or spilling a vital tactical detail when they meant to just give you a vague outline of the situation. You cannot coax extra information out of the same person this way again for 24 hours.
-----
-++ ##4B0092|Rapport Talents##
-++++ Bolstering Rapport (rapport)
-Creatures that share your rapport understand each other well enough to share their willpower. Whenever a creature sharing your rapport (including you) attempts a Will saving throw, another creature sharing the rapport may spend an immediate action to attempt a skill check with the associated skill against the DC of the saving throw; if successful, the saving throw is attempted with a +2 morale bonus. This can be used after the result of the roll to change the outcome, and both allies must be able to see or hear each other to give an encouraging word, meaningful glance, or other sign of support.
 
-Similarly, a creature sharing your rapport can spend an immediate action when an enemy attempts an Intimidate check against another creature sharing your rapport with to grant a +4 morale bonus to the DC of the check.
+----
+++ ##4B0092|Assist and Rapport Talents##
+++++ Bolstering Rapport (rapport)
+Creatures that share your //rapport// understand each other well enough to share their willpower. Whenever a creature sharing your //rapport// (including you) attempts a Will saving throw, another creature sharing the //rapport// may spend an immediate action to attempt a skill check with the associated skill against the DC of the saving throw; if successful, the saving throw is attempted with a +2 morale bonus. This can be used after the result of the roll to change the outcome, and both allies must be able to see or hear each other to give an encouraging word, meaningful glance, or other sign of support.
+
+Similarly, a creature sharing your //rapport// can spend an immediate action when an enemy attempts an Intimidate check against another creature sharing your //rapport// with to grant a +4 morale bonus to the DC of the check.
 
 These benefits increase by 1 for every 6 ranks you possess in the sphere’s associated skill.
 
-++++ Clockwork Coordination (rapport)
-You can coordinate a collaborative project as flawlessly as if the collaborators shared one mind. When a creature who shares your rapport successfully aids another creature who shares your rapport with a skill use, the recipient of the aid can forgo the bonus in order to complete the skill use faster. You cannot use Clockwork Coordination on a skill use that cannot benefit from aid another, and neither the aid another action nor the aided skill use can be combined with other actions (for example, Acrobatics is always combined with other move actions). If the skill use would normally take 2 rounds or longer, the recipient of the aid finishes in half the time. If the skill use would normally take 1 round or less, reduce the time it takes by one step along this list: 1 round, 1 full-round action, 1 standard action, 1 move action, 1 swift action, 1 immediate action (taken at the end of the turn the aid was received).
+++++ Brief Help (assist) [DRS]
+^^**Source:** [https://www.drivethrurpg.com/en/product/492540/diamond-spheres-harmony-and-discord?affiliate_id=3028400 Diamond Spheres: Harmony & Discord]^^
 
+You can aid another as a move or swift action. At 5 ranks in this sphere’s associated skill, you can aid another as an immediate action. At 10 ranks in this sphere’s associated skill, you can aid another as a free action once per round; an aid another performed this way may benefit from (assist) talents.
+
+**Associated Feat:** Swift Aid (//Advanced Player's Guide//).
+
+++++ Clockwork Coordination (assist, rapport)
+You can coordinate a collaborative project as flawlessly as if the collaborators shared one mind. When a creature who shares your //rapport// successfully aids another creature who shares your //rapport// with a skill use, the recipient of the aid can forgo the bonus in order to complete the skill use faster. You cannot use Clockwork Coordination on a skill use that cannot benefit from aid another, and neither the aid another action nor the aided skill use can be combined with other actions (for example, Acrobatics is always combined with other move actions). If the skill use would normally take 2 rounds or longer, the recipient of the aid finishes in half the time. If the skill use would normally take 1 round or less, reduce the time it takes by one step along this list: 1 round, 1 full-round action, 1 standard action, 1 move action, 1 swift action, 1 immediate action (taken at the end of the turn the aid was received).
+
+++++ Collaborative Research (assist) [utility] [DRS]
+^^**Source:** [https://www.drivethrurpg.com/en/product/492540/diamond-spheres-harmony-and-discord?affiliate_id=3028400 Diamond Spheres: Harmony & Discord]^^
+
+Whenever a creature attempts a Knowledge or Lore check, you can use the aid another action to improve the check as a free action usable outside of your turn–you must be aware of the ally’s check to attempt to aid it, and doing so requires them to be able to perceive you.
+
+If a creature aided this way shares a //rapport// with you and your aid another check is successful, you also learn any information the aided creature learns from their successful check (as if you had also succeeded on that check); if this check would give additional pieces of useful information when exceeding the check’s DC, both you and the aided creature receive 1 additional piece of useful information. Regardless of the results of the check, you cannot attempt to recall information on the same topic.
+
+**Associated Feat:** Collective Recollection (//Pathfinder Society Primer//).
+    
 ++++ Communal Pidgin (rapport) [utility]
-Each creature who shares your rapport can understand simple concepts conveyed in any language known to any creature who also shares your rapport and can likewise convey simple concepts to a creature who shares any of those languages. This allows them to communicate with others who do not share your rapport without requiring an ally to translate as long as the concept is simple. When a creature joins this rapport, they can choose any number of languages they know to withhold from the group (for example, druids are required by their oaths to withhold Druidic). You can proficiently speak and understand all the languages of each creature who shares your rapport if you know one of their major motivations and they know one of yours.
+Each creature who shares your //rapport// can understand simple concepts conveyed in any language known to any creature who also shares your //rapport// and can likewise convey simple concepts to a creature who shares any of those languages. This allows them to communicate with others who do not share your //rapport// without requiring an ally to translate as long as the concept is simple. When a creature joins this rapport, they can choose any number of languages they know to withhold from the group (for example, druids are required by their oaths to withhold Druidic). You can proficiently speak and understand all the languages of each creature who shares your //rapport// if you know one of their major motivations and they know one of yours.
 
 ++++ Communication Coach (rapport)
-You choose one Communication talent you possess and temporarily grant it to each creature that shares your rapport. It must not be an exceptional talent. This counts as a [utility] talent for your count of (rapport) talents applied to a rapport if the talent you grant to others has the [utility] tag.
+You choose one Communication talent you possess and temporarily grant it to each creature that shares your rapport. It must not be an exceptional talent. This counts as a [utility] talent for your count of (rapport) talents applied to a //rapport// if the talent you grant to others has the [utility] tag.
 
 **GM’s Note:** Some talents might not make sense to grant this way, so it is best to go over the talents a character might grant this way before they come up in play.
 
-++++ Corrective Advice (rapport) [utility]
-Your allies are quick to view their efforts from another perspective when collaborating with a skill. When any creature that shares your rapport successfully uses the aid another action with a skill they are trained in, they grant an additional +1 competence bonus on the aided check. The bonus increases by 1 for every 6 ranks you possess in the associated skill.
+++++ Corrective Advice (assist, rapport) [utility]
+Your allies are quick to view their efforts from another perspective when collaborating with a skill. When any creature that shares your //rapport// successfully uses the aid another action with a skill they are trained in, they grant an additional +1 competence bonus on the aided check. The bonus increases by 1 for every 6 ranks you possess in the associated skill.
 
-In addition, if a creature who shares your rapport fails on a skill check that another creature sharing the rapport aided, either one of them (but not both) can spend 1 use of skill leverage as a free action even if it’s not their turn to allow the failing creature to roll again (still with the bonus from aid another) and use the new result (even if it is worse). Either the creature who failed or the creature who aided must have unlocked skill leverage with that skill to spend it this way.
+In addition, if a creature who shares your //rapport// fails on a skill check that another creature sharing the //rapport// aided, either one of them (but not both) can spend 1 use of skill leverage as a free action even if it’s not their turn to allow the failing creature to roll again (still with the bonus from aid another) and use the new result (even if it is worse). Either the creature who failed or the creature who aided must have unlocked skill leverage with that skill to spend it this way.
+
+++++ Defensive Blockade (assist) [DRS]
+^^**Source:** [https://www.drivethrurpg.com/en/product/492540/diamond-spheres-harmony-and-discord?affiliate_id=3028400 Diamond Spheres: Harmony & Discord]^^
+
+Whenever you improve an ally’s AC using aid another, the bonus granted increases to +3. This increases by 1 per 10 ranks in the associated skill you possess.
+
+If you improve an ally’s AC using aid another, the aided ally also gains one of the following benefits against that opponent for the aid another effect’s duration:
+* The ally does not provoke attacks of opportunity from the opponent for standing up from prone, moving out of their threatened area, picking up an item, or drinking a potion.
+* The ally is not considered flanked or flat-footed against the opponent.
+
+**Associated Feat:** Got Your Back (//Melee Tactics Toolbox//)
+
+++++ Distant Aid (assist) [DRS]
+^^**Source:** [https://www.drivethrurpg.com/en/product/492540/diamond-spheres-harmony-and-discord?affiliate_id=3028400 Diamond Spheres: Harmony & Discord]^^
+
+You can use the aid another action to assist a creature within close range, instead of needing to be adjacent to that creature. Using aid another this way is an auditory, language-dependent effect. If using aid another to assist an attack roll, you must attempt an associated skill check instead of an attack roll; if you have a ranged weapon, you may use the ranged weapon’s range instead of close range (applying any penalties to a ranged attack, such as distance-based penalties, wind and weather, etc.).
 
 ++++ Friend Of A Friend (rapport)
-Creatures that share your rapport know just the right way to introduce each other. When a creature who shares your rapport improves a creature’s attitude toward them, the new attitude towards them also applies to all creatures that share your rapport (unless the target’s attitude would otherwise be better). If any creature that shares the rapport takes an action that worsens someone’s attitude, they no longer benefit from this talent against the offended creature.
+Creatures that share your //rapport// know just the right way to introduce each other. When a creature who shares your //rapport// improves a creature’s attitude toward them, the new attitude towards them also applies to all creatures that share your //rapport// (unless the target’s attitude would otherwise be better). If any creature that shares the //rapport// takes an action that worsens someone’s attitude, they no longer benefit from this talent against the offended creature.
 
-In addition, whenever one of you charms a creature or uses a language-dependent or mind-affecting ability that prevents a creature from attacking or targeting one of you, they can also extend that protection to all creatures that share your rapport by spending a move action identifying those allies in a way the target can understand. If the effect can be ended by saving throws or hostile actions, breaking it for any character sharing the effect breaks it for all sharing characters.
+In addition, whenever one of you charms a creature or uses a language-dependent or mind-affecting ability that prevents a creature from attacking or targeting one of you, they can also extend that protection to all creatures that share your //rapport// by spending a move action identifying those allies in a way the target can understand. If the effect can be ended by saving throws or hostile actions, breaking it for any character sharing the effect breaks it for all sharing characters.
 
-++++ Inspiring Advice (rapport) [utility]
-You let your allies know just what to say for others to learn from their experiences. Whenever a creature that shares your rapport attempts a skill check, another creature sharing the rapport within 30 feet can spend 1 use of skill leverage to verbally aid another as an immediate action before the recipient rolls their skill check if either of them have unlocked skill leverage with that skill.
+++++ Inspiring Advice (assist, rapport) [utility]
+You let your allies know just what to say for others to learn from their experiences. Whenever a creature that shares your //rapport// attempts a skill check, another creature sharing the //rapport// within 30 feet can spend 1 use of skill leverage to verbally aid another as an immediate action before the recipient rolls their skill check if either of them have unlocked skill leverage with that skill.
 
 ++++ Instant Loophole (rapport)
-You can use the Linguistics skill to find a loophole (new skill use) in an effect targeting you or a creature that shares your rapport as an immediate action. If you successfully interrupt the effect beginning, you and everyone who can understand you can roll twice and use the higher result for their saving throw. (This counts as using find a loophole on that effect, so you cannot find a loophole in that effect again for 24 hours.)
+You can use the Linguistics skill to find a loophole (new skill use) in an effect targeting you or a creature that shares your //rapport// as an immediate action. If you successfully interrupt the effect beginning, you and everyone who can understand you can roll twice and use the higher result for their saving throw. (This counts as using find a loophole on that effect, so you cannot find a loophole in that effect again for 24 hours.)
 
 ++++ Monitor Movements (rapport)
-Each creature that shares your rapport (including you) instinctively knows how the others act in combat, allowing them to avoid getting in the way of each other’s actions. Each creature knows where their allies are as long as they have line of sight, even if they are invisible or using Stealth, and whether they are conscious. No creature that shares your rapport provides soft cover against the attacks of any of the others. Each gets a +2 insight bonus to AC against each other’s attack and on saving throws against each other’s spells and abilities. The bonus increases by 1 for every 6 ranks in the associated skill you possess.
+Each creature that shares your //rapport// (including you) instinctively knows how the others act in combat, allowing them to avoid getting in the way of each other’s actions. Each creature knows where their allies are as long as they have line of sight, even if they are invisible or using Stealth, and whether they are conscious. No creature that shares your //rapport// provides soft cover against the attacks of any of the others. Each gets a +2 insight bonus to AC against each other’s attack and on saving throws against each other’s spells and abilities. The bonus increases by 1 for every 6 ranks in the associated skill you possess.
+
+++++ No One Left Behind (rapport) [DRS]
+^^**Source:** [https://www.drivethrurpg.com/en/product/492540/diamond-spheres-harmony-and-discord?affiliate_id=3028400 Diamond Spheres: Harmony & Discord]^^
+
+Creatures that share your //rapport// that would be encumbered due to carrying another creature within the //rapport// ignore the speed penalty for doing so (as long as the carried creature is no more than one size category larger than the creature carrying them).
+
+Additionally, creatures within the //rapport// gain a +10-foot morale bonus to any movement made as part of the withdraw or run actions, and can sheathe a weapon or stow an item as part of taking the action.
+
+Whenever such a creature takes the withdraw action and they have at least one free hand, they can pick up one unattended object or an unconscious ally of their size or smaller at any point during their movement without provoking attacks of opportunity (although any additional movement performed on their turn still provokes attacks of opportunities as normal).
+
+**Associated Feat:** Cut Your Losses (//Pathfinder Society Primer//)
 
 ++++ Perfect Synchronization (rapport) [utility]
-Whenever a creature that shares your rapport attempts a skill check with which they have unlocked skill leverage, they can spend 1 use of skill leverage after rolling to guide other creatures within 60 feet who share your rapport in attempting the same skill check if they can see or hear the guiding creature. Each guided creature that attempts the same skill check before the start of the guiding creature’s next turn can use the guiding creature’s d20 roll instead of rolling. Each creature still uses their own skill modifier.
+Whenever a creature that shares your //rapport// attempts a skill check with which they have unlocked skill leverage, they can spend 1 use of skill leverage after rolling to guide other creatures within 60 feet who share your //rapport// in attempting the same skill check if they can see or hear the guiding creature. Each guided creature that attempts the same skill check before the start of the guiding creature’s next turn can use the guiding creature’s d20 roll instead of rolling. Each creature still uses their own skill modifier.
+
+++++ Recall Support (assist) [utility] [DRS]
+^^**Source:** [https://www.drivethrurpg.com/en/product/492540/diamond-spheres-harmony-and-discord?affiliate_id=3028400 Diamond Spheres: Harmony & Discord]^^
+
+Whenever you use the aid another action to benefit a creature’s ability check or skill check, you can delay its effects so that it can be drawn upon when the creature needs it most. For the next day, the aided creature can spend an immediate action to ponder your words, gaining the benefits of the delayed aid immediately. An individual creature can only benefit from a single delayed aid at one time.
+
+If the creature shares your //rapport//, the aided creature can instead ponder your words as a free action that is usable outside of their turn.
+
+++++ Relevant Guidance (assist) [DRS]
+^^**Source:** [https://www.drivethrurpg.com/en/product/492540/diamond-spheres-harmony-and-discord?affiliate_id=3028400 Diamond Spheres: Harmony & Discord]^^
+
+When you use the aid another action as a standard action, you can confer its benefits to 1 additional creature, plus 1 creature per 6 ranks in the associated skill you possess. Such additional allies still must be within your aid another range. The aid can apply to different benefits (AC, attack rolls, etc) if you wish, but still applies against a single opponent (if relevant).
+
+++++ Tactical Preparation (assist) [DRS]
+^^**Source:** [https://www.drivethrurpg.com/en/product/492540/diamond-spheres-harmony-and-discord?affiliate_id=3028400 Diamond Spheres: Harmony & Discord]^^
+
+When you move during your turn, you may use the aid another action at any point during your movement, spending actions to do so as normal.
+
+Whenever you use aid another to improve a creature’s attack roll, the aided creature also gains a circumstance bonus to the damage roll equal to half the granted aid another bonus (minimum 1).
+
+Whenever you use aid another to improve a creature’s AC but the applicable attack still deals damage to the creature, they reduce the damage dealt by an amount equal to half the aid another bonus–this reduction can only apply once per round.
+
+If the aided creature shares your //rapport//, this damage bonus/reduction increases by 2.
+
+++++ Tandem Motorics (rapport) [DRS]
+^^**Source:** [https://www.drivethrurpg.com/en/product/492540/diamond-spheres-harmony-and-discord?affiliate_id=3028400 Diamond Spheres: Harmony & Discord]^^
+
+Creatures that share //rapport// can throw an object to one another as a move action, as long as they are within close range. This only functions while both creatures are aware of one another and are able to catch the thrown object in a free hand. This ability cannot be used to throw a splash weapon at an ally (or otherwise use or trigger an object that would be used when thrown).
+
+Additionally, whenever a creature that shares your //rapport// is within your natural reach, you can draw a weapon from that creature as a free action or draw an object or hidden weapon from them as a move action. You can also take a held object from such a creature as a free action. Drawing or taking an object (but not a weapon) in this way provokes an attack of opportunity.
+
+**Associated Feat:** Shared Stash (//Monster Codex//)
+
+++++ Trip Up (assist) [DRS]
+^^**Source:** [https://www.drivethrurpg.com/en/product/492540/diamond-spheres-harmony-and-discord?affiliate_id=3028400 Diamond Spheres: Harmony & Discord]^^
+
+Whenever you improve an ally’s attack roll using aid another, the bonus granted increases to +3. This increases by 1 per 10 ranks in the associated skill you possess. If you do, you allow the aided ally to ignore any shield bonuses or dodge bonuses (chosen when you aid) that the opponent is benefitting from for as long as the ally is benefitting from the aid.
+
+**Associated Feat:** Open Up (//Melee Tactics Toolbox//)
 
 ++++ Veiled Dialogue (rapport) [utility]
-Any creature who shares your rapport can use your associated skill modifier to pass secret messages and takes no longer than speaking plainly to do so. In addition, all who share your rapport can communicate up to 25 words per round with just a look or a gesture, so that observers cannot tell they are communicating at all without succeeding at a Perception or Sense Motive check against DC 20 + your ranks in the sphere’s associated skill. Among other things, this allows them to briefly discuss tactics during an encounter without alerting foes as long as they can see or touch each other.
+Any creature who shares your //rapport// can use your associated skill modifier to pass secret messages and takes no longer than speaking plainly to do so. In addition, all who share your //rapport// can communicate up to 25 words per round with just a look or a gesture, so that observers cannot tell they are communicating at all without succeeding at a Perception or Sense Motive check against DC 20 + your ranks in the sphere’s associated skill. Among other things, this allows them to briefly discuss tactics during an encounter without alerting foes as long as they can see or touch each other.
+
 ----
 + ##4B0092|Exceptional Talents##
 ++++ Communication Breakthrough
@@ -254,6 +366,17 @@ While the creature has this motivation, you need not attempt checks to request h
 
 At 15 ranks, this motivation is a major one.
 
+++++ Joint Project (assist, rapport) [utility] [DRS]
+^^**Source:** [https://www.drivethrurpg.com/en/product/492540/diamond-spheres-harmony-and-discord?affiliate_id=3028400 Diamond Spheres: Harmony & Discord]^^
+
+**Prerequisites:** Communication sphere.
+
+Creatures that share your //rapport// can assist one another in crafting mundane and magical items, and such creatures that use the aid another action to improve each other’s Craft check increase the bonus to +3, +1 per 10 ranks in the associated skill you possess. Such creature’s can fulfill the prerequisites for crafting the item on behalf of one another, and the assistance doubles the gp value of items that can be crafted each day.
+
+At 5 ranks in the associated skill, creatures that share your //rapport// share one another’s item creation feats.
+
+**Associated Feat:** Cooperative Crafting (//Advanced Player’s Guide//).
+
 ++++ Omniglot [utility]
 **Prerequisites:** Linguistics 7 ranks, Communication sphere.
 
@@ -263,6 +386,15 @@ You can speak and understand any language after you hear it spoken for at least 
 **Prerequisites:** Diplomacy 5 ranks, Communication sphere.
 
 As a standard action, you can make a request without attempting a Diplomacy check as long as you can phrase it as furthering one of the target’s desires or goals or avoiding one of the target’s fears (however tenuously). The target attempts a Will saving throw. They get a +5 bonus on the saving throw if the request would be costly or dangerous to them. On a failed save, they agree for 1 hour as long as the request is not obviously self-destructive. You cannot target that creature again for 24 hours. This is a language-dependent mind-affecting compulsion effect.
+
+++++ Sequestered Support (Su) [DRS]
+^^**Source:** [https://www.drivethrurpg.com/en/product/492540/diamond-spheres-harmony-and-discord?affiliate_id=3028400 Diamond Spheres: Harmony & Discord]^^
+
+**Prerequisites:** Associated 5 ranks, Communication sphere (Recall Support).
+
+Whenever you use the Recall Support talent, it no longer has a limit on the types of rolls it can benefit (as long as it could normally benefit from aid another). If the aid attempt requires an opponent to be relevant to, the aided creature chooses the opponent when they ponder your words.
+
+You can spend 1 use of skill leverage when using the Recall Support talent to have part of your cognitive ability ‘stored’ within the creature for the next day, allowing them to ponder your words a number of times per day equal to 1/2 your ranks in the sphere’s associated skill.
 
 ++++ Stone Whisperer (rapport) [utility]
 **Prerequisites:** Knowledge (dungeoneering) 13 ranks or Linguistics 13 ranks, Communication sphere.
@@ -276,6 +408,17 @@ You use Intimidate for the associated skill. You cannot communicate simple conce
 
 ++++ Animal Whisperer [alternate start]
 You find it much easier to empathize and relate to beasts. You may only use your Communication sphere abilities with creatures of the animal, magical beast, or vermin types, and use Handle Animal in place of the associated skill. You gain the Beast Whisperer talent from this drawback.
+
+++++ Apprentice [DRS]
+^^**Source:** [https://www.drivethrurpg.com/en/product/492540/diamond-spheres-harmony-and-discord?affiliate_id=3028400 Diamond Spheres: Harmony & Discord]^^
+
+You lose the bonus (rapport) talent when you first gain the sphere, and gain an (assist) talent of your choice. You can choose to lose the build rapport ability to gain an additional (assist) talent. This sphere-specific drawback can be taken as a [utility start] if the talent(s) gained as part of the drawback are [utility] talents.
+
+++++ Bleeding Heart [DRS]
+^^**Source:** [https://www.drivethrurpg.com/en/product/492540/diamond-spheres-harmony-and-discord?affiliate_id=3028400 Diamond Spheres: Harmony & Discord]^^
+
+You do not gain the betray ability, and gain the Candid Disclosure talent.
+
 [[/tab]]
 [[/tabview]]
 
