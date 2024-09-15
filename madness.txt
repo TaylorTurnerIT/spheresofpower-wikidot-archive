@@ -25,7 +25,25 @@ $4.99
 [[/=]]
 [[/div]]
 
++ Strain: A Replacement for Sanity
+//The Cataclysm Handbook// touched upon several suggested revisions for the Sanity system introduced in //Pathfinder Roleplaying Game: Horror Adventures.// These revisions lay primarily in the flavor of the system rather than the mechanics, as these revised “stress” rules were not intended to be used far beyond the sanity mechanics’ original role in cosmic horror games. The Trauma system outlined here implements many of the suggestions outlined in //The Cataclysm Handbook// while also revising the mechanics of mental stress in a game to better suit the heroic fantasy genre. It is advised that these rules be used in place of the rules in //Horror Adventures// rather than as a supplement to them.
 
+++ Strain Score, Edge, and Thresholds
+Each creature has a strain score, along with a strain edge and a strain threshold. These values depend on the creature’s current ability scores and ability damage. Increases and penalties to ability scores (even temporary increases and penalties) adjust these numbers. Each discrete instance in which a creature takes 1 or more points of strain damage is called a strain instance, regardless of what caused the strain damage.
+
+Since effects that deal strain damage are always mind-affecting effects, mindless creatures are immune, and do not have a strain score, strain edge, or strain threshold.
+
+**Strain Score:** Your strain score is equal to the sum of two of the following ability scores, chosen at 1st level: Charisma, Constitution, Intelligence, and Wisdom. Any ability damage or drain taken to those ability scores is subtracted from your strain score.
+
+**Strain Threshold:** Your strain threshold is equal to 4 + 1/3 your character level. Half of any ability damage or drain that you have taken to the ability scores determining your strain score is subtracted from this threshold (for example, a level 9 character normally has a strain threshold of 7, but if they had taken 6 Wisdom damage they would have a threshold of 4). When you experience a strain incident, if the strain damage from that attack equals or exceeds your strain threshold, you gain a severance, either lesser or greater depending on the relation of your current strain damage and your strain edge (see below).
+
+If your strain threshold is 0, you always suffer a severance upon taking 1 or more points of strain damage.
+
+**Strain Edge:** Your strain edge is equal to 1/2 your strain score. When you experience a strain incident that causes you to gain a severance (see Strain Threshold), compare your total amount of strain damage to your edge to determine the potency of the severance. If your current strain damage is less than your strain edge, then you manifest a lesser severance.
+
+If your current strain damage is equal to or greater than your strain edge, you manifest a greater severance instead.
+
+Furthermore, when you accrue total strain damage equal to or greater than your edge, any dormant lesser severances you have manifest again.
 
 [[/tab]]
 [[tab Madness]]
