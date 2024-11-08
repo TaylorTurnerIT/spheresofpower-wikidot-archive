@@ -51,24 +51,24 @@ Although most combatants with a blade have a level of bravado about them, the br
 
 ||||||||||||||~  ||||~ Blended Talents ||
 ||~ Class Level ||~ Base Attack Bonus ||~ Fort Save ||~ Reflex Save ||~ Will Save ||~ Special ||~ Dodge Pool ||~ Any ||~ Utility ||
-|| 1st || +1 || +0 || +2 || +2 || Blended training, confounding strike, moxie (+1), whim || — || 1 || 0 || 
+|| 1st || +1 || +0 || +2 || +2 || Blended training, confounding strike, moxie, whim || — || 1 || 0 || 
 || 2nd || +2 || +0 || +3 || +3 || Cunning celerity, steadfast || 50% || 2 || 1 || 
 || 3rd || +3 || +1 || +3 || +3 || Careful footwork, exploit uncertainty (+1) || 65% || 3 || 1 || 
 || 4th || +4 || +1 || +4 || +4 || Spontaneous technique || 80% || 3 || 2 || 
-|| 5th || +5 || +1 || +4 || +4 || Moxie (+2), whim ability || 95% || 4 || 2 || 
+|| 5th || +5 || +1 || +4 || +4 || Mercurial celerity, whim ability || 95% || 4 || 2 || 
 || 6th || +6/+1 || +2 || +5 || +5 || Exploit uncertainty (+2), uncanny dodge || 110% || 5 || 3 || 
 || 7th || +7/+2 || +2 || +5 || +5 || Adamant astonishment, dynamic dodge || 125% || 6 || 3 || 
-|| 8th || +8/+3 || +2 || +6 || +6 || Improved spontaneity || 140% || 6 || 4 || 
-|| 9th || +9/+4 || +3 || +6 || +6 || Moxie (+3), sudden shift || 155% || 7 || 4 || 
+|| 8th || +8/+3 || +2 || +6 || +6 || Spontaneous technique (2 talents) || 140% || 6 || 4 || 
+|| 9th || +9/+4 || +3 || +6 || +6 || Sudden shift || 155% || 7 || 4 || 
 || 10th || +10/+5 || +3 || +7 || +7 || Exploit uncertainty (+3), incredible stunt 1/day, whim ability || 170% || 8 || 5 || 
 || 11th || +11/+6/+1 || +3 || +7 || +7 || Improved uncanny dodge || 185% || 9 || 5 || 
 || 12th || +12/+7/+2 || +4 || +8 || +8 || Incredible stunt 2/day || 200% || 9 || 6 || 
-|| 13th || +13/+8/+3 || +4 || +8 || +8 || Capricious, moxie (+4), quicksilver celerity || 215% || 10 || 6 || 
-|| 14th || +14/+9/+4 || +4 || +9 || +9 || Exploit uncertainty (+4), greater spontaneity, incredible stunt 3/day || 230% || 11 || 7 || 
+|| 13th || +13/+8/+3 || +4 || +8 || +8 || Capricious, quicksilver celerity || 215% || 10 || 6 || 
+|| 14th || +14/+9/+4 || +4 || +9 || +9 || Exploit uncertainty (+4), incredible stunt 3/day, spontaneous technique (3 talents) || 230% || 11 || 7 || 
 || 15th || +15/+10/+5 || +5 || +9 || +9 || Whim ability || 245% || 12 || 7 || 
 || 16th || +16/+11/+6/+1 || +5 || +10 || +10 || Incredible stunt 4/day || 260% || 12 || 8 || 
-|| 17th || +17/+12/+7/+2 || +5 || +10 || +10 || Moxie (+5), unfettered alacrity || 275% || 13 || 8 || 
-|| 18th || +18/+13/+8/+3 || +6 || +11 || +11 || Exploit uncertainty (+5), extreme spontaneity, incredible stunt 5/day || 290% || 14 || 9 || 
+|| 17th || +17/+12/+7/+2 || +5 || +10 || +10 || Unfettered alacrity || 275% || 13 || 8 || 
+|| 18th || +18/+13/+8/+3 || +6 || +11 || +11 || Exploit uncertainty (+5), incredible stunt 5/day, spontaneous technique (4 talents) || 290% || 14 || 9 || 
 || 19th || +19/+14/+9/+4 || +6 || +11 || +11 || Skirt death || 305% || 15 || 9 || 
 || 20th || +20/+15/+10/+5 || +6 || +12 || +12 || Incredible stunt 6/day, outwit mastery, whim ability || 320% || 15 || 10 || 
 
@@ -81,12 +81,18 @@ Bravos are proficient with simple weapons, light armor, and bucklers. In additio
 The bravo gains a combat or skill talent at 1st, 2nd, and 3rd level, and 3/4ths of a talent thereafter, according to Table: Bravo. In addition, they gain a utility talent at every even level. A bravo uses his operative modifier as his practitioner modifier.
 
 ++ ##00c000|Confounding Strike (Ex)##
-The bravo is capable of instilling brief—yet powerful—moments of uncertainty and doubt in those that he wishes to catch off guard. At 1st level, as long as the bravo has martial focus, he can spend a swift or immediate action whenever he succeeds an attack roll or combat maneuver as long as the creature is within close range. The creature must succeed at a Will saving throw against the sphere DC for the bravo’s chosen whim (see below) or become uncertain for 1 round plus 1 round per 4 bravo levels he possesses. This is a mind-affecting, emotion, and disorientation effect.
+//The bravo is capable of instilling brief—yet powerful—moments of uncertainty and doubt in those that he wishes to catch off guard.//
+
+At 1st level, as long as the bravo has martial focus, he can make a confounding strike against a creature as an immediate action whenever he succeeds an attack roll or combat maneuver against them (and they are within close range). The creature must succeed at a Will saving throw (using the sphere DC of the bravo’s chosen whim) or become uncertain for 1 round + 1 round per 4 bravo levels he possesses.
+
+This is a mind-affecting, emotion, and disorientation effect.
+
+At 7th level, the creature instead becomes shocked on a failed save, or uncertain for the duration on a successful save.
 
 ++ ##00c000|Moxie (Ex)##
-At 1st level, whenever a creature attempts a skill check against the bravo that would use his Intelligence or Wisdom modifier (or his ranks in an Intelligence- or Wisdom-based skill) to determine the DC (such as a feint, demoralize, or perplex attempt), he can instead use his Charisma modifier when determining the DC.
+At 1st level, whenever the bravo is suffering from an emotion-based condition that is caused by a skill use, every 1 round that elapses on the condition’s duration instead counts as 2 rounds.
 
-Additionally, the DC to affect him with skill checks is increased by 1, plus 1 for every 4 bravo levels thereafter he possesses.
+Additionally, the DC to affect him with skill checks is increased by 2 + 1 for every 2 bravo levels thereafter he possesses.
 
 Lastly, the bravo can use his Charisma score in place of Intelligence when determining if he meets the prerequisites for combat feats.
 
@@ -96,7 +102,9 @@ At 1st level, the bravo chooses a whim from the list at the end of the class des
 If a whim ability would call for a saving throw, it is equal to the highest saving throw DC of the spheres associated with his whim.
 
 ++ ##00c000|Cunning Celerity (Ex)##
-The bravo has an unnatural knack for getting himself out of danger, especially when he is on the move. At 2nd level, the bravo gains a dodge pool equal to 50%, plus 15% for every bravo level he attains after 2nd.
+//The bravo has an unnatural knack for getting himself out of danger, especially when he is on the move.//
+
+At 2nd level, the bravo gains a dodge pool equal to 50% + 15% for every bravo level he attains after 2nd.
 
 The bravo can expend an attack of opportunity and reduce his dodge pool in increments of 5% to gain an equivalent amount of miss chance (maximum 20%) against an attack that he is aware of. This miss chance stacks with other miss chances, although the combined miss chances cannot exceed the maximum miss chance he could apply using this ability. If an attack affected by this ability still hits the bravo, his dodge pool replenishes half the expended amount from the attack.
 
@@ -116,9 +124,21 @@ At 3rd level, whenever the bravo moves from his space, the first square he moves
 Additionally, the bravo can spend a swift action to take a 5-foot step, which does not count as movement for the purposes of determining if he can 5-foot step or otherwise move during his turn.
 
 ++ ##00c000|Spontaneous Technique (Ex)##
-At 4th level, the bravo embraces the innate chaos of conflict, allowing him to think of new ways of handling such exchanges. Once per day, the bravo can spend 1 hour and choose a number of combat or skill talents he does not possess equal to his operative modifier (minimum 1), plus 1 additional talent per 3 bravo levels after 4th, making them prepared. Once chosen, these talents cannot be changed until he spends another 1 hour to change them. The bravo must possess the talent’s base sphere and must meet any prerequisites (if the talent is legendary or exceptional); if a talent offers a choice as part of gaining it, he makes that choice when he prepares the talent.
+//The bravo embraces the innate chaos of conflict, allowing him to think of new ways of handling such exchanges.//
 
-As a move action, the bravo can grant himself a single talent prepared as part of using this ability. The bravo can use this ability a number of times per day equal to 3 + 1/2 his bravo level. Whenever the bravo uses this ability again to select a new talent, he must replace a talent granted by a previous use.
+At 4th level, once per day, the bravo can spend 1 hour and choose a number of combat or skill talents he does not possess equal to his operative modifier (minimum 1), +1 per 3 bravo levels after 4th, making them prepared. Once chosen, these talents cannot be changed until he spends another 1 hour to change them. The bravo must possess the talent’s base sphere and must meet any prerequisites (if the talent is legendary or exceptional); if a talent offers a choice as part of gaining it, he makes that choice when he prepares the talent.
+
+As a move action, the bravo gains (or replaces) 1 prepared talent, +1 talent at 8th, 14th, and 18th level—he can only have 1 prepared talent active at one time, +1 at 8th, 14th, and 18th level. The bravo can use this ability a number of times per day equal to 3 + 1/2 his bravo level. 
+When he can have multiple prepared talents active at once, a talent can meet the prerequisites of another talent for as long as both remain prepared.
+
+At 8th level, the bravo can spend a swift action to gain (or replace) 1 prepared talent, +1 talent at 14th and 18th level. Additionally, the bravo can spend 1 minute (or a standard action by spending 1 use of skill leverage) and 1 use of spontaneous technique to change a prepared talent (as long as he does not choose a [utility] talent).
+
+At 14th level, the bravo can spend a free or immediate action to gain (or replace) 1 prepared talent, +1 talent at 18th level.
+
+++ ##00c000|Mercurial Celerity (Ex)##
+At 5th level, whenever the bravo uses his cunning celerity class feature, he can expend his martial focus or outwit the attacker to have the percentile die rolled twice, taking the best result.
+
+Additionally, if the bravo avoids an attack using his cunning celerity ability, the bravo can outwit the attacker to make an attack of opportunity against them.
 
 ++ ##00c000|Uncanny Dodge (Ex)##
 At 6th level, the bravo gains the ability to react to danger before his senses would normally allow him to do so. He cannot be caught flat-footed, nor does he lose his Dexterity bonus to AC if the attacker is invisible. The bravo still loses his Dexterity bonus to armor class if immobilized. A bravo with this ability can still lose his Dexterity bonus to armor class if a creature successfully uses the feint action against him.
@@ -128,27 +148,20 @@ If a bravo already has uncanny dodge from a different class, he automatically ga
 ++ ##00c000|Adamant Astonishment (Ex)##
 At 7th level, whenever the bravo outwits a creature by expending a condition, the effects of the condition remain for 1 round after it is expended. This condition cannot be expended again to outwit.
 
-Additionally, whenever the bravo uses his confounding strike ability, the creature becomes shocked for the duration on a failed save, or uncertain on a successful save.
-
 ++ ##00c000|Dynamic Dodge (Ex)##
 At 7th level, the bravo can expend his martial focus as a free action and expend any amount from his dodge pool to gain half as much miss chance from his cunning celerity ability until the beginning of his next turn (for example, he could gain a 50% miss chance by spending 100% from his dodge pool).
 
-Additionally, if a creature misses an attack due to the miss chance from his cunning celerity ability, he can outwit the creature as a cost to make an attack of opportunity against them.
-
-++ ##00c000|Improved Spontaneity (Ex)##
-At 8th level, the bravo can have up to two talents active at one time using his spontaneous technique ability. The bravo can use his spontaneous technique ability as a move action to gain the benefits of two prepared talents, instead of just one; or he may use the ability as a swift action to gain the benefits of one prepared talent.
-
-One of these talents can meet the prerequisites of the second talent; doing so means that he cannot replace a talent currently fulfilling another’s prerequisite without also replacing the talents that require it.
-
-Additionally, the bravo can spend 1 minute and 1 use of spontaneous technique to change one of the talents he has prepared using spontaneous technique, but cannot choose a [utility] talent when he uses this option. The bravo may spend 1 use of skill leverage to instead change one prepared talent as a standard action.
-
 ++ ##00c000|Sudden Shift (Ex)##
-At 9th level, the bravo can use his careful footwork ability as an immediate action instead of a swift action. If used to avoid an attack or area effect, he still has a chance to be affected but this movement grants him a dodge bonus to AC and Reflex saves equal to 1/2 his bravo level. Additionally, when the bravo rolls initiative and is not surprised, he can take a 5-foot step as part of rolling initiative.
+At 9th level, the bravo can use his careful footwork ability as an immediate action instead of a swift action. If used to avoid an attack or area effect, he still has a chance to be affected but this movement grants him a dodge bonus to AC and Reflex saves equal to 1/2 his bravo level. 
+
+Additionally, when the bravo rolls initiative and is not surprised, he can take a 5-foot step as part of rolling initiative.
 
 ++ ##00c000|Incredible Stunt (Ex)##
-At 10th level, the bravo can strain himself to pull off truly extraordinary feats of skill, known as an incredible stunt. Due to the physical and mental strain that pulling off such a stunt entails, the bravo can only use this ability once per day, plus an additional time per day for every 2 bravo levels beyond 10th he possesses.
+//The bravo can strain himself to pull off truly extraordinary feats of skill.//
 
-Unless otherwise specified, using an incredible stunt requires a standard action; its effects last for 2 rounds, after which the bravo becomes fatigued (if the bravo is already fatigued, he becomes exhausted. If he is already exhausted, he falls unconscious for 1d4 rounds).
+At 10th level, once per day as a standard action (unless otherwise specified) the bravo can perform an incredible stunt—its benefits last for 2 rounds, after which the bravo becomes fatigued (or exhausted if he was already fatigued, or unconscious for 1d4 rounds if he was already exhausted).
+
+At 12th level and every 2 bravo levels thereafter, he can perform an incredible stunt an additional time per day.
 
 The bravo gains the following incredible stunt, in addition to one determined by his whim:
 
@@ -170,16 +183,10 @@ At 13th level, the maximum miss chance he can gain from his cunning celerity abi
 
 Additionally, the bravo can expend his martial focus or an incredible stunt as a swift action to replenish 50% to his dodge pool (or 100% if he spends both as a single swift action) as long as he is currently in combat with a challenging foe (challenge rating no lower than his level – 2) or in comparable danger; he cannot recover dodge pool this way if the combat proves no threat.
 
-++ ##00c000|Greater Spontaneity (Ex)##
-At 14th level, the bravo can spend a move action to gain the benefits of three prepared talents, a swift action to gain the benefits of two prepared talents, or a free or immediate action to gain the benefits of a single prepared talent.
-
 ++ ##00c000|Unfettered Alacrity (Su)##
 At 17th level, as long as the bravo has at least 150% within his dodge pool, he can move and attack normally even when affected by abilities that usually impede movement, such as the paralyzed, staggered and stunned conditions, solid fog, slow, etc. All combat maneuver checks made to grapple the bravo automatically fail, and he automatically succeeds at any combat maneuver checks and Escape Artist checks attempted to escape a grapple or pin.
 
 For each effect that the bravo ignores (or is able to automatically succeed at) per round, he loses 10% from his dodge pool at the end of the turn he used unfettered alacrity.
-
-++ ##00c000|Extreme Spontaneity (Ex)##
-At 18th level, the bravo can have up to four talents active at one time using his spontaneous technique ability. The bravo can spend a move action to gain four prepared talents, a swift action to gain three prepared talents, or a free or immediate action to gain two prepared talents.
 
 ++ ##00c000|Skirt Death (Ex)##
 At 19th level, as an incredible stunt whenever the bravo is reduced to 0 hit points or fewer, he can spend all of his dodge pool to instead be reduced to 1 hit point as long as he has at least 5% to spend from his dodge pool. Effects that would kill the bravo outright without dealing hit point damage are not affected by this ability.
@@ -196,21 +203,23 @@ Use your words to cut your opponents down.
 **Whim Spheres:** Athletics and Bluster.
 
 ++++ Freestyle Antics (Ex)
-At 2nd level, whenever the bravo uses his confounding strike ability, the creature becomes battered for the duration on a failed save. Additionally, the bravo takes no penalty when moving full speed when he uses Acrobatics to attempt to move through a threatened area or an enemy’s space.
+At 2nd level, the bravo’s confounding strike ability can also be triggered whenever he succeeds at an Acrobatics, Bluff, or Intimidate check that targets a creature (such as a check to avoid an attack of opportunity, feint, demoralize, etc.). Additionally, whenever the bravo would normally trigger his confounding strike ability, he can expend his martial focus and outwit the creature as a cost to deliver a quip against them instead of its normal effects.
+
+At 5th level, the bravo does not need to expend his martial focus to quip this way. Alternatively, he can still expend his martial focus to deliver this quip as part of a creature failing their saving throw against his confounding strike ability.
 
 ++++ Exploit Uncertainty: Too Slow (Ex)
 At 5th level, the bravo’s exploit uncertainty bonus also applies as a dodge bonus against the outwitted creature’s attacks.
 
 ++++ Incredible Stunt: Flow State (Ex)
-At 10th level, the bravo can use this incredible stunt as part of a move action to move to enter a state of pure flow with his movements. The bravo gains a 10-foot enhancement bonus to all movement modes he possesses. Whenever the bravo rolls a skill check associated with his current movement mode, any natural roll of a 14 or lower is treated as a 15.
+At 10th level, the bravo can use this incredible stunt as part of a move action to move to enter a state of pure flow with his movements. The bravo gains a 10-foot enhancement bonus to all movement modes he possesses. Whenever the bravo rolls a skill check associated with his current movement mode, any natural roll of a 14 or lower is treated as a 15. At 20th level, this improves to treat any such roll as if he had rolled a 20.
 
 Additionally, the bravo ignores all difficult terrain when he moves, and may charge or run through squares that contain allies (and enemies if he succeeds an Acrobatics check to move through their square) without impeding his movement.
 
 ++++ Overwhelming Antics (Ex)
-At 15th level, whenever the bravo successfully avoids provoking an attack of opportunity using Acrobatics (or another skill check), he can perform a quip against the creature as a swift or immediate action. In addition, whenever the bravo inflicts the battered condition, the penalty to CMD increases by an amount equal to his practitioner modifier (minimum 1).
+At 15th level, whenever the bravo avoids an attack using his cunning celerity ability, he can use a quip against the attacker as an immediate action. Whenever an enemy fails a saving throw against one of the bravo’s quips, his dodge pool regains +50%. The enemy must have a CR of at least half your character level (rounded down, minimum 1/2).
 
 ++++ Perfect Flow (Ex)
-At 20th level, the maximum miss chance he can gain from his cunning celerity ability increases to 75%, or 100% if the bravo moves at least 10 feet on his turn. Additionally, when the bravo uses his flow state incredible stunt, he treats skill checks associated with his current movement mode as if he had rolled a 20.
+At 20th level, the maximum miss chance he can gain from his cunning celerity ability increases to 75%, or 100% if the bravo moved at least 10 feet on his turn or has used a quip within the last round.
 
 +++ ##00c000|Calamity##
 Collateral damage adds such spectacle to the action.
@@ -218,23 +227,31 @@ Collateral damage adds such spectacle to the action.
 **Whim Spheres:** Berserker and Infiltration.
 
 ++++ Shattering Strikes (Ex)
-At 2nd level, whenever the bravo succeeds at a sunder combat maneuver against an object, the bravo may sabotage the object damaged by the sunder in place of or in addition to dealing damage so long as the result of your sunder attempt exceeds the Disable Device DC to sabotage the object (including applying a (sabotage) talent or a disastrous sabotage if he possesses the Instant Disaster talent).
+At 2nd level, whenever the bravo succeeds at a sunder combat maneuver against an object, the bravo can use fast sabotage on the damaged object in addition to (or in place of) the damage dealt, using the check result of the sunder attempt as the Disable Device check. If such a maneuver would destroy the object, the bravo can use fast sabotage on another object within reach as an immediate action, or as a free action usable outside of his turn if he outwits the creature attending the object as a cost.
 
-Any effects that allow the bravo to ignore hardness on a sunder attempt also allow him to ignore an equal amount of hardness for the purpose of calculating the sabotage DC.
+If the bravo can ignore hardness on sunder combat maneuvers, he can ignore an equal amount of hardness when calculating the DC to sabotage an object.
+
+**Special:** If the bravo has the Shatter Earth Berserker sphere talent, using the talent to cause a surface to become difficult terrain counts as a successful sunder maneuver for this ability.
+
+At 15th level, if the bravo uses this ability to use fast sabotage on a surface, the affected area increases to a close-range radius (if larger), and the Acrobatics DC to balance on such a surface increases by 10.
 
 ++++ Exploit Uncertainty: Shocking Snap (Ex)
-At 5th level, whenever the bravo outwits a creature, any sunder attempts made against the outwitted creature ignore an amount of hardness equal to twice his exploit uncertainty bonus for the duration.
+At 5th level, the bravo’s exploit uncertainty bonus also applies to Disable Device checks made against the outwitted creature, as well as allowing any sunder attempts made against them for the duration to ignore an amount of hardness equal to twice his exploit uncertainty bonus.
 
 ++++ Incredible Stunt: Heedless Rampage (Ex)
-At 10th level, the bravo can use an incredible stunt as a free action as part of moving to make a sunder attempt against an unattended object such as a door or an unoccupied surface like a wall or the floor (which he may apply shattering strikes to as normal). The bravo can use this incredible stunt multiple times per round to affect multiple surfaces or objects.
+At 10th level, the bravo can use this incredible stunt as a free action as part of moving to make a sunder attempt against an unattended object or unoccupied surface for each space he moves as part of this movement.
+
+For the duration of the stunt, whenever the bravo deals damage to an object, he deals the maximum possible amount of damage (as if every dice rolled the maximum result).
 
 ++++ Cratering Wallop (Ex)
-At 15th level, whenever the bravo succeeds at an attack against a creature or object, he may use an incredible stunt as an immediate action to attempt to sunder the surface they are standing on.
+At 15th level, whenever the bravo succeeds an attack roll against a creature or object, he can use an incredible stunt as an immediate action to attempt a sunder combat maneuver against the surface they are occupying–or a free action usable outside of his turn if the attack was a brutal strike.
 
-If the bravo uses shattering strikes to apply a sabotage or disastrous sabotage to the surface, the affected area increases from a 10-foot square to a close-range radius and the balance DC is increased by 10.
+Additionally, whenever the bravo uses cunning celerity against an attack originating from a creature that is wearing or wielding a broken, destroyed, or sabotaged object, the granted miss chance increases by 10% against the attack—this ignores the normal maximum miss chance, and is applied after reducing his dodge pool.
 
 ++++ Regent of Wreckage (Ex)
-At 20th level, the bravo’s sunder attempts deal twice the normal damage. The DCs to notice and undo sabotage created by the bravo are increased by 10.
+At 20th level, the bravo deals twice as much damage against objects. Additionally, the bravo increases the DC to notice and undo his sabotage attempts by 10.
+
+Lastly, the maximum miss chance he can gain from his cunning celerity ability increases to 75%, or 100% if the bravo causes an object to become broken or destroyed within the last round.
 
 +++ ##00c000|Dread##
 A mask is the best thing to separate action and consequence.
@@ -243,9 +260,10 @@ A mask is the best thing to separate action and consequence.
 
 ++++ False Sense of Security (Ex)
 At 2nd level, the bravo can outwit a creature by reducing a fear condition they are suffering from by one step. Additionally, the bravo gains the following (disguise) option:
-* **Guise of Terror (disguise):** The bravo takes on a disguise that instills horror and despair in those that see it. While he wears this disguise, he can pose a menace as a swift action, and creatures distracted this way remain distracted until the end of his next turn. The bravo can also demoralize creatures with fewer Hit Dice than him as a swift action; if he threatens such a creature’s motivation as part of doing so, the creature cannot choose to become livid or enraged. Attempting to demoralize a creature with more Hit Dice than this limit causes the attempt to fail.
+* **Guise of Terror (disguise):** The bravo takes on a disguise that instills horror and despair in those that see it. While wearing this disguise, the bravo can pose a menace and demoralize as a swift action, as well as halving any penalties to Intimidate checks he would suffer from. If he threatens a creature’s motivation when demoralizing them, they cannot choose to become livid or enraged.
+The bravo can use Intimidate instead of Disguise when opposing a creature’s Perception check to foil this disguise. If a creature fails such an opposed check, the bravo can demoralize them as an immediate action.
 
-Lastly, if an attack misses the bravo due to his cunning celerity ability, he can outwit the creature as a cost to demoralize them as an immediate action.
+Lastly, whenever the bravo avoids an attack using his cunning celerity ability, he can outwit the creature as a cost to demoralize them as a free action (usable outside of his turn once per round).
 
 ++++ Exploit Uncertainty: Cruel Advantage (Ex)
 At 5th level, the bravo’s exploit uncertainty bonus also applies as a penalty that the outwitted creature suffers to saving throws (and to the skill DC) against fear effects (this penalty stacks with the penalties granted by fear effects).
@@ -255,14 +273,14 @@ Plus, the bravo can outwit a creature as a cost instead of expending martial foc
 ++++ Incredible Stunt: Terrorizing Spree (Ex)
 At 10th level, the bravo can use an incredible stunt as part of successfully demoralizing a creature. The target (or one demoralized creature of his choice if he demoralized multiple targets) becomes panicked for the duration of this stunt, or staggered on a successful save; if the target has fewer Hit Dice than him, the creature is instead panicked for 1 round on a successful save.
 
-Additionally, for the duration of the stunt, he can deliver a coup de grace as a standard action, and can do so to cowering or stunned creatures.
+For the duration of the stunt, he can deliver a coup de grace as a standard action, and can do so to cowering or stunned creatures.
+
+At 15th level, whenever the bravo uses this incredible stunt, he chooses one affected creature to cower for the duration of the stunt—if the creature has fewer Hit Dice than the bravo, they instead cower for 1 round on a successful save.
+
+Additionally, the bravo can use this incredible stunt as part of using his strike fear sphere ability to have all demoralized creatures be affected by it.
 
 ++++ Harrowing Visage (Ex)
-At 15th level, the bravo can use his terrorizing spree incredible stunt as part of using his strike fear ability to have all demoralized creatures be affected by it.
-
-Additionally, whenever the bravo uses the terrorizing spree incredible stunt, one of the affected creatures also cowers for the duration of this stunt; if the target has fewer Hit Dice than the bravo, they instead cower for 1 round on a successful save.
-
-Also, the bravo becomes immune to fear. While the bravo is wearing his guise of terror, all enemies within 20 feet of him lose any immunity to fear that they possess.
+At 15th level, the bravo becomes immune to fear. While the bravo is wearing his guise of terror, all enemies within 20 feet of him lose any immunity to fear that they possess.
 
 ++++ Tortuous Terror (Ex)
 At 20th level, whenever the bravo uses the skirt death incredible stunt, he is reduced to 20 hit points instead of 1 hit point.
@@ -275,55 +293,33 @@ Your every step is filled with poise and grace.
 **Whim Spheres:** Guardian ((patrol) package) and Performance ((dance) package).
 
 ++++ Graceful Watch (Ex)
-At 2nd level, whenever the bravo begins a Guardian sphere patrol, he can also move up to half his speed as part of doing so to begin a Performance sphere dance at the same time, treating his area of patrol as his dance radius.
+At 2nd level, the bravo can move up to his speed as part of beginning a patrol, allowing him to begin a dance at the same time–if he does, he treats his area of patrol as his dance radius.
 
-Additionally, the bravo can choose to stand up from prone instead of taking a 5-foot step, under the same requirements as a normal 5-foot step (although he may use his careful footwork ability as normal).
+Additionally, the bravo can use his cunning celerity ability (or similar uses of his dodge pool) to confer its benefits to an ally within his threatened area—he can move to put the ally within reach (with the normal limits for moving as part of your patrol) as part of doing so if he has an active patrol.
+
+At 5th level, whenever the bravo avoids an attack using his cunning celerity ability, he can move 5 feet–if the attack was a melee attack, the bravo must remain within the attacker’s threatened area with this movement.
 
 ++++ Exploit Uncertainty: External Choreography (Ex)
-At 5th level, whenever the bravo outwits a creature, they are forced to move up to 15 feet in any direction of the bravo’s choice (as long as the location is not directly harmful to them, such as onto a bed of spikes), which does not provoke attacks of opportunity.
+At 5th level, the bravo’s exploit uncertainty bonus also applies to Reflex saving throws against that opponent’s spells and abilities.
+
+Additionally, whenever the bravo outwits a creature, they are forced to move up to 15 feet in any direction of the bravo’s choice (as long as the location is not directly harmful to them, such as onto a bed of spikes), which does not provoke attacks of opportunity.
 
 This movement is treated as if the bravo himself had moved for the purposes of maintaining any active dance he is maintaining (including for his following turn).
 
 ++++ Incredible Stunt: Secure the Stage (Ex)
-At 10th level, the bravo can use this incredible stunt as part of starting a patrol to allow it to last for as long as the stunt does. Additionally, whenever an attack benefiting from the miss chance granted by cunning celerity still hits him, his dodge pool replenishes the full expended amount from the attack.
+At 10th level, the bravo can use this incredible stunt as part of starting a patrol, allowing it to persist for as long as the stunt does. Additionally, whenever an attack affected by his cunning celerity ability still hits a creature, he recovers all of the dodge pool spent against the attack—if an attack misses due to cunning celerity, the bravo recovers half of the dodge pool he expended against the attack.
+
+At 20th level, the bravo’s area of patrol is doubled when he uses this stunt.
 
 ++++ Elegant Imposition (Ex)
-At 15th level, the bravo can use his cunning celerity ability to grant an ally within his threatened area its benefits (if he is maintaining a patrol, the bravo can move to put the ally within his reach as normal). This includes other uses the bravo may have for his dodge pool, such as his skirt death or capricious abilities.
+At 15th level, whenever the bravo grants an ally the benefits of his cunning celerity ability, the granted miss chance increases by 10% against the attack—this ignores the normal maximum miss chance, and is applied after reducing his dodge pool.
 
-Additionally, whenever the bravo uses his secure the stage incredible stunt, if an attack misses the bravo due to the miss chance granted by cunning celerity, his dodge pool replenishes half the expended amount from the attack.
+Additionally, whenever the bravo uses his capricious class feature, he has a base 50% chance to avoid the effect entirely at no cost (which can be augmented with his dodge pool as normal).
 
 ++++ Statuesque Form (Ex)
-At 20th level, whenever the bravo uses his secure the stage incredible stunt, his area of patrol is doubled.
+At 20th level, the bravo’s unfettered alacrity class feature functions regardless of the amount within his dodge pool, and instead recovers +50% to his dodge pool when he ignores or succeeds against such an effect.
 
-Additionally, his unfettered alacrity ability functions regardless of the amount within his dodge pool, and no longer subtracts from it whenever he ignores such an effect.
-
-+++ ##00c000|Improvisation##
-You create and destroy in a matter of moments.
-
-**Whim Spheres:** Artifice ((gear) package) and Barroom.
-
-++++ Quick Creations (Ex)
-At 2nd level, while the bravo maintains the cobbled creation approach, he reduces the action cost to create a trinket by one step (full-round, standard, move, minimum swift), or by two steps if he expends his martial focus as part of creating the trinket.
-
-Additionally, if the bravo successfully hits a creature with a trinket that he has created in the same round, he can use confounding strike as a free action.
-
-++++ Exploit Uncertainty: Won’t See It Coming (Ex)
-At 5th level, whenever the bravo outwits a creature, he can create a trinket or pick up an improvised weapon within his natural reach as an immediate action; if the bravo succeeds an attack roll with such an object against the outwitted creature within 1 round of creating or grabbing it, the bonus to damage rolls associated with exploit uncertainty is doubled for that attack.
-
-++++ Incredible Stunt: Indomitable Grip (Ex)
-At 10th level, the bravo can use this incredible stunt as a swift action to use anything he can get his hands on at their maximum potential.
-
-For the stunt’s duration, any time the bravo applies a (smash) talent to an improvised weapon, it does not contribute to the maximum amount of times he can apply such a talent to that weapon, as well as treating such weapons as being made of cold iron and silver for the purposes of bypassing damage reduction. In addition, the bravo deals damage with improvised weapons as if they were one size category larger for the duration.
-
-++++ Industrious Improviser (Ex)
-At 15th level, whenever the bravo successfully damages a creature with an improvised weapon, he can break the weapon to reroll results on the weapon damage that are equal to or below half the maximum result the die can roll (for example, rerolling 1s, 2s, and 3s on a d6). This does not affect additional dice, such as from Vital Strike or the flaming weapon special ability.
-
-Additionally, the bravo can outwit a creature as a cost as part of an attack roll to roll the attack roll twice, taking the highest result.
-
-++++ Impromptu Carnage (Ex)
-At 20th level, any improvised weapons that the bravo wields are treated as if they possessed a +5 enhancement bonus for the purposes of bypassing damage reduction (allowing him to bypass damage reduction for cold iron, silver, and adamantine, or damage reduction that is alignment-based.
-
-Additionally, when the bravo uses the indomitable grip incredible stunt, he deals damage with improvised weapons as if they were two size categories larger for the duration.
+Additionally, the maximum miss chance the bravo can gain from his cunning celerity ability increases to 75%, or 100% if he moved at least 10 feet on his turn or avoided an attack using his cunning celerity ability. 
 
 +++ ##00c000|Genius##
 Knowledge is power, and your mind is a grand library.
@@ -331,27 +327,25 @@ Knowledge is power, and your mind is a grand library.
 **Whim Spheres:** Alchemy ((formulae) package) and Study.
 
 ++++ Thoughtful Estimation (Ex)
-At 2nd level, for every 2 notions the bravo possesses on an active theory, the subject of the theory suffers a -1 penalty to saving throws attempted against the bravo’s Alchemy sphere formulae.
+At 2nd level, the bravo increases the miss chance he gains from his cunning celerity by 5% for every 2 notions he has on the subject of his theory, as long as the attack originates from such a creature. This increase is applied after reducing his dodge pool, and ignores the normal maximum miss chance.
 
-Additionally, whenever the bravo uses his cunning celerity ability against an attack originating from the subject of his theory, the maximum miss chance he can gain when using the ability increases by 5% for every 2 notions he has on the subject of his theory.
+Additionally, the bravo can outwit a creature to create a formulae as an immediate action—if they were the subject of the bravo’s theory, he can expend his martial focus or spend 3 notions to also use the formulae as part of creating it, as long as it targets the subject of his theory.
 
 ++++ Exploit Uncertainty: Decisive Concoction (Ex)
-At 5th level, whenever the bravo outwits a creature, the bravo can create a formulae as an immediate action, gaining a bonus to the Craft check equal to his exploit uncertainty bonus. If the outwitted creature is also the subject of the bravo’s theory, he can expend his martial focus or spend 3 notions to also use the formulae as part of the action to create it, as long as it targets the subject of his theory.
-
-Additionally, the bonuses granted by exploit uncertainty also apply to his Alchemy sphere formulae.
+At 5th level, the bravo’s exploit uncertainty bonus also applies to attack rolls made with an Alchemy sphere formulae, and as a penalty that the outwitted creature suffers to saving throws against his formulae.
 
 ++++ Incredible Stunt: Flash of Cognizance (Ex)
 At 10th level, the bravo can use this incredible stunt as part of using a theory’s breakthrough ability to regain the spent notions after the breakthrough ability is used, as if he had spent them at all. For every notion the bravo spends on the breakthrough ability, his dodge pool regains 5%.
 
 ++++ Powerful Psyche (Ex)
-At 15th level, when the bravo uses his improved spontaneity ability to spend 1 minute and 1 use of spontaneous technique to change a prepared talent, the bravo can also spend an incredible stunt to instead change all of his prepared talents (but cannot choose a utility talent as normal).
+At 15th level, as an incredible stunt, the bravo can change all talents he has prepared using spontaneous technique (but cannot choose a utility talent as normal).
 
 Furthermore, he can use his capricious class feature against Will saving throws.
 
 ++++ Devastating Intellect (Ex)
 At 20th level, the bravo can spend 3 notions (or an incredible stunt) as part of using an Alchemy sphere formulae against the subject of his theory to deal the maximum possible damage against them.
 
-Additionally, the subject of his theory suffers a penalty to saving throws against the bravo’s formulae equal to the number of notions the bravo has in his theory.
+Whenever the bravo avoids an attack against the subject of his theory using cunning celerity, his active theory gains 1 notion.
 
 +++ ##00c000|Grandeur##
 Your fashion sense is as sharp as your tongue.
@@ -360,52 +354,91 @@ Your fashion sense is as sharp as your tongue.
 
 ++++ Dress to Impress (Ex)
 At 2nd level, whenever the bravo creates (or applies) an artwork on a worn item, he can choose to make it truly bombastic and attention-grabbing. As long as the bravo is wearing such an artwork, creatures only need to observe it briefly to engage with it (functioning as a gaze attack); with a successful Will saving throw negating its effects (if it did not already require a saving throw). Once a creature has attempted a saving throw against such an artwork, they become immune to its effects for 24 hours.
+    At 15th level, a creature that attempts a saving throw against such an artwork does not become immune to its effects, and must attempt a saving throw each round they remain unaffected
 
 Additionally, a creature challenged by the bravo also becomes distracted with him for 1 round.
 
 ++++ Exploit Uncertainty: Better Than You (Ex)
-At 5th level, the bravo’s exploit uncertainty bonus also applies to Will saving throws against that opponent’s spells and abilities.
+At 5th level, the bravo’s exploit uncertainty bonus also applies to Will saving throws against that opponent’s spells and abilities, as well as a penalty that the outwitted creature suffers to saving throws against his artworks.
 
-++++ Incredible Stunt: Spectacular Reveal (Ex)
-At 10th level, the bravo must prepare this incredible stunt as if it were a plan. The bravo can reveal this incredible stunt as a full-round action, as his current outfit is removed (usually in a spectacular fashion, such as burning away in flame or harmlessly exploding from him) to reveal another outfit underneath.
+++++ Incredible Stunt: Spectacular Reveal [plan] (Ex)
+At 10th level, the bravo must prepare this incredible stunt as if it were a plan. The bravo can reveal this incredible stunt as a full-round action, as his current outfit is removed (usually in a spectacular fashion, such as burning away in flame or harmlessly exploding from him) to reveal another outfit underneath. The bravo can replace up to two prepared talents with non-utility (artwork) talents as part of using this incredible stunt.
 
 The bravo can apply artworks to this outfit as normal. All observers to this must succeed at a Will saving throw or become stunned for 1 round and shocked for the remaining stunt duration.
 
-++++ Never Out of Fashion (Ex)
-At 15th level, whenever the bravo uses his dress to impress ability when applying an artwork to a worn item, creatures who attempt a saving throw against it do not become immune to its effects, and must attempt a saving throw each round they remain unaffected.
+At 20th level, the duration of this incredible stunt is doubled (this includes the duration of the stunned condition).
 
-Additionally, a creature challenged by the bravo is oblivious to all creatures except the bravo for 1 round, and distracted with him for as long as the challenge remains.
+++++ Never Out of Fashion (Ex)
+At 15th level, a creature challenged by the bravo is oblivious to all creatures except the bravo for 1 round, and distracted with him for as long as the challenge remains.
+
+Additionally, the bravo can apply an additional artwork to worn items.
 
 ++++ My Own Mind (Ex)
-At 20th level, the bravo becomes immune to mind-affecting effects. Additionally, the duration of his spectacular reveal incredible stunt is doubled.
+At 20th level, the bravo becomes immune to mind-affecting effects. Additionally, creatures of the bravo’s choice that can see him become immune to effects that rely on visual components unless he chooses to allow it—the bravo can change who has this immunity as a free action.
+
++++ ##00c000|Improvisation##
+You create and destroy in a matter of moments.
+
+**Whim Spheres:** Artifice ((gear) package) and Barroom.
+
+++++ Quick Creations (Ex)
+At 2nd level, while the bravo maintains the cobbled creation approach, he reduces the action cost to create a trinket by 1 step, or 2 steps if he expends his martial focus when doing so (full-round > standard > move > swift). The bravo can outwit a creature to create a trinket or pick up an improvised weapon within his natural reach as an immediate action.
+
+Additionally, the bravo can use his confounding strike ability as a free action if he breaks the trinket used in the attack.
+
+++++ Exploit Uncertainty: Won’t See It Coming (Ex)
+At 5th level, whenever the bravo is gaining the benefits of his exploit uncertainty ability against a creature, he can attack them with a trinket as an immediate action. 
+
+Additionally, attack rolls made against such creatures with a trinket deal twice the damage bonus granted by exploit uncertainty.
+
+++++ Incredible Stunt: Indomitable Grip (Ex)
+At 10th level, the bravo can use this incredible stunt as a swift action to use anything he can get his hands on at their maximum potential.
+
+For the stunt’s duration, any time the bravo applies a (smash) talent to an improvised weapon, it does not contribute to the maximum amount of times he can apply such a talent to that weapon, as well as treating such weapons as being made of cold iron and silver for the purposes of bypassing damage reduction. In addition, the bravo deals damage with improvised weapons as if they were one size category larger for the duration.
+
+At 20th level, this improves to two size categories larger.
+
+++++ Industrious Improviser (Ex)
+At 15th level, whenever the bravo successfully damages a creature with an improvised weapon, he can break the weapon to reroll results on the weapon damage that are equal to or below half the maximum result the die can roll (for example, rerolling 1s, 2s, and 3s on a d6). This does not affect additional dice, such as from Vital Strike or the flaming weapon special ability.
+
+Additionally, the bravo can outwit a creature as a cost as part of making an attack to roll the attack roll twice, taking the highest result.
+
+++++ Impromptu Carnage (Ex)
+At 20th level, any improvised weapons that the bravo wields are treated as if they possessed a +5 enhancement bonus for the purposes of bypassing damage reduction (allowing him to bypass damage reduction for cold iron, silver, and adamantine, or damage reduction that is alignment-based.
 
 +++ ##00c000|Impulse##
 Your body and mind are set free.
 
 **Whim Spheres:** Alchemy ((poison) package) and Body Control.
 
-++++ Catalyze Toxin (Ex)
-At 2nd level, the bravo can spend 1 hour catalyzing a (toxin) talent within his body, allowing him to draw upon its effects a number of times per day equal to his practitioner modifier (minimum 1).
+++++ Catalyze Mutagen (Ex)
+At 2nd level, the bravo can spend a free action a number of times per day equal to his practitioner modifier (minimum 1) to cause a mutagen that he is benefiting from to become potent for 1 minute. A potent mutagen increases any bonuses (or similar benefits, such as temporary hit points granted by Anesthetic Dosage) it grants by +2.
 
-The bravo can activate a catalyzed toxin as an immediate action, granting him all of its effects for the normal duration, or have it function as a contact poison that exposes itself to creatures who touch the bravo or that the bravo hits with an unarmed strike (chosen when he uses this ability). The bravo can change the catalyzed toxin by spending 1 hour.
+Additionally, if the bravo is meditating, he ignores any penalties or other adverse effects associated with mutagens he is subject to.
 
-Additionally, the bravo ignores any drawbacks associated with his catalyzed toxin (if any, such as Performance Enhancer) while meditating.
+At 5th level, if a potent mutagen gives multiple options, the bravo can choose two such options (for example, Performance Enhancer could grant its benefit to both Strength and Dexterity—applying a penalty to both corresponding ability scores as normal).
+
+**Note:** For this whim’s purposes, a ‘mutagen’ is any Alchemy sphere poison that grants a benefit (such as Performance Enhancer). This does not interact with the alchemist’s mutagen class feature or similar abilities.
 
 ++++ Exploit Uncertainty: Mutagenic Rush (Ex)
 At 5th level, whenever the bravo outwits a creature, he also gains a number of temporary hit points equal to 4 x his exploit uncertainty bonus for the duration.
 
-++++ Incredible Stunt: Reactive Biochemistry (Su)
-At 10th level, the bravo can use this incredible stunt as an immediate action as part of being affected by a toxin, or as part of attempting to endure an effect as part of the meditation approach, as his body and mind react sharply to the change in body chemistry.
+++++ Incredible Stunt: Reactive Biochemistry (Ex)
+At 10th level, the bravo can use this incredible stunt as an immediate action as part of attempting a Fortitude save or attempting to endure an effect while meditating, as his body and mind react sharply to the change in body chemistry.
 
-For the duration, he gains the benefits of the evasion and stalwart class features (as the rogue and courser class features respectively), in addition to increasing the benefits (if beneficial) or save DC (if harmful) of his catalyzed toxin by 2.
+For the duration, he gains the benefits of the evasion and stalwart class features (as the rogue and courser class features respectively), in addition to increasing any bonuses (or similar benefits) granted by a potent mutagen by +2.
 
-++++ Compound Chemistry (Ex)
-At 15th level, the bravo can have up to two catalyzed toxins at one time. The bravo also gains temporary hit points equal to 1/2 his bravo level + his operative modifier endures an effect.
+At 15th level, he instead gains the improved evasion and unyielding class features when he uses this incredible stunt.
 
-Additionally, whenever the bravo uses his reactive biochemistry incredible stunt, he gains the benefits of the improved evasion and unyielding class features (as the rogue and courser class features respectively).
+++++ Advanced Physiology (Ex)
+At 15th level, the bravo chooses a single mutagen he can create—when he benefits from the chosen mutagen, it is always considered to be potent. Once chosen, this choice cannot be changed. 
 
-++++ Impossible Tolerance (Ex)
-At 20th level, the bravo becomes immune to the negative effects of poison, in addition to ability score damage and drain.
+Additionally, whenever the bravo successfully endures an effect, he gains temporary hit points equal to his bravo level + his operative modifier (minimum 1), which last for 1 minute.
+
+++++ Chemical Symbiosis (Ex)
+At 20th level, the bravo chooses a single mutagen he can create—he is considered to be always benefitting from the chosen mutagen. If the bravo loses its benefits for any reason, it returns after 1 minute. 
+
+The bravo also becomes immune to the negative effects of poison, in addition to ability score damage and drain.
 
 +++ ##00c000|Patience##
 Pick out the perfect weak spot.
@@ -413,25 +446,28 @@ Pick out the perfect weak spot.
 **Whim Spheres:** Investigation and Scout.
 
 ++++ Decisive Scrutiny (Ex)
-At 2nd level, whenever the bravo uses the analyze or scout ability, he can use confounding strike as a free action until the end of his current turn.
+At 2nd level, the bravo gains the Unerring Eye feat as a bonus feat (even if he doesn’t meet the prerequisites). Whenever the bravo uses the analyze or scout sphere ability, he can use confounding strike as a free action until the end of his turn.
 
-Additionally, whenever the bravo begins a turn with a creature scrutinized, he may expend his martial focus as a free action to roll 1d20; if the scrutinized creature was analyzed or scouted within the last round, he does not need to expend his martial focus.
+Additionally, if the bravo starts his turn with a creature (or creatures) scrutinized, he can expend his martial focus or outwit the creature(s) (unless they were analyzed or scouted within the last round) as a free action to roll 1d20—known as his scrutiny die—and apply it to them. A creature can only have a single scrutiny die applied to them at one time (with subsequent applications replacing the previous).
 
-The bravo can at any point choose to use either the stored d20 or a d20 roll that he has just made (but before the results of the check have been revealed), as long as it is a roll made against the scrutinized creature. The bravo can only have a single d20 stored this way at a time.
+Whenever the bravo rolls a d20 against a scrutinized creature, he can choose to use the result of the scrutiny die applied to them instead. This choice must be made before the results of the roll.
 
 ++++ Exploit Uncertainty: Saw It Coming (Ex)
-At 5th level, whenever the bravo outwits a creature, he can choose to roll a stored d20 again (replacing the previous roll with the new roll). In addition, as long as the bravo retains the benefits of his exploit uncertainty ability, he can apply d20s stored with his decisive scrutiny ability to the d20 rolls that the outwitted creature attempts as an immediate action (Will negates), even if they are not scrutinized.
+At 5th level, whenever the bravo outwits a creature that has a scrutiny die applied to it, he can reroll one of the scrutiny dice. 
+In addition, as an immediate action, the bravo can force a creature he is applying his exploit uncertainty ability against to replace a d20 roll they attempt with a scrutiny die applied to them (Will negates).
+
+At 15th level, the bravo can either use this ability as a free action usable outside of your turn, or remove the saving throw associated with it.
 
 ++++ Incredible Stunt: Brainstorm (Ex)
-At 10th level, the bravo can use this incredible stunt as a swift action to gain a flood of insight into the situation at hand. For the duration, the bravo’s decisive scrutiny ability applies to all creatures he has scouted or scrutinized, and he may roll a number of d20s at the beginning of his turn equal to his practitioner modifier (minimum 2) that he may distribute among all such creatures.
+At 10th level, the bravo can use this incredible stunt as a swift action to gain a flood of insight into the situation at hand. For the duration, the bravo ignores the cost required to apply a scrutiny die to a creature, which can apply against creatures he has scouted as well. 
 
-The bravo can only have this amount of d20s stored this way at one time, which are all rerolled at the beginning of each of his turns he benefits from this incredible stunt.
+When he uses this incredible stunt and at the start of each of his turns during it, he can roll a number of scrutiny dice equal to his practitioner modifier (minimum 2) and distribute them across any valid creatures. A creature cannot have more scrutiny dice applied to them than the bravo’s practitioner modifier (minimum 2).
 
 ++++ Critical Reasoning (Ex)
-At 15th level, the bravo can apply stored d20s to an outwitted creature as a free action that can be taken outside of his turn, or still as an immediate action but removing the saving throw against the ability. In addition, as long as the bravo retains the benefits of his exploit uncertainty ability, he does not need to spend skill leverage (or outwit the creature) to attempt to gain a detailed analysis from the outwitted creature.
+At 15th level, the bravo ignores the normal costs required to gain a detailed analysis when attempting to analyze a creature he has scouted. Additionally, the maximum number of scrutiny dice that a creature can have applied to them at one time increases to 2.
 
 ++++ Akashic Insights (Ex)
-At 20th level, whenever the bravo begins a turn with a creature scrutinized, he can instead roll three d20s that he may store and use. This adds to the total of dice he rolls when he uses his brainstorm incredible stunt (allowing him to roll a number of d20s equal to 3 + his practitioner modifier).
+At 20th level, whenever the bravo would start his turn and apply a scrutiny die to a valid creature (or creatures), he instead applies three scrutiny dice to them—this increases the maximum number of scrutiny dice that a creature can have applied to them at one time to 3.
 
 ----
 
