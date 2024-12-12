@@ -1,5 +1,4 @@
 title:Reaper
-parent:start
 [[module CSS]]
 .colored-links span > a {
   color: inherit;
@@ -70,7 +69,7 @@ A reaper gains a small reservoir of energy they can call on to create truly wond
 A reaper gains combat or magic talents according to Table: Reaper, gaining their choice of combat or magic talents at each level they would gain a talent. Reapers use their casting ability modifier as their practitioner modifier.
 
 ++ ##00c000|Bloodletter##
-At 1st level, a reaper gains the Duelist sphere as a bonus talent, or a talent from the Duelist sphere if they already possess the base sphere. Additionally, the reaper may cause bleed damage to any foe by tearing at the creature's essence, even those normally immune to bleed damage. The aspect of this ability to cause immune creatures to bleed is a supernatural effect.
+At 1st level, a reaper gains the Duelist sphere as a bonus talent, or a talent from the Duelist sphere if they already possess the base sphere. Additionally, the reaper gains the Bloody Slasher drawback, but gains the Ooze Ichor talent instead of Long Cuts.
 
 ++ ##00c000|Favored Prey (Ex)##
 At 1st level, a reaper selects a creature type from the ranger favored enemies table. They gain a +2 bonus on Bluff, Knowledge, Perception, Sense Motive, and Survival checks against creatures of their selected type. Likewise, the reaper gets a +2 bonus on weapon attack and damage rolls against them. A reaper may make Knowledge skill checks untrained when attempting to identify these creatures.
@@ -82,6 +81,47 @@ The reaper may create a small object called a reaper trophy with the remains of 
 
 ++ ##00c000|Reaper Cult##
 At 1st level, a reaper must select a cult to focus on. A cult is an area of intense occult study centred around a specific creature, and the root of their eldritch powers. The reaper learns how to hunt the creatures belonging to the creature's type, and eventually gains those creatures' powers. At 1st, 5th, and every 4 levels after, the reaper gains an ability specific to that cult.
+
++++ ##00c000|Cult of the Chimera [BaP]##
+The beasts of this world rampage and crush the powerless. The reaper has chosen to stand against beasts of magic, abominations of nature.
+
+++++ Beast Hunter (Ex)
+At 1st level, the reaper is always treated as if they have selected magical beast with their favored prey class feature, in addition to the currently selected creature type.
+
+++++ Chimeric Adaptations (Ex)
+At 5th level, the reaper’s body begins to subtly become more monstrous, growing scales, chitinous plates, or dense matted fur. The reaper’s base natural armor increases by +2 and stacks with any other natural armor they possess. Whenever they are struck by a cold iron weapon, or they touch an object made of cold iron, their body quivers uncontrollably, taking a -2 penalty on attack rolls for 1 round. The reaper retains the effects of this ability even while under the effects of a polymorph effect (or other effect that would suppress abilities reliant on the target’s natural form).
+
+++++ Claws that Bite, Jaws that Catch (Su)
+At 9th level, the reaper’s body manifests hideous and monstrous appendages.
+
+The reaper chooses of two of the following:
+* 1 arm, as the extra arm trait from the Alteration sphere Additional Limbs talent.
+* 1 bite (primary, 1d6 Medium, 1d4 Small) plus grab.
+* 2 claws (primary, 1d6 Medium, 1d4 Small) plus 1d6 bleed.
+* 1 gore (primary, 1d6 Medium, 1d4 Small) plus push.
+* 1 prehensile tail with a stinger (primary, 1d4 Medium, 1d3 Small) plus poison (stinger – injury; save Fort DC 10 + 1/2 their reaper level + their casting ability modifier; frequency 1/round for 4 rounds; effect 1d2 Con damage; cure 2 saves).
+* 2 tentacles (secondary, 1d4 Medium, 1d3 Small). These tentacles cannot be used to wield weapons or shields. However, the tentacles are agile and dexterous, and may be used as normal limbs and hands for any other purpose.
+
+The reaper must have appropriate limbs or appendages when choosing these natural attacks (see the Alteration sphere for similar natural attack requirements, such as gaining claws requiring arms or front legs) and cannot select a choice more than once. The additional appendages and natural attacks from this ability have an ethereal, sickly glow to them, and are noticeably unnatural. The reaper may spend 1 spell point as a standard action to reselect their choices from this ability, or to suppress or enable the natural attacks from this ability. If the reaper suppresses this ability, their animalistic nature takes a toll on their mental capacity, causing them to act more feral and suffer a -4 penalty on all Intelligence-based skill checks and ability checks as long as this ability is suppressed.
+
+In addition, whenever the reaper performs an attack action, they may make an additional attack with a natural attack granted by this ability at a -5 penalty as a free action.
+
+++++ Overwhelming Might (Su)
+At 13th level, the reaper may spend a spell point as a swift action to temporarily tap into a primal rage. For the next minute, the reaper’s size increases to the next category larger, they gain a +4 size bonus to Strength and Constitution and the natural armor bonus from the chimeric adaptations ability increases by 2. The reaper’s size modifier for AC and attacks changes as appropriate to their new size category. This ability does not change the reaper’s speed. Determine the reaper’s space and reach as appropriate to their new size. Overwhelming might is a not a polymorph effect, but it does not stack with other size changes, such as the Alteration sphere Size Change talent.
+
+When the reaper uses overwhelming might, they become ravenous and irrational. If they did not damage a creature during their previous turn, the reaper takes 1d6 points of nonlethal damage and is sickened for 1 round. If the reaper is immune to nonlethal damage, the damage dealt is lethal instead. This sickened condition bypasses any immunity to the sickened condition the reaper may possess.
+
+++++ Unstoppable Legend (Su)
+At 17th level, the reaper takes on the mantle of the king of monsters. The reaper gains DR 5/–, which stacks with all other sources of DR /–, and immunity to bleed, death effects, disease, fire and poison.
+
+In addition, once per round during their turn, the reaper may spend a spell point as a free action to attempt a new saving throw against one adverse condition they are suffering from that normally grants a saving throw, using the effect’s original DC. If the reaper is affected by multiple adverse conditions, they choose one adverse condition to attempt a new saving throw versus. The reaper may use this ability even if they are normally unable to take actions due to an adverse condition.
+
+This beastly boon comes with a price, an innate demand for perfection. Whenever the reaper first fails a saving throw against a non-harmless effect that causes an adverse condition, they take 3d6 points of nonlethal damage which bypasses any damage reduction they possess and cannot be prevented. If the reaper is immune to nonlethal damage, the damage dealt is lethal instead.
+
+**Note:** For the purposes of this ability, an “adverse condition” is a condition, such as entangled, shaken, or paralyzed, caused by an effect with a saving throw. This ability does not work on conditions caused by effects without a saving throw, such as becoming shaken by the Intimidate skill.
+
+++++ Apotheosis
+At 20th level, if the reaper surrenders their soul, they gain the animal lord template (Pathfinder Roleplaying Game Bestiary 3 pg. 14), and choose a species affinity of their choice, unless they would be unable to gain it due to their creature type. In addition, the reaper is treated as a magical beast for the purposes of effects targeting creatures by type (such as a ranger’s favored enemy and bane weapons, but not for prerequisites).
 
 +++ ##00c000|Cult of the Fang##
 Vampirism is a disease of the body and soul, deadening flesh and twisting hearts to evil. Ancient undead look beyond their thirst to higher meaning in the essential properties of blood. The promise of a purer existence can tempt anyone to embrace this horrible curse.
@@ -182,7 +222,7 @@ As the scales slowly coalesce on your skin, your mind grows to despise vulnerabi
 You may spend 1 spell point as a standard action to suppress this fear for 1 hour per reaper level.
 
 ++++ Draconic Insufflation (Su)
-At 9th level, you learn to channel your soul's majesty into a breath weapon which deals either acid, cold, electricity, or fire damage; you can spend 8 hours of meditation to change this energy type. Your breath weapon can be used as a 30 foot cone or 90 foot line, chosen each time you use it. Using this breath weapon is a standard action which costs 2 spell points, and it deals damage equal to 9d10 + your practitioner modifier.
+At 9th level, you learn to channel your soul's majesty into a breath weapon which deals either acid, cold, electricity, or fire damage; you can spend 8 hours of meditation to change this energy type. Your breath weapon can be used as a 30 foot cone or 90 foot line, chosen each time you use it. Using this breath weapon is a standard action which costs 2 spell points, and it deals damage equal to 9d10 + your practitioner modifier, with a Reflex save for half damage (DC 10 + 1/2 class level + Practitioner modifier).
 
 For each class level you possess past 9th, it deals an additional +1d10 damage. You can choose to reduce the damage die of this breath weapon to d6s instead of d10s; if you do, you can choose an additional damage type for it to deal; a creature must resist or be immune to both damage types or take full damage.
 
@@ -214,6 +254,7 @@ At 2nd level and every 2 levels afterwards, a reaper selects a reaper technique 
 * **Effigy of Hate:** You may craft a reaper trophy specific to an individual creature you have encountered, fueling its magic with your enmity towards it. As long as you hold this trophy, the individual your trophy represents is treated as your favoured prey. You may only own a number of trophies this way at once equal to your practitioner modifier.
 * **Expanded Arsenal:** Gain a single talent of your choice from the Equipment sphere. You may select this reaper technique more than once. Each time it is selected, gain another equipment talent.
 * **Familiar:** You gain a familiar as the wizard class feature, using your reaper level as your wizard level for this purpose.
+* **Grim Harvester:** You gain Harvest Parts as a bonus feat. You may select technique this a second time to gain Grisly  Ornament as a bonus feat.
 * **Obsessive Researcher:** You gain ranks in the Linguistics skill equal to your total Hit Dice; whenever you gain a Hit Die (such as when you gain a level) you gain an additional rank. If you already have ranks in the Linguistics skill you may immediately retrain them.
 * **Occult Techniques:** You gain Psychic Sensitivity (Occult Adventures) as a bonus feat.
 * **Skilled Magic:** You gain one of the following feats: Cantrips, Circle Casting, Contingency, Counterspell, Improved Counterspell, Greater Counterspell, Ritual Caster. You must meet the prerequisites of the feat. You may select this reaper technique more than once. Each time it is selected, gain an additional feat.
@@ -221,7 +262,7 @@ At 2nd level and every 2 levels afterwards, a reaper selects a reaper technique 
 * **Tricky:** Gain a rogue talent of your choice, treating your reaper level as your rogue level when determining the effects. This stacks with any rogue levels you possess. You may select this reaper technique more than once. Each time it is selected, gain another rogue talent.
 
 ++ ##00c000|Prey Casting Bonus (Ex)##
-At 3rd level, whenever a reaper uses a magical sphere effect which targets or includes in its effect only favored prey, the caster level for the effect increases by 1. At 7th level and every 4 levels after, this bonus to caster level increases by 1.
+At 3rd level, whenever a reaper uses a magical sphere effect which targets or includes in its effect only favored prey, the DCs and spell penetration checks for the effect each increase by 1. At 7th level and every 4 levels after, these bonuses increase by 1.
 
 ++ ##00c000|Blessing of Silver (Su)##
 At 3rd level, a reaper always treats their weapons as being made of silver for the purposes of bypassing damage reduction. The blessing causes the reaper's held weapons to gleam as if cast in pale moonlight, though not so much as to impede attempts at stealth.
@@ -246,7 +287,7 @@ Once the reaper reaches 20th level, this ability ceases to function and instead 
 ++ ##00c000|Eternal Foe (Ex)##
 At 19th level, a reaper's obsessive drive to hunt their favored prey has almost completely subsumed their mortality. The reaper no longer takes ability score penalties or receives ability score bonuses for aging and cannot be magically aged. As long as the reaper has attempted to hunt one of their favored prey within the last year, they cannot die of old age.
 
-Additionally, the reaper no longer needs to sleep, eat, or drink in order to survive in a given day as long as they've drinken a mouthful of blood or inflicted bleed damage with their bloodletter ability that day.
+Additionally, the reaper no longer needs to sleep, eat, or drink in order to survive in a given day as long as they've drunk a mouthful of blood or inflicted bleed damage with their bloodletter ability that day.
 
 ++ ##00c000|Soul Crisis (Ex)##
 At 20th level, a reaper faces a choice. Their occult studies have almost completely devoured their soul, and they must choose to reclaim or surrender their soul.
@@ -260,6 +301,10 @@ A reclaimed soul causes the reaper to lose all benefits of the cult class featur
 + ##00c000|Archetypes##
 
 ++ ##00c000|[[[Chem Dog]]]##
+
+++ ##00c000|[[[Disciple of the Monstrous Arts]]]## [Youxia HB]
+
+++ ##993300|[[[Hunt Master]]]## [Apoc]
 
 ++ ##00c000|[[[Machine Cultist]]]##
 
@@ -284,11 +329,11 @@ Your fanatic study of your foes has yielded surprising new insights into how to 
 + ##00c000|Favored Class Bonuses##
 A reaper belonging to an indicated species below can gain the listed benefit in place of normal benefits (if it is that character’s favored class).
 
-**Aasimar^^ARG^^:** +1/2 CL for the Life sphere.
-**Ceptu^^Co7S^^:** +1/2 CL for the Telekinesis sphere.
-**Changeling^^ARG^^:** +1/2 CL for the Illusion sphere.
+**Aasimar^^ARG^^:** +1/5 of a Life sphere talent.
+**Ceptu^^Co7S^^:** +1/5 of a Telekinesis sphere talent.
+**Changeling^^ARG^^:** +1/5 of an Illusion sphere talent.
 **Dhampir^^ARG^^:** +1/5 of an Death sphere talent.
-**Dwarf:** +1/2 CL for the Enhancement sphere.
+**Dwarf:** +1/5 of an Enhancement sphere talent.
 **Elf:** +1/6 of a new magic sphere talent.
 **Fetchling^^ARG^^:** +1/5 of a Dark sphere talent.
 **Gnome:** +1/5 of an Illusion sphere talent.
@@ -301,16 +346,18 @@ A reaper belonging to an indicated species below can gain the listed benefit in 
 **Kitsune^^ARG^^:** +1/5 of an Alteration or Illusion sphere talent.
 **Kobold^^ARG^^:** +1/5 of an Enhancement sphere talent.
 **Mirrorkin^^Co7S^^:** +1/5 of an Alteration or Fate sphere talent.
-**Orc^^ARG^^:** +1/2 damage on damage from a Destruction talent.
+**Orc^^ARG^^:** +1/5 of a Destruction sphere talent.
 **Oread^^ARG^^:** +1/5 of an Earth or Metal Nature sphere talent.
-**Rhyzala^^Co7S:SoH^^:** +1/2 CL for the Time sphere.
+**Rhyzala^^Co7S:SoH^^:** +1/5 of a Time sphere talent.
 **Shadow Fey^^Co7S^^:** +1/5 of a Warp sphere talent.
 **Sylph^^ARG^^:** +1/5 of a Weather sphere talent.
 **Tiefling^^ARG^^:** +1/6 of a combat sphere talent.
-**Undine^^ARG^^:** +1/2 CL for the Nature sphere.
+**Undine^^ARG^^:** +1/5 of a Nature sphere talent.
 **Vanara^^ARG^^:** +1/5 of an Athletics sphere talent.
-**Veryx^^Co7S^^:** +1/2 CL for the Mind sphere.
-**Xodai^^Co7S^^:** +1/2 CL for the Fate sphere.
+**Veryx^^Co7S^^:** +1/5 of a Mind sphere talent.
+**Xodai^^Co7S^^:** +1/5 of a Fate sphere talent.
+
+Wiki Note: Not all of these Favored Class Bonuses match the printed materials of the Reaper class even following the errata, but were changed in accordance with the wishes of the author.
 
 ----
 
@@ -332,9 +379,9 @@ When the minds of mortal creatures touch madness, they are never left the same. 
 
 **Special Attacks:**
 
-//Aura of Terror (Su):// Creatures in a 60-foot radius that look at the half-aberration must succeed on a Will save or become shaken. A creature that successfully saves cannot be affected again by the same half-aberration’s aura of terror for 24 hours. This is a mind-affecting fear effect.
+//Aura of Terror (Su):// Creatures in a 60-foot radius that look at the half-aberration must succeed on a Will save (DC 10 + 1/2 HD + CHA mod) or become shaken until they leave the aura's area of effect. A creature that successfully saves cannot be affected again by the same half-aberration’s aura of terror for 24 hours. This is a mind-affecting fear effect.
 
-//Presence of Insanity (Su):// Creatures suffering from a fear effect who start their turn within 60 feet of the half-aberration must succeed on a Will save or become confused for 1 minute. A creature that successfully saves cannot be affected again by the same half-aberration's presence of insanity for 1 minute. This is a mind-affecting effect.
+//Presence of Insanity (Su):// Creatures suffering from a fear effect who start their turn within 60 feet of the half-aberration must succeed on a Will save (DC 10 + 1/2 HD + CHA mod) or become confused for 1 minute. A creature that successfully saves cannot be affected again by the same half-aberration's presence of insanity for 1 minute. This is a mind-affecting effect.
 
 **Abilities:** Increase from the base creature as follows: Con +4, Int +4, Wis +4, Cha +4.
 
