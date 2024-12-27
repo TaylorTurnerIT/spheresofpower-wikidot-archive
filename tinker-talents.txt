@@ -1,6 +1,6 @@
 title:Tinker Talents
 ++ Tinker Talents
-++++ Disguised Gizmo
+++++ Disguised Gizmo [utility]
 //You are a master of disguising your gizmos as otherwise normal objects that only expose their true functionality while used.//
 
 You may apply a disguise to a gizmo as part of crafting that gizmo. A disguise applied this way is immediately broken while the gizmo is activated, and the disguise is immediately reapplied when the gizmo is deactivated.
@@ -79,7 +79,7 @@ In addition, when recovering gold spent on a project, you recover an additional 
 
 **Note: “Inoperable”**: Constructs are normally destroyed immediately upon reaching 0 hit points. For the purposes of this talent, an “inoperable” gizmo or //mechanoid// is deactivated and cannot be reactivated or used until it is repaired to more than 0 hit points (a positive number). An inoperable //mechanoid// does not lose hit points when inoperable, and does not need to be stabilized when in that condition. An inoperable //mechanoid// is treated as helpless and dying for the purposes of other effects.
 
-++++ Security Measures
+++++ Security Measures [utility]
 //Your gizmos are designed with other people in mind, making them easier to use for allies and harder to use for others.//
 
 The Disable Device DC to disable or sabotage gizmos you craft increases by +10 (see **[[[Skill Rules | Section 1.2: Skill Rules, Disable Device]]]** for more).
@@ -106,7 +106,7 @@ Regardless of the number of countermeasures in a single round, a creature can on
 
 Countermeasures are treated as complex mechanical traps (Disable Device DC 25 + 1 gizmo level). A countermeasure can be individually disabled, but disabling the countermeasure does not disable the security measure. A disabled countermeasure is treated as a depleted gizmo and can be restored whenever the crafter would maintain their gizmos. Failing to disable a countermeasure triggers every associated countermeasure. Abilities that would warn a creature about a trap or similar hazard may warn a creature about a countermeasure (such abilities normally grant a Perception check to notice the hazard; the Perception DC to notice a countermeasure is equal to its Disable Device DC).
 
-++++ Tinker Savvy
+++++ Tinker Savvy [utility]
 //Your expertise gives you immense intuition for anything technological.//
 
 Whenever you attempt a skill check to interact with a mechanical creature, object, or subject matter (including constructs, traps, locks, etc.), you may instead attempt an associated skill check with a -5 penalty. This does not allow you to perform checks you could not do with the original skill.
@@ -226,7 +226,7 @@ Rather than use a weight limitation, GMs are encouraged to abstract creature and
 || Thruster^^2^^ || 40 ft., +20 ft. per 4 gizmo levels || Clumsy || 1 round per gizmo level ||
 ^^1: This flight is limited to being up to 3 feet off the ground. When hovering this way, Fly checks are not required to hover or change direction. When not above a solid or liquid surface the user glides down as if using a glider gizmo.^^
 ^^2: This flight is limited to moving in straight lines each time the movement is used.^^
-++++ Cognitive Set (gizmo)
+++++ Cognitive Set (gizmo) [utility]
 //You learn to craft gizmos which interface, improve, or teach new cognitive functions.//
 
 **Augmentation: Mental Augmentation (gizmo)**: A mental //augmentation// functions as a physical //augmentation// (from the base (augmentation) package), except the crafter assigns the //augmentation’s// ability score to a mental ability score (Intelligence, Wisdom, or Charisma).
@@ -322,7 +322,7 @@ Animals and vermin will instinctively avoid the //transmitter’s// signal. A tr
 **Transportation**: You learn to craft //mechanoids// with the following upgrades:
 * **Innate Disruptor (upgrade)**: The //mechanoid// gains an innate disruptor gizmo.
 
-++++ Emergency Gear (gizmo)
+++++ Emergency Gear (gizmo) [utility]
 //You can craft gizmos which help provide support or tools for emergency situations.//
 
 **Climate Controller (gizmo, minor)**: A climate controller allows the user to be comfortable even in extreme cold or heat (generally between -50 to 140 degrees Fahrenheit/-45 to 60 degrees Celcius).
@@ -358,7 +358,7 @@ Any gizmo receiving a distress signal can display the distress signal’s messag
 **Transportation**: You learn to craft //mechanoids// with the following upgrades:
 •	**Emergency Vehicle (upgrade)**: The //mechanoid// is crafted with each minor gizmo granted by this talent as an innate gizmo, +1 additional minor gizmo (of the crafter’s choice) per 2 gizmo levels (such as a second flashlight or emergency breather, etc.). Innate gizmos granted by this upgrade can be activated and used by creatures adjacent to the mechanoid (such as a creature using an innate emergency breather belonging to a //mechanoid// designed for fire rescue).
 
-++++ Energy Set (gizmo)
+++++ Energy Set (gizmo) [utility]
 //You learn to craft gizmos that can generate power and assist with energy management and distribution.//
 
 **Energy Cables (gizmo, project)**: Energy cables allow for long distance transfers of energy. Every 10 feet of energy cable requires 1 gp of project material; longer cables may be constructed by paying the appropriate cost (such as 5 gp of project material for a single 50-foot cable). An energy cable can be attached or detached to an unattended gizmo within the user’s reach as a swift action. An energy cable can be connected to other energy cables, and connecting gizmos to an energy cable does not need to be done at the cable’s end points (such as attaching a gizmo to a midpoint of the energy cable).
@@ -454,7 +454,7 @@ If the user’s attack which triggered this movement reduced the target creature
 * **Internal Pump (upgrade)**: The //mechanoid// gains an internal pump gizmo and a number of storage container gizmos equal to 1 + 1/2 the //mechanoid’s// Hit Dice. The //mechanoid// can attach and detach storage container gizmos to its internal pump gizmo regardless of whether it possesses the limbs to do so.
 * **Vehicular Excavator (upgrade)**: The //mechanoid// gains an innate personal excavator gizmo and can move twice as much material when using their personal excavator gizmo.
 
-++++ Exploration Set (gizmo)
+++++ Exploration Set (gizmo) [utility]
 //You gain new ways to survive and succeed in dangerous environments.//
 
 **Mobility Gear (gizmo)**: A mobility gear gizmo grants each of the following movement modes:
@@ -537,7 +537,7 @@ Using this battery use ability detaches the //modification// from the attached w
 **Transportation**: You learn to craft //mechanoids// with the following upgrades:
 * **Hooked Transport (upgrade)**: The //mechanoid// gains an innate grappling hook gizmo. The innate grappling hook’s winch is always treated as being attached to the //mechanoid// (and cannot be removed from the //mechanoid//).
 
-++++ Infiltration Set (gizmo)
+++++ Infiltration Set (gizmo) [utility]
 //You learn to craft the gizmos that assist in infiltration.//
 
 **Auto-Pick (gizmo)**: This gizmo is a series of automated hooks and levers designed to disable devices automatically. An auto-pick gizmo functions as masterwork thieves’ tools which may also be used on technological targets (including //routines//).
@@ -798,7 +798,7 @@ You learn to craft the following repair kit gizmos:
 * **Bolster**: The target gains a number of temporary hit points equal to 1d4 per 2 gizmo levels + 1/2 your practitioner modifier (minimum 1). These temporary hit points last for 1 minute per gizmo level. Unlike other temporary hit points, these temporary hit points are always lost first.
 * **Repair**: The target regains a number of hit points equal to 1d6 per 2 gizmo levels + your practitioner modifier.
 
-++++ Sensory Set (gizmo)
+++++ Sensory Set (gizmo) [utility]
 //You learn to craft gizmos which can record and play back information, as well as augment and enhance a creature’s senses.//
 
 **Sensory Gizmo (gizmo, minor)**: You learn to craft the following sensory minor gizmos:
@@ -881,7 +881,7 @@ The following blaster shapes may be selected:
 **Transportation**: You learn to craft //mechanoids// with the following upgrades:
 * **Innate Blaster (upgrade)**: The //mechanoid// gains an innate blaster gizmo. If the blaster shape’s area of effect would include the //mechanoid// (such as the shaped charge option), the //mechanoid// and its passengers are excluded from the area of effect.
 
-++++ Transmission Mastery (gizmo, transmission)
+++++ Transmission Mastery (gizmo, transmission) [utility]
 //You learn how to craft a variety of different transmitters and tools that modify existing detectors, transmitters, and signals.//
 
 **Computation & Transmission: Remote Install**: You may transfer //routines// into an eligible gizmo within signal range (rather than a gizmo within your natural reach).
