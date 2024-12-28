@@ -31,15 +31,22 @@ $24.99
 [[/div]]
 Operatives of the Herbalism sphere are able to utilize their knowledge of herbal lore and remedies to bolster their allies, as well as restore them from many of the afflictions that befall adventurers in the field.
 
+**Associated Skill:** Heal or Profession (herbalist) (depending on your chosen package).
+
+You gain 5 ranks in your package's associated skills, plus 5 ranks per additional talent spent in the Herbalism sphere (maximum ranks equal to your Hit Dice). If you already have ranks in the associated skill you may immediately retrain them.
+
+**Skill Leverage:** You unlock skill leverage with your chosen package’s associated skill and Knowledge (nature).
+
+**Package:** When you gain the Herbalism sphere, choose one of the following packages: (herbal) or (remedy). You can take the Expanded Herbalist talent to gain an additional package. 
+
+++ ##4B0092|Herbalism Packages##
+
++++ ##4B0092|Herbal Package##
 **Associated Skill:** Profession (herbalist).
 
-When you gain the Herbalism sphere, you gain 5 ranks in Profession (herbalist), plus 5 ranks per additional talent spent in the Herbalism sphere (maximum ranks equal to your Hit Dice). If you already have ranks in Profession (herbalist), you may immediately retrain them.
+You gain the herbal lore and naturalist’s eye abilities.
 
-**Skill Leverage:** You unlock skill leverage with the Profession (herbalist) and your choice of the Heal or Knowledge (nature) skill.
-
-You also acquire the Herbal Lore and Naturalist's Eye abilities.
-
-++ ##4B0092|Herbal Lore (Ex)##
+++++ Herbal Lore (Ex)
 Choose three of the following herb types. You learn the practical applications of these herbs, and where they can be found in the wild. Gathering a batch of herbs requires 1 hour, and may be done during the same period of time required to prepare spells or other daily abilities. You may gather an additional batch of herbs at any time by spending 1 hour gathering herbs. Herbs may be gathered anywhere that plants or fungi grow, including caves or densely packed cities but not a lifeless demiplane.
 
 A single batch of herbs contains a number of herbs equal to your ranks in the associated skill + your operative ability modifier, and contains any combination of herbs you can gather. A gathered herb loses its potency after 24 hours. You may only gather a number of batches per day equal to your operative ability modifier.
@@ -49,22 +56,42 @@ Unless otherwise specified, consuming a herb is a standard action, and grants it
 * **Bland Herbs:** Used to slow or hasten natural bodily processes, a bland herb can be consumed to reduce the next instance of weapon damage received by an amount equal to your operative ability modifier. Alternatively you may reduce the value of the next instance of bleed damage you would suffer by an equal amount.
 * **Cool Herbs:** Used to boost cognitive functions, a cool herb can be consumed to gain a +2 competence bonus to the next Intelligence-, Wisdom-, or Charisma-based ability check or skill check the user attempts within the herb’s duration.
 * **Dry Herbs:** Utilized to protect the body and mind, a dry herb can be consumed to allow the user to reroll one saving throw they attempt within a number of rounds equal to your operative modifier. The user decides whether to reroll the saving throw after the results are revealed and must take the second result even if it is worse.
+* **Intense Herbs:** Used to elicit a short-term benefit or one that alters the user’s energy, an intense herb can be consumed to gain a +5-foot alchemical bonus to all of the user’s speeds for the herb’s duration. _
+//Special:// If you possess the Double Dose talent, the numerical increase instead applies to the herb’s duration.
+* **Sour Herbs:** Used to rapidly ferment or sour a concoction to enhance its effects–although typically with unfortunate side effects–a sour herb can be consumed to gain a +2 competence bonus to saving throws against disease and poison effects. At any point during the herb’s duration, the user can spend a swift action to retch, making them sickened for 1 round and granting them a new saving throw against any poisons they are suffering from (a failed attempt does not further the poisons effects).
 * **Spicy Herbs:** Used to enhance and alter physical abilities, a spicy herb can be consumed to gain a +2 competence bonus to the next Strength-, Dexterity-, or Constitution-based ability check or skill check the user attempts within the herb’s duration.
 * **Sweet Herbs:** Known to encourage natural healing processes, a sweet herb can be consumed to gain fast healing 1 for the herb’s duration.
+* **Tainted Herbs:** Used to harm as opposed to heal, a tainted herb can be used as a contact or ingested poison that deals 1 Constitution damage (immediate onset, Fortitude negates). A tainted herb can be added to a concoction as a twist, making it tainted. A tainted concoction changes any bonuses that it grants to an equivalent penalty, as well as reversing any other effects of the concoction. Some twists may not be able to be cleanly ‘reversed’ (such as the Energizer bitter herb twist), and may be incompatible. In these instances, the twist instead increases the saving throw DC of the tainted concoction by 1. A tainted concoction is considered an injury or ingested poison (chosen upon creation) for abilities that rely on it, and when exposed to it, grants a Fortitude save to negate its effects.
 
-++ ##4B0092|Naturalist’s Eye [approach] (Ex)##
-You may adopt this approach as a swift action. While you maintain this approach, you gain a +1 insight bonus to associated skill checks, Knowledge (nature) and Survival checks, increasing by 1 per 4 ranks in the associated skill you possess. 
+++++ Naturalist’s Eye [approach] (Ex)
+You may adopt this approach as a swift action. While you maintain this approach, you gain a +2 insight bonus to this package’s associated skill checks, Knowledge (nature) and Survival checks, increasing by 1 per 4 ranks in the associated skill you possess. You can also identify a poison or potion as a swift or immediate action with a successful associated skill check against the save DC of the poison (if a poison) or 15 + the potion’s spell level (if a potion)–to identify a poison or potion, you must either be handling it or witness it affecting a creature within close range.
 
-Additionally, you can always determine the condition of plants that you can see, such as if they are healthy, damaged or wilting, poisoned, etc. This includes plant creatures, as if you had succeeded at a Heal check to assess its health (page 50). If you attempt a check to determine the source of damage or anomalous conditions on a plant, you can spend 1 use of skill leverage to treat the check as though you had rolled a 15 on the die.
+Additionally, you can use this package’s associated skill instead of any Dexterity-, Intelligence-, Wisdom-, or Charisma-based skill check made against a plant creature or any such check made in regards to plants. Whenever you attempt such a check, you can spend 1 use of skill leverage to treat the check as though you had rolled a 15 on the die–this is treated as if you had taken 10 on the check.
 
 Finally, you regain 1 skill leverage when you successfully identify a plant or plant type creature that you have never encountered before.
+
++++ ##4B0092|Remedy Package##
+**Associated Skill:** Heal.
+
+You gain the medical expertise and physician’s efficacy abilities.
+
+++++ Medical Expertise
+When you treat deadly wounds on a creature, you only need 10 minutes to do so, can do so an additional time per day, and if you exceed the DC by 5 or more, you can add your operative modifier (minimum 1) instead of your Wisdom modifier to the amount healed. You can spend 1 use of skill leverage to ignore the daily limit on a creature when treating deadly wounds on them. 
+
+For every 5 ranks in this package’s associated skill you possess, you reduce the time taken to treat deadly wounds this way by 1 step (10 minutes > 1 minute > full-round > standard > move > swift); attempting to do so as a full-round action or shorter provokes attacks of opportunity.
+
+++++ Physician’s Efficacy [approach]
+You can adopt this approach as a swift action. While adopting this approach, you gain a +2 insight bonus to Heal checks, +1 per 4 associated ranks. You can also treat deadly wounds as a full-round action (which provokes attacks of opportunity); or one step faster if you can already do so as a full-round action.
+
+You can spend 1 use of skill leverage when adopting this approach to allow you to treat any roll of a 4 or lower on a Heal check as if you had rolled a 5 instead, as well as allowing you to add twice your operative modifier (minimum 1) instead of your Wisdom modifier if you exceed the DC to treat deadly wounds by 5 or more.
+
 ----
 ++ ##4B0092|Herbalism Talent Types##
 
 ++++ Concoction
-Some Herbalism talents are marked (tincture) or (tonic), granting you additional concoctions to create with your gathered herbs.
+Some Herbalism talents are marked (tincture) or (tonic), granting you additional concoctions to create with your gathered herbs. You must possess the (herbal) package to take such talents.
 
-Concoctions are temporary consumables that you can prepare, which you can apply to yourself or an adjacent willing or unconscious creature as a standard action.
+Concoctions are temporary consumables that you can prepare, which you can apply to yourself or a willing or unconscious creature within your natural reach as a standard action.
 
 You may prepare a number of concoctions you know in 15 minutes equal to 1 + 1 per 4 ranks you possess in the associated skill. Every concoction has a base herb cost, which must be paid from any type of herb you currently possess. Concoctions remain potent for 24 hours after their creation; it is trivial (DC 0 Appraise) to recognize that a concoction has no monetary value.
 
@@ -78,51 +105,57 @@ When creating a concoction, you may choose to create either a tincture or a toni
 Most concoctions list one or more twists. A twist grants additional or altered effects to a concoction, requiring you to spend the listed additional herbs as part of its creation. A concoction can have multiple different twists but you cannot add a specific twist more than once to a concoction (unless otherwise noted).
 ----
 ++ ##4B0092|Herbalism Talents##
-++++ Apothecary's Appraisal [utility]
-While you maintain the naturalist’s eye approach, you may identify poisons and potions as a swift or immediate action, attempting a Craft (alchemy) or Profession (herbalist) check against the save DC of the poison (if a poison), or a DC 15 + the potion's spell level (if a potion) to identify them. You must either be handling the potion or poison in question, or witness it affecting a creature within 30 feet.
+++++ Domestic Botany [utility] [DRS]
+^^**Source:** [https://www.drivethrurpg.com/en/product/505704/diamond-spheres-invention-and-ingenuity?affiliate_id=3028400]^^
 
-If you successfully identify a poison while maintaining this approach, you can spend 1 herb as a standard action to create and administer a remedy against that specific poison to a creature within your reach. Attempt a Profession (herbalist) check against the poison’s save DC when you create this remedy. On a success, the remedy suppresses the effects of the poison for 1 minute; on a failure, the remedy confers a +4 alchemical bonus to saving throws against the poison.
-
-++++ Battlefield Medic
-Whenever you use Heal to provide first aid, treat caltrop wounds, or treat poison, you do not provoke attacks of opportunity, can do so as a move action, and can take 10 on the check (even when distracted or in combat).
-
-Additionally, if you would successfully perform first aid on a creature who is dying or otherwise at a negative hit point total, you can expend one use from a healer's kit to have the creature regain an amount of hit points equal to your operative ability modifier (minimum 1) and become conscious.
-
-If you are maintaining the physician's efficacy approach, you also do not provoke attacks of opportunity when attempting to treat deadly wounds as a 1-round action or shorter.
-
-**Associated Feat:** Combat Medic (Pathfinder Roleplaying Game: Ultimate Combat).
+You gain a number of additional uses for herbs–if such a herb use grants a benefit when consumed, it lasts for 1 hour (unless otherwise specified).
+* **Bitter or Dry Herb:** The herb can be used as a single-use antidote kit. Alternatively, this herb can be added to up to 1 cubic foot of food or drink as a standard action to remove any impurities, diseases, or other forms of contaminants within it. When consumed, this herb also eliminates the effects of a hangover, as well as conferring a +4 alchemical bonus to the next Heal check attempted on the imbiber to treat a disease or poison.
+* **Bland or Sweet Herb:** The herb can be used as a single-use healer’s kit. When consumed, this herb also confers a +4 alchemical bonus to the next Heal check attempted on the imbiber to provide first aid or treat deadly wounds.
+* **Cool or Spicy Herb:** The herb can be used as a tindertwig or torch. When consumed, this herb also confers a +4 alchemical bonus to saving throws made to resist hot (cool herb) or cold (spicy herb) temperatures. 
+* **Intense Herb:** The herb can be used as a single-use disguise or perfume kit. When consumed, the user reduces the next instance of nonlethal damage they suffer by an amount equal to your operative modifier (minimum 1). If the herb is taken during a period of rest, the user reduces the time they require to rest by 2 hours, although they cannot take strenuous activity during this time–this effect is cumulative with multiple herbs consumed. 
+* **Sour or Tainted Herb:** The herb can be used as a single-use symptom kit. When the imbiber uses the herb to retch, the action to do is also treated as if they had created a diversion (and may use your package’s associated skill modifier to do so instead of their Bluff).
+If such a herb is used to replicate a tool, it can be used alongside an actual set of tools (or similar item that replicates such tools, like a Lifeblood (harvest) component) to increase the granted circumstance bonus by +2. A herb used to replicate a tool in this way is not considered to be a tool for any other purpose.
 
 ++++ Double Dose
 As a swift action you may combine two herbs into a “double-dose.” A double-dose may not be used to create concoctions. A double-dose provides the benefits of both herbs when consumed. If a double-dose is made with two of the same herb, any numerical effects of the herb are increased by 1 + 1 per 4 ranks in the associated skill.
 
-++++ Efficient Healer [utility]
-You can use a sweet herb as if it were a healer's kit with a single use. Also, you do not take a penalty when treating deadly wounds without a healer’s kit. When you use a healer's kit, you can use a sweet herb alongside it, increasing the circumstance bonus granted by the healer’s kit by 2.
+++++ Expanded Herbalist [DRS]
+^^**Source:** [https://www.drivethrurpg.com/en/product/505704/diamond-spheres-invention-and-ingenuity?affiliate_id=3028400]^^
 
-Additionally, whenever you provide long-term care to a creature, they are treated as if they had a complete day of rest when determining the benefits of their rest, in addition to healing 2 points of ability drain to all ability scores after their rest. If they were already receiving complete bed rest, they treat their character level as being an amount higher equal to your operative ability modifier (minimum 1) when determining the amount of healing gained from rest.
-
-Finally, you can tend to an additional patient at a time when providing long-term care for every rank in Heal you possess.
+You gain one Herbalism sphere package which you do not already possess. You unlock skill leverage with the package’s associated skill (in addition to the other benefits associated with gaining a new package)
 
 ++++ Large Batch
-You may gather an additional 3 types of herbs. In addition, you double your operative ability modifier when determining how many herbs you gather in a batch.
+You may gather an additional 3 types of herbs. In addition, you double your operative ability modifier when determining how many herbs you gather in a batch. 
 
-++++ Medical Know-How [utility]
-You gain Heal as an additional associated skill for this sphere.
+You can take this talent multiple times–each time you do so, choose an additional 3 types of herbs.
 
 ++++ Ounce Of Prevention
 You may benefit from one additional tonic at one time, +1 per 10 ranks in the associated skill.
-
-++++ Physician's Efficacy [approach]
-You can adopt this approach as a swift action. While maintaining this approach, you can treat deadly wounds by spending 10 minutes; if you exceed the DC to treat deadly wounds by 5 or more, you add twice your operative ability modifier (minimum 1) instead of your Wisdom modifier. Additionally, you can spend 1 use of skill leverage to ignore the daily limit on a creature when treating deadly wounds on them.
-
-For every 5 ranks in Heal you possess, you reduce the time taken to treat deadly wounds this way by one step on the following list: 10 minutes, 1 minute, full-round action, standard action, move action, swift action. Attempting to treat deadly wounds as a full-round action or shorter provokes attacks of opportunity.
-
-You can spend 1 use of skill leverage when adopting this approach to reduce the time taken to treat deadly wounds by two additional steps for as long as you maintain this approach, and you can treat deadly wounds on a creature an additional time per day.
 
 ++++ Pre-emptive Preparation [plan]
 You can reveal any single concoction you could have created (including twists) as a plan by using a full-round action. You spend the necessary herbs when the plan is revealed.
 Alternatively, you can spend 1 use of skill leverage to reveal this plan as a standard action, immediately gaining a batch of herbs (as long as it does not exceed your daily limit). 
 
 You may reveal both of these plans in the same full-round action (still spending 1 use of skill leverage as normal), allowing you to create concoctions or apply twists to any pre-existing concoctions using the herbs gathered from revealing this plan.
+
+++++ Redolent Scents [DRS]
+^^**Source:** [https://www.drivethrurpg.com/en/product/505704/diamond-spheres-invention-and-ingenuity?affiliate_id=3028400]^^
+
+//The sense of smell is a powerful yet fine-tuned sense, which can be tailored to allow for greater flexibility.//
+
+Whenever you create an aroma, you can choose to have it only affect your allies, enemies, or a specific creature type of your choice (and subtype, if you choose a humanoid or outsider).
+
+Additionally, whenever you create an aroma that requires a Fortitude save, you can replace any Fortitude saves that it permits with a Will save. This makes such an aroma a mind-affecting effect.
+
+++++ Vaporous Concoctions [DRS]
+^^**Source:** [https://www.drivethrurpg.com/en/product/505704/diamond-spheres-invention-and-ingenuity?affiliate_id=3028400]^^
+
+The radius of your aroma’s increase to 20 feet, +5 feet per 5 associated ranks. Additionally, an aroma only halves its area in moderate wind, and only becomes suppressed in strong wind (21+ mph).
+
+You can spend an additional herb when creating a concoction to have it be vaporous. A vaporous concoction can be used as if it were a splash weapon with a range increment of 10 feet, with a creature being directly hit by it having the concoction applied to them.
+
+A vaporous aroma causes the cloud it creates to become visible in the form of a thick veil of vapor, imposing concealment (20% miss chance) against attacks originating outside of the area that target creatures within the area (and vice versa), as well as causing the aroma’s effects to linger for 1 round after a creature leaves the area (or otherwise ceases being affected by it, such as the duration elapsing or the area being dispersed).
+
 ----
 ++ ##4B0092|Concoction Talents##
 ++++ Crimson Coagulant (tonic)
@@ -135,16 +168,20 @@ This tonic allows the imbiber to immediately stabilize whenever they are reduced
 * **1 bland herb:** The imbiber reduces the value of any bleed damage they suffer by an amount equal to your operative ability modifier (minimum 1).
 * **1 dry herb:** The imbiber also treats their Constitution score as being 2 higher when determining the number of hit points they can be reduced to below 0 without dying, increasing by 1 per 3 ranks in the associated skill.
 * **1 sweet herb:** At the start of each round the imbiber remains stabilized at a negative hit point total, they heal an additional amount of hit points equal to 1/2 your associated ranks (minimum 1). Additionally, while disabled, the imbiber is not staggered, though performing a strenuous action still deals 1 point of damage to them. Taking a full-round action deals 2 points of damage to them.
+* **1 tainted herb:** The imbiber immediately fails stabilization checks that they attempt while dying. If the imbiber can usually act while dying, they lose the ability to do so for 1 minute.
 
 ++++ Energizer (tincture)
-**Cost:** 2 herbs or 1 bitter herb
+**Cost:** 2 herbs or 1 intense herb
+When imbibed, this tincture grants a +1 alchemical bonus to initiative checks to the imbiber for 10 minutes; this bonus increases by +1 per 6 associated ranks. During this time, if the imbiber becomes fatigued or exhausted (or is already), the condition is removed–this can only occur once during the duration, and excludes effects that would bypass an immunity to such conditions.
 
-This tincture removes the fatigued condition from the imbiber, or reduces the exhausted condition to fatigued. For the next 10 minutes, the imbiber can run or charge while fatigued or exhausted and ignores the movement penalties from the exhausted condition. A creature can also imbibe this tincture to gain the benefits of resting for 8 hours without needing to sleep. The imbiber must still avoid any strenuous activity for 8 hours to regain the use of daily class features but may remain awake during that time. Any vigorous activity such as fighting, traveling or similar ends the effect, and creatures must imbibe another or sleep for the remaining hours to avoid fatigue and to gain the benefits of a full night’s rest.
+The imbiber also gains the benefits of resting for 8 hours without requiring sleep–any vigorous activity such as fighting, traveling, or similar during this time ends this effect, requiring the imbiber to sleep for the remaining hours or imbibe another Energizer to avoid fatigue and to gain the benefits of a full night’s rest. 
 
 **Twists**
-* **1 bitter herb:** Instead of curing fatigue, the imbiber is immune to the next instance of fatigue or exhaustion they suffer in the next 10 minutes. Any effect that bypasses immunity to fatigue or exhaustion also bypasses this twist.
-* **1 spicy herb:** The imbiber gains a +1 alchemical bonus to the next initiative check they make in the next 10 minutes. This bonus increases by 1 for every 6 ranks you possess in the sphere’s associated skill.
-* **1 sweet herb:** The imbiber instead completely removes the exhausted condition, instead of reducing it.
+* **1 bitter herb:** The imbiber can have the fatigued or exhausted condition removed from them a second time during the duration.
+* **1 cool herb:** The imbiber cannot be flat-footed, and does not lose their Dexterity bonus to AC against invisible creatures. They still lose their Dexterity bonus to AC if immobilized or feinted. If the imbiber has the uncanny dodge ability, they instead gain the improved uncanny dodge ability.
+* **1 intense herb:** For 3 rounds, the imbiber gains a +10-foot alchemical bonus to all speeds they possess, +5 feet per 6 associated ranks. Additionally, the imbiber can move 10 feet instead of 5 feet whenever they make a 5-foot step.
+* **1 spicy herb:** The imbiber can take a full-round worth of actions during a surprise round. Additionally, the imbiber ignores the first time they are interrupted during a rest due to vigorous activity, as long as such an interruption lasts no longer than 15 minutes.
+* **1 tainted herb:** The imbiber becomes fatigued (or exhausted if they are already fatigued) for 10 minutes.
 
 ++++ Fortifying Mixture (tonic)
 **Cost:** 3 herbs or 2 dry herbs
@@ -160,20 +197,25 @@ This tonic grants the imbiber a +1 resistance bonus to all saving throws, increa
 || Bland || Sickened, nauseated, ability damage || 
 || Cool || Charms, compulsions || 
 || Dry || Blinded, dazzled, deafened, entangled || 
+|| Intense || Fear, confused, dazed, fascinated ||
+|| Sour || Disorientation, paralyzed, staggered, stunned ||
 || Spicy || Fatigue, exhaustion, sleep, pain || 
 || Sweet || Disease, poison ||
 
 ++++ Healing Poultice (tincture)
 **Cost:** 3 herbs or 2 sweet herbs
 
-This tincture grants the imbiber fast healing 1 for 1 minute + 1 minute per 10 ranks you possess in the associated skill. This fast healing increases by 1 for every 3 ranks you possess in the associated skill.
+This tincture grants the imbiber fast healing 1 for 1 minute + 1 minute per 5 ranks you possess in the associated skill. This fast healing increases by 1 for every 3 ranks you possess in the associated skill.
 
 **Special:** A healing poultice that benefits from an esoteric herb immediately ends after it heals 10 hit points per rank in the associated skill.
 
 **Twists**
-* **1 sweet herb:** The imbiber receives temporary hit points equal to half your ranks in the associated skill plus your operative ability modifier. The target's total combined current hit points plus the temporary hit points from this concoction may not exceed the target’s maximum hit points.
 * **1 bland herb:** Healing from this tincture counts as an amount of magical healing equal to 5 x the amount of fast healing granted by this tincture for the purpose of effects that are removed or treated by magical healing, such as bleed damage, caltrops, or similar effects.
 * **1 cool herb:** This tincture also grants a +3 alchemical bonus on concentration checks, increasing by 1 per 4 ranks in associated skill you possess. Additionally, whenever the imbiber attempts a concentration check caused by receiving damage (including ongoing damage), you halve the damage for the purposes of determining the concentration check DC; if the damage dealt is less than your associated skill ranks, you automatically succeed the concentration check.
+* **1 intense herb:** When this tincture is imbibed, the imbiber is healed as though the fast healing had elapsed for 3 rounds, but then does not benefit from the fast healing for 3 rounds.
+* **1 sour herb:** The fast healing granted by this tincture is tripled, although its duration changes to 3 rounds, +2 rounds per 5 associated ranks in the associated skill you possess.
+* **1 sweet herb:** The imbiber receives temporary hit points equal to half your ranks in the associated skill plus your operative ability modifier. The target's total combined current hit points plus the temporary hit points from this concoction may not exceed the target’s maximum hit points.
+* **1 tainted herb:** The imbiber suffers an amount of bleed damage equal to double the normal amount of fast healing this tincture normally grants. If this concoction has an intense herb twist, instead of its normal effects, the intense herb instead causes the imbiber to suffer the bleed damage immediately when they are affected by the concoction. If this concoction has a sweet herb twist, the bleed damage is triple the normal amount of fast healing, instead of double.
 
 ++++ Inkeye Elixir (tonic)
 **Cost:** 1 herb
@@ -182,22 +224,24 @@ This tonic grants the imbiber low-light vision and darkvision 20 feet. Additiona
 
 **Twists**
 * **1 bland herb:** The imbiber’s darkvision increases by 20 feet, plus 5 feet per 2 ranks you possess in the associated skill. Additionally, if the imbiber is within dim light, the miss chance associated with being in dim light increases by 10%.
-* **1 spicy herb:** The imbiber’s coloration changes to match their environment. The imbiber gains a +2 circumstance bonus to Stealth checks, increasing by 1 per 4 ranks in the associated skill you possess.
-* **1 dry herb:** The imbiber gains a +3 alchemical bonus to saving throws against the dazzled and blinded conditions, in addition to gaze attacks, patterns, and other vision-based effects. The bonus increases by 1 per 4 ranks you possess in the associated skill.
 * **1 cool herb:** The imbiber may roll twice and take the highest result when attempting Perception checks made to notice a creature within an area of dim light or darkness. They also gain a +2 circumstance bonus to attack rolls made to confirm critical hits against creatures they have concealment against.
+* **1 dry herb:** The imbiber gains a +3 alchemical bonus to saving throws against the dazzled and blinded conditions, in addition to gaze attacks, patterns, and other vision-based effects. The bonus increases by 1 per 4 ranks you possess in the associated skill.
 * **1 esoteric herb:** The imbiber gains the see in darkness ability, allowing them to see perfectly in darkness of any kind, including that created by deeper darkness.
+* **1 spicy herb:** The imbiber’s coloration changes to match their environment. The imbiber gains a +2 circumstance bonus to Stealth checks, increasing by 1 per 4 ranks in the associated skill you possess.
+* **1 tainted herb:** The imbiber loses any darkvision or low-light vision they possess, and gains light sensitivity for 1 minute.
 
 ++++ Jellybone Mixture (tincture)
 **Cost:** 2 herbs
 
-When this tincture is imbibed, the imbiber can more easily escape from bonds and effects that impede movement for 1 minute. If the binding or effect requires 1 round or shorter to escape from, you reduce the action required to break free by one step (1 round to 1 full-round action, a standard action to a move action, a move action to a swift action), to a minimum of a swift action. If it requires more than 1 round to break free, you only take half the required time. They also gain a +2 alchemical bonus to Escape Artist checks and to their CMD against grapple attempts, increasing by 1 per 4 ranks in the associated skill you possess.
+When this tincture is imbibed, the imbiber can more easily escape from bonds and effects that impede movement for 10 minutes. If the binding or effect requires 1 round or shorter to escape from, you reduce the action required to break free by one step (1 round to 1 full-round action, a standard action to a move action, a move action to a swift action), to a minimum of a swift action. If it requires more than 1 round to break free, you only take half the required time. They also gain a +2 alchemical bonus to Escape Artist checks and to their CMD against grapple attempts, increasing by 1 per 4 ranks in the associated skill you possess.
 
 **Twists**
 * **1 bland herb:** The imbiber reduces the action required to break free from a binding by one additional step, and can attempt to escape from restraints requiring 1 minute as a full-round action.
 * **1 dry herb:** The imbiber gains DR/slashing or piercing equal to 1/2 your ranks in the associated skill. Additionally, half the bludgeoning damage you suffer becomes nonlethal damage.
+* **1 esoteric herb:** The imbiber’s body is reduced to a nearly liquid consistency. The imbiber gains the compression universal monster ability, and may spend a move action to move 5 feet through any surface that allows liquid to pass through it. If this tincture also possesses the spicy twist, the imbiber is immune to fall damage. If this tincture also possesses the dry twist, the imbiber gains a 25% chance to ignore the extra damage from critical hits and precision damage. This chance increases by 5% for every 2 ranks you possess in the associated skill.
 * **1 spicy herb:** The imbiber gains a +5-foot alchemical bonus to all speeds, in addition to taking the minimum damage from falling damage (as if they had rolled a 1 on each die of damage). This bonus increases by 5 feet per 6 ranks in the associated skill you possess.
 * **1 sweet herb:** This tincture’s bonus also applies to saving throws against effects that would restrict their movement or ability to act. This includes paralysis, slow effects, entanglement, telekinesis, etc. Additionally, the first time that the imbiber is affected by such an effect (and allows a saving throw), they can roll the saving throw twice, taking the highest result.
-* **1 esoteric herb:** The imbiber’s body is reduced to a nearly liquid consistency. The imbiber gains the compression universal monster ability, and may spend a move action to move 5 feet through any surface that allows liquid to pass through it. If this tincture also possesses the spicy twist, the imbiber is immune to fall damage. If this tincture also possesses the dry twist, the imbiber gains a 25% chance to ignore the extra damage from critical hits and precision damage. This chance increases by 5% for every 2 ranks you possess in the associated skill.
+* **1 tainted herb:** The imbiber increases the action cost to break free from bindings or effects (or twice as long if it requires more than 1 round to do so).
 
 ++++ Metalmind Solution (tincture) [utility]
 **Cost:** 2 herbs or 1 cool herb
@@ -216,8 +260,9 @@ This tincture grants the imbiber a +2 alchemical bonus to Strength-based ability
 
 **Twists**
 * **1 bland herb:** The first time the imbiber suffers damage after imbibing this tincture, they gain a number of temporary hit points equal to your ranks in the associated skill + your operative ability modifier (minimum 1). These temporary hit points are gained before the damage is dealt and disappear at the end of their next turn.
-* **1 spicy herb:** The imbiber gains a +2 morale bonus to weapon damage rolls, which increases by 1 per 5 ranks in the associated skill you possess.
 * **1 bitter herb:** The imbiber ignores any ability damage or drain affecting their physical ability scores, in addition to the penalties associated with any negative levels they are suffering from for the tincture's duration.
+* **1 intense herb:** For 1 + 1 round per 4 associated ranks, the imbiber can make an additional attack at their highest base attack bonus when making a full attack, and can make an additional attack of opportunity per round. This additional attack is not cumulative with similar effects (such as haste or a speed weapon).
+* **1 spicy herb:** The imbiber gains a +2 morale bonus to weapon damage rolls, which increases by 1 per 5 ranks in the associated skill you possess.
 
 ++++ Soothing Draught (tincture)
 **Cost:** 2 herbs
@@ -226,7 +271,8 @@ This tincture reduces the severity of any anger, disorientation, or fear effect 
 
 **Twists**
 * **1 bitter herb:** This tincture reduces any penalties to their ability checks, saving throws, and skill checks by 1, plus 1 per 6 ranks in the associated skill you possess.
-* **1 bland herb:** This tincture reduces the severity of the listed conditions by two steps instead of one step..
+* **1 bland herb:** This tincture reduces the severity of the listed conditions by two steps instead of one step.
+* **1 tainted herb:** Whenever the imbiber suffers an anger, disorientation, or fear condition, its severity increases by one step.
 * **1 esoteric herb:** The imbiber gains immunity to any effect this tincture would apply its benefits to for the duration of the tincture.
 
 ++++ Speakeasy Special (tonic) [utility]
@@ -259,7 +305,74 @@ Energy absorption functions as energy resistance, except that the amount of dama
 **Twists**
 * **1 bland herb:** The imbiber's energy absorption increases to 4 x your ranks in the associated skill.
 * **1 dry herb:** You may choose two damage types to grant energy absorption. Both sources of absorption are tracked as if they were the same source when used in this way.
+* **1 sour herb:** The imbiber’s energy absorption applies to all listed energy types, and increases by an amount equal to your operative modifier (minimum 1), however they suffer a -3 penalty to saving throws against effects that inflict such damage.
 * **1 sweet herb:** Whenever the imbiber completely negates a source of energy damage using this energy absorption, they also heal an amount of hit points equal to 1/2 the negated damage.
+* **1 tainted herb:** The imbiber reduces any energy resistance they possess against the chosen damage type by 5 + 1 per associated rank.
+
+++ ##4B0092|Remedy Talents##
+++++ Battlefield Medic (remedy)
+Your Heal skill uses do not provoke attacks of opportunity. You can use Heal to provide first aid, treat caltrop wounds, or treat poison as a move action, and you can take 10 on such checks (even when distracted or in combat).
+
+Whenever you administer first aid, you can move up to half your speed as part of the action to do so–as long as the movement is used to bring the target within reach. When you successfully administer first aid on a creature who is dying or otherwise at a negative hit point total, you can expend one use from a healer's kit to heal the creature an amount of hit points equal to your operative modifier (minimum 1) and become conscious.
+
+You do not take a penalty when treating deadly wounds (or a similar Heal skill use) without a healer’s kit. Whenever you treat deadly wounds on a creature, you can deliver a different Heal skill use as part of the same action on the same creature at a -5 penalty.
+
+**Associated Feat:** Combat Medic (//Pathfinder Roleplaying Game: Ultimate Combat//).
+
+++++ Diligent Caretaker (remedy) [utility] [DRS]
+^^**Source:** [https://www.drivethrurpg.com/en/product/505704/diamond-spheres-invention-and-ingenuity?affiliate_id=3028400]^^
+
+When you provide long-term care, you can do so in 1 hour, tend +1 patient at a time per associated rank, and the patient is treated as if they had a complete day of rest for determining the benefits. The patient also recovers from either 2 points of ability drain, or 1 temporary negative level for each day of complete rest they receive. 
+
+For every 4 ranks in the package’s associated skill you possess, a patient recovers hit points and ability damage as if they had rested for +1 day.
+
+At 10 ranks in this package’s associated skill, whenever you provide long-term care, you can spend 1 use of skill leverage to grant all patients a new saving throw against a single curse, disease, or poison (your choice) they are suffering from–such a saving throw does not worsen the affliction on a failed save, and can only be granted to a specific affliction once. If the patient is also receiving a full day of complete rest, they get a +4 bonus.
+
+++++ Emergency Triage (remedy) [DRS]
+^^**Source:** [https://www.drivethrurpg.com/en/product/505704/diamond-spheres-invention-and-ingenuity?affiliate_id=3028400]^^
+
+Whenever you use the Heal skill on a single creature, you can attempt either the same or different Heal skill use on an additional creature within your natural reach (including yourself), +1 creature per 4 ranks in the package’s associated skill. If you choose to administer different Heal skill uses, the action cost of the other uses must be the same or less than the initial action spent. You can attempt to reach multiple creatures this way at any point during a move action to move, attempting such a check when the creature enters your reach.
+
+You can use the Heal skill on yourself (and only yourself) as a standard action–or one step faster (standard > move > swift) if you can already do so as a standard action or faster. You can also provide long-term care to yourself.
+
+Lastly, you can administer first aid as an immediate action whenever you or a creature within reach would begin dying or suffer bleed damage.
+
+++++ Inoculative Treatment (remedy) [DRS]
+^^**Source:** [https://www.drivethrurpg.com/en/product/505704/diamond-spheres-invention-and-ingenuity?affiliate_id=3028400]^^
+
+You improve the following Heal skill uses in the following ways:
+* **Treat Disease or Poison:** The competence bonus granted to the patient’s next saving throw to resist the affliction increases to +6, +1 per 4 ranks in this package’s associated skill. If you exceed the affliction’s save DC by 10 or more, the patient also rolls such a saving throw twice, taking the highest result.
+* **Treat Deadly Wounds:** Instead of healing hit point damage, you can choose to heal 1d4 points of ability damage to a single ability score of your choice. For each (remedy) talent you possess beyond this one, you can choose to either heal an additional ability score this way, or increase the die size by one step (1d4 > 1d6 > 1d8 > 1d10 > 1d12).
+At 5 ranks in Heal, you can also use the Heal skill to treat a curse. You can spend 1 hour with a creature using the more particular parts of a healer’s kit (although no uses are expended). Attempt a Heal check and compare the result to the saving throw DC of a single curse or effect with the curse descriptor that is affecting the creature. If the Heal check result exceeds the curse’s save DC, its effects are suppressed for 1 day, plus 1 day for every 10 you exceed its save DC. Once a curse has been suppressed this way, it cannot be suppressed again.
+
+**Associated Feat:** Acupuncture Specialist (//Blood of the Ancients//).
+
+++++ Lifekeeper (remedy) [DRS]
+^^**Source:** [https://www.drivethrurpg.com/en/product/505704/diamond-spheres-invention-and-ingenuity?affiliate_id=3028400]^^
+
+You improve the resuscitate Heal skill use in the following ways:
+* You increase the period of time that a dead creature can be resuscitated by +1 round, +1 round per 4 Heal ranks. 
+* If you successfully resuscitate a creature, they are restored to 0 hit points and do not suffer any Dexterity or Intelligence damage due to being resuscitated.
+* The DC to resuscitate a previously-resuscitated creature only increases by 5 each time, instead of 10.
+
+You can also spend 1 hour with a dead creature and attempt a DC 10 Heal check to help stave off decay. On a success, the next 24 hours does not count towards the time limit associated with resurrection (and similar effects), as well as stopping any odor that the body may produce. This also preserves any of the body’s wounds, as well as requiring any creature attempting to reanimate or otherwise use a necromancy effect on the corpse to succeed at a magic skill check against a DC equal to 11 + your associated ranks. For each day that the creature has been dead for, the DC of this check increases by 5.
+
+++++ Proactive Care (remedy) [plan] [DRS]
+^^**Source:** [https://www.drivethrurpg.com/en/product/505704/diamond-spheres-invention-and-ingenuity?affiliate_id=3028400]^^
+
+You improve the following Heal skill uses in the following ways on a successful check:
+* **First Aid:** The creature reduces the next instance of bleed damage they suffer within the next hour by an amount equal to your operative modifier (minimum 1).
+* **Treat Deadly Wounds:** Any excess healing healed through this skill use that exceeds their maximum hit point total is applied as temporary hit points which last for 1 hour–these temporary hit points cannot exceed 10 + your ranks in this package’s associated skill. 
+* **Treat Disease or Poison:** The patient gains a +2 competence bonus to saving throws against poisons and disease for 8 hours. You can use this skill use on a creature that is not suffering from a disease or poison to grant them this bonus, although it only applies to such affliction’s with a saving throw DC equal to or below your Heal check result.
+You can also reveal the use of any of these Heal skill uses as a plan; doing so is an immediate action (although the benefits always take effect at the end of the current turn).
+
+++++ Surgeon (remedy) [utility] [DRS]
+^^**Source:** [https://www.drivethrurpg.com/en/product/505704/diamond-spheres-invention-and-ingenuity?affiliate_id=3028400]^^
+
+Whenever you use the Heal skill to end an infestation (or a similar non-disease effect that is normally removed by remove disease), or perform an autopsy or surgery (Ultimate Engineering), you take half the time to do so. You also gain a +2 bonus to Heal checks made to perform these tasks, +1 per 4 ranks in this package’s associated skill.
+
+Additionally, if your use of the Heal skill would deal damage to your patient (such as removing an infestation), it only deals the minimum damage–this excludes surgery, where the patient only suffers an amount of damage equal to 20% of their maximum hit points on a success, or 50% of their maximum hit points on a failed check (this damage cannot reduce the patient to less than 0 hit points).
+
 ----
 + ##4B0092|Exceptional Talents##
 
