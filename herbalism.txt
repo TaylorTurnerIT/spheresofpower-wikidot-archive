@@ -88,14 +88,20 @@ You can spend 1 use of skill leverage when adopting this approach to allow you t
 ----
 ++ ##4B0092|Herbalism Talent Types##
 
-+++ Concoction
++++ ##4B0092|Concoction##
 Some Herbalism talents are marked (tincture) or (tonic), granting you additional concoctions to create with your gathered herbs. You must possess the (herbal) package to take such talents.
 
 Concoctions are temporary consumables that you can prepare, which you can apply to yourself or a willing or unconscious creature within your natural reach as a standard action.
 
 You may prepare a number of concoctions you know in 15 minutes equal to 1 + 1 per 4 ranks you possess in the associated skill. Every concoction has a base herb cost, which must be paid from any type of herb you currently possess. Concoctions remain potent for 24 hours after their creation; it is trivial (DC 0 Appraise) to recognize that a concoction has no monetary value.
 
-When creating a concoction, you may choose to create either a tincture or a tonic using a talent with the corresponding tag.
+When creating a concoction, you may choose to create either an aroma, tincture or a tonic using a talent with the corresponding tag.
+
+**Aroma [DRS]:** An aroma creates an invisible 10-foot radius cloud that is centered on (and follows) the creature that it is applied to. An aroma can be applied to an unwilling creature as a standard action with a successful melee touch attack.
+
+A creature can only be affected by a single aroma at one time. An aroma’s duration is listed within its description, although it is suppressed by moderate wind (11+ mph) for as long as the user is within such an area, and is completely neutralized if they go underwater (or are suitably saturated, up to GMs discretion).
+
+An aroma is treated as a strong scent for the purposes of the scent ability, which doubles the normal radius that such a creature becomes affected by an aroma. An aroma is considered an ‘odor’-based effect (similar to the stench universal monster ability).
 
 **Tincture:** A tincture usually grants short-term benefits as noted in their description.
 
@@ -103,6 +109,12 @@ When creating a concoction, you may choose to create either a tincture or a toni
 
 ++++ Twists
 Most concoctions list one or more twists. A twist grants additional or altered effects to a concoction, requiring you to spend the listed additional herbs as part of its creation. A concoction can have multiple different twists but you cannot add a specific twist more than once to a concoction (unless otherwise noted).
+
++++ ##4B0092|Remedy Talents##
+You must have the (remedy) package to gain (remedy) talents. 
+
+For each non-utility (remedy) talent you possess, you heal an additional amount of hit points when treating deadly wounds equal to your operative modifier (minimum 1).
+
 ----
 ++ ##4B0092|Herbalism Talents##
 ++++ Domestic Botany [utility] [DRS]
@@ -158,6 +170,38 @@ A vaporous aroma causes the cloud it creates to become visible in the form of a 
 
 ----
 ++ ##4B0092|Concoction Talents##
+++++ Bewitching Brew (tincture) [DRS]
+^^**Source:** [https://www.drivethrurpg.com/en/product/505704/diamond-spheres-invention-and-ingenuity?affiliate_id=3028400 Diamond Spheres: Invention & Ingenuity]^^
+
+**Cost:** 3 herbs or 1 esoteric herb.
+
+This tincture grants the imbiber a +1 alchemical bonus to Spellcraft and Use Magic Device checks for 10 minutes. This bonus increases by +1 for every 5 associated ranks you possess. 
+
+Whenever the imbiber would lose spell points (or a spell slot) due to failing a concentration check, they can attempt a Will saving throw (DC equal to 15 + half the effect’s caster level). On a success, they retain the spell points (or spell slot) spent.
+
+**Twists**
+* **1 bitter herb:** The imbiber ignores the effects of any ability damage or drain affecting their mental ability scores.
+* **1 dry herb:** The alchemical bonus granted by this tincture also applies to saving throws made against magical effects (such as spells, spell-like abilities, magical sphere abilities, and supernatural effects).
+* **1 intense herb:** Once per hour, the imbiber can reduce the spell point cost of a magical sphere ability they cast by 1 (minimum 1 spell point).
+* **1 sweet herb:** The imbiber does not need to attempt a Will save to retain lost spell points if the magical sphere effect only costs 1 spell point–if it requires more than 1 spell point, the imbiber retains 1 spell point even on a failed save.
+* **1 tainted herb:** Whenever the imbiber suffers damage, they must succeed at a Fortitude save or treat the damage as if it were continuous for the purposes of concentration checks for a number of rounds equal to your operative modifier (minimum 1). If the imbiber would suffer a greater amount of damage during this time, they must attempt another Fortitude save or have the concentration DC change to account for the new damage value.
+**Special:** If you created this tincture with an esoteric herb, its duration is increased as though the esoteric herb were added to the tincture as a twist.
+
+++++ Clarifying Incense (aroma) [DRS]
+^^**Source:** [https://www.drivethrurpg.com/en/product/505704/diamond-spheres-invention-and-ingenuity?affiliate_id=3028400 Diamond Spheres: Invention & Ingenuity]^^
+
+**Cost:** 2 herbs or 1 cool herb.
+
+All creatures that can smell the aroma can take 10 on skill checks even when threatened or distracted, and gains a +4 alchemical bonus to concentration checks, +1 per 5 associated ranks you possess. This aroma lasts for 1 minute.
+
+If an affected creature can achieve martial focus, they can regain their martial focus as a move or swift action once during the aroma’s duration.
+
+**Twists**
+* **1 cool herb:** Whenever an affected creature attempts an Intelligence- or Wisdom-based skill check and rolls a natural 5 or below, they can reroll the attempt–they must take the new result, even if it is worse. Additionally, affected creatures that can achieve martial focus can regain it using this aroma up to twice during the aroma’s duration.
+* **1 dry herb:** All affected creatures gain a +1 alchemical bonus to Will saves, +1 per 6 associated ranks you possess. If this aroma has the tainted twist, this bonus instead becomes a penalty to saving throws against mind-affecting effects.
+* **1 sour herb:** If an affected creature could achieve martial focus, instead of being able to regain martial focus as a move or swift action using this aroma, they can do as part of using a combat or skill sphere ability (excluding those used as a free action or by expending an attack of opportunity); if the ability required the expenditure of martial focus, they regain it after it is expended. If the creature does so, they become sickened for 1 round–this is a pain effect.
+* **1 tainted herb:** The penalty to concentration checks also applies to Intelligence-, Wisdom-, and Charisma-based skill checks. Additionally, whenever an affected creature expends their martial focus, they must succeed at a Will saving throw or have the ability or effect function as though they did not expend their martial focus–this causes the action to be lost only if the ability required the expenditure to function at all.
+
 ++++ Crimson Coagulant (tonic)
 **Cost:** 2 herbs or 1 bland herb
 
@@ -253,6 +297,20 @@ This tincture grants the imbiber a +2 alchemical bonus to saving throws against 
 * **1 cool herb:** The alchemical bonus applies to skill checks to recall information. Additionally, the imbiber gains 1 temporary use of skill leverage. If they would not normally possess skill leverage, they may still use this skill leverage to utilize its general uses. The imbiber can only gain this temporary use of skill leverage once every 2 hours.
 * **1 dry herb:** The alchemical bonus also applies to saving throws and skill check DCs to discover or invoke the imbiber’s motivations, to learn about their mind or goals (such as detect thoughts or the sense goal skill use) or that reduces their degree of alertness.
 
+++++ Pleasant Fragrance (aroma) [utility] [DRS]
+^^**Source:** [https://www.drivethrurpg.com/en/product/505704/diamond-spheres-invention-and-ingenuity?affiliate_id=3028400 Diamond Spheres: Invention & Ingenuity]^^
+
+**Cost:** 2 herbs or 1 sweet herb
+
+All creatures that can smell the aroma gain a +2 circumstance bonus to Diplomacy checks and to any checks made as an impressive display for 1 hour, as long as the target of these skills are also affected by the aroma; this increases by +1 for every 5 associated ranks you possess. This aroma lasts 1 hour.
+
+Additionally, whenever a non-hostile creature spends at least 1 round within the aroma’s area, they must attempt a Will saving throw or become impressed towards the creature that the aroma is applied to for 1 hour, although some creatures may gain a bonus or penalty on this save depending on how easily (or otherwise) they are swayed by pleasant scents, up to the GMs discretion. On a successful save, the creature becomes immune to this additional effect for 1 hour.
+
+**Twists**
+* **1 cool herb:** The aroma’s bonus also applies to the DC to inflict affected creatures with anger and disorientation effects.
+* **1 dry herb:** An impressed creature within the aroma does not lose the impressed condition if they perceive the creature they are impressed by fail a significant challenge or if they become impressed with another creature. Additionally, a successful save only causes the creature to become immune for 1 minute instead of 1 hour.
+* **1 sour herb:** The aroma’s bonus also applies to Handle Animal checks. If you wish, you can also have the aroma’s bonus to Diplomacy checks instead be applied as a penalty.
+
 ++++ Serum Of Ireful Ardor (tincture)
 **Cost:** 3 herbs or 2 spicy herbs
 
@@ -263,6 +321,20 @@ This tincture grants the imbiber a +2 alchemical bonus to Strength-based ability
 * **1 bitter herb:** The imbiber ignores any ability damage or drain affecting their physical ability scores, in addition to the penalties associated with any negative levels they are suffering from for the tincture's duration.
 * **1 intense herb:** For 1 + 1 round per 4 associated ranks, the imbiber can make an additional attack at their highest base attack bonus when making a full attack, and can make an additional attack of opportunity per round. This additional attack is not cumulative with similar effects (such as haste or a speed weapon).
 * **1 spicy herb:** The imbiber gains a +2 morale bonus to weapon damage rolls, which increases by 1 per 5 ranks in the associated skill you possess.
+
+++++ Sickening Odour (aroma) [DRS]
+^^**Source:** [https://www.drivethrurpg.com/en/product/505704/diamond-spheres-invention-and-ingenuity?affiliate_id=3028400 Diamond Spheres: Invention & Ingenuity]^^
+
+**Cost:** 2 herbs or 1 tainted or sour herb.
+
+All creatures that can smell the aroma must succeed at a Fortitude saving throw or become sickened for as long as they remain within the area, plus 1 minute after. A creature that succeeds against this aroma becomes immune to its effects for 24 hours. This aroma lasts 1 minute. This is a poison effect.
+
+**Twists**
+* **1 bitter herb:** A creature that succeeds the saving throw against this aroma instead becomes sickened for 1 round, and does not become immune to its effects for 24 hours on a successful save. If the creature remains within the area, they must attempt a new saving throw against the aroma each round they remain within the area.
+* **1 esoteric herb:** This aroma’s effects bypass any immunities that a creature may possess–including those granted by a creature type (such as undead or constructs).
+* **1 intense herb:** If a creature fails their saving throw against this aroma, they are nauseated for 1 round, and then sickened for the remaining duration.
+* **1 sour herb:** A creature that is made sickened by this aroma treats every square as being difficult terrain for as long as they remain sickened.
+* **1 spicy herb:** A creature that is made sickened by this aroma treats all creatures as if they had concealment (20% miss chance) for as long as they remain sickened.
 
 ++++ Soothing Draught (tincture)
 **Cost:** 2 herbs
@@ -284,6 +356,18 @@ This tonic grants the imbiber a +2 competence bonus to Diplomacy and Bluff check
 * **1 bland herb:** The bonus from this tonic also applies to Sense Motive checks. Additionally, when you create this tonic, you can choose to halve the bonuses the tonic grants and change the tonic’s bonus types to an alchemical bonus.
 * **1 spicy herb:** The bonus from this tonic also applies to Intimidate checks.
 * **1 cool herb:** Whenever the imbiber modifies a creature’s attitude using Diplomacy (or Intimidate if this tonic has the spicy twist), the attitude adjustment is increased by one step.
+
+++++ Stirring Vapors (aroma) [DRS]
+^^**Source:** [https://www.drivethrurpg.com/en/product/505704/diamond-spheres-invention-and-ingenuity?affiliate_id=3028400 Diamond Spheres: Invention & Ingenuity]^^
+
+**Cost:** 2 herbs or 1 intense herb.
+
+All creatures that can smell the aroma gain a +2 alchemical bonus to Strength- and Wisdom-based ability checks and skill checks, increasing by +1 per 5 associated ranks you possess. Additionally, such creatures roll saving throws against effects that would decrease their degree of alertness (including sleep effects) twice, taking the highest result. If an affected creature is already asleep when they smell the aroma, they immediately bolt awake. This aroma lasts 10 minutes.
+
+**Twists**
+* **1 sour herb:** Undead creatures within the area of the aroma (regardless of if they can smell it or not) must succeed at a Will saving throw or become fascinated with the bearer of the aroma and staggered for a number of rounds equal to your operative modifier (minimum 1). For each twist this aroma possesses, undead creatures suffer a -1 penalty to this save.
+* **1 spicy herb:** Whenever an affected creature would be denied their Dexterity bonus to AC (including being flat-footed), they can retain 1 point of their Dexterity bonus to their AC, plus 1 per 4 associated ranks you possess. The creature is still considered flat-footed or denied their Dexterity to AC.
+* **1 sweet herb:** Affected creatures gain a number of temporary hit points equal to your operative modifier (minimum 1), which last for as long as the creature can smell the aroma, plus 1 round after. These temporary hit points are refreshed if they begin their turn within the aroma.
 
 ++++ Swiftwind Philter (tincture) [utility]
 **Cost:** 2 herbs
@@ -376,6 +460,17 @@ Additionally, if your use of the Heal skill would deal damage to your patient (s
 ----
 + ##4B0092|Exceptional Talents##
 
+++++ Compensatory Procedures (remedy) [DRS]
+^^**Source:** [https://www.drivethrurpg.com/en/product/505704/diamond-spheres-invention-and-ingenuity?affiliate_id=3028400 Diamond Spheres: Invention & Ingenuity]^^
+
+**Prerequisites:** Herbalism sphere, Heal 5 ranks
+
+You improve the following Heal skill uses in the following ways on a successful check:
+
+* **First Aid:** If you exceed the DC to deliver first aid by 5 or more, the bleeding instead becomes an equal amount of fast healing, which lasts for 1 minute or until the creature is fully healed, whichever comes first.
+* **Treat Deadly Wounds:** Half of the amount healed is applied as temporary hit points that persist for 1 hour.
+* **Treat Disease or Poison:** You can choose for the patient to harbor the affliction harmlessly within their body–in the case of a poison, it becomes a contact poison (if it was not already). If a creature touches the patient or vice versa (such as through a successful natural or unarmed attack), the creature must succeed at a Fortitude save (against the affliction’s save DC) or become subject to the affliction. 
+
 ++++ Coraltooth Flux (tonic)
 **Prerequisites:** Associated skill 5 ranks, Herbalism sphere.
 
@@ -409,6 +504,21 @@ When applied to a tincture, any noninstantaneous duration of the tincture is inc
 
 You can spend 8 hours and an esoteric herb creating a tonic that has a duration of permanent. This tonic does not count against the amount of tonics a creature can have active at once. A creature can only benefit from a single permanent tonic at one time; consuming another ends the previous one’s duration.
 
+++++ Hallucinatory Miasma (aroma) [DRS]
+^^**Source:** [https://www.drivethrurpg.com/en/product/505704/diamond-spheres-invention-and-ingenuity?affiliate_id=3028400 Diamond Spheres: Invention & Ingenuity]^^
+
+**Prerequisites:** Herbalism sphere, associated skill 5 ranks.
+
+**Cost:** 3 herbs
+
+All creatures that can smell the aroma must succeed at a Fortitude saving throw or become confused for as long as they remain within the aroma, plus 1 minute after–if a creature starts their turn outside of the aroma, they receive a new saving throw against this effect. A creature that succeeds against this aroma becomes immune to its effects for 24 hours. This aroma lasts 10 minutes. This is a poison mind-affecting effect.
+
+**Twists**
+* **1 bitter herb:** For each round that a creature remains confused by this aroma, they suffer 1d3 points of Intelligence and Wisdom damage (a successful Will save halves this damage).
+* **1 cool herb:** A creature made confused by this aroma also becomes shaken for as long as they are confused. At the start of each subsequent round, the creature must succeed at a Will saving throw or have the fear condition worsen by one step (shaken > frightened > panicked). A successful save stops the worsening of the condition for the rest of the duration–if the aroma also has the intense herb twist, a successful save only reduces the fear condition by one step. A creature forced to flee this way first determines the state of their confusion, to see if they can act normally to flee. The bearer of the aroma is treated as the source of this fear.
+* **1 esoteric herb:** The hallucinations caused by the aroma begin to turn aggressive. For each round that a creature remains confused by this aroma, they suffer 1d6 points of damage per 2 associated skill ranks you possess (Will halves). If this aroma has the cool herb twist, if a creature fails this saving throw while they are panicked, they must then succeed at a Fortitude saving throw or instantly die. This is a death effect.
+* **1 intense herb:** A successful save against this aroma no longer makes a creature immune against its effects. Creatures made confused by this aroma that move more than half their speed in any given action must succeed at a Will save or fall prone. If this aroma also has the cool herb twist, the creature also verbally reveals a motivation each round they remain shaken (or worse).
+
 ++++ Necrotic Suffusion (tonic)
 **Prerequisites:** Associated skill 5 ranks, Herbalism sphere.
 
@@ -426,6 +536,13 @@ This tonic reverses the imbiber's reaction to positive and negative energy, caus
 **Prerequisites:** Associated skill 5 ranks, Herbalism sphere.
 
 You may apply 2 tinctures as a standard action. Whenever you prepare concoctions, you can spend 1 use of skill leverage and choose one of the prepared concoctions; the chosen concoction can be applied as a swift action.
+
+++++ Reactive Biology (remedy) [DRS]
+^^**Source:** [https://www.drivethrurpg.com/en/product/505704/diamond-spheres-invention-and-ingenuity?affiliate_id=3028400 Diamond Spheres: Invention & Ingenuity]^^
+
+**Prerequisites:** Herbalism sphere (Emergency Triage), Heal 5 ranks
+
+You can use the Heal skill on yourself as a free action usable outside of your turn once per round, and doing so requires no physical action or tools. This also allows you to use the Heal skill while unconscious or even dead at a -5 penalty (although you can only use the resuscitate skill use when dead).
 
 ++++ Rejuvenating Poultice
 **Prerequisites:** Associated skill 5 ranks, Herbalism sphere (Healing Poultice).
@@ -461,15 +578,49 @@ The imbiber suffers no penalty to their speed or to Acrobatics or Stealth checks
 * **1 esoteric herb:** The imbiber becomes immune to diseases, and whenever they exceed the save DC to recover from a disease or poison by 5 or more, they are treated as though they succeeded at two consecutive saving throws.
 ----
 + ##4B0092|Drawbacks##
+++++ Common Uses [utility start]  [DRS]
+^^**Source:** [https://www.drivethrurpg.com/en/product/505704/diamond-spheres-invention-and-ingenuity?affiliate_id=3028400 Diamond Spheres: Invention & Ingenuity]^^
+
+//Your understanding of herbs may be limited, or perhaps it's just a preference.//
+
+**Prerequisites:** Herbal package.
+
+Your herbs no longer confer their normal benefits as noted in the herbal lore ability. You gain the Domestic Botany talent.
+
+++++ Disciplined Physician [DRS]
+^^**Source:** [https://www.drivethrurpg.com/en/product/505704/diamond-spheres-invention-and-ingenuity?affiliate_id=3028400 Diamond Spheres: Invention & Ingenuity]^^
+
+**Prerequisites:** Remedy package.
+
+You lose the Physician’s Efficacy approach. You gain a (remedy) talent of your choice.
 
 ++++ Herbology Expert
+**Prerequisites:** Herbal package.
+
 You lose the Naturalist’s Eye approach. You gain the Double Dose talent.
 
-++++ Refined Practices
-You lose the herbal lore ability. You gain the Battlefield Medic, Efficient Healer, or Physician’s Efficacy talent.
+++++ Inedible Source [DRS]
+^^**Source:** [https://www.drivethrurpg.com/en/product/505704/diamond-spheres-invention-and-ingenuity?affiliate_id=3028400 Diamond Spheres: Invention & Ingenuity]^^
 
-++++ Unconventional Concoctions [alternate start]
-Choose a Profession skill (such as Profession (brewer, butcher, or cook)) that is relevant to the creation of food, mixtures, or concoctions (up to GM discretion). You use the chosen skill as the associated skill for the Herbalism sphere instead of Profession (herbalist).
+//The material used to create your concoctions are highly toxic or entirely inedible.//
+
+**Prerequisites:** Herbal package.
+
+Your herbs cannot be consumed. You can only use herbs to create concoctions. You gain a concoction talent.
+
+**Incompatible:** Herbology Expert.
+
+++++ Rancher [alternate start] [DRS]
+^^**Source:** [https://www.drivethrurpg.com/en/product/505704/diamond-spheres-invention-and-ingenuity?affiliate_id=3028400 Diamond Spheres: Invention & Ingenuity]^^
+
+**Prerequisites:** Herbal package.
+
+You lose the Naturalist's Eye approach, and gain either the Domestic Botany or Large Batch talent. You use Handle Animal as this package's associated skill.
+
+Such 'herbs' are gathered from animals instead of plants or fungus, and are reliant on the prevalence of wildlife within an area.
+
+++++ Unconventional Practices [alternate start]
+Choose a Profession skill (such as Profession (brewer, butcher, or cook)) that is relevant to the creation of food, mixtures, or concoctions (up to GM discretion). You use the chosen skill as the associated skill for the Herbalism sphere, in addition to using your ranks in that skill when meeting prerequisites that require the Herbalism sphere.
 [[/tab]]
 [[/tabview]]
 
