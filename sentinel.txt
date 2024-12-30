@@ -1,22 +1,11 @@
 title:Sentinel
-parent:spheres-of-might
-[[module CSS]]
-.redtext a {
-color: #993300;
-}
-.redtext a:hover
-{
-color: #c40000;
-}
-[[/module]]
-
 [[module CSS]]
 .colored-links span > a {
   color: inherit;
 }
 [[/module]]
 
-[[div class="redtext" class="colored-links"]]
+[[div class="colored-links"]]
 
 [[module CSS]]
 .noselect {
@@ -45,6 +34,8 @@ A sentinel is a warrior of steel and determination, using their iron will and tr
 
 **Starting Wealth:** 5d6 × 10 gp (average 175 gp). In addition, each character begins play with an outfit worth 10 gp or less.
 
+**Starting Age:** Self-taught
+
 **Role:** A sentinel stands in the thick of battle, absorbing punishment and defending those weaker than herself.
 
 **Alignment:** Any
@@ -66,7 +57,7 @@ A sentinel is a warrior of steel and determination, using their iron will and tr
 || 3 || +3 || +3 || +1 || +3 || Second wind || 3 || 
 || 4 || +4 || +4 || +1 || +4 || Sentinel’s imposition || 4 || 
 || 5 || +5 || +4 || +1 || +4 || Opportunistic offense || 5 || 
-|| 6 || +6/+1 || +5 || +2 || +5 || Critical counter, dedicated defense || 6 || 
+|| 6 || +6/+1 || +5 || +2 || +5 || Counter Critical, dedicated defense || 6 || 
 || 7 || +7/+2 || +5 || +2 || +5 || Defender’s determination || 7 || 
 || 8 || +8/+3 || +6 || +2 || +6 || Deathless challenge || 8 || 
 || 9 || +9/+4 || +6 || +3 || +6 || Stalwart || 9 || 
@@ -80,7 +71,7 @@ A sentinel is a warrior of steel and determination, using their iron will and tr
 || 17 || +17/+12/+7/+2 || +10 || +5 || +10 || Sentinel’s surge || 17 || 
 || 18 || +18/+13/+8/+3 || +11 || +6 || +11 || Dedicated defense || 18 || 
 || 19 || +19/+14/+9/+4 || +11 || +6 || +11 || Invincible soul || 19 || 
-|| 20 || +20/+15/+10/+5 || +12 || +6 || +12 || Dedicated defense, final challenge || 20 || 
+|| 20 || +20/+15/+10/+5 || +12 || +6 || +12 || Final challenge || 20 || 
 
 ++ ##993300|Combat Training##
 A sentinel may combine combat spheres and talents to create powerful martial techniques. Sentinels are considered Expert practitioners and use Wisdom as their practitioner modifier.
@@ -122,7 +113,7 @@ At 7th level, whenever a sentinel uses her second wind, she can also ignore the 
 At 8th level, as long as the sentinel has an active challenge, whenever her hit points are 0 or lower but she is not dead, she automatically stabilizes and can act as though she was disabled instead of dying. While disabled, she is not staggered, although she still takes 1 damage for making a standard action. The sentinel adds her Wisdom score to her Constitution when determining her death threshold, even while not making a challenge.
 
 ++ ##993300|Stalwart (Ex)##
-At 9th level, a sentinel can use mental and physical resiliency to avoid certain attacks. If she makes a Fortitude or Will saving throw against an attack that has a reduced effect on a successful save, she instead avoids the effect entirely. A helpless sentinel does not gain the benefit of the armored stalwart ability.
+At 9th level, a sentinel can use mental and physical resiliency to avoid certain attacks. If she makes a Fortitude or Will saving throw against an attack that has a reduced effect on a successful save, she instead avoids the effect entirely. A helpless sentinel does not gain the benefit of the stalwart ability.
 
 ++ ##993300|Empowering Challenge (Ex)##
 At 11th level, whenever a sentinel reduces the target of her challenge to 0 or fewer hit points, she gains temporary hit points equal to her sentinel level + her Wisdom modifier which last for 1 minute or until lost, whichever comes first. If the target of her challenge has fewer Hit Dice than half of her class level, this ability does not activate.
@@ -134,10 +125,10 @@ At 12th level, whenever a sentinel makes an attack action against a creature she
 At 13th level, whenever the sentinel uses her second wind, she can also ignore the following conditions: dazed, exhausted, frightened, nauseated, paralyzed, or stunned (if a condition would cause the sentinel to be unable to act, as long as she can take purely mental actions, she can use her second wind).
 
 ++ ##993300|Eternal Challenge (Ex)##
-At 14th level, whenever the sentinel has an active challenge and her hit points are 0 or lower but she is not dead, she is no longer staggered. As long as she is below 0 hit points, she gains fast healing equal to her Wisdom modifier.
+At 14th level, whenever the sentinel has an active challenge and her hit points are 0 or lower but she is not dead, she is no longer disabled. As long as she is below 0 hit points, she gains fast healing equal to her Wisdom modifier.
 
 ++ ##993300|Instant Challenge (Ex)##
-At 15th level, if the target of the sentinel’s challenge is reduced to 0 or fewer hit points, she can challenge another creature as a free action.
+At 15th level, if the target of the sentinel’s challenge is reduced to 0 or fewer hit points, she can challenge another creature as a free action (even when it isn't her turn).
 
 ++ ##993300|Diamond Aegis (Ex)##
 At 16th level, whenever the sentinel fails a saving throw, she can spend a reserve point as a free action, even if it is not her turn.
@@ -159,23 +150,90 @@ The following feats are especially helpful or appropriate for Sentinels.
 
 **Prerequisites:** Sentinel’s reserve class feature.
 
-**Benefit:** Choose an (aegis) talent from the [[[Protection]]] sphere. You may create that aegis as a supernatural ability, but only on yourself, using points from your reserve in place of spell points. For the purpose of this aegis, your caster level is equal to your sentinel level, and your casting ability is the ability used to determine your reserve points. You may acquire this feat multiple times; choosing a different (aegis) talent each time.
+**Benefit:** Choose an (aegis) talent from the [[[Protection]]] sphere. You may create that aegis as a supernatural ability, but only on yourself, using points from your reserve in place of spell points. For the purpose of this aegis, your caster level is equal to your sentinel level, and your casting ability is the ability used to determine your reserve points. You may acquire this feat multiple times, choosing a different (aegis) talent each time.
 
 ----
 + ##993300|Archetypes##
 
-++ -[[[Adamant Guardian]]]
+++ ##993300|[[[Adamant Guardian]]]##
 Adamant Guardians focus on protecting their allies even more than most sentinels do, and emphasize patrolling an area over challenging specific foes.
 
-++ -[[[Darkness Defender]]]
+++ ##993300|[[[Darkness Defender]]]##
 Darkness Defenders trade their ability to avoid blows for strength enduring them, eventually learning to get stronger when hit.
 
-++ -##00c000|[[[Dimensional Defender]]]##
+++ ##00c000|[[[Dimensional Defender]]]##
 The Dimensional Defender is an expert at warping around the battlefield to protect their allies.
 
-++ -[[[Paragon]]]
+++ ##993300|[[[Garrison]]]##
+Garrisons are Sentinels who use the Leadership sphere to create military jurisdictions and protect those within them.
+
+++ ##993300|[[[Iron Revenant]]]## [DRS]
+An Iron Revenant is a relentless hunter, made even more determined through the technology that sustains them.
+
+++ ##993300|[[[Laughing Hyena]]]##
+Laughing hyenas aim to defeat foes both physically and emotionally.
+
+++ ##993300|[[[Paragon]]]##
 Paragons represent one of the four major universal ideals (good, evil, law, or chaos) and specialize in opposing the opposite ideal.
 [[/div]]
+
+----
+
++ ##993300|Favored Class Bonuses##
+
+**Aasimar:** Increase one energy resistance granted by your race by +1/3.
+
+**Dwarf:** Gain +1/4 of an additional attack of opportunity per round.
+
+**Elf:** Reduce the armor check penalty of any armor you wear by 1/4 point.
+
+**Fenghuang:** +1 fire resistance. This stacks with resistance gained from other sources.
+
+**Gnome:** Add +1 to your CMD when resisting a disarm or sunder maneuver.
+
+**Goblin:** Gain +1 to your CMD against bull rush, drag, or reposition combat maneuvers.
+
+**Halfling:** Deal +1/3 damage to creatures challenged with the Guardian sphere ability if they are 2 or more sizes larger than you.
+
+**Hobgoblin:** Add +1/4 to your natural armor bonus.
+
+**Human:** Increase the total number of negative hit points you can reach before dying by 2.
+
+**Orc:** Gain +1/4 bonus to Fortitude saves.
+
+**Tiefling:** Add +1/3 to one energy resistance granted by your race.
+
+----
+
++ ##993300|Class Equipment##
+The following magical items are especially appropriate for sentinels.
+
+++++ Bracers Of Vigilance [TS:WAT]
+**Aura** moderate Protection; **CL** 6th
+**Slot** wrists; **Price** 8,000 gp; **Weight** 2 lbs.
+
+These metal bracers seem to guide the user’s hands. While worn by a creature with the guard wall class feature, allies within that creature’s reach also gain the benefits of their guard wall. This item’s effects never stack with itself. A creature cannot benefit from more than one guard wall class feature’s bonuses at a time.
+
+**Construction Requirements**
+Craft Apparatus, Protection sphere, creator must have the guard wall class feature; **Cost** 4,000 gp
+
+++++ Sash Of Everlasting Passion [TS:WAT]
+**Aura** moderate Life; **CL** 6th
+**Slot** body; **Price** 20,000; **Weight** 3 lbs.
+
+This colorful sash is easy to wear around the body, over or under the wearer’s armor. A creature with the second wind class feature who is wearing this item can spend two reserve points as a swift action to heal 1d6 hit points per 2 levels they have in the class granting the second wind class feature. The user also heals an additional 50% of the healing rolled and regains martial focus when healing in that way. This does not allow a creature to regain martial focus more often than they normally could.
+
+**Construction Requirements**
+Craft Apparatus, Life sphere, creator must have the second wind class feature; **Cost** 10,000 gp
+
+++++ Shield Expander [TS:WAT]
+**Aura** moderate Light; **CL** 5th
+**Slot** special, see text; **Price** 20,000 gp; **Weight** 1 lb.
+
+This gleaming white crystal can be set into any shield except a buckler as a full-round action, or removed with the same action. While functioning, it projects an aura around the shield to visibly increase its size (although this does not change the shield’s category or weight, aside from this item’s own weight). This increased size gives the user partial cover against attacks from one direction (chosen at the end of the wielder’s round). When a creature wielding a shield enhanced with a shield expander uses the Perfect Redirection legendary Shield talent, they may also deflect massive weapons like ballista bolts, boulders, and siege weapons. However, such attacks can only be redirected to targets within 5 feet.
+
+**Construction Requirements**
+Smith Magical Weapons And Armor, Light sphere (Encompassing Light (light)); **Cost** 10,000 gp
 
 ----
 
