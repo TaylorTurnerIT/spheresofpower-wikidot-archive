@@ -283,18 +283,18 @@ This ability may allow a weapon or armor to have more than one modification (suc
 **Associated Feats:** Armor Adept, Weapon Adept (//Adventurer’s Armory 2//).
 
 ++++ Comforting Design (artwork, flourish)
-As a flourish, a creature can spend 15 minutes engaging with the artwork to gain a number of temporary hit points equal to twice your operative ability modifier (minimum 1). A creature can only benefit from the temporary hit points granted by this flourish twice per day, plus an additional time for every 5 ranks in associated skill you possess. Additionally, creatures who engage with the artwork can gain the following approach:
+Whenever a creature engages with this artwork, they gain a number of temporary hit points equal to twice your operative ability modifier (minimum 1). A creature can only benefit from the temporary hit points granted by this flourish twice per day, plus an additional time for every 5 ranks in associated skill you possess. Additionally, a creature can adopt the following approach as part of engaging with this artwork:
 
 **Serene [approach]:** A creature who adopts this artwork’s approach halves the duration of harmful emotion-based conditions and effects, to a minimum of 1 round. The creature also gains a +1 morale bonus to checks when taking 10 or 20, increasing by 1 per 5 ranks in this package’s associated skill.
 
 ++++ Compound Creation (flourish)
-You can create items that possess multiple functions, choosing one additional item to add to the crafted item (as long as both items are within three size categories of each other, and is not a trinket). If the additional item is not already crafted, you must spend any costs associated with crafting the additional item. For every 10 ranks you possess in the package’s associated skill, you can incorporate an additional item into such a creation.
+When you apply this flourish to an object, you incorporate an additional object + 1 object per 6 ranks in the package’s associated skill to it. All objects must be within three size categories of each other, and cannot be a trinket. Each incorporated object is treated as an individual object for all purposes (except that no other objects can have this flourish), including magic item creation (requiring individual magical weapons to be enchanted separately, as though ends of a double weapon). An object with this flourish weighs as much as the heaviest object incorporated within it.
 
-You must succeed an additional Craft check against a DC equal to 5 + the additional item’s Craft DC to successfully apply this flourish. If you are successful, the user can spend a move action to switch between the two uses. The combined item weighs as much as the heavier item, but otherwise functions as whichever item it is being used as. At 5 ranks in this package’s associated skill, the user of the flourish can switch uses as part of the same action to draw a weapon, allowing them to do so as part of moving.
+The user can spend a move action to switch to a different incorporated object—or as part of the same action to draw a weapon if you possess at least 5 ranks in a package’s associated skill.
 
-Each item contained within the combined item is treated as their own individual item for the purposes of magic item creation. For example, if you create a combined dagger and longsword and attempt to give them a +1 enhancement bonus, it would require you to enhance the dagger and the longsword individually, as if it were a double weapon.
+If this flourish is applied to a trinket, the trinket can have +1 function, +1 function per 6 ranks in the package’s associated skill you possess.
 
-If this flourish is applied to a trinket, the trinket can instead have an additional function, plus one additional function for every 10 ranks in the package’s associated skill you possess.
+If this flourish receives special maintenance, you can choose to combine two incorporated objects into one to allow both objects to be used concurrently. The two objects generally must have a similar method of use (such as being a held item; a longsword and flute could be combined, but not a set of full plate and a guitar); up to GMs discretion. The combined object combines its total and current hit points, and uses the better of any other statistics the object may possess (such as hardness); when the objects are no longer combined, any damage is split equally between both objects. 
 
 ++++ Convenient Designs (flourish, gear)
 You gain the following flourishes:
@@ -303,7 +303,11 @@ You gain the following flourishes:
 
 **Compactible:** You can alter an object so that it can be folded up to occupy a smaller amount of space. While folded, the item is considered to be one size category smaller than its normal size, but cannot be used for its original purpose. A compactible object can be folded or unfolded as a swift action.  For every 5 ranks in the associated skill you possess, the item is considered to be an additional size category smaller than its normal size while folded.
 
-If you possess the Compound Creation talent, you can combine the uses of two incorporated items as part of applying the flourish, effectively allowing you to apply both uses of the items concurrently. The two items must generally have a similar method of use (as in, both being a held item for example; you could combine a longsword and a flute, but not a set of full plate and a guitar); up to GMs discretion.
+**Launcher:** The object gains a mechanism that can store a single object (which is done as a swift action) that is at least one size category smaller than the object the flourish is attached to. 
+
+As a move action, the user can launch the stored object to any square within close range, as though throwing a splash weapon (requiring a ranged attack as normal). Generally, this causes the object to harmlessly land in the chosen square, although the user can choose to launch it in a way so that a creature occupying the square can catch it as a free action usable outside of their turn.
+
+If the object already has a range increment (such as a splash weapon), you must launch it using the same action required to throw the object, and instead increase the range increment of the object by 20 feet + 5 feet per 4 associated ranks you possess.
 
 ++++ Emotive Styles (artwork, flourish) [DRS]
 ^^**Source:** [https://www.drivethrurpg.com/en/product/505704/diamond-spheres-invention-and-ingenuity?affiliate_id=3028400 Diamond Spheres: Invention & Ingenuity]^^
@@ -314,7 +318,7 @@ You gain the following //artworks//:
 
 On a successful save, the creature instead reduces any morale bonuses they would benefit from by 1.
 
-**Hopeful:** Creatures that engage with the artwork gain a +1 morale bonus to attack rolls and skill checks, +1 per 10 associated ranks. Additionally, any morale bonus the creature benefits from lasts twice as long (as long as it has a duration, to a maximum duration equal to the artwork’s duration).
+**Hopeful:** Creatures that engage with the artwork gain a +1 morale bonus to attack rolls and skill checks, +1 per 10 associated ranks. Additionally, any morale bonus the creature benefits from lasts twice as long (as long as it has a duration of at least 1 round, to a maximum duration equal to the artwork’s duration).
 
 ++++ Evocative Visuals (artwork, flourish)
 You can create an artwork with any of the following additions:
@@ -336,7 +340,7 @@ You unlock skill leverage with one of the skills listed below. Additionally, you
 
 **Durable (container) (Craft (baskets)):** The container’s hit points increase by 5 × your operative modifier (minimum 1), and its hardness increases by your operative modifier (minimum 1).
 
-**Sturdy (construct) (Craft (clockwork or mechanical)):** The construct’s hit points increase by twice your ranks in Craft (clockwork), and any damage reduction it possesses is converted to DR/–.
+**Sturdy (construct) (Craft (clockwork or mechanical)):** The construct’s hit points increase by twice your ranks in Craft (clockwork or mechanical), and any damage reduction it possesses is converted to DR/–.
 
 If this flourish receives special maintenance, the construct is treated as if it were two size categories higher for determining its bonus hit points.
 
@@ -367,9 +371,9 @@ A creature with at least 4 fewer Hit Dice than this package’s associated ranks
 ++++ Inspiring Composition (artwork, flourish) [utility]
 Whenever a creature engages with this artwork, they can use the basic uses of skill leverage in skills you have unlocked leverage in for 24 hours.
 
-Additionally, the creature can adopt the following approach:
+Additionally, a creature can adopt the following approach as part of engaging with this artwork:
 
-**Instructive [approach]:** When you create this artwork, choose two skills you are trained in. A creature who adopts this artwork’s approach gains a +2 competence bonus to one of the chosen skills (chosen when adopting the approach), increasing by 1 per 5 ranks in the associated skill you possess.
+**Instructive [approach]:** When you create this artwork, choose two skills you are trained in. A creature who adopts this artwork’s approach gains a competence bonus equal to 1/2 your associated ranks to one of the chosen skills (chosen when adopting the approach).
 
 Additionally, this artwork can receive maintenance—if you do, you can store any number of uses of skill leverage within the artwork–the artwork can have a maximum number of stored skill leverage equal to your operative modifier (minimum 1). Whenever a creature engages with this artwork, they can withdraw any number of uses of skill leverage stored within the artwork to restore an equivalent amount to their own skill leverage pool.
 
