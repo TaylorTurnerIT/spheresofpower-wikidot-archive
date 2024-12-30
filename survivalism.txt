@@ -101,14 +101,14 @@ Some talents are marked (harvest), granting you new components that you can harv
 ----
 ++ ##4B0092|Survivalism Talents##
 ++++ Complex Preparation
-If you possess the (dredge) package, you can apply two (ground) talents to the dredged area when you dredge; if this is done as a full-round action (or any ability that alters the time taken to dredge as a full-round action), you become staggered for 1 round after dredging. If a talent alters the amount of squares that can be dredged, only that talent is applied to the altered area (for example, applying both a Pit and Hazardous Terrain still allows you to have the Hazardous Terrain expand out of the Pit.
+If you possess the (dredge) package, you can apply two (ground) talents to the dredged area when you dredge. If a talent alters the amount of squares that can be dredged, only that talent is applied to the altered area (for example, applying both a Pit and Hazardous Terrain still allows you to have the Hazardous Terrain expand out of the Pit.
 
 If you possess the (harvest) package, you may apply the benefits of two talisman effects to a single talisman by increasing the Refinement DC by 5.
 
 ++++ Corral
 When dredging, you can designate a number of squares within the dredged area equal to your operative ability modifier. These squares and all squares adjacent to them become corralled.
 
-A creature that enters or begins their turn in a corralled square takes a -1 penalty to AC and Reflex saves for 1 round, this penalty increases by 1 per 3 ranks in the associated skill you possess. A creature does not suffer these penalties while within the dredged area. A creature who is in a square when it is corralled may opt to move 5 feet into the dredged area as a free action that does not provoke attacks of opportunity and may be taken even when it is not their turn. You may not apply this talent to squares dredged with the Swift Dredging talent.
+A creature that enters or begins their turn in a corralled square takes a -1 penalty to AC and Reflex saves for 1 round, this penalty increases by 1 per 3 ranks in the associated skill you possess. A creature does not suffer these penalties while within the dredged area. A creature who is in a square when it is corralled may opt to move 5 feet into the dredged area as a free action that does not provoke attacks of opportunity and may be taken even when it is not their turn. You cannot apply this talent to squares dredged as a swift action or faster.
 
 When used with the Vertical Dredging talent, any corralled cubes that do not touch the ground only affect flying creatures.
 
@@ -148,7 +148,7 @@ As part of preparing this plan, you must have been able to be near the chosen ar
 When you reveal this plan, you retrieve items worth up to 100 gp per rank in the associated skill you possess, deducting the cost of the items immediately (if you cannot pay the cost of the items, you cannot retrieve them). The retrieved items must be something to help in the wilderness, or to combat a specific creature (including their damage vulnerabilities). For example, retrieving an alchemist's fire for a swarm, silversheen or silver blanch for a werewolf, or a compass.
 
 ++++ Swift Dredging [approach]
-You may adopt this approach as a standard action, choosing a (ground) talent you possess. At the end of your turn, you dredge an adjacent square. This approach must be maintained each turn as a swift action, ending the approach if you fail to maintain the approach. You may only have a number of squares dredged from this talent equal to your operative ability modifier. When you abandon this approach, either willingly or as a failure to maintain it, all currently dredged squares return to normal.
+You may adopt this approach as a standard action, choosing an option from a (ground) talent you possess. At the end of each turn you maintain this approach, you can dredge an adjacent square as a free action. This approach must be maintained each turn as a swift action, ending the approach if you fail to maintain the approach. You may only have a number of squares dredged from this talent equal to your operative ability modifier. When you abandon this approach, either willingly or as a failure to maintain it, all currently dredged squares return to normal.
 
 ++++ Tandem Bushcraft [DRS]
 ^^**Source:** [https://www.drivethrurpg.com/en/product/492540/diamond-spheres-harmony-and-discord?affiliate_id=3028400 Diamond Spheres: Harmony & Discord]^^
@@ -250,9 +250,9 @@ You refine the particularly odorous parts of a creature, like specific glands or
 ++++ Adjust Visibility (ground)
 When you use dredge, you can choose one of the following options to apply to the area:
 
-**Clangorous Terrain:** Creatures within the dredged area suffer a penalty to Stealth checks equal to your ranks in the associated skill. Additionally, creatures within the area immediately have their square revealed as if they had been successfully pinpointed, and causing creatures within 30 feet of the creature to jolt awake due to the noise.
+**Clangorous Terrain:** Creatures within the dredged area suffer a penalty to Stealth checks equal to your ranks in the associated skill and have their square revealed as if they had been successfully pinpointed—if such a creature is invisible, attacks made against them only suffer from concealment instead of total concealment. These effects persist 1 round after leaving the dredged area. The noise caused by being within the dredged area also causes any sleeping creatures within 30 feet to become conscious.
 
-**Softened Terrain:** Creatures within the dredged area do not apply their armor check penalty to Stealth checks. Additionally, creatures with tremorsense can only sense creatures within the area at half the usual distance; if the creature within the area moves at half speed or slower, creatures with tremorsense cannot detect them at all. Lastly, Perception checks made against creatures within the dredged area suffer a -2 penalty. This penalty increases by +1 per 4 ranks in the associated skill. This penalty is doubled against Perception checks that rely solely on sound.
+**Softened Terrain:** Creatures within the dredged area do not apply their armor check penalty to Stealth checks, and any Perception checks made against creatures within the area suffer a -2 penalty, increasing by 1 per 4 ranks in the associated skill. This penalty is doubled against Perception checks that rely solely on sound. Additionally, creatures with tremorsense can only sense creatures within the area at half the usual distance; if the creature within the area moves at half speed or slower, creatures with tremorsense cannot detect them at all. These effects persist 1 round after leaving the dredged area.
 
 ++++ Alter Stability (ground)
 When you use dredge, you can choose one of the following options to apply to the area:
@@ -379,7 +379,7 @@ If you possess the (harvest) package, you can spend double the amount of time re
 This talent replaces ranged dredging.
 
 ++++ Flight (harvest)
-**Prerequisites:** Associated skill 9 ranks, Survivalism sphere ((harvest) package).
+**Prerequisites:** Associated skill 5 ranks, Survivalism sphere ((harvest) package).
 
 **Refinement DC:** 20
 
@@ -387,14 +387,9 @@ You refine the wings or other methods of aviation from a creature and attach the
 
 If you do not possess a fly speed, you gain a 15-foot fly speed (poor) that only functions during your turn; this does not benefit from the increase that this component normally grants. If you are not on a surface that can support you at the end of your turn, you glide safely to the ground, at a speed of 60 feet per round, taking no falling damage. You cannot use this fly speed to hover.
 
-**Potency:** The fly speed functions for an additional round before you begin to glide to the ground. Additionally, the fly speed increases to 30 feet, +10 feet per 3 ranks you possess in the associated skill beyond 9 ranks.
+**Potency:** The fly speed functions for an additional round before you begin to glide to the ground. Additionally, the fly speed increases to 30 feet, +10 feet per 3 ranks you possess in the associated skill beyond 5 ranks.
 
 **Talisman:** The flight talisman’s wearer increases the maneuverability of any fly speed they possess by two steps. If the wearer does not possess a fly speed, they instead gain a 30-foot fly speed (average); this does not benefit from this talisman’s maneuverability increase.
-
-++++ Limitless Preparation
-**Prerequisites:** Associated skill 10 ranks, Survivalism sphere (Efficient Preparation).
-
-Your preparations have a timeless quality.  Whenever you use Efficient Preparation to increase the duration of a refined component or dredged area, it instead lasts indefinitely.
 
 ++++ Intellect (harvest) (Su)
 **Prerequisites:** Associated skill 5 ranks, Survivalism sphere ((harvest) package).
@@ -406,6 +401,11 @@ You magically refine a creature’s mind, taking their intellect and memories th
 **Potency:** You also learn a specific piece of information from the creature's mind that pertains to one of its motivations; usually enough information to answer a single, specific question to the best of that creature's knowledge, in no more than 25 words. Unlike most refined components, the gained information is permanent.
 
 **Talisman:** The mind talisman’s wearer gains a +2 enhancement bonus to either their Intelligence or Wisdom score. At 10 ranks in the associated skill, you can either increase the enhancement bonus to +4, or to gain the bonus to both scores when you create this talisman.
+
+++++ Limitless Preparation
+**Prerequisites:** Associated skill 10 ranks, Survivalism sphere (Efficient Preparation).
+
+Your preparations have a timeless quality.  Whenever you use Efficient Preparation to increase the duration of a refined component or dredged area, it instead lasts indefinitely.
 
 ++++ Shift Brightness (ground)
 **Prerequisites:** Survivalism sphere ((dredge) package).
