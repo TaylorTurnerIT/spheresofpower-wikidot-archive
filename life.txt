@@ -1,5 +1,4 @@
 title:Life
-parent:spheres-of-power
 [[module CSS]]
 .noselect {
   -webkit-touch-callout: none; /* iOS Safari */
@@ -201,7 +200,11 @@ Your cure ability heals an additional 1 hit point per caster level. As a special
 Your cure ability heals an additional 1 hit point per caster level. When restoring a target’s body, the exhausted and nauseated conditions are completely removed rather than lessened, and you may attempt a magic skill check against the DC of any poison or disease the target is suffering from. On a success, this removes that poison or disease from the target. This does not reverse damage the target may have suffered from the poison or disease (such as ability damage), but it does stop the poison or disease from causing any more.
 
 ++++ Restore Senses (cure)
-Your cure ability heals an additional 1 hit point per caster level. When restoring a target’s mind, the target is also cured of the confused and dazed conditions, and the frightened and panicked conditions are completely removed rather than lessened; as well as all temporary or magical removal of their senses. This includes blindness, deafness, loss of tremorsense, blindsense, etc. If playing with sanity rules, this also cures 1d4 points of sanity damage.
+Your cure ability heals an additional 1 hit point per caster level. When restoring a target’s mind, the target is also cured of the confused and dazed conditions, and the frightened and panicked conditions are completely removed rather than lessened; as well as all temporary or magical removal of their senses. This includes blindness, deafness, loss of tremorsense, blindsense, etc.
+
+If playing with sanity rules, this also cures 1d4 points of sanity damage.
+
+If playing with the [[[strain]]] rules, this talent can restore 1d4 strain damage once per day (see 'Reducing Strain Damage').
 
 ++++ Restore Spirit (cure)
 Your cure ability heals an additional 1 hit point per caster level. When restoring a target’s soul, the target is cured of all ability damage, as well as all ability drain to one ability score of your choice. The target is also cured of 1 temporary negative level, +1 per 5 caster levels. This may also suppress a permanent negative level for 1 minute per caster level instead of curing a temporary negative level.
@@ -257,6 +260,8 @@ The hypervitalized creature gains the following benefits:
 **Prerequisites:** Life sphere (Break Enchantment, Restore Senses (cure), Restore Spirit (cure)), caster level 10th.
 
 You may spend an additional spell point when restoring soul to remove one permanent negative level from the target in addition to the other effects. At caster level 15th, this removes all negative levels and spending an additional spell point also allows restoring soul to count as using a miracle or wish spell for those spells and abilities that specify they can only be removed by the use of these spells. This does not mimic any other benefits of a miracle or wish spell.
+
+If playing with the [[[strain]]] rules, this talent also improves the Restore Senses talent's healing of strain to 3d4 once per day (see 'Reducing Strain Damage').
 
 Additionally, they are healed of all broken bones, severed body parts (fingers, toes, hands, feet, arms, legs, tails, or even heads of multi-headed creatures), and ruined organs. This also restores sight, hearing, and other permanent loss of senses. If body parts to be reattached are not present, they require 2d10 rounds to regrow.
 
