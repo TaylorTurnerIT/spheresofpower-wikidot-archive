@@ -1,5 +1,4 @@
 title:Troubadour
-parent:start
 [[module CSS]]
 .colored-links span > a {
   color: inherit;
@@ -51,14 +50,14 @@ For some, troubadours are the master actors, spinning epic tales of heroics, lov
 + ##00c000|Class Features##
 
 **Table: Troubadour**
-||~ Class Level ||~ BAB ||~ Fort Save ||~ Reflex Save ||~ Will Save ||~ Special ||~ Caster Level ||~ Martial Talents ||~ Personas || 
-|| 1 || +0 || 0 || +2 || +2 || Casting, combat training, master of disguise, method acting, performer’s synergy, personas (2), spell points || 0 || 0 || 2 || 
+||~ Class Level ||~ BAB ||~ Fort Save ||~ Reflex Save ||~ Will Save ||~ Special ||~ Caster Level ||~ Combat Talents ||~ Personas || 
+|| 1 || +0 || 0 || +2 || +2 || Casting, combat training, master of disguise, method acting, performer’s synergy, personas (2), spell pool || 0 || 0 || 2 || 
 || 2 || +1 || 0 || +3 || +3 || Actor training, quick change || +1 || 1 || 2 || 
 || 3 || +2 || +1 || +3 || +3 || Flexible truth, persona quirk || +1 || 1 || 2 || 
 || 4 || +3 || +1 || +4 || +4 || Actor training || +2 || 2 || 2 || 
 || 5 || +3 || +1 || +4 || +4 || Magic talent, persona quirk || +2 || 2 || 3 || 
 || 6 || +4 || +2 || +5 || +5 || Actor training, quick change (2) || +3 || 3 || 3 || 
-|| 7 || +5 || +2 || +5 || +5 || Persona quirk, superior actor || +3 || 3 || 3 || 
+|| 7 || +5 || +2 || +5 || +5 || Persona quirk, greater actor || +3 || 3 || 3 || 
 || 8 || +6/+1 || +2 || +6 || +6 || Actor training || +4 || 4 || 3 || 
 || 9 || +6/+1 || +3 || +6 || +6 || Magic talent, persona quirk || +4 || 4 || 3 || 
 || 10 || +7/+2 || +3 || +7 || +7 || Actor training, performer’s synergy, quick change (3) || +5 || 5 || 4 || 
@@ -80,13 +79,13 @@ The troubadour is proficient with all simple weapons, light armor, and bucklers.
 A troubadour may combine spheres and talents to create magical effects. A troubadour is considered a Low-Caster, and uses Charisma as his casting ability modifier. (Note: all casters gain 2 bonus talents and may select a casting tradition the first time they gain the casting class feature.)
 
 ++ ##00c000|Combat Training##
-A troubadour may combine combat spheres and talents to create powerful martial techniques. Troubadours are considered Proficient combatants.
+A troubadour may combine combat spheres and talents to create powerful martial techniques. Troubadours are considered Proficient combatants. A troubadour uses their casting ability modifier as their practitioner modifier. If they do not have a casting ability modifier, it defaults to Charisma.
 
 ++ ##00c000|Spell Pool##
 A troubadour gains a small reservoir of energy he can call on to create truly wondrous effects, called a spell pool. This pool contains a number of spell points equal to his class level + his Charisma modifier (minimum 1). This pool replenishes once per day after roughly 8 hours of rest.
 
 ++ ##00c000|Performer’s Synergy (Ex)##
-A troubadour has played so many parts in his life that he can pull expertise from them at a moment’s notice to give himself insight and resilience of mind and heart. Whenever the troubadour is in his base persona, he gains a +1 morale bonus to all saving throws. This bonus increase by 1 at 5th level and every 4 levels thereafter.
+A troubadour has played so many parts in his life that he can pull expertise from them at a moment’s notice to give himself insight and resilience of mind and heart. Whenever the troubadour is in his base persona, he gains a +1 morale bonus to all saving throws. This bonus increases by 1 at 5th level and every 4 levels thereafter.
 
 At 10th level, the troubadour’s ability to perform a variety of parts means he no longer needs to prepare a persona to access a trope’s benefit. As a move action, the troubadour can grant his base persona one trope of his choice, so long as he has at least one persona with that trope. He does not, however, gain any persona quirks. The troubadour retains this trope indefinitely, until he spends another move action to choose a different trope benefit to gain, which then replaces the first. Abilities with a limited number of uses (such as the lover or cunning servant trope powers) share their uses between the base persona and any other personas that possess them.
 
@@ -118,7 +117,7 @@ Beyond these, there may be other benefits, as determined by the GM. For example,
 //Note:// If the troubadour possesses the dual identity class feature (such as from vigilante class levels), he may choose to make his vigilante identity a persona, gaining the benefits of the method acting class feature while in his vigilante identity. The troubadour uses the lesser time required when changing into a vigilante persona.
 
 ++ ##00c000|Method Acting##
-Every non-base persona a troubadour possesses possesses its own unique abilities, based upon what trope that persona falls into, and as the troubadour steps into those roles, he acquires those abilities. Each persona may possess only one trope. If the troubadour gains a skill rank, feat, or talent as part of his base persona that was also granted to him by a persona, he may immediately replace that skill rank, feat, or talent on the non-base persona.
+Every non-base persona a troubadour maintains has its own unique abilities, based upon what trope that persona falls into, and as the troubadour steps into those roles, he acquires those abilities. Each persona may possess only one trope. If the troubadour gains a skill rank, feat, or talent as part of his base persona that was also granted to him by a persona, he may immediately replace that skill rank, feat, or talent on the non-base persona.
 
 Each trope grants a trope benefit at 1st level, as well as access to a list of persona quirks. Each persona gains one persona quirk of the troubadour’s choice at 3rd level and every 2 levels thereafter from those granted by its trope or tropes. Unless specified otherwise, a persona quirk cannot be granted to the same persona more than once.
 
@@ -185,6 +184,9 @@ This actor training can be taken multiple times. Each time it is taken, gain ano
 
 ++++ Mockingbird (Ex)
 You can throw your voice, making it appear to come from any space within 25 ft. +5 ft. per 2 levels. In addition, you may mimic almost any sort of voice, or even animal calls and sound effects. A target is allowed a Will saving throw (10 + 1/2 your level + your Charisma modifier) to detect something is wrong about the sound they are hearing, although success doesn’t mean they automatically know where it’s actually coming from. You must be at least 6th level to choose this talent.
+
+++++ Practical Application (Ex) [LotS]
+The troubadour gains a single [utility] talent as a bonus talent. This actor training may be selected multiple times.
 
 ++++ Rapid Change (Ex)
 The troubadour only needs one minute to prepare a persona for use, including adopting a Disguise to appear as that persona.
@@ -281,9 +283,13 @@ He can add this bonus to an attack roll or saving throw, but doing so costs 2 po
 
 **Group Aid (Ex):** When you use the aid another action, you may spend a point of inspiration to provide the same benefit to an additional ally per 5 troubadour levels you possesses. You must possess at least 5 troubadour levels to select this quirk.
 
+**Hidden Knacks:** Choose three skills, at least one of which must be a background skill. You unlock skill leverage with those skills. You may gain this persona quirk multiple times. Each time it is selected, you unlock skill leverage with three additional skills. [LotS]
+
 **Inspired Intelligence (Ex):** You gain the inspired intelligence investigator talent, letting you add your inspiration die to all Knowledge, Linguistics, or Spellcraft checks without expending a use of inspiration, even those you are not trained in.
 
 **Inspired Intimidator (Ex):** You gain the inspired intimidator investigator talent. This means that when you succeed at an Intimidate check to demoralize an opponent, you can expend one use of inspiration to automatically increase the result of the check by 5 for the purpose of determining the duration of the demoralize effect. You can choose to spend multiple uses to inspiration in this manner to further increase the duration of the demoralize effect. You must be trained in Intimidate to take this talent. The underworld inspiration investigator talent has no effect on this talent
+
+**Skill Training:** You gain a bonus skill talent. You may gain this persona quirk multiple times. Each time it is selected, gain an additional bonus skill talent. [LotS]
 
 **Unconventional Inspiration (Ex):** You gain the unconventional inspiration investigator talent, meaning you may pick any one skill and add your inspiration die to checks attempted with that skill without expending a use of inspiration.
 
@@ -334,7 +340,7 @@ The hero is the driving force of a story; They’re the one who makes the decisi
 **Resolute (Ex):** You gain a +2 bonus to your Fortitude saves, +1 at 5th level and every 4 levels thereafter.
 
 +++ ##00c000|Lover##
-Be they the damsel in distress or the best friend in hard times, the lover is the one the audience falls in love with. The lover possesses a beauty of body, mind, and spirit that lifts the hearts of the other characters in troubled times, and when a lover feels sad, it makes the audience weep. Some of the greatest stories ever told have been about winning t h e heart of, or returning to the side of, a lover.
+Be they the damsel in distress or the best friend in hard times, the lover is the one the audience falls in love with. The lover possesses a beauty of body, mind, and spirit that lifts the hearts of the other characters in troubled times, and when a lover feels sad, it makes the audience weep. Some of the greatest stories ever told have been about winning the heart of, or returning to the side of, a lover.
 
 **Trope Benefit:** The lover serves as an inspiration to his allies, building them up to greater heights than were otherwise possible. The lover gains the bardic performance class feature; as a standard action, the lover may empower allies. Once begun, empowering may be maintained each round as a free action. The lover may maintain this effect for a total number of rounds per day equal to 2 + his Charisma modifier, +1 per troubadour level.
 
@@ -396,6 +402,10 @@ Less human than the villain, the monster is a bloodthirsty creature of darkness,
 
 **Climb (Ex):** You gain a climb speed of 20 ft., which increases by 5 ft. every 5 character levels.
 
+**Enraged:** As a swift action, you may enter a lesser rage, gaining a +2 morale bonus on melee attack rolls, melee damage rolls, thrown weapon damage rolls, and Will saving throws, in addition to taking a -2 penalty to your AC. You may maintain a lesser rage for a number of rounds per day equal to 2 + your Charisma modifier, +1 per troubadour level. This otherwise functions as the unchained barbarian’s rage class feature. [EO3]
+
+**Fueled by Hatred:** When entering a lesser rage, you also gain 2 temporary hit points per Hit Die you possess. These temporary hit points are lost first when you take damage, disappear when your rage ends, and are not replenished if you enter a rage within 1 minute of your previous rage. These temporary hit points do not stack with the temporary hit points granted by the rage class feature. You must possess the enraged persona quirk to gain this quirk. [EO3]
+
 **Half Dead (Su):** You are healed by negative energy and harmed by positive energy. You gain a +4 insight bonus to saves against channeled positive energy.
 
 **Savage (Ex):** You gain a pair of claw attacks as primary natural attacks that deal 1d4 (Medium, 1d3 Small) slashing damage. If you already possess claw attacks, you may instead increase the damage die of a pair of them by one size.
@@ -409,6 +419,33 @@ Less human than the villain, the monster is a bloodthirsty creature of darkness,
 **Thirsty (Ex):** You gain the Blood Thirst feat as a bonus feat, even if you do not meet its prerequisites.
 
 **Wild Empathy (Ex):** You gain the wild empathy ability of a druid of your level.
+
++++ ##00c000|Mysterious Protector## [EO3]
+The mysterious protector is the ever-vigilant vanguard that hides within the shadows. Defending the innocent and downtrodden, the mysterious protector can appear at any point in a story, standing in at just the right moment, or sacrificing himself for the greater good.
+
+**Trope Benefit:** The mysterious protector gains a reserve pool equal to 3 + his casting ability modifier, which replenishes after 8 hours of rest. If he gains a reserve pool from any other source, he increases the maximum size of the larger of the two reserve pools by 2 (instead of adding the two reserve pools together). The mysterious protector can spend a reserve point as a swift action to gain an amount of temporary hit points equal to his troubadour level plus his casting ability modifier. If he has multiple personas that possess the mysterious protector trope, they share the same reserve pool.
+
+++++ Persona Quirks
+**Desperate Assault:** Whenever an ally that you can see would fall unconscious due to being reduced to 0 or fewer hit points by an enemy creature, you gain a morale bonus to attack and damage rolls made against the enemy creature equal to 2 + 1 per 4 troubadour levels you possess for 1 round + 1 round per 4 troubadour levels.
+
+**Durable:** You gain the Endurance and Diehard feats.
+
+**Expanded Reserve:** You gain an additional 2 reserve points. You may take this persona quirk multiple times; its effects stack.
+
+**Resolve:** You are treated as possessing the samurai resolve class feature for the purposes of other effects (treating your troubadour level as your samurai level for this purpose) and may spend reserve points as though they were a samurai’s resolve for the purposes of other effects. In addition, you gain the following abilities which you may spend reserve points to activate:
+* **Determined:** As a standard action, you may spend a reserve point to remove the fatigued, shaken, or sickened condition from yourself. At 8th level, you can alternatively remove the exhausted, frightened, nauseated, or staggered condition. If the condition has a duration of longer than 1 hour or is permanent, this ability suppresses the condition for 1 hour.
+* **Resolute:** Whenever you are required to attempt a Fortitude or Will saving throw, you can spend a reserve point as an immediate action to roll twice and take the better result. You must decide to use this ability before you roll the saving throw.
+* **Unstoppable:** Whenever you are reduced to fewer than 0 hit points and are not slain, you can spend a reserve point as an immediate action to immediately stabilize and remain conscious. You are still staggered (unless you would not be while below 0 hit points) and do not fall unconscious and begin dying if you take a standard action. If you take additional damage from any source and are still below 0 hit points, you fall unconscious as normal.
+
+**Second Wind:** You may spend a reserve point as a swift action to heal 1d4 hit points of damage for every two troubadour levels you possess; this healing cannot raise your hit points beyond 1/2 your maximum amount.
+
+**Third Wind:** Your ability to shrug off attacks improves. When using the second wind persona quirk, you increase the amount of hit point healed to 1d6 per two troubadour levels you possess. Additionally, you may reduce this healing by half to also regain your martial focus, but you must decide to do so before rolling to determine how much you are healed. You must possess the second wind persona quirk to select this quirk.
+
+**Tough Skin:** Your maximum and current hit points increase by an amount equal to your troubadour level.
+
+**Unbreakable:** You may spend a reserve point as a free action to gain DR 1/- until the beginning of your next turn. This damage reduction increases by 1 for every 4 levels beyond 3rd. This damage reduction stacks with any other damage reduction you possess.
+
+**Vigilant Watch:** You may add your casting ability modifier as an insight bonus to initiative checks, up to a maximum bonus equal to your troubadour level. In addition, you always act during a surprise round.
 
 +++ ##00c000|Scoundrel##
 Sometimes known by the name ‘bad boy’ or ‘femme fatale’, a scoundrel can be hero, villain, or both. Scoundrels bring an unpredictable element for the story, for no matter what role they may play initially, the audience is never entirely sure if or when the scoundrel will metaphorically (or physically) stab someone in the back.
@@ -425,7 +462,7 @@ Sometimes known by the name ‘bad boy’ or ‘femme fatale’, a scoundrel can
 **Uncanny Ability (Su):** You may spend spell points as if they were ki points when powering rogue talents and ninja tricks. As a swift action, you may spend a spell point to grant yourself a +20 bonus to speed for 1 round, to grant yourself a +4 bonus to stealth for 1 round, or a +20 bonus on a single Acrobatics check made to jump.
 
 +++ ##00c000|Villain##
-While the hero may drive the story, the villain is the one who creates it. A simple antagonist may throwing the world off-balance in order to create a plot, but a villain is something altogether different, inspiring fear in the audience and all who oppose him.
+While the hero may drive the story, the villain is the one who creates it. A simple antagonist may throw the world off-balance in order to create a plot, but a villain is something altogether different, inspiring fear in the audience and all who oppose him.
 
 **Trope Benefit:** The villain is a master at eliciting fear and hatred from the audience. All enemies within 10 ft. of the villain suffer a -1 penalty to saving throws vs fear, as well as to the DC necessary to affect them in any way with the Intimidate skill. This penalty increases by 1 at 5th level and every 4 levels thereafter.
 
@@ -448,7 +485,52 @@ While the hero may drive the story, the villain is the one who creates it. A sim
 
 **The Don (Ex):** Your aura of authority is apparent for all to see. Your trope benefit extends 20 ft. rather than 10 ft.
 
+**Villainous Imposition:** When you invoke a motivation or outwit as part of a Bluff, Diplomacy, or Intimidate check attempted against a creature within your aura of fear, you gain an additional +3 bonus to the check, or +5 if you invoke a major motivation. [LotS]
+
 **Villainous Monologue (Ex):** You gain the Dazzling Display feat as a bonus feat, and use it through audible components rather than a visual display with a weapon.
+
+----
+
++ ##00c000|Class Feats##
+
+++++ Tactical Change (Champion) [3PP]
+^^**Source:** Expanded Spheres: Baron's Lost Apocrypha^^
+
+**Prerequisites:** Method Acting class feature, Quick Change class feature
+
+**Benefit:** Whenever you use quick change, you may dismiss an ongoing spell effect that you have created as part of the action to use quick change. If you do, you may create a new magic sphere effect as a swift action using the magic talents you have access to in your newly-assumed persona. The spell point cost of this new effect increases by 2 and cannot exceed the spell point cost of the original effect +2.
+
+**Special:** You may select this feat a second time a troubadour level 7th and a third time a troubadour level 13th. For every additional time you take this feat, you may dispel an additional effect and create a new sphere effect as part of the same action.
+
+----
+
++ ##00c000|Archetypes##
+
+++ -##00c000|[[[Binder]]]##
+Binders share their bodies with otherworldly beings.
+
+++ -##00c000|[[[Clone]]]##
+Clones specialize in copying the personas of others.
+
+++ -##00c000|[[[Method Actor]]]##
+To truly assume a role, a skilled actor must not only change the way they appear but also the ways in which they interact with the world and the values they operate by. Method actors excel in establishing stringent doctrines by which to live, but at the same time are capable of changing their obligations at a moment’s notice.
+
+++ -##00c000|[[[Ringmaster]]]##
+Ringmasters specialize in empowering a whole troupe of allies.
+
+----
+
++ ##00c000|Class Equipment##
+The following magical item is especially appropriate for troubadours.
+
+++++ Actor’s Practice Guide [TS:WAT]
+**Aura** moderate Mind; **CL** 7th
+**Slot** none; **Price** 10,000 gp; **Weight** 1/2 lbs.
+
+This heavily-read handbook includes dozens of practical scenarios for aspiring actors. When a creature with the actor training class feature reads this book as part of their daily preparations, they gain knowledge of one actor training, chosen when this item is created, until the next time they rest to regain spell points. A creature cannot benefit from more than one of these guides at a time, and must meet any additional prerequisites of the actor training.
+
+**Construction Requirements**
+Craft Apparatus, Mind sphere, creator must have the actor training class feature, creator must know the actor training added to this guide; **Cost** 5,000 gp
 
 [[/div]]
 
