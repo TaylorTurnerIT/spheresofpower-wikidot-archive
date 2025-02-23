@@ -40,15 +40,38 @@ This replaces survivalist.
 The ravener does not prepare food, but instead devours parts of the recently deceased for their own unique benefits. The ravener can harvest and refine the flesh of a creature as a Survivalism sphere component, allowing them to consume the flesh as a standard action that provokes attacks of opportunity.
 
 The ravener gains a benefit for 1 minute per courser level depending on the creature type that the refined flesh originated from, listed below:
-* **Aberration or Ooze:** The ravener gains a 25% chance to negate a critical hit or precision damage.
-* **Animal:** The ravener gains a +2 alchemical bonus to their Strength score. This increases by 2 for every 6 courser levels they possess.
-* **Construct:** The ravener gains DR 3/ adamantine, plus 1 per 4 courser levels they possess.
-* **Dragon:** The ravener gains energy resistance 5 against the energy type of the creature’s breath weapon (or up to GMs discretion if the creature does not possess a breath weapon). This resistance increases by 5 for every 6 courser levels they possess.
-* **Fey:** The ravener gains DR 3/cold iron, plus 1 per 4 courser levels they possess.
-* **Humanoid or Monstrous Humanoid:** The ravener gains 5 temporary hit points plus 1 per 2 courser levels they possess.
-* **Magical Beast or Outsider:** The ravener gains a +2 alchemical bonus to saving throws against spells and spell-like abilities. This increases by 1 per 10 courser levels they possess.
-* **Plant:** The ravener gains a +2 natural bonus to AC, plus 1 per 5 courser levels they possess.
-* **Undead or Vermin:** The ravener gains a +2 alchemical bonus to saving throws against mind-affecting effects, +1 per 10 courser levels they possess
+* **Aberration** The ravener gains a 25% chance to negate a critical hit or precision damage. _
+At 10th level, the ravener gains a +4 alchemical bonus to saving throws against mind-affecting effects, and may attempt a new saving throw against a single mind-affecting effect currently affecting them. _
+At 20th level, the ravener becomes immune to mind-affecting effects.
+* **Animal:** The ravener gains a +2 alchemical bonus to their Strength score. This increases by 2 for every 6 courser levels they possess. _
+At 10th level, the ravener gains two natural attacks the devoured creature possessed, in addition to the benefits of the Multiattack feat. _
+At 20th level, the ravener grows to Large size, gaining a +4 size bonus to Strength and Constitution, a -2 penalty to Dexterity, and a +4 natural armor bonus, in addition to gaining the benefits of the Diehard feat, even if he does not meet the prerequisites.
+* **Construct:** The ravener gains DR 3/ adamantine, plus 1 per 4 courser levels they possess. _
+At 10th level, the granted DR cannot be resisted (becoming DR/-), and increases by 2. _
+At 20th level, the ravener gains immunity to any effects that require a Fortitude save, unless the effect also functions on objects or undead, or is harmless.
+* **Dragon:** The ravener gains energy resistance 5 against the energy type of the creature’s breath weapon (or up to GMs discretion if the creature does not possess a breath weapon). This resistance increases by 5 for every 6 courser levels they possess. _
+At 10th level, the granted energy resistance increases by 15. _
+At 20th level, the granted energy resistance becomes an immunity.
+* **Fey:** The ravener gains DR 3/cold iron, plus 1 per 4 courser levels they possess. _
+At 10th level, the ravener gains a circumstance bonus to Stealth checks equal to half their courser level, and may attempt Stealth checks to hide even while being observed. This does not make the ravener invisible, but counts as such for effects that interact with it, and therefore does not stack with the invisibility spell or similar effects. _
+At 20th level, the ravener becomes completely invisible, granting them a +20 bonus to Stealth checks (or +40 if they are standing still), and possesses total concealment even when detected. If the ravener attacks a creature (including casting a spell that targets or includes a creature), this invisibility is suppressed for 1 minute.
+* **Humanoid or Monstrous Humanoid:** The ravener gains 5 temporary hit points plus 1 per 2 courser levels they possess. _
+At 10th level, the granted temporary hit points are doubled. _
+At 20th level, the granted temporary hit points are replenished whenever the ravener reduces a creature to 0 or fewer hit points or successfully confirms a critical hit. The creature must have a CR of at least half the ravener’s character level (minimum 1/2).
+* **Magical Beast or Outsider:** The ravener gains a +2 alchemical bonus to saving throws against spells and spell-like abilities. This increases by 1 per 10 courser levels they possess. _
+At 10th level, the ravener gains spell resistance 11 + their class level. _
+At 20th level, the granted spell resistance increases by 4. Additionally, whenever a spell or similar magical effect affected by spell resistance is negated by the granted spell resistance, the effect is turned back upon its caster as if the caster was the original target. This uses the ravener’s own attack modifiers if an attack roll is required.
+* **Ooze:** The ravener gains a 25% chance to negate a critical hit or precision damage. This increases to 100% at 10th level. _
+At 20th level, the ravener gains blindsight out to a range of 120 feet.
+* **Plant:** The ravener gains a +2 natural bonus to AC, plus 1 per 5 courser levels they possess. _
+At 10th level, the ravener becomes immune to poison and polymorph effects, in addition to becoming immediately stable and gaining fast healing 3 for as long as they are below 0 hit points. _
+At 20th level, the ravener gains regeneration 3 (acid or fire) for the duration instead of the granted fast healing.
+* **Undead:** The ravener gains a +2 alchemical bonus to saving throws against mind-affecting effects, +1 per 10 courser levels they possess _
+At 10th level, the ravener becomes immune to bleed and death effects, in addition to being healed by negative energy in addition to positive energy. _
+At 20th level, the ravener gains immunity to any effects that require a Fortitude save, unless the effect also functions on objects or undead, or is harmless.
+* **Vermin:** The ravener gains a +2 alchemical bonus to their Dexterity score. This increases by 2 for every 6 courser levels they possess _
+At 10th level, the ravener gains a +4 alchemical bonus to saving throws against mind-affecting effects, and may attempt a new saving throw against a single mind-affecting effect currently affecting them. _
+At 20th level, the ravener becomes immune to mind-affecting effects.
 
 The ravener may only benefit from one of these benefits at one time; attempting to consume another creature’s flesh within this period removes the benefits of the first.
 
@@ -65,34 +88,6 @@ This replaces resourceful foraging.
 At 4th level, the ravener gains the following harrying assault option:
 * **Rapid Consumption:** The ravener gains the benefits of devour as if they had consumed the flesh of the attacked creature, but only gains its benefits for 1 round (Reflex negates). At 10th level, the creature does not receive a saving throw against this ability. At 16th level, the benefits last for an additional number of rounds equal to the ravener’s Wisdom modifier.
 
-++ ##4B0092|Improved Devour (Su)##
-At 10th level, the ravener takes more from the creature’s that they devour. When the ravener uses their devour ability, they gain additional benefits depending on the creature type of the flesh, listed below:
-* **Aberration or Vermin:** The ravener gains a +4 alchemical bonus to saving throws against mind-affecting effects, and may attempt a new saving throw against a single mind-affecting effect currently affecting them.
-* **Animal:** The ravener gains two natural attacks the devoured creature possessed, in addition to the benefits of the Multiattack feat.
-* **Construct:** The DR granted cannot be resisted (becoming DR/-), and the amount increases by 2.
-* **Dragon:** The granted energy resistance increases to 20.
-* **Fey:** The ravener gains a circumstance bonus to Stealth checks equal to half their courser level, and may attempt Stealth checks to hide even while being observed. This does not make the ravener invisible, but counts as such for effects that interact with it, and therefore does not stack with the invisibility spell or similar effects.
-* **Humanoid or Monstrous Humanoid:** The granted temporary hit points are doubled.
-* **Magical Beast or Outsider:** The ravener gains spell resistance 11 + their class level.
-* **Ooze:** The ravener gains a 100% chance to negate a critical hit or precision damage.
-* **Plant:** The ravener becomes immune to poison and polymorph effects, in addition to becoming immediately stable and gaining fast healing 3 for as long as they are below 0 hit points.
-* **Undead:** The ravener becomes immune to bleed and death effects, in addition to being healed by negative energy in addition to positive energy.
-
-This replaces improved foraging.
-
-++ ##4B0092|Exceptional Devour (Su)##
-At 20th level, when the ravener devours flesh, their body and mind change, as if embodying the essence of the creature. When the ravener uses their devour ability, they gain additional benefits depending on the creature type of the flesh, listed below:
-* **Aberration or Vermin:** The ravener becomes immune to mind-affecting effects.
-* **Animal:** The ravener grows to Large size, gaining a +4 size bonus to Strength and Constitution, a -2 penalty to Dexterity, and a +4 natural armor bonus, in addition to gaining the benefits of the Diehard feat, even if he does not meet the prerequisites.
-* **Construct or Undead:** The ravener gains immunity to any effects that require a Fortitude save, unless the effect also functions on objects or undead, or is harmless.
-* **Dragon:** The granted energy resistance becomes an immunity.
-* **Fey:** The ravener becomes completely invisible, granting them a +20 bonus to Stealth checks (or +40 if they are standing still), and possesses total concealment even when detected. If the ravener attacks a creature (including casting a spell that targets or includes a creature), this invisibility is suppressed for 1 minute.
-* **Humanoid or Monstrous Humanoid:** The granted temporary hit points are replenished whenever the ravener reduces a creature to 0 or fewer hit points or successfully confirms a critical hit. The creature must have a CR of at least half the ravener’s character level (minimum 1/2).
-* **Magical Beast or Outsider:** The granted spell resistance increases by 4. Additionally, whenever a spell or similar magical effect affected by spell resistance is negated by the granted spell resistance, the effect is turned back upon its caster as if the caster was the original target. This uses the ravener’s own attack modifiers if an attack roll is required.
-* **Ooze:** The ravener gains blindsight out to a range of 120 feet.
-* **Plant:** The ravener gains regeneration 3 (acid or fire) for the duration instead of the granted fast healing.
-
-This alters exceptional foraging.
 [[/tab]]
 [[/tabview]]
 
