@@ -59,7 +59,9 @@ Allies ignore any soft cover, partial cover, or partial concealment provided by 
 ++ ##4B0092|Navigation Sphere Packages##
 ++++ Aerial
 You gain the following acclimation:
-* **Weatherproofing:** Acclimated targets may treat the severity of all weather effects as one step lower for all purposes for 24 hours. For every 7 ranks you possess in your associated skill, they reduce the severity of weather effects by an additional step.
+* **Weatherproofing:** Acclimated targets may treat the severity of weather effects as being 1 step lower, +1 step per 7 ranks you possess in this package’s associated skill. Additionally, such targets improve the maneuverability on any fly speed they possess by one step (maximum good maneuverability), and are always considered to have moved at least half their speed for the purpose of determining if they need to make Fly checks to remain flying. Acclimated air-current vehicles reduce the DC of any piloting checks attempted to perform actions on them by 1 + 1 per 4 ranks in this package’s associated skill.
+
+**Associated Feat:** Careful Flyer (//Ultimate Intrigue//)
 
 **Associated Skill:** Fly or Profession (pilot).
 
@@ -77,7 +79,10 @@ You gain the following acclimation:
 
 ++++ Wilderness
 You gain the following acclimation:
-* **Conditioning:** Acclimated targets gain a +2 competence bonus on saving throws against environmental hazards and weather effects. This includes Fortitude saves to avoid fatigue and nonlethal damage from hot or cold environments. For every 8 ranks you have in this package’s associated skills, the bonus to saving throws increases by +1.
+* **Conditioning:**  Acclimated targets gain a +2 competence bonus to Constitution checks, and to saving throws against environmental hazards and weather effects, as well as effects that cause fatigue or nonlethal damage. They also reduce all nonlethal damage as well as damage dealt due to environmental hazards (such as falling, pressure, extreme temperatures, etc.) by 3. These bonuses (and damage reduction) increase by +1 per 5 ranks you possess in this package’s associated skill. _
+Lastly, such creatures do not become fatigued due to sleeping in armor or from suffering nonlethal damage from extreme temperatures, and do not take a penalty to Constitution checks for wearing armor in hot climates
+
+**Associated Feat:** Endurance
 
 **Associated Skill:** Climb, Profession (guide), Profession (driver), or Survival.
 ----
@@ -114,6 +119,10 @@ You gain Knowledge (geography) as an additional associated skill for this sphere
 ++++ Fleet Movement [utility]
 When using overland travel, you and allies traveling with you travel an additional distance in the same period up to 1/4 of your normal overland travel speed. For every 5 ranks in an associated skill you possess, this improves by an additional +1/4 of your normal overland travel speed. Additionally, for the purposes of determining overland speed, you and your allies treat trackless terrain as being a trail, and any terrain with a road or trail as being a highway.
 
+Additionally, traveling does not increase the time it takes for you to use certain Survival skill uses (such as when getting along in the wild, fortifying against severe weather, obscuring tracks, etc.). If you have the (urban) package, you can use an (urban) package associated skill, Sleight of Hand, or Stealth instead of Survival to get along in the wild, forage, or obscure tracks in an urban setting.
+
+**Associated Feats:** Live off the Land (//Ultimate Wilderness//), Urban Forager (//Pathfinder Companion: Taldor, Echoes of Glory//)
+
 ++++ Follow My Lead [approach]
 You can help your allies in their movement, directing their actions with your expertise. While you maintain this approach, allies within 60 feet of you may use the higher value between your ranks in one of your associated skills and their normal modifier to that skill. For every 4 ranks in the corresponding skill you possess, these bonuses increase by 1. The area of this effect increases by 5 feet for every 2 ranks you possess in an associated skill, to a maximum of 110 feet. You do not gain any bonuses from this approach.
 
@@ -139,21 +148,6 @@ Adopting this approach is a swift action. While in this approach, you and any al
 Should they fail, they follow the fake trail until you started backtracking or until you abandoned the approach (whichever is sooner), to a maximum of 1,000 feet per rank in the associated skill before it gets another Survival check. After a creature that fails to identify a false trail follows it for the determined distance, it can attempt another Perception or Survival check with a +5 bonus. On a success, the creature realizes it is following a false trail and can continue to track you as normal after backtracking to the start of the false trail (or wherever you diverged from the false trail). On a failure, the creature continues to move in the direction of the false trail for an additional mile. After each mile, it can attempt a new check with a cumulative +5 bonus.
 
 **Associated Feat:** False Trail (//Pathfinder Roleplaying Game: Ultimate Wilderness//).
-
-++++ Navigator’s Acumen [utility] [DRS]
-^^**Source:** [https://www.drivethrurpg.com/en/product/505704/diamond-spheres-invention-and-ingenuity?affiliate_id=3028400 Diamond Spheres: Invention & Ingenuity]^^
-
-If you have the (aerial) package, whenever you grant the weatherproofing acclimation benefit, acclimated targets also improve the maneuverability of any fly speed they possess by one step (maximum good maneuverability). Additionally, a flying creature is always considered to have moved at least half its speed for the purpose of determining if they need to make Fly checks to remain flying.
-
-If you have the (nautical) package, whenever you grant the aquatic adaptation acclimation benefit, the acclimated creatures can move double the normal amount when they succeed a Swim check to swim downward (at least 45 degrees down from the horizontal). If they already have a swim speed, it increases by 10 feet when they spend a move action to swim downwards.
-
-If you have the (wilderness) package, traveling does not increase the time it takes for you to use certain Survival skill uses (such as when getting along in the wild, fortifying against severe weather, obscuring tracks, etc.). You also gain a +2 bonus to Survival checks to find a shortcut (new skill use), +1 per 5 associated ranks.
-Additionally, whenever you grant the conditioning acclimation benefit, acclimated creatures can move at their full speed while blazing a trail (new skill use), and can do so untrained.
-
-If you have the (urban) package, you can use an (urban) package associated skill, Sleight of Hand, or Stealth instead of Survival to get along in the wild, forage, or obscure tracks in an urban setting. 
-Additionally, whenever you grant the crowd maneuvers acclimation benefit, acclimated creatures gain a +2 bonus to Survival checks made to track on firm or hard ground, +1 per 5 associated ranks.
-
-**Associated Feats:** Careful Flyer (//Ultimate Intrigue//), Deep Diver & Live off the Land (//Ultimate Wilderness//), Urban Forager (//Pathfinder Companion: Taldor, Echoes of Glory//)
 
 ++++ Reconnaissance [approach]
 Adopting this approach is a swift action. While in this approach, you carefully observe your environment and ready yourself for any oncoming threats. You gain a +2 insight bonus on Perception and Survival checks. For every 5 ranks you possess in a single associated skill, these bonuses increase by 1.
@@ -193,8 +187,8 @@ Additionally, you can have up to two instances of the pathing ability active at 
 You may select the following acclimation benefits:
 * **Cyclone-Sturdy:** While a creature is flying within an area of Wind of severity level 2 or higher, they gain a +5-foot circumstance bonus to their fly speed, +5 feet per category above severity level 2. Additionally, as a free action usable once per round, they can turn up to 180 degrees without spending any movement with a successful DC 25 Fly check. _
 If you possess the (aerial) package, this fly speed bonus doubles.
-* **Tempest-tost:** Acclimated targets treat themselves as being one size category larger for the purposes of wind effects, and halve any penalty on Perception checks caused by high winds. Also, acclimated targets gain a +2 competence bonus to saving throws against effects with the electricity descriptor or that deal electricity damage. _
-If you possess the (aerial) package, acclimated targets also gain electricity resistance equal to half of the (aerial) package’s associated ranks.
+* **Tempest-tost:** Acclimated targets treat themselves as being one size category larger for the purposes of wind effects, and halve any penalty on Perception checks caused by rain or high winds. Also, acclimated targets gain a +2 competence bonus to saving throws against effects that cause the deafened condition, that have the electricity or sonic descriptor, or that deal electricity damage. _
+If you possess the (aerial) package, acclimated targets also gain electricity resistance equal to the (aerial) package’s associated ranks.
 
 **Associated Feats:** Storm-Lashed (//Adventurer’s Guide//), Wind Rider (//Blood of the Ancients//), Wingover (//Pathfinder RPG Bestiary//).
 
@@ -225,8 +219,9 @@ You may select the following acclimation benefits:
 You may select the following acclimation benefits:
 * **Depth Stalker:** Acclimated targets can see twice as far the normal distance underwater–if they have darkvision, its range is doubled when underwater. Also, acclimated targets gain a +2 competence bonus to saving throws against effects with the water descriptor, or exceptional or supernatural abilities of creatures with the aquatic or water subtype. _
 If you possess the (nautical) package, acclimated targets also gain tremorsense for up to 10 feet (except only allowing them to detect anything in contact with the same body of water as them). If the target possesses a similar form of tremorsense (such as the Adept Hunter Vocation talent, or the courser’s forage ability), the range increases by +10 feet.
-* **Tide Strider:** Acclimated targets that succeed at a Swim check can move their full speed as a full-round action, or half their speed as a move action. If they already possess a swim speed, it increases by 10 feet. Additionally, whenever they are moved by a current, they can increase or decrease the movement by 50%. _
-If you possess the (nautical) package, acclimated targets can also run, charge, and 5-foot step while swimming. Additionally, such targets can change their buoyancy between rising, neutral, or sinking as a free action once per round (instead of a move action), and they are not off-balanced while sinking or rising due to their buoyancy.
+* **Tide Strider:** Acclimated targets that succeed at a Swim check can move their full speed as a full-round action, half their speed as a move action, or double the normal amount when swimming downwards (at least 45 degrees down from the horizontal). If they already possess a swim speed, it increases by 10 feet. _
+Additionally, whenever they are moved by a current, they can increase or decrease the movement by 50%.
+**Associated Feat:** Deep Diver (//Ultimate Wilderness//)
 
 ++++ Occult Countermeasures (acclimation)
 You may select the following acclimation benefits:
@@ -238,33 +233,23 @@ You may select the following acclimation benefits. You may acclimate up to 10 po
 * **Emergency Backup:** Acclimated objects gain temporary hit points equal to your ranks in an associated skill which lasts for the duration. When an acclimated item would gain the broken condition, it continues to function as if it were not broken for 1 round plus an additional round for every 5 ranks you possess in an associated skill.
 * **Secure Provisions:** You may acclimate items to give them a +1 resistance bonus on all saving throws and increase their hardness by 1. For every 5 ranks you possess in one of your associated skills, these bonuses increase by 1. If an acclimated item is nonmagical and unattended, it receives a saving throw against effect as if it were a magic item with a caster level of 0. (A magic item’s Fortitude, Reflex, and Will save bonuses are equal to 2 + half its caster level. An attended magic item either attempts saving throws as its owner or uses its own saving throw bonus, whichever is better.)
 
-++++ Resilience Training (acclimation) [utility]
+++++ Resilience Training (acclimation)
 You may select the following acclimation benefits:
 * **Heavy Load:** Acclimated targets gain a +2 competence bonus on Strength checks and to their Strength score for the purpose of determining their carrying capacity. For every 5 ranks you possess in one of your associated skills, these bonuses increase by 1.
-* **Unyielding Progress:** Acclimated targets gain a +4 circumstance bonus on all Constitution checks as well DR 4/- and resist 4 to all energy types against forced march damage, falling damage, cave-in damage, pressure damage, and other damaging environmental effects. For every 5 ranks you possess in one of your associated skills, these bonuses, energy resistance, and damage reduction increase by 1.
-
-**Associated Feat:** Endurance.
+* **Tireless Strider:** Acclimated targets do not need to attempt Acrobatics checks to run or charge on slippery or unstable surfaces, can move at full speed when using Acrobatics to balance on narrow surfaces, and do not become flat-footed or lose their Dexterity bonus to AC when doing so. Lastly, an acclimated target only needs to spend 2 squares of movement when moving through a square that would usually cost more (such as deep bog or snow).
 
 ++++ Stability Exercise (acclimation) [utility]
 You may select the following acclimation benefits:
+* **Braced Footing:** Acclimated targets halve any DC increases to Acrobatics and Climb checks they would incur, and may take 10 on Climb checks even when distracted. Acclimated targets ignore the DC increase of (or penalties to) Acrobatics and Stealth checks due to certain terrain features (such as dense rubble or undergrowth); this includes certain dredge effects from the Survivalism sphere, such as the Unpredictable Terrain option.
 * **Rope Swinger:** Acclimated targets gain a climb speed of 10 feet on surfaces with a Climb DC of 20 or less, which increases by 5 feet per 5 ranks you possess in the associated skill. They do not provoke attacks of opportunity from climbing or swinging on a rope or surface with Climb DC 20 or less.
-* **Braced Footing:** Acclimated targets halve any DC increases to Acrobatics and Climb checks they would incur, and may take 10 on Climb checks even when distracted.
-
 **Associated Feat:** Expert Boarder (//Pathfinder Roleplaying Game: Adventurer’s Guide//).
-
-++++ Stamina Exercise (acclimation) [utility] [DRS]
-^^**Source:** [https://www.drivethrurpg.com/en/product/505704/diamond-spheres-invention-and-ingenuity?affiliate_id=3028400 Diamond Spheres: Invention & Ingenuity]^^
-
-You may select the following acclimation benefits:
-* **Endurance Training:** Acclimated targets do not become fatigued from nonlethal damage caused from extreme temperature, and do not take a penalty to Constitution checks for wearing armor in hot climates. Such creatures only need half the amount of food and water.
-* **Tireless Strider:** Acclimated targets do not need to attempt Acrobatics checks to run or charge on slippery or unstable surfaces, can move at full speed when using Acrobatics to balance on narrow surfaces, and do not become flat-footed or lose their Dexterity bonus to AC when doing so. Lastly, an acclimated target only needs to spend 2 squares of movement when moving through a square that would usually cost more (such as deep bog or snow).
 
 ++++ Wild Wit (acclimation) [DRS]
 ^^**Source:** [https://www.drivethrurpg.com/en/product/505704/diamond-spheres-invention-and-ingenuity?affiliate_id=3028400 Diamond Spheres: Invention & Ingenuity]^^
 
 You may select the following acclimation benefits:
 * **Natural Shroud:** Acclimated targets can spend 1 minute to cover themselves in loose parts of the terrain surrounding them (such as branches, dirt, snow, etc) and take 20 on a Stealth check. This causes the creature to be prone and be considered to have concealment for Stealth checks until they move or stand up. The creature can burst from their hiding place when they (or their allies) start a surprise round, allowing them to stand up as a free action and take a full-round worth of actions during the surprise round, as well as granting them a +2 circumstance bonus to the subsequent initiative check (if any). _
-If you possess the (wilderness) package, the first successful attack made by each creature during this surprise round deals an additional amount of precision damage equal to your associated ranks.
+If you possess the (wilderness) package, the first successful attack made by each creature during this surprise round deals an additional amount of precision damage equal to your associated ranks. Also, the concealment you gain from underbrush increases to 50% (instead of 20%).
 * **Terrain Sense:** Acclimated targets can see twice as far as normal in fog, mist, murky water, vegetation, and similar environmental-based obscurement, and creatures adjacent to them never gain concealment from such obscurements. _
 If you possess the (wilderness) package, such creatures also gain a +1 cover bonus to their AC whenever they are adjacent to a tree (including while climbing), or are treated as if they were standing in the same square as a tree if they are adjacent to two or more trees simultaneously (which grants partial cover). Lastly, when you are in a tree, you count as having a running start when you jump.
 **Associated Feat:** Forester (//Ultimate Wilderness//), Forest Ambush (//Heroes of the Wild//).
