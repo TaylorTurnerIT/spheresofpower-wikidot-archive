@@ -253,7 +253,7 @@ You unlock skill leverage with one of the skills listed below. Additionally, you
 
 Additionally, the wearer can make an impressive display of skill as a move action using either their Diplomacy or your Craft (jewelry) bonus.
 
-**Literary Text (Artistry (literature) or Craft (books or calligraphy)):** When you create an artwork in a written form (such as a book), you can choose to make it a literary artwork. A literary artwork takes 1 hour to engage with, becomes a language-dependent effect, and lasts twice as long as normal.
+**Literary Text (Artistry (literature) or Craft (books or calligraphy)):** When you create an artwork in a written form (such as a book), you can choose to make it a literary artwork. A literary artwork takes 10 minutes to engage with, becomes a language-dependent effect, and lasts twice as long as normal.
 
 Additionally, choose 1 + 1 skills per 10 ranks in Artistry (literature) or Craft (books or calligraphy) you possess. A creature that engages with a literary artwork is considered taught in the chosen skills (new skill use) and unlocks skill leverage with those skills for 24 hours.
 
@@ -267,11 +267,13 @@ Additionally, whenever the instrument is played, the area that it can be clearly
 **Visual Expression (Craft (paintings, pottery, or sculptures)):** You can apply +1 artwork to Small-sized objects or larger, and artworks applied to such an object function as though your associated ranks were 4 higher for determining its effects.
 
 ++++ Alloyed Plating (flourish)
-As part of applying this flourish, you choose another material to plate, reinforce, or otherwise apply to the crafted object. This requires you to provide the materials that would normally be required to create an object made of the special material (for example, applying this flourish to a chain shirt with mithral would cost 500 gp in mithral). The crafted object is treated as if it were the chosen material and its original material for overcoming damage reduction and uses the better of the two hardnesses and hit points and has the restrictions and penalties of both. If both materials apply a weight modifier, apply the new material’s alteration after the initial one. You may choose to give it the visual appearance of either, or both.
+As part of applying this flourish, you plate, reinforce, or otherwise apply a second material to the crafted object—this requires you to spend half the normal cost required to create the object of the chosen material (for example, applying mithral to a chain shirt would cost 500 gp). You can choose a material that would normally be unable to be made into the crafted object (such as adding glass to armor, or bone to a weapon).
 
-Additionally, as long as the crafted object’s material cost increase does not exceed 500 gp, it no longer confers its detrimental effects (such as a silver weapon’s penalty to damage or gold armor’s fragile quality) and ignores any restrictions that the material possesses to what items it can be crafted into (such as creating glass armor or a bone weapon).
+The crafted object is treated as if it were made of both its original material and the chosen material for overcoming damage reduction, and uses the better of the two hardnesses and hit points—if either material has a mutually exclusive property (such as a weight modifier), you can choose your preferred properties between each material. You may also choose to give it the visual appearance of either material, or both.
 
-At 10 ranks in this package’s associated skill, you can have the crafted object be treated as if it were both materials, choosing your preferred properties between each material when they are mutually exclusive and avoiding penalties and limitations on what kind of material can be used for the item regardless of the material’s cost.
+Additionally, as long as the second material’s cost increase does not exceed 500 gp, both materials no longer confer any detrimental effects or drawbacks (such as a silver weapon’s penalty to damage or gold armor’s fragile quality). This gp restriction is lifted if you have at least 10 ranks in this package’s associated skill.
+
+If you have the (gear) package, this flourish does not count towards the total number of flourishes you can have on an object. Additionally, this flourish can be applied multiple times to the same object, each time choosing a new material, although the subsequent applications of this flourish still count towards your flourish maximum.
 
 ++++ Armament Modder (flourish, gear) [DRS]
 ^^**Source:** [https://www.drivethrurpg.com/en/product/505704/diamond-spheres-invention-and-ingenuity?affiliate_id=3028400 Diamond Spheres: Invention & Ingenuity]^^
@@ -392,19 +394,19 @@ If this flourish receives special maintenance, the firearm’s capacity increase
 
 If this flourish receives special maintenance, the trap deals an additional amount of damage equal to 1/2 your ranks in Craft (traps), which is multiplied on a critical hit.
 
-**Propulsive (thrown or ranged weapon) (Craft (bows)):** The weapon only imposes a -1 penalty per full range increment between the user and their target, and its strength rating (if any) changes to that of the wielder’s Strength bonus.
+**Propulsive (thrown or ranged weapon) (Craft (bows)):** The weapon only imposes a -1 penalty per full range increment between the user and their target, and its strength rating (if any) changes to that of the wielder’s Strength bonus. Also, the weapon reduces the ranged attack penalty associated with strong or severe wind by 2.
 
-If this flourish receives special maintenance, the range increment of the weapon increases by 50% or 10 feet (whichever is better). Additionally, the weapon reduces the ranged attack penalty associated with strong or severe wind by 2.
+If this flourish receives special maintenance, the range increment of the weapon increases by 50% or 10 feet (whichever is better). Additionally, the weapon can be used to make ranged attacks in windstorm-level winds at a –4 penalty.
 
 **Sharpened (manufactured weapon) (Craft (weapons)):** If any of the weapon’s damage dice result in a 1, it becomes the average result (rounded up–a 1 on a d6 becomes a 4). Any additional damage dice (such as from Vital Strike or flaming) do not benefit from this flourish.
 
-**Vitalward (armor) (Craft (armor)):** The armor’s armor bonus increases by +1. If the wearer loses their Dexterity bonus to AC, the armor’s armor bonus increases by +50% (excluding other armor bonus increases outside of this flourish); this increase cannot cause the wearer’s AC to exceed their normal AC.
+**Vitalward (armor) (Craft (armor)):** The armor’s bonus to AC increases by +1 for the purposes of confirming critical hits against the wearer, +1 per 6 associated ranks. If the armor’s wearer loses their Dexterity bonus to AC, the armor’s armor bonus increases by +50%, rounding up (excluding other armor bonus increases outside of this flourish); this increase cannot cause the wearer’s AC to exceed their normal AC.
 
 **Example:** A set of vitalward full plate grants a +10 armor bonus, which increases by +5 if they lose their Dexterity bonus to AC (which cannot exceed their normal AC).
 
 If this flourish receives special maintenance, whenever the wearer is subject to a critical hit, the attack's critical multiplier is reduced by 1 (minimum x1.5).
 
-**Associated Feats:** Armor Focus (Craft (armor) option), Deadly Trap (Craft (traps) option), Far Shot (Craft (bows) option).
+**Associated Feats:** Deadly Trap (Craft (traps) option), Far Shot (Craft (bows) option).
 
 ++++ Precious Material Refinement (flourish, gear) [DRS]
 ^^**Source:** [https://www.drivethrurpg.com/en/product/505704/diamond-spheres-invention-and-ingenuity?affiliate_id=3028400 Diamond Spheres: Invention & Ingenuity]^^
@@ -414,19 +416,19 @@ As a flourish, you improve a special material that the item is primarily made of
 Additionally, if such a material has an ability that requires a saving throw, use your Artifice save DC (if higher).
 
 * //Adamantine//
- * **Armor:** The granted damage reduction is doubled.
+ * **Armor:** The granted damage reduction is doubled, and stacks with similar sources.
  * **Shield or Weapon:** The object ignores 5 points of damage reduction on a critical hit. Also, when used to sunder, it ignores the immunity to critical hits that objects possess
 * //Alchemical Silver:// This flourish can be applied to any material that is treated as silver. _
-//Special—Singing Steel:// A creature holding or wearing the object can cause it to resonate as a free action once per round–if they are not trained in Perform (sing), this requires a successful DC 15 Perform (sing) check. This resonance lasts for 1 minute (or until used), afterwhich the steel must be brushed for 10 minutes to remove lingering vibrations. Additionally, the material’s ability can benefit Performance sphere instrumentals and lyrics, reducing their action cost by one step when used (standard > move > swift). _
+//Special—Singing Steel:// A creature holding or wearing the object can cause it to resonate as a free action once per round—this requires a successful DC 15 Perform (sing) check if they are untrained. This resonance lasts for 1 minute or until dismissed, afterwhich the steel must be brushed for 10 minutes to remove any lingering vibrations. Additionally, the material’s ability can benefit Performance sphere instrumentals and lyrics, reducing their action cost by one step when used (standard > move > swift). _
 //Special—Sunsilver:// The penalties of the dazzled condition caused by this material’s ability increases by 1.
- * **Armor or Shield:** A creature with DR/silver suffers a -1 penalty to attack rolls made against the wearer per weight category of the object. Additionally, if the wearer is grappling or is grappled by such a creature, the creature suffers an amount of untyped damage equal to 1d4 × the armor or shield’s enhancement bonus for each round they remain in contact this way. _
+ * **Armor or Shield:** A creature with DR/silver suffers a -1 penalty to attack rolls made against the wearer per weight category of the object. Additionally, if such a creature strikes the wearer with an unarmed strike or natural weapon, the creature suffers an amount of untyped damage equal to 1d4 × the armor or shield’s enhancement bonus. Such a creature also suffers this damage for every round the wearer is grappling—or is grappled by—them. _
     //Singing Steel:// The object’s armor check penalty is reduced by 1. While resonating, the wielder or wearer gains sonic absorption 5 per weight category of the object. _
     //Sunsilver:// The dazzled condition caused by this material lasts for +1 round per weight category of the object. On a failed save, the creature treats all creatures as though they had concealment (20% miss chance) while they are dazzled.
  * **Weapon:** The wielder deals an additional amount of damage against creatures with DR/silver equal to 2 + the weapon’s enhancement bonus (which is multiplied on a critical hit), and causes the next weapon attack made against them within 1 round to be considered silver for bypassing its damage reduction, or for all such attacks within 1 round on a critical hit. If this weapon damages a shapechanger or a creature affected by an illusion or polymorph effect, it leaves a radiant wound for 1 minute, revealing the presence of such an effect. _
-    //Singing Steel:// While resonating, the weapon deals +1d6 sonic damage on its next successful attack. _
+    //Singing Steel:// The wielder can dismiss the resonance on the weapon as a free action to have it deal +1d6 sonic damage on each successful attack made until the end of their next turn. _
     //Sunsilver:// The weapon can be used to reflect light (as normal for sunsilver armor), but can also do so as an immediate action—if performed as part of making an attack, on a failed save the dazzled condition also imposes an equal penalty to the creature’s AC against the attack.
 * //Angelskin// 
- * **Armor:** The percentage chance to be treated as being neutral instead of evil for certain effects increases to 50% (instead of 20%). Additionally, harmless spells cast on the wearer with the good descriptor or that originate from a creature with the good subtype gain a +1 competence bonus to their caster level.
+ * **Armor:** The wearer reduces any evil aura they radiate by +5 Hit Dice, and the percentage chance to be treated as being neutral instead of evil for certain effects increases to 50% (instead of 20%). Additionally, the wearer gains a +4 bonus to Use Magic Device checks made to emulate a good alignment or a cleric or paladin class feature.
 * //Arcsilver:// The bonus electricity damage dealt from a charged arcsilver object increases to +1d8, and such an object remains charged for an additional number of uses equal to your operative modifier (minimum 1).
 * //Cold Iron:// The object (but not the wearer or wielder) gains spell resistance equal to 15 + your associated ranks against effects that would specifically target it (such as heat metal)–this spell resistance can be suppressed by the wearer or wielder as normal.
  * **Armor or Shield:** As per the alchemical silver option, but instead affects creatures with DR/cold iron.
@@ -437,10 +439,10 @@ Additionally, if such a material has an ability that requires a saving throw, us
  * **Armor or Shield:** The object’s maximum Dexterity bonus is increased by 2, its armor check penalty reduced by 2, and its spell failure chance reduced by 20%.
  * **Weapon:** The weapon is treated as a light weapon for the purposes of two-weapon fighting. If the weapon is already light, the two-weapon fighting penalty is reduced by 1 (minimum 0). This has no benefit on two-handed weapons.
 * //Dragonhide//
- * **Armor:** The wearer gains energy absorption against the energy type that the armor is immune to equal to 5 × your operative modifier (minimum 1). This energy absorption is replenished whenever the flourish is maintained. Energy absorption functions as energy resistance, except that the amount of damage resisted reduces the total value of the energy absorption, and the wearer chooses the amount to deduct.
+ * **Armor or Shield:** The wearer gains energy absorption against the energy type that the armor is immune to equal to 5 × your operative modifier (minimum 1). This energy absorption is replenished whenever the flourish is maintained. Energy absorption functions as energy resistance, except that the amount of damage resisted reduces the total value of the energy absorption, and the wearer chooses the amount to deduct.
 * //Eel Hide, Fire-Forged Steel or Frost-Forged Steel//
- * **Armor or Shield:** The granted energy resistance increases to 5, and stacks with other sources.
- * **Weapon:** The material’s additional energy damage increases by 1 die step (1d4 > 1d6 > 1d8), and lasts +1 round for each 5 points of appropriate damage after the first 10 damage the weapon is exposed to, to a maximum of 1 minute.
+ * **Armor or Shield:** The granted energy resistance increases to 5, and stacks with other sources. Additionally, if the object is exposed to 10 points or more damage of the material’s associated damage type, for 1 minute, whenever a creature strikes the wearer with an unarmed strike or natural weapon, they suffer 1d6 damage × the object’s weight category—the damage type of this damage is the same as the granted energy resistance. Such a creature also suffers this damage for every round the wearer is grappling—or is grappled by—them.
+ * **Weapon:** The material’s additional energy damage increases by 2 die steps (1d4 to 1d8, 1d6 to 1d10), and lasts for 1 minute. Half of this additional damage bypasses resistances and immunities.
 * //Elysian Bronze// 
  * **Armor or Shield:** The granted damage reduction is doubled, and the wearer or wielder gains a +1 circumstance bonus per weight category of the object to saving throws made against the supernatural and spell-like abilities originating from magical beasts and monstrous humanoids.
  * **Weapon:** The material’s damage bonus against magical beasts and monstrous humanoids increases to 1d6 + the weapon’s enhancement bonus.
@@ -451,25 +453,25 @@ Additionally, if such a material has an ability that requires a saving throw, us
  * **Armor or Shield:** The material ability’s save DC increases by the armor or shield’s enhancement bonus, and also triggers on a natural 2—this threshold increases by 1 for each weight category beyond the first.
  * **Weapon:** The weapon gains a +2 circumstance bonus to sunder attempts made against metal objects, +1 per weight category beyond the first. Additionally, whenever the weapon receives maintenance, choose a single metal to cultivate within the living steel–until it next receives maintenance, the weapon bypasses damage reduction as if it were also made of the cultivated metal.
 * //Viridium//
- * **Weapon:** The material loses the fragile quality, and no longer can cause a creature carrying such a weapon to contract leprosy. Additionally, the onset time of the leprosy inflicted by a successful attack becomes immediate.
+ * **Weapon:** The material loses the fragile quality and can no longer cause a creature carrying such a weapon to contract leprosy. Also, the onset time of the leprosy afflicted by a successful attack becomes immediate. Additionally, the save DC of any injury poison applied to such a weapon increases by 1.
 * //Whipwood//
  * **Weapon:** The wielder gains a +2 circumstance bonus on trip combat maneuvers made with the weapon, +1 per weight category beyond the first. Additionally, the wielder’s reach is considered as if it were 5 feet larger for the purposes of attempting trip combat maneuvers (though not attacks of opportunity).
 * //Wyroot//
  * **Weapon:** The wielder can absorb a life point from the weapon as a free action once per round, instead of a swift action. Additionally, the wielder can absorb 1 life point from the weapon to heal a number of hit points equal to your operative modifier (minimum 1) × the weapon’s current number of life points (before it is expended this way). Lastly, a creature is harmed normally on a critical hit, instead of being unharmed.
-**Special:** This flourish can be applied multiple times to an object if it is treated as more than one type of material (such as with the Alloyed Plating talent), although you must possess the ability to apply multiple flourishes to an object to do so.
+**Special**—If the object this flourish is applied to is treated as more than one type of material (such as the Alloyed Plating talent), its effects are applied to each special material.
 
 ++++ Refined Arms (flourish, gear) [DRS]
 ^^**Source:** [https://www.drivethrurpg.com/en/product/505704/diamond-spheres-invention-and-ingenuity?affiliate_id=3028400 Diamond Spheres: Invention & Ingenuity]^^
 
 You gain the following //flourishes//:
 
-**Refined (manufactured weapon):** You change the weapon’s effective weapon damage die to 1d4 (1d3 for Small creatures) for the purposes of dealing damage–effects that rely on a weapon’s damage die instead use the weapon’s actual damage die. This damage die increases by 1 step (1d4 > 1d6 > 1d8 > 1d10 > 1d12) for every 6 associated ranks you possess.
+**Refined (manufactured weapon or shield):** You change the weapon’s effective weapon damage die to 1d4 (1d3 for Small creatures) for the purposes of dealing damage–effects that rely on a weapon’s damage die instead use the weapon’s actual damage die. This damage die increases by 1 step (1d4 > 1d6 > 1d8 > 1d10 > 1d12) for every 6 associated ranks you possess.
 
 This increase in damage does not affect any other aspect of the weapon, and doesn’t apply to alchemical items, bombs, or other weapons that do not deal any damage or only deal energy damage.
 
 If this flourish receives special maintenance, the effective damage die of the weapon increases to 1d6 (which scales as normal).
 
-**Reinforced (armor):** You reinforce key parts of the armor to help protect the vital parts of its wearer. The armor grants the wearer a 20% chance to cause any critical hit or source of precision damage made against them to instead be considered a normal hit, increasing by 10% per 3 associated ranks you possess. Whenever such an attack is prevented this way, the percentage chance reduces by 20%–you can reset this percentage chance by spending 1 minute with the flourish (or when the flourish is maintained). This percentage chance does not stack with similar chances (such as fortification).
+**Reinforced (armor or shield):** You reinforce key parts of the armor to help protect the vital parts of its wearer. The armor grants the wearer a 20% chance to cause any critical hit or source of precision damage made against them to instead be considered a normal hit, increasing by 10% per 3 associated ranks you possess. Whenever such an attack is prevented this way, the percentage chance reduces by 10%—you can reset this percentage chance by spending 1 minute with the flourish (or when the flourish is maintained). This percentage chance does not stack with similar chances (such as fortification).
 
 If this flourish receives special maintenance, the armor grants the wearer DR 2/– against critical hits and precision damage (which stacks with other damage reductions), +1 per 4 associated ranks.
 
@@ -698,16 +700,16 @@ You can provide special maintenance to the flourish associated with the Precious
     //Special—Singing Steel:// The user can spend an immediate action within 1 round of an object losing resonance to resonate the object without having to brush it. _
     //Special—Sunsilver:// The material’s ability to reflect light can affect a creature within close range.
  * **Armor or Shield:** The attack roll penalty associated with this flourish is doubled. Additionally, the damage dealt to a creature that is grappled (or grappling) the wearer increases to 2d6 + the armor or shield’s enhancement bonus. _
-    //Singing Steel:// The user gains sonic resistance 5. Additionally, whenever a creature successfully hits the user with a melee attack, the user can dismiss the resonance on the object as an immediate action to deal 1d6 sonic damage per 3 associated ranks to the attacker (Fortitude halves). _
+    //Singing Steel:// The user gains sonic resistance 5. Additionally, whenever a creature successfully hits the user with a melee attack, the user can dismiss the resonance on the object as a free action usable outside of their turn to deal 1d6 sonic damage per 3 associated ranks to the attacker (Fortitude halves). _
     //Sunsilver:// If a creature fails the saving throw against this material’s ability, they become blinded instead of dazzled on a failed save, or dazzled for 1 minute on a successful save.
  * **Weapon:** The additional damage dealt to creatures with DR/silver increases to 2d6 + the weapon’s enhancement bonus. Additionally, a creature with a radiant wound must succeed at a Fortitude save each round for 1 minute or have the illusion, shapechange, or polymorph effect become suppressed for the remaining duration of the radiant wound. _
-    //Singing Steel:// The sonic damage dealt while resonant increases to +2d8. _
+    //Singing Steel:// The sonic damage dealt increases to +2d8. _
     //Sunsilver:// While within an area of bright light, the weapon deals +2d8 fire damage, which bypasses any resistances or immunities a creature with DR/good may possess.
 * //Angelskin//
  * **Armor:** The wearer reduces any evil aura they would radiate by +5 Hit Dice–an aura reduced below 1 Hit Die instead causes the creature’s evil aura to register as an equally intense good aura. Additionally, the wearer is always treated as neutral instead of evil for spells and supernatural effects dependent on alignment (as though the percentage chance were increased to 100%).
 * //Arcsilver:// An arcsilver object can be charged as part of moving as a move action (as long as the wearer or wielder moves at least half their speed).
  * **Armor or Shield:** For as long as the object remains charged, it emanates a 10-foot radius static field, conferring electricity resistance 10 and a +2 bonus to AC and saving throws against metal objects and electricity effects to any creatures within the radius.
- * **Weapon:** For as long as the weapon remains charged, the wielder can spend any amount of charges to shoot a bolt of electricity to a creature wearing metal armor (or one that is otherwise mostly comprised of metal) within 30 feet, dealing 3d8 electricity damage per charge expended this way (Reflex halves).
+ * **Weapon:** For as long as the weapon remains charged, the wielder can spend any amount of charges as a standard action to shoot a bolt of electricity to a creature wearing metal armor (or one that is otherwise mostly comprised of metal) within 30 feet, dealing 3d8 electricity damage per charge expended this way (Reflex halves).
 * //Cold Iron:// Whenever a creature with DR/cold iron is within long range of such an object, the object begins to shed light as a candle. Additionally, the object (but not the wearer) becomes immune to magical effects unless the wearer allows them to function.
  * **Armor or Shield:** The attack roll penalty associated with this flourish is doubled. 
  * **Weapon:** The additional damage dealt to creatures with DR/cold iron increases to 2d6 + the weapon’s enhancement bonus. 
@@ -720,7 +722,7 @@ You can provide special maintenance to the flourish associated with the Precious
  * **Armor:** The granted energy absorption is doubled.
 * //Eel Hide, Fire-Forged Steel or Frost-Forged Steel// 
  * **Armor or Shield:** The granted energy resistance increases to 10.
- * **Weapon:** The material’s additional energy damage increases by +1 die step (1d6 > 1d8 > 1d10); half of this additional damage bypasses resistances and immunities. On a critical hit, this additional energy damage is maximized.
+ * **Weapon:** The material’s additional energy damage increases by +1 die (usually 2d8 or 2d10). On a critical hit, this additional energy damage is maximized, and completely bypasses resistances and immunities.
 * //Elysian Bronze:// Whenever a magical beast or monstrous humanoid is within long range of such an object, the object begins to shed light as a candle. If such a creature is within close range, the object sheds light as a torch.
  * **Armor or Shield:** The bonus to saving throws against supernatural effects is doubled. Additionally, the wearer gains spell resistance equal to 15 + your associated ranks against spell-like abilities originating from magical beasts and monstrous humanoids.
  * **Weapon:** The material’s damage bonus against magical beasts and monstrous humanoids increases to 2d8 + the weapon’s enhancement bonus.
@@ -818,7 +820,9 @@ You gain an item creation feat you qualify for which you may only use with the M
 
 You unlock skill leverage with one of the skills listed below. Additionally, you gain the following benefits if you have unlocked skill leverage with the appropriate skill (as listed below):
 
-**Inkbound Arcana (Su) (Craft (tattoos)):** As part of applying this artwork on a creature, you absorb the magic from a magical item and draw it into the artwork (as long as the item’s caster level does not exceed your ranks in Craft (tattoos) and is not an artifact). The magic item is left dispelled of all magical properties, and if it were a slotted item, the artwork still occupies the appropriate slot as normal. If the item was a held item, it can be drawn from the tattoo as if retrieving a stored item (or in the case of a weapon, as though drawing a weapon), and can be stowed in the same way. Such an object is physical when drawn, but is obviously magical in nature; such an object retains any damage it suffers, but recovers an equal number of hit points when the creature rests (and can be repaired when drawn as normal). The tattoo otherwise functions akin to the absorbed magic item (and can still be dispelled as normal).
+**Inkbound Arcana (Su) (Craft (tattoos)):** As part of applying this artwork on a creature, you absorb the magic from a magical item and draw it into the artwork (as long as the item’s caster level does not exceed your ranks in Craft (tattoos) and is not an artifact). The magic item is destroyed and occupies the appropriate slot as normal (if it was a slotted item). If the item was a held item, it can be drawn from the tattoo as if retrieving a stored item (or in the case of a weapon, as though drawing a weapon), and can be stowed in the same way. Such an object is physical when drawn, but is obviously magical in nature; such an object retains any damage it suffers, but recovers an equal number of hit points when the creature rests (and can be repaired when drawn as normal). The tattoo otherwise functions akin to the absorbed magic item (and can still be dispelled as normal).
+
+This artwork can incorporate a number of magical tattoos equal to 1 + 1 per 5 Craft (tattoos) ranks you possess—adding or removing a magical tattoo takes the same amount of time to apply an artwork. If removed, the magic item corporealizes into its original form (although retains any damage it may have incurred).
 
 **Power Script (Artistry (literature) or Craft (books or calligraphy)):** Whenever you create an artwork, you can have it appear as a complex symbol or script and choose any of the following triggers: reads the script, touches the script, passes over or under the script. Whenever a creature within 60 feet qualifies for one of the chosen triggers, they are immediately considered to have engaged with the artwork. Covering or hiding the script renders it suppressed until it is no longer so, and a touch-triggered script does not trigger if an object bearing its script is used to touch a creature (such as hitting a creature with a weapon with this script). You can set more unique triggers if you wish, and can specify creatures to be unable to trigger the script. This is considered a ‘symbol’-based effect
 
