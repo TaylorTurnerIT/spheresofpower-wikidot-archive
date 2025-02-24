@@ -216,11 +216,15 @@ If you possess at least 10 ranks in the associated skill, you can take this tale
 ++++ Disrupt Aura (hack) [utility] [DRS]
 ^^**Source:** [https://www.drivethrurpg.com/en/product/480696/Diamond-Spheres-Thaumic-Potential?affiliate_id=3028400 Diamond Spheres: Thaumic Potential]^^
 
-**Target:** A magic item.
+**Target:** An object or magical effect.
 
-You alter the aura of a magic item, changing it so that it registers as nonmagical, as a different magic item of your choice, or as if it were under the effects of a spell or sphere ability of your choice.
+You alter the aura of the target for 1 day per associated rank you possess. An object hacked this way can have its aura changed so that it registers as nonmagical, as a different magic item of your choice, or as if it were under the effects of a spell or sphere ability of your choice. 
 
-If the magic item is examined (such as using divine or identify), they must attempt a magic skill check against a DC equal to 11 + your ranks in the associated skill. On a success, they discover the false aura and detect the object’s actual qualities; on a failure, the aura is believed.
+A magical effect hacked this way can be altered to have it register as a different magical effect of your choice, or have its magical signature altered to match the unique magical signature of a caster you know. Alternatively, you can obscure all identifiers of the original caster.
+
+In either case, if the target is examined (such as using divine or identify), they must attempt a magic skill check against a DC equal to 11 + your ranks in the associated skill. On a success, they discover the false aura and detect the target’s actual qualities; on a failure, the aura is believed.
+
+**Special**—If you have the Biothaumic Hacking talent, this talent can be used on a creature to either have them register as though they were subject to any number of spells of your choice (and may alter the magical signature of such effects too), or you can have any of their active spell effects register as nonmagical. This can be used to alter other kinds of divinations too, such as by making a creature seem to have spellcasting or spell-like abilities (or otherwise) if subject to a Detect Spellcasting divine ability, or showing a different alignment aura through effects that would detect alignment.
 
 ++++ Imbue Hack (hack)
 **Target:** A magic item that can be activated or a magic trap you have bypassed
@@ -232,7 +236,7 @@ You choose another (hack) talent you possess and implant it into the target. You
 
 **Target:** A magic item, or an ongoing magical effect.
 
-You cause the magic within the target to grow unstable, gaining a 20% instability chance, which increases by 10% for every 4 ranks in the associated skill you possess. This instability persists for 1 minute, after which it deactivates (although the hack persists). You can spend a standard action while the effect is within your hack magic range to reactivate this instability for 1 minute.
+You cause the magic within the target to grow unstable, gaining a 40% instability chance, which increases by 10% for every 4 ranks in the associated skill you possess. This instability persists for 1 minute, after which it deactivates (although the hack persists). You can spend a standard action while the effect is within your hack magic range to reactivate this instability for 1 minute.
 If the item has a passive or constant effect or is an ongoing magical effect (such as a +1 longsword, ring of protection +1, or an Protection sphere aegis), the user rolls a d100 at the start of their turn for as long as the target is affected; if the item needs to be activated to be used (such as a wand, scroll, potion, or a cape of the mountebank), the user rolls a d100 whenever the item is used. 
 
 If the result of the roll is equal to or below its instability chance, it becomes suppressed (as the Counterspell feat) until the beginning of the user’s next turn; otherwise it functions as normal for that round.
