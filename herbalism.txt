@@ -336,7 +336,7 @@ All creatures that can smell the aroma must succeed at a Fortitude saving throw 
 **Twists**
 * **1 bitter herb:** A creature that succeeds the saving throw against this aroma instead becomes sickened for 1 round, and does not become immune to its effects for 24 hours on a successful save. If the creature remains within the area, they must attempt a new saving throw against the aroma each round they remain within the area.
 * **1 esoteric herb:** This aroma’s effects bypass any immunities that a creature may possess–including those granted by a creature type (such as undead or constructs).
-* **1 intense herb:** If a creature fails their saving throw against this aroma, they are nauseated for 1 round, and then sickened for the remaining duration.
+* **1 intense herb:** If a creature fails their initial saving throw against this aroma (not subsequent saving throws such as from the bitter herb twist), they are nauseated for 1 round, and then sickened for the remaining duration.
 * **1 sour herb:** A creature that is made sickened by this aroma treats every square as being difficult terrain for as long as they remain sickened.
 * **1 spicy herb:** A creature that is made sickened by this aroma treats all creatures as if they had concealment (20% miss chance) for as long as they remain sickened.
 
@@ -452,7 +452,7 @@ You improve the following Heal skill uses in the following ways on a successful 
 * **First Aid:** The creature reduces the next instance of bleed damage they suffer within the next hour by an amount equal to your operative modifier (minimum 1).
 * **Treat Deadly Wounds:** Any excess healing healed through this skill use that exceeds their maximum hit point total is applied as temporary hit points which last for 1 hour–these temporary hit points cannot exceed 10 + your ranks in this package’s associated skill. 
 * **Treat Disease or Poison:** The patient gains a +2 competence bonus to saving throws against poisons and disease for 8 hours. You can use this skill use on a creature that is not suffering from a disease or poison to grant them this bonus, although it only applies to such affliction’s with a saving throw DC equal to or below your Heal check result.
-You can also reveal the use of any of these Heal skill uses as a plan; doing so is an immediate action (although the benefits always take effect at the end of the current turn).
+You can also reveal the use of any of these Heal skill uses as a plan performed as an immediate action. In the case of a prepared treat deadly wounds, a creature can only be healed through this plan if the damage was incurred before you prepared your plans, otherwise they only receive the temporary hit points and only for 1 minute (which still counts towards the daily limit of treat deadly wounds).
 
 ++++ Surgeon (remedy) [utility] [DRS]
 ^^**Source:** [https://www.drivethrurpg.com/en/product/505704/diamond-spheres-invention-and-ingenuity?affiliate_id=3028400 Diamond Spheres: Invention & Ingenuity]^^
