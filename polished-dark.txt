@@ -1,0 +1,1561 @@
+title:Polished Dark
+[[module CSS]]
+.colored-links span > a {
+  color: inherit;
+}
+[[/module]]
+
+[[module CSS]]
+.noselect {
+  -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome and Opera */
+}
+[[/module]]
+
+[[toc]]
+
+[[tabview]]
+[[tab Polished Dark]]
+[[div class="noselect" style="float:right; width: 20%; padding: 0 2%"]]
+[[=]]
+[[image http://spheresofpower.wikidot.com/local--files/test-page/ultimate-engineering.png link="https://www.drivethrurpg.com/en/product/497811/diamond-polished-spheres-dark-sphere?affiliate_id=549120"]]
+**Polished Dark**
+$7.99
+----
+[[/=]]
+[[/div]]
+The Polished Dark Sphere is a reworked version of the [[[dark | Dark Sphere]]].
+
+//You learn to create, manipulate, and shape darkness.//
+
+You gain the //gloom// and //cloak// sphere abilities.
+
+++ Cloak
+
+**Descriptor(s):** darkness  
+**Action:** standard action  
+**Range:** close (25 # 5 ft./2 caster levels) or touch  
+**Duration:** concentration; **#1 sp**, (meld) 1 hour/caster level or (shadow) 1 minute/caster level  
+**Target / Area:** 1 creature  
+**Effect:** a //cloak// effect, modified by either a (meld) or (shadow) option  
+**Cost:** 0 sp  
+**Saving Throw:** Will (negates)  
+**Spell Resistance:** yes
+
+**Effect**: The target is affected by the chosen (meld) or (shadow) option (Will negates).
+
+Options with the (meld) and (shadow) tags modify //cloak//’s effects. Only 1 (meld) or (shadow) can be added to a single //cloak//.
+
+* A **(meld)** affects the target by granting it abilities or effects while the target is either within a //gloom// you created or a darkened area (unless otherwise stated).  
+* A **(shadow)** is a subset of (meld) options that function in any area, regardless of light, but instead cannot affect creatures that do not cast a shadow. A //cloak// modified with a (shadow) talent gains the shadow descriptor. A (shadow) effect is suppressed if the target would cease to cast a shadow, such as if the target has an active shadow double from the Shadow Double advanced option.
+
+When you gain the cloak ability, you also gain the following (meld):
+
++++ Darkvision (meld)
+
+**Duration:** concentration; **#1 sp**, 1 hour/caster level
+
+**Effect:** The target gains darkvision with a range of 60 feet. If the target already possesses darkvision, instead improve the target’s darkvision range by #30 feet (if the result would be more beneficial).
+
+**Special:** This (meld) grants its benefits to the target even if not within a darkened area.
+
+**Augment 1 sp [Greater Darkvision]**: The darkvision granted by this option increases to 60 feet, #10 feet per 2 caster levels. If the target already possesses darkvision, instead improve the target’s darkvision range by # 30 feet, #10 feet per 2 caster levels (if the result would be more beneficial).
+
++++ Rules Clarification: “Darkened Area”
+
+For the purposes of this sphere, and other Dark sphere related effects, the term “darkened area” refers to any area whose lighting conditions are dim light or darker. A Dark sphere //gloom//, including the spaces adjacent to a (blot), is also treated as a darkened area, regardless of the light level.
+
+Lighting is determined by the light source, not the creature perceiving the light source (i.e. dim light shed by a torch is determined by the torch and not a race’s low-light vision).
+
+++ Gloom
+
+**Descriptor(s):** darkness  
+**Action:** standard action  
+**Range:** medium (100 # 10 ft./caster level)  
+**Duration:** concentration; **#1 sp**, 1 minute/caster level (D)  
+**Target / Area:** radius up to 10 feet # 5 feet/2 caster levels; **Area Type**: emanation  
+**Effect:** a //gloom// effect, optionally modified by either a (blot) or (darkness) option  
+**Cost:** 0 sp  
+**Saving Throw:** none  
+**Spell Resistance:** no
+
+**Effect:** The light level in the affected area is reduced by up to 2 steps (bright light > normal light > dim light > darkness) (minimum 1 step). Non-magical light sources only produce dim light in a 5-foot radius, and non-magical sources of dim light are suppressed. Creatures with the appropriate vision (i.e. darkvision for darkness, low-light for dim light) can see in the area’s modified light level without penalty.
+
+If a //gloom// has additional effects, these effects affect all creatures in the //gloom// (1) when the gloom is first created, (2) at the end of the caster’s turn, or (3) whenever an individual creature enters the //gloom// (affecting only that creature; including if the creature would “enter” when the //gloom// moves over them). An individual creature can only be affected by an individual //gloom// once per round, even if they could be affected more than once per round (such as moving into and out of the //gloom//). This “once per round” limitation resets at the start of the caster’s turn each round. If a gloom's additional effects do not require an attack roll, combat maneuver, or saving throw, they affect a creature without a check (provoking a check versus spell resistance as normal, if required).
+
+When casting a //gloom//, the caster may choose to create a two-dimensional //gloom// with no (blot) options; this creates the normal two-dimensional area of a blot but with no additional effects.
+
+Options with the (blot) or (darkness) tag modify a //gloom//’s effects. Only 1 (blot) or (darkness) can be added to a single //gloom//. //Gloom// areas can have overlapping effects; however, if multiple //glooms// with the same effects would overlap (i.e. the same (blot) or (darkness) options), the highest caster level //gloom would// affect the target controls.
+
+* A **(blot)** effect causes the //gloom// to become a two-dimensional effect that covers contiguous two-dimensional surfaces (such as wall, the ground, a set of stairs, etc.) in addition to the (blot)’s other effects. A (blot) does not affect the light level (and instead manifests as a visible dark “stain” across the two-dimensional surface). A (blot) counts as a //gloom//’s area with respect to Dark sphere abilities and interactions with magical light effects; a creature is considered to be within the (blot) if they occupy any of the squares it covers.  
+* A **(darkness)** effect adds additional effects to the created area of //gloom//.
+
++++ Rules Clarification - Continuous 2D Surfaces for Blots
+
+A (blot) is an emanation that is represented as a 2-dimensional space that stretches out over a suitable area, but does not “flow across” that space. A (blot) is placed onto a suitable platform and reasonably fills a selected side of that area (i.e. horizontally across the floor, vertically across a wall) and is also inclusive of surfaces and platforms that are not “separate” from that area, such as a continuous flight of stairs, a sunken pit inside the same continuous floor of a building, and so on. A (blot) is meant to reasonably fill the “floor” of an area, and is not impeded by minor alterations to the terrain. 
+
+**Example:** If an area would be filled with lava, and standing in any number of squares would be “in that lava”, a (blot) would similarly fill that floor; however, if a piece of the environment would be suitably separate (such as standing on a table to avoid the lava), the (blot) does not creep over that environment set piece.
+
++++ Rules Clarification - Overlapping Gloom Effects (Highest Caster Level Controls)
+
+When there are multiple overlapping //gloom// effects with the same options, a creature is affected by the highest caster level effect each round (not separately affected by each //gloom//). If a creature would be selectively immune to one //gloom//, but could be affected by the other, the creature is affected normally (such as a creature benefiting from the clearsight option for their allied caster’s effects, but not an enemy Dark sphere caster).
+
+++ Conflicting Effects: Darkness and Light
+
+A //gloom// is a conflicting effect with any source of magical light. Effects with the light descriptor that do not create magical light are not sources of magical light, and do not conflict with //gloom// sphere effects (such as the //[https://aonprd.com/SpellDisplay.aspx?ItemName=Blinding%20Ray blinding ray]// or //[https://aonprd.com/SpellDisplay.aspx?ItemName=Burst%20of%20Radiance burst of radiance]// spells).
+
+Despite having the darkness or shadow descriptor, the //cloak// sphere ability and other Dark sphere abilities granted by this sphere (or other related abilities or feats) are not inherently conflicting effects with sources of magical light.
+
+++ Dark Sphere-Specific Tags
+
+The Polished Dark sphere introduces a number of tags unique to this sphere (which are in addition to universal spell tags). Each sphere-specific tag is also printed as part of the sphere ability it is primarily used with.
+
+* A **(blot)** effect causes the //gloom// to become a two-dimensional effect that covers contiguous two-dimensional surfaces (such as wall, the ground, a set of stairs, etc.) in addition to the (blot)’s other effects. A (blot) does not affect the light level (and instead manifests as a visible dark “stain” across the two-dimensional surface). A (blot) counts as a //gloom//’s area with respect to Dark sphere abilities and interactions with magical light effects; a creature is considered to be within the (blot) if they occupy any of the squares it covers.  
+* A **(darkness)** effect adds additional effects to the created area of //gloom//.
+* **(meld):** A (meld) is applied to the //cloak// sphere ability. A (meld) affects the target by granting it abilities or effects while the target is either within a //gloom// you created or a darkened area (unless otherwise stated).  
+* **(shadow):** A (shadow) is applied to the //cloak// sphere ability. A (shadow) is a subset of (meld) options that function in any area, regardless of light, but instead cannot affect creatures that do not cast a shadow. A //cloak// modified with a (shadow) talent gains the shadow descriptor. A (shadow) effect is suppressed if the target would cease to cast a shadow, such as if the target has an active shadow double from the Shadow Double advanced option.
+
+**Talents with Sphere-Specific Tags:** Polished Dark sphere talents may have the (blot), (darkness), (meld), and (shadow) tags listed in the talent name. These tags are listed for convenience, indicating that the talent grants an option with the relevant tag.
+
+++ Dark Talents
+
++++ Clinging Darkness
+
+You gain the following options:
+
+++++ **Following Darkness**
+
+This option may be added to any //gloom//.
+
+**Target:** creature or object; radius up to 10 feet # 5 feet per 2 caster levels; **Area Type**: emanation  
+**Saving Throw:** Will (negates)  
+**Spell Resistance:** yes
+
+**Effect:** Your //gloom// is centered on a creature or object, moving with them (Will negates). The targeted creature may attempt a new Will save to negate the //gloom// each round at the end of its turn; a successful save ends the //gloom// immediately.
+
+**Special:** If following darkness is applied to a (blot), and the target would not be in contact with a suitable flat surface (the floor, walls, and so on), the (blot)’s effects are suppressed until the target is in contact with such a surface again. Time spent suppressed still counts against the (blot)’s normal duration.
+
+++++ **Lingering Darkness [duration]**
+
+See the [duration] universal spell tag for more rules and information.  
+This option may be added to any //cloak//, //gloom//, or other Dark sphere ability that you could concentrate on.
+
+**Duration:** concentration # 2 rounds; **#1 sp**, #1 duration step (see text)
+
+**Effect:** When you spend 1 spell point to allow a Dark sphere ability to continue without concentration, the effect’s duration is increased by 1 step (1 round > 1 minute > 10 minutes > 1 hour).
+
+++++ **Shadowing Darkness**
+
+This option may be added to any //gloom//.
+
+**Effect:** When a creature leaves your //gloom//, they are still treated as being within that //gloom// for 1 round. This includes treating the area as being a lower light level, being affected by (blot) or (darkness) options applied to the //gloom//, being within a //gloom// for (meld) effects, and so on.
+
+**Augment 1 sp [Trailing Shadows]:** A creature is affected for 1 round per 2 caster levels (minimum 1). Affected creatures may attempt a Reflex save at the end of its turn to end the Shadowing Darkness effect.
+
++++ Darkness Mastery
+
+You gain the following options:
+
+++++ **Dual Darkness [dual]**
+
+See the [dual] universal spell tag for more rules and information.  
+This option may be added to any //cloak// or //gloom//. 
+
+**Cost:** #1 sp
+
+**Effect:** Add 2 options to your //cloak// or //gloom//; the chosen options must have the same tag (i.e. two (darkness) options). If a chosen option would change the effect’s duration, use the lesser of the two durations.
+
+An option which could select different results may be selected multiple times this way, provided that the chosen results are different (see Same Ability Different Results for more information).
+
+**Example**: If applying the shadowed mien option alongside another (shadow) option, use the lesser of the two durations.
+
+++++ **Greater Darkness**
+
+This option may be added to any //gloom//.
+
+**Target / Area:** radius up to 20 feet # 5 feet/caster level  
+**Cost:** #1 sp
+
+**Special - Shaped Darkness (Wall Of Darkness):** If used with the Shaped Darkness wall of darkness option, you create 6 10-foot cubes, #2 10-foot cube per caster level.
+
+++++ **Imbued Shadow (shadow)**
+
+**Duration:** concentration; **#1 sp**, 1 round/caster level
+
+**Effect:** You may use a (blot) or (darkness) as though it possessed the (shadow) tag. A targeted creature is treated as though they were within a //gloom// with the selected (blot) or (darkness).
+
+A (blot) or (darkness) applied this way does not alter the light level unless the applied tag would, such as using the Deeper Darkness true darkness option; in this case, the target is treated as being in an area of that light level for all purposes (obscuring their vision towards others, being within a darkened area, and so on).
+
+++++ **Shadow Strike [strike]**
+
+See the [strike] universal spell tag for more rules and information.
+
+**Action:** 1 standard action  
+**Range:** weapon attack range
+
+**Effect:** Make a single weapon attack using the //cloak// sphere ability as part of the [strike].
+
++++ Mass Darkness
+
+You gain the following options:
+
+++++ **Dappled Shadows [mass]**
+
+This option may be added to any //gloom//.
+
+**Effect:** One or more //gloom// areas  
+**Target / Area:** radius up to 10 feet # 5 feet/2 caster levels (special; see text)
+
+**Effect:** When creating a //gloom//, you may reduce the //gloom//’s radius by 5-foot increments to create a separate //gloom// with a radius equal to the subtracted amount. You may do this any number of times (to a minimum of 5 feet for the original //gloom//’s radius). Each //gloom// created this way may be placed anywhere within range and may overlap. Any choices or decisions for this //gloom// (i.e. options that modify the //gloom//, such as a (darkness) option) must be identical.
+
+**Special - Shaped Darkness (Wall Of Darkness):** If used with the Shaped Darkness wall of darkness option, your 10-foot cubes no longer need to be placed as a contiguous and fully connected area.
+
+++++ **Mass Cloak [mass]**
+
+This option may be added to any //cloak//.
+
+**Duration:** concentration; **#1 sp**, (special; see text)  
+**Target / Area:** 1 # 1 creature per 2 caster levels (minimum 2\)  
+**Cost:** #1 sp
+
+**Effect**: The //cloak//’s duration when allowed to continue without concentration is reduced by 1 step (to a minimum of 1 round per level). This reduction is applied before any increases to duration, such as from the lingering darkness option.
+
++++ Rapid Darkness
+
+You gain the following options:
+
+++++ **Gloom Burst**
+
+This option may be added to any //gloom//.
+
+**Action:** swift action  
+**Duration:** 1 round (see text)  
+**Cost:** #1 sp
+
+**Special:** A //gloom// modified with this option cannot have its duration extended by other effects (such as the Clinging Darkness lingering darkness ability) except metamagic feats (such as Extend Spell).
+
+++++ **Rapid Cloak**
+
+This option may be added to any //cloak//.
+
+**Action:** swift action or free action (see cost)  
+**Range:** personal  
+**Target / Area:** you
+
+**Cost:** #0 sp; #1 sp (if used as a free action)
+
++++ Refined Darkness
+
+You gain the following options:
+
+++++ **Instill Darkness [instill]**
+
+See the [instill] universal spell tag for more rules and information.  
+This option may be added to any //cloak//, //gloom//, or other Dark sphere ability that targets one or more creatures.
+
+**Target / Area:** 1 consumable item
+
+**Effect**: 1 instilled item.
+
+++++ **Gathered Darkness [gather]**
+
+See the [gather] universal spell tag for more rules and information.  
+This option may be added to any //cloak//, //gloom//, or other Dark sphere ability.
+
+**Action:** #1 step  
+**Cost:** -1 sp (minimum 0\)
+
+++++ **Ranged Darkness [range]**
+
+See the [range] universal spell tag for more rules and information.  
+This option may be added to any //cloak//, //gloom//, or other Dark sphere ability.
+
+**Range:** see text
+
+**Effect:** The Dark sphere ability’s range increases by 1 step (touch > close > medium > long) (maximum long).
+
+**Augment 1 sp [Full Range Dark] (requires caster level 10):** The Dark sphere ability’s range increases by 2 steps (touch > close > medium > long) (maximum long). The caster may increase the sphere ability’s casting time by #1 step instead of paying this augment’s spell point cost.
+
++++ Shadow Stash
+
+You gain the //shadow stash// sphere ability.
+
+++++ **Shadow Stash [utility]**
+
+**Descriptor(s):** darkness, shadow  
+**Action:** see text  
+**Range:** personal  
+**Duration:** permanent (special: constant)  
+**Target / Area:** you  
+**Cost:** 0 sp  
+**Saving Throw:** no  
+**Spell Resistance:** no
+
+**Effect**: You gain a //shadow stash//, a permanent extradimensional magical storage tied to your shadow. Items can be stored or retrieved from a shadow stash as a move action. A //shadow stash// can hold up to 20 lbs. per caster level, and may only be used to store objects. You may directly store items into or retrieve items from containers (i.e., bags, backpacks, etc.) stored in your //shadow stash//, provided they are not locked or otherwise sealed. If a container would require longer than a move action to store or retrieve an item from (such as from a //[https://www.aonprd.com/MagicWondrousDisplay.aspx?FinalName=Bag%20of%20HoldingType%20I bag of holding]// with enough contents to require a full-round action), storing or retrieving an item from that container requires the longer action (and cannot be reduced by the shadow retrieval augment).
+
+Storing or retrieving an item from your //shadow stash// provokes attacks of opportunity as normal, unless retrieving the item would not provoke an attack of opportunity (such as from a //[https://www.aonprd.com/MagicWondrousDisplay.aspx?FinalName=Handy%20Haversack handy haversack]//), but otherwise is not treated as casting a spell (and does not otherwise provoke an attack of opportunity to use). As a constant sphere ability, storing or retrieving an item from your //shadow stash// is affected by your casting tradition (and limits your ability to store or retrieve items from it as appropriate). A //shadow stash// continues to function normally even if your casting tradition would make you unable to create a sphere effect.
+
+Items stored in the //shadow stash// are visible on your shadow (such as a greatsword slung over your back, or a bag or satchel being worn by the shadow but not by you). An item stored this way must be able to be worn or held on your person (or otherwise in a container or appropriate means of storage). Other creatures may attempt a Perception check opposed by your Dark sphere DC to notice your shadow being different from your physical appearance. If items would be stored in excess of your //shadow stash//’s capacity, you must immediately remove items from the //shadow stash//, harmlessly ejecting them into an adjacent square.
+
+Items stored in your //shadow stash// cannot be subject to Sleight of Hand attempts to pickpocket or disarm, sunder, and steal combat maneuvers unless the creature attempting the action also possesses the Dark sphere and spends 1 spell point as part of any attempt to interact with your //shadow stash//. If your //shadow stash// is suppressed, any items stored on your shadow become inaccessible until your //shadow stash// becomes available again. If you die and your //shadow stash//’s duration ends, the contents of your //shadow stash// are expelled into the nearest unoccupied space. If your shadow is ever removed, animated, or suppressed, such as having the vampire’s shadowless ability or animating your shadow with the Master Of Shadows shadow double option, your //shadow stash// becomes inaccessible until your shadow returns.
+
+**Augment 1 sp [Shadow Retrieval]:** You may store or retrieve 1 item into or from your //shadow stash// as a free or immediate action. Retrieving an item from your //shadow stash// this way does not provoke attacks of opportunity. You cannot retrieve an item from a container that would require longer than a move action to interact with (such as from a //[https://www.aonprd.com/MagicWondrousDisplay.aspx?FinalName=Bag%20of%20HoldingType%20I bag of holding]// with enough contents to require a full-round action).
+
++++ Shaped Darkness
+
+You gain the //rolling blackout// and //shifting shadows// sphere abilities. See the [control] universal spell tag for more rules and information.
+
+++++ **Rolling Blackout [control]**
+
+**Action:** move action  
+**Range:** your //gloom// range  
+**Target / Area:** 1 //gloom// you created
+
+**Effect:** You may move 1 //gloom// you created a distance equal to close range (25 feet # 5 ft./2 caster levels). Moving a //gloom// this way causes it to pass through intervening squares; a //gloom// moved this way must stay within your normal //gloom// range (medium by default).
+
+**Augment 1 sp [Distant Rollout]**: You may move the //gloom// up to any distance (increased from close range), provided that the //gloom// remains within your //gloom// range.
+
+++++ **Shifting Shadows [control]**
+
+You may use the shifting shadows sphere ability once per round or as part of creating a //gloom//.
+
+**Action:** free action  
+**Range:** your //gloom// range  
+**Target / Area:** 1 //gloom// you created
+
+**Effect**: Remove up to 1 5-foot cube, #1 5-foot cube per 2 caster levels from anywhere within the //gloom//. Add a number of 5-foot cubes to that //gloom// (equal to the number removed). The //gloom// must be a contiguous and fully connected area of effect.
+
+If modifying a (blot)-modified //gloom//, remove and add 5-foot squares (instead of cubes).
+
+You gain the following option:
+
+++++ **Wall Of Darkness**
+
+This option may be added to any //gloom//.
+
+**Target / Area:** up to 3 10-foot cubes, #1 10-foot cube / caster level
+
+**Effect:** Your //gloom// is created as a number of 10-foot cubes (instead of as a radius). You may arrange these cubes in any configuration, provided that the //gloom// is a contiguous and fully connected area of effect.
+
+++ Cloak and Gloom Talents
+
++++ Cloaking Darkness (meld, shadow)
+
+You gain the following options:
+
+++++ **Concealing Shadows (meld) [utility]**
+
+**Effect**: The target can don a disguise as a full-round action, as though using a disguise kit. The target gains a circumstance bonus on this Disguise check equal to your casting ability modifier. A disguise assumed using this ability only allows the target to appear nondescript, hide easily identifiable features, and so on (effectively disguising themselves as a “vague silhouette” of themselves). This disguise is removed when this (meld)’s duration ends.
+
+A disguise donned using this ability is maintained even if the target is no longer within a //gloom//, however, the disguise is immediately removed if the target is within an area of bright light for longer than 1 round.
+
+**Augment 1 sp [Withdraw Into Shadows]:** When donning a disguise using this ability, the target may also move as though using the withdraw action. Creatures observing the target may immediately make a Perception check opposing the target’s Disguise check; the target does not provoke attacks of opportunity from a creature which fails their Perception check.
+
+++++ **Obfuscation**
+
+This option may be added to any //cloak// or //gloom//.
+
+**Effect**: The //gloom// or //cloak// protects creatures and objects from information gathering divination effects, such as the scrying subschool, //detect// spells (such as //detect magic//, //detect good//), Divination sphere’s //divine// sphere ability, and other similar effects that gather information, remotely view an area, and so on. A divination effect that would attempt to gather information about a creature or object subject to this option must succeed on a magic skill check to bypass this effect and otherwise gains no information.
+
+This option does not interfere with the caster’s own scrying and divination effects. When this option is used with a //cloak//, the target’s attended objects are similarly protected.
+
+**Augment 1 sp [Gaze Into The Abyss]**: Affected targets are also protected from any attempt to determine the target’s magical auras, alignments, etc. (such as the //detect magic// or //detect evil// spells, or the Divination sphere //divine// ability). A creature that fails their magic skill check to bypass this effect is stunned for 1 round (as if viewing an overwhelming aura). A creature (or source of a scrying effect) that fails this magic skill check and gains no information fails all other attempts against affected targets so long as they are protected by your gaze into the abyss augment for 24 hours.
+
+**Note:** This “immunity” is only for the caster’s gaze into the abyss augment; if a target would benefit from a different caster’s gaze into the abyss augment, it may be separately penetrated.
+
+++++ **Shadowed Mien (shadow)**
+
+**Duration**: concentration; **#1 sp**, 10 minutes/caster level (D)
+
+**Effect**: The target’s face is shrouded in supernatural darkness; the target may see through this normally, but other creatures cannot clearly view the target’s face unless they possess the see in darkness ability or a similar effect. This grants the following benefit against creatures that cannot clearly see the target’s face:
+
+The target gains a competence bonus equal to 1/2 your caster level (minimum 1\) to Bluff checks to lie or feint and to Intimidate checks to demoralize. The Sense Motive DC to get a hunch about the target is increased by your caster level (as well as the DC of any other checks made to read, analyze, or make social assumptions about the target). These benefits only apply against a creature that cannot view the target’s face.
+
+**Augment 1 sp [Fearmonger]**: The target may attempt Intimidate checks to demoralize as a swift action. Whenever a creature fails a Sense Motive check to get a hunch about the target, the target is immediately made aware and may attempt an Intimidate check to demoralize that creature as an immediate action. 
+
++++ Debilitating Darkness (blot, darkness)
+
+You gain the following option:
+
+++++ **Consuming Darkness (blot, darkness)**
+
+//You create a darkness that eats away at the very essence of those inside it.//
+
+**Saving Throw:** Fortitude (negates)  
+**Spell Resistance:** yes
+
+**Effect**: Choose an ability score (Strength, Dexterity, Constitution, Intelligence, Wisdom, Charisma). Affected creatures take 1 point of ability damage of the chosen ability score (Fortitude negates).
+
+**Augment 1 sp [Devouring]**: The ability score damage dealt by Consuming Darkness is instead 2, #1 per 10 caster levels (Fortitude negates).
+
+**Augment 1 sp [Thirsting]:** Instead of taking ability score damage, a target that fails their saving throw against the //gloom// takes a penalty on all skill checks and ability checks with the chosen ability score equal to your caster level. This penalty lasts until the target rests (naturally recovering ability score damage) or is subject to an effect that restores ability score damage (such as //[https://aonprd.com/SpellDisplay.aspx?ItemName=Restoration restoration]// or the Life sphere //restore// sphere ability’s restore soul option).
+
+If this //gloom// also has the devouring augment, the penalty inflicted is equal to 1-1/2 times your caster level.
+
+++++ **Looming Darkness (blot, darkness)**
+
+//You create a darkness that erodes away and lays bare those within.//
+
+**Descriptor(s):** mind-affecting  
+**Saving Throw:** Will (partial)  
+**Spell Resistance:** yes
+
+**Effect**: Choose a saving throw (Fortitude, Reflex, or Will). Affected creatures suffer a -2 penalty to the chosen saving throw while within the //gloom// (Will partial). A successful saving throw reduces this penalty to 1 round (even if an affected target would remain in the //gloom// for multiple rounds); however, a target that leaves and re-enters the //gloom// must make a new saving throw.
+
+**Augment 1 sp [Emerging]**: The penalty to saving throws is instead -2, #1 per 5 caster levels.
+
++++ Deeper Darkness (darkness, shadow)
+
+You gain the following options:
+
+++++ **Blinding Shadow (shadow)**
+
+**Effect:** The target treats all other creatures as though they had 20% concealment. The target may attempt a Reflex saving throw as a move action to end this effect early. Creatures which can see through supernatural darkness are immune to this effect (requiring the see in darkness ability or a similar effect).
+
+**Augment 1 sp [Blackout Vision]:** The target is instead blinded. This functions even against creatures which can see through supernatural darkness.
+
+++++ **Clearsight**
+
+This option modifies the darkvision (meld) option.
+
+**Effect**: The target suffers no negative effects for being within a //gloom// you created but may choose to be affected beneficially when able (such as the reduced fall distance from Manifest Darkness’s thick darkness option). This is treated as possessing the see in darkness ability for the purposes of other Dark sphere effects.
+
+**Special**: Clearsight also provides its benefits against //gloom// effects created by the caster’s allies; status as an ally is determined at the time the clearsight effect is granted.
+
+++++ **Dampen Light (darkness)**
+
+Dampen light cannot be used alongside other options that alter the light level, such as the true darkness option and its augments.
+
+**Duration:** concentration; **#0 sp**, 1 minute/caster level (D)
+
+**Effect**: Instead of lowering the light level by up to 2 steps, the light level is lowered by 1 step.
+
+++++ **Extinguish [utility]**
+
+This option may be added to any //gloom//.
+
+**Effect**: Instead of suppressing non-magical light sources, non-magical light sources are instead extinguished and put out. This allows a //gloom// to extinguish fire, sources of incandescence, and alchemical sources; i.e. coals turn cold, glowing-hot metal becomes cool, and luminous chemicals become inert.
+
+**Augment 1 sp [Smother]:** Your //gloom// can also dispel magical effects with the fire or light descriptors, such as a //wall of fire// or a //faerie fire// spell. When the //gloom// is first created, roll a magic skill check to dispel each magical effect with the fire or light descriptors (before making a magic skill check for conflicting effects). A creature made of flames or otherwise luminous materials or energy is not harmed by this effect.
+
+++++ **True Darkness (darkness)**
+
+**Effect**: Instead of lowering the light level by 2 steps, the light level is lowered to darkness.
+
+**Augment 1 sp [Pure Darkness]**: The light level is lowered to supernatural darkness. Supernatural darkness cannot be seen through with darkvision (requiring the see in darkness ability or a similar effect).
+
+**Augment 1 sp [Limited Perception]**: All senses other than darkvision (blindsense, blindsight, etc.) are hindered by the //gloom//, reducing their range by 1/2 (minimum 5 feet). This reduces senses both within the //gloom// and passing through the //gloom//.
+
+**Ruling Note – How to Resolve Limited Perception**: The limited perception augment effectively treats the //gloom// as “difficult terrain” for vision. Characters attempting to see through (regardless of whether they’re within the //gloom//) treat the //gloom// as 10 feet of distance for every 5 feet of effective vision.
+
++++ Distorting Darkness (darkness)
+
+You gain the following options:
+
+++++ **Directional Darkness (darkness)**
+
+**Effect**: You may choose for your //gloom// to only obscure vision from one direction and appear clear from the other direction (either obscuring vision from outside the //gloom// and looking into the //gloom//, or obscuring vision from inside the //gloom//). A //gloom// modified by this effect is still “visible” as a //gloom// (an obscured outline, perceptible haze, etc.) and no longer obscures vision when on the “unobscured side”. (i.e., 
+
+Once per round while concentrating on a //gloom// with this option, you may adjust your chosen selection (i.e. inverting the directionality that vision is impeded, such as “outside to inside” changing to “inside to outside”).
+
+**Special - Shaped Darkness (Wall Of Darkness):** If used with the Shaped Darkness wall of darkness option, you may choose for vision to be obscured directionally from one side (appearing clear from the other side).
+
+**Special - Trickster’s Darkness (Insinuate)**: You may cause the //gloom// to not have a visible manifestation from the unobscured side.
+
+**Example:** **Outside to Inside**. If obscuring from “outside to inside”, onlookers outside the //gloom// would see darkness (the normal light-level modification of the //gloom//) and creatures inside the //gloom// would be able to see normally. **Inside to Outside**. If obscuring “inside to outside”, the //gloom// would function normally for creatures inside the //gloom//, but onlookers would be able to see through the //gloom// as though it did not impede vision.
+
+++++ **Disorienting Darkness (darkness)**
+
+**Saving Throw:** Will (negates)  
+**Spell Resistance:** yes
+
+**Effect**: Affected creatures become disoriented (Will negates) while within the //gloom//. Whenever a disoriented creature attempts to move, roll 1d8 to determine the creature’s direction. 1 is the creature’s intended direction. 2-8 rotates the creature’s movement clockwise 1 step. The creature moves that direction as if it were their intended course and does not realize they are off course until their next turn or until when they are no longer disoriented.
+
+**Special**: The disorienting darkness option can affect a creature multiple times per round, unlike (darkness) effects by default. For example, a creature that enters the //gloom// and becomes disoriented would move randomly each time they move within the //gloom// (including multiple times in the same turn) and, if the creature leaves the //gloom//, would need to attempt a new Will saving throw if they re-enter the effect’s area.
+
+**Augment 1 sp [Controlled Disorientation]**: When rolling 1d8 to determine a disoriented creature’s movement, you may spend an immediate action to choose the direction instead of rolling randomly. Spending an immediate action this way is a [control] ability.
+
+**Augment 1 sp [Total Disorientation] (requires controlled disorientation augment)**: In addition to the effects of the controlled disorientation augment: When a disoriented creature attempts an attack, casts a targeted spell or spell-like ability, or uses an extraordinary or supernatural ability that targets 1 or more creatures, the attack or ability is randomly directed to another legal target within range (excluding the attacker). The attack or ability is not affected if there are no other legal targets. If the attack or ability would target more than 1 creature, all targets are randomly chosen from among legal targets. If the effect would have other limitations on targeting (such as the //haste// spell’s “one creature/level, no two of which can be more than 30 ft. apart”), select the first initial target, and then randomly select additional targets from the initial “legal” target.
+
+Whenever an effect would be targeted randomly with this ability, you may spend an immediate action to select the new target or targets instead of determining them randomly. Chosen targets must be legal targets for the effect and you must be able to perceive them. Spending an immediate action this way is a [control] ability.
+
++++ Emotive Darkness (blot, darkness)
+
+You gain the following options:
+
+++++ **Evocative Darkness (blot, darkness)**
+
+//The darkness plays with the mind, instilling thoughts and emotions that otherwise lurk beneath the roiling darkness.//
+
+**Descriptor(s):** emotion, mind-affecting  
+**Saving Throw:** Will (negates)  
+**Spell Resistance:** yes
+
+**Effect**: Choose an emotion effect (see **#Table: Evocative Darkness Emotions**). Affected creatures gain the first stage of the chosen emotion effect while within the //gloom// (Will negates). This cannot cause an emotion effect to progress to a higher stage (if it would have more severe stages).
+
+**Augment 1 sp [Intense Emotions]:** Whenever a creature would be affected by this //gloom// while already suffering from the first stage of the selected emotion effect, that creature must attempt a Will saving throw or have that emotion effect progress to its next stage.
+
+**Augment 1 sp [Staging Area]:** An emotion effect applied by this effect continues for 1 round per caster level after the target leaves this //gloom//. If an affected creature was subject to a higher stage emotion effect (i.e. from the intense emotions augment), that emotion effect returns to its first stage at the end of the creature’s turn after leaving the //gloom// (i.e. panicked reducing to shaken).
+
++++++ Emotion Effects
+
+The following conditions are emotion effects that can be applied with the emotive darkness option; these conditions are considered mind-affecting emotion effects even if they would not normally be one. Some emotion effects do not have “more severe” stages.
+
+**#Table: Evocative Darkness Emotions**
+
+|| Initial Emotion || Second Stage || Third Stage || Fourth Stage ||
+|| Fascinated1 || – || – || – ||
+|| Shaken2 || Frightened || Panicked || Cowering ||
+|| **If Using //Spheres of Guile**// ||  ||  ||  ||
+|| Angry || Livid || Enraged || Frenzied ||
+|| Impressed || – || – || – ||
+|| Uncertain || Shocked || Dumbfounded || – ||
+
+1 Once a creature has been fascinated by this effect, if they lose the fascinated condition, they cannot be fascinated again (and consider this //gloom// to be an obvious threat).  
+2 The sphere effect gains the fear descriptor.
+
+++++ **Lethargic Darkness (blot, darkness)**
+
+//The night’s embrace is comforting. It lulls you to close your eyes and simply drift off.//
+
+**Descriptor(s):** mind-affecting, sleep  
+**Saving Throw:** Will (negates)  
+**Spell Resistance:** yes
+
+**Effect:** Affected creatures are staggered (Will negates) while within the //gloom//; creatures receive a new saving throw each time the //gloom//’s effects would apply (even if they are already staggered). A successful saving throw removes the staggered condition and makes the creature immune to this instance of lethargic darkness. A creature that leaves the //gloom// immediately removes the staggered condition (and may even use any remaining actions they possess, if they left during their turn).
+
+**Augment 1 sp [Veil of Dreams]:** Affected creatures that fail their saving throw against this effect while staggered fall asleep for 1 round per caster level (or until the //gloom// effect ends; whichever comes first). A sleeping creature can be awakened by another creature using a standard action (as though using the aid another action) or by taking damage; removing the sleep effect does not remove the staggered condition.
+
++++ Hindering Darkness (blot, shadow)
+
+You gain the following options:
+
+++++ **Grasping Darkness (blot)**
+
+**Saving Throw:** Reflex (negates)
+
+**Effect**: The //gloom// is treated as difficult terrain. Affected creatures become entangled (Reflex negates) while within the //gloom//. A creature entangled by this effect does not have their movement speed further reduced by the //gloom//’s difficult terrain (although the creature is still treated as being in difficult terrain).
+
+**Augment 1 sp [Black Tentacles]**: Instead of this option’s normal effects, affected creatures are subject to a grapple check with a combat maneuver bonus (CMB) equal to your caster level # your casting ability modifier # 1 per 4 caster levels. On a successful grapple attempt, the creature is grappled by the //gloom//. The //gloom// automatically maintains the grapple each round at the end of the caster’s turn and gains the normal #5 bonus on grapple checks against an already grappled creature. Whenever the //gloom// successfully grapples a creature, or maintains a grapple, the grappled creature suffers 1d6 bludgeoning damage, #1d6 per 3 caster levels. For the purposes of escaping the //gloom//’s grapple, the //gloom//’s combat maneuver defense (CMD) is equal to its CMB # 10\.
+
+Unlike other (blot) effects, the black tentacles augment extends upwards 5 feet, # 5 feet per 2 caster levels. This allows black tentacles to “reach” upwards and grapple creatures above the (blot), rather than only affected creatures in squares the (blot) occupies. If a creature is grappled by black tentacles and is not in a square the (blot) occupies, that creature is moved downwards into the closest unoccupied space.
+
+**Special - Moving the Gloom:** If the //gloom// is moved (such as with //rolling blackout// or //shifting shadows//, attached to a creature with following darkness, etc.), a grappled creature is not moved with the //gloom// and remains in its square; if the creature would no longer be within the //gloom// after it is moved, the creature is no longer grappled.
+
+++++ **Shadow Anchor (shadow)**
+
+**Effect:** The target becomes entangled and cannot move further than 5 feet from its original space (this square is referred to as the “anchor point”). Each round on its turn the target can attempt a new saving throw as a full-round action. A target affected this way cannot be moved further than 5 feet from its anchor point by other movement effects (such as by a bull rush or reposition combat maneuver check); if the target is teleported or moves by other means, the target’s new location becomes their anchor point.
+
+A flying creature can only hover or fall while entangled by this effect (and treats any square it falls into as its new anchor point).
+
+**Augment 0 sp [Shadow Piton]:** The target can spend a move action to “pick up” or “place down” the shadow anchor. While the shadow anchor has been picked up, it does not entangle or otherwise restrict the target.
+
+++++ **Slickened Shadows (blot)**
+
+**Saving Throw**: Reflex (negates) (special; see text)
+
+**Effect**: Affected creatures become prone (Reflex negates); this effect only occurs once when the //gloom// is first created.
+
+For the duration of the //gloom//, any creature attempting to move more than half their speed through the //gloom// falls prone (Reflex negates; the creature may choose to attempt an Acrobatics skill check in place of their Reflex saving throw against the //gloom//’s saving throw DC). 
+
+**Special**: This option can affect a creature multiple times in a single round, even if they already succeeded on their saving throw during the round.
+
+**Augment 1 sp [Lubricated]:** Creatures are affected by this option whenever they move at least 10 feet through this //gloom// (including unwilling movement).
+
++++ Killer’s Darkness (blot, darkness, meld)
+
+You gain the following options:
+
+++++ **Dark Slaughter (meld)**
+
+//The darkness itself folds around your blade and sharpens into a wicked razor.//
+
+**Effect:** The target gains #1d6 sneak attack, #1d6 per 5 caster levels. This sneak attack functions as the unchained rogue class feature; this additional damage stacks with other sources of precision damage.
+
+**Augment 1 sp [Bleed Out]:** Whenever the target would deal sneak attack damage, the target may instead inflict bleed damage equal to 1d6, #1d6 per 5 caster levels. Dealing bleed damage this way replaces the sneak attack granted by this option but not sneak attack gained from other sources.
+
+++++ **Edge Of Night (blot, darkness)**
+
+**Saving Throw:** Reflex (half)
+
+**Effect:** Affected creatures take 1d6 slashing damage per odd caster level (Reflex half).
+
+**Augment 1 sp [Profuse Bleeding]:** Creatures that fail their saving throw against this effect also take bleed damage equal to 1/2 your caster level (minimum 1). A creature bleeding because of this augment suffers a -1 penalty on saving throws against Dark sphere effects, increasing by #1 per 10 caster levels.
+
+**Augment 1 sp [Sharding Darkness]:** Instead of this option’s normal effects, the //gloom// deals 1d6 piercing and slashing damage for every 5 feet a creature moves through the //gloom// (if a creature moves more than 5 feet in a single movement, this damage is additive as a single source of damage) (Reflex half). Creatures are also damaged by the //gloom// whenever they take a standard, move, or full-round action that requires physical movement (such as attacking with a weapon, moving, etc.).
+
+Creatures forcibly moved through the //gloom// (such as by a bull rush or drag combat maneuver) suffer a -4 penalty to their saving throw against this augment’s damage.
+
+**Special:** This augment can affect a creature multiple times in a single round.
+
+++++ **Sickening Darkness (blot, darkness)**
+
+**Descriptor(s):** disease  
+**Saving Throw:** Fortitude (negates)  
+**Spell Resistance:** yes
+
+**Effect:** Affected creatures are sickened (Fortitude negates) while within the //gloom//.
+
+**Augment 1 sp [Black Lung]:** As an additional material component to this sphere effect, imbue the //gloom// with a single dose of disease or poison. A creature that fails its saving throw against this //gloom// must immediately attempt a second saving throw against the supplied disease or poison’s saving throw DC. The caster cannot accidentally expose themselves to the supplied disease or poison but is not immune to its effects once the sphere effect is active.
+
+If you are the carrier of a disease, you may supply that disease to the effect (this does not remove the disease from yourself).
+
+If you imbue the //gloom// with a poison, the //gloom// gains the poison descriptor (and loses the disease descriptor).
+
++++ Living Darkness (shadow)
+
+You gain the //dark calling// sphere ability.  
+The //dark calling// sphere ability summons creatures which use the minion rules, which are detailed below. Abilities which create minions use the [minion] universal spell tag.
+
+++++ **Dark Calling [minion]**
+
+**Subschool** (summoning); **Descriptor(s):** shadow  
+**Action:** standard action  
+**Range:** close (25 # 5 ft./2 caster levels)  
+**Duration:** concentration; **#1 sp**, 1 minute/caster level (D)  
+**Effect:** one summoned dark minion  
+**Cost:** 0 sp  
+**Saving Throw:** none  
+**Spell Resistance:** no
+
+**Effect**: Summon 1 dark minion (full details below). A dark minion must be summoned from an area of darkness within range, or from the caster’s own shadow, appearing in a square adjacent to the caster.
+
+**Special - Mass Darkness:** If you possess the Mass Darkness talent, you gain the following augment:
+
+* **Augment 1 sp [Army of Darkness] [mass]:** You may spend 1 additional spell point to summon an additional dark minion per additional spell point spent this way, up to 1 spell point, #1 per 4 caster levels.
+
++++++ Dark Minion Simplified Stat Block
+
+A minion is an independent creature, usually created with an ability with the [minion] universal spell tag. A minion listens to the caster’s commands and attempts to fulfill them to the best of its ability. A minion can speak and understand a single language the caster speaks, acts on the caster’s initiative, and can be given simple or complex commands based on the minion’s intelligence. If a minion would die (its hit points become 0, failing a saving throw causing death, etc.), the minion is immediately dismissed.
+
+A minion uses simplified statistics using the caster’s statistics, determined when the //dark minions// sphere ability is used. This includes the minion’s hit points, ability scores, skill bonuses, AC and saving throws, and many other effects.
+
+* **Hit Dice:** Minions have an effective number of Hit Dice, indicated in their stat block, for the purposes of other effects (such as being affected by a //[https://aonprd.com/SpellDisplay.aspx?ItemName=cloudkill cloudkill]// or //[https://aonprd.com/SpellDisplay.aspx?ItemName=Sleep sleep]// spell), and otherwise do not use their Hit Dice to determine their statistics.  
+* **Other Statistics:** A minion does not receive ability score increases, feats, or skill ranks based on Hit Dice but may be granted them by other sources (or have its own base skill bonuses).  
+* **Equipment and Possessions:** A minion is summoned with any equipment listed in its description, and if dismissed, its equipment also disappears with it.
+
+A caster may control a number of minions at any given time equal to 2 #1 per 4 caster levels.
+
+**Note - “Too Many Minions”:** The minion tag mimics the core //summon monster// spells, conjuring a highly disposable creature from nothing. The maximum number of minions is a limitation to prevent “flooding” a battlefield with cheap bodies.
+
+**Dark Minion Core Statistics**  
+**hp** 3 per caster level; **Hit Dice** 1/2 your caster level (minimum 1); **Size** Medium; **Alignment** caster’s; **Type** outsider (augmented)  
+**Senses** #darkvision (meld); **Perception** 3 # caster level # CAM  
+**Str** 10, **Dex** 10, **Con** 10, **Int** 10, **Wis** 10, **Cha** 10  
+**BAB** caster level; **Generic Attack Bonus** BAB # 1/4 caster level # CAM  
+**AC** 10 # size # caster level # CAM; **Saving Throws** 2 # 1/2 caster level  
+**Feats** none  
+**Speed** 30 ft.  
+**Skills** Acrobatics, Climb, Escape Artist, Perception, Stealth, Swim equal to 3 # caster level # CAM  
+**Languages** as caster  
+**Attacks and Abilities**
+
+- //Shadowkin (Su)//: A dark minion is under the effects of a constant //cloak// with the darkvision (meld) and clearsight option. This //cloak// is treated as having been cast by the dark minion’s caster.  
+- //Weapons of Darkness:// When summoned, a dark minion is equipped with a single masterwork weapon (requiring simple weapon proficiency). Dark minions use their generic attack bonus (detailed above), are proficient in whatever weapons they are summoned with, and benefit from other increases and increases to their statistics as normal (including the #1 bonus to attack rolls by having a masterwork weapon). If summoned with a ranged weapon, the dark minion produces its own ammunition, but must reload normally. The dark minion gains a bonus on damage rolls equal to your CAM # 1/4 caster levels.
+
+You gain the following option:
+
+++++ **Lurking Shadow (shadow)**
+
+//You split a fragment of the target’s shadow into its own being.//
+
+**Duration:** concentration; **#1 sp**, 10 minutes/caster level (D)
+
+**Effect**: Create an independent creature loyal to the caster from the target’s shadow (referred to as a “shadow lurk”, with full details below). A shadow lurk is a visibly shaded silhouette of the original target, is weightless, and its equipment is cosmetic and nonfunctional.
+
+Only a single shadow lurk may be created from an individual target’s shadow at any given time. A shadow lurk cannot move more than your Dark sphere //gloom// range from the target (normally medium range). A shadow lurk may willingly discorporate itself and return to its target’s shadow as a move action (or be dismissed by the caster as a free action). When a shadow lurk rejoins its target’s shadow, the target gains knowledge of everything the shadow lurk observed and did while it was created. If a shadow lurk is destroyed before returning to its target’s shadow (i.e. by being dismissed), the target cannot have a shadow lurk summoned using its shadow for 1d4 rounds (or the caster must spend 1 additional spell point on that target).
+
+**Augment 1 sp [Empowered Shadow Lurk]**: The shadow lurk gains additional abilities and statistics as noted in the shadow lurk simplified stat blocks “empowered shadow lurk” section.
+
+**Augment 1 sp [Lurking Surprise]**: The shadow lurk is imbued with a single Dark sphere effect, paying any additional spell point costs for the effect or its options as appropriate. The shadow lurk may cast the imbued Dark sphere effect as a standard action, dismissing itself and returning to the original target’s shadow when it successfully casts.
+
++++++ Shadow Lurk Simplified Stat Block
+
+**Core Statistics**  
+**hp** 2 per caster level; **Hit Dice** 1/2 your caster level (minimum 1; maximum target); **Size** target; **Alignment** caster’s; **Type** outsider (augmented)  
+**Senses** target, #darkvision (meld); **Perception** target (maximum 10 # caster level)  
+**Str** 31/2 caster level (maximum target), **Dex** target, **Con** target, **Int** target, **Wis** target, **Cha** target  
+**BAB** caster level (maximum target)  
+**AC** 10 # size # caster level (maximum target); **Saving Throws** 2 # 1/2 caster level  
+**Feats** none  
+**Speed** target  
+**Skills** target (maximum 10 # caster level)  
+**Languages** target, #1 shared with the caster  
+**Attacks and Abilities**
+
+- //Limited Figure (Ex):// A shadow lurk cannot attack, threaten attacks of opportunity, provide flanking, or use any abilities its target possesses (such as extraordinary, supernatural, or magical abilities), but may manipulate objects and perform skill checks (unless modified with the empowered shadow lurk augment).   
+- //Shadowkin (Su)//: A shadow lurk is under the effects of a constant //cloak// with the darkvision (meld) and clearsight option. This //cloak// is treated as having been cast by the shadow lurk’s caster.
+
+**Other Information and Statistics**  
+General Statistics: A shadow lurk’s statistics are determined by the target of the lurking shadow ability. In each location noted in the stat block as “target”, use the target’s relevant statistic. A shadow lurk’s statistics are limited by the target’s statistics and cannot exceed them. Where specified, the shadow lurk’s maximum bonus is also limited by your caster level (i.e. a shadow lurk’s Perception is calculated with the target’s Perception bonus to a maximum of 10 # caster level, even if the target’s Perception bonus is higher).
+
+A shadow lurk uses the target’s skill ranks (benefiting from the target’s class skills) and adds the relevant ability score as normal (to a maximum of 10 # caster level).
+
+The shadow lurk does not gain independent statistics (feats, skill ranks, etc.). The shadow lurk is treated as possessing a set number of Hit Dice for the purposes of other effects but does not gain statistics from Hit Dice (such as bonus hit points from Constitution). 
+
+Controlling a Shadow Lurk: A shadow lurk may be communicated with (as it always shares a language with the caster). However, the intelligence of a shadow lurk is dependent on the target. Low intelligence (or unintelligent) targets may follow more complex commands despite their intelligence (subject to GM discretion) but may be unable to complete complex tasks. For example, a compounded command of simpler tasks such as “go here, keep watch at this place, and come back if you see the described target” may be appropriate, but asking the shadow lurk to make independent decisions or solve puzzles and challenges may be limited (subject to GM discretion).
+
+**Empowered Shadow Lurk**  
+An empowered shadow lurk’s statistics are now equal to the target’s and are not limited by caster level where noted. The empowered shadow lurk gains 4 hit points per caster level (increased from 2 hit points per caster level), uses the target’s base attack bonus, and is proficient with equipment the target is proficient with. The shadow lurk’s equipment is no longer cosmetic and nonfunctional (including any ordinary ammunition, equipment, and so on), but is non-magical. Alchemical, consumable, technological, charge-based, and other similar items do not function (such as using an alchemist’s fire, activating a wand, using a charge-based technological item, etc.). If the shadow lurk drops or loses possession of its equipment, it disappears after 1 round.
+
+The empowered shadow lurk may make a single attack action during its turn, and may now threaten attacks of opportunity, and provide flanking. The empowered shadow lurk’s attacks do 1/2 the normal damage (calculate by rolling the damage normally, then halve).
+
++++ Manifest Darkness (darkness, meld, shadow)
+
+You gain the following options:
+
+++++ **Clotting Shadows (meld)**
+
+**Effect**: The target gains fast healing 1, increasing by #1 per 5 caster levels. This fast healing is treated as magical healing which can end a bleed condition. While the target is bleeding, this fast healing is doubled (i.e. a bleeding target granted fast healing 3 would heal 6 that round; if the target is not bleeding, they receive the normal amount of healing that round). This fast healing only functions if the target has 1/2 their maximum hit points or less.
+
+If you allow this (meld) to continue without concentration, this fast healing functions normally (healing the target with any number of hit points, not just 1/2 their maximum hit points or less).
+
+++++ **Manifested Shadows (shadow)**
+
+**Duration**: concentration; **#1 sp**, 1 hour/caster level
+
+**Effect:** The target may use their shadow as though it were an additional limb (the “shadow limb”); the shadow limb cannot be used to make attacks, wield weapons or shields, or fulfill somatic components. As a swift action, the shadow limb can be used to retrieve unattended items within the target’s natural reach or stowed objects carried on their person.
+
+When manipulating objects, the shadow limb is treated as though it has its own independent carrying capacity, with a Strength score equal to 5 # caster level # the caster’s casting ability modifier (effectively granting the target additional carrying capacity, but only as lifted or manipulated by the shadow limb).
+
+**Augment 1 sp [Helpful Hand]:** The shadow limb may assist the target, or other creatures within the target’s natural reach, once per round as a free action that can be taken even when it is not the target’s turn. This functions as an aid another check (and can even allow the target to use the aid another action on themselves); the bonus granted by this aid another check cannot be modified by any other abilities.
+
+++++ **Thick Darkness (darkness)**
+
+**Spell Resistance:** yes
+
+**Effect**: The area of your //gloom// is difficult terrain. Creatures and objects that fall within this //gloom// reduce the total distance of their fall by 10 feet per 10 feet traveled, #10 feet per 10 caster levels (such that, at caster level 10, a fall would be treated as 20 feet shorter if passing through 10 feet of this //gloom//).
+
+**Augment 1 sp [Dense Darkness]**: Instead of difficult terrain, your //gloom// instead causes creatures to move at half their speed through the //gloom//, be unable to take 5-foot steps, and suffer a -1 penalty to attack and damage rolls that pass through the //gloom//. This penalty increases by 1 per 10 caster levels.
+
++++ Stalker’s Darkness (blot, darkness, meld, shadow)
+
+You gain the following options:
+
+++++ **Hide In Darkness (meld)**
+
+**Effect**: The target may attempt Stealth checks to hide even while being observed. 
+
+++++ **Shadow Tag (blot, darkness, shadow) [utility]**
+
+This option is treated as a divination effect (but not a scrying effect). Effects that would block divination effects also interfere with this option, such as sufficiently thick walls or the Cloak Darkness’s obfuscation option; a caster’s own effects do not hinder shadow tags they create.
+
+**What are Shadow Tags**: This option creates “shadow tags” (also referred to as a “shadow-tagged” target). You may have a number of shadow tags equal to your caster level # your casting ability modifier. If you shadow tag a target beyond this limit, you may choose to cease tracking a previous target (ending that shadow tag).
+
+The caster knows the relative direction and status (alive, unconscious, dead) of all shadow-tagged targets, provided the target is within extra long range (1000 ft. # 100 ft./caster level) and ignoring line of sight or line of effect. This gives enough information to the caster to know approximately where the target is (such as a city, location, or even specific building), but cannot be used to pinpoint the target’s square. Shadow tags expire if the target leaves this range.
+
+**Effect**: Affected creatures are shadow-tagged for 1 hour per caster level.
+
+**Augment 1 sp [Stain Object]**: This option may now also affect objects; a shadow-tagged object counts against the caster’s total number of shadow-tagged targets.
+
+++++ **Silent Darkness (darkness)**
+
+**Effect:** Sound-based Perception checks take a penalty equal to your caster level; this includes Perception checks made to hear while within the //gloom// or to hear sounds originating from within the //gloom//. At GM discretion, this may also “directionally muffle” sounds (such as covering a doorway with this effect would apply its penalty to sounds on the other side).
+
+**Augment 1 sp [Quiet Dark]**: The penalty to sound-based Perception checks increases to 2 per caster level. Creatures in the area cannot speak and any effect with verbal components (or similar, see the note below) suffer a 20% failure chance, #5% chance per caster level. Sonic and language-based attacks, spells, and effects created within the //gloom//, or affecting targets within the //gloom//, must also succeed as a magic skill check against this //gloom//; on a failed magic skill check, the effect fails (or cannot affect creatures within the //gloom//).
+
+**Note - Silent Darkness’s Failure Chance and Other Effects:** The failure chance imposed by this effect should apply to any effect that requires speaking or vocalization. This failure chance otherwise behaves like arcane spell failure, but only against the listed effects. This failure chance primarily affects spells with verbal casting (or the Verbal Casting tradition drawback) but may also include abilities such as bardic performance which would rely on an auditory performance, Warleader sphere //shouts//, and other similar abilities.
+
+++++ **Voidwatcher (meld)**
+
+**Effect:** The target gains blindsense to close range that only functions while within a //gloom//, and only grants the target “vision” within the //gloom//’s area (i.e. not being able to use this sense to see beyond the edge of the //gloom//’s radius).
+
+In addition, the target rolls twice and takes the better result on Perception and Sense Motive checks made against others within a //gloom// (i.e. to notice a creature, spot details on an object or locate a trap, gain a hunch based on the target’s movements or mannerisms, etc.).
+
+At caster level 10, this blindsense functions in any darkened area (not just within a //gloom//).
+
+**Augment 1 sp [Voidsight]:** The target is instead granted blindsight (functioning the same as the granted blindsense).
+
++++ Traveler’s Darkness (blot, meld)
+
+You gain the following options:
+
+++++ **Dark Passage (blot)**
+
+**Target / Area**: A surface with hardness equal to or less than 5 # caster level  
+**Effect**: A (blot) with up to a 5 foot radius opening, #1 foot / caster level  
+**Saving Throw**: Reflex (negates)  
+**Spell Resistance:** yes
+
+**Effect**: Your (blot) opens a passage through the surface it covers, extending up to 5 feet, #1 foot per caster level through the surface the (blot) is placed over. Creatures, objects, and other substances pass through this passage normally.
+
+An affected creature standing above the passage when it is first created falls in (Reflex negates). A successful Reflex save allows a creature to immediately instead move to the nearest unoccupied space.
+
+When dark passage ends, anything within the passage is harmlessly moved to the nearest opening into the nearest square it can safely occupy. This movement does not provoke attacks of opportunity.
+
+**Augment 0 sp [Obscured Passage]**: Light does not enter or pass through this passage, nor can creatures see through to the other side of the passage unless they possess the see in darkness ability or a similar effect.
+
+**Augment 1 sp [Shadowed Portal]**: The passage extends up to 10 feet per caster level.
+
+**Special - Multiple Castings:** Multiple uses of the dark passage (blot) may overlap, allowing a caster to create a longer passage, or create branching passages (such as extending 100 feet into a mountain and then a second casting extending 100 feet to the right at some point in the first passage’s length); using the shadowed portal augment, the (blot)’s duration stacks with each casting.
+
+**Special - Trickster’s Darkness (Insinuate):** You may optionally add the flat black augment to a dark passage (without requiring additional spell points), obscuring the hole in a way that it appears flat (unless the creature succeeds on a Perception check against your insinuate DC). Creatures that fail to notice the dark passage and would walk across a horizontal dark passage may fall.
+
+++++ **Step Through Darkness (meld)**
+
+**Effect**: As a move action, the target may teleport up to a range of close range. Both the area the target begins in and the area the target teleports to must be within a //gloom//, and the target must be able to see the square they are teleporting into. The target cannot be carrying more than a heavy load when teleporting this way.
+
+At caster level 10, the target may teleport from and into any darkened area (not just within a //gloom//).
+
++++ Trickster’s Darkness (meld)
+
+You gain the following options:
+
+++++ **Flowing Darkness**
+
+//Your darkness creeps and flows around corners, seeping through open spaces and unblocked passages.//
+
+This option may be added to any //gloom//.
+
+**Area Type**: spread
+
+++++ **Fluid Silhouette (shadow)**
+
+//The gift of shadows slips and melts between the fingers.//
+
+**Duration:** concentration; **#1 sp**, 10 minutes/caster level
+
+**Effect:** The target can move through areas without squeezing as though they were 1 size category smaller (1/4 size) and can squeeze through areas as though they were 2 size categories smaller (1/8 size). This effect stacks with other effects (such as the compression universal monster ability). In addition, the target gains a circumstance bonus on Escape Artist checks equal to 1/2 your caster level (minimum 1).
+
+**Augment 1 sp [Malleable Silhouette] (requires caster level 10):** The target may squeeze through any narrow opening, even mere cracks, along with any equipment or items the target wears or carries (to a maximum of the target’s light load). When attempting an Escape Artist check to escape restraints or a grapple, the target rolls their skill check twice, taking the better result.
+
+++++ **Insinuate [utility]**
+
+//You are skilled at slipping your magic into the natural surroundings, subtly manipulating natural murk and shadows to fit your purpose.// 
+
+This option may be added to any (blot).
+
+**Effect:** Your (blot) no longer leaves a visible dark “stain” and is instead indistinguishable from natural darkness and shadows. If a (blot) would have a noticeable effect (such as the Hindering Darkness black tentacles augment), the Perception DC to notice the (blot) is equal to 10 # your Dark sphere caster level # your casting ability modifier. The (blot) becomes immediately noticeable to creatures when it negatively affects a creature.
+
+For the purposes of this option, “negatively affects a creature” means damages, directly penalizes, inflicts a status condition, or otherwise “harms” a creature subject to GM discretion. This means that if a creature would not be affected, succeed at their saving throw and be unaffected, or pass through the (blot) unhindered or unharmed, the (blot)’s nature is not immediately revealed.
+
+**Augment 1 sp [Flat Black]**: In addition to being indistinguishable, the (blot) masks the area to appear as a flat, featureless plane devoid of details. Terrain, traps, and unattended objects (“details”) become hidden by the (blot); the Perception DC to find details obscured by the (blot) is increased to 10 # your Dark sphere caster level # your casting ability modifier (if higher than the normal Perception DC to notice the detail).
+
+This augment does not hide creatures or hinder attempts at non-visual detection. Some types of terrain can be easily deduced (e.g., a river flowing in one side and out the other, or the auditory sounds of that river). If a creature possesses the ability to see through magical darkness, that creature views the obscured area normally.
+
+++++ 
+
+++++ **Sinister Surprise**
+
+This option may be added to any //gloom// when you allow a //gloom// to continue without concentration.
+
+**Duration:** 10 minutes/caster level (special; see text)
+
+**Effect:** The //gloom//’s effects are suspended until a creature enters a “trigger square” within the //gloom//’s normal area of effect. You may designate any number of squares within the //gloom//’s potential area to be trigger squares. When a sinister surprise triggers, it appears in the area normally and lasts for the normal duration of a //gloom// you could create. You may have any number of sinister surprises created at one time; however, you may not overlap trigger squares between multiple sinister surprises.
+
+A sinister surprise can be spotted and disabled as though it were a magical trap; its Perception and Disable Device DC is equal to your Dark sphere saving throw DC. If a sinister surprise is disabled, its duration immediately ends.
+
+At any point during the sinister surprise’s duration, you may spend a standard or immediate action to trigger the sinister surprise. When creating the sinister surprise, you may also add any of the following conditions which may alter how the sinister surprise triggers:
+
+* You may designate up to a number of creatures equal to your caster level to be able to not trigger the sinister surprise when within its trigger squares.  
+* You may designate a specific creature type or specific individual to be able or unable to trigger the sinister surprise.  
+* You may designate a duration; at the end of this duration, the sinister surprise triggers after this duration even if no creature enters a trigger square.
+
+Each condition may only be added to a sinister surprise once.
+
+++++ **Tenebrous Legerdemain (meld)**
+
+**Effect:** The target may attempt to perform minor legerdemain against other creatures or objects within close range (and within the same //gloom// as the target). The target may attempt the following legerdemain:
+
+* Disable Device check against an object (spending the required action each round, if the check would require multiple rounds).  
+* Interact with an object, such as opening or closing a door or other action that would require a move or standard action (but not use or activate a wand or magic item, or any “combat action”, subject to GM discretion).  
+* Retrieve an unattended object.  
+* Sleight of Hand check to take something unnoticed.  
+* Steal combat maneuver.  
+* Other similar actions (subject to GM discretion).
+
+The target may manipulate objects that weigh up to 5 lbs. per caster level (and cannot exceed this weight limit, such as being unable to budge a door that is too heavy). When retrieving an object (or stealing or pickpocketing, etc.), the object appears in the target’s hands (or in the nearest adjacent space if their hands are full.
+
+The target may substitute your Dark sphere caster level # casting ability modifier for their skill modifier or steal combat maneuver bonus when attempting a check using this talent (as appropriate).
+
+**Augment 1 sp [Night Trickster]:** The target may perform minor legerdemain once per round as a free action, but cannot perform combat maneuvers, skill checks, or other actions against another creature (or an attended object) this way.
+
+++ Advanced Dark Talents
+
++++ Absolute Darkness (darkness)
+
+You gain the following options:
+
+++++ **Lightless Penumbra**
+
+**Prerequisites:** Dark sphere (Cloaking Darkness), caster level 1st.
+
+The shadowed mien option gains the following augment:
+
+**Augment 1 sp [Lightless Penumbra]:** Your shadowed mien becomes entirely opaque. The target is protected from daylight, normal or magical, and gains a bonus equal to your caster level on saving throws against light, pattern, and vision-based effects. The target is always treated as having their eyes averted (i.e. from gaze attacks) without suffering any of the penalties for averting one’s gaze. Creatures with vulnerability to light or daylight, such as vampires, are protected by this effect.
+
+++++ **Greater Meld**
+
+**Prerequisites:** Dark sphere, caster level 10th.  
+This option may be added to any //cloak// modified by a (meld).
+
+**Duration:** concentration; **#1 sp**, -2 duration steps
+
+**Effect:** The (meld) instead functions as a (shadow) option; its effects function even when not within a darkened area.
+
+++++ 
+
+++++ **Midnight (darkness)**
+
+**Prerequisites:** Dark sphere (Darkness Mastery), caster level 5th.
+
+**Target / Area:** radius up to extra long (1000 feet # 100 feet/caster level)  
+**Cost:** #1 sp
+
+**Augment 1 sp [Total Midnight]:** The radius increases to 1 mile/2 caster levels.
+
+++++ **Pitch Black**
+
+**Prerequisites:** Dark sphere (Deeper Darkness), caster level 5th.
+
+This modifies the true darkness option.
+
+**Effect:** You may apply the true darkness option to any (darkness) you create, without counting against the number of (blot) or (darkness) options added to your //gloom// (in essence, you may freely add true darkness to any (darkness) you create).
+
+The pure darkness augment spell point cost is reduced to 0 sp.
+
+**Augment 1 sp [Bury the Light]:** The supernatural darkness created by the pure darkness augment suppresses all light, even bright light.
+
+++++ **Zero Visibility**
+
+**Prerequisites:** Dark sphere (Deeper Darkness), caster level 10th.
+
+This modifies the true darkness limited perception augment.
+
+**Effect:** The limited perception augment reduces the range of all senses to 5 feet. This reduces senses both within the gloom and passing through the gloom.
+
++++ Deadly Darkness (blot, darkness)
+
+You gain the following options:
+
+++++ **Crushing Singularity (blot, darkness)**
+
+**Prerequisites:** Dark sphere (Killer’s Darkness), caster level 15th.
+
+This modifies the edge of night option; this option cannot be used with the sharding darkness augment.
+
+**Saving Throw:** Fortitude (half) or Reflex (half)
+
+**Effect:** The damage dealt by this //gloom// becomes force damage (instead of slashing damage) and becomes either a Fortitude or Reflex save for half damage (chosen when cast). A target damaged by this option takes #2d6 increased damage from this effect each consecutive round they are damaged (regardless of whether they succeed on their previous saving throw; maximum 2d6 per caster level).
+
+**Augment 2 sp** **[Consuming Star]:** The //gloom//’s damage becomes untyped, bypasses hardness, and deals full damage to unattended objects within the //gloom//. A creature or object reduced to 0 hit points by this //gloom//’s effects is disintegrated and reduced to dust.
+
+++++ **Directional Opportunism**
+
+**Prerequisites:** Dark sphere (Distorting Darkness), caster level 1st.
+
+This modifies the directional darkness option.
+
+**Effect:** Instead of choosing a direction to obscure vision, the //gloom// can be seen through by the caster’s allies and alters visibility normally for the caster’s enemies.
+
+++++ **Inescapable Darkness (blot, darkness)**
+
+**Prerequisites:** Dark sphere (Hindering Darkness), caster level 1st.
+
+**Effect:** A creature exiting the //gloom// (specifically, moving from a square the //gloom// occupies into a square the //gloom// does not occupy) must spend an additional #5 feet of movement, #5 feet per 5 caster levels (the “exit cost”). Movement spent towards the exit cost is tracked across actions taken during the same turn (i.e. a creature taking one move action to approach the edge, spend 5 feet, then use their standard action to move the remainder of the distance). Creatures must pay the exit cost each time they exit (including if multiple times per round). If a creature would have insufficient movement or the exit cost, they instead stop moving. A creature may spend a move action when at the edge of the //gloom// to make a Strength check (DC 10 # caster level # your casting ability modifier); if successful, the creature may move up to half their speed. Bonuses to Strength checks made to break objects apply to a Strength check made to escape (i.e. the implicit bonus to break objects due to size).
+
+Effects that originate from outside the //gloom// and target or select an area within the //gloom// (or would pass through the //gloom//) subtract the exit cost from the effect when determining range (such as determining range to target, ranged attacks suffering range increment penalties, centering area of effects, and so on). This does not alter an effect’s area (such as a //[https://aonprd.com/SpellDisplay.aspx?ItemName=fireball fireball]//) but would change an effect’s ability to reselect targets (such as //[https://aonprd.com/SpellDisplay.aspx?ItemName=chain%20lightning chain lightning]// being unable to “bounce” to a nearby target). Abilities that rely on touch or reach are not hindered by this effect.
+
+**Augment 1 sp [Infinite Expanse]:** A creature inside the //gloom// treats all other targets that are not within their reach as being a number of feet further away equal to the exit cost (as though their effects originated from outside the //gloom//, see above). This may cause a target to be outside of a character’s range.
+
+**Augment 1 sp [No Escape (No Entry)] (requires caster level 10):** The exit cost increases to 10 feet, #5 feet per 2 caster levels. Escaping the //gloom// with a Strength check requires a full-round action. In addition, the caster may choose to have the exit cost apply to creatures exiting or entering the //gloom// (not just exiting).
+
+**Special - Darkness Mastery (Imbued Shadow):** If this option is applied to a target as a (shadow) effect, the target treats exiting the square they began their turn in as exiting the //gloom// (spending movement for the exit cost, etc.), and must “exit” the //gloom// each round they are affected this way.
+
+++++ **Nightshade**
+
+**Prerequisites:** Dark sphere (Killer’s Darkness), caster level 5th.
+
+This modifies the sickening darkness black lung augment.
+
+**Effect:** The saving throw DC of a supplied disease or poison becomes equal to your Dark sphere DC (if higher).
+
+++++ **Panic Inducing**
+
+**Prerequisites:** Dark sphere (Emotive Darkness), caster level 10th.
+
+The emotional darkness option gains the following augment:
+
+**Augment 1 sp [Crepuscular Insanity]:** Instead of selecting an emotion effect, affected targets become confused.
+
+If this gloom has the intense emotions augment, the “next stage” for confused inflicted this way is permanent confusion.
+
+This permanent confusion is treated as the //[https://aonprd.com/SpellDisplay.aspx?ItemName=insanity insanity]// spell, and can be removed as though it were //insanity//, with the Life sphere Make Whole talent, or by the target being exposed to bright light for at least 10 minutes.
+
+**Author’s Note - Confusion Out of Combat:** While not in a stressful environment (i.e. combat), a permanently confused creature behaves in a disoriented or erratic fashion (subject to GM discretion) instead of rolling on the percentile table to determine its actions. This is to prevent a character from murdering themselves by rolling poorly on the percentile table (punching themselves over and over).
+
+++++ **Solid Night**
+
+**Prerequisites:** Dark sphere (Manifest Darkness), caster level 5th.
+
+The thick darkness option gains the following augment:
+
+**Augment 1 sp [Solid Night]**: The edges the //gloom// occupies become solid darkness, preventing line of effect, movement, attacks, and other effects as though it were a tangible, physical object that also stops incorporeal movement. The “walls” of this //gloom// have a number of hit points equal to twice your caster level # your casting ability modifier, hardness 0, and AC 5\. The //gloom// can support a total weight equal to 2000 lbs., #250 lbs. per caster level.
+
+Each square the //gloom// occupies is treated as a separate damageable wall; a creature damaging the “wall” creates a hole, which can be moved through. When damaging a wall, certain attacks may damage multiple segments; apply damage to each segment equally. Melee attacks deal damage to a number of 5-foot squares based on the creature’s size category (a Medium or smaller creature damages a single 5-foot square at a time, a Large creature can damage up to 4, Huge up to 9, and so on, such that if the creature would destroy the “wall”, it could fit through the space it destroyed). Ranged attacks damage 5-foot squares (or multiple, as though it were a larger creature if using massive projectiles such as boulders). Damaging area of effects damage any number of squares in its area (such as //[https://aonprd.com/SpellDisplay.aspx?ItemName=fireball fireball]//).
+
+A destroyed wall segment is restored in 1d3 rounds (each round passing on the caster’s turn, i.e. a rolled “1” will restore a damaged wall segment at the end of the caster’s next turn).
+
+If the //gloom// would be moved (such as with the //rolling blackout// or //shifting shadows// abilities), the //gloom// harmlessly passes through creatures, and does not push or displace them.
+
+When this //gloom// is first created, and whenever it is moved, creatures within 10 feet of the edge of the effect may make a Reflex save to immediately move outside of the //gloom//’s area (regardless of whether it is safe for that creature).
+
+**Special - Shaped Darkness:** The caster may choose to have the area of the //gloom// no longer be an area; instead, the //gloom// is created as a solid structure in almost any shape desired, provided the shape is contiguous. This can allow for crude walls, stairs, gates and grates, battlements, and so forth (similar to a //[https://aonprd.com/SpellDisplay.aspx?ItemName=wall%20of%20stone wall of stone]// effect). The total area of a //gloom// created this way is the number of 10-ft. cubes the caster could create using the wall of darkness option. Destroying segments of a //gloom// created this way creates an adequately sized hole through the created structure to the next open area (effectively making a clean passage through).
+
+If using the //shifting shadows// [control] ability, the caster may reshape a single 5-foot area of the //gloom// each time the ability is used.
+
+++++ **Stifling Silence**
+
+**Prerequisites:** Dark sphere (Stalker’s Darkness), caster level 5th.
+
+This modifies the silent darkness quiet dark augment.
+
+**Effect:** All sound is stopped. Conversation becomes impossible (although creatures can still read lips, see //Spheres of Guile// Skill Rules) and all sound-based Perception checks fail. Effects with verbal components and sonic and language-based effects cannot be used inside the //gloom// (or otherwise cannot enter or pass through the area of the //gloom//).
+
+++++ **Total Debilitation**
+
+**Prerequisites:** Dark sphere (Debilitating Darkness), caster level 5th.
+
+This modifies the consuming darkness and looming darkness options.
+
+**Cost:** #1 sp
+
+**Effect:** You no longer choose an ability score ability score (consuming darkness) or saving throw (looming darkness). Instead, the //gloom// functions as though each option was selected (damaging each ability score, penalizing each saving throw, etc.).
+
++++ Eternal Darkness
+
+You gain the following options:
+
+++++ **Boundless Lurkers**
+
+**Prerequisites:** Dark sphere (Living Darkness), caster level 5th.
+
+This option modifies the lurking shadow option.
+
+**Effect:** Shadow lurks you create may move any distance from you (instead of being limited to a distance equal to your //gloom// casting range).
+
+++++ **Permanent Darkness**
+
+**Prerequisites:** Dark sphere (Clinging Darkness), caster level 10th.
+
+This option may be added to any //cloak// or //gloom//.
+
+**Duration:** permanent  
+**Cost:** #2 sp
+
+**Note:** If creating a permanent //gloom//, the effect cannot be centered on a creature or object, such as with Clinging Darkness’s following darkness, moved with abilities such as //rolling blackout// or //shifting shadows//, or otherwise centered on a target (such as the One With Darkness form of darkness option).
+
+++++ **Shadow Tag, Endless Shadow**
+
+**Prerequisites:** Dark sphere (Stalker’s Darkness), caster level 10th.
+
+This option modifies the shadow tag option.
+
+**Effect:** The caster can track a shadow-tagged target across any distance, provided that the target is on the same plane. A shadow tag now expires if the target leaves the caster’s current plane.
+
+**Special - Eternal Stain:** A permanent shadow tag does not end if the target leaves the caster’s current plane (but cannot be tracked while the target is on a different plane from the caster).
+
+++++ **Shadow Tag, Eternal Stain [control]**
+
+**Prerequisites:** Dark sphere (Stalker’s Darkness).
+
+This [control] option interacts with the shadow tag option and is usable whenever a creature (or object) becomes shadow-tagged. If multiple targets would be simultaneously shadow-tagged, the caster may use this [control] option any number of times (but is only treated as casting a spell once).
+
+**Action:** free action (can be taken even when it is not your turn)  
+**Range:** your //gloom// range  
+**Duration:** permanent  
+**Target / Area:** 1 shadow-tagged creature (or object)
+
+**Effect:** The shadow tag’s duration becomes permanent and does not count against the caster’s total number of shadow tags.
+
+**Augment 1 sp [Follow the Mark] (requires caster level 15):** The caster may track this shadow tag as though it granted blindsense against the target. This allows the caster to know the exact square the target is in (but still does not allow pinpointing or ignoring concealment).
+
+**Special - Mass Darkness:** If multiple targets would be simultaneously shadow tagged, the caster may spend 1 additional spell point to make up to 1 shadow tag # 1 shadow tag per 2 caster levels permanent.
+
++++ Living Darkness Mastery (shadow)
+
+You gain the following options:
+
+++++ **Lurking Shadow, Improved**
+
+**Prerequisites:** Dark sphere (Living Darkness), caster level 5th.
+
+This modifies the lurking shadow’s augments as follows:
+
+* **[Empowered Lurking Shadow]:** The empowered lurking shadow augment’s spell point cost is reduced to 0 spell points.  
+* **[Lurking Surprise]:** The lurking surprise augment refunds any spell points spent on the imbued Dark sphere effect if the shadow lurk effect ends before using the imbued Dark sphere effect.
+
+++++ **Shadow Double**
+
+**Prerequisites:** Dark sphere (Living Darkness), caster level 15th.
+
+This modifies the lurking shadow option.
+
+**Range:** personal  
+**Duration**: concentration; **#1 sp**, 1 hour/caster level  
+**Cost:** #2 sp
+
+**Effect:** When creating a shadow lurk, you instead create a shadow double. A shadow double has your exact statistics, but half as many hit points; any copies of your equipment are non-magical. The shadow double’s copied equipment disappears if it leaves its possession for more than 1 round. You may only have a single shadow double at one time.
+
+A shadow double is not limited in how far it can move from you and can take any number of actions normally. Your shadow double may use magic items, but must be supplied with them. In all other aspects, the shadow double is an exact copy of you, and may use your class features, spells and spell-like abilities, etc., but draws from your daily resources (uses per day, spell points, etc.). A shadow double can never use the shadow double option (or be the target of a new shadow double).
+
+The shadow double can be reattached to you as a move action (either you or the shadow double spending the action) so long as either you or your shadow double can see the other. If your shadow double is killed or dispelled, it drops any non-copied equipment and returns to you immediately, stunning you for 1d4 rounds. Like a shadow lurk, you immediately gain the knowledge of everything your shadow double observed and did while detached.
+
++++ Master Of Shadows (shadow)
+
+You gain the following options:
+
+++++ **Advanced Shadow Limbs (shadow)**
+
+**Prerequisites:** Dark sphere (Manifest Darkness), caster level 5th.
+
+This option modifies the manifested shadows option.
+
+**Range:** personal  
+**Cost:** #1 sp
+
+**Effect:** You gain 2 improved shadow limbs which can make attacks, wield weapons and shields, fulfill somatic components, and otherwise function as normal limbs for all purposes (although you do not gain any extra attacks, magic item slots, or additional actions from these shadow limbs). In addition, these shadow limbs have a natural reach of #5 feet (over your normal reach) and their effective Strength score is now equal to 10 # caster level # your casting ability modifier.
+
+++++ 
+
+++++ **Shadow Actualization**
+
+**Prerequisites:** Dark sphere, caster level 1st.
+
+This modifies the //shadow stash// sphere ability, any (shadow) option, and any other ability which requires the target to have a shadow.
+
+**Effect:** This (shadow) effect can affect any target, even those without a shadow. 
+
+++++ **Shadow Arsenal**
+
+**Prerequisites:** Dark sphere (Shadow Stash), caster level 1st.
+
+This modifies the //shadow stash// sphere ability.
+
+**Effect:** You may store or retrieve an item from your //shadow stash// once per round as a free action (as though using the 1 spell point augment).
+
+When storing equipment in your //shadow stash// you may choose to have your shadow wear that equipment. When retrieving equipment in your //shadow stash//, you may choose to have that equipment be worn, donned, or equipped. Equipment worn by your shadow is treated as though you were also wearing or using that equipment, gaining the benefits and penalties of that equipment as normal (if any, such as an armor check penalty, movement speed adjustments, curses, etc.). This does not grant you any additional magic item slots, magic item slots you do not possess, or the ability to use more equipment than you normally could. If you and your shadow both wear an item in the same slot, you only gain the benefit of the item worn on your physical body. This does not allow you to wield weapons or shields or activate magic items that must be held in hand while they are stored in your //shadow stash//. If you would be subject to a polymorph effect, stored items that would normally be suppressed or cease to function (such as armor) do not function unless you would possess an ability to meld or alter your equipment to fit (such as the //wild// special armor ability).
+
+++++ **Shadow Walk (shadow)**
+
+**Prerequisites:** Dark sphere (Traveler’s Darkness), caster level 10th.
+
+**Duration:** instantaneous (see text)  
+**Cost:** #2 sp  
+**Saving Throw:** Will (harmless)  
+**Spell Resistance:** yes
+
+**Effect:** The target steps into the Plane of Shadow and may move at a rate of 50 miles per hour relative to the Material Plane, stepping out of the Plane of Shadows at any point once you have reached your desired destination. Shadow Walk can also be used to travel to other planes bordering the Plane of Shadow, requiring an additional 1d4 hours to move to the Plane of Shadow bordering that other plane.
+
+Targets traveling this way cannot make out details of terrain or areas on the Material Plane they pass through while moving this way–making this option poorly suited for scouting or spying. When stepping back into the Material Plane, the target is shunted 1d10 x 100 feet in a random horizontal direction from the desired endpoint. If this would place a target within a solid object, they are shunted an additional 1d10 x 100 feet in the same direction until they are placed in the nearest empty space that the target can safely occupy.
+
+**Note - Setting Cosmology:** This option assumes the Plane of Shadow borders the other inner planes and can be used to travel along this “thin line”. GMs should apply this option as appropriate for traveling between planes, if such travel is normally possible.
+
++++ One With Darkness
+
+You gain the following options:
+
+++++ **Black Morality**
+
+**Prerequisites:** Dark sphere, caster level 10th.
+
+This option may be added to any //cloak// or //gloom//.
+
+**Cost:** #1 sp
+
+**Effect:** Any effect that would target or affect an affected target (either the target of the //cloak// or within area of the //gloom//) based on a particular alignment, or with a variable effect determined by alignment, fails against the affected targets (as though the target were not the “correct” alignment to be affected, or not having an alignment at all; for Fate sphere effects, and effects that count the number of alignment “steps”, Black Morality treats the target as being “0” steps).
+
+Ongoing effects that target based on alignment (such as a paladin’s smite or the effects of a strongly-aligned plane) are suspended for as long as the affected targets are benefiting from Black Morality.
+
+An effect’s duration, while suspended by Black Morality, continues to count down and expire.
+
+++++ **Blaggard (shadow)**
+
+**Prerequisites:** Dark sphere, caster level 10th.
+
+**Effect:** The target may be targeted and affected as though they were the least beneficial alignment for effects with variable effects based on the target’s alignment (i.e. being treated as evil for a paladin’s smite good, or being treated as good for a //[https://aonprd.com/SpellDisplay.aspx?ItemName=Blasphemy blasphemy]// spell).
+
+++++ **Form Of Darkness**
+
+**Prerequisites:** Dark sphere, caster level 10th.
+
+This option may be added to any //gloom//.
+
+**Descriptor(s):** polymorph  
+**Range:** personal  
+**Cost:** #1 sp
+
+**Effect:** Choose whether you are becoming a (blot) or a (darkness), gaining the effects listed below:
+
+* **(blot)** You become your (blot)-modified //gloom//, gaining a climb speed equal to your land speed, cannot be tripped or become prone, and gain DR /– equal to 1/2 your caster level. You may use this climb speed even if the target’s hands are not free and you do not need to attempt Climb checks to move across a vertical or horizontal surface (even if upside down).
+
+  While in this state, you must remain in contact with a solid surface that could support a (blot) or this effect is immediately dispelled. You may freely share space with other creatures and do not provoke attacks of opportunity while moving. You may manipulate objects, use items, attack and threaten attacks of opportunity as though you occupied any space within your //gloom//.
+
+  You may adjust your size as a move action from a minimum of a 5-foot diameter circle (occupying 1 square) up to the maximum size of your //gloom//. You may apply a (blot) effect to this //gloom// as normal, and may change the active (blot) as a standard action, paying any additional spell point costs for the (blot) or its options as appropriate.
+
+* **(darkness)** You become your (darkness)-modified //gloom//, gaining the incorporeal subtype and a fly speed with maneuverability (perfect) of 30 feet, #10 feet per 4 caster levels. You may freely share space with other creatures and do not provoke attacks of opportunity while moving. Your equipment melds with your form (as normal for a polymorph effect), you cannot attack or manipulate objects while in this form, though you may still cast spells and speak.
+
+  You may adjust your size as a move action from a minimum of a 5-foot diameter sphere (occupying 1 square) up to the maximum volume of your //gloom//. You may apply a (darkness) effect to this //gloom// as normal, and may change the active (darkness) as a standard action, paying any additional spell point costs for the (darkness) or its options as appropriate.
+
+You may dismiss a //gloom// modified by this option as a swift action. When this effect ends (for any reason), you rematerialize into a single square (or squares) the //gloom// occupied; if there is no empty space to rematerialize into, you are shunted into the closest space.
+
+For the purposes of this option, you are treated as occupying all the squares your //gloom// occupies, allowing other creatures to target, attack, and interact with you as though you were in all those squares. You are unaffected by a //gloom// modified with this option (as though under the clearsight meld) and treat yourself as being within the area of a //gloom// for the purposes of other effects.
+
+**Special - Trickster’s Darkness (Flowing Darkness):** If you possess the Trickster’s Darkness talent, you may pass through any small opening or crack while under the effects of Form of Darkness.
+
+++++ **Obfuscation, Improved**
+
+**Prerequisites:** Dark sphere (Cloaking Darkness), caster level 1st.
+
+This modifies the obfuscation option.
+
+**Effect:** Your obfuscation option treats affected targets as though they were coated by a thin sheet of lead. Scrying effects that could penetrate a sheet of lead, or otherwise view the affected targets, must succeed on a magic skill check to bypass this effect.
+
+**Augment 1 sp [Iron Curtain] (requires caster level 10):** Your obfuscation option treats affected targets as though they were coated by 1 foot of lead.
+
+++++ **Vanish Into Darkness**
+
+**Prerequisites:** Dark sphere (Stalker’s Darkness), caster level 5th.
+
+This modifies the hide in darkness option.
+
+**Effect:** While the target is hiding, unusual forms of perception such as blindsight or tremorsense (precise, imprecise, or otherwise) do not automatically locate the target. A creature that would normally automatically locate a target using one of these senses is instead granted a Perception check to locate the target with a #4 bonus for each form of perception that is being foiled (i.e. granting a #12 if foiling blindsense, blindsight, and tremorsense).
+
+**Special - Spheres of Guile:** If using the Sensory Precision rules from //Spheres of Guile//, imprecise special senses grant a #2 bonus (i.e. scent, blindsense, tremorsense) and precise senses grant a #4 bonus (i.e. blindsight) to a creature’s Perception check.
+
++++ Stygian Darkness (blot, meld)
+
+You gain the following options:
+
+++++ **Conjured Depths (blot)**
+
+**Prerequisite:** Dark sphere.
+
+**Cost:** #1 sp  
+**Saving Throw:** Reflex (negates, see text)
+
+**Effect:** Your (blot) acts as a massive extradimensional pool of water with a depth of 10 feet per caster level. Creatures within the //gloom//’s area when the (blot) is first created may attempt a Reflex save to avoid falling in (and must end their next turn not within the (blot) or fall into this space normally). Light passes into this blot-liquid normally and creatures can breathe normally. The (blot) and its contents are fully contained within the //gloom// and do not “spill over” out of the //gloom//, even if the (blot) is created on the side of a wall, overlapping with a cliff, etc.
+
+When this //gloom// ends, all contents (creatures, objects, etc.) are safely deposited on the surface of the (blot) (or the nearest unoccupied space relative to the contents’ position).
+
+**Augment 1 sp [Inky Depths]**: Light no longer passes through the blot-liquid, instead treating the area inside the extradimensional pool of water as having the effects of the true darkness option. Creatures treat the blot-liquid as though it were real water and must be able to breathe underwater or hold their breath (as normal).
+
+**Note:** This blot-liquid can be drunk, used as water for Nature sphere //geomancing// effects, and otherwise fully treated as water, but disappears when the //gloom// ends or after 1 round if removed from the //gloom//.
+
+++++ **Umbral Swimmer (meld)**
+
+**Prerequisite:** Dark sphere.
+
+**Cost:** #1 sp
+
+**Effect:** The target may treat a //gloom// (but not any darkened area) as though it were a pool (or globe) of water and may swim inside of it. The target does not need to be able to breathe in water and can breathe normally while swimming inside darkness this way. A //gloom// that fills an area (usually a darkness, rather than a blot) can be swam through as though it were a still area of water (which may allow the target to “swim” through the air). A (blot) is treated as an extradimensional pool of water with a depth of 5 feet per caster level.
+
+**Special - Absolute Darkness (Greater Meld):** If using the greater meld advanced option, a target affected by umbral swimmer may now treat any darkened area as though it were a //gloom// for the purposes of this option.
+
+**Note - Swimming in an Extradimensional Pool:** Swimming in an extradimensional pool of water does not allow the target to swim “through” the 2-dimensional surface to the other side. The user is always swimming inside the darkness and shadows cast upon that surface. The user is treated as being “inside” the solid object and cannot be targeted, but likewise cannot target or attack creatures outside of the extradimensional pool of water. Any objects that become unattended while inside the extradimensional pool of water rise to the “surface” after 1 round.
+
+**Note - Seeing into Dark-based Extradimensional Water:** While a creature is inside an extradimensional area of water (i.e. the conjured depths option) or swimming inside a //gloom// (the umbral swimmer option), other creatures can see into the water as though light passed normally into that space (such as into the 2-dimensional space of the (blot) or the volume of a (darkness)). If the //gloom// would alter the light level, the area inside the extradimensional area of water likewise has its light level affected and may prevent a creature from having proper vision.
+
++ Sphere-Specific Drawbacks
+++++ Black Spot
+
+Your //gloom’s// maximum size is a 5-foot radius and cannot be increased in any way. You cannot use options that change the area of your //gloom// (such as greater darkness or wall of darkness, or the //shifting shadows// sphere ability). You gain a bonus dark sphere talent that grants a (blot) or (darkness) option.
+
+++++ Contact Dark
+
+Your Dark sphere abilities that target (i.e. //cloak//) can never have a range greater than touch. Your Dark sphere abilities that create an area of effect (i.e. //gloom//) must have their initial area of effect placed to either include a square you occupy or be adjacent to your space.
+
+++++ Darkness Speciality
+
+Choose either //cloak// or //gloom//. You lose that sphere ability. You may take this drawback twice, losing both //cloak// and //gloom//.
+
+**Incompatible:** Any Dark sphere drawback that modifies the exchanged sphere ability (i.e. Selective Melding and //cloak//, Singular Shade and losing //gloom//), or would exchange that sphere ability (i.e. Shadowy Storage losing the same ability).
+
+++++ Light Fearing
+
+//The light is not your friend, and your magic recoils from it.//
+
+You must make a successful MSB check (DC equal to your Dark sphere MSD) to use a Dark sphere ability while in an area of normal or bright light.
+
+**Incompatible:** Selective Melding, Singular Shade.
+
+++++ Personal Darkness
+
+You cannot target creatures other than yourself with your //cloak// sphere ability (or other Dark sphere abilities, if they can target, i.e. the following darkness option to center an effect on a target other than yourself). You gain a bonus Dark sphere talent that grants a (meld) or (shadow) option.
+
+**Special - Contact Dark:** If you possess both this drawback and the Contact Dark drawback, instead of selecting a Dark sphere talent of your choice, you gain the Clinging Darkness talent as a bonus talent and must use the following darkness option when creating a //gloom//.
+
+++++ Selective Melding
+
+//The darkness is your only friend, and your magic requires it.//
+
+Your (meld) effects only work within //glooms// you create (even if they would normally work outside of a darkened area, including the darkvision (meld) option). You gain a bonus Dark sphere talent that grants a (meld) option.
+
+**Incompatible:** Light Fearing.
+
+++++ Singular Shade
+
+//You draw upon your own shadow to produce magics, manipulating and stretching your own shadow//.
+
+You may only have one active //gloom// at any given time; while you have an active //gloom//, you do not cast a shadow (and cannot benefit from or be the target of abilities that require the target to possess a shadow, such as (shadow) options). You gain a bonus Dark sphere talent that grants a (blot), (darkness), (meld), or (shadow) option option or the Darkness Mastery talent.
+
+**Incompatible:** Light Fearing, Shadowed Brew.
+
+++++ Shadowed Brew
+
+You may only use Dark sphere abilities that are modified with the instill darkness [instill] option (if a Dark sphere ability could not be used with the [instill] option, it cannot be used). You gain the Refined Darkness instill darkness [instill] and Clinging Darkness following darkness options as bonus options (but not the full talents). 
+
+**Incompatible:** Singular Shade.
+
+++++ Shadowy Storage [utility start]
+
+Choose either //cloak// or //gloom//. You lose that sphere ability. You gain the Shadow Stash talent.
+
+**Incompatible:** Any Dark sphere drawback that modifies the exchanged sphere ability (i.e. Selective Melding and //cloak//, Singular Shade and losing //gloom//), or would exchange that sphere ability (i.e. Darkness Speciality losing the same ability).
+
++ Dark (Polished) Sphere Feats
+++++ Aura of Mystery
+
+//An air of mystique and class that comes hand in hand with an obscured face. Much like a mask.//  
+**Prerequisites:** Dark sphere (Cloaking Darkness).
+
+**Benefit:** You gain the benefits of the Cloaking Darkness obfuscation option as a constant sphere effect, functioning in any area of illumination except bright light. This constant sphere effect cannot be granted the gaze into the abyss augment.
+
+++++ Blackened Terrain (Defiler, Drawback)
+
+//The color drained from the very land, leaving behind bleakness and despair.//  
+**Prerequisites:** Terrain Casting drawback, Dark sphere.
+
+**Benefit:** Whenever you blight, corrupt, or drain an area using the Terrain Casting drawback, the blighted area is treated as a Dark sphere //gloom// for the purposes of other abilities and effects (such as your //cloak// ability and conflicting with light effects); this does not alter the light level or carry any other effects of your //gloom//. This effect lasts for 1 round per caster level.
+
+**Four Defiler Feats:** Whenever you blight, corrupt, or drain an area using the Terrain Casting drawback, as a swift action you may spend 2 spell points to create a //gloom// (centered on the blighted area). You must still concentrate on this //gloom// (or may spend 1 spell point to allow it to continue without concentration). You may create a //gloom// this way despite being in a blighted area.
+
+**Note:** The defiler feats were initially printed in Drop Dead Studios’ //The Cataclysm Handbook// and modify the defiled area caused by the Terrain Casting general casting drawback.
+
+++++ Dark Portal
+
+//Boots travel quietly through the night.//  
+**Prerequisites:** Dark sphere (Traveler’s Darkness).
+
+**Benefit:** Whenever you use the step through darkness (meld) to teleport, you may choose to leave a portal in the square you teleported from, which remains until the start of your next turn. Creatures may enter the portal as part of a move action to move, or by spending a move action while within the portal’s square, to move into any square adjacent to the square you teleported into. If there are no unoccupied spaces, the portal cannot be used. The portal is a teleportation effect.
+
+**Special - Umbral Transposition (requires Portal advanced talent):** If you possess this feat, the Umbral Transposition feat, and the Portal advanced talent, the portal left behind by the Dark Portal feat is also treated as a Warp sphere Portal for other effects and abilities.
+
+++++ Shadow Boxer (Combat)
+
+**Prerequisites:** Dark sphere (Manifest Darkness), Improved Unarmed Strike.
+
+**Benefit:** When granting yourself a shadow limb with the manifested shadows option, the shadow limb may now be used as though it were your unarmed strike (but otherwise still cannot wield weapons or shields, fulfill somatic components, grant additional actions or extra attacks, etc.). In addition, your natural reach with the shadow limb increases by #5 feet, #5 feet per 5 caster levels.
+
+Attacks made with the shadow limb using this feat’s additional reach suffer a -2 penalty if the target is in an area of bright light, -2 per 5 feet the target is from you.
+
+**Special - Master Of Shadows advanced talent:** You may choose to use this feat to modify shadow limbs created using the advanced shadow limb option. If you do, weapons wielded by your shadow limbs deal damage equal to your unarmed strikes (instead of the weapon’s normal damage dice) and benefit from this feat’s additional natural reach (but also the penalty to attack rolls made against targets in an area of bright light).
+
+++++ Shadow Feast
+
+//Certain schools of thought heavily warn against burning one’s own wick at the base.//  
+**Prerequisite:** Dark sphere.
+
+**Benefit:** Once per day as a free action, you may gain any number of spell points (to a maximum number equal to 1/2 your casting ability score). Spell points gained this way may exceed your normal maximum spell pool. After using this ability, at the end of your turn you take 2 points of ability burn to your casting ability score for every spell point gained this way.
+
+Your shadow disappears until this ability burn heals, making you unable to benefit from (shadow) effects, including the //shadow stash// sphere ability, creating shadow lurks from your own shadow, and so on.
+
+++++ Shadow Lurk Expert
+
+//The shadows obey your call and enact your will.//  
+**Prerequisites:** Dark sphere (Living Darkness).
+
+**Benefit:** In addition, you gain the following abilities that modify shadow lurks you create with the lurking shadow option:
+
+* **Information Control:** You learn all information a shadow lurk witnesses when its duration ends, and may choose what information the shadow lurk’s target learns, if anything (such as choosing to not let a target learn they had a shadow lurk created from their shadow).   
+* **Lurking Arsenal (requires Master Of Shadows, Shadow Stash):** A shadow lurk you create from your own shadow benefits from constant magic items you have equipped in your //shadow stash// (such as a //belt of physical prowess// and other “always on” and passive magic items).
+
+  **Special - Living Darkness Mastery:** A shadow lurk you create from your shadow with the lurking shadow, improved advanced option benefits from your constant magic items and may also use use-activated magic items stored in your //shadow stash// (as though you used it, consuming a charge as normal).  
+* **Lurking Stash (requires Shadow Stash):** A shadow lurk you create from your own shadow can access your //shadow stash// while adjacent to you. A shadow lurk must spend at least a move action to place or retrieve an item from the //shadow stash//. A shadow lurk is unable to use alchemical, consumable, technological, charge-based, and other similar items drawn from your //shadow stash//.  
+* **Lurking Step (requires Traveler’s Darkness):** Shadow lurks you created are treated as though they were a //gloom// you created when determining a valid space to teleport into with the step through darkness (meld) option. When you teleport into a shadow lurk’s square this way, you may choose to swap places with the shadow lurk.
+
+  As a sphere ability, you may use lurking step as an immediate action by spending 1 spell point to teleport into the space of a shadow lurk that was dismissed (by you or with its own actions) or destroyed. You may choose to use this ability after learning the information from the shadow lurk being dismissed. The shadow lurk must be within range of your step through shadows teleportation to use this ability.
+
+  **Special - Seeing Shadows (Dual Sphere) feat:** When teleporting into a shadow lurk’s square, you may immediately disguise yourself with the Illusionary Disguise option with a disguise matching the shadow lurk’s. Creatures that have not disbelieved your shadow lurk’s disguise are not granted a chance to disbelieve the disguise and believe that you took its place.
+
+  **Special - Eternal Darkness, Master Of Shadows:** You may teleport to a shadow lurk by spending 2 additional spell points if it would be further away than your step through darkness (meld)’s range, instead using the shadow walk (shadow) advanced option to travel to that shadow lurk’s square. This may also be used as part of the immediate action to teleport to a shadow lurk that has been dismissed or destroyed, requiring a total of 3 spell points.  
+* **Permanent Shadow Lurk (requires Clinging Darkness):** You gain a single, permanent shadow lurk formed using your own shadow as a constant sphere-like ability. This shadow lurk cannot be modified by the empowered shadow lurk or lurking surprise augments, and may be detached or reattached from your shadow as a move action. If this shadow lurk is destroyed, this constant sphere-like ability is suppressed for 1d4 rounds.  
+* **Slippery Shadow Lurks (requires Trickster’s Darkness):** Shadow lurks you create benefit from the fluid silhouette (shadow) option as a constant effect. At caster level 10, this is further modified with the malleable silhouette augment.
+
+++ Dual Sphere Feats
+
+Feats with the (dual sphere) tag allow you to combine the effects of multiple spheres either by combining the effects of multiple spheres as part of using a single sphere ability, or by granting new sphere abilities which can be used to interact with those spheres.
+
+Abilities granted by a dual sphere feat may list additional prerequisites, which must also be met to use that ability. If an ability would require a specific sphere ability or option, and the character does not possess it, the character cannot use that option (i.e. a Dark caster that has exchanged the //cloak// ability cannot use a dual sphere ability that would add (meld) or (shadow) options to another effect, and so on).
+
+Only one (1) dual sphere feat can be applied as part of using a sphere ability (i.e. a single casting of a magic sphere ability, use of a martial sphere ability, and so on).
+
+**Dual Sphere Effects as Separate Effects:** Effects created using a dual sphere feat that “add their effects” to another sphere effect are treated as two separate sphere effects, although their durations are shared (i.e. if one is suppressed, dismissed, or dispelled, both effects are dismissed). Sphere effects created simultaneously this way using a dual sphere feat are treated as being cast separately when determining their caster level, saving throw DCs, effect descriptors, and other relevant statistics, except as noted by the dual sphere feat (usually the range, area, and/or duration being shared by a common factor). If the “added” effect would be affected by spell resistance or require a saving throw, these are rolled separately from the original effect.
+
+**[Control] Options and (Dual Sphere) Feats:** If using a [control] ability on an effect created with a dual sphere feat, the [control] effect must be able to affect the “original” effect (for example, using //rolling blackout// to move a //gloom// with other effects added to it would work, but you could not move a War sphere //totem// with Dark sphere effects added to it).
+
+**Note:** Many dual sphere feats may have their own exceptions or notes to ensure that the two effects (the “original” and the “added”) resolve intuitively; if there is a conflict between the dual sphere feat’s text and these rules, the feat’s text takes precedence (subject to GM discretion).
+
+++++ Dark Monuments (Dual Sphere)
+
+//Noble wars are fought in the light of day. Winning wars are fought beneath the cloak of night.//  
+**Prerequisites:** Dark sphere, War sphere.
+
+**Benefit:** You gain the following abilities based on the Dark sphere and War sphere talents you possess:
+
+* **Black Totem:** //Totems// you create are treated as a //gloom// you created for the purposes of other abilities and effects (such as your //cloak// ability and conflicting with light effects); this does not alter the light level or carry any other effects of your //gloom//. Whenever you create a //totem//, you may spend 1 spell point to add a //gloom//’s effects to the //totem//’s area, paying any additional spell point costs for the //gloom// or its options as appropriate.  
+* **Dark Commandments:** While you are within a //gloom// you created, creatures within the area of the same //gloom// may spend points of momentum as though they were within range.  
+* **Night Rally:** Whenever you //rally// a creature, you may add a //cloak//’s effects to that rally, paying any additional spell point costs for the //cloak// or its options as appropriate. This //cloak// lasts until the end of the target’s next turn (even if the rally’s duration would end earlier).
+
+++++ Ecliptic Transformation (Dual Sphere)
+
+//Their form twisted and contorted with a howl, the candles snuffed and bleeding smoke.//  
+**Prerequisites:** Alteration sphere, Dark sphere.
+
+**Benefit:** You gain the following abilities based on the Alteration sphere and Dark sphere talents you possess:
+
+* **Dark Presence (requires aura-granting trait, see text):** Whenever you grant a trait that grants an aura (such as Orb Transformation’s aura of fascination or Undead Body’s fear aura), the aura’s area is treated as a darkened area.  
+* **Ecliptic Change:** Whenever you use the //shapeshift// ability, you may spend 1 additional spell point to create a //gloom// centered on the target of the //shapeshift//, paying any additional spell point costs for the //gloom// or its options as appropriate. This //gloom// ends when the target leaves its area, or its duration ends, whichever occurs first. The caster may choose to make the target of the //shapeshift// immune to any of the //gloom//’s additional effects (as though under the clearsight option).
+
+You gain the following traits which may be applied to any //shapeshift//. If a trait requires additional spell points, that spell point cost is listed in the trait’s name.
+
+* **Cloaked Body:** The target is granted a //cloak//, paying any additional spell point costs for the //cloak// or its options as appropriate. Because the //cloak// is granted as a trait, it does not need to continue without concentration (and instead is treated as being part of the //shapeshift//).  
+* **Shadow Rending (requires natural attack):** The target’s natural attacks cleave at the target’s shadows, making them susceptible to manipulation. A creature struck by one of the target’s natural attacks suffers a -2 penalty on saving throws made against Dark sphere effects for 1 round.
+
+++++ Guarding Dark (Dual Sphere)
+
+**Prerequisites:** Dark sphere, Protection sphere.
+
+**Benefit:** You gain the following abilities based on the Dark sphere and Protection sphere talents you possess:
+
+* **Darkness’s Embrace:** You may use (succor) talents to sacrifice //cloak// effects you create as though they were an //aegis//. A //cloak// sacrificed this way must be one that has been made to continue without concentration.   
+* **Shadow Cage:** //Wards// you create are treated as a //gloom// you created for the purposes of other abilities and effects (such as your //cloak// ability and conflicting with light effects); this does not alter the light level or carry any other effects of your //gloom//. Whenever you create a //ward//, you may spend 1 spell point to add a //gloom//’s effects to the //ward//’s area, paying any additional spell point costs for the //gloom// or its options as appropriate.  
+* **Umbral Protection:** Whenever you grant an //aegis// to a creature, you may spend 1 spell point to add a //cloak// modified with a (meld) to that //aegis//, paying any additional spell point costs for the //cloak// or its options as appropriate.
+
+++++ Minions of the Deathlord (Dual Sphere)
+
+//Your allies lurk in the most conspicuous place.//  
+**Prerequisites:** Death sphere, any [minion] option.
+
+**Benefit:** You may treat any minion you summon as an undead creature you //reanimated//, allowing it to benefit from your Death sphere talents and other abilities. A minion is always treated as a willing creature for your other abilities and effects (such as Corpse Bomb and Dark Sacrifice, even if the minion is not mindless).
+
+In addition, you gain the following ability:
+
+* **Corpse-Wrought Minion (requires //reanimate//):** Whenever you would //reanimate// a corpse, you may choose to instead summon a minion (using an ability you possess to summon minions). If you do, reduce the spell point cost of that ability by 1 and the corpse is destroyed (such that it cannot be the target of a //reanimate// effect without being repaired, such as with the Corpse Manipulation talent).  
+* **Minion Cairn (requires Tomb Of Flesh):** Minions may be stored within your //tomb of flesh// without counting against the ability’s maximum number of bodies. Minions cannot be stored with items they were not summoned with (such items are harmlessly left behind when the minion is stored). A minion’s duration is suspended while stored in the //tomb of flesh//.
+
+**Note:** As of this book, the only [minion] option is the //dark calling// sphere ability. Other [minion] options may be added in future releases.
+
+++++ Night Sky (Dual Sphere)
+
+//Like rough gems strewn across the empty canvas, the night’s sky holds great wonders.//  
+**Prerequisites:** Dark sphere, Light sphere.
+
+**Benefit:** You gain the following abilities based on the Dark sphere and Light sphere talents you possess:
+
+* **Dusk / Dawn:** Whenever you grant a //lens// to a creature, you may spend 1 spell point to add a //cloak// modified with a (meld) to that //lens//, paying any additional spell point costs for the //cloak// or its options as appropriate.  
+* **Starlight Darkness:** Whenever you create a //gloom//, instead of altering the light level, the //gloom// instead causes creatures to be dazzled (referred to by this ability as “starlight darkness”). The starlight darkness is no longer a conflicting effect with magical light. If the starlight darkness is modified with the true darkness option, instead of true darkness’s normal effects, the penalties of the dazzled condition become -2, #1 per 5 caster levels. If the starlight darkness is modified with the Absolute Darkness pitch black option, the penalties imposed by dazzled apply to all attack rolls (even if the creature does not rely on sight).  
+* **Sunrise / Sunset:** When creating a starlight darkness, you may add a (light) option to a //gloom//, as though it were a (darkness). A (light) option used this way must be one that affects all creatures in the light’s radius (such as Disorienting Patterns, Searing Light), and has no additional effects against an individual target (even if attached to that target). You may spend a standard action to treat a starlight darkness granted a (light) option as an area of bright light (or as part of the action used to create the starlight darkness).
+
+++++ Nightmare Caller (Dual Sphere)
+
+//Give form to the eyes and teeth which curl inside of the darkness.//  
+**Prerequisites:** Conjuration sphere, Dark sphere.
+
+**Benefit:** You gain the following abilities based on the Conjuration sphere and Dark sphere talents you possess:
+
+* **Born From Darkness:** Whenever you //summon// a companion within a //gloom// you created, that companion may immediately make a Stealth check to hide, even if they do not have cover or concealment. The companion may remain hidden this way until the end of its next turn.  
+* **Cloaked Entry:** Whenever you //summon// a companion, you may spend 1 spell point to also grant that companion a //cloak// for the //summon//’s duration, paying any additional spell point costs for the //cloak// or its options as appropriate. A companion granted a //cloak// this way also gains the benefits of the Deeper Darkness clearsight option, even if you did not grant the companion the darkvision (meld).  
+* **Darkveil:** You gain the //darkveil// sphere ability (detailed below). The //darkveil// sphere ability uses either your Conjuration sphere or Dark sphere caster level when determining variables (such as range, etc.), whichever is higher.
+
++++++ **Darkveil**
+
+  **Descriptor(s):** darkness  
+  **Action:** immediate action  
+  **Range:** close (25 # 5 ft./2 caster levels)  
+  **Duration:** 1 turn (see text)  
+  **Target / Area:** 1 Conjuration companion or called creature  
+  **Cost:** 1 sp  
+    
+  **Effect**: The target creature gains total concealment (50% miss chance) until the end of the current turn in initiative; this concealment may be granted in response to an attack roll which has been rolled, but before its results are revealed. If an attack misses the target creature because of the granted concealment, at the end of the current turn, the creature may make a Stealth check to hide, even if they do not have cover or concealment. The creature may remain hidden this way until the end of its next turn. If the target creature is not in an area of darkness, the creature instead gains concealment (20% miss chance). 
+
++++ Paranoia Agent (Dual Sphere)
+
+//Success so clearly within their grasp … or is it merely a trick of the light.//  
+**Prerequisites:** Dark sphere, Mind sphere.
+
+**Benefit:** You gain the following abilities based on the Dark sphere and Mind sphere talents you possess:
+
+* **Hypnotic Darkness (requires Debilitating Darkness):** Your //gloom// is always treated as having the looming darkness option when targeting a creature with a //charm//, debuffing the saving throw associated with that charm (i.e. applying a penalty to Will saves for a //charm// that requires a Will saving throw). This is in addition to any other (darkness) options added to the //gloom//; if the //gloom// was already granted the looming darkness option, looming darkness functions normally and penalizes the charm’s associated saving throw (if not already selected); this includes the emergent augment.  
+* **Memory Hole (requires Amnesia):** You gain the memory hole (darkness) option:
+
+++++ **Memory Hole (darkness)**
+
+  **Descriptor:** compulsion, mind-affecting  
+  **Saving Throw:** Will (negates); see text  
+  **Cost:** #1 sp  
+    
+  **Effect**: This (darkness) does not actively affect targets when within the //gloom//, only when the target would no longer be within the //gloom// (including the gloom ending, moving out of the //gloom//’s area, and so on). When the target leaves the //gloom//, the target immediately loses all awareness of events which occurred within the //gloom// (including interactions with people, items, events, and so on). This (darkness) otherwise functions as the Mind sphere Amnesia //greater charm//, but only for events within the //gloom//.
+
+  A target may naturally notice or remember objects in their possession being misplaced, notice wounds on their body, and make reasonable conclusions; likewise, a target may remember they were engaged in combat (if aware of a threat before entering the //gloom// and so on).
+
+  **Augment 1 sp [Damnatio Memoriae]:** An affected target’s memories can only be restored through magical means (//[https://aonprd.com/SpellDisplay.aspx?ItemName=Break%20enchantment break enchantment]//, Inception, etc.); a reminder of events from another creature is no longer sufficient to attempt a new saving throw to remember.
+
+++++ Seeing Shadows (Dual Sphere)
+
+**Prerequisites:** Dark sphere, Illusion sphere.
+
+**Benefit:** You gain the following abilities based on the Dark sphere and Illusion sphere talents you possess:
+
+* **Body Double (requires Living Shadow):** When using the lurking shadow option, you may spend 1 spell point to create the shadow lurk as a //glamer//. The shadow lurk shares the target’s space (and does not penalize the target for sharing its space). Whenever the target is attacked or targeted by a single-target effect, there is a 50% chance the shadow lurk is affected instead. A creature with the see in darkness ability or a similar effect only suffers a 25% to target the shadow lurk instead.  
+* **Shadow Doppelganger (requires Living Shadow, Illusionary Disguise):** Your shadow lurk is disguised to look and sound like you (or the target), functioning as the Illusionary Disguise option. The shadow lurk can speak in the voice of whomever it is disguised as (and use its languages). A creature that physically interacts with the shadow lurk (physical touch, attacks, etc.) receives a Will saving throw to disbelieve the disguise.   
+* **Shadows In Corners:** Figments you create are treated as a //gloom// you created for the purposes of other abilities and effects (such as your //cloak// ability and conflicting with light effects); this does not alter the light level or carry any other effects of your //gloom//. Whenever you create a figment, you may spend 1 spell point to add a //gloom//’s effects to the figment’s area, paying any additional spell point costs for the //gloom// or its options as appropriate.
+
+++++ Shadow Defender (Champion, Combat, Dual Sphere)
+
+//Be their shadow and shield them from what they cannot see.//  
+**Prerequisites:** Dark sphere, Guardian sphere.
+
+**Benefit:** You gain the following abilities based on the Guardian sphere packages you possess:
+
+* **Blinding Challenge (requires (challenge) package):** When issuing a Guardian sphere //challenge//, instead of your //challenge//’s normal penalties, the target treats other creatures as though they had concealment (20% miss chance), except the issuer of the //challenge//. This concealment does not allow other creatures to make Stealth checks against the //challenged// target (unless both the challenged target and the other creature are within a //gloom// you created, effectively allowing other creatures to hide from the challenged target even if they lack cover and concealment). This is a supernatural effect.
+
+  You may spend 1 spell point when using this ability; the target treats other creatures as having total concealment (50% miss chance) for 1 round (Will negates; determine the saving throw DC using your Dark sphere or Guardian sphere DC, whichever is higher). A successful saving throw prevents this increased concealment (but not the altered challenge penalties).  
+* **Ecliptic Patrol (requires (patrol) package):** The area of your //patrol// is treated as a //gloom// you created for the purposes of other abilities and effects (such as your //cloak// ability and conflicting with light effects); this does not alter the light level or carry any other effects of your //gloom//, and if suppressed by a light effect or otherwise dispelled, does not end your //patrol//. In addition, when beginning a //patrol//, you may spend 1 spell point to cast a //gloom// centered on yourself with a radius equal to your //patrol’s// radius and the Clinging Darkness following darkness option (even if you do not have the Clinging Darkness talent); this casting does not provoke attacks of opportunity. This //gloom// lasts until the end of your next turn, and its duration is extended until the end of your next turn if you //patrol// again. You must pay any additional spell point costs for the //gloom// or its options as appropriate.
+
+++++ Umbral Transposition (Dual Sphere)
+
+**Prerequisites:** Dark sphere, Warp sphere.
+
+**Benefit:** You gain the following abilities based on the Dark sphere and Warp sphere talents you possess:
+
+* **Dark Room (requires Extradimensional Room (space)):** When using the Extradimensional Room talent, the entrance is obscured by a //gloom//, which covers the portal’s entrance (you may apply options to this //gloom// normally, paying any additional spell point costs for the //gloom// or its options as appropriate). Creatures inside the room can look outside of the portal unhindered by the //gloom//. If the portal was created within a darkened area, the portal requires a Perception check to spot (as though searching for secret doors). If you possess the insinuate option, you may choose to have the portal obscured by the insinuate option regardless of the area’s light level.  
+* **Extradimensional Shadow (requires Extradimensional Storage (space), Shadow Stash):** Your Extradimensional Storage and //shadow stash// becomes a single extradimensional space (instead of separate effects). Add your Extradimensional Storage’s weight limit to your //shadow stash//. This combined extradimensional space is treated as and may be interacted with as though it was both the Extradimensional Storage talent and the //shadow stash// sphere ability, such as using feats like World In Miniature to create elements, donning items with the shadow armory option, and so on. If using the shadow armory option, equipment in your combined extradimensional space resizes to fit your form (if desired). The combined extradimensional storage is treated as both a Dark sphere and Warp sphere effect (whichever is more advantageous for the caster, including using the greater of your Dark and Warp sphere caster levels to determine both talents’ weight capacities).  
+* **Shadow Warp (requires Traveler’s Darkness, caster level 5):** Your step through darkness (meld) is treated as a Warp sphere //teleport// effect and may be modified by Warp sphere options that alter how //teleport// functions (but not when the //teleport// is used, such as Imbue Teleport, Recall, or Segmented Warp). If a Warp sphere option would require additional spell points or increase the casting time, the target must spend those spell points or increase the casting time when using step through darkness’s teleportation. If an option incompatible with the Quick Teleport talent would be used with a step through darkness modified this way, the step through darkness effect is used as a standard action (and then modified normally).  
+* **Slip Into Darkness:** Whenever you create a //gloom//, you may spend 1 additional spell point to also //teleport// into a square occupied by the //gloom//.  
+* **Transpose Gloom (requires Clinging Darkness):** Whenever you would //teleport// while within a //gloom// you created, you may spend 1 additional spell point to move that //gloom//; if you do, the //gloom// is centered on yourself in the square you teleport into.  
+* **Yawning Passage (requires Traveler’s Darkness, Wormhole (space)):** You may spend 1 additional spell point when using the Wormhole (space) talent. If you do, the connected wormholes are treated as a single //gloom// with the dark passage (blot) option, creating a single linked blot on the floor of each square. Creatures are entitled to a Reflex saving throw to avoid falling in (as per the dark passage (blot)), with a failure causing the creature to fall into the wormhole, becoming prone in a connected wormhole of the caster’s choice.
+
+  If you possess the insinuate option, the wormholes are not immediately noticed when a creature would be affected (while a creature could notice that someone fell in, they would not be immediately notified of the wormhole; a creature that fell into a wormhole this way gains a #10 bonus to notice the wormhole they were transported to).
+
+++ Teamwork Feats
+
+++++ Twilight Adept (Teamwork)
+
+//Light and shadow interplay and create one another. Through practice and patience, your magics no longer impede one another.//  
+**Prerequisites:** Dark sphere or Light sphere.
+
+**Benefit:** Your Dark sphere and Light sphere effects are not treated as conflicting effects against similar effects created by an ally with this teamwork feat (and vice versa). If both sphere effects modify the light level, the light level in the overlapping area defaults to the ambient light level.
+
+The MSD of an overlapping Dark sphere and Light sphere effect benefiting from this feat increases by #2.
+
++ Archetypes Utilizing the Polished Dark Sphere
+(placeholder)
+
+[[/tab]]
+[[/tabview]]
