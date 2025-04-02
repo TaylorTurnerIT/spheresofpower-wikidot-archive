@@ -1,5 +1,10 @@
 title:Elementalist
-parent:spheres-of-power
+[[module CSS]]
+.colored-links span > a {
+  color: inherit;
+}
+[[/module]]
+
 [[module CSS]]
 .noselect {
   -webkit-touch-callout: none; /* iOS Safari */
@@ -14,14 +19,18 @@ parent:spheres-of-power
 
 [[toc]]
 
+[[tabview]]
+[[tab Ultimate]]
 [[div class="noselect" style="float:right; width: 20%; padding: 0 2%"]]
 [[=]]
-[[image http://spheresofpower.wikidot.com/local--files/test-page/Spheres_of_Power.jpg link="https://www.drivethrurpg.com/product/129448/Spheres-of-Power?affiliate_id=549120"]]
-**Spheres of Power**
-$19.99
+[[image http://spheresofpower.wikidot.com/local--files/test-page/UltimateSpheresofPower.jpg link="https://www.drivethrurpg.com/product/300249/Ultimate-Spheres-of-Power?affiliate_id=549120"]]
+**Ultimate Spheres of Power**
+$29.99
 ----
 [[/=]]
 [[/div]]Elementalists specialize in the command and control of elemental magic, using it to control the battle area, protect allies, and rain destruction down upon their foes.
+
+**Role:** Elementalists are magical warriors, wielding elemental damage with the same skill and tactical precision a fighter might wield their sword or bow.
 
 **Alignment:** Any
 
@@ -29,16 +38,15 @@ $19.99
 
 **Starting Wealth:** 3d6 x 10 gp (average 105 gp). In addition, each character begins play with an outfit worth 10 gp or less.
 
-**Class Skills:** The elementalist’s class skills are Acrobatics (Dex), Bluff (Cha), Climb (Str), Craft (Int), Escape Artist (Dex), Fly (Dex), Intimidate (Cha), Knowledge (Arcane; Int), Perception (Wis), Profession (Wis), Spellcraft (Int), Stealth (Dex), Survival (Wis), and Swim (Str).
+**Class Skills:** The elementalist’s class skills are Acrobatics (Dex), Bluff (Cha), Climb (Str), Craft (Int), Escape Artist (Dex), Fly (Dex), Intimidate (Cha), Knowledge (arcana) (Int), Knowledge (nature) (Int), Knowledge (planes) (Int), Perception (Wis), Profession (Wis), Spellcraft (Int), Stealth (Dex), Survival (Wis), and Swim (Str).
 
 **Skill Ranks Per Level:** 4 + Int modifier.
 
 + Class Features
-
 **Table: The Elementalist**
-||~ Level ||~ Base Attack Bonus ||~  Fort Save ||~  Ref Save ||~  Will Save ||~ Special ||~ Base Caster Level ||~  Magic Talents || 
+||~ Level ||~ Base Attack Bonus ||~ Fort Save ||~ Ref Save ||~ Will Save ||~ Special ||~ Caster Level ||~ Magic Talents ||
 || 1st || +0 || +2 || +2 || +2 || Casting, spell pool, weave energy || +0 (1) || 0 (+2) || 
-|| 2nd || +1 || +3 || +3 || +3 || Evasion, combat feat || +1 || 1 || 
+|| 2nd || +1 || +3 || +3 || +3 || Combat feat, evasion || +1 || 1 || 
 || 3rd || +2 || +3 || +3 || +3 || Favored element || +2 || 2 || 
 || 4th || +3 || +4 || +4 || +4 || Dodge bonus +1 || +3 || 3 || 
 || 5th || +3 || +4 || +4 || +4 || Elemental defense || +3 || 3 || 
@@ -57,41 +65,41 @@ $19.99
 || 18th || +13/+8/+3 || +11 || +11 || +11 || Combat feat || +13 || 13 || 
 || 19th || +14/+9/+4 || +11 || +11 || +11 || Elemental movement || +14 || 14 || 
 || 20th || +15/+10/+5 || +12 || +12 || +12 || Dodge bonus +5, energy body || +15 || 15 || 
-
+[[f>image http://spheresofpower.wdfiles.com/local--files/elementalist/Elementalist.png]]
 ++ Weapon and Armor Proficiency
-An elementalist is proficient with all simple weapons and light armor.
+An elementalist is proficient with all martial and simple weapons and light armor.
 
 ++ Casting
-An elementalist may combine spheres and talents to create magical effects. An elementalist is considered a Mid-Caster and uses Charisma as his casting stat modifier. (Note: All casters gain 2 bonus talents and may select a casting tradition the first time they gain the casting class feature.)
+An elementalist may combine spheres and talents to create magical effects. An elementalist is considered a Mid-Caster. (Note: All casters gain 2 bonus talents and a casting tradition the first time they gain the casting class feature.)
 
 ++ Spell Pool
-An elementalist gains a small reservoir of energy he can call on to create truly wondrous effects, called a spell pool. This pool contains a number of spell points equal to his class level + his Charisma modifier (minimum: 1). This pool replenishes once per day after roughly 8 hours of rest.
+An elementalist gains a small reservoir of energy he can call on to create truly wondrous effects, called a spell pool. This pool contains a number of spell points equal to his class level + his casting ability modifier (minimum 1). This pool replenishes once per day after roughly 8 hours of rest.
 
 ++ Magic Talents
-An elementalist gains 1 magic talent every time he gains a caster level, according to Table: Elementalist. This does not stack with caster levels gained from other sources.
+An elementalist gains 3/4ths of a magic talent per level, according to Table: The Elementalist.
 
 ++ Weave Energy
-An elementalist gains the [[[Destruction]]] sphere as a bonus magic talent and uses his class level as his caster level with the Destruction sphere. This stacks normally with caster levels gained from other sources.
+An elementalist gains the Destruction sphere as a bonus magic talent and uses his class level as his caster level with the Destruction sphere. This stacks normally with caster levels gained from other sources.
 
 ++ Evasion (Ex)
-At 2nd level an elementalist learns to avoid damage from many area-effect attacks. If an elementalist makes a successful Reflex saving throw against an attack that normally deals half damage on a successful save, he instead takes no damage. Evasion can be used only if the elementalist is wearing light armor or no armor and carrying no more than a light load. A helpless elementalist does not gain the benefit of evasion.
+At 2nd level an elementalist learns to avoid damage from many area-effect attacks. If an elementalist succeeds at a Reflex saving throw against an attack that normally deals half damage on a successful save, he instead takes no damage. Evasion can be used only if the elementalist is wearing light armor or no armor and carrying no more than a light load. A helpless elementalist does not gain the benefit of evasion.
 
 ++ Combat Feat
 An elementalist’s martial focus grants him a bonus combat feat at 2nd level and every 4 levels thereafter, chosen from those for which he qualifies.
 
 ++ Favored Element (Su)
-At 3rd level, the elementalist chooses one damage type he may inflict with his [[[Destruction]]] sphere (the basic destructive blast, or a blast type talent he possesses). When creating a destructive blast of this type, it deals an additional +1/2 damage per elementalist level.
+At 3rd level, the elementalist chooses one blast type group from the Destruction sphere. When creating a destructive blast from this blast type group, it deals an additional +1/2 damage per elementalist level.
 
 At 9th and 15th level, the elementalist chooses an additional favored element, gaining the same bonus. In addition, the bonus granted by his previous favored elements increase by an additional +1/2 damage per elementalist level.
 
 ++ Dodge Bonus
-At 4th level, an elementalist gains a +1 dodge bonus to their AC. This increases by one for every 4 levels thereafter, to a maximum of +5 at 20th level.
+At 4th level, an elementalist gains a +1 dodge bonus to his AC. This increases by one for every 4 levels thereafter, to a maximum of +5 at 20th level.
 
 ++ Elemental Defense (Su)
-At 5th level, an elementalist gains resistance 5 to acid, electricity, fire, and frost. At 11th level, this resistance increases to 10. At 17th level, this resistance increases to 15.
+At 5th level, an elementalist gains resistance 5 to acid, cold, fire, and electricity. At 11th level, this resistance increases to 10. At 17th level, this resistance increases to 15.
 
 ++ Elemental Movement
-At 7th level, the elementalist gains one of the following: a 30 ft Swim speed, a 20 ft fly speed with maneuverability (average), a 15 ft burrow speed, or a +20 bonus to his base move speed. At 13th and 19th levels, the elementalist gains an additional elemental movement and all elemental movements possessed increase by 10 ft.
+At 7th level, the elementalist gains one of the following: a 30 feet swim speed, a 20 feet fly speed with maneuverability (average), a 15 feet burrow speed, or a +20 feet bonus to his base speed. At 13th and 19th levels, the elementalist gains an additional elemental movement and all elemental movements possessed increase by 10 feet.
 
 ++ Improved Evasion (Ex)
 At 11th level, an elementalist’s evasion ability improves. He still takes no damage on a successful Reflex saving throw against attacks, but henceforth he takes only half damage on a failed save. A helpless elementalist does not gain the benefit of improved evasion.
@@ -101,131 +109,161 @@ At 20th level, the elementalist’s body has become one with the energy he weave
 
 ----
 
-+ Feats
-The following are feats from Spheres of Power that are particularly relevant or useful for the Elementalist.
++ Favored Class Bonuses
 
-++++ Extra Electrokinetic Stunt
+**Aasimar:** Deal +1/2 damage to evil outsiders and undead with your destructive blasts.
 
-**Prerequisites:** Electrokinetic Stunt class feature
+**Cherufe:** All destructive blasts deal an additional +1/4 fire damage.
 
-**Benefit:** You gain an additional electrokinetic stunt for which you qualify. You may take this feat multiple times. The effects stack.
+**Cuazaj:** All destructive blasts deal an additional +1/4 electricity damage.
 
-++++ Extra Magic Talent [Core]
+**Dwarf:** +1 energy resistance to acid, cold, electricity, fire, or sonic (maximum 10 per energy type). This stacks with the energy resistance normally gained through this class or any other source.
 
-**Prerequisite:** Basic Magic Training or Casting class feature.
+**Elf:** +1 foot to one movement type the elementalist possesses. In combat, this only has an effect for every five increases to the movement’s speed.
+
+**Fenghuang:** Gain +1/6 of a dodge bonus to AC.
+
+**Gnome:** +1/6 of a magic talent.
+
+**Goblin:** Add +1/2 to damage rolls the elementalist makes with destructive blasts against an opponent he is flanking or an opponent that is denied its Dexterity bonus to AC.
+
+**Half-elf:** +1/6 bonus to all damage dealt with unarmed strikes.
+
+**Half-orc:** Increase the damage dealt with all destructive blasts not augmented by favored element by +1/2.
+
+**Halfling:** Gain +1/6 of a dodge bonus to AC.
+
+**Human:** Gain +1/6 of a bonus magic talent.
+
+**Merfolk:** Gain DR 1/piercing for every 6 times this benefit is taken.
+
+**Orc:** Deal an additional +1/2 bonus damage vs. objects when using a destructive blast.
+
+**Tiefling:** All destructive blasts deal an additional +1/4 negative energy damage. This extra negative energy damage has no effect on undead, or other targets normally healed by negative energy.
+----
++ Elementalist Feats
+The following feats are particularly appropriate or useful for elementalists.
+
+++++ Extra Magic Talent
+**Prerequisite:** Basic Magic Training or casting class feature.
 
 **Benefit:** Gain an additional sphere or a talent from a sphere you possess. You may take this feat multiple times. The effects stack.
 
-++++ Extra Spell Points [Core]
-
-**Prerequisite:** Spell Pool.
+++++ Extra Spell Points
+**Prerequisite:** Spell pool.
 
 **Benefit:** Your spell pool total increases by 2. You may gain this feat multiple times. The effects stack.
 
 ++++ Improved Favored Element
-
-**Prerequisites:** Two favored elements
+**Prerequisites:** Two favored elements.
 
 **Benefit:** Your second and third favored elements receive the same damage bonus as your first favored element.
 
-++++ Sphere Focus [Core]
+++++ Rebuff, Improved (Combat)
+**Prerequisites:** Destruction sphere (Rebuff (blast shape)).
 
+**Benefit:** Whenever a creature within range is the target of a ranged attack, you may spend a spell point as an immediate action to target the projectile with a destructive blast. Make an opposed attack roll using your caster level in place of your base attack bonus to destroy the projectile and negate the attack. Unusually massive projectiles (such as boulders or ballista bolts) and ranged attacks generated by natural attacks or spell effects are not affected by this ability.
+
+++++ Rebuff, Superior (Combat)
+**Prerequisites:** Destruction sphere (Rebuff (blast shape)), Improved Rebuff, improved evasion class feature.
+
+**Benefit:** When using the Rebuff talent to provide cover to allies, you also grant them the benefits of improved evasion.
+
+++++ Sphere Focus
 **Prerequisite:** Casting class feature.
 
-**Benefit:** Choose a sphere. You gain a +1 bonus to saving throw DCs for all abilities from that sphere. You may take this feat multiple times. The effects do not stack. each time it is gained, apply this benefit to a different sphere.
-
+**Benefit:** Choose a sphere. You gain a +1 bonus to saving throw DCs for all abilities from that sphere. You may take this feat multiple times. The effects do not stack. Each time it is gained, apply this benefit to a different sphere.
 ----
-
-+ Favored Class Bonuses
-
-++++ ##000000|Aasimar##
-Deal +1/2 damage to evil outsiders and undead with your destructive blasts.
-
-++++ ##000000|Dwarf##
-+1 energy resistance to acid, cold, electricity, fire, or sonic (maximum 10 per energy type), This stacks with the energy resistance normally gained through this class or any other source.
-
-++++ ##000000|Elf##
-+1 ft to one movement type the elementalist possesses. In combat, this only has an effect for every five increases to the movement’s speed.
-
-++++ ##000000|Gnome##
-+1/6th of a magic talent.
-
-++++ ##000000|Goblin##
-Add +1/2 to damage rolls the elementalist makes with destructive blasts against an opponent he is flanking or an opponent that is denied its Dexterity bonus to AC.
-
-++++ ##000000|Half-Elf##
-+1/6 bonus to all damage dealt with unarmed strikes.
-
-++++ ##000000|Half-orc##
-Increase the damage dealt with all destructive blasts not augmented by favored element by +1/2.
-
-++++ ##000000|Halfling##
-Gain +1/6 of a dodge bonus to AC.
-
-++++ ##000000|Human##
-Gain +1/6th of a bonus magic talent.
-
-++++ ##000000|Merfolk##
-Gain DR 1/piercing for every 6 times this benefit is taken.
-
-++++ ##000000|Orc##
-Deal an additional +1/2 bonus damage vs objects when using a destructive blast.
-
-++++ ##000000|Tiefling##
-All destructive blasts deal an additional +1/4 negative energy damage. This extra negative energy damage has no effect on undead, or other targets normally healed by negative energy.
-
-----
-
+[[div class="colored-links"]]
 + Archetypes
+The following are archetypes that elementalists can select.
 
-++ -[[[Admixture Savant]]]
-The Admixture Savant is an expert in the use of the Admixture ability from the [[[Destruction]]] sphere, with class abilities that allow them to use it more effectively than others.
+++ [[[Admixture Savant]]]
+Admixture savants specialize in mixing blast types together to create more potent blasts.
 
-++ -[[[Arcanophage]]]
+++ [[[Arcanophage]]]
 The Arcanophage specializes in mimicking the powers they've seen - but the more they imitate, the higher the chance of triggering [[[Wild Magic]]] becomes!
 
-++ -[[[Earth Warrior]]]
-The Earth Warrior loses some of the Elementalist's versatility to focus on the use of Stone Blasts from the [[[Destruction]]] sphere and the Earth package from the [[[Nature]]] sphere.
+++ ##00c000|[[[Arcanopulser]]]## [CS]
+The Arcanopulser is a Champion that can use the [[[Mana]]] sphere to create pulsating shots of power.
 
-++ -[[[Electrokinetic]]]
-The Electrokinetic specializes in the use of electric abilities and the [[[Telekinesis]]] sphere, gaining a selection of special stunts to help them make the most of their abilities.
+++ [[[Earth Warrior]]]
+Earth warriors specialize in manipulating the earth for offense, defense, and movement.
 
-++ -[[[Flame Warrior]]]
-The Flame Warrior loses some of the Elementalist's versatility to focus on the use of Fire Blasts from the [[[Destruction]]] sphere and the Fire package from the [[[Nature]]] sphere.
+++ [[[Electrokinetic]]]
+Electrokinetics master electric blasts to hurl lightning at their foes.
 
-++ -[[[Geomancer]]]
-The Geomancer is a generalist archetype that switches some of the Elementalist's focus on [[[Destruction]]] for broader ability with the [[[Nature]]] sphere.
+++ [[[Elemontalist]]]
+Elemontalists are proud warriors of the citric arts, drawing powerful and refreshing might from the most powerful of scurvy deterrents.
 
-++ -[[[Soul Adept]]]
-Soul Adepts use the [[[Death]]] sphere to gain greater power over spirits.
+++ [[[Flame Warrior]]]
+Flame warriors are experts at manipulating fire to serve their purposes.
 
-++ -[[[Twinsoul Elementalist]]]
-The Twinsoul Elementalist uses the [[[Conjuration]]] sphere to summon a splinter of themselves that can channel their power.
+++ [[[Geomancer]]]
+Geomancers trade their mastery of destruction for control over the [[[Nature]]] sphere.
 
-++ -[[[Water Warrior]]]
-The Water Warrior loses some of the Elementalist's versatility to focus on the use of Frost Blasts from the [[[Destruction]]] sphere and the Water package from the [[[Nature]]] sphere.
+++ ##00c000|[[[Martial Elementalist]]]## [CS]
+Martial elementalists are capable of using the combat spheres.
 
-++ -[[[Wind Warrior]]]
-The Wind Warrior loses some of the Elementalist's versatility to focus on the use of Air Blasts from the [[[Destruction]]] sphere. Unlike the other three Warrior archetypes, the Wind Warrior does not gain added ability with the [[[Nature]]] sphere, and instead gains improved ability to make Bull Rushes with their Air Blasts.
+++ [[[Metal Warrior]]]
+Metal warriors can conduct electrical power through their bodies to shock their foes.
 
-**Archetype Compatibility**
-||~  ||~  Weapon & Armor Proficiency ||~ Weave Energy ||~ Evasion ||~ Combat Feats ||~ Favored Element  ||
-||~ Admixture Savant ||  ||  || X || X || X ||
-||~ Earth Warrior ||  ||  ||  ||  || X ||
-||~ Electrokinetic ||  || X ||  ||  || M ||
-||~ Flame Warrior ||  ||  ||  ||  || X ||
-||~ Geomancer ||  || X ||  ||  || X ||
-||~ Water Warrior ||  ||  ||  ||  || X ||
-||~ Wind Warrior ||  ||  ||  ||  || X ||
-||~  ||~ Dodge Bonus ||~ Elemental Defense ||~ Improved Evasion ||~ Elemental Movement ||~ Energy Body ||
-||~ Admixture Savant || X ||  || X ||  || X ||
-||~ Earth Warrior ||  || M ||  || X || X ||
-||~ Electrokinetic ||  || M ||  || M ||  ||
-||~ Flame Warrior ||  || X ||  || X || X ||
-||~ Geomancer ||  ||  ||  ||  ||  ||
-||~ Water Warrior ||  || X ||  || X || X ||
-||~ Wind Warrior ||  || X ||  || X || X ||
-^^Guide: M = Modifies, X = Replaces, Blank = No Change^^
+++ [[[Natural Warrior]]]
+Natural warriors manipulate chemical acids and are at home in natural environments.
+
+++ [[[Sablesavant]]] [DRS]
+Sablesavants mix and swirl their destructive magics with cloying darkness. This archetype uses the [[[Polished Dark]]] sphere rework.
+
+++ [[[Soul Adept]]]
+Soul adepts focus on etheric energies and manipulate the powers of [[[Death]]].
+
+++ [[[Tenebrous Stalker]]]
+Tenebrous stalkers are elementalists who specialize in [[[Dark]]] and [[[Illusion]]].
+
+++ [[[Twinsoul Elementalist]]]
+Twinsoul elementalists create elemental conduits that act as companions.
+
+++ [[[Water Warrior]]]
+Water warriors can manipulate water well and are resistant to damage from the cold.
+
+++ [[[Wind Warrior]]]
+Wind warriors shape the air to strike at their foes and shield their bodies.
+----
++ Class Equipment
+The following magical items are especially appropriate for elementalists.
+
+++++ Elemental-Attuning Pendant [TS:WAT]
+**Aura** moderate Destruction and Protection; **CL** 7th
+**Slot** neck; **Price** 22,000 gp; **Weight** 2 lbs.
+
+This golden pendant has four gems on it. When worn by a creature with the elemental defense ability, that creature may spend an immediate action to reduce the energy resistance of three of their elemental defense’s types to 0, and increase the remaining type of energy resistance by the amount reduced. This never becomes immunity. This change lasts for one full round, after which the enhanced energy resistance returns to its normal amount and the other energy resistances become 5 less than they were before the user activated this pendant. This change lasts until the pendant is used again or until 1 hour passes; if the hour passes, then the wearer’s elemental defense ability returns to its normal amounts for each energy resistance.
+
+**Construction Requirements**
+Craft Marvelous Item, Destruction sphere, Protection sphere (Energy Resistance (aegis, ward)), creator must have the elemental defense ability; **Cost** 11,000 gp
+
+++++ Energy-Weaving Gauntlets [TS:WAT]
+**Aura** moderate Destruction; **CL** 8th
+**Slot** hands; **Price** 16,000 gp; **Weight** 1/2 lbs.
+
+These fine cloth gloves are decorated with runes of power. When a character with the favored element class feature uses a destructive blast with their favored element, they may replace any effect except changing the damage dice with the non-dice effects of another blast type they have that is also associated with their favored elements, although they must pay any additional spell point costs (if necessary). For example, an elementalist with the acid and fire favored elements could replace the penalty on Fortitude saves caused by the Blistering Blast (blast type) talent with the lingering acidic damage from the Acid Blast (blast type) talent. If the wearer of these gloves is using the Admixture talent, they may replace one or both additional effects, subject to the limitations described above.
+
+**Construction Requirements**
+Craft Apparatus, Destruction sphere (Admixture), creator must have the favored element ability; **Cost** 8,000 gp
+
+++++ Nature-Walking Boots [TS:WAT]
+**Aura** faint Nature and Protection; **CL** 5th
+**Slot** feet; **Price** 8,000 gp; **Weight** 2 lbs.
+
+These boots are rugged and durable, suitable for use in all types of different environments. While wearing these, a creature with the elemental movement class feature gains 5 additional energy resistance against the opposite of their form of movement while using that form of movement. Swimming improves fire resistance, flying improves acid resistance, burrowing improves electricity resistance, and land movement improves cold resistance.
+
+**Construction Requirements**
+Craft Apparatus, Nature sphere, Protection sphere (Energy Resistance (aegis, ward)), creator must have the elemental movement ability; **Cost** 4,000 gp
+[[/div]]
+[[/tab]]
+[[tab Original]]
+[[include old-elementalist]]
+[[/tab]]
+[[/tabview]]
 
 ----
 
