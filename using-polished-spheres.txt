@@ -1,0 +1,190 @@
+title:Using Polished Spheres
+[[module CSS]]
+.colored-links span > a {
+  color: inherit;
+}
+[[/module]]
+
+[[module CSS]]
+.noselect {
+  -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome and Opera */
+}
+[[/module]]
+
+[[toc]]
+
+[[tabview]]
+[[tab Polished Dark]]
+[[div class="noselect" style="float:right; width: 20%; padding: 0 2%"]]
+[[=]]
+[[image http://spheresofpower.wikidot.com/local--files/test-page/DRS_Polished_Spheres_Dark_Sphere.png link="https://www.drivethrurpg.com/en/product/497811/diamond-polished-spheres-dark-sphere?affiliate_id=549120"]]
+**Polished Dark**
+$7.99
+----
+[[/=]]
+[[/div]]
+As part of the Polished Spheres project, clearly defining terms is important. This section introduces the terms and other basic rules used by a Polished Sphere.
+
+Polished Spheres are expansions to their related systems (//Spheres of Might//, //Spheres of Power//, and //Spheres of Guile//), and are not intended to replace the full rules of that system. However, rules presented as part of a Polished Sphere are intended to supersede the previous rulings where relevant (i.e. the defined universal spell tags, clarifying concentration, or creating new terms and keywords such as option and augment).
+
+----
+
+++ Polished Sphere General Terms
+
+The following terms are used as part of a Polished Sphere; these terms are presented from high level to low level (i.e. a sphere, all the way to a single augment).
+
+* **Sphere**: A sphere defines a group of talents belonging to a specific “school” or category including combat, magic, or skill-related spheres. A sphere grants sphere abilities and characters may allocate talents into that sphere to gain new options. A sphere is referred to as a capitalized term – i.e. Berserker sphere, Dark sphere.  
+* **Sphere Ability**: A sphere ability is an ability granted by a sphere that allows a character to use certain abilities and effects. Sphere abilities have a required action or otherwise note how they are used, and are then further modified by options. A sphere ability is referred to in italics – i.e. //brutal strike//, //gloom//.  
+* **Sphere Effect**: A sphere effect is the result of using a sphere ability, i.e. casting a sphere ability, using a sphere ability as part of an attack action, and so on. Sphere ability and sphere effect may occasionally be used interchangeably to refer to the results of a sphere ability (or as a sphere ability’s effects, and so on).
+
+  Certain effects, options, and other abilities interact or otherwise modify sphere effects, and do so by modifying the use of the sphere effect (directly modifying the use of the sphere ability) or the output of the sphere effect (i.e. the amount of damage dealt, the saving throw DC, and so on). A sphere effect is referred to either in reference to the sphere it belongs to – i.e. “Dark sphere effect”, or as part of a category of spheres, i.e. a “magic sphere effect”.
+
+  For combat and skill spheres, a sphere effect is the result of using a sphere ability, either to modify an attack, utilize a skill, maneuver, or otherwise. For example, a class may regain martial focus after dealing damage with a combat sphere effect, or be allowed to make certain checks or take movement after certain circumstances caused by a skill sphere effect.
+
+  For magic spheres, a sphere effect is equivalent to a spell (subject to transparency and GM discretion). For example, a sorcerer’s bloodline arcana may add additional damage dice to a spell (or sphere effect, in this case).  
+* **Talent**: A talent is a selection chosen when a character gains a talent either through class levels, traditions, feats, or other sources. Talents may be selected once the character possesses the base sphere (unless otherwise stated). Talents can grant any number of effects, including new sphere abilities or new options. A specific talent is referred to as a capitalized term either by itself or alongside its related sphere – i.e. Berserker sphere Advancing Carnage or Deeper Darkness.
+
+  When gaining a new talent, that talent is gained as either a combat talent, magic talent, or skill talent and must be used to select a relevant sphere of that kind. Certain abilities may say “gains the Dark sphere as a bonus sphere”, which grants either the base sphere if the character does not already possess it, or grants a talent of the character’s choice belonging to that sphere.  
+* **Option**: Options are the many effects and alterations to sphere abilities granted by a talent. Options are optional, and unless an ability specifies that an option must be used, a character chooses whether or not to use an option as part of using a sphere ability. An option cannot be added to a sphere effect after it has been created (such as while concentrating on it, after spending a spell point to let it continue without concentration, and so on).
+
+  Options either modify how a sphere ability is used, such as modifying casting variables or adding new effects. Certain options may have a universal spell tag (i.e. [strike]) or a sphere-specific tag that modifies a specific sphere ability (such as a (blot) or (darkness) modifying the //gloom// sphere ability). An option with a tag will have its own rules as indicated by that sphere. An option is referred to in lower case – i.e. bone breaker (exertion) or extinguish.  
+* **Augments**: Augments are similar to options, except they are usually additional costs or modifications to a specific option. Augments will list their resource cost, if any, and may have a specific name associated with it. Augments are referred to in lower case – i.e. the staging area augment (belonging to the evocative darkness (blot, darkness) option).
+
+++ Polished Magic Spheres
+
+**Concentration:** When possible, a Polished magic sphere ability will have the option to be concentrated on or to continue without concentration (usually by spending a spell point). Concentration functions normally with Polished spheres as it does under //Spheres of Power//. It is a standard action to concentrate on a sphere ability (unless otherwise modified), and each round a character concentrates on a magic sphere ability, they must spend the necessary actions to concentrate on the ability before the end of their turn. Failing to spend the necessary action by the end of the character’s turn causes the sphere ability’s effects to end.
+
+If a magic sphere ability could be continued without concentration (i.e. the sphere ability notes “Duration: concentration; #1 sp, 1 hour/caster level”), the caster may spend the listed cost as a free action during their turn to cause the sphere ability to continue without concentration (and cannot continue to concentrate on the effect).
+
+Once a sphere ability is no longer being concentrated on, either because the caster chooses to not concentrate on it, loses concentration (such as failing a concentration check), spends a spell point to allow the effect to continue without concentration, and so on, the caster cannot resume concentrating on the sphere ability. The sphere effect continues for its listed duration or ends.
+
+**Spending Spell Points:** When using a sphere ability, all options are determined when the sphere ability is used (cast) and all costs, including spell point costs, augmentation and other option costs, and or other abilities costs and resources are spent as part of using that sphere ability (i.e. all options, all augments, and so on).
+
+++ Universal Spell Tags
+
+In addition to the normal spell descriptors, such as compulsion, darkness, or teleportation, certain sphere talents and options have spell tags which denote specific functions. Most spell tags share basic functions between spheres (i.e. each [strike] option functioning the same) but may specify how they work with greater detail.
+
+Universal spell tags are denoted by closed brackets (i.e. [strike]), whereas sphere-specific tags are denoted in parenthesis (i.e. (darkness)).
+
+**Note - Sphere Virtuoso:** The Sphere Virtuoso feat (//Ultimate Spheres of Power//) allows a character to treat themselves as though they possessed every ability with a given universal spell tag, provided that they possess two instances of the spell tag from two different spheres (i.e. having the [range] ability from both the Alteration sphere and Time sphere). This feat functions normally, but only grants the corresponding universal spell tag options (not every ability granted by the talent).
+
+The universal spell tags for Polished Spheres of Power are as follows:
+
+++++ **[control]**
+A [control] option grants a sphere ability that, instead of creating a new sphere effect, allows the user to further interact with an existing sphere effect (such as moving or turning the sphere effect, changing its parameters, etc); this is referred to as a [control] ability.
+
+Using a [control] ability does not provoke an attack of opportunity for casting a spell unless the caster would spend 1 or more spell points to use the [control] ability (such as spending spell points for the [control] ability’s augments). Unless otherwise stated, using a [control] ability requires the caster to use (and comply with) their casting tradition, such as being unable to cast while shaken with Emotional Casting, making a skill check for Skilled Casting, a concentration check for Coy Caster, fulfilling verbal components for Verbal Casting, and so on.
+
+++++ **[dual]**
+A [dual] option allows the user to choose two different sphere-specific tags by spending 1 additional spell point, instead of being limited to 1 sphere-specific tag (such as applying two (darkness) abilities to a single Dark sphere //gloom//). Certain [dual] options may have additional rules or conditions, as noted in the option.
+
+++++ **[duration]**
+A [duration] option increases the duration which the caster’s sphere abilities continue, including when allowed to continue without concentration by spending 1 spell point. Sphere ability durations increase as follows: 1 round > 1 round per caster level > 1 minute per caster level > 10 minutes per caster level > 1 hour per caster level. Unless specified, a [duration] option does not increase a sphere ability’s duration beyond 1 hour per level but may be available through certain effects.
+
+Many [duration] options also allow a sphere ability to continue for 2 rounds after concentration ceases (noted in the sphere ability’s stat line as “concentration #2 rounds”); this allows a caster to create a sphere effect, choose to concentrate (or not concentrate) on the effect, and then optionally allow the sphere ability’s effects to persist for an additional 2 rounds once concentration ends. The caster may choose to allow a sphere ability to persist when concentration is ended for any reason.
+
+++++ **[gather]**
+A [gather] option allows the caster to increase the casting time of a sphere effect by #1 step to reduce its spell point cost by -1 spell point. Sphere ability casting time increases as follows: swift action > move action > standard action > full-round action > 1 round > 1 minute > 10 minutes > 1 hour.  Unless otherwise stated, a caster may only create a single effect using a [gather] option at a given time for each respective sphere (i.e. one spell point-reduced Creation sphere effect, Dark effect, and so on, but not multiple of a single sphere). Using a [gather] option again immediately ends a previously created effect created using that [gather] option.
+
+++++ **[instill]**
+An [instill] option allows the caster to impart a sphere effect into a consumable item (such as an oil, potion, etc.) (the “instilled item”).
+
+Creating an [instill] effect is always a range of touch to bestow the sphere effect into the consumable item (and may allow personal range effects to be instilled and handed to other creatures). All spell points, variables, and decisions for the sphere effect must be chosen at the time the instilled item is created. A caster cannot create multiple instilled items as part of a single action. To instill a sphere effect, the sphere effect must target one or more creatures, and even if the sphere effect could affect multiple targets, the resulting instilled item only affects a single target (i.e. the user, imbiber, target object, etc.). Effects that would reduce the spell point cost of the sphere effect cannot be used with an [instill] option.
+
+Items or consumables that already have an effect when used, applied, imbibed, etc. cannot be instilled (i.e. you cannot instill an alchemist’s fire or existing potion with additional effects).
+
+Once created, an instilled item is treated as a potion or oil and is consumed or used the same way. An instilled item remains potent until the caster rests to regain spell points. An instilled item may also be thrown as a standard action, as though using the rules for throwing a splash weapon, except only affecting a target with a direct hit (as though the target used or imbibed the instilled item, and not affecting other nearby creatures).
+
+If the caster has equipment on hand, the cost of bottles, liquid, etc. is considered negligible and is waived. Otherwise, the caster may require appropriate objects to instill (such as waterskins, goblets, oils and gels, etc.).
+
+++++ **[mass]**
+A [mass] option allows the caster to target multiple areas or targets, usually by spending 1 additional spell point. A sphere effect created with a [mass] option is concentrated on as a single sphere effect but is individually dispelled. When allowed to continue without concentration, the sphere effect is paid for a single time and each created sphere effect continues to exist independently. If a sphere effect would allow the caster to make choices or modifications (such as adding effects, spending spell points for augmentations, etc.) are each paid for as a single sphere effect, and all such choices or modifications are identical between the created effects (unless otherwise stated).
+
+For example, a Dark sphere //gloom// created with the dappled shadows option can create numerous //glooms//, which would each have the same (blot) or (darkness) abilities chosen, and any spell points spent on augmentations for that //gloom// are spent for the entire effect. 
+
+++++ **[range]**
+A [range] option increases the range which the caster’s sphere abilities can target or reach. Sphere ability ranges increase as follows: touch > close > medium > long > extra long (1000 ft. # 100 ft./cl).  Unless otherwise stated, a [range] option does not increase a sphere ability’s range beyond long but may be available through other effects. A sphere ability with range “personal” does not have its range increased by a [range] option unless specified by another ability or effect.
+
+++++ **[strike]**
+A [strike] option grants the caster a single weapon attack that, if successful, causes the target struck by the weapon attack to be targeted by the sphere ability. This casting uses the effective range (range, reach, etc.) of the weapon being used to make the attack and not the sphere’s normal range. The weapon attack (and subsequent delivery of the sphere effect) is performed immediately after successfully casting the sphere effect - this occurs after the caster fulfills any requirements of their casting tradition (such as fulfilling somatic components, rolling for spell failure, concentration checks to cast defensively, etc.). If the weapon attack misses the target, the sphere ability is wasted (including any spell points or other resources spent for that sphere ability).
+
+If using a weapon with the scatter weapon property (or a weapon that could otherwise hit multiple targets as part of a single attack), the sphere ability is applied to a single struck target chosen when making the attack.
+
++++++ //Other [Strike] Option Interactions://
+
+* **[Strike] Options and Critical Hits**: A [strike] option’s effects are delivered after the successful weapon attack and are not considered to be part of the weapon attack’s base damage for the purposes of multiplying damage on a critical hit.  
+* **[Strike] Options and Combat Maneuvers**: A [strike] option can be delivered by a successful weapon attack (including combat maneuvers). Pathfinder allows, under certain circumstances, an attack to be replaced with a combat maneuver (primarily disarm, sunder, or trip). When replacing an attack with a combat maneuver as part of delivering a [strike] option, the [strike] option affects the target if the combat maneuver succeeds. If performing the sunder combat maneuver with a [strike] option, the sundered equipment is treated as “the target struck” and affected by the [strike] option, rather than its wielder.
+
++ Polished Sphere Rules
+
+++ Additional Sphere Abilities
+
+Some talents may grant new or additional sphere abilities that are separate from the sphere’s base abilities or grant a separate action to interact with one of those base abilities (i.e. talents with the [control] universal spell tag\]. Additional sphere abilities often are part of other categories of rules, such as the Shadow Stash talent granting the //shadow stash// constant sphere ability or the Shaped Darkness talent granting //rolling blackout// and //shifting shadows//, which have the [control] universal spell tag.
+
+Many additional sphere abilities granted this way may have exceptions to how they behave, such as whether they are limited by the user’s casting tradition, whether using the sphere ability provokes attacks of opportunity and so on.
+
+++ Advanced Talents
+
+Advanced talents are presumed to be available by GM discretion only. Many effects produced by advanced talents range from having major setting implications (such as creating water from nothing) to simply being powerful (such as additional powerful teleportation effects, shadow clones, and miles-wide effects).
+
+When an advanced talent offers multiple abilities or options as part of a single talent, GMs are encouraged to individually allow and disallow individual abilities from an advanced talent if they would be comfortable with one effect, but not another, granted by that talent. If a majority of the advanced talent would be disallowed, it is recommended to add the allowed portions of that talent to another relevant talent (such as, using the Polished Dark sphere as an example, if everything but the Absolute Darkness lightless penumbra option was to be disallowed, adding the lightless penumbra option to another similar advanced talent).
+
+GMs are further encouraged to “remix” and reorganize the abilities granted by both basic and advanced talents, depending on their setting and needs, but should consider the default arrangement of an advanced talent to be the presumed and intended strength, breadth, and depth of the talents offered in this book.
+
+**Additional Talent Prerequisites**: Many of the advanced talents and options included in this section list their initial prerequisites, which allow a character to qualify and select that talent. In addition to any prerequisites required to select an advanced talent, some abilities or options (new abilities, improvements to previous abilities, etc.) may list an additional prerequisite on the ability or option itself, including requiring certain talents or caster level in the respective sphere. Using the Polished Dark sphere as an example, the Absolute Darkness lightless penumbra option also requires the character to have the Cloaking Darkness talent (in addition to the normal prerequisites for Absolute Darkness).
+
+++ Conflicting Effects
+
+Some effects are diametrically opposed to one another (and as such, cannot exist simultaneously within the same space, counter one another, etc.). For example, magical darkness and magical light effects or multiple polymorph effects applied to the same target.
+
+Whenever a conflicting effect would be used within, brought into, or cast into the area, the caster or owner of the “new” effect must succeed at a magic skill check against the MSD of the original effect. If successful, the new effect is produced as normal and the original effect is either suppressed for the effect’s duration or dispelled (as noted for the specific conflicting effects). Time spent suppressed counts normally against the effect’s duration.
+
+When an effect is suppressed, either partially (due to overlapping area of effects) or fully (as a targeted effect), the effect cannot be manipulated or targeted by other effects, except those to dismiss or dispel the effect. For example, a Dark sphere //gloom// that has been suppressed, even partially, cannot be moved using the Rolling Blackout [control] ability but could be dispelled or dismissed by the caster.
+
+Conflicting abilities suppress one another in different ways:
+
+- **Area of Effects**: A conflicting effect that produces an area of effect, when suppressed, does not affect the overlapping area of the new effect. If either effect would move, the overlapping areas of effect suppress (or become unsuppressed) as appropriate.
+
+  For example, an existing Dark sphere //gloom// is suppressed by a Light sphere //glow//. The //gloom//’s area is suppressed in the squares the //glow// occupies or shares. If the //glow// would move, the //gloom//’s area that is no longer within the //glow//’s radius would be unsuppressed (or areas the //glow// moves into would then suppress previously active portions of the //gloom//’s area).  
+- **Targeted Effects**: Conflicting abilities that target may suppress one another (unless otherwise noted). If a conflicting effect fails to suppress the previously ongoing effect, it fails to take hold and the spell is wasted. For example, an existing Alteration sphere //shapeshift// is a conflicting effect with other //shapeshifts// and polymorph effects, unless otherwise specified. A new //shapeshift// would need to successfully suppress the target’s conflicting, ongoing effects to become active.
+
+  Unless otherwise noted, the caster of a new effect must succeed on their magic skill check to suppress and place a conflicting effect on a target, even if the caster was the owner of the original effect.
+
+++++ Constant Sphere Abilities
+
+Some class features, talents, and options may grant constant benefits in addition to any new actions or sphere augments that are uniquely not a permanent duration sphere effect (which must be cast and can be dispelled normally).
+
+**Overview:** Constant sphere abilities are magic effects that are treated as having been created and cast by the caster, but never require additional actions or resources to continue without concentration. The caster level of a constant sphere ability is equal to the caster’s relevant caster level in the sphere the constant sphere ability belongs to (unless otherwise noted), and is calculated using the caster’s current caster level with that sphere (i.e. a Dark caster’s //shadow stash// may fluctuate its capacity based on implements, temporary caster level bonuses, etc.). A constant sphere ability is noted in the ability’s spell block as “Duration: permanent (special: constant)” or as granted by a class feature or other ability. If a constant sphere ability’s caster dies, any associated effects end 1d4 rounds after their death.
+
+**Suppressing and Resuming:** A constant sphere ability may be willingly suppressed or resumed as a free action or may allow the caster to alter or change its properties as noted in the sphere ability’s text. A constant sphere ability cannot be used while suppressed. Constant sphere abilities can also be suppressed by other means, either by being temporarily dispelled with the //[https://www.aonprd.com/SpellDisplay.aspx?ItemName=dispel%20magic dispel magic]// spell and similar effects or being present in an //[https://aonprd.com/SpellDisplay.aspx?ItemName=antimagic%20field antimagic field]// spell or similar effect. When a constant sphere ability is dispelled, the sphere effect is instead suppressed for 1d4 rounds before becoming active again.
+
+**Using Constant Sphere Abilities, Casting Traditions:** Using a constant sphere ability does not provoke an attack of opportunity for casting a spell unless the caster would spend 1 or more spell points to use the constant sphere ability (such as spending spell points for the constant sphere ability’s augments).  Unless otherwise stated, using actions granted by a constant sphere ability requires the caster to use (and comply with) their casting tradition, such as being unable to cast while shaken with Emotional Casting, making a skill check for Skilled Casting, a concentration check for Coy Caster, fulfilling verbal components for Verbal Casting, and so on. 
+
+**Other Interactions:** A constant sphere ability cannot be willingly dismissed or suppressed by the caster as part of using another ability (such as the Incanter Dark sphere specialization’s essence of darkness ability). If an effect would suppress a constant sphere ability, the constant sphere ability is treated as a sphere ability with 0 spell points spent or otherwise the minimum result (such as yielding no temporary spell points for the Mana sphere’s Essentialize talent).
+
+**Author’s Note:** There may be other interactions where dismissing, ending, suppressing, etc., a magic effect creates benefits. It is not intended that these effects can be used to “fuel” such abilities, and while they may be suppressed by hostile dispels or other such abilities, should not yield more than the minimum result. Other similar interactions should be determined at GM discretion.
+
+++++ Same Ability and Different Results
+
+Some sphere abilities may specify that the effects do not overlap with the “same” ability, and this is true for Pathfinder’s base rules on sources with “the same effect but different results”. For example, multiple castings of //resist energy// do not stack when they are providing benefits for the same energy type, but can be separately cast for different energy types. Provided that the ability does not conflict (such as polymorph effects being exclusive), “different results” to the same ability stack and can be considered separate abilities.
+
+For example, the Polished Dark sphere’s //gloom// ability does not allow the same (blot) or (darkness) effect to stack. This prevents the same selection (“outcome”) from overlapping, but not different selections from the same ability. The Debilitating Darkness consuming darkness option allows the caster to select an ability score to deal ability damage to. If multiple consuming darkness abilities were overlapping and were not the same selected ability score, they would each function normally despite being “the same ability”.
+
+++++ Suppressed Effects
+
+Effects may become suppressed or suspended by other effects, such as conflicting sphere abilities. Time spent suppressed counts against the effect’s normal duration (the duration is not paused unless otherwise stated).
+
++ Spheres of Guile
+
+The //Spheres of Guile// system, as well as the subsequent //Legends of the Spheres// release, introduced [utility] talents to non-skill spheres.
+
+**[utility]**: A [utility] talent represents a talent, ability, or option whose use is primarily for non-combat or social utility. A [utility] talent is either applied to the talent, or to options granted by that talent. A talent which grants an option with the [utility] tag may be selected as a [utility] talent, but only grants the [utility]-tagged options. If a character later selects a talent which was selected as a [utility] talent as a full talent (selecting it for its non [utility]-tagged options), the character may immediately retrain to acquire a different [utility] talent.
+
+[[/tab]]
+[[/tabview]]
