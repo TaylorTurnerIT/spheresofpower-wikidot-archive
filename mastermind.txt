@@ -1,0 +1,517 @@
+title:Mastermind
+[[module CSS]]
+.noselect {
+  -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome and Opera */
+}
+[[/module]]
+
+[[module CSS]]
+.colored-links span > a {
+  color: inherit;
+}
+[[/module]]
+
+[[toc]]
+
+[[tabview]]
+[[tab Spheres of Guile]]
+[[div class="noselect" style="float:right; width: 20%; padding: 0 2%"]]
+[[=]]
+[[image http://spheresofpower.wikidot.com/local--files/test-page/spheres-of-guile.png link="https://www.drivethrurpg.com/product/431419/Spheres-of-Guile?affiliate_id=549120"]]
+**Spheres of Guile**
+$24.99
+----
+[[/=]]
+[[/div]]
+Masterminds wield resources, influence, and information like knights wield weapons and shields. Thanks to their planning abilities, they can call upon precisely relevant tools only when the situation demands, without having to bother with lots of preventative stocking up. Since they have more wealth than other characters of their level, they need not be as cautious with expendable resources.
+
+**Alignment:** Any.
+
+**Starting Wealth:** 5d6 x 10 (average 175 gp). In addition, each character begins play with an outfit worth 10 gp or less.
+
+**Starting Age:** Self-Taught.
+
+**Hit Die:** d8.
+
+**Skill Ranks Per Level:** 8 + Int modifier (the background skills variant adds another 2 ranks for background skills).
+
+**Role:** Masterminds are natural leaders and supporters to other characters. They always surround themselves with allies who can take the pressure off of them in dangerous situations. They specialize in giving their allies (and themselves) extra damage, useful bonuses, and just the tools that the current situation demands.
+
+**Class Skills:** If this is the mastermind’s first character level, they can choose a trade tradition to gain its class skills as well as Artistry (Int), Craft (Int), Lore (Int), Perception (Wis), Perform (Cha), and Profession (Wis). Their trade rank for this trade tradition is adroit. If the character multiclassed into mastermind, they instead choose one (trade) talent from the Vocation sphere as a bonus talent.
+
+**Without a Trade Tradition:** If the mastermind did not take a trade tradition, they have the following class skills: Appraise (Int), Artistry (Int), Bluff (Cha), Craft (Int), Diplomacy (Cha), Disguise (Cha), Escape Artist (Dex), Handle Animal (Cha), Intimidate (Cha), Knowledge (all) (Int), Linguistics (Int), Lore (Int), Perception (Wis), Profession (Wis), Ride (Dex), Sense Motive (Wis), Sleight of Hand (Dex), Stealth (Dex), and Use Magic Device (Cha).
+
++ ##4B0092|Class Features##
+||||||||||||~ ||||~ Skill Talents ||
+||~ Class Level ||~ Base Attack Bonus ||~ Fort Save ||~ Reflex Save ||~ Will Save ||~ Special ||~ Any ||~ Utility ||
+|| 1st || +0 || +0 || +0 || +2 || Conspiracy, expose vulnerability 1d6, insightful defense, overseer, schemer, skill expertise || 1 || 0 || 
+|| 2nd || +1 || +0 || +0 || +3 || Mastermind trick || 2 || 1 || 
+|| 3rd || +2 || +1 || +1 || +3 || Deadly expertise +2, expose vulnerability 2d6, web of secrets || 3 || 1 || 
+|| 4th || +3 || +1 || +1 || +4 || Put off-guard, spur action || 3 || 2 || 
+|| 5th || +3 || +1 || +1 || +4 || Expose vulnerability 3d6, mastermind trick, unsurprised || 4 || 2 || 
+|| 6th || +4 || +2 || +2 || +5 || Quick study || 5 || 3 || 
+|| 7th || +5 || +2 || +2 || +5 || Expose vulnerability 4d6, schemer (standard) || 6 || 3 || 
+|| 8th || +6/+1 || +2 || +2 || +6 || Mastermind trick, stratagem || 6 || 4 || 
+|| 9th || +6/+1 || +3 || +3 || +6 || Deadly expertise +3/d8, expose vulnerability 5d6 || 7 || 4 || 
+|| 10th || +7/+2 || +3 || +3 || +7 || Spur action (2 allies or spur standard action) || 8 || 5 || 
+|| 11th || +8/+3 || +3 || +3 || +7 || Expose vulnerability 6d6, mastermind trick || 9 || 5 || 
+|| 12th || +9/+4 || +4 || +4 || +8 || Informed prediction || 9 || 6 || 
+|| 13th || +9/+4 || +4 || +4 || +8 || Expose vulnerability 7d6, schemer (move) || 10 || 6 || 
+|| 14th || +10/+5 || +4 || +4 || +9 || Mastermind trick || 11 || 7 || 
+|| 15th || +11/+6/+1 || +5 || +5 || +9 || Deadly expertise +4/d10, expose vulnerability 8d6 || 12 || 7 || 
+|| 16th || +12/+7/+2 || +5 || +5 || +10 || Spur action (3 allies or spur same action as that spent) || 12 || 8 || 
+|| 17th || 12/+7/+2 || +5 || +5 || +10 || Expose vulnerability 9d6, mastermind trick, windows of the soul || 13 || 8 || 
+|| 18th || +13/+8/+3 || +6 || +6 || +11 || Puppet master || 14 || 9 || 
+|| 19th || +14/+9/+4 || +6 || +6 || +11 || Expose vulnerability 10d6, master plan || 15 || 9 || 
+|| 20th || +15/+10/+5 || +6 || +6 || +12 || Always prepared, mastermind trick || 15 || 10 || 
+
+++ ##4B0092|Weapon and Armor Proficiencies##
+Masterminds are proficient with simple weapons, plus the rapier, sap, shortbow, short sword, and sword cane (Pathfinder Roleplaying Game: Ultimate Equipment), as well as light armor and bucklers.
+
+++ ##4B0092|Skill Expertise (Ex)##
+A mastermind may combine skill spheres and talents to perform incredible acts of guile. Whenever the mastermind gains a skill talent, they must choose a skill sphere to spend it on. The first time a character spends a skill talent on a sphere, they gain that sphere’s base abilities instead of gaining a talent within the sphere.
+
+After a character possesses a base sphere, spending an additional skill talent on that sphere gains them one of that sphere’s talents. Masterminds are considered Virtuoso operatives and choose one of their Intelligence, Wisdom, or Charisma as their operative ability modifier. The virtuoso skill talent progression is reprinted in the Mastermind table for ease of reference. (Talents under Any can be any skill talent that the mastermind qualifies for, while talents listed under Utility must have the [utility] tag.)
+
+++ ##4B0092|Conspiracy##
+The mastermind chooses a conspiracy (listed at the end of this class description), which grants them another skill sphere and a class feature related to that sphere. Their conspiracy also determines which ability score modifier is their key ability modifier, which is used for certain class features.
+
+++ ##4B0092|Expose Vulnerability (Ex)##
+A mastermind knows how to turn almost any information into a weapon. As a move action, the mastermind can attempt a skill check to understand a target creature within 30 feet. This can be either a Knowledge check about the target (DC 10 + target’s Hit Dice + target’s Wisdom modifier) or a Sense Motive check (DC 15 + the target’s base attack bonus + target’s Charisma modifier). If the check succeeds, the mastermind spots a vulnerability that allows the next attack to hit that opponent to deal an additional 1d6 points of precision damage (which also counts as the same type of damage). The extra damage is not multiplied on a critical hit. Immunity and protections against critical hits also apply to precision damage. The damage increases by one die for every two mastermind levels after 1st (3rd, 5th, and so on). The extra damage is subject to an extra requirement depending on the skill used.
+* **Knowledge:** The damage can be dealt only if the target is off-balance either because it is denied its Dexterity bonus to AC or because it is threatened by a creature other than the one dealing the damage. This is a language-dependent effect on any number of allies within 30 feet of the mastermind when the vulnerability was exposed (including the mastermind).
+* **Sense Motive:** The damage can be dealt only from an angle the target is not defending well because either the target or the attacker has moved at least 10 feet since the end of the mastermind’s last turn. This is a language-dependent effect on the target which allows allies (including the mastermind and those farther than 30 feet away) or traps that make attacks to deal the damage. The mastermind can choose to exclude certain sources from dealing this extra damage or only allow the damage to be dealt by certain sources of the mastermind’s choice.
+
+Once the extra damage is dealt, it is expended. The exposed vulnerability expires if unused by the end of the mastermind’s next turn. Using expose vulnerability again ends any previous use of expose vulnerability.
+
+Some mastermind tricks allow the mastermind to augment their expose vulnerability ability. If the trick is marked with an asterisk (*), only one such trick can be applied to each activation of expose vulnerability.
+
+++ ##4B0092|Insightful Defense (Ex)##
+When wearing light or no armor and not using a shield, a mastermind adds 1 point of their key ability modifier (if positive) per mastermind class level as a bonus to their Armor Class and Reflex saving throws (in addition to their full Dexterity modifier). For example, a 3rd-level mastermind with a key ability modifier of +4 would receive a +3 bonus to AC and Reflex saves. This bonus to AC applies even against touch attacks or when the mastermind is flat-footed. They lose this bonus when they are immobilized or helpless, when they wear medium or heavy armor, when they carry a shield, or when they carry a medium or heavy load.
+
+This feature does not stack with any other way to add an additional ability score modifier (besides Dexterity) to the mastermind’s Armor Class or Reflex saves; if they have more than one such ability, they add only the higher bonus (which might be a partial bonus, if the mastermind’s level is less than their key ability modifier).
+
+++ ##4B0092|Overseer##
+A mastermind gains either the Communication skill sphere or Faction skill sphere as a bonus sphere. (If they already have that sphere, they gain a talent they qualify for from that sphere as a bonus talent.)
+
+++ ##4B0092|Schemer (Ex)##
+The mastermind can prepare for future contingencies without their player defining what those preparations are right away. Instead, the player declares what the plan was only when revealing the plan. This preparation takes 1 hour and follows the rules for plans in [[[Using Spheres of Guile]]] (including weight limits). This class feature counts as one [plan] talent for the purpose of determining how many plans the mastermind has available. At first, a scheme can be a circumstantial asset.
+
+A circumstantial asset can be a clue or object specific to the circumstance that grants the mastermind (or an ally they give it to) a +2 circumstance bonus on a single skill check. The bonus increases by 1 at 5th level and every four levels thereafter. This might take the form of personal or logistical information (such as one of a person’s bluffing tells or a guard’s habits), identifying clothing or papers that do not grant special privileges (such as clothing matching a group of servants or cultists), a highly circumstantial tool (such as a lockpicking lever that helps open loose locks like this particular one). If the circumstance is especially unusual, the GM might call for a relevant Knowledge or Lore check or rule the item simply is not available. This asset cannot be one that can allow the mastermind to entirely bypass an obstacle or enemy; it can only make this specific skill check easier.
+
+The item can be reused only to retry that check. The asset is not generally useful for other purposes, although it might be usable in a very similar circumstance. As normal for a plan, revealing an item is normally a full-round action to produce it from where it was stored (the mastermind can store it anywhere, but must be the one to reveal it).
+
+This ability counts as the Brilliant Planner feat (Pathfinder Roleplaying Game: Ultimate Intrigue) for the purpose of meeting prerequisites. If the mastermind has the Faction sphere, this feature also counts as the Logistical Genius talent and they can reveal a benefit from their faction (such as a borrowed item or retainer) as a plan. If the plan has a price, the mastermind pays its price only upon revealing it; this payment can come from assets they had access to when they prepared their plans (such as a credit with a merchant or authorizations from a faction). When revealing Faction sphere resources with a market price as a plan, the mastermind can pay the market price to avoid spending authorizations. The mastermind can reveal nonmagical items and mundane services not normally available to their faction but must always pay money for them.
+
+Starting at 7th level, the mastermind can reveal any plan as a standard action.
+
+Starting at 13th level, the mastermind can reveal any plan as a move action.
+
+++ ##4B0092|Mastermind Trick##
+At 2nd level and every three levels thereafter, the mastermind gains a mastermind trick from the list at the end of this class description.
+
+++ ##4B0092|Deadly Expertise (Ex)##
+Starting at 3rd level, the mastermind gets a +2 bonus on attack rolls for attacks against the current target of their expose vulnerability class feature. The bonus increases by 1 at 9th and 15th levels. As a full-round action, the mastermind can expose vulnerability, move up to half their speed, and make a single attack in any order.
+
+Starting at 9th level, when the mastermind (not an ally) deals the extra damage with their expose vulnerability ability, the damage dice increases to d8s. This improves to d10s at 15th level.
+
+++ ##4B0092|Web of Secrets (Ex)##
+Also at 3rd level, the mastermind’s network of conspirators reaches far enough to regularly send them useful information. As part of spending 1 hour in a settlement preparing plans or gathering information, the mastermind can glean information determined by the conspiracy they chose.
+
+++ ##4B0092|Put Off-Guard (Ex)##
+Starting at 4th level, the mastermind can get around a target’s defenses when exposing its vulnerability. When they successfully expose vulnerability on a creature using a move, standard, or full-round action, the mastermind can choose one of the following options or an option granted by their conspiracy. The mastermind cannot put the same creature off-guard more than once per round. If the option allows a skill check, the mastermind can reuse the d20 roll from expose vulnerability.
+* **Predictable (Knowledge):** The mastermind uses the practical advice task and its bonus applies to all allies (including the mastermind) within 30 feet. Each ally can use the bonus only once and only before the end of the mastermind’s next turn. The bonus increases by 1 for the mastermind (not other allies) at 10th level and 16th level.
+* **Uncertain (Sense Motive):** The mastermind uses the assess tactics task and the target becomes uncertain until the end of the turn that the bonus is expended. The bonus from assess tactics increases by 2 at 10th level and 16th level.
+
+++ ##4B0092|Spur Action (Ex)##
+Also at 4th level, the mastermind can direct their allies to act at exactly the right moment. As a standard action, the mastermind urges one ally that can see or hear them to act. The ally can spend an immediate action at the end of the mastermind’s turn as if it were a move action, a swift action, or a 5-foot step.
+
+Starting at 10th level, the mastermind can spend a full-round action to either target two allies or else to allow a single ally to spend their immediate action as a standard action.
+
+The number of allies the mastermind can spur with a full-round action increases to three at 16th level. When targeting a single ally, the mastermind gains the option to spend a swift, move, standard, or full-round action to allow that ally to spend their immediate action as the same action the mastermind spent.
+
+++ ##4B0092|Unsurprised (Ex)##
+Starting at 5th level, the mastermind can add their key ability modifier instead of their Dexterity modifier to initiative rolls (if higher). They also get a competence bonus to skill checks to avoid being surprised equal to half their mastermind level.
+
+++ ##4B0092|Quick Study (Ex)##
+At 6th level, the mastermind learns to pick up whatever ability is needed. When the mastermind gains this ability, they choose a total number of feats and skill talents equal to their key ability modifier. They must qualify for each one.
+
+Whenever the mastermind gains a level, they can replace any number of those already chosen. The mastermind can use quick study to gain one of the chosen options without any assistance.
+
+Once per day, the mastermind can temporarily gain a feat or skill talent they do not have by meditating, studying, or training for 10 minutes. Normally, this feat or talent is chosen from a prepared list, but the mastermind can choose any feat or talent by hiring a trainer for a day or by using other means suitable for retraining to gain the feat or talent. This bonus feat or talent cannot be used to meet prerequisites and lasts for 1 hour. If the gained feat is a teamwork feat, the mastermind can grant it to a number of allies equal to their key ability modifier if those allies also study for 10 minutes. The allies need not meet the prerequisites.
+
+++ ##4B0092|Stratagem (Ex)##
+At 8th level, the mastermind can expose vulnerability as a standard action to apply a stratagem. They can also apply a stratagem by using expose vulnerability with deadly expertise. The stratagem only takes effect if the creature meets the requirements before the mastermind exposes the vulnerability and the mastermind successfully uses the listed skill to expose the vulnerability. If the requirements cease to be met, the stratagem has no further effect. If a stratagem allows a saving throw, the DC is 10 + 1/2 mastermind level + key ability modifier.
+
+Once the mastermind applies a stratagem to a target, that target becomes immune to that stratagem from that mastermind for 1 minute. The mastermind cannot apply a stratagem to a target the first time they expose that target’s vulnerability in a day unless they studied the target for at least 3 rounds beforehand.
+
+The mastermind has access to the following stratagems in addition to one granted by their conspiracy.
+
+++++ Reckless Hubris (Sense Motive)
+**Requirements:** Since the start of the mastermind’s last turn, the target was attacked or subject to a hostile effect that allowed a saving throw or spell resistance from at least two different creatures but it did not fail any saving throws, and any other attack or effect missed, was negated by spell resistance, or had its damage reduced by at least half due to damage reduction, energy resistance, immunities, or a successful save (actions nullified by immunities or from creatures it now believes dead or helpless do not count).
+
+**Effect:** For 3 rounds, the target provokes attacks of opportunity more easily and hits from those attacks of opportunity apply a penalty to its provoking action. The target takes a –4 penalty on concentration checks to cast defensively. Any attack of opportunity that hits the target applies a –4 penalty to the attack roll, skill check, concentration check, or save DC of the effect that provoked the attack (if any). The penalties from this stratagem are not cumulative. The mastermind can make any attacks of opportunity on the target with a ranged weapon if within 30 feet. Up to once per turn, the target’s melee attack provokes attacks of opportunity as if it were ranged, its standard and full-round action to use a skill provokes attacks of opportunity (not skill checks attempted as part of actions available without the skill), or a supernatural or extraordinary ability the target uses as a standard or full-round action provokes an attack of opportunity as if it were a spell. At the end of the target’s turn each round, if it was hit by any attack of opportunity, it can end the stratagem on it by succeeding at a Will saving throw.
+
+++++ Your Secret Weakness (Knowledge)
+**Requirements:** The target was hit by two attacks since the start of the mastermind’s last turn, even if the damage was negated by damage reduction, resistance, or immunity.
+
+**Effect:** The expose vulnerability damage increases by two dice and the hit that deals expose vulnerability damage bypasses any damage reduction the target has. If the target has fewer Hit Dice than the mastermind’s class level, its regeneration is also suppressed for 1 round and the attack’s critical threat range is doubled (which does not stack with other increases to its range).
+
+++ ##4B0092|Informed Prediction (Ex)##
+Starting at 12th level, the mastermind can more easily predict the tactics of opponents they know about. The more they know about the opponent’s motivations, the more advantages they gain.
+
+++++ Improved Uncanny Dodge (requires any motivation)
+The opponent cannot flank the mastermind. This prevents sneak attack and similar forms of precision damage due to flanking except from an opponent with at least four more levels in classes that grant the damage than the mastermind’s level.
+
+++++ Gauge Focus (requires a major motivation)
+The mastermind can predict the target’s roll for an upcoming attack of opportunity or opposed skill check as a free action once per turn. To do so, the mastermind must choose an action that would immediately provoke an attack of opportunity or opposed skill check from the opponent and spend 1 use of skill leverage. The opponent rolls the die in secret and the GM reveals only whether the d20 is low (1-7), medium (8-13), or high (14-20). The mastermind can then either take the chosen action, in which case the opponent uses that d20 roll, or take another action, in which case that d20 roll is discarded.
+
+++++ Utterly Predictable (requires three motivations)
+The mastermind can spend 1 use of skill leverage to take 10 on any skill check that they have unlocked skill leverage for against the opponent.
+
+++ ##4B0092|Windows of the Soul [Approach] (Ex)##
+Starting at 17th level, the mastermind can read opponents with perfect clarity. After adopting this approach as a swift action, the mastermind gains a gaze attack with a range of 30 feet that allows them to intuit the approximate surface thoughts of any creature that fails its Will save for 1 round.
+
+The Will save DC is 10 + 1/2 mastermind level + key ability modifier. A creature who succeeds becomes immune to that mastermind’s windows of the soul for 24 hours unless the mastermind knows any of the creature’s motivations.
+
+++ ##4B0092|Puppet Master (Ex)##
+At 18th level, the mastermind knows how to keep their allies on task. Allies currently following the mastermind’s orders or within 60 feet of the mastermind get a +2 morale bonus on Will saving throws if the mastermind knows any of their major motivations. If a mind-affecting effect would force such an ally to act against any of its motivations that the mastermind knows, the effect immediately ends on that ally. Whenever an ally fails a Will save while within 60 feet of the mastermind, the mastermind can verbally remind them of one of their motivations as an immediate action to allow them to roll the saving throw again; they must use the new result.
+
+++ ##4B0092|Master Plan (Ex)##
+At 19th level, the mastermind can even incorporate enemy actions into their plans. The mastermind can reveal a plan as an immediate action whenever an enemy within 30 feet takes a distracting action (generally, any action other than movement that could provoke attacks of opportunity if there were any foe threatening the creature).
+
+++ ##4B0092|Always Prepared (Ex)##
+At 20th level, the mastermind perfects their skills of planning and foresight. They cannot be surprised and are never flat-footed. In addition, they can reveal a plan after expending them all. To reveal a plan without one available, the mastermind must succeed at a DC 25 Knowledge check appropriate to the challenge at hand. The DC increases by 5 each time the mastermind succeeds. On a failure, the mastermind cannot try again until they next prepare plans.
+
+Preparing plans resets the DC to 25.
+----
+++ ##4B0092|Mastermind Conspiracies##
+A mastermind can choose one of the following conspiracies at 1st level. It grants a skill sphere and a special ability. At 3rd level, it determines the benefit of the web of secrets class feature. At 4th and 8th level, it grants an additional option with the put off-guard and stratagem abilities, respectively.
+
+Once chosen, the mastermind’s conspiracy cannot be changed (without retraining).
+
++++ ##4B0092|Censorship##
+The mastermind knows that language is dangerous, especially words of magical power, and trains to silence those that are too dangerous. Censorship masterminds lead factions trying to contain evil magic, secret cabals of magical researchers, and inquisitions on overzealous crusades.
+
+**Sphere:** Spellhacking
+
+**Key Ability:** Intelligence
+
+++++ Feature: Hacker’s Exposition (Ex)
+The mastermind can use Spellcraft in place of Knowledge to expose vulnerability of any creature with magic (spells, spell-like abilities, or supernatural abilities). If they use Spellcraft and spend a move, standard, or longer action, they expose a vulnerability in the target’s magic as well as in its defenses. When the expose vulnerability damage is dealt (by anyone), the mastermind can use the Spellhacking sphere hack magic ability on the target or any effect from the target as an immediate action.
+
+++++ Web of Secrets
+The mastermind’s collaborators share word of magic in the region. The mastermind can identify a spell, magic item, or unique magical effect within a week’s travel as if they could study it using magic and had rolled a 20 on the die. Until the mastermind next contacts their web of secrets, they can spend 1 use of skill leverage to take 10 on any Spellcraft check about any magic within a week’s travel of where they are preparing plans.
+
+++++ Put Off-Guard Option: Careless (Knowledge)
+The extra damage can be dealt by a damaging effect that the target failed a saving throw against (only once, even if the effect causes damage repeatedly, and expending that vulnerability). Regardless of how the damage is dealt, the target cannot speak above a whisper for 1 minute and has a 20% spell failure for spells cast with verbal components until then (if the damage was dealt by an attack of opportunity triggered by casting such a spell, the failure chance applies to it).
+
+++++ Stratagem Option: Magical Liability (Spellcraft)
+**Requirements:** The target has a spell effect on them that they willingly accepted or failed a save against, or is wearing or wielding a magic item.
+
+**Effect:** The target takes a –2 penalty to their caster level and to the caster level of all spells they willingly accepted and items on them. The mastermind can hack magic on the target as a free action even if it’s not their turn and can use the same d20 roll as expose vulnerability for any required check to do so. The penalty worsens by 2 at 15th and 20th mastermind levels.
+
++++ ##4B0092|Collusion##
+The mastermind can assess tactical and social vulnerabilities at the same time. A collusion mastermind might be a noble or advisor to one, a seneschal, or even a business mogul.
+
+**Sphere:** Communication
+
+**Key Ability:** Intelligence or Wisdom
+
+++++ Feature: Negotiate Vulnerability (Ex)
+The mastermind can replace their Charisma modifier with their key ability modifier for Diplomacy checks (if that is better). They can also use their Diplomacy skill modifier to expose vulnerability (DC 15 + target’s Hit Dice + Wisdom modifier). This is a language-dependent effect on the target allowing any attack to deal the damage as long as the target is under a non-harmless mind-affecting effect or threatened by an enemy other than the attacker.
+
+Finally, whenever the mastermind succeeds at a skill check to improve a creature’s attitude, demand cooperation, make a request, or make a claim (either a lie or implausible truth) using at least a move, standard, or longer action, they can expose that target’s vulnerability using Diplomacy as a swift action. They must reuse the same d20 roll.
+
+++++ Web of Secrets
+The mastermind’s co-conspirators share gossip. The mastermind can attempt a free Diplomacy check to gather information about a creature present in or influential upon the local settlement.
+
+++++ Put Off-Guard Option: Discourage Force (Diplomacy)
+The target either takes a –4 penalty on attack rolls against the mastermind or takes a –2 penalty on all attack rolls (mastermind’s choice). The penalties each increase by 2 at 10th level and 16th level. The mastermind can choose any creature who shares their rapport to benefit from the –4 penalty instead.
+
+++++ Stratagem Option: Join Me (Diplomacy)
+**Requirements:** The target has an unfriendly or better attitude toward the mastermind, or they have an ally that has missed with an attack or exposed the target to a detrimental spell or ability in the past 1 round. The mastermind must successfully point out one way the creature’s goal motivation conflicts with an ally’s or align with the mastermind’s as part of the action to enact this stratagem, which lowers the Diplomacy DC by 2 or 5 depending on how convincing the explanation is. The mastermind can attempt a Bluff check to lie about this conflict as part of the action to expose vulnerability; the stratagem fails if the Bluff fails.
+
+**Effect:** The target must succeed at a Will saving throw or treat no creature as an ally until the end of their next turn and take attacks of opportunity against any creature who provokes one (even someone usually an ally). If the target has fewer Hit Dice than the mastermind’s level, they become helpful to the mastermind for 1d4 hours. Whether or not the target succeeds at the saving throw, they can deal the expose vulnerability damage to anyone who views them as an ally. This expends the damage (preventing it being dealt to them).
+
++++ ##4B0092|Counterintelligence##
+The mastermind can read any opponent like an open book. A counterintelligence mastermind might be a spymaster, a rebel, or a blackmailer.
+
+**Sphere:** Investigation
+
+**Key Ability:** Intelligence or Wisdom
+
+++++ Feature: Analyze Vulnerability (Ex)
+The mastermind can expose vulnerability as a swift action when they succeed at a Sense Motive check to analyze (see Investigation sphere) the target, sense its goal, or get a hunch about them as long as they spent a move, standard, or longer action to attempt the check. They must reuse the same d20 roll for expose vulnerability.
+
+++++ Web of Secrets
+The mastermind’s co-conspirators speculate about long-term ramifications of every event. The mastermind can attempt a free Sense Motive check to sense a goal or get a hunch about a creature they interacted with since last contacting their web of secrets.
+
+++++ Put Off-Guard Option: Deadly Analysis (Sense Motive)
+The mastermind can use an Investigation (apply) talent on the target (even without analyzing the target). The application ends when expose vulnerability expires or is expended if the mastermind did not use analyze. At 10th level, the mastermind can choose a second application. At 16th level, if the mastermind combined analyze with expose vulnerability, use the full normal duration for both applications.
+
+++++ Stratagem Option: Lay Secrets Bare (Sense Motive)
+**Requirements:** The target has an application applied but not yet used or the mastermind invokes one of the target’s motivations.
+
+**Effect:** When the expose vulnerability damage is dealt, the target must succeed at a Will saving throw or unwittingly divulge a major motivation or other valuable secret it knows and become stunned until the end of the mastermind’s next turn. On a successful save, the target does not give up the information and is staggered instead of stunned.
+
++++ ##4B0092|Enterprise##
+The mastermind knows what everything is worth, and is skilled at figuring out everyone’s price. An enterprise mastermind might be an ambitious merchant, a criminal entrepreneur, or the representative of a mercantile government working for economic alliance or conquest. This conspiracy pairs well with the (supply) package of the Faction sphere.
+
+**Sphere:** Faction
+
+**Key Ability:** Intelligence
+
+++++ Feature: Appraise Vulnerability (Ex)
+The mastermind can use their Appraise skill to expose vulnerability on any creature other than a mindless construct (DC 15 + base attack bonus + Charisma modifier) by naming something it wants. If the target does not understand the mastermind’s words, the mastermind must present the target with something it wants (or a sign of something it wants) to use Appraise. The mastermind can produce a suitable item as a circumstantial asset using their schemer class feature.
+
+The mastermind can expose vulnerability as a swift action on any turn that they spent at least a move action to do any of the following:
+* Evaluate a creature’s worn or carried item, a service by that creature, or a bribe for it.
+* Retrieve a stored item the creature wants.
+* Improve a creature’s attitude with a bribe by using their Appraise modifier on a Diplomacy check.
+
+If the triggering action calls for an Appraise check or a check using their Appraise modifier, use the same d20 roll for both the action and expose vulnerability.
+
+++++ Web of Secrets
+The mastermind amasses information on everyone’s capabilities. The mastermind can attempt a free Appraise check to learn about a creature or item that they observed since last contacting their web of secrets as if they had rolled a 20 on the die, even if they previously failed the same check. Until the mastermind next contacts their web of secrets, they can spend 1 use of skill leverage to take 10 on any Appraise check about a creature or item within a week’s travel of where they are preparing plans.
+
+++++ Put Off-Guard Option: Expose Desire (Appraise)
+As long as the target can see the mastermind, it must spend twice as much movement while moving farther from the mastermind and cannot look away from the mastermind (giving other creatures concealment from it unless it has all-around vision or blindsight). If the mastermind used words, they can choose a different creature or object in the area to prevent the creature from moving away from or looking away from. This is not a mind-affecting effect and can influence even most oozes, vermin, and zombies with food, but cannot influence targets such as many constructs that have no needs or instincts. The effect ends after 3 rounds or when the target obtains an item it wants.
+
+At 10th level, the target cannot willingly move away from the mastermind (or the mastermind’s chosen subject). At 16th level, the miss chance from being forced to look at the mastermind (or their chosen subject) increases to 30%.
+
+++++ Stratagem Option: Dramatic Downfall (Appraise)
+**Requirements:** During its previous turn, the target moved toward the mastermind, drew an item, stowed an item, or picked up an item.
+
+**Effect:** The next time the creature misses with an attack roll, they fall prone into any unoccupied space of the mastermind’s choice within 5 feet and must succeed at a Reflex save or fling their weapon 10 feet beyond their new reach. The destination space cannot be harmful unless the mastermind is at least 16th level. The mastermind or any ally within reach of the weapon can spend an attack of opportunity to pick up the flung weapon.
+
++++ ##4B0092|Revolt##
+The mastermind knows just what to say to make people angry and ready to rise up. A revolt mastermind might organize cells of rebel agents, teach exploited workers to fight their bosses, or sow discord as a socialite in the highest circles of power.
+
+**Sphere:** Bluster (Intimidate skill)
+
+**Key Ability:** Wisdom
+
+++++ Feature: Expose Antipathy (Ex)
+The mastermind can add their key ability modifier in place of their Charisma modifier (if it is better) for Intimidate checks.
+
+They can also expose vulnerability with Intimidate in place of Sense Motive. If the target does not understand the mastermind’s words, the mastermind can still use Intimidate if they present the target with something it fears or hates (or a sign of something it fears or hates). The mastermind can produce a suitable item as a circumstantial asset using their schemer class feature.
+
+When the mastermind spends a move, standard, or longer action to retrieve an item a creature fears or hates or make a claim about something a creature hates or fears, the mastermind can attempt an Intimidate check to expose that creature’s vulnerability as a swift action. They get a +2 circumstance bonus on their Intimidate check to expose vulnerability.
+
+++++ Web of Secrets
+The mastermind’s conspirators share news of government failures, crime, and political dissent, allowing a free Diplomacy check to gather information on that topic. Alternatively, the mastermind can have their contacts spread a rumor inciting revolt in a settlement within 1 hour’s travel. The mastermind can choose the nature of the rumor immediately or reveal it as a plan as a full-round action (or faster using the schemer class feature).
+
+The mastermind must attempt a DC 15 Intimidate check and on a success the result determines how far the rumor spreads: just among untrustworthy gossips (15), among folks interested in the subject (20), among the general populace (25), or the rumor becomes as good as common knowledge (30). Anyone who hears it and has a motivation disturbed by it must succeed at a Will saving throw against DC 10 + 1/2 mastermind level + mastermind’s key modifier or become angry for 1 day. A creature that fails by 5 or more with fewer Hit Dice than the mastermind’s level becomes livid instead. If the rumor is a lie, the mastermind must attempt a Bluff check to determine if it is believed by each individual (convincing common lay people has a base DC of 11; individuals attempt an opposed Sense Motive check normally).
+
+If the result is at least 20, the mastermind can choose for an angry crowd to form in any publicly accessible place in the settlement as part of revealing the plan. The crowd fills a circular area with radius equal to the Intimidate check result in feet and angrily repeats the claims from the mastermind’s rumor. Any creature other than the mastermind and their allies that starts its turn in the crowd takes 1d8 points of bludgeoning damage, or 2d8 if the mastermind is at least 11th level. The mastermind can move the crowd up to 20 feet as a swift action without a check if within 60 feet. If the crowd meets a closed door, window, gate, or other aperture, it attempts to force it open with a Strength check result equal to 20 + the mastermind’s operative ability modifier. The crowd has AC 10 + half the mastermind’s level, a bonus to all saving throws equal to half the mastermind’s level, and hit points equal to the Intimidate check result. It disperses if reduced to 0 hit points.
+
+++++ Put Off-Guard Options: Fluster (Intimidate)
+The mastermind can also compare the result to the target’s demoralize DC. The mastermind can choose to either demoralize the target (with the usual effect) or insult it (as the new skill use). If the target has fewer Hit Dice than the mastermind’s level and the mastermind is at least 16th level, the condition worsens by 1 step until the damage is expended or expires.
+
+++++ Stratagem Option: Drive Away (Intimidate)
+**Requirements:** The target is under a fear effect, has an anger condition, is stunned, or believes the mastermind to be an ally. 
+
+**Effect:** The target cannot willingly move closer to the mastermind unless it has an anger condition, in which case it cannot willingly move farther from the mastermind. Either way, it cannot look away from the mastermind while it can see the mastermind, giving all other creatures concealment (unless it has all-around vision or blindsight). If the mastermind used words to expose vulnerability, they can choose a different creature or object in the area to repel the creature. If the target takes expose vulnerability damage, it becomes frenzied (if it had an anger condition) or panicked (otherwise) until the end of its next turn.
+
++++ ##4B0092|Speculation##
+The mastermind knows that knowledge is power, and wields it with deadly precision. A speculation mastermind might be a well-connected academic, an information broker, or a reckless independent researcher.
+
+**Sphere:** Study
+
+**Key Ability:** Intelligence
+
+++++ Feature: Exploit Context (Ex)
+While a creature has its vulnerability exposed by the mastermind’s expose vulnerability using Knowledge as a move, standard, or longer, the mastermind can use the Study sphere theorize ability against that opponent as a free action once.
+
+++++ Web of Secrets
+The mastermind chooses two Knowledge or Lore skills and gets a bonus equal to half their mastermind level until they next prepare plans. At least one of the chosen skills must be a background skill. They can attempt checks with the chosen skills untrained. The mastermind can wait to choose the skills, but if they do they must spend a plan as a move action to choose them. A plan use restricted to [utility] talents can be spent this way.
+
+++++ Put Off-Guard Option: Condescend (Knowledge)
+Until expose vulnerability is expended, if the mastermind theorizes about the subject, the theory begins with 1 notion. The mastermind can apply the benefits of any theory to the action of any ally within 30 feet who can understand the mastermind’s words as long as the action is to interact with the target creature. Any damaging action to the off-guard target that gives a notion to the mastermind’s theory or applies the benefit of a breakthrough can deal the expose vulnerability damage to it (even if the mastermind cannot gain the notion because it would exceed the limit for the turn).
+
+++++ Stratagem Option: Right Where I Want You (Knowledge)
+**Requirements:** The target has moved or was moved unwillingly since the start of its last turn, or else is prone or unable to move, and the mastermind has applied a breakthrough to an action to interact with the target since the start of the mastermind’s last turn.
+
+**Effect:** The target takes a –4 penalty to AC and Reflex saves against traps, hazardous terrain, and area effects.
+
+In addition, the first time the target’s action would give the mastermind a notion before the damage is expended, the theory gets 2 notions instead. The next damage the target takes from a trap, hazard, or area effect applies the expose vulnerability damage (expending it). The penalty increases by 2 at 16th level.
+
++++ ##4B0092|Treachery##
+The mastermind knows all there is to know about bending the truth and convincing others of what they need to believe. Treachery masterminds are notorious as the ideological shields of shadowy authority figures, but other masterminds of this conspiracy are seditionists fighting well-entrenched tyrants, recruiters to unpopular causes (which might be truly noble or not), or smooth charlatans working to part greedy aristocrats from their hoarded wealth.
+
+**Sphere:** Bluster (Bluff skill)
+
+**Key Ability:** Intelligence
+
+++++ Feature: Goading Exposition (Ex)
+The mastermind can replace their Charisma modifier with their key modifier (if it is better) for Bluff checks. They can use Bluff in place of Sense Motive to expose vulnerability. They can expose vulnerability as a swift action on any turn that they have spent a move, standard, or longer action telling a lie or conveying an implausible truth to the same creature. They must choose Bluff to expose vulnerability and reuse the same d20 roll for the check.
+
+++++ Web of Secrets
+The mastermind’s contacts share all the juiciest gossip, regardless of whether it is true. The mastermind can either attempt a free Diplomacy check to gather information about the latest news or attempt a free Bluff check to spread a rumor. The mastermind can choose the nature of the rumor immediately or reveal it as a plan as a full-round action (or faster using the schemer class feature). A plan use restricted to [utility] talents can be spent this way. The Bluff result determines how far the rumor spreads: just among untrustworthy gossips (15), among information brokers (20), among the general populace (25), or the rumor becomes as good as common knowledge (30).
+
+If the rumor is a lie, the mastermind’s Bluff check result determines if it is believed by each individual (convincing the average lay person is DC 11; individuals attempt an opposed Sense Motive check normally).
+
+++++ Put Off-Guard Options: Bamboozle (Bluff)
+The mastermind can also attempt to create a diversion with the same Bluff check result. If the mastermind diverts attention to their own ally, they can choose to make the ally seem like the most pressing threat to all affected enemies for 1 round. If the mastermind diverts attention to an enemy, they can make that enemy seem to be the most vulnerable individual to all affected enemies for 1 round. If the subject is bamboozled and misses with its next attack before the expose vulnerability damage has been expended, it provokes an attack of opportunity from the creature it attacked. This attack of opportunity can deal the expose vulnerability damage.
+
+Once affected enemies witness clear evidence these conclusions were wrong, this put off-guard option functions as an ordinary attempt to create a diversion for them for the next 1 day.
+
+++++ Stratagem Option: You are Betrayed (Bluff)
+**Requirements:** The target has an indifferent or worse attitude toward one of their allies, or they have an ally that has missed with an attack or exposed the target to a detrimental spell or ability in the past 1 round. You must point out one way the creature’s goals conflict with the ally’s as part of your action, which lowers the Bluff DC by 2 or 5 depending on how relevant your explanation is. You can attempt a Bluff check to lie as part of the action to expose vulnerability.
+
+**Effect:** The target must succeed at a Will saving throw or treat no creature as an ally until the end of their next turn and take attacks of opportunity against any creature who provokes one (even someone usually an ally). If the target has fewer Hit Dice than your mastermind level, they become hostile to the creature you chose for 10 minutes. Whether or not the target succeeds at the saving throw, they can deal the expose vulnerability damage to any creature who sees them as an ally. This expends the damage (preventing it being dealt to them).
+----
+++ ##4B0092|Mastermind Tricks##
+A mastermind can choose from any of the following tricks. Tricks with the [plan] tag count as a [plan] talent for determining the number of plans a mastermind can prepare. Some mastermind tricks allow the mastermind to augment their expose vulnerability class feature. If the trick is marked with an asterisk (*), only one such trick can be applied to each activation of expose vulnerability.
+
+++++ Brilliant Trapper [plan] (Ex)
+Whether by laying a trap yourself or directing an ally who can create traps, you can reveal a plan to be a trap. The trap can be any that you or an ally who was present could have created when you last prepared plans with value no higher than your temporary resource maximum. Other tricks similar to traps can also be revealed this way, such as sabotage placed with Disable Device or dredged terrain from the Survivalism sphere.
+
+Revealing the trap is normally a standard action. If you have affected a creature with a stratagem, you can reveal this plan as an immediate action when that opponent takes an action that could trigger the trap. Any costs for the trap are spent when you reveal it, and that is when any checks required for the trap are rolled, but the character attempting such a skill check can take 10 on the check.
+
+++++ Delegate Scheme [plan] (Ex)
+You can allow allies to participate more directly in your schemes. Any ally present when you prepare your plans can reveal your plans with your permission. You can permit the ally to spend your authorizations or money to pay for a Faction sphere benefit revealed as a plan. Otherwise, they must pay any cost for the plan. They can modify the plan with their own abilities.
+
+If you are unconscious, dead, or petrified, any ally who knows this can reveal a purchased item as a plan to resuscitate you (such as a healer’s kit or an item useful in reaching you).
+
+++++ Distant Orchestrator (Ex)
+The range of your expose vulnerability, put off-guard, and stratagem each increase to 60 feet.
+
+++++ Fake Death [plan] (Su)
+You always have a plan to fake your own death. You can reveal this plan as an immediate action whenever you take damage. When you reveal a faked death, you can automatically get a 20 on a Bluff check to feign injury (new skill use).
+
+If you fall prone, you can move up to 5 feet first without provoking attacks of opportunity. If the source of damage was a visible area effect such as a fireball, you can instead move up to your speed and attempt a Stealth check to hide, leaving behind cinders, acidic residue, or other remains that might be left behind if your body were utterly destroyed by the effect. Anyone inspecting the remains is fooled unless they succeed at a Heal or Perception check against DC 15 + your mastermind level.
+
+If you are at least an 11th-level mastermind, you can hide after any damaging or death effect targets you. When you do, you magically turn invisible for 1 minute or until you attack and you can choose to leave behind an intangible figment. The figment depicts you appearing to die from the damage. It is an illusion with visual, auditory, and olfactory elements. If the damage was from a melee attack, the attacker can attempt a Will save to disbelieve the figment. The figment lasts for as long as the invisibility does. Any creature that studies the illusion closely can attempt a Will save to disbelieve it. If you are at least 15th level, the figment is tangible and lasts for 1 day.
+
+++++ Familiar Conspirator
+The mastermind gains a familiar. They treat their mastermind level as their wizard level. They can use magic from magic items as if it were their own for the purposes of the familiar’s abilities.
+
+++++ Poison Vulnerability [plan] (Ex)
+You can reveal a purchased poison as a plan. Thanks to your criminal connections, the cost is reduced by half for you. You can apply the poison as part of the full-round action to reveal the plan without risk of poisoning yourself. You can choose one opponent for the poison to be specially formulated to affect by succeeding at a Knowledge check against that opponent with the same DC as for expose vulnerability. The poison’s special formulation then increases its save DC by 3 against that target, up to a maximum DC equal to your mastermind trick save DC.
+
+++++ Spur Faction Retainer (Ex) (requires Faction sphere ((retainer) package and a (retainer) talent with a combatant role))
+You gain the spur action ability if you did not have it already, but until you gain it normally you can only use it to spur your faction retainer.
+
+At 5th level, using spur action to target one of your faction retainers is a move action. If you spend a standard action, you instead allow them to take a standard action.
+
+At 8th level, you can spend a full-round action to allow one faction retainer to take a full-round action.
+
+At 11th level, you can use spur action as a swift action to spur up to two allies to each take a 5-foot step as long as one is your faction retainer.
+
+At 14th level, you can use spur action as a standard action to grant one faction retainer a full-round action.
+
+At 17th level, you can use spur faction retainer as a move action to spur up to two allies to each take a move action or 5-foot step as long as one is your faction retainer.
+
++++ ##4B0092|5th-Level##
+The following tricks require 5th level in the mastermind class.
+
+++++ Dispiriting Deconstruction (Ex)
+When you succeed at a Sense Motive check to sense an opponent’s goal, you can point out conflicts in their goals or flaws in their tactics with a Knowledge check as a swift or immediate action. Use the same Knowledge skill as for identifying the target. If you succeed against DC 10 + target’s Hit Dice + target’s Will save modifier, the target becomes shocked for 1 minute. It can attempt to reduce the shocked condition as a standard action.
+
+++++ Magical Scheme [plan] (Su) (requires Use Magic Device 5 ranks, Faction sphere ((supply) package))
+You double your Faction sphere temporary resource budget for consumable magic items and you can spend money instead of favors to acquire any magic items available through your faction as a plan.
+
+++++ Remembered Remedy [plan] (Ex)
+You can reveal a plan to be an alchemical remedy, herbal concoction, or potion that can heal hit points, end an effect, or remove a condition. If you do, you can drink it or administer it to another as part of the action to reveal your plan.
+
+++++ Spell Solution [plan] (Su)
+You can research the underpinnings of a particular spell as a plan in order to dispel it. Revealing this plan is a full-round action (or faster with the schemer class feature). In order to reveal a spell solution, you must name a spell or spell-like effect, outwit its caster (see [[[Using Spheres of Guile]]]) as a cost to reveal the plan, and be within that effect’s range (for example, within 100 feet + 10 feet per caster level of an opponent’s flaming sphere spell). You attempt a special dispel check to end the spell. This dispel check is d20 + the number of ranks in Knowledge (arcana) you possess.
+
+If you succeed against DC 11 + caster level, the spell is dispelled. If you fail, you cannot target that spell with this trick again until you prepare plans again. Readying an action to solve a spell allows you to dispel it a moment after it takes effect, but instantaneous effects cannot be solved by this trick.
+
++++ ##4B0092|8th-Level##
+The following tricks require 8th level in the mastermind class.
+
+++++ Make an Opening* (Ex)
+When the creature takes the extra damage from your expose vulnerability, that creature provokes an attack of opportunity from one creature threatening it. The creature who dealt the expose vulnerability damage chooses one creature other than itself to take the attack of opportunity; if the attacker cannot choose, the attack of opportunity is provoked from you.
+
+++++ Ready for Anything (Ex)
+You can ready an action without choosing a trigger (it can interrupt any action).
+
+++++ Rehearsed Riposte [plan] (Ex)
+You can reveal a plan to be carefully practicing just the right counter to an enemy attack. Revealing this plan is a full-round action (which can be reduced by the schemer feature) to study an opponent using expose vulnerability with the appropriate Knowledge skill. If you succeed, you can treat the d20 roll for your next attack against the target as a 13 instead of rolling (similar to taking 10). You can give this benefit to an ally of your choice who was present the full time you last prepared plans instead of using it yourself. The effect of this trick is in addition to the usual benefits of expose vulnerability, which can include the put off-guard ability or stratagem ability if you spend a long enough action. If the target opponent attacks you (or the ally who received the benefit) before the trick’s benefit is used, the attack roll can be set to 15 instead of 13.
+
+++++ Training Scheme [plan] (Ex)
+Your plan can be an extra use of your quick study ability, which you nearly finished using during your preparations. Revealing the plan as a swift action finishes the activation. The feat or talent you gain replaces any you previously gained with quick study. If you reveal a teamwork feat as your plan, allies that were present when you last prepared plans and are now able to see or hear you can gain the same feat by spending a swift action within 1 minute.
+
++++ ##4B0092|11th-Level##
+The following tricks require 11th level in the mastermind class.
+
+++++ Effective Teamwork (Ex)
+You can gain two feats at a time with quick study if both are teamwork feats and you can simultaneously grant both of them to your allies.
+
+++++ Exploit Opportunity* (Ex)
+After an ally within 30 feet misses with an attack of opportunity, you can spend an immediate action to use expose vulnerability on the provoking creature. The expose vulnerability damage is reduced by half.
+
+++++ Magical Contingency (Sp)
+You can apply magical dabbling to set up a magical contingency. You spend 10 minutes tinkering with an item you already know how to activate, then cast a spell from it targeting yourself. The spell is suspended indefinitely; it does not take effect until a condition you define comes to pass. When you perceive the condition has come to pass, you can begin the spell’s duration as an immediate action. If you do not do so, the contingency does not trigger until the condition happens again. The condition must be clear, but can be general. You can have only one contingent spell at a time. If you create a new contingency, the old one ends and the old contingent spell is dispelled.
+
+++++ Reversal of Fortune* (Ex)
+You know how to turn even a failure into progress toward a long-running plan as long as you know your opponent well. When you or one of your allies is made unable to act or critically hit by an opponent, you can expose vulnerability on the opponent as an immediate action just before the triggering action if you know one of the opponent’s motivations. If the check succeeds and your mastermind level is no more than 2 higher than the opponent’s challenge rating, you also regain one plan use (up to your usual maximum).
+
++++ ##4B0092|14th-Level##
+The following tricks require 14th level in the mastermind class.
+
+++++ Instant Spell Solution (Sp) (requires spell solution mastermind trick)
+You can reveal a spell solution as an immediate action in response to an opponent casting a spell. If you successfully solve that spell, the spell fails to take effect.
+
+++++ Planned Magical Contingency [plan] (Sp) (requires magical contingency mastermind trick)
+You can reveal a magical contingency as a plan. You reveal it using the immediate action to trigger the contingency. You spend the magic item when you reveal the plan. If you could have acquired a new magic item during your preparations, you can instead just spend the item’s price. As usual, you cannot have another contingency and you cannot reveal another contingency until you prepare plans again.
+
+++++ Easy Ready (Ex)
+You can ready a move or swift action using the same action it usually costs (rather than always using a standard action) but if you do, you must also spend an immediate action to take it (in addition to moving your initiative count). You cannot have multiple actions readied at one time.
+
++++ ##4B0092|17th-Level##
+The following tricks require 17th level in the mastermind class.
+
+++++ Countless Vulnerabilities* (Ex)
+Whenever a creature within 30 feet fails a saving throw against a damaging effect or is hit by an attack, you can spend an attack of opportunity to use expose vulnerability on that creature. The damage does not apply to that attack or effect. The expose vulnerability damage is reduced to three dice.
+
+++++ Fatal Vulnerability* (Ex)
+Your expose vulnerability is catastrophically precise. You choose for the vulnerability to be lethal or not. When the creature takes expose vulnerability damage, the target must succeed at a Fortitude saving throw or take maximum expose vulnerability damage. A target with fewer Hit Dice than the number of ranks you possess in the skill you used to expose vulnerability instantly dies, or falls unconscious for 1 minute if the damage was nonlethal. The target is then immune to your fatal vulnerability for 1 day. This is a death effect.
+
+++++ Strategic Genius (Ex) (requires effective teamwork mastermind trick)
+You can gain three feats at a time with quick study if all are teamwork feats and you can simultaneously grant all three of them to your allies.
+----
+[[div class="colored-links"]]
++ ##4B0092|Archetypes##
+
+++ ##00c000|[[[Ambuscader]]]## [CS]
+Ambuscader know how to mix their plotting with more direct applications of martial power.
+
+++ ##00c000|[[[Malfeasant]]]## [CS]
+Malfeasants excel at mixing magic into their schemes.
+
+++ ##4B0092|[[[Saboteur]]]##
+Saboteurs are exceptionally good at foiling the plans of their enemies.
+
+++ ##4B0092|[[[Squad Operator]]]##
+Squad operators focus on managing a small team of specialists instead of a larger network of confidants.
+----
++ ##4B0092|Favored Class Bonuses##
+
+A mastermind of any race can choose from the following:
+* +1 ignored damage reduction on expose vulnerability (for each time a mastermind takes this favored class benefit, any attack that deals their expose vulnerability damage ignores that many points of damage reduction).
+* Add +1/4 bonus to Will saving throws.
+* Add +1/3 to expose vulnerability damage.
+* Gain a +1/2 insight bonus to two class skills of the mastermind’s choice. This bonus stacks with itself but not with other insight bonuses.
+* Gain 1/6 of a mastermind trick.
+
+Aasimar can also choose the following:
+* Gain a + 1/2 sacred bonus on skill checks using trained class skills to influence friendly or helpful good creatures. This bonus stacks with itself but not with other sacred bonuses.
+
+Tieflings can also choose the following:
+* Gain a + 1/2 profane bonus on skill checks using trained class skills against unfriendly or hostile good creatures. This bonus stacks with itself but not with other profane bonuses.
+
+[[/div]]
+[[/tab]]
+[[/tabview]]
+
+[[include sog-template]]
