@@ -3,11 +3,11 @@ title:Dark
 .noselect {
   -webkit-touch-callout: none; /* iOS Safari */
     -webkit-user-select: none; /* Safari */
-     -khtml-user-select: none; /* Konqueror HTML */
-       -moz-user-select: none; /* Firefox */
-        -ms-user-select: none; /* Internet Explorer/Edge */
-            user-select: none; /* Non-prefixed version, currently
-                                  supported by Chrome and Opera */
+ 	-khtml-user-select: none; /* Konqueror HTML */
+   	-moz-user-select: none; /* Firefox */
+    	-ms-user-select: none; /* Internet Explorer/Edge */
+        	user-select: none; /* Non-prefixed version, currently
+                              	supported by Chrome and Opera */
 }
 [[/module]]
 
@@ -38,10 +38,10 @@ Whenever a glow effect (from the Light sphere) interacts with a magical darkness
 
 ++ Meld
 Melds are effects that can be granted to a creature that alter the way they interact with darkness. The caster must touch a target as a standard action to grant them the benefits of a (meld) talent, and unwilling targets may attempt a Will save to negate. A dark caster begins with knowledge of the following meld:
-
+[[div style="padding: 0 2%; border: 1px solid black"]]
 ++++ Darkvision (meld)
 You may spend a spell point to grant the target darkvision 60 feet for 1 hour per caster level. If the target already possesses darkvision, this instead increases the range of their darkvision by 30 feet.
-
+[[/div]]
 +++ Dark Talent Types
 Some talents are marked (darkness). These talents add additional effects that can be added to a sphere of darkness. Only one such effect can be added to a single area of darkness, though areas of different darkness can overlap, provided they do not have the same (darkness) talent effect.
 
@@ -62,75 +62,95 @@ Talents with the (shadow) tag manipulate a target’s own shadow directly, witho
 Shadows function normally within areas of glows, neither suppressing nor being suppressed by areas of glows simply by entering them. If a glow and shadow are cast directly upon the same target, however, the caster of the second effect must attempt a magic skill check against the MSD of the first effect’s caster. If the check succeeds, the second effect functions normally and the first effect is suppressed. Time spent suppressed counts against the duration of the effect in either case.
 ----
 ++ Dark Talents
+[[div style="padding: 0 2%; border: 1px solid black"]]
 ++++ Clinging Darkness
 You may center an area of darkness or blot on a creature or item rather than an area, causing it to cling to and move with that creature or item. If targeting a creature or its attended item, it is subject to spell resistance and that creature may attempt a Will save to negate the effect initially and again each round at the end of its turn. A successful save ends the darkness or blot immediately.
-
+[[/div]]
+[[div style="padding: 0 2%; border: 1px solid black"]]
 ++++ Dampen Light
 You can dampen light in an area. This functions similarly to creating darkness, using the same range and area, but it lasts for 1 minute per caster level without the need for concentration and only lowers light levels by one step within the area.
 
 In addition, you cannot apply (darkness) talents to these areas, though (meld) talents function within them as if they were an area of darkness. You may also apply talents that would change the area or duration of your darkness (such as Greater Darkness or Eternal Darkness) to use of this talent.
 
 You may take this talent twice; when taken a second time, you may choose to lower light levels by two steps when you use this talent.
-
+[[/div]]
+[[div style="padding: 0 2%; border: 1px solid black"]]
 ++++ Dappled Shadows
 You may reduce the radius of your darkness or blot in 5 feet increments to create a second area of darkness or blot with a radius equal to the subtracted amount. You may do this multiple times to create multiple areas of darkness or blot. These spheres may be placed anywhere within your range that you can see, but do not overlap each other. If used in conjunction with the Wall Of Darkness talent, your cubes no longer need to be placed contiguously.
-
+[[/div]]
+[[div style="padding: 0 2%; border: 1px solid black"]]
 ++++ Dual Darkness
 By spending an additional spell point you can apply two (darkness) or (blot) talents to a single area of darkness (but not one of each). The effect of each talent is resolved separately, and you must pay the spell point costs of each one individually, though other costs (such as metamagic or other talents) are only paid once.
-
+[[/div]]
+[[div style="padding: 0 2%; border: 1px solid black"]]
 ++++ Extinguish
 You may opt to instantly extinguish all non-magical light sources within your areas of darkness, not merely suppress them. This includes fire, incandescence, and alchemical sources. Coals turn cold, glowing-hot metal is made cool, and luminous chemicals are rendered inert. Additionally, your darkness can be used to dispel sources of magical light and flame (such as an Energy Wall consisting of fire) with a magic skill check. This is an instantaneous effect that occurs when the area of darkness is created. Creatures made of flame or other luminous materials or energies are not harmed by this talent.
-
+[[/div]]
+[[div style="padding: 0 2%; border: 1px solid black"]]
 ++++ Flowing Darkness
-Your areas of darkness and blot flow through cracks and crevices like a viscous liquid, allowing them to extend around corners and pass through small cracks and crevices to reach their full radius. Your blot and darkness can flow through porous obstacles such as the gaps around a typical door, a wall rife with rodent holes, or ill-fitting masonry, but not through sealed structures like a ship’s hull, a secure safe, or a properly mortared wall. 
-
+Your areas of darkness and blot flow through cracks and crevices like a viscous liquid, allowing them to extend around corners and pass through small cracks and crevices to reach their full radius. Your blot and darkness can flow through porous obstacles such as the gaps around a typical door, a wall rife with rodent holes, or ill-fitting masonry, but not through sealed structures like a ship’s hull, a secure safe, or a properly mortared wall.
+[[/div]]
+[[div style="padding: 0 2%; border: 1px solid black"]]
 ++++ Gaze Into The Abyss
 You tap into a well of blackness so deep that it extends beyond the merely visible, threatening to draw in anyone attempting to examine your spellwork with magically enhanced vision. Anyone attempting to divine or determine magical, alignment, or psychic auras of a person or object under the effect of your (blot), (darkness), or (shadow) talents must succeed at a magical skill check against your MSD or becomes stunned as if viewing an overwhelming aura (see the Divination sphere). Those who fail this check gain no information and automatically fail any further attempt against any target protected by the same caster’s Gaze Into The Abyss for 24 hours.
-
+[[/div]]
+[[div style="padding: 0 2%; border: 1px solid black"]]
 ++++ Greater Darkness
 When creating an area of darkness or blot, you may spend an additional spell point to increase the affected area. This allows you to create a sphere of darkness with a radius of up to 20 feet + 5 feet per caster level. If combined with the Wall Of Darkness talent, this allows you to create six 10-foot cubes, +2 cubes per caster level.
-
+[[/div]]
+[[div style="padding: 0 2%; border: 1px solid black"]]
 ++++ Greater Darkvision
 When granting the Darkvision meld, increase the range of the granted darkvision by 30 feet. You may gain this talent multiple times. Each time this is taken beyond the first, it increases the range of the granted darkvision by an additional 30 feet.
-
+[[/div]]
+[[div style="padding: 0 2%; border: 1px solid black"]]
 ++++ Greater Meld
 Your (meld) talents that only work in areas of your darkness instead function in all areas of dim light or darkness.
-
+[[/div]]
+[[div style="padding: 0 2%; border: 1px solid black"]]
 ++++ Instill Dark [instill]
 As a standard action you may touch a small container of liquid and instill a meld or shadow effect inside it, which functions as a potion or oil.
 
 An instilled liquid remains potent until you rest to regain spell points. If you have equipment on hand (such as an alchemy lab), the cost of bottles and water is considered negligible.
 
 You may target food but not an already-magical item, such as a potion. All spell points must be spent and all variables of the sphere effect must be chosen at the time the instilled liquid is created. You cannot instill multiple effects in a single liquid, nor create multiple instilled liquids with a single action.
-
+[[/div]]
+[[div style="padding: 0 2%; border: 1px solid black"]]
 ++++ Insinuate
 You are skilled at slipping your magic into the natural surroundings, subtly manipulating natural murk and shadows to fit your purpose. You may overlap an area of blot with the natural shadows in an area in such a way that it is indistinguishable without magically augmented senses. This ability functions in any lighting condition so long as there are shadows present, and does not change the prevailing lighting condition. This area of blot may be imbued with a Dark sphere talent as normal, though talents with obvious or harmful effects will immediately reveal the ruse. If the lighting in an area is such as to eliminate the casting of any shadows, then Insinuate cannot be used. Otherwise, a blot created using this talent covers its normal area of effect.
-
+[[/div]]
+[[div style="padding: 0 2%; border: 1px solid black"]]
 ++++ Lingering Darkness
 When you cease concentrating on a darkness or blot effect, you may choose to have the effect remain for two rounds before dissipating.
-
+[[/div]]
+[[div style="padding: 0 2%; border: 1px solid black"]]
 ++++ Mass Meld [mass]
 When using a meld, you may spend an additional spell point to affect an additional 1 creature per 2 caster levels (minimum 1) with the meld at the same time. Each target must be within range and must be affected by the same meld. Once created, each meld is considered a separate sphere effect. When using Mass Meld, the duration of each meld is decreased by one step to 10 minutes per caster level.
-
+[[/div]]
+[[div style="padding: 0 2%; border: 1px solid black"]]
 ++++ Obfuscation
 You may treat creatures and items within your area of darkness or subject to one of your (shadow) talents as if shielded by a veneer of lead, and any attempt to locate them via scrying fails. Divination talents benefiting from a single instance of Penetrating Divination may bypass Obfuscation with a successful magical skill check. Those benefiting from a second instance of Penetrating Divination bypass Obfuscation automatically.
 
 You may take Obfuscation a second time, increasing protection to the equivalent of 1 foot of lead. Scrying attempts using a single instance of Penetrating Divination automatically fail. Attempts using two instances of Penetrating Divination require a magical skill check. Obfuscation does not affect the caster’s own divinations.
-
+[[/div]]
+[[div style="padding: 0 2%; border: 1px solid black"]]
 ++++ Quick Meld
 You may use (meld) talents on yourself and only yourself as a swift action instead of a standard action.
-
+[[/div]]
+[[div style="padding: 0 2%; border: 1px solid black"]]
 ++++ Ranged Darkness [range]
 You may create and maintain darkness, blots, or use (shadow) talents on shadows anywhere within long range instead of medium range. You may apply (meld) talents to targets within close range. You may take this talent multiple times, increasing the range by one step each time (close to medium, medium to long).
-
+[[/div]]
+[[div style="padding: 0 2%; border: 1px solid black"]]
 ++++ Rolling Blackout
 You gain the ability to move your areas of darkness or blot. You can move one instance of darkness or blot up to 25 feet + 5 feet per 2 caster levels as a move action, within the maximum range of the effect. If moving an area of darkness or blot causes a creature to leave its area of effect, any ongoing effects the creature is under related to that area of blot or darkness end immediately.
-
+[[/div]]
+[[div style="padding: 0 2%; border: 1px solid black"]]
 ++++ Shadow Coterie
 You have learned to manipulate a target’s shadow more efficiently, allowing you to apply one additional (shadow) talent to a target for every 5 caster levels, up to 5 at 20th caster level.
 
 You may not apply the same (shadow) talent to a single target more than once, save for the Shadow Lurk talent. Using the Shadow Lurk talent or Shadow Double advanced talent no longer removes the target’s shadow or renders its Shadow Stash inaccessible unless you wish it to.
-
+[[/div]]
+[[div style="padding: 0 2%; border: 1px solid black"]]
 ++++ Shadow Stash [utility]
 You may stash items in your shadow, storing each as a move action. The items appear on your shadow as if you were wearing or using them. A small item (a ring or a key) might be unnoticeable, while a larger item (a greatsword, a tower shield) would be quite obvious. Your shadow can store non-wearable items, but it must either hold such items in its hands or in a backpack, if you or your shadow is carrying one. You may store up to 5 lbs. of non-living material per caster level. Items have no weight while stashed and can not be used, activated, or provide passive bonuses.
 
@@ -141,88 +161,110 @@ Investing a second talent in Shadow Stash allows you quicker access to your stas
 If your shadow dons armor, you gain its bonuses, though also suffer any armor check penalty or movement penalty it would provide. This does not increase your number of magic item slots. If you and your shadow don an item in the same slot, you only gain the benefit of the item your physical body is wearing. You may activate magic items worn by your shadow as normal. This does not allow your shadow to wield weapons or shields, or to activate hand-held magic items.
 
 Your shadow can only don items in slots that your physical body possesses. If you are subject to a polymorph effect that would normally remove your armor and equipment, armor donned by your shadow mannequin does not provide any benefits and you may not activate magic items that would otherwise meld with your body.
-
+[[/div]]
+[[div style="padding: 0 2%; border: 1px solid black"]]
 ++++ Shadow Strike [strike] [3PP]
 ^^**Source:** Expanded Spheres: Baron's Lost Apocrypha^^
 
 As a standard action, you may make a single weapon attack in conjunction with using a (shadow) effect. This casting cannot be reduced below a standard action, and does not provoke attacks of opportunity, unless as usual if making a ranged attack. If the target is struck by the attack, it is also affected by the (shadow). If using a scatter weapon, the (shadow) only applies to a single target, chosen at the time of attack. If you possess the Clinging Darkness talent, you may affect the target with a (darkness) or (blot) effect in place of a (shadow).
-
+[[/div]]
+[[div style="padding: 0 2%; border: 1px solid black"]]
 ++++ Shadowing Darkness
 When creating an area of darkness you can choose to have your darkness cling to anyone who passes through it and trail from them like smoke. Anyone who leaves the area of your darkness treats areas of bright light as areas of dim light and all other light levels as total darkness for the purposes of determining concealment when it would not be beneficial to them. In addition, they continue to be affected by any (darkness) talents as if they were still in an area of your darkness. These lingering effects last for one round after a creature leaves an area of your darkness.
 
 In addition, you may increase the effects of this talent by spending a spell point when you create an area of darkness. If you do so, the effects of this talent linger for an additional round per two caster levels, though a creature can attempt a Reflex save at the end of each of these turns as a move action to remove the clinging shadows.
-
+[[/div]]
+[[div style="padding: 0 2%; border: 1px solid black"]]
 ++++ Shifting Shadows
 As a free action at the beginning of your turn or when you first create an area of darkness, you may remove up to one 5-foot square plus an additional 5-foot square per 2 caster levels from anywhere within the area, and may add one 5-foot square plus an additional 5-foot square per 2 caster levels to an existing area of darkness, so long as the addition is contiguous. At the beginning of each turn, you may change which squares are removed or added, but may never add or remove more at one time than your caster level would allow.
-
+[[/div]]
+[[div style="padding: 0 2%; border: 1px solid black"]]
 ++++ Sinister Surprise
 When spending a spell point to create an area of darkness or blot that persists without concentration, you may opt to create a darkness or blot effect that remains dormant until triggered by a creature entering the 10-foot square area at the center of your dormant darkness or blot effect.
 
 A sinister surprise can be spotted and disabled as a magical trap, with a Perception DC and Disable Device DC equal to the effect’s save DC. You may also trigger the sinister surprise as an immediate action as long as it is within medium range. You may have multiple sinister surprises active, but their trigger areas may not overlap. An untriggered sinister surprise persists for 10 minutes per caster level or until disabled or dismissed. A triggered sinister surprise has the duration of a typical area of darkness or blot.
 
 You may take this talent a second time to add extra conditions to the trigger of your sinister surprise. You may trigger it yourself from up to long range as an immediate action. Additionally, you may choose any of the following additional conditions: You may allow a number of specific individuals up to your caster level, designated at the time of the casting, to pass through the sinister surprise without setting it off. You may set it to be triggered only by a certain creature type or specific individual with whom you are familiar. You may set your sinister surprise to go off at a specified time within the effect’s duration.
-
+[[/div]]
+[[div style="padding: 0 2%; border: 1px solid black"]]
 ++++ Umbral Burst
 You may spend a spell point to create an area of darkness as a swift action. This darkness is temporary, lasting only for one round before the effect ends. You cannot concentrate to maintain it, or spend a spell point to maintain it without concentration. Talents and abilities that would normally extend its duration (such as Lingering Darkness or Eternal Darkness) cannot be applied to areas of darkness created by this talent.
-
+[[/div]]
+[[div style="padding: 0 2%; border: 1px solid black"]]
 ++++ Wall Of Darkness
 Rather than create a sphere of darkness, you may arrange your darkness as up to three 10-foot cubes, +1 cube per caster level. These cubes must be arranged contiguously, but otherwise may assume any shape. You must be able to perceive all areas your darkness will inhabit.
+[[/div]]
 ----
 ++ Blot/Darkness/Shadow Talents
+[[div style="padding: 0 2%; border: 1px solid black"]]
 ++++ Black Lung (darkness)
 Your darkness takes on a foul, miasmic quality that causes creatures to choke and retch. Creatures within must succeed at a Fortitude save or become sickened until they leave the area of Black Lung. Creatures who succeed at this save but remain in the darkness must save again at the end of their turn. If any creature enters this area of darkness, they must save or immediately become sickened. Creatures with the Verbal Casting drawback suffer 50% spell failure while they are sickened by Black Lung. Creatures that do not breathe are unaffected by Black Lung.
 
 By taking this talent a second time, you may imbue your Black Lung with a dose of contact or inhalation poison held in your hand. Using this ability consumes the dose of poison. Any creature that fails its save against the Black Lung talent must succeed at an additional Fortitude save against the poison’s DC or suffer its effects. Those immune to your Black Lung are also immune to the poison. There is no chance of accidentally poisoning yourself when using this ability.
-
+[[/div]]
+[[div style="padding: 0 2%; border: 1px solid black"]]
 ++++ Creeping Lethargy (blot, darkness)
 Your darkness fogs the mind, causing those within to slip towards slumber. By spending a spell point you may create a darkness or blot effect that forces creatures within it to succeed at a Will save or become staggered. Creatures that fail this save and remain staggered must succeed at another Will save at the beginning of your next turn or fall asleep for 1 round per caster level or until the darkness expires, whichever happens first. A successful save negates all effects and the target is immune to that instance of Creeping Lethargy. Leaving the area of darkness automatically rouses the creature and removes the staggered condition, but does not render the creature immune should it re-enter the area of effect. This is a mind-affecting, sleep effect.
-
+[[/div]]
+[[div style="padding: 0 2%; border: 1px solid black"]]
 ++++ Directional Darkness (darkness)
 Your area of darkness only blocks the light from one vantage point. If your darkness is in the form of a wall, it hampers vision from one side and appears clear from the other. If it is spherical, the caster may choose either for those within the area of darkness to see clearly or for those outside to see within clearly. The boundaries of the area of darkness remain obvious to those who can see through it unhindered.
-
+[[/div]]
+[[div style="padding: 0 2%; border: 1px solid black"]]
 ++++ Disorienting Darkness (darkness)
 You may create a darkness effect that has a chance to disorient anyone who enters it. When a creature within this area attempts to move, or when a creature first enters this area, they must succeed at a Will save or become disoriented. A creature must attempt this Will save every time they enter the area of darkness. If the creature fails this saving throw, they must roll a d8 to determine direction: 1 is their intended direction, with 2-8 rotating around the creature in a clockwise direction. The target moves that direction as if it were their intended course. The target does not realize they are off-course until their next turn or until they leave the area of darkness.
 
 You may take this talent a total of three times. If taken twice, you gain a portion of control over your targets’ delusions. When a creature that has failed its save against your disorienting darkness attempts to move, you may spend an immediate action to choose their direction of travel instead of rolling randomly.
 
 If taken three times, you gain even more influence over your victims. When a creature that has failed its save against your disorienting darkness makes an attack, casts a targeted spell or spell-like ability, or uses a supernatural or extraordinary ability with a specified target, the attack or ability is randomly directed to another legal target within range (excluding the attacker itself). If there is no other legal target within range, the attack or ability is not affected. If the affected spell or ability has more than one target, all its targets are randomly chosen from among the legal targets within range. Alternatively, you may select the new target or targets as an immediate action instead of determining them randomly. Chosen targets must be legal and you must be able to perceive them.
-
+[[/div]]
+[[div style="padding: 0 2%; border: 1px solid black"]]
 ++++ Edge Of Night (darkness) [Jester's HB]
 You may create a darkness that is unnaturally edgy. Any creature inside the darkness must succeed at a Reflex save or take 1d6 slashing damage per 3 caster levels (minimum 1d6). Creatures who remain within this area of darkness must save at the end of your subsequent turns or take additional slashing damage. If a creature enters this area of darkness after it is created, they must immediately save or also suffer this damage. A creature may only be affected by Edge Of Night once per round, regardless of how many times they enter or exit the area that round.
-
+[[/div]]
+[[div style="padding: 0 2%; border: 1px solid black"]]
 ++++ Fearful Darkness (blot, darkness)
 You may create a darkness or blot effect that plays with the fears of any who enter it. Creatures within this area of darkness or blot must succeed at a Will save or become shaken. Creatures who succeed at this save but remain in the darkness must save again at the end of your subsequent turns. If any creature enters this area of darkness, they must immediately save or become shaken. When a creature fails their saving throw, they remain shaken for as long as they remain within the area of darkness +1d4 rounds. This is a mind-affecting effect.
-
+[[/div]]
+[[div style="padding: 0 2%; border: 1px solid black"]]
 ++++ Flat Black (blot)
 Your blot causes its area of effect to appear as a flat, featureless plane of blackness, masking any terrain, traps, or unattended objects within at the time it is cast. Some types of terrain may easily be deduced from context (e.g., a river flowing in one side and out the other). This talent does not hide creatures or hamper attempts at non-visual detection. The DCs for all vision- based Perception checks to find something obscured by Flat Black are increased by 10. Darkvision does not pierce Flat Black unless augmented with the Clearsight meld.
-
+[[/div]]
+[[div style="padding: 0 2%; border: 1px solid black"]]
 ++++ Hungry Darkness (blot, darkness)
 You may create a darkness or blot effect that saps away the lifeforce of those inside. Any creature inside the darkness or blot must succeed at a Fortitude save or suffer 1 point of Constitution damage, +1 per 10 caster levels. Creatures who remain within this area of darkness or blot must save at the end of your subsequent turns or suffer another point of Constitution damage. If a creature enters this area of darkness or blot after it is created, they must immediately save or also suffer this damage. A creature may only be affected by Hungry Darkness once per round, regardless of how many times they enter or exit the area that turn.
-
+[[/div]]
+[[div style="padding: 0 2%; border: 1px solid black"]]
 ++++ Imbue Shadow (shadow)
 You may imbue a target’s shadow with the power of your darkness magic. As shadow ability, you may spend a spell point to cause a target’s shadow to wrap itself around the target, creating a band of supernatural darkness across their eyes, rendering the target blinded. The blindfold lasts as long as you concentrate to a total of 1 round per caster level, but you may spend an additional spell point as a free action to allow the effect to endure for this duration without concentration. Darkvision has no effect on this blindfold, but creatures with the see in darkness ability are immune.
 
 Additionally, if a talent is usable as both a (darkness) and (blot), you may now use it as if it also possessed the (shadow) tag. Talents used in this fashion cost an additional spell point to use and have a duration of 1 round per caster level.
-
+[[/div]]
+[[div style="padding: 0 2%; border: 1px solid black"]]
 ++++ Intoxicating Darkness (blot, darkness)
 You may create a darkness or blot effect that erodes the mental capacity of those inside. Any creature inside the darkness must succeed at a Fortitude save or suffer 1 point of Wisdom damage, +1 per 10 caster levels. Creatures who remain within this area of darkness must save at the end of your subsequent turns or suffer another point of Wisdom damage.
 
 If a creature enters this area of darkness or blot after it is created, they must immediately save or also suffer this damage. A creature may only be affected by Intoxicating Darkness once per round, regardless of how many times they enter or exit the area that turn.
-
+[[/div]]
+[[div style="padding: 0 2%; border: 1px solid black"]]
 ++++ Looming Darkness (blot, darkness)
 You may create a darkness or blot effect that erodes the resolve of those who enter it. Creatures within this area of darkness or blot must succeed at a Will save or suffer a -1 penalty to all saving throws so long as they remain within this area of darkness. This penalty increases by 1 per 5 caster levels. If any creature enters this area of darkness or blot, they must immediately save or suffer this penalty. This is a mind-affecting effect.
-
+[[/div]]
+[[div style="padding: 0 2%; border: 1px solid black"]]
 ++++ Numbing Darkness (blot, darkness)
 You may create a darkness or blot effect that subtly anesthetizes those inside. Any creature inside the darkness must succeed at a Fortitude save or suffer 1 point of Dexterity damage, +1 per 10 caster levels. Creatures who remain within this area of darkness must save at the end of your subsequent turns or suffer another point of Dexterity damage. If a creature enters this area of darkness or blot after it is created, they must immediately save or also suffer this damage. A creature may only be affected by Numbing Darkness once per round, regardless of how many times they enter or exit the area that turn.
-
+[[/div]]
+[[div style="padding: 0 2%; border: 1px solid black"]]
 ++++ Obscure Passage (blot)
 By spending a spell point, you modify your blot to serve as a portal through a surface, passing through up to 5 feet of material per caster level. Multiple castings can penetrate deeper into a surface, and creatures can move through both openings. Obscure Passage can not penetrate a surface with a hardness greater than 5 plus its caster level. Attempting to create an obscure passage through a surface that is too thick or too hard causes the spell to fail and all spell points spent to be lost. An obscure passage has a maximum diameter of 1 foot per caster level, and leaves the surface whole and unmarred when it expires. Light does not pass through an obscure passage, nor do low-light vision or darkvision allow a creature to peer through it, though the Clearsight meld and see in darkness do.
 
 A creature standing above an obscure passage as it opens may attempt a Reflex save to avoid falling in.
-
+[[/div]]
+[[div style="padding: 0 2%; border: 1px solid black"]]
 ++++ Pure Darkness (darkness)
 You may create a darkness effect that negates low-light vision. Darkvision is reduced to 5 feet. In addition, all other senses (blindsight, scent, etc.) are reduced by half. See in darkness is unaffected.
-
+[[/div]]
+[[div style="padding: 0 2%; border: 1px solid black"]]
 ++++ Shadow Lurk (shadow)
 As a standard action you may spend a spell point to have a target’s shadow split off from them and form a shadow lurk that acts as an independent creature unwaveringly loyal to you for 10 minutes per caster level. A shadow lurk appears as a shaded, obviously spurious version of the target. It is weightless and its equipment is entirely illusionary. It has the same skills, feats, and attributes as the target, except that its Strength score is 3, and only has a number of hit points equal to your caster level.
 
@@ -231,90 +273,110 @@ The shadow lurk cannot attack, use extraordinary or supernatural abilities, cast
 Retracting a shadow lurk is a move action that does not provoke attacks of opportunity. Either the target or the shadow lurk may spend this action. If a shadow lurk is killed or exceeds its range, it winks out of existence and the target’s shadow returns to them with a surge of energy that causes them to be stunned for 1 round. In either case, the target immediately gains the knowledge of everything their shadow lurk observed and did while it was detached.
 
 You may gain this talent a total of twice. If gained a second time, you may weave shadowstuff into your shadow lurks, giving them and their equipment increased substance. Your shadow lurks use the full Strength score of their source, have 2 hit points per caster level, and possess non-magical versions of their sources’ equipment. It may flank, threaten, and make a single attack per turn using non-magical versions of whatever weapons or natural attacks its source possesses. It attacks using its source’s full base attack bonus, Strength score, feats, and proficiencies, but deals only half damage. A shadowstuff-imbued shadow lurk may not attempt non-attack combat maneuvers, cast spells, or use its source’s class features. Alchemical items created as part of your shadow lurks do not function.
-
+[[/div]]
+[[div style="padding: 0 2%; border: 1px solid black"]]
 ++++ Shadow Slick (blot, shadow)
 Your blot takes on a slick, nearly frictionless quality. Any creature attempting to move more than half their speed through the blot must attempt a Reflex save to avoid falling prone. If used as a (shadow) talent through Imbue Shadow, the target must also attempt a Reflex save to avoid dropping what is in its hands, and must spend a full-round action to retrieve stored or dropped items as they fumble with compromised grip, but gains a +10 bonus to CMD to avoid a grapple and on Escape Artist checks and CMB rolls made to escape a grapple.
-
+[[/div]]
+[[div style="padding: 0 2%; border: 1px solid black"]]
 ++++ Shadow Tag (blot, darkness, shadow)
 You may create an area of darkness or blot that seeps into the shadows of anyone who enters their area. This lets you know their relative direction and status (alive, unconscious, dead) for 1 hour per caster level. If used as a (shadow) talent, you cast this ability directly upon a creature instead, gaining the same benefits.
 
 You may track up to 1 creature per caster level in this way. If you are at this limit, you may choose to cease tracking an old target in order to begin tracking a new one. The effect immediately ends for a target that moves more than one mile away from you.
-
+[[/div]]
+[[div style="padding: 0 2%; border: 1px solid black"]]
 ++++ Shadowed Mien (shadow)
 As a standard action you cloak the target in an aura of menacing shadow that conceals its appearance, subtle movements, and intentions behind a curtain of disconcerting murk. This dark aura hides distinguishing features from observers and grants a competence bonus of 1/2 your caster level to Bluff checks to lie or feint, as well as to Intimidation checks to demoralize. Sense Motive checks to get a hunch about Shadowed Mien’s target have their DC increased by your caster level. The target has no problem seeing out of Shadowed Mien, but the effect cannot be penetrated by darkvision. Clearsight and see in darkness allow the target of Shadowed Mien to be seen clearly, negating its bonuses against creatures with those abilities.
 
 Shadowed Mien lasts for as long as you concentrate or, if you spend one spell point at any time as a free action, ten minutes per caster level.
 
 You may spend an additional spell point as part of the action to initiate Shadowed Mien to grant substance to the shadowy aura. The target gains a number of temporary hit points equal to your caster level for the duration of the effect. Exhausting these temporary hit points does not end the other effects of Shadowed Mien.
-
+[[/div]]
+[[div style="padding: 0 2%; border: 1px solid black"]]
 ++++ Silent Darkness (darkness)
 You may spend a spell point to create an area of darkness that dims sound as well as light. Creatures within the area cannot speak or converse, and spells or magical sphere effects with verbal components suffer a 20% chance + 5% per caster level of spell failure. All Perception checks made to hear noises originating from within the area of your darkness suffer a penalty equal to your caster level. Creatures attempting to use sonic or language-based attacks, spells, or effects while within the area of this darkness or affecting creatures within the area of this darkness must attempt a magic skill check against this darkness as if the effect were a magical light effect; on a failure, the sonic or language-based effect fails.
-
+[[/div]]
+[[div style="padding: 0 2%; border: 1px solid black"]]
 ++++ Snagging Darkness (blot)
 You may spend a spell point to create a blot effect filled with dark tendrils that reach out and snare anything that passes. The entire area is considered difficult terrain, and every creature within the area is the target of a grapple check when the blot is created and each round it is maintained. Creatures who enter this area are also immediately subject to a grapple check. The CMB for this check is equal to your caster level + your casting ability modifier. If successful, the target gains the grappled condition, suffers 1d6 bludgeoning damage per 2 caster levels (minimum 1d6), and cannot move without first breaking free of the grapple (the CMD of this effect is equal to its CMB + 10). Just as with a normal grappler, this effect gains a +5 circumstance bonus on grapple checks made against targets it is already grappling.
-
+[[/div]]
+[[div style="padding: 0 2%; border: 1px solid black"]]
 ++++ Stygian Immersion (blot)
 You may spend a spell point to create a blot that acts as if it were a pool of water. This volume of liquid is an extradimensional space 5 feet deep per caster level, and does not damage the surface the blot has been cast upon. Creatures underneath the blot when it is created can attempt a Reflex save to avoid falling in, and if a creature possesses the ability to breathe underwater, it can breathe within the blot. Light does not pass through the blot liquid, and those within have their senses limited in the same manner as the Pure Darkness talent. Creatures are deposited safely on the surface of the blot directly above their position when the duration expires.
-
+[[/div]]
+[[div style="padding: 0 2%; border: 1px solid black"]]
 ++++ Tenebrous Legerdemain (blot, darkness)
 You create an area of darkness or blot which you may manipulate to perform minor feats of legerdemain. Once per round as a free action you may make a pickpocket attempt or a Steal combat maneuver against a target that is within your darkness or blot. You may use your own Sleight of Hand modifier or Steal CMB or your caster level + your casting ability modifier, whichever is higher.
 
 You may instead retrieve one unattended item that is within your area of blot or darkness once per round as a free action. Whether the item is retrieved or stolen, it appears in your hands or in the nearest adjacent space if your hands are full. An item retrieved or stolen cannot weigh more than 5 lbs. per caster level.
-
+[[/div]]
+[[div style="padding: 0 2%; border: 1px solid black"]]
 ++++ Thick Darkness (darkness)
 You may spend a spell point to create a darkness with substance that becomes difficult to move through. Creatures move at half their speed through this area, cannot make 5-foot steps, and suffer a -1 penalty to all weapon attacks and damage rolls made within or that pass through this area -1 per 10 caster levels. Objects that fall within this area are slowed so that each 10 feet of darkness reduces the falling damage by 1d6, +1d6 per 10 caster levels.
+[[/div]]
 ----
 ++ Meld Talents
+[[div style="padding: 0 2%; border: 1px solid black"]]
 ++++ Clearsight (meld)
 You may spend a spell point to grant a target immunity to all negative effects from your (darkness) or (blot) talents for 1 hour per caster level. This does not grant the target the ability to see in your darkness if it does not already possess the means to do so, but it does allow creatures with darkvision to see in Pure Darkness.
 
 You may gain this talent a total of twice. If gained a second time, you may choose to have your clearsight apply to (darkness) and (blot) talents cast by allies. If you or your ally gains the benefit of Clearsight from another source, you may choose to allow it to it apply to your own darkness and blot effects as well. Status as an ally is determined at the time Clearsight is cast and does not change for its duration.
-
+[[/div]]
+[[div style="padding: 0 2%; border: 1px solid black"]]
 ++++ Dark Slaughter (meld)
 You may spend a spell point to grant the target the ability to make precision strikes for 1 hour per caster level. Whenever the target attacks a creature it is flanking, that is denied its Dexterity bonus to AC, or that is not able to perceive the creature (such as through a successful Stealth check), it deals an additional 1d6 points of precision damage to the target, +1d6 per 10 caster levels. This damage is not multiplied on a critical hit, but it does stack with a rogue’s sneak attack. This only functions while within an area of your darkness.
-
+[[/div]]
+[[div style="padding: 0 2%; border: 1px solid black"]]
 ++++ Edgelord (meld) [Jester's HB]
 When the target is shrouded in an area of your darkness, their natural coolness is tastefully amplified. They gain a +1 bonus to Intimidate checks +1 per 5 caster levels, and may make Intimidate checks to demoralize an opponent as a move action instead of a standard action. At 10 caster levels, the target may make an Intimidate check to demoralize as a swift action instead. This meld lasts for 1 hour per caster level and costs 1 spell point.
-
+[[/div]]
+[[div style="padding: 0 2%; border: 1px solid black"]]
 ++++ Feed On Darkness (meld)
 You may spend a spell point to grant a target fast healing 1 for 1 minute per caster level. The amount of fast healing increases by +1 per 10 caster levels. This fast healing only functions so long as the target remains within an area of your darkness. You may take this talent up to 5 times. Multiply the granted fast healing by the number of times you gain this talent.
-
+[[/div]]
+[[div style="padding: 0 2%; border: 1px solid black"]]
 ++++ Hide In Darkness (meld)
 You may spend a spell point to grant the target the ability to attempt Stealth checks to hide in areas of dim light or darkness even while being observed. This lasts for 1 hour per caster level, and only functions when within an area of your darkness.
-
+[[/div]]
+[[div style="padding: 0 2%; border: 1px solid black"]]
 ++++ Step Through Darkness (meld)
 You may spend a spell point to grant the target and up to a heavy load of carried equipment the ability to step into one patch of dim light or darkness and emerge in another. As a move action, the target may teleport up to 30 feet, +10 feet per 5 caster levels. This lasts for 1 hour per caster level. Both the location they are in and the location they are teleporting to must be within an area of your darkness.
-
+[[/div]]
+[[div style="padding: 0 2%; border: 1px solid black"]]
 ++++ Voidwatcher (meld) [BaP]
 You may spend a spell point to grant a target a heightened awareness of things lurking in darkness for 1 hour per caster level. The target gains blindsense with a range of close, except only allowing the target to detect anything that casts a shadow. The target may also detect anything inside of or in contact with an area of your darkness as though it were within range of this blindsense. In addition, the target rolls twice and takes the highest roll on any Perception checks made to notice someone or something in an area of dim light or darkness.
-
+[[/div]]
 ----
 
 ++ Advanced Dark Talents
 Advanced talents are part of an optional rule and are only available with GM permission.
-
+[[div style="padding: 0 2%; border: 1px solid black"]]
 ++++ Animated Shadow (shadow)
 **Prerequisites:** Dark sphere (Shadow Lurk (shadow)), caster level 5th.
 
 By spending one spell point you lend your shadow animation and substance, allowing it to move and manipulate objects as if they were an additional set of limbs for 1 hour per caster level. Your animated shadow has two arms and a reach of 10 feet. It can retrieve and use stored items, wield and attack with weapons, activate magical items, accomplish delicate tasks like disabling a lock, and deliver touch attacks, all using your own statistics and bonuses. These arms can not be used to make additional attacks above your normal maximum, gain extra magic item slots, or grant additional actions. You may not use other abilities or talents that allow you to use your shadow to manipulate objects, such as shadow limb and Shadow Boxing, while Animated Shadow is active.
-
+[[/div]]
+[[div style="padding: 0 2%; border: 1px solid black"]]
 ++++ Black And Black Morality (blot, darkness, shadow)
 **Prerequisites:** Dark sphere (Gaze Into The Abyss), caster level 10th.
 
 By spending additional 2 spell points you may empower a blot, darkness, or shadow so that the alignments of those within are rendered utterly null. Any new spell or effect targeting a creature or object of a particular alignment, or with a variable effect determined by alignment, automatically fails against targets protected by Black And Black Morality. Creatures lose the benefit of alignment-based damage reduction when affected by Black And Black Morality. Any ongoing spell or effect targeting alignment, such as a paladin’s smite ability or the penalties inflicted by a strongly aligned plane, are suspended for as long as the target is protected by Black And Black Morality, but not ended. Time spent protected by Black And Black Morality counts against the duration of ongoing effects.
-
+[[/div]]
+[[div style="padding: 0 2%; border: 1px solid black"]]
 ++++ Eternal Darkness
 **Prerequisites:** Dark sphere (Lingering Darkness), caster level 10th.
 
 When creating darkness, you may spend 2 spell points to turn your darkness into a permanent effect that lasts until it is dispelled. Once created, this darkness is unmoving. It cannot be centered on a creature or object with the Clinging Darkness talent, and cannot be moved with the Rolling Blackout talent, though you can adjust its area with Shifting Shadows.
-
+[[/div]]
+[[div style="padding: 0 2%; border: 1px solid black"]]
 ++++ Lightless Penumbra (shadow)
 **Prerequisites:** Dark sphere (Shadowed Mien (shadow)), caster level 1st.
 
 By spending an additional spell point you may render your shadowed mien entirely opaque, protecting the target from harm from daylight, magical or normal, and granting a bonus equal to your caster level on saves against light, pattern, and vision-based effects. You are always treated as having your eyes averted with respect to gaze attacks, though you suffer none of the associated penalties. Creatures with extreme vulnerability to daylight, such as vampires and shadow demons, are protected from daylight by this talent.
 
 **Author's Note:** This talent may be used on creatures which do not cast a shadow (such as vampires or other creatures with the shadowless ability) that otherwise could not be targeted by (shadow) talents. At GM's discretion, this talent may be allowed to suppresses a creature's shadowless ability, causing the creature to cast a shadow and be able to be affected by other (shadow) talents or effects which interact with a creature's shadow.
-
+[[/div]]
+[[div style="padding: 0 2%; border: 1px solid black"]]
 ++++ Melt Into Shadow
 **Prerequisites:** Dark sphere (Animated Shadow (advanced, shadow), Flowing Darkness, Shadow Lurk (shadow)), caster level 10th.
 
@@ -323,26 +385,30 @@ By spending 2 spell points as a standard action you may become an area of blot f
 In blot form you can manipulate objects and use your items (which also take on blot form) as if using the Animated Shadow talent. In this form you lose AC bonuses from armor and natural armor, but gain DR/- equal to 1/2 your caster level. You cannot be tripped in blot form. Losing contact with a solid surface, either through your own actions or those of an ally or opponent, immediately ends Melt Into Shadow.
 
 You may imbue yourself with one (blot) talent at normal spell point cost. This talent affects all targets within the area of your reach. You may change your active (blot) talent as a standard action, though you must pay any spell point cost associated with the new talent. You may end Melt Into Shadow as a swift action, rematerializing in any unoccupied space within your reach.
-
+[[/div]]
+[[div style="padding: 0 2%; border: 1px solid black"]]
 ++++ Midnight (darkness)
 **Prerequisites:** Dark sphere (Greater Darkness), caster level 10th.
 
 You may spend 2 additional spell points to increase the area of your darkness to a 2 mile radius.
-
+[[/div]]
+[[div style="padding: 0 2%; border: 1px solid black"]]
 ++++ One With The Void
 **Prerequisites:** Dark sphere (Step Through Darkness (meld)), caster level 10th.
 
 By spending 2 spell points as a standard action you may become an area of your own darkness for one minute per caster level. You become incorporeal and gain a fly speed of 30 feet (good). You may share spaces freely with allies and enemies, without any benefit or penalties to either party from doing so. You cannot make attacks in this form and do not threaten, though you may still cast spells and use talents.
 
 You may adjust your size as a move action from a 5-foot radius sphere up to the maximum volume of your darkness, and you may imbue yourself with one (darkness) talent at its normal spell point cost. Changing your active (darkness) talent is a standard action, and you must pay any spell point cost associated with the new talent. You may not manipulate objects or use your own items in this form. Ending this effect is a swift action allowing you to rematerializing in any unoccupied space within your personal area of darkness.
-
+[[/div]]
+[[div style="padding: 0 2%; border: 1px solid black"]]
 ++++ Pitch Black
 **Prerequisites:** Dark sphere (Pure Darkness (darkness)), caster level 10th.
 
 Pure Darkness no longer counts against the number of (darkness) talents you may apply to an area of darkness.
 
 In addition, when you apply the effects of Pure Darkness to your darkness, you may spend an additional spell point to make an even deeper area of shadow. All areas of light, even bright light, become absolute darkness, and no mundane light sources function. Darkvision or even see in darkness does not function in this area, and all other senses (such as blindsight or scent) are reduced to a 5 feet range.
-
+[[/div]]
+[[div style="padding: 0 2%; border: 1px solid black"]]
 ++++ Shadow Double (shadow)
 **Prerequisites:** Dark sphere (Animated Shadow (advanced, shadow), Shadow Lurk (shadow)), caster level 15th.
 
@@ -353,67 +419,77 @@ If it removes or drops its copied equipment, it disappears after 1 round. You ma
 You do not cast a shadow while this ability is active, nor may you use or be the target of any abilities or talents that affect your shadow while your shadow double is active.
 
 Reattaching your shadow double is a move action that does not provoke attacks of opportunity. Either you or your shadow double may spend this action. If your shadow double is killed or removed from the same plane of existence as you, it winks out of existence and drops any non-copied equipment or items it is carrying, and your shadow returns with a surge of energy that causes you to be stunned for 1d4 rounds. In either case, you immediately gain the knowledge of everything your shadow double observed and did while it was detached.
-
+[[/div]]
+[[div style="padding: 0 2%; border: 1px solid black"]]
 ++++ Shadow Walker (meld)
 **Prerequisites:** Dark sphere (Step Through Darkness (meld)), caster level 10th.
 
 A target must be within an area of dim light or darkness for you to apply this meld to them. When this talent is applied, the target temporarily steps out of the Material Plane and into the place where it borders the Plane of Shadow. While within this region of shadow, the target may move at a rate of 50 miles per hour, seeing their relative place in the Material Plane, although it appears blurry and lacking in details. At any time, the target may step back into the Material Plane, at which point the effects of this (meld) talent immediately end.
 
 Because of the blurring of reality between the Plane of Shadow and the Material Plane, the target cannot make out details of the terrain or areas you pass over during transit, nor can you predict perfectly where your travel will end. It is impossible to judge distances accurately, making this ability ill-suited for scouting or spying. Furthermore, when stepping back into the Material Plane, the target is shunted 1d10 x 100 feet in a random horizontal direction from the desired endpoint. If this would place the target within a solid object, they are shunted 1d10 x 1,000 feet in the same direction. If this would still place them within a solid object, they are shunted to the nearest empty space available, but the strain of this activity renders the creature fatigued (no save).
-
+[[/div]]
+[[div style="padding: 0 2%; border: 1px solid black"]]
 ++++ Vanish In Shadow
 **Prerequisites:** Dark sphere (Hide In Darkness (meld)), caster level 5th
 
 When you apply the Hide In Darkness meld to a target, its benefits function in any area of dim light or darkness, not just areas of darkness you created.
 
 In addition, when you apply the meld to a target you may spend an additional point to completely hide them from detection. Anyone that attempts to discern the target’s location must succeed on the normal Perception check to locate them while they are hiding, even those using unusual forms of perception such as blindsight or tremorsense or Divination sphere effects to directly or indirectly discover their current position.
-
+[[/div]]
 ----
 
 + Dark Sphere Feats
-
+[[div style="padding: 0 2%; border: 1px solid black"]]
 ++++ Aura Of Mystery
 **Prerequisites:** Dark sphere (Obfuscation).
 
 **Benefit:** You gain the benefit of the Obfuscation talent as a constant effect whenever you are in an area of dim light or darkness, whether it is mundane or magical. You may raise and dismiss this effect as a standard action with no spell point cost.
-
+[[/div]]
+[[div style="padding: 0 2%; border: 1px solid black"]]
 ++++ Black Totem (Dual Sphere)
 **Prerequisites:** Dark sphere, War sphere.
 
 **Benefit:** When you create a totem, you may spend a spell point to add the effects of a darkness ability you have to it. If you do, the entire area of your totem is a darkness, and your melds work within this totem as if they were within any other darkness that you created.
-
+[[/div]]
+[[div style="padding: 0 2%; border: 1px solid black"]]
 ++++ Body Double (Dual Sphere)
 **Prerequisites:** Dark sphere (Shadow Lurk (shadow)), Illusion sphere, ability to create glamers.
 
 **Benefit:** By spending an extra spell point you may summon a single shadow lurk that remains bound to its host, serving as a combat decoy. Every successful attack requiring an attack roll from an opponent that failed to see through the shadow lurk’s disguise has a 50% chance of hitting the shadow lurk instead of the intended target. A shadow lurk acting as a body double does not stun the target if it is destroyed.
-
+[[/div]]
+[[div style="padding: 0 2%; border: 1px solid black"]]
 ++++ Damning Darkness
 **Prerequisites:** Dark sphere, evil alignment.
 
 **Benefit:** Any good creature that begins their turn within or enters the area of effect of your darkness must succeed at a Fortitude save against its DC or be sickened for one minute, even if normally immune to being sickened or effects requiring a Fortitude save. A creature that succeeds on its saving throw is immune to your Damning Darkness for 24 hours.
-
+[[/div]]
+[[div style="padding: 0 2%; border: 1px solid black"]]
 ++++ Dark Portal
 **Prerequisites:** Dark sphere (Step Through Darkness (meld)).
 
 **Benefit:** When you use your Step Through Darkness (meld) talent, you may opt to keep a dark portal open behind you until the start of your next turn. Any creature that can reach the spot you departed from as part of their move action while the portal is open may choose to follow you. You may not choose who is able to use the portal. Those who follow through the portal appear in any space of their choice that is adjacent to your exit point. If all such spaces are occupied, they may not follow.
-
+[[/div]]
+[[div style="padding: 0 2%; border: 1px solid black"]]
 ++++ Dark Room (Dual Sphere)
 **Prerequisites:** Dark sphere, Warp sphere (Extradimensional Room (space)).
 
 **Benefit:** Rather than a shimmering portal, the entrance to your extradimensional room may appear as a deep shadow, difficult to discern from a normal shadow by mundane means. An active Perception check with a DC of 10 + 1/2 caster level + your casting ability modifier is required to find the entrance if it is cast in conditions of dim light or darker or positioned so as to overlap with an existing shadow. Those inside the room can look out through the portal unhindered.
 
 **Normal:** The portal to an extradimensional room shimmers conspicuously.
-
+[[/div]]
+[[div style="padding: 0 2%; border: 1px solid black"]]
 ++++ Defiant Shadow
 **Prerequisite:** Dark sphere.
 
 **Benefit:** You add +2 to your MSB and MSD for the purposes of Dark sphere effects. Double this bonus when attempting an opposed magic skill check against magical light effects.
-
+[[/div]]
+[[div style="padding: 0 2%; border: 1px solid black"]]
 ++++ Event Horizon (Dual Sphere)
 **Prerequisites:** Dark sphere, Telekinesis sphere (Gravity Well).
 
 **Benefit:** You may use the Gravity Well talent as a (darkness) talent covering the full area of a darkness or blot. You may do the same with the Gravity Shift talent. If you have Gravity Manipulation advanced talent, you may use it as a (darkness) or (blot) talent. When used as (darkness) or (blot) talents, Gravity Shift and Gravity Manipulation count as Dark sphere talents for determining caster level and bonus effects.
-
+[[/div]]
+[[div style="padding: 0 2%; border: 1px solid black"]]
 ++++ Extradimensional Shadow
 **Prerequisites:** Dark sphere (Shadow Stash), Warp sphere (Extradimensional Storage).
 
@@ -422,17 +498,20 @@ In addition, when you apply the meld to a target you may spend an additional poi
 If you have invested two talents in Shadow Stash, your shadow may don items even if they are not your size, stretching and warping to fit into them. You must still have the appropriate body slot for the item.
 
 You may treat your extradimensional shadow as either talent for all purposes. Among other uses, this allows you to apply the effects of feats like Stasis Storage or World In Miniature to it, which often distort the appearance of your shadow. Whenever it would be necessary to determine whether it is a Dark (shadow) effect or a Warp (space) effect (such as calculating its caster level or how it would be affected by Light), the caster may treat it as whichever they deem most advantageous to them.
-
+[[/div]]
+[[div style="padding: 0 2%; border: 1px solid black"]]
 ++++ Hypnotic Darkness (Dual Sphere)
 **Prerequisites:** Dark sphere (Looming Darkness (blot, darkness)), Mind sphere.
 
 **Benefit:** Those within your darkness are particularly vulnerable to your charms. Your areas of darkness and blot are always treated as if imbued with Looming Darkness when you use the Confusion, Fear, or Sleep charms.
-
+[[/div]]
+[[div style="padding: 0 2%; border: 1px solid black"]]
 ++++ Lurking Surprise
 **Prerequisites:** Dark sphere (Shadow Lurk (shadow), Sinister Surprise).
 
 **Benefit:** You may imbue your shadow lurk with the ability to cast a single Dark sphere effect with a duration other than concentration. You must pay the spell point cost of this effect when you create the shadow lurk. This effect may include Dark sphere talents, though not advanced talents. These spell points are lost if the shadow lurk expires or is destroyed, but regained if the shadow lurk is retracted. Casting the Dark sphere power destroys the shadow lurk.
-
+[[/div]]
+[[div style="padding: 0 2%; border: 1px solid black"]]
 ++++ Night Sky (Dual Sphere) [RW HB]
 It was no longer dark, for the twinkling lights danced and distracted in their own new ways.
 
@@ -445,70 +524,84 @@ If you would create starlight darkness modified with the Dark sphere Pure Darkne
 When creating starlight darkness, you may add a (light) talent instead of a (darkness) talent to the area. A (light) talent used with starlight darkness must be one that affects all creatures in the light’s radius (such as Disorienting Patterns, Hypnotic Pattern, Searing Light, etc.) and has no additional effects for an individual target (even if attached to that target with Clinging Darkness). Starlight darkness with a (light) talent is treated as a glow effect for the purposes of a (light) talent’s effects. Starlight darkness is otherwise a Dark sphere effect, and effects such as the Dark sphere Clearsight (meld) treat this effect as a normal (darkness) effect.
 
 You may spend a standard action to treat the starlight darkness as though it were an area of bright light or as part of the standard action used to create the starlight darkness, and functions as if it were bright light for the starlight darkness’s duration. You must spend any additional spell points required when using a (light) talent with an area of starlight darkness.
-
+[[/div]]
+[[div style="padding: 0 2%; border: 1px solid black"]]
 ++++ Shade (Dual Sphere)
 **Prerequisites:** Dark sphere, Illusion sphere.
 
 **Benefit:** When creating a figment, you may, as part of the same action, create darkness as the base Dark sphere ability. Even if you do not choose to do so, the area occupied by your figments and those under the effects of your glamers counts as being within your darkness.
-
+[[/div]]
+[[div style="padding: 0 2%; border: 1px solid black"]]
 ++++ Shadow Cage (Dual Sphere)
 **Prerequisites:** Dark sphere, Protection sphere.
 
 **Benefit:** When you create a ward, you may spend a spell point to add the effects of a darkness ability you have to it. If you do, the entire area of your ward is a darkness, and your melds work within this ward as if its bearer were within any other darkness that you created.
-
+[[/div]]
+[[div style="padding: 0 2%; border: 1px solid black"]]
 ++++ Shadow Doppelganger (Dual Sphere)
 **Prerequisites:** Dark sphere (Shadow Lurk (shadow)), Illusion sphere (Illusionary Disguise ability).
 
 **Benefit:** You may create your shadow lurks and shadow double with an Illusionary Disguise to look and sound like you or the target they are spawned from at no additional cost in spell points or actions. This additional effect functions exactly as the Illusionary Disguise ability, using your ranks in the Disguise skill with a +10 bonus circumstance bonus to the check. Your shadow lurk can speak in your voice. Anyone physically interacting with your shadow lurk or shadow double receives a Will save to disbelieve the disguise. Certain actions, such as your shadow lurk being hit with an attack or displaying its diminished Strength, automatically reveal the ruse. If you have taken the Shadow Lurk talent a second time, your shadow lurk’s attacks deal full damage as long as its disguise remains intact.
-
+[[/div]]
+[[div style="padding: 0 2%; border: 1px solid black"]]
 ++++ Shadow Feast
 **Prerequisite:** Dark sphere.
 
 **Benefit:** You may consume your own shadow as a free action, gaining 1 spell point for every 2 points of burn to your casting ability score you accept. No matter how many spell points you regain, you can only consume your shadow once a day. You may not gain spell points in excess of your normal maximum spell pool. Spell points gained this way are available immediately, but the ability burn does not take effect until the end of your turn. Your shadow disappears until the burn heals, and you are immune to any spells or abilities that manipulate or target your shadow until it returns. Any items stored in your shadow stash are inaccessible until your shadow returns.
-
+[[/div]]
+[[div style="padding: 0 2%; border: 1px solid black"]]
 ++++ Shadow Swap
 **Prerequisites:** Dark sphere (Shadow Lurk (shadow), Step Through Darkness (meld)).
 
 **Benefit:** Anyone under the effects of your Step Through Darkness talent and your Shadow Lurk talent may switch places with their shadow lurk as a move action as long as the distance between them does not exceed the range of Step Through Darkness. If you have the Shadow Coterie talent, they may switch places with any of their shadow lurks within range. They may switch places even if neither the user nor the shadow lurk is in an area of darkness.
-
+[[/div]]
+[[div style="padding: 0 2%; border: 1px solid black"]]
 ++++ Twilight Adept (Teamwork)
 **Prerequisite:** Dark sphere or Light sphere.
 
 **Benefit:** Your Dark sphere talents or abilities continue to function in areas where you or someone else with the Twilight Adept feat cast a Light sphere talent or ability. Your Light sphere talents or abilities continue to function in areas where you or someone else with the Twilight Adept feat cast a Dark sphere talent or ability. The MSD to dispel a Light or Dark sphere effect overlapping in this way is increased by +2. You may choose to have your Dark and Light sphere talents or abilities interact normally if you wish. The light level in overlapping areas defaults to the ambient lighting conditions.
 
 **Normal:** If a Light sphere effect interacts with a darkness effect (such as from the Dark sphere) or vice versa, the creator of the second effect must succeed at a magic skill check against the creator of the first effect.
-
+[[/div]]
 ----
 
 + Archetypes Specializing in Dark
-
+[[div style="padding: 0 2%; border: 1px solid black"]]
 ++ [[[Darkshaper]]]
 The Darkshaper is an archetype for the [[[Armorist]]] that focuses on animating and manipulating their shadow.
-
+[[/div]]
+[[div style="padding: 0 2%; border: 1px solid black"]]
 ++ [[[Invidian]]]
 The Invidian is an archetype for the [[[Symbiat]]] draws power from a shadow demon.
-
+[[/div]]
+[[div style="padding: 0 2%; border: 1px solid black"]]
 ++ [[[Nocturnal Predator]]]
 The Nocturnal Predator is an archetype for the [[[Shifter]]] that helps them with striking down foes from the shadows.
-
+[[/div]]
+[[div style="padding: 0 2%; border: 1px solid black"]]
 ++ [[[Shadow Boxer]]]
 The Shadow Boxer is an archetype for the Unchained Monk that allows them to use their shadow to strike foes that are further away.
-
+[[/div]]
+[[div style="padding: 0 2%; border: 1px solid black"]]
 ++ [[[Skulk]]]
 The Skulk is an archetype for the [[[Fey Adept]]] that trades some of their power over illusions for added strength with shadows.
-
+[[/div]]
+[[div style="padding: 0 2%; border: 1px solid black"]]
 ++ [[[Talent Thief]]]
 The Talent Thief is an archetype for the Unchained Rogue that allows them to steal shadows (and powers) from their targets.
-
+[[/div]]
+[[div style="padding: 0 2%; border: 1px solid black"]]
 ++ [[[Tenebrous Stalker]]]
 Tenebrous stalkers are Elementalists who specialize in [[[Dark]]] and [[[Illusion]]].
-
+[[/div]]
+[[div style="padding: 0 2%; border: 1px solid black"]]
 ++ [[[Utterdark Champion]]]
 The Utterdark Champions an archetype for the [[[Mageknight]]] that manipulates the power of darkness for deadly smites.
-
+[[/div]]
+[[div style="padding: 0 2%; border: 1px solid black"]]
 ++ [[[Void Gazer]]]
 The Void Gazer is an archetype for the [[[Thaumaturge]]] that gives them shadowy new invocations - and a curse on their sight.
-
+[[/div]]
 ----
 + Wild Magic
 
@@ -539,15 +632,15 @@ The Void Gazer is an archetype for the [[[Thaumaturge]]] that gives them shadowy
 </div>
 <script>
     function randString(){
-        return stringArray[~~(rand()*stringArray.length)];
+    	return stringArray[~~(rand()*stringArray.length)];
     }
     function randText(){
-        var tx = randString();
-        var txt = document.createTextNode(tx);
-        var sp = document.createElement('span');
-        sp.appendChild(txt);
-        randomResult.innerHTML = '';
-        randomResult.appendChild(sp);
+    	var tx = randString();
+    	var txt = document.createTextNode(tx);
+    	var sp = document.createElement('span');
+    	sp.appendChild(txt);
+    	randomResult.innerHTML = '';
+    	randomResult.appendChild(sp);
     }
     rand = Math.random;
     stringArray = ['1: The target or creatures in the target area when the effect gain the see in darkness monster ability for 1 minute per caster level. The creature can see perfectly in darkness of any kind, including that created by the deeper darkness spell or the Pure Darkness talent.', '2: The target or creatures in the target area must succeed on a Will save or lose their shadow for 10 minutes per caster level.', '3: An area out to long range of the caster is shrouded in magic darkness as the Pure Darkness talent until the start of the next turn of the caster. The Clearsight talent has no effect against this darkness.', '4: Roll twice and choose the result. Ignore any results that require rerolls. If both rolls thus ignored, there is no effect.', '5: The casting time decreases by 2 steps.', '6: The caster becomes afraid of the dark, taking a -2 penalty on saves against fear effects while in areas with less than normal light for 1 hour per caster level.', '7: An area of darkness affected by every (dark) talent the caster possesses appears centered on the caster and follows the caster at a rate of 20 ft. per round, plus 5 ft. per 2 caster levels. The Clearsight (meld) provides no protection from this darkness to the caster. This effect persists for 1 round per caster level.', '8: For 1d6 rounds, the caster leaves an area of darkness in all squares he has occupied since the start of his last turn. No (darkness) talent may be applied to this effect and the caster is unable to perceive any creature or object in an affected square (unless that creature or object also occupies unaffected squares that the caster can perceive).', '9: The shadow of the caster performs mocking pantomimes of nearby creatures for 1 hour. This imposes a -5 penalty on all Diplomacy checks against a creature that can see the shadow (DC 5 Perception check to notice). If the caster lacks a shadow, one is created for the duration of this effect.', '10: For 1 minute per caster level, the caster suffers a bout of photophobic vertigo, suffering the sickened condition in areas of normal light and the nauseated condition in areas of bright light.', '11: For 1 minute per caster level, all effects of the Light sphere or with the light descriptor originating from hostile creatures within long range of the caster have their caster level increased by 1. This bonus increases by 1 for every 4 caster levels of the triggering effect.', '12: (Combat) Black tendrils of semi-solid darkness cover an area out to close range of the target or center of the target area for 1d6 rounds, creating difficult terrain and granting all creatures within partial concealment. Any creature within the effect must succeed on a Reflex save each round or be entangled until the start of their next turn.', '13: The spell point cost of the effect increases by 1d4. If the caster does not have enough spell points, he is instead dazed until the end of his next turn.', '14: The target or creatures in the target area must succeed on a Will save or gain an additional shadow at 180 degrees from their normal shadows for 10 minutes per caster level.', '15: Any light source in the possession of the target or creatures in the target area when the effect is cast has its effect on illumination inverted for 1 round per caster level.', '16: A shadow twin of the caster appears adjacent to the caster. This twin possesses all of the abilities and equipment of the caster, though only 1 hit point. This twin aids the caster for 1 minute per caster level or until slain. The twin and all its equipment disappear when the twin is slain or the effect expires. Any non-instantaneous effect originating from the twin end when it disappears.', '17: For 1 minute per caster level, the caster treats areas of normal or brighter light as if they were solid objects and is unable to enter or pass through such an area, though retains line of effect through such areas.', '18: (Combat) The caster is stunned for 1 round.', '19: (Combat) The shadow of the caster attempts to blind nearby creatures, performing a dirty trick combat maneuver on an adjacent creature each round for 1 minute per caster level. This maneuver uses the CMB (or caster level + casting ability modifier, if higher) of the caster and bonuses and provokes attacks of opportunity against the caster as normal for the maneuver, though benefits from Improved Dirty Trick and similar feats if the caster possesses them. If the caster lacks a shadow, a shadow is created for the duration of this effect.', '20: The caster takes untyped nonlethal damage equal to caster level. This damage does not force concentration checks to cast or maintain sphere effects or spells.', '21: For 1 minute per caster level, all effects of the Light sphere or with the light descriptor cast within long range of the caster have their caster level increased by 1. This bonus increases by 1 for every 4 caster levels of the triggering effect.', '22: (Combat) For 1d6 rounds, the caster absorbs all light, appearing perfectly black and is blind.', '23: For 1 minute per caster level, the caster gains a 20% miss chance while in areas of less than normal light.', '24: The caster is fatigued.', '25: Effect receives a -4 penalty to caster level (minimum 1).', '26: The caster takes 1d4 points of Constitution damage even if he would normally be immune to ability damage. Creatures without a Constitution score instead take Charisma damage.', '27: Creatures subject to the effect receive the half of any damage the caster receives for the duration of their time subject to the effect. This damage is redirected from the caster, reducing the amount he is damaged by an equal amount. Resistance and immunity apply to this damage. Multiple affected creatures divide this damage equally.', '28: The spell point cost of the effect decreases by 1. If the effect did not require any spell points, the caster instead gains 1 temporary spell point that expires at the end of his next turn.', '29: The caster becomes afraid of the light, taking a -2 penalty on saves against fear effects while in areas with greater than dim light for 1 hour per caster level.', '30: (Combat) The caster is nauseated for 1 round.', '31: Any light source in the possession of the caster has its effect on illumination inverted for 1 round per caster level.', '32: The target or any creature in the area of the effect when it is cast must succeed on a Fortitude save or begin to absorb all light, appearing perfectly black and be blinded for 1d6 rounds.', '33: For 10 minutes per caster level, the caster gains the light blindness monster ability. Creatures with light blindness are blinded for 1 round if exposed to bright light, such as sunlight or the daylight spell. Such creatures are dazzled as long as they remain in areas of bright light.', '34: For 1 hour per caster level, all shadows within long range of the caster all lengthened as if exposed to a sunset.', '35: The caster gains knowledge of one talent of his choice from this sphere for 1 round.', '36: The caster becomes blind in any area with greater than dim light for 1 minute per caster level.', '37: The shadow of the caster attempts to pilfer items from nearby creatures, performing a steal combat maneuver on an adjacent creature each round for 1 minute per caster level and storing any items successfully stolen in the gear of the caster. This maneuver uses the CMB (or caster level + casting ability modifier, if higher) of the caster and bonuses and provokes attacks of opportunity as normal for the maneuver, though benefits from Improved Steal and similar feats if the caster possesses them. If the caster lacks a shadow, a shadow is created for the duration of this effect.', '38: The shadow of the caster takes on a sinister appearance for 10 minutes per caster level, granting a +2 circumstance bonus on Intimidate checks but imposing a -2 penalty on Bluff and Diplomacy checks.', '39: Affected creatures or those within the area of effect receive the casting drawbacks of the caster for the duration of their time in the effect or for as long as they are affected by it.', '40: The ambient light level with the Dark sphere range of the caster is reduced by one step unless this reduction would make it darker than dim light. The effect remains centered on the caster for 1 minute per caster level.', '41: Any creature within long range of the caster that is in an area of dim or lower illumination takes 1 point of negative energy damage per caster level each round for 1 round per caster level.', '42: (Combat) For 1d6 rounds, all creatures other than the caster can see normally in regular and magical darkness within medium range of the caster.', '43: The effect fails and the action is lost. Spell points or spell slots are lost.', '44: (Combat) for 1 round per caster level, the caster becomes an area of darkness. The caster generates an area of darkness in his space as if he had cast darkness. The caster may move with his normal movement speeds, but may not otherwise take any actions other than to change his choice or (darkness) talents active in this area and to concentrate on any ongoing effects. The caster may not be targeted or effected by anything other than effects that would dispel the darkness. Any effect that dispels this darkness causes the caster to reform and take 1d6 points of untyped damage per 2 caster levels of the dispelling effect.', '45: For 1 minute per caster level, all effects with the dark descriptor cast within long range of the caster have their caster level increased by 1. This bonus increases by 1 for every 4 caster levels of the triggering effect.', '46: Darkness sweeps outward from the caster, reducing light levels by 2 steps in a long range emanation for 1 round. Make a single magical skill check and compare it with the MSD of all Light sphere effects in range; success means the Light sphere effect is dispelled as with the Counterspell feat.', '47: The caster is exhausted.', '48: Roll twice and take both results. Ignore any results that require rerolls. If both rolls thus ignored, there is no effect.', '49: The target or creatures in the target area when the effect is cast must succeed on a Fortitude save or gain the see in darkness monster ability for 1 round per caster level but is blind in anything brighter than dim light.', '50: (Combat) The shadow of the caster attempts to pilfer items from nearby allied creatures, performing a steal combat maneuver on an adjacent creature each round for 1 minute per caster level and storing any items successfully stolen in the gear of the caster. This maneuver uses the CMB (or caster level + casting ability modifier, if higher) of the caster and bonuses and provokes attacks of opportunity against the caster as normal for the maneuver, though benefits from Improved Steal and similar feats if the caster possesses them. If the caster lacks a shadow, a shadow is created for the duration of this effect.', '51: For 1d6 rounds, the caster leaves an area of darkness in all squares he has occupied since the start of his last turn. A (darkness) talent may be applied to this effect as normal.', '52: All creatures within close range of the target or center of the target area must succeed on a Fortitude save or gain the light blindness monster ability for 1 minute per caster level. Creatures with light blindness are blinded for 1 round if exposed to bright light, such as sunlight or the daylight spell. Such creatures are dazzled as long as they remain in areas of bright light.', '53: The caster gains an additional shadow at 180 degrees from his normal shadow for 10 minutes per caster level.', '54: The active Dark sphere effects of the caster flicker randomly, having only a 50% chance of functioning each round (rolled immediately and again at the beginning of each turn of the caster) for 1 round per caster level.', '55: The target or creatures in the target area must succeed on a Will save or become blind in any area greater than dim light for 1 minute per caster level.', '56: The caster gains the see in darkness monster ability for 1 minute per caster level. The caster can see perfectly in darkness of any kind, including that created by the deeper darkness spell or the Pure Darkness talent.', '57: Any creature within close range of the target or center of the target area that is in an area of normal or brighter light takes 1 point of untyped damage per caster level each round for 1 round per caster level.', '58: (Combat) Black tendrils of semi-solid darkness cover an area out to close range of the caster for 1d6 rounds, creating difficult terrain and granting all creatures within partial concealment. Any creature within the effect must succeed on a Reflex save each round or be entangled until the start of their next turn.', '59: For 1 hour per caster level, the caster absorbs all light, appearing perfectly black.', '60: The casting time decreases by 1 step.', '61: (Combat) Black tendrils of semi-solid darkness cover an area out to close range of the caster for 1d6 rounds, creating difficult terrain and granting all creatures within that area partial concealment.', '62: The effect fails, but the action is not lost. Spell points or spell slots spent are lost.', '63: The shadow of the caster gains a color the GM chooses for 10 minutes per caster level. This tint extends to all Dark sphere abilities originating from the caster during this time but has no other effect.', '64: The target or creatures in the target area must succeed on a Will save or become blind in any area with less than normal light for 1 minute per caster level.', '65: (Combat) The shadow of the caster attempts to trip nearby allied creatures, performing a trip combat maneuver on an adjacent creature each round for 1 minute per caster level. This maneuver uses the CMB (or caster level + casting ability modifier, if higher) of the caster and bonuses and provokes attacks of opportunity against the caster as normal for the maneuver, though benefits from Improved Trip and similar feats if the caster possesses them. If the caster lacks a shadow, a shadow is created for the duration of this effect.', '66: The caster takes a number of points of ability damage to his casting attribute equal to the caster level/4 (minimum 1) of the effect, even if he would normally be immune to ability damage.', '67: A shadow twin of the caster appears adjacent to the caster. This twin possesses all of the abilities and equipment of the caster, though only 1/2 his hit points and attempts to harm the caster and the allies of the caster to the best of its abilities for 1 minutes per caster level or until slain. The twin and all its equipment disappears when the twin is slain or the effect expires. Any non-instantaneous effect originating from the twin end when it disappears.', '68: The casting time increases by 1 step.', '69: Any creature within long range of the caster that is in an area of normal or brighter light takes 1 point of untyped damage per caster level each round for 1 round per caster level.', '70: Roll again on the Universal wild magic table.', '71: The caster casts no shadow for 10 minutes per caster level.', '72: Any creature within long range of the target or center of the target area that is in an area of dim or lower illumination takes 1 point of negative energy damage per caster level each round for 1 round per caster level.', '73: The ambient light level with the Dark sphere range of the caster is reduced by one step unless this reduction would make it darker than dim light. The effect remains centered on the target or target area for 1 minute per caster level.', '74: (Combat) The shadow of the caster attempts to blind nearby hostile creatures, performing a dirty trick combat maneuver on an adjacent creature each round for 1 minute per caster level. This maneuver uses the CMB (or caster level + casting ability modifier, if higher) of the caster and bonuses and provokes attacks of opportunity against the caster as normal for the maneuver, though benefits from Improved Dirty Trick and similar feats if the caster possesses them. If the caster lacks a shadow, a shadow is created for the duration of this effect.', '75: The caster is unable to detect any creature currently affected by his Dark sphere abilities or spells with the darkness descriptor for 1 round per caster level. This includes special senses such as blindsight and tremorsense. If the caster is included in the effect, the caster cannot see or hear himself, imposing a 25% spell failure chance on any effect requiring somatic or verbal components.', '76: All creatures within close range of the caster must succeed on a Fortitude save or gain the light blindness monster ability for 1 minute per caster level. Creatures with light blindness are blinded for 1 round if exposed to bright light, such as sunlight or the daylight spell. Such creatures are dazzled as long as they remain in areas of bright light.', '77: The shadow of the caster attempts to trip nearby creatures, performing a trip combat maneuver on an adjacent creature each round for 1 minute per caster level. This maneuver uses the CMB (or caster level + casting ability modifier, if higher) of the caster and bonuses and provokes attacks of opportunity against the caster as normal for the maneuver, though benefits from Improved Trip and similar feats if the caster possesses them. If the caster lacks a shadow, a shadow is created for the duration of this effect.', '78: The caster loses access to this sphere for 1d6 rounds.', '79: (Combat) Black tendrils of semi-solid darkness cover an area out to close range of the target or center of the target area for 1d6 rounds, creating difficult terrain and granting all creatures within partial concealment.', '80: The target or any creature in the area of the effect when it is cast must succeed on a Fortitude save or begin to absorb all light, appearing perfectly black for 1 hour per caster level.', '81: The caster gains the see in darkness monster ability for 1 round per caster level but is blind in anything brighter than dim light. The creature can see perfectly in darkness of any kind, including that created by the deeper darkness spell or the Pure Darkness talent.', '82: For 1 minute per caster level, all effects of the Light sphere or with the light descriptor originating from allied creatures within long range of the caster have their caster level reduced by 1. This penalty increases by 1 for every 4 caster levels of the triggering effect.', '83: Effect receives a +2 bonus to caster level.', '84: For 1 minute per caster level, all effects of the Light sphere or with the light descriptor originating from allied creatures within long range of the caster have their caster level reduced by 1. This penalty increases by 1 for every 4 caster levels of the triggering effect. Effects with their caster level reduced to 0 or below by this effect are suppressed.', '85: The spell point cost of the effect increases by 1. If the caster does not have enough spell points, he is instead staggered until the end of his next turn.', '86: (Combat) The caster is dazed for 1 round.', '87: (Combat) The shadow of the caster attempts to trip nearby hostile creatures, performing a trip combat maneuver on an adjacent creature each round for 1 minute per caster level. This maneuver uses the CMB (or caster level + casting ability modifier, if higher) of the caster and bonuses and provokes attacks of opportunity against the caster as normal for the maneuver, though benefits from Improved Trip and similar feats if the caster possesses them. If the caster lacks a shadow, a shadow is created for the duration of this effect.', '88: An area out to long range of the caster is plunged into darkness as the Dark sphere with both the Pure Darkness talent and the Midnight advanced talent. This effect remains stationary and persists for 1 minute per caster level.', '89: (Combat) The shadow of the caster attempts to pilfer items from nearby hostile creatures, performing a steal combat maneuver on an adjacent creature each round for 1 minute per caster level and storing any items successfully stolen in the gear of the caster. This maneuver uses the CMB (or caster level + casting ability modifier, if higher) of the caster and bonuses and provokes attacks of opportunity against the caster as normal for the maneuver, though benefits from Improved Steal and similar feats if the caster possesses them. If the caster lacks a shadow, a shadow is created for the duration of this effect.', '90: Creatures other than the caster subject to the effect receive the half of any healing the caster receives for the duration of their time subject to the effect. This healing is redirected from the caster, reducing the amount he heals by an equal amount. Multiple affected creatures divide this healing equally.', '91: The caster loses knowledge of any of the talents used in the effect (but not the base sphere) for the length of the effect (minimum 1 round).', '92: The caster becomes blind in any area with less than normal light for 1 minute per caster level.', '93: Any creature that enters a blot or darkness created by the caster benefits from any melds active on the caster for as long as they remain in the effect.', '94: (Combat) For 1 round per caster level, all creatures within areas of dim light or lower within medium range of the caster take half damage from all sources except for force effects as their bodies partially discorporate into living shadow.', '95: The shadow of the caster is animated and immediately absconds with any items held in the hands of the caster. It flees for 1 round per caster level, at which point it drops the items. The shadow cannot be targeted or damaged in any way and possesses the movement speeds of the caster at the time this result is triggered.', '96: The casting time increases by 2 steps.', '97: (Combat) The shadow of the caster attempts to blind nearby allied creatures, performing a dirty trick combat maneuver on an adjacent creature each round for 1 minute per caster level. This maneuver uses the CMB (or caster level + casting ability modifier, if higher) of the caster and bonuses and provokes attacks of opportunity against the caster as normal for the maneuver, though benefits from Improved Dirty Trick and similar feats if the caster possesses them. If the caster lacks a shadow, a shadow is created for the duration of this effect.', '98: The effect fails and the action is lost. Spell points or spell slots are not lost.', '99: The shadow of the caster attempts to hinder the caster, entangling him for 1d4 rounds. A successful Reflex save each round negates the entanglement for that round. If the caster lacks a shadow, a shadow is created for the duration of this effect.', '100: For 1 minute per caster level, all effects of the Light sphere or with the light descriptor cast within long range of the caster have their caster level reduced by 1. This penalty increases by 1 for every 4 caster levels of the triggering effect. Effects with their caster level reduced to 0 or below by this effect are suppressed.'];
@@ -557,106 +650,106 @@ The Void Gazer is an archetype for the [[[Thaumaturge]]] that gives them shadowy
 [[/html]]
 
 ++++ Wild Magic Table
-||~ d100 ||~ Result || 
-|| 1 || The target or creatures in the target area when the effect gain the see in darkness monster ability for 1 minute per caster level. The creature can see perfectly in darkness of any kind, including that created by the deeper darkness spell or the Pure Darkness talent. || 
-|| 2 || The target or creatures in the target area must succeed on a Will save or lose their shadow for 10 minutes per caster level. || 
-|| 3 || An area out to long range of the caster is shrouded in magic darkness as the Pure Darkness talent until the start of the caster’s next turn. The Clearsight talent has no effect against this darkness. || 
-|| 4 || Roll twice and choose the result. Ignore any results that require rerolls. If both rolls thus ignored, there is no effect. || 
-|| 5 || The casting time decreases by 2 steps. || 
-|| 6 || The caster becomes afraid of the dark, taking a -2 penalty on saves against fear effects while in areas with less than normal light for 1 hour per caster level. || 
-|| 7 || An area of darkness affected by every (dark) talent the caster possesses appears centered on the caster and follows the caster at a rate of 20 ft. per round, plus 5 ft. per 2 caster levels. The Clearsight (meld) provides no protection from this darkness to the caster. This effect persists for 1 round per caster level. || 
-|| 8 || For 1d6 rounds, the caster leaves an area of darkness in all squares he has occupied since the start of his last turn. No (darkness) talent may be applied to this effect and the caster is unable to perceive any creature or object in an affected square (unless that creature or object also occupies unaffected squares that the caster can perceive). || 
-|| 9 || The caster’s shadow performs mocking pantomimes of nearby creatures for 1 hour. This imposes a -5 penalty on all Diplomacy checks against a creature that can see the shadow (DC 5 Perception check to notice). If the caster lacks a shadow, one is created for the duration of this effect. || 
+||~ d100 ||~ Result ||
+|| 1 || The target or creatures in the target area when the effect gain the see in darkness monster ability for 1 minute per caster level. The creature can see perfectly in darkness of any kind, including that created by the deeper darkness spell or the Pure Darkness talent. ||
+|| 2 || The target or creatures in the target area must succeed on a Will save or lose their shadow for 10 minutes per caster level. ||
+|| 3 || An area out to long range of the caster is shrouded in magic darkness as the Pure Darkness talent until the start of the caster’s next turn. The Clearsight talent has no effect against this darkness. ||
+|| 4 || Roll twice and choose the result. Ignore any results that require rerolls. If both rolls thus ignored, there is no effect. ||
+|| 5 || The casting time decreases by 2 steps. ||
+|| 6 || The caster becomes afraid of the dark, taking a -2 penalty on saves against fear effects while in areas with less than normal light for 1 hour per caster level. ||
+|| 7 || An area of darkness affected by every (dark) talent the caster possesses appears centered on the caster and follows the caster at a rate of 20 ft. per round, plus 5 ft. per 2 caster levels. The Clearsight (meld) provides no protection from this darkness to the caster. This effect persists for 1 round per caster level. ||
+|| 8 || For 1d6 rounds, the caster leaves an area of darkness in all squares he has occupied since the start of his last turn. No (darkness) talent may be applied to this effect and the caster is unable to perceive any creature or object in an affected square (unless that creature or object also occupies unaffected squares that the caster can perceive). ||
+|| 9 || The caster’s shadow performs mocking pantomimes of nearby creatures for 1 hour. This imposes a -5 penalty on all Diplomacy checks against a creature that can see the shadow (DC 5 Perception check to notice). If the caster lacks a shadow, one is created for the duration of this effect. ||
 || 10 || For 1 minute per caster level, the caster suffers a bout of photophobic vertigo, suffering the sickened condition in areas of normal light and the nauseated condition in areas of bright light. ||
-|| 11 || For 1 minute per caster level, all effects of the Light sphere or with the light descriptor originating from hostile creatures within long range of the caster have their caster level increased by 1. This bonus increases by 1 for every 4 caster levels of the triggering effect. || 
-|| 12 || (Combat) Black tendrils of semi-solid darkness cover an area out to close range of the target or center of the target area for 1d6 rounds, creating difficult terrain and granting all creatures within partial concealment. Any creature within the effect must succeed on a Reflex save each round or be entangled until the start of their next turn. || 
-|| 13 || The spell point cost of the effect increases by 1d4. If the caster does not have enough spell points, he is instead dazed until the end of his next turn. || 
-|| 14 || The target or creatures in the target area must succeed on a Will save or gain an additional shadow at 180 degrees from their normal shadows for 10 minutes per caster level. || 
-|| 15 || Any light source in the possession of the target or creatures in the target area when the effect is cast has its effect on illumination inverted for 1 round per caster level. || 
-|| 16 || A shadow twin of the caster appears adjacent to the caster. This twin possesses all of the caster’s abilities and equipment, though only 1 hit point. This twin aids the caster for 1 minute per caster level or until slain. The twin and all its equipment disappear when the twin is slain or the effect expires. Any non-instantaneous effect originating from the twin end when it disappears. || 
-|| 17 || For 1 minute per caster level, the caster treats areas of normal or brighter light as if they were solid objects and is unable to enter or pass through such an area, though retains line of effect through such areas. || 
-|| 18 || (Combat) The caster is stunned for 1 round. || 
-|| 19 || (Combat) The caster’s shadow attempts to blind nearby creatures, performing a dirty trick combat maneuver on an adjacent creature each round for 1 minute per caster level. This maneuver uses the caster’s CMB (or caster level + casting ability modifier, if higher) and bonuses and provokes attacks of opportunity against the caster as normal for the maneuver, though benefits from Improved Dirty Trick and similar feats if the caster possesses them. If the caster lacks a shadow, a shadow is created for the duration of this effect. || 
-|| 20 || The caster takes untyped nonlethal damage equal to caster level. This damage does not force concentration checks to cast or maintain sphere effects or spells. || 
-|| 21 || For 1 minute per caster level, all effects of the Light sphere or with the light descriptor cast within long range of the caster have their caster level increased by 1. This bonus increases by 1 for every 4 caster levels of the triggering effect. || 
-|| 22 || (Combat) For 1d6 rounds, the caster absorbs all light, appearing perfectly black and is blind. || 
-|| 23 || For 1 minute per caster level, the caster gains a 20% miss chance while in areas of less than normal light. || 
-|| 24 || The caster is fatigued. || 
-|| 25 || Effect receives a -4 penalty to caster level (minimum 1). || 
-|| 26 || The caster takes 1d4 points of Constitution damage even if he would normally be immune to ability damage. Creatures without a Constitution score instead take Charisma damage. || 
-|| 27 || Creatures subject to the effect receive the half of any damage the caster receives for the duration of their time subject to the effect. This damage is redirected from the caster, reducing the amount he is damaged by an equal amount. Resistance and immunity apply to this damage. Multiple affected creatures divide this damage equally. || 
-|| 28 || The spell point cost of the effect decreases by 1. If the effect did not require any spell points, the caster instead gains 1 temporary spell point that expires at the end of his next turn. || 
-|| 29 || The caster becomes afraid of the light, taking a -2 penalty on saves against fear effects while in areas with greater than dim light for 1 hour per caster level. || 
-|| 30 || (Combat) The caster is nauseated for 1 round. || 
-|| 31 || Any light source in the caster’s possession has its effect on illumination inverted for 1 round per caster level. || 
-|| 32 || The target or any creature in the area of the effect when it is cast must succeed on a Fortitude save or begin to absorb all light, appearing perfectly black and be blinded for 1d6 rounds. || 
-|| 33 || For 10 minutes per caster level, the caster gains the light blindness monster ability. Creatures with light blindness are blinded for 1 round if exposed to bright light, such as sunlight or the daylight spell. Such creatures are dazzled as long as they remain in areas of bright light. || 
-|| 34 || For 1 hour per caster level, all shadows within long range of the caster all lengthened as if exposed to a sunset. || 
-|| 35 || The caster gains knowledge of one talent of his choice from this sphere for 1 round. || 
-|| 36 || The caster becomes blind in any area with greater than dim light for 1 minute per caster level. || 
-|| 37 || The caster’s shadow attempts to pilfer items from nearby creatures, performing a steal combat maneuver on an adjacent creature each round for 1 minute per caster level and storing any items successfully stolen in the caster’s gear. This maneuver uses the caster’s CMB (or caster level + casting ability modifier, if higher) and bonuses and provokes attacks of opportunity as normal for the maneuver, though benefits from Improved Steal and similar feats if the caster possesses them. If the caster lacks a shadow, a shadow is created for the duration of this effect. || 
-|| 38 || The caster’s shadow takes on a sinister appearance for 10 minutes per caster level, granting a +2 circumstance bonus on Intimidate checks but imposing a -2 penalty on Bluff and Diplomacy checks. || 
-|| 39 || Affected creatures or those within the effect’s area receive the caster’s casting drawbacks for the duration of their time in the effect or for as long as they are affected by it. || 
-|| 40 || The ambient light level with the caster’s Dark sphere range is reduced by one step unless this reduction would make it darker than dim light. The effect remains centered on the caster for 1 minute per caster level. || 
-|| 41 || Any creature within long range of the caster that is in an area of dim or lower illumination takes 1 point of negative energy damage per caster level each round for 1 round per caster level. || 
-|| 42 || (Combat) For 1d6 rounds, all creatures other than the caster can see normally in regular and magical darkness within medium range of the caster. || 
-|| 43 || The effect fails and the action is lost. Spell points or spell slots are lost. || 
-|| 44 || (Combat) for 1 round per caster level, the caster becomes an area of darkness. The caster generates an area of darkness in his space as if he had cast darkness. The caster may move with his normal movement speeds, but may not otherwise take any actions other than to change his choice or (darkness) talents active in this area and to concentrate on any ongoing effects. The caster may not be targeted or effected by anything other than effects that would dispel the darkness. Any effect that dispels this darkness causes the caster to reform and take 1d6 points of untyped damage per 2 caster levels of the dispelling effect. || 
-|| 45 || For 1 minute per caster level, all effects with the dark descriptor cast within long range of the caster have their caster level increased by 1. This bonus increases by 1 for every 4 caster levels of the triggering effect. || 
-|| 46 || Darkness sweeps outward from the caster, reducing light levels by 2 steps in a long range emanation for 1 round. Make a single magical skill check and compare it with the MSD of all Light sphere effects in range; success means the Light sphere effect is dispelled as with the Counterspell feat. || 
-|| 47 || The caster is exhausted. || 
-|| 48 || Roll twice and take both results. Ignore any results that require rerolls. If both rolls thus ignored, there is no effect. || 
-|| 49 || The target or creatures in the target area when the effect is cast must succeed on a Fortitude save or gain the see in darkness monster ability for 1 round per caster level but is blind in anything brighter than dim light. || 
-|| 50 || (Combat) The caster’s shadow attempts to pilfer items from nearby allied creatures, performing a steal combat maneuver on an adjacent creature each round for 1 minute per caster level and storing any items successfully stolen in the caster’s gear. This maneuver uses the caster’s CMB (or caster level + casting ability modifier, if higher) and bonuses and provokes attacks of opportunity against the caster as normal for the maneuver, though benefits from Improved Steal and similar feats if the caster possesses them. If the caster lacks a shadow, a shadow is created for the duration of this effect. || 
-|| 51 || For 1d6 rounds, the caster leaves an area of darkness in all squares he has occupied since the start of his last turn. A (darkness) talent may be applied to this effect as normal. || 
-|| 52 || All creatures within close range of the target or center of the target area must succeed on a Fortitude save or gain the light blindness monster ability for 1 minute per caster level. Creatures with light blindness are blinded for 1 round if exposed to bright light, such as sunlight or the daylight spell. Such creatures are dazzled as long as they remain in areas of bright light. || 
-|| 53 || The caster gains an additional shadow at 180 degrees from his normal shadow for 10 minutes per caster level. || 
-|| 54 || The caster’s active Dark sphere effects flicker randomly, having only a 50% chance of functioning each round (rolled immediately and again at the beginning of the caster’s turn) for 1 round per caster level. || 
-|| 55 || The target or creatures in the target area must succeed on a Will save or become blind in any area greater than dim light for 1 minute per caster level. || 
-|| 56 || The caster gains the see in darkness monster ability for 1 minute per caster level. The caster can see perfectly in darkness of any kind, including that created by the deeper darkness spell or the Pure Darkness talent. || 
-|| 57 || Any creature within close range of the target or center of the target area that is in an area of normal or brighter light takes 1 point of untyped damage per caster level each round for 1 round per caster level. || 
-|| 58 || (Combat) Black tendrils of semi-solid darkness cover an area out to close range of the caster for 1d6 rounds, creating difficult terrain and granting all creatures within partial concealment. Any creature within the effect must succeed on a Reflex save each round or be entangled until the start of their next turn. || 
-|| 59 || For 1 hour per caster level, the caster absorbs all light, appearing perfectly black. || 
-|| 60 || The casting time decreases by 1 step. || 
-|| 61 || (Combat) Black tendrils of semi-solid darkness cover an area out to close range of the caster for 1d6 rounds, creating difficult terrain and granting all creatures within that area partial concealment. || 
-|| 62 || The effect fails, but the action is not lost. Spell points or spell slots spent are lost. || 
-|| 63 || The caster’s shadow gains a color of the GM’s choice for 10 minutes per caster level. This tint extends to all Dark sphere abilities originating from the caster during this time but has no other effect. || 
-|| 64 || The target or creatures in the target area must succeed on a Will save or become blind in any area with less than normal light for 1 minute per caster level. || 
-|| 65 || (Combat) The caster’s shadow attempts to trip nearby allied creatures, performing a trip combat maneuver on an adjacent creature each round for 1 minute per caster level. This maneuver uses the caster’s CMB (or caster level + casting ability modifier, if higher) and bonuses and provokes attacks of opportunity against the caster as normal for the maneuver, though benefits from Improved Trip and similar feats if the caster possesses them. If the caster lacks a shadow, a shadow is created for the duration of this effect. || 
-|| 66 || The caster takes a number of points of ability damage to his casting attribute equal to the effect’s caster level/4 (minimum 1) even if he would normally be immune to ability damage. || 
-|| 67 || A shadow twin of the caster appears adjacent to the caster. This twin possesses all of the caster’s abilities and equipment, though only 1/2 his hit points and attempts to harm the caster and the caster’s allies to the best of its abilities for 1 minutes per caster level or until slain. The twin and all its equipment disappears when the twin is slain or the effect expires. Any non-instantaneous effect originating from the twin end when it disappears. || 
-|| 68 || The casting time increases by 1 step. || 
-|| 69 || Any creature within long range of the caster that is in an area of normal or brighter light takes 1 point of untyped damage per caster level each round for 1 round per caster level. || 
-|| 70 || Roll again on the Universal wild magic table. || 
-|| 71 || The caster casts no shadow for 10 minutes per caster level. || 
-|| 72 || Any creature within long range of the target or center of the target area that is in an area of dim or lower illumination takes 1 point of negative energy damage per caster level each round for 1 round per caster level. || 
-|| 73 || The ambient light level with the caster’s Dark sphere range is reduced by one step unless this reduction would make it darker than dim light. The effect remains centered on the target or target area for 1 minute per caster level. || 
-|| 74 || (Combat) The caster’s shadow attempts to blind nearby hostile creatures, performing a dirty trick combat maneuver on an adjacent creature each round for 1 minute per caster level. This maneuver uses the caster’s CMB (or caster level + casting ability modifier, if higher) and bonuses and provokes attacks of opportunity against the caster as normal for the maneuver, though benefits from Improved Dirty Trick and similar feats if the caster possesses them. If the caster lacks a shadow, a shadow is created for the duration of this effect. || 
-|| 75 || The caster is unable to detect any creature currently affected by his Dark sphere abilities or spells with the darkness descriptor for 1 round per caster level. This includes special senses such as blindsight and tremorsense. If the caster is included in the effect, the caster cannot see or hear himself, imposing a 25% spell failure chance on any effect requiring somatic or verbal components. || 
-|| 76 || All creatures within close range of the caster must succeed on a Fortitude save or gain the light blindness monster ability for 1 minute per caster level. Creatures with light blindness are blinded for 1 round if exposed to bright light, such as sunlight or the daylight spell. Such creatures are dazzled as long as they remain in areas of bright light. || 
-|| 77 || The caster’s shadow attempts to trip nearby creatures, performing a trip combat maneuver on an adjacent creature each round for 1 minute per caster level. This maneuver uses the caster’s CMB (or caster level + casting ability modifier, if higher) and bonuses and provokes attacks of opportunity against the caster as normal for the maneuver, though benefits from Improved Trip and similar feats if the caster possesses them. If the caster lacks a shadow, a shadow is created for the duration of this effect. || 
-|| 78 || The caster loses access to this sphere for 1d6 rounds. || 
-|| 79 || (Combat) Black tendrils of semi-solid darkness cover an area out to close range of the target or center of the target area for 1d6 rounds, creating difficult terrain and granting all creatures within partial concealment. || 
-|| 80 || The target or any creature in the area of the effect when it is cast must succeed on a Fortitude save or begin to absorb all light, appearing perfectly black for 1 hour per caster level. || 
-|| 81 || The caster gains the see in darkness monster ability for 1 round per caster level but is blind in anything brighter than dim light. The creature can see perfectly in darkness of any kind, including that created by the deeper darkness spell or the Pure Darkness talent. || 
-|| 82 || For 1 minute per caster level, all effects of the Light sphere or with the light descriptor originating from allied creatures within long range of the caster have their caster level reduced by 1. This penalty increases by 1 for every 4 caster levels of the triggering effect. || 
-|| 83 || Effect receives a +2 bonus to caster level. || 
-|| 84 || For 1 minute per caster level, all effects of the Light sphere or with the light descriptor originating from allied creatures within long range of the caster have their caster level reduced by 1. This penalty increases by 1 for every 4 caster levels of the triggering effect. Effect’s with their caster level reduced to 0 or below by this effect are suppressed. || 
-|| 85 || The spell point cost of the effect increases by 1. If the caster does not have enough spell points, he is instead staggered until the end of his next turn. || 
-|| 86 || (Combat) The caster is dazed for 1 round. || 
-|| 87 || (Combat) The caster’s shadow attempts to trip nearby hostile creatures, performing a trip combat maneuver on an adjacent creature each round for 1 minute per caster level. This maneuver uses the caster’s CMB (or caster level + casting ability modifier, if higher) and bonuses and provokes attacks of opportunity against the caster as normal for the maneuver, though benefits from Improved Trip and similar feats if the caster possesses them. If the caster lacks a shadow, a shadow is created for the duration of this effect. || 
-|| 88 || An area out to long range of the caster is plunged into darkness as the Dark sphere with both the Pure Darkness talent and the Midnight advanced talent. This effect remains stationary and persists for 1 minute per caster level. || 
-|| 89 || (Combat) The caster’s shadow attempts to pilfer items from nearby hostile creatures, performing a steal combat maneuver on an adjacent creature each round for 1 minute per caster level and storing any items successfully stolen in the caster’s gear. This maneuver uses the caster’s CMB (or caster level + casting ability modifier, if higher) and bonuses and provokes attacks of opportunity against the caster as normal for the maneuver, though benefits from Improved Steal and similar feats if the caster possesses them. If the caster lacks a shadow, a shadow is created for the duration of this effect. || 
-|| 90 || Creatures other than the caster subject to the effect receive the half of any healing the caster receives for the duration of their time subject to the effect. This healing is redirected from the caster, reducing the amount he heals by an equal amount. Multiple affected creatures divide this healing equally. || 
-|| 91 || The caster loses knowledge of any of the talents used in the effect (but not the base sphere) for the length of the effect (minimum 1 round). || 
-|| 92 || The caster becomes blind in any area with less than normal light for 1 minute per caster level. || 
-|| 93 || Any creature that enters a blot or darkness created by the caster benefits from any melds active on the caster for as long as they remain in the effect. || 
-|| 94 || (Combat) For 1 round per caster level, all creatures within areas of dim light or lower within medium range of the caster take half damage from all sources except for force effects as their bodies partially discorporate into living shadow. || 
-|| 95 || The caster’s shadow is animated and immediately absconds with any items held in the caster’s hands. It flees for 1 round per caster level, at which point it drops the items. The shadow cannot be targeted or damaged in any way and possesses the movement speeds of the caster at the time this result is triggered. || 
-|| 96 || The casting time increases by 2 steps. || 
-|| 97 || (Combat) The caster’s shadow attempts to blind nearby allied creatures, performing a dirty trick combat maneuver on an adjacent creature each round for 1 minute per caster level. This maneuver uses the caster’s CMB (or caster level + casting ability modifier, if higher) and bonuses and provokes attacks of opportunity against the caster as normal for the maneuver, though benefits from Improved Dirty Trick and similar feats if the caster possesses them. If the caster lacks a shadow, a shadow is created for the duration of this effect. || 
-|| 98 || The effect fails and the action is lost. Spell points or spell slots are not lost. || 
-|| 99 || The caster’s shadow attempts to hinder the caster, entangling him for 1d4 rounds. A successful Reflex save each round negates the entanglement for that round. If the caster lacks a shadow, a shadow is created for the duration of this effect. || 
+|| 11 || For 1 minute per caster level, all effects of the Light sphere or with the light descriptor originating from hostile creatures within long range of the caster have their caster level increased by 1. This bonus increases by 1 for every 4 caster levels of the triggering effect. ||
+|| 12 || (Combat) Black tendrils of semi-solid darkness cover an area out to close range of the target or center of the target area for 1d6 rounds, creating difficult terrain and granting all creatures within partial concealment. Any creature within the effect must succeed on a Reflex save each round or be entangled until the start of their next turn. ||
+|| 13 || The spell point cost of the effect increases by 1d4. If the caster does not have enough spell points, he is instead dazed until the end of his next turn. ||
+|| 14 || The target or creatures in the target area must succeed on a Will save or gain an additional shadow at 180 degrees from their normal shadows for 10 minutes per caster level. ||
+|| 15 || Any light source in the possession of the target or creatures in the target area when the effect is cast has its effect on illumination inverted for 1 round per caster level. ||
+|| 16 || A shadow twin of the caster appears adjacent to the caster. This twin possesses all of the caster’s abilities and equipment, though only 1 hit point. This twin aids the caster for 1 minute per caster level or until slain. The twin and all its equipment disappear when the twin is slain or the effect expires. Any non-instantaneous effect originating from the twin end when it disappears. ||
+|| 17 || For 1 minute per caster level, the caster treats areas of normal or brighter light as if they were solid objects and is unable to enter or pass through such an area, though retains line of effect through such areas. ||
+|| 18 || (Combat) The caster is stunned for 1 round. ||
+|| 19 || (Combat) The caster’s shadow attempts to blind nearby creatures, performing a dirty trick combat maneuver on an adjacent creature each round for 1 minute per caster level. This maneuver uses the caster’s CMB (or caster level + casting ability modifier, if higher) and bonuses and provokes attacks of opportunity against the caster as normal for the maneuver, though benefits from Improved Dirty Trick and similar feats if the caster possesses them. If the caster lacks a shadow, a shadow is created for the duration of this effect. ||
+|| 20 || The caster takes untyped nonlethal damage equal to caster level. This damage does not force concentration checks to cast or maintain sphere effects or spells. ||
+|| 21 || For 1 minute per caster level, all effects of the Light sphere or with the light descriptor cast within long range of the caster have their caster level increased by 1. This bonus increases by 1 for every 4 caster levels of the triggering effect. ||
+|| 22 || (Combat) For 1d6 rounds, the caster absorbs all light, appearing perfectly black and is blind. ||
+|| 23 || For 1 minute per caster level, the caster gains a 20% miss chance while in areas of less than normal light. ||
+|| 24 || The caster is fatigued. ||
+|| 25 || Effect receives a -4 penalty to caster level (minimum 1). ||
+|| 26 || The caster takes 1d4 points of Constitution damage even if he would normally be immune to ability damage. Creatures without a Constitution score instead take Charisma damage. ||
+|| 27 || Creatures subject to the effect receive the half of any damage the caster receives for the duration of their time subject to the effect. This damage is redirected from the caster, reducing the amount he is damaged by an equal amount. Resistance and immunity apply to this damage. Multiple affected creatures divide this damage equally. ||
+|| 28 || The spell point cost of the effect decreases by 1. If the effect did not require any spell points, the caster instead gains 1 temporary spell point that expires at the end of his next turn. ||
+|| 29 || The caster becomes afraid of the light, taking a -2 penalty on saves against fear effects while in areas with greater than dim light for 1 hour per caster level. ||
+|| 30 || (Combat) The caster is nauseated for 1 round. ||
+|| 31 || Any light source in the caster’s possession has its effect on illumination inverted for 1 round per caster level. ||
+|| 32 || The target or any creature in the area of the effect when it is cast must succeed on a Fortitude save or begin to absorb all light, appearing perfectly black and be blinded for 1d6 rounds. ||
+|| 33 || For 10 minutes per caster level, the caster gains the light blindness monster ability. Creatures with light blindness are blinded for 1 round if exposed to bright light, such as sunlight or the daylight spell. Such creatures are dazzled as long as they remain in areas of bright light. ||
+|| 34 || For 1 hour per caster level, all shadows within long range of the caster all lengthened as if exposed to a sunset. ||
+|| 35 || The caster gains knowledge of one talent of his choice from this sphere for 1 round. ||
+|| 36 || The caster becomes blind in any area with greater than dim light for 1 minute per caster level. ||
+|| 37 || The caster’s shadow attempts to pilfer items from nearby creatures, performing a steal combat maneuver on an adjacent creature each round for 1 minute per caster level and storing any items successfully stolen in the caster’s gear. This maneuver uses the caster’s CMB (or caster level + casting ability modifier, if higher) and bonuses and provokes attacks of opportunity as normal for the maneuver, though benefits from Improved Steal and similar feats if the caster possesses them. If the caster lacks a shadow, a shadow is created for the duration of this effect. ||
+|| 38 || The caster’s shadow takes on a sinister appearance for 10 minutes per caster level, granting a +2 circumstance bonus on Intimidate checks but imposing a -2 penalty on Bluff and Diplomacy checks. ||
+|| 39 || Affected creatures or those within the effect’s area receive the caster’s casting drawbacks for the duration of their time in the effect or for as long as they are affected by it. ||
+|| 40 || The ambient light level with the caster’s Dark sphere range is reduced by one step unless this reduction would make it darker than dim light. The effect remains centered on the caster for 1 minute per caster level. ||
+|| 41 || Any creature within long range of the caster that is in an area of dim or lower illumination takes 1 point of negative energy damage per caster level each round for 1 round per caster level. ||
+|| 42 || (Combat) For 1d6 rounds, all creatures other than the caster can see normally in regular and magical darkness within medium range of the caster. ||
+|| 43 || The effect fails and the action is lost. Spell points or spell slots are lost. ||
+|| 44 || (Combat) for 1 round per caster level, the caster becomes an area of darkness. The caster generates an area of darkness in his space as if he had cast darkness. The caster may move with his normal movement speeds, but may not otherwise take any actions other than to change his choice or (darkness) talents active in this area and to concentrate on any ongoing effects. The caster may not be targeted or effected by anything other than effects that would dispel the darkness. Any effect that dispels this darkness causes the caster to reform and take 1d6 points of untyped damage per 2 caster levels of the dispelling effect. ||
+|| 45 || For 1 minute per caster level, all effects with the dark descriptor cast within long range of the caster have their caster level increased by 1. This bonus increases by 1 for every 4 caster levels of the triggering effect. ||
+|| 46 || Darkness sweeps outward from the caster, reducing light levels by 2 steps in a long range emanation for 1 round. Make a single magical skill check and compare it with the MSD of all Light sphere effects in range; success means the Light sphere effect is dispelled as with the Counterspell feat. ||
+|| 47 || The caster is exhausted. ||
+|| 48 || Roll twice and take both results. Ignore any results that require rerolls. If both rolls thus ignored, there is no effect. ||
+|| 49 || The target or creatures in the target area when the effect is cast must succeed on a Fortitude save or gain the see in darkness monster ability for 1 round per caster level but is blind in anything brighter than dim light. ||
+|| 50 || (Combat) The caster’s shadow attempts to pilfer items from nearby allied creatures, performing a steal combat maneuver on an adjacent creature each round for 1 minute per caster level and storing any items successfully stolen in the caster’s gear. This maneuver uses the caster’s CMB (or caster level + casting ability modifier, if higher) and bonuses and provokes attacks of opportunity against the caster as normal for the maneuver, though benefits from Improved Steal and similar feats if the caster possesses them. If the caster lacks a shadow, a shadow is created for the duration of this effect. ||
+|| 51 || For 1d6 rounds, the caster leaves an area of darkness in all squares he has occupied since the start of his last turn. A (darkness) talent may be applied to this effect as normal. ||
+|| 52 || All creatures within close range of the target or center of the target area must succeed on a Fortitude save or gain the light blindness monster ability for 1 minute per caster level. Creatures with light blindness are blinded for 1 round if exposed to bright light, such as sunlight or the daylight spell. Such creatures are dazzled as long as they remain in areas of bright light. ||
+|| 53 || The caster gains an additional shadow at 180 degrees from his normal shadow for 10 minutes per caster level. ||
+|| 54 || The caster’s active Dark sphere effects flicker randomly, having only a 50% chance of functioning each round (rolled immediately and again at the beginning of the caster’s turn) for 1 round per caster level. ||
+|| 55 || The target or creatures in the target area must succeed on a Will save or become blind in any area greater than dim light for 1 minute per caster level. ||
+|| 56 || The caster gains the see in darkness monster ability for 1 minute per caster level. The caster can see perfectly in darkness of any kind, including that created by the deeper darkness spell or the Pure Darkness talent. ||
+|| 57 || Any creature within close range of the target or center of the target area that is in an area of normal or brighter light takes 1 point of untyped damage per caster level each round for 1 round per caster level. ||
+|| 58 || (Combat) Black tendrils of semi-solid darkness cover an area out to close range of the caster for 1d6 rounds, creating difficult terrain and granting all creatures within partial concealment. Any creature within the effect must succeed on a Reflex save each round or be entangled until the start of their next turn. ||
+|| 59 || For 1 hour per caster level, the caster absorbs all light, appearing perfectly black. ||
+|| 60 || The casting time decreases by 1 step. ||
+|| 61 || (Combat) Black tendrils of semi-solid darkness cover an area out to close range of the caster for 1d6 rounds, creating difficult terrain and granting all creatures within that area partial concealment. ||
+|| 62 || The effect fails, but the action is not lost. Spell points or spell slots spent are lost. ||
+|| 63 || The caster’s shadow gains a color of the GM’s choice for 10 minutes per caster level. This tint extends to all Dark sphere abilities originating from the caster during this time but has no other effect. ||
+|| 64 || The target or creatures in the target area must succeed on a Will save or become blind in any area with less than normal light for 1 minute per caster level. ||
+|| 65 || (Combat) The caster’s shadow attempts to trip nearby allied creatures, performing a trip combat maneuver on an adjacent creature each round for 1 minute per caster level. This maneuver uses the caster’s CMB (or caster level + casting ability modifier, if higher) and bonuses and provokes attacks of opportunity against the caster as normal for the maneuver, though benefits from Improved Trip and similar feats if the caster possesses them. If the caster lacks a shadow, a shadow is created for the duration of this effect. ||
+|| 66 || The caster takes a number of points of ability damage to his casting attribute equal to the effect’s caster level/4 (minimum 1) even if he would normally be immune to ability damage. ||
+|| 67 || A shadow twin of the caster appears adjacent to the caster. This twin possesses all of the caster’s abilities and equipment, though only 1/2 his hit points and attempts to harm the caster and the caster’s allies to the best of its abilities for 1 minutes per caster level or until slain. The twin and all its equipment disappears when the twin is slain or the effect expires. Any non-instantaneous effect originating from the twin end when it disappears. ||
+|| 68 || The casting time increases by 1 step. ||
+|| 69 || Any creature within long range of the caster that is in an area of normal or brighter light takes 1 point of untyped damage per caster level each round for 1 round per caster level. ||
+|| 70 || Roll again on the Universal wild magic table. ||
+|| 71 || The caster casts no shadow for 10 minutes per caster level. ||
+|| 72 || Any creature within long range of the target or center of the target area that is in an area of dim or lower illumination takes 1 point of negative energy damage per caster level each round for 1 round per caster level. ||
+|| 73 || The ambient light level with the caster’s Dark sphere range is reduced by one step unless this reduction would make it darker than dim light. The effect remains centered on the target or target area for 1 minute per caster level. ||
+|| 74 || (Combat) The caster’s shadow attempts to blind nearby hostile creatures, performing a dirty trick combat maneuver on an adjacent creature each round for 1 minute per caster level. This maneuver uses the caster’s CMB (or caster level + casting ability modifier, if higher) and bonuses and provokes attacks of opportunity against the caster as normal for the maneuver, though benefits from Improved Dirty Trick and similar feats if the caster possesses them. If the caster lacks a shadow, a shadow is created for the duration of this effect. ||
+|| 75 || The caster is unable to detect any creature currently affected by his Dark sphere abilities or spells with the darkness descriptor for 1 round per caster level. This includes special senses such as blindsight and tremorsense. If the caster is included in the effect, the caster cannot see or hear himself, imposing a 25% spell failure chance on any effect requiring somatic or verbal components. ||
+|| 76 || All creatures within close range of the caster must succeed on a Fortitude save or gain the light blindness monster ability for 1 minute per caster level. Creatures with light blindness are blinded for 1 round if exposed to bright light, such as sunlight or the daylight spell. Such creatures are dazzled as long as they remain in areas of bright light. ||
+|| 77 || The caster’s shadow attempts to trip nearby creatures, performing a trip combat maneuver on an adjacent creature each round for 1 minute per caster level. This maneuver uses the caster’s CMB (or caster level + casting ability modifier, if higher) and bonuses and provokes attacks of opportunity against the caster as normal for the maneuver, though benefits from Improved Trip and similar feats if the caster possesses them. If the caster lacks a shadow, a shadow is created for the duration of this effect. ||
+|| 78 || The caster loses access to this sphere for 1d6 rounds. ||
+|| 79 || (Combat) Black tendrils of semi-solid darkness cover an area out to close range of the target or center of the target area for 1d6 rounds, creating difficult terrain and granting all creatures within partial concealment. ||
+|| 80 || The target or any creature in the area of the effect when it is cast must succeed on a Fortitude save or begin to absorb all light, appearing perfectly black for 1 hour per caster level. ||
+|| 81 || The caster gains the see in darkness monster ability for 1 round per caster level but is blind in anything brighter than dim light. The creature can see perfectly in darkness of any kind, including that created by the deeper darkness spell or the Pure Darkness talent. ||
+|| 82 || For 1 minute per caster level, all effects of the Light sphere or with the light descriptor originating from allied creatures within long range of the caster have their caster level reduced by 1. This penalty increases by 1 for every 4 caster levels of the triggering effect. ||
+|| 83 || Effect receives a +2 bonus to caster level. ||
+|| 84 || For 1 minute per caster level, all effects of the Light sphere or with the light descriptor originating from allied creatures within long range of the caster have their caster level reduced by 1. This penalty increases by 1 for every 4 caster levels of the triggering effect. Effect’s with their caster level reduced to 0 or below by this effect are suppressed. ||
+|| 85 || The spell point cost of the effect increases by 1. If the caster does not have enough spell points, he is instead staggered until the end of his next turn. ||
+|| 86 || (Combat) The caster is dazed for 1 round. ||
+|| 87 || (Combat) The caster’s shadow attempts to trip nearby hostile creatures, performing a trip combat maneuver on an adjacent creature each round for 1 minute per caster level. This maneuver uses the caster’s CMB (or caster level + casting ability modifier, if higher) and bonuses and provokes attacks of opportunity against the caster as normal for the maneuver, though benefits from Improved Trip and similar feats if the caster possesses them. If the caster lacks a shadow, a shadow is created for the duration of this effect. ||
+|| 88 || An area out to long range of the caster is plunged into darkness as the Dark sphere with both the Pure Darkness talent and the Midnight advanced talent. This effect remains stationary and persists for 1 minute per caster level. ||
+|| 89 || (Combat) The caster’s shadow attempts to pilfer items from nearby hostile creatures, performing a steal combat maneuver on an adjacent creature each round for 1 minute per caster level and storing any items successfully stolen in the caster’s gear. This maneuver uses the caster’s CMB (or caster level + casting ability modifier, if higher) and bonuses and provokes attacks of opportunity against the caster as normal for the maneuver, though benefits from Improved Steal and similar feats if the caster possesses them. If the caster lacks a shadow, a shadow is created for the duration of this effect. ||
+|| 90 || Creatures other than the caster subject to the effect receive the half of any healing the caster receives for the duration of their time subject to the effect. This healing is redirected from the caster, reducing the amount he heals by an equal amount. Multiple affected creatures divide this healing equally. ||
+|| 91 || The caster loses knowledge of any of the talents used in the effect (but not the base sphere) for the length of the effect (minimum 1 round). ||
+|| 92 || The caster becomes blind in any area with less than normal light for 1 minute per caster level. ||
+|| 93 || Any creature that enters a blot or darkness created by the caster benefits from any melds active on the caster for as long as they remain in the effect. ||
+|| 94 || (Combat) For 1 round per caster level, all creatures within areas of dim light or lower within medium range of the caster take half damage from all sources except for force effects as their bodies partially discorporate into living shadow. ||
+|| 95 || The caster’s shadow is animated and immediately absconds with any items held in the caster’s hands. It flees for 1 round per caster level, at which point it drops the items. The shadow cannot be targeted or damaged in any way and possesses the movement speeds of the caster at the time this result is triggered. ||
+|| 96 || The casting time increases by 2 steps. ||
+|| 97 || (Combat) The caster’s shadow attempts to blind nearby allied creatures, performing a dirty trick combat maneuver on an adjacent creature each round for 1 minute per caster level. This maneuver uses the caster’s CMB (or caster level + casting ability modifier, if higher) and bonuses and provokes attacks of opportunity against the caster as normal for the maneuver, though benefits from Improved Dirty Trick and similar feats if the caster possesses them. If the caster lacks a shadow, a shadow is created for the duration of this effect. ||
+|| 98 || The effect fails and the action is lost. Spell points or spell slots are not lost. ||
+|| 99 || The caster’s shadow attempts to hinder the caster, entangling him for 1d4 rounds. A successful Reflex save each round negates the entanglement for that round. If the caster lacks a shadow, a shadow is created for the duration of this effect. ||
 || 100 || For 1 minute per caster level, all effects of the Light sphere or with the light descriptor cast within long range of the caster have their caster level reduced by 1. This penalty increases by 1 for every 4 caster levels of the triggering effect. Effect’s with their caster level reduced to 0 or below by this effect are suppressed. ||
 [[/tab]]
 [[tab Original]]
