@@ -3,11 +3,11 @@ title:Life
 .noselect {
   -webkit-touch-callout: none; /* iOS Safari */
     -webkit-user-select: none; /* Safari */
-     -khtml-user-select: none; /* Konqueror HTML */
-       -moz-user-select: none; /* Firefox */
-        -ms-user-select: none; /* Internet Explorer/Edge */
-            user-select: none; /* Non-prefixed version, currently
-                                  supported by Chrome and Opera */
+ 	-khtml-user-select: none; /* Konqueror HTML */
+   	-moz-user-select: none; /* Firefox */
+    	-ms-user-select: none; /* Internet Explorer/Edge */
+        	user-select: none; /* Non-prefixed version, currently
+                              	supported by Chrome and Opera */
 }
 [[/module]]
 
@@ -22,7 +22,7 @@ title:Life
 $29.99
 ----
 [[/=]]
-[[/div]]**Important Note From The Wiki:** While the Life sphere deals with recovery, some afflictions can only be cured with the Life sphere's Advanced Talents. Game Masters should carefully consider whether to make those available to players, available to NPCs, or absent from the game. If they're totally absent, be careful which monsters are used against the party because they it may be impossible to remove some of the afflictions they can cause. This Wiki recommends allowing all Advanced Talents from the Life Sphere, limiting it to NPCs only if the GM wants to limit powerful effects like resurrection. 
+[[/div]]**Important Note From The Wiki:** While the Life sphere deals with recovery, some afflictions can only be cured with the Life sphere's Advanced Talents. Game Masters should carefully consider whether to make those available to players, available to NPCs, or absent from the game. If they're totally absent, be careful which monsters are used against the party because they it may be impossible to remove some of the afflictions they can cause. This Wiki recommends allowing all Advanced Talents from the Life Sphere, limiting it to NPCs only if the GM wants to limit powerful effects like resurrection.
 ----
 You wield the powers of life. All Life sphere effects are subject to spell resistance.
 
@@ -62,6 +62,7 @@ If a caster possesses multiple (vitality) talents, they may only grant one to th
 A creature can benefit from a (vitality) talent attached to a Life ability, even if they do not actually gain anything from the Life ability (such as using cure on a creature at full hit points).
 ----
 ++ Life Talents
+[[div style="padding: 0 2%; border: 1px solid black"]]
 ++++ Adrenaline Surge
 When you use a Life sphere talent or ability on an ally other than yourself, you may spend one spell point to also give them an adrenaline surge. The ally may do one of the following as an immediate action:
 * Make an attack at their highest base attack bonus
@@ -71,7 +72,8 @@ When you use a Life sphere talent or ability on an ally other than yourself, you
 * Stand up from prone
 
 You may use this ability to surge multiple allies (other than yourself) at a time when you perform a Life sphere ability that affects multiple allies by spending a second spell point. Surges are resolved in initiative order.
-
+[[/div]]
+[[div style="padding: 0 2%; border: 1px solid black"]]
 ++++ Affliction
 When using cure you may invert the effect from positive energy to negative energy. This has no effect on undead and damages the living (Will half). This requires a melee or ranged touch attack against the target, and if used at range is considered a ray. This cannot be combined with Fount Of Life.
 
@@ -84,25 +86,30 @@ If you possess certain other talents, you can change the effect from exhaustion 
 * If you possess Restore Health, you may make the target nauseated for 1d6 rounds (or sickened for 1d6 rounds on a successful save).
 * If you possess Restore Senses, you may make the target confused for 1d6 rounds (Will negates).
 * If you possess Restore Spirit, you may make the target incapable of receiving any magical healing, fast healing, or regeneration for 2d6 rounds (Will negates).
-
+[[/div]]
+[[div style="padding: 0 2%; border: 1px solid black"]]
 ++++ Break Enchantment
 As a special application of restore, you may spend an additional spell point to remove all magic from the target that has a duration instead of restoring mind, body, or soul. This may be used against curses including cursed equipment, although it does not remove the curse from the equipment and instead suppresses the effect long enough for the item to be removed.
 
 Instead of a saving throw, you must succeed at a magic skill check against each magical effect in order to remove it. You may choose not to remove certain effects if you so desire (for example, you may target only harmful effects and not beneficial ones). This counts as using the break enchantment or remove curse spell against those spells and effects that specify they can only be removed through those spells. This has no effect on other instantaneous effects.
-
+[[/div]]
+[[div style="padding: 0 2%; border: 1px solid black"]]
 ++++ Clarified Strike [strike]
 As a standard action, you may make a single ranged or melee attack coupled with a Life sphere ability. This casting cannot be reduced below a standard action, and does not provoke attacks of opportunity, unless as usual if making a ranged attack. If the target is struck by the attack, it is also struck by the Life sphere effect. If using a scatter weapon, the effect only applies to a single target, chosen at the time of attack.
-
+[[/div]]
+[[div style="padding: 0 2%; border: 1px solid black"]]
 ++++ Deeper Healing
 Your invigorate grants 2 temporary hit points per caster level instead of 1. Your cure heals an additional 1d8 hit points, +1d8 per 5 caster levels.
-
+[[/div]]
+[[div style="padding: 0 2%; border: 1px solid black"]]
 ++++ Diagnose [utility]
 As a swift action, you can learn any conditions that are affecting a living creature (unconscious, dying, nauseated, panicked, stunned, poisoned, diseased, confused, etc.) within range of your Life sphere abilities.
 
 By increasing the casting time of this ability to a standard action or by spending a spell point, you can learn the details of any condition they are under, such as whether they have been affected by a spell or the nature of any disease or poison they are afflicted with. You may use this on a deceased creature to determine how they died, so long as the target has been dead for no more than one day per caster level.
 
 You may also use this ability on any ally that is currently under the effect of one of your Life sphere abilities regardless of range or line of effect (such as allies who currently possess temporary hit points from your invigorate ability), as long as they are on the same plane of existence. You always know the direction and distance to your ally.
-
+[[/div]]
+[[div style="padding: 0 2%; border: 1px solid black"]]
 ++++ Empathic Healing
 You may restore others by taking on their injuries yourself. Doing so reduces the cost of the Life sphere effect by 1 spell point to a minimum of 0 spell points.
 
@@ -115,124 +122,156 @@ If you use this talent to restore multiple creatures, the durations of condition
 If you possess the Affliction talent, you may attempt to inflict others, rather than yourself, with a condition removed with the restore ability. You may use this ability in conjunction with restoring body or mind, but not soul. The target must be within range of your restore ability and you must succeed at a melee or ranged touch attack against them. Using Empathic Healing in this way increases the cost of restore by 1 spell point rather than reduces it. If successful, the creature targeted must succeed at a Fortitude save or they receive all the conditions you just restored, except for those they are immune to.
 
 If you miss the target of your touch attack or they succeed at their saving throw, the restored creature is still restored. If this is used in conjunction with Mass Healing, multiple enemies can be targeted, but each enemy can only receive conditions transferred from one ally and each ally must have all their conditions transferred to a single target.
-
+[[/div]]
+[[div style="padding: 0 2%; border: 1px solid black"]]
 ++++ Esoteric Healing
 When you use your Life sphere abilities, you may choose for them to not be positive energy effects. Used this way, your Life sphere abilities can affect non-living creatures such as constructs or undead, though they do not work on inanimate objects. This does not allow you to harm creatures you could not harm before with positive energy.
 
 **Author's Note:** If you possess the Esoteric Healing talent and use Affliction on a creature, that creature suffers positive or negative energy damage (whichever is more hurtful), or takes untyped damage if the creature would not normally be affected by either positive or negative energy (such as constructs).
-
+[[/div]]
+[[div style="padding: 0 2%; border: 1px solid black"]]
 ++++ Fount Of Life
 You may store a cure within yourself, allowing you to access that healing as needed throughout the day. You spend a spell point and roll the damage healed as normal, except rather than healing by the given amount, that amount of healing is stored. You may store multiple cures in this manner to increase the amount of stored healing, but you cannot store more healing within you than 10 x your caster level. Stored healing is lost when you rest to recover spell points.
 
 You may draw on this stored healing to heal targets exactly as if using your cure ability, except you do not need to spend a spell point; you may choose the amount of healing granted (to a maximum amount equal to your stored healing), and any healing granted to a target is subtracted from your stored healing.
-
+[[/div]]
+[[div style="padding: 0 2%; border: 1px solid black"]]
 ++++ Greater Invigorate
 When placing an invigorate on a target, add your casting ability modifier to the amount of temporary hit points granted, and increase the duration to 1 hour per caster level. You may spend a spell point when using invigorate to allow your invigorate to increase a target’s effective hit point total to reach beyond their usual hit point total, as is normal with temporary hit points. This means you may use this talent to grant an invigorate to a creature already at its maximum hit points.
-
+[[/div]]
+[[div style="padding: 0 2%; border: 1px solid black"]]
 ++++ Greater Restore [Warden]
 When using your restore ability, you may spend an additional spell point to select two options when using restore instead of one (such as restoring both mind and soul). If you possess a talent that grants special applications of restore, you may also select from the granted special applications too.
-
+[[/div]]
+[[div style="padding: 0 2%; border: 1px solid black"]]
 ++++ Instill Life [instill]
 As a standard action you may touch a small container of liquid and instill a cure, a restore, or an invigorate used in conjunction with the Greater Invigorate talent, or a use of the Affliction talent, which functions as a potion or oil. This cannot be augmented by the Empathic Healing talent.
 
 An instilled liquid remains potent until you rest to regain spell points. If you have equipment on hand (such as an alchemy lab), the cost of bottles and water is considered negligible.
 
 You may target food but not an already-magical item, such as a potion. All spell points must be spent and all variables of the sphere effect must be chosen at the time the instilled liquid is created. You cannot instill multiple effects in a single liquid, nor create multiple instilled liquids with a single action.
-
+[[/div]]
+[[div style="padding: 0 2%; border: 1px solid black"]]
 ++++ Latent Healing
 When you use cure or invigorate on a target, you may choose to delay its effects. You may apply effects that add additional hit points of healing at the time of the initial cure, such as additional hit points from Fount Of Life. At any point within 1 hour per caster level, the subject of the effect can trigger its effects as a swift action. A target can only be under the effects of one latent healing at a time.
-
+[[/div]]
+[[div style="padding: 0 2%; border: 1px solid black"]]
 ++++ Lingering Resilience
 Whenever you remove a condition completely from a creature using your restore ability, they are completely immune to that condition for 2 rounds. Being immune to a condition does not provide any additional defense against more severe versions of a condition, and they can not be made immune to a condition they did not have. This may not provide immunity to ability damage, ability drain, death, or negative levels.
 
 Whenever an ally regains hit points from you using your cure ability, they gain DR X/- equal to 1/2 your caster level or the number of hit points regained (whichever is less) for 2 rounds. This is not compatible with any form of fast healing you may grant.
-
+[[/div]]
+[[div style="padding: 0 2%; border: 1px solid black"]]
 ++++ Lingering Vitality [Warden]
 Whenever a creature benefiting from one of your (vitality) talents would lose its benefits due to taking damage from failing a saving throw or being hit with an attack roll, the benefits of the (vitality) talent lasts for 1 additional round before ending.
-
+[[/div]]
+[[div style="padding: 0 2%; border: 1px solid black"]]
 ++++ Mass Healing [mass]
 When using a cure, invigorate, or restore, you may spend an additional spell point to affect an additional 1 creature per 2 caster levels (minimum 1) at the same time. Each target must be within range and must be affected by the same cure, invigorate, or restore.
-
+[[/div]]
+[[div style="padding: 0 2%; border: 1px solid black"]]
 ++++ Painkiller
 Whenever you invigorate a target, they are also healed of an equal amount of nonlethal damage. They are healed up to the maximum amount you can invigorate, even if this amount is greater than the number of temporary hit points you grant the target.
-
+[[/div]]
+[[div style="padding: 0 2%; border: 1px solid black"]]
 ++++ Ranged Healing [range]
 Your cure, invigorate, and restore abilities have a range of close rather than touch.
 
 **Author's Note:** Life sphere abilities used at range no longer require a successful touch attack, unless otherwise specified (such as making an attack with your cure ability; hostile uses of abilities with attacks still need to make those attacks).
-
+[[/div]]
+[[div style="padding: 0 2%; border: 1px solid black"]]
 ++++ Restorative Cure
 When using your cure or invigorate abilities on a target or targets, you may spend an additional spell point to restore them as well.
-
+[[/div]]
+[[div style="padding: 0 2%; border: 1px solid black"]]
 ++++ Resuscitate
 Your cure and invigorate abilities function on creatures who have died within no more than 1 round. If the target’s new hit point total is at a negative amount greater than its Constitution score, then it comes back to life and stabilizes at its new hit point total. Otherwise the target remains dead. Creatures brought back to life in this manner gain a temporary negative level.
-
+[[/div]]
+[[div style="padding: 0 2%; border: 1px solid black"]]
 ++++ Revitalize
 You may choose for your cure to grant the target fast healing instead of directly healing damage. This grants the target fast healing 1 for 1 minute per caster level. Increase the amount of fast healing granted by the number of (cure) talents you possess. This no longer counts as cure for talents such as Fount Of Life or others.
 
 You may take this talent a second time to increase the duration of the revitalize effect to 1 hour per caster level, but the effect ends early if the target is healed a total number of hit points equal to 10 x your caster level x (1 + the number of (cure) talents you possess). If a creature gains fast healing from another source (such as another caster using this ability), they may choose each round which they benefit from.
-
+[[/div]]
+[[div style="padding: 0 2%; border: 1px solid black"]]
 ++++ Sanctify
 As a special application of restore, you may cause a creature damaged by positive energy to suffer 1d2 temporary negative levels for one hour per caster level (with no save instead of the usual Will save to negate), even if they are normally immune to negative levels. When used this way, this application of restore requires a touch attack or ranged touch attack, and is considered a ray.
 
 The inflicted negative levels increase by 1 die size per 5 caster levels (1d2, 1d3, 1d4, 1d6, etc.). These levels stack, but do not destroy an undead creature if they have as many negative levels as Hit Dice. Instead, if a negative level would reduce the creature to 0 Hit Dice, the creature instead takes 4 points of Constitution drain (even if they are normally immune to ability drain) or Charisma drain if they have no Constitution score for the duration of the effect. A negative energy effect that causes negative levels can be used to remove these negative levels before they become permanent. If a negative level lasts longer than 1 day, the target must succeed at a Fortitude save per negative level or have the negative level become permanent.
-
+[[/div]]
+[[div style="padding: 0 2%; border: 1px solid black"]]
 ++++ Self-Renewal
 You may spend an additional spell point to use your cure or restore ability on yourself as a swift action. You cannot use this to shorten an ability that has a casting time of more than a standard action, and you cannot affect any creature other than yourself with this ability. You may spend an additional spell point to do this even if you are normally unable to cast due to a condition you can restore.
-
+[[/div]]
+[[div style="padding: 0 2%; border: 1px solid black"]]
 ++++ Stabilizing Invigoration [Warden]
 In addition to its other effects, using invigorate immediately stabilizes a dying creature, and you may immediately attempt a Heal check as a free action to treat any bleed damage the creature is suffering from, with your Heal skill modifier for this check being your caster level + your casting ability modifier instead of your normal bonuses (if higher), as if using first aid.
-
+[[/div]]
+[[div style="padding: 0 2%; border: 1px solid black"]]
 ++++ Sudden Invigoration
 By spending a spell point, you can use invigorate as an immediate action. If done in response to a creature taking damage, you may choose whether the temporary hit points are gained before or after the damage is taken.
-
+[[/div]]
+[[div style="padding: 0 2%; border: 1px solid black"]]
 ++++ Taste Of Victory
 Whenever you successfully hit a creature with at least half as many Hit Dice as your character level with an attack that requires an attack roll, you may spend an additional spell point to use a Life sphere ability as a swift action on any willing creature within range. If the attack was a critical hit, knocked the target creature unconscious, or reduced the enemy to 0 or fewer hit points, you may use the Life sphere ability without spending the additional spell point required to use this talent.
-
+[[/div]]
+[[div style="padding: 0 2%; border: 1px solid black"]]
 ++++ Violent Recuperation [Alienist HB]
 Whenever you would have damage dealt to you that is completely negated through damage reduction, energy resistance, or energy immunity, you may use a Life sphere ability as an immediate action on any willing creature within range. This sphere ability costs spell points as normal. You cannot benefit from this talent as a result of an effect dealing damage to you if you have previously used that effect to trigger this talent within the last minute (for example, if you negated fire damage from alchemist’s fire, you would only activate this ability the first time that particular instance of alchemist’s fire damaged you. You could activate this talent again if you negated damage from another vial of alchemist’s fire or a breath weapon that deals fire damage next turn).
+[[/div]]
 ----
 ++ Cure Talents
+[[div style="padding: 0 2%; border: 1px solid black"]]
 ++++ Restore Capacity (cure)
 Your cure ability heals an additional 1 hit point per caster level. As a special application of restore, you may restore a creature’s movement and physical capacity instead of restoring mind, body, or soul. This allows a target to make an immediate Escape Artist check with a circumstance bonus equal to your caster level against any applicable condition (for example, if it is entangled or grappled), and the target is cured of the stunned condition. This also removes the lessening of a target’s movement speed or removal of a movement type, or any other similar detriment such as the loss of the power of speech. If the target is under a spell or effect that causes paralysis, you may attempt a magic skill check against the spell or effect, removing the condition if you succeed.
-
+[[/div]]
+[[div style="padding: 0 2%; border: 1px solid black"]]
 ++++ Restore Health (cure)
 Your cure ability heals an additional 1 hit point per caster level. When restoring a target’s body, the exhausted and nauseated conditions are completely removed rather than lessened, and you may attempt a magic skill check against the DC of any poison or disease the target is suffering from. On a success, this removes that poison or disease from the target. This does not reverse damage the target may have suffered from the poison or disease (such as ability damage), but it does stop the poison or disease from causing any more.
-
+[[/div]]
+[[div style="padding: 0 2%; border: 1px solid black"]]
 ++++ Restore Senses (cure)
 Your cure ability heals an additional 1 hit point per caster level. When restoring a target’s mind, the target is also cured of the confused and dazed conditions, and the frightened and panicked conditions are completely removed rather than lessened; as well as all temporary or magical removal of their senses. This includes blindness, deafness, loss of tremorsense, blindsense, etc.
 
 If playing with sanity rules, this also cures 1d4 points of sanity damage.
 
 If playing with the [[[strain]]] rules, this talent can restore 1d4 strain damage once per day (see 'Reducing Strain Damage').
-
+[[/div]]
+[[div style="padding: 0 2%; border: 1px solid black"]]
 ++++ Restore Spirit (cure)
 Your cure ability heals an additional 1 hit point per caster level. When restoring a target’s soul, the target is cured of all ability damage, as well as all ability drain to one ability score of your choice. The target is also cured of 1 temporary negative level, +1 per 5 caster levels. This may also suppress a permanent negative level for 1 minute per caster level instead of curing a temporary negative level.
+[[/div]]
 ----
 ++ Vitality Talents
+[[div style="padding: 0 2%; border: 1px solid black"]]
 ++++ Aggressive Vitality (vitality)
 Your Life magic gives the target a fevered strength. This grants the target a +2 circumstance bonus on attack and damage rolls with weapon attacks.
-
+[[/div]]
+[[div style="padding: 0 2%; border: 1px solid black"]]
 ++++ Calming Vitality (vitality) [Warden]
 Your Life magic instills the target with tranquility and harmony. This grants the target a +4 morale bonus to concentration checks.
-
+[[/div]]
+[[div style="padding: 0 2%; border: 1px solid black"]]
 ++++ Energizing Vitality (vitality)
 Your Life magic makes your ally restless and full of energy, granting them a +30 feet circumstance bonus to all forms of movement.
-
+[[/div]]
+[[div style="padding: 0 2%; border: 1px solid black"]]
 ++++ High On Vitality (vitality) [Jester's HB]
 Your Life magic alleviates the target’s worries, making them feel lighter. This causes the target to float up to 6 inches above the ground, allowing the target to ignore difficult terrain and ground-based hazards (such as caltrops).
-
+[[/div]]
+[[div style="padding: 0 2%; border: 1px solid black"]]
 ++++ Securing Vitality (vitality) [Warden]
 Your Life magic instills the target with stability and strength. This grants the target a +2 circumstance bonus to CMB and CMD.
-
+[[/div]]
+[[div style="padding: 0 2%; border: 1px solid black"]]
 ++++ Sustaining Vitality (vitality)
 Your ally receives a +2 circumstance bonus to AC and saving throws.
-
+[[/div]]
 ----
 
 ++ Advanced Life Talents
 Advanced talents are part of an optional rule and are only available with GM permission.
-
+[[div style="padding: 0 2%; border: 1px solid black"]]
 ++++ Feline Good [Catgirl HB]
 The recipients of your life magic are momentarily protected by your affection and care, the harsh effects momentarily stalled as your magic gently caresses them.
 
@@ -243,7 +282,8 @@ As a special application of restore, instead of removing a condition from the ta
 The spell point cost of a restore effect modified by this talent is reduced by 1 sp (minimum 0). If you spend an additional spell point, you may use this talent as an immediate action; however, the duration of a protective mark applied as part of a swift or immediate action is reduced to 1 round.
 
 **Special:** If you possess the Life sphere Resurrection advanced talent, this talent may delay an effect which would immediately kill the target through non-hit point damage (such as some death effects); the target dies normally after this effect’s duration ends.
-
+[[/div]]
+[[div style="padding: 0 2%; border: 1px solid black"]]
 ++++ Hypervitalize
 **Prerequisites:** Life sphere (Restore Health (cure), Revitalize), caster level 15th.
 
@@ -255,7 +295,8 @@ The hypervitalized creature gains the following benefits:
 * Immunity to any effect that requires a Fortitude save (unless the effect also works on objects or is harmless).
 * The fast healing granted by Revitalize is upgraded to regeneration; severed limbs can be reattached to the body (and indeed, will try to reattach themselves if possible). The target is not at risk of death from massive damage, not disabled at 0 hit points, and at negative hit points is unconscious but stable, even if exceeding the Constitution score. It can only be killed if the body is deliberately destroyed, such as being immolated or disintegrated, or by allowing the effect to expire while at negative hit points greater than their Constitution score. Creatures that possess abilities that allow them to stay conscious at 0 or fewer hit points still fall unconscious if they would normally die from the amount of damage they have received.
 * Does not need to breathe, drink, eat, or sleep.
-
+[[/div]]
+[[div style="padding: 0 2%; border: 1px solid black"]]
 ++++ Make Whole
 **Prerequisites:** Life sphere (Break Enchantment, Restore Senses (cure), Restore Spirit (cure)), caster level 10th.
 
@@ -266,47 +307,54 @@ If playing with the [[[strain]]] rules, this talent also improves the Restore Se
 Additionally, they are healed of all broken bones, severed body parts (fingers, toes, hands, feet, arms, legs, tails, or even heads of multi-headed creatures), and ruined organs. This also restores sight, hearing, and other permanent loss of senses. If body parts to be reattached are not present, they require 2d10 rounds to regrow.
 
 This cannot bring a creature back from the dead nor function on a creature that is already dead.
-
+[[/div]]
+[[div style="padding: 0 2%; border: 1px solid black"]]
 ++++ Resurrection
 **Prerequisites:** Life sphere (Resuscitate), caster level 10th.
 
 You may spend 3 spell points and 1 minute to bring a dead target back to life. A target cannot have been dead for more than 1 day per caster level, the creature’s body must be reasonably intact (i.e., it cannot be missing a vital component such as its head or heart), and the target’s soul must be willing to return (an unwilling target cannot be forcibly resurrected). The target is restored to full health and any ability scores drained or damaged to 0 are raised to 1, but otherwise, any conditions the target was under when it died return when it is raised (disease, poison, curses, etc.). A restore can be applied simultaneously with the resurrection to counteract these conditions.
 
 Missing body parts are not restored, although the wounds are sealed and do not bleed. The target also gains two permanent negative levels when it is raised or suffers 2 points of Constitution drain for every negative level it would be reduced below 1st level. If this would reduce the target’s Constitution to 0 or less, it cannot be raised. You cannot raise a target that has died of old age.
-
+[[/div]]
+[[div style="padding: 0 2%; border: 1px solid black"]]
 ++++ Resurrection, Greater
 **Prerequisites:** Life sphere (Break Enchantment, Make Whole (advanced), Restore Senses (cure), Restore Spirit (cure), Resurrection (advanced), Resuscitate), caster level 15th.
 
 When you bring a target back to life with your Resurrection talent, they only suffer 1 permanent negative level, they may have been dead for up to 10 years per caster level, and they can be missing vital components; indeed, you need only a small piece of their body (a pinch of ash, a finger, etc.) to bring them back to life and fully restore their body to its complete form.
-
+[[/div]]
+[[div style="padding: 0 2%; border: 1px solid black"]]
 ++++ Resurrection, Supreme [Warden]
 **Prerequisites:** Life sphere (Break Enchantment, Greater Resurrection (advanced), Make Whole (advanced), Restore Senses (cure), Restore Spirit (cure), Resurrection (advanced), Resuscitate), caster level 20th.
 
 When you bring a target back to life with your Resurrection talent, they suffer no permanent negative levels, in addition to having all ability score damage and drain completely removed.
 
 You may also resurrect creatures whose bodies have been destroyed completely, provided that you may specifically identify the deceased in some fashion. Additionally, you may spend an additional 2 spell points to also allow the Resurrection to count as using a miracle or wish spell for creatures that require such an effect to be resurrected, in addition to being able to resurrect creatures regardless of how long they have been dead for.
-
+[[/div]]
+[[div style="padding: 0 2%; border: 1px solid black"]]
 ++++ Soul Consumption [DbH]
 **Prerequisites:** Death sphere (Create Soul Gem (advanced)), Life sphere (Revitalize), caster level 5th.
 
 When you use Revitalize, you may destroy a soul gem in your possession as part of creating the effect. This increases the fast healing from Revitalize to an amount equal to your caster level for a number of rounds equal to half the CR of the soul trapped within the gem, rounded down (minimum 0).
 
 If you possess the Resurrection talent, you may use a soul gem containing a creature’s soul in place of the creature’s body to resurrect them.
-
+[[/div]]
+[[div style="padding: 0 2%; border: 1px solid black"]]
 ++++ Transfiguration
 **Prerequisites:** Life sphere (Restore Health (cure)), caster level 10th.
 
 As a full-round action, you spend two spell points to transform an adjacent creature into a more perfect version of itself, one step closer to divinity than before. The transfigured creature is superior to its old self spiritually, and is free of many of the burdens of mortality. Any penalties for old age are suspended, and it gains immunity to all diseases, including supernatural and magical diseases, and poisons of all kinds. Most importantly, its current and maximum hit points are raised by 5 hit points per caster level. This can not bring a creature’s maximum hit points to more than twice its normal maximum hit points.
 
 The transfiguration lasts a number of hours equal to your caster level, or until they drop below 0 hit points. When the transfiguration ends, if a creature’s current hit point total is greater than their original maximum total, their current hit point total becomes their original maximum hit point total, but they otherwise do not lose any hit points from the reduction in their maximum hit points.
+[[/div]]
 ----
 + Life Sphere Feats
-
+[[div style="padding: 0 2%; border: 1px solid black"]]
 ++++ Benevolence (Dual Sphere)
 **Prerequisites:** Life sphere (Fount Of Life), Protection sphere.
 
 **Benefit:** Whenever an ally within range of your cure ability that is under the effects of an aegis is damaged, you may spend a spell point as an immediate action to heal them with hit points from your fount of life. This may keep the target from dying.
-
+[[/div]]
+[[div style="padding: 0 2%; border: 1px solid black"]]
 ++++ Catty Observer [Catgirl HB]
 “She brings the food on a regular basis, delivering the fine dry cubes of nourishment to my bowl. She is worth protecting.” – Meowlin the Omnicatster
 
@@ -315,60 +363,72 @@ The transfiguration lasts a number of hours equal to your caster level, or until
 **Benefits:** Whenever you spend an action to learn details about a living creature with the Diagnose talent, you may attempt any 1 skill check to learn additional information about the target or the target’s surroundings as a free action, as though you were standing in or adjacent to the target to attempt such a check (such as a Diplomacy check to determine the target’s attitude, Perception to observe the target or the target’s surroundings, Sense Motive to determine a hunch about the target’s mood or mannerisms, etc.). If you possess the Protection sphere Status talent, you may attempt skill checks to learn additional information about a target or its surroundings while they benefit from one of your aegis effects, but must spend the normal action required to attempt such a check.
 
 **Note:** This feat allows you to attempt skill checks to learn various information at long ranges; if you could use the Diagnose talent or know information because of the Status talent, you may attempt skill checks from the target’s square, or about the target. This feat does not allow you to affect the target or others with such a skill check, such as attempting to Intimidate a creature or use Heal to treat a creature.
-
+[[/div]]
+[[div style="padding: 0 2%; border: 1px solid black"]]
 ++++ Channel Life (Channeling)
 **Prerequisites:** Life sphere, channel energy class feature.
 
 **Benefit:** You may channel energy and augment it with your Life sphere abilities. You must spend the normal spell point cost of the ability, but may target any creature that is affected by your channel energy, even if they would normally be out of range of your ability. If combined with Mass Healing, you may affect every creature affected by your channel energy.
-
+[[/div]]
+[[div style="padding: 0 2%; border: 1px solid black"]]
 ++++ Crescendo
 **Prerequisites:** Life sphere; bardic performance or raging song class feature.
 
 **Benefit:** You may invigorate any target affected by your bardic performance or raging song, and you may spend a spell point to invigorate them as a swift action. If combined with Mass Healing, you can affect every ally affected by your bardic performance or raging song.
-
+[[/div]]
+[[div style="padding: 0 2%; border: 1px solid black"]]
 ++++ Endless Possibilities (Dual Sphere)
 **Prerequisites:** Fate sphere, Life sphere.
 
 **Benefit:** Whenever you use a Life sphere ability on an ally, they receive a +1 luck bonus to all attack rolls, saving throws, skill checks and ability checks until the end of their next turn. This bonus increases by +1 for every 5 Life caster levels you possess.
-
+[[/div]]
+[[div style="padding: 0 2%; border: 1px solid black"]]
 ++++ Extended Resuscitate
 **Prerequisites:** Life sphere (Resuscitate), caster level 5th.
 
 **Benefit:** Your cure and invigorate abilities function on creatures who have been dead for a number of rounds equal to 1/2 your caster level.
-
+[[/div]]
+[[div style="padding: 0 2%; border: 1px solid black"]]
 ++++ First Response
 **Prerequisite:** Life sphere.
 
 **Benefit:** When you use a standard action to use a Life sphere ability on an ally other than yourself, you may take 10 on any concentration checks required.
-
+[[/div]]
+[[div style="padding: 0 2%; border: 1px solid black"]]
 ++++ Fortified Healing
 **Prerequisites:** Life sphere, Combat Stamina.
 
 **Benefit:** Whenever you use a Life sphere ability on an ally that restores hit points or grants temporary hit points, they regain 1 point of stamina for every 5 points regained or granted, respectively. This occurs even if they do not benefit from all points granted (such as an uninjured person being healed).
-
+[[/div]]
+[[div style="padding: 0 2%; border: 1px solid black"]]
 ++++ Fount Of Mercy
 **Prerequisites:** Life sphere (Fount Of Life).
 
 **Benefit:** Any ally within close range may spend a standard action to heal themselves for any number of hit points available in your fount of life, in all ways as if you had used the ability on them during your turn. This reduces the number of healing stored by an equal amount. This is a supernatural ability that may not be used if either yourself or the ally is in an antimagic field or similar effect. You always have the option of denying or limiting the amount of healing the ally receives, and allies can not benefit while you are unconscious.
-
+[[/div]]
+[[div style="padding: 0 2%; border: 1px solid black"]]
 ++++ Fount Of Stolen Life (Dual Sphere) [CrimDan]
 **Prerequisites:** Blood sphere, Life sphere (Fount Of Life).
 
 **Benefit:** As a move action, you may deal 2 Constitution burn to any amount of creatures you have established blood control with. Unwilling creatures may attempt a Fortitude save against your Blood sphere DC to resist this. If you successfully deal Constitution burn to a creature with Hit Dice equal to or greater than half your level with this ability, you add an amount of healing into your fount of life equal to twice that creature’s Hit Dice. You cannot apply the burn if it would cause a creature’s Constitution score to be lowered to 0 or below. A creature that has suffered the effect of this feat cannot suffer from it again until they recover from any Constitution burn they have suffered from this feat.
-
+[[/div]]
+[[div style="padding: 0 2%; border: 1px solid black"]]
 ++++ Healing Touch
 **Prerequisites:** Life sphere; lay on hands or fervor class feature.
 
 **Benefit:** Whenever you use your lay on hands or fervor ability to heal a creature, you may invigorate or restore the same creature as part of the same action. You must pay the normal spell point cost of the ability.
-
+[[/div]]
+[[div style="padding: 0 2%; border: 1px solid black"]]
 ++++ Invigorating Rally (Dual Sphere)
 **Prerequisites:** Life sphere, War sphere.
 
 **Benefit:** Whenever you rally an ally, you may also invigorate them.
-
+[[/div]]
+[[div style="padding: 0 2%; border: 1px solid black"]]
 ++++ Karmic Healing (Chance)
 **Benefit:** When you heal another creature’s hit points, whether using the Life sphere or another ability, you may spend a kismet point to regain an equal number of your own.
-
+[[/div]]
+[[div style="padding: 0 2%; border: 1px solid black"]]
 ++++ Lifebound Auspician [Gravecaller's HB]
 You bend the forces of the cosmos to the heartbeat of mortality.
 **Prerequisites:** Fate sphere; Death sphere or Life sphere; caster level 3rd.
@@ -386,85 +446,102 @@ Sphere effects modified with this feat are still treated as the original talent 
 **Note:** For the purposes of this feat, a living creature is any creature with a Constitution score.
 
 **Example:** A Fate sphere caster uses the Divine Force (consecration) talent. Instead of using the Fate sphere caster’s alignment, the caster chooses living and affects any undead, regardless of their alignment, and does not affect living creatures. That same caster uses the Enmity (word) talent, choosing undead and targeting a living creature. The living creature must succeed at a Will saving throw or be blinded as though their alignment were 3 steps away from the caster’s.
-
+[[/div]]
+[[div style="padding: 0 2%; border: 1px solid black"]]
 ++++ Purrging Transformation (Dual Sphere) [Catgirl HB]
 **Prerequisites:** Alteration sphere, Life sphere.
 
 **Benefit:** Whenever you use the Alteration sphere shapeshift sphere ability, you may spend 1 additional spell point to affect each target of that shapeshift with a Life sphere ability (such as a cure, invigorate, or restore effect), spending any additional spell points as required. You may not use this feat to harm the shapeshifted target (such as using the Life sphere Affliction talent to inflict damage or a negative condition).
 
 In addition, you may treat your Alteration sphere shapeshift sphere ability as though it were a Life sphere ability for the purposes of granting the benefits of a Life sphere (vitality) talent.
-
+[[/div]]
+[[div style="padding: 0 2%; border: 1px solid black"]]
 ++++ Rain Of Renewal (Dual Sphere) [Warden]
 **Prerequisite:** Life sphere (Stabilizing Invigoration), Weather sphere.
 
 **Benefit:** When you use control weather to create or control Precipitation of severity 2 or more, you may choose to spend 1 additional spell point. If you do, all dying creatures within the affected area immediately stabilize. Additionally, all allies have all bleed effects ended as if you had successfully used the Heal skill to perform first aid. This benefit lasts for 1 minute or until you stop concentrating on the control weather effect, whichever comes last.
-
+[[/div]]
+[[div style="padding: 0 2%; border: 1px solid black"]]
 ++++ Revitalizing Grasp [Warden]
 **Prerequisite:** Life sphere (at least one (vitality) talent), lay on hands class feature.
 
 **Benefit:** Whenever you would use your lay on hands class feature, you may grant the affected creature the benefits of a single (vitality) talent you possess.
-
+[[/div]]
+[[div style="padding: 0 2%; border: 1px solid black"]]
 ++++ Rigorous Defense
 **Prerequisites:** Life sphere, inspiration class feature.
 
 **Benefit:** Whenever you use inspiration, you may invigorate yourself as part of the same action.
-
+[[/div]]
+[[div style="padding: 0 2%; border: 1px solid black"]]
 ++++ Studied Healing
 **Prerequisites:** Heal 1 rank, Life sphere.
 
 **Benefit:** When you use your cure ability, you gain a bonus to your caster level equal to half the number of ranks you have in the Heal skill, rounded up. This can not increase your caster level above your Hit Dice.
-
+[[/div]]
+[[div style="padding: 0 2%; border: 1px solid black"]]
 ++++ Transpatial Reconstitution (Dual Sphere) [DbH]
 Your form in this particular world is one of many. Material from beyond can replace any damaged components.
 
 **Prerequisites:** Life sphere, Warp sphere.
 
 **Benefit:** When teleporting a creature, you may increase the casting time by one step or spend a spell point to target the teleported creature with a cure, invigorate, or restore effect, paying additional costs for the effect as normal. If you have both the Mass Healing and Mass Teleport talents, you may target multiple teleported creatures with the Life sphere effect used.
-
+[[/div]]
+[[div style="padding: 0 2%; border: 1px solid black"]]
 ++++ Treat Injury
 **Prerequisites:** Heal 1 rank, Life sphere.
 
 **Benefit:** Whenever you treat deadly wounds, you may use restore on the target. This costs one less spell point than normal. Even if you may use treat deadly wounds on a target multiple times in a day, this ability may only be used on a target once per day.
-
+[[/div]]
+[[div style="padding: 0 2%; border: 1px solid black"]]
 ++++ Vampiric Disruption
 **Prerequisites:** Life sphere (Affliction).
 
 **Benefit:** Upon successfully using your Affliction talent, you may use a swift action to use a Life sphere ability on yourself.
-
+[[/div]]
+[[div style="padding: 0 2%; border: 1px solid black"]]
 ++++ Wellspring Of Life
 **Prerequisites:** Life sphere (Fount Of Life).
 
 **Benefit:** The maximum size of your fount of life increases by 2 hit points per caster level. It increases by another 2 points per caster level for each (cure) talent you possess.
-
+[[/div]]
+[[div style="padding: 0 2%; border: 1px solid black"]]
 ++++ Wound Manipulator (Dual Sphere)
 **Prerequisites:** Alteration sphere, Life sphere.
 
 **Benefit:** When you shapeshift a creature, you may spend a spell point as a free action to allow them to regain one hit point for every Hit Die they possess. The target regains an additional hit point per Hit Die for each (cure) talent you possess. This healing is not positive energy.
+[[/div]]
 ----
 
 + Archetypes Specializing In Life
-
+[[div style="padding: 0 2%; border: 1px solid black"]]
 ++ [[[Essentialist]]]
 Essentialists are Alchemists who focus on nourishing elixirs instead of explosives.
-
+[[/div]]
+[[div style="padding: 0 2%; border: 1px solid black"]]
 ++ [[[Faithful Shepherd]]]
 Faithful shepherds are Clerics who specialize in healing and protection.
-
+[[/div]]
+[[div style="padding: 0 2%; border: 1px solid black"]]
 ++ [[[Folk Healer]]]
 Folk Healers are Rangers who know how to prepare special remedies.
-
+[[/div]]
+[[div style="padding: 0 2%; border: 1px solid black"]]
 ++ [[[Pharmakon]]]
 Pharmakons are Soul Weavers who have learned how to balance healing with suffering.
-
+[[/div]]
+[[div style="padding: 0 2%; border: 1px solid black"]]
 ++ [[[Spirit Mender]]]
 Spirit Menders are Druids who are helped and protected by countless small spirits.
-
+[[/div]]
+[[div style="padding: 0 2%; border: 1px solid black"]]
 ++ [[[Triple Goddess]]]
 Triple Goddesses are the Hedgewitch masters of [[[Life]]], [[[Death]]], and [[[Fate]]].
-
+[[/div]]
+[[div style="padding: 0 2%; border: 1px solid black"]]
 ++ [[[Worldsoul Incarnate]]]
 Worldsoul Incarnates are Barbarians and Unchained Barbarians who have learned to embrace the euphoric rapture of nature's power and channel it for a variety of effects.
-
+[[/div]]
 ----
 
 + Wild Magic
@@ -496,15 +573,15 @@ Worldsoul Incarnates are Barbarians and Unchained Barbarians who have learned to
 </div>
 <script>
     function randString(){
-        return stringArray[~~(rand()*stringArray.length)];
+    	return stringArray[~~(rand()*stringArray.length)];
     }
     function randText(){
-        var tx = randString();
-        var txt = document.createTextNode(tx);
-        var sp = document.createElement('span');
-        sp.appendChild(txt);
-        randomResult.innerHTML = '';
-        randomResult.appendChild(sp);
+    	var tx = randString();
+    	var txt = document.createTextNode(tx);
+    	var sp = document.createElement('span');
+    	sp.appendChild(txt);
+    	randomResult.innerHTML = '';
+    	randomResult.appendChild(sp);
     }
     rand = Math.random;
     stringArray = ['1: For 1 hour per caster level, creatures within close range of the caster must roll twice and take the worst result on saving throws made against disease.', '2: For 1 hour per caster level, all hostile creatures within long range of the caster automatically succeed on checks made to stabilize when they have negative hit points.', '3: (Combat) The caster is dazed for 1 round.', '4: The spell point cost of the effect decreases by 1. If the effect did not require any spell points, the caster instead gains 1 temporary spell point that expires at the end of his next turn.', '5: For 10 minutes per caster level, the caster gains a fear of blood and is shaken whenever within 20 ft. of a creature below half hit points or suffering from bleed damage.', '6: The caster takes nonlethal damage equal to twice caster level.', '7: The caster is fatigued.', '8: For 1 minute per caster level, all creatures with close range of the caster overflow with positive energy, gaining resistance to negative energy damage equal to caster level.', '9: All allies within close range gain fast healing equal to the caster level/2 (round up) of the effect for a number of round equal to caster level.', '10: All targets within medium range receive temporary hit points equal to double caster level. These stack with temporary hit points from other sources and may exceed the maximum hit points of the creature. These temporary hit points persist for 1 minute per caster level.', '11: For 1 minute per caster level, any creature affected by a Life sphere or Conjuration (healing) effect originating from the caster must succeed on a Fortitude save or be sickened for 1d6 rounds. This is a [pain] effect.', '12: For 1 round per caster level, all allied creatures within close range of the target gain a circumstance bonus on saves against poison and disease and a penalty on saves against effects that cause bleed damage equal to 1/4 caster level (minimum 1).', '13: For 1d6 rounds, all hostile creatures within close range of the target are immune to Life sphere effects.', '14: The caster may choose a creature within close range that loses hit points equal to the damage cured or invigorated, the creature receiving any conditions or damage restored. The creature chosen cannot be the original target. This cannot reduce the hit points or ability scores of the affected creature below 1. The affected creature cannot receive equal or more negative levels than it has Hit Dice.', '15: For 1d6 rounds, all creatures within close range of the target are immune to Life sphere effects.', '16: For 1 round per caster level, the caster is turned into a positive energy elemental. Treat this as a shapeshift with the Elemental Transformation talent of the Alteration sphere with the fire elemental option, replacing the burn damage with 1d4 points of positive energy, which deals damage to creatures harmed by positive energy and heals those healed by positive energy. Any creature ending their turn adjacent to the positive energy elemental are healed a number of hit points equal to 1/2 caster level (minimum 1). Creatures harmed by positive energy instead take an equal amount of damage, no save.', '17: All hostile creatures within close range take nonlethal damage equal to twice caster level.', '18: (Combat) All hostile creatures within medium range of the caster are affected as if the caster had cast restore on them.', '19: All allied creatures within close range of the target are healed 1 hit point per caster level. This is a positive energy effect. Creatures harmed by positive energy take an equal amount of damage with a Will save to reduce the damage by half.', '20: For 10 minutes per caster level, the caster gains vulnerability to negative energy damage, increasing any negative energy damage taken by 50%.', '21: For 1d6 rounds, each time a creature within close range of the caster is targeted by a Life sphere or conjuration (healing) effect, it must succeed on a Fortitude save equal to the DC of the effect or have the effect fail.', '22: The casting time increases by 2 steps.', '23: For 1 round per caster level, all creatures within close range of the caster gain a circumstance bonus on saves against poison and disease and a penalty on saves against effects that cause bleed damage equal to 1/4 caster level (minimum 1).', '24: For 1 hour per caster level, all allied creatures within close range of the caster automatically succeed on checks made to stabilize when they have negative hit points.', '25: (Combat) For 1d6 rounds, creatures within close range of the caster that would be slain or destroyed by hit points damage are instead reduced to 1 hit point. Creatures with negative hit points automatically have their hit points total increased to 1 hit point.', '26: (Combat) All hostile creatures within close range gain regeneration equal to caster level/2 (round up) for a number of round equal to caster level. This regeneration can be overcome by fire and acid.', '27: The caster takes a number of points of ability damage to his casting attribute equal to the caster level/4 (minimum 1) of the effect, even if he would normally be immune to ability damage.', '28: For 1d6 rounds, each time a hostile creature within close range of the caster is targeted by a Life sphere or Conjuration (healing) effect, it must succeed on a Fortitude save equal to the DC of the effect or have the effect fail.', '29: (Combat) All hostile creatures within long range receive temporary hit points equal to caster level. These stack with temporary hit points from other sources and may exceed the maximum hit points of the creature. These temporary hit points persist for 1 minute per caster level.', '30: The casting time increases by 1 step.', '31: All allied creatures within close range take nonlethal damage equal to twice caster level.', '32: Any creature brought to its maximum hit points by a Life sphere or Conjuration (healing) effect originating from the caster during the next 1 minute per caster level must succeed on a Fortitude save or be nauseated for 1 round.', '33: Roll twice and choose the result. Ignore any results that require rerolls. If both rolls thus ignored, there is no effect.', '34: For 1 round per caster level, all hostile creatures within close range of the target gain a circumstance bonus on saves against poison and disease and a penalty on saves against effects that cause bleed damage equal to 1/4 caster level (minimum 1).', '35: (Combat) For 1 round per caster level, all allied creatures within close range of the caster gain vulnerability to negative energy damage, increasing any negative energy damage taken by 50%.', '36: All allied creatures within close range of the caster are healed 1 hit point per caster level. This is a positive energy effect. Creatures harmed by positive energy take an equal amount of damage with a Will save to reduce the damage by half.', '37: All creatures within long range capable of perceiving the caster with the lifesense ability must succeed on a Reflex save or be blinded and lose their lifesense ability for 1d6 rounds.', '38: Any hostile creature within medium range of the caster that has died since the start of the previous turn of the caster is restored to life with 0 hit points. This ability otherwise works as the Resuscitate talent.', '39: All allies within medium range receive temporary hit points equal to twice caster level. These stack with temporary hit points from other sources and may exceed the maximum hit points of the creature.', '40: (Combat) The caster is stunned for 1 round.', '41: The casting time decreases by 2 steps.', '42: The caster gains momentary transcendent knowledge of life, the universe, and everything. Then it vanishes, leaving the caster terribly depressed and staggered for 1d6 rounds.', '43: Effect receives a -4 penalty to caster level (minimum 1).', '44: (Combat) For 1d6 rounds, all creatures within close range of the caster are immune to Life sphere effects.', '45: (Combat) The caster is nauseated for 1 round.', '46: The caster gains knowledge of one talent of his choice from this sphere for 1 round.', '47: All creatures within close range take nonlethal damage equal to twice caster level.', '48: For 1 round per caster level, all creatures within close range of the target gain a circumstance bonus on saves against poison and disease and a penalty on saves against effects that cause bleed damage equal to 1/4 caster level (minimum 1).', '49: For 1 hour per caster level, all creatures within long range of the caster automatically succeed on checks made to stabilize when they have negative hit points.', '50: The caster takes 1d4 points of Constitution damage even if he would normally be immune to ability damage. Creatures without a Constitution score instead take Charisma damage.', '51: All creatures within close range gain fast healing equal to the caster level/2 (round up) of the effect for a number of round equal to caster level.', '52: All creatures within close range of the target are healed 1 hit point per caster level. This is a positive energy effect. Creatures harmed by positive energy take an equal amount of damage with a Will save to reduce the damage by half.', '53: All allies within long range receive temporary hit points equal to caster level. These stack with temporary hit points from other sources and may exceed the maximum hit points of the creature. These temporary hit points persist for 1 minute per caster level.', '54: For 10 minutes per caster level, benefiting from a Life sphere effect or receiving any magical healing nauseates the target for 1 round.', '55: For 1d6 rounds, all allied creatures within close range of the target are immune to Life sphere effects.', '56: For 1d6 rounds, each time an allied creature within close range of the caster is targeted by a Life sphere or conjuration (healing) effect, it must succeed on a Fortitude save equal to the DC of the effect or have the effect fail.', '57: The effect fails, but the action is not lost. Spell points or spell slots spent are lost.', '58: The caster loses hit points equal to the damage cured or invigorated and the caster receives any conditions, diseases, damage, drain, negative levels, or poison removed via restore. If the caster was the target, this effect instead targets the nearest ally of the caster. This cannot reduce the affected hit points or ability scores of the creature below 1. The affected creature cannot receive equal or more negative levels than it has Hit Dice.', '59: For 1 round per caster level, all allied creatures within close range of the caster gain a circumstance bonus on saves against poison and disease and a penalty on saves against effects that cause bleed damage equal to 1/4 caster level (minimum 1).', '60: For 1 hour per caster level, creatures within close range of the caster may roll twice and take the best result on saving throws made against disease.', '61: The caster gains a 20-ft. aura for 1 round per caster level that grants all creatures inside it fast healing 1.', '62: Roll again on the Universal wild magic table.', '63: For 10 minutes per caster level, any creature that senses the caster with the lifesense ability must succeed on a Reflex save or be blinded and lose their lifesense ability for 1 round per caster level.', '64: (Combat) For 1d6 rounds, the caster leaves behind a glowing trail of positive energy. Any creature that enters a square that has been occupied by the caster since the beginning of the previous turn of the caster is healed a number of hit points equal to caster level. This is a positive energy effect. Creatures harmed by positive energy are instead damaged, though are allowed a Will save to reduce this damage by half. A creature may only be affected by this ability once per turn.', '65: The caster is exhausted.', '66: The caster loses knowledge of any of the talents used in the effect (but not the base sphere) for the length of the effect (minimum 1 round).', '67: (Combat) For 1d6 rounds, hostile creatures within close range of the caster that would be slain or destroyed by hit point damage are instead reduced to 1 hit point. Creatures with negative hit points automatically have their hit points total increased to 1 hit point.', '68: The effect fails, but all witnesses believe it was successful.', '69: For 1 minute per caster level, the caster grants fast healing 1 to any target touching it (not itself). This does not stack with any fast healing it might already have.', '70: For one minute, the caster gains fast healing equal to half caster level. If this healing would cause the hit points of the caster to exceed his normal maximum hit points, the effect ends and the caster is nauseated for 1d6 rounds.', '71: All hostile creatures within close range of the target are healed 1 hit point per caster level. This is a positive energy effect. Creatures harmed by positive energy take an equal amount of damage with a Will save to reduce the damage by half.', '72: (Combat) All hostile creatures within medium range receive temporary hit points equal to twice caster level. These stack with temporary hit points from other sources and may exceed the maximum hit points of the creature. These temporary hit points persist for 1 minute per caster level.', '73: The caster takes untyped nonlethal damage equal to caster level. This damage does not force concentration checks to cast or maintain sphere effects or spells.', '74: (Combat) For 1d6 rounds, all allied creatures within close range of the caster are immune to Life sphere effects.', '75: The effect fails and the action is lost. Spell points or spell slots are not lost.', '76: The effect is cast normally, but all witnesses believe it failed.', '77: All hostile creatures within close range of the caster are healed 1 hit point per caster level. This is a positive energy effect. Creatures harmed by positive energy take an equal amount of damage with a Will save to reduce the damage by half.', '78: The next time within 1 day per caster level that the caster is slain by hit point damage, he is restored to 1 hit point at the start of his next turn. This ability otherwise works as the Resuscitate talent.', '79: All creatures within long range receive temporary hit points equal to caster level. These stack with temporary hit points from other sources and may exceed the maximum hit points of the creature. These temporary hit points persist for 1 minute per caster level.', '80: The effect is delayed for 1 round from when it was cast.', '81: The casting time decreases by 1 step.', '82: The effect fails and the action is lost. Spell points or spell slots are lost.', '83: Effect receives a +2 bonus to caster level.', '84: All allies within close range gain regeneration equal to caster level/2 (round up) for a number of round equal to caster level. This regeneration can be overcome by fire and acid.', '85: All creatures within close range gain regeneration equal to caster level/2 (round up) for a number of round equal to caster level. This regeneration can be overcome by fire and acid.', '86: Any allied creature within long range of the caster that has died in the previous 10 minutes are restored to life with 0 hit points. This ability otherwise works as the Resuscitate talent.', '87: (Combat) For 1 round per caster level, all hostile creatures within close range of the caster gain a circumstance bonus on saves against poison and disease and a penalty on saves against effects that cause bleed damage equal to 1/4 caster level (minimum 1).', '88: The spell point cost of the effect increases by 1. If the caster does not have enough spell points, he is instead staggered until the end of his next turn.', '89: (Combat) All hostile creatures within close range gain fast healing equal to caster level/2 (round up) for a number of round equal to caster level.', '90: All creatures within close range of the caster are healed 1 hit point per caster level. This is a positive energy effect. Creatures harmed by positive energy take an equal amount of damage with a Will save to reduce the damage by half.', '91: (Combat) For 1 round per caster level, all creatures within close range of the caster gain vulnerability to negative energy damage, increasing any negative energy damage taken by 50%.', '92: (Combat) For 1d6 rounds, all hostile creatures within medium range of the caster are immune to Life sphere effects.', '93: For 1 round per caster level, the caster gains a circumstance bonus on saves against poison and disease and a penalty on saves against effects that cause bleed damage equal to 1/4 caster level (minimum 1).', '94: Roll twice and take both results. Ignore any results that require rerolls. If both rolls thus ignored, there is no effect.', '95: Any creature within medium range of the caster that has died since the start of the previous turn of the caster are restored to life with 0 hit points. This ability otherwise works as the Resuscitate talent.', '96: For 1 minute per caster level, the caster overflows with positive energy, gaining immunity to negative energy damage.', '97: The spell point cost of the effect increases by 1d4. If the caster does not have enough spell points, he is instead dazed until the end of his next turn.', '98: For 1 round per caster level, all hostile creatures within close range of the caster gain vulnerability to negative energy damage, increasing any negative energy damage taken by 50%.', '99: The caster loses access to this sphere for 1d6 rounds.', '100: For 1d6 rounds, allied creatures within close range of the caster that would be slain or destroyed by hit point damage are instead reduced to 1 hit point. Creatures with negative hit points automatically have their hit points total increased to 1 hit point.'];
@@ -514,106 +591,106 @@ Worldsoul Incarnates are Barbarians and Unchained Barbarians who have learned to
 [[/html]]
 
 ++++ Wild Magic Table
-||~ d100 ||~ Result || 
-|| 1 || For 1 hour per caster level, creatures within close range of the caster must roll twice and take the worst result on saving throws made against disease. || 
-|| 2 || For 1 hour per caster level, all hostile creatures within long range of the caster automatically succeed on checks made to stabilize when they have negative hit points. || 
-|| 3 || (Combat) The caster is dazed for 1 round. || 
-|| 4 || The spell point cost of the effect decreases by 1. If the effect did not require any spell points, the caster instead gains 1 temporary spell point that expires at the end of his next turn. || 
-|| 5 || For 10 minutes per caster level, the caster gains a fear of blood and is shaken whenever within 20 ft. of a creature below half hit points or suffering from bleed damage. || 
-|| 6 || The caster takes nonlethal damage equal to twice caster level. || 
-|| 7 || The caster is fatigued. || 
-|| 8 || For 1 minute per caster level, all creatures with close range of the caster overflow with positive energy, gaining resistance to negative energy damage equal to caster level. || 
-|| 9 || All allies within close range gain fast healing equal to the effect’s caster level/2 (round up) for a number of round equal to caster level. || 
-|| 10 || All targets within medium range receive temporary hit points equal to double caster level. These stack with temporary hit points from other sources and may exceed the creature’s maximum hit points. These temporary hit points persist for 1 minute per caster level. || 
-|| 11 || For 1 minute per caster level, any creature affected by a Life sphere or Conjuration (healing) effect originating from the caster must succeed on a Fortitude save or be sickened for 1d6 rounds. This is a [pain] effect. || 
-|| 12 || For 1 round per caster level, all allied creatures within close range of the target gain a circumstance bonus on saves against poison and disease and a penalty on saves against effects that cause bleed damage equal to 1/4 caster level (minimum 1). || 
-|| 13 || For 1d6 rounds, all hostile creatures within close range of the target are immune to Life sphere effects. || 
-|| 14 || The caster may choose a creature within close range that loses hit points equal to the damage cured or invigorated, the creature receiving any conditions or damage restored. The creature chosen cannot be the original target. This cannot reduce the affected creature’s hit points or ability scores below 1. The affected creature cannot receive equal or more negative levels than it has Hit Dice. || 
-|| 15 || For 1d6 rounds, all creatures within close range of the target are immune to Life sphere effects. || 
-|| 16 || For 1 round per caster level, the caster is turned into a positive energy elemental. Treat this as a shapeshift with the Elemental Transformation talent of the Alteration sphere with the fire elemental option, replacing the burn damage with 1d4 points of positive energy, which deals damage to creatures harmed by positive energy and heals those healed by positive energy. Any creature ending their turn adjacent to the positive energy elemental are healed a number of hit points equal to 1/2 caster level (minimum 1). Creatures harmed by positive energy instead take an equal amount of damage, no save. || 
-|| 17 || All hostile creatures within close range take nonlethal damage equal to twice caster level. || 
-|| 18 || (Combat) All hostile creatures within medium range of the caster are affected as if the caster had cast restore on them. || 
-|| 19 || All allied creatures within close range of the target are healed 1 hit point per caster level. This is a positive energy effect. Creatures harmed by positive energy take an equal amount of damage with a Will save to reduce the damage by half. || 
-|| 20 || For 10 minutes per caster level, the caster gains vulnerability to negative energy damage, increasing any negative energy damage taken by 50%. || 
-|| 21 || For 1d6 rounds, each time a creature within close range of the caster is targeted by a Life sphere or conjuration (healing) effect, it must succeed on a Fortitude save equal to this effect’s DC or have the effect fail. || 
-|| 22 || The casting time increases by 2 steps. || 
-|| 23 || For 1 round per caster level, all creatures within close range of the caster gain a circumstance bonus on saves against poison and disease and a penalty on saves against effects that cause bleed damage equal to 1/4 caster level (minimum 1). || 
-|| 24 || For 1 hour per caster level, all allied creatures within close range of the caster automatically succeed on checks made to stabilize when they have negative hit points. || 
-|| 25 || (Combat) For 1d6 rounds, creatures within close range of the caster that would be slain or destroyed by hit points damage are instead reduced to 1 hit point. Creatures with negative hit points automatically have their hit points total increased to 1 hit point. || 
-|| 26 || (Combat) All hostile creatures within close range gain regeneration equal to caster level/2 (round up) for a number of round equal to caster level. This regeneration can be overcome by fire and acid. || 
-|| 27 || The caster takes a number of points of ability damage to his casting attribute equal to the effect’s caster level/4 (minimum 1) even if he would normally be immune to ability damage. || 
-|| 28 || For 1d6 rounds, each time a hostile creature within close range of the caster is targeted by a Life sphere or Conjuration (healing) effect, it must succeed on a Fortitude save equal to this effect’s DC or have the effect fail. || 
-|| 29 || (Combat) All hostile creatures within long range receive temporary hit points equal to caster level. These stack with temporary hit points from other sources and may exceed the creature’s maximum hit points. These temporary hit points persist for 1 minute per caster level. || 
-|| 30 || The casting time increases by 1 step. || 
-|| 31 || All allied creatures within close range take nonlethal damage equal to twice caster level. || 
-|| 32 || Any creature brought to its maximum hit points by a Life sphere or Conjuration (healing) effect originating from the caster during the next 1 minute per caster level must succeed on a Fortitude save or be nauseated for 1 round. || 
-|| 33 || Roll twice and choose the result. Ignore any results that require rerolls. If both rolls thus ignored, there is no effect. || 
-|| 34 || For 1 round per caster level, all hostile creatures within close range of the target gain a circumstance bonus on saves against poison and disease and a penalty on saves against effects that cause bleed damage equal to 1/4 caster level (minimum 1). || 
-|| 35 || (Combat) For 1 round per caster level, all allied creatures within close range of the caster gain vulnerability to negative energy damage, increasing any negative energy damage taken by 50%. || 
-|| 36 || All allied creatures within close range of the caster are healed 1 hit point per caster level. This is a positive energy effect. Creatures harmed by positive energy take an equal amount of damage with a Will save to reduce the damage by half. || 
-|| 37 || All creatures within long range capable of perceiving the caster with the lifesense ability must succeed on a Reflex save or be blinded and lose their lifesense ability for 1d6 rounds. || 
-|| 38 || Any hostile creature within medium range of the caster that has died since the start of the caster’s previous turn are restored to life with 0 hit points. This ability otherwise works as the Resuscitate talent. || 
-|| 39 || All allies within medium range receive temporary hit points equal to twice caster level. These stack with temporary hit points from other sources and may exceed the creature’s maximum hit points. || 
-|| 40 || (Combat) The caster is stunned for 1 round. || 
-|| 41 || The casting time decreases by 2 steps. || 
-|| 42 || The caster gains momentary transcendent knowledge of life, the universe, and everything. Then it vanishes, leaving the caster terribly depressed and staggered for 1d6 rounds. || 
-|| 43 || Effect receives a -4 penalty to caster level (minimum 1). || 
-|| 44 || (Combat) For 1d6 rounds, all creatures within close range of the caster are immune to Life sphere effects. || 
-|| 45 || (Combat) The caster is nauseated for 1 round. || 
-|| 46 || The caster gains knowledge of one talent of his choice from this sphere for 1 round. || 
-|| 47 || All creatures within close range take nonlethal damage equal to twice caster level. || 
-|| 48 || For 1 round per caster level, all creatures within close range of the target gain a circumstance bonus on saves against poison and disease and a penalty on saves against effects that cause bleed damage equal to 1/4 caster level (minimum 1). || 
-|| 49 || For 1 hour per caster level, all creatures within long range of the caster automatically succeed on checks made to stabilize when they have negative hit points. || 
-|| 50 || The caster takes 1d4 points of Constitution damage even if he would normally be immune to ability damage. Creatures without a Constitution score instead take Charisma damage. || 
-|| 51 || All creatures within close range gain fast healing equal to the effect’s caster level/2 (round up) for a number of round equal to caster level. || 
-|| 52 || All creatures within close range of the target are healed 1 hit point per caster level. This is a positive energy effect. Creatures harmed by positive energy take an equal amount of damage with a Will save to reduce the damage by half. || 
-|| 53 || All allies within long range receive temporary hit points equal to caster level. These stack with temporary hit points from other sources and may exceed the creature’s maximum hit points. These temporary hit points persist for 1 minute per caster level. || 
-|| 54 || For 10 minutes per caster level, benefiting from a Life sphere effect or receiving any magical healing nauseates the target for 1 round. || 
-|| 55 || For 1d6 rounds, all allied creatures within close range of the target are immune to Life sphere effects. || 
-|| 56 || For 1d6 rounds, each time an allied creature within close range of the caster is targeted by a Life sphere or conjuration (healing) effect, it must succeed on a Fortitude save equal to this effect’s DC or have the effect fail. || 
-|| 57 || The effect fails, but the action is not lost. Spell points or spell slots spent are lost. || 
-|| 58 || The caster loses hit points equal to the damage cured or invigorated and the caster receives any conditions, diseases, damage, drain, negative levels, or poison removed via restore. If the caster was the target, this effect instead targets the caster’s nearest ally. This cannot reduce the affected creature’s hit points or ability scores below 1. The affected creature cannot receive equal or more negative levels than it has Hit Dice. || 
-|| 59 || For 1 round per caster level, all allied creatures within close range of the caster gain a circumstance bonus on saves against poison and disease and a penalty on saves against effects that cause bleed damage equal to 1/4 caster level (minimum 1). || 
-|| 60 || For 1 hour per caster level, creatures within close range of the caster may roll twice and take the best result on saving throws made against disease. || 
-|| 61 || The caster gains a 20-ft. aura for 1 round per caster level that grants all creatures inside it fast healing 1. || 
-|| 62 || Roll again on the Universal wild magic table. || 
-|| 63 || For 10 minutes per caster level, any creature that senses the caster with the lifesense ability must succeed on a Reflex save or be blinded and lose their lifesense ability for 1 round per caster level. || 
-|| 64 || (Combat) For 1d6 rounds, the caster leaves behind a glowing trail of positive energy. Any creature that enters a square that has been occupied by the caster since the beginning of the caster’s previous turn is healed a number of hit points equal to caster level. This is a positive energy effect. Creatures harmed by positive energy are instead damaged, though are allowed a Will save to reduce this damage by half. A creature may only be affected by this ability once per turn. || 
-|| 65 || The caster is exhausted. || 
-|| 66 || The caster loses knowledge of any of the talents used in the effect (but not the base sphere) for the length of the effect (minimum 1 round). || 
-|| 67 || (Combat) For 1d6 rounds, hostile creatures within close range of the caster that would be slain or destroyed by hit point damage are instead reduced to 1 hit point. Creatures with negative hit points automatically have their hit points total increased to 1 hit point. || 
-|| 68 || The effect fails, but all witnesses believe it was successful. || 
-|| 69 || For 1 minute per caster level, the caster grants fast healing 1 to any target touching it (not itself). This does not stack with any fast healing it might already have. || 
-|| 70 || For one minute, the caster gains fast healing equal to half caster level. If this healing would cause the caster’s hit points to exceed his normal maximum hit points, the effect ends and the caster is nauseated for 1d6 rounds. || 
-|| 71 || All hostile creatures within close range of the target are healed 1 hit point per caster level. This is a positive energy effect. Creatures harmed by positive energy take an equal amount of damage with a Will save to reduce the damage by half. || 
-|| 72 || (Combat) All hostile creatures within medium range receive temporary hit points equal to twice caster level. These stack with temporary hit points from other sources and may exceed the creature’s maximum hit points. These temporary hit points persist for 1 minute per caster level. || 
-|| 73 || The caster takes untyped nonlethal damage equal to caster level. This damage does not force concentration checks to cast or maintain sphere effects or spells. || 
-|| 74 || (Combat) For 1d6 rounds, all allied creatures within close range of the caster are immune to Life sphere effects. || 
-|| 75 || The effect fails and the action is lost. Spell points or spell slots are not lost. || 
-|| 76 || The effect is cast normally, but all witnesses believe it failed. || 
-|| 77 || All hostile creatures within close range of the caster are healed 1 hit point per caster level. This is a positive energy effect. Creatures harmed by positive energy take an equal amount of damage with a Will save to reduce the damage by half. || 
-|| 78 || The next time within 1 day per caster level that the caster is slain by hit point damage, he is restored to 1 hit point at the start of his next turn. This ability otherwise works as the Resuscitate talent. || 
-|| 79 || All creatures within long range receive temporary hit points equal to caster level. These stack with temporary hit points from other sources and may exceed the creature’s maximum hit points. These temporary hit points persist for 1 minute per caster level. || 
-|| 80 || The effect is delayed for 1 round from when it was cast. || 
-|| 81 || The casting time decreases by 1 step. || 
-|| 82 || The effect fails and the action is lost. Spell points or spell slots are lost. || 
-|| 83 || Effect receives a +2 bonus to caster level. || 
-|| 84 || All allies within close range gain regeneration equal to caster level/2 (round up) for a number of round equal to caster level. This regeneration can be overcome by fire and acid. || 
-|| 85 || All creatures within close range gain regeneration equal to caster level/2 (round up) for a number of round equal to caster level. This regeneration can be overcome by fire and acid. || 
-|| 86 || Any allied creature within long range of the caster that has died in the previous 10 minutes are restored to life with 0 hit points. This ability otherwise works as the Resuscitate talent. || 
-|| 87 || (Combat) For 1 round per caster level, all hostile creatures within close range of the caster gain a circumstance bonus on saves against poison and disease and a penalty on saves against effects that cause bleed damage equal to 1/4 caster level (minimum 1). || 
-|| 88 || The spell point cost of the effect increases by 1. If the caster does not have enough spell points, he is instead staggered until the end of his next turn. || 
-|| 89 || (Combat) All hostile creatures within close range gain fast healing equal to caster level/2 (round up) for a number of round equal to caster level. || 
-|| 90 || All creatures within close range of the caster are healed 1 hit point per caster level. This is a positive energy effect. Creatures harmed by positive energy take an equal amount of damage with a Will save to reduce the damage by half. || 
-|| 91 || (Combat) For 1 round per caster level, all creatures within close range of the caster gain vulnerability to negative energy damage, increasing any negative energy damage taken by 50%. || 
-|| 92 || (Combat) For 1d6 rounds, all hostile creatures within medium range of the caster are immune to Life sphere effects. || 
-|| 93 || For 1 round per caster level, the caster gains a circumstance bonus on saves against poison and disease and a penalty on saves against effects that cause bleed damage equal to 1/4 caster level (minimum 1). || 
-|| 94 || Roll twice and take both results. Ignore any results that require rerolls. If both rolls thus ignored, there is no effect. || 
-|| 95 || Any creature within medium range of the caster that has died since the start of the caster’s previous turn are restored to life with 0 hit points. This ability otherwise works as the Resuscitate talent. || 
-|| 96 || For 1 minute per caster level, the caster overflows with positive energy, gaining immunity to negative energy damage. || 
-|| 97 || The spell point cost of the effect increases by 1d4. If the caster does not have enough spell points, he is instead dazed until the end of his next turn. || 
-|| 98 || For 1 round per caster level, all hostile creatures within close range of the caster gain vulnerability to negative energy damage, increasing any negative energy damage taken by 50%. || 
-|| 99 || The caster loses access to this sphere for 1d6 rounds. || 
+||~ d100 ||~ Result ||
+|| 1 || For 1 hour per caster level, creatures within close range of the caster must roll twice and take the worst result on saving throws made against disease. ||
+|| 2 || For 1 hour per caster level, all hostile creatures within long range of the caster automatically succeed on checks made to stabilize when they have negative hit points. ||
+|| 3 || (Combat) The caster is dazed for 1 round. ||
+|| 4 || The spell point cost of the effect decreases by 1. If the effect did not require any spell points, the caster instead gains 1 temporary spell point that expires at the end of his next turn. ||
+|| 5 || For 10 minutes per caster level, the caster gains a fear of blood and is shaken whenever within 20 ft. of a creature below half hit points or suffering from bleed damage. ||
+|| 6 || The caster takes nonlethal damage equal to twice caster level. ||
+|| 7 || The caster is fatigued. ||
+|| 8 || For 1 minute per caster level, all creatures with close range of the caster overflow with positive energy, gaining resistance to negative energy damage equal to caster level. ||
+|| 9 || All allies within close range gain fast healing equal to the effect’s caster level/2 (round up) for a number of round equal to caster level. ||
+|| 10 || All targets within medium range receive temporary hit points equal to double caster level. These stack with temporary hit points from other sources and may exceed the creature’s maximum hit points. These temporary hit points persist for 1 minute per caster level. ||
+|| 11 || For 1 minute per caster level, any creature affected by a Life sphere or Conjuration (healing) effect originating from the caster must succeed on a Fortitude save or be sickened for 1d6 rounds. This is a [pain] effect. ||
+|| 12 || For 1 round per caster level, all allied creatures within close range of the target gain a circumstance bonus on saves against poison and disease and a penalty on saves against effects that cause bleed damage equal to 1/4 caster level (minimum 1). ||
+|| 13 || For 1d6 rounds, all hostile creatures within close range of the target are immune to Life sphere effects. ||
+|| 14 || The caster may choose a creature within close range that loses hit points equal to the damage cured or invigorated, the creature receiving any conditions or damage restored. The creature chosen cannot be the original target. This cannot reduce the affected creature’s hit points or ability scores below 1. The affected creature cannot receive equal or more negative levels than it has Hit Dice. ||
+|| 15 || For 1d6 rounds, all creatures within close range of the target are immune to Life sphere effects. ||
+|| 16 || For 1 round per caster level, the caster is turned into a positive energy elemental. Treat this as a shapeshift with the Elemental Transformation talent of the Alteration sphere with the fire elemental option, replacing the burn damage with 1d4 points of positive energy, which deals damage to creatures harmed by positive energy and heals those healed by positive energy. Any creature ending their turn adjacent to the positive energy elemental are healed a number of hit points equal to 1/2 caster level (minimum 1). Creatures harmed by positive energy instead take an equal amount of damage, no save. ||
+|| 17 || All hostile creatures within close range take nonlethal damage equal to twice caster level. ||
+|| 18 || (Combat) All hostile creatures within medium range of the caster are affected as if the caster had cast restore on them. ||
+|| 19 || All allied creatures within close range of the target are healed 1 hit point per caster level. This is a positive energy effect. Creatures harmed by positive energy take an equal amount of damage with a Will save to reduce the damage by half. ||
+|| 20 || For 10 minutes per caster level, the caster gains vulnerability to negative energy damage, increasing any negative energy damage taken by 50%. ||
+|| 21 || For 1d6 rounds, each time a creature within close range of the caster is targeted by a Life sphere or conjuration (healing) effect, it must succeed on a Fortitude save equal to this effect’s DC or have the effect fail. ||
+|| 22 || The casting time increases by 2 steps. ||
+|| 23 || For 1 round per caster level, all creatures within close range of the caster gain a circumstance bonus on saves against poison and disease and a penalty on saves against effects that cause bleed damage equal to 1/4 caster level (minimum 1). ||
+|| 24 || For 1 hour per caster level, all allied creatures within close range of the caster automatically succeed on checks made to stabilize when they have negative hit points. ||
+|| 25 || (Combat) For 1d6 rounds, creatures within close range of the caster that would be slain or destroyed by hit points damage are instead reduced to 1 hit point. Creatures with negative hit points automatically have their hit points total increased to 1 hit point. ||
+|| 26 || (Combat) All hostile creatures within close range gain regeneration equal to caster level/2 (round up) for a number of round equal to caster level. This regeneration can be overcome by fire and acid. ||
+|| 27 || The caster takes a number of points of ability damage to his casting attribute equal to the effect’s caster level/4 (minimum 1) even if he would normally be immune to ability damage. ||
+|| 28 || For 1d6 rounds, each time a hostile creature within close range of the caster is targeted by a Life sphere or Conjuration (healing) effect, it must succeed on a Fortitude save equal to this effect’s DC or have the effect fail. ||
+|| 29 || (Combat) All hostile creatures within long range receive temporary hit points equal to caster level. These stack with temporary hit points from other sources and may exceed the creature’s maximum hit points. These temporary hit points persist for 1 minute per caster level. ||
+|| 30 || The casting time increases by 1 step. ||
+|| 31 || All allied creatures within close range take nonlethal damage equal to twice caster level. ||
+|| 32 || Any creature brought to its maximum hit points by a Life sphere or Conjuration (healing) effect originating from the caster during the next 1 minute per caster level must succeed on a Fortitude save or be nauseated for 1 round. ||
+|| 33 || Roll twice and choose the result. Ignore any results that require rerolls. If both rolls thus ignored, there is no effect. ||
+|| 34 || For 1 round per caster level, all hostile creatures within close range of the target gain a circumstance bonus on saves against poison and disease and a penalty on saves against effects that cause bleed damage equal to 1/4 caster level (minimum 1). ||
+|| 35 || (Combat) For 1 round per caster level, all allied creatures within close range of the caster gain vulnerability to negative energy damage, increasing any negative energy damage taken by 50%. ||
+|| 36 || All allied creatures within close range of the caster are healed 1 hit point per caster level. This is a positive energy effect. Creatures harmed by positive energy take an equal amount of damage with a Will save to reduce the damage by half. ||
+|| 37 || All creatures within long range capable of perceiving the caster with the lifesense ability must succeed on a Reflex save or be blinded and lose their lifesense ability for 1d6 rounds. ||
+|| 38 || Any hostile creature within medium range of the caster that has died since the start of the caster’s previous turn are restored to life with 0 hit points. This ability otherwise works as the Resuscitate talent. ||
+|| 39 || All allies within medium range receive temporary hit points equal to twice caster level. These stack with temporary hit points from other sources and may exceed the creature’s maximum hit points. ||
+|| 40 || (Combat) The caster is stunned for 1 round. ||
+|| 41 || The casting time decreases by 2 steps. ||
+|| 42 || The caster gains momentary transcendent knowledge of life, the universe, and everything. Then it vanishes, leaving the caster terribly depressed and staggered for 1d6 rounds. ||
+|| 43 || Effect receives a -4 penalty to caster level (minimum 1). ||
+|| 44 || (Combat) For 1d6 rounds, all creatures within close range of the caster are immune to Life sphere effects. ||
+|| 45 || (Combat) The caster is nauseated for 1 round. ||
+|| 46 || The caster gains knowledge of one talent of his choice from this sphere for 1 round. ||
+|| 47 || All creatures within close range take nonlethal damage equal to twice caster level. ||
+|| 48 || For 1 round per caster level, all creatures within close range of the target gain a circumstance bonus on saves against poison and disease and a penalty on saves against effects that cause bleed damage equal to 1/4 caster level (minimum 1). ||
+|| 49 || For 1 hour per caster level, all creatures within long range of the caster automatically succeed on checks made to stabilize when they have negative hit points. ||
+|| 50 || The caster takes 1d4 points of Constitution damage even if he would normally be immune to ability damage. Creatures without a Constitution score instead take Charisma damage. ||
+|| 51 || All creatures within close range gain fast healing equal to the effect’s caster level/2 (round up) for a number of round equal to caster level. ||
+|| 52 || All creatures within close range of the target are healed 1 hit point per caster level. This is a positive energy effect. Creatures harmed by positive energy take an equal amount of damage with a Will save to reduce the damage by half. ||
+|| 53 || All allies within long range receive temporary hit points equal to caster level. These stack with temporary hit points from other sources and may exceed the creature’s maximum hit points. These temporary hit points persist for 1 minute per caster level. ||
+|| 54 || For 10 minutes per caster level, benefiting from a Life sphere effect or receiving any magical healing nauseates the target for 1 round. ||
+|| 55 || For 1d6 rounds, all allied creatures within close range of the target are immune to Life sphere effects. ||
+|| 56 || For 1d6 rounds, each time an allied creature within close range of the caster is targeted by a Life sphere or conjuration (healing) effect, it must succeed on a Fortitude save equal to this effect’s DC or have the effect fail. ||
+|| 57 || The effect fails, but the action is not lost. Spell points or spell slots spent are lost. ||
+|| 58 || The caster loses hit points equal to the damage cured or invigorated and the caster receives any conditions, diseases, damage, drain, negative levels, or poison removed via restore. If the caster was the target, this effect instead targets the caster’s nearest ally. This cannot reduce the affected creature’s hit points or ability scores below 1. The affected creature cannot receive equal or more negative levels than it has Hit Dice. ||
+|| 59 || For 1 round per caster level, all allied creatures within close range of the caster gain a circumstance bonus on saves against poison and disease and a penalty on saves against effects that cause bleed damage equal to 1/4 caster level (minimum 1). ||
+|| 60 || For 1 hour per caster level, creatures within close range of the caster may roll twice and take the best result on saving throws made against disease. ||
+|| 61 || The caster gains a 20-ft. aura for 1 round per caster level that grants all creatures inside it fast healing 1. ||
+|| 62 || Roll again on the Universal wild magic table. ||
+|| 63 || For 10 minutes per caster level, any creature that senses the caster with the lifesense ability must succeed on a Reflex save or be blinded and lose their lifesense ability for 1 round per caster level. ||
+|| 64 || (Combat) For 1d6 rounds, the caster leaves behind a glowing trail of positive energy. Any creature that enters a square that has been occupied by the caster since the beginning of the caster’s previous turn is healed a number of hit points equal to caster level. This is a positive energy effect. Creatures harmed by positive energy are instead damaged, though are allowed a Will save to reduce this damage by half. A creature may only be affected by this ability once per turn. ||
+|| 65 || The caster is exhausted. ||
+|| 66 || The caster loses knowledge of any of the talents used in the effect (but not the base sphere) for the length of the effect (minimum 1 round). ||
+|| 67 || (Combat) For 1d6 rounds, hostile creatures within close range of the caster that would be slain or destroyed by hit point damage are instead reduced to 1 hit point. Creatures with negative hit points automatically have their hit points total increased to 1 hit point. ||
+|| 68 || The effect fails, but all witnesses believe it was successful. ||
+|| 69 || For 1 minute per caster level, the caster grants fast healing 1 to any target touching it (not itself). This does not stack with any fast healing it might already have. ||
+|| 70 || For one minute, the caster gains fast healing equal to half caster level. If this healing would cause the caster’s hit points to exceed his normal maximum hit points, the effect ends and the caster is nauseated for 1d6 rounds. ||
+|| 71 || All hostile creatures within close range of the target are healed 1 hit point per caster level. This is a positive energy effect. Creatures harmed by positive energy take an equal amount of damage with a Will save to reduce the damage by half. ||
+|| 72 || (Combat) All hostile creatures within medium range receive temporary hit points equal to twice caster level. These stack with temporary hit points from other sources and may exceed the creature’s maximum hit points. These temporary hit points persist for 1 minute per caster level. ||
+|| 73 || The caster takes untyped nonlethal damage equal to caster level. This damage does not force concentration checks to cast or maintain sphere effects or spells. ||
+|| 74 || (Combat) For 1d6 rounds, all allied creatures within close range of the caster are immune to Life sphere effects. ||
+|| 75 || The effect fails and the action is lost. Spell points or spell slots are not lost. ||
+|| 76 || The effect is cast normally, but all witnesses believe it failed. ||
+|| 77 || All hostile creatures within close range of the caster are healed 1 hit point per caster level. This is a positive energy effect. Creatures harmed by positive energy take an equal amount of damage with a Will save to reduce the damage by half. ||
+|| 78 || The next time within 1 day per caster level that the caster is slain by hit point damage, he is restored to 1 hit point at the start of his next turn. This ability otherwise works as the Resuscitate talent. ||
+|| 79 || All creatures within long range receive temporary hit points equal to caster level. These stack with temporary hit points from other sources and may exceed the creature’s maximum hit points. These temporary hit points persist for 1 minute per caster level. ||
+|| 80 || The effect is delayed for 1 round from when it was cast. ||
+|| 81 || The casting time decreases by 1 step. ||
+|| 82 || The effect fails and the action is lost. Spell points or spell slots are lost. ||
+|| 83 || Effect receives a +2 bonus to caster level. ||
+|| 84 || All allies within close range gain regeneration equal to caster level/2 (round up) for a number of round equal to caster level. This regeneration can be overcome by fire and acid. ||
+|| 85 || All creatures within close range gain regeneration equal to caster level/2 (round up) for a number of round equal to caster level. This regeneration can be overcome by fire and acid. ||
+|| 86 || Any allied creature within long range of the caster that has died in the previous 10 minutes are restored to life with 0 hit points. This ability otherwise works as the Resuscitate talent. ||
+|| 87 || (Combat) For 1 round per caster level, all hostile creatures within close range of the caster gain a circumstance bonus on saves against poison and disease and a penalty on saves against effects that cause bleed damage equal to 1/4 caster level (minimum 1). ||
+|| 88 || The spell point cost of the effect increases by 1. If the caster does not have enough spell points, he is instead staggered until the end of his next turn. ||
+|| 89 || (Combat) All hostile creatures within close range gain fast healing equal to caster level/2 (round up) for a number of round equal to caster level. ||
+|| 90 || All creatures within close range of the caster are healed 1 hit point per caster level. This is a positive energy effect. Creatures harmed by positive energy take an equal amount of damage with a Will save to reduce the damage by half. ||
+|| 91 || (Combat) For 1 round per caster level, all creatures within close range of the caster gain vulnerability to negative energy damage, increasing any negative energy damage taken by 50%. ||
+|| 92 || (Combat) For 1d6 rounds, all hostile creatures within medium range of the caster are immune to Life sphere effects. ||
+|| 93 || For 1 round per caster level, the caster gains a circumstance bonus on saves against poison and disease and a penalty on saves against effects that cause bleed damage equal to 1/4 caster level (minimum 1). ||
+|| 94 || Roll twice and take both results. Ignore any results that require rerolls. If both rolls thus ignored, there is no effect. ||
+|| 95 || Any creature within medium range of the caster that has died since the start of the caster’s previous turn are restored to life with 0 hit points. This ability otherwise works as the Resuscitate talent. ||
+|| 96 || For 1 minute per caster level, the caster overflows with positive energy, gaining immunity to negative energy damage. ||
+|| 97 || The spell point cost of the effect increases by 1d4. If the caster does not have enough spell points, he is instead dazed until the end of his next turn. ||
+|| 98 || For 1 round per caster level, all hostile creatures within close range of the caster gain vulnerability to negative energy damage, increasing any negative energy damage taken by 50%. ||
+|| 99 || The caster loses access to this sphere for 1d6 rounds. ||
 || 100 || For 1d6 rounds, allied creatures within close range of the caster that would be slain or destroyed by hit point damage are instead reduced to 1 hit point. Creatures with negative hit points automatically have their hit points total increased to 1 hit point. ||
 [[/tab]]
 [[tab Original]]
