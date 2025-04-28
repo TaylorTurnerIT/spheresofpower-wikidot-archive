@@ -3,11 +3,11 @@ title:Nature
 .noselect {
   -webkit-touch-callout: none; /* iOS Safari */
     -webkit-user-select: none; /* Safari */
-     -khtml-user-select: none; /* Konqueror HTML */
-       -moz-user-select: none; /* Firefox */
-        -ms-user-select: none; /* Internet Explorer/Edge */
-            user-select: none; /* Non-prefixed version, currently
-                                  supported by Chrome and Opera */
+ 	-khtml-user-select: none; /* Konqueror HTML */
+   	-moz-user-select: none; /* Firefox */
+    	-ms-user-select: none; /* Internet Explorer/Edge */
+        	user-select: none; /* Non-prefixed version, currently
+                              	supported by Chrome and Opera */
 }
 [[/module]]
 
@@ -30,7 +30,7 @@ As a standard action, you may command terrain and natural effects to act on your
 Geomancing effects come in two forms: instantaneous and concentration. Instantaneous effects have no duration, while concentration effects persist as long as the caster concentrates or they may spend a spell point as a free action to allow the effect to continue for 1 round per caster level without the need for concentration.
 
 When a caster gains the Nature sphere, he chooses and gains one of the following Nature packages, with its included abilities. A caster may gain the Expanded Geomancing talent to gain additional packages.
-
+[[div style="padding: 0 2%; border: 1px solid black"]]
 ++++ Air
 **Breeze:** Concentration, requires air. You create a light wind that remains swirling around a target. The breeze grants the target a circumstance bonus equal to 2 + 1 per 5 caster levels on saves against very hot conditions, severe heat, and saves against clouds, vapors, and gases (such as cloudkill, stinking cloud, and inhaled poisons).
 
@@ -42,14 +42,16 @@ When a caster gains the Nature sphere, he chooses and gains one of the following
 * Gust Of Wind blowing in perpendicular directions of Existing Wind: Gust Of Wind overrides the existing wind severity and direction in that line-shaped gust, but otherwise remains unchanged.
 
 **Purify Air:** Concentration, requires air, gas, or vaporous substance. You may convert polluted air or a non-breathable gas or vapor into a cloud of breathable air in a 5 feet + 5 feet per 5 caster levels radius area centered within range. This has no effect on supernatural or other magically created clouds (such as a vampire’s gaseous form or a cloudkill spell). Creatures who are entirely within the area of the cloud are able to breathe in sufficient air to sustain them.
-
+[[/div]]
+[[div style="padding: 0 2%; border: 1px solid black"]]
 ++++ Earth
 **Bury:** Concentration, requires sand. You shift the sands, swallowing targets within a 10-foot radius + 5 feet per 5 caster levels area centered within range. This functions as Entangle from the (plant) package, but on a failure targets cannot move but do not become entangled. Each subsequent round they do not escape and this effect is still active, the Strength and Escape Artist DC increases by 1. After 10 rounds or if the target is knocked prone within this area and fails their save, they are considered buried and begin to suffocate until they escape.
 
 **Dust Storm:** Concentration, requires sand or loose dirt. You kick up sand or dirt within a 10-foot radius + 5 feet per 5 caster levels area centered within range. All creatures fully within this area gain concealment (attacks against them have a 20% miss chance). If creatures within this area attack creatures outside this area, the targets also have concealment.
 
 **Tremor:** Instantaneous, requires dirt or stone. You may spend a spell point to send a tremor through the ground, affecting a 10-foot radius + 5 feet per 5 caster levels area centered within range. Targets standing within this area must succeed at a Reflex save or fall prone.
-
+[[/div]]
+[[div style="padding: 0 2%; border: 1px solid black"]]
 ++++ Fire
 **Affect Fire:** Concentration, requires fire. You may affect a normal, non-magical fire, increasing or decreasing its size by one category, plus one per 5 caster levels. This is only a temporary change; once the effect ends, the fire returns to its normal size. Reducing a fire smaller than Fine extinguishes it, in which case it does not return to normal size after the effect ends. The fire consumes fuel and deals damage as appropriate for its new size, according to Table: Maximum Fire Size. Creatures caught in the fire's area are allowed a Reflex save for half damage. The minimum caster level required to affect a fire is also given in the chart. If two casters are affecting the same fire in the same direction (increasing or decreasing) only the strongest change occurs. If two casters attempt to Affect Fire in opposite directions (one making it bigger, one making it smaller), the second caster must succeed at a magic skill check. On a success, their ability functions normally, overlapping the first caster’s effect. The fire counts as its altered size for determining if the second caster can affect it.
 
@@ -59,23 +61,24 @@ If a creature has caught on fire, treat that fire as being Tiny-sized for the pu
 
 **Table: Maximum Fire Size**
 ||~ Minimum Caster Level ||~ Fire Size ||~ Example ||~ Damage per Round ||~ Space ||
-|| 1st || Fine || Tindertwig || 1 || 1/2-ft. square || 
-|| 1st || Diminutive || Torch || 1d3 || 1-ft. square || 
-|| 1st || Tiny || Small campfire || 1d6 || 2.5-ft. square || 
-|| 3rd || Small || Large campfire || 2d6 || 5-ft. square || 
-|| 5th || Medium || Forge || 3d6 || 5-ft. square || 
-|| 8th || Large || Bonfire || 4d6 || 10-ft. square || 
-|| 11th || Huge || Burning shack || 5d6 || 15-ft. square || 
-|| 15th || Gargantuan || Burning tavern || 6d6 || 20-ft. square || 
-|| 20th || Colossal || Burning inn || 7d6 || 30-ft. square || 
-|| 25th || Colossal+ || - || 8d6 || 50-ft. square || 
-|| 30th || Colossal++ || - || 9d6 || 70-ft. square || 
-|| 35th || Colossal+++ || - || 10d6 || 100-ft. square || 
+|| 1st || Fine || Tindertwig || 1 || 1/2-ft. square ||
+|| 1st || Diminutive || Torch || 1d3 || 1-ft. square ||
+|| 1st || Tiny || Small campfire || 1d6 || 2.5-ft. square ||
+|| 3rd || Small || Large campfire || 2d6 || 5-ft. square ||
+|| 5th || Medium || Forge || 3d6 || 5-ft. square ||
+|| 8th || Large || Bonfire || 4d6 || 10-ft. square ||
+|| 11th || Huge || Burning shack || 5d6 || 15-ft. square ||
+|| 15th || Gargantuan || Burning tavern || 6d6 || 20-ft. square ||
+|| 20th || Colossal || Burning inn || 7d6 || 30-ft. square ||
+|| 25th || Colossal+ || - || 8d6 || 50-ft. square ||
+|| 30th || Colossal++ || - || 9d6 || 70-ft. square ||
+|| 35th || Colossal+++ || - || 10d6 || 100-ft. square ||
 
 **Create Fire:** Concentration, no requirements. You may produce a Diminutive-sized magical fire that burns without fuel. This fire may be 1 size category larger per 5 caster levels, and may be used to ignite flammable materials to create self-sustaining, non-magical fire. If a target is within the area of the created fire, they suffer damage as normal for that fire’s size and catch fire. A successful Reflex save halves the damage and negates catching fire.
 
 **Manipulate Lava:** Instantaneous or concentration, requires lava. You may manipulate lava. This is exactly the same as the Freeze and Vortex powers from the (water) package, except you must spend an additional spell point for each ability, and you must target lava. Frozen lava becomes obsidian, with a hardness of 5 and 3 hit points per caster level and does not deal damage per round to trapped creatures.
-
+[[/div]]
+[[div style="padding: 0 2%; border: 1px solid black"]]
 ++++ Metal
 **Magnetize:** Instantaneous, requires metal. As a standard action, you may cause a creature or object within your geomancing range consisting mostly of metal whose size is not larger than your maximum Recover Ore size to fly towards a creature or object of your choice within your geomancing range.
 
@@ -91,28 +94,28 @@ While this effect is instantaneous and thus cannot be dispelled, ore breaks back
 
 **Table: Metal Types**
 ||~ Metal ||~ Hit Points ||~ Hardness ||
-|| Brass || 20/in. thickness || 9 || 
-|| Bronze || 20/in. thickness || 9 || 
-|| Cold iron || 30/in. thickness || 10 || 
-|| Copper || 20/in. thickness || 9 || 
-|| Iron || 30/in. thickness || 10 || 
-|| Lead || 30/in. thickness || 10 || 
-|| Mithral || 30/in. thickness || 15 || 
-|| Silver || 10/in. thickness || 8 || 
-|| Steel || 30/in. thickness || 10 || 
-|| Tin || 20/in. thickness || 9 || 
+|| Brass || 20/in. thickness || 9 ||
+|| Bronze || 20/in. thickness || 9 ||
+|| Cold iron || 30/in. thickness || 10 ||
+|| Copper || 20/in. thickness || 9 ||
+|| Iron || 30/in. thickness || 10 ||
+|| Lead || 30/in. thickness || 10 ||
+|| Mithral || 30/in. thickness || 15 ||
+|| Silver || 10/in. thickness || 8 ||
+|| Steel || 30/in. thickness || 10 ||
+|| Tin || 20/in. thickness || 9 ||
 
 **Table: Recover Ore**
 ||~ Minimum Caster Level ||~ Required Earth to Pull From ||~ Ore Size Recovered ||~ Ore Damage ||~ Ore Weight (maximum) ||~ Sample Item* ||
-|| 1 || 1-ft. cube || Fine || 1 || .8 lbs. || Lockpick or nail || 
-|| 1 || 5-ft. cube || Diminutive || 1d2 || 1 lb. || Bolt, dagger, or shuriken || 
-|| 1 || 10-ft. cube || Tiny || 1d3 || 8 lbs. || Candelabra, light mace, or shortsword || 
-|| 2 || 25-ft. cube || Small || 1d4 || 60 lbs. || Heavy mace, heavy shield, or longsword || 
-|| 4 || 50-ft. cube || Medium || 1d6 || 500 lbs. || Bed, cage, greatsword or table || 
-|| 8 || 75-ft. cube || Large || 1d8 || 4,000 lbs. || Life-sized statue || 
-|| 16 || 125-ft. cube || Huge || 2d6 || 16 tons || Wagon || 
-|| 32 || 350-ft. cube || Gargantuan || 3d6 || 125 tons || Catapult || 
-|| 64 || 500-ft. cube || Colossal || 4d6 || 2,500 tons || Ship || 
+|| 1 || 1-ft. cube || Fine || 1 || .8 lbs. || Lockpick or nail ||
+|| 1 || 5-ft. cube || Diminutive || 1d2 || 1 lb. || Bolt, dagger, or shuriken ||
+|| 1 || 10-ft. cube || Tiny || 1d3 || 8 lbs. || Candelabra, light mace, or shortsword ||
+|| 2 || 25-ft. cube || Small || 1d4 || 60 lbs. || Heavy mace, heavy shield, or longsword ||
+|| 4 || 50-ft. cube || Medium || 1d6 || 500 lbs. || Bed, cage, greatsword or table ||
+|| 8 || 75-ft. cube || Large || 1d8 || 4,000 lbs. || Life-sized statue ||
+|| 16 || 125-ft. cube || Huge || 2d6 || 16 tons || Wagon ||
+|| 32 || 350-ft. cube || Gargantuan || 3d6 || 125 tons || Catapult ||
+|| 64 || 500-ft. cube || Colossal || 4d6 || 2,500 tons || Ship ||
 
 *Sample items listed are sized for a Medium-sized creature; modify the object size accordingly for objects sized for smaller or larger creatures.
 
@@ -121,7 +124,8 @@ __The Value of Recovered Ore:__ Ore recovered through the (metal) package from t
 **Reforge:** Instantaneous, requires metal. As a standard action, you may spend a spell point to cause an unattended object (or object that you are holding) consisting mostly of metal whose size is not larger than your maximum Recover Ore size to be reshaped into a different object of the same size. For example, you could reshape a longsword into a mace. You may not reshape metal objects into forms with complex moving parts.
 
 If targeting a magical item, the effect is not instantaneous, but lasts for only 1 minute before the object reverts to its original form. If reshaping a magical item would make it no longer qualify for specific enhancements, those enhancements are suppressed for the effect’s duration. Reforge does not function on artifacts.
-
+[[/div]]
+[[div style="padding: 0 2%; border: 1px solid black"]]
 ++++ Plant
 **Entangle:** Concentration, requires grass, weeds, vines, or underbrush. You cause plants to grow rapidly, wrapping themselves around everything in a 10-foot radius + 5 feet per 5 caster levels area centered within range. Creatures within this area must succeed at a Reflex save or gain the entangled condition and become unable to move. Creatures that succeed at their save can move as normal, but those that remain in the area must save again at the end of each turn you maintain the effect. Creatures that move into the area must save immediately.
 
@@ -141,19 +145,20 @@ In place of animating a branch of Large-size or larger, you may animate a pair o
 
 **Table: Branch Size**
 ||~ Size ||~ Example ||~ Size Modifier ||~ Slam damage ||~ Reach ||~ Armor Class ||~ Hardness ||~ Hit Points ||
-|| Small || Tertiary Branch or Sprout || -1 || 1d4 || 5 ft. || 8 || 5 || 2 || 
-|| Medium || Secondary Branch or Sapling || 0 || 1d6 || 5 ft. || 7 || 5 || 5 || 
-|| Large || Primary Branch or Young Tree || +1 || 1d8 || 10 ft. || 6 || 5 || 15 || 
-|| Huge || Juvenile Tree || +2 || 2d6 || 15 ft. || 5 || 5 || 50 || 
-|| Gargantuan || Typical Adult Tree || +4 || 3d6 || 20 ft. || 4 || 5 || 150 || 
-|| Colossal || Massive Tree || +8 || 4d6 || 30 ft. || 3 || 5 || 500 || 
+|| Small || Tertiary Branch or Sprout || -1 || 1d4 || 5 ft. || 8 || 5 || 2 ||
+|| Medium || Secondary Branch or Sapling || 0 || 1d6 || 5 ft. || 7 || 5 || 5 ||
+|| Large || Primary Branch or Young Tree || +1 || 1d8 || 10 ft. || 6 || 5 || 15 ||
+|| Huge || Juvenile Tree || +2 || 2d6 || 15 ft. || 5 || 5 || 50 ||
+|| Gargantuan || Typical Adult Tree || +4 || 3d6 || 20 ft. || 4 || 5 || 150 ||
+|| Colossal || Massive Tree || +8 || 4d6 || 30 ft. || 3 || 5 || 500 ||
 
 **Number of Branches Per Size Category of Tree**
-||~ Tree Size ||~ Number of Medium Branches ||~ Number of Large Branches ||~ Number of Huge Branches || 
-|| Huge || 1d4 (avg 3) || - || - || 
-|| Gargantuan || 3d4 (avg 8) || 1d4 (avg 3) || - || 
-|| Colossal || 9d4 (avg 23) || 3d4 (avg 8) || 1d4 (avg 3) || 
-
+||~ Tree Size ||~ Number of Medium Branches ||~ Number of Large Branches ||~ Number of Huge Branches ||
+|| Huge || 1d4 (avg 3) || - || - ||
+|| Gargantuan || 3d4 (avg 8) || 1d4 (avg 3) || - ||
+|| Colossal || 9d4 (avg 23) || 3d4 (avg 8) || 1d4 (avg 3) ||
+[[/div]]
+[[div style="padding: 0 2%; border: 1px solid black"]]
 ++++ Water
 __Blood Sphere Note:__ If you possess both the Nature sphere (water) package and the Blood sphere, you may treat a volume of blood as an equal volume of water for your (water) geomancing abilities. You may treat a creature susceptible to bleed damage that is taking bleed damage or below half its maximum hit points as being wet for any ability that requires it. You may treat a creature susceptible to bleed damage of at least Large size (count two Medium creatures as a Large creature, two Small creatures as a Medium creature, etc.) that is suffering bleed damage or below half its maximum hit points as a sufficient volume to use the Fog ability.
 
@@ -172,21 +177,21 @@ When freezing ice or wet ground, you may also create slick ice. A creature trave
 Running or charging requires a DC 20 Acrobatics check, falling prone on a failure, but increasing the runner’s move across the ice by 10 feet if successful by 5 or more, though the runner is considered flat-footed until the start of its next turn.).
 
 **Table: Creature Size**
-||~ Creature Size ||~ Equivalent number of Medium-sized creatures || 
-|| Fine || 1/16 || 
-|| Diminutive || 1/8 || 
-|| Tiny || 1/4 || 
-|| Small || 1/2 || 
-|| Medium || 1 || 
-|| Large || 2 || 
-|| Huge || 4 || 
-|| Gargantuan || 8 || 
-|| Colossal || 16 || 
+||~ Creature Size ||~ Equivalent number of Medium-sized creatures ||
+|| Fine || 1/16 ||
+|| Diminutive || 1/8 ||
+|| Tiny || 1/4 ||
+|| Small || 1/2 ||
+|| Medium || 1 ||
+|| Large || 2 ||
+|| Huge || 4 ||
+|| Gargantuan || 8 ||
+|| Colossal || 16 ||
 
 **Vortex:** Concentration, requires a large body of liquid. You may create a spinning vortex in a body of liquid that sucks creatures and objects to its center. This vortex is 5 feet wide at its base, is 10 feet high + 5 feet per 5 caster levels, and is half as wide at the top as it is high. Any creature entering this area must succeed at a Reflex save or suffer bludgeoning damage equal to 1d8 + 1/2 your caster level (minimum 0). If the creature is smaller than the vortex, they must succeed at a second Reflex save or be pulled into the middle of the vortex. Creatures in the middle of the vortex suffer bludgeoning damage once per round with no save, and must succeed at a Reflex save each round or be unable to move, and on a success may only move at half their swim speed. A vortex cannot contain more creatures than would exceed its volume.
 
 You may move the vortex up to 30 feet per round as part of the action required to concentrate on it. If maintaining the effect through a method other than concentration, you may designate a simple pattern for it to move, which you may alter as a move action. Creatures in the middle of the vortex are carried along with it as it moves.
-
+[[/div]]
 ++ Nature Talent Types
 Some talents are marked (air), (earth), (fire), (metal), (plant), or (water). You must possess the (air), (earth), (fire), (metal), (plant), or (water) package respectively to gain these talents. Talents marked (geomancing) give you new geomancing abilities.
 
@@ -200,41 +205,51 @@ If a (spirit) talent uses your geomancing range or references a geomancing abili
 ----
 
 ++ Nature Talents
+[[div style="padding: 0 2%; border: 1px solid black"]]
 ++++ Deep Nature
 When you use a geomancing or spirit ability that requires concentration, the ability continues to maintain itself for 2 rounds after you stop concentrating. When you spend a spell point to make a geomancing or spirit ability endure without concentration, its duration increases by one step (1 round per caster level becomes 1 minute per caster level, while 1 minute per caster level becomes 10 minutes per caster level).
-
+[[/div]]
+[[div style="padding: 0 2%; border: 1px solid black"]]
 ++++ Elemental Strike [Strike] [3PP]
 ^^**Source:** Expanded Spheres: Baron's Lost Apocrypha^^
 
 As a standard action, you may make a single weapon attack in conjunction with using a geomancing effect which can target a creature or object. This casting cannot be reduced below a standard action, and does not provoke attacks of opportunity, unless as usual if making a ranged attack. If the target is struck by the attack, it is also affected by the geomancing. If using a scatter weapon, the geomancing only applies to a single target, chosen at the time of attack. If you possess the Grant Spirit talent, you may affect the target with a spirit effect which requires an attack roll or combat maneuver (such as destroy element) in place of a geomancing effect.
-
+[[/div]]
+[[div style="padding: 0 2%; border: 1px solid black"]]
 ++++ Environmental Presence [Mass] [3PP]
 ^^**Source:** Expanded Spheres: Baron's Lost Apocrypha^^
 
-When using a geomancing effect which targets a creature or object, you may spend an additional spell point to affect an additional 1 target per 2 caster levels (minimum 1) at the same time. Each target must be within range and must be affected by the same geomancing or spirit effect. 
+When using a geomancing effect which targets a creature or object, you may spend an additional spell point to affect an additional 1 target per 2 caster levels (minimum 1) at the same time. Each target must be within range and must be affected by the same geomancing or spirit effect.
 
 If you would gain an ability which would grant you the mass talent associated with the nature sphere, you must choose between gaining this talent or the second instance of the Grant Sprit talent (provided you already have the first instance of Grant Spirit and thus qualify for the second).
-
+[[/div]]
+[[div style="padding: 0 2%; border: 1px solid black"]]
 ++++ Expanded Geomancing
 Choose and gain a Nature package you do not already possess. You may select this talent multiple times, gaining a new package each time.
-
+[[/div]]
+[[div style="padding: 0 2%; border: 1px solid black"]]
 ++++ Grant Spirit
 When activating one of your spirit Nature abilities, you may touch a willing target and grant them the benefit of your (spirit) talent, rather than gaining it yourself. This can only be done with (spirit) talents that have a non-concentration duration, and requires a minimum of a standard action when granting an effect to another.
 
 You may take this talent twice. When taken twice, you may spend an additional spell point to affect up to 1 additional creature per 2 caster levels (minimum 1). Each target must be within range and must be affected by the same (spirit) talent and ability. Once created, each spirit is considered a separate sphere effect. Taking this talent twice is considered a mass talent.
-
-++++ Ranged Geomancy [range]
-The range of your geomancing abilities increases from close to medium range. You may select this talent up to 2 times. Each time it is selected, the range increases by 1 step (close to medium, medium to long).
-
+[[/div]]
+[[div style="padding: 0 2%; border: 1px solid black"]]
 ++++ Instill Spirit [instill]
 As a standard action you may touch a small container of liquid and instill a spirit effect inside it, which functions as a potion or oil. Spirit effects with an instantaneous or concentration duration cannot be instilled, and if you do not have the ability to grant spirit effects to other creatures, the instilled liquid is only usable by you.
 
 An instilled liquid remains potent until you rest to regain spell points. If you have equipment on hand (such as an alchemy lab), the cost of bottles and water is considered negligible. You may target food but not an already-magical item, such as a potion. All spell points must be spent and all variables of the sphere effect must be chosen at the time the instilled liquid is created. You cannot instill multiple effects in a single liquid, nor create multiple instilled liquids with a single action.
-
+[[/div]]
+[[div style="padding: 0 2%; border: 1px solid black"]]
+++++ Ranged Geomancy [range]
+The range of your geomancing abilities increases from close to medium range. You may select this talent up to 2 times. Each time it is selected, the range increases by 1 step (close to medium, medium to long).
+[[/div]]
+[[div style="padding: 0 2%; border: 1px solid black"]]
 ++++ Wild Instinct
 While concentrating on any Nature sphere ability, you gain the benefits of uncanny dodge. You may take this talent twice, upon taking this talent a second time, you also gain the benefits of improved uncanny dodge using your caster level in place of class level to determine the minimum rogue level required to flank you.
+[[/div]]
 ----
 ++ Geomancing Talents
+[[div style="padding: 0 2%; border: 1px solid black"]]
 ++++ Air Mastery (air, geomancing)
 When you use the Gust Of Wind ability, you may create a cone area of effect instead of a line. Additionally, you gain the following geomancing abilities:
 
@@ -245,7 +260,8 @@ You may keep the cloud harmlessly contained within you for as long as the talent
 If the cloud has a duration, the time the cloud is contained within you counts toward that duration (gaseous creatures are immediately and harmlessly exhaled should their gaseous form expire in the nearest empty space). As a standard action, you may release the stored cloud as a breath weapon, filling a 60- foot cone (or the cloud’s original area, if smaller). Any creature in the breath’s area is subject to its normal effects, attempting saving throws and spell resistance checks as appropriate against the cloud’s original DC. The exhaled cloud resumes its duration, if any. Exhaling the stored cloud immediately ends the duration of this talent. If you do not exhale the cloud before this talent’s duration expires, you suffer the cloud’s effects, automatically fail any saving throw made to resist it, and exhaling any gaseous creatures inhaled into the nearest empty space.
 
 **Feather Fall:** Concentration, requires air. You cause all falling creatures or objects within a 5 feet + 5 feet per 5 caster levels radius to fall slowly, changing the rate at which they fall to a mere 60 feet per round (equivalent to the end of a fall from a few feet). The targets take no damage upon landing while this talent is in effect. Once applied, this effect stays with the individually affected targets until the duration expires. You may use this ability as an immediate action by spending a spell point.
-
+[[/div]]
+[[div style="padding: 0 2%; border: 1px solid black"]]
 ++++ Aquatic Adept (water, geomancing, spirit) [Alienist HB]
 You gain several abilities which improve your capacity to operate underwater.
 
@@ -258,7 +274,8 @@ You gain several abilities which improve your capacity to operate underwater.
 **Deep Adaptation (spirit):** You adapt incredibly quickly to changes in pressure, taking no damage from pressure effects. In addition, you can move and attack underwater normally without the usual penalties involved with underwater combat, as if under the effects of freedom of movement (this does not grant you the other benefits of the spell). This benefit lasts for as long as you concentrate or 10 minutes per caster level if you spend 1 spell point.
 
 **Echoes of the Sea (spirit):** You may spend 1 spell point to gain the ability to track creatures through the water as if across soft ground as long as they passed through the area less than 1 week ago (this lets you notice trails that are much older than normal underwater trails). You retain this benefit for 1 hour per caster level.
-
+[[/div]]
+[[div style="padding: 0 2%; border: 1px solid black"]]
 ++++ Breeze Mastery (air, geomancing) [EO3]
 When using Breeze, you may spend a spell point to have it affect an area, granting its benefits to all creatures within a 15-foot radius + 5 feet per 5 caster levels. Additionally, when you use Breeze, you may add any of the following additional effects depending on what other packages you possess.
 
@@ -275,7 +292,8 @@ Wind of severity level 3 or higher can blow you away regardless of your size, wi
 **Plant: Fragrant Flurry:** Requires grass, vines, or weeds. Your breeze smells of pleasant meadows and flowers, and causes vines and flowers to grow where it touches. The circumstance bonus granted by Breeze also applies to saving throws against the nauseated and sickened conditions and any harmful effects that rely on smell. Additionally, the DC required to track creatures affected by Breeze increases by an amount equal to the circumstance bonus granted by Breeze.
 
 **Water: Cooling Breeze:** Requires rain, mist, or at least 5 cubic feet of water. Creatures affected by your Breeze treat the severity of all aridity and heat weather effects as one step less severe, plus one per 10 caster levels you possess.
-
+[[/div]]
+[[div style="padding: 0 2%; border: 1px solid black"]]
 ++++ Create Nature (geomancing)
 As an instantaneous effect, you may spend a spell point to create your geomancing element anywhere within range. While this is its own geomancing ability, it may also be combined with another geomancing ability as part of the same action, in which case the second geomancing ability comes into effect immediately, using the created element to meet the second ability’s prerequisites. You must pay any costs associated with both abilities to combine them in this manner.
 
@@ -297,7 +315,8 @@ Generally speaking, single castings of Create Nature (earth) on stone structures
 **Plant: Grow Plants:** You spontaneously grow plants. This may create one tree (to a maximum size equal to that which you can control through the Pummel geomancing ability) or a field of plants within a 5-foot radius + 5 feet per 5 caster levels area. This may create basic plants (corn, underbrush, ivy) and may be combined with Harvest to create edible food, but cannot create plants with inherent qualities (i.e., you cannot create rare herbs, etc.).
 
 **Water: Create Water:** You create a pool of water. You create one 5-foot cube per 2 caster levels (minimum 1 cube) of clean water. Using this ability in conjunction with Vortex can create a vortex that travels on land, so long as it is always touching the ground. Using this ability in conjunction with Freeze can allow you to create walls of ice by freezing vertical spaces as you would normally do horizontal spaces. These walls cover the same area and have the same hit points as usual, but may be arranged in a contiguous wall no more than 5 feet high per inch of thickness.
-
+[[/div]]
+[[div style="padding: 0 2%; border: 1px solid black"]]
 ++++ Earth Mastery (earth, geomancing)
 Increase the maximum radius of your Bury and Tremor by an additional 5 feet per 5 caster levels. Additionally, you gain the following geomancing abilities:
 
@@ -309,27 +328,29 @@ Stone has a hardness of 15 and 2 hit points per inch. On a successful save, affe
 
 **Table: Sandstone**
 ||~ Minimum Caster Level ||~ Required Radius of Dirt/Sand ||~ Created Rock or Stone Size ||~ Maximum Target Size ||~ Encased Rock or Stone Weight (maximum) ||
-|| 1 || 1-ft. radius || Diminutive || Small || 1 lb. || 
-|| 1 || 5-ft. radius || Tiny || Medium || 8 lbs. || 
-|| 2 || 10-ft. radius || Small || Large || 60 lbs. || 
-|| 4 || 15-ft. radius || Medium || Huge || 500 lbs. || 
-|| 8 || 20-ft. radius || Large || Gargantuan || 2 tons || 
-|| 16 || 25-ft. radius || Huge || Colossal || 16 tons || 
-|| 32 || 30-ft. radius || Gargantuan || Colossal+ || 125 tons || 
-
+|| 1 || 1-ft. radius || Diminutive || Small || 1 lb. ||
+|| 1 || 5-ft. radius || Tiny || Medium || 8 lbs. ||
+|| 2 || 10-ft. radius || Small || Large || 60 lbs. ||
+|| 4 || 15-ft. radius || Medium || Huge || 500 lbs. ||
+|| 8 || 20-ft. radius || Large || Gargantuan || 2 tons ||
+|| 16 || 25-ft. radius || Huge || Colossal || 16 tons ||
+|| 32 || 30-ft. radius || Gargantuan || Colossal+ || 125 tons ||
+[[/div]]
+[[div style="padding: 0 2%; border: 1px solid black"]]
 ++++ Elevated Nature (geomancing)
 Your geomancing abilities can now affect greater depths and heights; rocks fly, vines reach, and fire blazes in such a way as to affect creatures at much higher or lower elevations than normal.
 
 When using Entangle or Tremor, you may affect flying creatures up to 10 feet per caster level over the effect. Affected creatures must succeed at a Fly check (DC 15 + caster level) or fall; Entangle pulls targets harmlessly to the ground and entangles them as normal, while Tremor causes targets to suffer falling damage.
 
-When creating a Vortex, increase the height to 10 feet + 10 feet per caster level. The top of the vortex is 10 feet + 5 feet per 5 caster levels wide, though the base of the vortex is still 5 feet. 
+When creating a Vortex, increase the height to 10 feet + 10 feet per caster level. The top of the vortex is 10 feet + 5 feet per 5 caster levels wide, though the base of the vortex is still 5 feet.
 
 When using Affect Fire, you may cause the fire to manifest as a pillar, reaching 10 feet per caster level into the air.
 
 When using Gust Of Wind you may create the gust as a column with a radius of 5 feet + 5 feet per 5 caster levels and a height of 10 feet per caster level, centered anywhere within your geomancing range.
 
 When using Magnetize, double the range you can target.
-
+[[/div]]
+[[div style="padding: 0 2%; border: 1px solid black"]]
 ++++ Fire Mastery (fire, geomancing)
 You gain a number of ways of expressing mastery over fire. You gain the following geomancing abilities:
 
@@ -353,7 +374,8 @@ When you create Fog, you may add one of the following additional effects dependi
 **Plant: Spore Cloud:** Requires grass, weeds, or trees instead of water. You may create a cloud of spores. Creatures that begin their turn within or enter the cloud must succeed at a Fortitude save or become sickened for as long as they remain within the fog + 1d6 rounds after leaving. If a creature fails its Fortitude save against this effect while already sickened, it also becomes nauseated for 1 round. Creatures and objects that exit the cloud are covered in visible sticky spores that remain until removed as a full-round action; outlining their form and revealing their position, and making invisibility impossible without first cleaning off the spores. Creatures that possess greensight or plantsight do not have their vision obscured by this effect.
 
 **Water: Solid Fog:** You may make your fog so thick that it becomes effectively solid. Creatures move at half their speed through the fog, cannot make 5-foot steps, and suffer a -1 penalty to all weapon attacks and damage rolls made within or that pass through this area -1 per 10 caster levels. Objects that fall within this area are slowed so that each 10 feet of fog reduces the falling damage by 1d6, +1d6 per 10 caster levels.
-
+[[/div]]
+[[div style="padding: 0 2%; border: 1px solid black"]]
 ++++ Hazardous Terrain (geomancing)
 You know how to make many of your geomancing abilities particularly dangerous.
 
@@ -361,12 +383,13 @@ When using the Freeze or Tremor geomancing abilities, you may cause the affected
 
 Whenever a creature steps onto an affected square, make a touch attack roll against the target using your caster level as your attack bonus. If successful, the target suffers piercing damage equal to your caster level (minimum 1) and has its land speed reduced by half due to its wounded feet. This movement penalty lasts for 24 hours or until the creature is treated with a DC 15 Heal check or receives at least 1 point of fast healing/magical healing/regeneration. A charging or running creature must immediately stop if it enters the affected area. A creature may move at half speed through this area without risking damage to itself.
 
-When using Entangle you may cause the effect to grow thorns, dealing piercing damage equal to 1d6 + your caster level per round to all creatures inside the effect. Those who succeed at their Reflex save against the Entangle take half damage. 
+When using Entangle you may cause the effect to grow thorns, dealing piercing damage equal to 1d6 + your caster level per round to all creatures inside the effect. Those who succeed at their Reflex save against the Entangle take half damage.
 
 When using Affect Fire or Create Fire, increase the space the fire occupies as if it were one size category larger than it actually is.
 
 Finally, when using Magnetize you may target a 5-foot radius + 5 feet per 5 caster levels area instead of a single target. When used in this way, Magnetize becomes a concentration effect. Any target who enters or begins their turn within this area is attacked by the metal object, as if using the Magnetize ability. These attacks are not attack actions. A single creature can only be attacked once per round in this way, no matter how many times they pass through the affected area during their movement. While this effect is active, attempting to grab or impede the Magnetized object requires a successful grapple (CMD equals 10 + your caster level + your casting ability modifier + any size benefit or penalty from the object).
-
+[[/div]]
+[[div style="padding: 0 2%; border: 1px solid black"]]
 ++++ Manipulate Nature (geomancing)
 You may manipulate the elements to take on different shapes. The types and forms you can create are determined by your Nature packages, as outlined below:
 
@@ -387,7 +410,8 @@ __**Author's Note:**__ The Shelter geomancing ability is intended to work simila
 **Water: Wave:** Instantaneous, requires water. You may create a surge in water that pushes targets in its wake. This surge may be created anywhere within range and may face any direction, but once created it travels in a straight line for a distance of 30 feet + 5 feet per 2 caster levels. This area may extend out of the water and onto land to a maximum of 10 feet + 5 feet per 5 caster levels. The wave created is 5 feet wide. The width may be doubled by halving the length. This may be done multiple times, but the length cannot become smaller than 5 feet. A target cannot be pushed back further than the wave’s length.
 
 All creatures within the affected area are pushed as if by a bull rush combat maneuver, except it does not provoke an attack of opportunity. Use your caster level + your casting ability modifier in place of your CMB. If the target is on land and is successfully pushed by this ability, they must also succeed at a Reflex save or fall prone. If combined with Create Water, it may be created anywhere and may travel up to 30 feet + 5 feet per 2 caster levels over land.
-
+[[/div]]
+[[div style="padding: 0 2%; border: 1px solid black"]]
 ++++ Metal Mastery (metal, geomancing)
 Whenever you use Recover Ore, you gain the ability to Recover Ore of iron, lead, or steel. Upon reaching caster level 5th, you add cold iron and silver to the types of ore you may recover. At caster level 10th, you gain the ability to recover mithral ore.
 
@@ -396,7 +420,8 @@ When using Magnetize, you may also affect the metal object with Reforge with the
 You also gain the following geomancing ability:
 
 **Fortify:** Instantaneous. You may spend 2 spell points as a standard action to fortify an unattended object (even non-metal objects) within range. The target becomes fused with metal, permanently increasing or decreasing the hardness and AC of the object by 1, +1 per 5 caster levels. An object may only be under the effects of one fortify at a time, as each future casting dismisses and replaces the previous casting. This grants no further benefit or penalties due to the metals used.
-
+[[/div]]
+[[div style="padding: 0 2%; border: 1px solid black"]]
 ++++ Nature Lord (geomancing)
 Treat your caster level as 5 higher when determining the maximum area radius and height you can affect with your geomancing abilities that affect an area (such as Bury, Dust Storm, Entangle, Fog, Gust Of Wind, Purify Air, Tremor, or Vortex).
 
@@ -405,14 +430,16 @@ When using a geomancing ability dependent on size (such as Affect Fire, Create F
 When using Freeze, you may affect twice as many equivalent Medium-sized creatures without affecting the thickness of the ice.
 
 **Author's Note:** You can apply this effect to each applicable effect. For example, if using the Create Nature talent to both Create Fire and Affect Fire, both abilities will receive the size increases from the Nature Lord talent
-
+[[/div]]
+[[div style="padding: 0 2%; border: 1px solid black"]]
 ++++ Plant Mastery (plant, geomancing)
 Your mastery of plantlife becomes even more pronounced. Increase the maximum radius of your Entangle by an additional 5 feet per 5 caster levels.
 
 When using Pummel, you may spend an additional spell point. If you do, you may affect an additional number of branches equal to 1 + 1 per 5 caster levels.
 
 When using Harvest, you may produce 2 magical berries per caster level, along with the usual food. Any creature who consumes one of these berries is healed 1 hit point. These berries lose their magical potency after 24 hours.
-
+[[/div]]
+[[div style="padding: 0 2%; border: 1px solid black"]]
 ++++ Pummel Mastery (plant, geomancing)
 You may direct your animated branches to attack as a free action instead of a move action. In addition, you may cause a branch to perform any of the following actions instead of making an attack.
 
@@ -427,7 +454,8 @@ An antagonized creature can only target its antagonist (the one who caused the a
 On each round after the first, an antagonized creature may attempt a Sense Motive skill check as a swift action to realize the folly of its actions. This skill check is opposed by the antagonist's original antagonize skill check. If the creature succeeds on its Sense Motive skill check, the antagonized condition ends, but the creature suffers a -2 penalty on attack rolls and a -2 penalty to the saving throw DC of its abilities and any spells it casts for 1 minute. These penalties do not apply against the antagonist.
 
 **Sap Conglutination:** Instead of a regular attack, you may instruct the vegetation to excrete a rubbery resin and attempt to coat the target with it. Targets hit by the attack become coated with this sap and gain the fatigued condition until they remove it as a full-round action. If a fatigued creature becomes coated with sap a second time, they gain the exhausted condition until the sap is removed as a full-round action.
-
+[[/div]]
+[[div style="padding: 0 2%; border: 1px solid black"]]
 ++++ Purify Nature (geomancing) [Warden]
 You may purify the nature around you, making brackish water drinkable, poisonous plants edible, and hazardous air breathable.
 
@@ -442,7 +470,8 @@ You may purify the nature around you, making brackish water drinkable, poisonous
 **Plant: Purify Food:** If you possess the (plant) package, as an instantaneous effect, you may spend a spell point to purify all food within a 10-foot radius, plus 5 feet per 4 caster levels you possess, making spoiled, rotten, or otherwise contaminated food edible. If the food you are attempting to purify is poisoned or diseased, you must attempt a magic skill check against the DC of the poison or disease. On a success, the poison or disease is removed from the food.
 
 **Water: Purify Water:** If you possess the (water) package, as an instantaneous effect, you may spend a spell point to purify all water within a 10-foot radius, plus 5 feet per 4 caster levels you possess of brackish, stagnant, or otherwise contaminated water. If the water you are attempting to purify is poisoned or diseased, you must attempt a magic skill check against the DC of the poison or disease. On a success, the poison or disease is removed from the water.
-
+[[/div]]
+[[div style="padding: 0 2%; border: 1px solid black"]]
 ++++ Reforge Mastery (metal, geomancing)
 As a concentration effect, you may use a limited form of Reforge that can even affect attended objects. When targeting an attended object, you may apply one of the following effects.
 
@@ -455,7 +484,8 @@ As a concentration effect, you may use a limited form of Reforge that can even a
 **Chill Metal:** If you possess the (water) package, you may target a piece of metal or mostly-metal equipment and decrease its temperature. Any creature who begins their round touching the chilled metal takes 1d6 cold damage per 2 caster levels. If the chilled metal is something they are holding such as a sword or coin, they may attempt a Reflex save to drop the item to take only minimum damage, otherwise, the creature may attempt a Fortitude save for half damage. Worn equipment such as armor cannot be dropped in this fashion. If the object is used as a weapon, it deals an additional 1d6 cold damage. If this ability is used on a metal object with moving parts (such as a door’s hinges), those pieces become non-functional as they freeze together, requiring a Strength check to beat your MSD to break loose and restore functionality.
 
 **Heat Metal:** If you possess the (fire) package, you may heat metal. This functions the same as chill metal, except dealing fire damage instead of cold damage, and moving parts cease functionality due to being slightly welded rather than frozen.
-
+[[/div]]
+[[div style="padding: 0 2%; border: 1px solid black"]]
 ++++ Repress Element (geomancing) [Apoc]
 ^^**Source:** [https://www.drivethrurpg.com/product/350940/Spheres-Apocrypha-Battlefield-Manipulation-Talents?affiliate_id=549120 Spheres Apocrypha: Battlefield Manipulation Talents]^^
 
@@ -468,14 +498,16 @@ Any effect with a descriptor corresponding to the repressed element does not man
 * **Metal: Disintegrate Metal:** As Disintegrate Earth, save that the effects apply to creatures and equipment made of metal rather than stone or crystal.
 * **Plant: Disintegrate Flora:** As Disintegrate Earth, save that the effects apply to creatures and equipment made of wood, vines, or other plant-based materials rather than stone or crystal.
 * **Water: Evaporation:** The area becomes immensely dry, causing all unattended liquid in the area to evaporate (although it may return to liquid state when the effect ends). Living creatures in the area take a -2 penalty on Fortitude saves. This penalty increases by 1 per 5 caster levels. At caster level 10th, even attended liquids like potions dry up temporarily in the area, although owners are allowed a Fortitude save to negate this effect for as long as they remain in the area (although they must save again if they leave and re-enter the area).
-
+[[/div]]
+[[div style="padding: 0 2%; border: 1px solid black"]]
 ++++ Riding Fog (water, geomancing) [Alienist HB]
 You may create clouds of fog attached to yourself or to other creatures. A fog cloud attached to a creature is called a riding fog. This functions as a regular fog and can be dispersed by wind, except that it moves with the creature it is attached to, becomes inactive if that creature is knocked unconscious and is dispelled if they are killed. The fog continues to function if it goes beyond the range of its creator.
 
 The recipient must be within range of your geomancing. An unwilling creature can have a riding fog attached to them as a touch attack; A creature is allowed a Will save to prevent having the fog attached to them and may attempt another saving throw each round to end the fog. The Break Enchantment talent from the Life sphere or a similar effect can dispel the riding fog before its natural duration expires. An enemy with a riding fog attached to them still receives any saving throws the fog allows to avoid being affected. A successful save causes the fog to immediately dissipate.
 
 Spell resistance can prevent a riding fog from being attached to a creature. Failing to bypass the intended target’s spell resistance in attempting to attach the fog dispels the fog.
-
+[[/div]]
+[[div style="padding: 0 2%; border: 1px solid black"]]
 ++++ Temperature (fire, geomancing)
 Your control over fire extends to a level of mastery over temperature. You gain the following geomancing abilities.
 
@@ -488,10 +520,12 @@ Your control over fire extends to a level of mastery over temperature. You gain 
 Even after a creature leaves the lava, creatures who failed a saving throw against this lava suffer half damage each round for 1d3 rounds (no save). A creature may spend a full-round action to remove the lava and end this effect for future rounds. If a creature is within this square when the effect ends, the earth instantly cools around the creature, immobilizing it (Reflex negates).
 
 An immobilized creature cannot move until it succeeds at Strength or Escape Artist check against the caster’s Nature DC, both of which require a full-round action. Alternatively, another creature may attempt a Strength check as a standard action to break the earth, or any creature may deal 5 damage per caster level to the earth to break it.
-
+[[/div]]
+[[div style="padding: 0 2%; border: 1px solid black"]]
 ++++ Thrown Pummel (plant, geomancing)
 When using the Pummel geomancing ability, the tree branches may throw vegetation as a ranged attack instead of only making melee slam attacks. The attack is treated as a thrown weapon with a range increment equal to twice the tree branch’s reach. The attack roll and damage otherwise remain unchanged.
-
+[[/div]]
+[[div style="padding: 0 2%; border: 1px solid black"]]
 ++++ Water Mastery (water, geomancing)
 Your mastery of water is delicate and intricate. You may manipulate snow as if it were liquid water.
 
@@ -502,8 +536,10 @@ In addition, you gain the following geomancing abilities:
 //Slow Suffocation:// A medium character can breathe easily for 6 hours in a sealed chamber measuring 10 feet on a side. After that time, the character takes 1d6 points of nonlethal damage every 15 minutes. Each additional medium character or significant fire source (a torch, for example) proportionally reduces the time the air will last. Once rendered unconscious through the accumulation of nonlethal damage, the character begins to take lethal damage at the same rate. Small characters consume half as much air as medium characters.
 
 **Push Swimmer:** Instantaneous. You may move creatures and objects within a 5-foot radius + 5 feet per 5 caster levels area that are surrounded or submerged in water up to 5 feet per 2 caster levels in any direction that ends with them still in water (Reflex negates if unwilling). A target slammed into a solid object suffers 1d6 falling damage per 10 feet of movement.
+[[/div]]
 ----
 ++ Spirit Talents
+[[div style="padding: 0 2%; border: 1px solid black"]]
 ++++ Aquatic Adept (water, geomancing, spirit) [Alienist HB]
 You gain several abilities which improve your capacity to operate underwater.
 
@@ -516,7 +552,8 @@ You gain several abilities which improve your capacity to operate underwater.
 **Deep Adaptation (spirit):** You adapt incredibly quickly to changes in pressure, taking no damage from pressure effects. In addition, you can move and attack underwater normally without the usual penalties involved with underwater combat, as if under the effects of freedom of movement (this does not grant you the other benefits of the spell). This benefit lasts for as long as you concentrate or 10 minutes per caster level if you spend 1 spell point.
 
 **Echoes of the Sea (spirit):** You may spend 1 spell point to gain the ability to track creatures through the water as if across soft ground as long as they passed through the area less than 1 week ago (this lets you notice trails that are much older than normal underwater trails). You retain this benefit for 1 hour per caster level.
-
+[[/div]]
+[[div style="padding: 0 2%; border: 1px solid black"]]
 ++++ Destroy Element (spirit)
 As a standard action you may spend a spell point to remove and deconstruct your elements. This requires a melee or ranged touch attack against a target within your geomancing range. You may use the following abilities depending on what packages you possess.
 
@@ -531,7 +568,8 @@ As a standard action you may spend a spell point to remove and deconstruct your 
 **Plant: Decompose:** You cause a living target’s flesh to rot, possibly even growing mold and mushrooms. The target suffers 1d4 + 1 per 5 caster levels points of Constitution damage (Fortitude half). If a target fails their saving throw against this ability, all fast healing/magical healing/regeneration they gain is halved for 1 round per caster level (minimum 1).
 
 **Water: Dehydration:** You suck the moisture from a living creature, causing it to suffer 1d6 nonlethal damage per caster level and become sickened for 1 round (Fortitude half). Oozes, plants, and creatures with the aquatic or water subtypes suffer lethal damage instead.
-
+[[/div]]
+[[div style="padding: 0 2%; border: 1px solid black"]]
 ++++ Dragonlung (spirit)
 You gain a breath weapon as a supernatural ability when you gain this talent. This breath weapon is either a 60-foot line or a 30-foot cone, chosen the first time this talent is gained. This talent may be taken twice to gain both options. This breath weapon deals 1d8 damage per 2 caster levels (minimum 1d8), and allows a Reflex save for half damage. Using this breath weapon is a standard action, but you must wait at least 1d4 rounds between uses.
 
@@ -542,19 +580,22 @@ Whenever you use this breath weapon, you may choose a damage type from among tho
 * **Metal:** electricity damage
 * **Plant:** acid damage
 * **Water:** cold damage
-
+[[/div]]
+[[div style="padding: 0 2%; border: 1px solid black"]]
 ++++ Friend To Wildlife (spirit) [utility]
 Choose either animals or vermin. You may take this talent twice to gain both options.
 
 You may spend a spell point as a standard action to cause the chosen creature type to treat you as a friend for 1 minute per caster level. Indifferent creatures (such as domesticated animals or domesticated honeybees) become friendly to you, while unfriendly creatures (such as wild animals) become indifferent to you. This means that wild creatures will not attack unless provoked, and you may make requests of these creatures, provided you may communicate with them (if you cannot communicate with a creature, only basic commands such as ‘go’, ‘come’, ‘fight’, or ‘stay’ may be communicated). This has no effect on animals or vermin who are hostile to you (such as those already in combat), and a creature with a master (such as an animal companion) will still attack if commanded to by its master.
 
 Once during the duration of this ability, you may call the nearest animal or vermin (depending on the type chosen when this talent is taken) of a particular type you designate to seek you out. The creature’s CR cannot exceed your caster level, though if you choose vermin you may summon a swarm with a CR no more than 1/2 your caster level. The creature moves toward you under its own power, so the time it takes to arrive depends on how close a creature of the desired type is when you cast the spell. If there is no animal or vermin of that type capable of reaching you within this effect’s duration, you are aware of this fact.
-
+[[/div]]
+[[div style="padding: 0 2%; border: 1px solid black"]]
 ++++ Master Of Elements (spirit)
 You count as possessing three additional Nature packages of your choice when determining what (spirit) talents you can gain and use. You may take this talent twice, which allows you to count as possessing every package. If you later gain all Nature packages except one per time you’ve gained this talent, you immediately retrain this talent into Expanded Geomancing.
 
 Abilities from (spirit) talents that scale off of geomancing abilities (such as an ability that deals damage or determines size by referencing a particular ability) function normally according to the statistics that ability would have if you possessed it. For retraining purposes, possessing any Nature package counts as having Master Of Elements.
-
+[[/div]]
+[[div style="padding: 0 2%; border: 1px solid black"]]
 ++++ Nature’s Carapace (spirit)
 You may spend a spell point as a move action to wrap an element around yourself for 1 minute per caster level. This allows you to grant yourself one of the benefits outlined below, dependent on the packages you possess:
 
@@ -569,7 +610,8 @@ You may spend a spell point as a move action to wrap an element around yourself 
 **Plant: Barkskin:** You gain a +1 enhancement bonus to natural armor, +1 per 5 caster levels. In addition, in natural environments you gain a circumstance bonus to Stealth equal to 1/2 your caster level (minimum 1). You lose this circumstance bonus to Stealth in any round that you move more than 5 feet.
 
 **Water: Seamantle:** You wrap water around yourself, gaining a circumstance bonus to Escape Artist checks and combat maneuver checks made to escape a grapple, as well as to your CMD to avoid being grappled, equal to your caster level. Additionally, the distortion from the water grants you a 10% chance to negate critical hits and precision damage, +10% per 5 caster levels.
-
+[[/div]]
+[[div style="padding: 0 2%; border: 1px solid black"]]
 ++++ Nature’s Movement (spirit)
 You may spend a standard action to gain one of the following benefits for 1 round. You may spend a spell point to gain one of the following benefits for 1 minute per caster level. You may move up to your speed with the granted move type as part of activating this sphere effect, so long as the action used was at least a move action. The movements you can choose are determined by the packages you possess.
 
@@ -584,7 +626,8 @@ You may spend a standard action to gain one of the following benefits for 1 roun
 **Plant: Brachiate:** You gain a climb speed equal to half your land speed (minimum 10 feet), granting you all the usual benefits of a Climb speed, including a racial +8 bonus to Climb checks. In addition, you can move through the upper canopies of jungles and forests with the same ease you move along the ground. You can use your base land speed to move through any heavily forested area without touching the ground by leaping and swinging from tree to tree. You can also use this among the rafters of a building, or even stalactites on a cavern ceiling.
 
 **Water: Water Walk:** You gain the ability to walk on water. Water and all other liquid becomes solid to you, allowing you to move over it as if it were normal ground. Especially turbulent water (such as during a storm) may count as difficult terrain. You may always choose to sink into the water and swim if you so desire, in which case you are considered to have a Swim speed equal to your land speed, granting you all the usual benefits of a Swim speed, including a racial +8 bonus to Swim checks. This does not, however, grant you the ability to breathe underwater.
-
+[[/div]]
+[[div style="padding: 0 2%; border: 1px solid black"]]
 ++++ Nature’s Weapon (spirit)
 You may perform one of the following special attacks or gain one of the following benefits. In addition to the effects that already possess a duration, if you possess the ability to grant (spirit) talent abilities to another you may spend a spell point as a standard action to grant a target the ability to use one of these attacks for 1 round per caster level. The options available are dependent on your Nature packages, as outlined below:
 
@@ -599,7 +642,8 @@ You may perform one of the following special attacks or gain one of the followin
 **Plant: Bramble Strike:** You may spend a spell point as a standard action to cause brambles to burst from any mostly wooden weapon (such as a club, quarterstaff, or spear) you are wielding, or pieces of mostly-wooden ammunition such as an arrow or bolt coming from a ranged weapon you are using, for 1 round per caster level. Once per round when you strike a creature with one of your qualifying weapons, you may cause them to attempt a Reflex save. On a failure, the target becomes entangled for 1 round. For every 10 caster levels you possess, you may use this ability an additional time per round. Escaping this entanglement follows the same rules as escaping from the Entangle geomancing ability. If a creature fails their saving throw while already entangled from this effect, the condition’s duration increases by 1 round.
 
 **Water: Icicles:** You may spontaneously create an icicle in your hand as a free action. These icicles count as masterwork daggers and melt if they leave your hand for more than 1 round. These icicles gain a +1 enhancement bonus per 4 caster levels you possess (maximum +5) and deal an amount of extra cold damage equal to 1/2 your caster level.
-
+[[/div]]
+[[div style="padding: 0 2%; border: 1px solid black"]]
 ++++ Nature Sight (spirit)
 You may gain a supernatural sense depending on what Nature packages you possess for as long as you concentrate, or you may spend a spell point to gain the sense for 1 minute per caster level. This sense has a range equal to your geomancing range. Each sense must be gained as a separate effect.
 
@@ -607,17 +651,19 @@ You may gain a supernatural sense depending on what Nature packages you possess 
 
 **Earth: Earthsight (Su):** You gain tremorsense, only allowing you to detect anything in contact with the same body of ground as you. In addition, you do not suffer miss chance from concealment or total concealment against creatures that are underground or have the earth subtype provided they are within range of your earthsight.
 
-**Fire: Firesight (Su):** You can see through flames, lava, and smoke as if they were transparent. In addition, you do not suffer miss chance from concealment or total concealment against creatures that are on fire or have the fire subtype provided they are within range of your firesight. 
+**Fire: Firesight (Su):** You can see through flames, lava, and smoke as if they were transparent. In addition, you do not suffer miss chance from concealment or total concealment against creatures that are on fire or have the fire subtype provided they are within range of your firesight.
 
 **Metal: Metalsight (Su):** You gain the scent ability, except only allowing you to detect metal objects (including creatures wearing or carrying metal objects). In addition, you do not suffer miss chance from concealment or total concealment against ferrous creatures or creatures that have the clockwork or robot subtypes provided they are within range of your metalsight.
 
 **Plant: Plantsight (Su):** You gain greensight, except only allowing you to see through leaves, living wood, greenery, undergrowth, and vines as if they were transparent (you still cannot see through dead wood). In addition, you do not suffer miss chance from concealment or total concealment against creatures that are entangled in plantlife or of the plant creature type provided they are within range of your greensight.
 
 **Water: Watersense (Su):** You gain tremorsense, except only allowing you to detect anything in contact with the same body of water as you. In addition, you do not suffer miss chance from concealment or total concealment against creatures that are underwater or have the water subtype provided they are within range of your watersense.
-
+[[/div]]
+[[div style="padding: 0 2%; border: 1px solid black"]]
 ++++ Rejuvenation (spirit)
 As a standard action, you may heal yourself an amount equal to 1/2 your caster level (minimum 1) per round for as long as you concentrate. This healing only functions if you have 1/2 your maximum hit points or less. You may spend a spell point to grant yourself fast healing equal to 1/2 your caster level (minimum 1) for 1 minute per caster level, but this fast healing also only confers healing so long as you have 1/2 your maximum hit points or less.
-
+[[/div]]
+[[div style="padding: 0 2%; border: 1px solid black"]]
 ++++ Resist Elements (spirit)
 As a swift or move action, you may grant yourself one of the following benefits for 1 round, depending on what packages you possess. You may spend a spell point to gain one of these benefits for 1 minute per caster level, or to gain it for one round as an immediate action.
 
@@ -634,10 +680,12 @@ Whenever you activate this ability, you may spend an additional spell point to a
 **Plant:** Acid resistance equal to 10 + your caster level.
 
 **Water:** Cold resistance equal to 10 + your caster level.
-
+[[/div]]
+[[div style="padding: 0 2%; border: 1px solid black"]]
 ++++ Ride The Elements (spirit)
 You may spend a spell point as a move action to increase or decrease your movement speeds by 10 feet + 10 feet per 5 caster levels (applying to all movement modes) for 1 minute per caster level. When attempting an Acrobatics check to jump while this ability is active, the height and length of your jump is doubled, to a maximum of your move speed.
-
+[[/div]]
+[[div style="padding: 0 2%; border: 1px solid black"]]
 ++++ Speak With The Elements (spirit) [utility]
 You may spend a spell point to commune with the elements for 1 minute per caster level.
 
@@ -652,10 +700,12 @@ You may spend a spell point to commune with the elements for 1 minute per caster
 **Plant: Speak With Plants:** You gain the Sylvan language, and may speak with normal plants and plant creatures. You can communicate with normal plants and plant creatures and can ask questions and receive answers from them. A normal plant’s sense of its surroundings is limited, so it will not be able to give (or recognize) detailed descriptions of creatures or answer questions about events outside its immediate vicinity.
 
 **Water: Speak With Water:** You gain the Aquan language, and may speak with pools or bodies of water. This is not truly accomplished through speech, but rather by dipping a limb into the water you may learn what else has touched it, passed by it, what is hidden inside it, etc. You can tell depth, weight, size, and number of passers-by, but not more detailed information. You can speak with both fresh or salt bodies of water, and if attempting to converse with particularly large bodies of water, such as oceans, you can only acquire information from a portion of the body of water, to a maximum distance of 1000 feet + 100 feet per caster level.
-
+[[/div]]
+[[div style="padding: 0 2%; border: 1px solid black"]]
 ++++ Speak With Wildlife (spirit) [utility]
 Choose either animals or vermin. You may spend a spell point to gain the ability to speak with your chosen creature type for 1 minute per caster level. You can ask questions of and receive answers from them, but this does not make them any more friendly than normal. Mindless vermin cannot understand or answer with more than basic information, wary and cunning animals are likely to be terse and evasive, and stupid creatures make inane comments. If a creature is friendly toward you, it may do some favor or service for you. You may take this talent twice, gaining both options.
-
+[[/div]]
+[[div style="padding: 0 2%; border: 1px solid black"]]
 ++++ Wreath Of Elements (spirit)
 As an immediate action, (or a free action usable even when it is not your turn by spending a spell point) you may reach out with one of your elements. This grants you the following abilities, depending on which packages you possess. You may only use Wreath Of Elements once per round.
 
@@ -670,12 +720,12 @@ As an immediate action, (or a free action usable even when it is not your turn b
 **Plant:** Make a check using your caster level + your casting ability modifier vs. the grapple CMD of a target within your reach. On a success, the target is entangled for 1 round.
 
 **Water:** Make a check using your caster level + your casting ability modifier vs. the trip CMD of a target within your reach. On a success, the target is knocked prone.
-
+[[/div]]
 ----
 
 ++ Advanced Nature Talents
 Advanced talents are part of an optional rule and are only available with GM permission.
-
+[[div style="padding: 0 2%; border: 1px solid black"]]
 ++++ Cyclone (air, geomancing)
 **Prerequisites:** Nature sphere ((air) package, Manipulate Nature (geomancing)), caster level 15th.
 
@@ -684,7 +734,8 @@ As a concentration effect, you may spend 2 spell points to create a powerful cyc
 Any Large or smaller creature that comes in contact with the spell effect must succeed on a Reflex save or take 3d6 points of damage. A Medium or smaller creature that fails its first save must succeed on a second one or be picked up bodily by the cyclone and held suspended in its powerful winds, taking 1d8 points of damage each round on your turn with no save allowed.
 
 You may direct the cyclone to eject any carried creatures whenever you wish, depositing the hapless souls wherever the cyclone happens to be when they are released.
-
+[[/div]]
+[[div style="padding: 0 2%; border: 1px solid black"]]
 ++++ Earthquake (earth, geomancing)
 **Prerequisites:** Nature sphere ((earth) package, Manipulate Nature (geomancing)), caster level 15th.
 
@@ -701,12 +752,14 @@ As an instantaneous effect, you may spend 3 spell points to create an earthquake
 **River, Lake, or Marsh:** Fissures open under the water, draining away the water from that area and forming muddy ground. Soggy marsh or swampland becomes quicksand for the duration of this effect, sucking down creatures and structures. Each creature in the area must succeed at a DC 15 Reflex save or sink down in the mud and quicksand. After the earthquake ends, the rest of the body of water rushes in to replace the drained water, possibly drowning those caught in the mud.
 
 **Pinned Beneath Rubble:** Any creature pinned beneath rubble takes 1d6 points of nonlethal damage per minute while pinned. If a pinned character falls unconscious, he or she must attempt a DC 15 Constitution check each minute thereafter until freed or dead, suffering 1d6 points of lethal damage for each failed save.
-
+[[/div]]
+[[div style="padding: 0 2%; border: 1px solid black"]]
 ++++ Eternal Steel (metal and plant, geomancing)
 **Prerequisites:** Nature sphere ((metal) package, (plant) package, Living Steel (advanced)), caster level 8th.
 
 As a standard action, you may spend 3 spell points to permanently grant one metal creature or metal object regeneration 1 (acid). The amount of regeneration increases by +1 per 10 caster levels. Damage caused by magical rust or oxidation count as acid damage for the purpose of suppressing this regeneration. Targets that lack a Constitution score (such as most metal constructs) still gain the regeneration from Eternal Steel, but instead of falling unconscious when their hit points are reduced to 0, they become helpless (or broken in the case of objects) until they recover enough hit points to put their hit point total back up above 0; If such targets have their regeneration suppressed while at 0 or less total hit points, they are destroyed.
-
+[[/div]]
+[[div style="padding: 0 2%; border: 1px solid black"]]
 ++++ Freezing Geyser (fire, water, geomancing)
 **Prerequisites:** Nature sphere ((fire) and (water) package, Create Nature (geomancing), Temperature (fire, geomancing)), caster level 15th.
 
@@ -717,39 +770,46 @@ Starting in the second round of the geyser’s eruption, the rapidly cooling wat
 A successful Reflex save halves the damage and prevents the entangled condition, but still deals 2d6 cold damage to creatures with evasion who successfully save. While a creature outside the affected area finds their entangled condition leaves after 1 round as the ice melts, creatures who remain within the affected area are affected each round, with each additional failed save causing its speed to be reduced by 10 feet. If the creature’s speed reaches 0 feet, it is completely encased in ice, as the (water) package geomancing ability, with ice thickness determined as usual for the caster. At this point the creature continues taking damage from the freezing water—automatically failing any saving throws—plus an additional 3d6 points of cold damage each round until freed from the ice.
 
 If an entangled creature steps into the burning geyser, they suffer fire damage as normal and are no longer entangled, as the boiling water melts the ice.
-
+[[/div]]
+[[div style="padding: 0 2%; border: 1px solid black"]]
 ++++ Living Steel (metal and plant, geomancing)
 **Prerequisites:** Nature sphere ((metal) package, (plant) package), caster level 5th.
 
 As an instantaneous effect, you may as a standard action spend 2 spell points to permanently grant the effects of living steel to a metal creature or object whose size is no larger than the ore that you may recover. Living steel repairs damage to itself at a rate of 2 hit points per day, or 1 hit point per day if it has the broken condition. In addition whenever the wielder of a metal weapon rolls a natural 1 on an attack roll against a creature wearing living steel armor or wielding a living steel shield, the item must succeed at a DC 20 Fortitude save or gain the broken condition. If the weapon already has the broken condition, it is instead destroyed. Living steel cannot damage adamantine weapons in this way.
-
+[[/div]]
+[[div style="padding: 0 2%; border: 1px solid black"]]
 ++++ Materials Of Legend (metal, geomancing)
 **Prerequisites:** Nature sphere ((metal) package, Metal Mastery (metal, geomancing)), caster level 10th.
 
 You may spend 2 additional spell points when using your Recover Ore ability, if you do you may treat the ore in the ground so that when it surfaces, you recover your choice of Elysian bronze, fire-forged steel, or frost-forged steel.
-
+[[/div]]
+[[div style="padding: 0 2%; border: 1px solid black"]]
 ++++ Natural Ally (spirit)
 **Prerequisites:** Nature sphere (Friend To Wildlife (spirit)), caster level 1st.
 
 As an instantaneous effect, you may, as a standard action, spend 3 spell points to call a specific fey, magical beast, plant or vermin of a type you designate (provided the creature’s CR is equal to or less than 1/2 your caster level) which then appears in a place within range at the start of your next turn, and remains for up to 1 hour per caster level. Unlike Friend To Wildlife, this advanced talent does not require that there are creatures of those types in the area. The creature will aid the caster to the best of its ability, but unless the caster speaks the creature’s language, only basic communication is possible (attacking an enemy, defending the caster, etc.) The creature must also be treated fairly and will not give aid that is obviously suicidal. If treated poorly, they may turn on and attack the caster. A caster may not use Natural Ally more than once per day.
-
+[[/div]]
+[[div style="padding: 0 2%; border: 1px solid black"]]
 ++++ Peace And Love (spirit) [Jester's HB]
 **Prerequisites:** Nature sphere, Mind sphere.
 
 You learn to manipulate the most elusive natural element, the heart. You project a 30-foot aura which penalizes hostile actions. All enemies within this aura take a -1 penalty on any attack rolls they make. You may suppress or resume this ability as a free action. This ability ceases to function if you are stunned, paralyzed, unconscious, dead, or otherwise incapacitated. This is a mind-affecting compulsion effect. At caster level 10, and every 10 thereafter, the radius of this aura increases by 30 feet.
 
 If you spend a spell point as a free action, you may empower this aura to punish those with wicked hearts for 1 round per caster level. While the aura is empowered, whenever a creature taking a penalty from this aura deals damage to you or an ally inside this effect’s radius, that creature must make a Will saving throw or take 1d6 nonlethal damage per 4 caster levels (minimum 1d6). A creature can only take damage from this effect once per round; a creature that is immune to nonlethal damage takes lethal damage instead.
-
+[[/div]]
+[[div style="padding: 0 2%; border: 1px solid black"]]
 ++++ Persistent Fog Cloud (water, spirit)
 **Prerequisites:** Nature sphere ((water) package, Deep Nature), caster level 10th.
 
 You may spend 2 additional spell points when using the (water) geomancing Fog ability to change the duration of the fog from concentration to permanent. The fog in this form becomes an insubstantial object without hit points. You may concentrate on the fog to have it move up to 1/2 your speed in any direction. If targeted or otherwise in the area of an ability from the Weather sphere, the caster using the Weather sphere must attempt a magic skill check against your magic skill defense. If the Weather sphere user is successful, the fog is immediately dispelled. It is otherwise not subject to the effects of weather not created by magic.
-
+[[/div]]
+[[div style="padding: 0 2%; border: 1px solid black"]]
 ++++ Phoenix Resurgence (fire, spirit)
 **Prerequisites:** Nature sphere ((fire) package, Resist Elements (spirit), Wreath Of Elements (spirit)), caster level 1st.
 
 In response to gaining the disabled or dying condition, as an instantaneous effect, you may as an immediate action spend 3 spell points to explode into a ball of flame dealing 1d6 fire damage per caster level to all creatures within 10 feet + 5 feet per 5 caster levels. At the beginning of your next round, you return to life with 0 hit points and a number of temporary hit points equal to your caster level, which remain for 1 hour. You may only use this effect once per hour.
-
+[[/div]]
+[[div style="padding: 0 2%; border: 1px solid black"]]
 ++++ Rapid Growth (plant, geomancing)
 **Prerequisites:** Nature sphere ((plant) package, Create Nature (geomancing)), caster level 15th.
 
@@ -764,7 +824,8 @@ A creature standing in the same square as a typical tree gains partial cover, wh
 Massive trees take up an entire square and provide cover to anyone behind them. They have AC 3, hardness 5, and 600 hit points. Like their smaller counterparts, it takes a DC 15 Climb check to climb them. Space covered with light undergrowth costs 2 squares of movement to move into and provides concealment. Undergrowth increases the DC of Acrobatics and Stealth checks by 2 because the leaves and branches get in the way. Heavy undergrowth costs 4 squares of movement to move into and provides concealment with a 30% miss chance (instead of the usual 20%). It increases the DC of Acrobatics checks by 5. Heavy undergrowth is easy to hide in, granting a +5 circumstance bonus on Stealth checks. Running and charging are impossible. Squares with undergrowth are often clustered together. Undergrowth and trees are not mutually exclusive; it is common for a 5-foot square to have both a tree and undergrowth.
 
 **Increase Yield:** If used in an area of developed farmland, you double the crop production in that area for the rest of the harvest season. This has no effect if used in winter or other times when crops are not being tended.
-
+[[/div]]
+[[div style="padding: 0 2%; border: 1px solid black"]]
 ++++ Tsunami (water, geomancing)
 **Prerequisites:** Nature sphere ((water) package, Manipulate Nature (geomancing)), caster level 15th.
 
@@ -772,10 +833,11 @@ As a concentration effect, you spend 2 spell points to create a wave of water 10
 
 Creatures struck by the tsunami take 8d6 points of bludgeoning damage (a Fortitude save halves this damage) and are subject to a special CMB check. The wave’s CMB is equal to your caster level + your casting ability modifier + 8 (for the wave’s size). If this CMB check defeats a creature’s CMD, the creature is knocked prone and carried along by the wave. A creature carried along by a tsunami can attempt to escape the wave on its turn as a standard action by making a CMB or Swim check opposed by the wave’s CMB check. If a creature fails to escape, it takes another 6d6 points of bludgeoning damage (Fortitude save for half) and continues being carried along by the wave.
 
-Objects struck by a tsunami are swept up if they are Huge or smaller and are carried along by the wave, deposited in a pile at the end of the wave’s journey. Gargantuan or larger objects, as well as structures or objects firmly attached to the ground, take 8d6 points of bludgeoning damage when a tsunami passes through its space—if this is enough to destroy the object or structure, the remains are carried along by the wave. Hardness does not reduce this damage, nor is it halved as damage dealt to objects normally is. Freedom of movement or the Freedom word prevents a creature from being carried along by a tsunami but does not prevent damage caused by it hitting a creature. 
+Objects struck by a tsunami are swept up if they are Huge or smaller and are carried along by the wave, deposited in a pile at the end of the wave’s journey. Gargantuan or larger objects, as well as structures or objects firmly attached to the ground, take 8d6 points of bludgeoning damage when a tsunami passes through its space—if this is enough to destroy the object or structure, the remains are carried along by the wave. Hardness does not reduce this damage, nor is it halved as damage dealt to objects normally is. Freedom of movement or the Freedom word prevents a creature from being carried along by a tsunami but does not prevent damage caused by it hitting a creature.
 
 A solid barrier that is taller than the tsunami that is not destroyed by the wave stops that portion of the wave from continuing onward, leaving a gap in the wave as the rest of it continues forward.
-
+[[/div]]
+[[div style="padding: 0 2%; border: 1px solid black"]]
 ++++ Volcano (fire, geomancing)
 **Prerequisites:** Nature sphere ((fire) package, Manipulate Nature (geomancing)), caster level 15th.
 
@@ -786,7 +848,8 @@ In addition, the volcano sprays lava, smoke, and poison gas in a hemispherical e
 They also suffer 1d6 Constitution damage per round as they inhale poisonous gas (Fortitude DC 15 negates, the DC increases by 1 per previous save), as Vog severity level 7 from the Weather sphere. Even after a creature leaves the lava-filled area, they suffer 1d6 points of damage for 1d3 rounds as the lava already on them cools.
 
 A volcano must be created on the ground and cannot be created in other places, such as on the 2nd floor of a building. You can choose to make a smaller volcano than your level permits if an obstruction prevents it from reaching its full height, or if you simply want to create a spread of lava that’s smaller than your maximum.
-
+[[/div]]
+[[div style="padding: 0 2%; border: 1px solid black"]]
 ++++ Whispering Elements (geomancing) [utility]
 **Prerequisites:** Nature sphere, caster level 1st.
 
@@ -797,12 +860,14 @@ The message is gentle and unnoticed until it reaches the location, where it then
 At time of casting, you can prepare the effect to bear a message of no more than 20 + your caster level words, cause the talent to deliver other sounds for 1 round per 2 caster levels, or merely have the message seem to be a faint manifestation of the chosen element.
 
 The message cannot speak verbal components, use command words, or activate magical effects.
-
+[[/div]]
+[[div style="padding: 0 2%; border: 1px solid black"]]
 ++++ Wildfire (fire)
 **Prerequisites:** Nature sphere ((fire) package, Ranged Geomancy [range] x2), caster level 5th.
 
 When using affect fire, you may spend 3 spell points to send forth a burst of heat that targets everything within a radius of 1000 feet + 100 feet per caster level. Creatures and objects caught within the radius of effect are dealt fire damage equal to the largest fire you can create and catch fire (if they are flammable, such as trees or cloth). A successful Reflex save halves the damage and negates catching fire.
-
+[[/div]]
+[[div style="padding: 0 2%; border: 1px solid black"]]
 ++++ Zoetic Geomancy
 **Prerequisites:** Nature sphere (Deep Nature), caster level 10th.
 
@@ -811,79 +876,90 @@ As an instantaneous effect you may spend 10 minutes and 3 spell points to target
 The creature created is friendly toward you, and while you have no special empathy or connection with it, the creature serves you in specific tasks or endeavors if you communicate your desires to it. However, as it is a living, intelligent being, it will expect good treatment in return. If you use Zoetic Geomancy again, any previously created creatures remain friendly to you, but they no longer undertake tasks for you unless it is in their best interests.
 
 **Table: Zoetic Geomancy**
-||~ Geomancing Package Required ||~ Target ||~ Creature || 
-|| Air || 15-ft. cube of air || Huge geomancy born air elemental || 
-|| Earth || 15-ft. cube of dirt, sand, or stone || Huge geomancy born earth elemental || 
-|| Fire || 15-ft. cube of fire or lava || Huge geomancy born fire elemental || 
-|| Metal || Huge object of metal || Huge geomancy born cold iron elemental || 
-|| Plant || Huge vegetation || Wyrgrove treant || 
-|| Water || 15-ft. cube of water || Huge geomancy born water elemental || 
-|| Weather || 15-ft. cube of air || Huge geomancy born air elemental || 
-
+||~ Geomancing Package Required ||~ Target ||~ Creature ||
+|| Air || 15-ft. cube of air || Huge geomancy born air elemental ||
+|| Earth || 15-ft. cube of dirt, sand, or stone || Huge geomancy born earth elemental ||
+|| Fire || 15-ft. cube of fire or lava || Huge geomancy born fire elemental ||
+|| Metal || Huge object of metal || Huge geomancy born cold iron elemental ||
+|| Plant || Huge vegetation || Wyrgrove treant ||
+|| Water || 15-ft. cube of water || Huge geomancy born water elemental ||
+|| Weather || 15-ft. cube of air || Huge geomancy born air elemental ||
+[[/div]]
 ----
 + Nature Sphere Feats
+[[div style="padding: 0 2%; border: 1px solid black"]]
 ++++ Alloy Creation (Dual Sphere)
 **Prerequisites:** Creation sphere, Nature sphere ((metal) package).
 
 **Benefit:** When using your Creation sphere abilities, you may create and alter objects made from metals you can summon with your Recover Ore Nature sphere ability, even if you do not possess the Expanded Materials Creation talent.
 
 When using metal geomancing talents or abilities limited by your Recover Ore size, you may target and affect metal one size larger than you could normally affect with your Recover Ore ability. This does not increase the actual size of the ore you can recover.
-
+[[/div]]
+[[div style="padding: 0 2%; border: 1px solid black"]]
 ++++ Alloy Enhancement (Dual Sphere)
 **Prerequisites:** Enhancement sphere, Nature sphere ((metal) package).
 
 **Benefit:** Whenever you use a (metal) geomancing ability which creates or affects metal (such as Recover Ore) you may choose to enhance the metal via the Enhancement sphere as part of the same action. This costs 1 additional spell point, in addition to any spell points required by the enhancement in question.
-
+[[/div]]
+[[div style="padding: 0 2%; border: 1px solid black"]]
 ++++ Alloy Telekinesis (Dual Sphere)
 **Prerequisites:** Telekinesis sphere, Nature sphere ((metal) package).
 
 **Benefit:** Whenever you use the (metal) geomancing Recover Ore ability, you may use telekinesis to Bludgeon another target creature or object with the metal ore recovered in this way, all as part of the same action. If you increase the casting time by 1 step (usually from a standard to full-round action), you may utilize your caster level instead of your base attack bonus for the first attack roll, and add your casting ability modifier to damage.
-
+[[/div]]
+[[div style="padding: 0 2%; border: 1px solid black"]]
 ++++ Coastal Infusion
 **Prerequisites:** Nature sphere ((earth) package and (water) package).
 
 **Benefit:** When using either the (earth) package or the (water) package within close range of both land and a substantial body of water (such as a lake, river, ocean, or sea), you gain a +2 bonus to your caster level for those geomancing abilities.
-
+[[/div]]
+[[div style="padding: 0 2%; border: 1px solid black"]]
 ++++ Fan The Flame (Dual Sphere)
 **Prerequisites:** Destruction sphere (Fire Blast (blast type, fire)), Nature sphere ((fire) package), caster level 3rd.
 
 **Benefit:** When a creature is set on fire by your fire blast, the fire does not deal 1d6 damage the following round, but rather deals damage equal to the largest fire you may affect. This fire reverts to normal after the first round, dealing 1d6 fire damage on subsequent rounds until extinguished, but you may choose to concentrate each round, or spend a spell point once as a free action, to cause the fire to stay at its increased size until extinguished. If your fire blast would cause multiple creatures to catch fire, each target must have the effect of Fan The Flames applied and maintained individually, either by concentration or spending spell points.
-
+[[/div]]
+[[div style="padding: 0 2%; border: 1px solid black"]]
 ++++ Fertilize Nature
 **Prerequisites:** Nature sphere ((earth) package, (plant) package).
 
 **Benefit:** Geomancing abilities from the (earth) and (plant) packages last 2 additional rounds after you end concentration.
-
+[[/div]]
+[[div style="padding: 0 2%; border: 1px solid black"]]
 ++++ Formulae Geomancing
 **Prerequisites:** Nature sphere (three or more packages).
 
 **Benefit:** You may read and use an alchemist’s formulae book, creating extracts for use during the day as an alchemist does. You must have a caster level with the entire Nature sphere equal to 3x the level of the extract, and use your Nature caster level as your caster level for the extracts. You must spend 1 spell point per level of the created extract, and only you can drink the extract to gain its effects.
-
+[[/div]]
+[[div style="padding: 0 2%; border: 1px solid black"]]
 ++++ Hemothermia (Dual Sphere) [BaP]
 **Prerequisites:** Blood sphere (any (blood art)), Nature sphere.
 
 **Benefit:** You gain the following two (blood arts), which allow you to alter the temperature of the target’s blood. If you possess the (blood art)’s associated Nature sphere package, you may add additional effects when using that (blood art).
 * **Smoldering Hemoglobin (blood art):** You may briefly superheat the target’s blood. On a failed Fortitude save, the target suffers blood loss, takes fire damage equal to your caster level, and catches fire. The target’s insides begin to burn, taking 1d6 fire damage the following round plus 1d6 per round until extinguished. Each round the target may attempt another Fortitude save to extinguish the flames. This is a free action that may be taken once per round. Drinking any non-flammable liquid (such as a potion or water) grants the target a +4 bonus to that round’s saving throw. This fire is not extinguished if the target submerges itself; it is internal. If you possess the Nature sphere (fire) package, you may spend an additional spell point to cause the burning damage the target suffers each round to be equal to the largest fire you can create with create fire, if it would be larger.
 * **Freeze Veins (blood art):** You rapidly freeze the target’s blood, making it harder for them to move. On a failed Fortitude save, the target suffers blood loss, takes cold damage equal to your caster level, and is staggered for a number of rounds equal to your casting ability modifier. While staggered by this effect, the target becomes unnaturally brittle. Whenever they fall prone, suffer falling damage, or take bludgeoning damage, they take an additional amount of cold damage equal to 1/2 your casting ability modifier. Each round the target may attempt another Fortitude save to warm themselves up. If you possess the Nature sphere (water) package, you may spend an additional spell point to cause the target to be unable to take a 5-foot step while staggered by this effect.
-
+[[/div]]
+[[div style="padding: 0 2%; border: 1px solid black"]]
 ++++ Imbue With Nature (Dual Sphere)
 **Prerequisites:** Destruction sphere, Nature sphere (any (geomancing) talent).
 
 **Benefit:** When using a (blast type) talent from a blast type category corresponding to a geomancing talent you possess, you may increase the casting time by one step or spend an additional spell point to draw material from the environment to enhance your destructive blast, allowing it to bypass spell resistance.
 
-||~ Geomancing Talent ||~ Blast Type Categories || 
-|| (Air) package || Air, electric, sonic || 
-|| (Earth) package || Crystal, stone || 
-|| (Fire) package || Fire, light || 
-|| (Metal) package || Acid, electric || 
-|| (Plant) package || Acid, force || 
-|| (Water) package || Cold, crystal || 
-
+||~ Geomancing Talent ||~ Blast Type Categories ||
+|| (Air) package || Air, electric, sonic ||
+|| (Earth) package || Crystal, stone ||
+|| (Fire) package || Fire, light ||
+|| (Metal) package || Acid, electric ||
+|| (Plant) package || Acid, force ||
+|| (Water) package || Cold, crystal ||
+[[/div]]
+[[div style="padding: 0 2%; border: 1px solid black"]]
 ++++ Luminous Flame (Dual Sphere)
 **Prerequisites:** Light sphere, Nature sphere ((fire) package).
 
 **Benefit:** Whenever you use the Create Fire or Affect Fire geomancing ability, you may also cause the fire to glow. You may maintain concentration of this (fire) geomancing ability and the bright light of the glow with a single action.
-
+[[/div]]
+[[div style="padding: 0 2%; border: 1px solid black"]]
 ++++ Mage Of Ice And Rime [BaP]
 **Prerequisites:** Nature sphere ((water) package, Water Mastery).
 
@@ -895,59 +971,68 @@ In addition, you gain the following benefits to the corresponding Nature sphere 
 * **Nature’s Weapon:** When using the Nature’s Weapon (water) package effect, you may create any weapon you are proficient with instead of creating a dagger. Weapons which use ammunition (e.g. bows, firearms, or slings) are created with basic ammunition ready to be fired by the weapon, and basic ammunition may be summoned and automatically loaded into the weapon as a free action. This ability cannot be used to summon siege weapons or technological items, subject to GM permission.
 * **Nature Sight:** While under the effects of the Nature Sight (water) package effect, you may treat snow and ice as though it were a body of water, allowing you to detect anything in contact with the same body of snow or ice as you, and may see normally in natural or magical rain, sleet, hail, fog, snowstorms, blizzards, and other similar weather conditions.
 * **Wreath Of Elements:** Instead of the Wreath Of Elements (water) package effect, you assault a creature with a frozen gale. A target within your reach takes a penalty on their next attack roll, Perception check, or concentration check equal to -2 plus an additional -1 per 5 caster levels (Fortitude negates).
-
+[[/div]]
+[[div style="padding: 0 2%; border: 1px solid black"]]
 ++++ March Of The Treants (Dual Sphere)
 **Prerequisites:** Enhancement sphere, Nature sphere ((plant) package).
 
 **Benefit:** Whenever you cast Pummel, you may choose to spend an additional spell point to enhance the target, allowing the tree to uproot itself (or break free from the tree if targeting a branch) and gain a ground movement speed of 10 + 10 feet per 5 caster levels for the duration of Pummel (or enhance if you spend an additional spell point). On the last round of the target’s duration, the tree or branch will plant itself (as best it could upon the space it is located), becoming once again immobile.
-
+[[/div]]
+[[div style="padding: 0 2%; border: 1px solid black"]]
 ++++ Material Infusion (Dual Sphere)
 **Prerequisites:** Destruction sphere, Nature sphere ((metal) package).
 
 **Benefit:** When using a destructive blast that deals bludgeoning, piercing, or slashing damage, you may choose to have the blast count as cold iron or silver. At 15th caster level you may also choose adamantine. If other relevant materials exist in your campaign, the GM may determine at what level this talent applies to them.
-
+[[/div]]
+[[div style="padding: 0 2%; border: 1px solid black"]]
 ++++ Nature’s Enhancement (Dual Sphere)
 **Prerequisites:** Enhancement sphere, Nature sphere (any (spirit) talent).
 
 **Benefit:** Whenever you enhance a creature, you may also imbue the target with a non-instantaneous spirit ability. The target must be a valid choice for both the enhancement and spirit ability; you may only target yourself if you cannot target others. In addition, you may maintain concentration on the enhancement and the spirit ability with a single action.
-
+[[/div]]
+[[div style="padding: 0 2%; border: 1px solid black"]]
 ++++ Primal Admixture (Admixture) [3PP]
 ^^**Source:** Expanded Spheres: Baron's Lost Apocrypha^^
 
 **Prerequisites:** Destruction sphere (Admixture), Nature sphere.
 
 **Benefit:** When using Admixture, you may spend an additional spell point to affect one target damaged by the destructive blast with a geomancing or spirit effect which targets a creature or applies to a creature in place of a second blast type. If you possess Environmental Presence or Grant Spirit twice, you may apply the effect to any targets damaged, up to your maximum targets from these talents. Alternatively, you may spend an additional spell point to center a geomancy effect which targets an area on the target’s square or another affected square.
-
+[[/div]]
+[[div style="padding: 0 2%; border: 1px solid black"]]
 ++++ Primal Blast (Dual Sphere)
 **Prerequisites:** Destruction sphere (any (blast type) talent), Nature sphere (any package).
 
 **Benefit:** When using a (blast type) talent from a blast type category corresponding to a geomancing talent you possess, you may add your casting ability modifier to any attack rolls and damage rolls of the destructive blast. If you do so, you do not modify attack rolls and damage rolls with your destructive blasts with your Strength modifier, Dexterity modifier, or any other ability score (if you have an ability that allows you to modify attack rolls and/or damage rolls with that ability score). On any individual attacks of which a destructive blast is being applied to a natural or weapon attack (such as with the Energy Strike talent or similar ability), Primal Blast instead modifies the attack and damage rolls of the natural or weapon attack (replacing any other ability modifier bonuses with your casting ability modifier as normal).
 
-||~ Geomancing Package ||~ Blast Type Category || 
-|| (Air) package || Air, electric, sonic || 
-|| (Earth) package || Crystal, stone || 
-|| (Fire) package || Fire, light || 
-|| (Metal) package || Acid, electric || 
-|| (Plant) package || Acid, force || 
-|| (Water) package || Cold, crystal || 
+||~ Geomancing Package ||~ Blast Type Category ||
+|| (Air) package || Air, electric, sonic ||
+|| (Earth) package || Crystal, stone ||
+|| (Fire) package || Fire, light ||
+|| (Metal) package || Acid, electric ||
+|| (Plant) package || Acid, force ||
+|| (Water) package || Cold, crystal ||
 
 **Author's Note:** When using the Primal Blast feat, you do not substitute an ability score's bonus damage (e.g. Strength, Dexterity) for your casting ability modifier, you instead do not gain your normal ability score as bonus damage and separately add your casting modifier. Effectively, the attack does not add the ability score and adds your casting modifier as a separate damage bonus. This differs from an unchained rogue's finesse training feature, which replaces Strength with Dexterity and then calculates normally. For example, when using the Destruction sphere Energy Strike talent with a 2 handed weapon, you would only receive your casting ability modifier as bonus damage and not 1.5x your casting ability modifier.
-
+[[/div]]
+[[div style="padding: 0 2%; border: 1px solid black"]]
 ++++ Smolder Resin
 **Prerequisites:** Nature sphere ((fire) package and (plant) package).
 
 **Benefit:** Your Pummel geomancing ability deals additional fire damage equal to your casting ability modifier with each hit that successfully deals damage.
-
+[[/div]]
+[[div style="padding: 0 2%; border: 1px solid black"]]
 ++++ Spirit Form (Dual Sphere)
 **Prerequisites:** Alteration sphere, Nature sphere (any (spirit) talent).
 
 **Benefit:** When you use shapeshift on a creature, you may also imbue the target with a non-instantaneous spirit ability. You must spend spell points as normal if required by the spirit ability, and when you apply a (spirit) talent to a target in this way, it counts against the number of traits you may grant with your shapeshift.
-
+[[/div]]
+[[div style="padding: 0 2%; border: 1px solid black"]]
 ++++ Steam Geomancing
 **Prerequisites:** Nature sphere ((fire) package and (water) package).
 
 **Benefit:** When using any Nature sphere ability that deals cold or fire damage, you may change the damage to half cold damage and half fire damage.
-
+[[/div]]
+[[div style="padding: 0 2%; border: 1px solid black"]]
 ++++ Supernatural Elements (Dual Sphere) [DbH]
 The diverse powers of nature are yours to distort.
 
@@ -956,31 +1041,36 @@ The diverse powers of nature are yours to distort.
 **Benefit:** Whenever you create a geomancing or spirit effect, you may change its damage type to a damage type corresponding to a (blast type) talent you possess. Changing the damage type to one other than acid, bludgeoning, cold, electricity, fire, piercing, or slashing costs +1 spell point. If you possess the Admixture talent, you may pay the additional costs of Admixture as normal to apply multiple damage types to the geomancing effect or alter only half of the damage of the effect (with the other half retaining the original damage type of the geomancing effect). This does not allow you to apply effects besides damage from any effect used in the blast type or admixture (for example, you may not apply the saving throw penalties from Numbing Blast or an alter time ability from Time-Thief’s Admixture to a pummel attack).
 
 Effects created with this feat operate as they normally would in spite of their altered damage type. For example, fire that deals acid or cold damage could still be smothered or doused with water to put it out.
-
+[[/div]]
+[[div style="padding: 0 2%; border: 1px solid black"]]
 ++++ Sylvan Necromancy (Dual Sphere)
 Plant and animal matter are equally suitable focuses for your magic.
 
 **Prerequisites:** Death sphere (Expanded Necromancy), Nature sphere.
 
 **Benefit:** You can use your (plant) geomancing abilities on corpses instead of plants. In addition, you can reanimate dead plant life as zombies (or skeletons, if they are made of wood) with the grab special ability. These animated plants are treated as animated objects when determining their statistics, although they do not gain construction points. If you possess Hazardous Terrain, undead plant life and plant creatures you create add damage on a successful grapple attempt as if it were an entangle effect.
-
+[[/div]]
+[[div style="padding: 0 2%; border: 1px solid black"]]
 ++++ Terrain Focus (Drawback)
 **Prerequisites:** Nature sphere, Terrain Casting drawback.
 
 **Benefit:** You have learned to draw upon the nutrients in some terrain more easily than others, which powers your primal magics. Choose one of the following terrains: Cold, Desert, Forest, Jungle, Mountain, Plains, Planes (pick one, other than the Material Plane), Swamp, Underground, Urban, or Water. Gain a +2 insight bonus to caster level with the Nature sphere while using magic within the chosen terrain.
 
 **Special:** You can gain this feat multiple times. Its effects do not stack. Each time you take the feat, it applies to a new terrain. You cannot gain this feat if you possess the Terrain Defiler feat.
-
+[[/div]]
+[[div style="padding: 0 2%; border: 1px solid black"]]
 ++++ Terrain Strider
 **Prerequisite:** Nature sphere.
 
 **Benefit:** You are much less affected by terrain that has been enchanted or magically manipulated to impede you, based upon what packages you possess. Gain a +4 circumstance bonus to saving throws against any Nature sphere talents or abilities from a package you possess.
-
+[[/div]]
+[[div style="padding: 0 2%; border: 1px solid black"]]
 ++++ Water Manipulator (Dual Sphere)
 **Prerequisites:** Fallen Fey sphere (Water Creature (fey-blessing)), Nature sphere ((water) package).
 
 **Benefit:** You gain the benefits of Water Creature as a (spirit) talent; you may use them at any time without needing to activate a fey-blessing first. The range of these abilities becomes equal to your geomancing range, and you may use the higher of your Nature (water) and Fallen Fey caster levels.
-
+[[/div]]
+[[div style="padding: 0 2%; border: 1px solid black"]]
 ++++ Wildspeaker [BaP]
 **Prerequisites:** Nature sphere (Speak With Wildlife (spirit)).
 
@@ -994,7 +1084,8 @@ If you possess the Illusion sphere, you gain the following (glamer):
 
 If you possess the Mind sphere and Expanded Charm (or have the ability to use Mind sphere talents on animals), you gain the following (charm):
 * **Nature’s Messenger (charm):** You can employ animals to deliver messages. As a greater charm, you may spend a spell point to charm a target animal to deliver a message or object. You communicate to the animal a message and a certain location you know well, an obvious landmark, or a specific creature you identify. The animal gains the ability to speak any one language you know, gains a heightened intelligence to overcome simple obstacles, and can engage in simple conversation in order to deliver the message for the duration of this effect. The animal travels to the designated location to the best of its ability, and upon reaching its destination, conveys your message to nearby creatures or to the specified creature before leaving. You can also send the animal with an object or container that it is physically able to carry, delivering the contents upon arrival. This effect lasts for 1 day per caster level or until the message is delivered. If the animal cannot reach the destination within this time, the effect ends. An unwilling animal receives a Will save with a +2 bonus on their saving throw.
-
+[[/div]]
+[[div style="padding: 0 2%; border: 1px solid black"]]
 ++++ World In Miniature
 **Prerequisites:** Nature sphere, Warp sphere (Extradimensional Room (space) or Extradimensional Storage (space)).
 
@@ -1011,32 +1102,38 @@ If you possess the Mind sphere and Expanded Charm (or have the ability to use Mi
 **Plant:** Your world grows plantlife that produces enough food to sustain a Medium-sized creature for a day. These plants can be used for the entangle and harvest abilities any number of times per day, but they are not large enough to count as a tree.
 
 **Water:** Your world contains rivers and oceans. It produces enough clean water to sustain a Medium-sized creature for a day. You may generate fog from this water any number of times per day, though it is not large enough to produce effects such as a vortex.
-
+[[/div]]
 ----
 
 + Archetypes Specializing in Nature
-
+[[div style="padding: 0 2%; border: 1px solid black"]]
 ++ [[[Avatar]]]
 Avatars are druids who use their mastery of the natural world and the creatures who inhabit it to summon and control avatars of nature itself.
-
+[[/div]]
+[[div style="padding: 0 2%; border: 1px solid black"]]
 ++ [[[Elemental Fist]]]
 Elemental Fists are champion strikers who can use the powers of nature to strike foes at range.
-
+[[/div]]
+[[div style="padding: 0 2%; border: 1px solid black"]]
 ++ [[[Frostweaver]]]
 Frostweavers are Incanters who have exceptional control over ice.
-
+[[/div]]
+[[div style="padding: 0 2%; border: 1px solid black"]]
 ++ [[[Geomancer]]]
 The Geomancer is an [[[Elementalist]]] who trades their focus on Destruction for Nature.
-
+[[/div]]
+[[div style="padding: 0 2%; border: 1px solid black"]]
 ++ [[[Geosurveyor]]]
 The Geosurveyor is a Ranger who specializes in controlling nature and using it to their advantage.
-
+[[/div]]
+[[div style="padding: 0 2%; border: 1px solid black"]]
 ++ [[[Warden]]]
 The Warden is an [[[Armorist]]] who has a closer connection to Nature than most and has a particular affinity for Spirit talents.
-
+[[/div]]
+[[div style="padding: 0 2%; border: 1px solid black"]]
 ++ [[[Yamabushi]]]
 The Yamabushi is an Unchained Monk who gains a small number of talents, emphasizing one particular type of connection to nature.
-
+[[/div]]
 ----
 + Wild Magic
 
@@ -1067,15 +1164,15 @@ The Yamabushi is an Unchained Monk who gains a small number of talents, emphasiz
 </div>
 <script>
     function randString(){
-        return stringArray[~~(rand()*stringArray.length)];
+    	return stringArray[~~(rand()*stringArray.length)];
     }
     function randText(){
-        var tx = randString();
-        var txt = document.createTextNode(tx);
-        var sp = document.createElement('span');
-        sp.appendChild(txt);
-        randomResult.innerHTML = '';
-        randomResult.appendChild(sp);
+    	var tx = randString();
+    	var txt = document.createTextNode(tx);
+    	var sp = document.createElement('span');
+    	sp.appendChild(txt);
+    	randomResult.innerHTML = '';
+    	randomResult.appendChild(sp);
     }
     rand = Math.random;
     stringArray = ['1: (Combat) The metallic weapons of all creatures within close range of the caster dull, causing them to deal bludgeoning damage for 1 minute per caster level.', '2: For 1d6 rounds, the caster is surrounded by a dust storm, as per the Dust Storm talent.', '3: The spell point cost of the effect increases by 1. If the caster does not have enough spell points, he is instead staggered until the end of his next turn.', '4: For 1 round per caster level, the caster is polymorphed into a water elemental as the Elemental Transformation talent of the Alteration sphere, granting only the elemental resistance (cold) ability as a trait. This overrides any polymorph effects currently active on the caster.', '5: For 1 hour per caster level, all plants become hostile to the caster. All plant creatures are hostile to the caster, and if any plant is capable of movement or is animated, such as through the pummel geomancing ability, they will attack the caster if at all possible, ignoring all other targets.', '6: All creatures within close range of the target or center of the target area must succeed on a Reflex save or catch on fire.', '7: For 1d6 hours, all flowers within long range of the caster smell foul. All creatures who end a turn standing in a square that has a flower is sickened until leaving the square. Creatures that do not breathe are not affected.', '8: Effect receives a +2 bonus to caster level.', '9: The nearest hostile creature within long range is surrounded by a dust storm, as per the Dust Storm talent, for 1d6 rounds.', '10: The metallic armor of all allied creatures within close range of the caster sprout spikes, granting them armor spikes or increasing the damage dice of existing armor spikes by one size but also increasing the ACP of the armor by 2 and the ASF by 10%. This lasts for 1 minute per caster level.', '11: For 1d6 days, all rodents within long range of the caster become attracted to him, following him as closely as possible. The rodents will take turns to find food, but otherwise will not voluntarily leave the side of the caster. The caster does not automatically gain any control over the rodents.', '12: As an instantaneous effect, the caster is covered in ice as the freeze option of the Water package. This ice is 1 inch thick, +1 inch per 5 caster levels.', '13: The caster is exhausted.', '14: (Combat) All animals within long range must succeed on a Will save or have their attitude become shifted to helpful toward creatures hostile toward the caster for 1 minute per caster level.', '15: For 1 hour per caster level, all Diminutive-sized rocks within close range follow the caster at a speed of 20 ft., detecting him and moving towards him. If they reach the caster, they crowd around his feet, making his first square of movement each round count as difficult terrain.', '16: The caster is fatigued.', '17: The nearest creature of the animal type (within 1 mile) becomes hostile towards the caster, seeking him out and attacking with reckless abandon. This creature continues to attempt to attack for 1 hour or until slain.', '18: All animals within long range must succeed on a Will save or have their attitude become shifted to hostile toward creatures allied with the caster for 1 minute.', '19: All hostile creatures within close range of the caster must succeed on a Reflex save or catch on fire.', '20: For 1d6 rounds, all water within close range of the caster begins to boil. Canteens burst, and any creature in contact with water suffers 1d6 points of fire damage per 2 caster levels.', '21: The spell point cost of the effect decreases by 1. If the effect did not require any spell points, the caster instead gains 1 temporary spell point that expires at the end of his next turn.', '22: (Combat) Thick mist encompasses everything within medium range of the caster, reducing the size of all mundane fires by 1 category and soaking all creatures caught within. The mist remains for 1 round per caster level.', '23: As an instantaneous effect, all unhewn stones within close range carve themselves to reflect your thoughts at the moment this effect takes place.', '24: All creatures within close range of the caster must succeed on a Reflex save or become entangled by plants, shifting rocks, or ice as appropriate to the environment for 1d6 rounds.', '25: For 1 hour per caster level, a dramatic fog covers the area around the feet of the caster. This does not provide any concealment to the caster, but may obscure caltrops, tripwires, and other low-lying objects.', '26: The metallic weapons of all hostile creatures within close range of the target or center of the target area dull, causing them to deal bludgeoning damage for 1 minute per caster level.', '27: All allied creatures within close range of the caster must succeed on a Reflex save or catch on fire.', '28: All flames within long range of the caster increase 1 size for 1 round per caster level.', '29: The casting time decreases by 1 step.', '30: The effect fails, but the action is not lost. Spell points or spell slots spent are lost.', '31: The casting time decreases by 2 steps.', '32: All animals within long range must succeed on a Will save or have their attitude become shifted to hostile toward all creatures without the Animal type within close range of the animal for 1 minute per caster level.', '33: For 1 round per caster level, all inanimate objects within long range of the position of the caster when this result is triggered begin babbling incoherently, imposing a penalty on sound-based Perception checks in the area equal to caster level and a spell failure chance of 15% on any effect requiring verbal components. This effect remains stationary.', '34: (Combat) The caster is dazed for 1 round.', '35: Blocks of ice (5-ft. cubes) instantaneously form in each empty space adjacent to but not directly above the nearest hostile creature within long range.', '36: All creatures within close range of the caster must succeed on a Reflex save or catch on fire.', '37: As an instantaneous effect, all crops and other food-bearing plants within close range of the caster immediately die.', '38: The space of the caster lowers 5 ft. as the Forge Earth (geomancing) talent.', '39: The metallic weapons of all hostile creatures within close range of the caster dull, causing them to deal bludgeoning damage for 1 minute per caster level.', '40: The space of the caster raises 5 ft. as the Forge Earth (geomancing) talent.', '41: All animals within long range must succeed on a Will save or have their attitude become shifted to helpful toward allies of the caster for 1 minute per caster level.', '42: Stone forms over all hostile creatures within close range, granting DR/adamantine equal to 1/2 caster level (minimum 1) for 1 minute.', '43: (Combat) The metallic weapons of all allied creatures within close range of the caster dull, causing them to deal bludgeoning damage for 1 minute per caster level.', '44: Bark grows over all creatures within close range of the caster, increasing their natural armor bonus by 1 + 1 per 5 caster levels for 1 minute.', '45: The space of all hostile creatures within close range lowers 5 ft. as the Forge Earth (geomancing) talent.', '46: The metallic armor of all allied creatures within close range of the target or center of the target area sprout spikes, granting them armor spikes or increasing the damage dice of existing armor spikes by one size but also increasing the ACP of the armor by 2 and the ASF by 10%. This lasts for 1 minute per caster level.', '47: Ice forms around the feet and limbs of all creatures within close range of the caster, who must succeed on a Reflex save or be entangled and unable to move. In addition, the square of each affected creature becomes slick with ice and counts as difficult terrain. Breaking free of the entangled condition is a move action, requiring either a Strength check or Escape Artist check against the save DC of the triggering effect. A creature may also destroy the ice on a creature or square by dealing 3 points of damage per caster level to the ice. This removes the entangled condition from the creature and destroys the difficult terrain. The ice melts after 1 minute.', '48: As an instantaneous effect, the ground within close range becomes covered in mounds of dirt, becoming difficult terrain.', '49: All vegetation within long range of the caster decrease in size by one size category for 1 round per caster level.', '50: All animals within long range must succeed on a Will save or have their attitude become shifted to helpful toward all creatures with the Animal type for 1 minute per caster level.', '51: For 1 round per caster level, the caster is polymorphed into a fire elemental as the Elemental Transformation talent of the Alteration sphere, granting only the elemental resistance (fire) ability as a trait. This overrides any polymorph effects currently active on the caster.', '52: As an instantaneous effect, one tree (to a maximum size equal to that which the caster can control through the pummel geomancing ability) grows adjacent to the caster. The tree is under the effect of the pummel geomancing ability for 1d6 rounds and will attack any creature within reach, first targeting the caster and his allies.', '53: All vegetation within long range of the caster increase in size by one size category for 1 round per caster level.', '54: The caster loses knowledge of any of the talents used in the effect (but not the base sphere) for the length of the effect (minimum 1 round).', '55: All unattended flammable objects within close range of the caster are set on fire.', '56: The caster takes 1d4 points of Constitution damage even if he would normally be immune to ability damage. Creatures without a Constitution score instead take Charisma damage.', '57: The casting time increases by 1 step.', '58: Roll again on the Universal wild magic table.', '59: All leaves within long range of the caster change color to bright pink for 1 day per caster level.', '60: For 1 hour per caster level, all plants become enamored of the caster. All plant creatures are helpful to the caster, and if any plant is capable of movement or is animated such as through the pummel ability, they will attack the enemies of the caster if at all possible, ignoring all other targets. These creatures will follow the caster and refuse to stay away, attempting to touch the caster at all times if possible.', '61: (Combat) A sphere of water envelops the caster, forming a vortex around him, which remains for 1 round per caster level.', '62: A sphere of water envelops one creature the caster chooses within geomancing range, forming a vortex around it, which remains for 1 round per caster level.', '63: Stone forms over all creatures within close range granting DR/adamantine equal to 1/2 caster level (minimum 1) for 1 minute', '64: The caster takes a number of points of ability damage to his casting attribute equal to the caster level/4 (minimum 1) of the effect, even if he would normally be immune to ability damage.', '65: Effect receives a -4 penalty to caster level (minimum 1).', '66: As an instantaneous effect, for 1 round per caster level, flowers sprout from the casters footsteps. These flowers are random wildflowers suitable to the environment if possible and have no intrinsic properties.', '67: All hostile creatures within close range of the target or center of the target area must succeed on a Reflex save or catch on fire.', '68: All flames within long range of the caster decrease 1 size for 1 round per caster level.', '69: For 1 hour per caster level, the nearest creature of the animal type (within 1 mile) becomes friendly towards the caster, seeking him out and obeying all commands to the best of its ability. This does not make the animal trained, but even wild animals can be protective of the caster and attack those who are hostile towards him.', '70: All non-magical fires within long range of the caster are extinguished.', '71: For 1 round per caster level, the caster is polymorphed into an earth elemental as the Elemental Transformation talent of the Alteration sphere, granting only the elemental resistance (acid) ability as a trait. This overrides any polymorph effects currently active on the caster.', '72: Ice forms around the feet and limbs of the caster who must succeed on a Reflex save or be entangled and unable to move. In addition, the square of the caster becomes slick with ice and counts as difficult terrain. Breaking free of the entangled condition is a move action, requiring either a Strength check or Escape Artist check against the save DC of the triggering effect. A creature may also destroy the ice on a creature or square by dealing 3 points of damage per caster level to the ice. This removes the entangled condition from the creature and destroys the difficult terrain. The ice melts after 1 minute in normal conditions.', '73: As an instantaneous effect, the space below all creatures within geomancing range becomes covered in 1 ft. of sand.', '74: All creatures within close range of the target or center of the target area must succeed on a Reflex save or fall prone as the ground shakes.', '75: The space of all hostile creatures within close range raises 5 ft. as the Forge Earth (geomancing) talent.', '76: All plants within close range gain the ability to speak common for 1 day per caster level. The plants talk incessantly and will discuss anything and everything they can, but they do not gain increased intelligence to give them a variety of topics.', '77: (Combat) Blocks of ice (5-ft. cubes) instantaneously form in each empty space adjacent to but not directly above the caster.', '78: The effect fails and the action is lost. Spell points or spell slots are lost.', '79: The caster takes untyped nonlethal damage equal to caster level. This damage does not force concentration checks to cast or maintain sphere effects or spells.', '80: For 1 round per caster level, the caster is polymorphed into an air elemental as the Elemental Transformation talent of the Alteration sphere, granting only the elemental resistance (electricity) ability as a trait. This overrides any polymorph effects currently active on the caster.', '81: For 1d6 rounds, all water within close range of the caster freezes. Any creature in contact with water must pass a Reflex save or be trapped.', '82: For 1 round per caster level, the caster is polymorphed into a plant creature as the Plant Transformation talent of the Alteration sphere, granting only the +2 natural armor bonus ability as a trait. This overrides any polymorph effects currently active on the caster.', '83: The casting time increases by 2 steps.', '84: The metallic armor of all creatures within close range of the target or center of the target area sprout spikes, granting them armor spikes or increasing the damage dice of existing armor spikes by one size but also increasing the ACP of the armor by 2 and the ASF by 10%. This lasts for 1 minute per caster level.', '85: The spell point cost of the effect increases by 1d4. If the caster does not have enough spell points, he is instead dazed until the end of his next turn.', '86: All animals within close range benefit from the Logos talent for 1 minute per caster level.', '87: (Combat) The caster is nauseated for 1 round.', '88: Roll twice and take both results. Ignore any results that require rerolls. If both rolls thus ignored, there is no effect.', '89: The air within close range erupts into flames, dealing 1d6 points of fire damage per two caster levels (minimum 1d6) to all targets within the area (Reflex half).', '90: The effect fails and the action is lost. Spell points or spell slots are not lost.', '91: The caster loses access to this sphere for 1d6 rounds.', '92: All animals within long range must succeed on a Will save or have their attitude become shifted to hostile toward creatures hostile to the caster for 1 minute', '93: As an instantaneous effect, any bodies of water within long range raise 2 ft. or double in volume, whichever comes first. Canteens, pots, and other containers overflow as the amount of water in them doubles. The water levels will be restored to their natural level over time by drainage, evaporation, etc.', '94: A sphere of water envelops a random creature within close range of the caster, forming a vortex around it, which remains for 1 round per caster level.', '95: The caster gains knowledge of one talent of his choice from this sphere for 1 round.', '96: All creatures within close range of the caster must succeed on a Reflex save or fall prone as the ground shakes.', '97: (Combat) The caster is stunned for 1 round.', '98: As an instantaneous effect, poison ivy grows in a 5-ft. radius + 5 ft. per 5 caster level around the caster. The caster and any creature who enters the area must make a Fortitude save or take -1 penalty (which increases by 1 per 5 caster levels) on all magic skill checks made to concentrate for 1 hour per caster level. This is a poison effect.', '99: Roll twice and choose the result. Ignore any results that require rerolls. If both rolls thus ignored, there is no effect.', '100: All allies within close range benefit from the Speak With Animals talent for 1 minute per caster level.'];
@@ -1085,106 +1182,106 @@ The Yamabushi is an Unchained Monk who gains a small number of talents, emphasiz
 [[/html]]
 
 ++++ Wild Magic Table
-||~ d100 ||~ Result || 
-|| 1 || (Combat) The metallic weapons of all creatures within close range of the caster dull, causing them to deal bludgeoning damage for 1 minute per caster level. || 
-|| 2 || For 1d6 rounds, the caster is surrounded by a dust storm, as per the Dust Storm talent. || 
-|| 3 || The spell point cost of the effect increases by 1. If the caster does not have enough spell points, he is instead staggered until the end of his next turn. || 
-|| 4 || For 1 round per caster level, the caster is polymorphed into a water elemental as the Elemental Transformation talent of the Alteration sphere, granting only the elemental resistance (cold) ability as a trait. This overrides any polymorph effects currently active on the caster. || 
-|| 5 || For 1 hour per caster level, all plants become hostile to the caster. All plant creatures are hostile to the caster, and if any plant is capable of movement or is animated, such as through the the pummel geomancing ability, they will attack the caster if at all possible, ignoring all other targets. || 
-|| 6 || All creatures within close range of the target or center of the target area must succeed on a Reflex save or catch on fire. || 
-|| 7 || For 1d6 hours, all flowers within long range of the caster smell foul. All creatures who end a turn standing in a square that has a flower is sickened until leaving the square. Creatures that do not breathe are not affected. || 
-|| 8 || Effect receives a +2 bonus to caster level. || 
-|| 9 || The nearest hostile creature within long range is surrounded by a dust storm, as per the Dust Storm talent, for 1d6 rounds. || 
-|| 10 || The metallic armor of all allied creatures within close range of the caster sprout spikes, granting them armor spikes or increasing the damage dice of existing armor spikes by one size but also increasing the armor’s ACP by 2 and the ASF by 10%. This lasts for 1 minute per caster level. || 
-|| 11 || For 1d6 days, all rodents within long range of the caster become attracted to him, following him as closely as possible. The rodents will take turns to find food, but otherwise will not voluntarily leave the caster’s side. The caster does not automatically gain any control over the rodents. || 
-|| 12 || As an instantaneous effect, the caster is covered in ice as the freeze option of the Water package. This ice is 1 inch thick, +1 inch per 5 caster levels. || 
-|| 13 || The caster is exhausted. || 
-|| 14 || (Combat) All animals within long range must succeed on a Will save or have their attitude become shifted to helpful toward creatures hostile toward the caster for 1 minute per caster level. || 
-|| 15 || For 1 hour per caster level, all Diminutive-sized rocks within close range follow the caster at a speed of 20 ft., detecting him and moving towards him. If they reach the caster, they crowd around his feet, making his first square of movement each round count as difficult terrain. || 
-|| 16 || The caster is fatigued. || 
-|| 17 || The nearest creature of the animal type (within 1 mile) becomes hostile towards the caster, seeking him out and attacking with reckless abandon. This creature continues to attempt to attack for 1 hour or until slain. || 
-|| 18 || All animals within long range must succeed on a Will save or have their attitude become shifted to hostile toward creatures allied with the caster for 1 minute. || 
-|| 19 || All hostile creatures within close range of the caster must succeed on a Reflex save or catch on fire. || 
-|| 20 || For 1d6 rounds, all water within close range of the caster begins to boil. Canteens burst, and any creature in contact with water suffers 1d6 points of fire damage per 2 caster levels. || 
-|| 21 || The spell point cost of the effect decreases by 1. If the effect did not require any spell points, the caster instead gains 1 temporary spell point that expires at the end of his next turn. || 
-|| 22 || (Combat) Thick mist encompasses everything within medium range of the caster, reducing the size of all mundane fires by 1 category and soaking all creatures caught within. The mist remains for 1 round per caster level. || 
-|| 23 || As an instantaneous effect, all unhewn stones within close range carve themselves to reflect your thoughts at the moment this effect takes place. || 
-|| 24 || All creatures within close range of the caster must succeed on a Reflex save or become entangled by plants, shifting rocks, or ice as appropriate to the environment for 1d6 rounds. || 
-|| 25 || For 1 hour per caster level, a dramatic fog covers the area around the caster’s feet. This does not provide any concealment to the caster, but may obscure caltrops, tripwires, and other low-lying objects. || 
-|| 26 || The metallic weapons of all hostile creatures within close range of the target or center of the target area dull, causing them to deal bludgeoning damage for 1 minute per caster level. || 
-|| 27 || All allied creatures within close range of the caster must succeed on a Reflex save or catch on fire. || 
-|| 28 || All flames within long range of the caster increase 1 size for 1 round per caster level. || 
-|| 29 || The casting time decreases by 1 step. || 
-|| 30 || The effect fails, but the action is not lost. Spell points or spell slots spent are lost. || 
-|| 31 || The casting time decreases by 2 steps. || 
-|| 32 || All animals within long range must succeed on a Will save or have their attitude become shifted to hostile toward all creatures without the Animal type within close range of the animal for 1 minute per caster level. || 
-|| 33 || For 1 round per caster level, all inanimate objects within long range of the caster’s position when this result is triggered begin babbling incoherently, imposing a penalty on sound-based Perception checks in the area equal to caster level and a spell failure chance of 15% on any effect requiring verbal components. This effect remains stationary. || 
-|| 34 || (Combat) The caster is dazed for 1 round. || 
-|| 35 || Blocks of ice (5-ft. cubes) instantaneously form in each empty space adjacent to but not directly above the nearest hostile creature within long range. || 
-|| 36 || All creatures within close range of the caster must succeed on a Reflex save or catch on fire. || 
-|| 37 || As an instantaneous effect, all crops and other food-bearing plants within close range of the caster immediately die. || 
-|| 38 || The caster’s space lowers 5 ft. as the Forge Earth (geomancing) talent. || 
-|| 39 || The metallic weapons of all hostile creatures within close range of the caster dull, causing them to deal bludgeoning damage for 1 minute per caster level. || 
-|| 40 || The caster’s space raises 5 ft. as the Forge Earth (geomancing) talent. || 
-|| 41 || All animals within long range must succeed on a Will save or have their attitude become shifted to helpful toward allies of the caster for 1 minute per caster level. || 
-|| 42 || Stone forms over all hostile creatures within close range, granting DR/adamantine equal to 1/2 caster level (minimum 1) for 1 minute. || 
-|| 43 || (Combat) The metallic weapons of all allied creatures within close range of the caster dull, causing them to deal bludgeoning damage for 1 minute per caster level. || 
-|| 44 || Bark grows over all creatures within close range of the caster, increasing their natural armor bonus by 1 + 1 per 5 caster levels for 1 minute. || 
-|| 45 || The space of all hostile creatures within close range lowers 5 ft. as the Forge Earth (geomancing) talent. || 
-|| 46 || The metallic armor of all allied creatures within close range of the target or center of the target area sprout spikes, granting them armor spikes or increasing the damage dice of existing armor spikes by one size but also increasing the armor’s ACP by 2 and the ASF by 10%. This lasts for 1 minute per caster level. || 
-|| 47 || Ice forms around the feet and limbs of all creatures within close range of the caster, who must succeed on a Reflex save or be entangled and unable to move. In addition, each affected creature’s square becomes slick with ice and counts as difficult terrain. Breaking free of the entangled condition is a move action, requiring either a Strength check or Escape Artist check against the triggering effect’s save DC. A creature may also destroy the ice on a creature or square by dealing 3 points of damage per caster level to the ice. This removes the entangled condition from the creature and destroys the difficult terrain. The ice melts after 1 minute. || 
-|| 48 || As an instantaneous effect, the ground within close range becomes covered in mounds of dirt, becoming difficult terrain. || 
-|| 49 || All vegetation within long range of the caster decrease in size by one size category for 1 round per caster level. || 
-|| 50 || All animals within long range must succeed on a Will save or have their attitude become shifted to helpful toward all creatures with the Animal type for 1 minute per caster level. || 
-|| 51 || For 1 round per caster level, the caster is polymorphed into a fire elemental as the Elemental Transformation talent of the Alteration sphere, granting only the elemental resistance (fire) ability as a trait. This overrides any polymorph effects currently active on the caster. || 
-|| 52 || As an instantaneous effect, one tree (to a maximum size equal to that which the caster can control through the pummel geomancing ability) grows adjacent to the caster. The tree is under the effect of the pummel geomancing ability for 1d6 rounds and will attack any creature within reach, first targeting the caster and his allies. || 
-|| 53 || All vegetation within long range of the caster increase in size by one size category for 1 round per caster level. || 
-|| 54 || The caster loses knowledge of any of the talents used in the effect (but not the base sphere) for the length of the effect (minimum 1 round). || 
-|| 55 || All unattended flammable objects within close range of the caster are set on fire. || 
-|| 56 || The caster takes 1d4 points of Constitution damage even if he would normally be immune to ability damage. Creatures without a Constitution score instead take Charisma damage. || 
-|| 57 || The casting time increases by 1 step. || 
-|| 58 || Roll again on the Universal wild magic table. || 
-|| 59 || All leaves within long range of the caster change color to bright pink for 1 day per caster level. || 
-|| 60 || For 1 hour per caster level, all plants become enamored of the caster. All plant creatures are helpful to the caster, and if any plant is capable of movement or is animated such as through the pummel ability, they will attack the caster’s enemies if at all possible, ignoring all other targets. These creatures will follow the caster and refuse to stay away, attempting to touch the caster at all times if possible. || 
-|| 61 || (Combat) A sphere of water envelops the caster, forming a vortex around him, which remains for 1 round per caster level. || 
-|| 62 || A sphere of water envelops one creature of the caster’s choice within geomancing range, forming a vortex around it, which remains for 1 round per caster level. || 
-|| 63 || Stone forms over all creatures within close range granting DR/adamantine equal to 1/2 caster level (minimum 1) for 1 minute. || 
-|| 64 || The caster takes a number of points of ability damage to his casting attribute equal to the effect’s caster level/4 (minimum 1) even if he would normally be immune to ability damage. || 
-|| 65 || Effect receives a -4 penalty to caster level (minimum 1). || 
-|| 66 || As an instantaneous effect, for 1 round per caster level, flowers sprout from the casters footsteps. These flowers are random wildflowers suitable to the environment if possible and have no intrinsic properties. || 
-|| 67 || All hostile creatures within close range of the target or center of the target area must succeed on a Reflex save or catch on fire. || 
-|| 68 || All flames within long range of the caster decrease 1 size for 1 round per caster level. || 
-|| 69 || For 1 hour per caster level, the nearest creature of the animal type (within 1 mile) becomes friendly towards the caster, seeking him out and obeying all commands to the best of its ability. This does not make the animal trained, but even wild animals can be protective of the caster and attack those who are hostile towards him. || 
-|| 70 || All non-magical fires within long range of the caster are extinguished. || 
-|| 71 || For 1 round per caster level, the caster is polymorphed into an earth elemental as the Elemental Transformation talent of the Alteration sphere, granting only the elemental resistance (acid) ability as a trait. This overrides any polymorph effects currently active on the caster. || 
-|| 72 || Ice forms around the feet and limbs of the caster who must succeed on a Reflex save or be entangled and unable to move. In addition, the caster’s square becomes slick with ice and counts as difficult terrain. Breaking free of the entangled condition is a move action, requiring either a Strength check or Escape Artist check against the triggering effect’s save DC. A creature may also destroy the ice on a creature or square by dealing 3 points of damage per caster level to the ice. This removes the entangled condition from the creature and destroys the difficult terrain. The ice melts after 1 minute in normal conditions. || 
-|| 73 || As an instantaneous effect, the space below all creatures within geomancing range becomes covered in 1 ft. of sand. || 
-|| 74 || All creatures within close range of the target or center of the target area must succeed on a Reflex save or fall prone as the ground shakes. || 
-|| 75 || The space of all hostile creatures within close range raises 5 ft. as the Forge Earth (geomancing) talent. || 
-|| 76 || All plants within close range gain the ability to speak common for 1 day per caster level. The plants talk incessantly and will discuss anything and everything they can, but they do not gain increased intelligence to give them a variety of topics. || 
-|| 77 || (Combat) Blocks of ice (5-ft. cubes) instantaneously form in each empty space adjacent to but not directly above the caster. || 
-|| 78 || The effect fails and the action is lost. Spell points or spell slots are lost. || 
-|| 79 || The caster takes untyped nonlethal damage equal to caster level. This damage does not force concentration checks to cast or maintain sphere effects or spells. || 
-|| 80 || For 1 round per caster level, the caster is polymorphed into an air elemental as the Elemental Transformation talent of the Alteration sphere, granting only the elemental resistance (electricity) ability as a trait. This overrides any polymorph effects currently active on the caster. || 
-|| 81 || For 1d6 rounds, all water within close range of the caster freezes. Any creature in contact with water must pass a Reflex save or be trapped. || 
-|| 82 || For 1 round per caster level, the caster is polymorphed into a plant creature as the Plant Transformation talent of the Alteration sphere, granting only the +2 natural armor bonus ability as a trait. This overrides any polymorph effects currently active on the caster. || 
-|| 83 || The casting time increases by 2 steps. || 
-|| 84 || The metallic armor of all creatures within close range of the target or center of the target area sprout spikes, granting them armor spikes or increasing the damage dice of existing armor spikes by one size but also increasing the armor’s ACP by 2 and the ASF by 10%. This lasts for 1 minute per caster level. || 
-|| 85 || The spell point cost of the effect increases by 1d4. If the caster does not have enough spell points, he is instead dazed until the end of his next turn. || 
-|| 86 || All animals within close range benefit from the Logos talent for 1 minute per caster level. || 
-|| 87 || (Combat) The caster is nauseated for 1 round. || 
-|| 88 || Roll twice and take both results. Ignore any results that require rerolls. If both rolls thus ignored, there is no effect. || 
-|| 89 || The air within close range erupts into flames, dealing 1d6 points of fire damage per two caster levels (minimum 1d6) to all targets within the area (Reflex half). || 
-|| 90 || The effect fails and the action is lost. Spell points or spell slots are not lost. || 
-|| 91 || The caster loses access to this sphere for 1d6 rounds. || 
-|| 92 || All animals within long range must succeed on a Will save or have their attitude become shifted to hostile toward creatures hostile to the caster for 1 minute. || 
-|| 93 || As an instantaneous effect, any bodies of water within long range raise 2 ft. or double in volume, whichever comes first. Canteens, pots, and other containers overflow as the amount of water in them doubles. The water levels will be restored to their natural level over time by drainage, evaporation, etc. || 
-|| 94 || A sphere of water envelops a random creature within close range of the caster, forming a vortex around it, which remains for 1 round per caster level. || 
-|| 95 || The caster gains knowledge of one talent of his choice from this sphere for 1 round. || 
-|| 96 || All creatures within close range of the caster must succeed on a Reflex save or fall prone as the ground shakes. || 
-|| 97 || (Combat) The caster is stunned for 1 round. || 
-|| 98 || As an instantaneous effect, poison ivy grows in a 5-ft. radius + 5 ft. per 5 caster level around the caster. The caster and any creature who enters the area must make a Fortitude save or take -1 penalty (which increases by 1 per 5 caster levels) on all magic skill checks made to concentrate for 1 hour per caster level. This is a poison effect. || 
-|| 99 || Roll twice and choose the result. Ignore any results that require rerolls. If both rolls thus ignored, there is no effect. || 
+||~ d100 ||~ Result ||
+|| 1 || (Combat) The metallic weapons of all creatures within close range of the caster dull, causing them to deal bludgeoning damage for 1 minute per caster level. ||
+|| 2 || For 1d6 rounds, the caster is surrounded by a dust storm, as per the Dust Storm talent. ||
+|| 3 || The spell point cost of the effect increases by 1. If the caster does not have enough spell points, he is instead staggered until the end of his next turn. ||
+|| 4 || For 1 round per caster level, the caster is polymorphed into a water elemental as the Elemental Transformation talent of the Alteration sphere, granting only the elemental resistance (cold) ability as a trait. This overrides any polymorph effects currently active on the caster. ||
+|| 5 || For 1 hour per caster level, all plants become hostile to the caster. All plant creatures are hostile to the caster, and if any plant is capable of movement or is animated, such as through the the pummel geomancing ability, they will attack the caster if at all possible, ignoring all other targets. ||
+|| 6 || All creatures within close range of the target or center of the target area must succeed on a Reflex save or catch on fire. ||
+|| 7 || For 1d6 hours, all flowers within long range of the caster smell foul. All creatures who end a turn standing in a square that has a flower is sickened until leaving the square. Creatures that do not breathe are not affected. ||
+|| 8 || Effect receives a +2 bonus to caster level. ||
+|| 9 || The nearest hostile creature within long range is surrounded by a dust storm, as per the Dust Storm talent, for 1d6 rounds. ||
+|| 10 || The metallic armor of all allied creatures within close range of the caster sprout spikes, granting them armor spikes or increasing the damage dice of existing armor spikes by one size but also increasing the armor’s ACP by 2 and the ASF by 10%. This lasts for 1 minute per caster level. ||
+|| 11 || For 1d6 days, all rodents within long range of the caster become attracted to him, following him as closely as possible. The rodents will take turns to find food, but otherwise will not voluntarily leave the caster’s side. The caster does not automatically gain any control over the rodents. ||
+|| 12 || As an instantaneous effect, the caster is covered in ice as the freeze option of the Water package. This ice is 1 inch thick, +1 inch per 5 caster levels. ||
+|| 13 || The caster is exhausted. ||
+|| 14 || (Combat) All animals within long range must succeed on a Will save or have their attitude become shifted to helpful toward creatures hostile toward the caster for 1 minute per caster level. ||
+|| 15 || For 1 hour per caster level, all Diminutive-sized rocks within close range follow the caster at a speed of 20 ft., detecting him and moving towards him. If they reach the caster, they crowd around his feet, making his first square of movement each round count as difficult terrain. ||
+|| 16 || The caster is fatigued. ||
+|| 17 || The nearest creature of the animal type (within 1 mile) becomes hostile towards the caster, seeking him out and attacking with reckless abandon. This creature continues to attempt to attack for 1 hour or until slain. ||
+|| 18 || All animals within long range must succeed on a Will save or have their attitude become shifted to hostile toward creatures allied with the caster for 1 minute. ||
+|| 19 || All hostile creatures within close range of the caster must succeed on a Reflex save or catch on fire. ||
+|| 20 || For 1d6 rounds, all water within close range of the caster begins to boil. Canteens burst, and any creature in contact with water suffers 1d6 points of fire damage per 2 caster levels. ||
+|| 21 || The spell point cost of the effect decreases by 1. If the effect did not require any spell points, the caster instead gains 1 temporary spell point that expires at the end of his next turn. ||
+|| 22 || (Combat) Thick mist encompasses everything within medium range of the caster, reducing the size of all mundane fires by 1 category and soaking all creatures caught within. The mist remains for 1 round per caster level. ||
+|| 23 || As an instantaneous effect, all unhewn stones within close range carve themselves to reflect your thoughts at the moment this effect takes place. ||
+|| 24 || All creatures within close range of the caster must succeed on a Reflex save or become entangled by plants, shifting rocks, or ice as appropriate to the environment for 1d6 rounds. ||
+|| 25 || For 1 hour per caster level, a dramatic fog covers the area around the caster’s feet. This does not provide any concealment to the caster, but may obscure caltrops, tripwires, and other low-lying objects. ||
+|| 26 || The metallic weapons of all hostile creatures within close range of the target or center of the target area dull, causing them to deal bludgeoning damage for 1 minute per caster level. ||
+|| 27 || All allied creatures within close range of the caster must succeed on a Reflex save or catch on fire. ||
+|| 28 || All flames within long range of the caster increase 1 size for 1 round per caster level. ||
+|| 29 || The casting time decreases by 1 step. ||
+|| 30 || The effect fails, but the action is not lost. Spell points or spell slots spent are lost. ||
+|| 31 || The casting time decreases by 2 steps. ||
+|| 32 || All animals within long range must succeed on a Will save or have their attitude become shifted to hostile toward all creatures without the Animal type within close range of the animal for 1 minute per caster level. ||
+|| 33 || For 1 round per caster level, all inanimate objects within long range of the caster’s position when this result is triggered begin babbling incoherently, imposing a penalty on sound-based Perception checks in the area equal to caster level and a spell failure chance of 15% on any effect requiring verbal components. This effect remains stationary. ||
+|| 34 || (Combat) The caster is dazed for 1 round. ||
+|| 35 || Blocks of ice (5-ft. cubes) instantaneously form in each empty space adjacent to but not directly above the nearest hostile creature within long range. ||
+|| 36 || All creatures within close range of the caster must succeed on a Reflex save or catch on fire. ||
+|| 37 || As an instantaneous effect, all crops and other food-bearing plants within close range of the caster immediately die. ||
+|| 38 || The caster’s space lowers 5 ft. as the Forge Earth (geomancing) talent. ||
+|| 39 || The metallic weapons of all hostile creatures within close range of the caster dull, causing them to deal bludgeoning damage for 1 minute per caster level. ||
+|| 40 || The caster’s space raises 5 ft. as the Forge Earth (geomancing) talent. ||
+|| 41 || All animals within long range must succeed on a Will save or have their attitude become shifted to helpful toward allies of the caster for 1 minute per caster level. ||
+|| 42 || Stone forms over all hostile creatures within close range, granting DR/adamantine equal to 1/2 caster level (minimum 1) for 1 minute. ||
+|| 43 || (Combat) The metallic weapons of all allied creatures within close range of the caster dull, causing them to deal bludgeoning damage for 1 minute per caster level. ||
+|| 44 || Bark grows over all creatures within close range of the caster, increasing their natural armor bonus by 1 + 1 per 5 caster levels for 1 minute. ||
+|| 45 || The space of all hostile creatures within close range lowers 5 ft. as the Forge Earth (geomancing) talent. ||
+|| 46 || The metallic armor of all allied creatures within close range of the target or center of the target area sprout spikes, granting them armor spikes or increasing the damage dice of existing armor spikes by one size but also increasing the armor’s ACP by 2 and the ASF by 10%. This lasts for 1 minute per caster level. ||
+|| 47 || Ice forms around the feet and limbs of all creatures within close range of the caster, who must succeed on a Reflex save or be entangled and unable to move. In addition, each affected creature’s square becomes slick with ice and counts as difficult terrain. Breaking free of the entangled condition is a move action, requiring either a Strength check or Escape Artist check against the triggering effect’s save DC. A creature may also destroy the ice on a creature or square by dealing 3 points of damage per caster level to the ice. This removes the entangled condition from the creature and destroys the difficult terrain. The ice melts after 1 minute. ||
+|| 48 || As an instantaneous effect, the ground within close range becomes covered in mounds of dirt, becoming difficult terrain. ||
+|| 49 || All vegetation within long range of the caster decrease in size by one size category for 1 round per caster level. ||
+|| 50 || All animals within long range must succeed on a Will save or have their attitude become shifted to helpful toward all creatures with the Animal type for 1 minute per caster level. ||
+|| 51 || For 1 round per caster level, the caster is polymorphed into a fire elemental as the Elemental Transformation talent of the Alteration sphere, granting only the elemental resistance (fire) ability as a trait. This overrides any polymorph effects currently active on the caster. ||
+|| 52 || As an instantaneous effect, one tree (to a maximum size equal to that which the caster can control through the pummel geomancing ability) grows adjacent to the caster. The tree is under the effect of the pummel geomancing ability for 1d6 rounds and will attack any creature within reach, first targeting the caster and his allies. ||
+|| 53 || All vegetation within long range of the caster increase in size by one size category for 1 round per caster level. ||
+|| 54 || The caster loses knowledge of any of the talents used in the effect (but not the base sphere) for the length of the effect (minimum 1 round). ||
+|| 55 || All unattended flammable objects within close range of the caster are set on fire. ||
+|| 56 || The caster takes 1d4 points of Constitution damage even if he would normally be immune to ability damage. Creatures without a Constitution score instead take Charisma damage. ||
+|| 57 || The casting time increases by 1 step. ||
+|| 58 || Roll again on the Universal wild magic table. ||
+|| 59 || All leaves within long range of the caster change color to bright pink for 1 day per caster level. ||
+|| 60 || For 1 hour per caster level, all plants become enamored of the caster. All plant creatures are helpful to the caster, and if any plant is capable of movement or is animated such as through the pummel ability, they will attack the caster’s enemies if at all possible, ignoring all other targets. These creatures will follow the caster and refuse to stay away, attempting to touch the caster at all times if possible. ||
+|| 61 || (Combat) A sphere of water envelops the caster, forming a vortex around him, which remains for 1 round per caster level. ||
+|| 62 || A sphere of water envelops one creature of the caster’s choice within geomancing range, forming a vortex around it, which remains for 1 round per caster level. ||
+|| 63 || Stone forms over all creatures within close range granting DR/adamantine equal to 1/2 caster level (minimum 1) for 1 minute. ||
+|| 64 || The caster takes a number of points of ability damage to his casting attribute equal to the effect’s caster level/4 (minimum 1) even if he would normally be immune to ability damage. ||
+|| 65 || Effect receives a -4 penalty to caster level (minimum 1). ||
+|| 66 || As an instantaneous effect, for 1 round per caster level, flowers sprout from the casters footsteps. These flowers are random wildflowers suitable to the environment if possible and have no intrinsic properties. ||
+|| 67 || All hostile creatures within close range of the target or center of the target area must succeed on a Reflex save or catch on fire. ||
+|| 68 || All flames within long range of the caster decrease 1 size for 1 round per caster level. ||
+|| 69 || For 1 hour per caster level, the nearest creature of the animal type (within 1 mile) becomes friendly towards the caster, seeking him out and obeying all commands to the best of its ability. This does not make the animal trained, but even wild animals can be protective of the caster and attack those who are hostile towards him. ||
+|| 70 || All non-magical fires within long range of the caster are extinguished. ||
+|| 71 || For 1 round per caster level, the caster is polymorphed into an earth elemental as the Elemental Transformation talent of the Alteration sphere, granting only the elemental resistance (acid) ability as a trait. This overrides any polymorph effects currently active on the caster. ||
+|| 72 || Ice forms around the feet and limbs of the caster who must succeed on a Reflex save or be entangled and unable to move. In addition, the caster’s square becomes slick with ice and counts as difficult terrain. Breaking free of the entangled condition is a move action, requiring either a Strength check or Escape Artist check against the triggering effect’s save DC. A creature may also destroy the ice on a creature or square by dealing 3 points of damage per caster level to the ice. This removes the entangled condition from the creature and destroys the difficult terrain. The ice melts after 1 minute in normal conditions. ||
+|| 73 || As an instantaneous effect, the space below all creatures within geomancing range becomes covered in 1 ft. of sand. ||
+|| 74 || All creatures within close range of the target or center of the target area must succeed on a Reflex save or fall prone as the ground shakes. ||
+|| 75 || The space of all hostile creatures within close range raises 5 ft. as the Forge Earth (geomancing) talent. ||
+|| 76 || All plants within close range gain the ability to speak common for 1 day per caster level. The plants talk incessantly and will discuss anything and everything they can, but they do not gain increased intelligence to give them a variety of topics. ||
+|| 77 || (Combat) Blocks of ice (5-ft. cubes) instantaneously form in each empty space adjacent to but not directly above the caster. ||
+|| 78 || The effect fails and the action is lost. Spell points or spell slots are lost. ||
+|| 79 || The caster takes untyped nonlethal damage equal to caster level. This damage does not force concentration checks to cast or maintain sphere effects or spells. ||
+|| 80 || For 1 round per caster level, the caster is polymorphed into an air elemental as the Elemental Transformation talent of the Alteration sphere, granting only the elemental resistance (electricity) ability as a trait. This overrides any polymorph effects currently active on the caster. ||
+|| 81 || For 1d6 rounds, all water within close range of the caster freezes. Any creature in contact with water must pass a Reflex save or be trapped. ||
+|| 82 || For 1 round per caster level, the caster is polymorphed into a plant creature as the Plant Transformation talent of the Alteration sphere, granting only the +2 natural armor bonus ability as a trait. This overrides any polymorph effects currently active on the caster. ||
+|| 83 || The casting time increases by 2 steps. ||
+|| 84 || The metallic armor of all creatures within close range of the target or center of the target area sprout spikes, granting them armor spikes or increasing the damage dice of existing armor spikes by one size but also increasing the armor’s ACP by 2 and the ASF by 10%. This lasts for 1 minute per caster level. ||
+|| 85 || The spell point cost of the effect increases by 1d4. If the caster does not have enough spell points, he is instead dazed until the end of his next turn. ||
+|| 86 || All animals within close range benefit from the Logos talent for 1 minute per caster level. ||
+|| 87 || (Combat) The caster is nauseated for 1 round. ||
+|| 88 || Roll twice and take both results. Ignore any results that require rerolls. If both rolls thus ignored, there is no effect. ||
+|| 89 || The air within close range erupts into flames, dealing 1d6 points of fire damage per two caster levels (minimum 1d6) to all targets within the area (Reflex half). ||
+|| 90 || The effect fails and the action is lost. Spell points or spell slots are not lost. ||
+|| 91 || The caster loses access to this sphere for 1d6 rounds. ||
+|| 92 || All animals within long range must succeed on a Will save or have their attitude become shifted to hostile toward creatures hostile to the caster for 1 minute. ||
+|| 93 || As an instantaneous effect, any bodies of water within long range raise 2 ft. or double in volume, whichever comes first. Canteens, pots, and other containers overflow as the amount of water in them doubles. The water levels will be restored to their natural level over time by drainage, evaporation, etc. ||
+|| 94 || A sphere of water envelops a random creature within close range of the caster, forming a vortex around it, which remains for 1 round per caster level. ||
+|| 95 || The caster gains knowledge of one talent of his choice from this sphere for 1 round. ||
+|| 96 || All creatures within close range of the caster must succeed on a Reflex save or fall prone as the ground shakes. ||
+|| 97 || (Combat) The caster is stunned for 1 round. ||
+|| 98 || As an instantaneous effect, poison ivy grows in a 5-ft. radius + 5 ft. per 5 caster level around the caster. The caster and any creature who enters the area must make a Fortitude save or take -1 penalty (which increases by 1 per 5 caster levels) on all magic skill checks made to concentrate for 1 hour per caster level. This is a poison effect. ||
+|| 99 || Roll twice and choose the result. Ignore any results that require rerolls. If both rolls thus ignored, there is no effect. ||
 || 100 || All allies within close range benefit from the Speak With Animals talent for 1 minute per caster level. ||
 [[/tab]]
 [[tab Original]]
