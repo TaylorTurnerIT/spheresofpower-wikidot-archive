@@ -9,11 +9,11 @@ title:Time
 .noselect {
   -webkit-touch-callout: none; /* iOS Safari */
     -webkit-user-select: none; /* Safari */
-     -khtml-user-select: none; /* Konqueror HTML */
-       -moz-user-select: none; /* Firefox */
-        -ms-user-select: none; /* Internet Explorer/Edge */
-            user-select: none; /* Non-prefixed version, currently
-                                  supported by Chrome and Opera */
+ 	-khtml-user-select: none; /* Konqueror HTML */
+   	-moz-user-select: none; /* Firefox */
+    	-ms-user-select: none; /* Internet Explorer/Edge */
+        	user-select: none; /* Non-prefixed version, currently
+                              	supported by Chrome and Opera */
 }
 [[/module]]
 
@@ -47,43 +47,53 @@ If a Haste and Slow ability are used on the same creature, the second caster mus
 Some Time talents are marked (time). These talents grant you additional alter time abilities.
 ----
 ++ Time Sphere Talents
+[[div style="padding: 0 2%; border: 1px solid black"]]
 ++++ Augment Healing
 When you use Haste or Slow on a creature (or group of creatures, such as with the Mass Time talent), you may spend an extra spell point to augment the natural healing abilities of all affected targets. With Haste, you can grant them fast healing equal to 1 + 1 per 5 caster levels you possess for the duration of the effect.
 
 With Slow, you can suspend the target’s natural healing abilities, preventing any fast healing or regeneration they may possess for the duration of the effect. Magical or extraordinary healing from other sources continues to function as normal. A creature whose regeneration cannot be suppressed or ignored (such as the tarrasque) is immune to this effect.
-
+[[/div]]
+[[div style="padding: 0 2%; border: 1px solid black"]]
 ++++ Improved Haste
 When you use Haste on a target, that target may either make an additional attack at their highest base attack bonus when making a full attack, or make additional attacks of opportunity during the round (+1 attack of opportunity, +1 for every 5 caster levels you possess). The target may only benefit from one such benefit per round; if they make a full attack with a bonus attack, they do not gain additional attacks of opportunity that round. This effect is not cumulative with similar effects, such as that provided by the haste spell or a speed weapon, and taking a full attack with a bonus attack from such a source counts as choosing that option for Haste for that round.
-
+[[/div]]
+[[div style="padding: 0 2%; border: 1px solid black"]]
 ++++ Improved Slow
 When you use Slow on a creature, the target also becomes staggered.
-
+[[/div]]
+[[div style="padding: 0 2%; border: 1px solid black"]]
 ++++ Instill Time [instill]
 As a standard action you may touch a small container of liquid and instill an alter time effect that targets a single creature or object inside it, which functions as a potion or oil. The chosen effect cannot have a duration of concentration.
 
 An instilled liquid remains potent until you rest to regain spell points. If you have equipment on hand (such as an alchemy lab), the cost of bottles and water is considered negligible.
 
 You may target food but not an already-magical item, such as a potion. All spell points must be spent and all variables of the sphere effect must be chosen at the time the instilled liquid is created. You cannot instill multiple effects in a single liquid, nor create multiple instilled liquids with a single action.
-
+[[/div]]
+[[div style="padding: 0 2%; border: 1px solid black"]]
 ++++ Lingering Time [3PP]
 ^^**Source:** Expanded Spheres: Baron's Lost Apocrypha^^
 
 When you use a time ability that requires concentration, the ability continues to maintain itself for 2 rounds after you stop concentrating.
-
+[[/div]]
+[[div style="padding: 0 2%; border: 1px solid black"]]
 ++++ Mass Time [mass]
 When using an alter time effect that targets creatures, you may spend an additional spell point to affect an additional 1 creature per 2 caster levels (minimum 1) at the same time. Each target must be within range and must be affected by the same alter time effect. Once created, each alter time effect is considered a separate sphere effect. Alternatively, you may spend an extra spell point to double the size of an alter time effect that targets an area.
-
+[[/div]]
+[[div style="padding: 0 2%; border: 1px solid black"]]
 ++++ Ranged Time [range]
 Your alter time effects gain a range of close. You may select this talent multiple times. Each time it is selected, you may increase the range by one level (close to medium, medium to long). Increasing the range beyond close also increases the range at which you may maintain an effect through concentration.
-
+[[/div]]
+[[div style="padding: 0 2%; border: 1px solid black"]]
 ++++ Retroactive Preparation
 As a standard action, you may spend a spell point to edit the past, retroactively obtaining a generic object, such as a mundane item or a commonly-available magic item such as a healing potion, worth less than 100 gp per caster level. The object immediately appears on your person or in a container or extradimensional space attended by you. The cost of the item is immediately deducted from the wealth (usually coins, but can be nonmagical gemstones or other nonmagical objects used for trade) you currently carry.
 
 You cannot obtain an object worth more than you have the wealth to purchase. The object must be one that would have been available in a settlement you have visited within the past 1 week per caster level.
-
+[[/div]]
+[[div style="padding: 0 2%; border: 1px solid black"]]
 ++++ Second Chance
 As an immediate action, you may spend a spell point to allow any creature currently benefiting from one of your alter time effects to reroll a saving throw they just failed. They must accept the new result even if it is worse than the original roll.
-
+[[/div]]
+[[div style="padding: 0 2%; border: 1px solid black"]]
 ++++ Temporal Trap
 You may spend a spell point to place an alter time effect onto an adjacent, unoccupied 5-foot square in addition to the normal costs of that effect. Any creature who steps onto the square activates the alter time effect; if it is normally a targeted ability, the creature is immediately affected by that ability, though they are allowed a saving throw as normal, if appropriate.
 
@@ -94,36 +104,41 @@ You may only have 1 active temporal trap at a time; placing a second trap deacti
 When used with an ability that includes a variable cost, such as the Time Clone advanced talent, the cost must be paid up front; if the cost is insufficient to affect the creature that triggers this effect, the trap is not activated. If the variable cost is greater than required to affect the triggering creature, the excess spell points are wasted but the trap and effect otherwise occur as normal.
 
 You may select this talent multiple times, increasing the number of temporal traps you may have active at once by 1 each time you do so.
-
+[[/div]]
+[[div style="padding: 0 2%; border: 1px solid black"]]
 ++++ Time Strike [strike]
 As a standard action, you may make a single weapon attack in conjunction with using an alter time effect that targets a single creature. This casting cannot be reduced below a standard action, and does not provoke attacks of opportunity, unless as usual if making a ranged attack. If the target is struck by the attack, it is also struck by the alter time effect. If using a scatter weapon, the effect only applies to a single target, chosen at the time of attack.
-
+[[/div]]
+[[div style="padding: 0 2%; border: 1px solid black"]]
 ++++ Time Zone
 When activating a (time) effect that targets an area, you may adjust the affected area to one of the following shapes:
 * **Globe:** Radius of up to 10 feet + 5 feet per 2 caster levels centered on your square. This effect radiates from a central point, and cannot extend through walls. You may choose to exclude yourself from the effect.
 * **Wall:** You may arrange your alter time as up to three 10-foot cubes, +1 cube per caster level. You must be able to perceive all areas your alter time will inhabit. You must occupy a space in or adjacent to one of the cubes.
 
 If you possess the Ranged Time talent, the selected area may be anywhere with range and does not have to be centered on or adjacent to you, but the effect cannot extend beyond your Ranged Time range.
+[[/div]]
 ----
 ++ Time Talents
+[[div style="padding: 0 2%; border: 1px solid black"]]
 ++++ After Image (time)
 You may cause a target to bleed through time, blurring their image so that they appear to be in multiple places at once. This grants the target concealment (20% miss chance) against attacks, +5% per 3 caster levels to a maximum of 50%. This is a blur effect, and may be counteracted by abilities that specify they can see through them. Opponents that cannot see the subject ignore this penalty, although fighting an unseen opponent carries penalties of its own.
 
 This effect lasts as long as you concentrate, although you may spend a spell point as a free action to allow this effect to remain for 1 minute per caster level without concentration.
-
+[[/div]]
+[[div style="padding: 0 2%; border: 1px solid black"]]
 ++++ Age (time)
 You may spend a spell point to increase or decrease a target’s age by 1 category (unwilling creatures attempt a Fortitude save to negate). This adds or removes penalties to physical ability scores but does not add or remove bonuses to mental ability scores. You may move the target 1 age category older or younger, plus an additional category for every 5 caster levels possessed.
 
 This cannot cause the target to die of old age, nor become so young they were never born. This effect lasts as long as you concentrate, but you may always spend a spell point as a free action to allow this effect to continue for 1 minute per caster level without concentration. The effects of different age categories are cumulative (thus, a target moved from young adult to venerable would suffer a -6 penalty to all physical ability scores).
 
 **Table: Age Categories**
-||~ Age Category ||~ Physical Penalties (Age penalties accumulate) || 
-|| Child || -1 size category, -2 to all physical ability scores || 
-|| Youth || -1 to all physical ability scores || 
-|| Young Adult || none || 
-|| Middle Age || -1 to all physical ability scores || 
-|| Old Age || -2 to all physical ability scores || 
-|| Venerable || -3 to all physical ability scores || 
+||~ Age Category ||~ Physical Penalties (Age penalties accumulate) ||
+|| Child || -1 size category, -2 to all physical ability scores ||
+|| Youth || -1 to all physical ability scores ||
+|| Young Adult || none ||
+|| Middle Age || -1 to all physical ability scores ||
+|| Old Age || -2 to all physical ability scores ||
+|| Venerable || -3 to all physical ability scores ||
 
 You may also target an object instead of a creature.
 
@@ -134,65 +149,80 @@ Attended objects are permitted a Will save by their holder to negate this abilit
 **Spoilage:** As an instantaneous effect, you may cause an amount of food sufficient to feed 1 Medium creature per caster level to spoil or cause an equal amount of spoiled food to return to a palatable state. This does not remove other changes made to the food, such as adding poison or magical effects unless you spend a spell point and succeed on a magic skill check against the poison or effect’s DC. Restoring the food does not prevent future spoilage.
 
 **Weather:** The object is shifted to its future state, reducing its hardness by your caster level.
-
+[[/div]]
+[[div style="padding: 0 2%; border: 1px solid black"]]
 ++++ Broken Time (time)
 You cause time to move at an unnatural pace around the target for as long as you concentrate, jumping and skipping in distorted shudders unless they succeed at a Will saving throw. Targets who fail their saving throw take a penalty on all skill checks and attack rolls equal to 1/2 your caster level and must succeed on a concentration check against your MSD to cast a spell; failing this concentration check means the spell fails and the effort is wasted. You may spend a spell point to allow this effect to continue for 1 round per caster level without concentration.
 
 Creatures affected by this ability may attempt a new Will saving throw as a free action once each round to attempt to end its effects.
-
+[[/div]]
+[[div style="padding: 0 2%; border: 1px solid black"]]
 ++++ Causality (time)
 You may spend a spell point to pull causality from an alternate timeline, making cause follow effect rather than the other way around. The target or targets must succeed at a Will save or suffer 1d8 bludgeoning damage per 2 caster levels and fall prone. The cause of this damage could be a falling rock, the target tripping over something, or any other random occurrence (the details are left to the GM).
-
+[[/div]]
+[[div style="padding: 0 2%; border: 1px solid black"]]
 ++++ Delay Pain (time)
 As an immediate action, when an ally or object with your natural reach (or within Time sphere range, if you possess the Ranged Time talent) would take damage or be subject to any effect, you may spend a spell point to delay the onset of that damage and/or effect until the end of the creature’s next turn (for creatures and attended objects) or the caster’s next turn (for unattended objects). The delayed damage and/or effect is incurred at this time, though it is subject to any changes to immunity, resistances, etc. A given effect or instance of damage cannot be delayed more than once. Unwilling creatures and objects attended by unwilling creatures require a successful touch attack and are allowed a Will save to negate this delay.
 
 If you spend an additional spell point as part of using this ability, you may partially delay ability damage, ability drain, and hit point damage further, causing the creature to receive half (round up) of the damage or drain at the end of its next turn and the remainder at the end of the following turn.
-
+[[/div]]
+[[div style="padding: 0 2%; border: 1px solid black"]]
 ++++ Eject (time)
 You may spend a spell point to attempt to eject a creature from time itself for 1 round per caster level (Will negates). The creature disappears completely and cannot be the target of any damage or effect while it is vanished. When the effect ends, the creature returns in the exact spot it disappeared from (or the closest unoccupied square). From the target’s perspective no time has passed, and any effect already on the target with a duration (such as magic or poison) continues as if the time spent ejected simply had not happened. An ejected creature can attempt a new saving throw each round as a full-round action to end this effect early.
-
+[[/div]]
+[[div style="padding: 0 2%; border: 1px solid black"]]
 ++++ Fast Time (time)
 You may spend a spell point to accelerate time within a 10-foot radius burst, +5 feet per 5 caster levels. All effects that are in effect within this area or on a creature within this area have their duration decreased by 1 round per caster level. This affects magic (spells, sphere abilities, etc.), poisons, diseases, etc., but does not grant extra actions to the targets within this area or provide any other benefit. In the case of effects that target areas, only the effect contained within Fast Time’s area is accelerated. Unwilling targets (including allies if they choose) are allowed a Will save to negate this effect for themselves or area effects originating from them. You can choose whether or not to affect yourself with your own fast time.
-
+[[/div]]
+[[div style="padding: 0 2%; border: 1px solid black"]]
 ++++ Lethargy (time)
 You may spend a spell point and make a melee or ranged touch attack against a target within range, causing them to experience a massive amount of time in a single instant, rendering them exhausted unless they succeed at a Fortitude saving throw. Targets who are already fatigued or exhausted fall asleep.
 
 Sleeping creatures are helpless. Slapping or wounding awakens a sleeping creature, but normal noise does not. Awakening a creature is a standard action (an application of the aid another action), and the target awaken exhausted if it got less than 1 hour of sleep, or fatigued if it got less than roughly 8 hours.
-
+[[/div]]
+[[div style="padding: 0 2%; border: 1px solid black"]]
 ++++ Rapid Response (time)
 You grant the target a competence bonus to initiative checks equal to 1/2 your caster level (minimum 1) and the ability to act in the surprise round even if they fail their Perception check to notice the presence of foes. You must concentrate to maintain this effect, but may spend a spell point to allow it to remain for 10 minutes per caster level without concentration.
 
 You may take this talent up to three times; the second time you take this talent, affected targets also gain evasion (or improved evasion if they already have evasion) and a +2 competence bonus on Reflex saving throws. The third time you take this talent, affected targets also gain uncanny dodge (or improved uncanny dodge if they already have uncanny dodge) as a rogue of your caster level and increase the competence bonus on Reflex saving throws to +4.
-
+[[/div]]
+[[div style="padding: 0 2%; border: 1px solid black"]]
 ++++ Repetition (time)
 You may spend a spell point to momentarily extend time for a target, allowing them to take extra care when performing an action. This allows the target to take 20 on a single Strength- or Dexterity-based skill check without increasing the time required to perform the action, even if stress or distractions would normally prevent the target from taking 10 or taking 20. This may only be used on skill checks that take no more than 1 round to perform and begin within one round of this effect being cast. If using this ability on yourself and only yourself, you may use this ability as a swift action. You cannot use this ability as a swift action in this manner if combining it with the Mass Time talent.
-
+[[/div]]
+[[div style="padding: 0 2%; border: 1px solid black"]]
 ++++ Retry (time)
 As an immediate action, you may spend 2 spell points to force a target to redo their turn (Will negates if unwilling). The target is returned to where their turn began, and any skill checks, attack rolls, movement, attacks of opportunity, etc. that occurred during their turn become as if they never happened. The target may perform the same actions again (remaking any rolls required by such actions), or they may choose completely different actions. If you choose to redo your own turn in this manner, you do not recover the action or spell points spent using this ability.
 
 **Author's Note:** This talent affects the current creature's turn, and cannot "reset or rewind" the round or the turn of a creature whose turn has already concluded. The Retry talent has no effects when targeting a creature who is not the "active turn" in initiative. Use of the Retry talent outside of combat should be done at GM discretion (allowing  the talent to function normally, but no more than what could normally be undone in a single "turn", but there is not generally an initiative tracker outside of combat)
-
+[[/div]]
+[[div style="padding: 0 2%; border: 1px solid black"]]
 ++++ Shift Time (time)
 You may spend a spell point to grant the target the ability to immediately take a standard, move, or swift action if they choose. Any target who takes an action with this ability loses that action for their next turn. You may use this ability on yourself and only yourself as a swift action, or a free action if you choose to take a swift action with this ability. You cannot use this ability as a swift or free action in this manner if combining it with the Mass Time talent. A creature cannot benefit from Shift Time more than once per round.
-
+[[/div]]
+[[div style="padding: 0 2%; border: 1px solid black"]]
 ++++ Steal Time (time)
 You may spend a spell point to attempt to erase a creature’s turn from existence. The target is dazed for 1 round (Will negates). If successful, you immediately gain an additional standard action. An individual target cannot suffer the effects of this ability more than once per round. Even if you successfully target multiple creatures in the same round with this ability (such as through the Mass Time talent), you cannot gain more than a single standard action in a round in this manner, nor can you use this new standard action to activate this talent an additional time by any means.
-
+[[/div]]
+[[div style="padding: 0 2%; border: 1px solid black"]]
 ++++ Stretch Time (time)
 You may spend a spell point to decelerate time within a 10-foot radius burst, +5 feet per 5 caster levels.
 
 All effects that are active within this area or on a creature within this area have their duration extended by 1 round per caster level, to a maximum extended duration of twice the effect’s normal duration (so an effect that normally only lasts for 1 round could not be extended in this manner for more than 1 additional round). This affects magic (spells, sphere abilities, etc.), poisons, diseases, etc., but does not prevent creatures within the area from taking actions as normal. In the case of effects that target areas, only the portion of the effect contained within Stretch Time’s area is decelerated. Unwilling targets (including allies if they so choose) are allowed a Will save to negate this effect for themselves or area effects originating from them.
 
 You can choose whether or not to affect yourself with your own stretch time. Stretch Time counters the effects of Fast Time within its affected area and vice versa.
-
+[[/div]]
+[[div style="padding: 0 2%; border: 1px solid black"]]
 ++++ Time Bubble (time)
 You may spend a spell point to create a bubble of distorted time around yourself that extends outward in a sphere with a radius of up to 15-foot + 5 feet per 5 caster levels. This sphere lasts for 1 round per caster level and moves with you, remaining centered around you at all times. Time passing within this sphere moves at a different rate than time outside, granting all creatures within the sphere partial concealment from attacks originating from outside the sphere. If a creature occupies a space both within the sphere and without (such as a Large or larger creature), creatures within the sphere do not gain partial concealment against its attacks, but the creature takes 1d8 damage per two caster levels as its body is torn apart by conflicting temporal forces. This damage occurs when the creature first enters the spaces within and without the time bubble, and at the start of their turn each round they remain within the affected area. Creatures cannot be damaged by this effect more than once per round. You may spend an additional spell point when you create this sphere to apply the effects of the Haste or Slow abilities (including the effects from Improved Haste or Improved Slow) to all creatures within the sphere’s affected area; you may choose at the time of casting whether or not to subject yourself to these additional effects.
-
+[[/div]]
+[[div style="padding: 0 2%; border: 1px solid black"]]
 ++++ Time Freeze (time)
 You may spend one spell point to freeze all activity within a 10-foot radius burst, + 5 feet per 5 caster levels. If used as a readied action, this can stop ranged attacks or instantaneous magical effects (such as destructive blasts), but in the case of effects that target areas, only the effect contained within the Time Freeze’s area is stopped. Unwilling targets (including allies if they choose) are allowed a Will save to negate this effect for themselves or effects originating from them (attacks, magic, etc.). You can choose whether or not to affect yourself with your own time freeze.
 
 All affected objects and creatures within this area cannot act for 1 round, neither can they be acted upon (moved, dealt damage to, etc.). Once the effect is in place, non-affected creatures can enter the area of effect without incident, so long as they do not disturb an affected creature or object. After one round has passed, everything within the area is unfrozen; creatures resume moving, ranged attacks hit the square they were targeting, and blast effects resolve as normal.
-
+[[/div]]
+[[div style="padding: 0 2%; border: 1px solid black"]]
 ++++ Time Of The Season (time) [Jester's HB]
 You create a temporal bubble which changes the season. Create a sphere with a radius of 10 feet + 5 feet per 2 caster levels centered on a creature, object, or square within reach (or within your Time sphere range, if you possess the Ranged Time talent) and choose one of the following seasons:
 
@@ -207,21 +237,24 @@ You create a temporal bubble which changes the season. Create a sphere with a ra
 An unwilling creature targeted by this effect can attempt a Will save to negate this effect, and is granted a new saving throw each round as a free action. You must concentrate to maintain this effect, but may spend a spell point to allow it to remain for 1 minute per caster level without concentration.
 
 **Special:** Weather conditions inside this effect’s area are treated as severity 1, generally matching the selected season (winter: Cold 1, spring: Heat 1, summer: Heat 1, fall: Cold 1), allowing creatures inside the effect’s radius to ignore current weather conditions. Time Of The Season counts as an opposed control weather effect, and changing the weather in an area that includes Time Of The Season’s area of effect is treated as opposed casters affecting the same weather category. If Time Of The Season’s caster is successful when making a magic skill check in this manner, or an opposed caster is unsuccessful, the weather inside Time Of The Season’s area of effect is treated as severity 0. If Time Of The Season’s caster is unsuccessful, or an opposed caster is successful, the weather within Time Of The Season’s area is unaffected and any season’s additional effects (such as spring’s overgrowth or summer’s intensified heat) are suppressed.
-
+[[/div]]
+[[div style="padding: 0 2%; border: 1px solid black"]]
 ++++ Timeline Bridge (time)
 By connecting the target to versions of themselves that exist in alternate timelines, you grant the target an insight bonus on all Knowledge checks equal to 1/2 your caster level and the ability to attempt such checks untrained. You must concentrate to maintain this effect, but may spend a spell point to allow it to remain for 1 minute per caster level without concentration.
 
 As an immediate action, you may spend a spell point to end this effect on the target and apply the insight bonus to their AC against a single attack or to a single saving throw by giving them a surge of revelation from a version of themselves that has already survived the attack or effect in another timeline.
+[[/div]]
 ----
 
 ++ Advanced Time Talents
 Advanced talents are part of an optional rule and are only available with GM permission.
-
+[[div style="padding: 0 2%; border: 1px solid black"]]
 ++++ Advanced Rewind
 **Prerequisites:** Time sphere (Age (time)), caster level 10th.
 
 You may use the Age (time) talent to not only alter the age of creatures or objects, but also enchantments. By spending two spell points and succeeding at a magic skill check against the enchantment’s magic skill defence, you may rewind an enchantment on a creature or object to before it was placed, removing it from the target. This cannot be used to reverse instantaneous effects such as damage, but can be used to remove permanent enchantments. If successfully used on a magic item this renders the object non-magical. This has no effect on artifacts, but can be used to target area spells. Permanent constructs are treated as creatures for this effect; you can rewind an enchantment off of a construct, but cannot rewind the enchantment that gave life to the construct itself.
-
+[[/div]]
+[[div style="padding: 0 2%; border: 1px solid black"]]
 ++++ Grey Hawk’s Gambit [3PP]
 **Prerequisites:** Time sphere (shuffle time)
 
@@ -240,7 +273,8 @@ If you possess the Fate sphere and the Declare Fate talent, you may spend 2 addi
 || Full-Round Action || d10 ||
 
 ^^**Source:** Card Casting 3: Volatile Variance^^
-
+[[/div]]
+[[div style="padding: 0 2%; border: 1px solid black"]]
 ++++ Improved Eject (time)
 **Prerequisites:** Time sphere (Eject (time)), caster level 17th.
 
@@ -249,7 +283,8 @@ You may spend 5 spell points to touch a target and attempt to permanently eject 
 A miracle or wish spell will not free the recipient, but will reveal where it has been ejected.
 
 **Reclamation:** In addition to ejecting someone from the space-time continuum, you may also spend 5 spell points to return a creature ejected from the space-time continuum. This ability must be used at the location where the target was first ejected. This talent may also be used to free a creature from the effects of an imprisonment or maze spell, and can be used to instantly dispel any ongoing effect created by the Time sphere, such as a Slow effect, Time Bubble, or Time Clone.
-
+[[/div]]
+[[div style="padding: 0 2%; border: 1px solid black"]]
 ++++ Past Sight [utility]
 **Prerequisites:** Time sphere, caster level 5th.
 
@@ -260,7 +295,8 @@ If you possess the Mass Time talent, you may share this sight with a number of w
 If you possess the Ranged Time talent, you increase the area you may view by one step per time it is taken (close to medium, medium to long). If Ranged Time is taken three times, your viewing area increases to line of sight.
 
 At caster level 8th, you may spend an extra spell point to view days instead of hours, each day requiring 10 minutes. At caster level 16th, you may spend 2 additional spell points to view years instead of hours, each year requiring 1 hour.
-
+[[/div]]
+[[div style="padding: 0 2%; border: 1px solid black"]]
 ++++ Query Self [utility]
 **Prerequisites:** Time sphere, caster level 10th.
 
@@ -269,12 +305,14 @@ You may spend 2 spell points to reach through time to contact a possible future 
 While your future self usually gives honest and accurate information, your new knowledge of events may change the outcome, and therefore render the advice of your future self obsolete at the GMs judgement (such as the case of outcomes tied to random chance, in which case the GM should roll a dice to roughly approximate the chance of success when determining whether a successful or not version of yourself was contacted).
 
 Any given question has a 10% chance that no future self will respond. This result is identical to if you try to contact a version of yourself that is dead as a result of the course of action you specified.
-
+[[/div]]
+[[div style="padding: 0 2%; border: 1px solid black"]]
 ++++ Reversion [utility]
 **Prerequisites:** Time sphere, caster level 10th.
 
 You gain the ability to allow a character to completely retrain the last class level they gained by returning them to an earlier point in time. You must spend 10 spell points and remain in physical contact with the target for 1 minute, at the end of which they may immediately retrain the last class level they gained, choosing a new class, feats, spells, skills, or other class options as appropriate. The target of this ability must still rest to regain any bardic performance rounds, rage rounds, spell points, spell slots, or other limited use abilities granted by this new class level.
-
+[[/div]]
+[[div style="padding: 0 2%; border: 1px solid black"]]
 ++++ Reversion, Complete [utility]
 **Prerequisites:** Time sphere (Reversion (advanced)), caster level 15th.
 
@@ -284,24 +322,28 @@ When using the Reversion talent, you may allow the target to retrain any and all
 The Reversion and Complete Reversion talents presented here offer some very flexible options for players in that they both allow for rapid retraining in the event that a player grows dissatisfied with their character, and in that it allows a character to swap to a different build during a short rest (albeit at some expense of character daily resources). While these abilities can be both interesting and useful, they also have the potential to severely impact play at the table if they are not managed wisely. We strongly encourage any character planning on using Reversion or Complete Reversion during play (such as to change from a Symbiat (Chronomancer) to a Fighter (Fracture) when confronted with an opponent who is immune to magic) to have their alternate build put together before they sit down at the table so that they are not trying to rebuild a character while the rest of the party is trying to move forward with the story.
 
 We also encourage players planning to use this ability on themselves to choose alternate builds that still have access to a spell point pool and the Reversion or Complete Reversion talents in the event they find they enjoyed their previous build more; once a character has trained away their ability to use these talents, they may find that they cannot easily access them again.
-
+[[/div]]
+[[div style="padding: 0 2%; border: 1px solid black"]]
 ++++ Shuffle Time (time) [3PP]
 **Prerequisites:** Time sphere
 
 You adjust a target’s readiness to act. The target must succeed on a Will save or reroll their initiative, acting on this new initiative count on any future combat rounds this encounter (this does not affect their position in initiative during the current combat round). If you spend a spell point, the target must roll twice on initiative and take the lower result.
 
 ^^**Source:** Card Casting 3: Volatile Variance^^
-
+[[/div]]
+[[div style="padding: 0 2%; border: 1px solid black"]]
 ++++ Temporal Haste
 **Prerequisites:** Time sphere (Improved Haste), caster level 9th.
 
 When applying Haste to a target, you may spend an additional spell point to grant them the ability to take 1 additional move or swift action each round for the duration of the effect. This cannot be spent for an additional immediate action.
-
+[[/div]]
+[[div style="padding: 0 2%; border: 1px solid black"]]
 ++++ Temporal Stasis
 **Prerequisites:** Time sphere, caster level 15th.
 
 You may touch a target and spend 3 spell points to place it into a state of suspended animation (Fortitude negates). For the creature, time ceases to flow and its condition becomes fixed. The creature does not grow older. Its body functions virtually cease, and no force or effect can harm it. When placing this effect on a creature, you may choose to either place the target into stasis permanently or to set either a time limit or a condition on the ability. When the time limit expires or the condition is met, the temporal stasis ends. Temporal Stasis may be dispelled.
-
+[[/div]]
+[[div style="padding: 0 2%; border: 1px solid black"]]
 ++++ Time Clone (time)
 **Prerequisites:** Time sphere, caster level 10th.
 
@@ -310,7 +352,8 @@ You draw a version of the target from an alternate timeline to assist you on the
 This copy lasts for a number of rounds equal to 1/2 your caster level and appears in a square adjacent to the target and acts immediately on your turn, moving and acting as you direct it (a free action). The copy shares all of the target’s statistics (including current spell points after the talent is used and other limited-use abilities), movement speeds, and abilities, including equipped items (but not consumable or limited use items such as potions, wands, and scrolls), but its tether to this timeline is tenuous and the copy instantly vanishes if it takes any damage or fails a saving throw against any spell or effect. Any items the time clone may have possessed instantly disappear when the target is destroyed or when the duration of this effect ends. You must succeed on a melee touch attack (or a ranged touch attack if you possess the Ranged Time talent) to use this ability on an unwilling target, and they are allowed a Will saving throw against this effect; on a successful saving throw this ability fails and any spell points spent on it are wasted.
 
 Time clones created with this talent cannot create additional time clones or similar copies of themselves.
-
+[[/div]]
+[[div style="padding: 0 2%; border: 1px solid black"]]
 ++++ Timeless Crane’s Hourglass (time) [BTH]
 You channel the timelessness of the jian crane into a whirling prismatic globe of possibilities.
 
@@ -325,9 +368,10 @@ When you first cast this effect and at the start of your turn each round, choose
 * **Tumble (requires Warp sphere):** You may teleport 1 creature + 1 creature per 10 caster levels (excluding yourself) inside this effect’s radius to another unoccupied, open area inside the effect’s radius (Will negates). If you possess the Warp sphere Unwilling Teleport talent, you can attempt to shift creatures into locations that would be directly harmful to that creature as though using the Unwilling Teleport talent, but those creatures gain a +4 bonus on their saving throw to resist being teleported. You must spend 1 additional spell point when choosing this option each round.
 
 This is a teleportation effect.
+[[/div]]
 ----
 + Time Sphere Feats
-
+[[div style="padding: 0 2%; border: 1px solid black"]]
 ++++ Localized Changes (Dual Sphere) [Jester's HB]
 **Prerequisites:** Time sphere (Time Of The Season (time)), Weather sphere.
 
@@ -340,7 +384,8 @@ Suggested weather conditions (for each season):
 **Spring:** Heat, Precipitation.
 **Summer:** Heat, Aridity.
 **Fall:** Cold, Aridity.
-
+[[/div]]
+[[div style="padding: 0 2%; border: 1px solid black"]]
 ++++ Pawstpone [Catgirl HB]
 **Prerequisites:** Time sphere, caster level 5th.
 
@@ -357,91 +402,110 @@ When creating one or more temporal motes with this ability, you may give each mo
 **Author's Note:** This feat can pose uniquely problematic gameplay interactions. At GM discretion: When using this feat to give a mote a condition to activate, if a mote created by the caster is already attached to the target or area with thee same or a similar trigger (GM discretion), the previously created mote is automatically dispelled and does not trigger.
 
 This is to prevent scenarios of delaying multiple beneficial (or harmful) effects from all occurring on the same overlapping trigger.
-
+[[/div]]
+[[div style="padding: 0 2%; border: 1px solid black"]]
 ++++ Shape Quintessence (Dual Sphere) [Alienist HB]
 **Prerequisites:** Creation sphere (Expanded Materials (material)), Time sphere.
 
 **Benefit:** When you create an object, you may work with quintessence in addition to any materials you could normally work with. This quintessence functions as per the quintessence scholar material imposition, using your Time sphere caster level as your scholar level and your casting ability modifier as your Intelligence modifier for the purpose of determining its effects. This does not grant the inhibitor [explosive] ability.
-
+[[/div]]
+[[div style="padding: 0 2%; border: 1px solid black"]]
 ++++ Spacetime Drift (Dual Sphere) [Apoc]
 ^^**Source:** [https://www.drivethrurpg.com/product/350940/Spheres-Apocrypha-Battlefield-Manipulation-Talents?affiliate_id=549120 Spheres Apocrypha: Battlefield Manipulation Talents]^^
 
 **Prerequisites:** Time sphere, Warp sphere.
 
 **Benefit:** Whenever you affect a creature with an alter time effect, you may spend a spell point to also teleport them to any place within close range that you could normally teleport them to. If the target is unwilling, you must possess the Unwilling Teleport talent and spend any additional spell points required to affect them with this feat.
-
+[[/div]]
+[[div style="padding: 0 2%; border: 1px solid black"]]
 ++++ Spell Capacitor
 **Prerequisite:** Time sphere.
 
 **Benefit:** You may cast sphere effects into a temporary rift in time, creating a spell capacitor, storing them for a short time before discharging them simultaneously. This casting spends any spell points required at the time it is performed. You may cast sphere effects into this capacitor with total spell point cost not exceeding half of your casting ability modifier (minimum 1) and total caster level not exceed three times your caster level (use the highest caster level for the effects stored if you have multiple caster levels). Once an effect is cast into the capacitor, it dissipates harmlessly after 1 minute. All stored effects may be released as a 1 round action, choosing targets for each stored effect individually within the parameters of that effect.
-
+[[/div]]
+[[div style="padding: 0 2%; border: 1px solid black"]]
 ++++ Spell Capacitor, Focused [3PP]
 ^^**Source:** Expanded Spheres: Baron's Lost Apocrypha^^
 
 **Prerequisites:** Spell Capacitor
 
 **Benefit:** When you store magic effects with the Spell Capacitor feat, you may choose to reduce the casting time of storing these effects by 1 step. If you do, you may only target yourself with these effects when you release them.
-
+[[/div]]
+[[div style="padding: 0 2%; border: 1px solid black"]]
 ++++ Spell Saga [3PP]
 **Prerequisites:** Cascade Spell, Pawstpone
 
 **Benefit:** When you use Cascade Spell, you may delay the effects of specific magic sphere effects as time motes, each set to activate automatically at the start of one of your turns, the order determined when you initially create the time motes (but no two effects on the same turn). If you do, you may ignore the targeting restrictions of Cascade Spell.
 
 ^^**Source:** Card Casting 2: Counters and Control^^
-
+[[/div]]
+[[div style="padding: 0 2%; border: 1px solid black"]]
 ++++ Stasis Storage (Dual Sphere)
 **Prerequisites:** Time sphere, Warp sphere (Extradimensional Storage (space)).
 
 **Benefit:** By spending one minute in concentration, you can lock away part of your extradimensional storage, sending it beyond time and placing its contents in stasis. This renders the selected contents inaccessible until you spend another minute unlocking it, but while they are locked the contents do not suffer wear from age or from effects such as rust or rot while stored in this way, and time spent in the space does not count against the duration of abilities such as (enhance) talents, or time limits such as the time limit reviving a dead creature.
-
+[[/div]]
+[[div style="padding: 0 2%; border: 1px solid black"]]
 ++++ Summon Capacitor [3PP]
 **Prerequisites:** Conjuration Sphere, Time Sphere, Spell Capacitor
 
 **Benefit:** When you summon your companion, you may release any number of your effects from your spell capacitor and have them affect your companion (or companions, if you summon multiple with this action and the stored effects can target multiple creatures) as part of the same action to summon them. If you do, your companion or companions cannot take any actions until the start of your next turn.
 
 ^^**Source:** Card Casting 2: Counters and Control^^
-
+[[/div]]
+[[div style="padding: 0 2%; border: 1px solid black"]]
 ++++ Swift Demise (Dual Sphere)
 Your chronomantic power extends to blurring the moment between life and death.
 
 **Prerequisites:** Death sphere, Time sphere.
 
 **Benefit:** You may use your Slow and Haste abilities as ghost strikes. Additionally, when you reanimate a body or bodies, you may augment them with your Haste ability as a free action. If the undead creatures are maintained through concentration (such as through the Sustained Reanimation talent), you may concentrate on Haste and the reanimation as part of the same action.
-
+[[/div]]
+[[div style="padding: 0 2%; border: 1px solid black"]]
 ++++ Swift Warrior (Combat)
 **Prerequisite:** Time sphere.
 
 **Benefit:** When targeting yourself and only yourself with an alter time effect, you gain a +1 bonus to your caster level, increasing by +1 at 5 Hit Dice and every 4 Hit Dice thereafter (9, 13, 17). This bonus cannot cause your caster level to exceed your Hit Dice.
+[[/div]]
 ----
 [[div class="colored-links"]]
 + Archetypes Specializing In Time
-
+[[div style="padding: 0 2%; border: 1px solid black"]]
 ++ [[[Chronomancer]]]
 Chronomancers are Symbiats who gain psionic control over time and space.
-
+[[/div]]
+[[div style="padding: 0 2%; border: 1px solid black"]]
 ++ ##00c000|[[[Clockstopper]]] [CS]##
 Clockstoppers are Gunslingers who hasten and slow time to improve their skills.
-
+[[/div]]
+[[div style="padding: 0 2%; border: 1px solid black"]]
 ++ ##00c000|[[[Epoch-Walker]]] [CS]##
 Epoch-Walkers are Soulknives who add temporal energy to their mind blades.
-
+[[/div]]
+[[div style="padding: 0 2%; border: 1px solid black"]]
 ++ [[[Fracture]]]
 Fractures are Fighters who have learned to move in and out of time to react faster than anyone believed possible.
-
+[[/div]]
+[[div style="padding: 0 2%; border: 1px solid black"]]
 ++ ##00c000|[[[Hasted Blade]]] [CS]##
 Hasted Blades are Swashbucklers who hasten themselves and slow their enemies through rapid, time-altering strikes.
-
+[[/div]]
+[[div style="padding: 0 2%; border: 1px solid black"]]
 ++ ##00c000|[[[Temporal Trapper]]] [CS]##
 Temporal Trappers are Rangers who learn to set time-altering traps on the battlefield.
-
+[[/div]]
+[[div style="padding: 0 2%; border: 1px solid black"]]
 ++ ##00c000|[[[Time Knight]]] [CS]##
 Time Knights are Paladins who protect the timestream from evil forces that would disrupt it.
-
+[[/div]]
+[[div style="padding: 0 2%; border: 1px solid black"]]
 ++ [[[Time Stalker]]]
 Time Stalkers are Slayers who eventually learn how to negate the negative effects of time magic.
-
+[[/div]]
+[[div style="padding: 0 2%; border: 1px solid black"]]
 ++ [[[Time Thief]]]
 Time Thieves are Rogues who have learned how to steal time itself from their opponents and render them unable to act.
+[[/div]]
 [[/div]]
 ----
 
@@ -474,15 +538,15 @@ Time Thieves are Rogues who have learned how to steal time itself from their opp
 </div>
 <script>
     function randString(){
-        return stringArray[~~(rand()*stringArray.length)];
+    	return stringArray[~~(rand()*stringArray.length)];
     }
     function randText(){
-        var tx = randString();
-        var txt = document.createTextNode(tx);
-        var sp = document.createElement('span');
-        sp.appendChild(txt);
-        randomResult.innerHTML = '';
-        randomResult.appendChild(sp);
+    	var tx = randString();
+    	var txt = document.createTextNode(tx);
+    	var sp = document.createElement('span');
+    	sp.appendChild(txt);
+    	randomResult.innerHTML = '';
+    	randomResult.appendChild(sp);
     }
     rand = Math.random;
     stringArray = ['1: All hostile creatures within long range shift randomly and rapidly though time, imposing a 50% miss chance on all attacks against them. This lasts for 1d6 rounds.', '2: The caster sees a glimpse of the ancient past. The next time he is called upon to make a Knowledge (history) check (before 1 day per caster level passes), he does so with an insight bonus equal to the caster level.', '3: For 1 minute, affected creatures may not concentrate on any effect.', '4: The caster takes a number of points of ability damage to his casting attribute equal to the caster level/4 (minimum 1) of the effect, even if he would normally be immune to ability damage.', '5: The caster makes a single magical check against all Time sphere effects within medium range to dispel them as if using the Counterspell feat. This is resolved after the triggering effect.', '6: The casting time increases by 2 steps.', '7: All allied creatures within close range of the target must succeed on a Will save or be slowed for 1d6 rounds.', '8: The effect fails and the action is lost. Spell points or spell slots are not lost.', '9: The effect fails and the action is lost. Spell points or spell slots are lost.', '10: The caster is frozen in time as the Time Freeze talent for 1d4 rounds.', '11: All ongoing effects on the caster have their remaining durations halved.', '12: All allied creatures within close range of the caster may take an additional standard action immediately, but are dazed for 1 round immediately afterword if they do.', '13: All creatures within close range of the caster gain a 5 ft. + 5 ft. per 5 caster level enhancement bonus to all movement speeds for 10 minutes per caster level.', '14: The casting time decreases by 2 steps.', '15: For 1 minute, the caster may not concentrate on any effect.', '16: Roll again on the Universal wild magic table.', '17: The caster is fatigued.', '18: The perception of the caster is stuck in the past, imposing a -4 penalty on initiative and a -2 penalty on attack rolls and Will saves for 1 round per caster level.', '19: All creatures within long range shift randomly and rapidly though time, imposing a 50% miss chance on all attacks and effects targeting them. This lasts for 1d6 rounds.', '20: The caster takes 1d4 Constitution damage even if he would normally be immune to ability damage. Creatures without a Constitution score instead take Charisma damage.', '21: The weather within a 1-mile radius area centered on the caster suddenly changes to whatever it was 6 months previously for 1 day per caster level. This effect remains stationary.', '22: (Combat) For 10 rounds the personal timestream of the caster is scrambled. At the start of each turn he must rolls 1d6 and apply the result to that round: 1 - dazed, 2 - gains an extra standard action, 3 - staggered for 1 round, 4 - gains an extra move action, 5 - loses his standard action, but may take 2 swift actions, 6 - gains an extra standard action, but loses a move and a swift action.', '23: All creatures within close range of the caster must succeed on a Will save or be frozen in time as the Time Freeze talent for 1d4 rounds.', '24: All allied creatures within close range of the caster must succeed on a Will save or be frozen in time as the Time Freeze talent for 1d4 rounds.', '25: All creatures within close range of the target must succeed on a Will save or be slowed (as the Slow (time) ability) for 1d6 rounds.', '26: Each round for 1d6 rounds, the caster returns to the location where he began his previous turn. This effect functions even across planar boundaries.', '27: All creatures within close range must make Will saves or be removed from time for 1 round, then reappear in their previous spaces. If those spaces are occupied, they are shunted to the nearest open spaces in a random direction.', '28: The caster gains knowledge of one talent of his choice from this sphere for 1 round.', '29: The metabolism of the caster speeds up, doubling natural healing and multiplying daily food and water requirements by 4 for a number of days equal to caster level.', '30: (Combat) For 1 round per caster level, for allied creatures, all squares within close range of the caster cost double the normal movement cost and 5-foot steps are impossible.', '31: The caster loses his turn, but may take two turns of actions on his next turn.', '32: At a random time within the next 1d4 days, the caster is visited by an older version of themselves, transported from the future to speak to them for 1d4 minutes. This functions as the divination spell, except there is no chance of failure (provided, of course, that the older version of the caster would not intentionally lie to them).', '33: All creatures within close range must succeed on a Will save or age 1 age category per 5 caster levels as the Age talent for 1 minute per caster level.', '34: All allied creatures within close range of the caster gain a 5 ft. + 5 ft. per 5 caster level penalty to all movement speeds for 10 minutes per caster level. This cannot reduce a movement speed below 5 ft.', '35: All creatures within close range of the target must succeed on a Will save or be frozen in time as the Time Freeze talent for 1d4 rounds.', '36: All hostile creatures within close range of the target may take an additional standard action immediately, but are dazed for 1 round immediately afterword if they do.', '37: The spell point cost of the effect increases by 1d4. If the caster does not have enough spell points, he is instead dazed until the end of his next turn.', '38: The next time the caster sleeps, he requires twice the amount of time to receive the normal benefits of the rest.', '39: (Combat) The caster is nauseated for 1 round.', '40: For 1 round per caster level, the caster stutters rapidly through time, imposing a 50% miss chance on all attacks made by or targeting him. Additionally, all effects originating from or including the caster that do not have an attack roll suffer a 50% failure chance.', '41: (Combat) For 1 round per caster level, for hostile creatures, all squares within close range of the caster cost double the normal movement cost and 5-foot steps are impossible.', '42: The caster loses knowledge of any of the talents used in the effect (but not the base sphere) for the length of the effect (minimum 1 round).', '43: The caster is exhausted.', '44: All allied creatures within close range of the caster must succeed on a Will save or be slowed for 1d6 rounds.', '45: All creatures within close range of the caster take a 5 ft. + 5 ft. per 5 caster level penalty to all movement speeds for 10 minutes per caster level. This cannot reduce a movement speed below 5 ft. per round.', '46: (Combat) For 1 round per caster level, each hostile creature that ends its turn within close range of the caster must succeed on a Will save or be returned to the location it began its turn in. This effect does not cross planar boundaries.', '47: All actions since the end of the previous turn of the caster are undone, though any spell points spent on this effect are still lost. The caster is dazed for 1 round.', '48: Effect receives a -4 penalty to caster level (minimum 1).', '49: All hostile creatures within close range of the caster must succeed on a Will save or be frozen in time as the Time Freeze talent for 1d4 rounds.', '50: Roll twice and choose the result. Ignore any results that require rerolls. If both rolls thus ignored, there is no effect.', '51: All creatures within close range of the target may take an additional standard action immediately, but are dazed for 1 round immediately afterword if they do.', '52: All ongoing effects on the caster have their remaining durations doubled.', '53: All hostile creatures within close range of the caster gain a 5 ft. + 5 ft. per 5 caster level penalty to all movement speeds for 10 minutes per caster level. This cannot reduce a movement speed below 5 ft. per round.', '54: (Combat) For 1 round per caster level, each creature that ends its turn within close range of the caster must succeed on a Will save or be returned to the location it began its turn in. This effect does not cross planar boundaries. If this space is occupied, they are shunted to the nearest open space.', '55: For 1 minute per caster level, non-magical objects the caster touches temporarily age. Food becomes rotten, metal tarnished, cloth worn and threadbare. All objects return to their previous state when this effect ends. The change has no effect on hardness, hit points, or other attributes.', '56: The caster takes untyped nonlethal damage equal to caster level. This damage does not force concentration checks to cast or maintain sphere effects or spells.', '57: The caster must take an additional standard action immediately, but is dazed for 1 round afterword.', '58: Roll twice and take both results. Ignore any results that require rerolls. If both rolls thus ignored, there is no effect.', '59: The caster makes a single magical check against all Time sphere effects within medium range to dispel them as if using the Counterspell feat. This is resolved before the triggering effect.', '60: The caster gains a 5 ft. + 5 ft. per 5 caster level enhancement bonus to all movement speeds for 10 minutes per caster level.', '61: (Combat) For 1 round per caster level, each allied creature that ends its turn within close range of the caster must succeed on a Will save or be returned to the location it began its turn in. This effect does not cross planar boundaries.', '62: All creatures within close range of the target must succeed on a Will save or be hasted (as the Haste (time) ability) for 1d6 rounds.', '63: The next time the caster sleeps, he receives the full benefit of a full night of rest in half the normal time.', '64: The casting time decreases by 1 step.', '65: All hostile creatures within close range of the caster may take an additional standard action immediately, but are dazed for 1 round immediately afterword if they do.', '66: All allied creatures within medium range shift randomly and rapidly though time, imposing a 25% miss chance on all attacks against them. This lasts for 1d6 rounds.', '67: The caster gets younger by 1 age category per 5 caster levels as the Age talent for 10 minutes per caster level.', '68: All hostile creatures within close range must make Will saves or be removed from time for 1 round, then reappear in their previous spaces. If those spaces are occupied, they are shunted to the nearest open spaces in a random directions.', '69: The caster is removed from time for 1d6 rounds, then reappears in his previous space. If that space is occupied, the caster is shunted to the nearest open space in a random direction.', '70: All creatures within close range of the caster must succeed on a Will save or be slowed (as the Slow (time) ability) for 1d6 rounds.', '71: For 1 minute, the perception of time by the caster slows, allowing him to concentrate on a single effect as a free action each round.', '72: The target must succeed on a Will save or be frozen in time as the Time Freeze talent for 1d4 rounds.', '73: The effect fails, but the action is not lost. Spell points or spell slots spent are lost.', '74: All hostile creatures within close range of the caster must succeed on a Will save or be slowed for 1d6 rounds.', '75: (Combat) For 1 round per caster level, all squares within close range of the caster cost double the normal movement cost and 5-foot steps are impossible.', '76: The casting time increases by 1 step.', '77: For 1d6 rounds, all damage the caster is dealt is delayed. After this time expires, all delayed damage is immediately dealt to the caster.', '78: All ongoing effects on the target or creatures in the target area have their remaining durations doubled.', '79: (Combat) For 1 round per caster level, all squares within close range of the caster cost half the normal movement cost.', '80: All hostile creatures within close range of the target must succeed on a Will save or be slowed for 1d6 rounds.', '81: The caster loses access to this sphere for 1d6 rounds.', '82: All ongoing effects on the target or creatures in the target area have their remaining durations halved.', '83: All creatures within close range must succeed on a Will save or get younger by 1 age category per 5 caster levels as the Age talent for 1 minute per caster level.', '84: At the beginning of the next turn of the caster, he is restored to the condition and location he was in at the beginning of the current turn. This may end or restore any ongoing effects (such as poison, disease, etc.).', '85: The metabolism of the caster slows, halving natural healing and reducing daily food and water requirements to 1/4 normal for a number of days equal to caster level.', '86: The caster ages 1 age category per 5 caster levels as the Age talent for 10 minutes per caster level.', '87: All creatures within close range of the caster must succeed on a Will save or be hasted (as the Haste (time) ability) for 1d6 rounds.', '88: (Combat) The caster is dazed for 1 round.', '89: For 1 minute the creature or creatures affected by the triggering effect have their perception of time slowed, allowing them to concentrate on a single effect as a free action each round.', '90: The spell point cost of the effect decreases by 1. If the effect did not require any spell points, the caster instead gains 1 temporary spell point that expires at the end of his next turn.', '91: An area out to long range of the caster is frozen in time. Creatures within this area perceive 1 minute of time as passing, but no effects of any kind occur. Durations do not elapse and no actions of any kind can be taken. Creatures outside this area are unaware of the experience of those affected.', '92: Effect receives a +2 bonus to caster level.', '93: (Combat) The caster is stunned for 1 round.', '94: The allies of the caster within close range must make Will saves or be removed from time for 1 round, then reappears in their previous spaces. If those spaces are occupied, they are shunted to the nearest open spaces in a random directions.', '95: The spell point cost of the effect increases by 1. If the caster does not have enough spell points, he is instead staggered until the end of his next turn.', '96: The caster sees into the future and gains instantaneous knowledge of what he will have for breakfast tomorrow.', '97: The caster has their mind inhabited by that of their childhood self for 1 minute per caster level. Aside from behavioral changes, the caster also gains 2 negative levels that cannot be removed for this duration, as their younger self is not as adept at using their power as the older self is. These negative levels cannot kill the character if they would reduce the target to 0 or fewer levels.', '98: The caster and all creatures within close range become looped in time. The next round they may act normally. The round after that, they must perform the exact same actions again; traveling the same direction and number of squares (to the best of their ability), attack, use the same spell or item, etc.', '99: For 1d6 rounds, affected creatures stutter rapidly through time, imposing a 50% miss chance on all attacks made by or targeting them. Additionally, all effects originating from or targeting the creatures that do not have an attack roll suffer a 50% failure chance.', '100: All creatures within close range of the caster may take an additional standard action immediately, but are dazed for 1 round immediately afterword if they do.'];
@@ -492,106 +556,106 @@ Time Thieves are Rogues who have learned how to steal time itself from their opp
 [[/html]]
 
 ++++ Wild Magic Table
-||~ d100 ||~ Result || 
-|| 1 || All hostile creatures within long range shift randomly and rapidly though time, imposing a 50% miss chance on all attacks against them. This lasts for 1d6 rounds. || 
-|| 2 || The caster sees a glimpse of the ancient past. The next time he is called upon to make a Knowledge (history) check (before 1 day per caster level passes), he does so with an insight bonus equal to the caster level. || 
-|| 3 || For 1 minute, affected creatures may not concentrate on any effect. || 
-|| 4 || The caster takes a number of points of ability damage to his casting attribute equal to the effect’s caster level/4 (minimum 1) even if he would normally be immune to ability damage. || 
-|| 5 || The caster makes a single magical check against all Time sphere effects within medium range to dispel them as if using the Counterspell feat. This is resolved after the triggering effect. || 
-|| 6 || The casting time increases by 2 steps. || 
-|| 7 || All allied creatures within close range of the target must succeed on a Will save or be slowed for 1d6 rounds. || 
-|| 8 || The effect fails and the action is lost. Spell points or spell slots are not lost. || 
-|| 9 || The effect fails and the action is lost. Spell points or spell slots are lost. || 
-|| 10 || The caster is frozen in time as the Time Freeze talent for 1d4 rounds. || 
-|| 11 || All ongoing effects on the caster have their remaining durations halved. || 
-|| 12 || All allied creatures within close range of the caster may take an additional standard action immediately, but are dazed for 1 round immediately afterword if they do. || 
-|| 13 || All creatures within close range of the caster gain a 5 ft. + 5 ft. per 5 caster level enhancement bonus to all movement speeds for 10 minutes per caster level. || 
-|| 14 || The casting time decreases by 2 steps. || 
-|| 15 || For 1 minute, the caster may not concentrate on any effect. || 
-|| 16 || Roll again on the Universal wild magic table. || 
-|| 17 || The caster is fatigued. || 
-|| 18 || The caster’s perception is stuck in the past, imposing a -4 penalty on initiative and a -2 penalty on attack rolls and Will saves for 1 round per caster level. || 
-|| 19 || All creatures within long range shift randomly and rapidly though time, imposing a 50% miss chance on all attacks and effects targeting them. This lasts for 1d6 rounds. || 
-|| 20 || The caster takes 1d4 Constitution damage even if he would normally be immune to ability damage. Creatures without a Constitution score instead take Charisma damage. || 
+||~ d100 ||~ Result ||
+|| 1 || All hostile creatures within long range shift randomly and rapidly though time, imposing a 50% miss chance on all attacks against them. This lasts for 1d6 rounds. ||
+|| 2 || The caster sees a glimpse of the ancient past. The next time he is called upon to make a Knowledge (history) check (before 1 day per caster level passes), he does so with an insight bonus equal to the caster level. ||
+|| 3 || For 1 minute, affected creatures may not concentrate on any effect. ||
+|| 4 || The caster takes a number of points of ability damage to his casting attribute equal to the effect’s caster level/4 (minimum 1) even if he would normally be immune to ability damage. ||
+|| 5 || The caster makes a single magical check against all Time sphere effects within medium range to dispel them as if using the Counterspell feat. This is resolved after the triggering effect. ||
+|| 6 || The casting time increases by 2 steps. ||
+|| 7 || All allied creatures within close range of the target must succeed on a Will save or be slowed for 1d6 rounds. ||
+|| 8 || The effect fails and the action is lost. Spell points or spell slots are not lost. ||
+|| 9 || The effect fails and the action is lost. Spell points or spell slots are lost. ||
+|| 10 || The caster is frozen in time as the Time Freeze talent for 1d4 rounds. ||
+|| 11 || All ongoing effects on the caster have their remaining durations halved. ||
+|| 12 || All allied creatures within close range of the caster may take an additional standard action immediately, but are dazed for 1 round immediately afterword if they do. ||
+|| 13 || All creatures within close range of the caster gain a 5 ft. + 5 ft. per 5 caster level enhancement bonus to all movement speeds for 10 minutes per caster level. ||
+|| 14 || The casting time decreases by 2 steps. ||
+|| 15 || For 1 minute, the caster may not concentrate on any effect. ||
+|| 16 || Roll again on the Universal wild magic table. ||
+|| 17 || The caster is fatigued. ||
+|| 18 || The caster’s perception is stuck in the past, imposing a -4 penalty on initiative and a -2 penalty on attack rolls and Will saves for 1 round per caster level. ||
+|| 19 || All creatures within long range shift randomly and rapidly though time, imposing a 50% miss chance on all attacks and effects targeting them. This lasts for 1d6 rounds. ||
+|| 20 || The caster takes 1d4 Constitution damage even if he would normally be immune to ability damage. Creatures without a Constitution score instead take Charisma damage. ||
 || 21 || The weather within a 1-mile radius area centered on the caster suddenly changes to whatever it was 6 months previously for 1 day per caster level. This effect remains stationary. ||
-|| 22 || (Combat) For 10 rounds the caster’s personal timestream is scrambled. At the start of each turn he must rolls 1d6 and apply the result to that round: 1 - dazed, 2 - gains an extra standard action, 3 - staggered for 1 round, 4 - gains an extra move action, 5 - loses his standard action, but may take 2 swift actions, 6 - gains an extra standard action, but loses a move and a swift action. || 
-|| 23 || All creatures within close range of the caster must succeed on a Will save or be frozen in time as the Time Freeze talent for 1d4 rounds. || 
-|| 24 || All allied creatures within close range of the caster must succeed on a Will save or be frozen in time as the Time Freeze talent for 1d4 rounds. || 
-|| 25 || All creatures within close range of the target must succeed on a Will save or be slowed (as the Slow (time) ability) for 1d6 rounds. || 
-|| 26 || Each round for 1d6 rounds, the caster returns to the location where he began his previous turn. This effect functions even across planar boundaries. || 
-|| 27 || All creatures within close range must make Will saves or be removed from time for 1 round, then reappear in their previous spaces. If those spaces are occupied, they are shunted to the nearest open spaces in a random direction. || 
-|| 28 || The caster gains knowledge of one talent of his choice from this sphere for 1 round. || 
-|| 29 || The caster’s metabolism speeds up, doubling natural healing and multiplying daily food and water requirements by 4 for a number of days equal to caster level. || 
-|| 30 || (Combat) For 1 round per caster level, for allied creatures, all squares within close range of the caster cost double the normal movement cost and 5-foot steps are impossible. || 
-|| 31 || The caster loses his turn, but may take two turns of actions on his next turn. || 
-|| 32 || At a random time within the next 1d4 days, the caster is visited by an older version of themselves, transported from the future to speak to them for 1d4 minutes. This functions as the divination spell, except there is no chance of failure (provided, of course, that the older version of the caster would not intentionally lie to them). || 
-|| 33 || All creatures within close range must succeed on a Will save or age 1 age category per 5 caster levels as the Age talent for 1 minute per caster level. || 
-|| 34 || All allied creatures within close range of the caster gain a 5 ft. + 5 ft. per 5 caster level penalty to all movement speeds for 10 minutes per caster level. This cannot reduce a movement speed below 5 ft. || 
-|| 35 || All creatures within close range of the target must succeed on a Will save or be frozen in time as the Time Freeze talent for 1d4 rounds. || 
-|| 36 || All hostile creatures within close range of the target may take an additional standard action immediately, but are dazed for 1 round immediately afterword if they do. || 
-|| 37 || The spell point cost of the effect increases by 1d4. If the caster does not have enough spell points, he is instead dazed until the end of his next turn. || 
-|| 38 || The next time the caster sleeps, he requires twice the amount of time to receive the normal benefits of the rest. || 
-|| 39 || (Combat) The caster is nauseated for 1 round. || 
-|| 40 || For 1 round per caster level, the caster stutters rapidly through time, imposing a 50% miss chance on all attacks made by or targeting him. Additionally, all effects originating from or including the caster that do not have an attack roll suffer a 50% failure chance. || 
-|| 41 || (Combat) For 1 round per caster level, for hostile creatures, all squares within close range of the caster cost double the normal movement cost and 5-foot steps are impossible. || 
-|| 42 || The caster loses knowledge of any of the talents used in the effect (but not the base sphere) for the length of the effect (minimum 1 round). || 
-|| 43 || The caster is exhausted. || 
-|| 44 || All allied creatures within close range of the caster must succeed on a Will save or be slowed for 1d6 rounds. || 
-|| 45 || All creatures within close range of the caster take a 5 ft. + 5 ft. per 5 caster level penalty to all movement speeds for 10 minutes per caster level. This cannot reduce a movement speed below 5 ft. per round. || 
-|| 46 || (Combat) For 1 round per caster level, each hostile creature that ends its turn within close range of the caster must succeed on a Will save or be returned to the location it began its turn in. This effect does not cross planar boundaries. || 
-|| 47 || All actions since the end of the caster’s previous turn are undone, though any spell points spent on this effect are still lost. The caster is dazed for 1 round. || 
-|| 48 || Effect receives a -4 penalty to caster level (minimum 1). || 
-|| 49 || All hostile creatures within close range of the caster must succeed on a Will save or be frozen in time as the Time Freeze talent for 1d4 rounds. || 
-|| 50 || Roll twice and choose the result. Ignore any results that require rerolls. If both rolls thus ignored, there is no effect. || 
-|| 51 || All creatures within close range of the target may take an additional standard action immediately, but are dazed for 1 round immediately afterword if they do. || 
-|| 52 || All ongoing effects on the caster have their remaining durations doubled. || 
-|| 53 || All hostile creatures within close range of the caster gain a 5 ft. + 5 ft. per 5 caster level penalty to all movement speeds for 10 minutes per caster level. This cannot reduce a movement speed below 5 ft. per round. || 
-|| 54 || (Combat) For 1 round per caster level, each creature that ends its turn within close range of the caster must succeed on a Will save or be returned to the location it began its turn in. This effect does not cross planar boundaries. If this space is occupied, they are shunted to the nearest open space. || 
-|| 55 || For 1 minute per caster level, non-magical objects the caster touches temporarily age. Food becomes rotten, metal tarnished, cloth worn and threadbare. All objects return to their previous state when this effect ends. The change has no effect on hardness, hit points, or other attributes. || 
-|| 56 || The caster takes untyped nonlethal damage equal to caster level. This damage does not force concentration checks to cast or maintain sphere effects or spells. || 
-|| 57 || The caster must take an additional standard action immediately, but is dazed for 1 round afterword. || 
-|| 58 || Roll twice and take both results. Ignore any results that require rerolls. If both rolls thus ignored, there is no effect. || 
-|| 59 || The caster makes a single magical check against all Time sphere effects within medium range to dispel them as if using the Counterspell feat. This is resolved before the triggering effect. || 
-|| 60 || The caster gains a 5 ft. + 5 ft. per 5 caster level enhancement bonus to all movement speeds for 10 minutes per caster level. || 
-|| 61 || (Combat) For 1 round per caster level, each allied creature that ends its turn within close range of the caster must succeed on a Will save or be returned to the location it began its turn in. This effect does not cross planar boundaries. || 
-|| 62 || All creatures within close range of the target must succeed on a Will save or be hasted (as the Haste (time) ability) for 1d6 rounds. || 
-|| 63 || The next time the caster sleeps, he receives the full benefit of a night’s rest in half the normal time. || 
-|| 64 || The casting time decreases by 1 step. || 
-|| 65 || All hostile creatures within close range of the caster may take an additional standard action immediately, but are dazed for 1 round immediately afterword if they do. || 
-|| 66 || All allied creatures within medium range shift randomly and rapidly though time, imposing a 25% miss chance on all attacks against them. This lasts for 1d6 rounds. || 
-|| 67 || The caster gets younger by 1 age category per 5 caster levels as the Age talent for 10 minutes per caster level. || 
-|| 68 || All hostile creatures within close range must make Will saves or be removed from time for 1 round, then reappear in their previous spaces. If those spaces are occupied, they are shunted to the nearest open spaces in a random directions. || 
-|| 69 || The caster is removed from time for 1d6 rounds, then reappears in his previous space. If that space is occupied, the caster is shunted to the nearest open space in a random direction. || 
-|| 70 || All creatures within close range of the caster must succeed on a Will save or be slowed (as the Slow (time) ability) for 1d6 rounds. || 
-|| 71 || For 1 minute, the caster’s perception of time slows, allowing him to concentrate on a single effect as a free action each round. || 
-|| 72 || The target must succeed on a Will save or be frozen in time as the Time Freeze talent for 1d4 rounds. || 
-|| 73 || The effect fails, but the action is not lost. Spell points or spell slots spent are lost. || 
-|| 74 || All hostile creatures within close range of the caster must succeed on a Will save or be slowed for 1d6 rounds. || 
-|| 75 || (Combat) For 1 round per caster level, all squares within close range of the caster cost double the normal movement cost and 5-foot steps are impossible. || 
-|| 76 || The casting time increases by 1 step. || 
+|| 22 || (Combat) For 10 rounds the caster’s personal timestream is scrambled. At the start of each turn he must rolls 1d6 and apply the result to that round: 1 - dazed, 2 - gains an extra standard action, 3 - staggered for 1 round, 4 - gains an extra move action, 5 - loses his standard action, but may take 2 swift actions, 6 - gains an extra standard action, but loses a move and a swift action. ||
+|| 23 || All creatures within close range of the caster must succeed on a Will save or be frozen in time as the Time Freeze talent for 1d4 rounds. ||
+|| 24 || All allied creatures within close range of the caster must succeed on a Will save or be frozen in time as the Time Freeze talent for 1d4 rounds. ||
+|| 25 || All creatures within close range of the target must succeed on a Will save or be slowed (as the Slow (time) ability) for 1d6 rounds. ||
+|| 26 || Each round for 1d6 rounds, the caster returns to the location where he began his previous turn. This effect functions even across planar boundaries. ||
+|| 27 || All creatures within close range must make Will saves or be removed from time for 1 round, then reappear in their previous spaces. If those spaces are occupied, they are shunted to the nearest open spaces in a random direction. ||
+|| 28 || The caster gains knowledge of one talent of his choice from this sphere for 1 round. ||
+|| 29 || The caster’s metabolism speeds up, doubling natural healing and multiplying daily food and water requirements by 4 for a number of days equal to caster level. ||
+|| 30 || (Combat) For 1 round per caster level, for allied creatures, all squares within close range of the caster cost double the normal movement cost and 5-foot steps are impossible. ||
+|| 31 || The caster loses his turn, but may take two turns of actions on his next turn. ||
+|| 32 || At a random time within the next 1d4 days, the caster is visited by an older version of themselves, transported from the future to speak to them for 1d4 minutes. This functions as the divination spell, except there is no chance of failure (provided, of course, that the older version of the caster would not intentionally lie to them). ||
+|| 33 || All creatures within close range must succeed on a Will save or age 1 age category per 5 caster levels as the Age talent for 1 minute per caster level. ||
+|| 34 || All allied creatures within close range of the caster gain a 5 ft. + 5 ft. per 5 caster level penalty to all movement speeds for 10 minutes per caster level. This cannot reduce a movement speed below 5 ft. ||
+|| 35 || All creatures within close range of the target must succeed on a Will save or be frozen in time as the Time Freeze talent for 1d4 rounds. ||
+|| 36 || All hostile creatures within close range of the target may take an additional standard action immediately, but are dazed for 1 round immediately afterword if they do. ||
+|| 37 || The spell point cost of the effect increases by 1d4. If the caster does not have enough spell points, he is instead dazed until the end of his next turn. ||
+|| 38 || The next time the caster sleeps, he requires twice the amount of time to receive the normal benefits of the rest. ||
+|| 39 || (Combat) The caster is nauseated for 1 round. ||
+|| 40 || For 1 round per caster level, the caster stutters rapidly through time, imposing a 50% miss chance on all attacks made by or targeting him. Additionally, all effects originating from or including the caster that do not have an attack roll suffer a 50% failure chance. ||
+|| 41 || (Combat) For 1 round per caster level, for hostile creatures, all squares within close range of the caster cost double the normal movement cost and 5-foot steps are impossible. ||
+|| 42 || The caster loses knowledge of any of the talents used in the effect (but not the base sphere) for the length of the effect (minimum 1 round). ||
+|| 43 || The caster is exhausted. ||
+|| 44 || All allied creatures within close range of the caster must succeed on a Will save or be slowed for 1d6 rounds. ||
+|| 45 || All creatures within close range of the caster take a 5 ft. + 5 ft. per 5 caster level penalty to all movement speeds for 10 minutes per caster level. This cannot reduce a movement speed below 5 ft. per round. ||
+|| 46 || (Combat) For 1 round per caster level, each hostile creature that ends its turn within close range of the caster must succeed on a Will save or be returned to the location it began its turn in. This effect does not cross planar boundaries. ||
+|| 47 || All actions since the end of the caster’s previous turn are undone, though any spell points spent on this effect are still lost. The caster is dazed for 1 round. ||
+|| 48 || Effect receives a -4 penalty to caster level (minimum 1). ||
+|| 49 || All hostile creatures within close range of the caster must succeed on a Will save or be frozen in time as the Time Freeze talent for 1d4 rounds. ||
+|| 50 || Roll twice and choose the result. Ignore any results that require rerolls. If both rolls thus ignored, there is no effect. ||
+|| 51 || All creatures within close range of the target may take an additional standard action immediately, but are dazed for 1 round immediately afterword if they do. ||
+|| 52 || All ongoing effects on the caster have their remaining durations doubled. ||
+|| 53 || All hostile creatures within close range of the caster gain a 5 ft. + 5 ft. per 5 caster level penalty to all movement speeds for 10 minutes per caster level. This cannot reduce a movement speed below 5 ft. per round. ||
+|| 54 || (Combat) For 1 round per caster level, each creature that ends its turn within close range of the caster must succeed on a Will save or be returned to the location it began its turn in. This effect does not cross planar boundaries. If this space is occupied, they are shunted to the nearest open space. ||
+|| 55 || For 1 minute per caster level, non-magical objects the caster touches temporarily age. Food becomes rotten, metal tarnished, cloth worn and threadbare. All objects return to their previous state when this effect ends. The change has no effect on hardness, hit points, or other attributes. ||
+|| 56 || The caster takes untyped nonlethal damage equal to caster level. This damage does not force concentration checks to cast or maintain sphere effects or spells. ||
+|| 57 || The caster must take an additional standard action immediately, but is dazed for 1 round afterword. ||
+|| 58 || Roll twice and take both results. Ignore any results that require rerolls. If both rolls thus ignored, there is no effect. ||
+|| 59 || The caster makes a single magical check against all Time sphere effects within medium range to dispel them as if using the Counterspell feat. This is resolved before the triggering effect. ||
+|| 60 || The caster gains a 5 ft. + 5 ft. per 5 caster level enhancement bonus to all movement speeds for 10 minutes per caster level. ||
+|| 61 || (Combat) For 1 round per caster level, each allied creature that ends its turn within close range of the caster must succeed on a Will save or be returned to the location it began its turn in. This effect does not cross planar boundaries. ||
+|| 62 || All creatures within close range of the target must succeed on a Will save or be hasted (as the Haste (time) ability) for 1d6 rounds. ||
+|| 63 || The next time the caster sleeps, he receives the full benefit of a night’s rest in half the normal time. ||
+|| 64 || The casting time decreases by 1 step. ||
+|| 65 || All hostile creatures within close range of the caster may take an additional standard action immediately, but are dazed for 1 round immediately afterword if they do. ||
+|| 66 || All allied creatures within medium range shift randomly and rapidly though time, imposing a 25% miss chance on all attacks against them. This lasts for 1d6 rounds. ||
+|| 67 || The caster gets younger by 1 age category per 5 caster levels as the Age talent for 10 minutes per caster level. ||
+|| 68 || All hostile creatures within close range must make Will saves or be removed from time for 1 round, then reappear in their previous spaces. If those spaces are occupied, they are shunted to the nearest open spaces in a random directions. ||
+|| 69 || The caster is removed from time for 1d6 rounds, then reappears in his previous space. If that space is occupied, the caster is shunted to the nearest open space in a random direction. ||
+|| 70 || All creatures within close range of the caster must succeed on a Will save or be slowed (as the Slow (time) ability) for 1d6 rounds. ||
+|| 71 || For 1 minute, the caster’s perception of time slows, allowing him to concentrate on a single effect as a free action each round. ||
+|| 72 || The target must succeed on a Will save or be frozen in time as the Time Freeze talent for 1d4 rounds. ||
+|| 73 || The effect fails, but the action is not lost. Spell points or spell slots spent are lost. ||
+|| 74 || All hostile creatures within close range of the caster must succeed on a Will save or be slowed for 1d6 rounds. ||
+|| 75 || (Combat) For 1 round per caster level, all squares within close range of the caster cost double the normal movement cost and 5-foot steps are impossible. ||
+|| 76 || The casting time increases by 1 step. ||
 || 77 || For 1d6 rounds, all damage the caster is dealt is delayed. After this time expires, all delayed damage is immediately dealt to the caster. ||
-|| 78 || All ongoing effects on the target or creatures in the target area have their remaining durations doubled. || 
-|| 79 || (Combat) For 1 round per caster level, all squares within close range of the caster cost half the normal movement cost. || 
-|| 80 || All hostile creatures within close range of the target must succeed on a Will save or be slowed for 1d6 rounds. || 
-|| 81 || The caster loses access to this sphere for 1d6 rounds. || 
-|| 82 || All ongoing effects on the target or creatures in the target area have their remaining durations halved. || 
-|| 83 || All creatures within close range must succeed on a Will save or get younger by 1 age category per 5 caster levels as the Age talent for 1 minute per caster level. || 
-|| 84 || At the beginning of the caster’s next turn, he is restored to the condition and location he was in at the beginning of the current turn. This may end or restore any ongoing effects (such as poison, disease, etc.). || 
-|| 85 || The caster’s metabolism slows, halving natural healing and reducing daily food and water requirements to 1/4 normal for a number of days equal to caster level. || 
-|| 86 || The caster ages 1 age category per 5 caster levels as the Age talent for 10 minutes per caster level. || 
-|| 87 || All creatures within close range of the caster must succeed on a Will save or be hasted (as the Haste (time) ability) for 1d6 rounds. || 
-|| 88 || (Combat) The caster is dazed for 1 round. || 
-|| 89 || For 1 minute the creature or creatures affected by the triggering effect have their perception of time slowed, allowing them to concentrate on a single effect as a free action each round. || 
-|| 90 || The spell point cost of the effect decreases by 1. If the effect did not require any spell points, the caster instead gains 1 temporary spell point that expires at the end of his next turn. || 
-|| 91 || An area out to long range of the caster is frozen in time. Creatures within this area perceive 1 minute of time as passing, but no effects of any kind occur. Durations do not elapse and no actions of any kind can be taken. Creatures outside this area are unaware of the experience of those affected. || 
-|| 92 || Effect receives a +2 bonus to caster level. || 
-|| 93 || (Combat) The caster is stunned for 1 round. || 
-|| 94 || The caster’s allies within close range must make Will saves or be removed from time for 1 round, then reappears in their previous spaces. If those spaces are occupied, they are shunted to the nearest open spaces in a random directions. || 
-|| 95 || The spell point cost of the effect increases by 1. If the caster does not have enough spell points, he is instead staggered until the end of his next turn. || 
-|| 96 || The caster sees into the future and gains instantaneous knowledge of what he will have for breakfast tomorrow. || 
-|| 97 || The caster has their mind inhabited by that of their childhood self for 1 minute per caster level. Aside from behavioral changes, the caster also gains 2 negative levels that cannot be removed for this duration, as their younger self is not as adept at using their power as the older self is. These negative levels cannot kill the character if they would reduce the target to 0 or fewer levels. || 
-|| 98 || The caster and all creatures within close range become looped in time. The next round they may act normally. The round after that, they must perform the exact same actions again; traveling the same direction and number of squares (to the best of their ability), attack, use the same spell or item, etc. || 
-|| 99 || For 1d6 rounds, affected creatures stutter rapidly through time, imposing a 50% miss chance on all attacks made by or targeting them. Additionally, all effects originating from or targeting the creatures that do not have an attack roll suffer a 50% failure chance. || 
+|| 78 || All ongoing effects on the target or creatures in the target area have their remaining durations doubled. ||
+|| 79 || (Combat) For 1 round per caster level, all squares within close range of the caster cost half the normal movement cost. ||
+|| 80 || All hostile creatures within close range of the target must succeed on a Will save or be slowed for 1d6 rounds. ||
+|| 81 || The caster loses access to this sphere for 1d6 rounds. ||
+|| 82 || All ongoing effects on the target or creatures in the target area have their remaining durations halved. ||
+|| 83 || All creatures within close range must succeed on a Will save or get younger by 1 age category per 5 caster levels as the Age talent for 1 minute per caster level. ||
+|| 84 || At the beginning of the caster’s next turn, he is restored to the condition and location he was in at the beginning of the current turn. This may end or restore any ongoing effects (such as poison, disease, etc.). ||
+|| 85 || The caster’s metabolism slows, halving natural healing and reducing daily food and water requirements to 1/4 normal for a number of days equal to caster level. ||
+|| 86 || The caster ages 1 age category per 5 caster levels as the Age talent for 10 minutes per caster level. ||
+|| 87 || All creatures within close range of the caster must succeed on a Will save or be hasted (as the Haste (time) ability) for 1d6 rounds. ||
+|| 88 || (Combat) The caster is dazed for 1 round. ||
+|| 89 || For 1 minute the creature or creatures affected by the triggering effect have their perception of time slowed, allowing them to concentrate on a single effect as a free action each round. ||
+|| 90 || The spell point cost of the effect decreases by 1. If the effect did not require any spell points, the caster instead gains 1 temporary spell point that expires at the end of his next turn. ||
+|| 91 || An area out to long range of the caster is frozen in time. Creatures within this area perceive 1 minute of time as passing, but no effects of any kind occur. Durations do not elapse and no actions of any kind can be taken. Creatures outside this area are unaware of the experience of those affected. ||
+|| 92 || Effect receives a +2 bonus to caster level. ||
+|| 93 || (Combat) The caster is stunned for 1 round. ||
+|| 94 || The caster’s allies within close range must make Will saves or be removed from time for 1 round, then reappears in their previous spaces. If those spaces are occupied, they are shunted to the nearest open spaces in a random directions. ||
+|| 95 || The spell point cost of the effect increases by 1. If the caster does not have enough spell points, he is instead staggered until the end of his next turn. ||
+|| 96 || The caster sees into the future and gains instantaneous knowledge of what he will have for breakfast tomorrow. ||
+|| 97 || The caster has their mind inhabited by that of their childhood self for 1 minute per caster level. Aside from behavioral changes, the caster also gains 2 negative levels that cannot be removed for this duration, as their younger self is not as adept at using their power as the older self is. These negative levels cannot kill the character if they would reduce the target to 0 or fewer levels. ||
+|| 98 || The caster and all creatures within close range become looped in time. The next round they may act normally. The round after that, they must perform the exact same actions again; traveling the same direction and number of squares (to the best of their ability), attack, use the same spell or item, etc. ||
+|| 99 || For 1d6 rounds, affected creatures stutter rapidly through time, imposing a 50% miss chance on all attacks made by or targeting them. Additionally, all effects originating from or targeting the creatures that do not have an attack roll suffer a 50% failure chance. ||
 || 100 || All creatures within close range of the caster may take an additional standard action immediately, but are dazed for 1 round immediately afterword if they do. ||
 [[/tab]]
 [[tab Original]]
