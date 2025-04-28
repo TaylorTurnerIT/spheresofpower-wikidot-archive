@@ -9,11 +9,11 @@ title:Warp
 .noselect {
   -webkit-touch-callout: none; /* iOS Safari */
     -webkit-user-select: none; /* Safari */
-     -khtml-user-select: none; /* Konqueror HTML */
-       -moz-user-select: none; /* Firefox */
-        -ms-user-select: none; /* Internet Explorer/Edge */
-            user-select: none; /* Non-prefixed version, currently
-                                  supported by Chrome and Opera */
+ 	-khtml-user-select: none; /* Konqueror HTML */
+   	-moz-user-select: none; /* Firefox */
+    	-ms-user-select: none; /* Internet Explorer/Edge */
+        	user-select: none; /* Non-prefixed version, currently
+                              	supported by Chrome and Opera */
 }
 [[/module]]
 
@@ -39,65 +39,81 @@ You can spend a standard action to teleport yourself and up to a heavy load to a
 Talents marked (space) grant you ways of bending and folding space. Bending space requires a standard action, and you must be touching the target or location to be affected.
 ----
 ++ Warp Talents
+[[div style="padding: 0 2%; border: 1px solid black"]]
 ++++ Distant Teleport
 When you spend a spell point to increase the range of your teleport, the range increases to long instead of medium.
-
+[[/div]]
+[[div style="padding: 0 2%; border: 1px solid black"]]
 ++++ Distortion Aura [DbH]
 When you use a (space) talent which affects an area (such as Dimensional Lock, Flex Space, or Looped Space), you may choose to change the affected area to a 10-foot radius around you. This radius may be increased by 5 feet for every 5 caster levels you possess and follows you when you move. If you move so that a creature enters the aura, they are affected as if they had entered the area themself.
-
+[[/div]]
+[[div style="padding: 0 2%; border: 1px solid black"]]
 ++++ Emergency Teleport
 You may spend a spell point to perform a teleport as an immediate action. The range is decreased to 5 feet per 2 caster levels (minimum 5 feet) and cannot be coupled with talents that would increase its range. If used to avoid an attack or area effect (or to move the attacker), this grants the defender evasion and a dodge bonus to AC and Reflex saves equal to half your caster level (minimum 1). You cannot touch a target as part of this teleport, but you may affect another creature if you are already touching them.
-
+[[/div]]
+[[div style="padding: 0 2%; border: 1px solid black"]]
 ++++ Imbue Teleport
 When you would teleport a target, you may imbue them with the ability to teleport instead of immediately teleporting them. The imbued target gains the ability to teleport itself once with the same details (such as caster level, talents, spell point expenditures) as you used with the original casting. However, the target may only teleport themselves and not others.
 
 The imbued teleport remains for 1 hour per caster level, or until used once. You may maintain one imbued teleport at a time, plus an additional imbued teleport for each five caster levels you possess.
-
+[[/div]]
+[[div style="padding: 0 2%; border: 1px solid black"]]
 ++++ Instill Teleport [instill]
 As a standard action you may spend a spell point to touch a small container of liquid and instill a teleport or bend space that affects a single target inside it, which functions as a potion or oil. The instilled effect cannot have a trigger/normally require an immediate or readied action to activate, nor have a duration of concentration.
 
 An instilled liquid remains potent until you rest to regain spell points. If you have equipment on hand (such as an alchemy lab), the cost of bottles and water is considered negligible. You may target food but not an already-magical item, such as a potion. All spell points must be spent and all variables of the sphere effect must be chosen at the time the instilled liquid is created. You cannot instill multiple effects in a single liquid, nor create multiple instilled liquids with a single action.
-
+[[/div]]
+[[div style="padding: 0 2%; border: 1px solid black"]]
 ++++ Isoport
 When you teleport a target you may change their orientation and lower their velocity. This allows you to turn the target up to 360 degrees, which lets you turn them during a charge or run action and either give or remove the prone condition, and cancel out momentum-based movement (such as falling, being thrown or pushed), which effectively resets any distance they have fallen. Using this talent to respond to actions or events outside of your turn typically requires a readied action.
 
 You may choose to apply only the effects of Isoport, changing a target’s spatial orientation and velocity without teleporting them to another location. Doing so reduces the casting time to a swift action instead of a standard action. If you also spend a spell point, you may Isoport a target as an immediate action. You must possess Unwilling Teleport to affect unwilling targets, and must spend a spell point as usual.
-
+[[/div]]
+[[div style="padding: 0 2%; border: 1px solid black"]]
 ++++ Mass Teleport [mass]
 You may spend a spell point to teleport multiple creatures, up to 1 additional target per 2 caster levels (minimum 1). You may choose whether or not to include yourself in the group to be teleported. Each creature must be touching you or someone else in the affected group to be teleported, unless you possess the Ranged Warp talent. If you possess the Unwilling Teleport talent, you only need to spend one spell point no matter how many unwilling targets are affected. If one unwilling target succeeds at their saving throw, other creatures are still affected as normal. All targets must be within the same distance from each other at their destination as they were required to be in order to be teleported (touching, unless you possess Ranged Warp).
-
+[[/div]]
+[[div style="padding: 0 2%; border: 1px solid black"]]
 ++++ Pouncing Teleport
 You may spend a spell point or increase your teleport casting time by one step in order to make a single attack after successfully teleporting yourself. You may also spend an additional spell point to make either a full attack or take an attack action instead of a single attack after successfully teleporting. You may not use this talent in conjunction with any abilities or conditions that reduce the action needed to teleport (such as Emergency Teleport or Quick Teleport).
-
+[[/div]]
+[[div style="padding: 0 2%; border: 1px solid black"]]
 ++++ Quick Teleport
 When teleporting yourself or a group that includes yourself, you may spend an additional spell point to teleport as a move action instead of a standard action. You cannot make a free touch attack as part of a quick teleport, but you may affect another creature if you are already touching them.
-
+[[/div]]
+[[div style="padding: 0 2%; border: 1px solid black"]]
 ++++ Ranged Warp [range]
 You no longer need to be touching another creature in order to teleport them, although the creature must still be within close range to be affected in this manner. Likewise, when you use a (space) talent, the target or location to be affected may be any appropriate target or location within close range instead of touch range.
 
 You may take this talent multiple times. Each time it is taken, increase the range by 1 step (close to medium, medium to long).
-
+[[/div]]
+[[div style="padding: 0 2%; border: 1px solid black"]]
 ++++ Recall
 Before you teleport yourself or a willing ally, you may designate the target’s current square as a recall point by increasing the casting time of your teleport by one step or by spending a spell point. At the end of each round, the target may choose to return to the recall point, teleporting there without spending an action so long as it is within teleport range. The recall point lasts for 1 round per caster level or until used, whichever comes first.
-
+[[/div]]
+[[div style="padding: 0 2%; border: 1px solid black"]]
 ++++ Segmented Warp
 You may spend a spell point to split a teleport in two. You cast a single teleport on yourself and pay any spell point costs once, but may teleport yourself twice in quick succession.
 
 Between these two teleports you may only take one action of any kind you have remaining. Casting the second teleport does not require a second action, but provokes an attack of opportunity regardless (though you may cast defensively or use other methods to protect yourself from such attacks). The total distance covered by both teleports cannot be longer than the maximum range of the initial teleport. If your second teleport is disrupted by an attack of opportunity or other means, it is lost.
 
 If used in conjunction with Pouncing Teleport you do not get extra attacks, but may make your attack after either half of the split teleport. Attacking this way counts as your single action for the purposes of Segmented Warp. If you choose to full attack, you may instead use any number of your attacks as a single action, and use any remaining attacks after your second teleport. Other abilities that would create additional effects with your teleport (such as dual sphere feats) only apply to one of the split teleports.
-
+[[/div]]
+[[div style="padding: 0 2%; border: 1px solid black"]]
 ++++ Splinter
 When teleporting a target (usually with the Teleport Object or Unwilling Teleport talents), you may splinter the target, causing it to appear not quite as it was. This deals 1d6 damage per 2 caster levels (minimum 1d6) to the target. This damage bypasses all damage reduction, energy resistance, and hardness.
-
+[[/div]]
+[[div style="padding: 0 2%; border: 1px solid black"]]
 ++++ Swap Placement
 When teleporting yourself or another creature to a location already occupied by a different creature, you may send the creature already occupying that location back to where the teleporting creature came from. This must be a willing target unless you possess the Unwilling Teleport talent. If the second target is unwilling, you must spend a spell point and they are allowed a save as normal. If they succeed at this saving throw, the teleporting creature returns to their point of origin unharmed.
-
+[[/div]]
+[[div style="padding: 0 2%; border: 1px solid black"]]
 ++++ Teleport Object
 You may teleport objects independent of people. The object cannot weigh more than 10 pounds per caster level, and it cannot be in the possession of another creature (in their hand or on their person). If a creature is willing, you may teleport the object directly into their hand or onto their person.
 
 If you possess the Ranged Warp talent, you may, as a readied action, catch a projectile out of the air that passes within range, redirecting it against another target if you wish. The creature who initiated the attack is allowed a Will save to negate this effect, and you must make an attack roll against the new target, but using your casting ability modifier in place of Dexterity when making the attack. Damage is still determined by the creature who initiated the attack.
-
+[[/div]]
+[[div style="padding: 0 2%; border: 1px solid black"]]
 ++++ Teleport Trap
 You may lay a teleport effect onto an adjacent, unoccupied 5-foot square. If you possess the Ranged Warp talent, you may place this effect anywhere within that range. This is a latent teleport effect, except it only activates when a creature steps onto the target square, and must target the triggering creature.
 
@@ -106,47 +122,58 @@ You must possess the Unwilling Teleport talent and spend a spell point as usual 
 When a creature steps into the triggering square, the teleport effect activates, transporting the triggering creature to the designated destination. Unwilling targets are allowed a saving throw as normal.
 
 A teleport trap lasts for 10 minutes per caster level before becoming inert. This is a magical trap with a Perception DC and Disable Device DC equal to the teleport’s save DC. You may only have one teleport trap active at a time. You may select this talent multiple times. Each time this talent is gained beyond the 1st, increase the total number of teleport traps you may have active at one time by 1.
-
+[[/div]]
+[[div style="padding: 0 2%; border: 1px solid black"]]
 ++++ Timed Warp [Jester's HB]
 When you teleport, you may choose to delay the effect for up to a number of rounds equal to your caster level. The teleport does not come into effect immediately and instead takes place at the start of your turn after the chosen number of rounds occur. You must decide on any variables and pay any additional spell points for this teleport effect (e.g. distance, direction, etc.) when you delay the effect. When the delayed teleport occurs, if the target location is not valid, the effect fails and does not occur. For example, a teleport can fail if you do not pay an additional spell point for Unseeing Teleport and, when the delayed teleport occurs, the teleport would move you to a space you do not have line of sight for.
 
 If you spend an additional spell point when delaying a teleport with this talent, you may cast and delay a second teleport effect which must be delayed at least one additional round longer than the first teleport you delayed.
-
+[[/div]]
+[[div style="padding: 0 2%; border: 1px solid black"]]
 ++++ Unseeing Teleport
 You may spend an additional spell point when making a teleport to no longer require line of sight to the destination; instead of choosing a spot to appear, you may instead indicate a direction and distance.
 
 If the target arrives in a place that is already occupied by a solid body, you may spend a spell point to return the target to its point of origin unharmed. Otherwise, the target takes 1d6 points of damage and is shunted to a random open space on a suitable surface within 100 feet of the intended location. If there is no free space within 100 feet, the target takes an additional 2d6 points of damage and is shunted to a free space within 1,000 feet. If there is no free space within 1,000 feet, the target takes an additional 4d6 points of damage and the teleport simply fails.
-
+[[/div]]
+[[div style="padding: 0 2%; border: 1px solid black"]]
 ++++ Unwilling Teleport
 You may spend a spell point to teleport an unwilling creature as you can a willing creature. This requires a touch attack if done at touch range, the unwilling creature is allowed a Will saving throw to negate being teleported, and the effect is subject to spell resistance. An unwilling creature can only be teleported into open areas on solid surfaces (thus, they cannot be teleported into the air or into a solid object, and any such attempt instantly fails). In addition, they gain a +4 bonus to their saving throw if the location would be directly harmful to them (onto a bed of spikes, etc.).
-
+[[/div]]
+[[div style="padding: 0 2%; border: 1px solid black"]]
 ++++ Warping Strike [strike]
 As a standard action, you may make a single weapon attack in conjunction with making a teleport or activating a (space) talent that targets a creature or object. This casting cannot be reduced below a standard action, and does not provoke attacks of opportunity, unless as usual if making a ranged attack. If the target is struck by the attack, it is also struck by the teleport or (space) talent. You can only teleport a willing target unless you also use Unwilling Teleport. If using a scatter weapon, the sphere effect only applies to a single target, chosen at the time of attack.
+[[/div]]
 ----
 ++ Space Talents
+[[div style="padding: 0 2%; border: 1px solid black"]]
 ++++ Avert (space)
 You may bend space around yourself to avert attacks. When you bend space against an attack targeted at you, the originator of the attack must make a Will save or have their attack veer wide and miss. You must normally ready an action to make use of this ability since bending space requires a standard action, but you may spend a spell point to use it as an immediate action instead.
 
 When you take the total defense action, you may use this ability as an immediate action until the beginning of your next turn without paying a spell point.
-
+[[/div]]
+[[div style="padding: 0 2%; border: 1px solid black"]]
 ++++ Blink (space)
 A creature affected by this ability interacts with physical objects erratically. You may choose to apply this effect as a benefit or penalty. As a benefit this grants the target an effect similar to concealment (20% miss chance + 5% per 3 caster levels, maximum 50%) against attacks against them. As a penalty, the target always attacks as if into concealment (suffering a 20% miss chance + 5% per 3 caster levels on all attacks, maximum 50%), but may attempt a Will save to negate the effect. Miss chance from either version is not applied to force effects or effects that pass between coterminous planes (such as attacks from weapons with the ghost touch special ability). Miss chance from this effect does not stack with miss chance from other blink effects, being incorporeal, or similar effects; only the highest applies. This effect lasts as long as you concentrate, though you may spend a spell point to sustain it for one minute per caster level without the need for concentration.
-
+[[/div]]
+[[div style="padding: 0 2%; border: 1px solid black"]]
 ++++ Create Gap (space)
 You bend space to create a gap in an otherwise solid object or wall. By spending a spell point, you can create a hole in an inanimate object up to a 5-foot cube in size plus an additional 5-foot cube per 4 caster levels placed in any configuration so long as it is contiguous. This hole does not damage the object or affect its structural integrity; since the created hole is formed of added space rather than removed space, everything in the affected area is still accessible, pushed to the nearest edge of the created gap. If the gap is created so that a creature would fall through it, they may make a Reflex save to safely move to the nearest edge of the hole. This hole lasts as long as you concentrate, though you may spend a spell point to allow a gap to remain for 1 minute per caster level without concentration.
 
 **Addendum:** If a creature or object is inside an open space created through Create Gap when the effect expires, they are shunted into the nearest adjacent open space. If there is no such space adjacent to the terminated gap, the object takes 1d6 points of damage and is shunted to a random open space on a suitable surface within 100 feet of where the gap was. If there is no free space within 100 feet, the target takes an additional 2d6 points of damage and is shunted to a free space within 1,000 feet. If there is no free space within 1,000 feet, the target takes an additional 4d6 points of damage and is shunted to the nearest free space in any distance. [Apoc; SA: Battlefield Manipulation Talents]
-
+[[/div]]
+[[div style="padding: 0 2%; border: 1px solid black"]]
 ++++ Dimension Pierce (space)
 You allow one touched object or creature to interact with other planes by spending a spell point. A touched creature can target ethereal and incorporeal targets without suffering a 50% miss chance or reduction in damage, and can manipulate such targets as if they were material. A touched ethereal or incorporeal target gains the ability to interact with the world as if it were corporeal in all ways. A touched object gains the ghost touch special ability. The effects of this talent last for one hour per caster level.
-
+[[/div]]
+[[div style="padding: 0 2%; border: 1px solid black"]]
 ++++ Distort Size (space)
 You distort the target’s spatial footprint, causing them to occupy a smaller or larger area. You may add or subtract 5 feet to the space they occupy (so an enlarged Medium creature would occupy a 10-foot cube instead of a 5-foot cube, and a shrunken Gargantuan creature would occupy a 15-foot cube instead of a 20-foot cube). You can alter the target’s space by an additional 5 feet for every 4 caster levels you possess. This does not change the target’s size category for any purpose such as reach, damage, or modifiers, though their reach does extend from the new space they occupy. If you would shrink the target’s space below a 5-foot cube, you instead halve their space for each 5 feet you would normally subtract, rounding down to the nearest half foot (a Medium creature shrunk by one step would occupy a 2-1/2-foot cube, or a 1-foot cube if shrunk by two steps) (minimum 1-foot cube).
 
 You may alter the target’s space anywhere from their normal size as a swift action each turn (or as part of a concentration action). When you use this ability on a target, you can also grant them control, allowing them to spend a swift action to change their space each turn following the same rules.
 
 This effect lasts for as long as you concentrate, but you may spend a spell point to maintain it for 1 minute per caster level without concentration.
-
+[[/div]]
+[[div style="padding: 0 2%; border: 1px solid black"]]
 ++++ Extradimensional Room (space)
 You may create a small pocket dimension, accessible through a shimmering portal that either appears in the air before you or on a touched, reasonably flat surface. This pocket dimension measures one 10-foot cube per caster level, arranged as you wish so long as the space is continuous. You can make the entrance as small as 5-foot square or as large as 10-foot square. You can select its light level and temperature (from -40° F to 120° F, -40° C to 50° C), but otherwise it is a featureless location.
 
@@ -157,62 +184,74 @@ You may take this talent two times; when taken a second time you gain greater co
 You do not need to continue concentrating while inside the room, but must begin concentrating again if you exit for the room to remain. In addition, as a standard action or as part of concentration, you can bar the portal and prevent anything from crossing it. Anyone inside can reopen the door as a standard action, while anyone outside can force the portal open with a Strength check or slip through with an Escape Artist check (with the DC being equal to 10 + 1/2 caster level + casting ability modifier). While barred, the portal can still be seen and the room dispelled from the outside. Lastly, if you also possess the Extradimensional Storage talent, you may withdraw any number of items from your Extradimensional Storage and place them on any stable surface in the room when it is created.
 
 When the room expires or is dispelled, you may have any unattended items inside of it be placed directly into the space of your Extradimensional Storage talent rather than ejected so long as they do not exceed its weight limit.
-
+[[/div]]
+[[div style="padding: 0 2%; border: 1px solid black"]]
 ++++ Extradimensional Storage (space) [utility]
 You gain a permanent extradimensional space that may hold up to 10 pounds per caster level of non-living material. You can create a portal to this extradimensional space within arm’s reach at will. Placing an object in this space or calling an object from this space requires a full-round action, but may be done as a swift action by spending a spell point. Living things and attended objects cannot be placed in your extradimensional storage. If you die (or are destroyed, if you lack a Constitution score), all contents of your extradimensional space appear in your square or the nearest unoccupied space.
 
 You may take this talent two times; when taken a second time your extradimensional space may hold an additional 15 pounds per caster level, for a total of 25 pounds per caster level. In addition, you may place or withdraw an object from your extradimensional space as a move action instead of a full-round action, which counts as drawing the equipment normally. If the object would normally be worn or have to be donned in some way (such as armor or a magic ring), you may remove or don it as part of the same action as placing or withdrawing it from storage.
-
+[[/div]]
+[[div style="padding: 0 2%; border: 1px solid black"]]
 ++++ Flex Space (space)
 You can choose to either contract or expand space in an area equal to three 10-foot cubes, plus an additional 10-foot cube per caster level. These cubes must be arranged contiguously, but otherwise may assume any shape. Contracted space is easier to move through, allowing you to move 10 feet per 5 feet of movement. Expanded space is more difficult to move through, and 10 feet of movement allows you to only move one 5-foot square. These effects multiply and divide all other movement costs (such as difficult terrain or poor visibility), and are a specific exception to the normal rule for doubling. This area lasts as long as you concentrate, but you may spend a spell point to allow it to remain for 1 minute per caster level without concentration. If you occupy squares with different effects on your movement speed, you move at the slowest rate of all the squares. If you attempt to contract an expanded space (or vice versa) you must succeed on a magical skill check against the opposing effect. On success, your effect functions normally and the opposing effect is suppressed for the duration.
-
+[[/div]]
+[[div style="padding: 0 2%; border: 1px solid black"]]
 ++++ Fluctuate (space)
 By spending a spell point you can charge a target with spatial instability. Each turn they may teleport as a swift action, with the range decreased to 10 feet plus an additional 5 feet per 4 caster levels. This effect lasts as long as you concentrate. As a free action you may spend a spell point to allow the effect to continue for 1 round per caster level without the need for concentration.
 
 You cannot select this talent if you possess the Bender drawback, or otherwise do not possess the teleport function of the Warp sphere.
-
+[[/div]]
+[[div style="padding: 0 2%; border: 1px solid black"]]
 ++++ Looped Space (space)
 You bend the edges of an area, bounding it with your magic and trapping creatures inside. The bounded area measures one 10-foot cube, and you may increase the area by an additional 10-foot cube per 5 caster levels, arranged as you wish so long as the entire area is contiguous. Anyone inside the area must succeed on a Will save to move out of the area. On a failed save, they instead move to the opposite face of the area and must wait until their next turn to attempt to leave it again. This does not prevent attacks across the boundary in either direction, and creatures may enter the area without difficulty. This area lasts as long as you concentrate, but you may spend a spell point to allow it to remain for 1 round per caster level without concentration.
 
 If you also possess Plane Manipulator, you may spend a spell point to apply its dimensional anchor effect to the area of your looped space, contesting teleportation and planar travel to a magical skill check.
-
+[[/div]]
+[[div style="padding: 0 2%; border: 1px solid black"]]
 ++++ Plane Manipulator (space)
 You may create a dimensional anchor emanating from yourself, affecting you and all creatures within 10 feet per caster level. You must concentrate each round to maintain this effect, although you may spend a spell point to allow the emanation to continue for 1 minute per caster level without concentration. Any attempt to teleport or cross planes made by any creature within this area fails unless they succeed at a magical skill check against you. This also applies to the summoning of companions and other extraplanars.
 
 You may also touch a creature from another plane and spend a spell point to banish them back to their home plane (Will negates).
-
+[[/div]]
+[[div style="padding: 0 2%; border: 1px solid black"]]
 ++++ Spatial Reach (space)
 You can imbue a creature with magic that bridges the distance between them and anything they reach or move towards, contorting space to their benefit. The target gains a +10 feet enhancement bonus to their movement speed and adds 10 feet to their natural reach, though they do not threaten with this additional reach. Both bonuses increase by 5 feet per 5 caster levels. This effect lasts as long as you concentrate, but you may spend a spell point to allow it to remain for 1 minute per caster level without concentration.
-
+[[/div]]
+[[div style="padding: 0 2%; border: 1px solid black"]]
 ++++ Teleport Beacon (space)
 You may spend a spell point to designate a touched spot, object, or creature as a personal dimensional beacon, which lasts for one hour per caster level. You may spend a spell point to teleport yourself to your teleport beacon regardless of how far away it is, so long as it is on the same plane. If your teleport beacon is a creature or object, you may instead teleport your teleport beacon to you. You must use the Unwilling Teleport talent to do this with an unwilling creature, and they are allowed a saving throw as normal.
 
 There is no limit to the number of teleport beacons you can have active at one time. If you possess multiple teleport beacons and the Mass Teleport talent, you may use the Mass Teleport talent to teleport multiple teleport beacons at once, as if you were touching all affected targets. All affected teleport beacons must be teleported to the same location (you, or an unaffected teleport beacon of your choice).
-
+[[/div]]
+[[div style="padding: 0 2%; border: 1px solid black"]]
 ++++ Warp Link (space)
 You may create a link to a touched spot, object, or creature, allowing you to know the direction and distance to it. You know if the target is on another plane and whether that plane is coexistent, coterminous, or separate from the plane you are on, but you do not know their direction and distance if they are on another plane. If your target is unwilling, you must succeed on a melee touch attack (or a ranged touch attack with Ranged Warp) to create the link, and they are allowed a Will save to negate the effect. The link lasts for one hour per caster level. You may only maintain one link at a time, though you may spend a spell point to create a link that does not count against this limit. If you also possess Teleport Beacon, your beacons gain all the effects of this talent as if they were also links.
-
+[[/div]]
+[[div style="padding: 0 2%; border: 1px solid black"]]
 ++++ Wormhole (space)
 You touch a single 5-foot square and link it to another 5-foot square within close range of it to which you have line of sight and line of effect, contracting the space between them. You may connect an additional 5-foot square per 2 caster levels anywhere within range as well. Anyone may choose to use 5 feet of their movement to travel in a straight line between two linked squares as if they were adjacent (though they are not treated as adjacent for any other purpose). This wormhole lasts as long as you concentrate, but you may spend a spell point to allow it to remain for 1 round per caster level without concentration.
 
 If you possess Ranged Warp more than once, this also increases the maximum distance between the touched squares (allowing you to place squares within medium range of one another if Ranged Warp has been taken twice, or long range if taken three times).
+[[/div]]
 ----
 
 ++ Advanced Warp Talents
 Advanced talents are part of an optional rule and are only available with GM permission.
-
+[[div style="padding: 0 2%; border: 1px solid black"]]
 ++++ Brain Preservation [Alienist HB]
 **Prerequisites:** Warp sphere (Organ Detachment (advanced, space)), caster level 15th.
 
 You may use Organ Detachment to safely remove a creature’s brain without harming the creature. A detached brain is still able to think and direct the body if detached. If a creature’s brain remains intact, it may survive without a body so long as it possesses a mechanism to gain oxygen and nutrients (such apparatuses can be built through magical and technological means and usually cost 20,000 gp).
-
+[[/div]]
+[[div style="padding: 0 2%; border: 1px solid black"]]
 ++++ Brutalizing Shunt [Apoc]
 ^^**Source:** [https://www.drivethrurpg.com/product/350940/Spheres-Apocrypha-Battlefield-Manipulation-Talents?affiliate_id=549120 Spheres Apocrypha: Battlefield Manipulation Talents]^^
 
 **Prerequisites:** Warp sphere (Create Gap (space) or Unseeing Teleport).
 
 When a creature would be shunted into an already-occupied space by your teleport or the end of your create gap, the target takes 1d6 additional damage for every 5 caster levels you possess from being shunted from an occupied space and becomes staggered for 1 round per caster level unless they succeed at a Fortitude save.
-
+[[/div]]
+[[div style="padding: 0 2%; border: 1px solid black"]]
 ++++ Create Demiplane [utility]
 **Prerequisites:** Warp sphere (Extradimensional Room (space)), Creation sphere (Expanded Materials (material)), caster level 15th.
 
@@ -249,33 +288,38 @@ If you use this ability while within your demiplane, you may either permanently 
 **Shape:** By default, the demiplane has a fixed shape and borders. You may make your plane self-contained so it loops upon itself when a creature reaches one edge. You may designate areas or locations on the edges of your plane where this occurs (such as a pair of secret doors or a path in the woods) or apply it to the entire plane.
 
 **Structure:** You may give your demiplane a specific, linked physical structure, such as a giant tree, floating castle, labyrinth, mountain, and so on. (This option exists so you can pick a theme for your plane without having to worry about the small details of determining what abilities you need for every hill, hole, wall, floor, and corner.)
-
+[[/div]]
+[[div style="padding: 0 2%; border: 1px solid black"]]
 ++++ Dimensional Lock (space)
 **Prerequisites:** Warp sphere (Plane Manipulator (space)), caster level 15th.
 
 You may spend 2 spell points to designate a 20-foot radius area centered within medium range as being completely immune to extradimensional travel. For 1 day per caster level, any attempt within this area to cross space or planes (including all Warp sphere effects, summoning a companion from the Conjuration sphere, astral projection, blink, dimension door, ethereal jaunt, etherealness, gate, maze, plane shift, shadow walk, and similar spell-like abilities) instantly fails. A dimensional lock does not interfere with the movement of creatures already in ethereal or astral form when it is created, nor does it block extradimensional perception or attack forms. Also, the effect does not prevent summoned creatures from disappearing at the end of a summoning spell.
-
+[[/div]]
+[[div style="padding: 0 2%; border: 1px solid black"]]
 ++++ Dimensional Tracery [3PP]
 ^^**Source:** [https://www.drivethrurpg.com/en/product/482352/expanded-spheres-weaves-of-war=3028400 Expanded Spheres: Weaves of War]^^
 
 **Prerequisites:** Warp Sphere (teleport beacon or warp link)
 
-You may apply the teleport beacon or warp link (space) talents to a target as part of the same action to teleport the target. 
-
+You may apply the teleport beacon or warp link (space) talents to a target as part of the same action to teleport the target.
+[[/div]]
+[[div style="padding: 0 2%; border: 1px solid black"]]
 ++++ Enduring Portal
 **Prerequisites:** Warp sphere (Mass Teleport [mass], Portal (advanced), Teleport Beacon (space), Unwilling Teleport, Wormhole (space)), caster level 15th.
 
 When using the Portal advanced talent, you may spend an additional spell point to cause the portal to remain without the need for concentration, and increase its maximum duration to 1 hour per caster level.
 
 If you instead spend 2 spell points, the portal has a permanent duration and dispelling attempts affect it as if it were a magic item. Effects that would destroy a magic item (such as Counterspell, Greater) can also destroy the portal.
-
+[[/div]]
+[[div style="padding: 0 2%; border: 1px solid black"]]
 ++++ Extradimensional Capacity [utility] [Apoc]
 ^^**Source:** [https://www.drivethrurpg.com/product/297259/Spheres-Apocrypha-Cohorts-and-Companions?affiliate_id=549120 Spheres Apocrypha: Cohorts & Companions]^^
 
 **Prerequisites:** Warp sphere (Extradimensional Storage (space)).
 
 You increase the maximum amount of material you can store at once using Extradimensional Storage by 50 pounds per caster level. You may select this talent multiple times, each time increasing the maximum amount of material carried by 50 pounds per caster level.
-
+[[/div]]
+[[div style="padding: 0 2%; border: 1px solid black"]]
 ++++ Extradimensional Torpor (space) [Apoc]
 ^^**Source:** [https://www.drivethrurpg.com/product/297259/Spheres-Apocrypha-Cohorts-and-Companions?affiliate_id=549120 Spheres Apocrypha: Cohorts & Companions]^^
 
@@ -296,26 +340,30 @@ Unwilling creatures get an additional Will saving throw at the beginning of thei
 Creatures stored in this extradimensional space are treated as if they were non-living objects stored in extradimensional storage for the purposes of effects that modify that space (such as the Stasis Storage dual sphere feat).
 
 If you select this talent a second time, there is no limit to the maximum amount of creatures you may store at once, and you may store creatures carrying a medium load or less.
-
+[[/div]]
+[[div style="padding: 0 2%; border: 1px solid black"]]
 ++++ Flawless Teleport [utility]
 **Prerequisites:** Warp sphere (Distant Teleport, True Teleport (advanced), Unseeing Teleport), caster level 15th.
 
 When using the True Teleport advanced talent, the range is increased to unlimited (excluding interplanetary transport) and you no longer suffer a chance of arriving off-target, always appearing exactly where you intended. When using the Planeshift advanced talent, you no longer appear off-target from your intended destination on the other plane.
 
 You need not have seen the destination you are trying to reach, but in that case you must have at least a reliable description of the place to which you are teleporting. If you attempt to teleport with insufficient information (or with misleading information), you disappear and simply reappear in your original location.
-
+[[/div]]
+[[div style="padding: 0 2%; border: 1px solid black"]]
 ++++ Group Teleport
 **Prerequisites:** Warp sphere (Mass Teleport [mass], Ranged Warp [range]), caster level 10th.
 
 By spending 2 spell points, you may teleport any number of targets within your Ranged Warp range. If you possess Unwilling Teleport, you only need to spend one spell point no matter how many unwilling targets are affected. If an unwilling target succeeds at their saving throw, other targets are still affected as normal. If you possess Teleport Object, you may also teleport any number of objects so long as each individual object is within your weight limit (or size limit if you possess Teleport Structure).
-
+[[/div]]
+[[div style="padding: 0 2%; border: 1px solid black"]]
 ++++ Lethal Teleport [Apoc]
 ^^**Source:** [https://www.drivethrurpg.com/product/350940/Spheres-Apocrypha-Battlefield-Manipulation-Talents?affiliate_id=549120 Spheres Apocrypha: Battlefield Manipulation Talents]^^
 
 **Prerequisites:** Warp sphere (Unwilling Teleport), caster level 5th.
 
 When you use Unwilling Teleport, you may cause unwilling targets to be teleported into locations which are not in open areas or on solid surfaces. Targets of such effects receive a +4 bonus to their saving throws to resist such effects. Creatures teleported into the air fall if they lack some means to fly, taking falling damage as normal. Creatures teleported into occupied areas are shunted out, taking damage as normal.
-
+[[/div]]
+[[div style="padding: 0 2%; border: 1px solid black"]]
 ++++ Manifest Planar Zone (space) [DbH]
 **Prerequisites:** Warp sphere, caster level 5th.
 
@@ -332,7 +380,8 @@ You may create an area which mimics the environment of another plane or demiplan
  * **Timeless:** The manifest zone is affected as per the Time Bubble time sphere talents with a caster level equal to your Warp sphere caster level.
 
 You may select this talent multiple times. Each time, you may select a different plane to emulate.
-
+[[/div]]
+[[div style="padding: 0 2%; border: 1px solid black"]]
 ++++ Organ Detachment (space) [Alienist HB]
 **Prerequisites:** Warp sphere, caster level 10th.
 
@@ -341,39 +390,46 @@ You may spend 10 minutes and 3 spell points to enhance the body part of a touche
 Creatures may remove vital organs such as hearts, and lungs from their body and hide them elsewhere. Each organ removed in this way gives the creature a cumulative 10% chance to negate critical hits and precision damage against them as per the fortification armor special ability. This effect is cumulative, but does not stack with any similar effects such as fortification armor. This talent may safely remove one organ from a creature per 4 caster levels. A creature may not have their brain removed with this talent.
 
 Removal or detachment of organs through this talent are permanent until dismissed or dispelled. If this effect is dispelled (which requires the organ be targeted with the dispel rather than the person the organ belonged to), the organ teleports back to the owner’s body so long as the distance between the owner and the organ does not exceed your teleport range (or close range if you cannot teleport). If the organ could not teleport back its owner or is beyond this range, the organ explodes harmlessly and the caster painfully grows a replacement, taking 2d6 points of Constitution drain in the process (or taking 10d6 damage which cannot be reduced or redirected if they are immune to ability drain or lack a Constitution score).
-
+[[/div]]
+[[div style="padding: 0 2%; border: 1px solid black"]]
 ++++ Planeshift
 **Prerequisites:** Warp sphere (Distant Teleport, True Teleport (advanced), Unseeing Teleport), caster level 10th.
 
 You may spend 2 additional spell points to teleport to an alternate dimension or plane of existence. You must know the plane you are trying to reach, as well as where within that plane you would like to appear (if you do not know a specific location to appear on that plane you may still use this ability, but you run the risk of appearing anywhere on that plane). Even if you do have a specific location in mind, you always appear 5 to 500 miles (5 x d100) from your intended destination.
-
+[[/div]]
+[[div style="padding: 0 2%; border: 1px solid black"]]
 ++++ Planting Warp [3PP]
 ^^**Source:** Expanded Spheres: Baron's Lost Apocrypha^^
 
 **Prerequisites:** Warp Sphere (Teleport Object, Unwilling Teleport)
 
 You may use Teleport Object to teleport objects into the free hands of or onto the persons of unwilling creatures. Creatures having objects teleported onto themselves are allowed a Reflex save to avoid donning or grabbing the item, in which case it appears in a square adjacent to them. As part of planting an object on a creature, you may make a Sleight of Hand check opposed by the creature’s Perception check. You may use your caster level + your casting ability modifier in place of your Sleight of Hand modifier for this action. On a success, the creature is not aware of the object planted on them.
-
+[[/div]]
+[[div style="padding: 0 2%; border: 1px solid black"]]
 ++++ Portal
 **Prerequisites:** Warp sphere (Mass Teleport [mass], Wormhole (space)), caster level 5th.
 
 When using your teleport ability, you may spend an additional spell point to open a portal between your location and your destination. This portal has a maximum diameter of 5 feet per caster level and opens in the air somewhere adjacent to you. The portal lasts as long as you concentrate to a maximum of 1 round per caster level. Anything moving through one end of this portal arrives at the other end; it is possible to make attacks, flank, or perform other actions as if the two locations were adjacent. You may choose to open the portal without automatically going through it, if you so desire.
-
+[[/div]]
+[[div style="padding: 0 2%; border: 1px solid black"]]
 ++++ Portal Network [DbH]
 **Prerequisites:** Warp sphere (Enduring Portal, Mass Teleport [mass], Portal (advanced), Teleport Beacon (space), Unwilling Teleport, Wormhole (space)), caster level 15th.
 
 When you or another target enters a portal, you may cause it to exit from any portal that you have created that currently exists rather than just the portal’s original destination. Alternatively, you may allow a creature that enters one of your portals to choose which portal they exit from. You are aware of any creature that enters a portal you have created.
-
+[[/div]]
+[[div style="padding: 0 2%; border: 1px solid black"]]
 ++++ Repel The Unnatural [Alienist HB]
 **Prerequisites:** Warp sphere (Plane Manipulator (space)).
 
 You may treat aberrations and oozes as if they were extraplanar creatures for the purpose of your Plane Manipulator talent, banishing them back to where they came. This effect sends the creature to the place on the Material Plane from which it originated (which may be an underground cavern, a laboratory, or another planet somewhere in the stars).
-
+[[/div]]
+[[div style="padding: 0 2%; border: 1px solid black"]]
 ++++ Store Structure
 **Prerequisites:** Warp sphere (Extradimensional Storage (space)), caster level 1st.
 
 By spending a spell point you can touch an object to place it in your extradimensional storage, even if it would normally be too large or dense. Objects stored this way do not count against the weight limit of your storage, but are limited by size; you may store objects whose combined size is no larger than the maximum size listed on the structure table below. When you retrieve an object stored this way, it appears in an unoccupied, adjacent square. It must be placed on a suitably supportive surface; a boat could be placed on a relatively flat plain or a large body of water, but not midair.
-
+[[/div]]
+[[div style="padding: 0 2%; border: 1px solid black"]]
 ++++ Teleport Structure
 **Prerequisites:** Warp sphere (Teleport Object), caster level 5th.
 
@@ -383,13 +439,13 @@ If you use Group Teleport in conjunction with this talent, you may teleport all 
 
 **Table: Structure**
 ||~ Caster Level ||~ Maximum Size ||~ Example Object ||
-|| 1st || Medium || Barrel || 
-|| 5th || Large || Table || 
-|| 10th || Huge || Wagon || 
-|| 15th || Gargantuan || Catapult || 
-|| 20th || Colossal || Ship || 
-|| 25th || Colossal+ || Tavern || 
-|| 30th || Colossal++ || Castle || 
+|| 1st || Medium || Barrel ||
+|| 5th || Large || Table ||
+|| 10th || Huge || Wagon ||
+|| 15th || Gargantuan || Catapult ||
+|| 20th || Colossal || Ship ||
+|| 25th || Colossal+ || Tavern ||
+|| 30th || Colossal++ || Castle ||
 
 +++++ Warping Structures (Store and Teleport Structure)
 A vehicle or building that is occupied is counted as attended or in a creature's possession, preventing it from being teleported or stored unless all occupying creatures are willing and/or helpless, or targeted with Unwilling Teleport.
@@ -397,7 +453,8 @@ A vehicle or building that is occupied is counted as attended or in a creature's
 Some large structures, such as a castle, are arguably made up of a multitude of smaller structures, but can be counted as a single structure for this purpose as long as they are conceptually a single unit.
 
 Finally, the contents of a structure are moved with it as if they were part of the object, so long as the contents can fit comfortably inside (thus, hay inside a wagon would work, but an enormous dragon's corpse across the top would not).
-
+[[/div]]
+[[div style="padding: 0 2%; border: 1px solid black"]]
 ++++ Time Warp [Jester's HB]
 **Prerequisites:** Time sphere, Warp sphere (Distant Teleport, True Teleport (advanced), Unseeing Teleport), caster level 20th.
 
@@ -408,7 +465,8 @@ To see how accurate the teleportation is, consult Table: Mishap found on True Te
 A “false destination” result when using this talent would be teleporting to a nonexistent location at a specific point in time, such as a mythical city that does not exist. This talent is otherwise modified normally by Warp sphere talents. For example, possessing Mass Teleport allows you to teleport to a point in time with other creatures.
 
 **Note:** Time travel is complex. For example, a caster who interacts with the past and returns to their own time may not return to their own original timeline, but instead a parallel universe branching from actions and changes which occurred when the caster interacts with the past. Such changes are ultimately up to GM discretion, and incorporating time travel, whether traveling into the past or future, should be done with caution.
-
+[[/div]]
+[[div style="padding: 0 2%; border: 1px solid black"]]
 ++++ True Teleport
 **Prerequisites:** Warp sphere (Distant Teleport, Unseeing Teleport), caster level 10th.
 
@@ -418,11 +476,11 @@ To see how well the teleportation works, roll d100 and consult the following tab
 
 **Table: Mishap**
 ||~ Familiarity ||~ On Target ||~ Off Target ||~ Similar Area ||~ Mishap ||
-|| Very familiar || 01–97 || 98–99 || 100 || — || 
-|| Studied carefully || 01–94 || 95–97 || 98–99 || 100 || 
-|| Seen casually || 01–88 || 89–94 || 95–98 || 99–100 || 
-|| Viewed once || 01–76 || 77–88 || 89–96 || 97–100 || 
-|| False destination || — || — || 81–92 || 93–100 || 
+|| Very familiar || 01–97 || 98–99 || 100 || — ||
+|| Studied carefully || 01–94 || 95–97 || 98–99 || 100 ||
+|| Seen casually || 01–88 || 89–94 || 95–98 || 99–100 ||
+|| Viewed once || 01–76 || 77–88 || 89–96 || 97–100 ||
+|| False destination || — || — || 81–92 || 93–100 ||
 
 **Familiarity:** “Very familiar” is a place where you have been very often and where you feel at home. “Studied carefully” is a place you know well, either because you can currently physically see it or you have been there often. “Seen casually” is a place that you have seen more than once but with which you are not very familiar. “Viewed once” is a place that you have seen once, possibly using magic such as the Scrying advanced talent. “False destination” is a place that does not truly exist or if you are teleporting to an otherwise familiar location that no longer exists as such or has been so completely altered as to no longer be familiar to you. When traveling to a false destination, roll 1d20+80 to obtain results on the table, rather than rolling d100, since there is no real destination for you to hope to arrive at or even be off target from.
 
@@ -433,14 +491,16 @@ To see how well the teleportation works, roll d100 and consult the following tab
 **Similar Area:** You wind up in an area that is visually or thematically similar to the target area. Generally, you appear in the closest similar place within range. If no such area exists within the spell’s range, the spell simply fails instead.
 
 **Mishap:** You and anyone else teleporting with you have gotten “scrambled.” You each take 1d10 points of damage, and you reroll on the chart to see where you wind up. For these rerolls, roll 1d20+80. Each time “Mishap” comes up, the characters take more damage and must reroll.
-
+[[/div]]
+[[div style="padding: 0 2%; border: 1px solid black"]]
 ++++ Universal Teleport
 **Prerequisites:** Warp sphere (Distant Teleport, Flawless Teleport (advanced), True Teleport (advanced), Unseeing Teleport), caster level 17th.
 
 When using True Teleport, your range becomes truly unlimited; you can even teleport between planets if you so choose.
 
 You must have a solid grasp of which world you wish to travel to (“the third planet from the sun” is an acceptable destination, but “a habitable world near that bright star” is not). If you have a specific location on a planet in mind, you arrive there without a chance of failure; otherwise you arrive at a location that would not immediately be life-threatening. If no such safe landing zone exists on the world, such as someone attempting to travel into the sun without the proper precautions in place, the teleport simply fails.
-
+[[/div]]
+[[div style="padding: 0 2%; border: 1px solid black"]]
 ++++ Warp Manipulator
 **Prerequisites:** Warp sphere (Plane Manipulator (space), Unwilling Teleport), caster level 1st.
 
@@ -449,16 +509,18 @@ You may spend a spell point to create a dimensional anchor as an immediate actio
 In addition, when a teleport fails due to your dimensional anchor you may pay a spell point to redirect it, choosing its destination as if you had cast the effect instead of the caster. The caster must succeed on a Will save to avoid the effect being redirected.
 
 If you possess Dimensional Lock, you may spend an additional spell point to use it as an immediate action.
+[[/div]]
 ----
 + Warp Sphere Feats
-
+[[div style="padding: 0 2%; border: 1px solid black"]]
 ++++ Burrowing Magic (Metamagic)
 **Prerequisite:** Warp sphere.
 
 **Benefit:** You allow a magic effect to function even without line of effect, transporting its effects through barriers that would otherwise impede it. You must still possess line of sight for effects that require it, and the target must still be within the effect’s range.
 
 **Cost:** +3 spell points.
-
+[[/div]]
+[[div style="padding: 0 2%; border: 1px solid black"]]
 ++++ Companion Teleport
 **Prerequisite:** Warp sphere.
 
@@ -467,26 +529,30 @@ If you possess Dimensional Lock, you may spend an additional spell point to use 
 **Note:** Even if you possess Ranged Warp, you must touch a creature to benefit from this feat. Also, other creatures than those listed may count as having a strong bond, at the GM’s discretion. Generally such a creature should have a mechanical link to you, though that may be waived under special circumstances.
 
 **Special:** You may select this feat and benefit from it even if you possess the Personal Warp drawback.
-
+[[/div]]
+[[div style="padding: 0 2%; border: 1px solid black"]]
 ++++ Cosmologist
 **Prerequisites:** Knowledge (planes) 15 ranks, Warp sphere (Create Demiplane, Extradimensional Room (space)).
 
 **Benefit:** When using the Create Demiplane advanced talent, you may add the Portal, Time, Alignment, Bountiful, and Weather traits to your demiplane even if you do not possess the prerequisite spheres or talents.
-
+[[/div]]
+[[div style="padding: 0 2%; border: 1px solid black"]]
 ++++ Dark Room (Dual Sphere)
 **Prerequisites:** Dark sphere, Warp sphere (Extradimensional Room (space)).
 
 **Benefit:** Rather than a shimmering portal, the entrance to your extradimensional room may appear as a deep shadow, difficult to discern from a normal shadow by mundane means. An active Perception check with a DC of 10 + 1/2 caster level + your casting ability modifier is required to find the entrance if it is cast in conditions of dim light or darker or positioned so as to overlap with an existing shadow. Those inside the room can look out through the portal unhindered.
 
 **Normal:** The portal to an extradimensional room shimmers conspicuously.
-
+[[/div]]
+[[div style="padding: 0 2%; border: 1px solid black"]]
 ++++ Dimensional Aegis (Dual Sphere)
 **Prerequisites:** Protection sphere, Warp sphere.
 
 **Benefit:** You gain a (succor) talent that lets you sacrifice an aegis borne by an ally other than yourself to swap places with them by teleporting. They must be within range of your teleport ability, but you do not need to be normally able to teleport others. The ally must be willing or unconscious. This may be done in response to an attack before the results of the attack are determined.
 
 If so, the attack changes target to whomever is now occupying the space now occupied by the original target. The attack is not rerolled.
-
+[[/div]]
+[[div style="padding: 0 2%; border: 1px solid black"]]
 ++++ Dimensional Archer (Champion)
 **Prerequisites:** Warp sphere, +3 base attack bonus.
 
@@ -494,17 +560,20 @@ If so, the attack changes target to whomever is now occupying the space now occu
 * **Anchoring Shot (Sp):** As an attack action you may spend a spell point to make an attack with a ranged weapon. If the attack hits, the target cannot teleport or shift between planes unless it succeeds on a magical skill check against you. This effect lasts for 1 minute per caster level.
 * **Retreating Reload:** You may simultaneously reload a weapon and teleport, using only the longer of the two actions (so a standard action teleport and full-round action reload would take a full-round action, while a move action teleport and a swift action reload would take a move action). This always takes at least a swift action.
 * **Warp Shot (Sp):** As an attack action you may spend a spell point to make an attack with a ranged weapon. The attack ignores all cover, even total cover, as it bypasses all barriers between it and the target by either bending space to go through them, teleporting directly to the target, or similar means. The attack is still subject to concealment (such as from being unable to see an enemy behind an opaque wall).
-
+[[/div]]
+[[div style="padding: 0 2%; border: 1px solid black"]]
 ++++ Dimensional Athlete (Champion)
 **Prerequisites:** Athletics sphere, Warp sphere.
 
 **Benefit:** Your movements transcends space itself. You may apply talents with the (motion) tag to teleporting as if it were movement, treating distance teleported as distance moved. In addition, the AC bonus from the Mobility talent applies to any attacks of opportunity provoked by casting teleport. Teleporting is treated as its own unique movement mode, and does not work with abilities that require a different movement mode to function.
-
+[[/div]]
+[[div style="padding: 0 2%; border: 1px solid black"]]
 ++++ Divining Beacon (Dual Sphere)
 **Prerequisites:** Divination sphere, Warp sphere (Teleport Beacon (space)).
 
 **Benefit:** You may create teleport beacons that you can sense, giving you impressions of everything that happens around them. You know the size and movement of anything in a 10-foot radius around a beacon created this way. In addition, you may divine to see and hear from the location of such a teleport beacon as if you were standing in its position, regardless of your distance from it. Using divine in this way creates a scrying sensor which can be detected with a Perception check (DC 20 + caster level), but can only be dispelled by dispelling the teleport beacon.
-
+[[/div]]
+[[div style="padding: 0 2%; border: 1px solid black"]]
 ++++ Dreamspace (Dual Sphere)
 **Prerequisites:** Mind sphere, Warp sphere.
 
@@ -517,12 +586,14 @@ You interact with the dreamspace using a copy of your body and all you wear, lea
 Because the dreamspace is not a true physical location, you cannot take any actions that would cause you to leave the dreamspace other than waking up, or that would affect your body or the real world. In addition, the dreamspace cannot be entered using normal teleportation or planeshifting effects. At the GM’s discretion, effects allowing travel to normal dreams can enter the dreamspace, and it may count as a dreamscape for certain effects.
 
 Otherwise, actions have their normal effects in the dreamspace. Regardless of how you spend your time in dreamspace, you gain the normal benefits of sleep.
-
+[[/div]]
+[[div style="padding: 0 2%; border: 1px solid black"]]
 ++++ Extradimensional Assembly
 **Prerequisites:** Telekinesis sphere (Whirlwind Assembly), Warp sphere (Extradimensional Storage (space)).
 
 **Benefit:** When you use your Whirlwind Assembly talent you may access and swap items in and out of your extradimensional storage freely, without the need to use a second action or spend a spell point.
-
+[[/div]]
+[[div style="padding: 0 2%; border: 1px solid black"]]
 ++++ Extradimensional Gullet (Combat) [Alienist HB]
 **Prerequisites:** Swallow whole, Alteration sphere (Serpentine Transformation (transformation)), or Death sphere (Tomb Of Flesh); Warp sphere (Extradimensional Room (space)).
 
@@ -531,12 +602,14 @@ Otherwise, actions have their normal effects in the dreamspace. Regardless of ho
 You can continue to use swallow whole even after a creature cuts its way out. When under the effects of an ability which would impede extradimensional travel, you lose this ability but your swallow whole or Tomb Of Flesh ability functions normally.
 
 If you die, the extradimensional space contracts, disgorging any swallowed creature into your corpse’s space.
-
+[[/div]]
+[[div style="padding: 0 2%; border: 1px solid black"]]
 ++++ Extradimensional Pouch [Origin]
 **Prerequisites:** Form sphere (Hidden Storage [auxiliary]), Warp sphere (Extradimensional Storage x2).
 
 **Benefit:** Your hidden storage is connected to your extradimensional storage, allowing you to store or withdraw items from your extradimensional storage using the actions it would normally take to store or withdraw them using hidden storage. You may affect targets within your hidden storage with any class features, talents or feats which would affect targets within your extradimensional storage.
-
+[[/div]]
+[[div style="padding: 0 2%; border: 1px solid black"]]
 ++++ Extradimensional Shadow
 **Prerequisites:** Dark sphere (Shadow Stash), Warp sphere (Extradimensional Storage).
 
@@ -547,34 +620,40 @@ Your extradimensional shadow combines the weight limit of the two talents into a
 You may treat your extradimensional shadow as either talent for all purposes. Among other uses, this allows you to apply the effects of feats like Stasis Storage or World In Miniature to it, which often distort the appearance of your shadow.
 
 Whenever it would be necessary to determine whether it is a Dark (shadow) effect or a Warp (space) effect (such as calculating its caster level or how it would be affected by Light), the caster may treat it as whichever they deem most advantageous to them.
-
+[[/div]]
+[[div style="padding: 0 2%; border: 1px solid black"]]
 ++++ Flash Warp (Dual Sphere)
 **Prerequisites:** Light sphere, Warp sphere.
 
 **Benefit:** You can disappear or appear in a flash of brilliant light. When you teleport yourself you may briefly shed bright light as if you were targeted by your glow. You may apply the effects of (light) talents and other Light sphere talents to the glow, paying any costs normally. You choose whether the effects of the glow begin at your starting position or only at your destination, but the effects apply immediately. This glow does not persist beyond a moment, and ends immediately after its effects have been applied.
-
+[[/div]]
+[[div style="padding: 0 2%; border: 1px solid black"]]
 ++++ Guarded Step (Dual Sphere)
 **Prerequisites:** Protection sphere, Warp sphere.
 
 **Benefit:** When teleporting yourself or a group that includes yourself to a location within a ward you created, you may reduce the action required by one step, from a standard action to a move action or from a move action to a swift action, but not to an immediate action or free action.
-
+[[/div]]
+[[div style="padding: 0 2%; border: 1px solid black"]]
 ++++ Jump Scare
 **Prerequisites:** Intimidate 5 ranks, Warp sphere.
 
 **Benefit:** You can teleport suddenly and in an ominous burst of magic, leaping forward in an unexpected and terrifying display. After you appear, you can attempt an Intimidate check to demoralize an opponent in range (demoralize normally has a range of 30 feet) as a free action.
-
+[[/div]]
+[[div style="padding: 0 2%; border: 1px solid black"]]
 ++++ Locked Bond (Dual Sphere) [Archmagi's HB]
 **Prerequisites:** Mana sphere, Warp sphere (Plane Manipulator).
 
 **Benefit:** When creating any manabond, you may spend an additional spell point to lock the dimensional properties of the bond. As long as the manabond holds, both the host and recipient of the manabond are affected by a dimensional anchor, as per the Plane Manipulator talent.
-
+[[/div]]
+[[div style="padding: 0 2%; border: 1px solid black"]]
 ++++ Never Really There (Dual Sphere) [DbH]
 Your escape masks any memory of your presence.
 
 **Prerequisites:** Mind sphere (Amnesia (charm)), Warp sphere.
 
 **Benefit:** When you use the Amnesia charm from the Mind sphere, you may extend the casting time by 1 step or spend an additional spell point to teleport yourself as part of the same action. You may teleport other creatures as part of this action but must include yourself among the targets.
-
+[[/div]]
+[[div style="padding: 0 2%; border: 1px solid black"]]
 ++++ Portal Combat (Combat) [DbH]
 Magical gateways are tools you can weaponize.
 
@@ -586,7 +665,8 @@ Magical gateways are tools you can weaponize.
 * **Throw Portal:** (requires Ranged Warp and Unwilling Teleport) You may move a portal you have created up to 5 feet per 2 caster levels as a standard action (this action counts as concentrating on the portal). Any creature which would have the portal move into their space must make a Reflex save against your warp sphere DC to avoid passing through the portal. The portal must remain within the range of your Ranged Warp talent at all times.
 
 **Note: Moving Portals:** For any circumstance in which a portal would be moving (in a manner similar to that outline with Throw Portal), creatures in the way are allowed a Reflex save against your Warp sphere DC to avoid passing through the portal.
-
+[[/div]]
+[[div style="padding: 0 2%; border: 1px solid black"]]
 ++++ Skillful Disappearance
 **Prerequisites:** Warp sphere.
 
@@ -595,24 +675,28 @@ Magical gateways are tools you can weaponize.
 * **Flourish:** When you teleport you can create a minor sensory effect (such as sparkles or a soft clap of thunder) when you depart or arrive. You may also leave a Fine-sized calling card where you depart (whether marking the spot with a smoking brand or dropping a single rose petal) that disappears after one hour.
 * **Make Them Flinch (Intimidate 5 ranks):** Immediately before you teleport you may attempt an Intimidate check against an opponent as a free action, as if making a demoralize check. If you succeed, casting teleport does not provoke an attack of opportunity from that opponent.
 * **Without a Trace (Stealth 3 ranks):** You take advantage of even the briefest windows of opportunity to disappear without being noticed. Immediately before teleporting you may attempt a Stealth check, opposed by a Perception check from any onlookers. Onlookers who fail their check do not see where you have gone or how you left, though they may still find out through other means.
-
+[[/div]]
+[[div style="padding: 0 2%; border: 1px solid black"]]
 ++++ Spacetime Drift (Dual Sphere) [Apoc]
 ^^**Source:** [https://www.drivethrurpg.com/product/350940/Spheres-Apocrypha-Battlefield-Manipulation-Talents?affiliate_id=549120 Spheres Apocrypha: Battlefield Manipulation Talents]^^
 
 **Prerequisites:** Time sphere, Warp sphere.
 
 **Benefit:** Whenever you affect a creature with an alter time effect, you may spend a spell point to also teleport them to any place within close range that you could normally teleport them to. If the target is unwilling, you must possess the Unwilling Teleport talent and spend any additional spell points required to affect them with this feat.
-
+[[/div]]
+[[div style="padding: 0 2%; border: 1px solid black"]]
 ++++ Stasis Storage (Dual Sphere)
 **Prerequisites:** Time sphere, Warp sphere (Extradimensional Storage (space)).
 
 **Benefit:** By spending one minute in concentration, you can lock away part of your extradimensional storage, sending it beyond time and placing its contents in stasis. This renders the selected contents inaccessible until you spend another minute unlocking it, but while they are locked the contents do not suffer wear from age or from effects such as rust or rot while stored in this way, and time spent in the space does not count against the duration of abilities such as (enhance) talents, or time limits such as the time limit reviving a dead creature.
-
+[[/div]]
+[[div style="padding: 0 2%; border: 1px solid black"]]
 ++++ Superpositioned (Dual Sphere)
 **Prerequisites:** Illusion sphere (Decoy (glamer), Suppression (glamer)), Warp sphere, caster level 5th.
 
 **Benefit:** While under the effects of the Suppression talent, you may use the Warp sphere teleporting only yourself and carried gear as a move action rather than a standard action. Whenever you use a Warp sphere effect on yourself, you may leave behind or appear with a copy of yourself that lasts until the start of your next turn as the Decoy trick.
-
+[[/div]]
+[[div style="padding: 0 2%; border: 1px solid black"]]
 ++++ Survey of your Realm (Dual Sphere) [DbH]
 When you create a realm, you are sure to keep a close eye on it.
 
@@ -621,19 +705,22 @@ When you create a realm, you are sure to keep a close eye on it.
 **Benefit:** So long as your Extradimensional Room exists, you may keep a constant viewing sensor placed in any location in the room. This sensor lasts for the duration of your room, does not cost spell points, and may be moved to any other location in your Extradimensional Room as a free action once per round. You may perceive what this sensor perceives simultaneously with whatever you perceive. If this sensor is dismissed, dispelled, or would otherwise end, you may reform it as a standard action.
 
 As a free action once per round, you may have this sensor touch an unattended object or willing creature it is adjacent to. Until the end of your next turn, you are considered to be touching (but not wielding) that object or creature.
-
+[[/div]]
+[[div style="padding: 0 2%; border: 1px solid black"]]
 ++++ Transpatial Reconstitution (Dual Sphere) [DbH]
 Your form in this particular world is one of many. Material from beyond can replace any damaged components.
 
 **Prerequisites:** Life sphere, Warp sphere.
 
 **Benefit:** When teleporting a creature, you may increase the casting time by one step or spend a spell point to target the teleported creature with a cure, invigorate, or restore effect, paying additional costs for the effect as normal. If you have both the Mass Healing and Mass Teleport talents, you may target multiple teleported creatures with the Life sphere effect used.
-
+[[/div]]
+[[div style="padding: 0 2%; border: 1px solid black"]]
 ++++ Warp Burst (Dual Sphere)
 **Prerequisites:** Destruction sphere (Explosive Orb (blast shape)), Warp sphere.
 
 **Benefit:** When teleporting yourself, you may increase the casting time by one step and spend a spell point to target your destination square with a destructive blast with the Explosive Orb blast shape, paying additional costs for the destructive blast as normal. You must have line of sight and line of effect to the target square unless you possess the Unseeing Teleport talent. You may exclude your destination square from this effect.
-
+[[/div]]
+[[div style="padding: 0 2%; border: 1px solid black"]]
 ++++ World In Miniature
 **Prerequisites:** Nature sphere, Warp sphere (Extradimensional Room (space) or Extradimensional Storage (space)).
 
@@ -650,31 +737,38 @@ Your form in this particular world is one of many. Material from beyond can repl
 **Plant:** Your world grows plantlife that produces enough food to sustain a Medium-sized creature for a day. These plants can be used for the entangle and harvest abilities any number of times per day, but they are not large enough to count as a tree.
 
 **Water:** Your world contains rivers and oceans. It produces enough clean water to sustain a Medium-sized creature for a day. You may generate fog from this water any number of times per day, though it is not large enough to produce effects such as a vortex.
+[[/div]]
 ----
 [[div class="colored-links"]]
 + Archetypes Specializing In Warp
-
+[[div style="padding: 0 2%; border: 1px solid black"]]
 ++ ##00c000|[[[Bladewalker]]]## [CS]
 The Bladewalker is an ##993300|[[[Armiger]]]## who uses the Warp sphere to teleport around the battlefield and recover hurled weapons.
-
+[[/div]]
+[[div style="padding: 0 2%; border: 1px solid black"]]
 ++ [[[Broadcast Blade]]]
 The Broadcast Blade is a [[[Mageknight]]] who uses mastery of space to move themselves and attack large areas.
-
+[[/div]]
+[[div style="padding: 0 2%; border: 1px solid black"]]
 ++ [[[Chronomancer]]]
 A Chronomancer is a [[[Symbiat]]] with mastery over time and space.
-
+[[/div]]
+[[div style="padding: 0 2%; border: 1px solid black"]]
 ++ [[[Collector]]]
 A Collector is an [[[Armorist]]] who specializes in using the Warp sphere to hold precious equipment they can fire at enemies.
-
+[[/div]]
+[[div style="padding: 0 2%; border: 1px solid black"]]
 ++ [[[Dimension Shifter]]]
 The Dimension Shifter is a [[[Shifter]]] who can phase their way through solid objects.
-
+[[/div]]
+[[div style="padding: 0 2%; border: 1px solid black"]]
 ++ ##00c000|[[[Drifting Lotus]]]## [CS]
 The Drifting Lotus is an Unchained Monk who mixes magical and martial power to get around the battlefield and activate their Lotus Style abilities.
-
+[[/div]]
+[[div style="padding: 0 2%; border: 1px solid black"]]
 ++ [[[Synapse]]]
 A Synapse is a [[[Symbiat]]] who specializes in the Mind and Warp spheres.
-
+[[/div]]
 [[/div]]
 ----
 
@@ -707,15 +801,15 @@ A Synapse is a [[[Symbiat]]] who specializes in the Mind and Warp spheres.
 </div>
 <script>
     function randString(){
-        return stringArray[~~(rand()*stringArray.length)];
+    	return stringArray[~~(rand()*stringArray.length)];
     }
     function randText(){
-        var tx = randString();
-        var txt = document.createTextNode(tx);
-        var sp = document.createElement('span');
-        sp.appendChild(txt);
-        randomResult.innerHTML = '';
-        randomResult.appendChild(sp);
+    	var tx = randString();
+    	var txt = document.createTextNode(tx);
+    	var sp = document.createElement('span');
+    	sp.appendChild(txt);
+    	randomResult.innerHTML = '';
+    	randomResult.appendChild(sp);
     }
     rand = Math.random;
     stringArray = ['1: (Combat) The nearest hostile creature not adjacent to the caster is teleported adjacent to the caster.', '2: All creatures within close range of the target must succeed on a Will save or have any items held in their hands teleported 1d6 squares toward the caster.', '3: The caster is teleported adjacent to one affected creature the GM chooses.', '4: The casting time decreases by 2 steps.', '5: All allied creatures within close range of the caster must succeed on a Will save or have their armor teleported 5 ft. in a random direction.', '6: All hostile creatures within close range of the target must succeed on a Will save or be shunted to an empty demiplane for 1d6 rounds. This demiplane is flat, featureless, infinite, unaligned, and features normal magic and gravity.', '7: An extra-dimensional pit opens under the target or target area. Any affected creature may succeed on a Reflex save to avoid falling into the pit, which has a diameter equal to the space of the target or the minimum area required to envelop all affected targets and a depth of 5 ft. + 5 ft. per 2 caster levels and persists for 1 round per caster level. If the target was being teleported, the square instead opens up under the destination of the target. Climbing out of this pit requires a Climb check with a DC equal to 10 + caster level. If the triggering effect creates a pit, this result increases the depth of that pit.', '8: The caster and target or creature nearest the center of the target area switch places after the casting is resolved. If either is too large for the receiving space, they are shunted to the nearest adequate space.', '9: A small elemental is called adjacent to the caster. This elemental is hostile to all creatures and attacks the nearest to the best of its ability. The size of this elemental increases with caster level: CL 5 - medium, CL 10 - large, CL 15 - huge, CL 20 - elder. Roll 1d4 to determine the elemental type, 1 - air, 2 - earth, 3 - fire, 4 - water.', '10: A rift opens adjacent to the caster, opening to the elemental plane of earth. This rift ejects 10 lbs of sand and gravel per caster level per round for 1 round per caster level.', '11: Roll twice and take both results. Ignore any results that require rerolls. If both rolls thus ignored, there is no effect.', '12: The casting time increases by 1 step.', '13: A rift opens adjacent to the caster, opening to the paraelemental plane of mud. This rift ejects mud which covers a 5-ft. radius in deep mud, increasing by 5 ft. each round for 1 round per caster level, causing covered squares to become difficult terrain.', '14: (Combat) All squares out to close range of the caster fold and shrink, allowing any allied creature moving through them to move two squares for each square of movement spent.', '15: (Combat) All squares out to close range of the caster fold and shrink, allowing any hostile creature moving through them to move two squares for each square of movement spent.', '16: The caster is exhausted.', '17: (Combat) The caster is stunned for 1 round.', '18: All extra-dimensional storage within medium range of the caster empty their contents in their current square. Creatures with attended extradimensional storage or storage from ongoing spell effects are allowed a WIll save to prevent this effect.', '19: All creatures within close range of the caster must succeed on a Will save or be shunted to an empty demiplane for 1d6 rounds. This demiplane is flat, featureless, infinite, unaligned, and features normal magic and gravity.', '20: (Combat) For 1 round per caster level, each hostile creature that ends its turn within close range of the caster must succeed on a Will save or be returned to the location it began its turn in. This effect does not cross planar boundaries.', '21: (Combat) The caster teleports to the nearest square adjacent to an allied creature.', '22: The spell point cost of the effect increases by 1. If the caster does not have enough spell points, he is instead staggered until the end of his next turn.', '23: The effect fails and the action is lost. Spell points or spell slots are not lost.', '24: The caster takes a number of points of ability damage to his casting attribute equal to the caster level/4 (minimum 1) of the effect, even if he would normally be immune to ability damage.', '25: The effect fails, but the action is not lost. Spell points or spell slots spent are lost.', '26: Roll again on the Universal wild magic table.', '27: The caster loses knowledge of any of the talents used in the effect (but not the base sphere) for the length of the effect (minimum 1 round).', '28: All creatures within close range of the caster (including the caster) are instantly teleported 5 ft. per caster level into the air. If that space is occupied, the creature is shunted to the nearest open space.', '29: Effect receives a -4 penalty to caster level (minimum 1).', '30: (Combat) All hostile creatures within close range of the caster must succeed on a Will save or have their armor teleported 5 ft. in a random direction.', '31: (Combat) For 1 round per caster level, all creatures within medium range of the caster gain the ability to complete their normal movements without passing through any intervening squares.', '32: Random portals open and close within close range of the caster for 1 round per caster level. Whenever an attack, spell, or other effect is directed at a target within this area, there is a 20% chance that it instead targets the caster.', '33: (Combat) The caster switches position with the nearest hostile creature as per the Swap Placement talent.', '34: (Combat) As space is bent, all movement made toward the caster for 1 minute per caster level forces the moving creature to move 2 squares for every square. A creature cannot choose to move only 5 ft. toward the caster unless that movement would bring it adjacent to the caster.', '35: All allied creatures within close range of the target must succeed on a Will save or be shunted to an empty demiplane for 1d6 rounds. This demiplane is flat, featureless, infinite, unaligned, and features normal magic and gravity.', '36: Non-native outsiders within close range of the caster must succeed on a Will save or be banished to their home plane.', '37: A rift opens adjacent to the caster, opening to the paraelemental plane of steam. This rift deals 1d6 fire damage damage to all creatures within 5 ft. + 5 ft. per 2 caster levels radius each round for 1 round per caster level and attempts a bullrush check against them as the Air Blast talent of the Destruction sphere.', '38: All extra-dimensional storage within medium range of the target empty their contents in their current square. Creatures with attended extradimensional storage or storage from ongoing spell effects are allowed a Will save to negate this effect for their extradimensional spaces.', '39: For 10 minutes per caster level, all calling, summoning, and teleportation effects within long range of the caster automatically fail, wasting any spell points, spell slots, and actions used to cast them.', '40: A pit appears under the caster with a depth of 5 ft. per caster level and a radius of 5 ft. plus 5 ft. per 5 caster levels. This pit persists for 1 round per caster level. Climbing out of this pit requires a Climb check with a DC equal to 10 + caster level. Creatures within this area fall into the pit with no save, though no creature takes falling damage nor falls prone.', '41: Each round for 1d6 rounds, the caster returns to the location where he began his previous turn. This effect functions even across planar boundaries.', '42: The caster gains the benefit of the Teleportation Beacon talent fixed to his square at the time this result is triggered. The beacon persists for 10 minutes per caster level.', '43: (Combat) The caster is nauseated for 1 round.', '44: All hostile creatures within close range of the caster must succeed on a Will save or be shunted to an empty demiplane for 1d6 rounds. This demiplane is flat, featureless, infinite, unaligned, and features normal magic and gravity.', '45: All targets arrive at their destinations 1d4 rounds later. Creatures entering an extradimensional space are automatically expelled 1d4 rounds later.', '46: (Combat) For 1 round per caster level, each allied creature that ends its turn within close range of the caster must succeed on a Will save or be returned to the location it began its turn in. This effect does not cross planar boundaries.', '47: (Combat) All squares out to close range of the caster fold and shrink, allowing any creature moving through them to move two squares for each square of movement spent.', '48: Roll twice and choose the result. Ignore any results that require rerolls. If both rolls thus ignored, there is no effect.', '49: Spiders are instantly teleported into the space of the caster, creating a swarm. Treat this as a spider swarm that acts according to its instincts and persists until destroyed.', '50: All creatures within close range of the caster must succeed on a Will save or have any items held in their hands teleported 1d6 squares toward the caster.', '51: All hostile creatures within close range of the target must succeed on a Will save or be shunted to an empty demiplane for 1d6 rounds. This demiplane has planar traits as chosen by the caster.', '52: The effect fails and the action is lost. Spell points or spell slots are lost.', '53: (Combat) The caster is dazed for 1 round.', '54: A rift opens adjacent to the caster, opening to the elemental plane of air. This rift deals 1d6 bludgeoning damage to all creatures within 5 ft. + 5 ft. per 2 caster levels radius each round for 1 round per caster level and attempts a bullrush check against them as the Air Blast talent of the Destruction sphere.', '55: The spell point cost of the effect increases by 1d4. If the caster does not have enough spell points, he is instead dazed until the end of his next turn.', '56: (Combat) All squares out to close range of the caster stretch, requiring any creature moving through them to spend two squares of movement each and preventing 5-foot steps.', '57: The caster loses access to this sphere for 1d6 rounds.', '58: A rift opens adjacent to the caster, opening to the elemental plane of fire. This rift deals 1d6 fire damage to all creatures within 5 ft. + 5 ft. per 2 caster levels radius each round for 1 round per caster level.', '59: Any items in the hands of the caster teleport 1d6 squares in a random direction.', '60: The caster makes a single magical skill check against all Warp sphere effects within medium range to dispel them as if using the Counterspell feat. This is resolved before the triggering effect.', '61: The casting time decreases by 1 step.', '62: The caster may teleport within medium range as a free action.', '63: The caster may teleport within medium range as a free action, but is dazed for 1 round if he does so. The caster is not aware of the daze effect before teleporting.', '64: The caster takes untyped nonlethal damage equal to caster level. This damage does not force concentration checks to cast or maintain sphere effects or spells.', '65: The caster is instantly teleported 5 ft. per caster level directly upward into the air. If that space is occupied, the caster is shunted to the nearest open space.', '66: (Combat) All squares out to close range of the caster stretch, requiring any allied creature moving through them to spend two squares of movement each and preventing 5-foot steps.', '67: (Combat) For 1 round per caster level, all allied creatures within close range of the caster gain the ability to complete their normal movements without passing through any intervening squares.', '68: (Combat) The nearest allied creature not adjacent to the caster is teleported adjacent to the caster.', '69: The caster takes 1d4 Constitution damage even if he would normally be immune to ability damage. Creatures without a Constitution score instead take Charisma damage.', '70: All creatures within close range of the target must succeed on a Will save or be shunted to an empty demiplane for 1d6 rounds. This demiplane has planar traits as chosen by the caster.', '71: Any hostile creatures that threaten an affected creature may choose to be teleported along with or enter the extradimensional space alongside the target. Moving into an extradimensional space in this way does not provoke at attack of opportunity.', '72: All allied creatures within close range of the target must succeed on a Will save or have their armor teleported 5 ft. in a random direction.', '73: (Combat) For 1 round per caster level, all hostile creatures within long range of the caster gain the ability to complete their normal movements without passing through any intervening squares.', '74: (Combat) For 1 round per caster level, each creature that ends its turn within close range of the caster must succeed on a Will save or be returned to the location it began its turn in. This effect does not cross planar boundaries.', '75: All allied creatures within close range of the target must succeed on a Will save or be shunted to an empty demiplane for 1d6 rounds. This demiplane has planar traits as chosen by the caster.', '76: The caster gains knowledge of one talent of his choice from this sphere for 1 round.', '77: The caster gains the benefit of the Teleportation Beacon talent fixed to a square 1d20 miles in a random direction. The beacon persists for 1 hour per caster level.', '78: Effect receives a +2 bonus to caster level.', '79: The caster is shunted to the ethereal plane for 1 round per caster level.', '80: The armor of the caster teleports 5 ft. in a random direction.', '81: All creatures within close range of the target must succeed on a Will save or have their armor teleported 5 ft. in a random direction.', '82: A Tiny plush toy appears in the hand of the caster. If the caster does not have an empty hand, one held object is immediately dropped to make room for the toy. The toy returns to its place of origin after 1 minute per caster level.', '83: The caster makes a single magical skill check against all Warp sphere effects within medium range to dispel them as if using the Counterspell feat. This is resolved after the triggering effect.', '84: The spell point cost of the effect decreases by 1. If the effect did not require any spell points, the caster instead gains 1 temporary spell point that expires at the end of his next turn.', '85: A rift opens adjacent to the caster, opening to the elemental plane of water. This rift ejects 10 gallons of water per caster level per round for 1 round per caster level.', '86: A pit appears under the caster with a depth of 5 ft. per caster level and a radius of 5 ft. plus 5 ft. per 5 caster levels. This pit persists for 1 round per caster level. Climbing out of this pit requires a Climb check with a DC equal to 10 + caster level. Creatures other than the caster are permitted a Reflex save to not fall in. The caster and any creatures that fail this save take falling damage as normal.', '87: All targets or creatures that enter the resultant extradimensional space must succeed on a Will save or take 1d6 points of damage per even caster level (minimum 1d6) untyped damage as the Splinter talent. This damage stacks with that of the Splinter talent.', '88: All allied creatures within close range of the caster must succeed on a Will save or be shunted to an empty demiplane for 1d6 rounds. This demiplane has planar traits as chosen by the caster.', '89: (Combat) The caster teleports to the nearest square adjacent to a hostile creature.', '90: The caster is fatigued.', '91: A small elemental is called adjacent to the caster. This elemental is hostile to the caster and his allies. The size of this elemental increases with caster level: CL 5 - medium, CL 10 - large, CL 15 - huge, CL 20 - elder. Roll 1d4 to determine the elemental type, 1 - air, 2 - earth, 3 - fire, 4 - water.', '92: All creatures within close range of the target must succeed on a Will save or be shunted to an empty demiplane for 1d6 rounds. This demiplane is flat, featureless, infinite, unaligned, and features normal magic and gravity.', '93: All allied creatures within close range of the target must succeed on a Will save or have any items held in their hands teleported 1d6 squares toward the caster.', '94 A rift appears adjacent to the caster, opening a portal to a plane the GM chooses (the denizens of the chosen plane should be naturally hostile to the caster). One creature the GM chooses that is native to the selected plane with a CR not exceeding caster level appears out of the rift each round for a 1d6 rounds and attacks the caster and his allies.', '95: (Combat) The nearest creature not adjacent to the caster is teleported adjacent to the caster.', '96: The casting time increases by 2 steps.', '97: All creatures within close range of the caster must succeed on a Will save or be shunted to an empty demiplane for 1d6 rounds. This demiplane has planar traits as chosen by the caster.', '98: All hostile creatures within close range of the caster must succeed on a Will save or be shunted to an empty demiplane for 1d6 rounds. This demiplane has planar traits as chosen by the caster.', '99: (Combat) All hostile creatures within close range of the target must succeed on a Will save or have their armor teleported 5 ft. in a random direction.', '100: All creatures within close range of the caster must succeed on a Will save or have their armor teleported 5 ft. in a random direction.'];
@@ -725,106 +819,106 @@ A Synapse is a [[[Symbiat]]] who specializes in the Mind and Warp spheres.
 [[/html]]
 
 ++++ Wild Magic Table
-||~ d100 ||~ Result || 
-|| 1 || (Combat) The nearest hostile creature not adjacent to the caster is teleported adjacent to the caster. || 
-|| 2 || All creatures within close range of the target must succeed on a Will save or have any items held in their hands teleported 1d6 squares toward the caster. || 
-|| 3 || The caster is teleported adjacent to one affected creature of the GM’s choice. || 
-|| 4 || The casting time decreases by 2 steps. || 
-|| 5 || All allied creatures within close range of the caster must succeed on a Will save or have their armor teleported 5 ft. in a random direction. || 
-|| 6 || All hostile creatures within close range of the target must succeed on a Will save or be shunted to an empty demiplane for 1d6 rounds. This demiplane is flat, featureless, infinite, unaligned, and features normal magic and gravity. || 
-|| 7 || An extra-dimensional pit opens under the target or target area. Any affected creature may succeed on a Reflex save to avoid falling into the pit, which has a diameter equal to the target’s space or the minimum area required to envelop all affected targets and a depth of 5 ft. + 5 ft. per 2 caster levels and persists for 1 round per caster level. If the target was being teleported, the square instead opens up under the target’s destination. Climbing out of this pit requires a Climb check with a DC equal to 10 + caster level. If the triggering effect creates a pit, this result increases the depth of that pit. || 
-|| 8 || The caster and target or creature nearest the center of the target area switch places after the casting is resolved. If either is too large for the receiving space, they are shunted to the nearest adequate space. || 
-|| 9 || A small elemental is called adjacent to the caster. This elemental is hostile to all creatures and attacks the nearest to the best of its ability. The size of this elemental increases with caster level: CL 5 - medium, CL 10 - large, CL 15 - huge, CL 20 - elder. Roll 1d4 to determine the elemental type, 1 - air, 2 - earth, 3 - fire, 4 - water. || 
-|| 10 || A rift opens adjacent to the caster, opening to the elemental plane of earth. This rift ejects 10 lbs of sand and gravel per caster level per round for 1 round per caster level. || 
-|| 11 || Roll twice and take both results. Ignore any results that require rerolls. If both rolls thus ignored, there is no effect. || 
-|| 12 || The casting time increases by 1 step. || 
-|| 13 || A rift opens adjacent to the caster, opening to the paraelemental plane of mud. This rift ejects mud which covers a 5-ft. radius in deep mud, increasing by 5 ft. each round for 1 round per caster level, causing covered squares to become difficult terrain. || 
-|| 14 || (Combat) All squares out to close range of the caster fold and shrink, allowing any allied creature moving through them to move two squares for each square of movement spent. || 
-|| 15 || (Combat) All squares out to close range of the caster fold and shrink, allowing any hostile creature moving through them to move two squares for each square of movement spent. || 
-|| 16 || The caster is exhausted. || 
-|| 17 || (Combat) The caster is stunned for 1 round. || 
-|| 18 || All extra-dimensional storage within medium range of the caster empty their contents in their current square. Creatures with attended extradimensional storage or storage from ongoing spell effects are allowed a Will save to prevent this effect. || 
-|| 19 || All creatures within close range of the caster must succeed on a Will save or be shunted to an empty demiplane for 1d6 rounds. This demiplane is flat, featureless, infinite, unaligned, and features normal magic and gravity. || 
-|| 20 || (Combat) For 1 round per caster level, each hostile creature that ends its turn within close range of the caster must succeed on a Will save or be returned to the location it began its turn in. This effect does not cross planar boundaries. || 
-|| 21 || (Combat) The caster teleports to the nearest square adjacent to an allied creature. || 
-|| 22 || The spell point cost of the effect increases by 1. If the caster does not have enough spell points, he is instead staggered until the end of his next turn. || 
-|| 23 || The effect fails and the action is lost. Spell points or spell slots are not lost. || 
-|| 24 || The caster takes a number of points of ability damage to his casting attribute equal to the effect’s caster level/4 (minimum 1) even if he would normally be immune to ability damage. || 
-|| 25 || The effect fails, but the action is not lost. Spell points or spell slots spent are lost. || 
-|| 26 || Roll again on the Universal wild magic table. || 
-|| 27 || The caster loses knowledge of any of the talents used in the effect (but not the base sphere) for the length of the effect (minimum 1 round). || 
-|| 28 || All creatures within close range of the caster (including the caster) are instantly teleported 5 ft. per caster level into the air. If that space is occupied, the creature is shunted to the nearest open space. || 
-|| 29 || Effect receives a -4 penalty to caster level (minimum 1). || 
-|| 30 || (Combat) All hostile creatures within close range of the caster must succeed on a Will save or have their armor teleported 5 ft. in a random direction. || 
-|| 31 || (Combat) For 1 round per caster level, all creatures within medium range of the caster gain the ability to complete their normal movements without passing through any intervening squares. || 
-|| 32 || Random portals open and close within close range of the caster for 1 round per caster level. Whenever an attack, spell, or other effect is directed at a target within this area, there is a 20% chance that it instead targets the caster. || 
-|| 33 || (Combat) The caster switches position with the nearest hostile creature as per the Swap Placement talent. || 
-|| 34 || (Combat) As space is bent, all movement made toward the caster for 1 minute per caster level forces the moving creature to move 2 squares for every square. A creature cannot choose to move only 5 ft. toward the caster unless that movement would bring it adjacent to the caster. || 
-|| 35 || All allied creatures within close range of the target must succeed on a Will save or be shunted to an empty demiplane for 1d6 rounds. This demiplane is flat, featureless, infinite, unaligned, and features normal magic and gravity. || 
-|| 36 || Non-native outsiders within close range of the caster must succeed on a Will save or be banished to their home plane. || 
-|| 37 || A rift opens adjacent to the caster, opening to the paraelemental plane of steam. This rift deals 1d6 fire damage damage to all creatures within 5 ft. + 5 ft. per 2 caster levels radius each round for 1 round per caster level and attempts a bullrush check against them as the Air Blast talent of the Destruction sphere. || 
-|| 38 || All extra-dimensional storage within medium range of the target empty their contents in their current square. Creatures with attended extradimensional storage or storage from ongoing spell effects are allowed a Will save to negate this effect for their extradimensional spaces. || 
-|| 39 || For 10 minutes per caster level, all calling, summoning, and teleportation effects within long range of the caster automatically fail, wasting any spell points, spell slots, and actions used to cast them. || 
-|| 40 || A pit appears under the caster with a depth of 5 ft. per caster level and a radius of 5 ft. plus 5 ft. per 5 caster levels. This pit persists for 1 round per caster level. Climbing out of this pit requires a Climb check with a DC equal to 10 + caster level. Creatures within this area fall into the pit with no save, though no creature takes falling damage nor falls prone. || 
-|| 41 || Each round for 1d6 rounds, the caster returns to the location where he began his previous turn. This effect functions even across planar boundaries. || 
-|| 42 || The caster gains the benefit of the Teleportation Beacon talent fixed to his square at the time this result is triggered. The beacon persists for 10 minutes per caster level. || 
-|| 43 || (Combat) The caster is nauseated for 1 round. || 
-|| 44 || All hostile creatures within close range of the caster must succeed on a Will save or be shunted to an empty demiplane for 1d6 rounds. This demiplane is flat, featureless, infinite, unaligned, and features normal magic and gravity. || 
-|| 45 || All targets arrive at their destinations 1d4 rounds later. Creatures entering an extradimensional space are automatically expelled 1d4 rounds later. || 
-|| 46 || (Combat) For 1 round per caster level, each allied creature that ends its turn within close range of the caster must succeed on a Will save or be returned to the location it began its turn in. This effect does not cross planar boundaries. || 
-|| 47 || (Combat) All squares out to close range of the caster fold and shrink, allowing any creature moving through them to move two squares for each square of movement spent. || 
-|| 48 || Roll twice and choose the result. Ignore any results that require rerolls. If both rolls thus ignored, there is no effect. || 
-|| 49 || Spiders are instantly teleported into the caster’s space, creating a swarm. Treat this as a spider swarm that acts according to its instincts and persists until destroyed. || 
-|| 50 || All creatures within close range of the caster must succeed on a Will save or have any items held in their hands teleported 1d6 squares toward the caster. || 
-|| 51 || All hostile creatures within close range of the target must succeed on a Will save or be shunted to an empty demiplane for 1d6 rounds. This demiplane has planar traits as chosen by the caster. || 
-|| 52 || The effect fails and the action is lost. Spell points or spell slots are lost. || 
-|| 53 || (Combat) The caster is dazed for 1 round. || 
-|| 54 || A rift opens adjacent to the caster, opening to the elemental plane of air. This rift deals 1d6 bludgeoning damage damage to all creatures within 5 ft. + 5 ft. per 2 caster levels radius each round for 1 round per caster level and attempts a bullrush check against them as the Air Blast talent of the Destruction sphere. || 
-|| 55 || The spell point cost of the effect increases by 1d4. If the caster does not have enough spell points, he is instead dazed until the end of his next turn. || 
-|| 56 || (Combat) All squares out to close range of the caster stretch, requiring any creature moving through them to spend two squares of movement each and preventing 5-foot steps. || 
-|| 57 || The caster loses access to this sphere for 1d6 rounds. || 
-|| 58 || A rift opens adjacent to the caster, opening to the elemental plane of fire. This rift deals 1d6 fire damage to all creatures within 5 ft. + 5 ft. per 2 caster levels radius each round for 1 round per caster level. || 
-|| 59 || Any items in the caster’s hands teleport 1d6 squares in a random direction. || 
-|| 60 || The caster makes a single magical skill check against all Warp sphere effects within medium range to dispel them as if using the Counterspell feat. This is resolved before the triggering effect. || 
-|| 61 || The casting time decreases by 1 step. || 
-|| 62 || The caster may teleport within medium range as a free action. || 
-|| 63 || The caster may teleport within medium range as a free action, but is dazed for 1 round if he does so. The caster is not aware of the daze effect before teleporting. || 
+||~ d100 ||~ Result ||
+|| 1 || (Combat) The nearest hostile creature not adjacent to the caster is teleported adjacent to the caster. ||
+|| 2 || All creatures within close range of the target must succeed on a Will save or have any items held in their hands teleported 1d6 squares toward the caster. ||
+|| 3 || The caster is teleported adjacent to one affected creature of the GM’s choice. ||
+|| 4 || The casting time decreases by 2 steps. ||
+|| 5 || All allied creatures within close range of the caster must succeed on a Will save or have their armor teleported 5 ft. in a random direction. ||
+|| 6 || All hostile creatures within close range of the target must succeed on a Will save or be shunted to an empty demiplane for 1d6 rounds. This demiplane is flat, featureless, infinite, unaligned, and features normal magic and gravity. ||
+|| 7 || An extra-dimensional pit opens under the target or target area. Any affected creature may succeed on a Reflex save to avoid falling into the pit, which has a diameter equal to the target’s space or the minimum area required to envelop all affected targets and a depth of 5 ft. + 5 ft. per 2 caster levels and persists for 1 round per caster level. If the target was being teleported, the square instead opens up under the target’s destination. Climbing out of this pit requires a Climb check with a DC equal to 10 + caster level. If the triggering effect creates a pit, this result increases the depth of that pit. ||
+|| 8 || The caster and target or creature nearest the center of the target area switch places after the casting is resolved. If either is too large for the receiving space, they are shunted to the nearest adequate space. ||
+|| 9 || A small elemental is called adjacent to the caster. This elemental is hostile to all creatures and attacks the nearest to the best of its ability. The size of this elemental increases with caster level: CL 5 - medium, CL 10 - large, CL 15 - huge, CL 20 - elder. Roll 1d4 to determine the elemental type, 1 - air, 2 - earth, 3 - fire, 4 - water. ||
+|| 10 || A rift opens adjacent to the caster, opening to the elemental plane of earth. This rift ejects 10 lbs of sand and gravel per caster level per round for 1 round per caster level. ||
+|| 11 || Roll twice and take both results. Ignore any results that require rerolls. If both rolls thus ignored, there is no effect. ||
+|| 12 || The casting time increases by 1 step. ||
+|| 13 || A rift opens adjacent to the caster, opening to the paraelemental plane of mud. This rift ejects mud which covers a 5-ft. radius in deep mud, increasing by 5 ft. each round for 1 round per caster level, causing covered squares to become difficult terrain. ||
+|| 14 || (Combat) All squares out to close range of the caster fold and shrink, allowing any allied creature moving through them to move two squares for each square of movement spent. ||
+|| 15 || (Combat) All squares out to close range of the caster fold and shrink, allowing any hostile creature moving through them to move two squares for each square of movement spent. ||
+|| 16 || The caster is exhausted. ||
+|| 17 || (Combat) The caster is stunned for 1 round. ||
+|| 18 || All extra-dimensional storage within medium range of the caster empty their contents in their current square. Creatures with attended extradimensional storage or storage from ongoing spell effects are allowed a Will save to prevent this effect. ||
+|| 19 || All creatures within close range of the caster must succeed on a Will save or be shunted to an empty demiplane for 1d6 rounds. This demiplane is flat, featureless, infinite, unaligned, and features normal magic and gravity. ||
+|| 20 || (Combat) For 1 round per caster level, each hostile creature that ends its turn within close range of the caster must succeed on a Will save or be returned to the location it began its turn in. This effect does not cross planar boundaries. ||
+|| 21 || (Combat) The caster teleports to the nearest square adjacent to an allied creature. ||
+|| 22 || The spell point cost of the effect increases by 1. If the caster does not have enough spell points, he is instead staggered until the end of his next turn. ||
+|| 23 || The effect fails and the action is lost. Spell points or spell slots are not lost. ||
+|| 24 || The caster takes a number of points of ability damage to his casting attribute equal to the effect’s caster level/4 (minimum 1) even if he would normally be immune to ability damage. ||
+|| 25 || The effect fails, but the action is not lost. Spell points or spell slots spent are lost. ||
+|| 26 || Roll again on the Universal wild magic table. ||
+|| 27 || The caster loses knowledge of any of the talents used in the effect (but not the base sphere) for the length of the effect (minimum 1 round). ||
+|| 28 || All creatures within close range of the caster (including the caster) are instantly teleported 5 ft. per caster level into the air. If that space is occupied, the creature is shunted to the nearest open space. ||
+|| 29 || Effect receives a -4 penalty to caster level (minimum 1). ||
+|| 30 || (Combat) All hostile creatures within close range of the caster must succeed on a Will save or have their armor teleported 5 ft. in a random direction. ||
+|| 31 || (Combat) For 1 round per caster level, all creatures within medium range of the caster gain the ability to complete their normal movements without passing through any intervening squares. ||
+|| 32 || Random portals open and close within close range of the caster for 1 round per caster level. Whenever an attack, spell, or other effect is directed at a target within this area, there is a 20% chance that it instead targets the caster. ||
+|| 33 || (Combat) The caster switches position with the nearest hostile creature as per the Swap Placement talent. ||
+|| 34 || (Combat) As space is bent, all movement made toward the caster for 1 minute per caster level forces the moving creature to move 2 squares for every square. A creature cannot choose to move only 5 ft. toward the caster unless that movement would bring it adjacent to the caster. ||
+|| 35 || All allied creatures within close range of the target must succeed on a Will save or be shunted to an empty demiplane for 1d6 rounds. This demiplane is flat, featureless, infinite, unaligned, and features normal magic and gravity. ||
+|| 36 || Non-native outsiders within close range of the caster must succeed on a Will save or be banished to their home plane. ||
+|| 37 || A rift opens adjacent to the caster, opening to the paraelemental plane of steam. This rift deals 1d6 fire damage damage to all creatures within 5 ft. + 5 ft. per 2 caster levels radius each round for 1 round per caster level and attempts a bullrush check against them as the Air Blast talent of the Destruction sphere. ||
+|| 38 || All extra-dimensional storage within medium range of the target empty their contents in their current square. Creatures with attended extradimensional storage or storage from ongoing spell effects are allowed a Will save to negate this effect for their extradimensional spaces. ||
+|| 39 || For 10 minutes per caster level, all calling, summoning, and teleportation effects within long range of the caster automatically fail, wasting any spell points, spell slots, and actions used to cast them. ||
+|| 40 || A pit appears under the caster with a depth of 5 ft. per caster level and a radius of 5 ft. plus 5 ft. per 5 caster levels. This pit persists for 1 round per caster level. Climbing out of this pit requires a Climb check with a DC equal to 10 + caster level. Creatures within this area fall into the pit with no save, though no creature takes falling damage nor falls prone. ||
+|| 41 || Each round for 1d6 rounds, the caster returns to the location where he began his previous turn. This effect functions even across planar boundaries. ||
+|| 42 || The caster gains the benefit of the Teleportation Beacon talent fixed to his square at the time this result is triggered. The beacon persists for 10 minutes per caster level. ||
+|| 43 || (Combat) The caster is nauseated for 1 round. ||
+|| 44 || All hostile creatures within close range of the caster must succeed on a Will save or be shunted to an empty demiplane for 1d6 rounds. This demiplane is flat, featureless, infinite, unaligned, and features normal magic and gravity. ||
+|| 45 || All targets arrive at their destinations 1d4 rounds later. Creatures entering an extradimensional space are automatically expelled 1d4 rounds later. ||
+|| 46 || (Combat) For 1 round per caster level, each allied creature that ends its turn within close range of the caster must succeed on a Will save or be returned to the location it began its turn in. This effect does not cross planar boundaries. ||
+|| 47 || (Combat) All squares out to close range of the caster fold and shrink, allowing any creature moving through them to move two squares for each square of movement spent. ||
+|| 48 || Roll twice and choose the result. Ignore any results that require rerolls. If both rolls thus ignored, there is no effect. ||
+|| 49 || Spiders are instantly teleported into the caster’s space, creating a swarm. Treat this as a spider swarm that acts according to its instincts and persists until destroyed. ||
+|| 50 || All creatures within close range of the caster must succeed on a Will save or have any items held in their hands teleported 1d6 squares toward the caster. ||
+|| 51 || All hostile creatures within close range of the target must succeed on a Will save or be shunted to an empty demiplane for 1d6 rounds. This demiplane has planar traits as chosen by the caster. ||
+|| 52 || The effect fails and the action is lost. Spell points or spell slots are lost. ||
+|| 53 || (Combat) The caster is dazed for 1 round. ||
+|| 54 || A rift opens adjacent to the caster, opening to the elemental plane of air. This rift deals 1d6 bludgeoning damage damage to all creatures within 5 ft. + 5 ft. per 2 caster levels radius each round for 1 round per caster level and attempts a bullrush check against them as the Air Blast talent of the Destruction sphere. ||
+|| 55 || The spell point cost of the effect increases by 1d4. If the caster does not have enough spell points, he is instead dazed until the end of his next turn. ||
+|| 56 || (Combat) All squares out to close range of the caster stretch, requiring any creature moving through them to spend two squares of movement each and preventing 5-foot steps. ||
+|| 57 || The caster loses access to this sphere for 1d6 rounds. ||
+|| 58 || A rift opens adjacent to the caster, opening to the elemental plane of fire. This rift deals 1d6 fire damage to all creatures within 5 ft. + 5 ft. per 2 caster levels radius each round for 1 round per caster level. ||
+|| 59 || Any items in the caster’s hands teleport 1d6 squares in a random direction. ||
+|| 60 || The caster makes a single magical skill check against all Warp sphere effects within medium range to dispel them as if using the Counterspell feat. This is resolved before the triggering effect. ||
+|| 61 || The casting time decreases by 1 step. ||
+|| 62 || The caster may teleport within medium range as a free action. ||
+|| 63 || The caster may teleport within medium range as a free action, but is dazed for 1 round if he does so. The caster is not aware of the daze effect before teleporting. ||
 || 64 || The caster takes untyped nonlethal damage equal to caster level. This damage does not force concentration checks to cast or maintain sphere effects or spells. ||
-|| 65 || The caster is instantly teleported 5 ft. per caster level directly upward into the air. If that space is occupied, the caster is shunted to the nearest open space. || 
-|| 66 || (Combat) All squares out to close range of the caster stretch, requiring any allied creature moving through them to spend two squares of movement each and preventing 5-foot steps. || 
-|| 67 || (Combat) For 1 round per caster level, all allied creatures within close range of the caster gain the ability to complete their normal movements without passing through any intervening squares. || 
-|| 68 || (Combat) The nearest allied creature not adjacent to the caster is teleported adjacent to the caster. || 
-|| 69 || The caster takes 1d4 Constitution damage even if he would normally be immune to ability damage. Creatures without a Constitution score instead take Charisma damage. || 
-|| 70 || All creatures within close range of the target must succeed on a Will save or be shunted to an empty demiplane for 1d6 rounds. This demiplane has planar traits as chosen by the caster. || 
-|| 71 || Any hostile creatures that threaten an affected creature may choose to be teleported along with or enter the extradimensional space alongside the target. Moving into an extradimensional space in this way does not provoke at attack of opportunity. || 
-|| 72 || All allied creatures within close range of the target must succeed on a Will save or have their armor teleported 5 ft. in a random direction. || 
-|| 73 || (Combat) For 1 round per caster level, all hostile creatures within long range of the caster gain the ability to complete their normal movements without passing through any intervening squares. || 
-|| 74 || (Combat) For 1 round per caster level, each creature that ends its turn within close range of the caster must succeed on a Will save or be returned to the location it began its turn in. This effect does not cross planar boundaries. || 
-|| 75 || All allied creatures within close range of the target must succeed on a Will save or be shunted to an empty demiplane for 1d6 rounds. This demiplane has planar traits as chosen by the caster. || 
-|| 76 || The caster gains knowledge of one talent of his choice from this sphere for 1 round. || 
-|| 77 || The caster gains the benefit of the Teleportation Beacon talent fixed to a square 1d20 miles in a random direction. The beacon persists for 1 hour per caster level. || 
-|| 78 || Effect receives a +2 bonus to caster level. || 
-|| 79 || The caster is shunted to the ethereal plane for 1 round per caster level. || 
-|| 80 || The caster’s armor teleports 5 ft. in a random direction. || 
-|| 81 || All creatures within close range of the target must succeed on a Will save or have their armor teleported 5 ft. in a random direction. || 
-|| 82 || A Tiny plush toy appears in the caster’s hand. If the caster does not have an empty hand, one held object is immediately dropped to make room for the toy. The toy returns to its place of origin after 1 minute per caster level. || 
-|| 83 || The caster makes a single magical skill check against all Warp sphere effects within medium range to dispel them as if using the Counterspell feat. This is resolved after the triggering effect. || 
-|| 84 || The spell point cost of the effect decreases by 1. If the effect did not require any spell points, the caster instead gains 1 temporary spell point that expires at the end of his next turn. || 
-|| 85 || A rift opens adjacent to the caster, opening to the elemental plane of water. This rift ejects 10 gallons of water per caster level per round for 1 round per caster level. || 
-|| 86 || A pit appears under the caster with a depth of 5 ft. per caster level and a radius of 5 ft. plus 5 ft. per 5 caster levels. This pit persists for 1 round per caster level. Climbing out of this pit requires a Climb check with a DC equal to 10 + caster level. Creatures other than the caster are permitted a Reflex save to not fall in. The caster and any creatures that fail this save take falling damage as normal. || 
-|| 87 || All targets or creatures that enter the resultant extradimensional space must succeed on a Will save or take 1d6 points of damage per even caster level (minimum 1d6) untyped damage as the Splinter talent. This damage stacks with that of the Splinter talent. || 
-|| 88 || All allied creatures within close range of the caster must succeed on a Will save or be shunted to an empty demiplane for 1d6 rounds. This demiplane has planar traits as chosen by the caster. || 
-|| 89 || (Combat) The caster teleports to the nearest square adjacent to a hostile creature. || 
-|| 90 || The caster is fatigued. || 
-|| 91 || A small elemental is called adjacent to the caster. This elemental is hostile to the caster and his allies. The size of this elemental increases with caster level: CL 5 - medium, CL 10 - large, CL 15 - huge, CL 20 - elder. Roll 1d4 to determine the elemental type, 1 - air, 2 - earth, 3 - fire, 4 - water. || 
-|| 92 || All creatures within close range of the target must succeed on a Will save or be shunted to an empty demiplane for 1d6 rounds. This demiplane is flat, featureless, infinite, unaligned, and features normal magic and gravity. || 
-|| 93 || All allied creatures within close range of the target must succeed on a Will save or have any items held in their hands teleported 1d6 squares toward the caster. || 
-|| 94 || A rift appears adjacent to the caster, opening a portal to a plane of the GM’s choice (the denizens of the chosen plane should be naturally hostile to the caster). One creature of the GM’s choice native to the selected plane with a CR not exceeding caster level appears out of the rift each round for a 1d6 rounds and attacks the caster and his allies. || 
-|| 95 || (Combat) The nearest creature not adjacent to the caster is teleported adjacent to the caster. || 
-|| 96 || The casting time increases by 2 steps. || 
-|| 97 || All creatures within close range of the caster must succeed on a Will save or be shunted to an empty demiplane for 1d6 rounds. This demiplane has planar traits as chosen by the caster. || 
-|| 98 || All hostile creatures within close range of the caster must succeed on a Will save or be shunted to an empty demiplane for 1d6 rounds. This demiplane has planar traits as chosen by the caster. || 
-|| 99 || (Combat) All hostile creatures within close range of the target must succeed on a Will save or have their armor teleported 5 ft. in a random direction. || 
+|| 65 || The caster is instantly teleported 5 ft. per caster level directly upward into the air. If that space is occupied, the caster is shunted to the nearest open space. ||
+|| 66 || (Combat) All squares out to close range of the caster stretch, requiring any allied creature moving through them to spend two squares of movement each and preventing 5-foot steps. ||
+|| 67 || (Combat) For 1 round per caster level, all allied creatures within close range of the caster gain the ability to complete their normal movements without passing through any intervening squares. ||
+|| 68 || (Combat) The nearest allied creature not adjacent to the caster is teleported adjacent to the caster. ||
+|| 69 || The caster takes 1d4 Constitution damage even if he would normally be immune to ability damage. Creatures without a Constitution score instead take Charisma damage. ||
+|| 70 || All creatures within close range of the target must succeed on a Will save or be shunted to an empty demiplane for 1d6 rounds. This demiplane has planar traits as chosen by the caster. ||
+|| 71 || Any hostile creatures that threaten an affected creature may choose to be teleported along with or enter the extradimensional space alongside the target. Moving into an extradimensional space in this way does not provoke at attack of opportunity. ||
+|| 72 || All allied creatures within close range of the target must succeed on a Will save or have their armor teleported 5 ft. in a random direction. ||
+|| 73 || (Combat) For 1 round per caster level, all hostile creatures within long range of the caster gain the ability to complete their normal movements without passing through any intervening squares. ||
+|| 74 || (Combat) For 1 round per caster level, each creature that ends its turn within close range of the caster must succeed on a Will save or be returned to the location it began its turn in. This effect does not cross planar boundaries. ||
+|| 75 || All allied creatures within close range of the target must succeed on a Will save or be shunted to an empty demiplane for 1d6 rounds. This demiplane has planar traits as chosen by the caster. ||
+|| 76 || The caster gains knowledge of one talent of his choice from this sphere for 1 round. ||
+|| 77 || The caster gains the benefit of the Teleportation Beacon talent fixed to a square 1d20 miles in a random direction. The beacon persists for 1 hour per caster level. ||
+|| 78 || Effect receives a +2 bonus to caster level. ||
+|| 79 || The caster is shunted to the ethereal plane for 1 round per caster level. ||
+|| 80 || The caster’s armor teleports 5 ft. in a random direction. ||
+|| 81 || All creatures within close range of the target must succeed on a Will save or have their armor teleported 5 ft. in a random direction. ||
+|| 82 || A Tiny plush toy appears in the caster’s hand. If the caster does not have an empty hand, one held object is immediately dropped to make room for the toy. The toy returns to its place of origin after 1 minute per caster level. ||
+|| 83 || The caster makes a single magical skill check against all Warp sphere effects within medium range to dispel them as if using the Counterspell feat. This is resolved after the triggering effect. ||
+|| 84 || The spell point cost of the effect decreases by 1. If the effect did not require any spell points, the caster instead gains 1 temporary spell point that expires at the end of his next turn. ||
+|| 85 || A rift opens adjacent to the caster, opening to the elemental plane of water. This rift ejects 10 gallons of water per caster level per round for 1 round per caster level. ||
+|| 86 || A pit appears under the caster with a depth of 5 ft. per caster level and a radius of 5 ft. plus 5 ft. per 5 caster levels. This pit persists for 1 round per caster level. Climbing out of this pit requires a Climb check with a DC equal to 10 + caster level. Creatures other than the caster are permitted a Reflex save to not fall in. The caster and any creatures that fail this save take falling damage as normal. ||
+|| 87 || All targets or creatures that enter the resultant extradimensional space must succeed on a Will save or take 1d6 points of damage per even caster level (minimum 1d6) untyped damage as the Splinter talent. This damage stacks with that of the Splinter talent. ||
+|| 88 || All allied creatures within close range of the caster must succeed on a Will save or be shunted to an empty demiplane for 1d6 rounds. This demiplane has planar traits as chosen by the caster. ||
+|| 89 || (Combat) The caster teleports to the nearest square adjacent to a hostile creature. ||
+|| 90 || The caster is fatigued. ||
+|| 91 || A small elemental is called adjacent to the caster. This elemental is hostile to the caster and his allies. The size of this elemental increases with caster level: CL 5 - medium, CL 10 - large, CL 15 - huge, CL 20 - elder. Roll 1d4 to determine the elemental type, 1 - air, 2 - earth, 3 - fire, 4 - water. ||
+|| 92 || All creatures within close range of the target must succeed on a Will save or be shunted to an empty demiplane for 1d6 rounds. This demiplane is flat, featureless, infinite, unaligned, and features normal magic and gravity. ||
+|| 93 || All allied creatures within close range of the target must succeed on a Will save or have any items held in their hands teleported 1d6 squares toward the caster. ||
+|| 94 || A rift appears adjacent to the caster, opening a portal to a plane of the GM’s choice (the denizens of the chosen plane should be naturally hostile to the caster). One creature of the GM’s choice native to the selected plane with a CR not exceeding caster level appears out of the rift each round for a 1d6 rounds and attacks the caster and his allies. ||
+|| 95 || (Combat) The nearest creature not adjacent to the caster is teleported adjacent to the caster. ||
+|| 96 || The casting time increases by 2 steps. ||
+|| 97 || All creatures within close range of the caster must succeed on a Will save or be shunted to an empty demiplane for 1d6 rounds. This demiplane has planar traits as chosen by the caster. ||
+|| 98 || All hostile creatures within close range of the caster must succeed on a Will save or be shunted to an empty demiplane for 1d6 rounds. This demiplane has planar traits as chosen by the caster. ||
+|| 99 || (Combat) All hostile creatures within close range of the target must succeed on a Will save or have their armor teleported 5 ft. in a random direction. ||
 || 100 || All creatures within close range of the caster must succeed on a Will save or have their armor teleported 5 ft. in a random direction. ||
 [[/tab]]
 [[tab Original]]
@@ -833,4 +927,5 @@ A Synapse is a [[[Symbiat]]] who specializes in the Mind and Warp spheres.
 [[/tabview]]
 
 ----
+
 [[include sop-template]]
