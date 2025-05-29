@@ -1,5 +1,4 @@
 title:Gladiator
-parent:spheres-of-might
 [[module CSS]]
 .noselect {
   -webkit-touch-callout: none; /* iOS Safari */
@@ -24,7 +23,7 @@ $19.99
 [[/div]]Practitioners of the Gladiator sphere are experts at fighting with flair and style in order to manipulate the emotions and actions of their enemies, their allies, or the crowd. The gladiator understands that winning is a mental game; if you can convince your enemy that you should be feared, the battle is half-finished already. When you gain the Gladiator sphere, you gain 5 ranks in the Intimidate skill, plus 5 ranks per additional talent spent in the Gladiator sphere (maximum ranks equal to your total Hit Dice). If you already have ranks in Intimidate you may immediately retrain them, but you do not get to retrain when only temporarily gaining talents, such as through the armiger’s customized weapons class feature.
 
 ++ ##993300|Boast##
-As long as you have martial focus, after confirming a critical hit, reducing an enemy to 0 or fewer hit points, or succeeding on a combat maneuver, you may perform a boast as an immediate action. Talents with the (boast) descriptor grant additional options for your boast. Each boast may only use one of these talents. Some boasts affect other creatures; a creature must be able to see or hear you and have an Intelligence score (not Intelligence (-)) to be effected. Boasts have a range of close (25 ft. + 5 ft. per 2 ranks in Intimidate you possess). When you gain the Gladiator sphere, you learn the following boast:
+As long as you have martial focus, after confirming a critical hit, reducing an enemy to 0 or fewer hit points, or succeeding on a combat maneuver, you may perform a boast as an immediate action. Talents with the (boast) descriptor grant additional options for your boast. Each boast may only use one of these talents. Some boasts affect other creatures; a creature must be able to see or hear you and have an Intelligence score (not Intelligence (-)) to be affected. Boasts have a range of close (25 ft. + 5 ft. per 2 ranks in Intimidate you possess). When you gain the Gladiator sphere, you learn the following boast:
 
 ++++ Prowess (boast)
 You may roll the next weapon attack you make before the end of your next turn twice and take the better result.
@@ -37,20 +36,36 @@ As a full-round action, you may expend martial focus to make an Intimidate check
 ----
 + ##993300|Gladiator Talents##
 
+++++ Awesome Impression [utility] [LotS]
+Whenever you affect a creature with the impressed condition (from Spheres of Guile), the DC of any Bluff, Diplomacy, Intimidate, or Perform checks attempted against the impressed creature by you are reduced by either 4 or your practitioner modifier, whichever is greater. This replaces the normal DC modifier of being impressed.
+
 ++++ Derision
 When a creature misses when targeting you with an attack roll or fails on a combat maneuver against you, you may perform a boast as an immediate action.
 
 ++++ Fan Favorite
 You may perform a boast as a free action even when it is not your turn whenever you succeed on a saving throw against an effect originating from a hostile creature.
 
-++++ Master of Fear
+++++ Master Of Fear
 You no longer need to expend your martial focus when using your strike fear ability, and may use your strike fear ability as a standard action rather than a full-round action.
 
-++++ Punish the Meek [Apoc]
+++++ Motivational Audience [Apoc]
+^^**Source:** [https://www.drivethrurpg.com/product/282809/Spheres-Apocrypha-Tandem-Talents?affiliate_id=549120 Tandem Talents]^^
+
+As long as you have martial focus, whenever an ally that can see you or hear you within 60 ft. would perform an action that would allow you to boast (such as confirming a critical hit, reducing an enemy to 0 or fewer hit points, etc.), you may expend your martial focus to boast as an immediate action, treating it as if you had performed the action.
+
+++++ Pathetic Yelp [Jester's HB]
+As long as you have martial focus, when an enemy successfully deals damage to you, you may perform a boast as an immediate action.
+
+++++ Performance Fighter [utility] [LotS]
+You may make a performance combat check as a free action up to once per round rather than a swift action. In addition, you treat all weapons you are proficient in as if they had the performance weapon quality.
+
+**Associated Feats:** Master Combat Performer, Performance Weapon Mastery (both Pathfinder Roleplaying Game: Ultimate Combat).
+
+++++ Punish The Meek [Apoc]
 Whenever you use an attack action to deal damage to a creature that is currently demoralized by you, extend the duration of the demoralization by one round. **Associated Feat:** Demoralizing Lash.
 
 ++++ Self Confidence
-You may perform a boast as a standard action to recover your martial focus. Doing so does not require the normal triggering condition for a boast.
+You may perform a boast as a standard action to regain your martial focus. Doing so does not require the normal triggering condition for a boast.
 
 ++++ Theatrical Boast
 The range of your boast increases to medium (100 ft. + 10 ft. per rank in Intimidate you possess).
@@ -64,11 +79,14 @@ You gain a morale bonus equal to 1/2 your ranks in Intimidate to the DC of any c
 When a creature attempts to Intimidate you and fails, or when you succeed on a save against a fear effect, you may expend martial focus to make a demoralization check against the creature who initiated the effect.
 
 ++++ Vengeful Boast [Apoc]
-You may perform a boast as a immediate action even when it is not your turn whenever an ally you can perceive and is within the range of your boasts takes damage from an enemy attack that results in the ally being at or below half their maximum hit points.
+You may perform a boast as an immediate action whenever an ally you can perceive and is within the range of your boasts takes damage from an enemy attack that results in the ally being at or below half their maximum hit points.
 
 ----
 
 + ##993300|Boast Talents##
+
+++++ Battering Banter (boast) [Youxia HB]
+Hostile creatures within range become battered for 1 round and must succeed at a Fortitude save or become fatigued for a number of rounds equal to your practitioner modifier.
 
 ++++ Bloodthirst (boast)
 Success spurs you to keep up the assault. You may make an attack against an enemy within the area of your boast using a wielded weapon as part of your boast.
@@ -79,24 +97,56 @@ Your extravagant and unusual display confounds your foes. Until the start of you
 ++++ Distracting Display (boast)
 By calling attention to yourself, you allow your allies to slip from view. Allies other than yourself within range of this boast may immediately make a Stealth check even if they are observed until the end of your next turn. You may not benefit from the Stealth skill until this duration expires. You may choose to activate this boast as a standard action without the normal requirements for activating a boast.
 
+++++ Enthusiastic Cheer (boast) [Warden]
+One allied creature within range gains a number of temporary hit points equal to your Intimidate ranks (minimum 1). These temporary hit points last for 1 minute. For every 4 ranks in Intimidate you possess, you may affect an additional ally.
+
 ++++ Exemplar (boast)
 Your allies within range may roll their next attack or combat maneuver check before the start of your next turn twice and take the better result. You do not benefit from this reroll.
+
+++++ Flamboyant Movement (boast) [Apoc]
+^^**Source:** [https://www.drivethrurpg.com/product/306343/Spheres-Apocrypha-Swashbucklers?affiliate_id=549120 Spheres Apocrypha: Swashbucklers]^^
+
+You confuse enemies with flirtatious gestures before your attack. The next enemy you attack before the end of your next turn must succeed at a Will save, or else they are denied their Dexterity bonus to AC against your attack. Each time the same creature attempts a save against this effect they gain a cumulative +1 bonus to the save for the next 24 hours.
+
+++++ Inspire (boast) [Warden]
+You may grant yourself or one allied creature within range a +2 morale bonus to their next saving throw made within the next minute. For every 5 ranks in Intimidate you possess, the bonus increases by 1.
 
 ++++ Inspiring Pose (boast)
 One allied creature within range may make a new saving throw against any ongoing effect they are currently suffering from that normally grants a saving throw using the original DC, even if they have already failed the initial save and would not normally be granted another. For every 4 ranks in Intimidate you possess, you may affect an additional ally. Failing this additional save does not progress the effects of poisons, diseases, or similar effects that are normally incurred on a failed save.
 
+++++ Iron Roar (boast) [Youxia HB]
+Allied creatures other than yourself in range gain DR/- equal to half your ranks in Intimidate (minimum 1) until the start of your next turn. This damage reduction stacks with any other damage reduction they possess.
+
+++++ Last Bastion (boast) [Youxia HB]
+Your words are often the last thing an ally hears before victory. The first time an ally within range of your boast would be reduced to 0 or fewer hit points during the next minute, they gain a number of temporary hit points equal to your ranks in Intimidate + your practitioner modifier which last one minute. Creatures with temporary hit points granted to them by this ability do not fall unconscious until these temporary hit points are lost.
+
 ++++ Menace (boast)
 Hostile creatures within range of your boast cannot voluntarily move closer to you unless they succeed on a Will save. This lasts until the start of your next turn. This is a mind-affecting fear effect.
 
+++++ Rattle Confidence (boast) [Youxia HB]
+One hostile creature within range must succeed at a Will save or roll their next attack before the end of their turn twice, taking the worse result.
+
+++++ Spur Violence (boast) [Youxia HB]
+One allied creature other than yourself within range may make an attack against an enemy within the area of your boast using a wielded weapon as a free action that can be taken even outside of their turn. This attack must be taken immediately or it is lost.
+
 ++++ Steel Braggart (boast)
 You gain DR/- equal to half your ranks in Intimidate (minimum 1) until the start of your next turn. This damage reduction stacks with any other damage reduction you possess.
+
+++++ Unsettling Visage (boast) [Conq. HB]
+Your excessive brutality is unnerving, and makes your enemies uneasy around you. Until the end of your next turn, you may spend an attack of opportunity to attempt an Intimidate check to demoralize an opponent within range of this boast that targets you with an attack, including a targeted spell. You may expend your martial focus to attempt this Intimidate check in place of spending an attack of opportunity. You may not use this talent in conjunction with Frightful or any other ability that would allow you to use the Intimidate skill to demoralize beyond the shaken condition.
 
 ----
 
 + ##993300|Demoralization Talents##
 
+++++ Abandon All Hope (demoralization) [Alienist HB]
+Creatures demoralized by you must attempt a Will save. On a failure, they cannot benefit from morale bonuses so long as they remain demoralized.
+
 ++++ Cow Enemy (demoralization)
 When you deal damage or succeed on a combat maneuver check against a creature while using the attack or standard action, you may make an Intimidate check to demoralize that creature as a swift action.
+
+++++ Cowing Nightmare (demoralization) [Youxia HB]
+Whenever you demoralize a creature, that creature cannot make attacks of opportunity against you for the duration of the demoralization.
 
 ++++ Coward’s Bane (demoralization)
 You may roll twice and take the better result on the first attack of each round targeting a creature suffering from your demoralization.
@@ -104,25 +154,67 @@ You may roll twice and take the better result on the first attack of each round 
 ++++ Daunting (demoralization)
 When a creature that is under the effects of your demoralization misses you with an attack or fails on a combat maneuver check targeting you, they provoke an attack of opportunity from you.
 
+++++ Dread (demoralization) [Conq. HB]
+Creatures under the effects of your demoralization increase the penalties for being shaken (but not frightened or panicked) by 1 on checks and rolls involving you, increasing by +1 for every 7 ranks of Intimidate you possess. You may not use this talent in conjunction with other items, effects, or abilities which increase the penalty of shaken.
+
+++++ Duel Of Wills (demoralization) [Youxia HB]
+Whenever you roll initiative or as a swift action, you may expend martial focus to target a creature within medium range (100 feet + 10 feet per rank in Intimidate). That creature must succeed at a Will save or take a -1 penalty to Armor Class and Will saves for a number of rounds equal to your practitioner modifier. For the duration of the penalty, the creature counts as demoralized for the purpose of your Gladiator talents. For every 4 ranks in Intimidate you possess, the penalties increase by -1. This is a mind-affecting fear effect.
+
+++++ Dullahan’s Call (demoralization) [Gravecaller's HB]
+You may expend your martial focus as a swift action and designate one creature suffering from a fear effect who can see and hear you, declaring their imminent doom. That creature must succeed at a Will save or become staggered for 1 round plus 1 round for every 4 ranks in Intimidate you possess.
+
+You gain a circumstance bonus on attack rolls made to confirm critical hits equal to your practitioner modifier against creatures staggered by this effect. You may perform a boast even if you do not have martial focus after confirming a critical hit against a target staggered by this effect. **Associated Feat:** Critical Focus.
+
+++++ Fear Eater (demoralization) [Youxia HB]
+Whenever you successfully damage a creature with an attack action while they are demoralized, you can expend your martial focus to gain a number of temporary hit points equal to your ranks in Intimidate as a free action which last for 1 minute. If you have 10 or more ranks in Intimidate, double the amount of temporary hit points this ability provides.
+
 ++++ Frightful (demoralization)
 You may escalate the effect of fear effects when you use the Intimidate skill to demoralize by increasing the demoralize DC. You may make a shaken creature frightened by increasing the DC by +10 and a frightened creature panicked by increasing the DC by +20. You must choose to apply this DC increase prior to making the check.
+
+++++ Hear Their Screams (demoralization) [SA:BG]
+^^**Source:** [https://www.drivethrurpg.com/product/370043/Spheres-Apocrypha-Banshees-Gasp?affiliate_id=549120 Spheres Apocrypha: Banshee's Gasp]^^
+
+Whenever you attempt an Intimidate check to demoralize any number of creatures, your terrifying display causes creatures that have been successfully demoralized to begin screaming until the end of their next turn. Creatures who are screaming automatically allow any creature who can hear them to pinpoint their exact location without a Perception check, even if they are otherwise invisible. Additionally, this causes any screaming to break their stealth if they were actively stealthing. This does not negate any bonuses granted from invisibility (although it does allow creatures to pinpoint them) or any concealment the creature might have.
+
+You may expend your martial focus when utilizing this talent to increase the duration by 1d4 rounds, plus an additional round for every 5 ranks in Intimidate that you possess. If you have at least 10 ranks in Intimidate, when expending martial focus with this ability creatures who are screaming no longer benefit from any bonuses from being difficult or impossible to see (such as invisibility). This includes any bonuses to attacks they might have, concealment, and any such similar bonus as long as it is granted due to vision of the creature being obscured.
+
+++++ Murderous Intent (demoralization, stance) [Youxia HB]
+While in this stance, demoralized hostile creatures treat squares adjacent to you as difficult terrain, and they provoke attacks of opportunity for 5-foot steps made to leave those squares. If you have 10 or more ranks in Intimidate, this stance instead applies to all squares within your reach.
+
+++++ Nightmarish Microcosm (demoralization) [Alienist HB]
+You take no penalty on Intimidate checks against larger creatures, and larger creatures gain no bonus on Intimidate checks against you. Against foes who are denied their Dexterity bonus to AC, you may roll twice and take the higher result on Intimidate checks made to demoralize.
+
+++++ Ominous Presence (demoralization) [3PP]
+^^**Source:** Expanded Spheres: Baron's Lost Apocrypha^^
+
+When you attempt to demoralize or use strike fear on a creature, you need only be seen or heard by the creature, not both. In addition, when you use strike fear, you may make a Stealth check as part of the same action. 
 
 ++++ Piercing Fear (demoralization)
 You may expend martial focus as part of an Intimidate check to demoralize to overcome a creature’s defenses, treating immunity to fear and mind-affecting effects as a +5 DC increase to the check’s DC (the DC only increases by +5 once, regardless of if the creature has immunity to both fear and mind-affecting effects).
 
+++++ Shaken Defense (demoralization) [Youxia HB]
+Whenever you successfully demoralize a creature, it takes an additional -2 penalty to its combat maneuver rolls and CMD for the duration of the demoralization. In addition, if they attempt a combat maneuver against you, it always provokes an attack of opportunity, even if it normally would not. If you have 10 or more ranks in Intimidate, this penalty is doubled.
+
 ++++ Spectacle (demoralization)
-Any time you confirm a critical hit or reduce an enemy to 0 of fewer hit points, you may use your strike fear ability as an immediate action.
+Any time you confirm a critical hit or reduce an enemy to 0 or fewer hit points, you may use your strike fear ability as an immediate action.
 ----
 + ##993300|Legendary Talents##
 
-++++ Aura of Fear (demoralize)
+++++ Aura Of Fear (demoralization)
 **Prerequisites:** Gladiator sphere, Intimidate 7 ranks.
 
 All hostile creatures that come within close range (25 ft. + 5 ft. per 2 base attack bonus) must make a Will save or be shaken for as long as they remain within the area of effect, +1d4 rounds. Once a creature has succeeded on this save, it is immune to your use of this ability for 24 hrs. If the creature is already shaken, it instead becomes frightened. Frightened creatures become panicked. Creatures with more Hit Dice than you are immune to this effect.
 
 This is an extraordinary (fear) effect. You may suppress or resume this ability as a free action. This ability ceases to function if you are stunned, paralyzed, unconscious, dead, or otherwise incapacitated.
 
-++++ Burn the Chaff
+++++ Booming Roar (demoralization) [3PP]
+^^**Source:** Expanded Spheres: Baron's Lost Apocrypha^^
+
+**Prerequisites:** Gladiator Sphere, Intimidate 5 ranks
+
+When you use strike fear, you may spend an additional instance of martial focus to extend the range of the ability to medium (100 ft. + 10 ft. per rank in Intimidate you possess). If you possess the Aura of Fear talent, you may spend martial focus as a swift action to increase the range of the aura to medium for 1 round.
+
+++++ Burn The Chaff
 **Prerequisites:** Gladiator sphere, base attack bonus +10.
 
 Whenever you make a melee attack (including attacks of opportunity) against a target with a CR less than half your BAB that is suffering from a fear effect, your attack is an automatic critical hit. The target must pass a Fortitude save (DC 10 + damage dealt) or die.
@@ -132,10 +224,42 @@ Whenever you make a melee attack (including attacks of opportunity) against a ta
 
 Whenever you perform the strike fear demoralization, you may choose to strike a shield you are wielding with a weapon or limb to produce a deafening clangor. All targets (excluding yourself) within your strike fear range must pass a Fortitude save or become deafened for 1d4+1 rounds. You may warn your allies as a free action to cover their ears and protect them from the effects of the deafening clangor, but doing so gives enemies a +5 bonus to their saving throw against this effect.
 
+++++ Draining Despair (demoralization, stance) [Youxia HB]
+**Prerequisite:** Gladiator sphere.
+
+While in this stance, whenever a creature demoralized by you misses you with an attack roll, they must succeed at a Will save or take nonlethal damage equal to your ranks in Intimidate. An individual creature may only take damage from draining despair once per round.
+
+++++ Final Stand (stance) [EO3]
+**Prerequisites:** Intimidate ranks 4, Gladiator sphere.
+
+While in this stance, whenever an ally that you can see would be reduced to 0 hit points or fewer, you can perform a boast once per round as a free action that can be taken outside of your normal turn. Additionally, allies who are unconscious can benefit from your boasts; a dying ally who is affected by your boast immediately becomes stabilized. When stabilized in this way, the ally still attempts stabilization checks; if they succeed, they regain 1 hit point, become conscious (if they were not already), and stop attempting stabilization checks.
+
+++++ Foresee Conflict (demoralization) [Youxia HB]
+**Prerequisites:** Intimidate 5 ranks, Gladiator sphere (Duel Of Wills).
+
+Whenever a creature fails a save against your Duel Of Wills talent in combat, the GM pre-rolls the attack roll of the first attack that creature would make against you in the current combat and shows you the result of the d20. At 10 ranks in Intimidate and every 5 additional ranks, the GM pre-rolls the next attack the creature would make against you.
+
+++++ Incredible Inspiration [EO3]
+**Prerequisites:** Intimidate ranks 10, Gladiator sphere (Inspire (boast)).
+
+When using the Inspire (boast) talent, if the chosen ally succeeds the next saving throw they attempt within the next minute, and the effect allows for a reduced effect on a successful save, the ally instead avoids the effect entirely.
+
 ++++ Nightmare Fuel
 **Prerequisites:** Gladiator sphere, Intimidate 10 ranks.
 
-Whenever you successfully demoralize a target or the target fails a Will save against a fear effect originating from you, you may expend your focus as a free action that may be taken even when it isn’t your turn to force the target to pass a Will save or become permanently afraid of you. While the creature sees your or otherwise becomes aware that you are within 60 ft. of it, it becomes shaken until 1d4 rounds after it no longer believes you are nearby. This effect is permanent until removed by a break enchantment, heal, limited wish, miracle, wish spell, or similar effects. This is a mind-affecting fear effect.
+Whenever you successfully demoralize a target or the target fails a Will save against a fear effect originating from you, you may expend your focus as a free action that may be taken even when it isn’t your turn to force the target to pass a Will save or become permanently afraid of you. While the creature sees you or otherwise becomes aware that you are within 60 ft. of it, it becomes shaken until 1d4 rounds after it no longer believes you are nearby. This effect is permanent until removed by a break enchantment, heal, limited wish, miracle, wish spell, or similar effects. This is a mind-affecting fear effect.
+
+++++ Nightmare Stalker (demoralization) [Youxia HB]
+**Prerequisites:** Intimidate 7 ranks, Gladiator sphere.
+
+You may expend martial focus as a move action to teleport to a square adjacent to a creature within line of sight that you have successfully demoralized. This is a supernatural effect.
+
+++++ Rippling Boast [Youxia HB]
+**Prerequisite:** Gladiator sphere.
+
+Whenever you perform a boast, you may target a creature within boast range with your voice as part of the boast, dealing sonic damage to the target equal to your ranks in Intimidate unless they succeed at a Fortitude save.
+
+Additionally, you may raise the volume of your voice at any time to that of a creature one size larger than you are.
 
 ----
 
