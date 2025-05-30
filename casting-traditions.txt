@@ -146,9 +146,12 @@ Your Mana Point Cards are restricted by color. For each mana point card in your 
 **Prerequisite:** Cooldown ability 
 Your deck is connected to your life force, and exhausting it can have fatal consequences. You cannot spend an action to shuffle all cards in your discard pile back into your deck, nor do you shuffle your discard pile back into your deck if your deck runs out of cards. Every turn that you have no cards left in your deck, you take 4 points of Constitution burn, or Charisma burn if you lack a Constitution score. Reduction of either score to 0 immediately kills you.
 
+**Exposed Grip**
+**Prerequisites:** Cooldown ability
+You do not draw a card at the start of your turn, but may spend a move, swift, or standard action to draw a card. In addition, whenever you are hit with an attack or fail a saving throw, you must discard a card from your hand. If you have no cards in your hand to discard when this effect occurs, you instead take 4 points on Constitution burn.
+
 **Gradual Ramp**
 **Prerequisite:** Mana Pool ability
-
 You may only play one Mana Point Card from your hand per round
 
 **Singleton**
@@ -159,6 +162,13 @@ You may only have one copy of each card in your deck, although you may still hav
 **Prerequisite:** Mana Pool ability
 The number of Mana Point Cards in play is the number of spell points you may spend each round. For every spell point you spend, turn one of these Mana Point Cards sideways, indicating that it has been used for the round and no longer counts towards the number of spell points you may spend. Turn all of these cards back to normal at the start of your next turn.
 **Incompatible:** Mana Graveyard
+
+**Strikable Assets**
+**Prerequisites:** none
+Your hand of cards, deck, and discard pile all manifest as physical objects on your person that can be attacked as if they were worn items. Any damage dealt to any of these targets is instead dealt to you, and successful attacks made against these targets also reveal information. Whenever you are successfully attacked or fail a saving throw, one of the effects below triggers randomly (with the discard pile effect not triggering if you have no discard pile).
+* If an attack is successfully made against your hand of cards, you reveal one card from your hand at random to all hostile creatures in the encounter.
+* If an attack is successfully made against your deck, reveal the top card of your deck to all hostile creatures in the encounter.
+* If an attack is successfully made against your discard pile, reveal the cards of your discard pile to all hostile creatures in the encounter.
 
 **Card Casting and Temporary Talents**
 If you have the Card Casting Drawback and would gain temporary magic talents, you create any number of new cards detailing the effects that can be created using that temporary talent. If you are in combat, you immediately add one of these cards of your choice to your hand, and shuffle the remainder into your deck. 
