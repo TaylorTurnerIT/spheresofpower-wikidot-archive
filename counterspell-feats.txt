@@ -1,71 +1,175 @@
 title:Counterspell Feats
-parent:feats
 [[toc]]
-In Spheres of Power, dispelling and countering magic is done by way of the Counterspell feat chain.
 
+[[module CSS]]
+.noselect {
+  -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome and Opera */
+}
+[[/module]]
+[[tabview]]
+[[tab Ultimate]]
+[[div class="noselect" style="float:right; width: 20%; padding: 0 2%"]]
+[[=]]
+[[image http://spheresofpower.wikidot.com/local--files/test-page/UltimateSpheresofPower.jpg link="https://www.drivethrurpg.com/product/300249/Ultimate-Spheres-of-Power?affiliate_id=549120"]]
+**Ultimate Spheres of Power**
+$29.99
 ----
-++++ Counterspell [Core]
+[[/=]]
+[[/div]]Counterspell feats are used to dispel or actively counter magic.
 
-**Prerequisites:** Casting class feature, Magic Skill Bonus 5 or higher.
++++ Arcane Grip (Combat, Counterspell)
+**Prerequisites:** Counterspell, Improved Grapple.
 
-**Benefit:** You may spend a spell point as a standard action to dispel an existing magical effect on a creature, item, or location within Medium range. You may target a specific effect if you have identified it, otherwise the effect with the highest caster level on the target is automatically targeted. Alternatively, you may ready an action to use this ability to counter a spell or magical effect cast by another. In both cases, you must succeed at a magic skill check against the caster or magical effect in question. If you succeed then the targeted effect is destroyed.
+**Benefit:** When initiating a grapple, you may use the Counterspell feat as a free action. Resolve the counterspell attempt prior to applying the effects of freedom of movement, the Freedom word of the Fate sphere, and similar effects. Additionally, you are always entitled to attempt a Spellcraft check to identify such an effect on a creature within your reach as a free action.
+
++++ Bargainer’s Counterspell (Counterspell) [3PP]
+**Prerequisites:** Improved Counterspell
+
+**Benefit:** Whenever you successfully counterspell 2 or more effects created by a single creature as part of a single counterspell attempt, you may divide the dispelled effects into two groups of any size. The caster selects which of the two groups are successfully dispelled and which remain active. If you do this, you are refunded one spell point used in the counterspell (to a minimum of 1 point).
+
+**Special:** If you have the Improved Negation talent you may use that talent to meet the prerequisites of this feat in place of Improved Counterspell, and you may use the effects of this feat with effects counterspelled using Improved Negation.
+
+^^**Source:** Card Casting 2: Counters and Control^^
+
++++ Counterspell (Counterspell)
+**Prerequisites:** Casting class feature, magic skill bonus +5.
+
+**Benefit:** You may spend a spell point as a standard action to dispel an existing magical effect on a creature, item, or location within medium range. You may target a specific effect if you have identified it, otherwise the effect with the highest caster level on the target is automatically targeted. Alternatively, you may ready an action to use this ability to counter a spell or magical effect cast by another. In both cases, you must succeed at a magic skill check against the caster or magical effect in question. If you succeed then the targeted effect is destroyed.
 
 If you target a magic item, the item is not destroyed; instead the item’s magical properties are suppressed for 1d4 rounds, after which the item recovers its magical properties. A suppressed item becomes nonmagical for the duration of the effect. An interdimensional opening (such as a bag of holding) is temporarily closed. A magic item’s physical properties are unchanged; a suppressed magic sword is still a sword (a masterwork sword, in fact). Artifacts and deities are unaffected by mortal magic such as this.
 
 This is treated as a sphere effect, and it is subject to all rules as a sphere ability, is affected by the caster’s casting tradition, and can itself be countered by another caster.
 
-++++ Counterspell, Improved [Core]
++++ Counterspell, Improved (Counterspell)
+**Prerequisites:** Casting class feature, Counterspell, magic skill bonus +10.
 
-**Prerequisites:** Casting class feature, Counterspell, Magic Skill Bonus 10 or higher.
+**Benefit:** When using the Counterspell feat against a creature or object, you may spend an additional spell point to target an additional 1 magical effect on the target per 5 caster levels. Alternatively, you may spend an additional spell point to affect multiple effects in a 20-foot burst. Roll one magical skill check and apply that check to each creature in the area, as if targeted by the basic Counterspell feat. Objects that are the target of magical effects are also targeted by this ability, but magic items are not.
 
-**Benefit:** When using the Counterspell feat against a creature or object, you may spend an additional spell point to target an additional 1 magical effect on the target per 5 caster levels. Alternatively, you may spend an additional spell point to affect multiple effects in a 20-ft burst. Roll one MSB check and apply that check to each creature in the area, as if targeted by the basic Counterspell feat. Objects that are the target of magical effects are also targeted by this ability, but magic items are not.
+For each ongoing effect that targets an area and whose point of origin is within the counterspell area, apply your magical skill check to end that effect. If a magical effect overlaps the counterspell area but is not centered within it, apply your magical skill check to end that effect, but only within the overlapping area.
 
-For each ongoing effect that targets an area and whose point of origin is within the counterspell area, apply your MSB check to end that effect. If a magical effect overlaps the counterspell area but is not centered within it, apply your MSB check to end that effect, but only within the overlapping area.
+If an object or creature within the area of effect is the result of ongoing magic (such as a summoned monster or companion, or an object created through the Creation sphere), apply the magical skill check against the spell or effect that summoned them, causing them to disappear (or return to their home plane) if successful.
 
-If an object or creature within the area of effect is the result of ongoing magic (such as a summoned monster or companion, or an object created through the Creation sphere), apply the MSB check against the spell or effect that summoned them, causing them to disappear (or return to their home plane) if successful.
++++ Counterspell, Greater (Counterspell)
+**Prerequisites:** Casting class feature, Counterspell, Improved Counterspell, magic skill bonus +15.
 
-++++ Counterspell, Greater [Core]
+**Benefit:** When using the Counterspell feat, you may spend 2 additional spell points to target all magic within a 40-foot radius burst, whether it be magical effects or magic items. If your check succeeds against a magic item, that item’s magic is suppressed for 1 minute per caster level. If your check succeeds against a magical effect, the effect is destroyed. You also have a 1% chance per caster level of destroying an antimagic field. If the antimagic field survives the greater counterspell, no items within it are affected.
 
-**Prerequisites:** Casting class feature, Counterspell, Improved Counterspell, Magic Skill Bonus 15 or higher.
+You may also spend the 2 additional spell points, but only target a single item. You attempt your magical skill check with a +5 bonus against this item. If you succeed, the item is permanently destroyed. Even artifacts are subject to this effect, though there is only a 1% chance per caster level of actually affecting such powerful items. If successful, the artifact’s power unravels, and it is destroyed. If an artifact is destroyed, you must succeed at a DC 25 Will save or permanently lose all spellcasting abilities. These abilities cannot be recovered by mortal magic, not even miracle or wish. Destroying artifacts is a dangerous business, and it is 95% likely to attract the attention of some powerful being who has an interest in or connection with the device.
 
-**Benefit:** When using the Counterspell feat, you may spend 2 additional spell points to target all magic within a 40-ft radius burst, whether it be magical effects or magic items. If your check succeeds against a magic item, that item’s magic is suppressed for 1 minute per caster level. If your check succeeds against a magical effect, the effect is destroyed.
++++ Counterspell Mastery (Counterspell)
+**Prerequisites:** Counterspell, magic skill bonus +7.
 
-You also have a 1% chance per caster level of destroying an antimagic field. If the antimagic field survives the greater counterspell, no items within it are affected.
+**Benefit:** You may perform a counterspell as an immediate action by spending an additional spell point. You may only use a counterspell in this fashion when using it to counter an effect while it is being cast i.e., you cannot use this ability to dispel effects already in place or suppress magic items. You gain a +2 bonus to magical skill checks made when using the Counterspell feat.
 
-You may also spend the 2 additional spell points, but only target a single item. Make your MSB check with a +5 bonus against this item. If you succeed, the item is permanently destroyed.
-
-Even artifacts are subject to this effect, though there is only a 1% chance per caster level of actually affecting such powerful items. If successful, the artifact’s power unravels, and it is destroyed. If an artifact is destroyed, you must make a DC 25 Will save or permanently lose all spellcasting abilities. These abilities cannot be recovered by mortal magic, not even miracle or wish. Destroying artifacts is a dangerous business, and it is 95% likely to attract the attention of some powerful being who has an interest in or connection with the device.
-
-++++ Counterspell Mastery [Core]
-
-**Prerequisites:** Counterspell, Magic Skill Bonus 7 or higher.
-
-**Benefit:** You may perform a counterspell as an immediate action by spending an additional spell point. You may only use a counterspell in this fashion when using it to counter an effect while it is being cast i.e., you cannot use this ability to dispel effects already in place or suppress magic items. You gain a +2 bonus to MSB checks made when using the Counterspell feat.
-
-++++ Counterspelling Strike (Combat)
-**Prerequisites:** Counterspell.
++++ Counterspelling Strike (Combat, Counterspell)
+**Prerequisites:** Counterspell, casting class feature, magic skill bonus +5.
 
 **Benefit:** Whenever you strike a target with a weapon attack, you may spend a spell point as an immediate action to attempt to dispel an existing magical effect on the target using your Counterspell ability, or multiple effects with your Improved or Greater Counterspell ability.
 
-++++ Fool’s Counterspell
-**Prerequisites:** Illusion sphere or Mind sphere, Counterspell.
++++ Dispelling Admixture (Admixture, Counterspell) [3PP]
+**Prerequisites:** Destruction sphere (Admixture), Counterspell
 
-**Benefit:** When you successfully counter a spell, the caster must make a Will save equal to your Illusion sphere DC or Mind sphere DC (whichever is greater), or believe the spell had its intended effect, even if they would otherwise be aware of its failure. Treat this effect as a figment with a duration equal to the countered spell, and use the rules for interacting and investigating figments.
+**Benefit:** When using Admixture, you may spend an additional spell point to affect one target damaged by the destructive blast with the counterspell feat in place of a second blast type. If you possess the Improved Counterspell feat, you may pay an additional spell point to target one additional effect on the target per 5 caster levels or counterspell a single effect on each target damaged. If you possess the Greater Counterspell feat, you may pay two additional spell points to target all effects on each target damaged.
 
-++++ Magician’s Trade
+^^**Source:** Card Casting 2: Counters and Control^^
 
-**Prerequisites:** Counterspell, access to the Enhancement sphere.
++++ Dominant Counterspell (Counterspell) [Apoc]
+^^**Source:** [https://www.drivethrurpg.com/product/350940/Spheres-Apocrypha-Battlefield-Manipulation-Talents?affiliate_id=549120 Spheres Apocrypha: Battlefield Manipulation Talents]^^
 
-**Benefit:** Whenever you use Counterspell, you may end an enhancement affecting yourself to increase the number of magical effects you may end with Counterspell by one. There is no limit on the number of enhancements you may cancel to improve your Counterspell; however, you may only use enhancements you created yourself to fuel this feat.
+**Prerequisites:** Telekinesis sphere, Counterspell.
 
-++++ Proxy Counterspell
-See the [[[proxy-feats | Proxy]]] section.
+**Benefit:** When you successfully counterspell a non-instantaneous magical effect which is not targeting a creature or object (such as a Protection sphere barrier, a Warp sphere looped space, or a Destructive sphere energy sphere), instead of ending the effect, you may spend a spell point to lift and move the effect as per the Telekinesis sphere. You may not Bludgeon using a spell effect, although you may move it or affect it with sustained force. You may spend a spell point when you dismiss a sphere effect to affect it with this feat as if you had successfully counterspelled it.
 
-++++ Spellthief
++++ Draining Surge (Counterspell) [Cata. HB]
+You push yourself into your counterspells to assure their success.
 
-**Prerequisites:** Access to the Enhancement sphere, Counterspell.
+**Prerequisites:** Counterspell, casting class feature, magic skill bonus +5.
+
+**Benefit:** When you attempt a magic skill check to counterspell, you may roll twice and take the higher result. If you do, you take 1d6 points of nonlethal damage for every 2 character levels you possess. This damage cannot be healed by any means except rest and bypasses immunity to nonlethal damage. If you possess the Draining Casting drawback, the damage is reduced from 1d6 per 2 levels to 1d4 per 2 levels.
+
++++ Fool’s Counterspell (Counterspell)
+**Prerequisites:** Illusion sphere or Mind sphere; Counterspell.
+
+**Benefit:** When you successfully counter a spell, the caster must succeed at a Will save equal to your Illusion sphere DC or Mind sphere DC (whichever is greater), or believe the spell had its intended effect, even if they would otherwise be aware of its failure. Treat this effect as a figment with a duration equal to the countered spell, and use the rules for interacting with and investigating figments.
+
++++ Harmonic Counter [S&P]
+Miracles of all sorts buckle before your might.
+
+**Prerequisite:** Counterspell.
+
+**Benefit:** You can counterspell effects which were created with the Alien Source at no penalty. Your abilities that would suppress magic (such as such as the Spell Ward and Anti-Magic Aura effects of the Protection sphere) function normally against all magic effects regardless of source. In addition, you can attempt to use any of your Counterspell feats or other magic-negating abilities on technological equipment as if it were magical equipment. Treat a technological item’s MSD as if it were the item’s Craft DC -5 (or 11 + the item’s level if using Starfinder equipment).
+
++++ Imperious Counterspell (Counterspell) [3PP]
+**Prerequisites:** Counterspell
+
+**Benefit:** Whenever you would successfully dispel one or more subordinates (such as Conjuration sphere companions, animated objects, or reanimated undead), you may spend an additional spell point to cause all creatures you have successfully dispelled to instead become loyal to you for the effects’ remaining duration. If the target subordinate remains active through concentration, you must concentrate on them to keep their effect active. Subordinates are allowed a Will saving throw once per minute (DC 10 + ½ your MSB + your casting ability modifier) to break free of your control, being dispelled normally on a successful saving throw.
+
+^^**Source:** Card Casting 2: Counters and Control^^
+
++++ Magician’s Trade (Counterspell)
+**Prerequisites:** Enhancement sphere, Counterspell.
+
+**Benefit:** Whenever you use Counterspell, you may end an enhancement affecting yourself to increase the number of magical effects you may end with Counterspell by one. There is no limit on the number of enhancements you may cancel to improve your Counterspell; however, you may only use enhancements you created yourself to fuel this feat that are not maintained through concentration.
+
++++ Saboteur’s Reclamation [Combat, Counterspell] [3PP]
+^^**Source:** Baron’s Glorious Arena^^
+
+**Prerequisites:** Counterspell, Base Attack Bonus +6
+
+**Benefits:** Whenever you destroy a magic item or the physical form of a sphere effect created using the Substantial Magic drawback (or similar drawbacks) by sundering it, you may spend an immediate action to be considered to have dispelled the effects of that item or the corresponding sphere effect for the purpose of any feats you have that use Counterspell as a prerequisite (for example, if you possess the Spellthief feat and destroy an item that provides a constant shapeshift, you may apply the shapeshift to yourself). If the destroyed item possesses a constant effect, the stolen effect lasts for 1 minute per caster level of the original effect.
+
++++ Prepared Counter (Counterspell) [Archmagi's HB]
+**Prerequisites:** Counterspell, casting class feature, magic skill bonus +5.
+
+**Benefits:** When you ready an action to use Counterspell, you may choose to limit your counterspell against a single sphere. You may only utilize your counterspell against sphere effects created with that sphere, or that utilize a dual-sphere feat related to that sphere. If you choose to limit your counterspell, you can choose to either reduce the spell point cost of your counterspell by 1 (minimum 0), or to roll twice and take the higher result on dispel attempts.
+
++++ Specialized Wipe (Counterspell) [3PP]
+**Prerequisites:** Improved Counterspell
+
+**Benefit:** Whenever you use an area dispel with Improved Counterspell or Greater Counterspell, you may choose to only dispel effects from a single magic sphere or school of magic. If you do, the radius of the area dispel is doubled.
+
+^^**Source:** Card Casting 2: Counters and Control^^
+
++++ Spell Absorption (Combat, Counterspell) [DbH]
+You may bind yourself to an oncoming spell at great risk.
+
+**Prerequisites:** Guardian sphere (Cold Iron Call, Defend Other), Counterspell, Counterspell Mastery, magic skill bonus +7.
+
+**Benefit:** When counterspelling an effect that would affect you and only you, you may roll twice and take the higher result on the magic skill check to counterspell. If you fail, you take a -2 penalty on your AC, spell resistance, and saving throws against the effect. When using Defend Other to redirect a spell from an ally to yourself, you may spend 2 spell points to attempt to Counterspell the effect as part of the action to use Defend Other.
+
++++ Spellthief (Counterspell)
+**Prerequisite:** Counterspell.
 
 **Benefit:** Whenever you successfully counterspell an effect that targets a creature or object, you may instead choose to reassign the effect’s targets. If you do so, you immediately take over concentration for the original caster (if the effect requires concentration), and the original caster cannot choose to prematurely end the effect.
+
++++ Suppressive Counterspell (Counterspell) [Cata. HB]
+Your magic prevents foes from exploiting idiosyncrasies in their magic.
+
+**Prerequisites:** Counterspell, casting class feature, magic skill bonus +7.
+
+**Benefit:** Whenever you perform a counterspell, you may choose to affect the target or targets with a magical suppression rather than a normal counterspell effect. Creatures affected by a magical suppression must spend an additional spell point to create a magical effect or else the effect fails. A magical suppression lasts for 1 round.
+
+As part of suppressing a target, you may suppress a single drawback worth no more than a single drawback that the target possesses. A creature with a suppressed drawback is not considered to have that drawback when casting but cannot benefit from any boons or drawback feats which rely on that drawback so long as the drawback is suppressed.
+
+**Author's Note:** Vancian casters would have to spend an additional spell slot/prepared spell of equal level to create an effect. Suppressing a drawback could suppress a somatic, verbal, emotion, thought, or focus component for a spell but would shut down any abilities explicitly tied to them (such as a bard’s Harmonic Spell continuing performance).
+
++++ Translocating Counterspell (Counterspell) [Apoc]
+^^**Source:** [https://www.drivethrurpg.com/product/350940/Spheres-Apocrypha-Battlefield-Manipulation-Talents?affiliate_id=549120 Spheres Apocrypha: Battlefield Manipulation Talents]^^
+
+**Prerequisites:** Warp sphere, Counterspell.
+
+**Benefit:** When you successfully counterspell a non-instantaneous magical effect which is not targeting a creature or object (such as a Protection sphere barrier, a Warp sphere looped space, or a Destruction sphere energy sphere), instead of ending the effect, you may spend a spell point to teleport the effect to another location within the range of your teleport (this includes extensions to that range from talents or spent spell points, so long as you spend those extra spell points). This does not alter what creatures can or cannot be affected by the effect (for example, if you use this feat on a destructive blast created by a creature with the Epicenter talent, the creator still cannot be affected by the effect). You may spend a spell point when you dismiss a sphere effect to affect it with this feat as if you had successfully counterspelled it.
+[[/tab]]
+[[tab Original]]
+[[include old-counterspell-feats]]
+[[/tab]]
+[[/tabview]]
 
 ----
 
