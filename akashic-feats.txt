@@ -1,5 +1,4 @@
 title:Akashic Feats
-parent:akashic-mysteries
 [[toc]]
 
 This section contains new feats for veilweavers and classes interested in utilizing the essence system. A new type of feat, marked with the Akashic descriptor, is presented below. Akashic feats can typically be invested with essence for greater effect (as described in their individual entries), grant additional essence, and can be taken by anyone, though they will usually provide greater benefit to veilweavers or characters with access to the essence subsystem. Some akashic feats may not be appropriate as essence receptacles, but provide other benefits dependent on a character’s essence pool or other akashic options.
@@ -68,6 +67,17 @@ You gain the ability to invest akasha directly into the spells you cast.
 
 You gain 1 point of essence.
 
+++++ Akasha-Infused Spheres (Akashic) [SoA]
+You gain the ability to invest akasha directly into the spells you cast.
+
+**Prerequisites:** Con 13 or veilweaver level 1, caster level of 1.
+
+**Benefit:** When you take this feat, choose one sphere of magic other than the Veilweaving sphere.
+
+You can invest essence into this feat to increase the caster level of one magic talent belonging to the chosen sphere by 1. The selected talent must be one that has variables based on your caster level in the sphere. If this talent is combined with others to create an effect, such as a Destruction sphere blast shape or type talent, this increase in caster level applies to the entire combined sphere effect (but does not stack with itself, if multiple talents in the combined effect are benefiting from this feat). For each additional point of essence invested in this ability, you may choose an additional Talent from the selected sphere to gain this benefit. The bonus granted by this feat is a temporary bonus and thus does not increase any numerical effects that are not increased by temporary bonuses, such as the statistics of companions from the Conjuration sphere.
+
+You gain 1 point of essence.
+
 ++++ Akashic Augmentation (Akashic, Psionic)
 You can augment a psionic power with your chakra energy rather than mental energy.
 
@@ -85,6 +95,14 @@ You can channel akasha to amplify your blows when charging. When you make a char
 **Benefit:** You can bind essence into this feat. You gain an insight bonus on attack rolls and damage rolls equal to the invested essence on all charge attacks.
 
 You gain 1 point of essence.
+
+++++ Akashic Intensity (Akashic, Combat) [3PP]
+
+**Prerequisites:** tension pool
+
+**Benefits:** As a swift action, you may spend any amount of tension to gain temporary essence equal to half the amount of tension spent. This temporary essence lasts for 1 round and may be invested as part of the action to generate it.
+
+^^**Source:** Baron’s Glorious Arena^^
 
 ++++ Amateur Astrologist (Akashic)
 You have begun to unlock the secrets of the stars.
@@ -160,6 +178,15 @@ You learn to harness your reptilian ferocity and master a devastating combat tec
 
 You gain 1 point of essence.
 
+++++ Destructive Essence (Akashic) [SoA]
+You can channel essence into your destructive blasts, damaging your foes energies in addition to their body.
+
+**Prerequisites:** Con 13 or veilweaver level 1, Destruction sphere.
+
+**Benefit:** You can invest essence into this feat. You gain an insight bonus to the damage rolls of your destructive blasts equal to twice the essence invested in this feat. If your destructive blast’s damage is halved on a successful saving throw, the damage from this feat is halved as well. The additional damage dealt by this feat is untyped damage that ignores all resistances and immunities to damage (but not Hardness).
+
+You gain 1 point of essence.
+
 ++++ Divine Essence
 You can channel positive or negative energy to imbue yourself with akasha.
 
@@ -232,6 +259,19 @@ A strange defect or racial quirk has left you utterly devoid of even the vaguest
 
 **Special:** You lose the benefit of this feat if you gain any essence.
 
+++++ Essencebound Metamagic (Akashic) [SoA]
+You can use your essence to enhance your sphere effects.
+
+**Prerequisites:** Con 13 or veilweaver level 1, caster level 1, any metamagic feat.
+
+**Benefit:** When you take this feat, choose any one metamagic feat you know. Once per day you may spend an hour in meditation to invest essence into this feat and choose one or more sphere effects that you could cast (and have prepared, if you prepare sphere effects). You may choose the same sphere effect multiple times if you wish to. You must bind a number of points of essence equal to the normal spell level adjustment required by the metamagic feat (minimum 1 point of essence) for each sphere effect to be affected. The next time you use one of the chosen sphere effects, the sphere effect gains the benefits of the chosen metamagic feat without an increase to its casting time and without costing any additional spell points.
+
+If you have chosen the same sphere effect multiple times, it applies to that sphere effect each time you cast it for as many times as you chose it with this feat. You can apply the effects of this feat to as many sphere effects as you can afford to invest with essence. For example, you could invest 4 points of essence to quicken one sphere effect (as Quicken Spell), or 12 points of essence to quicken 3 sphere effects, as long as you had at least 12 points of essence to invest, an essence capacity of at least 4, and knew the Quicken Spell feat. Once essence is invested in a spell, it remains invested until the spell is cast, at which point the essence returns to your essence pool.
+
+You gain 1 point of essence.
+
+**Special:** You can gain this feat multiple times. Each time you select it, choose a different metamagic feat you know. When spending an hour in meditation to invest essence into this feat, you invest essence into each of this feat you have. You may still only invest essence into the Essencebound Metamagic feat once per day, even if you have selected it multiple times.
+
 ++++ Essence of the Immortal (Akashic)
 You fortify your body with akasha, making you even more durable.
 
@@ -258,6 +298,15 @@ You are better able to harness your personal store of akasha.
 **Prerequisites:** Con 13 or veilweaver level 1.
 
 **Benefit:** You gain 1 point of essence. If you are capable of shaping at least one veil, you instead gain 2 points of essence.
+
+++++ Extra Storm Power
+You have unlocked the latent powers from the storm dwelling inside you.
+
+**Prerequisite:** Storm power class feature.
+
+**Benefit:** You gain one additional storm power. You must meet all of the prerequisites for this storm power.
+
+**Special:** You can gain this feat multiple times. Each time you take this feat, choose a new storm power.
 
 ++++ Focused Critical (Akashic, Combat)
 You can focus your spirit into your weapon attacks, dealing more damage with successful critical strikes.
@@ -331,6 +380,17 @@ No mortal’s loyalty can match the constancy of the stars.
 
 You gain 1 point of essence.
 
+++++ Rapid Shift (Akashic)
+You have learned to meditate upon a single veil you have shaped, allowing you to shift and reshape its akashic energies.
+
+**Prerequisite:** Veilweaver level 9th, Shift Veil or veilshifting class feature
+
+**Benefit:** Once per day as a move action that provokes attacks of opportunity you can unshape one of your existing veils, and instantly reshape the released energy into a new veil. The veil that you shape using this ability cannot be bound to a chakra until you have spent one hour in meditation, even if the veil replaced this way was already bound.
+
+You gain 1 point of essence.
+
+**Special:** If you have the veilshifting class feature, you instead gain an additional use per day of that ability.
+
 ++++ Sand Slide (Akashic, Combat)
 The gamla’s size and awkward hands belie their uncanny adroitness when battling in their natural environs.
 
@@ -340,10 +400,28 @@ The gamla’s size and awkward hands belie their uncanny adroitness when battlin
 
 You gain 1 point of essence.
 
+++++ Selective Veils (Akashic)
+Long hours of meditation and focus upon your shaping of veils has allowed you to reduce their effects against trusted allies.
+
+**Prerequisite:** Veilweaver level 7th.
+
+**Benefit:** When you shape your veils for the day, you may select a number of allies equal to your veilweaving modifier. These creatures take no damage from veils you have shaped, and if they must roll a saving throw against a veil you have shaped they are always treated as if they passed the saving throw when determining its effects.
+
+You gain 1 point of essence.
+
+++++ Shape Storm
+You gain the limited ability to channel an aspect of the Elderstorm.
+
+**Prerequisite:** Con 13 or veilweaver level 3rd, Wis 13.
+
+**Benefit:** When this feat is selected, choose a single Storm veil. You can shape that veil using the normal veilweaving rules, allowing it to be shaped in the Storm chakra using one of your normal daily veils, and allowing you to invest essence in it as if it were a normal veil. If you do not have levels in a veilweaving class, you have total veils shaped of 1 and use your Wisdom to determine the DC’s and effects of your veil abilities. If you gain any levels in a veilweaving class, your primary veilweaving attribute is determined by that class. Once chosen, the veil granted by this feat can never be changed. Your veilweaver level for this veil is equal to your character level. You cannot bind this Storm veil to the Storm chakra unless you gain the ability to do so from another source.
+
+**Special:** You can gain this feat multiple times. Its effects do not stack. Each time you take the feat, choose a new Storm veil that you can shape using this feat.
+
 ++++ Shape Veil
 You gain the ability to shape a single veil.
 
-**Prerequisite:** Con 13 or veilweaver level 1, Wis 13.
+**Prerequisite:** Con 13 or veilweaver level 1, Wis 13 or veilweaving modifier 13.
 
 **Benefit:** When this feat is selected, choose a veil from any class’s veil list. The veil must match one of the following slots: Belt, Body, Chest, Feet, Hands, Head, Headband, Neck, Shoulders, or Wrists. A veil that can be shaped in multiple slots is not eligible to be taken unless both slots are included in this list.
 
@@ -358,12 +436,39 @@ You can share a veil with an ally with which you have a special bond.
 
 **Benefit:** When shaping your veils, any one veil shaped by you can also affect your familiar, animal companion, mount, or any creature currently created or controlled by one of your shaped veils. You may change which veil is shared in this way, or which companion it is shared with, as a standard action. The creature in question must remain within 15 feet of you to receive the benefit and must have the appropriate limb or body part (a horse cannot benefit from a veil that occupies the Hands slot,for example). If the creature leaves this radius of effect, it loses the benefits of the veil until such time as it returns within 15 feet. If the veil has an activated ability (like Gorget of the Wyrm’s breath weapon attack) the companion instinctively knows how to use it and can be commanded to do so with a Handle Animal check as though it were a trained trick. Familiars do not require a check, and can be commanded to utilize their veil as a free action (though they must still spend the appropriate action to activate it). Your companion also shares the benefits of any essence you have invested in the veil.
 
+++++ Shift Veil (Akashic)
+You have learned to meditate upon a single veil you have shaped, allowing you to shift and reshape its akashic energies.
+
+**Prerequisite:** Veilweaver level 5th
+
+**Benefit:** You can spend 1 hour in meditation to unshape a single veil you have shaped, and then immediately shape a new veil. You can bind this newly shaped veil if you are capable of doing so as part of this process.
+
+You gain 1 point of essence.
+
+++++ Sphereshaper’s Talent (Akashic) [SoA]
+Veils you shape grant you an even greater knowledge of the spheres stored within them.
+
+**Prerequisites:** Ability to shape a veil that grants you a combat or magic sphere.
+
+**Benefit:** When you shape your veils for the day, choose a single veil you shaped that grants you a sphere. You gain a talent of your choice associated with that sphere that you meet the prerequisites for. This talent counts as a talent granted by that veil for all purposes. If that veil is unshaped, you lose this talent until you rest and reshape your veils for the day. If you used the Shift Veil talent (or a similar ability) to unshape that veil, if the new veil also grants a sphere you may gain a talent from that sphere.
+
+**Special:** You may take this feat multiple times, allowing you to gain an additional talent for each time it is selected. You may select the same veil multiple times or may select a different veil for each time you have selected this feat.
+
 ++++ Stellar Strike (Akashic, Combat)
 Your strikes are charged with the destructive power of the stars themselves.
 
 **Prerequisites:** Base attack bonus +1, ability to manifest a constellation’s weapon form.
 
 **Benefit:** Whenever you are wielding the weapon form of a constellation, you may spend a swift action to release some of the constellation’s latent power, dealing an additional 2 points of energy damage of the constellation’s element type with all attacks made with it for 1 round. You may invest essence into this feat, increasing the additional energy damage by 2 per point of essence invested.
+
+You gain 1 point of essence.
+
+++++ Storm Scoured (Akashic)
+Your body was scoured by the force of a particularly powerful or magical storm, awakening essence within you and allowing you to overcome even the most devastating of weather.
+
+**Prerequisite:** Con 13 or veilweaver level 1, Wis 13.
+
+**Benefit:** You can invest essence into this feat. For each point of essence invested in this feat, you reduce the miss chance imposed by natural and magical weather by 5% (to a minimum of 0%), reduce any penalties to Perception checks imposed by natural and magical weather by 1 (to a minimum of 0), and reduce the damage dealt to you by natural and magic weather by 2 (to a minimum of 0). These effects also apply to Storm veils used against you.
 
 You gain 1 point of essence.
 
@@ -421,6 +526,23 @@ If you have the ability to bind a veil to your body slot, each use of this abili
 
 You gain 1 point of essence.
 
+++++ Veilcaster’s Restoration (Akashic) [3PP]
+You have learned to utilise your magic to restore a sundered veil.
+
+**Prerequisites:** Casting class feature, ability to shape 1 veil
+
+**Benefits:** As a standard action by spending 1 spell point you may infuse one of your sundered veils with restorative power. Choose one of your veils that have been suppressed for a set duration; that veil is immediately restored, as if the duration of the suppression had ended. If other abilities are tied to that veil being suppressed (such as sphere effects created as part of a spherecaster’s sphereweaving ability) those abilities are resolved as normal for the veil’s suppression ending. 
+
+If the spell points used to pay for this effect were granted by shattering a veil (such as by a spherecaster using sphereweaving or a cardcaster using cardweaving) you cannot use this effect to restore the veil shattered as part of casting the effect.
+
+At 4th level, and every 3 levels thereafter, you may spend 1 additional spell point when activating this ability to restore one additional veil using this ability.
+
+This ability is used similarly to a sphere talent: it provokes attacks of opportunity, it is affected by your casting tradition (including any boons or drawbacks), it can be affected by metamagic, and it can be counterspelled and affected by antimagic.
+
+**Special:** In addition to being taken as a feat, this feat can be taken as if it were a magic talent.
+
+^^**Source:** Card Casting 2: Counters and Control^^
+
 ++++ Veil-Touched Nemesis (Akashic)
 Akashic energy imbues your attacks, enabling your allies to more easily exploit your enemy’s weaknesses.
 
@@ -473,6 +595,13 @@ You can channel akasha to enhance your combat prowess while wild shaped.
 
 You gain 1 point of essence.
 
+++++ Wildform Chakra (Akashic) [SoA]
+You can channel essence to enhance your combat prowess while under the effects of your form shifting magics.
+
+**Prerequisites:** Any (transformation) Alteration sphere talent, or the Transformation feat
+
+**Benefit:** You can invest essence into this feat. While under the effects of any transformation other than Blank Form or while under the effects of the Transformation feat, you gain an insight bonus on attack rolls made with natural weapons equal to the number of points of essence invested in this feat. You gain 1 point of essence.
+
 ++++ Will of the Daeva (Akashic)
 You can use akasha to boost your willpower, giving you newfound strength of purpose.
 
@@ -490,6 +619,57 @@ It is the strength of your desire, not the finesse of your hand, that determines
 **Benefit:** You may invest essence in this feat. When you have at least 1 point of essence invested in this feat, you may use your Charisma modifier in place of your Dexterity modifier for your attack rolls when attacking with thrown weapons, and gain a bonus to damage rolls with these attacks equal to the total essence invested in this feat. In addition, for each point of essence invested your thrown weapon attacks ignore 1 point of AC your target has due to cover, and reduce the penalty for attacking a prone target by 1.
 
 You gain 1 point of essence.
+
+----
+
++ Confluence Feats
+
+A new type of feat, marked with the Confluence descriptor, is presented below. These feats allow a veilweaver who can shape multiple Storm veils to combine their effects in a variety of ways. These feats were introduced in The Stormbound (PF1E) by Cobalt Sages Creations.
+
+++++ Burning Ash (Confluence)
+Ash and flames mix in the sky above your storm, raining poisonous flaming death upon your foes.
+
+**Prerequisite:** Ability to shape two or more Storm veils, ability to shape the conflagration and the devastation Storm veils.
+
+**Benefit:** When you have both the conflagration and the devastation Storm veils shaped, their abilities combine to form a storm of toxic, flaming ash. When a creature is struck by the conflagration, or caught in one of its explosions, they must make a Fortitude saving throw or take 1 Constitution damage, plus an additional point of Constitution damage per 3 essence invested in the devastation. The DC of this fortitude save is equal to the DC of the devastation. This is a poison effect. The devastation deals an additional 1d6 fire damage, plus 1d6 per 3 essence invested in the conflagration. This damage is halved if the creature succeeds on their Fortitude save versus the devastation.
+
+++++ Chilling Embrace (Confluence)
+The world slows around you as the heat and life drain from everything within your storm, the calm sleep of winter taking hold.
+
+**Prerequisite:** Ability to shape two or more Storm veils, ability to shape the blizzard and the permafrost Storm veils.
+
+**Benefit:** When you have both the blizzard and the permafrost Storm veils shaped, their abilities combine to emulate the chilling embrace of a deadly winter storm. When a creature takes cold damage from the blizzard, the damage they take is increased by 1d3 cold damage per 3 essence invested in the permafrost. A creature who takes damage from the rain of icy shards of the permafrost must make a Fortitude saving throw using the blizzard’s DC, or suffer a -2 penalty to the blizzard’s saving throws for 1 round, plus 1 round per 3 essence invested in the blizzard. This penalty does not stack with itself. The radius of the permafrost’s cylinder increases by 5 feet per 3 essence invested in the blizzard.
+
+++++ Scouring Maelstrom (Confluence)
+Your storm is a roaring maelstrom of sand and wind, the deserts wrath manifest to scour the world.
+
+**Prerequisite:** Ability to shape two or more Storm veils, ability to shape the scouring and the tempest Storm veils.
+
+**Benefit:** When you have both the scouring and the tempest Storm veils shaped, their winds combine to form a maelstrom of rending sand. The scouring sand of the scouring is accelerated by the confluence’s devastating winds, dealing an additional point of damage per point of essence invested in the tempest. The wind of the tempest is accompanied by rending sands, empowering it. Successful bull rushes made using the veil deal damage to the target as if they were struck by the scouring’s scouring sands, and the effects of the tempest’s wind speed are empowered, as per Table: Scouring Maelstrom Wind Penalties.
+
+**Table: Scouring Maelstrom Wind Penalties**
+||~ Wind Strength ||~ Wind Speed ||~ Ranged Weapon Penalty/Siege Weapon Penalty ||~ Check Size ||~ Blown Away Size ||~ Skill Penalty ||
+|| Light || 0-10 mph || -1/— || — || — || -2 || 
+|| Moderate || 11-20 mph || -2/— || Tiny || — || -4 || 
+|| Strong || 21-30 mph || -4/— || Small || Tiny || -8 || 
+|| Severe || 31-50 mph || Impossible/-4 || Medium || Small || -10 || 
+|| Windstorm || 51+ mph || Impossible/-8 || Medium || Small || -12 || 
+
+++++ Shocking Exultation (Confluence)
+Lightning and thunder arc and boom all around you, the world becoming a devastating onslaught of sound and light.
+
+**Prerequisite:** Ability to shape two or more Storm veils, ability to sha pe the fulmination and the uproar Storm veils.
+
+**Benefit:** When you have both the fulmination and the uproar Storm veils shaped, their abilities combine to form a devastating storm of thunder and lightning. The lightning of the fulmination is accompanied by a clap of damaging thunder, dealing an additional 1d4 sonic damage per 3 essence invested in the uproar, halved on a successful Fortitude saving throw using the uproars DC. A creature who fails this Fortitude save is dazzled and takes a -2 penalty to the uproar’s saving throws for 1 round, plus 1 round per 3 essence invested in the uproar. This penalty does not stack with itself. The thunderous bursts of the uproar are accompanied by a flash of lightning, dealing an additional 1d6 electricity damage per 3 essence invested in the fulmination, halved on a successful Reflex saving throw against the fulminations DC. A creature who fails this Reflex save is dazzled and takes a -2 penalty to the fulminations saving throws for 1 round, plus 1 round per 3 essence invested in the fulmination. This penalty does not stack with itself.
+
+++++ Winds of Flame (Confluence)
+You have gained total mastery over the forces of wind and heat, your Storm laying destruction upon the world around you.
+
+**Prerequisite:** Ability to shape two or more Storm veils, ability to shape the cyclone and the sirocco Storm veils.
+
+**Benefit:** When you have both the cyclone and the sirocco Storm veils shaped, your storm becomes a cyclonic whirlwind of heat and fury. When a creature is successfully bull rushed by the cyclone the creature takes an additional 1d6 fire damage and is pushed an additional 5 feet per 3 essence invested in the sirocco. The fire damage dealt by the cyclone is dealt to any flammable objects and terrain the cyclone passes over, potentially causing particularly flammable objects to catch fire. If a creature fails its Strength check against the cyclone, they take an additional 1d6 fire damage and are flung an additional 10 feet per essence invested in the sirocco.
+
+The DC of the sirocco’s saving throw is increased by 1 per 3 essence invested in the cyclone. In addition, if a creature fails this saving throw it takes an additional 1d6 points of bludgeoning damage, and is pushed 5 feet in a direction of your choice per 3 essence invested in the cyclone.
 
 ----
 
