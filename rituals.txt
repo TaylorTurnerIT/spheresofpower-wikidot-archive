@@ -1,34 +1,58 @@
 title:Rituals
-parent:spheres-of-power
 [[toc]]
 
-Rituals are magical formulae that allow a caster to create a magical effect of their choosing through a combination of chanting, gesturing, and the use of magical focuses and ingredients. While sphere abilities are fueled by spell points and often take no longer than a standard action, rituals may take minutes, hours, or even days to perform, often requiring the use of a magical laboratory or temple and the expenditure of rare components.
+[[module CSS]]
+.noselect {
+  -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome and Opera */
+}
+[[/module]]
+[[tabview]]
+[[tab Ultimate]]
+[[div class="noselect" style="float:right; width: 20%; padding: 0 2%"]]
+[[=]]
+[[image http://spheresofpower.wikidot.com/local--files/test-page/UltimateSpheresofPower.jpg link="https://www.drivethrurpg.com/product/300249/Ultimate-Spheres-of-Power?affiliate_id=549120"]]
+**Ultimate Spheres of Power**
+$29.99
+----
+[[/=]]
+[[/div]]Rituals are magical formulae that allow a caster to create a magical effect of their choosing through a combination of chanting, gesturing, and the use of magical focuses and ingredients. While sphere abilities are fueled by spell points and often take no longer than a standard action, rituals may take minutes, hours, or even days to perform, often requiring the use of a magical laboratory or temple and the expenditure of rare components.
 
-In many ways, rituals are similar to spells and principally exist as a way to either re-introduce the utility of spells to a world of spheres, or to allow sphere casters to use spells in a world where both exist. While not automatically divided into divisions such as the arcane/divine of the core Pathfinder system, it isn’t difficult to divide rituals among different casting traditions, if the GM wishes to preserve the distinctions of that system.
+In many ways, rituals are similar to spells and principally exist as a way to either re-introduce the utility of spells to a world of spheres, or to allow spherecasters to use spells in a world where both exist.
 
 All rituals possess the following:
 
-* Base Sphere: Every ritual has an associated sphere, which a caster must possess in order to use the ritual.
-* Ritual Level: Every ritual possesses a level from 0-9.
-* Casting Time: The amount of time the caster must invest in order to use the ritual.
-* Save DC: If a ritual calls for a saving throw, the DC is equal to 10 + the ritual’s level + the caster’s casting ability modifier.
-* Materials: Every ritual has a material cost, be it special focuses, rare materials, or general alchemical equipment. These items must be present when the ritual is used, and with the exception of focuses (which are designated with an F), these materials are expended when the ritual is cast.
+**Base Sphere:** Every ritual has an associated sphere, which a caster must possess in order to use the ritual.
 
-**See Also:** [[[Ritual Feats]]]
+**Ritual Level:** Every ritual possesses a level from 0-9.
 
-+ Using A Ritual
+**Casting Time:** The amount of time the caster must invest in order to use the ritual.
 
-All rituals require the caster to possess a written copy of the ritual such as a scroll or ritual book, as rituals are too complex to use without some form of written direction. If a caster comes into possession of a ritual, the caster must first decipher the magical writing with either a successful Spellcraft check (DC 20 + the ritual’s level), a read magic spell, or the basic sense ability from the Divination sphere. Once a ritual has been deciphered, it needn’t be deciphered again, even if the original written copy is lost and another used in its place.
+**Save DC:** If a ritual calls for a saving throw, the DC is equal to 10 + the ritual’s level + the caster’s casting ability modifier.
+
+**Materials:** Every ritual has a material cost, be it special focuses, rare materials, or general alchemical equipment. These items must be present when the ritual is used, and with the exception of focuses (which are designated with an F), these materials are expended when the ritual is cast.
+
+**Magic Type:** As discussed on the [[[Casting Traditions]]] page, magic type is not considered a default part of casting traditions in the Spheres of Power system, but can be re-included if a GM so desires. If using magic types, a caster must possess a casting tradition of the proper magic type in order to use a ritual of that corresponding magic type.
+
++++ Using A Ritual
+All rituals require the caster to possess a written copy of the ritual such as a scroll or ritual book, as rituals are too complex to use without some form of written direction. If a caster comes into possession of a ritual, the caster must first decipher the magical writing with either a successful Spellcraft check (DC 20 + the ritual’s level), a read magic spell, or the basic sense ability from the Divination sphere. Once a ritual has been deciphered, it does not need to be deciphered again, even if the original written copy is lost and another used in its place.
 
 Once a ritual has been deciphered, the method for using that ritual differs depending on whether the caster is working from a permanent magic book or from a scroll.
 
-+ Ritual Books
-To use a ritual from a magic book, the caster must possess that ritual’s associated base sphere (or must possess the Ritual Caster feat), and their caster level with that sphere must be at least twice the ritual’s level. In addition, their casting ability score must also be at least 10 + the ritual’s level. If the caster meets all these prerequisites and possesses the ritual’s material components, he may invest the required amount of time and activate the ritual.
++++ Ritual Books
+To use a ritual from a magic book, the caster must possess that ritual’s associated base sphere (or must possess the Ritual Caster feat), and their caster level with that sphere must be at least twice the ritual’s level^^1^^. In addition, their casting ability score must also be at least 10 + the ritual’s level. If the caster meets all these prerequisites and possesses the ritual’s material components, he may invest the required amount of time and activate the ritual.
 
 Recording a ritual into a magic book is a process that requires 1 hour per ritual level (0 level rituals take 30 minutes) and requires one page per ritual level (0 level rituals take half a page). A ritual may be copied from another book, a scroll, or created through independent research. If a ritual is copied from a scroll, this expends the scroll. In addition, if a ritual is copied from a scroll or another ritual book, a certain amount of magic (in the form of material components) must be expended to create a working written version, according to the Table: Ritual Cost. This cost does not need to be paid if the ritual was independently researched, as the components were spent during the research itself.
 
+^^**1:** This only includes permanent increases to the user's caster level. Temporary increases, such as implements of power or the thaumaturge's forbidden lore class ability, do not provide early access to rituals.^^
+
 **Table: Ritual Cost**
-||~ Ritual Level ||~  Writing Cost || 
+||~ Ritual Level ||~ Writing Cost || 
 || 0 || 5 gp || 
 || 1 || 10 gp || 
 || 2 || 40 gp || 
@@ -40,67 +64,69 @@ Recording a ritual into a magic book is a process that requires 1 hour per ritua
 || 8 || 640 gp || 
 || 9 || 810 gp || 
 
-**Buying and Selling Ritual Books:** While ritual books have a cost to create, rituals also have a cost to research. Ritual books could easily be found as loot, but are not considered to have a market value in and of themselves. While the details of magic and economics depends on the setting in question, in most cases there are either too few casters in the world to allow for large-scale ritual book sales, or so many casters in the world that specially-regulated guilds and merchants handle the creation, copying, and sale of magical formulae. As such, while certain rare rituals or other special circumstances may provide exceptions, a player may buy ritual books at a cost of 4x the cost of a scroll or sell their own ritual-casting services to rich clients, but will not find it possible to sell copies of their own ritual books.
+++++ Buying and Selling Ritual Books
+While ritual books have a cost to create, rituals also have a cost to research. Ritual books could easily be found as loot, but are not considered to have a market value in and of themselves. While the details of magic and economics depends on the setting in question, in most cases there are either too few casters in the world to allow for large-scale ritual book sales, or so many casters in the world that specially-regulated guilds and merchants handle the creation, copying, and sale of magical formulae. As such, while certain rare rituals or other special circumstances may provide exceptions, a player may buy ritual books at a cost of 4x the cost of a scroll or sell their own ritual-casting services to rich clients, but will not find it possible to sell copies of their own ritual books.
 
-+ Scrolls
++++ Scrolls
 Creating and using a ritual scroll is handled the same as creating and using a core Pathfinder spell scroll. To create a ritual scroll, a caster must know and be able to use the ritual and must possess the Scribe Scroll feat. Using a ritual scroll causes the writing on the scroll to disappear, leaving the scroll as nothing but an ordinary blank sheet.
 
-A ritual scroll contains a copy of a ritual that has been mostly cast, with the ritual’s cost and much of its casting time spent earlier during the scroll’s creation. A ritual scroll has a market value equal to the level of the ritual × the creator’s caster level × 25 gp + the ritual’s material cost. When a caster creates a ritual scroll itself, the cost of creation is the level of the ritual x the creator’s caster level x 12.5 gp + the ritual’s material cost. A 0 level ritual is treated as having a level of .5 for this purpose.
+A ritual scroll contains a copy of a ritual that has been mostly cast, with the ritual’s cost and much of its casting time spent earlier during the scroll’s creation. A ritual scroll has a market value equal to the level of the ritual × the creator’s caster level × 25 gp + the ritual’s material cost. When a caster creates a ritual scroll itself, the cost of creation is the level of the ritual x the creator’s caster level x 12.5 gp + the ritual’s material cost. A 0 level ritual is treated as having a level of 1/2 for this purpose.
 
-Activating a scroll is the same as using a ritual from a book, except the casting time is the spell’s casting time (as opposed to the ritual’s casting time, which is always longer), there is no material component (as that was supplied earlier), and a caster may attempt to activate a scroll even if her caster level isn’t necessarily high enough. If the caster’s caster level isn’t at least twice the ritual’s level, she may make a check (d20 + her caster level vs. a DC equal to the scroll’s caster level + 1) to attempt to use the scroll anyway. If the caster succeeds, the scroll is activated as normal. If this check fails, the scroll is spent and the caster determines scroll mishap as with a core Pathfinder spell scroll.
+Activating a scroll is the same as using a ritual from a book, except the casting time is the spell’s casting time (as opposed to the ritual’s casting time, which is always longer), there is no material component (as that was supplied earlier), and a caster may attempt to activate a scroll even if her caster level is not necessarily high enough. If the caster’s caster level is not at least twice the ritual’s level, she may attempt a check (d20 + her caster level vs. a DC equal to the scroll’s caster level + 1) to use the scroll anyway. If the caster succeeds, the scroll is activated as normal. If this check fails, the scroll is spent and the caster determines scroll mishap as with a core Pathfinder spell scroll.
 
-+ Researching Rituals
++++ Researching Rituals
 If a caster possesses a ritual’s prerequisite caster level, sphere, and the Craft Rituals item creation feat, she may choose to research a ritual, allowing her to create a written version of that ritual even if no previously written version exists for her to work from. With GM permission, the caster may even create completely unique and original rituals, similar to creating custom spells in the core Pathfinder magic system.
 
-Researching a ritual is similar to creating a magic item; there is a time and material cost, after which the caster must pass a Spellcraft check to determine if she was successful. It takes one week of research per ritual level to create a ritual. At the end of this process, the caster must make a single Spellcraft check. The DC to finish a ritual is 2x the ritual’s level + 10. Failing this check means that the ritual is not created. Failing this check by 5 or more results in an unintentional effect when the ritual is used, similar to how magic item creation can result in a cursed item. The nature of this unintentional effect is subject to GM discretion.
+Researching a ritual is similar to creating a magic item; there is a time and material cost, after which the caster must attempt a Spellcraft check to determine if she was successful. It takes one week of research per ritual level to create a ritual. At the end of this process, the caster must attempt a single Spellcraft check. The DC to finish a ritual is 10 + 2x the ritual’s level. Failing this check means that the ritual is not created. Failing this check by 5 or more results in an unintentional effect when the ritual is used, similar to how magic item creation can result in a cursed item. The nature of this unintentional effect is subject to GM discretion.
 
-The cost of researching a ritual is determined by Table: Research Cost.
-
-**Table: Research Cost**
-||~ Ritual Level ||~ Development Cost || 
-|| 0 || 500 || 
-|| 1 || 1,000 || 
-|| 2 || 2,000 || 
-|| 3 || 4,500 || 
-|| 4 || 8,000 || 
-|| 5 || 12,500 || 
-|| 6 || 18,000 || 
-|| 7 || 24,500 || 
-|| 8 || 32,000 || 
-|| 9 || 40,500 || 
+The cost of researching a ritual is determined by Table: Research Cost. 
 
 Once a ritual has been researched, the caster may immediately cast the ritual by spending its material cost. She may also write the ritual down in a magic book at no extra cost, as the required magic components were already used in the research process.
 
-+ Mixing Spells & Rituals
+**Table: Research Cost**
+||~ Ritual Level ||~ Development Cost || 
+|| 0 || 500 gp || 
+|| 1 || 1,000 gp || 
+|| 2 || 2,000 gp || 
+|| 3 || 4,500 gp || 
+|| 4 || 8,000 gp || 
+|| 5 || 12,500 gp || 
+|| 6 || 18,000 gp || 
+|| 7 || 24,500 gp || 
+|| 8 || 32,000 gp || 
+|| 9 || 40,500 gp || 
 
-In a world where both core Pathfinder spells and SoP spheres exist simultaneously, a sphere caster in possession of a spell scroll or a wizard’s spell book may use these spells as if they were rituals, and spellcasters may memorize their spells from available ritual books.
++++ Mixing Spells & Rituals
+In a world where both core Pathfinder spells and Spheres of Power spheres exist simultaneously, a spherecaster in possession of a spell scroll or a wizard’s spell book may use these spells as if they were rituals, and spellcasters may memorize their spells from available ritual books.
 
-++ Converting Spells to Rituals
-
++++ Converting Spells to Rituals
 To turn a spell into a ritual, use the following formulae:
 
 **Ritual level:** This is equal to the spell’s level.
 
 **Base Sphere:** Determine the ritual’s base sphere through the following conversions.
-
-||~ Spell School ||~ Sphere Equivalent ||
+||~ Spell School ||~ Sphere Equivalent || 
 || Abjuration || Protection || 
-|| Abjuration (good, evil, lawful, chaotic) || Fate ||
-|| Conjuration (creation) || Creation ||
-|| Conjuration (healing) || Life ||
-|| Conjuration (teleportation) || Warp ||
-|| Conjuration (calling, summoning) || Conjuration ||
-|| Divination || Divination ||
-|| Enchantment || Mind ||
-|| Evocation || Various^^1^^ ||
-|| Illusion || Illusion ||
-|| Necromancy || Death ||
-|| Transmutation || Enhancement ||
-|| Transmutation (polymorph) || Alteration ||
-|| Transmutation (earth, air, fire, water) || Nature ||
-^^1^^Evocation includes so many different types of spells that a simple conversion isn’t possible. (Light) spells would be the Light sphere, (Darkness) spells would be the Dark sphere, but others could be Destruction, Weather, Mind, or even Creation depending on the spell in question. GMs should use their own good judgment to determine which sphere an Evocation spell should use.
+|| Abjuration (good, evil, lawful, chaotic) || Fate || 
+|| Conjuration (creation) || Creation || 
+|| Conjuration (healing) || Life || 
+|| Conjuration (teleportation) || Warp || 
+|| Conjuration (calling, summoning) || Conjuration || 
+|| Divination || Divination || 
+|| Enchantment || Mind || 
+|| Evocation || Various^^1^^ || 
+|| Illusion || Illusion || 
+|| Necromancy || Death || 
+|| Transmutation || Enhancement || 
+|| Transmutation (polymorph) || Alteration || 
+|| Transmutation (earth, air, fire, water) || Nature || 
+|| Universal || Mana ||
+^^1: Evocation includes so many different types of spells that a simple conversion is not possible. (Light) spells would be the Light sphere, (Darkness) spells would be the Dark sphere, but others could be Destruction, Weather, Mind, or even Creation depending on the spell in question. GMs should use their own good judgment to determine which sphere an Evocation spell should use.^^
 
-**Material Cost and Casting Times:** Use Table: Material Cost & Casting Time to determine a ritual’s material cost and casting time. If the spell in question has a longer casting time than this, use the spell’s casting time instead. If the spell has a costly material component or focus, this must be supplied in addition to the cost listed on Table: Material Cost & Casting Time. Depending on the ritual and casting tradition of the caster, this material cost could be alchemical supplies, rare herbs, or another form of magical component.
++++ Material Cost and Casting Times
+Every ritual has a casting time determined by its level, as shown on Table: Material Cost & Casting Time. If the spell in question has a longer casting time than what is listed on this table, use the spell’s casting time instead.
+
+Rituals also have material cost. A ritual’s cost is determined by adding any material cost listed in the spell’s description to an amount of generic magical materials, as shown on the following table. Feats like Eschew Materials do not decrease the additional costs listed on the table. Depending on the ritual and casting tradition of the caster, this material cost could be alchemical supplies, rare herbs, or another form of magical component.
 
 **Table: Material Cost & Casting Time**
 ||~ Spell Level ||~ Material Cost ||~ Casting Time || 
@@ -115,69 +141,66 @@ To turn a spell into a ritual, use the following formulae:
 || 8 || 1,000 gp || 1 day || 
 || 9 || 2,500 gp || 2 days || 
 
-+ Optional Pricing
++++ Mythic Rituals [HMH]
+A character with the Mythic Ritual Knowledge path ability is capable of performing a ritual which mimics a mythic spell so long as they are able to learn it from somewhere. If a character also possesses the Mythic Crafter path ability, they may also create rituals that mimic the Mythic version of a spell. Such effects do not increase the cost or time required to perform the ritual, but a character must spend a point of mythic power in order to perform the ritual. Characters of a tier sufficient to augment the spell may spend additional uses of mythic power to apply augmentations to the ritual (for example, a character could perform mythic guards and wards as a ritual by spending a point of mythic power. A character of at least 3rd rank could spend 2 points of mythic power to create an additional effect as listed in the spell).
+
+----
++++ Optional Pricing
 Rituals are included with a material cost to create better synergy between rituals and the core Pathfinder magic system. However, spending money is by no means the only way to regulate the use of powerful magic. Low-level rituals (0-3) may easily have their material component cost removed, and GMs are encouraged to create alternate pricing methods if such would better suit their campaigns, several examples of which are included below. These alternate pricings could even be used when creating magic items or accomplishing other feats of magic.
 
 ++++ Blood Price
-Sacrifices are the only way to invoke greater magic. For every 25 gp of a ritual’s listed cost, 1 HD worth of creatures must be killed. Creatures with an intelligence score of 3 or higher count as twice their listed HD for this purpose. These creatures must be killed within a specially prepared magic circle (no cost to create, but requires at least one hour to draw; maximum radius 5 ft per caster level). So long as the magic circle remains intact, any caster may use HD collected within it to power their magic, spending the collected HD as if it were gold to power their rituals.
+Sacrifices are the only way to invoke greater magic. For every 25 gp of a ritual’s listed cost, 1 Hit Die worth of creatures must be killed. Creatures with an Intelligence score of 3 or higher count as twice their listed Hit Dice for this purpose.
+
+These creatures must be killed within a specially prepared magic circle (no cost to create, but requires at least one hour to draw; maximum radius 5-foot per caster level). So long as the magic circle remains intact, any caster may use Hit Dice collected within it to power their magic, spending the collected Hit Dice as if it were gold to power their rituals.
 
 ++++ Cataclysmic Magic
 Rituals disrupt the fabric of reality. Magic users risk their own destruction when using this magic, and while some villains may possess artifacts that exempt them from these risks, the average PC is not usually so lucky. Rituals have no material cost, but every time a caster uses a ritual above level 1, he must roll a d20. He compares his result to Table A if using a ritual of level 2-5, and to Table B if using a ritual of level 6-9.
 
-[[div style="float:left; width: 45%; padding: 0 2%"]]
 **Table A**
 ||~ Roll ||~ Result || 
-|| 1 || Your body surges with an unusual power. Your Caster Level increases by 1 for 1 day. || 
+|| 1 || Your body surges with an unusual power. Your caster level increases by 1 for 1 day. || 
 || 2 || Fate smiles upon you. Once during the next hour you may roll a d20 twice and take the better result when making an attack roll, saving throw, or skill check. || 
 || 3 || Your body lights up like a torch for 3d6 hours. || 
 || 4 || You change color every hour for 1d3 days. || 
-|| 5 || No consequence || 
-|| 6 || No consequence || 
-|| 7 || No consequence || 
+|| 5 || No consequence. || 
+|| 6 || No consequence. || 
+|| 7 || No consequence. || 
 || 8 || Your body emits a high-pitched squeal for 6d6 hours, making sleep and stealth impossible. || 
 || 9 || Whispers from the beyond whisper things to you for 1d4 days. Depending on the spirit, the whispers could be prophetic, violent, or simply rude. || 
 || 10 || Your life reverses on itself. For 1d3 days, you count as an undead creature for all spells. || 
-|| 11 || Strange palpable darkness follows you for 1d4 days. The area within 40 ft of you for that time is always dim light and difficult terrain. || 
+|| 11 || Strange palpable darkness follows you for 1d4 days. The area within 40 feet of you for that time is always dim light and difficult terrain. || 
 || 12 || Magical forces leave you scarred. You suffer 1 point of ability drain to a randomly-determined ability score. || 
 || 13 || Your mind reels with disturbing nightmares when you sleep. You awaken fatigued every morning for the next 1d3 days. || 
-|| 14 || Telekinetic forces lift you and all creatures and objects within 100 ft of you, dangling you in place for 1d3 hours. A successful Will save (DC 18) negates. || 
+|| 14 || Telekinetic forces lift you and all creatures and objects within 100 feet of you, dangling you in place for 1d3 hours. A successful Will save (DC 18) negates. || 
 || 15 || The magic you have unleashed unravels your mind. For 1d6 days, you have a 25% of doing nothing every time you take an action. || 
-|| 16 || A storm of pure magic rips through the area. For 10 rounds, every creature and object within 1 mile of you suffers 1 damage per 2 caster levels per round (Reflex half). || 
+|| 16 || A storm of pure magic rips through the area. For 10 rounds, every creature and object within 1 mile of you suffers 1 point of damage per 2 caster levels per round (Reflex half). || 
 || 17 || You develop a ravenous appetite. You must consume 5 lbs. of food every hour for the next 1d10 hours. Each hour you do not eat this amount causes you to suffer 2 points of Constitution damage. || 
 || 18 || You disappear for 1d4 hours, reappearing in the same spot you left with no memory of where you disappeared to. || 
-|| 19 || You and one random creature within 1000 ft of you swap bodies for 1d3 days. || 
+|| 19 || You and one random creature within 1,000 feet of you swap bodies for 1d3 days. || 
 || 20 || Roll twice and combine the results || 
-[[/div]]
-[[div style="float:left; width: 45%; padding: 0 2%"]]
+
 **Table B**
 ||~ Roll ||~ Result || 
 || 1 || A powerful outsider has felt your magic and taken an interest in you, offering you a quest and reward if you accept. || 
 || 2 || A random magic item appears before you (50% chance for a cursed item). || 
 || 3 || Your casting ability modifier increases by 2 for 1 hour. || 
 || 4 || 2d4 floating balls of light follow you for a week, each giving off light as a torch. || 
-|| 5 || No consequence || 
-|| 6 || No consequence || 
+|| 5 || No consequence. || 
+|| 6 || No consequence. || 
 || 7 || A shower of light turns day into night for 2d6 days within a 2-mile radius. || 
 || 8 || Your body begins to waste away. You suffer 2 points of Constitution damage every day for 1 week. || 
-|| 9 || Your senses are permanently warped by your magic. You cannot see beyond 60 ft, but you also gain blindsense 60 ft. || 
-|| 10 || You become feral for 1d4 hours. You lose all ability to use magic or mental skills, and attack anyone who comes within 30 ft of you. || 
+|| 9 || Your senses are permanently warped by your magic. You cannot see beyond 60 feet, but you also gain blindsense 60 feet. || 
+|| 10 || You become feral for 1d4 hours. You lose all ability to use magic or mental skills, and attack anyone who comes within 30 feet of you. || 
 || 11 || A vision of death and destruction plays before your eyes for 1d3 days. You are sickened for this entire time. || 
 || 12 || You either permanently shrink one size category or grow one size category, chosen at random. || 
 || 13 || All plant life within 2 miles instantly dies. || 
 || 14 || Angry spirits of the dead follow you and disrupt your work for 1d4 days. You suffer a -2 penalty to all attack rolls, skill checks, ability checks, and saving throws. || 
 || 15 || You are instantly reincarnated into a randomly determined body. || 
-|| 16 || All intelligent creature within 60 ft are reincarnated into randomly determined bodies. || 
+|| 16 || All intelligent creatures within 60 feet are reincarnated into randomly determined bodies. || 
 || 17 || Your essence is spent. You suffer 1d6 points of ability drain to 2 randomly determined ability scores, which may not be healed by magic, and only disappears after 1d3 weeks. || 
-|| 18 || You exude a randomly determined disease. For 1d3 weeks, all creatures who come within 30 ft of you must save or become diseased. A creature who saves against this disease cannot be potentially infected again until the following day. || 
+|| 18 || You exude a randomly determined disease. For 1d3 weeks, all creatures who come within 30 feet of you must save or become diseased. A creature who saves against this disease cannot be potentially infected again until the following day. || 
 || 19 || A powerful outsider has felt your magic and declared you its enemy. It appears and attempts to destroy you. || 
 || 20 || Roll twice and combine the results. || 
-[[/div]]
-
-++++ Other Beings Of Cosmic Power And Philosophies
-Depending upon the cosmology of the particular world you are playing, you may have completely different categories for beings with cosmic power. For example, in some world settings the gods may be in competition with primordials and archfiends. In such a situation, it would be best to include similar rituals such as Detect Archfiends and Detect Primordials, each of which would divine the authenticity of such a cosmic power. In the case of a world where priests gain spellcasting through the practice of a philosophy, no such ritual is necessary as the power is usually not tied to any particular individual, but rather the result of a collective belief or conjured from one's own faith.
-
-++++ Fate Spells In The Core Rulebook As Rituals
-Besides those spells already listed in Spheres of Power, the following spells translate very well into rituals for the Fate sphere: atonement, banishment, bestow curse, blasphemy, bless water, commune, consecrate, desecrate, detect chaos/evil/good/law, dictum, discern lies, dismissal, dispel chaos/evil/good/law, forbiddance, freedom of movement, geas/quest, glyph of warding, greater glyph of warding, holy word, imbue with spell ability, magic circle against chaos/evil/good/law, mark of justice, miracle, protection from chaos/evil/good/law, symbol of death, symbol of fear, symbol of insanity, symbol of pain, symbol of persuasion, symbol of sleep, symbol of stunning, symbol of weakness, unhallow, word of chaos, and zone of truth.
 
 ++++ Essence Price
 Rituals are powered by essence, which must be freely given. Rituals cost experience points instead of gold, which may be drawn from the caster herself or other willing party members.
@@ -186,113 +209,141 @@ Rituals are powered by essence, which must be freely given. Rituals cost experie
 Greater magic saps the very life force from its users. Instead of costly components, a caster ages 1 week for every 50 gp of a ritual’s listed material cost.
 
 ++++ Priceless Component
-While rituals of levels 0-3 have the usual material requirements, rituals of levels 4-9 require a special rare component to use. This component is so rare and valuable that it cannot be bought and sold in any market. Those who hold this component find it gives them such control over those who don’t have it that it is jealously guarded, and the only way to gain it is to find it, steal it, or trade services for it. This item could be a rare gem only mined in one location, human souls distilled through an evil artifact, the tears of an elder god, or a special artifact (e.g., a dozen small spheres, each of which may be used to power a ritual, but subsequently disappears for 1 week per level of the ritual used. After this time, the sphere reappears in a random location on the planet).
+While rituals of levels 0-3 have the usual material requirements, rituals of levels 4-9 require a special rare component to use. This component is so rare and valuable that it cannot be bought and sold in any market. Those who hold this component find it gives them such control over those who do not have it that it is jealously guarded, and the only way to gain it is to find it, steal it, or trade services for it. This item could be a rare gem only mined in one location, human souls distilled through an evil artifact, the tears of an elder god, or a special artifact (e.g., a dozen small spheres, each of which may be used to power a ritual, but subsequently disappears for 1 week per level of the ritual used. After this time, the sphere reappears in a random location on the planet).
+----
++ Ritual Feats
+++++ Ritual Caster
+**Prerequisites:** Casting class feature.
 
+**Benefit:** You may use a ritual, even if you do not possess that ritual’s base sphere. If you also possess the Craft Rituals item creation feat, you still cannot research a ritual unless you meet all of its prerequisites.
+
+++++ Ritual Master
+**Prerequisites:** Ritual Caster, casting class feature.
+
+**Benefit:** You may use your MSB in place of your caster level when using rituals.
+
+++++ Spell Adept
+Your ability to use rituals has grown to great power.
+
+**Prerequisites:** Spell Dabbler, casting class feature.
+
+**Benefit:** When using your Spell Dabbler feat, you may increase the preparation time to 1 hour to prepare as many rituals as you desire, spending spell points for each prepared ritual. You cannot prepare more than 4 rituals of any individual level in this manner.
+
+++++ Spell Dabbler
+You have learned to hold rituals in your memory to a minor degree.
+
+**Prerequisites:** Spherecaster
+
+**Benefit:** You may choose one ritual per day you may use up to the highest level you may cast. By spending 15 minutes preparing beforehand, you may cast this ritual once as a spellcaster at any point during that day. This may also be a lower-level ritual augmented by any metamagic feats you possess, so long as its effective level does not exceed that which you can cast. All drawbacks of your tradition still apply, and the spell may be augmented by any tradition boons you possess. Rather than a material cost, (unless the spell has costly material components already listed), you must spend a number of spell points at the time you prepare the ritual dependent on the level of the ritual in question: 0-2: 1 spell point, 3-5: 2 spell points, 6-8: 3 spell points, 9: 4 spell points.
+
+**Note:** Ritualized spells that are prepared using the Spell Dabbler feat are cast as spells, usually reducing both their casting time and material cost. For example, animal messenger, a ritualized spell, prepared with the Spell Dabbler feat would have its casting time reduced from 10 minutes (the ritual's casting time) to 1 minute (the spell's casting time).
+
+^^**Wiki Note:** Many rituals have listed costs. However, these "costly" components are regular material costs if they match the price by level on the Material Cost & Casting Time table. Spell Dabbler allows you to bypass these costs. If a ritual has an expensive component that doesn't match its price by level, Spell Dabbler does not allow you to bypass it. For example, the Unseen Servant, Bound ritual has a costly component that does not match its price by level, so you cannot bypass it with Spell Dabbler.^^
+----
 + Sample Rituals
-
-++++ ##000000|Agreement##
++++ Agreement
 **Spheres** Fate, Mind; **Ritual Level** 1
 **Casting Time** 5 minutes
 **Components** V, M (exotic candles lit by each participant that are used to light a final candle, collectively worth at least 5 gp)
 **Description** A simple ritual that forms a magically binding contract between two or more individuals, agreement creates a set of magical terms for all involved parties, though the conditions may vary for each participant. The agreement also includes penalties for failing to comply; a creature that violates the terms of the agreement is magically compelled to perform some task, action, or service agreed upon when the agreement was set into place. No save is allowed to avoid the repercussions upon breach of the agreement, and all parties are held to the terms of the ritual even if someone else breaks the agreement first. Parties who fulfill their end of the terms even after others breach the agreement face no such ill consequences.
 
-An agreement cannot be dispelled, but it may be broken through the Break Enchantment Life talent, as well as through spells such as break enchantment, limited wish, remove curse, miracle, or wish. Similarly, a second agreement ritual may be performed by all participants of the original agreement, wherein the terms simply release some or all previous participants from the terms of one previous agreement.
+An agreement cannot be dispelled, but it may be broken through the Break Enchantment Life talent, as well as through spells such as break enchantment, limited wish, miracle, remove curse, or wish. Similarly, a second agreement ritual may be performed by all participants of the original agreement, wherein the terms simply release some or all previous participants from the terms of one previous agreement.
 
 When participating in the agreement ritual, an individual is only considered to be bound to the agreement if they understand the terms and are not being coerced through magical compulsion or direct intimidation.
 
-++++ ##000000|Animal Messenger##
++++ Animal Messenger
 **Sphere** Nature; **Ritual Level** 2
 **Casting Time** 10 minutes
 **Components** V, S, M (a morsel of food the animal likes, 10 gp in silver dust)
 **Description** This functions as the animal messenger spell.
 
-++++ ##000000|Animate Dead##
++++ Animate Dead
 **Sphere** Death; **Ritual Level** 3
 **Casting Time** 30 minutes
 **Components** V, S, M (an onyx gem worth at least 25 gp per Hit Die of the undead)
 **Description** This functions as the animate dead spell, except undead created with this ritual count towards the caster’s Death sphere limit.
 
-++++ ##000000|Ant Haul##
++++ Ant Haul
 **Sphere** Enhancement; **Ritual Level** 1
 **Casting Time** 5 minutes
 **Components** V, S, M (small pulley, 5 gp of silver dust)
 **Description** This functions as the ant haul spell.
 
-++++ ##000000|Arcane Mark##
++++ Arcane Mark
 **Sphere** Illusion; **Ritual Level** 0
 **Casting Time** 1 minute
 **Components** V, S, M (treated ink worth 1 gp)
 **Description** This functions as the arcane mark spell.
 
-++++ ##000000|Arcane Rune##
-**Sphere:** Protection; **Ritual Level:** 4
-**Casting Time:** 1 hour
-**Components:** S, M (high quality ink laced with powdered precious metals, worth 50 gp or more)
-**Target:** a page of text (magical or non-magical)
-**Duration:** permanent until discharged
-**Description** By using the material component as ink, you scribe over another text, causing anyone else who attempts to read the text to take 4d6 fire damage. If this is used on magical text, the read magic Divination sphere ability (or similar ritual, spell, or ability) must be used.
++++ Arcane Rune
+**Sphere** Protection; **Ritual Level** 4
+**Casting Time** 1 hour
+**Components** S, M (high quality ink laced with powdered precious metals, worth 50 gp or more)
+**Target** a page of text (magical or non-magical)
+**Duration** permanent until discharged
+**Description** By using the material component as ink, you scribe over another text, causing anyone else who attempts to read the text to take 4d6 fire damage. If this is used on magical text, the Read Magic Divination sphere ability (or similar ritual, spell, or ability) must be used.
 
-An arcane rune can be seen by effects that detect or sense magic, and can also be detected as a magical trap. In order for someone to spot an arcane rune it requires a Perception check with a DC equal to 14 + your casting ability modifier. Disabling the rune requires a Disable Device check with a DC equal to 29 + your casting ability modifier. Alternatively, destroying the surface on which the rune is imprinted on can destroy the magical trap. Once the rune has been activated, it disappears. ^^Source: The Abjurer's Handbook^^
+An arcane rune can be seen by effects that detect or sense magic, and can also be detected as a magic trap. In order for someone to spot an arcane rune it requires a Perception check with a DC equal to 14 + your casting ability modifier. Disabling the rune requires a Disable Device check with a DC equal to 29 + your casting ability modifier. Alternatively, destroying the surface on which the rune is imprinted on can destroy the magic trap. Once the rune has been activated, it disappears.
 
-++++ ##000000|Astral Projection##
++++ Astral Projection
 **Sphere** Death; **Ritual Level** 9
 **Casting Time** 2 days
 **Components** V, S, M (3,500 gp jacinth)
 **Description** This functions as the astral projection spell.
 
-++++ ##000000|Autopsy##
++++ Autopsy
 **Sphere** Death or Divination; **Ritual Level** 4
 **Casting Time** 1 hour
 **Components** V, M (healer’s kit worth 50 gp)
 **Target** 1 corpse
 **Description** By using your knowledge of the dead or divination magic you can piece together information about the life and death of the creature. Immediately after completing the ritual, the caster learns which of the following is the ultimate cause of the creature’s demise: age, ability score loss (drain, damage, burn), level loss, damage, death effect, or unknown (anything else). After such has been determined the caster may ask 1 question + 1 question per 5 caster levels about the life and or death of the creature. Below are a list of approved questions that may be asked by the caster, although others may be approved at the GM’s discretion.
-* What is the specific source of its demise? (i.e. a creature who died of ability score loss will have revealed whether it was caused by disease, magic, poison, etc)
+* What is the specific source of its demise? (i.e., a creature who died of ability score loss will have revealed whether it was caused by disease, magic, poison, etc.)
 * What killed the creature? (creature type, creature size, and creature gender)
-* Where did the creature die? (in bed, in a back alley, at the docks, etc)
+* Where did the creature die? (in bed, in a back alley, at the docks, etc.)
 * When did the creature die? (minutes, hours, days, weeks, years ago)
-* Any unusual physical traits on the corpse? (missing appendage, mutilation, etc)
-* What did the creature look like before it died? (creature type, size, gender, hair color, etc)
+* Any unusual physical traits on the corpse? (missing appendage, mutilation, etc.)
+* What did the creature look like before it died? (creature type, size, gender, hair color, etc.)
 
-++++ ##000000|Baleful Polymorph##
++++ Baleful Polymorph
 **Sphere** Alteration; **Ritual Level** 5
 **Casting Time** 2 hours
 **Components** V, S, M (100 gp in diamond dust)
 **Description** This functions as the baleful polymorph spell.
 
-++++ ##000000|Beacon Pillar##
++++ Beacon Pillar
 **Sphere** Light; **Ritual Level** 0
 **Casting Time** 1 minute
-**Components** S, M (any highly reflective or luminescent object worth at least 1 gp) 
-**Description** This ritual alters the material component into a bubble of radiant magic which lasts for 24 hours before losing its power and collapsing into ash. At any time during that duration it can be thrown (treat it as a thrown weapon with a 10 ft. range increment) or crushed as a standard action, expending the bead and releasing the magic within. Using the bubble this way creates a column of bright light that has a 5 ft. radius and a height of 300 ft. that can be easily seen for miles. This column of light lasts for one minute.
+**Components** S, M (any highly reflective or luminescent object worth at least 1 gp)
+**Description** This ritual alters the material component into a bubble of radiant magic which lasts for 24 hours before losing its power and collapsing into ash. At any time during that duration it can be thrown (treat it as a thrown weapon with a 10-foot range increment) or crushed as a standard action, expending the bead and releasing the magic within. Using the bubble this way creates a column of bright light that has a 5-foot radius and a height of 300 feet that can be easily seen for miles. This column of light lasts for one minute.
 
-++++ ##000000|Call Spirit Curate##
++++ Call Spirit Curate
 **Sphere** Conjuration, Death, or Nature; **Ritual Level** 0
 **Casting Time** 1 minute
 **Duration** 24 hours
-**Components** V, S, M (1 gp’s worth of silver powder.)
-**Description** A spirit of nature takes on a translucent, humanoid form ready to aid its caller. The spirit curate follows directions and may only willing aids in invocations and rituals that motivate cosmic balance or aid in the expansion of nature. If a situation arises where the expansion of nature is disrupting cosmic balance, the spirit will aid and support the expansion of nature. The spirit when aiding in incantations counts as a secondary performer, using your casting ability modifier as its bonus to the first check it makes before disappearing. If the spirit curate is attacked, or is called and doesn’t participate in a ritual or incantation by the end of 24 hours, the spirit dissipates.
+**Components** V, S, M (1 gp’s worth of silver powder)
+**Description** A spirit of nature takes on a translucent, humanoid form ready to aid its caller. The spirit curate follows directions and may only willing aids in invocations and rituals that motivate cosmic balance or aid in the expansion of nature. If a situation arises where the expansion of nature is disrupting cosmic balance, the spirit will aid and support the expansion of nature. The spirit when aiding in incantations counts as a secondary performer, using your casting ability modifier as its bonus to the first check it attempts before disappearing. If the spirit curate is attacked, or is called and does not participate dissipates.
 
-++++ ##000000|Control Weather##
++++ Control Weather
 **Sphere** Weather; **Ritual Level** 7
 **Casting Time** 8 hours
 **Components** V, S, M (500 gp in rare herbs)
 **Description** This functions as the control weather spell.
 
-++++ ##000000|Create Mindscape##
++++ Create Mindscape
 **Sphere** Mind; **Ritual Level** 4
 **Casting Time** 1 hour
 **Components** V, S, M (alchemical sleeping draughts consumed by the caster and target, collectively worth 160 gp)
-**Description** This functions as the Create Mindscape spell.
+**Description** This functions as the create mindscape spell.
 
-++++ ##000000|Detect Divinity##
++++ Detect Divinity
 **Sphere** Divination or Fate; **Ritual Level** 0
 **Casting Time** 1 minute
-**Components** V, S, or F (a Holy Symbol or Relic worth 1 or more gp)
+**Components** V, S, or F (holy symbol or relic), M (1 gp’s worth of silver)
 **Target** 1 creature or object
-**Description** This ritual may be cast with different components which may be used in part or combined for added effect. Upon the completion of the ritual, all creatures within long range of the caster learn whether the target is symbolic of or would belong to a god. This is not to mean whether or not the object or creature is worshiped as a god, whether the target deserves to be worshiped, or if the target is as powerful as (or greater than) a god, but rather whether such a target has in fact ascended to godhood or has inherent divinity. In addition to the effects listed in the Chart: Detect Divinity - Components and Responses below, the caster may divine the strength of the target’s divinity aura.
+**Description** This ritual may be cast with different components which may be used in part or combined for added effect. Upon the completion of the ritual, all creatures within long range of the caster learn whether the target is symbolic of or would belong to a god. This is not to mean whether or not the object or creature is worshiped as a god, whether the target deserves to be worshiped, or if the target is as powerful as (or greater than) a god, but rather whether such a target has in fact ascended to godhood or has inherent divinity. In addition to the effects listed in the Table: Detect Divinity - Components and Responses below, the caster may divine the strength of the target’s divinity aura.
 
-**Detect Divinity - Aura Strength**
-||~ Target ||~ Aura Strength ||~ Aura Duration ||~ 
+**Table: Detect Divinity - Aura Strength**
+||~ Target ||~ Aura Strength ||~ Aura Duration ||
 || False God or Quasi-deities || No aura || - || 
 || Demi-God or Fallen God || Dim || 1 round || 
 || Lesser Deities || Faint || 1d6 rounds || 
@@ -300,217 +351,238 @@ An arcane rune can be seen by effects that detect or sense magic, and can also b
 || Greater Deities || Strong || 1d6 x 10 minutes || 
 || Overdeities || Overwhelming || 1d6 days || 
 
-**Detect Divinity - Components and Responses**
-||~ Component ||~ Example ||~ Negative Response ||~ Positive Response || 
-|| Verbal || Stating the target’s name |||| A telepathic voice fills the air understood by all stating whether the target is or is not divine. || 
-|| Somatic || Pointing at the target || Target appears monochrome for 1 round || Target appears prismatic, fascinating onlookers for 1 round (will negates) || 
-|| Focus || The target’s Holy Symbol || Holy Symbol breaks || Holy Symbol glows ||
+**Table: Detect Divinity - Components and Responses**
+||~ Component ||~ Example ||~ Negative Response ||~ Positive Response ||
+|| Verbal || Stating the target’s name || A telepathic voice fills the air understood by all stating whether the target is or is not divine. || - || 
+|| Somatic || Pointing at the target || Target appears monochrome for 1 round || Target appears prismatic, fascinating onlookers for 1 round (Will negates) || 
+|| Focus || The target’s holy symbol || holy symbol breaks || holy symbol glows || 
 
-++++ ##000000|Divination##
++++ Divination
 **Sphere** Divination; **Ritual Level** 4
 **Casting Time** 1 hour
 **Components** V, S, M (incense and an appropriate offering worth 75 gp)
 **Description** This functions as the divination spell.
 
-++++ ##000000|Dreampath##
++++ Dreampath
 **Sphere** Mind; **Ritual Level** 4
 **Casting Time** 1 hour
-**Components** V, S, M (lighted incense, and pearls crushed into warm milk (collectively worth 50 gp plus an extra 10gp per individual included) consumed at the beginning of the ritual)
+**Components** V, S, M (lighted incense, and pearls crushed into warm milk (collectively worth 50 gp plus an extra 10 gp per individual included) consumed at the beginning of the ritual)
 **Description** At the conclusion of the ritual you (and up to one other creature per two caster levels) enter a trance and leave your physical body behind and enter either your own personal dreamscape or the dreamscape of another that you have either located or into which you have been welcomed. If you enter the dreamscape of another, the portion of their dreamscape that you observe may reshape to be more like your own personal dreamscape.
 
-++++ ##000000|Dreamquake##
+++++ Feat: Adept Dreamwalker
+**Prerequisite:** Dreamscape.
+
+**Benefit:** You do not need to pay the material cost of using the dreampath ritual and may perform the ritual from inside your dreamscape.
+
++++ Dreamquake
 **Sphere** Mind; **Ritual Level** 2
 **Casting Time** 10 minutes
-**Components** V, M (rare treatise on psychology, neural physiology, or nightmares worth 10 gp; the treatise must be on your physical person when you enter the dreamscape, and the dreamscape’s recreation of the treatise is acceptable while casting within the dreamscape, though the physical copy will turn to ash in the waking world just as it does in the dream)
-**Description** By reciting the phrases within the treatise and altering them as you speak, the knowledge of that which is as well as that which isn’t but should be reverberates throughout the dreamscape, focusing tremors on a specific point. One thought construct within the dreamscape, often one providing a specific bonus to the caster or effect on the environment, takes 1d12 points of damage per caster level and can be considered ruined or non-functional if it takes damage equal to ten times the casting ability modifier of the owner of dreamscape in question (if the owner of the dreamscape is not a caster, use the highest mental ability modifier to determine this). Such damage is repaired at a rate equal to its owner’s casting ability modifier per minute if the structure is not ruined; if it is ruined, it repairs at a rate equal to the owner’s casting ability modifier per day.
+**Components** V, M (treatise on psychology, neural physiology, or nightmares worth 10 gp; the treatise must be on your physical person when you enter the dreamscape, and the dreamscape’s recreation of the treatise is acceptable while casting within the dreamscape, though the physical copy will turn to ash in the waking world just as it does in the dream)
+**Description** By reciting the phrases within the treatise and altering them as you speak, the knowledge of that which is as well as that which is not but should be reverberates throughout the dreamscape, focusing tremors on a specific point. One thought construct within the dreamscape, often one providing a specific bonus to the caster or effect on the environment, takes 1d12 points of damage per caster level and can be considered ruined or non-functional if it takes damage equal to ten times the casting ability modifier of the owner of dreamscape in question (if the owner of the dreamscape is not a caster, use the highest mental ability modifier to determine this). Such damage is repaired at a rate equal to its owner’s casting ability modifier per minute if the structure is not ruined; if it is ruined, it repairs at a rate equal to the owner’s casting ability modifier per day.
 
-++++ ##000000|Driving Force##
++++ Driving Force
 **Sphere** Telekinesis; **Ritual Level** 3
 **Casting Time** 30 minutes
-**Components** V, S, M (a magic attuned lodestone worth 25 gp)
-**Description** This ritual creates a stream of gentle telekinetic force that pushes towards a specific direction. A line with a length equal to 25 ft + 5 ft per 2 caster levels is centered on you, while the line itself is positioned towards the designated direction. Any creature (including you) that travels on the line towards the designated direction travels at double its normal overland speed, though its speed in tactical situations is unaffected. The effects of this ritual last for a full day.
+**Components** V, S, M (magic attuned lodestone worth 25 gp)
+**Description** This ritual creates a stream of gentle telekinetic force that pushes towards a specific direction. A line with a length equal to 25 feet + 5 feet per 2 caster levels is centered on you, while the line itself is positioned towards the designated direction. Any creature (including you) that travels on the line towards the designated direction travels at double its normal overland speed, though its speed in tactical situations is unaffected. The effects of this ritual last for a full day.
 
-++++ ##000000|Earthquake##
++++ Earthquake
 **Sphere** Nature; **Ritual Level** 8
 **Casting Time** 1 day
 **Components** V, S, M (unworked gems or minerals worth 1,000 gp)
 **Description** This functions as the earthquake spell.
 
-++++ ##000000|Floating Disk##
++++ Fairy Path
+**Sphere** Fallen Fey; **Ritual Level** 3
+**Casting Time** 30 minutes
+**Components** S, M (25 gp cold iron compass that is consumed at the end of the duration)
+**Description** This ritual causes the compass to point toward the fairy ring nearest a destination in Faerie specified during that casting of the ritual. The compass points the way for 24 hours, then disintegrates.
+
++++ Find Fairy Ring
+**Sphere** Fallen Fey; **Ritual Level** 1
+**Casting Time** 5 minutes
+**Components** S, M (5 gp in fungus native to Faerie)
+**Description** This ritual gives you the direction to the nearest fairy ring that you are capable of passing through. It gives no information regarding distance.
+
++++ Floating Disk
 **Sphere** Creation; **Ritual Level** 1
 **Casting Time** 5 minutes
 **Components** V, S, M (silver dust worth 5 gp)
 **Description** This functions as the floating disk spell.
 
-++++ ##000000|Grant Metamagic Feat##
++++ Grant Metamagic Feat
 **Sphere** Mind; **Ritual Level** 3
 **Casting Time** 30 minutes
 **Components** V, S, M (125 gp of burnt magical scrolls)
 **Description** The performer of the ritual gains knowledge of one metamagic feat for which he meets the prerequisites for 24 hours. Only one feat may be gained from this ritual at one time; additional castings remove the feats previously gained from this ritual.
 
-++++ ##000000|Hallow##
++++ Hallow
 **Sphere** Fate; **Ritual Level** 5
 **Casting Time** 24 hours
 **Components** V, S, M (herbs, oils, and incense worth at least 1,000 gp, plus 1,000 gp per level of the ritual to be included in the hallowed area)
 **Description** This functions as the hallow spell.
 
-++++ ##000000|Heal##
++++ Heal
 **Sphere** Life; **Ritual Level** 6
 **Casting Time** 4 hours
 **Components** V, S, M (250 gp in special ointment)
 **Description** This functions as the heal spell.
 
-++++ ##000000|Heroes’ Feast##
++++ Heroes’ Feast
 **Sphere** Creation; **Ritual Level** 6
 **Casting Time** 4 hours
 **Components** V, S, M (250 gp in rare herbs and spices)
 **Description** This functions as the heroes’ feast spell.
 
-++++ ##000000|Identify##
++++ Identify
 **Sphere** Divination; **Ritual Level** 1
 **Casting Time** 5 minutes
 **Components** V, S, M (bottle of fine wine worth 5 gp, stirred with an owl’s feather)
 **Description** This functions as the identify spell.
 
-++++ Lifesblood Sacrifice
-**Sphere** Life; **Ritual** Level 4
++++ Lifesblood Sacrifice
+**Sphere** Life; **Ritual Level** 4
 **Casting Time** 30 minutes
-**Components** V, S, F (obsidian ritual knife worth 100 gp)
-**Description** You kill a willing or helpless creature to restore life to a dead creature. The sacrificed creature must either have more Hit Dice than the target to be revived or else be a blood relative of the target. The target is revived as per the raise dead spell. The sacrificed creature cannot be revived by any means short of wish or miracle until the raised target is slain.
+**Components** V, S, F (obsidian ritual knife), M (onyx stone worth 100 gp)
+**Description** You kill a willing or helpless creature to restore life to a dead creature. The sacrificed creature must either have more Hit Dice than the target to be revived or else be a blood relative of the target. The target is revived as per the raise dead spell. The sacrificed creature cannot be revived by any means short of miracle or wish until the raised target is slain.
 
-++++ ##000000|Mental Block##
++++ Mental Block
 **Sphere** Mind; **Ritual Level** 2
 **Casting Time** 10 minutes
 **Components** V, M (petals from a flower that only opens in the light of a moon, worth 10 gp)
 **Description** By meditating and intoning an ancient rhyme while breathing the scent of the flower petals as they burn, you fortify your dreamscape against unwanted intruders, granting your dreamscape a bonus equal to 2 + your casting ability modifier on its Will save to avoid detection through scrying or other similar means. You also gain this bonus on attacks against your mind that come directly from your own dreamscape, such as on Will saves made to resist enchantment effects cast at you by another when you are both in your dreamscape or on saves to resist the effects of attacks against your dreamscape directly. This bonus lasts for one day per caster level. During this duration, a thought construct of resilient durability (typically resembling a mausoleum, large safe, small fort, or other stocky, sturdy structure) appears within your dreamscape. If the thought construct is destroyed, removed, or made non-functional, you lose the bonuses offered by this ritual.
 
-++++ ##000000|Open Rift##
++++ Open Rift
 **Sphere** Warp; **Ritual Level** 3
 **Casting Time** 30 minutes
 **Components** V, S, M (25 gp of preserved flesh from a creature with the elemental subtype)
-**Description** An elemental rift is opened at a point within 400 ft, creating an area with a 30 ft radius inside of which the planar traits (elemental and energy traits, gravity traits, and magic traits only) of one elemental plane override those of the plane on which this spell is cast. This effect lasts for 24 hours.
+**Description** An elemental rift is opened at a point within 400 feet, creating an area with a 30-foot radius inside of which the planar traits (elemental and energy traits, gravity traits, and magic traits only) of one elemental plane override those of the plane on which this spell is cast. This effect lasts for 24 hours.
 
-++++ ##000000|Pact##
++++ Pact
 **Spheres** Fate, Mind; **Ritual Level** 3
 **Casting Time** 30 minutes
 **Components** V, M (a scroll of gilded vellum worth 25 gp to be burned at the conclusion of the ritual, along with the proper tools for signing in expensive inks or blood)
 **Description** A potent agreement between people, usually those who do not trust each other or at least wish some strenuous assurance to be placed on the other. Those who sign the gilded vellum enter into a binding contract, one where failure to fulfill their side invites dire consequences. Such consequences may include:
+* 1 point of damage every round forever (typically circumventing damage reduction or other means of avoiding damage unless a specific sort of damage is specified).
 * Instant death (affecting even those typically immune to death effects such as constructs or the undead)
-* Transformation into a small animal
-* The presence of a ghostly wraith or other creature that will kill one of the signer’s love ones if they venture outside at night
-* Petrification
 * Lycanthropy
-* 1 hp of damage every round forever (typically circumventing damage reduction or other means of avoiding damage unless a specific sort of damage is specified).
+* Petrification
+* The presence of a ghostly wraith or other creature that will kill one of the signer’s love ones if they venture outside at night
+* Transformation into a small animal
 * Another effect of similar strength and effect, with GM approval
 
-No one may participate in the pact ritual except by their own free will. No saving throw or spell resistance can avoid the negative consequences should a pact maker not fulfill their side of the bargain, as the ritual takes effect at the time of the casting. The pact enforces the spirit of the agreement before the specific wording of the agreement, but will ignore the specific wording if all parties agree for this to be the case. Similarly, neither party is subject to any terms of a contract they either haven’t read or had read to them in a language they understand.
+No one may participate in the pact ritual except by their own free will. No saving throw or spell resistance can avoid the negative consequences should a pact maker not fulfill their side of the bargain, as the ritual takes effect at the time of the casting.
 
-A pact cannot be dispelled, but it may be broken through the Break Enchantment Life talent, as well as through spells such as break enchantment, limited wish, remove curse, miracle, or wish. Similarly, a second pact ritual may be performed by all participants of the original pact, wherein the terms simply release some or all previous participants from the terms of one previous pact.
+The pact enforces the spirit of the agreement before the specific wording of the agreement, but will ignore the specific wording if all parties agree for this to be the case. Similarly, neither party is subject to any terms of a contract they either have not read or had read to them in a language they understand.
 
-++++ ##000000|Polymorph Any Object##
-**Sphere** Creation; **Ritual Level** 8
-**Casting Time** 1 day
-**Components** V, S, M (Diamond dust worth 1,000 gp)
-**Description** This functions as the polymorph any object spell.
+A pact cannot be dispelled, but it may be broken through the Break Enchantment Life talent, as well as through spells such as break enchantment, limited wish, miracle, remove curse, or wish. Similarly, a second pact ritual may be performed by all participants of the original pact, wherein the terms simply release some or all previous participants from the terms of one previous pact.
 
-++++ ##000000|Permanency##
++++ Permanency
 **Sphere** Varies (see below); **Ritual Level** 5
 **Casting Time** 2 hours
 **Components** V, S, M (2,500 in diamond dust per level of the affected ritual, see spell)
 **Description** This functions as the permanency spell.
 
-++++ ##000000|Preserve Organ##
-**Sphere** Death or Life; **Ritual** 0
++++ Polymorph Any Object
+**Sphere** Creation; **Ritual Level** 8
+**Casting Time** 1 day
+**Components** V, S, M (diamond dust worth 1,000 gp)
+**Description** This functions as the polymorph any object spell.
+
++++ Preserve Organ
+**Sphere** Death or Life; **Ritual Level** 0
 **Casting Time** 1 minute
-**Components** V, S, M (a drop of Liquid Ice worth 1 gp)
+**Components** V, S, M (drop of liquid ice worth 1 gp)
 **Description** You may preserve a severed limb or harvested organ for 24 hours, during which time the limb or organ does not decompose or deteriorate in any way. When the duration of this ritual expires, the severed limb or harvested organ continues to decompose. This ritual is not sufficient to preserve a whole corpse for the purpose of raising the dead.
 
 **Attaching Severed Limbs**
-In gritty campaigns, it is commonplace for even low-level characters to experience limb loss, especially when the Called Shots rule system from Pathfinder’s Ultimate Combat is being used. Amputated limbs outside of the Regeneration advanced talent or ritual decompose quickly when not preserved. Refer to the table below as a guideline for determining how long a severed limb can remain amputated before use of regeneration is required to reattach a limb. Taking effective measures (such as keeping it cool, at the GM’s discretion) to preserve an amputated organ doubles the amount of time it can be preserved.
+In gritty campaigns, it is commonplace for even low-level characters to experience limb loss, especially when the Called Shots rule system from Pathfinder’s Ultimate Combat is being used. Amputated limbs outside of the Make Whole advanced Life talent or the regeneration ritual decompose quickly when not preserved. Refer to the table below as a guideline for determining how long a severed limb can remain amputated before use of Make Whole is required to reattach a limb. Taking effective measures (such as keeping it cool, at the GM’s discretion) to preserve an amputated organ doubles the amount of time it can be preserved.
 
-Attaching a severed limb requires that the amputee recover the hit points lost during the debilitating blow (usually 50% of the creature’s maximum hit points), plus a successful use of the Heal skill’s treat deadly wounds before the limb deteriorates too much. Amputation that is performed due to complications which are the result of disease or poison must be cured before attempting replantation.
+Attaching a severed limb requires that the amputee recovers the hit points lost during the debilitating blow (usually 50% of the creature’s maximum hit points), plus a successful use of the Heal skill’s treat deadly wounds before the limb deteriorates too much. Amputation that is performed due to complications which are the result of disease or poison must be cured before attempting replantation.
 
-Successfully reattaching a limb without the use of regeneration doesn’t mean full recovery until the ability damage or drain usually associated with the limb is also treated (see Pathfinder’s Ultimate Combat, pages 193-197 for more information).
+Successfully reattaching a limb without the use of Make Whole does not mean full recovery until the ability damage or drain usually associated with the limb is also treated (see Pathfinder’s Ultimate Combat, pages 193-197 for more information).
 
 **Table: Severed Limbs**
-||~ Limb ||~ Size Example ||~ Necrosis (w/o limb preservation) || 
-|| Fine || Halfling Finger/Toe || 4 hours || 
-|| Diminutive || Human Finger/Toe || 3 hours || 
-|| Tiny || Human Hand/Foot || 2 hours || 
-|| Small || Human Arm/Leg || 1 hour || 
-|| Medium || Frost Giant Arm/Leg || 30 minutes || 
-|| Large || Titan Finger/Toe || 15 minutes || 
-|| Huge || Titan Hand/Foot || 5 minutes || 
-|| Gargantuan || Titan Arm/Leg || 1 minute || 
+||~ Limb ||~ Size Example ||~ Necrosis (w/o limb preservation) ||
+|| Fine || Halfling finger/toe || 4 hours || 
+|| Diminutive || Human finger/toe || 3 hours || 
+|| Tiny || Human hand/foot || 2 hours || 
+|| Small || Human arm/leg || 1 hour || 
+|| Medium || Frost giant arm/leg || 30 minutes || 
+|| Large || Titan finger/toe || 15 minutes || 
+|| Huge || Titan hand/foot || 5 minutes || 
+|| Gargantuan || Titan arm/leg || 1 minute || 
 
-++++ ##000000|Raise Dead##
++++ Raise Dead
 **Sphere** Life; **Ritual Level** 5
 **Casting Time** 2 hours
 **Components** V, S, M (100 gp in special ointment, diamond worth 5,000 gp)
 **Description** This functions as the raise dead spell.
 
-++++ ##000000|Reflection/Refraction##
++++ Reflection/Refraction
 **Sphere** Light; **Ritual Level** 2
 **Casting Time** 10 minutes
-**Components** V, S, M (a well made glass prism worth 50 gp) 
-**Description** You can alter the reflective and refractive properties of an inanimate object. You can change the coloration of an object, make its surface reflective, glossy, or dull, or even make it more or less translucent or transparent (though you cannot make an object invisible in this way, or remove invisibility). Your alteration does not have to be uniform, allowing you to simultaneously paint a wall and give it a clear window, or create other patterns, though you must make appropriate skill checks to create complex or artistic designs. This is an instantaneous effect as you are directly changing the properties of the object, so it does not have a duration and cannot be dispelled. This ritual can affect up to one 5 ft. cube of material.
+**Components** V, S, M (well made glass prism worth 50 gp)
+**Description** You can alter the reflective and refractive properties of an inanimate object. You can change the coloration of an object, make its surface reflective, glossy, or dull, or even make it more or less translucent or transparent (though you cannot make an object invisible in this way, or remove invisibility).
 
-++++ ##000000|Scrying##
+Your alteration does not have to be uniform, allowing you to simultaneously paint a wall and give it a clear window, or create other patterns, though you must attempt appropriate skill checks to create complex or artistic designs. This is an instantaneous effect as you are directly changing the properties of the object, so it does not have a duration and cannot be dispelled. This ritual can affect up to one 5-foot cube of material.
+
++++ Scrying
 **Sphere** Divination; **Ritual Level** 4
 **Casting Time** 1 hour
-**Components** V, S, M (50 gp in silver dust), F (a pool of water, or a silver mirror worth 1000 gp)
+**Components** V, S, M (50 gp in silver dust), F (pool of water, or silver mirror worth 1,000 gp)
 **Description** This functions as the scrying spell.
 
-++++ ##000000|Shrink Item##
++++ Shrink Item
 **Sphere** Creation; **Ritual Level** 3
 **Casting Time** 30 minutes
 **Components** V, S, M (25 gp of silver dust)
 **Description** This functions as the shrink item spell.
 
-++++ ##000000|Siege of Trees##
++++ Siege of Trees
 **Sphere** Nature; **Ritual Level** 7
 **Casting Time** 8 hours
 **Components** V, S, M (500 gp in rare herbs)
 **Description** This functions as the siege of trees spell.
 
-++++ ##000000|Sympathy##
++++ Sympathy
 **Sphere** Nature; **Ritual Level** 8
 **Casting Time** 1 day
 **Components** V, S, M (a drop of honey and crushed pearls worth 2,500 gp)
 **Description** This functions as the sympathy spell.
 
-++++ ##000000|Telekinetic Mule##
++++ Telekinetic Mule
 **Sphere** Telekinesis; **Ritual Level** 1
 **Casting Time** 5 minutes
 **Components** V, S, M (ritual chalk worth 5 gp)
 **Description** For 24 hours, add your caster level plus your casting ability modifier to your Strength to determine your carrying capacity.
 
-++++ ##000000|Teleport##
++++ Teleport
 **Sphere** Warp; **Ritual Level** 5
 **Casting Time** 2 hours
 **Components** V, M (100 gp in diamond dust)
 **Description** This functions as the teleport spell.
 
-++++ ##000000|Tongues##
++++ Tongues
 **Sphere** Divination; **Ritual Level** 3
 **Casting Time** 30 minute
 **Components** V, M (silver dust worth 25 gp)
 **Description** This functions as the tongues spell.
 
-++++ ##000000|Tool for the Job##
-**Sphere** Creation, Enhancement, or Nature; **Ritual Level** 1
-**Casting Time** 5 minutes
-**Components** S, M (water, metal, stone, or wood; a common set of artisan tools worth 5 gp)
++++ Tool For The Job
+**Sphere** Creation, Enhancement, or Nature; **Ritual Level** 0
+**Casting Time** 1 minute
+**Components** S, M (water, metal, stone, or wood; gold dust worth 1 gp)
 **Duration** 1 hour per caster level
-**Description** By magically shaping a nearby resource, you temporarily create a single tool that serves as masterwork tools (granting a +2 circumstance bonus) for one skill of your choice. Skills or skill uses that don’t require tools (such as Knowledge skills, Use Magic Device, etc.) cannot benefit from this ritual. The tool lasts for 1 hour per caster level before dissolving back into its elemental components.
+**Description** By magically shaping a nearby resource, you temporarily create a single tool that serves as masterwork tools (granting a +2 circumstance bonus) for one skill of your choice. Skills or skill uses that do not require tools (such as Knowledge skills, Use Magic Device, etc.) cannot benefit from this ritual. The tool lasts for 1 hour per caster level before dissolving back into its elemental components.
 
-++++ ##000000|Unseen Servant##
++++ Unseen Servant
 **Sphere** Telekinesis; **Ritual Level** 1
 **Casting Time** 5 minutes
 **Components** V, S, M (ritual chalk worth 5 gp)
-**Description** This ritual functions as the unseen servant spell
+**Description** This ritual functions as the unseen servant spell.
 
-++++ ##000000|Unseen Servant, Bound##
++++ Unseen Servant, Bound
 **Sphere** Telekinesis; **Ritual Level** 3
 **Casting Time** 30 minutes
 **Components** V, S, M (ritual chalk worth 1000 gp)
@@ -518,29 +590,135 @@ Successfully reattaching a limb without the use of regeneration doesn’t mean f
 
 An unseen servant created by this ritual can be set to obey the orders of others than the caster, either performing tasks for anyone, obeying the orders of anyone who provides a password, or obeying anyone who carries a specific token. Who can give orders is set when the ritual is performed, and tokens must be designated at this time. Any object can be used as a token, and you may designate a number of tokens equal to your caster level when you perform the ritual.
 
-++++ Water from Blood
++++ Water From Blood
 **Sphere** Blood; **Ritual Level** 0
 **Casting Time** 1 minute
 **Components** V, S, M (blood to be transmuted)
 **Description** You draw out the blood of one creature slain within the last hour and separate out the water. The creature must have been a valid target for blood control. A Medium creature yields 2 gallons of clean water; divide this volume by 4 for every size category smaller and multiply by 4 for every size category greater than Medium.
 
-++++ ##000000|Weld, Least##
++++ Weld, Least
 **Sphere** Telekinesis; **Ritual Level** 0
 **Casting Time** 1 minute
 **Components** V, S, M (a few drops of alchemical resin worth 1 gp)
-**Description** With this ritual you telekinetically bind a Diminutive sized or smaller object to another surface, fixing the two together indefinitely. The force that binds them is a relatively weak one however, and any creature may use a move action to pull them apart.
+**Description** With this ritual you telekinetically bind a Diminutive-sized or smaller object to another surface, fixing the two together indefinitely. The force that binds them is a relatively weak one however, and any creature may use a move action to pull them apart.
 
-++++ ##000000|Weld, Lesser##
++++ Weld, Lesser
 **Sphere** Telekinesis; **Ritual Level** 1
 **Casting Time** 5 minutes
-**Components** V, S, M (a vial of alchemical resin worth 5 gp)
-**Description** As the least weld ritual, except you may bind a Tiny sized or smaller object to a surface, and the bond between them is stronger. Attempting to pull the joined items apart requires a standard action and a successful Strength check (DC 11 + casting ability modifier).
+**Components** V, S, M (vial of alchemical resin worth 5 gp)
+**Description** As the least weld ritual, except you may bind a Tiny-sized or smaller object to a surface, and the bond between them is stronger. Attempting to pull the joined items apart requires a standard action and a successful Strength check (DC 11 + casting ability modifier).
 
-++++ ##000000|Weld, Greater##
++++ Weld, Greater
 **Sphere** Telekinesis; **Ritual Level** 3
 **Casting Time** 30 minutes
-**Components** V, S, M (a flask of alchemical resin worth 10 gp)
-**Description** As the least weld ritual, except you may bind a Small sized or smaller object to a surface and the bond between them is substantial. Attempting to pull the joined items apart requires a standard action and a successful Strength check (DC 10 + half caster level + casting ability modifier).
+**Components** V, S, M (flask of alchemical resin worth 10 gp)
+**Description** As the least weld ritual, except you may bind a Small-sized or smaller object to a surface and the bond between them is substantial. Attempting to pull the joined items apart requires a standard action and a successful Strength check (DC 10 + half caster level + casting ability modifier).
+----
++ Sample Ritual Books
+The following are sample ritual books that characters could buy.
+
+++++ Reminder: Buying and Selling Ritual Books
+While ritual books have a cost to create, rituals also have a cost to research. Ritual books could easily be found as loot, but are not considered to have a market value in and of themselves. As such, while certain rare rituals or other special circumstances may provide exceptions, a player must buy ritual books at a price of 4x the cost to create the ritual book or sell their own ritual-casting services to rich clients, but will not find it possible to sell copies of their own ritual books.
+
++++ Diary of a Conspiracy Theorist (Divination)
+**Aura** faint Divination; **CL** 4
+**Slot** none; **Price** 240 gp; **Weight** 1.5 lbs.
+**Description**
+This tattered book has a cover made from a thin sheet of lead and contains the ramblings of a thaumaturge who went insane, insisting that an unknown entity was out to get them. A number of similar ritual books have turned up each written by a different hand telling their own personal fall and descent into madness.
+
+**Rituals**
+0—detect poison, guidance
+1st—detect thoughts
+2nd—augury
+
+**Construction Requirements**
+Craft Rituals, Ritual Caster, Divination sphere; **Cost** 60 gp.
+
++++ Grimoire of Nature’s Wrath (Nature)
+**Aura** overwhelming Nature; **CL** 18
+**Slot** none; **Price** 13,520 gp; **Weight** 2 lbs.
+**Description**
+This ritual book is usually hidden away by a Grand Archdruid, only to be removed when nature beckons for a life reset. Each copy of this tome is described different from the others, so while one may be stone tablets bound with vines, another might be a book of inscribed leaves.
+
+**Rituals**
+4th—ice storm
+7th—firestorm
+8th—control plants, earthquake, repel metal or repel stone
+9th—sympathy
+
+**Construction Requirements**
+Craft Rituals, Ritual Caster, Nature sphere; **Cost** 3,380 gp.
+
++++ Novice Guide to Triage (Life)
+**Aura** faint Life; **CL** 2
+**Slot** none; **Price** 140 gp; **Weight** 1 lb.
+**Description**
+These bone-white books contain medical expertise on how to accurately sort the wounded, treat for shock, and bind bleeding wounds. Initially, these were handed out to soldiers by members of the White Lotus Cult, but distribution was eventually put to an end. Ironically, more patients had died by untrained novices when they spent minutes searching the books instead of binding the injured wounds, than those saved.
+
+**Rituals**
+0—stabilize
+1st—cure light wounds, deathwatch, remove fear
+
+**Construction Requirements**
+Craft Rituals, Ritual Caster, Life sphere; **Cost** 35 gp.
+
++++ Primer of Catastrophic Weather (Weather)
+**Aura** overwhelming Weather; **CL** 18
+**Slot** none; **Price** 14,840 gp; **Weight** 2 lbs.
+**Description**
+Usually bound in a charred cover, this ritual book has been used in the past to demolish entire metropolises. While possible that a rare copy or two may be locked away in the forbidden archives of the monastery organization, it is loudly proclaimed illegal on grounds of suspected terrorism to be in possession of such books without proper documentation and permits.
+
+**Rituals**
+7th—control weather, firestorm
+8th—reverse gravity, sunburst, whirlwind
+9th—storm of vengeance
+
+**Construction Requirements**
+Craft Rituals, Ritual Caster, Weather sphere; **Cost** 3,710 gp.
+
++++ Rituals of Primordial Aspects (Nature)
+**Aura** overwhelming Nature; **CL** 18
+**Slot** none; **Price** 9,720 gp; **Weight** 1 lb.
+**Description**
+This book’s cover appears to be made from the skins of different elemental humanoids including ifrit, oread, sylph, and undine. The contents of its pages gives a detailed synopsis of each of the primordial planes, the denizens within, and how to bring them into being.
+
+**Rituals**
+9th—elemental swarm, shambler, summon nature’s ally IX
+
+**Construction Requirements**
+Craft Rituals, Ritual Caster, Nature sphere; **Cost** 2,430 gp.
+
++++ Tome of Esoteric Research (Divination)
+**Aura** faint Divination; **CL** 2
+**Slot** none; **Price** 80 gp; **Weight** 1 lb.
+**Description**
+It is not uncommon for a library established by certain organizations to find a copy of this ritual book on its shelves. The ritual book usually has a blue leather cover with silver or grey stitching and embroidered lettering.
+
+**Rituals**
+0—detect magic, read magic
+1st—identify
+
+**Construction Requirements**
+Craft Rituals, Ritual Caster, Divination sphere; **Cost** 20 gp.
+
++++ Tome of Form Mastery (Alteration)
+**Aura** overwhelming Alteration; **CL** 18
+**Slot** none; **Price** 17,400 gp; **Weight** 1 lb.
+**Description**
+The cover of this ritual book is aberrant and appears to change color periodically. Inside, the tome contains and incanter’s notes on what she believes to be the ultimate transformation rituals.
+
+**Rituals**
+7th—greater polymorph, plant shape III
+8th—animal shapes, form of the dragon III, form of the giant II, polymorph any object
+9th—shapechange
+
+**Construction Requirements**
+Craft Rituals, Ritual Caster, Alteration sphere; **Cost** 4,350 gp.
+[[/tab]]
+[[tab Original]]
+[[include old-rituals]]
+[[/tab]]
+[[/tabview]]
 
 ----
 
