@@ -1,5 +1,4 @@
 title:Armorist
-parent:spheres-of-power
 [[module CSS]]
 .colored-links span > a {
   color: inherit;
@@ -21,15 +20,18 @@ parent:spheres-of-power
 [[/module]]
 
 [[toc]]
-
+[[tabview]]
+[[tab Ultimate]]
 [[div class="noselect" style="float:right; width: 20%; padding: 0 2%"]]
 [[=]]
-[[image http://spheresofpower.wikidot.com/local--files/test-page/Spheres_of_Power.jpg link="https://www.drivethrurpg.com/product/129448/Spheres-of-Power?affiliate_id=549120"]]
-**Spheres of Power**
-$19.99
+[[image http://spheresofpower.wikidot.com/local--files/test-page/UltimateSpheresofPower.jpg link="https://www.drivethrurpg.com/product/300249/Ultimate-Spheres-of-Power?affiliate_id=549120"]]
+**Ultimate Spheres of Power**
+$29.99
 ----
 [[/=]]
-[[/div]]Armorists are among the most direct masters of the Spheres, and indeed, tend to see magic as only the first step in resolving a situation. Their ability to call forth whatever equipment a situation requires makes them more flexible than many of their opponents realize.
+[[/div]]Armorists are among the most direct masters of the spheres, and indeed, tend to see magic as only the first step in resolving a situation. Their ability to call forth whatever equipment a situation requires makes them more flexible than many of their opponents realize.
+
+**Role:** Armorists are masters of combat who use items, rather than simple brute force, to dominate their enemies.
 
 **Alignment:** Any
 
@@ -37,392 +39,457 @@ $19.99
 
 **Starting Wealth:** 5d6 x 10 gp (average 175 gp). In addition, each character begins play with an outfit worth 10 gp or less.
 
-**Class Skills:** The armorist’s class skills are Climb (Str), Craft (Int), Intimidate (Cha), Knowledge (Arcana; Int), Knowledge (Engineering; Int), Knowledge (Nobility; Int), Profession (Wis), Ride (Dex), Spellcraft (Int), Swim (Str), and Use Magic Device (Cha).
+**Class Skills:** The armorist’s class skills are Acrobatics (Dex), Climb (Str), Craft (Int), Intimidate (Cha), Knowledge (arcana) (Int), Knowledge (engineering) (Int), Knowledge (nobility) (Int), Perception (Wis), Profession (Wis), Ride (Dex), Spellcraft (Int), Swim (Str), and Use Magic Device (Cha).
 
-**Skill Ranks Per Level:** 2 + Int modifier.
+**Skill Ranks Per Level:** 4 + Int modifier.
 
 + Class Features
-
 **Table: The Armorist**
-
-||~ Level||~ Base Attack Bonus ||~ Fort Save ||~ Ref Save ||~ Will Save ||~ Special ||~ Max Bonus ||~ Caster Level ||~ Magic Talents ||
-|| 1st || +1 || +2 || +0 || +0 || Bound equipment, casting, spell pool, summon equipment || +1 || +0 (1) || 0 (+2) || 
-|| 2nd || +2 || +3 || +0 || +0 || Arsenal trick || +1 || +1 || 1 || 
-|| 3rd || +3 || +3 || +1 || +1 || Armor training, bound equipment (+1) || +1 || +1 || 1 || 
-|| 4th || +4 || +4 || +1 || +1 || Arsenal trick || +1 || +2 || 2 || 
-|| 5th || +5 || +4 || +1 || +1 || Bound equipment (+2, 2x), summon armor || +1 || +2 || 2 || 
-|| 6th || +6/+1 || +5 || +2 || +2 || Arsenal trick || +2 || +3 || 3 || 
-|| 7th || +7/+2 || +5 || +2 || +2 || Armor training, bound equipment (+3) || +2 || +3 || 3 || 
-|| 8th || +8/+3 || +6 || +2 || +2 || Arsenal trick || +2 || +4 || 4 || 
-|| 9th || +9/+4 || +6 || +3 || +3 || Bound equipment (+4) || +3 || +4 || 4 || 
-|| 10th || +10/+5 || +7 || +3 || +3 || Arsenal trick, bound equipment (x3), bind staff || +3 || +5 || 5 || 
-|| 11th || +11/+6/+1 || +7 || +3 || +3 || Armor training, bound equipment (+5) || +3 || +5 || 5 || 
-|| 12th || +12/+7/+2 || +8 || +4 || +4 || Arsenal trick || +4 || +6 || 6 || 
-|| 13th || +13/+8/+3 || +8 || +4 || +4 || Bound equipment (+6) || +4 || +6 || 6 || 
-|| 14th || +14/+9/+4 || +9 || +4 || +4 || Arsenal trick || +4 || +7 || 7 || 
-|| 15th || +15/+10/+5 || +9 || +5 || +5 || Armor training, bound equipment (+7, 4x), quick summons || +5 || +7 || 7 || 
-|| 16th || +16/+11/+6/+1 || +10 || +5 || +5 || Arsenal trick || +5 || +8 || 8 || 
-|| 17th || +17/+12/+7/+2 || +10 || +5 || +5 || Bound equipment (+8) || +5 || +8 || 8 || 
-|| 18th || +18/+13/+8/+3 || +11 || +6 || +6 || Arsenal trick || +5 || +9 || 9 || 
-|| 19th || +19/+14/+9/+4 || +11 || +6 || +6 || Armor training, bound equipment (+9) || +5 || +9 || 9 || 
-|| 20th || +20/+15/+10/+5 || +12 || +6 || +6 || Bound equipment (+10, 5x), infinite arsenal || +5 || +10 || 10 || 
-
+||~ Level ||~ Base Attack Bonus ||~ Fort Save ||~ Ref Save ||~ Will Save ||~ Special ||~ Max Bonus ||~ Caster Level ||~ Magic Talents ||
+|| 1st || +1 || +2 || +0 || +2 || Bound equipment (+1), casting, spell pool, summon equipment || +0 || +0 (1) || 0 (+2) || 
+|| 2nd || +2 || +3 || +0 || +3 || Arsenal trick || +0 || +1 || 1 || 
+|| 3rd || +3 || +3 || +1 || +3 || Armor training, bound equipment (+2) || +1 || +1 || 1 || 
+|| 4th || +4 || +4 || +1 || +4 || Arsenal trick || +1 || +2 || 2 || 
+|| 5th || +5 || +4 || +1 || +4 || Bind implement, bound equipment (+3, 2x) || +1 || +2 || 2 || 
+|| 6th || +6/+1 || +5 || +2 || +5 || Arsenal trick || +2 || +3 || 3 || 
+|| 7th || +7/+2 || +5 || +2 || +5 || Armor training, bound equipment (+4) || +2 || +3 || 3 || 
+|| 8th || +8/+3 || +6 || +2 || +6 || Arsenal trick || +2 || +4 || 4 || 
+|| 9th || +9/+4 || +6 || +3 || +6 || Bound equipment (+5) || +3 || +4 || 4 || 
+|| 10th || +10/+5 || +7 || +3 || +7 || Arsenal trick, boost equipment, bound equipment (x3) || +3 || +5 || 5 || 
+|| 11th || +11/+6/+1 || +7 || +3 || +7 || Armor training, bound equipment (+6) || +3 || +5 || 5 || 
+|| 12th || +12/+7/+2 || +8 || +4 || +8 || Arsenal trick || +4 || +6 || 6 || 
+|| 13th || +13/+8/+3 || +8 || +4 || +8 || Bound equipment (+7) || +4 || +6 || 6 || 
+|| 14th || +14/+9/+4 || +9 || +4 || +9 || Arsenal trick || +4 || +7 || 7 || 
+|| 15th || +15/+10/+5 || +9 || +5 || +9 || Armor training, bound equipment (+8, 4x), quick summons || +5 || +7 || 7 || 
+|| 16th || +16/+11/+6/+1 || +10 || +5 || +10 || Arsenal trick || +5 || +8 || 8 || 
+|| 17th || +17/+12/+7/+2 || +10 || +5 || +10 || Bound equipment (+9) || +5 || +8 || 8 || 
+|| 18th || +18/+13/+8/+3 || +11 || +6 || +11 || Arsenal trick || +6 || +9 || 9 || 
+|| 19th || +19/+14/+9/+4 || +11 || +6 || +11 || Armor training, bound equipment (+10) || +6 || +9 || 9 || 
+|| 20th || +20/+15/+10/+5 || +12 || +6 || +12 || Arsenal trick, bound equipment (5x), infinite arsenal || +6 || +10 || 10 || 
+[[f>image http://spheresofpower.wikidot.com/local--files/armorist/Armorist.png]]
 ++ Weapon and Armor Proficiency
 An armorist is proficient with all simple and martial weapons, light armor, medium armor, and shields (except tower shields).
 
 ++ Casting
-An armorist may combine spheres and talents to create magical effects. An armorist is considered a Low-Caster and uses Wisdom as her casting ability modifier. (Note: All casters gain 2 bonus talents and may select a casting tradition the first time they gain the casting class feature.)
+An armorist may combine spheres and talents to create magical effects. An armorist is considered a Low-Caster. (Note: All casters gain 2 bonus talents and a casting tradition the first time they gain the casting class feature.)
 
 ++ Spell Pool
-An armorist gains a small reservoir of energy she can call on to create truly wondrous effects, called a spell pool. This pool contains a number of spell points equal to her level + her Wisdom modifier (minimum: 1). This pool replenishes once per day after roughly 8 hours of rest.
+An armorist gains a small reservoir of energy she can call on to create truly wondrous effects, called a spell pool. This pool contains a number of spell points equal to her class level + her casting ability modifier (minimum 1). This pool replenishes once per day after roughly 8 hours of rest.
 
 ++ Magic Talents
-An armorist gains a magic talent at 2nd level and every 2 levels thereafter, according to Table: Armorist. This does not stack with caster levels gained from other sources.
+An armorist gains a magic talent at 2nd level and every 2 levels thereafter, according to Table: The Armorist.
 
 ++ Summon Equipment (Su)
-An armorist may spend a spell point as a move action to conjure a weapon or shield into her hands, which stays for 1 minute per level before disappearing.
+An armorist may spend a spell point as a swift action or move action to conjure a weapon, shield, or suit of armor into her hands or directly onto her body, which stays for 1 minute per class level before disappearing.
 
-The armorist must be proficient with the weapon or type of shield to summon it, and in the case of exotic weapons, she must have studied a pre-existing version of the weapon for at least 1 week. This weapon or shield is masterwork quality, and while antimagic barriers may prevent the armorist from summoning these items, the items themselves are not considered magical creations and so may not be dispelled. Ranged weapons come with 50 pieces of basic ammunition.
+The armorist must be proficient with the weapon or type of shield or armor to summon it, and in the case of exotic weapons, she must have studied a pre-existing version of the weapon for at least 1 week. This weapon, shield, or suit of armor is masterwork quality, and while antimagic barriers may prevent the armorist from summoning these items, the items themselves are not considered magical creations and so may not be dispelled. Ranged weapons come with 50 pieces of basic ammunition.
 
-At 5th level, the armorist may conjure any type of armor she is proficient with, either on her own body as a move action or on a touched willing target’s body as a standard action. This causes any armor the target is wearing to disappear in favor of the new armor until the duration is over and the old armor returns. Dismissing summoned equipment is a free action. 
+When summoning armor, the armorist may also summon the suit directly onto a willing touched target’s body as a standard action. When summoning armor onto her own or another target’s body directly, their current armor disappears in favor of the new armor until the duration is over and the old armor returns. Dismissing a piece of summoned equipment is a free action.
 
-Summoned equipment gains a +1 enhancement bonus for every 3 armorist levels the creator possesses, to a maximum of +6 at 18th level. These bonuses may be traded for special qualities according to Table: Bound Equipment. A piece of summoned equipment cannot have higher than a +5 enhancement bonus; enhancement bonuses beyond this amount must be traded for special qualities.
-
-**Table: Bound Equipment**
-||~ Weapon Special Ability ||~ Enhancement Bonus Value ||~ Shield Special Ability ||~ Enhancement Bonus Value ||~ Armor Special Ability ||~ Enhancement Bonus Value ||~ Staff Special Ability ||~ Enhancement Bonus Value || 
-|| Corrosive || +1 bonus || Arrow Catching || +1 bonus || Bolstering || +1 bonus || Second Sphere || +1 bonus || 
-|| Defending || +1 bonus || Bashing || +1 bonus || Brawling || +1 bonus || Magic Talent || +2 bonus || 
-|| Distance || +1 bonus || Blinding || +1 bonus || Deathless || +1 bonus || || || 
-|| Flaming || +1 bonus || Clangorous || +1 bonus ||  ||  || || || 
-|| Frost || +1 bonus || Fortification (light) || +1 bonus || Fortification (light) || +1 bonus || || || 
-|| Impervious || +1 bonus || Grinding || +1 bonus || Grinding || +1 bonus || || || 
-|| Keen || +1 bonus || Impervious || +1 bonus || Impervious || +1 bonus || || || 
-|| Merciful || +1 bonus || Mirrored || +1 bonus || Mirrored || +1 bonus || || || 
-|| Mighty Cleaving || +1 bonus || Ramming || +1 bonus || Stanching || +1 bonus || || || 
-|| Returning || +1 bonus || Arrow deflection || +2 bonus || Spell resistance (13) || +2 bonus || || || 
-|| Shock || +1 bonus || Merging || +2 bonus || Fortification (moderate) || +3 bonus || || || 
-|| Throwing || +1 bonus || Spell resistance (13) || +2 bonus ||  Energy resistance (10, one element) || +3 bonus || || || 
-|| Vicious || +1 bonus || Fortification (moderate) || +3 bonus || Invulnerability || +3 bonus || || || 
-|| Corrosive Burst || +2 bonus || Spell resistance (15) || +3 bonus || Spell resistance (15) || +3 bonus || || || 
-|| Flaming Burst || +2 bonus || Spell resistance (17) || +4 bonus || Titanic || +3 bonus || || || 
-|| Icy Burst || +2 bonus || Fortification (heavy) || +5 bonus ||  Energy resistance, improved (20, one element) || +4 bonus || || || 
-|| Shocking Burst || +2 bonus || Spell resistance (19) || +5 bonus || Spell resistance (17) || +4 bonus || || || 
-|| Wounding || +2 bonus || Reflecting || +5 bonus || Fortification (heavy) || +5 bonus || || || 
-|| Speed || +3 bonus || || || Spell resistance (19) || +5 bonus || || || 
-|| Vorpal || +5 bonus || || || Energy resistance, greater (30, one element) || +5 bonus || || || 
+Summoned equipment is always considered masterwork quality and gains a +1 enhancement bonus for every 3 armorist levels the creator possesses, to a maximum of +6 at 18th level. These bonuses may be traded for special abilities according to Table: Bound Equipment. A piece of summoned equipment cannot have higher than a +5 enhancement bonus; enhancement bonuses beyond this amount must be traded for special abilities.
 
 ++ Bound Equipment (Su)
-An armorist gains a bond with a specific weapon or shield that is far greater than with her other summoned equipment. Bound equipment is summoned and treated just like summoned equipment, except it does not cost a spell point to summon, cannot be used by anyone other than the armorist herself (the item’s magic does not function in another’s hands), comes with limitless ammunition, and disappears 1 round after leaving the armorist’s hands. She gains another piece of bound equipment at 5th level, 10th level, 15th level, and 20th level and may select a suit of armor beginning at 5th level or a staff beginning at 10th level.
+An armorist gains a bond with a specific weapon, shield, or suit of armor that is far greater than with her other summoned equipment. Bound equipment is summoned and treated just like summoned equipment, except it does not cost a spell point to summon, cannot be used by anyone other than the armorist herself (the item’s magic does not function in another’s hands), comes with limitless ammunition, and disappears 1 round after leaving the armorist’s hands. She gains another piece of bound equipment at 5th level, 10th level, 15th level, and 20th level, and may bond implements beginning at 5th level.
 
-Bound equipment is masterwork quality, and gains a cumulative +1 enhancement bonus for every odd armorist level possessed beyond 1st, increasing to +10 at 20th level. A piece of bound equipment’s enhancement bonus cannot exceed +1 per 3 levels (minimum: +1, maximum: +5); all enhancement bonus beyond this must be traded for special qualities.
+Bound equipment is masterwork quality, and gains a +1 enhancement bonus for every odd armorist level possessed. A piece of bound equipment’s enhancement bonus cannot exceed +1, +1 per 3 armorist levels (maximum +5); all enhancement bonus beyond this must be traded for special abilities.
 
-An armorist may give her bound weapon special enhancement properties from Table: Bound Equipment, trading enhancement bonus for other benefits. Bound equipment cannot be enchanted through any other means than gaining armorist levels and must retain at least a +1 enhancement bonus. Bound staves use the rules presented in on the Magic Items page, granting the armorist enhancement bonuses to her caster level with one sphere, chosen when the staff is created.
+An armorist may give her bound weapon special abilities from Table: Bound Equipment, trading enhancement bonus for other benefits. Bound equipment cannot be enchanted through any other means than gaining armorist levels and must retain at least a +1 enhancement bonus. Bound implements use the rules presented in the Magic Items chapter, granting the armorist enhancement bonuses to her caster level with one sphere, chosen when the implement is created. A piece of bound equipment may be an implement or a weapon/shield/suit of armor, but not both at the same time.
 
-Beginning at 10th level, the armorist may also place weapon enhancements on her staffs and staff enhancements on her weapons.
-
-Once a piece of bound equipment has been selected, or once its special qualities have been chosen, they may only be changed if the armorist spends 8 hours (1 day) meditating to dismiss the old piece of bound equipment and create a new piece of bound equipment to take its place.
+Once a piece of bound equipment has been selected, or once its special abilities have been chosen, they may only be changed if the armorist spends 8 hours (1 day) meditating to dismiss the old piece of bound equipment and create a new piece of bound equipment to take its place.
 
 The armorist’s bound equipment can be damaged and sundered, but always returns to full health the following day.
 
-A bound double-weapon must divide its enhancement bonuses and weapon qualities between the two ends (for example, a +5 bound quarterstaff could have a +3 bonus on one end and a +2 bonus on the other). Alternately, the armorist may bind each end of the double weapon as a separate piece of bound equipment, thus granting full bonuses to each half. If one end of the double weapon has no bonuses, it is still considered masterwork.
+A bound double-weapon must divide its enhancement bonuses and special abilities between the two ends (for example, a +5 bound quarterstaff could have a +3 bonus on one end and a +2 bonus on the other). Alternatively, the armorist may bind each end of the double weapon as a separate piece of bound equipment, thus granting full bonuses to each half. If one end of the double weapon has no bonuses, it is still considered masterwork.
+
+**Author's Note:** A bound implement may take any shape a normal implement could (e.g. as a held item, magic item slot, or slotless).
+
+**Wiki Note:** Most of the following abilities can be found on one of these pages:
+* [https://aonprd.com/MagicWeapons.aspx?Category=MeleeWeaponQuality Melee Weapon Qualities] (Archives of Nethys)
+* [https://aonprd.com/MagicWeapons.aspx?Category=RangedWeaponQuality Ranged Weapon Qualities] (Archives of Nethys)
+* [https://aonprd.com/MagicArmor.aspx?Category=ArmorQuality Armor Qualities] (Archives of Nethys)
+* [https://aonprd.com/MagicArmor.aspx?Category=ShieldQuality Shield Qualities] (Archives of Nethys)
+* [http://spheresofpower.wikidot.com/weapons Weapons]
+* [http://spheresofpower.wikidot.com/armor Armor]
+
+**Table: Bound Equipment**
+||~ Weapon Special Ability ||~ Enhance. Bonus Value ||~ Shield Special Ability ||~ Enhance. Bonus Value ||~ Armor Special Ability ||~ Enhance. Bonus Value ||~ Implement Special Ability ||~ Enhance. Bonus Value ||
+||[https://www.aonprd.com/MagicWeaponsDisplay.aspx?ItemName=Advancing Advancing ][[footnote]] This ability can only be placed on melee weapons. Once per round, when the wielder damages a creature in melee with an advancing weapon, she can take a 5-foot step as a swift action after the attack but before the end of her turn. This movement does not count against her ability to move or take a 5-foot step earlier or later in the round, though using this ability imposes a –2 penalty on all attack rolls until the start of her next turn. This ability may not be used in conjunction with any other ability or effect that allows moving as part of an attack. [[/footnote]]|| +2 bonus ||[https://www.aonprd.com/MagicArmorDisplay.aspx?ItemName=Arrow%20Catching Arrow catching ][[footnote]] A shield with this ability attracts ranged weapon attacks to it. It has a deflection bonus of +1 against ranged weapons because projectiles and thrown weapons veer toward it. Additionally, any projectile or thrown weapon aimed at a target within 5 feet of the shield’s wearer diverts from its original target and targets the shield’s bearer instead. If the wielder has total cover relative to the attacker, the projectile or thrown weapon is not diverted. Additionally, those attacking the wearer with ranged weapons ignore any miss chances that would normally apply. Projectiles and thrown weapons that have an enhancement bonus higher than the shield’s base AC bonus are not diverted to the wearer (but the shield’s deflection bonus still applies against these weapons). The wielder can activate or deactivate this ability with a command word. [[/footnote]]|| +1 bonus ||[http://spheresofpower.wikidot.com/armor#toc25 Anti-ballistic ][[footnote]] This armor or shield is designed specifically against more powerful projectile weapons. Whenever a projectile weapon is used against the wearer, the full AC bonus of the armor and any enhancement bonus it possesses are applied to the touch AC of the wearer. [[/footnote]]|| +1 bonus ||[http://spheresofpower.wikidot.com/implements#toc45 Abjuring ][[footnote]] While wielding this implement, the caster may spend a spell point as an immediate action to grant spell resistance to himself and all friendly creatures within 30 feet against a single spell or sphere ability. The resistance then ends. The value of this spell resistance is equal to the Protection caster level of the wielder + 10. [[/footnote]]|| +3 bonus ||
+||[https://www.aonprd.com/MagicWeaponsDisplay.aspx?ItemName=Agile Agile ][[footnote]] A character with Weapon Finesse can apply her Dexterity modifier to damage rolls with an agile weapon in place of her Strength modifier. This modifier to damage is not increased for two-handed weapons, but is still reduced for off-hand weapons. This weapon special ability can be placed only on melee weapons usable with Weapon Finesse. [[/footnote]]|| +1 bonus ||[https://www.aonprd.com/MagicArmorDisplay.aspx?ItemName=Arrow%20Deflection Arrow deflection ][[footnote]] This shield protects the wielder as if he had the Deflect Arrows feat. Once per round when he would normally be struck by a ranged weapon, he can make a DC 20 Reflex save. If the ranged weapon (or piece of ammunition) has an enhancement bonus, the DC increases by that amount. If he succeeds, the shield deflects the weapon. He must be aware of the attack and not flat-footed. Attempting to deflect a ranged weapon doesn’t count as an action. Exceptional ranged weapons, such as boulders hurled by giants or acid arrows, can’t be deflected. [[/footnote]]|| +2 bonus ||[http://spheresofpower.wikidot.com/armor#toc26 Anti-spell ][[footnote]] This armor or shield is laced with metals that give it limited anti-magic properties. Whenever the wearer attempts a saving throw vs. a spell or sphere ability that is hindered by spell resistance, they receive a circumstance bonus to their saving throw equal to the enhancement bonus of their armor. [[/footnote]]|| +2 bonus ||[http://spheresofpower.wikidot.com/implements#toc46 Aggressive ][[footnote]] This special ability may only be applied to implements which give a caster level bonus to sphere effects from the War sphere. The bearer and all allies within 30 feet gain an insight bonus to initiative equal to the implement’s enhancement bonus. [[/footnote]]|| +1 bonus ||
+||[https://www.aonprd.com/MagicWeaponsDisplay.aspx?ItemName=Anchoring Anchoring ][[footnote]] This special ability can only be added to a melee weapon or a thrown weapon. An anchoring weapon pins a target in place and prevents it from moving. As a swift action, the weapon can be fixed in place in a point in space, functioning as an immovable rod. This ability can also be used when the wielder hits a creature with a melee attack using an anchoring weapon. This anchors the target to the weapon, preventing it from moving away from the weapon. The target is not entangled or paralyzed; it simply cannot move from its location without first destroying the weapon or making a successful DC 30 Strength check as a full-round action to move with the weapon up to 10 feet. An anchoring weapon remains motionless and cannot be used to attack while it is anchoring a creature. An anchoring weapon has no effect on amorphous creatures, including elementals, oozes, and creatures in gaseous or liquid form. It also cannot anchor incorporeal creatures unless the weapon also has the ghost touch special ability. [[/footnote]]|| +2 bonus ||[https://www.aonprd.com/MagicArmorDisplay.aspx?ItemName=Bashing Bashing ][[footnote]] A shield with this special ability is designed to perform a shield bash. A bashing shield deals damage as if it were a weapon of two size categories larger (a Medium light shield thus deals 1d6 points of damage and a Medium heavy shield deals 1d8 points of damage). The shield acts as a +1 weapon when used to bash. Only light and heavy shields can have this ability. [[/footnote]]|| +1 bonus ||[https://www.aonprd.com/MagicArmorDisplay.aspx?ItemName=Benevolent Benevolent ][[footnote]] This suit of armor best serves a wearer who focuses on assisting and protecting his allies. Benevolent armor is usually decorated with motifs of prosperity, plenty, and generosity, such as helping hands, cornucopias, and flourishing plants. When the wearer of a suit of benevolent armor uses the aid another action to give an ally a bonus to AC against an opponent’s next attack, he also adds the benevolent armor’s enhancement bonus to the ally’s AC. [[/footnote]]|| +1 bonus ||[http://spheresofpower.wikidot.com/implements#toc47 Aiming ][[footnote]] When using a sphere effect from a sphere to which this implement grants its enhancement bonus, you may apply the implement’s enhancement bonus to any attack and damage rolls granted by the sphere effect. This includes indirect attack rolls, such as hitting something with a Bludgeon through telekinesis or dropping a created object on something. [[/footnote]]|| +1 bonus ||
+||[http://spheresofpower.wikidot.com/weapons#toc78 Arcing ][[footnote]] This special ability may only be applied to ranged weapons. You may alter the trajectory of your attack once when making a ranged attack with an arcing weapon. Rather than having your attack travel in a straight line, you may have it make a single turn of up to 90 degrees, and determine the effects of cover from the square in which your attack turns. You may even use this to attack a target that would normally be behind total cover. However, you still determine line of sight from your own square, suffering concealment normally. [[/footnote]]|| +1 bonus ||[https://www.aonprd.com/MagicArmorDisplay.aspx?ItemName=Blinding Blinding ][[footnote]] A shield with this ability flashes with a brilliant light up to twice per day upon command of the wielder. Except for the wielder, anyone within 20 feet must make a successful DC 14 Reflex save or be blinded for 1d4 rounds. [[/footnote]]|| +1 bonus ||[https://www.aonprd.com/MagicArmorDisplay.aspx?ItemName=Bolstering Bolstering ][[footnote]] Anytime the wearer of bolstering armor damages a creature with a melee or ranged attack, he gains a +2 competence bonus on saving throws against that creature’s abilities until the start of his next turn. The bolstering ability can be applied to medium armor, heavy armor, light shields, heavy shields, and tower shields, but not light armor or bucklers. [[/footnote]]|| +1 bonus ||[http://spheresofpower.wikidot.com/implements#toc48 Alerting ][[footnote]] This special ability may only be applied to implements which give a caster level bonus to sphere effects from the War sphere. Whenever you roll initiative, you may spend a spell point to allow allies within 30 feet to use your initiative count (if it is higher than their own). You still act before them, and others use their original initiative order to settle the tie. [[/footnote]]|| +3 bonus ||
+||[http://spheresofpower.wikidot.com/weapons#toc80 Avalanche ][[footnote]] "This special ability may only be applied to a non-light melee weapon. Like the avalanche of a mountain, avalanche weapons apply the power of momentum from the wielder’s full body to the attack instead of its Strength. A wielder of an avalanche weapon can choose to apply her Constitution modifier to damage rolls with the weapon in place of her Strength modifier. This modifier to damage is not increased for two-handed weapons, but is still reduced for off-hand weapons." [[/footnote]]|| +1 bonus ||[https://www.aonprd.com/MagicArmorDisplay.aspx?ItemName=Clangorous Clangorous ][[footnote]] A shield with this ability rings loudly when struck in combat. As an immediate action when the wearer is hit by an attack, the wearer can activate the shield to create a deafening bang equivalent to a thunderstone. If the attack is a critical hit, the wearer can instead create a sound burst (Fortitude DC 13 partial). The wearer decides the area for either effect, but must include the attacker in the area. Neither ability affects the wearer. [[/footnote]]|| +1 bonus ||[https://www.aonprd.com/MagicArmorDisplay.aspx?ItemName=Brawling Brawling ][[footnote]] The wearer of brawling armor gains a +2 bonus on unarmed attack and damage rolls, including combat maneuver checks made to grapple. Her unarmed strikes count as magic weapons for the purpose of bypassing damage reduction. These bonuses do not apply to natural weapons. This special ability does not prevent the wearer’s unarmed strikes from provoking attacks of opportunity or make the wearer’s unarmed strikes count as armed attacks. The brawling ability can be applied only to light armor. [[/footnote]]|| +3 bonus ||[http://spheresofpower.wikidot.com/implements#toc50 Bloodhound ][[footnote]] This special ability may only be applied to a Blood sphere implement. The wielder of a bloodhound implement gains blindsense with a range of 10 times the bloodhound implement’s enhancement bonus. The blindsense granted by a bloodhound implement only allows the wielder to detect creatures under the effects of the wielder’s blood control or suffering from bleed damage. [[/footnote]]|| +2 bonus ||
+||[https://www.aonprd.com/MagicWeaponsDisplay.aspx?ItemName=Benevolent Benevolent ][[footnote]] This ability can only be placed on a melee weapon. When the wielder of a benevolent weapon uses the aid another action to grant an ally a bonus on attack rolls, he increases the aid another bonus by the enhancement bonus of the weapon. [[/footnote]]|| +1 bonus ||[https://www.aonprd.com/MagicArmorDisplay.aspx?ItemName=Deflecting Deflecting ][[footnote]] The shield’s shield bonus to AC now also applies against ranged touch attacks. [[/footnote]]|| +1 bonus ||[https://www.aonprd.com/MagicArmorDisplay.aspx?ItemName=Deathless Deathless ][[footnote]] This armor protects its wearer from harmful negative and positive energy, including channeled energy. The armor absorbs the first 10 points of positive or negative energy damage per attack that the wearer would normally take. The wearer has a 25% chance to ignore negative levels from any attack. Deathless armor does not block healing of any kind and does not protect against positive or negative energy effects that do not deal damage or bestow negative levels. The deathless ability can be applied to armor of any sort, but not shields. [[/footnote]]|| +1 bonus ||[http://spheresofpower.wikidot.com/implements#toc51 Capacitance ][[footnote]] You may cast sphere effects into this implement, storing them for a short time before discharging them simultaneously. This casting spends any spell points required at the time it is performed. You may cast sphere effects into the implement with total spell point cost not exceeding the implement’s enhancement bonus and total caster level not exceed three times your caster level (use the highest caster level for the effects stored if you have multiple caster levels). Once an effect is cast into the implement, it dissipates harmlessly after 1 minute. All stored effects may be released as a 1 round action, choosing targets for each stored effect individually within the parameters of that effect. [[/footnote]]|| +2 bonus ||
+||[http://spheresofpower.wikidot.com/weapons#toc81 Blast vessel ][[footnote]] A blast vessel weapon may be imbued with a (blast type) talent that the wielder possesses as a standard action. Once imbued, it deals 1 die of bonus damage, with die size, damage type, and additional effects as appropriate to the blast type. The weapon keeps this blast type for 24 hours or until another blast type is imbued. The save DC of any additional effects are equal to that of the creature imbuing the weapon. Blast type talents that carry an SP cost cannot be imbued. [[/footnote]]|| +2 bonus ||[http://spheresofpower.wikidot.com/armor#toc33 Focusing ][[footnote]] "A suit of focusing armor is endowed with a semblance of a mind that connects to the mind of its wearer. When the wearer casts a magical effect with a duration of concentration, the suit of armor may concentrate on the magical effect in the wearer’s place on subsequent rounds. The armor can only concentrate for a total number of rounds equal to its enhancement bonus, after which the effect ends (the wearer cannot choose to concentrate on the effect again after giving it to the armor). Although the armor is doing the concentrating, the magic still originates from the wearer; damage taken requires the wearer to succeed at a concentration check or the armor ceases to concentrate on the spell, just as if the wearer were still the one concentrating on the effect." [[/footnote]]|| +4 bonus ||[https://www.aonprd.com/MagicArmorDisplay.aspx?ItemName=Energy%20Resistance Energy resistance (10, one element) ][[footnote]] A suit of armor or a shield with this special ability protects against one type of energy (acid, cold, electricity, fire, or sonic) and is designed with patterns depicting the element it protects against. The armor absorbs the first 10 points of energy damage per attack that the wearer would normally take (similar to the resist energy spell). [[/footnote]]|| +3 bonus ||[http://spheresofpower.wikidot.com/implements#toc52 Carved ][[footnote]] This special ability may only be applied to implements which give a caster level bonus to sphere effects from the War sphere. This implement has been enchanted to conduct primal energies through channels engraved in it. The caster may use a swift action to move any totem they own within long range so that it is centered at their current location. [[/footnote]]|| +1 bonus ||
+||[https://www.aonprd.com/MagicWeaponsDisplay.aspx?ItemName=Corrosive Corrosive ][[footnote]] Upon command, a corrosive weapon becomes slick with acid that deals an extra 1d6 points of acid damage on a successful hit. The acid does not harm the wielder. The effect remains until another command is given. [[/footnote]]|| +1 bonus ||[https://www.aonprd.com/MagicArmorDisplay.aspx?ItemName=Fortification%20(heavy) Fortification (heavy) ][[footnote]] This suit of armor or shield produces a magical force that protects vital areas of the wearer more effectively. When a critical hit or sneak attack is scored on the wearer, there is a chance that the critical hit or sneak attack is negated and damage is instead rolled normally. The chance is 25% for light fortification, 50% for moderate fortification, and 75% for heavy fortification. [[/footnote]]|| +5 bonus ||[https://www.aonprd.com/MagicArmorDisplay.aspx?ItemName=Energy%20Resistance Energy resistance, improved (20, one element) ][[footnote]] As energy resistance, except it absorbs the first 30 points of energy damage per attack. [[/footnote]]|| +4 bonus ||[http://spheresofpower.wikidot.com/implements#toc53 Equitable ][[footnote]] This special ability may only be applied to an implement that grants a bonus to the Life sphere. This implement can be used to remove a condition that the bearer can not normally restore, provided a basic Life talent exists that can perform the function. The implement may be used this way a maximum number of times per day equal to the caster level bonus it grants. The bearer must still pay the spell point cost of the ability. [[/footnote]]|| +1 bonus ||
+||[https://www.aonprd.com/MagicWeaponsDisplay.aspx?ItemName=Corrosive%20Burst Corrosive Burst ][[footnote]] "A corrosive burst weapon functions as a corrosive weapon that explodes with searing acid upon striking a successful critical hit. The acid does not harm the wielder. In addition to the extra acid damage from the corrosive special ability, a corrosive burst weapon deals an extra 1d10 points of acid damage on a successful critical hit. If the weapon’s critical modifier is 3, add an extra 2d10 points of acid damage instead, and if the modifier is 4, add an extra 3d10 points. Even if the corrosive ability is not active, the weapon still deals its extra acid damage on a successful critical hit." [[/footnote]]|| +2 bonus ||[https://www.aonprd.com/MagicArmorDisplay.aspx?ItemName=Fortification%20(light) Fortification (light) ][[footnote]] This suit of armor or shield produces a magical force that protects vital areas of the wearer more effectively. When a critical hit or sneak attack is scored on the wearer, there is a chance that the critical hit or sneak attack is negated and damage is instead rolled normally. The chance is 25% for light fortification, 50% for moderate fortification, and 75% for heavy fortification. [[/footnote]]|| +1 bonus ||[https://www.aonprd.com/MagicArmorDisplay.aspx?ItemName=Energy%20Resistance Energy resistance, greater (30, one element) ][[footnote]] As energy resistance, except it absorbs the first 20 points of energy damage per attack. [[/footnote]]|| +5 bonus ||[http://spheresofpower.wikidot.com/implements#toc56 Extra sphere ][[footnote]] The implement provides an enhancement bonus to a sphere other than its base sphere, chosen when this special ability is gained. This benefit may be taken up to 5 times. The effects stack. [[/footnote]]|| +1 bonus ||
+||[https://www.aonprd.com/MagicWeaponsDisplay.aspx?ItemName=Courageous Courageous ][[footnote]] This special ability can only be added to a melee weapon. A courageous weapon fortifies the wielder’s courage and morale in battle. The wielder gains a morale bonus on saving throws against fear equal to the weapon’s enhancement bonus. In addition, any morale bonus on saving throws against fear the wielder gains from any other source is increased by half the weapon’s enhancement bonus (minimum 1). [[/footnote]]|| +1 bonus ||[https://www.aonprd.com/MagicArmorDisplay.aspx?ItemName=Fortification%20(moderate) Fortification (moderate) ][[footnote]] This suit of armor or shield produces a magical force that protects vital areas of the wearer more effectively. When a critical hit or sneak attack is scored on the wearer, there is a chance that the critical hit or sneak attack is negated and damage is instead rolled normally. The chance is 25% for light fortification, 50% for moderate fortification, and 75% for heavy fortification. [[/footnote]]|| +3 bonus ||[http://spheresofpower.wikidot.com/armor#toc33 Focusing ][[footnote]] "A suit of focusing armor is endowed with a semblance of a mind that connects to the mind of its wearer. When the wearer casts a magical effect with a duration of concentration, the suit of armor may concentrate on the magical effect in the wearer’s place on subsequent rounds. The armor can only concentrate for a total number of rounds equal to its enhancement bonus, after which the effect ends (the wearer cannot choose to concentrate on the effect again after giving it to the armor). Although the armor is doing the concentrating, the magic still originates from the wearer; damage taken requires the wearer to succeed at a concentration check or the armor ceases to concentrate on the spell, just as if the wearer were still the one concentrating on the effect." [[/footnote]]|| +4 bonus ||[http://spheresofpower.wikidot.com/implements#toc57 Girding ][[footnote]] This Protection implement gives its wielder a circumstance bonus to AC equal to its enhancement bonus while it is being held. [[/footnote]]|| +2 bonus ||
+||[https://www.aonprd.com/MagicWeaponsDisplay.aspx?ItemName=Cruel Cruel ][[footnote]] While wielding a crackling weapon in Precipitation of severity level 4 or higher, the wielder may hold it aloft as a full-round action, causing the weapon to be struck by lightning. For 1 round per enhancement bonus, attacks with the weapon deal an extra 1d6 electricity damage per severity level above 3, to a maximum of 1d6 per +1 enhancement bonus the weapon has. [[/footnote]]|| +1 bonus ||[https://www.aonprd.com/MagicArmorDisplay.aspx?ItemName=Ghost%20Touch Ghost touch ][[footnote]] This armor or shield seems almost translucent. Both its enhancement bonus and its armor bonus count against the attacks of corporeal and incorporeal creatures. It can be picked up, moved, and worn by corporeal and incorporeal creatures alike. Incorporeal creatures gain the armor’s or shield’s enhancement bonus against both corporeal and incorporeal attacks, and they can still pass freely through solid objects. [[/footnote]]|| +3 bonus ||[https://www.aonprd.com/MagicArmorDisplay.aspx?ItemName=Fortification%20(heavy) Fortification (heavy) ][[footnote]] This suit of armor or shield produces a magical force that protects vital areas of the wearer more effectively. When a critical hit or sneak attack is scored on the wearer, there is a chance that the critical hit or sneak attack is negated and damage is instead rolled normally. The chance is 25% for light fortification, 50% for moderate fortification, and 75% for heavy fortification. [[/footnote]]|| +5 bonus ||[http://spheresofpower.wikidot.com/implements#toc59 Macabre ][[footnote]] This special ability may only be applied to a Death sphere implement. When the wielder of a macabre implement reanimates a creature, it gains a number of temporary hit points equal to three times the macabre implement’s enhancement bonus. These temporary hit points last until lost. [[/footnote]]|| +1 bonus ||
+||[https://www.aonprd.com/MagicWeaponsDisplay.aspx?ItemName=Cunning Cunning ][[footnote]] When the wielder strikes a creature that is frightened, shaken, or panicked with a cruel weapon, that creature becomes sickened for 1 round. When the wielder uses the weapon to knock unconscious or kill a creature, he gains 5 temporary hit points that last for 10 minutes. [[/footnote]]|| +1 bonus ||[https://www.aonprd.com/MagicArmorDisplay.aspx?ItemName=Grinding Grinding ][[footnote]] A shield or suit of armor with this special ability is covered with jagged burrs and razor-sharp serrations that saw and grind whenever the wearer is grappled or entangled. Any creature succeeding at a grapple combat maneuver check against the wearer takes damage equal to the armor or shield’s enhancement bonus (with each successful check) as the barbs and blades bite into it. This special ability counts as armor spikes for the purpose of making attacks on the wearer’s turn. [[/footnote]]|| +1 bonus ||[https://www.aonprd.com/MagicArmorDisplay.aspx?ItemName=Fortification%20(light) Fortification (light) ][[footnote]] This suit of armor or shield produces a magical force that protects vital areas of the wearer more effectively. When a critical hit or sneak attack is scored on the wearer, there is a chance that the critical hit or sneak attack is negated and damage is instead rolled normally. The chance is 25% for light fortification, 50% for moderate fortification, and 75% for heavy fortification. [[/footnote]]|| +1 bonus ||[http://spheresofpower.wikidot.com/implements#toc60 Magic talent ][[footnote]] Any caster wielding the implement gains access to a magic talent contained within the implement. If this talent is a (form) Conjuration talent, it may be applied to any companion the caster summons, but no more than one creature at any given time. To contain an advanced talent, an implement needs a minimum caster level equal to that talent’s prerequisite caster level, and must contain all of that talent’s prerequisite talents. An implement may gain this special ability multiple times. [[/footnote]]|| +2 bonus ||
+||[http://spheresofpower.wikidot.com/weapons#toc88 Decisive ][[footnote]] This special ability allows a weapon to find chinks in a foe’s defenses using the wielder’s knowledge of the target. Whenever the weapon's attack is a critical threat, the wielder gains a +4 bonus on the confirmation roll if she has 5 or more ranks in a Knowledge skill that would be used to identify the target's creature type, or a +6 bonus instead if she has 15 or more ranks. [[/footnote]]|| +2 bonus ||[https://www.aonprd.com/MagicArmorDisplay.aspx?ItemName=Impervious Impervious ][[footnote]] A shield or suit of armor with this special ability is especially hardy. It gains double its enhancement bonus to hardness and hit points (instead of just the enhancement bonus), its break DC increases by double its enhancement bonus, and it gains a bonus on saving throws against direct attacks (such as a rust monster’s rust ability) equal to its enhancement bonus. [[/footnote]]|| +1 bonus ||[https://www.aonprd.com/MagicArmorDisplay.aspx?ItemName=Fortification%20(moderate) Fortification (moderate) ][[footnote]] This suit of armor or shield produces a magical force that protects vital areas of the wearer more effectively. When a critical hit or sneak attack is scored on the wearer, there is a chance that the critical hit or sneak attack is negated and damage is instead rolled normally. The chance is 25% for light fortification, 50% for moderate fortification, and 75% for heavy fortification. [[/footnote]]|| +3 bonus ||[http://spheresofpower.wikidot.com/implements#toc62 Mesmerism ][[footnote]] "While wielding an implement with this benefit, a caster with access to the Mind sphere gains access to a gaze attack capable of affecting creatures within close range. At first this gaze attack does nothing apart from making others who meet your gaze feel unsettled (an effect that those with the Subtlety talent may suppress if they choose). This effect can be suppressed or resumed as a free action. The gaze attack’s effect can shift to be that of any lesser or greater charm from the Mind sphere that the implement’s wielder possesses as a talent; shifting the gaze to a lesser charm can be done indefinitely (though it does not change the fact that a creature can only usually be affected by any given caster’s lesser charms once per day). Shifting the gaze attack to a greater charm costs 1 spell point, and the effect lasts for 1 round per point of casting ability modifier (at which point the wielder must either pay another spell point, shift to a different ability, or end the ability as a free action)." [[/footnote]]|| +3 bonus ||
+||[https://www.aonprd.com/MagicWeaponsDisplay.aspx?ItemName=Defending Defending ][[footnote]] This special ability may only be applied to melee weapons. As a standard action, the wielder of this weapon may make an attack on a creature not native to the current plane of existence. If the attack hits, in addition to normal damage, the outsider must attempt a Will saving throw against a DC equal to 10 + 1/2 the Hit Dice of the attacker + their Charisma modifier. If they fail, they are forced to return to their home plane of existence. If the attack is a critical hit, they must save against this ability twice. [[/footnote]]|| +1 bonus ||[https://www.aonprd.com/MagicArmorDisplay.aspx?ItemName=Merging Merging ][[footnote]] A merging shield can meld with a held one-handed or light weapon. The wearer chooses each round whether to attack with the weapon or defend with the shield. Melding or freeing the shield requires a command word. The shield must be worn to merge it with a weapon; reversing the melding means the shield is being worn again. While the shield is melded, the wearer can use that hand only to attack with the weapon or defend with the shield (and not to cast spells or manipulate objects, for example). Attack rolls with the weapon take a –2 penalty while merged with a light shield or a –4 penalty while merged with a heavy shield. If the wearer attacks with the merged weapon, she loses the shield’s bonus to AC until the start of her next turn. A merged shield can’t be used to shield bash. Only light and heavy shields can be merging shields. [[/footnote]]|| +2 bonus ||[https://www.aonprd.com/MagicArmorDisplay.aspx?ItemName=Ghost%20Touch Ghost touch ][[footnote]] This armor or shield seems almost translucent. Both its enhancement bonus and its armor bonus count against the attacks of corporeal and incorporeal creatures. It can be picked up, moved, and worn by corporeal and incorporeal creatures alike. Incorporeal creatures gain the armor’s or shield’s enhancement bonus against both corporeal and incorporeal attacks, and they can still pass freely through solid objects. [[/footnote]]|| +3 bonus ||[http://spheresofpower.wikidot.com/implements#toc63 Reaving (normal) ][[footnote]] As Reaving, plus: The negative energy damage caused by a greater reaving implement festers as cursed wounds that resist natural and magical healing. This damage cannot be healed except by magical healing and the caster or source of the healing must succeed at a magic skill check with a DC equal to 10 + 3 times the greater reaving implement’s enhancement bonus or the healing has no effect on the injured creature. Add up and combine the damage from a greater reaving implement and treat it as a single cursed wound when attempting to heal and remove the damage. [[/footnote]]|| +1 bonus ||
+||[http://spheresofpower.wikidot.com/weapons#toc89 Destructive focus ][[footnote]] A defending weapon allows the wielder to transfer some or all of the weapon’s enhancement bonus to his AC as a bonus that stacks with all others. As a free action, the wielder chooses how to allocate the weapon’s enhancement bonus at the start of his turn before using the weapon, and the bonus to AC lasts until his next turn. This ability can only be placed on melee weapons. [[/footnote]]|| +1 bonus ||[https://www.aonprd.com/MagicArmorDisplay.aspx?ItemName=Mirrored Mirrored ][[footnote]] The polished surface of a mirrored shield or armor gleams and shines, and can be used as an ordinary mirror. Furthermore, it aids in battling creatures with gaze attacks. If the wearer averts his eyes, he can roll the miss chance twice, selecting the better result. The wearer can deal sneak attack or other precision-based damage to the target even though it has concealment against him. This provides no benefit if the wearer closes his eyes, wears a blindfold, or otherwise can’t see the target at all. The mirrored armor or shield also adds its enhancement bonus to the wearer’s touch AC against rays. it. This special ability may only be added to metallic armor or shields. [[/footnote]]|| +1 bonus ||[https://www.aonprd.com/MagicArmorDisplay.aspx?ItemName=Grinding Grinding ][[footnote]] A shield or suit of armor with this special ability is covered with jagged burrs and razor-sharp serrations that saw and grind whenever the wearer is grappled or entangled. Any creature succeeding at a grapple combat maneuver check against the wearer takes damage equal to the armor or shield’s enhancement bonus (with each successful check) as the barbs and blades bite into it. This special ability counts as armor spikes for the purpose of making attacks on the wearer’s turn. [[/footnote]]|| +1 bonus ||[http://spheresofpower.wikidot.com/implements#toc63 Reaving (greater) ][[footnote]] This special ability may only be applied to a Death sphere implement. When casting a ghost strike sphere effect, the wielder of a reaving implement may choose to have that ghost strike tear away at their victim’s life force. A creature who fails their saving throw against a ghost strike augmented by this implement suffers an amount of negative energy damage equal to two times the reaving implement’s enhancement bonus. [[/footnote]]|| +3 bonus ||
+||[http://spheresofpower.wikidot.com/weapons#toc90 Destructive focus, greater ][[footnote]] A destructive focus weapon allows the wielder to transfer the weapon’s enhancement bonus to the destructive blasts of the wielder. As a free action, at the start of her turn before using her weapon, the wielder chooses how to allocate her weapon’s enhancement bonus, either to his attack with the weapon or his destructive blast. The bonus to the destructive blast lasts until the weapon’s wielder’s next turn. The enhancement bonus from the weapon applies to attack rolls and damage of the destructive blast. [[/footnote]]|| +2 bonus ||[https://www.aonprd.com/MagicArmorDisplay.aspx?ItemName=Ramming Ramming ][[footnote]] These shields are sturdily built and often bear the device of a ram or bull. When the wielder of a ramming shield makes a shield bash attack as part of a charge, the shield’s enhancement bonus to Armor Class applies to the attack and damage rolls. This doesn’t stack with any existing enhancement the shield has. If the attack hits, as a swift action the wielder can attempt a bull rush combat maneuver against that target, adding the +2 bonus for charging and the shield’s enhancement bonus to the combat maneuver check. Only shields that can make a shield bash attack can have the ramming ability. [[/footnote]]|| +1 bonus ||[https://www.aonprd.com/MagicArmorDisplay.aspx?ItemName=Invulnerability Invulnerability ][[footnote]] A shield or suit of armor with this special ability is especially hardy. It gains double its enhancement bonus to hardness and hit points (instead of just the enhancement bonus), its break DC increases by double its enhancement bonus, and it gains a bonus on saving throws against direct attacks (such as a rust monster’s rust ability) equal to its enhancement bonus. [[/footnote]]|| +3 bonus ||[http://spheresofpower.wikidot.com/implements#toc64 Sanguine ][[footnote]] "This special ability may only be applied to a Blood sphere implement. The wielder of a sanguine implement gains an insight bonus on all Charisma-based skill checks equal to the sanguine implement’s enhancement bonus. In addition, whenever the wielder of a sanguine implement fails a Diplomacy check to influence a creature’s attitude, that creature’s attitude does not decrease by one step towards the wielder. This ability only prevents a creature’s attitude from decreasing once every 24 hours." [[/footnote]]|| +1 bonus ||
+||[http://spheresofpower.wikidot.com/weapons#toc91 Dimensional ][[footnote]] A greater destructive focus functions as a destructive focus weapon, but half of the transferred enhancement bonus also applies to save DCs of the destructive blast. [[/footnote]]|| +4 bonus ||[https://www.aonprd.com/MagicArmorDisplay.aspx?ItemName=Reflecting Reflecting ][[footnote]] This shield is as highly polished as a mirror, and its surface is completely reflective. Once per day, it can be called on to reflect a spell back at its caster exactly like the spell turning spell. [[/footnote]]|| +5 bonus ||[https://www.aonprd.com/MagicArmorDisplay.aspx?ItemName=Impervious Impervious ][[footnote]] This suit of armor grants the wearer damage reduction 5/magic. Invulnerable armor emits a strong aura of abjuration (and evocation if miracle is used). [[/footnote]]|| +1 bonus ||[http://spheresofpower.wikidot.com/implements#toc66 Sunset ][[footnote]] "This special ability may only be applied to an implement of the Light sphere. When the wielder of an implement with this special ability causes one of their glow effects to shed bright light by concentrating on it, they may choose for that bright light to persist one round after they stop concentrating on it. If the wielder of this implement also possesses the Lingering Glow talent, the effects stack, allowing bright light to persist for three rounds after they stop concentrating on it." [[/footnote]]|| +1 bonus ||
+||[https://www.aonprd.com/MagicWeaponsDisplay.aspx?ItemName=Distance Distance ][[footnote]] A dimensional weapon warps space, allowing it to slash through two places at once. Whenever a dimensional weapon is used to make an attack action, it can issue the same attack against another creature standing within 5 feet of the intended target; attack rolls are applied to both targets, though damage is rolled separately. [[/footnote]]|| +1 bonus ||[https://www.aonprd.com/MagicArmorDisplay.aspx?ItemName=Spell%20Resistance%20(13) Spell resistance (13) ][[footnote]] This special ability grants the armor or shield’s wearer spell resistance while the armor or shield is worn. [[/footnote]]|| +2 bonus ||[https://www.aonprd.com/MagicArmorDisplay.aspx?ItemName=Mind%20Buttressing Mind buttressing ][[footnote]] Mind buttressing armor grants the wearer a +2 resistance bonus on Will saves and renders her immune to possession and mental control (including charm and compulsion effects like command and charm person). If it’s donned by a creature already under the influence of such an effect, the creature immediately receives another saving throw (if one was allowed to begin with) against the spell or effect. If the check is successful, the effects are suppressed until the creature removes the armor, after which they resume. This ability can be applied only to medium or heavy armor. [[/footnote]]|| +2 bonus ||[http://spheresofpower.wikidot.com/implements#toc67 Sustaining ][[footnote]] This special ability may only be applied to an implement of the Telekinesis sphere. You may delegate a telekinetic effect to a sustaining implement. This effect works like the Sustained Force use of telekinesis, except that you do not need to spend a spell point, and your implement may only sustain a single effect at a time. If you delegate concentration to your implement while it is already sustaining a telekinetic effect, the previous effect ceases and all lifted objects are released. [[/footnote]]|| +2 bonus ||
+||[https://www.aonprd.com/MagicWeaponsDisplay.aspx?ItemName=Driving Driving ][[footnote]] This special ability can only be placed on a ranged weapon. A distance weapon has double the range increment of other weapons of its kind. [[/footnote]]|| +1 bonus ||[https://www.aonprd.com/MagicArmorDisplay.aspx?ItemName=Spell%20Resistance%20(15) Spell resistance (15) ][[footnote]] This special ability grants the armor or shield’s wearer spell resistance while the armor or shield is worn. [[/footnote]]|| +3 bonus ||[https://www.aonprd.com/MagicArmorDisplay.aspx?ItemName=Mirrored Mirrored ][[footnote]] The polished surface of a mirrored shield or armor gleams and shines, and can be used as an ordinary mirror. Furthermore, it aids in battling creatures with gaze attacks. If the wearer averts his eyes, he can roll the miss chance twice, selecting the better result. The wearer can deal sneak attack or other precision-based damage to the target even though it has concealment against him. This provides no benefit if the wearer closes his eyes, wears a blindfold, or otherwise can’t see the target at all. The mirrored armor or shield also adds its enhancement bonus to the wearer’s touch AC against rays. it. This special ability may only be added to metallic armor or shields. [[/footnote]]|| +1 bonus ||[http://spheresofpower.wikidot.com/implements#toc68 Vital ][[footnote]] This special ability may only be applied to an implement that grants a bonus to the Life sphere. The bearer of this implement and all creatures within 60 feet receive a bonus to their saving throws equal to its enhancement bonus against the Death sphere, negative energy, and death effects. The bearer of this implement gain the benefits of the Counterspell feat, which may only be used to counter or dispel Death sphere abilities. Those wielding the implement may add the implements enhancement bonus to their magic skill bonus when using the implement this way. [[/footnote]]|| +2 bonus ||
+||[http://spheresofpower.wikidot.com/weapons#toc94 Entangling ][[footnote]] This special ability can be placed only on ranged weapons. A driving weapon can be used to perform bull rush and trip combat maneuvers in its first range increment. A successful ranged bull rush does not require the wielder to move to push the target farther than 5 feet. A ranged trip that fails by 10 or more cannot result in the attacker being knocked prone. [[/footnote]]|| +1 bonus ||[https://www.aonprd.com/MagicArmorDisplay.aspx?ItemName=Spell%20Resistance%20(17) Spell resistance (17) ][[footnote]] This special ability grants the armor or shield’s wearer spell resistance while the armor or shield is worn. [[/footnote]]|| +4 bonus ||[http://spheresofpower.wikidot.com/armor#toc43 Shadow warded ][[footnote]] A set of shadow warded armor’s protection extends beyond the physical, providing shielding against effects that would target or manipulate her shadow. Shadow warded armor adds its full armor bonus to touch AC against attacks delivered by a caster’s shadow or targeting the wearer’s shadow. The wearer adds shadow warded armor’s enhancement bonus to saves against effects targeting her shadow. [[/footnote]]|| +1 bonus ||[http://spheresofpower.wikidot.com/implements#toc70 Watchful ][[footnote]] This special ability may only be applied to implements which give a caster level bonus to magical sphere effects from the War sphere. With this implement, you may rally an ally (but not yourself) as a free action once per round. You may take this action even when it is not your turn, but not if you are unable to use immediate actions. You must pay the normal spell point costs required by the rally. [[/footnote]]|| +2 bonus ||
+||[http://spheresofpower.wikidot.com/weapons#toc95 Fey-Forged ][[footnote]] When a weapon with this special ability scores a critical hit on a target, it also bestows the entangled condition to that target. A creature entangled by this special ability may, on its turn, attempt to break free as a move action, attempting a Strength or Escape Artist check against a DC equal to 15 + twice the weapon’s enhancement bonus. The entangled condition ends on its own after 1 minute. [[/footnote]]|| +1 bonus ||[https://www.aonprd.com/MagicArmorDisplay.aspx?ItemName=Spell%20Resistance%20(19) Spell resistance (19) ][[footnote]] This special ability grants the armor or shield’s wearer spell resistance while the armor or shield is worn. [[/footnote]]|| +5 bonus ||[https://www.aonprd.com/MagicArmorDisplay.aspx?ItemName=Stanching Stanching ][[footnote]] A suit of spell dodging armor makes it more difficult for attacks from spells and spell-like abilities to hit its wearer, often physically pulling and pushing its wearer out of the way of incoming magical attacks. The wearer gains a +4 dodge bonus to AC against attack rolls from spells and spelllike abilities (including touch attacks) and the attacks of summoned creatures. [[/footnote]]|| +1 bonus ||[http://spheresofpower.wikidot.com/implements#toc70 Wellspring ][[footnote]] This special ability may only be applied to an implement that grants a bonus to the Life sphere. When the bearer of this implement uses a cure effect, they may tap into the reserve of this implement and add extra hit points to the cure. A maximum of 20 hit points per +1 caster level bonus of the implement per day can be provided by the implement, and can be delivered in any combination of cure effects. These extra hit points return over night. [[/footnote]]|| +1 bonus ||
+||[https://www.aonprd.com/MagicWeaponsDisplay.aspx?ItemName=Flaming Flaming ][[footnote]] This special ability may only be applied to a light or one-handed melee weapon. A wielder of a fey-forged weapon can choose to apply her Charisma modifier to damage rolls with the weapon in place of her Strength modifier. This modifier to damage is not increased for two-handed light weapons nor reduced for off-hand weapons. If a fey-forged weapon is used to attack a creature with the fey creature type, the attacker suffers a -2 penalty to attack rolls and damage rolls. [[/footnote]]|| +1 bonus || || ||[https://www.aonprd.com/MagicArmorDisplay.aspx?ItemName=Spell%20Dodging Spell dodging ][[footnote]] This special ability grants the armor or shield’s wearer spell resistance while the armor or shield is worn. [[/footnote]]|| +2 bonus || || ||
+||[https://www.aonprd.com/MagicWeaponsDisplay.aspx?ItemName=Flaming%20Burst Flaming Burst ][[footnote]] Upon command, a flaming weapon is sheathed in fire that deals an extra 1d6 points of fire damage on a successful hit. The fire does not harm the wielder. The effect remains until another command is given. [[/footnote]]|| +2 bonus || || ||[https://www.aonprd.com/MagicArmorDisplay.aspx?ItemName=Spell%20Resistance%20(13) Spell resistance (13) ][[footnote]] This special ability grants the armor or shield’s wearer spell resistance while the armor or shield is worn. [[/footnote]]|| +2 bonus || || ||
+||[https://www.aonprd.com/MagicWeaponsDisplay.aspx?ItemName=Frost Frost ][[footnote]] "A flaming burst weapon functions as a flaming weapon that also explodes with flame upon striking a successful critical hit. The fire does not harm the wielder. In addition to the extra fire damage from the flaming ability (see above), a flaming burst weapon deals an extra 1d10 points of fire damage on a successful critical hit. If the weapon’s critical multiplier is 3, add an extra 2d10 points of fire damage instead, and if the multiplier is 4, add an extra 3d10 points of fire damage. Even if the flaming ability is not active, the weapon still deals its extra fire damage on a successful critical hit." [[/footnote]]|| +1 bonus || || ||[https://www.aonprd.com/MagicArmorDisplay.aspx?ItemName=Spell%20Resistance%20(15) Spell resistance (15) ][[footnote]] This special ability grants the armor or shield’s wearer spell resistance while the armor or shield is worn. [[/footnote]]|| +3 bonus || || ||
+||[https://www.aonprd.com/MagicWeaponsDisplay.aspx?ItemName=Ghost%20Touch Ghost touch ][[footnote]] Upon command, a frost weapon is sheathed in a terrible, icy cold that deals an extra 1d6 points of cold damage on a successful hit. The cold does not harm the wielder. The effect remains until another command is given. [[/footnote]]|| +1 bonus || || ||[https://www.aonprd.com/MagicArmorDisplay.aspx?ItemName=Spell%20Resistance%20(17) Spell resistance (17) ][[footnote]] This special ability grants the armor or shield’s wearer spell resistance while the armor or shield is worn. [[/footnote]]|| +4 bonus || || ||
+||[http://spheresofpower.wikidot.com/weapons#toc97 Howling ][[footnote]] A ghost touch weapon deals damage normally against incorporeal creatures, regardless of its bonus. An incorporeal creature’s 50% reduction in damage from corporeal sources does not apply to attacks made against it with ghost touch weapons. The weapon can be picked up and moved by an incorporeal creature at any time. A manifesting ghost can wield the weapon against corporeal foes. Essentially, a ghost touch weapon counts as both corporeal or incorporeal. This special ability can only be placed on melee weapons and ammunition. [[/footnote]]|| +1 bonus || || ||[https://www.aonprd.com/MagicArmorDisplay.aspx?ItemName=Spell%20Resistance%20(19) Spell resistance (19) ][[footnote]] A stanching suit of armor helps stop the flow of b lood from the wearer’s wounds, automatically tightening like a tourniquet in the appropriate places while also magically reducing the severity of the wound. Stanching armor reduces hit point damage, ability damage, or ability drain by an amount equal to its enhancement bonus if the damage or drain was from a bleed effect. The wearer also adds the armor’s enhancement bonus to Constitution checks to become stable. [[/footnote]]|| +5 bonus || || ||
+||[http://spheresofpower.wikidot.com/weapons#toc98 Hungry ][[footnote]] While wielding a howling weapon in Wind of severity level 3 or higher, the wielder may hold it aloft as a full-round action. All creatures within 10 feet + 10 feet per Wind severity level above 3 must succeed at a saving throw against a DC of 10 + 1/2 the wielder’s Hit Dice + the Wind severity level or become frightened for 1 round. [[/footnote]]|| +1 bonus || || ||[http://spheresofpower.wikidot.com/armor#toc45 Supplying ][[footnote]] "This enchantment can be placed onto any armor or shield. A supplying item increases the DCs for one combat sphere whose effects are based on a single Craft skill (such as the Alchemy, Tech, and Trap spheres), or for one combat sphere that requires saving throws from other characters but not attack rolls from you (such as many uses of the Athletics or Warleader spheres). The DCs are increased by the item’s permanent enhancement bonus (maximum +5), and the GM is the final arbiter of whether or not a specific talent qualifies for benefiting from this special ability. This increase only applies to the base effects and talents of that sphere (including items made with the sphere); for example, if you are able to apply the effects of another sphere when a foe sets off a dart or snare trap, a supplying effect would not apply to those other spheres. An item can gain this enchantment multiple times (applying its effects to a different qualifying sphere each time). Armorists may apply the supplying enchantment to their summoned armor; at the GM’s discretion, abilities from other classes that allow users to exchange enhancement bonuses for armor special abilities can also apply the supplying enchantment." [[/footnote]]|| +1 bonus || || ||
+||[http://spheresofpower.wikidot.com/weapons#toc99 Hypochondriac ][[footnote]] This special ability may only be applied to a melee weapon or a piece of ammunition. A hungry weapon has been enchanted with a mouth; when this weapon strikes a target, the weapon bites and tears its flesh. A hungry weapon deals bludgeoning, piercing, and slashing damage. Additionally, the hungry weapon can roar and snarl, granting the wielder of the hungry weapon a circumstance bonus to Intimidate checks equal to the enhancement bonus of the hungry weapon. [[/footnote]]|| +1 bonus || || ||[https://www.aonprd.com/MagicArmorDisplay.aspx?ItemName=Titanic Titanic ][[footnote]] A suit of armor with the titanic ability is almost comically oversized, though the effect is superficial and the interior fits a creature normally, with no adjustments necessary. A creature wearing titanic armor is considered one size category larger for the purpose of using or being affected by special attacks that depend on size, such as swallow whole and trample. Once per day on command, the wearer can increase her size as if using enlarge person (even if the wearer is not humanoid) for 1 minute. In addition, once per minute as a free action the wearer can add the armor’s enhancement bonus to a single Strength check or combat maneuver check, or to her CMD against a single combat maneuver. Because of its great bulk, the armor check penalty of titanic armor is increased by an amount equal to its enhancement bonus. [[/footnote]]|| +3 bonus || || ||
+||[https://www.aonprd.com/MagicWeaponsDisplay.aspx?ItemName=Icy%20Burst Icy burst ][[footnote]] Injuries made by this weapon seem worse than they actually are. Creatures damaged by this weapon take nonlethal bleed damage equal to twice the weapon’s enhancement bonus. Unlike normal bleed damage, this can only be ended if the creature succeeds at a Will save DC 15 + the weapon’s enhancement bonus. Afflicted creatures are allowed a save every time they take damage from this effect. This is a mind-affecting effect. [[/footnote]]|| +2 bonus || || || || || || ||
+||[https://www.aonprd.com/MagicWeaponsDisplay.aspx?ItemName=Impervious Impervious ][[footnote]] "An icy burst weapon functions as a frost weapon that also explodes with frost upon striking a successful critical hit. The frost does not harm the wielder. In addition to the extra damage from the frost ability, an icy burst weapon deals an extra 1d10 points of cold damage on a successful critical hit. If the weapon’s critical multiplier is ×3, add an extra 2d10 points of cold damage instead, and if the multiplier is ×4, add an extra 3d10 points. Even if the frost ability is not active, the weapon still deals its extra cold damage on a successful critical hit." [[/footnote]]|| +1 bonus || || || || || || ||
+||[http://spheresofpower.wikidot.com/weapons#toc101 Invisible ][[footnote]] Invisible weapons can only be seen by creatures making physical contact with the weapon, or if no creature is making physical contact with the weapon. Being stowed in a worn pocket, bag, sheath or similar arrangement counts as physical contact for the purpose of this special ability. The first attack each round made with an invisible weapon denies the target their Dexterity bonus to AC. This special ability interacts with spells and sphere effects as the glamer version of Suppression when cast upon an object. Creatures with Uncanny Dodge (or similar effects) do not lose their Dex bonus to AC against a weapon with the invisible special ability. [[/footnote]]|| +3 bonus (+4 firearms) || || || || || || ||
+||[https://www.aonprd.com/MagicWeaponsDisplay.aspx?ItemName=Keen Keen ][[footnote]] This ability doubles the threat range of a weapon. Only piercing or slashing melee weapons can be keen. If you roll this special ability randomly for an inappropriate weapon, reroll. This benefit doesn’t stack with any other effects that expand the threat range of a weapon (such as the keen edge spell or the Improved Critical feat). [[/footnote]]|| +1 bonus || || || || || || ||
+||[http://spheresofpower.wikidot.com/weapons#toc102 Leaping ][[footnote]] This special ability may only be applied to thrown weapons. When you make a full attack, you may direct a leaping weapon to perform as many of those attacks as you desire. A leaping weapon can focus all of your attacks on a single target, or may move up to its range increment between each attack. At the end of your full-attack action it drops in the square it made its last attack in. [[/footnote]]|| +1 bonus || || || || || || ||
+||[https://www.aonprd.com/MagicWeaponsDisplay.aspx?ItemName=Menacing Menacing ][[footnote]] This special ability can only be placed on melee weapons. A menacing weapon helps allies deal with flanked foes. When the wielder is adjacent to a creature that is being flanked by an ally, the flanking bonus on attack rolls for all flanking allies increases by +2. This ability works even if the wielder is not one of the characters flanking the creature. [[/footnote]]|| +1 bonus || || || || || || ||
+||[https://www.aonprd.com/MagicWeaponsDisplay.aspx?ItemName=Merciful Merciful ][[footnote]] A merciful weapon deals an extra 1d6 points of damage, but all damage it deals is nonlethal damage. On command, the weapon suppresses this ability until told to resume it (allowing it to deal lethal damage, but without any bonus damage from this ability). [[/footnote]]|| +1 bonus || || || || || || ||
+||[https://www.aonprd.com/MagicWeaponsDisplay.aspx?ItemName=Mighty%20Cleaving Mighty cleaving ][[footnote]] This special ability can only be placed on melee weapons. A mighty cleaving weapon allows a wielder using the Cleave feat to make one additional attack if the first attack hits, as long as the next foe is adjacent to the first and also within reach. This additional attack cannot be against the first foe. [[/footnote]]|| +1 bonus || || || || || || ||
+||[http://spheresofpower.wikidot.com/weapons#toc105 Preventative ][[footnote]] Whenever you hit a creature with this weapon, you receive a circumstance bonus to your AC against that creature equal to this weapon’s enhancement bonus for 1 minute or until you strike a different creature with this weapon. [[/footnote]]|| +1 bonus || || || || || || ||
+||[https://www.aonprd.com/MagicWeaponsDisplay.aspx?ItemName=Quenching Quenching ][[footnote]] This special ability can only be placed on melee weapons. A quenching weapon thrust into a nonmagical fire of Medium size or smaller extinguishes it. When used against a creature of the fire subtype, it deals an extra 1d6 points of damage. The wielder of a quenching weapon receives a +2 competence bonus on saving throws against fire-based effects, and the weapon itself is immune to fire damage. [[/footnote]]|| +1 bonus || || || || || || ||
+||[http://spheresofpower.wikidot.com/weapons#toc106 Radiant edge ][[footnote]] "This special ability may only be applied to melee weapons. A radiant edge weapon projects deadly light from its edge when wielded correctly, allowing its wielder to make attacks as if their reach was 5 feet longer than normal. However, it takes specific motions and precise setup to use this effectively and so this does not increase the wielder’s threatened area, only their reach when making attacks on their own turn. In addition, you can use a radiant edge weapon much like a torch. It sheds normal light in a 20-foot radius and increases the light level for an additional 20 feet by one step, up to normal light. You may turn this light on or off as a free action." [[/footnote]]|| +2 bonus || || || || || || ||
+||[https://www.aonprd.com/MagicWeaponsDisplay.aspx?ItemName=Repositioning Reposition ][[footnote]] This special ability can only be placed on melee weapons. A repositioning weapon grants the wielder a +2 enhancement bonus on combat maneuver checks to reposition a foe (Advanced Player’s Guide 322). I f the wielder confirms a critical hit with the weapon, he can attempt to reposition his opponent as a free action. These reposition attempts still provoke attacks of opportunity as normal. A weapon cannot have both the anchoring and repositioning special abilities. [[/footnote]]|| +3 bonus || || || || || || ||
+||[https://www.aonprd.com/MagicWeaponsDisplay.aspx?ItemName=Returning Returning ][[footnote]] This special ability can only be placed on a weapon that can be thrown. A returning weapon flies through the air back to the creature that threw it. It returns to the thrower just before the creature’s next turn (and is therefore ready to use again in that turn). Catching a returning weapon when it comes back is a free action. If the character can’t catch it, or if the character has moved since throwing it, the weapon drops to the ground in the square from which it was thrown. [[/footnote]]|| +1 bonus || || || || || || ||
+||[http://spheresofpower.wikidot.com/weapons#toc111 Shadow wake ][[footnote]] Shadow wake weapons leave a short-lived trail of unstable shadowstuff when used in an attack. This quasi-real energy deals an additional 1d6 nonlethal damage. If an attack with a shadow wake weapon misses but would have hit the touch AC of the target the target still takes 1d6 nonlethal damage. [[/footnote]]|| +1 bonus || || || || || || ||
+||[http://spheresofpower.wikidot.com/weapons#toc110 Shadowstrike ][[footnote]] Shadowstrike weapons allow you to assail unaware targets through their shadows. Attacks against flanked targets or targets denied their Dexterity bonus to AC resolve as touch attacks. Any creature damaged by such an attack becomes immune to this weapon special ability regardless of source for 1d4 rounds. [[/footnote]]|| +2 (+3 ranged) || || || || || || ||
+||[https://www.aonprd.com/MagicWeaponsDisplay.aspx?ItemName=Shock Shock ][[footnote]] Upon command, a shock weapon is sheathed in crackling electricity that deals an extra 1d6 points of electricity damage on a successful hit. The electricity does not harm the wielder. The effect remains until another command is given. [[/footnote]]|| +1 bonus || || || || || || ||
+||[https://www.aonprd.com/MagicWeaponsDisplay.aspx?ItemName=Shocking%20Burst Shocking burst ][[footnote]] "A shocking burst weapon functions as a shock weapon that explodes with electricity upon striking a successful critical hit. The electricity does not harm the wielder. In addition to the extra electricity damage from the shock ability, a shocking burst weapon deals an extra 1d10 points of electricity damage on a successful critical hit. If the weapon’s critical multiplier is ×3, add an extra 2d10 points of electricity damage instead, and if the multiplier is ×4, add an extra 3d10 points. Even if the shock ability is not active, the weapon still deals its extra electricity damage on a successful critical hit." [[/footnote]]|| +2 bonus || || || || || || ||
+||[https://www.aonprd.com/MagicWeaponsDisplay.aspx?ItemName=Speed Speed ][[footnote]] When making a full-attack action, the wielder of a speed weapon may make one extra attack with it. The attack uses the wielder’s full base attack bonus, plus any modifiers appropriate to the situation. (This benefit is not cumulative with similar effects, such as a haste spell.) [[/footnote]]|| +3 bonus || || || || || || ||
+||[https://www.aonprd.com/MagicWeaponsDisplay.aspx?ItemName=Thundering Thundering ][[footnote]] This special ability can only be placed on melee weapons. A melee weapon crafted with this ability gains a range increment of 10 feet and can be thrown by a wielder proficient in its normal use. [[/footnote]]|| +1 bonus || || || || || || ||
+||[https://www.aonprd.com/MagicWeaponsDisplay.aspx?ItemName=Throwing Throwing ][[footnote]] A thundering weapon creates a cacophonous roar like abilities thunder whenever it strikes a target with a successful critical hit. The sonic energy does not harm the wielder. A thundering weapon deals an extra 1d8 points of sonic damage on a successful critical hit. If the weapon’s critical multiplier is ×3, add an extra 2d8 points of sonic damage instead, and if the multiplier is ×4, add an extra 3d8 points of sonic damage. Subjects dealt critical hits by a thundering weapon must make a successful DC 14 Fortitude save or be deafened permanently. [[/footnote]]|| +1 bonus || || || || || || ||
+||[http://spheresofpower.wikidot.com/weapons#toc117 Umbral edged ][[footnote]] An umbral edged weapon’s blade is particularly effective at severing a target’s shadow. A creature using an umbral edged weapon only has to threaten a critical hit in order to activate the talent thief’s shadow theft ability (unchained rogue archetype) rather than successfully confirm a critical threat. [[/footnote]]|| +1 bonus || || || || || || ||
+||[https://www.aonprd.com/MagicWeaponsDisplay.aspx?ItemName=Vicious Vicious ][[footnote]] This special ability can only be placed on melee weapons. When a vicious weapon strikes an opponent, it creates a flash of disruptive energy that resonates between the opponent and the wielder. This energy deals an extra 2d6 points of damage to the opponent and 1d6 points of damage to the wielder. [[/footnote]]|| +1 bonus || || || || || || ||
+||[https://www.aonprd.com/MagicWeaponsDisplay.aspx?ItemName=Vorpal Vorpal ][[footnote]] This potent and feared ability allows the weapon to sever the heads of those it strikes. Upon a roll of natural 20 (followed by a successful roll to confirm the critical hit), the weapon severs the opponent’s head (if it has one) from its body. Some creatures, such as many aberrations and all oozes, have no heads. Others, such as golems and undead creatures other than vampires, are not affected by the loss of their heads. Most other creatures, however, die when their heads are cut off. A vorpal weapon must be a slashing melee weapon. If you roll this special ability randomly for an inappropriate weapon, reroll. [[/footnote]]|| +5 bonus || || || || || || ||
+||[http://spheresofpower.wikidot.com/weapons#toc120 Windblast ][[footnote]] This special ability may only be applied to melee weapons. On a successful critical hit with a windblast weapon, the wielder may make a bull rush attempt as a free action against the target and every creature in a 15-foot cone originating from the wielder that includes the target. This bull rush is made at range, does not provoke an attack of opportunity, nor can the wielder move with the target. The weapon’s enhancement bonus, along with any feats or talents the wielder has that modify bull rushes, applies to the bull rush. [[/footnote]]|| +2 bonus || || || || || || ||
+||[https://www.aonprd.com/MagicWeaponsDisplay.aspx?ItemName=Wounding Wounding ][[footnote]] This special ability can only be placed on melee weapons. A wounding weapon deals 1 point of bleed damage when it hits a creature. Multiple hits from a wounding weapon increase the bleed damage. Bleeding creatures take the bleed damage at the start of their turns. Bleeding can be stopped by a successful DC 15 Heal check or through the application of any spell that cures hit point damage. A critical hit does not multiply the bleed damage. Creatures immune to critical hits are immune to the bleed damage dealt by this weapon. [[/footnote]]|| +2 bonus || || || || || || ||
+
+[[div style="display:none;"]][[footnoteblock]][[/div]]
+ 
 
 ++ Arsenal Trick
-At second level and every even-numbered level thereafter the armorist gains an arsenal trick, representing the ways she has chosen to focus her study of equipment and its uses. Unless otherwise specified, an individual arsenal trick can only be gained once.
+At 2nd level and every even-numbered level thereafter, the armorist gains an arsenal trick, representing the ways she has chosen to focus her study of equipment and its uses. Unless otherwise specified, an individual arsenal trick can only be gained once.
 
-++++ Abjurist
-You may add the abjuring and girding properties to the list of properties you may give your bound staves. In addition, you may add anti-ballistic and anti-spell to the list of properties you may give your summoned and bound armor, and decisive and preventative to the list of properties you may give your summoned and bound weapons. ^^Source: The Abjurer's Handbook^^
+++++ Additional Binding (requires bound equipment)
+The armorist may bind an additional piece of equipment.
 
-++++ ##000000|Additional Binding (Requires Bound Equipment)##
-You may bind an additional piece of equipment.
+++++ Ammunition Specialist
+When the armorist summons a ranged weapon or calls a bound ranged weapon, she may summon non-basic ammunition. If it is a firearm it can be summoned with paper alchemical cartridges. Additionally, the armorist may summon up to 10 gp per armorist level of specialist ammunition; this ammunition replaces pieces of normal ammunition such that the summoned amount is still 50.
 
-++++ ##000000|Aiding [Core]##
-Add benevolent (+1) to the special qualities you may add to your bound and summoned weapons and armor.
+This arsenal trick can be taken twice. If taken a second time, increase the value of summoned non-basic ammunition to 25 gp per armorist level.
 
-++++ ##000000|Arcane Strike [Core]##
-You gain the Arcane Strike feat and treat your armorist level as your caster level when determining its effects.
+++++ Arms of the Outer Planes
+The armorist adds anarchic (+2), axiomatic (+2), holy (+2), and unholy (+2) to the list of special abilities she may add to her bound and summoned weapons.
 
-++++ ##000000|Armor Training (Requires Armorist level 3)##
-Your armor check penalty is reduced by 1 (to a minimum of 0) and increases the maximum Dexterity bonus allowed by your armor by 1. This arsenal trick may be taken multiple times, its effects stack with itself and the Armor Training class feature.
+++++ Battle Magician (requires armorist 5)
+The armorist’s implements gain the exacting and meditation special abilities.
 
-++++ ##000000|Arms of the Outer Planes##
-Add anarchic (+2), axiomatic (+2), holy (+2), and unholy (+2) to the list of special qualities you may add to your bound and summoned weapons.
+++++ Bloody Equipment
+All the armorist’s bound and summoned weapons gain the blood dowsing special ability. The armorist adds thirsty (+1) to the special abilities she can add to her bound or summoned weapons. Blood stored in a piece of bound equipment with either blood dowsing or thirsty perseveres even if the equipment is dismissed and resummoned.
 
-++++ Beshadowed Equipment
-Add shadow wake and invisible to the list of weapon enhancements you may add to your summoned and bound equipment. You may now summon and bind equipment made of stable shadowstuff.
+++++ Bonded Boost (requires armorist 10, boost equipment class feature)
+The armorist may boost their bound equipment. The armorist may use the same action to both summon a piece of bound equipment and boost that piece of bound equipment.
 
-++++ ##000000|Bound Companion (Requires Armorist level 4, Natural Materials)##
-You gain an animal, plant, or vermin companion as if you were a druid of your armorist level –3. If you already have such a companion or else later gain a companion through another source (such as the Animal domain, divine bond, hunter’s bond, mount, or nature bond class features), the effective druid level granted by this arsenal trick stacks with that granted by other sources.
+++++ Bound Companion (requires natural materials or horseman’s materials)
+The armorist gains an animal, plant, or vermin companion, treating her armorist levels as druid levels for that purpose.
 
-++++ ##000000|Bound Fang (Su)##
-You may grow a natural weapon appropriate to your form. You may treat this natural weapon as a piece of bound equipment, using one of your instances of bound equipment. You may form and dismiss it as is usual for a bound or summoned weapon. You may form multiple natural weapons as bound weapons; each natural weapon occupies a piece of bound equipment. Additionally, add wild fang to the special qualities you may add to your bound and summoned weapons.
+++++ Champion [CotS]
+The armorist gains a Champion feat of her choice as a bonus feat (see [[[Champion Feats]]]). She must meet the prerequisites of the feat. This arsenal trick can be gained multiple times.
 
-++++ ##000000|Bound Life##
-You may add the equitable, vital, and wellspring properties to your bound staffs. In addition, you may add this unique +1 property: **Driving:** When using the Invigorate ability of the Life sphere with this staff, you may use your armorist level as your caster level with the Life sphere. This stacks with other caster level sources normally.
+++++ Chaotic Armament [WM]
+Add chaos buffer to all bound and summoned armor and shields. Add wild critical to the properties you may add to your bound and summoned weapons.
 
-++++ ##00c000|Champion## [CS]
-The armorist gains a Champion feat of her choice as a bonus feat. She must meet the prerequisites of the feat. This prowess can be gained multiple times.
+++++ Combat Feat
+The armorist may select a combat feat as a bonus feat. She must meet the prerequisites for this feat. This arsenal trick can be selected multiple times, choosing another combat feat each time.
 
-++++ ##000000|Chaotic Armament##
-Add [[[armor | chaos buffer]]] to all bound and summoned armor and shields. Add [[[weapons | wild critical]]] to the properties you may add to your bound and summoned weapons.
+++++ Combat Implementation (requires armorist 6, bind implement class feature)
+When the armorist creates a bound weapon they may allow that bound weapon to also function as an implement. The bound weapon grants its enhancement bonus to one sphere while wielded (chosen when the bound equipment is created) as well as to attack and damage rolls, and the bound weapon can be given implement special abilities, although its combined enhancement and weapon/implement special abilities still cannot exceed its total bonus as a bound weapon.
 
-++++ ##000000|Combat Feat [Core]##
-You may select a combat feat as a bonus feat. You must meet the prerequisites for this feat.
-
-++++ ##00c000|Combat Talent## [CS]
+++++ Combat Talent [CotS]
 You gain a bonus combat talent. This arsenal trick may be taken more than once, granting an additional talent each time.
 
-++++ ##000000|Crafter [Core]##
-You gain an item creation feat of your choice. You must meet the prerequisites to gain an item creation feat in this manner. You may gain this arsenal trick multiple times. Each time it is selected, gain a different item creation feat.
+++++ Crafter
+The armorist gains an item creation feat of her choice. She must meet the prerequisites to gain an item creation feat in this manner. She may gain this arsenal trick multiple times. Each time it is selected, she gains another item creation feat.
 
-++++ ##000000|Dancing [Core]##
-Add dancing (+4) and animated (+2) to the list of special qualities you may add to your bound and summoned weapon and shields respectively. A bound weapon or shield with the dancing or animated quality does not disappear until after it has finished its 4 rounds of independent action.
+++++ Customized Bond [EO2]
+The armorist gain the Customized Bond feat as a bonus feat (see [[[Practitioner Feats]]]). She must meet the feat’s prerequisites to select this arsenal trick.
 
-++++ ##000000|Dark Materials##
-Your bound and summoned weapons gain the tenebrous quality. Your bound and summoned armor gains the shaded and shadow^^UE^^ qualities.
+++++ Cut Magic
+The armorist adds dispelling (+1), dispelling burst (+2), and skeptical (+1) to the list of special abilities she may grant their bound and summoned weapons. The armorist can store her own spell points into weapons with dispelling or dispelling burst as part of the process of summoning them.
 
-++++ ##000000|Destructive Weapons##
-Add destructive focus (+1), greater destructive focus (+2), and blast vessel (+2) to the special qualities you may add to your bound and summoned weapons.
+++++ Cut Minds
+The armorist adds conscription (+3) to the list of special abilities she can add to bound and summoned weapons, and jamais vu (+2) to the list of special abilities she can add to bound and summoned armor. If she is wielding this equipment, she may use her own Mind sphere save DC in place of the save DC listed in these special abilities.
 
-++++ ##000000|Duelist##
-You add the agile (+1) to the list of special qualities you may add to all your bound and summoned weapons. You may take this arsenal trick a second time after 12th level. Upon picking this arsenal trick a second time, all bound and summoned weapons gain the dueling special quality.
+++++ Dancing
+The armorist adds dancing (+4), flying (+5), and animated (+2) to the list of special abilities she may add to her bound and summoned weapon and shields, respectively. A bound weapon or shield with the dancing, flying, or animated special ability does not disappear until after it has finished its 4 rounds of independent action.
 
-++++ ##000000|Empathic [Core]##
-Add menacing (+1), cunning (+1), cruel (+1), and courageous (+1) to the list of special qualities you may add to your bound and summoned weapons.
+++++ Dark Materials
+The armorist’s bound and summoned weapons gain the tenebrous special ability. Her bound and summoned armor gains the shaded and shadow special abilities. The armorist may choose to give its bound and summoned weapons the shade-hexed special ability.
 
-++++ ##000000|Ethereal Equipment (Requires Armorist 8) [Core]##
-Add brilliant energy (+4) to the list of special qualities you may add to your summoned and bound weapons. Add ghost touch (+1, +3) to the list of special qualities you may add to your summoned and bound weapons, armor, and shields.
+++++ Energy Equipment
+The armorist adds brilliant energy (+4) and plasma blade (+3) to the list of special abilities she may add to her summoned and bound weapons.
 
-++++ ##000000|Extradimensional Storage (Sp) [Core]##
-You gain the Extradimensional Storage Warp sphere talent, even if you do not possess the Warp sphere. You may use your armorist level as your caster level for this ability if it is higher, and you may choose to summon items from your extradimensional storage with the same action and with the same rules (such as replacing one suit of armor with another) as your other summoned equipment.
+++++ Extradimensional Storage (Sp)
+The armorist gains the Extradimensional Storage Warp sphere talent, even if she does not possess the Warp sphere. She may use her armorist level as her caster level for this ability if it is higher, and she may choose to summon items from her extradimensional storage with the same action and with the same rules (such as replacing one suit of armor with another) as her other summoned equipment.
 
-++++ ##000000|Fighter Armor Training (Requires Armorist 6, Armor Training class feature)##
-You gain an advanced armor training ability as a fighter of equal level. You use you armorist levels in place of fighter levels, and if you have both, they stack.
+She may take this arsenal trick twice, which upgrades her spell-like ability to have the effect of two purchases of Extradimensional Storage.
 
-++++ ##000000|Finesse [Core]##
-You gain the Weapon Finesse feat.
+++++ Fighter Armor Training (requires armor training or greater armor training, armorist 3)
+The armorist gains the Advanced Armor Training feat, treating her armorist levels as fighter levels when meeting its prerequisites and determining its effects. She may take this arsenal trick multiple times, but this does not allow her to take Advanced Armor Training more than the feat usually allows (once per 3 fighter levels).
 
-++++ ##000000|Gear Trick [Core]##
-You gain the Equipment Trick feat.
+++++ Greater Armor Training (requires armorist 3)
+The armorist’s armor check penalty is reduced by 1 (minimum 0) and increases the maximum Dexterity bonus allowed by her armor by 1. This arsenal trick may be taken multiple times, its effects stack with itself and the armor training class feature.
 
-++++ ##000000|Greater Materials (Requires Armorist 12, Improved Materials) [Core]##
-You may summon equipment and create bound equipment that is made from adamantine.
+++++ Group Summons
+The armorist may summon (or boost, if she is capable) multiple pieces of equipment at once, +1 per 2 armorist levels she possesses (minimum 1). The armorist may summon or boost multiple pieces of equipment on the same creature or onto multiple creatures, but the armorist must still be touching the creature or creatures to affect them. The armorist may grant different benefits to each summoned or boosted piece of equipment, but still spend a spell point for each summon or boost.
 
-++++ ##000000|Heavy Armor [Core]##
-You gain the Heavy Armor Proficiency feat.
+++++ Heroic Equipment
+The armorist adds sacrificial (+1) and selfless (+2) to the list of special abilities she can add to her summoned and bound armors.
 
-++++ ##000000|Hide Equipment [Core]##
-All your bound and summoned gear gain the glamered special quality.
+++++ Hide Equipment
+The armorist’s bound and summoned gear gain the glamered special ability.
 
-++++ ##000000|Hunter (Requires Armorist 15) [Core]##
-Add bane (+1) and defiant (+1) to the qualities you may add to your bound weapons and armor/shields respectively. When summoning equipment, you may spend an additional spell point to add these qualities to the qualities you may add to that piece of summoned equipment.
+++++ Horseman’s Materials
+The armorist’s bound and summoned armor gains the jousting and hosteling special abilities. Creatures contained within hosteling equipment are harmlessly ejected when the equipment is dismissed.
 
-++++ ##000000|Imbued Arsenal (Requires Bound Weapon class feature)##
-You can add your casting ability modifier instead of your Strength or Dexterity modifier to attack rolls when you are wielding a bound or summoned weapon.
+Additionally, the armorist can summon or boost equipment for her mount (such as summoning or boosting barding) with the same speed which she may use for her own equipment. The armorist may even create bound equipment usable by her mount (such as barding), although the armorist dismounting counts as the item leaving her hands, causing it to disappear one round later if the armorist does not remount.
 
-++++ ##000000|Improved Equipment [Core]##
-Choose one piece of bound equipment you possess. That piece of equipment gains an additional +1 enhancement bonus. If you permanently dismiss this piece of bound equipment, you may transfer this bonus to another piece of bound equipment you possess. You may take this talent multiple times. Each time it is taken, increase the bonus granted by another piece of bound equipment by 1. You cannot increase an individual item more than once with this arsenal trick.
+++++ Hunter (requires armorist 10)
+The armorist adds bane (+1) and defiant (+1) to the special abilities she may add to her bound and summoned weapons and armor/shields respectively.
 
-++++ ##000000|Improved Materials (Requires Armorist level 6) [Core]##
-You may summon equipment or create bound equipment out of cold iron, silver, or mithril.
+++++ Imbued Arsenal (requires bound equipment)
+The armorist can add her casting ability modifier instead of her Strength or Dexterity modifier to attack rolls when she is wielding a bound or summoned weapon.
 
-++++ ##000000|Morphic Weapon (Su)##
-When summoning a weapon or a bound weapon, as part of the action required to summon it you may merge that weapon with a limb capable of wielding a weapon as per the Graft Weapon trait of the Morphic Weapon (Alteration) talent.
+++++ Improved Equipment
+The armorist chooses one piece of bound equipment she possesses. That piece of equipment gains an additional +1 enhancement bonus, to a maximum total of +11. If she permanently dismisses this piece of bound equipment, she may transfer this bonus to another piece of bound equipment she possesses. She may take this arsenal trick multiple times. Each time it is taken, increase the bonus granted by another piece of bound equipment by 1. She cannot increase an individual item more than once with this arsenal trick.
 
-++++ ##000000|Movement [Core]##
-Add the following special qualities to those you may grant to a suit of armor: +20 base movement speed (+1), waterbreathing (+1), 30 ft Swim speed (+1), 30 ft Climb speed (+1), 30 ft Fly speed (maneuverability poor, +2), 15 ft Burrow Speed (+2). You may grant movement-altering special qualities multiple times to the same suit of armor. Each time they are granted beyond the first, increase the granted movement speed by 10 ft.
+++++ Improved Materials (requires armorist 6)
+The armorist may summon equipment or create bound equipment out of cold iron, silver, or mithral. At 10th level, the armorist may summon equipment and create bound equipment that is made from adamantine or stable shadowstuff. This can also affect ammunition.
 
-++++ ##000000|Natural Materials##
-You may summon equipment or create bound equipment out of darkwood, greenwood, or normal wood treated with the ironwood ritual.
+++++ Lightning Weapon
+The armorist’s bound and summoned weapons gain the crackling special ability.
 
-++++ ##000000|Occulted Arms##
-Add umbral edge (+1) and quenching (+1) to the list of special qualities that you may add to your bound and summoned weapons. Add shadow warded (+1) to the list of qualities you may add to your bound and summoned armor.
+++++ Morphic Weapon (Su)
+When summoning a weapon or a bound weapon, as part of the action required to summon it the armorist may merge that weapon with a limb capable of wielding a weapon as per the Graft Weapon trait of the Morphic Weapon Alteration talent.
 
-++++ ##000000|Shadow Armory (Sp)##
-You gain the Shadow Stash [[[Dark]]] sphere talent, even if you do not possess the [[[Dark]]] sphere. You may use your armorist level as your caster level for this ability if it is higher.
+++++ Movement
+The armorist adds the following special abilities to those she may grant to a suit of armor: +20 feet base speed (+1), waterbreathing (+1), 30 feet swim speed (+1), 30 feet climb speed (+1), 30 feet fly speed (maneuverability average, +2), 15 feet burrow speed (+2). She may grant movement-altering special abilities multiple times to the same suit of armor. When granting the same movement type multiple times, multiply the granted speed by the number of times given. The maneuverability of the fly speed increases by one step for every time chosen after the first.
 
-++++ ##000000|Share Bond##
-You may cause a piece of summoned or bound equipment to appear on or in the possession of a [[[Conjuration]]] sphere companion that you have summoned. The companion must be within 25 ft. + 5 ft. per two armorist levels. The companion may be treated as the armorist for the purposes of maintaining the bound equipment in its possession. Additionally, if you possess the Variable Armaments feat, you may apply the benefits of any equipment tricks granting additional weapon property options to those available to your companion.
+++++ Natural Materials
+The armorist may summon equipment or create bound equipment out of darkwood, darkleaf cloth, greenwood, or normal wood treated with the ironwood ritual.
 
-++++ ##000000|Shifting Weapon [Core]##
-All your bound and summoned weapons gain the transformative special quality.
+The armorist adds wild (+3) and green-touched (+1) to the special abilities she may add to her bound and summoned armor and shields, and wild fang (+1) to those she may add to bound and summoned weapons.
 
-++++ ##000000|Spell Fighter##
-Add mind buttressing (+2) and spell dodging (+2) to the special abilities you may add to your bound and summoned armor. ^^Source: The Abjurer's Handbook^^
+The armorist may make a natural attack she possesses or her own unarmed strike into a bound weapon, granting it the bonuses associated with being a bound weapon. The armorist may use her boost equipment class feature on unarmored creatures or on natural weapons and unarmed strikes.
 
-++++ Thundering Weapons
-Add howling (+1), thundering (+1), and windblast (+2) (see [[[Weapons]]]) to the list of special qualities you may add to your bound and summoned weapons. The saving throw to avoid being deafened by bound or summoned weapons that you apply thundering to is equal to 14 or the DC for your Weather sphere abilities, whichever is higher.
+++++ Oiled Equipment
+The armorist’s bound and summoned armors gain the creeping and slick special abilities.
 
-++++ ##000000|Tower Shield [Core]##
-You gain the Tower Shield Proficiency feat.
+++++ Ranged Summons
+The armorist may summon (or boost, if she is capable of doing so) equipment directly onto a willing ally anywhere within 60 feet to which she has both line of sight and line of effect.
 
-++++ ##000000|Trap and Free (Requires Armorist 5) [Core]##
-Add advancing (+2), anchoring (+2), and reposition (+3) to the list of special qualities you may add to your bound and summoned weapons.
+**Normal:** The armorist must be touching a target to summon equipment directly onto them.
 
-++++ ##000000|Valiant (Requires Bound Equipment class feature)##
-Add Aggressive (+1), Alerting (+3), Carved (+1) and Watchful (+2) to the special qualities you may add to your bound and summoned staves.
+++++ Rigorous Equipment
+The armorist’s bound and summoned gear gains the impervious special ability.
 
-^^Wiki Note: These were introduced in The Battlemage's Handbook. See the [[[Weapons]]] page for their details.^^
+++++ Shadow Armory (Sp)
+The armorist gains the Shadow Stash Dark sphere talent, even if she does not possess the Dark sphere. She may use her armorist level as her caster level for this ability if it is higher.
 
-++++ ##000000|Weapon Focus [Core]##
-You gain the Weapon Focus feat.
+She may take this arsenal trick twice, which upgrades her spell-like ability to have the effect of two purchases of Shadow Stash.
 
-++++ ##000000|Wild##
-Add [http://spheresofpower.wikidot.com/weapons wild] to the special qualities you may add to your bound and summoned armor and shields.
+++++ Share Armory [Gen. HB]
+The armorist may cause a piece of summoned or bound equipment to appear on or in the possession of one of her Leadership sphere cohorts. The cohort must be within 25 feet + 5 feet per two armorist levels. The cohort may be treated as the armorist for the purposes of maintaining the bound equipment in its possession.
+
+++++ Share Bond
+The armorist may cause a piece of summoned or bound equipment to appear on or in the possession of a Conjuration sphere companion that she has summoned. The companion must be within 25 feet + 5 feet per two armorist levels. The companion may be treated as the armorist for the purposes of maintaining the bound equipment in its possession.
+
+Additionally, if she possesses the Variable Armaments feat, she may apply the benefits of any equipment tricks granting additional weapon special ability options to those available to her companion.
+
+++++ Shifting Weapon
+The armorist’s bound and summoned weapons gain the transformative and adaptive special abilities. She may take this arsenal trick twice. Doing so grants her bound and summoned weapons the greater transformative special ability.
+
+++++ Skillful Implementation (requires armorist 10)
+The armorist’s implements gain the erudite special ability.
+
+++++ Space-Bending Equipment
+The armorist’s summoned and bound armors gain the collapsible special ability. The armorist adds intercepting (+1) to the list of special abilities she can add to summoned and bound shields, and adds phasic (+2) to the list of special abilities she can add to summoned and bound weapons.
+
+++++ Store Magic
+The armorist adds spell stealing (+3), and spell storing (+1), to the list of special abilities she may grant their bound and summoned weapons, and spell storing (+1) to the list for its summoned and bound armor. The armorist can store her own spells or sphere effects into weapons with spell storing as part of the process of summoning them.
+
+**Author's Note:** You may only store a spell or sphere effect as part of summoning a weapon once per round (even if you could summon more than one weapon per round).
+
+++++ Wand Implementation (requires armorist 5)
+The armorist’s implements gain the wand-chambered special ability. Only implements that can be wielded gain this benefit. The armorist can add wand turret (+2) to the list of special abilities it can add to summoned and bound armor.
+
+++++ Wearable Implements (requires armorist 6, bind implement class feature) [BaP]
+When the armorist binds an implement, she may choose to bond with a specific piece of clothing, worn accessory, or jewelry as a “wearable implement” instead of a weapon, shield, or suit of armor. A wearable implement is slotless and does not  take up a magic item slot.
+
+Wearable implements grant all their normal benefits as an implement while worn and also grant the wearer a benefit to one skill, chosen when the wearable implement is bound. Whether by its latent magic, unique design, or useful form, a wearable implement grants the Skill Focus feat in the chosen skill, unless the armorist already has Skill Focus in those skills.
+
+**Example:** An armorist binds a pair of boots, which serves as a Time sphere implement and grants the armorist a bonus on Acrobatics checks due to her increased alacrity while wearing them. The chosen skill does not impact a wearable implement’s normal effects but is a good roleplay tool to justify why a wearable implement grants this bonus.
+
+++++ Windborne Equipment (requires armorist 6) (Ex) [BaP]
+The armorist adds cyclonic (+2) and seeking (+1) to the list of special abilities she can add to bound and summoned weapons. The armorist does not provoke attacks of opportunity when making a ranged attack with a weapon with either the cyclonic or seeking special abilities.
 
 ++ Armor Training (Ex)
-Starting at 3rd level, an armorist learns to be more maneuverable while wearing armor. Whenever she is wearing armor, she reduces the armor check penalty by 1 (to a minimum of 0) and increases the maximum Dexterity bonus allowed by her armor by 1. Every four levels thereafter (7th, 11th, 15th, and 19th) these bonuses increase by +1, to a maximum –5 reduction of the armor check penalty and a +5 increase of the maximum Dexterity bonus allowed.
+Starting at 3rd level, an armorist learns to be more maneuverable while wearing armor. Whenever she is wearing armor, she reduces the armor check penalty by 1 (minimum 0) and increases the maximum Dexterity bonus allowed by her armor by 1. Every four levels thereafter (7th, 11th, 15th, and 19th) these bonuses increase by +1, to a maximum –5 reduction of the armor check penalty and a +5 increase of the maximum Dexterity bonus allowed.
 
 In addition, an armorist can also move at her normal speed while wearing medium armor. At 7th level, an armorist can move at her normal speed while wearing heavy armor.
 
+++ Boost Equipment
+Beginning at 10th level, instead of summoning equipment, the armorist may touch a piece of magical equipment and spend a spell point to increase its enhancement bonus by half the bonus she may grant to summoned equipment (minimum +1). This has the same duration as summoned equipment and causes the item to count as summoned equipment for the purpose of arsenal tricks. This requires a standard action to boost equipment being wielded by another, but can be done with the same action cost as summoning equipment if the armorist is already touching or wielding the piece of equipment. The armorist must be able to summon a type of equipment (weapons, shields, or armor) in order to boost a piece of similar equipment.
+
+Just as with summoned equipment, a boost cannot raise a piece of equipment’s enhancement bonus higher than +5, but can be traded for special abilities. Boosting an item a second time replaces the first boosting, and pieces of bound equipment cannot be boosted.
+
 ++ Quick Summons
-At 15th level, the armorist may summon or switch equipment onto herself as a swift action instead of a move action. This improves to a free action at 20th level.
+At 15th level, the armorist may summon or switch equipment onto herself as an immediate action or free action.
 
 ++ Infinite Arsenal (Su)
-At level 20, you no longer need to spend a spell point to summon equipment.
-
-----
-
-+ Feats
-The following feats are especially helpful or appropriate for Armorists.
-
-++++ Extra Arsenal Trick [Core]
-
-**Prerequisite:** Arsenal Trick class feature.
-
-**Benefit:** Gain an arsenal trick for which you meet the prerequisites. You may take this feat multiple times. The effects stack.
-
-++++ Extra Magic Talent [Core]
-
-**Prerequisite:** Basic Magic Training or Casting class feature.
-
-**Benefit:** Gain an additional sphere or a talent from a sphere you possess. You may take this feat multiple times. The effects stack.
-
-++++ Extra Spell Points [Core]
-
-**Prerequisite:** Spell Pool.
-
-**Benefit:** Your spell pool total increases by 2. You may gain this feat multiple times. The effects stack.
-
-++++ Mystic Assault
-
-**Prerequisites:** Casting class feature, base attack bonus +6.
-
-**Benefit:** You may spend a spell point to make a full-round attack that replaces the first attack with any sphere ability or supernatural ability that can be used as a standard action and requires an attack roll. You must pay any costs required by this sphere ability or supernatural ability, such as spell points. Using the ability replaces your first attack among your iterative attacks. If you are using two weapons, then it replaces both the primary and secondary weapon attacks.
-
-Using the sphere or supernatural ability can provoke an attack of opportunity (if it normally does so), and if the ability is disrupted, the associated attack is lost, but the remaining iterative attacks are not. You may decide after you have used your sphere or supernatural ability whether to continue with your full-round attack or if you wish to take a move action instead. The spell point is spent when you decide to proceed with your full-round attack. Abilities that replace any of your attacks in a full-round attack are not compatible with mystic assault, nor are other abilities that allow you to use a supernatural or sphere ability as part of an attack. Abilities that grant extra attacks (such as the haste ability of the Time sphere) are compatible. You can still use other abilities that can normally be used during a full-round attack as part of a mystic assault.
-
-++++ Mystic Assault, Improved
-
-**Prerequisites:** Mystic Assault.
-
-**Benefit:** You do not need to spend a spell point to use mystic assault.
+At level 20, the armorist no longer needs to spend a spell point to summon equipment, and the duration of summoned equipment and boosted equipment increases to 1 hour per class level.
 
 ----
 
 + Favored Class Bonuses
 
-++++ ##000000|Aasimar##
-Deal +1/2 bonus damage to evil outsiders when using a bonded weapon. This bonus damage bypasses DR/Good, as appropriate. Other damage dealt as part of the attack does not automatically go through DR/Evil.
+**Aasimar:** Deal +1/2 bonus damage to evil outsiders when using a bonded weapon. This bonus damage bypasses DR/good, as appropriate. Other damage dealt as part of the attack does not automatically go through DR/good.
 
-++++ ##000000|Dwarf##
-+1 hardness for summoned and bound equipment. If this raises an item’s hardness above 20, adamantine’s penetration quality only bypasses 20 points of the object’s hardness.
+**Dwarf:** +1 hardness for summoned and bound equipment. If this raises an item’s hardness above 20, adamantine’s penetration quality only bypasses 20 points of the object’s hardness.
 
-++++ ##000000|Elf##
-+1/4th to all critical confirmation rolls made with bound weapons. This does not stack with the Critical Focus feat.
+**Elf:** +1/4 to all critical confirmation rolls made with bound weapons. This does not stack with the Critical Focus feat.
 
-++++ ##000000|Gnome##
-+1/4th bonus to the armorist’s caster level with the Creation sphere.
+**Gnome:** +1/4 bonus to the armorist’s caster level with the Creation sphere.
 
-++++ ##000000|Goblin##
-+1/2 bonus damage on a successful critical hit with any bonded weapon. This damage is applied after the normal critical hit damage has been applied to the damage roll.
+**Goblin:** +1/2 bonus damage on a successful critical hit with any bonded weapon. This damage is applied after the normal critical hit damage has been applied to the damage roll.
 
-++++ ##000000|Half-Elf##
-+1/6th of an arsenal trick.
+**Half-elf:** +1/6 of an arsenal trick.
 
-++++ ##000000|Half-orc##
-+1/8th of a new piece of bound equipment.
+**Half-orc:** +1/8 of a new piece of bound equipment.
 
-++++ ##000000|Halfling##
-Reduce the summoning time of 1 piece of bound equipment per 4 levels taken to a swift action. If the time required to summon that piece of bound equipment is already a swift action, this instead reduces it to a free action.
+**Halfling:** Reduce the summoning time of 1 piece of bound equipment per 4 levels taken to a swift action. If the time required to summon that piece of bound equipment is already a swift action, this instead reduces it to a free action.
 
-++++ ##000000|Human##
-For every 4 times this is selected, gain a new exotic weapon proficiency.
+**Human:** For every 4 times this is selected, gain a new exotic weapon proficiency.
 
-++++ ##000000|Merfolk##
-Gain + 1/6th of an arsenal trick.
+**Merfolk:** Gain +1/6 of an arsenal trick.
 
-++++ ##000000|Orc##
-Deal +1/2 bonus damage when sundering objects or equipment with a bonded weapon.
+**Orc:** Deal +1/2 bonus damage when sundering objects or equipment with a bonded weapon.
 
-++++ ##000000|Tiefling##
-+1/2 bonus damage to good outsiders when using a bonded weapon. This bonus damage bypasses DR/Evil, as appropriate. Other damage dealt as part of the attack does not automatically bypass DR/Evil.
+**Tiefling:** +1/2 bonus damage to good outsiders when using a bonded weapon. This bonus damage bypasses DR/evil, as appropriate. Other damage dealt as part of the attack does not automatically bypass DR/evil.
+----
++ Armorist Feats
+The following feats are particularly appropriate or useful for armorists.
+
+++++ Extra Arsenal Trick
+**Prerequisite:** Arsenal trick class feature.
+
+**Benefit:** Gain an arsenal trick for which you meet the prerequisites. You may take this feat multiple times. The effects stack.
+
+++++ Extra Magic Talent
+**Prerequisite:** Basic Magic Training or casting class feature.
+
+**Benefit:** Gain an additional sphere or a talent from a sphere you possess. You may take this feat multiple times. The effects stack.
+
+++++ Extra Spell Points
+**Prerequisite:** Spell pool.
+
+**Benefit:** Your spell pool total increases by 2. You may gain this feat multiple times. The effects stack.
+
+++++ Sphere Focus
+**Prerequisite:** Casting class feature.
+
+**Benefit:** Choose a sphere. You gain a +1 bonus to saving throw DCs for all abilities from that sphere. You may take this feat multiple times. The effects do not stack. Each time it is gained, apply this benefit to a different sphere.
+----
++ Archetypes
+The following are archetypes the Armorist can take.
+
+++ [[[Blaster]]]
+Blasters can summon special weapons known as arm cannons to fire destructive blasts.
+
+++ ##00c000|[[[Bloodbinder]]]## [CS]
+Bloodbinders specialize in blood-based weaponry.
+
+++ [[[Bonewright]]]
+Bonewrights learn to sculpt weapons and armor from bodies.
+
+++ [[[Collector]]]
+Collectors specialize in claiming specific gear and using the Warp sphere to store their equipment.
+
+++ [[[Darkshaper]]]
+Darkshapers are capable of controlling a shadow limb that they can use for various purposes.
+
+++ [[[Ferrous Emissary]]]
+Ferrous emissaries manifest their powers in the form of a sentient weapon.
+
+++ ##00c000|[[[Inventioneer]]]## [CS]
+Inventioneers specialize in creating technician inventions.
+
+++ [[[Lingchi Warrior]]]
+Lingchi warriors can create a battlefield filled with weapons they can pull out to use.
+
+++ [[[Living Weapon]]]
+Living weapons can summon armor of pure magic, allowing them to focus on their weapons.
+
+++ ##00c000|[[[Martial Armorist]]]## [CS]
+The Martial Armorist blends magic and martial power together to create a more uniquely capable combatant
+
+++ [[[Soaring Blade]]]
+Soaring blades can use telekinesis to attack foes at range.
+
+++ ##00c000|[[[Spirit Blade]]]## [CS]
+Spirit blades can learn martial techniques and transform themselves into a weapon.
+
+++ [[[Symbiotic Knight]]]
+Symbiotic knights form bonds with amorphous creatures to protect themselves.
+
+++ ##00c000|[[[Vajrahasta]]]## [CS]
+Vajrahasta are capable of summoning weapons of pure lightning.
+
+++ [[[Void Wielder]]]
+Void wielders summon unique and dangerous blades that trap the souls of enemies.
+
+++ [[[Warden]]]
+Wardens are guardians of nature who can tap into the power of spirits.
+
+++ [[[Warleader]]]
+Warleaders are mounted combatants who can direct entire groups of warriors.
+
+++ [[[Whitesmith]]]
+Whitesmiths are particularly good at enhancing the gear of their allies.
 
 ----
 
-+ Archetypes
++ Class Equipment
+The following magical items are especially appropriate for armorists.
 
-++ -[[[Blaster]]]
-The Blaster specializes in the use of an Arm Cannon, which allows them to mix the powers of the [[[Destruction]]] sphere with other abilities relating to ranged attacks.
+++++ Armorist’s Toolkit [TS:WAT]
+**Aura** faint Creation; **CL** 5th
+**Slot** none; **Price** 2,500 gp; **Weight** 4 lbs.
 
-++ -[[[Bonewright]]]
-Bonewrights use the [[[Death]]] sphere to shape bodies and bones into weapons.
+This large cloth bag looks superficially similar to a bag of holding, and can store up to one cubic foot of material in a normal space. A creature with the summon equipment ability can spend one spell point as a full-round action to use this bag to summon one non-edible, non-magical, and non-living piece of mundane equipment worth 5 gp or less, such as a ladder, a rope, or a set of dice, into their hand (or the square next to them).
 
-++ -[[[Darkshaper]]]
-The Darkshaper manipulates their shadow instead of calling up arms and armor, morphing it to suit their needs.
+All items created in this way are standard items of their type; you cannot, for example, create an exceptionally long, curved ladder that neatly avoids every obstacle on a wall. Additionally, the items must exist within the rules of the game; the armorist’s toolkit cannot summon ‘original’ items that a player could not obtain elsewhere. Equipment that requires multiple parts appears with all of those parts at once. These items exist for the same duration as the user’s summoned equipment (usually one minute per armorist level) and are both obviously magical and obviously temporary, such that no merchant will ever buy them. The bag’s user may expend one spell point when an item created with this toolkit would normally disappear to reset that item’s duration and keep it in existence longer.
 
-++ -[[[Lingchi Warrior]]]
-Lingchi Warriors specializing in creating a wide variety of armaments.
+**Construction Requirements**
+Craft Apparatus, Creation sphere (Divided Creation [mass], Expanded Materials (material), Forge (alter), Practiced Creation), creator must have the summon equipment ability; **Cost** 1,250 gp
 
-++ -[[[Living Weapon]]]
-Living Weapons protect themselves with magic instead of armor, treating the conjurations as magical equipment they can customize with their abilities.
+++++ Expanded Arsenal [TS:WAT]
+**Aura** faint War; **CL** 5th
+**Slot** slotless; **Price** 12,500 gp; **Weight** 2 lbs.
 
-++ -##00c000|[[[Martial Armorist]]]## [CS]
-The Martial Armorist blends magic and martial power together to create a more uniquely capable combatant.
+This dull iron medallion is easy to affix to almost any piece of gear, and teleports itself onto any piece of summoned armor in order to remain visible. While worn by a creature with the arsenal trick class feature, an expanded arsenal provides the benefits of one armorist arsenal trick, chosen when this item is created. A creature can only benefit from one expanded arsenal at a time, and does not benefit from any arsenal trick they do not meet the prerequisites for. Equipping an expanded arsenal requires a full-round action.
 
-++ -[[[Soaring Blade]]]
-The Soaring Blade focuses on using the [[[Telekinesis]]] sphere to lift their weapons and attack their foes from afar.
+**Construction Requirements**
+Craft Apparatus, War sphere, creator must know the arsenal trick being used; **Cost** 6,250 gp
+[[/tab]]
+[[tab Original]]
+[[include old-armorist]]
+[[/tab]]
+[[/tabview]]
 
-++ -##00c000|[[[Spirit Blade]]]## [CS]
-The Spirit Blade can become a weapon, allowing themselves to be wielded by others.
-
-++ -[[[Symbiotic Knight]]]
-The Symbiotic Knight forms a partnership with a Symbiote, an unusual creature that can change its form to better suit the defensive needs of its partner.
-
-++ -##00c000|[[[Vajrahasta]]]## [CS]
-Vajrahasta summon weapons of lightning to impale their foes and use the [[[Weather]]] sphere to create shrouds of power.
-
-++ -[[[Void Wielder]]]
-The Void Wielder summons a terrifying blade that can trap part of the souls of foes, then call them forth with the powers of [[[Conjuration]]].
-
-++ -[[[Warden]]]
-The Warden is an Armorist with an affinity for spirit magic from the [[[Nature]]] sphere, and generally avoid metal armor in favor of more natural materials.
-
-++ -[[[Warleader]]]
-The Warleader is a mounted combatant who excels at learning (and allowing others to use) Teamwork feats.
-
-++ -[[[Whitesmith]]]
-The Whitesmith is an Armorist that specializes in the [[[Enhancement]]] sphere and has the skills needed to keep the entire team's gear in good working order.
-
-**Archetype Compatibility**
-||~  ||~ Weapon & Armor Proficiencies ||~ Bound Equipment ||~ Casting ||~ Spell Pool ||~ Summon Equipment ||~ Arsenal Trick || 
-||~ Blaster ||  || M ||  ||  || X ||  ||
-||~ Darkshaper || X || X ||  ||  || X ||  ||
-||~ Martial Armorist || M ||  ||  ||  ||  ||  ||
-||~ Soaring Blade || X || M ||  ||  || M || M ||
-||~ Symbiotic Knight ||  || X ||  ||  || M ||  ||
-||~ Warden || M ||  ||  ||  ||  ||  ||
-||~ Warleader ||  || X ||  ||  ||  ||  ||
-||~ Whitesmith ||  || X ||  ||  || X ||  ||
-||~  ||~ Armor Training ||~ Summon Armor ||~ Bind Staff ||~ Quick Summons ||~ Infinite Arsenal ||~  ||
-||~ Blaster ||  ||  ||  ||  ||  ||  ||
-||~ Darkshaper || X || X || X || X ||  ||  ||
-||~ Martial Armorist ||  ||  ||  ||  ||  ||  ||
-||~ Soaring Blade || X ||  ||  ||  ||  ||  ||
-||~ Symbiotic Knight ||  ||  ||  ||  ||  ||  ||
-||~ Warden || X ||  ||  || X || X ||  ||
-||~ Warleader ||  ||  ||  ||  ||  ||  ||
-||~ Whitesmith ||  ||  ||  || X || X ||  ||
-^^Guide: M = Modifies, X = Replaces, Blank = No Change^^
 [[/div]]
 ----
 
