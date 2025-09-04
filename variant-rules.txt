@@ -70,6 +70,125 @@ If the GM wants to run a game that focuses more heavily on skills, consider allo
 ++++ Exchanging Combat Training and Skill Expertise
 A quick way to build a champion class from a standard class with the combat training or skill expertise class features is to replace one entire talent progression with the equivalent progression of the other kind (expert for virtuoso, adept for journeyman, or proficient for trained). With the GM’s permission, you can make this substitution as an alternate class feature for any suitable class when you take your first level in that class.
 
+++ Optional System—Comfort [DRS]
+^^**Source:** [https://www.drivethrurpg.com/en/product/533835/diamond-spheres-hustle-bustle?src=newest%3Faffiliate_id%3D3028400 Diamond Spheres: Hustle & Bustle]^^
+
+Elements of survival, recuperation, and personal maintenance can be difficult to bring to life at a standard table without unique mechanics bogging down gameplay or such systems being far too niche or circumstantial to be relevant. The Comfort system has been designed as a lightweight, unintrusive ruleset that integrates with the preexisting rules for natural healing and rest with minimal alterations.
+
+This system is intended to be used in a multitude of ways—you may want to use it throughout an entire campaign, or perhaps only during the earlier levels or a particularly survival-based arc. Regardless of how you use it, make sure that your players understand the mechanics of the system as well as how you are going to be running it—the Ruleset Viability section contains further information and guidance around handling this system.
+
++++ How Comfort Works
+Whenever a character rests, they have a Comfort Score that is measured from −5 to 5. Your Comfort Score is modified by several factors, although your base Comfort Score is determined by your sleeping arrangements:
+|| Sleeping Arrangement || Base Comfort ||
+|| Exposed || -3 Comfort ||
+|| Shabby || -1 Comfort ||
+|| Sheltered || 0 Comfort ||
+|| Enclosed || 1 Comfort ||
+**Table—Sleeping Arrangements**
+
+**Exposed**—You are resting while exposed to the elements. This is how most adventurers and travellers are situated while resting in the wilderness—or at least particularly rugged or unprepared ones.
+
+**Shabby**—You are resting with minimal or low-quality shelter from exposure. This could be a shelter made using the Survival skill (usually DC 15), or a tent. This arrangement reduces the Comfort penalty incurred from rain or wind by 1 unless its severity is 4 or higher.
+
+**Sheltered**—You are resting within a well-made shelter or mostly-enclosed building. This could be sleeping in a stable, a dingy shack, or a shelter created using a talent or class feature. This arrangement reduces the Comfort penalty associated with adverse weather or temperature by 2 unless its severity is 6 or higher.
+
+**Enclosed**—You are resting in a fully enclosed shelter. This is generally a standard room with proper bedding, and reduces the Comfort penalty associated with adverse temperature by 3 and the penalty associated with adverse weather to 0.
+
+//Author Suggestion:// When calculating Comfort, it's far more efficient to determine the total Comfort Score of the party, and make any individual adjustments necessary based on any character-specific factors. Or just have your party track their Comfort Score individually.
+
+++++ Sleep and Rest
+Sleep is vitally important for the body and mind, especially for that of the typical adventurer. You take a -1 penalty to Comfort for each 2 hours of sleep you do not receive—this equates to a -4 penalty if you do not rest at all.
+
+A ring of sustenance, the Endurance Training Body Control talent, and similar effects allow you to gain the benefits of a full night’s rest in a shorter span of time, allowing you to circumvent some (or all) of these penalties. For example, if you possess the Endurance Training Body Control talent but only have 4 hours of sleep, you only suffer a -1 penalty to Comfort as it is only 2 hours of sleep less than you’d normally require.
+
+++++ Comfort Modifiers
+After determining the base Comfort level, you should determine whether or not any of the following modifiers apply to you:
+
+**Adverse Weather:** You take a -1 penalty to Comfort if you are resting with an area of severity 3 weather. This penalty increases by 1 per severity beyond 3, and stacks if there is both severe weather and temperature.
+
+**Attrition:** You take a -1 penalty to Comfort for particularly arduous activity, such as taking forced march damage or having several combats in the same day. This penalty may increase depending on the severity of the activity.
+
+The GM may also choose to impose such a penalty on failed checks made during exploration if they wish to add a consequence that still moves the narrative forward without potentially stalling the game table.
+
+**Heat Source:** You gain a +1 bonus to Comfort if you are resting near a substantial heat source (such as a campfire or fireplace) and within an area of cold severity 1 or worse.
+
+**Indulgence:** You gain a +1 circumstance bonus to Comfort for particularly indulgent activity, such as a few hours at a bathhouse, a hearty and delicious meal, or intimate activity with a companion.
+
+**Luxury:** You gain a +1 to +3 bonus to Comfort if you are resting within particularly high-quality sleeping arrangements. Generally, a common inn room (5 sp) equates to a +1 bonus, a good inn room (2-15 gp) equates to a +2 bonus, and a luxurious inn room (20+ gp) equates to a +3 bonus.
+
+**Necessities:** You take a -1 penalty to Comfort if you haven’t consumed food or water for the day or you’re resting without appropriate bedding—these penalties stack with each other.
+This penalty increases to -2 if you’ve suffered nonlethal damage due to hunger or thirst.
+
++++ Effects of Comfort
+**Positive Comfort:** Whenever you rest with a positive amount of Comfort, you heal an amount of hit points equal to your character level × your Comfort, and 1 point of ability damage × your Comfort. 
+
+Starting at 3 Comfort, you awaken with a number of temporary hit points equal to your 1 + your Constitution modifier—this is doubled at 4 Comfort and tripled at 5 Comfor
+If you rest with 0 Comfort, you only heal an amount of hit points equal to your character level.
+
+**Negative Comfort:** Whenever you rest with a negative amount of Comfort, you receive a number of penalties.
+**-1 Comfort:** You heal a number of hit points equal to 1/2 your character level.
+**-2 Comfort:** You are fatigued and only regain half the number of daily resources that you would normally gain on a rest (such as spell pool, ki points, etc.).
+**-3 Comfort:** The ability score penalties due to being fatigued increases by +2, and you awaken with an amount of nonlethal damage equal to your character level. 
+**-4 Comfort:** You are exhausted and awaken with double the amount of nonlethal damage. This nonlethal damage can only be healed through proper rest.
+**-5 Comfort:** The ability score penalties due to being fatigued increases by +2, and you awaken with triple the amount of nonlethal damage (instead of double). Additionally, you are treated as though you had not had a rest for the purposes of effects reliant on it (including regaining resource pools based on rest such as spell points). Lastly, you gain vulnerability to nonlethal damage.
+
++++ Proactive Comfort
+There are ways in which a party can proactively improve their Comfort through the use of their skills and abilities. The following are two new skill uses:
+
+++++ Survival
+**Mitigate Attrition (DC 20):** You attempt to mitigate an issue encroaching on a creature or group’s level of comfort. This usually involves cleaning or repairing bedding arrangements or clothing, establishing a makeshift shower or bath, or setting up a campfire. 
+
+It takes roughly 10 minutes to assist an individual, or 1 hour to help a group of up to 6 creatures, although this may take longer or shorter depending on the circumstances (up to GM discretion).
+
+If you are successful, you can remove an instance of attrition from an individual or group’s Comfort level. If you fail by 5 or more, you manage to worsen the attrition somehow, increasing the penalty it imposes by 1. 
+
+Depending on the circumstances, certain Craft and Profession skills can be used to mitigate attrition. This could include using Craft (armor, cloth, clothing, leather, or shoes) to clean or repair tattered clothes or armor, Profession (woodcutter) to prepare a heat source, etc.
+
+++++ Profession
+**Improve Comfort (DC 25):** You attempt to improve the comfort of up to 6 creatures. This typically involves tending to injuries, preparing a hearty meal, or any similar luxury.
+
+It roughly takes 1 hour to improve comfort, as well as appropriate supplies and Profession skill. For example, you may use Profession (cook) with a cooking kit to prepare a filling meal. 
+
+If you are successful, you grant a +1 bonus to Comfort (as though an indulgence) to all affected creatures. If you fail by 5 or more, you spoil the supplies used and instead impose a -1 penalty to Comfort.
+
++++ Adapting Abilities 
+There are many abilities that may have minor considerations or differences when used alongside Comfort. 
+* Any ability that involves long-term care or a complete rest instead applies a +1 bonus to Comfort.
+* An ability that allows you to ignore the harmful effects of weather or temperature (such as endure elements) function normally, allowing you to ignore the Comfort adjustment caused by such a circumstance. This includes the Natural Shelter Survivalism sphere talent.
+Otherwise, it is up to the GM's discretion to determine how an ability functions with the Comfort system. 
+
++++ Ruleset Viability
+Not all rulesets are fun for every game table, and therefore there are a number of things to consider before adding the Comfort ruleset to your game table.
+
+Firstly, discuss with your players about the ruleset and how the ruleset is being used to enrich the game experience. Generally, Comfort is at its best as a system when it is being used to add a ‘grounded’ feeling to a game table—for this reason, the Comfort system is mostly applicable at earlier levels.
+
+The Comfort system—by its nature—slows down play during times of rest; this can work for some tables or to show a ‘snapshot’ at the start of long travel as characters adapt their routines around a new environment, but efforts should be made to ensure that the Comfort system does not bog the table down in needless nuance.
+
+It is greatly encouraged that a ‘standard’ level of Comfort is established during a period of travel that considers all factors that are affecting the party, and then make individual adjustments based on the specific character or any changes during travel (such as a change in weather). In these moments, characters can choose to spend time ‘recouping’ to get back to their standard Comfort level or, if too insurmountable, endure the poor state of Comfort until the conditions improve or they reach a safer locale.
+
+> **Gameplay Example**
+> Kerlan, Visk, and Harold are travelling three days to a large city. After discussing with their GM, the party determines that their standard Comfort level during this travel will be -2, due to their Shabby sleeping arrangements, and resting within a Severity 3 cold environment, although Visk’s campfire bead increases this to -1.
+> 
+> The party decides to tough it out and begin travel, bearing the reduced healing on the first night.
+> 
+> On the second day of travel, a light rain (severity 3) starts. Visk attempts to use Survival to gather food while travelling and fails, causing them to run into a wild boar, damaging and dirtying their equipment in the ensuing escape—the GM states that Visk is suffering a -1 to Comfort until they clean and repair their equipment. 
+> 
+> Before resting that night, the party realizes that their party’s Comfort level is at -2 (and Visk’s at -3). Harold uses his Craft (cloth) skill to repair the damage to Visk’s equipment (using the mitigate attrition skill use) and succeeds, while Kerlan attempts to use Profession (cook) to cook the party a good meal (using the improve comfort skill use). She fails, but not enough to incur a penalty, and the party enjoys a decent meal before resting, all of them at a -2 Comfort level.
+> 
+> Ultimately, focusing on these elements of rest using Comfort not only offers your players a vehicle to actively engage with other characters, but also your world through environmental storytelling—when done right.
+
++++ Talents, Feats, Traits
+++++ Endurance
+If you have the Endurance feat (or a talent with the Endurance feat as an associated feat), you increase the base Comfort Score of exposed or shabby sleeping arrangements by +1, +1 per 5 associated ranks (or Hit Dice for the Endurance feat) (maximum 1 Comfort)
+++++ High Standards (Drawback)
+//You are used to a certain level of comfort and luxury.//
+If you are not resting within particularly high-quality sleeping arrangements, you suffer a -1 penalty to Comfort. You also increase any penalties to Comfort you are suffering from by 1.
+++++ Rugged (Region)
+You increase the base Comfort Score of exposed or shabby sleeping arrangements by +1 (maximum 1 Comfort). You also gain a +2 bonus to checks made to mitigate attrition.
+++++ Worldworn (Combat)
+Your Comfort Score cannot be higher than 3 or lower than -3. Also, once per day whenever you suffer a penalty to Comfort due to attrition, you can ignore the penalty for the day.
+
+
 ++ Distinct Magic Types [HMH]
 In many mythologies, stories, and RPGs, magic takes on a variety of forms which may be incompatible with each other. From psionicist-vs-wizard power struggles to warriors of light fighting against corrupting dark magic to mage factions each working to bend reality to their own ideal shape, the concept of distinct or incompatible magic types has been utilized in numerous RPGs and settings and is rife for storytelling possibilities. Hence, it may be of interest for GMs to integrate into their worlds.
 
@@ -717,6 +836,20 @@ In a game using opt-in negative energy affinity, any race that gains negative en
 
 The gameplay and mechanical implications of this variant rule are relatively minor but offer some mechanical backing to wanting to play a “lesser undead” elf or aasimar, for example, without all the mechanical headaches that come with the undead type.
 
+++ Skill Talent Exchange [DRS]
+^^**Source:** [https://www.drivethrurpg.com/en/product/533835/diamond-spheres-hustle-bustle?src=newest%3Faffiliate_id%3D3028400 Diamond Spheres: Hustle & Bustle]^^
+
+If the GM wishes to run a game that encourages the use of skill-based abilities while retaining a focus on combat (or simply wishes to allow more flexibility with skill talents), they can allow a character with a utility talent progression to exchange it for more standard talents.
+
+A character with a skill talent progression can choose to remove their utility talent progression for more general skill talents. A Trained operative would instead gain a skill talent every 2 levels, a Journeyman operative 3/4ths of a skill talent every level, and a Virtuoso operative a skill talent every level.
+
+++ Simple Trade Traditions [DRS]
+^^**Source:** [https://www.drivethrurpg.com/en/product/533835/diamond-spheres-hustle-bustle?src=newest%3Faffiliate_id%3D3028400 Diamond Spheres: Hustle & Bustle]^^
+
+Certain classes are better with skills than others, and although Spheres of Guile was initially intended to maintain this delineation, some GMs may want to use trade traditions as a way of ‘closing the gap’ even more.
+
+A game using this variant rule treats all characters who opt into a trade tradition as if they had an adroit trade rank.
+
 ++ Spellcasting Services [HMH Variant]
 If a character wishes to purchase spellcasting services from a spherecaster, the payment for the effect is equal to 10 gp x the caster level of the effect x the number of talents required to create the effect (including the base sphere) x the number of spell points needed to create the effect (minimum 1). If an effect would require additional feats or unique class features, each feat or class feature is considered to be one talent for the purpose of determining the cost of the effect. Each advanced talent is considered 2 talents for the purpose of determining the cost of a spellcasting service. If a sphere effect is permanent, the base price of the spellcasting service is 500 gp rather than 10 gp.
 
@@ -824,6 +957,13 @@ Anyone with class levels gains bonus class skills, talents, and feats as they ga
 * If a class would grant magic talents at rate greater than or equal to the class’ caster level progression, they instead grant a magic talent every level (for example, a mageknight using these rules would gain a magic talent every level, while a troubadour or fighter would not experience any change in their progression). If the class possesses the blended training class feature, they may select a combat talent in place of a magic talent.
 
 Certain classes may not be appropriate for this enhanced talent progression if their low progression is balanced against full caster level progression (such as the thaumaturge), the ability to alternate talents daily (such as the sphere arcanist), or a class ability which effectively enhances sphere progression (such as a sage’s style talents or an antiquarian armiger’s mystic bond).
+
+++ Utility Talent Exchange [DRS]
+^^**Source:** [https://www.drivethrurpg.com/en/product/533835/diamond-spheres-hustle-bustle?src=newest%3Faffiliate_id%3D3028400 Diamond Spheres: Hustle & Bustle]^^
+
+If a GM wants to run a more social-leaning game, they can allow a character to exchange standard talents for more utility talents. 
+
+A character with a talent progression can exchange 1 standard talent with 2 utility talents, although only once every 4 Hit Dice.
 
 ++ Widespread Techniques [3PP]
 ^^**Source:** Baron’s Glorious Arena^^
