@@ -125,6 +125,27 @@ If a character is neither a practitioner or a caster, they can know a maximum of
 ++ Multi-Character Techniques
 Multiple characters may work together to perform a technique, in which case all participants must pay the complexity cost. However, the complexity cost of the technique is reduced by 2 for every participant beyond the first (for example, three characters performing a technique with complexity 4 could do so by spending a standard action and no other resources, or two could perform the technique as a standard action by spending martial focus and 1 spell point). If the technique uses magic talents, at least one spell point must be spent by at least one participant in the technique. The participants all contribute their actions and spell points to a single individual performing the technique (meaning that if Fire Tackle is performed with two participants, both must contribute to the complexity cost but only one actually charges). If multiple characters work together to perform a technique, no one participant is required to know all of the talents needed to perform the technique (in the previous example, one participant could possess the Destruction sphere, Energy Strike, and Fire Blast talents, while the other could possess the Brute sphere, Hammer, and Unstoppable talents). Use the highest of each participant’s caster level and base attack bonus for the purpose of calculating the effects of the technique. The technique is performed on the lowest of the participants’ initiative counts, and all participants must delay their actions until all members are able to act. All participants in a technique must be within close range (25 feet + 5 feet/2 levels) of each other, using the lowest-level participant to determine the maximum range.
 
+++ Cursed Techniques
+Certain shortcuts to power exist which can harness incredible potency at a cost to the wielder. When these methods are recorded and shared, they become known as cursed techniques for their combination of unique ease of learning and difficulty to escape, as if the ability or its creator hungers to overtake the user. 
+
++++ Creating a Cursed Technique
+Whether a technique is cursed is determined at its creation. When creating a technique, the creator may apply any one of the following changes to the technique, in which case the technique becomes cursed.
+* **Expedient Study:** The time to research the technique is reduced to 1 day + 1 day for every 3 points of complexity.
+* **Shortcut Technique:** The skill check DC to create the technique is reduced to 5 + 3 x the technique’s complexity. 
+* **Uncertain Knowledge:** The creator may include up to one feat or talent which they do not know in the technique. This may be an advanced, exceptional, or legendary talent so long as the prerequisites for adding that talent to the technique are met (subject to GM discretion).
+
++++ Learning a Cursed Technique
+Learning a Cursed Technique is comparatively easy compared to learning a normal technique. When learning a cursed technique from a technique script, the skill check DC is reduced to 15 + the technique’s complexity. When learning a cursed technique from a person who knows it, the skill check DC is reduced to 10 + the complexity of the technique. In both cases, a character must succeed on a skill check with a DC of 30 + 2 x the technique’s complexity to realize that the technique is cursed.
+Knowing and Using a Cursed Technique
+
+When a character adds a cursed technique to their repertoire, they take strain damage equal to the technique’s complexity. This strain damage cannot be removed as long as the character knows the technique. If not using the strain rules, the character instead takes Wisdom damage equal to half the technique’s complexity which cannot be healed as long as the character knows the technique.
+
+Whenever a character uses a cursed technique (either from their repertoire or from a technique script), they must succeed at Will save (DC 20 + the total complexity of cursed techniques in their repertoire or 20 + twice the complexity of the technique, whichever is higher) or suffer strain damage equal to the technique’s complexity or Wisdom damage equal to half the technique’s complexity. Strain damage gained from effects created within 1 minute of each other is cumulative for the purpose of determining if a character gains a severance.
+
++++ Forgetting a Cursed Technique
+In order to forget a cursed technique, a character must be targeted by break enchantment or another effect capable of removing curses. The effective caster level of a cursed technique is equal to twice its complexity. On a success, the character forgets the technique and the strain damage from knowing the technique may be healed as normal.
+
+
 ++ Technique Scripts
 A character who possesses the Technique Crafting feat is capable of recording any techniques they know as well as any techniques they research into technique scripts. Writing a technique down in a script takes 1 hour per sphere or talent or feat involved in the technique and requires 1 page per sphere or talent or feat involved in the technique. Talents providing several effects count once per effect.
 
