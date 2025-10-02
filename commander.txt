@@ -1,5 +1,4 @@
 title:Commander
-parent:spheres-of-might
 [[module CSS]]
 .redtext a {
 color: #993300;
@@ -44,6 +43,8 @@ $19.99
 Commanders are an essential component of any army, coordinating and organizing their troops. Oftentimes, the same skills that serve when leading an army are directly relevant to leading an adventuring group. Whether commanding legions or a handful of intrepid explorers, commanders are at their best when they have a stout-hearted group of comrades whose strengths they can leverage towards victory.
 
 **Starting Wealth:** 5d6 x 10 gp (average 175 gp). In addition, each character begins play with an outfit worth 10 gp or less.
+
+**Starting Age:** Self-taught
 
 **Role:** Commanders are leaders who inspire and coordinate their allies, exhorting them to greater achievements.
 
@@ -115,13 +116,19 @@ The commander may use a standard action to allow any one creature currently bene
 The commander may use a standard action to allow any one creature currently benefiting from one of his shouts or tactics to cast a spell or activate a spell-like or supernatural ability as a free action that can be taken even if it’s not their turn. The granted spell or ability cannot have a casting or activation time greater than a standard action. If the granted action is not taken immediately following the commander’s use of this ability, this effect is wasted (the benefiting target cannot “store” the action for use at a later time).
 
 ++++ Directed Tackle
-The commander may use a standard action to allow any one creature currently benefiting from one of his shouts or tactics to perform a bull rush, reposition, pull, or to initiate or maintain a grapple as a free action that can be taken even if it’s not their turn. If the granted action is not taken immediately following the commander’s use of this ability, this effect is wasted (the benefiting target cannot “store” the action for use at a later time).
+The commander may use a standard action to allow any one creature currently benefiting from one of his shouts or tactics to perform a bull rush, reposition, drag, or to initiate or maintain a grapple as a free action that can be taken even if it’s not their turn. If the granted action is not taken immediately following the commander’s use of this ability, this effect is wasted (the benefiting target cannot “store” the action for use at a later time).
 
 ++++ Expert Coordinator
 When the commander first learn this enhanced tactic, he gains one teamwork feat he qualifies for as a bonus feat. The commander may share any one teamwork feat he knows with all allies currently benefiting from one of his shouts or tactics, even if they do not meet the feat’s prerequisites. At 5th level and every 5 levels thereafter, the commander may share 1 additional teamwork feat he knows when using this enhanced tactic. This enhanced tactic may be taken multiple times, gaining a new teamwork feat each time.
 
+++++ Facilitate Combo [S&P]
+As a standard action, the commander may allow any one creature affected by one of his shouts or tactics to participate in a multi-character technique even if they do not know the technique and possesses none of the talents used in the technique.
+
 ++++ Mountaineering
 The commander grants quick instructions to assist in climbing over various obstacles, including calling out handholds, footholds, and piton locations. All allies currently benefiting from one of the commander’s shouts or tactics gain a climb speed equal to 5 x the higher of the commander’s Charisma or Intelligence modifiers (minimum 5 ft.); allies who already possess a climb speed increase their existing climb speed by this amount.
+
+++++ Now’s Your Time [S&P]
+As a standard action, the commander may expend martial focus to grant an ally affected by one of his shouts or tactics a single temporary hero point. This hero point is lost after 1 round if it is not expended. A single ally can only be affected by this enhanced tactic once per day.
 
 ++++ Rapid Repositioning
 The commander may use his move action to direct his allies to quickly change positions, allowing a number of allies equal to the greater of his Charisma or Intelligence modifiers (minimum 1) to immediately move up to 10 ft. in any direction. An ally must be affected by one of the commander’s tactics to benefit from this ability, and must end the granted movement within the area of one of his tactics.
@@ -152,6 +159,11 @@ Rocky terrain, steep cliffs, and narrow canyons are assets to be leveraged, not 
 
 ++++ Plains
 Whether through cultured farmlands or rolling fields of untamed grass, the commander knows how to fight and travel through all kinds of plains. When fighting or traveling through plains terrain, the commander and any ally affected by one of his tactics or shouts ignore non-magical difficult terrain, double the effective distance at which a Perception check for detecting the presence of others can succeed, can exit a trench without paying an additional square of movement, and gain a competence bonus on Survival checks to scavenge food equal to the higher of the commander’s Charisma or Intelligence modifiers (minimum 1).
+
+++++ Space [LG]
+^^**Source:** Arcforge Players Compendium^^
+
+The commander excels at fighting in the airless drifting void of space. When fighting or traveling in space terrain, the commander can affect allies with his shouts and tactics even if they cannot hear the commander. The commander and any ally affected by one of his tactics or shouts may move up to their full speed in any direction under no gravity so long as they have a surface to push off of (rather than half speed) and do not lose the ability to fly nonmagically for 2d6 rounds after entering a no gravity area.
 
 ++++ Swamp
 The commander has learned to take the natural hazards of fighting in swamplands and turn them into tactical advantages. When fighting or traveling in swamp terrain, the commander and any ally affected by one of his tactics or shouts gain a bonus to saving throws against poisons and diseases equal to the greater of the commander’s Charisma or Intelligence modifiers (minimum +1), increase their base Swim speed by 10 ft. (or gain a Swim speed of 10 ft. if they do not already have one), and can move through difficult terrain normally while in a swamp.
@@ -226,11 +238,91 @@ At 20th level, the commander may have up to three enhanced tactics active at a t
 
 + ##993300|Archetypes##
 
+++ -##00c000|[[[Administrator]]]## [CS]
+Administrators are capable of wielding the most frightening force in the cosmos: bureaucracy.
+
+++ -##00c000|[[[Bearon]]]## [CS]
+The Bearon is a Commander who grants [[[Bear]]] powers to allies and has a support network of bears that can come to their aid.
+
+++ -##993300|[[[Braveheart]]]##
+Bravehearts are Commanders who use raging songs to encourage their allies.
+
 ++ -##00c000|[[[Dreadlord]]]## [CS]
 The Dreadlord is a master of minions - especially those raised from the dead.
 
+++ -##00c000|[[[Feylord]]]## [CS]
+Feylords use the [[[Fallen Fey]]] sphere to power a variety of magical effects.
+
+++ -##993300|[[[Noble]]]##
+Nobles use the ##993300|[[[Leadership]]]## sphere to manage and strengthen a cohort of followers.
+
 ++ -##993300|[[[Vanguard]]]##
 The Vanguard leads from the front of a battle rather than the rear and specializes in directly aiding their allies.
+
+++ -##00c000|[[[Visionary General]]]## [CS]
+Visionary Generals can use the [[[Divination]]] sphere to augment their commands.
+
+----
+
++ ##993300|Favored Class Bonuses##
+
+**Aasimar:** Gain +1/2 bonus to Diplomacy checks made to improve a creature’s attitude.
+
+**Alraun:** +1/5 racial bonus to the Diplomacy skill.
+
+**Cecaelia:** +1/4 ranks in Diplomacy for determining the range and effects of Warleader sphere abilities while both you and the target are in an aquatic environment.
+
+**Dwarf:** Gain +1/8 bonus to attack rolls against the target of your racial hatred for yourself and all allies under the effects of your tactics or shouts.
+
+**Elf:** Add +1/4 to Stealth checks made by allies under the effect of one of your tactics.
+
+**Gnome:** Add a +1/8 bonus to attack rolls against the target of your racial hatred for yourself and all allies under the effects of your tactics.
+
+**Goblin:** Gain+1/2 bonus on Ride checks.
+
+**Halfling:** Gain +1/8 of a logistical specialty.
+
+**Hobgoblin:** Your lingering commands class feature lasts an additional +1/4 rounds.
+
+**Human:** Gain +1/6 of an enhanced tactic
+
+**Orc:** Increase the save DC and duration for any shout you know from the Warleader sphere by +1/5.
+
+**Tiefling:** Attacks made by allies benefiting from one of your enhanced tactics deal an additional +1/4 fire damage.
+
+----
+
++ ##993300|Class Equipment##
+The following magical items are especially appropriate for commanders.
+
+++++ All-Terrain Armoire [TS:WAT]
+**Aura** faint Nature and Protection; **CL** 6th
+**Slot** none; **Price** 20,000 gp; **Weight** 300 lbs.
+
+This heavy, full-size wooden armoire is made of thick, durable wood that seems almost impervious to all temperature changes and can protect the contents within. While a creature with the battlefield specialist class feature is in one of their specialized terrains, that creature can use this armoire to outfit any number of allies over the course of ten minutes with special clothing appropriate to that terrain. This grants all such creatures a +5 circumstance bonus to Survival checks while in that terrain.
+
+Twice per day, as a standard action, a commander can call out specialized instructions to grant the benefits of another battlefield specialist terrain they know for a number of rounds equal to the higher of their Intelligence or Charisma modifiers. For example, a commander could use this armoire to temporarily grant the benefits of being in swampy terrain while in an urban environment.
+
+**Construction Requirements**
+Craft Apparatus, Craft Marvelous Item, Nature sphere, Protection sphere, creator must have the battlefield specialist ability; **Cost** 10,000 gp
+
+++++ Amplifying Horn [TS:WAT]
+**Aura** moderate War; **CL** 7th
+**Slot** none; **Price** 16,000 gp; **Weight** 3 lbs.
+
+This silvery horn excels at amplifying the user’s voice to let them be heard across the battlefield. When used by a creature with the lingering commands ability, this horn allows creatures benefiting from the lingering commands to leave the normal radius of a tactic and continue to receive its benefits until the lingering commands wear off (as long as they remain within line of sight to the commander).
+
+**Construction Requirements**
+Craft Apparatus, War sphere (Lingering Resentment), creator must have the lingering commands ability; **Cost** 8,000 gp
+
+++++ Tactics Manual [TS:WAT]
+**Aura** faint War; **CL** 5th
+**Slot** none; **Price** 15,500 gp; **Weight** 4 lbs.
+
+This thick, metal-bound book contains a variety of tactics and strategies covering warfare in countless situations and circumstances, from individual combat to battles with tens of thousands of soldiers on each side. Although the author appears to view war as ultimately futile, carrying this tome grants a creature with the enhanced tactics class feature an additional enhanced tactic, chosen when the manual is written. In addition, twice per day, a creature with the enhanced tactics class feature can switch enhanced tactics as a free action twice per round instead of once per round. A creature can only benefit from one tactics manual at a time and must spend eight hours reading a different manual to change the one they receive benefits from.
+
+**Construction Requirements**
+Craft Apparatus, War sphere (Tactical Momentum (momentum)), creator must know the enhanced tactic added to this item; **Cost** 7,750 gp
 
 ----
 
