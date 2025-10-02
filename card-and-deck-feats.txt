@@ -126,6 +126,44 @@ You may take this deck manipulation a second time. If you do, you may look at th
 * **Wasting:** (requires Cooldown and Control Caster feat): You may put this card from play into your discard pile. If you do, choose another mana point card in play. The controller of that mana point card puts that card into their discard pile (if they have Cooldown) or shuffles it into their deck (if they don’t)
 **Wild Card:** Each time you select this manipulation, add a card to your deck denoted as the wild card. Whenever you play the wild card, you may search your deck for any one other card and put it into your hand. Afterwards, shuffle the wild card back into your deck. You may select this manipulation any number of times
 
+++++ Alternate Win Condition (Aristeia, Deck, Drawback)
+^^**Source:** Baron's Otherworldly Citadel^^
+
+**Prerequisites:** Card Casting Drawback
+**Benefits:** Choose one of the following options that you meet the prerequisites for. When the listed condition is fulfilled, you may spend the listed number of spell points as a swift action to enter aristeia level 1 without spending a hero point or gaining a point of accrual.
+ 
+* **Coalition Triumph (10 spell points) (requires Mana Pool, Colored Mana x2):** You have mana point cards in play that can create each of the five colors as well as at least one subordinate created or controlled using effects using each of the five colors of mana (multicolored effects from the Rainbow Efficiency feat are treated as being of each of their colors)
+
+* **Cosmic Alignment (3 spell points) (requires Cooldown, Control Caster, Warp Sphere):** You have at least one card with this effect in your discard pile, in exile, and in your hand (not including the card you played to use this effect).
+
+* **Destined End (3 spell points):** When you add this card to your deck, make a list of nine other cards in your deck. You may activate this effect if all nine of the listed cards are in play.
+
+* **Forbidden Wrath (5 spell points) (requires Singleton):** When you add this card to your deck, add four “blank cards” with no effects. You may enter aristeia if you have this card and all four blank cards in your hand.
+
+* **Inevitable Approach (7 spell points) (requires Gradual Ramp, Mana Pool, Stagnant Pool):** You have used this effect at least once in the current encounter. You may use this effect without activating aristeia if you have not used in previously, in which case you put the corresponding card below the top 7 cards of your deck.
+
+* **Lost Legion (2 spell points) (requires Cooldown, Control Caster, Warp Sphere):** Another player’s exile contains at least 6 sphere effects from the same sphere.
+
+* **Oracular Mysteries (2 spell points) (requires Cooldown, Deckout):** You have 0 cards in your deck. You do not begin taking ability burn from having no cards in your deck until Aristeia ends.
+
+* **Overloaded Options (4 spell points):** You have 35 or more cards in hand.
+Standalone Glory (6 spell points) (requires Gradual Ramp, Mana Pool): At the start of the turn, you have no active effects which require spending spell points and no Mana Point Cards in play.
+
+* **Thirteenfold Truth (3 spell points):** You started your turn with exactly 13 cards in hand
+
+* **Wit’s End (5 spell points) (requires Gradual Ramp, Mana Pool):** You have 200 or more cards in your deck
+
+* **Zenith of Fortune (11 spell points):** You do not need to meet any conditions to use this effect, but you must roll a d100 when you use it. On any roll besides 1, 2, or 3, you do not enter aristeia.
+
+**Special:** You may select this feat multiple times, each time selecting a different Alternate Win Condition option you have not selected before.
+
+++++ Alternate Win Condition, Improved (Aristeia, Deck, Drawback)
+^^**Source:** Baron's Otherworldly Citadel^^
+
+**Prerequisites:** Alternate Win Condition, Card Casting Drawback
+
+**Benefits:** Increase the aristeia level you may enter when using Alternate Win Condition to your normal maximum Aristeia level.
+
 ++++ Bolt from the Blue (Deck, Drawback)
 **Prerequisites:** Card Casting (cooldown), Destruction Sphere (Energy Satellite)
 
@@ -170,17 +208,22 @@ You may take this deck manipulation a second time. If you do, you may look at th
 **Benefits:** You gain several abilities related to interfering with the abilities of other characters with the Card Casting drawback. The save DC of these abilities is equal to the sphere DC of one of the ability’s associated spheres
 * **Altered Loadout:** (requires Alteration sphere) Whenever you target a creature with a shapeshift, you may force them to shuffle their hand into their deck and draw a number of cards equal to the amount they draw at the beginning of an encounter (Will negates)
 * **Annihilator:** (requires Destruction Sphere and Cooldown) Once per turn when you attack a creature who has the Card Casting drawback, you may discard the top card from their deck. When you take the attack action against such a creature, you may spend a spell point as part of the action to instead discard a number of cards equal to half your MSB (minimum 2).
+* **Duress (requires Cooldown, Blood sphere, Mind Sphere): [Baron's Otherworldly Citadel]** When you affect a creature with a blood control or blood art, you may look at their hand. If the target has the Cooldown effect from Card Casting, you may select a card from their hand and make them discard that card.
 * **Exile:** (requires Warp Sphere and Cooldown) You may spend an additional spell point on effects which discard cards from an opponent’s hand or deck or remove them from play through dispelling. If you do, the cards are sent to a separate exile pile rather than being discarded or shuffled back into the deck. Cards in the exile pile are returned to the caster’s deck at the end of the encounter but otherwise cannot be interacted with through any abilities.
 * **Exiled Consignment:** (requires Destruction Sphere, Warp Sphere, and Cooldown) Whenever you damage a creature with an attack or destructive blast, you may exile one card from their discard pile. You may spend an additional spell point to exile one card for every 3 Destruction caster levels you possess (minimum 1).
 * **Facilitate the Game:** (requires Mana Sphere and either Initiate’s Training or Mark of Incompetency) If a character possesses the Card Casting drawback with the Mana Pool effect, you may use Apprentice’s Spell to let them ignore the Colored Mana, Mana Graveyard, or Stagnant Pool effects as if they were each a general drawback. If a character possesses the Card Casting drawback, you may use Mark of Incompetency to grant them the Cooldown and Deckout effects as if each were a general drawback.
 * **Hand Peek:** (requires Divination sphere and either Detect Spellcaster or Detect Thoughts) When divining a creature using either Detect Spellcaster or Detect Thoughts, you know what cards they have in their hand.
 * **Hoarded Power:** (requires Conjuration sphere and Deck-Bound Companion feat) you my use the sphere effects granted by any other companion affected by the Deck-Bound Companion feat as if you could create the effects yourself, using your own caster level, MSB, and MSD to determine their potency.
+* **Interference (requires Counterspell feat): [Baron's Otherworldly Citadel]** You may use the counterspell feat to dispel effects from deck feats as if they were magic sphere effects.
+* **Internal Extraction (requires Cooldown, Blood sphere, Warp Sphere): [Baron's Otherworldly Citadel]** When you affect a creature with a blood control or blood art, you may exile a card from their discard pile that is not a Mana Point card. If you do, search their deck for all other cards that are identical to the exiled card and exile them as well.
 * **Lantern Control:** (requires Light sphere) You may have any creature with a glow effect on them play with the top card of their deck face-up at all times. When you cause a glow effect on a creature to shed bright light, you may force that creature to shuffle their deck. 
 * **Liberated Healing:** (requires Life Sphere) Whenever you target a creature with a cure or restore, you may shuffle one card from their discard pile into their deck plus an additional card for every 2 caster levels you possess. 
 * **Lockout:** (requires Mana Sphere and Cooldown) Once per turn when you attack a creature who has the Card Casting drawback, you may force them to discard a card from their hand. When a creature fails a saving throw against your expunge, you may instead force them to discard one card for every 3 caster levels you possess (minimum 1). If you have the ability to see the target’s hand from Hand Peek, you may select which cards are discarded.
 * **Mana Targeting:** (requires Divination Sphere and Mana Pool) Whenever you divine mana capacity or divine spellcaster on a target, you also become aware of how many Mana Point Cards they have in play. When you target such a creature with a counterspell, you may attempt to dispel mana cards as if they were magic sphere effects
+* **Mass Resource Denial (requires Divination Sphere, Mana Pool, Specialized Wipe feat): [Baron's Otherworldly Citadel]** When you use the Specialized Wipe feat, you may choose to target all Mana Point cards of creatures in the area rather than selecting a specific sphere of magic (the area is doubled as normal).
 * **Mind Sculpt:** (requires Mind Sphere) Whenever a creature fails a saving throw against your charm, you may force that creature to shuffle a card from their hand into their deck. If they fail a save against a powerful charm, you may spend a spell point to force them to shuffle their entire hand into their deck.
 * **Momentous Capture:** (requires War sphere) When you or one of your subordinates successfully causes a creature with the Strikable Assets drawback, you may spend momentum to force the target to discard a revealed card. The momentum cost is equal to the card’s minimum spell point cost.
+* **Naturalizing Exchange (requires Counterspell, Nature Sphere, Mana Pool): [Baron's Otherworldly Citadel]** Whenever you dispel only effects created by a target with the Mana Pool effect from Card Casting, you may take 10 on the attempt to dispel the effect. If you do, each caster of a targeted effect may search their deck for a single Mana Point card and put it into play.
 * **Pilfered Magic:** (requires Mana Sphere, Gift of Knowledge, Warp Sphere, and Cooldown) Whenever you exile a card from a creature’s deck, hand, or play, you may use the effect printed on that card as if you had all of the talents necessary to use it until the end of your next turn, paying spell points as normal.
 * **Smothering Curse:** (requires Fate Sphere) Whenever a creature affected by one of your consecrations or (curse) words draws a card, you may force them to choose between spending a spell point or making a Will save. On a failed save, they take 1d6 points of damage plus an additional 1d6 for every 4 caster levels you possess. A creature may be affected by this ability once per round per word or consecration affecting them.
 * **Sustainable Counterspell:** (requires Counterspell) Whenever you counterspell an effect created by a character with the Card Casting drawback, you may gain either a +1 or +2 insight bonus to the MSB check for the purpose of that specific effect. If you choose the +1 bonus, any dispelled effect has its card either shuffled back into the owner’s deck or put on top of their deck rather than be discarded (your choice). If you choose the +2 bonus, any dispelled effect is returned to its owner’s hand.
