@@ -1,7 +1,136 @@
 title:Alchemist Discoveries
-parent:spheres-of-power
-[[toc]]
+[[module CSS]]
+.noselect {
+  -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome and Opera */
+}
+[[/module]]
+[[tabview]]
+[[tab Ultimate]]
+[[div class="noselect" style="float:right; width: 20%; padding: 0 2%"]]
+[[=]]
+[[image http://spheresofpower.wikidot.com/local--files/test-page/UltimateSpheresofPower.jpg link="https://www.drivethrurpg.com/product/300249/Ultimate-Spheres-of-Power?affiliate_id=549120"]]
+**Ultimate Spheres of Power**
+$29.99
+----
+[[image http://spheresofpower.wikidot.com/local--files/test-page/Archetypes%20of%20Power%202.jpg link="https://www.drivethrurpg.com/product/330569/Archetypes-of-Power-2?affiliate_id=549120"]]
+**Archetypes of Power 2**
+$4.99
+----
+[[image http://spheresofpower.wikidot.com/local--files/test-page/Realmwalkers-Handbook.png link="https://www.drivethrurpg.com/product/358712/The-Realmwalkers-Handbook?affiliate_id=549120"]]
+**The Realmwalker's Handbook**
+$4.99
+[[/=]]
+[[/div]]The following are new discoveries that can be selected by characters with the discoveries class feature.
 
+**Mutagen Improvements:** The Realmwalker’s Handbook introduces 2 new discoveries which allow an alchemist to enhance their mutagen, cognatogen, or other similar ability. Mutagen improvements are generally a collection of thematically similar options made to emulate a type of creature or gain new abilities.
+
+An alchemist may only apply a single mutagen improvement to a mutagen, chosen each time upon creation.
+----
+----
+++++ Alchemical Synthesis (requires alchemist 6)
+The alchemist may spend a spell point to spontaneously create a bomb. This is a free action. If he has any other class features that require the use of bombs, the expenditure of bombs may be substituted with an equal amount of spell points instead. This does not give him the bombs class feature if he does not possess it.
+
+++++ Beyonder’s Infusion (Su) (mutagen improvement) [RW HB]
+The alchemist’s brew contains planar essence which masks the alchemist’s presence with that of a greater being.
+
+Whenever the alchemist brews a mutagen (or other mutagen- like ability), he may choose one alignment (good, evil, lawful, chaotic). If he does, the alchemist creates a beyonder mutagen. While under the effects of a beyonder mutagen, the alchemist gains the following additional benefits:
+* The alchemist gains an aura whose strength is equal to that of a cleric of the alchemist’s level. Whenever the alchemist would be subject to a divination effect which would reveal an alignment aura, the alchemist detects as possessing the chosen alignment instead of their normal alignment.
+* Damage reduction which is bypassed by the chosen alignment’s opposite equal to 1/2 the alchemist’s level (such as a good-brewed beyonder mutagen granting DR/evil). If the alchemist’s mutagen would already grant damage reduction, the alchemist may choose to forgo that damage reduction to increase this discovery’s aligned damage reduction by 1/2 the value.
+* Whenever the alchemist would be affected by an effect based on alignment, the alchemist may choose to be treated as having the chosen alignment (such as a chaotic evil alchemist treating himself as neutral-good when targeted by a paladin’s smite effect).
+
+An alchemist must be at least 10th level and have the ability to brew a mutagen (or other mutagen-like ability, such as cognatogen) before selecting this discovery.
+
+++++ Blood Potion
+The alchemist gains Blood Potion as a bonus feat even if he does not possess the Blood sphere. The alchemist may use his Intelligence score as his casting ability modifier for this feat, if he does not possess a sphere-based archetype already.
+
+++++ Bomb Admixture (Ex) [LG]
+^^**Source:** Arcforge Players Compendium^^
+
+The alchemists's bombs blend multiple concoctions into a deadly weapon. He may apply two [substance] infusions to a bomb (if a legendary alchemist) or may apply two discoveries marked with * to a bomb (if a normal alchemist) rather than just one. If this would cause the bomb to deal multiple different damage types, the bomb deals half of its damage as one type and the other half as the other type. He may only apply the non-damage effects of one of the bomb discoveries or infusions. If he takes this talent a second time, he may spend a use of quintessence (if a legendary alchemist) or two additional uses of bombs (if a normal alchemist) to create a bomb that applies the non-damage effect of both discoveries or infusions used in the bomb.
+
+++++ Bottled Aurora (Su) (mutagen improvement) [RW HB]
+The alchemist’s brewed mutagen contains hints of beautiful, shifting energy.
+
+Whenever the alchemist brews a mutagen (or other mutagen-like ability), he may choose an energy type (chosen between acid, cold, electricity, and fire). If he does, the alchemist creates an aurora mutagen. While under the effects of an aurora mutagen, the alchemist gains the following additional benefits:
+* Energy resistance equal to his alchemist level against the chosen energy type.
+* +1d6 energy damage of the chosen energy type as additional damage on the alchemist’s manufactured weapon attacks, natural attacks, and unarmed strikes. In addition, any splash weapons the alchemist throws deals this additional damage to the primary target on a direct hit.
+
+As a move action, the alchemist may reduce the aurora mutagen’s remaining duration by 1/2. If he does, the alchemist may choose a new energy type for the aurora mutagen’s effects. An alchemist must be at least 8th level and have the ability to brew a mutagen (or other mutagen-like ability, such as cognatogen) before selecting this discovery.
+
+++++ Catnip Compounder (requires alchemist 4) [Catgirl HB]
+Whenever the alchemist consumes catnip (see the Recreational Substances for Cats rules on the [[[Alchemical Items]]] page), the alchemist increases the catnip’s beneficial effects as though they consumed multiple doses of that catnip. The alchemist increases the potency of a single dose of catnip by 1 for every 4 alchemist levels they possess. Negative effects of consumed catnip are not increased.
+
+**Note:** Consuming Multiple Doses of Catnip with Catnip Compounder
+
+This alchemist discovery beneficially increases the effects of a single dose of catnip, such as a level 8 alchemist with this discovery consuming mellowleaf gaining a +3 alchemical bonus on saving throws against emotion effects and Sense Motive checks.
+* If the catnip grants a numerical bonus (e.g. catnip, jotunvine, mellowleaf, pricklypear’s damage reduction), increase the bonuses granted by that catnip additively for each effective dose.
+* If the catnip grants an effect with damage dice (e.g. pricklypear’s retaliation damage), increase the damage dice additively for each effective dose.
+* If the catnip produces a spell effect (e.g. fastnip), increase the effects of that spell by +5 caster level for each effective dose.
+* If the catnip grants a randomized effect (e.g. faebloom), the user rolls an additional time for each effective dose, each time gaining a new, separate effect.
+
+A catnip dose’s duration and any other additional effects (e.g. “once during this duration”) are not affected.
+
+++++ Companion Chemistry (Su) [BTH]
+The alchemist gains the ability to create micromutagens, unique mutagen mixtures specially brewed to enhance his subordinate’s abilities. The alchemist can prepare a number of micromutagens equal to 1 + his Intelligence modifier. Each micromutagen’s effects are individually determined when created and may only be consumed by one of the alchemist’s subordinates. The alchemist can prepare micromutagens by themselves or as part of brewing a mutagen normally.
+
+Micromutagens function similarly to a normal mutagen, with their individual effects determined upon creation. Abilities and effects which would modify an mutagen’s effects do not affect a micromutagen, but effects which would extend a mutagen’s duration function normally, such as the infuse mutagen discovery or persistent mutagen class feature. Only the alchemist’s subordinates can gain benefits from a micromutagen. All limitations of mutagens apply to micromutagens–an alchemist can only maintain one “batch” of micromutagens at a time, a micromutagen that is not in the alchemist or his companion’s possession becomes inert, a creature other than the alchemist’s subordinates drinking a micromutagen gain no benefits (but are not nauseated), etc.
+
+When creating a micromutagen, the alchemist can choose one option from the following list, plus an additional option for every 4 alchemist levels he possesses. Each option may be chosen more than once unless otherwise stated:
+* The subordinate gains a +2 alchemical bonus to one ability score. This option’s effects may be chosen multiple times to affect different ability scores. For every 8 alchemist levels he possesses, this option’s benefits may be applied to the same ability score an additional time (+4 chosen twice, +6 chosen three times).
+* The subordinate gains a +1 natural armor bonus which stacks with other sources of natural armor.
+* The subordinate gains a +10 foot bonus to each movement type it possesses. This option may only be chosen once.
+* The subordinate treats its Strength score as +4 higher when determining its carrying capacity.
+* The subordinate gains a +4 alchemical bonus on one skill, chosen when the micromutagen is created. This option’s effects do not stack but may be chosen multiple times to affect different skills.
+
+++++ Gene-Splicing (requires alchemist 8, mutagen)
+When the alchemist prepares his mutagen he may choose one trait from any Alteration sphere talent. He gains that trait while under the effects of his mutagen for the duration of the mutagen. He must pay any spell point costs associated with the trait, and the trait uses his class level as its caster level for the purpose of determining effects. He may choose a different trait whenever he prepares his mutagen.
+
+++++ Grenade Bombs (Ex) [LG]
+^^**Source:** Arcforge Players Compendium^^
+
+The alchemist's bombs are designed to resemble conventional munitions. He may use his bombs with any equipment, talents, or feats that can be used with grenades (for example, they can be loaded into weapons such as grenade launchers). If he is not already proficient with grenades, he becomes proficient with grenades.
+
+++++ Hallucinogen (Su)
+The alchemist gains the ability to create a hallucinogen, a mutagen-like mixture that heightens one’s perception or sensory ability. It takes 1 hour to brew a dose of hallucinogen, and once brewed, it remains potent until used. The alchemist when brewing the hallucinogen chooses a single alternate divination ability (which he does not need to meet the prerequisites for). The hallucinogen, once ingested, grants the effects of the chosen divine alternate divination ability.
+
+Hallucinogens continue to grant the effects for as long as the alchemist concentrates on the effects (maximum of 10 minutes per alchemist level). It otherwise functions as the chosen alternate divination. All limitations of mutagens apply to hallucinogens as if they were the same substance—an alchemist can only maintain one mutagen or hallucinogen at a time, a hallucinogen that is not in an alchemist’s possession becomes inert, drinking a hallucinogen makes a non-alchemist sick, and so on. The infuse mutagen discovery and the persistent mutagen class ability apply to hallucinogens.
+
+++++ Hedgewitch Secret
+The alchemist may gain a hedgewitch secret, having an effective hedgewitch level equal to his alchemist level. The alchemist cannot gain a secret associated with a Path he does not have access to. The alchemist must have spherecasting capability in order to select this discovery. He may select this alchemist discovery multiple times, each time selecting another hedgewitch secret.
+
+++++ Immunizing Panacea (requires alchemist 9, Alchemy sphere (Panacea (formulae)), improved panacea) [AoP2]
+The alchemist’s understanding of humanoid biology and reactions begin to develop further, allowing him to develop panaceas that prevent an ailment for a time. When created a panacea, the alchemist may increase the DC by 10 to grant the affected creature immunity to the removed condition(s) for a number of rounds equal to his practitioner modifier (minimum 1).
+
+++++ Improved Salve (requires alchemist 6, Alchemy sphere (Salve (formulae))) [AoP2]
+The alchemist’s understanding of humanoid biology and alchemical reagents increases, allowing him to increase the potency of his salves. When creating a salve, the alchemist may increase the DC by 5 to increase the die size of the amount healed to d10s instead of d8s.
+
+++++ Improved Panacea (requires alchemist 6, Alchemy sphere (Panacea (formulae))) [AoP2]
+The alchemist’s understanding of various reactions the body can have to particular toxins and spells allows him to add reagents that aid against ailments. When creating a panacea, the alchemist can increase the DC by 5 to grant a creature who drinks his panacea gain a +4 bonus to saving throws made against the negative condition that was removed for 1 minute.
+
+++++ Shadow Bomb (requires Dark sphere)
+The alchemist can create bombs that contain darkness effects from the Dark sphere. When the bomb is used, the darkness effect appears using the impact point of the bomb as the center of the darkness effect. Once used, the darkness lasts 1d4 rounds before disappearing, +2 if he possesses the Lingering Darkness talent. He may not spend a spell point to make it last longer without concentration.
+
+++++ Shaped Charge (requires alchemist 6, spell bomb discovery)
+The alchemist chooses a (blast shape) basic talent from the Destruction sphere. When he uses a spell bomb, he may apply this blast shape to his spell bomb, using his class level as his caster level. He must pay any spell point costs involved. He may acquire this discovery multiple times. Each time, he chooses a different Destruction sphere (blast shape) talent.
+
+++++ Shaped Formulae (requires alchemist 8, Alchemy sphere ((formulae) package)), Destruction sphere [EO2]
+When the alchemist creates a formulae that is used by making a ranged attack (including a ranged touch attack), he may spend a spell point to have its effect changed as though he applied a (blast shape) talent he knows to it. He must spend any spell points associated with the talent, and his range is still limited to five times his formulae’s range increment.
+
+++++ Spell Bomb (requires alchemist 4)
+As a full-round action, the alchemist may throw a more powerful bomb that does a number of dice of damage equal to his class level. He may spend a spell point to reduce this to a standard action.
+
+++++ Zoological Study (requires alchemist 4, Alteration sphere)
+Once per day as a free action, the alchemist may choose an Alteration talent he does not possess. He gains that talent and keep it until he rests and regains spell points.
+
+
+[[/tab]]
+[[tab Original]]
 The following are new Discoveries that can be selected by characters with the Discovery class feature.
 
 ++++ Alchemical Synthesis (requires Alchemist level 6)
@@ -27,11 +156,16 @@ You can create bombs that contain darkness effects from the Dark sphere. When th
 ++++ Shaped Charge (requires Alchemist level 6, spell bomb discovery)
 Choose a (blast shape) basic talent from the Destruction sphere. When you use a spell bomb, you may apply this shape to your spell bomb, using your class level as your caster level. You must pay any spell point costs involved. You may acquire this discovery multiple times. Each time, choose a different Destruction sphere (blast shape) talent.
 
+++++ Shaped Formulae (requires alchemist 8, Alchemy sphere ((formulae) package)), Destruction sphere
+When the alchemist creates a formulae that is used by making a ranged attack (including a ranged touch attack), he may spend a spell point to have its effect changed as though he applied a (blast shape) talent he knows to it. He must spend any spell points associated with the talent, and his range is still limited to five times his formulae’s range increment.
+
 ++++ Spell Bomb (requires Alchemist level 4)
 As a full-round action, you may throw a more powerful bomb that does a number of dice of damage equal to your class level. You may spend a spell point to reduce this to a standard action.
 
 ++++ Zoological Study (requires Alchemist level 4, Alteration sphere)
 Once per day as a free action, you may choose an Alteration talent you do not possess. You gain that talent and keep it until you rest and regain spell points.
+[[/tab]]
+[[/tabview]]
 
 ----
 
