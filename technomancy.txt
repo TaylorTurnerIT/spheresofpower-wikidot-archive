@@ -194,6 +194,77 @@ You may spend a spell point to force a routine or AI out of your sprite’s host
 **Prerequisites:** Technomancy sphere (Glitch-Prone Sprites (advanced)).
 
 If the host is already timeworn, you may treat it as if it was not timeworn for 1 round (if a sprite attempts to add or remove the timeworn condition imposed by another sprite, you and the creator of the other sprite attempt opposed magic skill checks to see which effect occurs). When the glitch table is rolled for the sprite host while this program is active, you may spend 2 spell points as an immediate action to choose the result of the glitch rather than rolling randomly (if multiple casters attempt this on the same item, they roll opposed magic skill checks, with the highest result choosing the glitch result).
+
++++++ Table: Armor Glitches
+Glitching armor that loses its ability to function still provides its normal armor bonus to AC, but any charged abilities are suppressed.
+
+||~ d% ||~ Glitch ||
+|| 01–02 || Armor abilities don’t function. All remaining charges are drained. ||
+|| 03–05 || Armor seizes up and abilities don’t function. The wearer is paralyzed for 1 round. ||
+|| 06–10 || Armor doesn’t function, but still consumes the normal number of charges. ||
+|| 11–18 || Armor doesn’t function, but no charges are lost. ||
+|| 19–50 || Armor uses twice as many charges as normal (or expends an extra activation’s worth of charges if already active). ||
+|| 51–75 || Armor functions normally. ||
+|| 76–80 || Armor functions better than anticipated. Its armor bonus improves by 1 for the duration of this charge. ||
+|| 81–90 || Armor functions much better than anticipated. Its armor bonus improves by 2 and it provides moderate fortification for the duration of this charge. ||
+|| 91–98 || Armor functions normally; no charges are consumed by this use. ||
+|| 99–100 || Armor functions normally and a power surge restores 1d6 charges to the item (up to but not exceeding its capacity). ||
+
++++++ Table: Construct Glitches
+These glitches should be rolled at the beginning of the construct’s turn each round.
+||~ d% ||~ Glitch ||
+|| 01–02 || Construct is reduced to half its current hit points (minimum 1) ||
+|| 03–05 || Construct is dazed for 1d6 rounds ||
+|| 06–10 || Construct is dazed for 1 round ||
+|| 11–18 || Construct is staggered for 1 round ||
+|| 19–50 || Construct takes a -2 penalty on all d20 rolls for 1 round ||
+|| 51–75 || Construct acts normally ||
+|| 76–80 || Construct gains an additional move action this turn ||
+|| 81–90 || Construct gains a +2 insight bonus to all d20 rolls for 1 round ||
+|| 91–98 || Construct maximizes all damage rolls that it makes this round ||
+|| 99–100 || Construct gains temporary hit points equal to 4 times its CR. These temporary hit points last for 1 minute and do not stack with other forms of temporary hit points. ||
+
++++++ Table: General Glitches
+||~ d% ||~ Glitch ||
+|| 01–02 || Item does not function. All remaining charges are drained. ||
+|| 03–05 || Item does not function, but still consumes the normal number of charges. ||
+|| 06–10 || Item does not function, but no charges are lost. ||
+|| 11–18 || Item uses twice as many charges as normal and jolts the user for 1d6 points of electricity damage, but otherwise functions normally. ||
+|| 19–50 || Item uses twice as many charges as normal, but otherwise functions normally. ||
+|| 51–75 || Item functions normally. ||
+|| 76–80 || Item functions better than anticipated, and grants a +1 bonus on any skill check attempted with this use. ||
+|| 81–90 || Item functions far better than anticipated, and grants a +2 bonus on any skill check attempted with this use. ||
+|| 91–98 || Item functions normally and this use does not consume any charges. ||
+|| 99–100 || Item functions normally and a power surge restores 1d6 charges to the item. ||
+
++++++ Table: Pharmaceutical Glitches
+These glitches also apply to drugs and medical gear.
+||~ d% ||~ Glitch ||
+|| 01–02 || Spoiled. Treat as poisoning by dark reaver powder. ||
+|| 03–11 || Spoiled. Treat as exposure to red ache. ||
+|| 12–20 || Spoiled. Patient is nauseated for 1d6 rounds. ||
+|| 21–30 || Spoiled. Patient sickened for 1d6 × 10 minutes. ||
+|| 31–40 || Spoiled. No effect. ||
+|| 41–50 || Less potent. Decrease all save DCs by 2. Use minimum values for all random results (such as healing). Decrease durations by 50%. ||
+|| 51–60 || Normal effect, but causes 1d4 points of Constitution damage (Fortitude DC 15 half). ||
+|| 61–75 || Normal effect, but hallucinogenic (–5 penalty on Perception checks and confused for 2d4 rounds, Fortitude DC 15 negates). ||
+|| 76–85 || Normal effect. ||
+|| 86–95 || More potent. Increase any save DCs by 2. Reroll any result of 1. Increase durations by 100%. ||
+|| 96–100 || Far more potent. As above, but treat as 2 doses. ||
+
++++++ Table: Weapon Glitches
+These glitches are triggered every time an attack is made with the weapon.
+||~ d% ||~ Glitch ||
+|| 01–02 || Weapon does not function. All remaining charges are drained. ||
+|| 03–24 || Weapon does not function, but still consumes the normal number of charges. ||
+|| 25–39 || Weapon consumes twice as many charges as normal and deals 1d6 points of electricity damage per charge consumed (minimum 1d6) to the user. ||
+|| 40–65 || Weapon consumes twice as many charges as normal. ||
+|| 66–75 || Weapon functions normally but flashes brightly, blinding the wielder and adjacent creatures for 1 round (Reflex DC 15 negates). ||
+|| 76–84 || Weapon functions normally. ||
+|| 85–92 || Weapon functions better than anticipated, granting a +2 bonus on attack rolls made with that weapon for 1 round. ||
+|| 93–96 || Weapon functions much better than anticipated, granting a +2 bonus on attack and damage rolls made with the weapon. ||
+|| 97–98 || Weapon functions normally, and this use does not consume any charges. ||
+|| 99–100 || Weapon functions normally, and a power surge restores 1d6 charges to the item (up to but not exceeding its capacity). ||
 [[/div]]
 [[div style="padding: 0 10px; border: 1px solid black; margin-top: 5px"]]
 ++++ Glitch-Prone Sprites
@@ -223,6 +294,125 @@ You may treat non-technological magic items as if they were technological items 
 
 You may treat any host for your sprites as if they were always in close range and that you always had line of sight and effect on it for the purpose of being able to target them with sphere effects.
 [[/div]]
+----
++ Archetypes Specializing In Technomancy
+[[div style="padding: 0 10px; border: 1px solid black; margin-top: 5px"]]
+++ -[[[Technopath]]]
+Technopaths are [[[Symbiat]]]s who have learned to make use of technological powers.
+[[/div]]
+----
++ Wild Magic
+
+[[div_ style="float:right; width: 20%;"]]
+[[html]]
+<iframe src="https://www.random.org/widgets/integers/iframe.php?title=Wild+Magic+Roller&amp;buttontxt=Generate&amp;width=160&amp;height=200&amp;border=on&amp;bgcolor=%23FFFFFF&amp;txtcolor=%23777777&amp;altbgcolor=%23CCCCFF&amp;alttxtcolor=%23000000&amp;defaultmin=1&amp;defaultmax=100&amp;fixed=on" frameborder="0" width="160" height="200" scrolling="no" longdesc="https://www.random.org/integers/">
+The numbers generated by this widget come from RANDOM.ORG's true random number generator.
+</iframe>
+[[/html]]
+[[/div]]
+
+||~ d% ||~ Effect ||
+|| 1 || One item per 5 caster levels within close range of the caster is drained of all charges ||
+|| 2 || Wireless signals cease to function anywhere within close range of the caster for 1d4 rounds. ||
+|| 3 || The hosts of all of the caster’s sprites (and their wielders) are staggered for 1d4 rounds (Fortitude save negates) ||
+|| 4 || Every printer, replicator, or other device capable of creating objects or images within close range of the caster begins repeatedly creating images of the caster for 1d4 minutes ||
+|| 5 || All cybernetics within close range of the caster cease functioning for 1d4 rounds (Fortitude save negates). Constructs are not immune to this effect. ||
+|| 6 || Systems lock up, increasing the DCs of any Disable Device checks attempted on objects within close range of the caster by 5 for 1 round. ||
+|| 7 || Loud music begins playing from every device within close range of the caster capable of making noise. ||
+|| 8 || The hosts of all of the caster’s sprites have their movement speeds doubled for 1 round. ||
+|| 9 || The hosts of all of the caster’s sprites cannot attack or be used to attack for 1 round. ||
+|| 10 || All of the caster’s wielded equipment is drained of all charges. ||
+|| 11 || The hosts of all of the caster’s sprites consume twice as many charges with every use for 1 minute. ||
+|| 12 || The hosts of all of the caster’s sprites are only capable of understanding and speaking a single language that the caster knows (chosen at random) for 1 minute. ||
+|| 13 || All electrical lighting within close range of the caster shuts off for 1d4 rounds. ||
+|| 14 || The hosts of all of the caster’s sprites (and anyone wielding them) are repelled from the caster’s square as per a bull rush combat maneuver, using the caster’s MSB + their casting ability score modifier in place of their CMB. ||
+|| 15 || All hosts of the caster’s sprites cause their hosts to shift operating systems, causing all actions that the host takes or that it is utilized for to have a 25% chance of not occurring for 1 round. ||
+|| 16 || All hosts of the caster’s sprites cause their hosts to start leaking fluid, forcing the hosts and their wielders to succeed at a Fortitude save or become sickened for 1d4 rounds. Constructs are not immune to this effect. ||
+|| 17 || One unattended object of Diminutive size or smaller per caster level within close range of the caster becomes animated as per the Animate Object talent of the Enhancement sphere for 1 minute. This object is neutral toward the caster and attempts to flee any conflict, but otherwise meanders aimlessly. The size affected increases by one category per 5 caster levels. ||
+|| 18 || All wireless communicators within close range of the caster begin receiving a constant stream of random visual and auditory messages, becoming nonfunctional for 1d4 rounds. ||
+|| 19 || Everyone within close range of the caster can hear any wirelessly communicated audio transmitted through this range. ||
+|| 20 || The hosts of all the caster’s sprites make an attack against a random target in reach (in the case of a weapon host, use the wielder’s base attack bonus). ||
+|| 21 || The hosts of all of the caster’s sprites shine light as a torch for 1 minute. ||
+|| 22 || All computers within close range of the caster become nonfunctional for 1d4 rounds. ||
+|| 23 || All technological equipment within close range becomes uncooperative for 1 round, requiring anyone who tries to activate them to succeed at a Craft (mechanical) check in order to use it (DC equal to your MSD). ||
+|| 24 || The host of one of the caster’s sprites begins making a horribly grating noise, causing all creatures within close range to be deafened for 1d4 rounds unless they succeed at a Fortitude save. Constructs are not immune to this effect. ||
+|| 25 || The host of one of the caster’s sprites becomes sapient and gains mental ability scores equal to the caster’s mental ability scores. Unless it is a creature, it cannot take actions, but is capable of communicating telepathically with the caster so long as it remains the host for at least one of the caster’s sprites. The host remains sapient until the sprite expires. ||
+|| 26 || Random parts start flying off the hosts of the caster’s sprites, dealing 1d6 piercing, slashing, and bludgeoning damage per 2 caster levels to the target (Fortitude save half) and to all creatures within 30 feet of the host (Reflex save half). ||
+|| 27 || Every electronically locked door, helmet, or other opening within close range immediately opens. ||
+|| 28 || The hosts of the caster’s sprites lose all data stored on it (including memory) for one hour. ||
+|| 29 || The hosts of the caster’s sprites become incredibly magnetic, pulling all metal objects within close range (as well as any creatures wearing them) towards them as per a drag combat maneuver using your MSB + your casting ability score modifier in place of CMB. Targets within range wielding metal weapons are subject to a disarm check using this same modifier. ||
+|| 30 || All hosts of the caster’s sprites are countered by the caster as if the caster possessed the Counterspell and Harmonic Counter feats. ||
+|| 31 || All hosts of the caster’s sprites deal maximum damage on their next attack (or attacks made with them). ||
+|| 32 ||One of the caster’s sprites appears in every potential host in close range which does not contain a sprite. ||
+|| 33 || The caster is fatigued. ||
+|| 34 || All technological devices within close range shut down for one round before restarting. Targets and their wielders are allowed a Fortitude saving throw to prevent this. ||
+|| 35 || All cybertech within close range increase any bonuses they grant by 2 for 1d4 rounds. ||
+|| 36 || All technological items within close range of the caster replenish all of their charges. ||
+|| 37 || All intelligent constructs and AIs within close range become hostile to the caster for 1d4 minutes. ||
+|| 38 || All intelligence constructs and AIs within close range become friendly to the caster for 1d4 minutes. ||
+|| 39 || The caster is dazed for 1 round. ||
+|| 40 || Effect receives a -4 penalty to caster level (minimum 1). ||
+|| 41 || All hosts of the caster’s sprites do not consume charges when used for 1 round. ||
+|| 42 || One item which is the host for the caster’s sprites replenishes all of its charges every round for 1 minute per caster level, after which is nonfunctional for 10 minutes per caster level. ||
+|| 43 || A shockwave deals 1 point of electricity damage per caster to all creatures within close range of the caster (Fortitude save half). ||
+|| 44 || All vehicles within close range start to swerve out of control, forcing their drivers or pilots to attempt a Ride, Fly, or Profession check against your MSD or cause their vehicle to move its maximum movement speed in a random direction (skill check depends on the vehicle in question). ||
+|| 45 || The caster’s sprites all execute the Boost program before the effect is resolved. ||
+|| 46 || The casting time decreases by 2 steps. ||
+|| 47 || The next time the caster takes damage before the start of their next turn, they also lose a total number of charges from their equipment equal to the damage taken (allocated as the caster wishes). ||
+|| 48 || On its next turn (or on its wielder’s next turn) every host containing one of the caster’s sprites must perform the same action that it performed in the previous round (Will save negates). ||
+|| 49 || The caster’s sprites cause their hosts to arc with electricity, dealing 1d6 electricity damage for every 3 caster levels to their hosts and anyone touching them (Reflex save for half damage). ||
+|| 50 || The next time the target takes damage, they also lose a total number of charges from their equipment equal to the damage taken (allocated as the caster wishes). ||
+|| 51 || One data storage device within close range copies and transmits all of its data to all other storage devices within close range.
+ ||
+|| 52 || The caster’s sprites all execute the Boost program before the effect is resolved. ||
+|| 53 || The location of the caster immediately shows up on every visual display within 1 mile. ||
+|| 54 || The caster is nauseated for 1 round. ||
+|| 55 || The caster’s sprites all execute the Obstruct program before the effect is resolved. ||
+|| 56 || All hosts of the caster’s sprites deal minimum damage on their next attack (or attacks made with them). ||
+|| 57 || The casting time increases by 1 step. ||
+|| 58 || All recording devices within close range shut down for 1d4 rounds. This also causes constructs to become blinded and deafened unless they succeed at a Fortitude saving throw. Characters with artificial eyes, ears, or brains are affected as if they were constructs. ||
+|| 59 || Every electronically locked door, helmet, or other opening within close range immediately shuts. ||
+|| 60 || All hosts of the caster’s sprites cannot be used for any purpose that would spend charges for 1d4 rounds. ||
+|| 61 || The caster’s sprites move to random hosts within range, with the caster being unable to determine the location of a sprite until it executes a program. ||
+|| 62 || All technological items within close range of the caster gain 1d6 charges, with charges in excess of the maximum being dispersed. ||
+|| 63 || The caster’s sprites all execute the Sabotage program before the effect is resolved. ||
+|| 64 || The caster gains knowledge of one talent of his choice from this sphere for 1 round. ||
+|| 65 || The caster’s sprites rapidly cool their hosts, dealing 1d6 cold damage for every 3 caster levels to their hosts and anyone touching them. ||
+|| 66 || Security systems on all technological items are scrambled, disabling any locks or encryptions on them for 1d4 minutes. ||
+|| 67 || The caster’s sprites all execute the Power program before the effect is resolved. ||
+|| 68 || Roll twice and take both results. Ignore any results that require rerolls. If both rolls are ignored, there is no effect. ||
+|| 69 || All hosts for the caster’s sprites began vibrating uncontrollably, taking a -2 penalty on attack rolls and AC for 1d4 rounds (or applying such a penalty to their wielder) for 1d6 rounds. ||
+|| 70 || The caster becomes incredibly magnetic, pulling all metal objects within close range (as well as any creatures wearing them) towards it as per a drag combat maneuver using their MSB + their casting ability score modifier in place of CMB. Targets within range wielding metal weapons are subject to a disarm check using the same modifier. ||
+|| 71 || Roll again. If the resulting effect would be centered on the caster, it is instead centered on a random location they are familiar with. ||
+|| 72 || The effect fails and the action is lost. Spell points or spell slots are not lost. ||
+|| 73 || All vehicles and mechs in close range shut down, becoming unable to move for 1 round per caster level. ||
+|| 74 || Any of the caster’s active sprites immediately consume themselves and vanish. ||
+|| 75 || The caster’s surface thoughts are broadcasted on all screens within close range for 1 minute per caster level. ||
+|| 76 || The caster’s sprites all execute the Drain program before the effect is resolved. ||
+|| 77 || The caster is exhausted. ||
+|| 78 || The casting time decreases by 1 step. ||
+|| 79 || The numerical readouts on all electronic measuring devices within medium range of the caster are multiplied by 12 for 1 minute per caster level. ||
+|| 80 || The casting time increases by 2 steps. ||
+|| 81 || All technological items within close range of the caster gain 1d6 charges. If an item would gain charges in excess of its maximum, it causes an explosion which deals 1d6 fire damage per 2 caster levels to every creature within 10 feet of the item (Reflex save half). ||
+|| 82 || The caster’s sprites heat up their hosts, dealing 1d6 fire damage for every 3 caster levels to their hosts and anyone touching them (Fortitude save for half damage). ||
+|| 83 || Any noise the caster makes is broadcasted through all devices within close range of them for 1 minute per caster level. ||
+|| 84 || The caster is stunned for 1 round. ||
+|| 85 || The effect fails, but the action is not lost. Spell points or spell slots spent are lost. ||
+|| 86 || All technological items within close range of the caster are countered by the caster as if the caster possessed the Counterspell and Harmonic Counter* feats.||
+|| 87 || Effect receives a +2 bonus to caster level. ||
+|| 88 || Roll twice and choose the result. Ignore any results that require rerolls. If both rolls are thus ignored, there is no effect. ||
+|| 89 || All creatures within close range of the caster gain the ability to see the flow of electricity, causing creatures wearing technological armor to gain concealment against affected creatures for 1 minute but granting affected creatures a +5 bonus on Disable Device and Knowledge (engineering) checks. ||
+|| 90 || The hosts of the caster’s sprites are treated as rolling a natural 1 on the next attack roll they make (or that is made with them). ||
+|| 91 || Cheery imagery and upbeat music flood every electronic device within close range, granting all creatures who observe them a +1 morale bonus on the next d20 roll they make before the end of the caster’s next turn. ||
+|| 92 || The caster’s sprites each execute a random program which they are capable of executing. ||
+|| 93 || All data storage devices within close range of the caster randomly exchange all data on them. ||
+|| 94 || The hosts of all of the caster’s sprites change color depending on how many sprites are within them (red if 1, blue if 2, yellow if 3, green if 4 or more). ||
+|| 95 || Roll again on the Universal wild magic table^^WM^^. ||
+|| 96 || The contents of all data storage devices within close range are copied and sent out wirelessly in all directions, arriving in all other storage devices within medium range. The capacity of all data storage devices to hold this data is magically increased for 1 hour per caster level, after which random data is deleted to bring each storage device down to normal capacity. ||
+|| 97 || Strange and grotesque visuals flood every electronic device within close range, forcing all creatures that look at them to become shaken unless they succeed at a Will save. ||
+|| 98 || The caster loses access to this sphere for 1d6 rounds. ||
+|| 99 || Roll again, increasing the range of the effect from close to medium ||
+|| 100 || For 1 hour, the caster gains the ability to perceive the inner workings of all machinery around them, giving them a +10 bonus on Craft (mechanical), Disable Device, and Knowledge (engineering) checks. ||
 [[/tab]]
 [[tab Spheres of Influence]]
 [[toc]]
