@@ -437,126 +437,126 @@ $9.99
 
 You may create magical programs which can alter the functions of technology. Constructs and objects are not immune to the effects of this sphere even if the effects require a Fortitude saving throw.
 
-++ Sprite
+++* Sprite
 As a standard action, you may generate a technomagical entity known as a “sprite” inside a construct or technological item within close range (hereafter referred to as a host). A sprite lasts as long as you concentrate, although you may always spend a spell point to allow a sprite to persist for 1 minute per caster level without concentration. While a sprite exists within a host, you may have it execute one of the following actions (known as programs) once per round
 
-++++ Drain (program)
+++++* Drain (program)
 The sprite siphons power from its host, depleting 1 charge if it is an item. The host or the host’s wielder may attempt a fortitude save (DC 10 + 1/2 caster level + casting ability modifier) to negate the effect. If the host is a construct, it instead takes a -1 penalty on attack and damage rolls for one round, although it may also attempt a fortitude save to negate this penalty. The penalty and number of charges drained increase by 1 for every 5 caster levels possessed.
 
-+++++ Technomancy and Spell Engines
++++++* Technomancy and Spell Engines
 If a character capable of draining charges from wands or other items with the technomancy sphere uses such abilities on a spell engine, the spell engine loses one spell point for every charge that would be drained from it.
 
-++++ Interfere (program)
+++++* Interfere (program)
 Rather than executing a program, a sprite can negate the action of another sprite inhabiting the same host. A sprite can take this action even if it is not your turn, but if it chooses to interfere on an action it cannot take any other actions (including trying to interfere with other sprite actions beyond the first) this turn. If you have a sprite in a host, you are automatically aware of all other sprites within the host
 
-++++ Power (program)
+++++* Power (program)
 The sprite generates a modicum of electricity, granting the host a single charge if it is an item. If the host is a construct, the host gains a +1 bonus on attack rolls and damage rolls for 1 round. The number of granted charges as well as the bonus to attack and damage rolls increase by 1 for every 5 caster levels possessed.
 
-++++ Transfer (program)
+++++* Transfer (program)
 The sprite moves from whatever host it currently inhabits to another host within close range. Talents marked with (program) grant your sprites a new program which they are capable of using each round.
 
 ----
 
-++ Technomancy Talents
+++* Technomancy Talents
 [[div style="padding: 0 10px; border: 1px solid black; margin-top: 5px"]]
-++++ Charge Vampirism
+++++* Charge Vampirism
 Whenever a sprite uses Drain, one of your sprites increases the number of charges granted by their next use of Power by the number of charges depleted with Drain. The effects of this talent do not stack with themself, and the additional charges are lost if none of your sprites use Power within 1 round of a sprite using Drain.
 [[/div]]
 [[div style="padding: 0 10px; border: 1px solid black; margin-top: 5px"]]
-++++ Compound Hacking [ACS:SLB]
+++++* Compound Hacking [ACS:SLB]
 Whenever you have multiple sprites inside the same host, the sprites can work together to execute the same program. For every sprite beyond the first “aiding” a program, your caster level for the program is treated as 2 higher for the purpose of determining the effects and save DC of the programs.
 [[/div]]
 [[div style="padding: 0 10px; border: 1px solid black; margin-top: 5px"]]
-++++ Concealed Sprite
+++++* Concealed Sprite
 Your sprites are not immediately noticeable to other sprites. When a sprite enters a host, you may roll an MSB check and apply that check to the creators of all other sprites in the host. On a success, these other casters are not aware of your sprite. Whenever your sprite executes a program, all other casters with sprites in the host are allowed an MSB check against you to become aware of your sprite after it executes its program.
 [[/div]]
 [[div style="padding: 0 10px; border: 1px solid black; margin-top: 5px"]]
-++++ Copious Charge
+++++* Copious Charge
 When one of your sprites uses Drain or Power, you may spend a spell point to increase the number of charges drained or granted to by amount equal to your caster level. A successful saving throw halves the number of charges drained rather than negating the effect.
 [[/div]]
 [[div style="padding: 0 10px; border: 1px solid black; margin-top: 5px"]]
-++++ Distance Transfer
+++++* Distance Transfer
 When using transfer or creating a sprite, a sprite can enter a host within Medium range. If you spend a spell point, it can move to a host within long range.
 [[/div]]
 [[div style="padding: 0 10px; border: 1px solid black; margin-top: 5px"]]
-++++ Gregarious Sprite
+++++* Gregarious Sprite
 A sprite may Interfere once per round while still being able to execute a program, or may interfere twice per round rather than executing a program. If you spend a spell point, a sprite may interfere any number of times in a round for 1 round but is unable to execute any other programs.
 [[/div]]
 [[div style="padding: 0 10px; border: 1px solid black; margin-top: 5px"]]
-++++ Lingering Sprite [ACS:SLB]
+++++* Lingering Sprite [ACS:SLB]
 If you spend a spell point to allow a sprite to persist, it lasts for 1 hour per caster level rather than 1 minute.
 [[/div]]
 [[div style="padding: 0 10px; border: 1px solid black; margin-top: 5px"]]
-++++ Persistent Sprite
+++++* Persistent Sprite
 When you create a sprite, the sprite remains for 2 rounds after you stop concentrating.
 [[/div]]
 [[div style="padding: 0 10px; border: 1px solid black; margin-top: 5px"]]
-++++ Rapid Transfer
+++++* Rapid Transfer
 When a sprite uses Transfer, it can execute another program during the same turn
 [[/div]]
 [[div style="padding: 0 10px; border: 1px solid black; margin-top: 5px"]]
-++++ Reactive Sprites
+++++* Reactive Sprites
 Whenever a host is destroyed, you can spend a spell point to have any sprites within move to other hosts within range.
 [[/div]]
 [[div style="padding: 0 10px; border: 1px solid black; margin-top: 5px"]]
-++++ Slicer’s Strike [strike] [ACS:SLB]
+++++* Slicer’s Strike [strike] [ACS:SLB]
 You may create and deliver sprites via a melee touch attack. As a standard action, you may make a single weapon attack in conjunction with generating a sprite. This casting cannot be reduced below a standard action, and does not provoke attacks of opportunity, unless as usual if making a ranged attack. If the target is struck by the attack, the sprite enters the target (so long as the target is a legal target for the sprite). If using a scatter weapon, the word only applies to a single target, chosen at the time of attack.
 [[/div]]
 [[div style="padding: 0 10px; border: 1px solid black; margin-top: 5px"]]
-++++ Sprite Legion [mass]
+++++* Sprite Legion [mass]
 When creating a sprite, you may create 2 additional sprites for every spell point you spend. All hosts for these sprites must be within range, but each sprite can inhabit different hosts and execute different programs each round.
 
 When you concentrate or spend a spell point to maintain any of the sprites created as part of a single instance of sprite generation, you maintain only one of them. Multiple spell points can be spent in order to maintain multiple sprites, however.
 [[/div]]
 [[div style="padding: 0 10px; border: 1px solid black; margin-top: 5px"]]
-++++ Sprite Sustenance [ACS:SLB]
+++++* Sprite Sustenance [ACS:SLB]
 The host of any of your sprites consumes charges at half the normal rate (rounded up). For example, an item that would lose a charge every minute would instead lose a charge every 2 minutes, or a weapon which drains 5 charges with each attack would only drain 3. If the host is a creature, it gains a +1 insight bonus on saving throws, +1 for every 5 caster levels you possess.
 [[/div]]
 [[div style="padding: 0 10px; border: 1px solid black; margin-top: 5px"]]
-++++ Sprite Triangulation
+++++* Sprite Triangulation
 You automatically know the locations of all of your sprites’ hosts. Any host or host wielder you cannot see still has total concealment (50% miss chance) against you, and you still suffer the normal miss chance when attacking targets that have concealment. You are still denied your Dexterity bonus to her AC against attacks from hosts and host wielders you cannot see.
 [[/div]]
 [[div style="padding: 0 10px; border: 1px solid black; margin-top: 5px"]]
-++++ Tenacious Sprite
+++++* Tenacious Sprite
 When an enemy sprite attempts to Interfere with your sprites’ actions, roll an MSB check against the caster of the enemy sprite. On a success, their sprite fails to interfere with yours.
 [[/div]]
 ----
-++ Program Talents
+++* Program Talents
 [[div style="padding: 0 10px; border: 1px solid black; margin-top: 5px"]]
-++++ Analyze (program)
+++++* Analyze (program)
 The sprite evaluates its host, searching for patterns and weaknesses. You gain a bonus on all skill checks made to interact with the host equal to half your caster level (minimum 1) for 1 round. For a construct host, this could mean bonuses to bluff and acrobatics checks against the creature. For an item host, this could mean bonuses to Engineering checks made to repair it or Computers checks to hack it.
 [[/div]]
 [[div style="padding: 0 10px; border: 1px solid black; margin-top: 5px"]]
-++++ Boost (program)
+++++* Boost (program)
 The sprite may cause all attacks made using the host or made by the host to deal 1d6 additional points of damage for one round. This bonus damage increases by 1d6 for every 5 caster levels you possess.
 [[/div]]
 [[div style="padding: 0 10px; border: 1px solid black; margin-top: 5px"]]
-++++ Broadcast (program) [ACS:SLB]
+++++* Broadcast (program) [ACS:SLB]
 The sprite overwrites digital projections of light and sound for 1 round, replacing anything that the host would project or recieve. If you target an object, you may have the object project whatever lights and sounds it is normally capable of creating at your discretion, save that the item projects whatever images and sounds you desire (including no image or sound). A creature can make an Engineering or Knowledge (engineering) check to realize that the broadcast is being magically tampered with, with a DC equal to your MSD. If two or more casters are trying to control the same broadcasting item, they make opposed MSB checks, the highest result taking control.
 
 If the host is a creature that is targeted with this program, it must make a Will save against this effect. On a failure, it’s auditory and visual displays (including those from senses such as blindsight) display whatever you want them to display for 1 round (treat these as illusions that only the affected creature can see). Alternatively, you may choose to make the creature blinded and deafened for 1 round.
 [[/div]]
 [[div style="padding: 0 10px; border: 1px solid black; margin-top: 5px"]]
-++++ Consume Sprite (program)
+++++* Consume Sprite (program)
 When one of your sprites is inhabiting the same host as a sprite created by another caster, it may attempt to consume this sprite. Roll an MSB check and apply that check to the creator of the targeted sprite. On a success, their sprite is destroyed. If you spend a spell point, the sprite may attempt to consume as many other sprites in its host as you wish, in which case you roll an MSB check and eliminate the sprites of every caster you succeed against.
 [[/div]]
 [[div style="padding: 0 10px; border: 1px solid black; margin-top: 5px"]]
-++++ Control (program) [ACS:SLB]
+++++* Control (program) [ACS:SLB]
 You manipulate the host as if you had affected it with the remote control tech sphere gadget. The saving throw DC is equal to the DC of your technomancy sphere abilities. If the item is not a gadget, consult the tech sphere for possible examples of what effects might occur if it is manipulated in this way (for example, mechanical arms may be affected as per the additional arms gadget of the tech sphere).
 [[/div]]
 [[div style="padding: 0 10px; border: 1px solid black; margin-top: 5px"]]
-++++ Digital Perception (program) [ACS:SLB]
+++++* Digital Perception (program) [ACS:SLB]
 You gain sensory feedback from the sprite host. You can see, hear, and perceive anything that your host could for one round. This typically includes all of the senses of a construct if it is serving as your host, or mechanisms such as audio recording devices, cameras, or computerized scopes in the case of item hosts. A host or its wielder is allowed a will save to negate this effect.
 [[/div]]
 [[div style="padding: 0 10px; border: 1px solid black; margin-top: 5px"]]
-++++ Disable (program) [ACS:SLB]
+++++* Disable (program) [ACS:SLB]
 The sprite’s host becomes the disrupted condition for one round. The host or its wielder is allowed a fortitude save to negate this effect. Constructs are not immune to this effect.
 [[/div]]
 [[div style="padding: 0 10px; border: 1px solid black; margin-top: 5px"]]
-++++ Glitch Manipulation (program) [ACS:SLB]
+++++* Glitch Manipulation (program) [ACS:SLB]
 You may treat a sprite host as if it were timeworn, causing it to trigger glitches for one round (roll on the Glitch table appropriate to the host to determine the effect of the glitch). If the host is already timeworn, you may treat it as if it wasn’t timeworn for 1 round (if a sprite attempts to add or remove the timeworn condition imposed by another sprite, the caster must make an MSB check opposed by the MSD of the original sprite’s caster). When the glitch table is rolled for your sprite host, you may spend a spell point as an immediate action to choose the result of the glitch rather than rolling randomly (if multiple casters attempt this on the same item, they roll opposed MSB checks, with the highest result choosing the glitch result).
 
-+++++ Table: Armor Glitches
++++++* Table: Armor Glitches
 Glitching armor that loses its ability to function still provides its normal armor bonus to AC, but any charged abilities are suppressed.
 
 ||~ d% ||~ Glitch ||
@@ -571,7 +571,7 @@ Glitching armor that loses its ability to function still provides its normal arm
 || 91–98 || Armor functions normally; no charges are consumed by this use. ||
 || 99–100 || Armor functions normally and a power surge restores 1d6 charges to the item (up to but not exceeding its capacity). ||
 
-+++++ Table: Construct Glitches
++++++* Table: Construct Glitches
 These glitches should be rolled at the beginning of the construct’s turn each round.
 ||~ d% ||~ Glitch ||
 || 01–02 || Construct is reduced to half its current hit points (minimum 1) ||
@@ -585,7 +585,7 @@ These glitches should be rolled at the beginning of the construct’s turn each 
 || 91–98 || Construct maximizes all damage rolls that it makes this round ||
 || 99–100 || Construct gains temporary hit points equal to 4 times its CR. These temporary hit points last for 1 minute and do not stack with other forms of temporary hit points. ||
 
-+++++ Table: General Glitches
++++++* Table: General Glitches
 ||~ d% ||~ Glitch ||
 || 01–02 || Item does not function. All remaining charges are drained. ||
 || 03–05 || Item does not function, but still consumes the normal number of charges. ||
@@ -598,7 +598,7 @@ These glitches should be rolled at the beginning of the construct’s turn each 
 || 91–98 || Item functions normally and this use does not consume any charges. ||
 || 99–100 || Item functions normally and a power surge restores 1d6 charges to the item. ||
 
-+++++ Table: Pharmaceutical Glitches
++++++* Table: Pharmaceutical Glitches
 These glitches also apply to drugs and medical gear.
 ||~ d% ||~ Glitch ||
 || 01–02 || Spoiled. Treat as poisoning by dark reaver powder. ||
@@ -613,7 +613,7 @@ These glitches also apply to drugs and medical gear.
 || 86–95 || More potent. Increase any save DCs by 2. Reroll any result of 1. Increase durations by 100%. ||
 || 96–100 || Far more potent. As above, but treat as 2 doses. ||
 
-+++++ Table: Weapon Glitches
++++++* Table: Weapon Glitches
 These glitches are triggered every time an attack is made with the weapon.
 ||~ d% ||~ Glitch ||
 || 01–02 || Weapon does not function. All remaining charges are drained. ||
@@ -628,28 +628,28 @@ These glitches are triggered every time an attack is made with the weapon.
 || 99–100 || Weapon functions normally, and a power surge restores 1d6 charges to the item (up to but not exceeding its capacity). ||
 [[/div]]
 [[div style="padding: 0 10px; border: 1px solid black; margin-top: 5px"]]
-++++ Malfunction (program)
+++++* Malfunction (program)
 The sprite attempts to block the functions of its host. If the host is a technological item, it ceases to function for 1 round (as if it had no charges). If the host is a construct, it becomes dazed for 1 round. A successful fortitude save (DC 10 + 1/2 caster level + casting ability modifier) by the host or its wielder negates this effect. If you spend a spell point, an item host and its wielder are not allowed a save and a construct host is still staggered for 1 round on a successful save.
 [[/div]]
 [[div style="padding: 0 10px; border: 1px solid black; margin-top: 5px"]]
-++++ Obstruct (program)
+++++* Obstruct (program)
 The sprite sets up a barrier against other sprites attempting to enter for 1 round. When another sprite attempts to enter a host with a barrier, attempt an MSB check against the caster of that sprite. On a success, the sprite fails to enter the host and returns to its previous host (if the sprite did not have a previous host, it is instead destroyed)
 [[/div]]
 [[div style="padding: 0 10px; border: 1px solid black; margin-top: 5px"]]
-++++ Sabotage (program)
+++++* Sabotage (program)
 The sprite causes a series of mishaps inside its host, damaging it. The host takes 1d6 points of damage per 2 caster levels, with a successful fortitude save (DC 10 + 1/2 caster level + casting ability modifier) by the host or its wielder negating the damage. If you spend a spell point, the host instead takes 1d6 points of damage per caster level and still takes half damage on a successful saving throw.
 [[/div]]
 ----
-++ Alternate Divination
+++* Alternate Divination
 If a character possesses both the divination and technomancy spheres, they may divine for the following information
 [[div style="padding: 0 10px; border: 1px solid black; margin-top: 5px"]]
-++++ Divine Techonology
+++++* Divine Techonology
 You may divine the presence of advanced technologies or technological creatures. If divining technology, you detect the location of all technological equipment within medium range as well how many sprites are contained within each object. If divining for technological creatures, the ability functions as divine undead, save that rather than undead it divines technological constructs and creatures with cybernetic enhancements.
 [[/div]]
 ----
-++ Incanter Sphere Specialization
+++* Incanter Sphere Specialization
 [[div style="padding: 0 10px; border: 1px solid black; margin-top: 5px"]]
-++++ Technomancy
+++++* Technomancy
 **Warning Sprite (Su):** At 1st level, you gain a +1 insight bonus to AC against attacks made by any creature or any weapon that is a host for your sprites. This bonus increases by 1 at 5th level and ever 5 levels thereafter, to a maximum of +5 at 20th level.
 
 **Irrepressible Sprites (Su):** At 3rd level, your sprites become more difficult to interfere with. Whenever a sprite would interfere with the function of one of your sprites, you may attempt a magic skill bonus check against the MSD of the creator of the interfering sprite. On a success, the sprite cannot interfere with your sprite’s action. At 20th level, you automatically succeed at these checks.
@@ -657,17 +657,17 @@ You may divine the presence of advanced technologies or technological creatures.
 **Unified Energy (Su):** At 8th level, you gain the ability to power your sphere abilities. As part of using an ability that would require the expenditure of spell points, you may substitute charges from a technological item you are holding for spell points at a rate of 5 charges per spell point. Charges bestowed upon an item as a result of a sphere ability cannot be used for this ability. The unified energy ability does not function with charges taken from items of the Tech sphere.
 [[/div]]
 ----
-++ Prodigy Imbue Sequence
+++* Prodigy Imbue Sequence
 [[div style="padding: 0 10px; border: 1px solid black; margin-top: 5px"]]
-++++ Technomancy
+++++* Technomancy
 **Program Slice (imbue):** Every time the prodigy hits with an attack, she may generate a single sprite which enters the target or one of the target’s pieces of equipment. This sprite lasts until the combo is finished and cannot transfer to another host.
 
 **System Overload (finish):** As a standard action, the prodigy may generate a number of sprites equal to the number of links in her sequence. These sprites last for one round and cannot be concentrated on.
 [[/div]]
 ----
-+ Technomancy Advanced Talents
++* Technomancy Advanced Talents
 [[div style="padding: 0 10px; border: 1px solid black; margin-top: 5px"]]
-++++ AI Transformation
+++++* AI Transformation
 **Prerequisite:** Technomancy sphere, 10th caster level or higher
 
 In a process which takes 1 hour and 2 spell points, a willing creature’s psyche, with all of the abilities and experiences that it contains, is transformed into an artificial intelligence and encoded into a storage device. Such a device, such as a compact AI core or robot which your artificial intelligence will inhabit, must be present at the time of casting, as must be the creature from which you are copying the information. An unwilling robot is allowed a will save (DC 10 + 1/2 caster level + casting ability modifier) to avoid being taken over by the new AI.
@@ -679,7 +679,7 @@ Like most AIs, those created by this power lack a physical composition, and cann
 Once the transfer is completed, the original creature’s mind ceases to function. The creature cannot be raised or resurrected so long as the AI created by this power exists.
 [[/div]]
 [[div style="padding: 0 10px; border: 1px solid black; margin-top: 5px"]]
-++++ AI Transformation, Greater
+++++* AI Transformation, Greater
 **Prerequisite:** Technomancy sphere, AI Transformation, 15th caster level or higher
 
 When using AI Transformation, you may alter its effects in the following ways:
@@ -688,70 +688,70 @@ When using AI Transformation, you may alter its effects in the following ways:
 * If you spend 1 additional spell point, you can create an AI inside a host which already has an AI within it, effectively merging the two AIs into a single consciousness. The composite AI has the higher of the two Intelligence, Wisdom, and Charisma scores of its component AIs, and retains the special abilities of both. Either AI can attempt a will save (DC 10 + 1/2 caster level + casting ability modifier) to negate the merging
 [[/div]]
 [[div style="padding: 0 10px; border: 1px solid black; margin-top: 5px"]]
-++++ Autopilot (program)
+++++* Autopilot (program)
 **Prerequisite:** Technomancy Sphere, 10th caster level or higher
 
 The sprite gains the ability to control a mech or vehicle that is its host. The sprite causes the mech or vehicle to perform a single standard or move action. If two sprites are operating inside the host, they can operate together to cause the host to perform a full round’s worth of actions (including a full attack). If the vehicle or mech is being controlled by another, they are allowed a reflex save (DC 10 + 1/2 caster level + casting ability modifier) to negate the forced action.
 [[/div]]
 [[div style="padding: 0 10px; border: 1px solid black; margin-top: 5px"]]
-++++ Eternal Sprite
+++++* Eternal Sprite
 **Prerequisite:** Technomancy sphere, Persistent Sprite, 10th caster level or higher.
 
 When creating a sprite, you may spend 2 spell points to increase its duration to permanent.
 [[/div]]
 [[div style="padding: 0 10px; border: 1px solid black; margin-top: 5px"]]
-++++ Expel AI (program)
+++++* Expel AI (program)
 **Prerequisite:** Technomancy sphere, Consume Sprite, 10th caster level or higher.
 
 The sprite attempts to force an AI out of their shared host. The AI must succeed at a will save (DC 10 + 1/2 caster level + casting ability modifier) or else be forced out of the host. If there are any other potential hosts for the AI within medium range, the AI may attempt to enter them as normal. If the AI cannot enter any host, it is destroyed. This program requires the caster to spend a spell point
 [[/div]]
 [[div style="padding: 0 10px; border: 1px solid black; margin-top: 5px"]]
-++++ Relic Manipulation [ACS:SLB]
+++++* Relic Manipulation [ACS:SLB]
 You may treat non-technological magic items as if they were technological items for the purpose of affecting them with sprites and technomancy talents.
 [[/div]]
 [[div style="padding: 0 10px; border: 1px solid black; margin-top: 5px"]]
-++++ Technomantic Astronavigation [ACS:SLB]
+++++* Technomantic Astronavigation [ACS:SLB]
 You are able to utilize your sprites to benefit your starship in starship combat. By spending a spell point, you may either increase the bonus granted by your starship computer on all checks by 1 or allow your starship computer to affect one additional roll this round. At caster level 10th, you may either increase the bonus granted by your starship computer on all checks by 2, allow your starship computer to affect two additional rolls this round, or increase the bonus granted by 1 while also allowing the computer to affect an additional roll this round.
 [[/div]]
 ----
-+ New General Drawbacks
++* New General Drawbacks
 [[div style="padding: 0 10px; border: 1px solid black; margin-top: 5px"]]
-++++ Exposed Matrix
+++++* Exposed Matrix
 Your magic takes the form of visible constructs around your body which can be targeted for attack. For every spell you have active, a matrix of energy forms somewhere on your body that has a number of hit points equal to your caster level and can be targeted by sunder attempts. A creature can identify the spell effects corresponding to each matrix with a successful spellcraft check (DC 10 + 1/2 your caster level). If a matrix is sundered, the corresponding spell effect immediately ends.
 [[/div]]
 [[div style="padding: 0 10px; border: 1px solid black; margin-top: 5px"]]
-++++ Incompatible Energies
+++++* Incompatible Energies
 Your technology-fueled abilities mean that you cannot obstruct magic in the way most others can. You automatically fail at attempts made to dispel or counterspell the abilities of casters who do not possess the Techno-Miraculous boon unless you possess the Harmonic Counter feat. You must possess the Techno-Miraculous boon to select this drawback.
 [[/div]]
-+ New Casting Boons
++* New Casting Boons
 [[div style="padding: 0 10px; border: 1px solid black; margin-top: 5px"]]
-++++ Techno-Miraculous
+++++* Techno-Miraculous
 Your abilities are not grounded in the volatile whims of magic but rather in a separate but similarly-powerful realm of physical laws. Those who do not understand the mechanics of your powers are helpless to resist them. Casters automatically fail any attempts to counterspell or dispel your abilities unless they possess this boon, the Technomancy sphere, or the Harmonic Counter feat.
 [[/div]]
 
-+ New Sphere-Specific Drawbacks
++* New Sphere-Specific Drawbacks
 [[div style="padding: 0 10px; border: 1px solid black; margin-top: 5px"]]
-++++ Machine Gremlin [ACS:SLB]
+++++* Machine Gremlin [ACS:SLB]
 Your sprites cannot be used to enhance machinery. You cannot use the power program with your sprites.
 [[/div]]
 [[div style="padding: 0 10px; border: 1px solid black; margin-top: 5px"]]
-++++ Outmoded Encroachment [ACS:SLB]
+++++* Outmoded Encroachment [ACS:SLB]
 The hazardous effects of your sprites are stopped by commonplace countermeasures. You cannot use the drain and interfere programs with your sprites.
 [[/div]]
 [[div style="padding: 0 10px; border: 1px solid black; margin-top: 5px"]]
-++++ Relic Wielder [ACS:SLB]
+++++* Relic Wielder [ACS:SLB]
 Your ability to interfere with magical equipment does not extend to technological devices. You cannot use your Technomancy sphere abilities to affect technological items. You mus select the Relic Manipulation advanced talent with this drawback.
 [[/div]]
 [[div style="padding: 0 10px; border: 1px solid black; margin-top: 5px"]]
-++++ Singular Focus [ACS:SLB]
+++++* Singular Focus [ACS:SLB]
 Your ability to focus on your sprites is limited. You may only have one sprite in existence at a time.
 [[/div]]
 [[div style="padding: 0 10px; border: 1px solid black; margin-top: 5px"]]
-++++ Volatile Sprites [ACS:SLB]
+++++* Volatile Sprites [ACS:SLB]
 Your sprites cause machines to act erratically. Whenever someone attempts to use a piece of equipment that contains one or more of your sprites, the equipment triggers a glitch as if it was timeworn (see the tables below for timeworn technology glitches).
 [[/div]]
 ----
-+ Technomancy Talent-based Item Creation^^USOP^^
++* Technomancy Talent-based Item Creation^^USOP^^
 
 **Sprite**
 **Range:** close
@@ -764,23 +764,23 @@ Your sprites cause machines to act erratically. Whenever someone attempts to use
 * **Program:** You may add additional programs gained through (program) talents to those that the sprite can execute, increasing complexity by 1 for every program added.
 
 ----
-+ New Martial Talents
-++ Equipment Sphere
++* New Martial Talents
+++* Equipment Sphere
 [[div style="padding: 0 10px; border: 1px solid black; margin-top: 5px"]]
-++++ Heavy Weapon Training (Discipline)
+++++* Heavy Weapon Training (Discipline)
 You gain proficiency with all heavy weapons.
 [[/div]]
 ----
-+ Feats
++* Feats
 [[div style="padding: 0 10px; border: 1px solid black; margin-top: 5px"]]
-++++ Artificer’s Healing (Dual Sphere)
+++++* Artificer’s Healing (Dual Sphere)
 You restore “life” to your damaged devices
 **Prerequisites:** Life Sphere^^SOP^^, Technomancy Sphere
 
 **Benefit:** You may use any Life Sphere ability which restores hit points to a creature on broken or damaged objects, restoring hit points to them as if they were creatures. If the object has the broken condition, this condition is removed if the object is restored to at least half its original hit points. This ability cannot restore warped or transmuted items, but it can still repair damage done to such items.
 [[/div]]
 [[div style="padding: 0 10px; border: 1px solid black; margin-top: 5px"]]
-++++ Hard-Wired Sprite (Champion) [ACS:SLB]
+++++* Hard-Wired Sprite (Champion) [ACS:SLB]
 Your gadget possess of a spark of your magical affinity
 
 **Prerequisites:** Tech Sphere, Technomancy Sphere, at least one (gadget) talent
@@ -790,7 +790,7 @@ Your gadget possess of a spark of your magical affinity
 **Special:** You may take this feat multiple times. Each time, you may select an additional gadget.
 [[/div]]
 [[div style="padding: 0 10px; border: 1px solid black; margin-top: 5px"]]
-++++ Harmonic Counter
+++++* Harmonic Counter
 Miracles both magical and mechanical buckle before your might
 
 **Prerequisite:** Counterspell^^SoP^^
@@ -798,7 +798,7 @@ Miracles both magical and mechanical buckle before your might
 **Benefit:** You can attempt to use any of your Counterspell feats on technological equipment as if it were magical equipment. Treat a technological item’s MSD as if it were 11+the item’s level or the item’s craft DC -5.
 [[/div]]
 [[div style="padding: 0 10px; border: 1px solid black; margin-top: 5px"]]
-++++ Heavy Wielding
+++++* Heavy Wielding
 You’ve learned how to handle some rather impressive armaments
 
 **Prerequisites:** Strength 15
@@ -813,7 +813,7 @@ Your sprites enable you to manipulate artificial minds
 **Benefit:** You may treat any construct which is acting as a host of one of your sprites as having a living mind for the purpose of being able to affect it with your Mind Sphere abilities, ignoring their immunity to mind-affecting effects. In addition, you can place sprites in living, intelligent creatures as if they were constructs.
 [[/div]]
 [[div style="padding: 0 10px; border: 1px solid black; margin-top: 5px"]]
-++++ Sacrosanct Firewall (Dual Sphere) [ACS:SLB]
+++++* Sacrosanct Firewall (Dual Sphere) [ACS:SLB]
 
 Your magical protections shield your equipment from tampering
 
@@ -822,7 +822,7 @@ Your magical protections shield your equipment from tampering
 **Benefit:** Targets affected by your hallow word cannot have sprites enter them so long as the sprite originates from a creature who possesses your opposed alignment. If the target is already under the influence of such an effect, the target is allowed to make a Will saving throw against the sprite. Success means the sprite cannot use any programs for the duration of this word, but resumes when this word expires.
 [[/div]]
 [[div style="padding: 0 10px; border: 1px solid black; margin-top: 5px"]]
-++++ Sprite Coordination (Champion) [ACS:SLB]
+++++* Sprite Coordination (Champion) [ACS:SLB]
 
 Your sprites give you magical connection to your machines
 
@@ -831,7 +831,7 @@ Your sprites give you magical connection to your machines
 **Benefit:** You treat any of your gadgets that contain one of your sprites as if they are always within signal range.
 [[/div]]
 [[div style="padding: 0 10px; border: 1px solid black; margin-top: 5px"]]
-++++ Sprite Targeting
+++++* Sprite Targeting
 Your sprites allow you to hone in on any target [ACS:SLB]
 
 **Prerequisites:** Technomancy Sphere, MSB 10 or higher
@@ -839,10 +839,10 @@ Your sprites allow you to hone in on any target [ACS:SLB]
 **Benefit:** You may treat any host for your sprites as if was always in close range and that you always had line of sight and effect on it for the purpose of being able to target it with sphere effects.
 [[/div]]
 ----
-+ Casting Traditions
++* Casting Traditions
 The following casting traditions^^SoP^^ and mixed traditions^^CotS^^ have been implemented to accommodate some of the more unusual types of magic in advanced settings and to offer distinct flavor to the magical and martial abilities of characters of various nationalities. Note that not all characters of this nationality are required to possess these traditions, and indeed not all spellcasters or soldiers who fight in these nations’ armies will use these specific styles. Rather, many of these traditions are intended to embody the values and philosophies of these groups in times of conflict.
 [[div style="padding: 0 10px; border: 1px solid black; margin-top: 5px"]]
-++++ Akashic
+++++* Akashic
 Many traditional mages would balk at the idea of calling Akasha a form of magic, but this unique tradition of technological armament has certainly become a potent force for reshaping reality. Powered by a complex arsenal of cybernetics and a keen understanding of machinery, Akasha has become a favored weapon for those who lack the faith for magic or those who desire to found their world-manipulating abilities on a well-understood base of information.
 * **Drawbacks:** Exposed Matrix, Incompatible Energies
 * **Boons:** Techno-Miraculous
@@ -856,7 +856,7 @@ Many traditional mages would balk at the idea of calling Akasha a form of magic,
 * **Drawbacks:** Unnatural Remedy (Life)
 [[/div]]
 [[div style="padding: 0 10px; border: 1px solid black; margin-top: 5px"]]
-++++ Balyn
+++++* Balyn
 * **Martial Training:** Equipment: Mechanical Savant
 * **Scoundrel Sphere**
 * **Scout Sphere**
@@ -865,7 +865,7 @@ Many traditional mages would balk at the idea of calling Akasha a form of magic,
 * **Drawback:** Unnatural Transformation (Alteration, Cybernetics)
 [[/div]]
 [[div style="padding: 0 10px; border: 1px solid black; margin-top: 5px"]]
-++++ Cidali
+++++* Cidali
 * **Martial Training:** Equipment: Firearm Training
 * **Athletics Sphere**
 * **Scout Sphere**
@@ -874,7 +874,7 @@ Many traditional mages would balk at the idea of calling Akasha a form of magic,
 * **Boons:** Metamagic Expert
 [[/div]]
 [[div style="padding: 0 10px; border: 1px solid black; margin-top: 5px"]]
-++++ Eigenel
+++++* Eigenel
 * **Martial Training:** Equipment: Arcane Armor,
 * **Pikeman’s Training**
 * **Spear Dancer**
@@ -883,7 +883,7 @@ Many traditional mages would balk at the idea of calling Akasha a form of magic,
 * **Boons:** Fortified Casting
 [[/div]]
 [[div style="padding: 0 10px; border: 1px solid black; margin-top: 5px"]]
-++++ Estarian
+++++* Estarian
 * **Martial Training:** Equipment: Elvish Heritage
 * **Alchemy Sphere** (Formulae Package)
 * **Duelist Sphere**
@@ -892,7 +892,7 @@ Many traditional mages would balk at the idea of calling Akasha a form of magic,
 * **Boons:** Easy Focus
 [[/div]]
 [[div style="padding: 0 10px; border: 1px solid black; margin-top: 5px"]]
-++++ Freemen
+++++* Freemen
 * **Martial Training:** Equipment: Peasant Training
 * **Athletics Sphere**
 * **Barroom Sphere**
@@ -901,7 +901,7 @@ Many traditional mages would balk at the idea of calling Akasha a form of magic,
 * **Drawback:** Lycanthropic (Alteration)
 [[/div]]
 [[div style="padding: 0 10px; border: 1px solid black; margin-top: 5px"]]
-++++ Maritoni
+++++* Maritoni
 * **Martial Training:** Equipment: Armor Training x2
 * **Trap Sphere**
 * **Bonus Feats:** Spell Trap
@@ -910,19 +910,19 @@ Many traditional mages would balk at the idea of calling Akasha a form of magic,
 * **Boon:** Embodiment (undead, human, or construct)
 [[/div]]
 [[div style="padding: 0 10px; border: 1px solid black; margin-top: 5px"]]
-++++ Qlippoth Psionics
+++++* Qlippoth Psionics
 * **Drawbacks:** Magical Signs, Incompatible Energies
 * **Boons:** Techno-Miraculous
 [[/div]]
 [[div style="padding: 0 10px; border: 1px solid black; margin-top: 5px"]]
-++++ Sajac
+++++* Sajac
 * **Martial Training:** Equipment: Armor Training Firearm Training, Heavy Weapon Training
 * **Variable:** Barrage or Guardian Sphere
 * **Bonus Sphere:** War
 * **Drawbacks:** Inspirational Caster
 [[/div]]
 [[div style="padding: 0 10px; border: 1px solid black; margin-top: 5px"]]
-++++ Tauruni
+++++* Tauruni
 * **Martial Training:** Equipment: Armor Training, Heavy Weapon Training
 * **Gladiator Sphere**
 * **Variable:** Guardian Sphere or Berserker Sphere
@@ -931,7 +931,7 @@ Many traditional mages would balk at the idea of calling Akasha a form of magic,
 * **Boons:** Deathful Magic
 [[/div]]
 [[div style="padding: 0 10px; border: 1px solid black; margin-top: 5px"]]
-++++ Valtrossi
+++++* Valtrossi
 * **Martial Training:** Equipment: Armor Training
 * **Variable:** Any one Equipment Talent that you meet the prerequisites for
 * **Beastmastery Sphere**
@@ -940,13 +940,13 @@ Many traditional mages would balk at the idea of calling Akasha a form of magic,
 * **Boon:** Empowered Abilities
 [[/div]]
 ----
-+ Archetypes Specializing In Technomancy
++* Archetypes Specializing In Technomancy
 [[div style="padding: 0 10px; border: 1px solid black; margin-top: 5px"]]
-++ -[[[Technopath]]]
+++* -[[[Technopath]]]
 Technopaths are [[[Symbiat]]]s who have learned to make use of technological powers.
 [[/div]]
 ----
-+ Wild Magic
++* Wild Magic
 
 [[div_ style="float:right; width: 20%;"]]
 [[html]]
