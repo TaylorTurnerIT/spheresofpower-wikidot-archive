@@ -22,6 +22,207 @@ $29.99
 [[/=]]
 [[/div]]
 
+You may create magical programs which can alter the functions of technology. Constructs and objects are not immune to the effects of this sphere even if the effects require a Fortitude saving throw.
+
+++ Sprite
+As a standard action, you may generate a technomagical entity known as a sprite inside a construct, creature with one or more cybernetic components, or technological item you are touching (hereafter referred to as a host). If the host or a creature wielding the host is unwilling, you must succeed at a melee touch attack against the host or the host’s wielder (touching a held object in this way provokes an attack of opportunity). For the purpose of hosting sprites, a technological item is considered to be any Tinker sphere gizmo and any technological item that uses charges and is not a spell trigger or spell completion item (such as an arc rifle). Other items may be considered acceptable hosts at GM discretion.
+
+A sprite lasts as long as you concentrate, although you may always spend a spell point to allow a sprite to persist for 1 round per caster level without concentration. While a sprite exists within a host, you may have it execute one of the following actions (known as programs) as a free action once per round. If you have a sprite in a host, you are automatically aware of all other sprites within the host. A single host cannot be targeted by the same program more than once per round. A single caster cannot have more than one sprite inside the same host. If a host or its wielder succeeds at a saving throw against a sprite’s abilities, the sprite is destroyed. 
+
+If a host dies or is destroyed, all sprites inside the host are likewise destroyed.
+
+When a caster first gains the Technomancy sphere, they may have sprites that they create execute the following programs:
+
+++++ Boost (program)
+The sprite may cause the first attack made using the host or made by the host this round to deal 1d6 additional points of damage. This bonus damage increases by 1d6 for every 4 caster levels you possess. An attack may only benefit from one instance of this program at a time.
+
+++++ Drain (program)
+The sprite siphons power from its host, depleting 1 charge if it is an item. The host or the host’s wielder may attempt a Fortitude save to negate the effect. If the host is a construct, it instead takes a -1 penalty on attack and damage rolls for one round, although it may also attempt a Fortitude save to negate this penalty. The penalty and number of charges depleted increase by 1 for every 5 caster levels possessed.
+
+If a character capable of draining charges from wands or other items with the Technomancy sphere uses such abilities on a spell engine, the spell engine loses one spell point for every charge that would be drained from it.
+
+++++ Interfere (program)
+Rather than executing a program, a sprite can negate the action of another sprite inhabiting the same host. A sprite can take this action even if it is not your turn, but if it chooses to interfere with an action it cannot execute other programs (including trying to interfere with other sprites’ actions beyond the first) this turn.
+
+When a sprite attempts to Interfere with another sprites’ program, the interfering sprite’s caster rolls a magic skill check against the MSD of the targeted sprite. On a success, the interfering sprite negates the action of the targeted sprite.
+
+++++ Transfer (program)
+The sprite moves from the host it currently inhabits to another host within 5 feet.
+
+----
+++ Technomancy Talents
+[[div style="padding: 0 10px; border: 1px solid black; margin-top: 5px"]]
+++++Compound Hacking
+You may have up to two sprites in a single host, plus an additional sprite for every 5 caster levels you possess.
+[[/div]]
+[[div style="padding: 0 10px; border: 1px solid black; margin-top: 5px"]]
+++++Concealed Sprite
+Your sprites are not immediately noticeable to other sprites. When your sprite enters a host, you may roll a magic skill check and compare the result to the MSD of all other sprites in the host. On a success, these other casters are not aware of your sprite. Whenever your sprite executes a program, all other casters with sprites in the host are allowed a magic skill check against your MSD to become aware of your sprite after it executes its program.
+[[/div]]
+[[div style="padding: 0 10px; border: 1px solid black; margin-top: 5px"]]
+++++ Copious Charge
+When one of your sprites uses Drain, you may spend a spell point to increase the number of charges drained to an amount equal to your caster level. A successful saving throw halves the number of charges drained rather than negating the effect.
+[[/div]]
+[[div style="padding: 0 10px; border: 1px solid black; margin-top: 5px"]]
+++++ Gregarious Sprite
+Your sprites may Interfere once per round while still being able to execute another program, or may Interfere twice per round rather than executing another program.
+[[/div]]
+[[div style="padding: 0 10px; border: 1px solid black; margin-top: 5px"]]
+++++ Instilled Installation [instill]
+As a standard action, you may touch a small container of liquid and instill a sprite inside it, which functions as a potion or oil. You must spend a spell point to make the sprite endure without concentration.
+An instilled liquid remains potent until you rest to regain spell points. If you have equipment on hand (such as an alchemy lab), the cost of bottles and water is considered negligible. You may target food but not an already-magical item, such as a potion. All spell points must be spent and all variables of the sphere effect must be chosen at the time the instilled liquid is created. You cannot instill multiple effects in a single liquid, nor create multiple instilled liquids with a single action.
+[[/div]]
+[[div style="padding: 0 10px; border: 1px solid black; margin-top: 5px"]]
+++++ Lingering Sprite
+If you spend a spell point to allow a sprite to persist, it lasts for 1 minute per caster level rather than 1 round per caster level. When you create a sprite, the sprite remains for 2 rounds after you stop concentrating.
+[[/div]]
+[[div style="padding: 0 10px; border: 1px solid black; margin-top: 5px"]]
+++++ Ranged Technomancy [range]
+You may create sprites in hosts within close range instead of touch range and may have your sprites use the Transfer program to move to hosts within close range. Creating a sprite in this way does not require a ranged touch attack to affect an unwilling target. You may take this talent multiple times. Each time it is selected, increase the range by 1 step (close to medium, medium to long).
+[[/div]]
+[[div style="padding: 0 10px; border: 1px solid black; margin-top: 5px"]]
+++++ Rapid Transfer
+When one of your sprites uses the Transfer program, it can execute another program during the same turn.
+[[/div]]
+[[div style="padding: 0 10px; border: 1px solid black; margin-top: 5px"]]
+++++ Reactive Offload
+Whenever a host is destroyed or killed, you can spend an immediate action to have one of your sprites within that host immediately use the Transfer program. If you have the Compound Hacking talent, you may spend a spell point to have any number of your sprites within the host use the Transfer program.
+[[/div]]
+[[div style="padding: 0 10px; border: 1px solid black; margin-top: 5px"]]
+++++ Slicer’s Strike [strike]
+As a standard action, you may make a single weapon attack in conjunction with generating a sprite inside the target. This casting cannot be reduced below a standard action, and does not provoke attacks of opportunity, unless as usual if making a ranged attack. If the target is struck by the attack, the sprite enters the target (so long as the target is a legal host for the sprite). If using a scatter weapon, the word only applies to a single target, chosen at the time of attack.
+[[/div]]
+[[div style="padding: 0 10px; border: 1px solid black; margin-top: 5px"]]
+++++ Sprite Legion [mass]
+When you create a sprite, you may spend a spell point to create one additional sprite for every 2 caster levels you possess. All hosts for these sprites must be within range, but each sprite can inhabit different hosts and execute different programs each round. Once created, each sprite is considered a separate sphere effect.
+[[/div]]
+[[div style="padding: 0 10px; border: 1px solid black; margin-top: 5px"]]
+++++ Sprite Sustenance
+The host of any of your sprites consumes charges at half the normal rate (rounded up). For example, an item that would lose a charge every minute would instead lose a charge every 2 minutes, or a weapon which drains 5 charges with each attack would only drain 3. If the host is a creature, it gains a +1 circumstance bonus on saving throws, +1 for every 6 caster levels you possess. If the host is a Tinker sphere gizmo, any effect from its battery use lasts twice as long.
+[[/div]]
+[[div style="padding: 0 10px; border: 1px solid black; margin-top: 5px"]]
+++++ Sprite Triangulation
+You automatically know the locations of all of your sprites’ hosts. Any host or host wielder you cannot see still has total concealment (50% miss chance) against you, and you still suffer the normal miss chance when attacking targets that have concealment. You are still denied your Dexterity bonus to her AC against attacks from hosts and host wielders you cannot see.
+[[/div]]
+----
+++Program Talents
+
+Technomancy talents marked as (program) talents allow the caster’s sprites to execute new programs.
+
+[[div style="padding: 0 10px; border: 1px solid black; margin-top: 5px"]]
+++++ Analyze (program)
+The sprite evaluates its host, searching for patterns and weaknesses. You gain an insight bonus on all skill checks attempted to interact with the host equal to 1/2 your caster level (minimum 1) for 1 minute. For a construct host, this could mean bonuses to Bluff and Acrobatics checks against the creature. For an item host, this could mean bonuses to Craft checks made to repair it or Disable Device checks to hack it.
+[[/div]]
+[[div style="padding: 0 10px; border: 1px solid black; margin-top: 5px"]]
+++++ Barrier (program)
+The sprite sets up a barrier against other sprites attempting to enter the host for 1 round. When another sprite attempts to enter a host with a barrier, attempt a magic skill check against the MSD of that sprite. On a success, the transferring sprite fails to enter the host and returns to its previous host (if the sprite did not have a previous host, it is instead destroyed).
+[[/div]]
+[[div style="padding: 0 10px; border: 1px solid black; margin-top: 5px"]]
+++++Broadcast (program)
+The sprite overwrites digital projections of light and sound for 1 round, replacing anything that the host would project or receive. If you target an object, you may have the object project whatever lights and sounds it is normally capable of creating at your discretion, save that the item projects whatever images and sounds you desire (including no image or sound). A creature can attempt a Craft (mechanical) or Spellcraft check (or another check related to the item’s craft at GM discretion) to realize that the broadcast is being magically tampered with, with a DC equal to 10 + your caster level + your casting ability modifier. If two or more casters are trying to control the same broadcasting item, they attempt opposed magic skill checks, the highest result taking control.
+If the host is a creature that is targeted with this program, it must attempt a Will save against this effect. On a failure, its auditory and visual displays (including those from senses such as blindsight) display whatever you want them to display for 1 round (treat these as illusions that only the affected creature can see). Rather than presenting specific projections, you may choose to make the creature blinded and deafened for 1 round.
+
+Alternatively, you may gain sensory feedback from the sprite’s host. You can see, hear, and perceive anything that your host could for one round. This typically includes all of the senses of a construct if it is serving as your host, or mechanisms such as audio recording devices, cameras, or computerized scopes in the case of item hosts. A host or its wielder is allowed a Will save to negate this effect.
+[[/div]]
+[[div style="padding: 0 10px; border: 1px solid black; margin-top: 5px"]]
+++++ Consume Sprite (program)
+When one of your sprites is inhabiting the same host as a sprite created by another caster, your sprite may attempt to consume this other sprite. Roll a magic skill check against the MSD of the targeted sprite. On a success, their sprite is destroyed. If you spend a spell point, the sprite may attempt to consume as many other sprites in its host as you wish, in which case you roll a magic skill check and eliminate every sprite whose MSD you succeed against.
+[[/div]]
+[[div style="padding: 0 10px; border: 1px solid black; margin-top: 5px"]]
+++++ Malfunction (program)
+The sprite attempts to block the functions of its host. If the host is a technological item, it becomes disrupted for 1 round. If the host is a construct, it becomes dazed for 1 round. A successful Fortitude save by the host or its wielder negates this effect. If you spend a spell point, an item host and its wielder are not allowed a save and a construct host is still staggered for 1 round on a successful save.
+
+While disrupted, the item’s electronic or magical components cannot be activated, although constant effects remain in place (for example, a character would still benefit from the bonuses to AC granted by their armor, but could not activate enhancements such as determination or change functions such as in the case of smart armor. A disrupted vehicle or mech cannot be made to move or act, its controls locking up for the duration of the effect. The disrupted condition can be removed from a piece of equipment with a standard action.
+[[/div]]
+[[div style="padding: 0 10px; border: 1px solid black; margin-top: 5px"]]
+++++ Sabotage (program)
+The sprite causes a series of mishaps inside its host, damaging it. The host takes 1d6 points of damage per 2 caster levels, with a successful Fortitude save (DC 10 + 1/2 caster level + casting ability modifier) by the host or its wielder negating the damage. If you spend a spell point, the host instead takes 1d6 points of damage per caster level and still takes half damage on a successful saving throw. The sprite is destroyed after dealing damage.
+[[/div]]
+
+----
+
+++Advanced Technomancy Talents
+Advanced talents are part of an optional rule and are only available with GM permission.
+[[div style="padding: 0 10px; border: 1px solid black; margin-top: 5px"]]AI Transformation
+**Prerequisites:** Technomancy sphere, caster level 10th.
+
+In a process which takes 1 hour and 3 spell points, a willing creature’s psyche, with all of the abilities and experiences that it contains, is transformed into an artificial intelligence and encoded into a storage device. Such a device, such as a compact AI core or robot which your artificial intelligence will inhabit, must be present at the time of casting, as must be the creature from which you are copying the information. An unwilling robot is allowed a Will save to avoid being inhabited and controlled by the new AI. If the robot is successful, you must transfer the new AI to another receptacle or else the talent fails.
+
+The AI created by this talent possesses the same Intelligence, Wisdom, and Charisma scores as the creature from which it is made, and possesses all of the base creature’s skills, supernatural abilities, saves, feats, and class features (including the ability to use magic talents). The AI’s CR is equal to the base creature’s effective class level. The AI gains no additional skills, feats, languages, or special abilities from the Artificial Intelligence creature type. The AI is free-willed, and you have no control over its actions. However, being a replication of the mind of another creature, the AI is normally inclined to act in the same way and possess the same alignment as the creature it was created from.
+
+Like most AIs, those created by this talent lack a physical composition, and cannot act without a host body that they can inhabit. This host must be either a computer system of some sort or a robot the AI is controlling.
+Once the transfer is completed, the original creature’s mind ceases to function. The creature cannot be raised or resurrected so long as the AI created by this talent exists.
+[[/div]]
+[[div style="padding: 0 10px; border: 1px solid black; margin-top: 5px"]]
+++++AI Transformation, Greater
+**Prerequisites:** Technomancy sphere (AI Transformation (advanced)), caster level 15th.
+
+When using AI Transformation, you may alter its effects in the following ways:
+
+**AI Recreation:** If you spend 2 additional spell points, you may use this power to copy an existing AI or create a copy of a creature’s mind, rather than transferring it. The original AI or creature remains in its body or other storage device, with a replica being created in the storage device of your choice within close range. Using the talent in this way requires 15,000 gp worth of expensive mechanical components.
+
+**AI Regeneration:** A creature’s not-quite-departed soul is returned to this world to be encoded upon a device. Such a device, such as a storage bay*, compact AI coreTG or robotB6 which your artificial intelligence will inhabit, must be present at the time of this manifestation, as must be the body of the creature from which you are obtaining the information. The creature’s soul becomes an AI, as per the AI Transformation talent. If a creature’s soul is unwilling to become an AI, they are allowed a Will save to prevent the transformation.
+
+**AI Transfer:** If you spend 1 additional spell point, you may permanently transfer an AI to the body of a construct or living creature. Both the target and the AI are allowed a Will save to prevent this transfer. The new target acquires the aggregateTG template even if they otherwise could not. Any newly-formed aggregateTG creature suffers 2 permanent negative levels which ignore any immunity the target possesses. These negative levels cannot be cured, but fade at a rate of one every 24 hours.
+[[/div]]
+[[div style="padding: 0 10px; border: 1px solid black; margin-top: 5px"]]
+++++ Autopilot (program)
+**Prerequisites:** Technomancy sphere, caster level 10th.
+
+The sprite causes its host to perform a single standard or move action of your choice. If two or more of your sprites are inside the host, they can operate together to cause the host to perform a full round’s worth of actions (including a full attack). This program can only be used with hosts that are creatures.
+[[/div]]
+[[div style="padding: 0 10px; border: 1px solid black; margin-top: 5px"]]
+++++ Charge Vampirism
+**Prerequisites:** Technomancy sphere (Power (advanced, program)).
+
+Whenever a sprite uses Drain, one of your sprites increases the number of charges granted by their next use of Power by half the number of charges depleted with Drain (minimum 1) and ignores the material component cost of the next use of Power so long as the total number of charges granted does not exceed the number of charges drained. The effects of this talent do not stack with themself, and the additional charges are lost if none of your sprites use Power within 3 rounds of a sprite using Drain.
+[[/div]]
+[[div style="padding: 0 10px; border: 1px solid black; margin-top: 5px"]]
+++++ Eternal Sprite
+**Prerequisites:** Technomancy sphere (Lingering Sprite), caster level 10th.
+
+When creating a sprite, you may spend 2 spell points to increase its duration to permanent.
+[[/div]]
+[[div style="padding: 0 10px; border: 1px solid black; margin-top: 5px"]]
+++++ Expel AI (program)
+**Prerequisites:** Technomancy sphere (Consume Sprite), caster level 10th.
+
+You may spend a spell point to force a routine or AI out of your sprite’s host. The routine’s crafter or the AI must succeed at a Will save or else be forced out of the host. If there are any other potential hosts for the AI within medium range, the AI may attempt to enter them as normal. If the AI cannot enter any host, it is destroyed.
+[[/div]]
+[[div style="padding: 0 10px; border: 1px solid black; margin-top: 5px"]]
+++++ Glitch Manipulation (program)
+**Prerequisites:** Technomancy sphere (Glitch-Prone Sprites (advanced)).
+
+If the host is already timeworn, you may treat it as if it was not timeworn for 1 round (if a sprite attempts to add or remove the timeworn condition imposed by another sprite, you and the creator of the other sprite attempt opposed magic skill checks to see which effect occurs). When the glitch table is rolled for the sprite host while this program is active, you may spend 2 spell points as an immediate action to choose the result of the glitch rather than rolling randomly (if multiple casters attempt this on the same item, they roll opposed magic skill checks, with the highest result choosing the glitch result).
+[[/div]]
+[[div style="padding: 0 10px; border: 1px solid black; margin-top: 5px"]]
+Glitch-Prone Sprites
+**Prerequisite:** Technomancy sphere.
+
+You may treat the hosts of any of your sprites as timeworn, causing them to trigger glitches (roll on the Glitch table appropriate to the host to determine the effect of the glitch).
+[[/div]]
+[[div style="padding: 0 10px; border: 1px solid black; margin-top: 5px"]]
+++++ Power (program)
+**Prerequisite:** Technomancy sphere.
+
+You may spend a spell point to have the sprite generate a modicum of electricity, granting the host a single charge if it is an item. You may increase the number of charges granted by 1 for every 5 caster levels you possess, but doing so causes all unused charges gained from this program to be lost after 1 round. If the host is a construct, the host gains a +1 circumstance bonus on attack rolls and damage rolls for 1 round. The bonus on attack and damage rolls increases by 1 for every 5 caster levels you possess. If this program is used on a Tinker sphere gizmo, the gizmo gains one free battery use that must be spent within 1 round or else it is lost.
+
+If you possess the Copious Charge talent, when one of your sprites uses Power, the host gains 2 charges or battery uses rather than 1.
+
+Using this program requires 500 gp worth of diamond dust or similar special material. If you recharge a battery, there is a 20% chance that the battery is destroyed by the attempt. If you restore more charges than the item can hold, the item must succeed at a Fortitude saving throw or take 1d6 points of electricity damage for each excess charge. This program provides no knowledge of how many charges an item can safely hold, but you can choose to bestow fewer charges than the maximum allowed to reduce the risk; you must declare how many charges you are restoring before using this program.
+[[/div]]
+[[div style="padding: 0 10px; border: 1px solid black; margin-top: 5px"]]
+++++ Relic Manipulation
+**Prerequisite:** Technomancy sphere.
+
+You may treat non-technological magic items as if they were technological items for the purpose of affecting them with sprites and Technomancy talents. Spell trigger items which use charges and have a caster level equal to or lower than your technomancy caster level may be affected using the Drain and Power programs, although such an item may not be affected by the Power program more than once per day.
+[[/div]]
+[[div style="padding: 0 10px; border: 1px solid black; margin-top: 5px"]]
+++++ Sprite Targeting
+**Prerequisites:** Technomancy sphere, caster level 5th.
+
+You may treat any host for your sprites as if they were always in close range and that you always had line of sight and effect on it for the purpose of being able to target them with sphere effects.
+
 [[/tab]]
 [[tab Spheres of Influence]]
 [[toc]]
