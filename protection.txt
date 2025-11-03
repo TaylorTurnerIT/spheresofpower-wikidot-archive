@@ -331,6 +331,16 @@ You may also spend 2 spell points instead of 1 to create an aegis that grants th
 ++++ Stabilize (aegis)
 You may create an aegis that stabilizes the target against planar effects or effects that warp time and space. The target gains a +4 morale bonus to AC and saving throws against any teleportation effects, effects from the Time or Warp spheres, direct telekinesis (such as Hostile Lift, but not attacks from Bludgeons) as well as any other effects that alter time, such as the slow spell. This also applies to attacks and abilities from extraplanar creatures, such as summoned or conjured creatures.
 [[/div]]
+[[div style="padding: 0 10px; border: 1px solid black; margin-top: 5px"]]
+++++ Technological Suppression (aegis, ward) [LG]
+^^**Source:** Arcforge Players Compendium^^
+
+You may spend a spell point to create a ward that represses technological functions within its area of effect. Attempt one magic skill check against the gizmo penetration DC against each technological item, robot, creature with cybertech components, and other effect created through technological means within the area. Technological items have a gizmo penetration DC of their craft DC -4, and creatures have a gizmo penetration DC of 10 + their CR. If your check exceeds the gizmo penetration DC of an item, any of the item’s ongoing effects that use charges immediately end. If your check exceeds the gizmo penetration DC of a creature, that creature must succeed at a Fortitude save each round they remain in the ward. Failure indicates that robots and other technological constructs are helpless for 1 round, while partially technological creatures like androids or cyborgs are staggered for 1 round.
+
+Any time a creature in the area would spend charges from a technological item, they must succeed at a gizmo penetration check against your MSD (using the item’s craft DC -15 or the source’s CR in place of a gizmo penetration check if the item or creature is not a gizmo). On a failure, no charges are spent and the action has no effect. On a success, the item functions normally.
+
+You may also spend 2 spell points instead of 1 to create an aegis that grants the target protection from technological effects. Whenever the target would be affected by an effect from a technological item or technological construct which imposes a condition or damage type other than bludgeoning, piercing, or slashing damage, the source of the effect must attempt a gizmo penetration check against your MSD (using the item’s craft DC -15 or the source’s CR in place of a gizmo penetration check if the item or creature is not a gizmo). On a failure, any conditions or damage besides bludgeoning, piercing, or slashing damage from the effect do not take effect.
+[[/div]]
 ----
 ++ Succor Talents
 [[div style="padding: 0 10px; border: 1px solid black; margin-top: 5px"]]
@@ -386,6 +396,17 @@ You may spend 2 spell points to grant a target an aegis that makes them immune t
 **Prerequisites:** Protection sphere (Spell Ward (aegis, ward)), caster level 10th.
 
 When creating a Spell Ward, you may spend an additional spell point to improve the ward’s abilities: The ward stops all magic and summoned creatures without the need for a magic skill check. If this ward is pitted against a summoned creature that has spell resistance, you must still attempt a magic skill check against the creature’s spell resistance to banish it.
+[[/div]]
+[[div style="padding: 0 10px; border: 1px solid black; margin-top: 5px"]]
+++++ Antimagic Aura [Arcforge Addendum] [LG]
+^^**Source:** Arcforge Players Compendium^^
+
+**Prerequisites:** Protection sphere (Spell Ward (aegis, ward) or Technological Suppression (aegis, ward)), caster level 10th.
+
+When creating a Spell Ward, you may spend an additional spell point to improve the ward’s abilities: The ward stops all magic and summoned creatures without the need for a magic skill check. If this ward is pitted against a summoned creature that has spell resistance, you must still attempt a magic skill check against the creature’s spell resistance to banish it.
+
+When creating a Technological Suppression ward, you may spend an additional spell point to improve the ward’s abilities: The ward stops all technological abilities and uses of charges without the need for a magic skill check or allowance for a gizmo penetration check. If this ward is pitted against a construct or cyborg that has spell resistance, you must still attempt a magic skill check against the creature’s spell resistance to affect it.
+
 [[/div]]
 [[div style="padding: 0 10px; border: 1px solid black; margin-top: 5px"]]
 ++++ Automatic Fortification [3PP]
@@ -450,6 +471,16 @@ When you use Spell Selectivity to affect one or more specific spheres or schools
 **Source:** Card Casting 2: Counters and Control
 [[/div]]
 [[div style="padding: 0 10px; border: 1px solid black; margin-top: 5px"]]
+++++ Pithing Protection [Arcforge Addendum] [LG]
+^^**Source:** Arcforge Players Compendium^^
+
+**Prerequisites:** Protection sphere (Spell Selectivity (advanced); Spell Ward (aegis, ward) or Technological Suppression (aegis, ward)), caster level 10th.
+
+When you use Spell Selectivity to affect one or more specific spheres or schools of magic (rather than nullify all except a chosen number of spheres), you may select individual talents or feats which require casting in place of spheres. If a specific talent is affected, all talents and feats which require that talent as a prerequisite are also affected
+
+When you use Spell Selectivity to affect one or more specific categories of technological item or creature (rather than nullify all except a chosen number of technological sources), you may select individual gizmos, items, or creatures (such as arc rifles, plasma grenades, or gearsman robots) in place of item or creature types.
+[[/div]]
+[[div style="padding: 0 10px; border: 1px solid black; margin-top: 5px"]]
 ++++ Planar Refuge (aegis, ward) [RW HB]
 Your magics create refuge against the dangers of space and planes unknown.
 
@@ -488,6 +519,20 @@ You may spend 3 spell points to create an aegis that absorbs magic effects on at
 Whenever you create a Spell Ward as an aegis or ward, you may spend an additional spell point to choose one sphere of magic plus an additional one for every 5 caster levels you possess. Those spheres of magic are the only spheres affected by your spell ward, with casters not having to make magical skill checks or roll to bypass spell resistance if they use abilities of any other sphere.
 
 Alternatively, you may choose to have your Spell Ward apply to all spheres except the chosen spheres or to have your Spell Ward apply only against spells from a specific source such as divine or arcane (see the High Magic Handbook pg. 17 for rules on distinct magic types). If you choose either of these options, this talent cannot be used with the Antimagic Aura talent. If two instances of Spell Selectivity would attempt to negate each other, the casters roll opposed magical skill checks, with the lower roller having their instance of the ability suppressed.
+[[/div]]
+[[div style="padding: 0 10px; border: 1px solid black; margin-top: 5px"]]
+++++ Spell Selectivity [Arcforge Addendum] [LG]
+^^**Source:** Arcforge Players Compendium^^
+
+**Prerequisites:** Protection sphere (Spell Ward (aegis, ward) or Technological Suppression (aegis, ward)), caster level 10th.
+
+Whenever you create a Spell Ward as an aegis or ward, you may spend an additional spell point to choose one sphere of magic plus an additional one for every 5 caster levels you possess. Those spheres of magic are the only spheres affected by your spell ward, with casters not having to make magical skill checks or roll to bypass spell resistance if they use abilities of any other sphere.
+
+Alternatively, you may choose to have your Spell Ward apply to all spheres except the chosen spheres or to have your Spell Ward apply only against spells from a specific source such as divine or arcane (see the High Magic Handbook pg. 17 for rules on distinct magic types). If you choose either of these options, this talent cannot be used with the Antimagic Aura talent. If two instances of Spell Selectivity would attempt to negate each other, the casters roll opposed magical skill checks, with the lower roller having their instance of the ability suppressed.
+
+Whenever you create a Technological Suppression as an aegis or ward, you may spend an additional spell point to choose one Tinker package, creature type, or category of technological item created using a specific item creation feat, plus an additional one for every 5 caster levels you possess. Technological items of the chosen categories are the only spheres affected by your technological suppression, with creatures not having to attempt gizmo penetration checks if they use abilities of any other technological source.
+Alternatively, you may choose to have your Technological Suppression apply to all technological sources except the chosen sources. If you choose this option, this talent cannot be used with the Antimagic Aura talent.
+
 [[/div]]
 [[div style="padding: 0 10px; border: 1px solid black; margin-top: 5px"]]
 ++++ Subtle (aegis)
