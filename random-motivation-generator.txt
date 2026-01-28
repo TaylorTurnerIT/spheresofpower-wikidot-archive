@@ -270,50 +270,6 @@ A character should generally have at least 3 Major Motivations and at least 2 Mi
 </script>
 [[/html]]
 
-[[html]]
-<style>
-    * {
-    margin: 0;
-    padding: 0;
-    }
-    #container {
-    width: 90%;
-    margin: 90px auto;
-    padding: 10px;
-    border: 1px solid #606060;
-    }
-    .alignleft {
-    float: left;
-    }
-    .alignright {
-    float: right;
-    }
-</style>
-<div id="container">
-    <p class="alignjustify" id="randomResult">&nbsp;</p>
-    <button class="alignleft" id="button">Motivation & Subject</button>
-    <div style="clear: both;"></div>
-</div>
-<script>
-    function randString(){
-        return stringArray[~~(rand()*stringArray.length)] stringArray2[~~(rand()*stringArray.length)];
-    }
-    function randText(){
-        var tx = randString();
-        var txt = document.createTextNode(tx);
-        var sp = document.createElement('span');
-        sp.appendChild(txt);
-        randomResult.innerHTML = '';
-        randomResult.appendChild(sp);
-    }
-    rand = Math.random;
-stringArray = ['1:Seeks', '2 Takes comfort in', '3: Afraid of', '4: Upset with', '5: Curious about', '6: Weary of', '7: Strict about', '8: Sensitive about', '9: Relies on', '10:Uncertain about', '11: Adores', '12: Detests'];    
-stringArray2 = ['1: Wealth', '2: Conformity', '3: Glory', '4: Change', '5: Challenge', '6: Extravagance', '7: Ambiguity', '8: Hierarchy', '9: Art', '10: Risk', '11: Love', '12: Reason', '13: Tradition', '14: The Past', '15: The Future', '16: Community', '17: Responsibility', '18: Power', '19: Family', '20: Themself', '21: Pain', '22: Leisure', '23: Respect', '24: Deception', '25: Justice', '26: Humor', '27: Violence', '28: Disagreement', '29: Improvement', '30: Friendship'];
-    randomResult = document.getElementById('randomResult');
-    document.getElementById("button").addEventListener('click',randText,false);
-</script>
-[[/html]]
-
 ++++ Created Motivation D12 and D30 Tables
 ||~ D12 result ||~ Motivation ||
 || 1 || Seeks ||
