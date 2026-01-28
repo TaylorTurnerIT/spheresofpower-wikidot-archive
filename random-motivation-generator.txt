@@ -227,32 +227,6 @@ Created Motivation Generator
     randomResult = document.getElementById('randomResult');
     document.getElementById("button").addEventListener('click',randText,false);
 </script>
-[[/html]]
-
-[[html]]
-<style>
-    * {
-    margin: 0;
-    padding: 0;
-    }
-    #container {
-    width: 90%;
-    margin: 90px auto;
-    padding: 10px;
-    border: 1px solid #606060;
-    }
-    .alignleft {
-    float: left;
-    }
-    .alignright {
-    float: right;
-    }
-</style>
-<div id="container">
-    <p class="alignjustify" id="randomResult">&nbsp;</p>
-    <button class="alignleft" id="button">Subject</button>
-    <div style="clear: both;"></div>
-</div>
 <script>
     function randString(){
         return stringArray[~~(rand()*stringArray.length)];
