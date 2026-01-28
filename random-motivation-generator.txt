@@ -183,6 +183,95 @@ A character should generally have at least 3 Major Motivations and at least 2 Mi
 || 99 || Trying to conquer a specific fear or inadequacy ||
 || 00 || Chasing size and spectacle ||
 
+Created Motivation Generator
+
+++++ Given Motivation Generator
+[[html]]
+<style>
+    * {
+    margin: 0;
+    padding: 0;
+    }
+    #container {
+    width: 90%;
+    margin: 90px auto;
+    padding: 10px;
+    border: 1px solid #606060;
+    }
+    .alignleft {
+    float: left;
+    }
+    .alignright {
+    float: right;
+    }
+</style>
+<div id="container">
+    <p class="alignjustify" id="randomResult">&nbsp;</p>
+    <button class="alignleft" id="button">Motivation</button>
+    <div style="clear: both;"></div>
+</div>
+<script>
+    function randString(){
+        return stringArray[~~(rand()*stringArray.length)];
+    }
+    function randText(){
+        var tx = randString();
+        var txt = document.createTextNode(tx);
+        var sp = document.createElement('span');
+        sp.appendChild(txt);
+        randomResult.innerHTML = '';
+        randomResult.appendChild(sp);
+    }
+    rand = Math.random;
+    stringArray = ['1:Seeks', '2 Takes comfort in', '3: Afraid of', '4: Upset with', '5: Curious about', '6: Weary of', '7: Strict about', '8: Sensitive about', '9: Relies on', '10:Uncertain about', '11: Adores', '12: Detests'];
+    randomResult = document.getElementById('randomResult');
+    document.getElementById("button").addEventListener('click',randText,false);
+</script>
+[[/html]]
+
+[[html]]
+<style>
+    * {
+    margin: 0;
+    padding: 0;
+    }
+    #container {
+    width: 90%;
+    margin: 90px auto;
+    padding: 10px;
+    border: 1px solid #606060;
+    }
+    .alignleft {
+    float: left;
+    }
+    .alignright {
+    float: right;
+    }
+</style>
+<div id="container">
+    <p class="alignjustify" id="randomResult">&nbsp;</p>
+    <button class="alignleft" id="button">Subject</button>
+    <div style="clear: both;"></div>
+</div>
+<script>
+    function randString(){
+        return stringArray[~~(rand()*stringArray.length)];
+    }
+    function randText(){
+        var tx = randString();
+        var txt = document.createTextNode(tx);
+        var sp = document.createElement('span');
+        sp.appendChild(txt);
+        randomResult.innerHTML = '';
+        randomResult.appendChild(sp);
+    }
+    rand = Math.random;
+    stringArray = ['1:Seeks', '2 Takes comfort in', '3: Afraid of', '4: Upset with', '5: Curious about', '6: Weary of', '7: Strict about', '8: Sensitive about', '9: Relies on', '10:Uncertain about', '11: Adores', '12: Detests'];
+    randomResult = document.getElementById('randomResult');
+    document.getElementById("button").addEventListener('click',randText,false);
+</script>
+[[/html]]
+
 ++++ Created Motivation D12 and D30 Tables
 ||~ D12 result ||~ Motivation ||
 || 1 || Seeks ||
