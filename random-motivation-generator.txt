@@ -276,6 +276,18 @@ stringArray2 = ['Wealth', 'Conformity', 'Glory', 'Change', 'Challenge', 'Extrava
 || 30 || Friendship ||
 
 ++++ Individual Motivation D10 Tables
+||~ d10 result ||~ Desire ||
+|| 1 || Riches ||
+|| 2 || Security || 
+|| 3 || Influence over a specific place or group ||
+|| 4 || Revenge ||
+|| 5 || Validation ||
+|| 6 || Fame ||
+|| 7 || Protection ||
+|| 8 || Challenge ||
+|| 9 || Love ||
+|| 10 || Answers ||
+
 [[html]]
 <style>
     * {
@@ -318,18 +330,6 @@ stringArray2 = ['Wealth', 'Conformity', 'Glory', 'Change', 'Challenge', 'Extrava
     document.getElementById("button").addEventListener('click',randText,false);
 </script>
 [[/html]]
-||~ d10 result ||~ Desire ||
-|| 1 || Riches ||
-|| 2 || Security || 
-|| 3 || Influence over a specific place or group ||
-|| 4 || Revenge ||
-|| 5 || Validation ||
-|| 6 || Fame ||
-|| 7 || Protection ||
-|| 8 || Challenge ||
-|| 9 || Love ||
-|| 10 || Answers ||
-
 
 ||~ d10 result ||~ Fear ||
 || 1 || A personal weakness ||
@@ -343,6 +343,48 @@ stringArray2 = ['Wealth', 'Conformity', 'Glory', 'Change', 'Challenge', 'Extrava
 || 9 || Ambiguity ||
 || 10 || A specific kind of creature (such as demons, dogs, or aberrations) ||
 
+[[html]]
+<style>
+    * {
+    margin: 0;
+    padding: 0;
+    }
+    #container {
+    width: 90%;
+    margin: 90px auto;
+    padding: 10px;
+    border: 1px solid #606060;
+    }
+    .alignleft {
+    float: left;
+    }
+    .alignright {
+    float: right;
+    }
+</style>
+<div id="container">
+    <p class="alignjustify" id="randomResult">&nbsp;</p>
+    <button class="alignleft" id="button">Fear</button>
+    <div style="clear: both;"></div>
+</div>
+<script>
+    function randString(){
+        return stringArray[~~(rand()*stringArray.length)];
+    }
+    function randText(){
+        var tx = randString();
+        var txt = document.createTextNode(tx);
+        var sp = document.createElement('span');
+        sp.appendChild(txt);
+        randomResult.innerHTML = '';
+        randomResult.appendChild(sp);
+    }
+    rand = Math.random;
+    stringArray = ['1: A personal weakness', '2: Lack of control', '3: Isolation', '4: A powerful enemy', '5: Failing their obligation', '6: Humiliation', '7: Losing power or status', '8: Poverty', '9: Ambiguity', '10: A specific kind of creature (such as demons, dogs, or aberrations)'];
+    randomResult = document.getElementById('randomResult');
+    document.getElementById("button").addEventListener('click',randText,false);
+</script>
+[[/html]]
 
 ||~ d10 result ||~ Ideal ||
 || 1 || Fairness ||
@@ -356,6 +398,48 @@ stringArray2 = ['Wealth', 'Conformity', 'Glory', 'Change', 'Challenge', 'Extrava
 || 9 || Loyalty ||
 || 10 || The doctrine of a religion, faction, school, or similar organization||
 
+[[html]]
+<style>
+    * {
+    margin: 0;
+    padding: 0;
+    }
+    #container {
+    width: 90%;
+    margin: 90px auto;
+    padding: 10px;
+    border: 1px solid #606060;
+    }
+    .alignleft {
+    float: left;
+    }
+    .alignright {
+    float: right;
+    }
+</style>
+<div id="container">
+    <p class="alignjustify" id="randomResult">&nbsp;</p>
+    <button class="alignleft" id="button">Ideal</button>
+    <div style="clear: both;"></div>
+</div>
+<script>
+    function randString(){
+        return stringArray[~~(rand()*stringArray.length)];
+    }
+    function randText(){
+        var tx = randString();
+        var txt = document.createTextNode(tx);
+        var sp = document.createElement('span');
+        sp.appendChild(txt);
+        randomResult.innerHTML = '';
+        randomResult.appendChild(sp);
+    }
+    rand = Math.random;
+    stringArray = ['1: Fairness', '2: Compassion', '3: Power', '4: Freedom', '5: Community', '6: Truth', '7: Meritocracy', '8: Stability', '9: Loyalty', '10: The doctrine of a religion, faction, school, or similar organization'];
+    randomResult = document.getElementById('randomResult');
+    document.getElementById("button").addEventListener('click',randText,false);
+</script>
+[[/html]]
 
 ||~ d10 result ||~ Relationship ||
 || 1 || Mentor ||
@@ -369,6 +453,49 @@ stringArray2 = ['Wealth', 'Conformity', 'Glory', 'Change', 'Challenge', 'Extrava
 || 9 || Parent or Parents ||
 || 10 || Sibling ||
 
+[[html]]
+<style>
+    * {
+    margin: 0;
+    padding: 0;
+    }
+    #container {
+    width: 90%;
+    margin: 90px auto;
+    padding: 10px;
+    border: 1px solid #606060;
+    }
+    .alignleft {
+    float: left;
+    }
+    .alignright {
+    float: right;
+    }
+</style>
+<div id="container">
+    <p class="alignjustify" id="randomResult">&nbsp;</p>
+    <button class="alignleft" id="button">Relationship</button>
+    <div style="clear: both;"></div>
+</div>
+<script>
+    function randString(){
+        return stringArray[~~(rand()*stringArray.length)];
+    }
+    function randText(){
+        var tx = randString();
+        var txt = document.createTextNode(tx);
+        var sp = document.createElement('span');
+        sp.appendChild(txt);
+        randomResult.innerHTML = '';
+        randomResult.appendChild(sp);
+    }
+    rand = Math.random;
+    stringArray = ['1: Mentor', '2: Lover', '3: Child or Children', '4: Rival', '5: Nemesis', '6: Apprentice', '7: Friend', '8: Idol', '9: Parent or Parents', '10: Sibling'];
+    randomResult = document.getElementById('randomResult');
+    document.getElementById("button").addEventListener('click',randText,false);
+</script>
+[[/html]]
+
 ||~ d10 result ||~ Goal ||
 || 1 || Uncover a mystery ||
 || 2 || Defeat a foe ||
@@ -380,6 +507,49 @@ stringArray2 = ['Wealth', 'Conformity', 'Glory', 'Change', 'Challenge', 'Extrava
 || 8 || Complete a work ||
 || 9 || Ensure the preservation of a place, person, item, or community ||
 || 10 || Find their place in the world ||
+
+[[html]]
+<style>
+    * {
+    margin: 0;
+    padding: 0;
+    }
+    #container {
+    width: 90%;
+    margin: 90px auto;
+    padding: 10px;
+    border: 1px solid #606060;
+    }
+    .alignleft {
+    float: left;
+    }
+    .alignright {
+    float: right;
+    }
+</style>
+<div id="container">
+    <p class="alignjustify" id="randomResult">&nbsp;</p>
+    <button class="alignleft" id="button">Goal</button>
+    <div style="clear: both;"></div>
+</div>
+<script>
+    function randString(){
+        return stringArray[~~(rand()*stringArray.length)];
+    }
+    function randText(){
+        var tx = randString();
+        var txt = document.createTextNode(tx);
+        var sp = document.createElement('span');
+        sp.appendChild(txt);
+        randomResult.innerHTML = '';
+        randomResult.appendChild(sp);
+    }
+    rand = Math.random;
+    stringArray = ['1: Uncover a mystery', '2: Defeat a foe', '3: Find an item', '4: Rescue a person', '5: Topple an institution', '6: Earn a title', '7: Reach a location', '8: Complete a work', '9: Ensure the preservation of a place, person, item, or community', '10: Find their place in the world'];
+    randomResult = document.getElementById('randomResult');
+    document.getElementById("button").addEventListener('click',randText,false);
+</script>
+[[/html]]
 
 ||~ d10 result ||~ Comforts ||
 || 1 || Food ||
@@ -393,6 +563,49 @@ stringArray2 = ['Wealth', 'Conformity', 'Glory', 'Change', 'Challenge', 'Extrava
 || 9 || Luxury ||
 || 10 || Nighttime ||
 
+[[html]]
+<style>
+    * {
+    margin: 0;
+    padding: 0;
+    }
+    #container {
+    width: 90%;
+    margin: 90px auto;
+    padding: 10px;
+    border: 1px solid #606060;
+    }
+    .alignleft {
+    float: left;
+    }
+    .alignright {
+    float: right;
+    }
+</style>
+<div id="container">
+    <p class="alignjustify" id="randomResult">&nbsp;</p>
+    <button class="alignleft" id="button">Comfort</button>
+    <div style="clear: both;"></div>
+</div>
+<script>
+    function randString(){
+        return stringArray[~~(rand()*stringArray.length)];
+    }
+    function randText(){
+        var tx = randString();
+        var txt = document.createTextNode(tx);
+        var sp = document.createElement('span');
+        sp.appendChild(txt);
+        randomResult.innerHTML = '';
+        randomResult.appendChild(sp);
+    }
+    rand = Math.random;
+    stringArray = ['1: Food', '2: Stories', '3: Art', '4: Wilderness', '5: Social Gatherings', '6: Quiet', '7: Urban Living', '8: Music', '9: Luxury', '10: Nighttime'];
+    randomResult = document.getElementById('randomResult');
+    document.getElementById("button").addEventListener('click',randText,false);
+</script>
+[[/html]]
+
 ||~ d10 result ||~ Discomforts ||
 || 1 || Large gatherings ||
 || 2 || Cramped spaces ||
@@ -404,6 +617,49 @@ stringArray2 = ['Wealth', 'Conformity', 'Glory', 'Change', 'Challenge', 'Extrava
 || 8 || Uncertain situations ||
 || 9 || Sacred places ||
 || 10 || Helplessness ||
+
+[[html]]
+<style>
+    * {
+    margin: 0;
+    padding: 0;
+    }
+    #container {
+    width: 90%;
+    margin: 90px auto;
+    padding: 10px;
+    border: 1px solid #606060;
+    }
+    .alignleft {
+    float: left;
+    }
+    .alignright {
+    float: right;
+    }
+</style>
+<div id="container">
+    <p class="alignjustify" id="randomResult">&nbsp;</p>
+    <button class="alignleft" id="button">Discomfort</button>
+    <div style="clear: both;"></div>
+</div>
+<script>
+    function randString(){
+        return stringArray[~~(rand()*stringArray.length)];
+    }
+    function randText(){
+        var tx = randString();
+        var txt = document.createTextNode(tx);
+        var sp = document.createElement('span');
+        sp.appendChild(txt);
+        randomResult.innerHTML = '';
+        randomResult.appendChild(sp);
+    }
+    rand = Math.random;
+    stringArray = ['1: Large gatherings', '2: Cramped spaces', '3: Embarrassment', '4: Darkness', '5: Stink/dirt/grime', '6: Blood/gore', '7: Isolation', '8: Uncertain situations', '9: Sacred places', '10: Helplessness'];
+    randomResult = document.getElementById('randomResult');
+    document.getElementById("button").addEventListener('click',randText,false);
+</script>
+[[/html]]
 
 [[/tab]]
 [[/tabview]]
