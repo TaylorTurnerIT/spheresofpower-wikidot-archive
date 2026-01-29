@@ -276,6 +276,48 @@ stringArray2 = ['Wealth', 'Conformity', 'Glory', 'Change', 'Challenge', 'Extrava
 || 30 || Friendship ||
 
 ++++ Individual Motivation D10 Tables
+[[html]]
+<style>
+    * {
+    margin: 0;
+    padding: 0;
+    }
+    #container {
+    width: 90%;
+    margin: 90px auto;
+    padding: 10px;
+    border: 1px solid #606060;
+    }
+    .alignleft {
+    float: left;
+    }
+    .alignright {
+    float: right;
+    }
+</style>
+<div id="container">
+    <p class="alignjustify" id="randomResult">&nbsp;</p>
+    <button class="alignleft" id="button">Desire</button>
+    <div style="clear: both;"></div>
+</div>
+<script>
+    function randString(){
+        return stringArray[~~(rand()*stringArray.length)];
+    }
+    function randText(){
+        var tx = randString();
+        var txt = document.createTextNode(tx);
+        var sp = document.createElement('span');
+        sp.appendChild(txt);
+        randomResult.innerHTML = '';
+        randomResult.appendChild(sp);
+    }
+    rand = Math.random;
+    stringArray = ['1: Riches', '2: Security', '3: Influence over a specific place or group', '4: Revenge', '5: Validation', '6: Fame', '7: Protection', '8: Challenge', '9: Love', '10: Answers'];
+    randomResult = document.getElementById('randomResult');
+    document.getElementById("button").addEventListener('click',randText,false);
+</script>
+[[/html]]
 ||~ d10 result ||~ Desire ||
 || 1 || Riches ||
 || 2 || Security || 
