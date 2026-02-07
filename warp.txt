@@ -358,6 +358,16 @@ When using the True Teleport advanced talent, the range is increased to unlimite
 You need not have seen the destination you are trying to reach, but in that case you must have at least a reliable description of the place to which you are teleporting. If you attempt to teleport with insufficient information (or with misleading information), you disappear and simply reappear in your original location.
 [[/div]]
 [[div style="padding: 0 10px; border: 1px solid black; margin-top: 5px"]]
+++++ Greater Planar Zone [SM—]
+^^**Source:** Baron’s Uncanny Gateway^^
+
+**Prerequisites:** Warp Sphere (Manifest Planar Zone (advanced)), caster level 5th
+
+When using the Manifest Planar Zone talent, the area increases to a number of 10-foot cubes equal to your caster level and the duration increases to 1 hour per caster level if you spend a spell point.
+
+If your permanent caster level is at least 10 and you instead spend 2 spell points, the effect has a permanent duration and dispelling attempts affect it as if it were a magic item. Effects that would destroy a magic item (such as Greater Counterspell) can also destroy the planar zone. A planar zone that is made permanent becomes stationary and can no longer move with a creature.
+[[/div]]
+[[div style="padding: 0 10px; border: 1px solid black; margin-top: 5px"]]
 ++++ Group Teleport
 **Prerequisites:** Warp sphere (Mass Teleport [mass], Ranged Warp [range]), caster level 10th.
 
@@ -420,10 +430,62 @@ You may use Teleport Object to teleport objects into the free hands of or onto t
 When using your teleport ability, you may spend an additional spell point to open a portal between your location and your destination. This portal has a maximum diameter of 5 feet per caster level and opens in the air somewhere adjacent to you. The portal lasts as long as you concentrate to a maximum of 1 round per caster level. Anything moving through one end of this portal arrives at the other end; it is possible to make attacks, flank, or perform other actions as if the two locations were adjacent. You may choose to open the portal without automatically going through it, if you so desire.
 [[/div]]
 [[div style="padding: 0 10px; border: 1px solid black; margin-top: 5px"]]
+++++ Portal Interstice [SM—]
+^^**Source:** Baron’s Uncanny Gateway^^
+
+**Prerequisites:** Warp sphere (Extradimensional Room, Mass Teleport [mass], Portal (advanced), Wormhole (space)), caster level 5th.
+
+Whenever you create a portal that leads between two locations, you may create an extradimensional room that both the entry and exit portal connect to (rather than connecting to each other) as part of the same action and without spending additional spell points. This extradimensional room lasts for the duration of the portal.
+[[/div]]
+[[div style="padding: 0 10px; border: 1px solid black; margin-top: 5px"]]
 ++++ Portal Network [DbH]
 **Prerequisites:** Warp sphere (Enduring Portal, Mass Teleport [mass], Portal (advanced), Teleport Beacon (space), Unwilling Teleport, Wormhole (space)), caster level 15th.
 
 When you or another target enters a portal, you may cause it to exit from any portal that you have created that currently exists rather than just the portal’s original destination. Alternatively, you may allow a creature that enters one of your portals to choose which portal they exit from. You are aware of any creature that enters a portal you have created.
+[[/div]]
+[[div style="padding: 0 10px; border: 1px solid black; margin-top: 5px"]]
+++++ Portal Security (space) [SM—]
+^^**Source:** Baron’s Uncanny Gateway^^
+
+**Prerequisites:** Warp sphere, caster level 5th.
+
+You may place different security measures on portals you encounter or create. If you are applying any of these effects to a portal you did not create, you must succeed on a magic skill check against the portal. A portal with an unspecified origin should have an MSD of at least 21. Portals created by particularly powerful entities such as gods or demon lords should have MSD between 31 and 51.
+
+**Disguise Portals (requires Illusion sphere):** You may spend a spell point as a standard action or as part of the action to create a portal to alter the appearance of a portal using a glamor that lasts for 1 minute per caster level. This can include effects such as rendering the portal invisible if you possess the Suppression talent. If you possess the Permanent Illusion talent, you may instead spend 3 spell points to place a permanent glamor over the portal.
+
+**Portal Seal (requires Protection sphere):** You may spend a spell point to place restrictions over who can pass through a portal you create. The portal can discern between entering creatures with all the same parameters that a Protection Sphere Glyph can and can permit or deny creatures based on those parameters, and if the portal can lead to multiple locations it may send creatures to different exit points based on different parameters. The knowledge or requirements to pass through a portal to a specific location is often called a “portal key”. A portal seal can also be used to completely halt all entry to a portal or to make a portal one-way (allowing entry from one side but not the other). If you place a portal seal on a portal which already possesses a portal seal, the new portal seal replaces the old one for the duration of the new portal key. A portal key lasts for 1 hour per caster level. If you possess the Permanent Ward talent, you may instead spend 3 spell points to place a permanent portal seal over a portal.
+
+**Portal Surveillance (requires Divination Sphere (Scrying)):** You may spend 2 spell points to establish a continual viewing sensor around a portal that allows you to observe any movement through it. This sensor lasts for 1 hour per caster level. If you possess the Greater Scrying talent, you may instead spend 3 spell points to place a permanent sensor over the portal.
+
+[[/div]]
+[[div style="padding: 0 10px; border: 1px solid black; margin-top: 5px"]]
+++++ Randomized Planeshift [SM—]
+^^**Source:** Baron’s Uncanny Gateway^^
+
+**Prerequisites:** Warp sphere (Unseeing Teleport), caster level 5th.
+
+When you use your teleport and you are one of the creatures teleported, you can cause your teleportation magic to rip through dimensions erratically as a last-ditch escape measure, sending any teleported creatures to a random plane. A creature can be affected by randomized planeshift only if it is currently not on its home plane (although targets can, by chance, end up traveling to their home plane as a result of this effect). Subjects always appear in a location that is not inherently harmful, but the exact destination is otherwise random. The specific plane is determined by rolling on a table of accessible planes, with a sample table given below; the location on the destination plane where the transported creatures arrive is completely subject to the GM’s whim. A creature cannot be affected by randomized planeshift more than once every 24 hours.
+
+If you possess the Manifest Planar Zone talent, you may use this talent in conjunction with Randomized Planeshift to make your planar zone emulate a random plane rather than a plane you have selected with Manifest Planar Zone, rolling as normal.
+If you possess the Portal talent, you may cause any portals you create to randomly planeshift any creatures who pass through it. If you possess the Portal Security talent, you may cause your portal seal to randomly planeshift creatures who pass through the portal (including making only creatures under certain parameters randomly planeshift).
+
+||~ d% ||~ Planar Destination ||
+|| 1–7 || Abyss ||
+|| 8–14 || Abaddon ||
+|| 15–20 || Hell ||
+|| 21–24 || Shadow Plane ||
+|| 25–28 || Fey World ||
+|| 29–35 || Maelstrom ||
+|| 36–42 || Purgatory ||
+|| 43–49 || Axis ||
+|| 50–56 || Ethereal Plane ||
+|| 57–63 || Elysium || 
+|| 64–70 || Nirvana ||
+|| 71–77 || Heaven ||
+|| 78–84 || Astral Plane ||
+|| 85–90 || Random demiplane ||
+|| 91–95 || Material Plane (random world) ||
+|| 96–100 || GM’s choice ||
 [[/div]]
 [[div style="padding: 0 10px; border: 1px solid black; margin-top: 5px"]]
 ++++ Repel The Unnatural [Alienist HB]
