@@ -1,0 +1,70 @@
+title:Reliance
+[[module CSS]]
+.noselect {
+  -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome and Opera */
+}
+[[/module]]
+
+[[module CSS]]
+.colored-links span > a {
+  color: inherit;
+}
+[[/module]]
+
+[[toc]]
+
+[[tabview]]
+[[tab Spheres of Guile]]
+[[div class="noselect" style="float:right; width: 20%; padding: 0 2%"]]
+[[=]]
+[[image http://spheresofpower.wikidot.com/local--files/test-page/Baron%27s%20Uncanny%20Gateway link="https://www.drivethrurpg.com/en/product/549095/baron-s-uncanny-gateway"]]
+**Baron's Uncanny Gateway**
+$4.99
+----
+[[/=]]
+[[/div]]
+The mechanics for motivation and strain have heretofore been strictly negative, punishing those who use the system with unique vulnerabilities or painful conditions. This paints a picture of conviction and tests of it as something negative, as if the drives of your character are an impediment to their success. Reliance is a system which works to reward players for acting on their motivations while also introducing risk for particularly harrowing challenges.
+
++++ Assigning Reliance
+Whenever you rest for at least 8 hours, you gain a number of Reliance Points equal to your current Strain Score. You may assign these Reliance Points to your Major and Minor Motivations in any way you wish, and these Reliance Points may be spent in a variety of ways that involve rolling Reliance Dice. Spent Reliance Points are lost, as are any unspent Reliance Points when you rest for at least 8 hours.
+
++++ Reliance Dice
+Whenever an ability refers to Reliance Dice, the type of die rolled is based on the kind of motivation the spent Reliance Points were assigned to. For Minor Motivations, the Reliance Die is 1d4. For Major Motivations, the Reliance Die is 1d8.
+
++++ Using Reliance Points
+When you attempt a skill check or attack roll to accomplish a goal tied to one of your motivations, you may invoke that motivation, spending three Reliance Points assigned to that motivation and adding that motivation’s Reliance Die to the roll. You may invoke your motivation after seeing the d20 result but before knowing if the roll was a success or failure. Once you have invoked a Motivation in this way, you cannot invoke the same motivation again for 1 minute. Certain feats marked as (Reliance) feats grant you additional ways to use your Reliance Points. You can only invoke one of your motivations for any purpose once per round.
+
++++ Taking Strain Damage
+Whenever you suffer strain damage, you lose a number of unspent Reliance Points equal to the strain damage suffered. You choose the motivations from which these Reliance Points are lost. 
+
++ Alternate Severances
+When using the Reliance system, some GMs may wish not to utilize the traditional severances for worry of them derailing the game or becoming too unfun to play with. In those cases, it is suggested that the following severances be the only ones used. 
+
++++ Strained Motivation, Minor
+**Type** lesser severance; **Save** Will DC 18; **Onset** 1d4 days
+
+**Effect**
+You gain a unique Minor Motivation called a Strained Motivation, with the GM coming up with an appropriate Motivation or rolling on **Table: Strained Motivations** to determine the Motivation (alternatively, one of your existing Minor Motivations may become a Strained Motivation). You may assign Reliance Points to a Strained Motivation as if it were a normal Motivation, but another character or the GM may also invoke a character’s Strained Motivation when the character’s action would defy that motivation to give them a -1d4 penalty on a single d20 roll once per minute. A character invoking their own Strained Motivation can prevent another character invoking that same motivation for the next minute. An opponent invoking a Strained Motivation must apply a Strained Motivation’s penalty before the die roll is made
+
+**Dormancy Effect:** You gain the Strained Motivation and cannot get rid of it, although it is not considered a Strained Motivation.
+
++++ Strained Motivation, Major
+**Type** greater severance; **Save** Will DC 24; **Onset** 1d4 days
+
+**Effect**
+This functions as Minor Strained Motivation, save that the Strained Motivation is a Major Motivation rather than a Minor Motivation. When a GM invokes a Major Strained Motivation, the penalty is -1d8 rather than -1d4.
+
+**Dormancy Effect:** You gain the Strained Motivation and cannot get rid of it, although the penalty is -1d4 rather than -1d8.
+
+
+
+[[/tab]]
+[[/tabview]]
+
+[[include sog-template]]
