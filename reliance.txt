@@ -65,8 +65,32 @@ This functions as Minor Strained Motivation, save that the Strained Motivation i
 
 **Dormancy Effect:** You gain the Strained Motivation and cannot get rid of it, although the penalty is -1d4 rather than -1d8.
 
+<div id="container">
+    <p class="alignjustify" id="randomResult">&nbsp;</p>
+    <button class="alignleft" id="button">Strained Motivation</button>
+    <div style="clear: both;"></div>
+</div>
+<script>
+    function randString(){
+        return stringArray[~~(rand()*stringArray.length)];
+    }
+    function randText(){
+        var tx = randString();
+        var txt = document.createTextNode(tx);
+        var sp = document.createElement('span');
+        sp.appendChild(txt);
+        randomResult.innerHTML = '';
+        randomResult.appendChild(sp);
+    }
+    rand = Math.random;
+    stringArray = ['1: Fear of the dark', '2: Driven to take dangerous risks', '3: Uncomfortable being seen', '4: Fear of a specific creature or person', '5: Determined to keep something or someone safe', '6: Fear of blood/gore', '7: Contempt for comfort and leisure', '8: Fear of cramped spaces', '9: Fear of isolation', '10: Hunger for violence', '11: Fear of a specific type of magic', '12: Uncomfortable in large crowds', '13: Fear of death', '14: Fear of helplessness', '15: Driven to find an answer to a specific question', '16: Obsessed with vengeance against somebody', '17: Struggles to trust your allies', '18: Obliged to placate some malevolent entity', '19: Driven to destroy all knowledge of something', '20: Obsessed with amassing personal power'];
+    randomResult = document.getElementById('randomResult');
+    document.getElementById("button").addEventListener('click',randText,false);
+</script>
+[[/html]]
+
 **Table: Strained Motivations**
-||~D20 result ||~ Motivation ||
+||~ D20 result ||~ Motivation ||
 || 1 || Fear of the dark ||
 || 2 || Driven to take dangerous risks ||
 || 3 || Uncomfortable being seen ||
@@ -87,8 +111,6 @@ This functions as Minor Strained Motivation, save that the Strained Motivation i
 || 18 || Obliged to placate some malevolent entity ||
 || 19 || Driven to destroy all knowledge of something ||
 || 20 || Obsessed with amassing personal power ||
-
-
 
 
 [[/tab]]
