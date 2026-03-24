@@ -45,7 +45,7 @@ In some circumstances, characters, NPCs, and others in the setting may learn to 
 
 Whenever a character with more than one Tinker tradition would build a gizmo, they must choose which Tinker tradition affects that gizmo. If a Tinker tradition would have banned packages, those packages are banned (its abilities cannot be used) when constructing a gizmo with that Tinker tradition, but not with another Tinker tradition (and allows a character to select Tinker talents that require packages they do not possess).
 
-Characters never receive additional or bonus associated skill ranks from having knowledge of multiple Tinker sphere traditions; a character must choose which Tinker tradition grants those bonus ranks (their “dominant tradition”). A dominant tradition cannot be changed except through retraining (as though retraining a feat). The dominant tradition determines bonus gizmo limit from Tinker tradition drawbacks (or bonus talents if using the tinker tradition bonus talents optional rule), and the character does not receive bonus gizmo limit from their other traditions. This bonus gizmo limit may only be used to craft gizmos from the dominance tradition.
+Characters never receive additional or bonus associated skill ranks from having knowledge of multiple Tinker sphere traditions; a character must choose which Tinker tradition grants those bonus ranks (their “dominant tradition”). A dominant tradition cannot be changed except through retraining (as though retraining a feat). The dominant tradition determines the practitioner’s bonus gizmo limit from their Tinker tradition drawbacks as well as any bonus talents or feats from a Tinker tradition. The character does not receive bonus gizmo limit, talents, or feats from any other known tradition. The bonus gizmo limit granted by the practitioner’s dominant tradition may only be used to craft gizmos from their dominant tradition.
 
 Tinker traditions that grant boons grant their boons normally, but are only accessible and only affect gizmos crafted with that tradition.
 
@@ -158,6 +158,8 @@ Choose one energy type (acid, cold, electricity, fire). Whenever a gizmo you cra
 
 A combined gizmo only explodes a single time; each gizmo that is part of a combined gizmo is destroyed when one of the included gizmos explodes this way. If a creature would be subject to multiple exploding gizmos simultaneously, each gizmo’s explosion damage is halved (after the first).
 
+Gizmos that are destroyed as part of their regular use, such as arsenal gizmo ammunition or a crystal chakram, do not explode when destroyed in this way. Gizmos crafted as a set of items, such as arsenal weapon ammunition, deal no damage unless more than half of the crafted set is destroyed simultaneously, in which case the gizmos collectively explode as a single gizmo (and destroys all other gizmos with the blast’s radius that were crafted as part of the same set). Overlapping explosions do no additional damage this way.
+
 A gizmo crafted with this Tinker drawback may also be primed as a standard action, exploding at the end of your turn. If the gizmo is small enough to be thrown, the gizmo may be thrown as a splash weapon with a range increment of 10 feet.
 
 **Note - Energized Feedback**: If a Tinker tradition possesses both this drawback and the Energized Feedback drawback, the chosen energy type should be the same (subject to GM discretion).
@@ -173,6 +175,23 @@ Battery gizmos you craft are attached to other gizmos 2 steps slower (as a stand
 Gizmos you craft require a free hand to activate or use their functions (or otherwise a hand directly holding, wielding, and/or operating the gizmo or attached object). Your gizmos cannot benefit from abilities that would allow them to be activated or used without requiring a free hand (such the Sensory Set voice controls ability, etc.).
 
 **Normal**: Activating or using a gizmo is a physical action (unless otherwise stated) requiring the user to be capable of physical actions (i.e. not paralyzed, stunned, etc.), but does not require a free or empty hand.
+
++++ Highest Quality Materials [DRS]
+^^**Source:** [https://www.drivethrurpg.com/en/product/556860/diamond-spheres-expanded-tinker-and-silverminds?affiliate_id=549120 Diamond Spheres: Expanded Tinker and Silverminds]^^
+**Prerequisite**: Expensive Craft
+
+Instead of the normal effects of expensive craft, gizmos you craft require 1 gold piece (1 gp) of expensive materials per gizmo level of the crafted gizmo. This cost is only incurred when the gizmo is first crafted (and not when maintained, unlike expensive craft). When adjusting a gizmo to have a higher gizmo level, you must pay the difference in cost. When a gizmo is destroyed, it must be fully recrafted (paying the gp costs again) and cannot be repaired through standard maintenance.
+
+Projects still require 25% increased material costs that must be paid for normally (and cannot be gathered over time like project materials ordinarily can be).
+
+
++++ Implant Requisite [DRS]
+^^**Source:** [https://www.drivethrurpg.com/en/product/556860/diamond-spheres-expanded-tinker-and-silverminds?affiliate_id=549120 Diamond Spheres: Expanded Tinker and Silverminds]^^
+Your non-project, non-battery gizmos must be implanted to be activated or use their effects.
+
+Your battery gizmos may only be used to power implanted gizmos (or projects, as normal). Additional functions and options added to a battery gizmo (such as certain accommodations or other abilities) do not function unless the battery gizmo is implanted.
+
+Your //routines// must be installed in implanted gizmos (and do not function otherwise).
 
 +++ Incomplete Understanding
 //The Tinker practitioner’s mechanisms are complicated and are often not well-understood even by the crafter.//
@@ -222,6 +241,13 @@ Your activated gizmos automatically break a creature’s stealth (and prevent th
 
 Choose one of the following conditions: darkness or bright light, a specific terrain (see the ranger’s favored terrain class feature), a suitable body of water, a certain altitude or depth, or with other conditions available at GM discretion. The Tinker practitioner may only craft their gizmos while in the chosen condition, and the chosen condition must be present for the entire crafting process.
 
++++ Passive Draw [DRS]
+^^**Source:** [https://www.drivethrurpg.com/en/product/556860/diamond-spheres-expanded-tinker-and-silverminds?affiliate_id=549120 Diamond Spheres: Expanded Tinker and Silverminds]^^
+
+Your non-battery gizmos must have an attached, active battery gizmo to be activated or otherwise used. If a gizmo would no longer have an attached battery, or its attached battery is depleted for a battery use ability, the gizmo immediately deactivates (or deactivates after the battery use ability ends).
+
+Infrastructure projects (such as rails and pipes) are not limited by this drawback.
+
 +++ Production Facilities
 //The Tinker practitioner requires a stable environment that matches their tradition, whether that is a bio-lab for growing organic gizmos, a smithy and forge, or otherwise.//
 
@@ -265,6 +291,15 @@ This ability does not allow your gizmos to be awakened, modified like a normal c
 
 **Example**: A practitioner with Adapted Biology (plant) would have gizmos that possess the immunities of the plant creature type, but are now also susceptible to effects that harm such creatures (such as the horrid wilting spell, and similar).
 
++++ Bionic Expert [DRS]
+^^**Source:** [https://www.drivethrurpg.com/en/product/556860/diamond-spheres-expanded-tinker-and-silverminds?affiliate_id=549120 Diamond Spheres: Expanded Tinker and Silverminds]^^
+
+**Prerequisite**: Implant Requisite drawback.
+
+You gain Tinker Savvy as a bonus talent.
+
+Implanting or removing implant gizmos takes half the normal time (see Section 1.2: Skill Rules, Heal for more). You may implant or remove multiple gizmos from the same subject (up to your practitioner modifier in gizmos in a single attempt, taking the longest duration as the surgery’s duration).
+
 +++ Central Intelligence (requires Anchored Craftsmanship Tinker drawback)
 //The anchoring point of your technology is not mechanical, but formless, and can drift between your suitable created vessels of artifice.//
 
@@ -282,7 +317,7 @@ The skill check DC to disable or identify the effects of gizmos you craft is inc
 As a 15-minute process (which may be done as part of maintaining your gizmos), you may explain how a gizmo you have crafted functions to allow one or more creatures to ignore this boon’s increased proficiency check DC (for the specific gizmos you explain to them; new gizmos may require additional lectures).
 
 +++ Conservation Of Energy
-You may spend a full-round action to deactivate any non-minor, non-battery gizmo in your possession (that you have crafted) to immediately convert that gizmo into a battery gizmo; you may attach this battery gizmo to another gizmo in your possession as part of using this ability. A battery gizmo created this way has a gizmo level equal to the deactivated gizmo and lasts a number of rounds equal to 1/2 your ranks in the associated skill + your practitioner modifier. The battery is abandoned at the end of this duration.
+You may spend a full-round action to deactivate any non-minor, non-project, non-battery gizmo in your possession (that you have crafted) to immediately convert that gizmo into a battery gizmo; you may attach this battery gizmo to another gizmo in your possession as part of using this ability. A battery gizmo created this way has a gizmo level equal to the deactivated gizmo and lasts a number of rounds equal to 1/2 your ranks in the associated skill + your practitioner modifier. The battery is abandoned at the end of this duration.
 
 Creatures other than the Tinker practitioner cannot take advantage of this boon (either converting a gizmo into a battery or using a battery created using this boon).
 
@@ -293,6 +328,15 @@ Your gizmos are immune to any harmful effects of their environmental dependency 
 
 +++ Expeditious Construction
 The nature of the mechanism lends itself to faster production. A Tinker practitioner with this boon crafts 1 additional gizmo, +1 per 4 ranks in the associated skill whenever they craft and maintain their gizmos.
+
++++ Graduated With Honors [DRS]
+^^**Source:** [https://www.drivethrurpg.com/en/product/556860/diamond-spheres-expanded-tinker-and-silverminds?affiliate_id=549120 Diamond Spheres: Expanded Tinker and Silverminds]^^
+//You worked hard for your double major in civil engineering and applied psychology.//
+**Prerequisites**: Double Major drawback.
+
+Choose one non-Tinker sphere whose associated skill matches your Double Major’s secondary associated skill. Talents in the chosen secondary sphere are treated as Tinker sphere talents when determining your gizmo limit.
+
+Example: Your Double Major secondary associated skill is Diplomacy. You could select either Warleader or Communication with this boon, treating talents in the selected sphere towards your gizmo limit.
 
 +++ Immaterial Construction
 //The mechanisms are immaterial, seemingly disappearing into nothingness once expended or broken.//
@@ -406,3 +450,4 @@ A so-called “exotic” Tinker tradition is a design space to break rules, in e
 ----
 
 [[include som-template]]
+[[include tinker-template]]
