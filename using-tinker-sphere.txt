@@ -20,6 +20,9 @@ title:Using Tinker Sphere
 **Ultimate Engineering**
 $19.99
 ----
+[[image http://spheresofpower.wikidot.com/local--files/test-page/DRS_Spheres_Expanded-Tinker-and-Silverminds.png link="https://www.drivethrurpg.com/en/product/556860/diamond-spheres-expanded-tinker-and-silverminds?affiliate_id=549120"]]
+**Diamond Spheres: Expanded Tinker and Silverminds**
+$7.99
 [[/=]]
 [[/div]]
 
@@ -114,11 +117,7 @@ The main ability granted by the Tinker sphere is the ability to craft and use de
 
 You may craft any 1 gizmo you know in 30 minutes, or 15 minutes if you have access to an engineering kit or sufficient tools, +1 gizmo of your choice per 4 ranks in the associated skill. Whenever you spend 30 or 15 minutes to craft gizmos (“maintaining your gizmos”), you may also maintain any number of damaged or depleted gizmos, restoring them to full hit points and functionality (i.e. maintaining your depleted batteries, and so on).
 
-**Note - “Crafting” Gizmos and Other Interactions**: “Crafting” a gizmo, or otherwise assembling, modifying an existing object, etc., is not considered crafting for the purposes of most abilities that apply to “objects you crafted”. GMs should determine whether such effects are appropriate and allow them to work at their discretion.
-
-For example, the gnome’s master tinker alternate racial trait (//Advanced Race Guide//) grants proficiency in anything “the gnome crafted” - in this example, GMs should consider whether they want a gnome player character having spontaneous proficiency to nearly any weapon and allow the trait to work, or not work, accordingly.
-
-**Gizmo Limit**: Gizmos are crafted in such a way that they require constant maintenance and upkeep, which limits how many gizmos an individual can have crafted at any one time. You can have a number of gizmos crafted at one time equal to your ranks in the associated skill + the number of Tinker sphere talents you possess (your “gizmo limit”). Bonus talents granted by Tinker sphere drawbacks (as part of a character’s martial tradition) do not count toward the number of Tinker sphere talents you possess. Unless otherwise stated, gizmos last indefinitely until abandoned or destroyed; no additional actions or effort is required to have already-crafted gizmos continue to function.
+**Gizmo Limit**: Gizmos are crafted in such a way that they require constant maintenance and upkeep, which limits how many gizmos an individual can have crafted at any one time. You can have a number of gizmos crafted at one time equal to your ranks in the associated skill + the number of Tinker sphere talents you possess (your “gizmo limit”). ,  gizmo feats granted by your Tinker tradition, and Tinker sphere-specific drawbacks (as part of a character’s martial tradition) do not count toward the number of Tinker sphere talents you possess (except as normal by the effects of the talent, such as the bonus gizmo limit granted by the Efficient Maintenance talent). Unless otherwise stated, gizmos last indefinitely until abandoned or destroyed; no additional actions or effort is required to have already-crafted gizmos continue to function.
 
 Whenever you craft a gizmo beyond your gizmo limit, you must choose an existing gizmo to abandon. An abandoned gizmo immediately stops working and crumbles away harmlessly. You may always choose to abandon any number of gizmos whenever you maintain your gizmos. Some gizmos may become depleted (such as a battery gizmo being expended by another gizmo’s effects); a depleted gizmo counts against the Tinker practitioner’s gizmo limit unless it is abandoned.
 
@@ -127,6 +126,21 @@ Subject to GM discretion, gizmos that are not maintained may become disabled or 
 **Minor Gizmos**: Gizmos with the (minor) tag are easier to maintain than normal (but still require the same amount of time to craft). Instead of counting as an individual gizmo, a number of minor gizmos equal to 2 + 1/2 your ranks in the associated skill can be maintained as a single gizmo. For example, a character with 6 ranks in the associated skill can maintain 5 minor gizmos as though it were a single gizmo. One “set” of minor gizmos (a number of gizmos being treated as a single gizmo) do not need to be homogenous and can be a mix of any minor gizmos you could craft.
 
 **Selling Gizmos**: Gizmos crafted with the Tinker sphere are visibly impermanent in some fashion and are disregarded by most buyers as junk; it is relatively easy (DC 10 Appraise) to recognize the unstable nature of these devices, so typically they have no monetary value; a potential buyer who fails their Appraise check assumes they are spare parts or salvage worth no more than 1 gp.
+
+++ Advanced Gizmos [DRS]
+^^**Source:** [https://www.drivethrurpg.com/en/product/556860/diamond-spheres-expanded-tinker-and-silverminds?affiliate_id=549120 Diamond Spheres: Expanded Tinker and Silverminds]^^
+
+Some gizmos may be crafted as an “advanced gizmo”, granting it additional effects as noted in the gizmo’s entry. An advanced gizmo is counted as +1 gizmo against your gizmo limit (normally 2 gizmos for the purposes of your gizmo limit). An advanced minor gizmo is treated as 1 normal gizmo for the purposes of your gizmo limit.
+
+If an advanced gizmo would improve or be part of another gizmo (such as a prosthetic’s secondary function constructed as an advanced gizmo), that improved gizmo is instead treated as an advanced gizmo.
+
+If an accommodation would be improved as an advanced accommodation, it increases its cost against your gizmo limit the same as an advanced gizmo would.
+
+//Multiple Instances of Advanced//: Multiple increases to a gizmo’s total cost against your gizmo limit are additive. For example, a character creates an advanced gizmo and then also applies two different options that would, separately, cause the gizmo to be advanced. The resulting gizmo would have a total “cost” of 4 against the character’s gizmo limit.
+
+//Gizmos That Do Not Count Against Gizmo Limit//: In rare circumstances, usually through class features, a character may have access to gizmos that do not count against their gizmo limit. In this case, those gizmos, even if advanced, do not count against the character’s gizmo limit - including multiple stacks of advanced (see below).
+
+**Example**: A character could craft an advanced grappling hook modified with the Biomimicry and Explosive Gizmo Expert feats, with the resulting explosive, living, advanced grappling hook counting as 4 gizmos against their gizmo limit.
 
 ++ Gizmo Statistics
 **Gizmo Level and Practitioner Modifier**: All gizmos possess a gizmo level, which equal your ranks in the associated skill at the time of its creation. Gizmos use the practitioner modifier of its creator at time of its creation.
@@ -246,7 +260,7 @@ Gizmo resistance does not extend to other mechanical or technological sources by
 Spells are not hindered by gizmo resistance and gizmos are not hindered by spell resistance, unless otherwise stated. Gizmos are not subject to “transparency” because they are not a spellcasting subsystem, and not intended to be hindered by spell resistance or other magic-impeding effects unless the gizmo would be subject to a Tinker tradition or other effect that treats it as magical.
 
 +++ Implanted Gizmos
-Any gizmo may be implanted into a user the same as implanting an object (see **[[[skill rules | Section 1.2: Skill Rules, Heal]]]** for more). An implanted gizmo can no longer be taken away from the user (such as with the disarm or steal combat maneuvers) but also cannot be used for another creature’s benefit (i.e. treat another creature as the user) or removed from the creature without a new Heal check.
+Any gizmo may be implanted into a user the same as implanting an object (see **[[[skill rules | Section 1.2: Skill Rules, Heal]]]** for more). An implanted gizmo can no longer be taken away from the user (such as with the disarm or steal combat maneuvers) but also cannot be used for another creature’s benefit (i.e. treat another creature as the user) or removed from the creature without a new Heal check. Gizmos that must be attached to other objects (primarily //modifications//) may be implanted, but must then be separately attached to an object in the user’s possession.
 
 An implanted gizmo is otherwise always able to be targeted, sundered, and interacted with as a normal gizmo of its kind.
 
