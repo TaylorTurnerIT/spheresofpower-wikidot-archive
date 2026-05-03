@@ -145,6 +145,12 @@ Your cards are even more difficult to play than the most limited of card casters
 
 Outside of these options, if you have the Card Casting drawback you may select one or more of the following additional modifications if you meet those modification’s prerequisites. Each modification you take is treated as if you had selected an additional drawback when determining your boons.
 
+**Bleeding Hand**
+**Prerequisite:** none
+Whenever you take a standard or full-round action that does not involve playing or discarding a card from your hand, you must discard a card from your hand. You may select this modification a second time, in which case you must discard a card whenever you take a standard, full-round, move, swift, or immediate action that does not involve playing a card from your hand. If you do not possess the Cooldown modification, cards discarded from these modifications are shuffled into your deck.
+
+^^**Source:** Baron’s Secluded Library^^
+
 **Colored Mana**
 **Prerequisite:** Mana Pool ability
 Your Mana Point Cards are restricted by color. For each mana point card in your deck, assign it a specific color such that you have either three or five colors. For each card in your deck which creates a magic effect, assign it a color. Mana point cards only grant spell points for use with magic effects of a matching color, and provide no spell points for effects of other colors. If you have three colors in your deck, no more than half of your magic effects can be of a single color, and you must have at least one magic effect of each color in your deck. If you have five colors in your deck, no more than one fourth of your magic effects can be of a single color, and you must have at least one magic effect of each color in your deck. 
@@ -163,6 +169,23 @@ You do not draw a card at the start of your turn, but may spend a move, swift, o
 **Prerequisite:** Mana Pool ability
 You may only play one Mana Point Card from your hand per round
 
+**Lifebound Deck**
+**Prerequisite:** none
+Your deck’s integrity is tied to your magic. You gain three separate discard piles in addition to your normal discard pile known as the Stun, Wounds, and Death piles. Calculate a value known as your Lifebound value, which is equal to 1/3 your total hit points divided by the number of cards in your deck at the start of the day (minimum 1). Whenever you lose hit points equal to or in excess of your Lifebound value, perform the topmost of the following actions that you are currently capable of performing. For each multiple of your Lifebound value that you lose, repeat the process (for example, if your Lifebound value is 6 and you lose 20 hit points, you perform the process 3 times).
+* Move a card from the Wounds pile to the Death Pile
+* Move a card from the Stun pile to the Wounds pile
+* Move the top card from your deck to the Stun pile
+* Move a card from your hand to the Stun pile
+
+Whenever you heal damage equal to or in excess of your Lifebound value, perform the topmost of the following actions that you are currently capable of performing. For each multiple of your Lifebound value that you heal, repeat the process (for example, if your Lifebound value is 6 and you heal 20 damage, you perform the process 3 times).
+* Move a card from the Death pile to the Wounds Pile
+* Move a card from the Wounds pile to the Stun pile
+* Shuffle a card from your Stun pile back into your deck
+
+When you rest to regain spell points, remove all cards from your Stun, Death, and Wounds piles. Effects that allow you to interact with your discard pile or that count cards in your discard pile do not count cards in your Stun, Death, and Wounds piles
+
+^^**Source:** Baron’s Secluded Library^^
+
 **Singleton**
 **Prerequisite:** Cooldown ability 
 You may only have one copy of each card in your deck, although you may still have multiple copies of mana point cards which are unaffected by the Specialized Mana Cards deck manipulation.
@@ -178,6 +201,12 @@ Your hand of cards, deck, and discard pile all manifest as physical objects on y
 * If an attack is successfully made against your hand of cards, you reveal one card from your hand at random to all hostile creatures in the encounter.
 * If an attack is successfully made against your deck, reveal the top card of your deck to all hostile creatures in the encounter.
 * If an attack is successfully made against your discard pile, reveal the cards of your discard pile to all hostile creatures in the encounter.
+
+**Tight Hand**
+**Prerequisites:** none
+Your maximum hand size is reduced to 3. If you have 3 cards in hand, you cannot draw any more cards. If you would draw cards such that you would have more than 3 cards in hand, you instead draw until you have 3 cards in hand. For each time you select the Loaded Hand deck manipulation, the number of cards you may have in your hand increases by 1.
+
+^^**Source:** Baron’s Secluded Library^^
 
 **Card Casting and Temporary Talents**
 If you have the Card Casting Drawback and would gain temporary magic talents, you create any number of new cards detailing the effects that can be created using that temporary talent. If you are in combat, you immediately add one of these cards of your choice to your hand, and shuffle the remainder into your deck. 
