@@ -1,0 +1,41 @@
+name: Scheduled Wiki Sync
+on:
+  schedule:
+    - cron: '0 3 * * *' # Runs daily at 3:00 AM UTC
+  workflow_dispatch: # Allows manual triggering from the Actions tab
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout wdotcrawl
+        uses: actions/checkout@v4
+        with:
+          repository: TaylorTurnerIT/wdotcrawl # Your fork of the crawler
+          path: crawler
+
+      - name: Checkout Dump Repository
+        uses: actions/checkout@v4
+        with:
+          path: dump-repo
+          fetch-depth: 0 # CRITICAL: Fetches full git history so crawler can read the last commit time
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Install uv and Python
+        uses: astral-sh/setup-uv@v5
+        with:
+          version: "latest"
+          python-version: "3.12"
+          
+      - name: Run Crawler
+        run: |
+          cd crawler
+          uv sync
+          # The sitemap optimization we added will trigger on this command!
+          uv run python crawl.py http://spheresofpower.wikidot.com --dump ../dump-repo
+
+      - name: Push new commits
+        run: |
+          cd dump-repo
+          # Push the newly generated commits (wdotcrawl automatically creates them)
+          git push origin main
