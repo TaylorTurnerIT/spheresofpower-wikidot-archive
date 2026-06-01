@@ -1,0 +1,109 @@
+title:Tinker Bestiary
+parent:ultimate-engineering
+[[toc]]
+
+[[module CSS]]
+.noselect {
+  -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome and Opera */
+}
+[[/module]]
+[[tabview]]
+[[tab Ultimate Engineering]]
+[[div class="noselect" style="float:right; width: 20%; padding: 0 2%"]]
+[[=]]
+[[image http://spheresofpower.wikidot.com/local--files/test-page/ultimateengineering.jpg link="https://www.drivethrurpg.com/product/472038/Ulimate-Engineering?affiliate_id=549120"]]
+**Ultimate Engineering**
+$19.99
+----
+[[/=]]
+[[/div]]
+
++ Construct Templates
+The following templates are templates for constructs. //Mechanoids// can gain these templates through the Advanced Transportation mechanoid templates ability, or other sources. The templates granted this way may also have //mechanoid//-specific notes, as noted in their entries. GMs may apply these templates to other constructs, as they would a normal template, and may be applied to player-constructed constructs at GM discretion.
+
+GMs and players may also design new templates for //mechanoids// using the Inventioneering rules (see **Section 4.4 Gamemaster’s Toolkit, Inventioneering** for more).
+
++++ Alchemical Construct (CR +0)
+This template can be applied to any construct, adding the following properties:
+**Subtype**: The construct gains the alchemical subtype.
+**Alchemy**: All natural attacks made by the alchemical construct deal an additional 1d6 acid damage.
+**Broken Containers**: Any attack against an alchemical construct with a melee weapon deals 1 point of acid damage to the attacker. This amount increases to 1d6 points of damage if the attack is a critical hit. Alchemical constructs lose their immunity to bleed damage and, if subject to a critical hit, suffer 1d6 bleed damage in addition to the critical hit and its effects. An alchemical construct can receive first aid (using the Heal skill) to stop bleeding as though the alchemical construct were a living creature.
+**Vulnerable to Fire**: Alchemical constructs take 150% as much damage as normal from fire attacks.
+
++++ Biological Construct (CR +0)
+//Although the construct is of artificial creation, its body is constructed of organic components, and in many ways it functions as a living creature.//
+
+This template can be applied to any construct, adding the following properties:
+
+**Living (Ex)**: When the construct is first created choose one of the following creature types: aberration, animal, dragon, fey, humanoid, magical beast, monstrous humanoid, ooze, outsider, plant, or vermin. The biological construct is treated as both a construct and the chosen creature type creature for the purposes of a ranger’s favored enemy, the //bane// weapon special ability, and other spells and effects that determine their effects by creature type, whether beneficial or harmful. The biological construct does not gain any of the creature type’s normal abilities (such as immunities or senses), unless specified otherwise.
+
+**Lessened Immunity (Ex)**: A biological construct loses each construct condition and effect immunity that would not also be granted by their chosen creature type, instead gaining a +4 bonus on saving throws against that condition or effect. If the biological construct is mindless, it retains immunity to mind-affecting effects.
+
+**Hearty (Ex)**: The biological construct’s Hit Dice change to d8s. The biological construct does not gain bonus hit points from being a construct and gains a Constitution score equal to their Charisma score. The biological construct is not immediately destroyed when reduced to 0 hit points or less, can be affected by positive energy and negative energy as though it were a living creature, and can regain hit points as a living creature.
+
+**Living Needs**: The biological construct needs to breathe, eat, and sleep as required by their chosen creature type.
+
+**Saves**: The biological construct’s good saving throws are the same as its chosen creature type.
+
+**Mechanoid-Specific Notes**: If the //mechanoid’s// crafter has the Tinker tradition Adapted Biology boon, the biological construct’s chosen creature type must match Adapted Biology boon’s chosen creature type. The //mechanoid// gains a Constitution score of 14.
+
++++ Clockwork Construct (CR +0)
+This template can be applied to any construct, adding the following properties:
+
+**Subtype**: The construct gains the clockwork subtype.
+
+**Winding**: The construct must be wound with a special key in order to function. As a general rule, a fully wound clockwork can remain active for 1 day per Hit Die, but shorter or longer durations are possible. //Mechanoids// with this template instead require an attached battery to stay functional (which is depleted every 24 hours as normal).
+
+**Vulnerable to Electricity**: Clockwork constructs take 150% as much damage as is normal from electricity attacks.
+
+**Swift Reactions**: Clockwork constructs generally react much more swiftly than other constructs. They gain Improved Initiative and Lightning Reflexes as bonus feats, and gain a +2 dodge bonus to AC.
+
++++ Robot (CR +0)
+This template can be applied to any construct, adding the following properties:
+
+**Subtype**: The construct gains the robot subtype.
+
+**Intelligent**: Robots are intelligent, and thus have skills and feats as appropriate for their Hit Dice. Unless otherwise indicated for a specific robot, all robots have Intelligence scores of 10. The following are class skills for robots: Climb, Disable Device, Fly, Knowledge (all), Linguistics, Perception, and Sense Motive.
+
+**Vulnerable to Critical Hits**: Whenever a robot takes extra damage from a critical hit, it must succeed at a DC 15 Fortitude save or be stunned for 1 round. If the robot succeeds at the save, it is staggered for 1 round. The robot remains immune to all other sources of the stunned condition.
+
+**Vulnerable to Electricity**: Robots take 150% as much damage as normal from electricity attacks.
+
+**Mechanoid-Specific Notes**: //Mechanoids// with the robot template (and other constructs which lack the capability of taking independent actions) cannot act, move, or attack on their own, nor do they have a Wisdom or Charisma score, despite having an Intelligence score. The //mechanoid// must still be piloted in order to act.
+
++++ Steampower Construct (CR +0)
+This template can be applied to any construct, adding the following properties:
+
+**Subtype**: The construct gains the steampowered subtype.
+
+**Refill**: A steampowered construct can only function for 1 day per Hit Die before needing to be refilled with water. A Medium construct must be refilled with 8 gallons of water. This is multiplied by 4 for each size category over Medium, or divided by 4 for every size category below Medium.
+
+**Hydraulic Force**: Steampowered constructs gain a +2 bonus to Strength. This bonus increases by +2 for every size category above Medium they possess.
+
+**Vulnerable to Cold**: Steampowered constructs take 150% as much damage as normal from cold attacks.
+
++++ Undead Construct (CR +0)
+//Although the construct is created from inorganic components, the methods of its mobility include necromantic elements, and in many ways it functions as an undead creature.//
+
+This template can be applied to any construct, adding the following properties:
+
+**Unliving (Ex)**: The undead construct is treated as both a construct and an undead creature for the purposes of a ranger’s favored enemy, the //bane weapon// special ability, and other spells and effects that determine their effects by creature type, whether beneficial or harmful. The undead construct does not gain any of the creature type’s normal abilities (such as immunities or senses), unless specified otherwise.
+
+**Heartless (Ex)**: The undead construct’s Hit Dice change to d8s. The undead construct does not gain bonus hit points from being a construct and instead uses their Charisma score when calculating hit points, Fortitude saves, and any special ability that relies on Constitution. The undead construct loses its immunity to necromancy effects and can be affected by positive energy and negative energy as though it were an undead.
+
+**Vulnerable to Positive Energy**: Undead constructs take 150% as much damage as normal from positive energy attacks.
+
+**Saves**: The undead construct’s good saving throw is Will.
+[[/tab]]
+[[/tabview]]
+
+----
+
+[[include som-template]]
+[[include tinker-template]]

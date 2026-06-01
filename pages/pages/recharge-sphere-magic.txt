@@ -1,0 +1,425 @@
+title:Recharge Sphere Magic (Beta)
+parent:spheres-of-power
+**Important Wiki Note:** These are **not** official rules. Drop Dead Studios (Spheres of Power's creator) did not write these and does not endorse them. They probably don't even know these exist, so please do not ask them for clarification if you have questions. Use your own best judgment instead. These rules are being //unofficially tested// as an adaption of the Recharge Magic rules found in //Unearthed Arcana//, and using them could have highly unpredictable effects on Spheres' otherwise excellent game balance. In addition, the rules here may change at any time as they are tested further. Please do not use these rules in your game unless you fully understand the potential consequences of doing so. Notably, the Recharge Sphere Magic rules somewhat favor generalists, and may impose added difficulty on those who specialize in one or two spheres.
+
+That said, we welcome comments, suggestion, and criticism on these rules, and you may send them to this wiki's admin.
+
+----
+
++ Recharge Sphere Magic Rules (Beta)
+
+Recharge Sphere Magic is a variant rule system for Spheres of Power, modifying the character's pool of Spell Points. Any action that would normally require the use of a spell point instead triggers a Cooldown for that Sphere. During a Cooldown, only the powers from that Sphere that don't require spending a spell point can be used - any powers that require spending one or more spell points are unavailable.
+
+Using a Sphere's base power never incurs (or is restricted by) a cooldown unless you'd normally have to spend a spell point (like the Create power of the Creation sphere). Any restrictions a Sphere already has, such as not being able to use a power on a target more than once a day, remain in force.
+
+Many Sphere powers provide new versions of a base ability. When these cost a spell point, they trigger a Cooldown even if the basic ability does not. Similarly, many Sphere abilities can be maintained without triggering a Cooldown by concentrating, but would trigger a Cooldown if the caster wanted to spend a spell point to maintain them without concentrating.
+
+If the use of a spell would normally cost more than one spell point (such as from using metamagic), the recharge time is multiplied by the number of spell points that would have been spent. For example, if a Destructive Blast costing two spell points was cast at the highest caster level, it would incur a cooldown of 2d4+2 rounds on the Destruction Sphere.
+
+Some abilities are very powerful, especially if they can be repeatedly used in quick succession. These abilities have specific recharge times. When used, these abilities trigger a cooldown for themselves, but not for the rest of their Sphere. For example, the Creation sphere's Forge ability has a specific recharge of 6 hours, and other Creation abilities could be used while that power is recharging.
+
+As in the base system, it is possible to "undercast" a spell by not using it at the maximum level. Under the Recharge Sphere Magic rules, doing this will reduce the cooldown time once certain milestones are reached. This is meant to encourage characters to avoid casting at their maximum caster level all the time - or if they do, to force them to do different things and so avoid "spamming" any ability that's particularly effective. A spell cannot be undercast below Caster Level 1, nor below the minimum caster level needed to learn the talent. If there is a caster level requirement on a normally passive benefit (such as multiple selections of the Destruction sphere's Greater Blast talent), a spell that's been undercast cannot obtain any benefits beyond what the adjusted Caster Level would allow. For example, at Caster Level 4, a character could only benefit from Greater Blast once even if they've selected it two or more times. The same rule applies to feats and anything else that requires a minimum caster level in order to function - if it's undercast below their requirements, additional effects will not apply for that casting.
+
+If Advanced talents are permitted, their use adds an additional multiplier to the cooldown (this is in addition to any spell points normally required).
+
+||~ Caster Level ||~ General Recharge Time (Per Spell Point Spent) ||
+|| Highest Possible || 1d4+1 rounds || 
+|| Highest minus 2 || 1d4+1 rounds ||
+|| Highest minus 4 || 1d4 rounds ||
+|| Highest minus 6 || 1d4 rounds ||
+|| Highest minus 8 || 1d3 rounds ||
+|| Highest minus 10 || 1d3 rounds ||
+|| Highest minus 12 || 1 round ||
+|| Highest minus 14 || 1 round ||
+|| Highest minus 16 || 0 rounds (No Cooldown) ||
+
+**Suggestion:** If a character specializes in a small number of Spheres (typically three or less, subject to GM discretion based on the specifics of the character), consider counting all general recharge times starting at CL -4 (i.e. 1d4 rounds). This helps to make up for their lack of variety by allowing them to use their focus spheres more frequently. They'll probably use Drawbacks to reduce this to 1d3 rounds - this is intentional. They probably shouldn't be allowed to reduce down to 1 round through anything other than undercasting, though.
+
+**Rituals:** Rituals do not normally incur a general recharge time because of the length of time it takes to cast them. However, any ritual that imitates a spell with a specific recharge time (such as the Floating Disk ritual) has that cooldown. If you spend spell points on a ritual, such as through the Spell Dabbler feat, you incur a general recharge per spell point spent in that ritual's associated sphere. You cannot start a ritual if the sphere it's associated with is on cooldown.
+
+**Special:** Some characters (such as Mageknights) have the option to spend spell points on class abilities instead of spells. These characters treat class abilities as a separate sphere with a 1d3 round cooldown on spell points that can be spent on their class powers. They may spend spell points from their normal quarter-size pool to spend additional spell points on their class abilities in a round.
+
+----
+
++ Suggested Recharge Times
+
+**Wiki Note:** Talents not listed here are assumed to either not apply (such as permanent passive abilities) or be straightforward (usually either not triggering a cooldown because a spell point isn't spent, or having an obvious cost/cooldown under these rules and not needing any specific cooldown).
+
+[[collapsible show="Show Rules For All Spheres" hide="Hide Rules For All Spheres"]]
+||~ If The Ability Has No Spell Point Cost And No Specific Cooldown || It does not trigger a cooldown ||
+||~ If The Ability Normally Has No Spell Point Cost, But Can Be Maintained By Spending A Point || It only triggers a cooldown when it would be maintained by spending a spell point ||
+[[/collapsible]]
+
+[[collapsible show="Show Alteration Recharge Times" hide="Hide Alteration Recharge Times"]]
+**Normal Talents**
+||~ This Sphere Ability ||~ Is Like This Spell ||~ And Should Use This Recharge Time ||
+||~ Shapeshift || Polymorph || None (Base)* ||
+^^*Alteration's normal talents are focused on granting the //Shapeshift// ability new options. While it does not normally have a recharge time, the use of talents that require spending a spell point do trigger a cooldown, preventing Shapeshifts using any talents besides the base ability.^^
+[[/collapsible]]
+
+[[collapsible show="Show Conjuration Recharge Times" hide="Hide Conjuration Recharge Times"]]
+**Normal Talents**
+||~ This Sphere Ability ||~ Is Like This Spell ||~ And Should Use This Recharge Time ||
+||~ Summon || Summon Monster I || None (Base) ||
+^^Conjuration's other talents are permanent passive abilities, and are unaffected by the Recharge Sphere Magic rules.^^
+
+**Advanced Talents**
+||~ This Sphere Ability ||~ Is Like This Spell ||~ And Should Use This Recharge Time ||
+||~ Summoning || Planar Binding || 24 Hours ||
+[[/collapsible]]
+
+[[collapsible show="Show Creation Recharge Times" hide="Hide Creation Recharge Times"]]
+**Normal Talents**
+||~ This Sphere Ability ||~ Is Like This Spell ||~ And Should Use This Recharge Time ||
+||~ Repair || Cure Light Wounds || None (Base) ||
+||~ Destroy || Inflict Light Wounds || None (Base) ||
+||~ Create || Minor Creation || General (Base) ||
+||~ Altering Burst || Unknown || General ||
+||~ Change Materials (alter) || Transmute Rock to Mud || 6 Hours ||
+||~ Forge (alter) || Stone Shape || 6 Hours ||
+||~ Magnify/Minimize || Enlarge Person || 5 Minutes ||
+||~ Rigidity (alter) || Unknown || General ||
+
+**Advanced Talents**
+||~ This Sphere Ability ||~ Is Like This Spell ||~ And Should Use This Recharge Time ||
+||~ Create Materials || Unknown || 6 Hours ||
+||~ Fabricate || Fabricate || 4 Hours ||
+||~ Permanent Change || Permanency || General ||
+[[/collapsible]]
+
+[[collapsible show="Show Dark Recharge Times" hide="Hide Dark Recharge Times"]]
+**Normal Talents**
+||~ This Sphere Ability ||~ Is Like This Spell ||~ And Should Use This Recharge Time ||
+||~ Darkness || Darkness || None (Base) ||
+||~ Clearsight || Unknown || General ||
+||~ Dark Slaughter || Unknown || 6 Hours ||
+||~ Darkvision || Darkvision || 6 Hours ||
+||~ Disorienting Darkness || Unknown || General ||
+||~ Fearful Darkness || Scare || General ||
+||~ Feed on Darkness || Unknown || General ||
+||~ Hide in Darkness || Unknown || 6 Hours ||
+||~ Hungry Darkness || Unknown || General ||
+||~ Looming Darkness || Unknown || General ||
+||~ Pure Darkness || Deeper Darkness || 24 Hours ||
+||~ Silent Darkness || Silence || 30 Minutes ||
+||~ Snagging Darkness || Black Tentacles || General ||
+||~ Step Through Darkness || Dimension Door || General ||
+||~ Thick Darkness || Grease || General ||
+
+**Advanced Talents**
+||~ This Sphere Ability ||~ Is Like This Spell ||~ And Should Use This Recharge Time ||
+||~ Shadow Walker || Teleport || 4 Hours ||
+[[/collapsible]]
+
+[[collapsible show="Show Death Recharge Times" hide="Hide Death Recharge Times"]]
+**Normal Talents**
+||~ This Sphere Ability ||~ Is Like This Spell ||~ And Should Use This Recharge Time ||
+||~ Ghost Strike (Exhausting Strike) || Ray of Exhaustion || None (Base) ||
+||~ Reanimate || Animate Dead || General (Base) ||
+||~ Bleeding Wounds || Unknown || General ||
+||~ Command Undead || Command Undead || 1 Hour ||
+||~ Curse || Bestow Curse || General ||
+||~ Drain || Enervation || General ||
+||~ Inflict Disease || Contagion || General ||
+||~ Manipulate Undeath || Inflict Light Wounds || General ||
+||~ Necrotic Feeding || Vampiric Touch || General ||
+||~ Sickening || Ray of Exhaustion || General ||
+||~ Vampiric Strike || Vampiric Touch || General ||
+||~ Weakening || Bestow Curse || General ||
+
+**Advanced Talents**
+||~ This Sphere Ability ||~ Is Like This Spell ||~ And Should Use This Recharge Time ||
+||~ Astral Projection || Astral Projection || General ||
+||~ Greater Undead || Create Greater Undead || General ||
+||~ Possession || Magic Jar || General ||
+||~ Project Spirit || Ethereal Jaunt || 30 Minutes ||
+||~ Soul Trap || Trap the Soul || General ||
+||~ Summon Spirit || Speak with Dead || 30 Minutes ||
+[[/collapsible]]
+
+[[collapsible show="Show Destruction Recharge Times" hide="Hide Destruction Recharge Times"]]
+**Normal Talents**
+||~ This Sphere Ability ||~ Is Like This Spell ||~ And Should Use This Recharge Time ||
+||~ Destructive Blast || Blasting Spells || None (Base) ||
+||~ Destructive Blast (1 SP for Added Damage) || Better Blasting Spells || General (Base) ||
+||~ Blast Types That Do Not Cost SP || N/A || No Change ||
+||~ Blast Types That Cost SP || N/A || Normal Rules For Increasing Recharge Time ||
+||~ Blast Shapes That Do Not Cost SP || N/A || No Change ||
+||~ Blast Shapes That Cost SP || N/A || Normal Rules For Increasing Recharge Time ||
+^^Note: It's possible to have a Blast Type and a Blast Shape that both cost SP. In that case, their costs are added together when determining the cooldown time.^^
+[[/collapsible]]
+
+[[collapsible show="Show Divination Recharge Times" hide="Hide Divination Recharge Times"]]
+**Normal Talents**
+||~ This Sphere Ability ||~ Is Like This Spell ||~ And Should Use This Recharge Time ||
+||~ Divine || Detect Magic || None (Base) ||
+||~ Alternate Basic Divinations || Detect Magic || None (Base) ||
+||~ Sense || Read Magic || None (Base) ||
+||~ Augury || Augury || 6 Hours ||
+||~ Detect Secrets || Detect Hidden Doors || General ||
+||~ Detect Spellcaster || Unknown || 30 Minutes ||
+||~ Detect Teleportation || Unknown || 30 Minutes ||
+||~ Detect Thoughts || Detect Thoughts || General ||
+||~ Divine Future || Unknown || Special (See Talent Text) ||
+||~ Divine Information || Unknown || 6 Hours ||
+||~ Dowsing || Locate Creature || 2 Hours ||
+||~ Object Reading || Unknown || 2 Hours ||
+||~ Sensory Overload || Unknown || General ||
+||~ Viewing || Arcane Eye || General ||
+||~ Witness the City || Unknown || 12 Hours ||
+
+**Advanced Talents**
+||~ This Sphere Ability ||~ Is Like This Spell ||~ And Should Use This Recharge Time ||
+||~ Discern Location || Locate Creature || 4 Hours ||
+||~ Divine Identity || Unknown || 30 Minutes ||
+||~ Divine Knowledge || Augury || 12 Hours ||
+||~ Divine Planeshift || Unknown || 30 Minutes ||
+||~ Read Omens || Divination || 24 Hours ||
+||~ Scrying || Scrying || General ||
+[[/collapsible]]
+
+[[collapsible show="Show Enhancement Recharge Times" hide="Hide Enhancement Recharge Times"]]
+**Normal Talents**
+||~ This Sphere Ability ||~ Is Like This Spell ||~ And Should Use This Recharge Time ||
+||~ Enhance Equipment || Greater Magic Weapon || None (Base) ||
+||~ Animate Object || Animate Objects || General ||
+||~ Bestow Intelligence || Awaken || General ||
+^^Reminder: Many of the abilities not listed here have no cooldown normally, but would trigger one in order to maintain them without concentrating.^^
+
+**Advanced Talents**
+||~ This Sphere Ability ||~ Is Like This Spell ||~ And Should Use This Recharge Time ||
+||~ Ascetic Control || Unknown || 24 Hours ||
+||~ Bestow Life || Unknown || None (24-hour casting time is long enough already) ||
+||~ Reverse Gravity || Reverse Gravity || General ||
+[[/collapsible]]
+
+[[collapsible show="Show Fate Recharge Times" hide="Hide Fate Recharge Times"]]
+**Normal Talents**
+||~ This Sphere Ability ||~ Is Like This Spell ||~ And Should Use This Recharge Time ||
+||~ Hallow || Protection From Evil || General (Base) ||
+||~ Serendipity || Divine Favor || General (Base) ||
+||~ Judgment || Command || General ||
+||~ Truth || Zone of Truth || 30 Minutes ||
+
+**Advanced Talents**
+||~ This Sphere Ability ||~ Is Like This Spell ||~ And Should Use This Recharge Time ||
+||~ Atonement || Atonement || General ||
+||~ Geas || Geas/Quest || General ||
+||~ Mark of Judgment || Mark of Justice || General ||
+[[/collapsible]]
+
+[[collapsible show="Show Illusion Recharge Times" hide="Hide Illusion1 Recharge Times"]]
+**Normal Talents**
+||~ This Sphere Ability ||~ Is Like This Spell ||~ And Should Use This Recharge Time ||
+||~ Effects || Minor Image || None (Base) ||
+||~ Alter || Minor Image || None (Base) ||
+||~ Illusion || Silent Image || General (Base) ||
+||~ Invisibility || Invisibility || 5 Minutes ||
+[[/collapsible]]
+
+[[collapsible show="Show Life Recharge Times" hide="Hide Life Recharge Times"]]
+**Normal Talents**
+||~ This Sphere Ability ||~ Is Like This Spell ||~ And Should Use This Recharge Time ||
+||~ Invigorate || Unknown || None (Base) ||
+||~ Cure || Cure Light Wounds || General (Base) ||
+||~ Restore || Lesser Restoration || General (Base) ||
+^^The other talents in this sphere generally enhance the existing abilities. Remember that spell point costs add additional cooldowns!^^
+
+**Advanced Talents**
+||~ This Sphere Ability ||~ Is Like This Spell ||~ And Should Use This Recharge Time ||
+||~ Regeneration || Regenerate || General ||
+||~ Restore Mind and Body || Greater Restoration || General ||
+||~ Resurrection || Resurrection || General ||
+||~ Resurrection, Greater || Resurrection || General ||
+[[/collapsible]]
+
+[[collapsible show="Show Light Recharge Times" hide="Hide Light Recharge Times"]]
+**Normal Talents**
+||~ This Sphere Ability ||~ Is Like This Spell ||~ And Should Use This Recharge Time ||
+||~ Glow || Light || None (Base) ||
+||~ Area Glow || Daylight || General ||
+||~ Bound Light || Unknown || General ||
+||~ Dual Light || Unknown || General ||
+||~ Repelling Light || Sanctuary || 5 Minutes ||
+||~ Revealing Light || Invisibility Purge || 30 Minutes ||
+
+**Advanced Talents**
+||~ This Sphere Ability ||~ Is Like This Spell ||~ And Should Use This Recharge Time ||
+||~ Constellation || Dancing Lights || General ||
+||~ Everglow || Permanency || General ||
+||~ Light Speed || Teleport || 4 Hours ||
+||~ Prismatic Radiance || Prismatic Spray || General ||
+[[/collapsible]]
+
+[[collapsible show="Show Mind Recharge Times" hide="Hide Mind Recharge Times"]]
+**Normal Talents**
+||~ This Sphere Ability ||~ Is Like This Spell ||~ And Should Use This Recharge Time ||
+||~ Any Lesser Charm || Charm Person || None ||
+||~ Any Greater Charm || Charm Person || General ||
+||~ Any Powerful Charm || Dominate Person || 12 Hours (Each tracked separately) ||
+[[/collapsible]]
+
+[[collapsible show="Show Nature Recharge Times" hide="Hide Nature Recharge Times"]]
+**Normal Talents**
+||~ This Sphere Ability ||~ Is Like This Spell ||~ And Should Use This Recharge Time ||
+||~ (Plantlife) Entangle || Unknown || None (Base) ||
+||~ (Plantlife) Growth || Goodberry || 6 Hours ||
+||~ (Plantlife) Pummel || Unknown || None (Base) ||
+||~ (Water) Vortex || Unknown || None (Base) ||
+||~ (Water) Fog || Obscuring Mist || None (Base) ||
+||~ (Water) Freeze || Unknown || General (Base) ||
+||~ (Earth) Bury || Unknown || None (Base) ||
+||~ (Earth) Tremor || Unknown || General (Base) ||
+||~ (Earth) Dust Storm || Darkness || None (Base) ||
+||~ (Fire) Manipulate Lava || Unknown || General (Base) ||
+||~ (Fire) Create Fire || Burning Hands || None (Base) ||
+||~ (Fire) Affect Fire || Unknown || None (Base) ||
+||~ (Metal) Recover Ore || Unknown || General (Base) ||
+||~ (Metal) Magnetize || Unknown || None (Base) ||
+||~ Barkskin || Barkskin || General ||
+||~ Blade Whip || Unknown || General ||
+||~ Create Water || Create Water || General ||
+||~ Feed on Fire || Resist Energy || 1 Hour ||
+||~ Forge Earth || Stone Shape || 6 Hours ||
+||~ Grow Plants || Plant Growth || 5 Minutes ||
+||~ Manipulate Object || Unknown || General ||
+||~ Melt Earth || Unknown || General ||
+||~ Nature Barrier || Wall of Force || General ||
+||~ Oxidation Ray || Unknown || General ||
+||~ Shelter || Secure Shelter || 12 Hours ||
+||~ Speak with Animals || Speak with Animals || 30 Minutes ||
+||~ Speak with Stone || Speak with Plants || 30 Minutes ||
+||~ Speak with Water || Speak with Plants || 30 Minutes ||
+||~ Stoneskin || Stoneskin || General ||
+||~ Tough as Mettle || Unknown || General ||
+||~ Waterwalk || Water Walk || 4 Hours ||
+||~ Wave || Unknown || General ||
+
+**Advanced Talents**
+||~ This Sphere Ability ||~ Is Like This Spell ||~ And Should Use This Recharge Time ||
+||~ Earthquake|| Earthquake || 24 Hours ||
+||~ Eternal Steel || Unknown || General ||
+||~ Freezing Geyser || Unknown || General ||
+||~ Living Steel || Unknown || 24 Hours ||
+||~ Natural Ally || Summon Nature's Ally || General ||
+||~ Rapid Growth || Plant Growth || 24 Hours ||
+||~ Tsunami || Unknown || 24 Hours ||
+||~ Volcano || Unknown || 6 Hours ||
+||~ Zoetic Geomancy || Elemental Swarm || 1 Hour ||
+[[/collapsible]]
+
+[[collapsible show="Show Protection Recharge Times" hide="Hide Protection Recharge Times"]]
+**Normal Talents**
+||~ This Sphere Ability ||~ Is Like This Spell ||~ And Should Use This Recharge Time ||
+||~ Ward || Unknown || None (Base) ||
+||~ Aegis || Unknown || 1 Hour Per-Type (Base) ||
+
+**Advanced Talents**
+||~ This Sphere Ability ||~ Is Like This Spell ||~ And Should Use This Recharge Time ||
+||~ Adaptation || Endure Elements || 6 Hours ||
+||~ Anti-Magic Aura || Antimagic Field || General ||
+||~ Unplottable || Mind Blank || 12 Hours ||
+[[/collapsible]]
+
+[[collapsible show="Show Telekinesis Recharge Times" hide="Hide Telekinesis Recharge Times"]]
+**Normal Talents**
+||~ This Sphere Ability ||~ Is Like This Spell ||~ And Should Use This Recharge Time ||
+||~ Sustained Force || Unknown || General (Base) ||
+||~ Hostile Lift || Telekinesis || General (Base) ||
+||~ Bludgeon || Unknown || None (Base) ||
+||~ Catch || Unknown || None (Base) ||
+||~ Catch Shield || Unknown || General ||
+||~ Kinetic Field || Unknown || General ||
+
+**Advanced Talents**
+||~ This Sphere Ability ||~ Is Like This Spell ||~ And Should Use This Recharge Time ||
+||~ Affix || Unknown || General ||
+||~ Astral Affixation || Unknown || General ||
+||~ Choking Grasp || Unknown || General ||
+||~ Focused Might || Unknown || General ||
+||~ Linear Acceleration || Unknown || General ||
+||~ Puppet || Unknown || General ||
+[[/collapsible]]
+
+[[collapsible show="Show Time Recharge Times" hide="Hide Time Recharge Times"]]
+**Normal Talents**
+||~ This Sphere Ability ||~ Is Like This Spell ||~ And Should Use This Recharge Time ||
+||~ Haste || Haste || None (Base) ||
+||~ Slow || Slow || None (Base) ||
+||~ Age || Bestow Curse || General ||
+||~ Eject || Unknown || General ||
+||~ Fast Time || Unknown || General ||
+||~ Repetition || Unknown || General ||
+||~ Retry || Unknown || 5 Minutes ||
+||~ Shift Time || Unknown || General ||
+||~ Steal Time || Unknown || General ||
+||~ Time Freeze || (A weak) Time Stop || General ||
+
+**Advanced Talents**
+||~ This Sphere Ability ||~ Is Like This Spell ||~ And Should Use This Recharge Time ||
+||~ Temporal Stasis || Temporal Stasis || General ||
+[[/collapsible]]
+
+[[collapsible show="Show War Recharge Times" hide="Hide War Recharge Times"]]
+**Normal Talents**
+||~ This Sphere Ability ||~ Is Like This Spell ||~ And Should Use This Recharge Time ||
+||~ Totem of War || Unknown || None (Base) ||
+||~ Mandate Talents (All) || Unknown || General^^1^^ ||
+||~ Momentum Talents (All) || Unknown || 1 Hour ||
+||~ Rally Talents || Unknown || General (Special)^^2^^ ||
+||~ Absolute Totem || Unknown || General ||
+||~ Blood Totem || Unknown || General ||
+||~ Totem of Allegiance || Divine Favor || 5 Minutes ||
+||~ Totem of Courage || Bless || 30 Minutes ||
+||~ Totem of Doom || Doom || General ||
+||~ Totem of Enemies || Bane || General ||
+||~ Totem of Iron || Barkskin || 1 Hour ||
+||~ Totem of Liberation || Unknown || 30 Minutes ||
+||~ Totem of Mobility || Unknown || General ||
+
+^^1: Only when spending a Spell Point to maintain it without concentration, per the general rules for Recharge Sphere Magic.^^
+^^2: All Rally talents have a Specific Recharge Time of General. This means that while they typically have a cooldown of 1d4+1 rounds, it can be reduced by specializing in the War sphere (to a minimum of 1d3 rounds). Since their recharge times are specific, using any Rally talent does not trigger a cooldown for any //other// Rally talent. This unusual designation reflects the fact that Rally talents are meant to be "Immediate" abilities that can be triggered in response to a given situation, and we didn't believe it was appropriate to shut down the rest of the War Sphere - or other Rally talents a character knows - when these were used.^^
+[[/collapsible]]
+
+[[collapsible show="Show Warp Recharge Times" hide="Hide Warp Recharge Times"]]
+**Normal Talents**
+||~ This Sphere Ability ||~ Is Like This Spell ||~ And Should Use This Recharge Time ||
+||~ Teleport || Dimension Door || None (Base) ||
+||~ Emergency Teleport || Dimension Door || General ||
+||~ Extradimensional Room (When Spending SP) || Unknown || General ||
+||~ Group Teleport || Dimension Door || General ||
+||~ Plane Manipulator || Dimensional Anchor/Dismissal || General ||
+||~ Teleport Beacom (When Spending SP) || Unknown || General ||
+
+**Advanced Talents**
+||~ This Sphere Ability ||~ Is Like This Spell ||~ And Should Use This Recharge Time ||
+||~ Create Demiplane || Unknown || 24 Hours ||
+||~ Dimensional Lock || Dimensional Anchor || General ||
+||~ Planeshift || Plane Shift || General ||
+||~ Portal || Gate || General ||
+||~ True Teleport || Teleport || 4 Hours ||
+[[/collapsible]]
+
+[[collapsible show="Show Weather Recharge Times" hide="Hide Weather Recharge Times"]]
+**Normal Talents**
+||~ This Sphere Ability ||~ Is Like This Spell ||~ And Should Use This Recharge Time ||
+||~ Control Weather || Unknown || None (Base) ||
+^^Note that most of the other effects in this Sphere allow for spending a spell point to trigger stronger effects, which DOES trigger a Cooldown.^^
+[[/collapsible]]
+----
+
++ Additional Rules
+* Some Sphere powers are not meaningfully affected by Caster Level. For this system, such powers are always assumed to be cast at the highest Caster Level.
+
+* When casting spells with Metamagic, each level increase counts as one spell point for determining the recharge time. (For spells with a specific recharge time, that recharge is doubled for each metamagic used.) In addition, each metamagic (except Quicken Spell) applied still incurs a one-step increase in casting time, per normal Metamagic rules for Spheres of Power.
+
+* Many spherecasters take advantage of the Drawback system. This normally allows them to acquire extra spell points, but in the Recharge Magic system, characters cannot raise their number of spell points. Instead, for each drawback a character takes (or any time a character would normally gain bonus spell points, such as through the Extra Spell Points feat, but not from leveling or raising their casting ability modifier), they may select two different Spheres and treat their Caster Level as two lower for determining the length of the recharge. This can reduce the recharge time for that Sphere. As in the base system, characters may select Boons in place of the benefit they would normally receive for taking Drawbacks.
+ * Sphere-specific Drawbacks, which grant extra talents, are unaffected.
+
+* It is impractical to try and predict every combination of abilities, especially because options like Dual Feats and Spellcrafting allow for almost limitless combinations. In general, however, you should keep the following in mind:
+ * Combat spells (such as the Destruction sphere, or parts of the Protection sphere) and short-duration powers (those that can last 1 round per-level by spending a spell point) typically follow the general recharge time table.
+ * Non-Combat spells with longer durations tend to have specific recharge times, rather than following the table. The longer it normally lasts, the longer the specific recharge should be. A specific recharge does not affect the Sphere as a whole, but does restrict repeated castings of that particular power. Compare to the list of spells at http://www.d20srd.org/srd/variant/magic/rechargeMagic.htm and see what cooldown best matches the Sphere in question. Players are encouraged to do this themselves and explain their reasoning to the GM, who can either accept those submissions or decide on a different cooldown. As always, the GM's decision on this is final.
+ * Divination powers that can gather information (such as the Divine Information spell from the Divination school) should have a specific recharge time of around 6 hours. This helps to prevent their abuse by curious characters.
+ * Powerful illusions and any "trap" type spells tend to have specific recharge times of 12 hours to 1 day. The same applies for any major creations.
+
+* Finally, characters in this system retain a pool of energy equal to one-quarter the number of spell points they would normally have (rounded down, with a minimum of 2). These points can be spent any time a spell point cost would normally trigger a cooldown, removing the cooldown that would normally have been incurred. For example, if a spell would normally cost two spell points and trigger the cooldown twice, a character could pay two points from their pool to totally remove the cooldown, or pay one point to halve the cooldown. The cooldown triggered by using an Advanced Talent is not based on spell point costs and cannot be avoided by spending a point from the pool.

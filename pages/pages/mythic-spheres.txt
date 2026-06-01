@@ -1,0 +1,1340 @@
+title:Mythic Spheres
+[[tabview]]
+[[tab Introduction]]
+[[module CSS]]
+.noselect {
+  -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome and Opera */
+}
+[[/module]]
+
+[[div class="noselect" style="float:right; width: 20%; padding: 0 2%"]]
+[[=]]
+[[image http://spheresofpower.wikidot.com/local--files/test-page/mythic-spheres-of-power.jpg link="https://www.drivethrurpg.com/product/290309/Mythic-Spheres-of-Power?affiliate_id=549120"]]
+**Mythic Spheres of Power**
+$4.99
+----
+[[image http://spheresofpower.wikidot.com/local--files/test-page/Mythic_Spheres_of_Might.png link="https://www.drivethrurpg.com/product/318995/Mythic-Spheres-of-Might?affiliate_id=549120"]]
+**Mythic Spheres of Might**
+$4.99
+----
+[[image http://spheresofpower.wikidot.com/local--files/test-page/Mythic%20Champions%20of%20the%20Spheres.png link="https://www.drivethrurpg.com/product/326662/Mythic-Champions-of-the-Spheres?affiliate_id=549120"]]
+**Mythic Champions of the Spheres**
+$4.99
+----
+[[image http://spheresofpower.wikidot.com/local--files/test-page/Mythic%20Spheres%20of%20Guile%20The%20Eminent link="https://www.drivethrurpg.com/en/product/529833/mythic-spheres-of-guile-the-eminent"]]
+**Mythic Spheres of Guile — The Eminent**
+$4.99
+----
+[[image http://spheresofpower.wikidot.com/local--files/test-page/Mythic%20Spheres%20of%20Guile%20Features%20%26%20Feats link="https://www.drivethrurpg.com/en/product/535534/mythic-spheres-of-guile-features-and-feats"]]
+**Mythic Spheres of Guile — Features and Feats**
+$4.99
+----
+[[/=]]
+[[/div]]Welcome to **Mythic Spheres**! This system's been a long time coming, but we're pleased to finally offer a spheres-focused expansion for the rules found in //Mythic Adventures// that so many people have been asking about. Unlike some other material on this wiki, such as Deific Talents, the Mythic Spheres rules are //official// content published by Drop Dead Studios.
+
+Before you start checking out the mythic content, however, there are a few things to know. **These are important for using these rules, so please read all of the following first.**
+
+First, the magical section of this material generally represents content as it appears in Ultimate Spheres of Power, the updated and improved version of the original Spheres of Power rules. They're still very broadly compatible with the original versions of classes, but if you're sticking with the old content, you may need to tweak them a little.
+
+Second, the last tab - Mythic Spheres Solutions - contains rule adjustments that should be considered **standard** for Mythic Spheres games. While you are free to dismiss the alternative rules proposed, you should know that all of this content was balanced around the Highly Recommended rules (marked as [HR] on that page) and there could be strange results if you disregard too many of those. (Not all of these rules are bad for the players, either. Notably, the official suggestion gives mythic characters significantly more mythic feats than the base mythic rules provide.)
+
+Third, some options grant access to things like spellcasting abilities. In general, these powers never grant spellcasting stronger than your equivalent spell level or your caster level (depending on if it grants traditional casting or spherecasting).
+
+Fourth, if a mythic path gives a character an ability that is functionally useless for them (such as enhancing full attacks on a character only designed to do attack actions), the GM may, at their discretion, swap that ability for a mythic sphere mastery or a path ability the character meets the prerequisites for.
+
+Fifth, **Rules Priority**, and this one is important. Sometimes, rules from different sources can conflict. When determining which of them takes precedence, there are two factors to consider. First, specific rules take precedence over general rules. For example, characters normally provoke attacks of opportunity for making many combat maneuvers, but feats or talents that say you do not provoke overwrite this general rule. In addition, stronger power sources overwrite weaker ones. In most settings, deities are the highest source of power and can overwrite any lesser effect. Artifacts come after deities, then mythic sources, then other non-mythic sources. This is why if a mythic source says you cannot get rid of a vulnerability, a non-mythic source can never overwrite that even if it is more specific. Rules priority only comes into play when rules directly conflict with each other; otherwise, things function as written. Everything else should be addressed on a case-by-case basis.
+
+Sixth, mythic practitioners and spherecasters may take any mythic path ability or mythic class ability that affects a class feature they have (i.e. something that is specifically included in the ‘Special’ column of a class table), regardless of its original path or class. You must meet any other requirements for that choice, such as minimum mythic tier. With GM permission, universal path abilities that grant spell-like abilities can be taken as normal and are not changed.
+
+Finally, let's go over how all of the content is split up.
+
+**Mythic Traditions** are basically [[[Casting Traditions]]], but for how characters achieved their mythic abilities. These consist of drawbacks, qualities, and boons, and they can be used to heavily customize the unique mythic capabilities of each character. The GM has the final say on all of these - and should probably make them - but they serve as a foundation for Mythic Spheres that supports the creativity and flexibility this system promotes.
+
+**The Spheremaster** is the new mythic path that focuses on spherecasters. While this has a chassis of path abilities and options, it's supported by **Mythic Sphere Talents** (including mastery options for each sphere) and many **Mythic Class Abilities** (which improve characters' class abilities). In regular Mythic games, characters usually focus on their mythic path abilities, but Mythic Spheres promotes mythic sphere masteries and mythic class abilities above just the path options.
+
+**The Gifted** is the new mythic path that focuses on practitioners. It is similar in general structure to the Spheremaster, but also does well if people want to use the Dual Path mythic feat and grab abilities from the original paths, such as Champion or Guardian.
+
+The **Mythic Feats** section only has a few options - there was a limit to how may could be published in Mythic Spheres of Power - but this section is planned for expansion in an upcoming product. At that time, it may be moved to a new page (or, realistically, new pages) due to length.
+[[/tab]]
+[[tab Mythic Traditions]]
++ Mythic Traditions
+
+Just as a casting tradition can represent the training and techniques of a spherecaster, a mythic tradition can represent the way a mythic spherecaster acquires and uses their abilities. The GM is the final arbiter of which traditions a character may take since, in many cases, aspects of each tradition are determined by the plot of a game rather than character choices. Mythic traditions are split into drawbacks (which are significant penalties), qualities (which offer balanced effects), and boons (which can be gained by taking drawbacks). Mythic traditions are usually set when a character first ascends to mythic power, but may change later (at the GM’s discretion).
+
+**Author's Note:** You may only take drawbacks, qualities, or boons once unless they specifically state otherwise (or the GM permits it in order to enable a specific concept). Mythic traditions are unaffected by things that increase your effective tier (such as Mythic Paragon) unless the option specifically states otherwise.
+
+++ Creating a Mythic Tradition
+Mythic traditions work best when they are highly thematic and match both the origin of a character’s mythic power and the story your game is telling. In other words, traditions should be made to fit the story, rather than picking whatever is most mechanically useful for any given character.
+
+For example, if a character received their mythic powers from a fey queen, they might gain the Mythic Vulnerability (cold iron) drawback because fey are famously vulnerable to that, as well as the Patron drawback because they need to keep the queen happy. This character might also get the Beloved (fey of the patron’s court) boon because their queen’s obvious favor means lesser members of the court go out of their way to be respectful and helpful and the character interacts with them frequently enough to find their help useful.
+
+Similarly, if your powers come from a crystal, you might have the Relic-Bound drawback because losing the crystal will result in your power fading away. In turn, however, the crystal might also grant you an additional use of mythic power each day as its boon, charging and gathering energy on your behalf to make you stronger.
+
+Drawbacks should come into play regularly. Some, like Cursed, have constant effects and need no further attention, but drawbacks like Burden Of The Master and Phobia should only be used if their negative aspects would come into play at least every few in-game days. If your game is set up such that the drawback almost never penalizes the character, then it is not really a drawback and they should not get the mechanical benefit of having it. Drawbacks like Relic-Bound should not have players lose power every few days, but enemies should make the occasional attempt to steal said relic and force the player to try and protect it.
+
+The same goes for boons - if a character will not regularly get value from the boon, they should not be forced to take it.
+
+++ Creating New Tradition Effects
+Sometimes, you may find that existing drawbacks, qualities, and boons do not fit your story - and you should not feel obligated to adjust your story just to fit with the options presented here. Instead, you may make new effects to better fit your story, following these guidelines:
+* Mythic drawbacks should be a serious penalty for a character, either as a permanent and ongoing detriment or a story problem that is not easily solved and regularly limits the character. To an extent, mythic drawbacks (and a character’s struggle to deal with them) may even be central to a PC’s personal story and mythic journey. The GM should have control over when a drawback affects a character, rather than letting players creatively avoid its effects. Mythic drawbacks are significant penalties and new ones should be treated as such.
+* Mythic qualities should offer a balance of positive and negative effects. If the effect is optional, the player should always be the one to decide when it is activated (as in Twists Of Fate and When All Seems Lost), rather than the GM imposing the effect upon them. This forces the player to willingly accept the penalty in return for a benefit and better suits the style of mythic qualities.
+* Mythic boons should be significantly and regularly useful, typically more valuable than one path ability because players are suffering a penalty to take them at all. New boons should thematically match the character’s mythic story, usually relating to how the character obtained mythic power or the drawback used to purchase it (or both).
+* Any of these categories may allow a small number of options for players to choose from, such as Mythic Vulnerability (fire or acid).
+----
+++ Mythic Drawbacks
+Mythic drawbacks are an optional rule that represent limits on your mythic powers, but come with benefits for those willing (or forced) to accept their price. Each mythic drawback, to a maximum of three, grants you one additional use of mythic power per day or one mythic boon (see below). As with drawbacks in casting traditions, GMs may choose to require certain mythic drawbacks for mythic spherecasters.
+
+Some of these abilities are purposefully vague - we cannot predict or write abilities for every conceivable mythic origin story your GM may choose to use, so some details and benefits should be set by the GM to match the story being told at your table. If you have a specific idea in mind, talk to your GM and ask about ways to work it into your game.
+
+**Author's Note:** Mythic drawbacks are significant penalties and should always be treated as such. This means that players should generally not be able to find easy ways of getting around them or preventing them from being some sort of hindrance when they're supposed to come up. For example, when the Mythic Vulnerability drawback says that it bypasses "any special defenses", you should interpret this relatively broadly. If there's a question over whether or not something counts as a special defense, the Mythic Vulnerability will probably bypass it, even if players try to point to a complicated, obscure trick in the rules that would theoretically protect them despite not being explicitly labeled as a special defense. Similarly, it would stack with any existing vulnerabilities and make them worse. Just like mythic powers function on a higher level than regular abilities (indeed, they have rules priority during direct conflicts), mythic drawbacks work on a higher level in the rules and should take priority over things that would normally mitigate them, unless those things are themselves from a source stronger than mythic power (i.e. artifacts or deities). Mythic drawbacks are closer to mythological weaknesses than mere vulnerabilities or penalties, and are therefore much harder to get around compared to most flaws a character might have. (That said, there is some discretion if players have to actively do something to mitigate their drawback. For example, if a character is hiding in a cave from a blizzard and they have a Mythic Vulnerability to cold, lighting a fire to stay warm is an acceptable way of dealing with their drawback... but just being near a fire won't protect them if someone tries to stab them with a sword made of ice.)
+
++++ Variant Drawbacks
+In some games, such as living world communities that are mainly session-based, the traditional mythic drawbacks aren't always appropriate options. This is especially true for options like Recharge Required, where players can handwave fulfilling their obligations outside of sessions. The general principle of mythic traditions is that players should only get the benefit of their boons when their drawbacks actually and consistently penalize them, so these variant drawbacks offer alternative rules that are focused on session-based games, rather than single-group stories.
+
+Variant drawbacks are generally harsher and more immediate than regular mythic drawbacks. These are only meant for games where players often have several days of downtime between each session, and should not be used in traditional games. The GM(s) should determine whether to use the regular or variant versions of drawbacks.
+
+++++ Burden Of The Master
+Select one creature type or subtype that is thematically related to how you gained mythic power. Whenever you would be affected by an effect that depends on your type/subtype, you count as either your original type/subtype or your acquired type/subtype (whichever is worse). For example, if you are a lawful neutral character and your powers come from a devil, you may be treated as having the evil subtype. In this case, you would detect as evil when your alignment is scanned regardless of your actual alignment and could be targeted by a paladin’s smite evil ability, but would not automatically detect as evil when trying to prove to a fiendish cultist checking your alignment that you really are evil and they should let you into their base because of that.
+
+**Burden Of The Master (Variant):** You count as all creature types and subtypes when determining whether or not you can be affected by a negative effect (such as attacks, being a favored enemy, or detecting as a particular alignment). You do not count as any creature types or subtypes when determining whether or not you can benefit from positive effects (except for your own abilities).
+
+++++ Cursed
+You gain the negative effects of an oracle curse you do not already have, but not the positive effects, as an oracle of your total character level. The overcome curse path ability does not negate this curse, nor do any similar effects.
+
+++++ Hatred
+You have an irrational hatred of something selected by the GM (often something in opposition to the source of your power, such as fiendish outsiders if you got your powers from an angelic lord). You never willingly cooperate with or spend significant time around the subject of your hatred and compulsively avoid or attack it whenever it is present, regardless of the consequences.
+
+**Hatred (Variant):** You have an irrational hatred of mythic power from any source except your own. You never count as willing or as an ally for the purpose of benefiting from effects from any source that you know has or uses mythic power, except sources identical to yours. (What qualifies as a source varies by campaign setting, but typically includes things like divine gifts, using special items, or having a mythic patron.)
+
+++++ Master Of One
+You may only expend mythic power on abilities that affect yourself or creatures of a single type (such as outsider or undead). You may take this drawback a second time. If you do, you may only expend mythic power on abilities that affect yourself or creatures of a single subtype (such as devils or elves). You cannot take this drawback a second time if your mythic power is limited to a creature type that does not have subtypes. You must have at least one ability that expends mythic power and is usable on creatures besides yourself to take this mythic drawback.
+
+++++ Mythic Vulnerability
+You are vulnerable to a specific material or damage type, selected by the GM, such as acid damage or cold iron. This mythic vulnerability bypasses any special defenses you have (like damage reduction, spell resistance, or temporary hit points), does 50% more damage to you, and being within 5 feet of it for more than 1 round (such as marching through a cold snowfield or standing near an enemy brandishing a silver weapon) drains one use of mythic power per round. If your vulnerability drains your last use of mythic power, you lose access to all of your mythic abilities until you’ve been more than 5 feet away from the substance and unharmed by it for at least 1 minute. This mythic drawback may be taken more than once. Each time it is, you become vulnerable to an additional material or damage type.
+
+**Mythic Vulnerability (Variant):** Your defensive abilities are more fragile than they look. The first time each day you are struck by a given material or damage type (such as cold iron weapons or acid damage), roll 1d100. On a roll of 1-20, that material or damage type becomes a mythic vulnerability until the next time you rest for eight hours. You can only gain one mythic vulnerability each day. No method, power, or ability can alter or affect the roll to see if you gain a mythic vulnerability. You may take this drawback more than once, to a maximum of three times. Each time you do, you can develop an additional vulnerability each day.
+
+++++ Oathsworn
+You have taken on a mighty oath to behave in a particular way and are compelled to follow through. The details of this oath are up to you and the GM, but it should be treated similar to a paladin’s code of conduct or a monk vow (from Ultimate Magic) and occur relatively regularly within your game. For example, you might swear to always grant mercy to enemies who ask for it, to serve and protect another party member with your life, or to avoid committing any chaotic action. If you break your oath, you immediately lose the benefits of your mythic powers until you have adequately atoned.
+
+++++ Patron
+Your mythic powers come from a patron such as an angelic lord, an archdevil, a fey queen, a mythic monarch, or some other legendary figure. You must obey their whims - which could include anything from following a complex set of rules to making bizarre sacrifices at irregular intervals - to retain access to your mythic powers, and they may actively interfere in your life while in pursuit of their own goals. Your patron’s goals are never wholly in line with yours.
+
+**Patron (Variant):** Your patron takes a personal interest in your activities. Each time you use mythic power, roll a d10. On a roll of 1-2, your patron gives you an order that you must follow during your next turn. Roll 1d4; in order, the orders require a swift action, a move action, a standard action, or a full-round action to accomplish. If you receive multiple orders from expending mythic power more than once in a round, you must complete them in sequential order. Orders can vary from things like standing still and praying to using specific abilities you have, and are entirely at the discretion of your patron (i.e. the GM).
+
+++++ Phobia
+You have an irrational fear of something (often a Mythic Vulnerability) selected by the GM. Whenever you are exposed to your phobia, you must make a Will save against a DC of 10 + 1/2 your character level + your highest ability modifier + your mythic tier or become frightened for as long as you are exposed to your phobia. This bypasses any resistance or immunity to fear, and bonuses to saves against fear effects do not apply to this phobia.
+
+**Phobia (Variant):** You have an irrational fear that occasionally manifests. Whenever you are harmed by something that could qualify as a mythic vulnerability, typically including weapon materials and damage types, it has a 20% chance of becoming a phobia for you (with effects as described in the regular phobia drawback) until you rest for eight hours. You only need to check for each potential phobia once per day, and cannot develop more than one phobia per day. The exception to this is if you have the mythic vulnerability (standard or variant) drawback, in which case your vulnerability is always a phobia beyond any you temporarily develop each day.
+
+++++ Price Of Power
+You must pay for your mythic power. When you would normally regain mythic power each day, you must sacrifice wealth or items equal to at least 10 gp per mythic tier multiplied by your character level for each use of mythic power you want to regain.
+
+++++ Radiant Power
+You have a hard time hiding your presence. All creatures gain a bonus equal to three times your tier to notice you (such as by using the Perception skill). You also leave lingering trails of magic that others can find and follow for one day per tier. Finally, all creatures you interact with can sense that you are not normal and get a general understanding of your abilities, regardless of any disguises you use.
+
+++++ Recharge Required
+You must return to the origin of your mythic power or meet some other criteria in order to recharge it. This could involve visiting a font of energy, finding the person who gave you your power, praying at the grave of a mythic ancestor, plugging into a magitech system, consuming an addictive drug, or anything else deemed appropriate by the GM.
+
+**Recharge Required (Variant):** Once activated, your mythic powers get more expensive to use. Each time you use mythic power, you must spend 3 times as much mythic power as normal to activate any of your abilities that require it; this increased cost lasts for 1d4 rounds, starting immediately after you first expend mythic power. (This means that if you spend more than one mythic power in a round, it will take 2d4 or more rounds to regain the ability to spend at the normal cost.) This increased cost does not apply to mythic surges. While your powers are at an increased cost, you may perform a ritual or activity that requires your standard, move, and swift actions on the same turn to reset the cost. You cannot use any abilities or benefit from effects that grant you additional actions on the same round you perform this quick reset.
+
+++++ Rejected
+All creatures begin with an attitude of unfriendly towards you (unless their attitude would start worse). This overrides any other effects that change starting attitudes (except the Beloved mythic boon). You cannot use Bluff, Diplomacy or Intimidate to make creatures act friendlier to you than indifferent.
+
+++++ Relic-Bound
+Your mythic powers only function while you remain in possession of a relic (usually one that granted you mythic power). You lose all mythic abilities and bonuses if separated from this relic for more than 24 hours, but your powers return immediately if you regain possession of the relic. Relics are often mythic magic items, but may be another type of object as well. You may take this drawback a second time. If you do, you lose all mythic abilities and bonuses as soon as you are separated from your relic for more than 1 round, but may regain the abilities as previously described.
+
+++++ Sealed
+You can only access your mythic powers (including path abilities, mythic feats, etc., but excluding passive bonuses like increased hit points and ability scores) under conditions predetermined by the GM, such as when facing creatures of a certain type or while you are within a certain distance of a specific location like a castle or magical tree. (If your powers require proximity to an object, use the Relic-Bound drawback instead.)
+
+As a free action you can take even when it isn’t your turn, you may access your mythic powers for one minute per tier by paying two mythic power, even when you do not meet the regular conditions for accessing your abilities. This drawback counts as two mythic drawbacks for the purpose of determining benefits.
+
+++++ Traditional
+Your casting tradition applies when you use your mythic power. You must have at least three general casting drawbacks to take this mythic drawback; if you do not, you may gain additional general casting drawbacks when you first gain this drawback (though only with your GM’s permission). You may not gain or use the drawback freedom path ability nor any other effect that allows you to bypass your casting drawbacks, including for regular casting.
+
+++++ Unfit For Power
+Your body cannot handle the strain of using mythic powers. Each time you spend a use of mythic power, you suffer damage equal to your mythic tier. This damage cannot be reduced, redirected or healed in any manner until you take an 8 hour rest. This rest does not heal the damage, but does allow it to be healed normally (such as by healing magic or further rest).
+
+++++ Wild Mythic Power
+Each time you use mythic power, roll 1d20. On a roll of 1-4, you trigger a universal wild magic effect on the first thing you do that makes sense for the effect rolled (which is often casting a sphere effect). On a roll of a 1, roll another 1d20 - if you roll a 1 or 20, you instead trigger a major wild magic event. See the [[[Wild Magic]]] page for the effects. At the GM’s discretion, this ability may skip using the major wild magic effects due to their potentially game-changing effects.
+----
+++ Mythic Qualities
+Mythic qualities are unique quirks or traits that can affect mythic creatures and - unlike drawbacks and boons - have both positive and negative effects. A character should have no more than one mythic quality, and having none is fine, though you may take more with GM permission when it makes thematic sense. A mythic tradition may have one mythic quality and no drawbacks or boons.
+
+++++ Aura Of Power (Ex)
+You gain a single aura that is not an alignment aura, such as the paladin’s aura of courage or the antipaladin’s aura of cowardice. For the purposes of this ability, an aura is an effect with the word aura in its name that impacts an area around a character (usually at least 10 feet); at the GM’s discretion, other powers may qualify. This aura must be from a class or archetype (not a monster ability) and it must be an aura that is normally constant while you are conscious. You do not need to meet the normal level requirement for the aura, but the GM may impose this as an added restriction if they feel the aura is too strong for you to gain earlier. If they do so, this mythic quality has no effect until you reach that level. Unlike regular auras, an aura of power is an extraordinary effect that affects all creatures within its range (including you) as your mythic powers impose an effect on the world. You are never immune to your own Aura Of Power and can be affected by anything the aura affects. For example, if you gain an antipaladin’s aura of depravity with this quality, you are never immune to compulsion effects (or anything the GM judges is sufficiently similar), even if someone casts a spell on you that would normally make you immune to compulsion effects. If the aura has a negative effect and requires a saving throw, you must attempt it once per minute; whether you succeed or fail determines if it affects you for that minute. (For the sake of practicality, however, you generally only need to roll in combat or when it would actually matter.) When relevant, treat your total character level as your class level for determining the strength and size of your aura of power, and use your highest mental ability modifier if the ability needs to reference that. Auras of power do not stack with other auras.
+
+//Example:// You use this mythic quality to gain the paladin's aura of courage ability. You, and all other creatures within range of the ability, gain the +4 morale bonus on saving throws against fear effects. However, you do not gain the immunity to fear, because you cannot be immune to things that your aura of power affects. (This is one of the downsides of this mythic quality. You can benefit from numerical bonuses, but not immunities.)
+
+//Example:// You use this mythic quality to gain the antipaladin's aura of cowardice ability. You, and all other creatures within range of the ability, take a -4 penalty on saving throws against fear effects, and creatures with immunity to fear lose that immunity. You are always vulnerable to fear effects, and cannot gain immunity to those from any source.
+
+++++ Challenged Duelist
+You must accept any challenge to a duel (see Ultimate Combat), regardless of the circumstances, unless doing so is impossible or you are at less than half of your maximum hit points. (For example, a foe cannot challenge you to a duel on a floor of lava unless you can survive walking on lava.) When participating in a duel, your mythic powers enforce the rules on both combatants, usually by rendering you impervious to all outside influences but also forcing all combatants to abide by both the word and the spirit of the agreed-upon rules until the duel ends. This protection from outside forces extends to covering the negotiation of the rules of the duel, if any. In addition, once per day when a foe rejects your challenge to a duel, you may regain two uses of mythic power.
+
+++++ Combat Instincts (Ex)
+Once per day, as an immediate action, you may activate your mythic instincts for three rounds. While in this form, you gain a bonus equal to your tier to your AC, your MSD, your CMD, and all of your saving throws, as well as a 50% miss chance + 5% per tier against all effects (including those that do not target you directly). This miss chance overlaps (and does not stack with) any other sources of miss chance.
+
+Afterwards, you suffer a penalty equal to twice your tier to your AC, your MSB, your CMD, and your saving throws. This penalty cannot be removed through any means except 8 hours of rest (including abilities that shorten the amount of rest you normally require or reverse time). You may choose to activate your combat instincts at a lower level than your maximum tier, which reduces the bonuses and penalties.
+
+++++ Corrupted
+You gain a stage zero corruption (see Horror Adventures) with a manifestation level equal to your mythic tier (to a maximum of 9). Depending on your actions, your corruption may progress to higher stages. Once per month (or otherwise, at the GM’s discretion, such as when you would progress normally), you may spend all of your mythic power to revert your corruption to a previous stage (selected by the GM) and reset any penalties.
+
+++++ Emotionless
+You have a hard time reacting emotionally. You are immune to positive and negative emotional effects, including (but not limited to) fear effects, morale effects, eliciter emotions, and any (charm) powers of the Mind sphere unless they come from a creature with equal to or more mythic tiers than you. You are immune to your own emotional effects. You also take a penalty on Bluff, Diplomacy, and Intimidate checks equal to your mythic tier.
+
+++++ Flowing Power (Ex)
+You can temporarily increase your powers at the cost of straining your body. As a free action during your round, you may increase all of your ability scores by up to your mythic tier; this bonus lasts until the start of your next round, when you may choose to either maintain the effect, change the increase, or let the effect end. Each round this ability is active, you take damage equal to the square of the increase, as detailed on the table below. This damage always affects your real hit points, never any temporary hit points. You cannot heal this damage through any means except eight hours of rest, at which point you heal all of the damage. When you regain your daily uses of mythic power, you may expend one use of mythic power to gain the ability to use flowing power for a number of rounds that day equal to half your tier (rounded down, minimum 1) without taking damage; you must use these rounds before those in which you would take damage, and any unused rounds at the end of the day are lost.
+||~ Ability Increase ||~ Damage Per Round ||~ Ability Increase ||~ Damage Per Round ||
+|| 1 || 1 || 7 || 49 || 
+|| 2 || 4 || 8 || 64 || 
+|| 3 || 9 || 9 || 81 || 
+|| 4 || 16 || 10 || 100 || 
+|| 5 || 25 || 11^^1^^ || 121 ||
+|| 6 || 36 || 12^^1^^ || 144 ||
+^^**1:** While characters cannot normally exceed tier 10 for this power, Mythic Paragon (or, rarely, other effects) may allow a character to do so.^^
+
+++++ Nature’s Balance (Ex)
+One category of animals, such as cats, fish, or birds, is always helpful towards you when they first meet you and will not stop being helpful unless artificially controlled or subjected to a hostile effect. Another category of animals is always hostile towards you and cannot be made friendlier except through artificial means like mind-affecting magic. Both categories of animals can understand you as if you shared a language, though you cannot inherently understand them through this ability.
+
+++++ Spherebound
+Select one of the following:
+* You gain a +2 inherent bonus to your caster level in one magic sphere but take a -1 penalty to caster level in all other magic spheres
+* You gain a +2 inherent bonus to your effective base attack bonus or skill ranks for determining the effects of one combat sphere, but take a -1 penalty to your effective base attack bonus and skill ranks for determining the effects of all of your other combat spheres
+* You gain a +2 inherent bonus to your effective ranks in all skills for determining the effects of one skill sphere, but take a -1 penalty to your effective ranks in all skills for determining the effects of all of your other skill spheres
+
+The penalty from spherebound cannot reduce your effective caster level, base attack bonus, or skill ranks below 1. You must have at least two spheres in the same system to take this mythic quality for that system. You may take this quality up to three times; when you do, you must select a choice you did not take before. You may not apply this power to the same system twice. The bonus granted by spherebound permanently improves a character’s power in a sphere and can provide more hit dice for companions, allow a character to meet prerequisites earlier, and so on, as if they were a higher-level character. The reverse is also true - a character is permanently slowed in their other spheres and may require additional levels to meet prerequisites. Note that for combat and skill spheres, the bonus/penalty is to your effective skill ranks for determining the effects of talents, but is not a bonus or penalty to your skill rolls.
+
+++++ Supervisor
+Your mythic power has a will and directive of its own. Treat this effect as if you were always carrying around an intelligent magic item with you, except the magic item is usually a part of you (though it may still be an actual item). The supervisor is created by the GM with a gp budget of a heroic NPC of your character level + mythic tier + 3. If this goes above 20, multiply their gp budget by x1.3 for each rank above 20, to a maximum effective rank of 30. The supervisor has a goal that must be met and will use their own abilities to try and force you to help achieve the goal it was created for. The supervisor gains a +5 bonus to its DC to possess you and this dominance bypasses any immunity to mind-affecting effects you may have. The supervisor may assist you in achieving its goal using its own set of powers, but this goal must never be so directly in line with your own motives as to not be a burden in some manner, and the supervisor may disable all of your mythic abilities if sufficiently upset (or re-enable them, if placated). Supervisors cannot be targeted by Mana sphere effects, including powers similar to those of the Mana sphere, and supervisors that are not items cannot be targeted at all.
+
+++++ Twists Of Fate (Ex)
+Three times per day, you may reroll any d20 roll you make (after seeing the result) and choose which result you want to use. The GM keeps the other roll and may force any creature (including you, but excluding the other PCs) to use that result for any d20 roll you have not used Twists Of Fate on. The GM must announce when they are using a saved roll, and you may not use this ability nor any other ability to change that roll. You regain your uses of Twists Of Fate once per day when you regain spell points, while the GM keeps saved rolls until they are used.
+
+++++ When All Seems Lost (Ex)
+You can pull out just a little more power when you need it most - though only at a price. As a free action you may take once per day even when it is not your turn, you may enter an empowered state for three rounds. While empowered, you do not need to expend any resources (such as spell points, mythic power, or daily uses of class features) to use your abilities, though you cannot spend any more resources per round than you would normally be able to. In addition, your hit points cannot go below 1 and you succeed on all saving throws. After your empowered state ends, you unavoidably fall unconscious and cannot be woken by any method, including mythic abilities, until you receive 8 hours of rest.
+
+**Errata:** While in your empowered state, you also gain immunity to negative conditions and spell resistance that cannot be bypassed by hostile effects, but can be automatically bypassed by beneficial effects. (In this context, hostile effects are any effects allowing spell resistance that the player does not want to get through this defense, while beneficial effects are any effects affected by spell resistance that the player does want to be affected by.) Additionally, the duration and unconsciousness effect of this ability cannot be avoided by //any// method once it has been activated. Once the character has had the opportunity to take three rounds worth of actions, whether or not they used those actions, they fall unconscious. This applies even in areas with unusual flows of time - that is, an area with faster time cannot cause a character to fall unconscious earlier by tripling the speed at which time flows, and an area with slowed or no time cannot extend the duration of the ability or attempt to make it infinitely long. The GM may need to make a judgment call as to how specific effects or environments apply, but the intention is that a character activating this ability has three rounds worth of actions to do things, and then they are out. Note that the unconsciousness applies to the character's entire ability to take action and cannot be subverted by effects like having multiple consciousnesses or possessing another body and trying to make them fall unconscious instead. If there is any question as to whether or not an ability or combination of abilities should be able to prevent the unconsciousness, the answer is no, it should not.
+----
+++ Mythic Boons
+Mythic boons are benefits that mythic creatures can receive for taking mythic drawbacks, though no creature can ever have more than three mythic boons.
+
+++++ Beloved
+A specific group of creatures thematically appropriate to your mythic origin or patron recognize you as blessed and always have a starting attitude of helpful towards you. This is not extensive enough to cover an entire species, but could affect an entire organization, church, city, or similarly specific group. If you have the Rejected mythic drawback, it does not apply to this group.
+
+++++ Expertise
+You gain access to a single class feature from a class or prestige class you do not have, treating your total character level as your class level for determining its effects. Archetypes of that class are valid sources. Features from prestige classes subtract the minimum number of levels required to enter the prestige class (usually 5) from your total character level before determining the feature's effects. You must meet any other prerequisites the feature has. If it is affected by an ability modifier (such as by getting additional uses for having a high Wisdom score), you may use your highest mental ability modifier instead if that would be better. You may not gain any form of casting or talent progression through this power (such as incanter magic talents, wizard spellcasting, or spell slots/spell points), though you may gain features that modify casting (such as an incanter sphere specialization) or abilities that grant specific spell-like abilities. If the ability allows you to select from a list of options or grants more options over time, such as mageknight mystic combats or incanter bonus feats, you only gain one of those choices even if you would normally get more at higher levels. (In this context, "options" means a list of different abilities you can choose from. A class ability that gives specific features at higher levels will typically grant all of them - those are not options, but level-locked parts of the base ability.) For example, you would only get one bonus feat from the incanter. Your character level must be equal to or greater than the level requirement of the feature you acquire with this boon, though it is possible to select this boon early and not get that feature until you reach the appropriate level.
+
+Each time you gain a tier, you may choose to lose the feature you currently know and replace it with another feature, as if you had retrained this boon. You may also retrain this boon if you would ever gain that feature normally, such as by taking levels in the class that gives it. The GM must approve your choice, and at their discretion, they may choose it for you instead.
+
+^^**Author's Note:** This does not work with options that, for example, say they grant you all of the class features for a prestige class (such as Aligned Class from the Evangelist prestige class). To put it another way, you can't wish for more wishes, and GM's should discourage wording abuses that attempt to get more power from this already-powerful option.^^
+
+++++ Finishing Move (Su)
+You gain a special supernatural attack known as a finishing move. This finishing move includes the effects of the Spell Attack^^USoP^^ feat, a strike talent, and up to three more talents from the same sphere as the strike talent (the base sphere must be one of these talents, even if you already have the base sphere). You must make the same choices each time you use your finishing move; for example, if you are applying effects from the Destruction sphere and choose to increase its damage to one die per caster level, you must always increase its damage that way when using your finishing move. Treat your character level as your caster level and your highest mental ability modifier as your casting ability modifier when determining the power of those talents. You may apply additional talents and effects you know to your finishing move if they are applicable, but they do not benefit from the enhanced caster level of this ability (or the benefits from expending mythic power described below) and you must pay their costs (if applicable) separately. Your finishing move is unaffected by your casting tradition, and if using it would require spending spell points, you may expend martial focus instead of spending those spell points. In addition, finishing moves reduce any miss chance the opponent has against them by 5% per tier (this only affects the finishing move, not any other attacks you make). You may spend one use of mythic power when activating a finishing move to increase its DC’s (if any) by your tier; if you do so, your finishing move gains the same amount as a bonus to its attack roll. You may use your finishing move once per minute.
+
+^^**Note:** If you do not have martial focus, taking this ability grants you a martial focus that you may expend only on your finishing move. If you gain a martial focus through another method, you lose this effect.^^
+
+++++ Form Of Power (Ex)
+You gain a single constant, permanent (transformation) form from the Alteration sphere, selected by the GM, that is thematically appropriate to the way you acquired your mythic power. Alternatively, the GM may select a basic form (limbs/speed) and apply any 3-5 Alteration traits to create a thematically appropriate form. This form is considered a natural part of your body and uses your character level as your caster level and uses your casting ability modifier or practitioner modifier (your choice, or your Charisma modifier if you lack either) to determine its effects. If the form requires the expenditure of spell points to use, you can only gain that form for a number of minutes equal to your mythic tier by spending a use of mythic power as a free action. At 3rd and 6th tiers, you gain an additional Alteration trait selected by the GM as a permanent addition to your form.
+
+^^**Author's Note:** Form of Power changes your basic, natural form, but is not itself a polymorph effect. It is possible to apply shapeshifts on top of it, such as regular uses of the Alteration sphere.^^
+
+++++ Legendary Gear
+You gain the legendary item universal path ability. At 3rd tier, this item becomes a minor artifact. At 6th tier, this item becomes a major artifact. This boon costs two drawbacks and counts as two boons. If you already have the legendary item ability, you may immediately retrain it.
+
+^^**Author's Note:** The item gains additional abilities as normal when it becomes a greater type of artifact, capped to 6 (as a minor artifact) or 10 (as a major artifact) abilities. This ability cannot be accelerated by options that treat your mythic tier as if it were higher, such as Mythic Paragon.^^
+
+++++ Mythic Exemplar
+You gain a first-tier path ability (from any path), a first-tier universal path ability (like a mythic sphere mastery), a mythic feat, or a mythic class ability thematically appropriate for your character, selected by the GM. You must meet the prerequisites for this choice, if any. If that ability requires spending mythic power to activate its effects, you may use it once per day without spending mythic power. This mythic boon can be taken more than once.
+
+++++ Native-Born (Ex)
+Your ascension to mythic power allows you to survive like a native in areas related to the origin of your mythic power. For example, if your patron is a deity that resides within the Plane of Chaos, you can survive there without being subject to the negative effects of a chaotically-shifting realm. Similarly, if you achieved mythic power from a font of power in the heart of the Plane of Fire, you can survive in that Plane without you or your belongings burning and may constantly have harmless flames swirling around you. You also count as a native resident (and not extraplanar, unless it would be beneficial) for the purpose of effects that apply to native or extraplanar creatures while in relevant areas. The GM should set the exact benefits of being Native-Born, but as a general rule, you should be able to survive in and traverse relevant areas with no more difficulty or danger than any creature normally calling it home. Appropriate areas generally include specific planes or types of terrain.
+
+++++ Recharging Magic
+Whenever you would spend one or more spell points, you may instead choose to lose access to all of your talents and abilities that require spending spell points for 1d6 rounds per spell point you would have spent. You can still use any abilities that do not require spending spell points. For example, you could make a basic destructive blast, but you could not spend a spell point to increase the damage of your destructive blast while your powers are recharging. You may use this ability twice each day per tier. You may take this boon a second time. If you do, you may use recharging magic any number of times per day.
+----
++ Sample Mythic Traditions
+The following are sample mythic traditions that may appear in your world. Remember, mythic traditions are always at their best when customized for a game, so do not feel like you have to limit yourself to these.
+
+++++ A Deal For Power
+You made a dangerous deal for mythic power, but as long as you keep paying, the power will keep coming. 
+
+**Drawbacks:** Price Of Power, Recharge Required (pay at infernal church)
+**Boons:** Mythic Exemplar (Destruction mythic sphere mastery), Native-Born (Lawful Evil planes)
+
+++++ A Robot All Along
+Huh, turns out you are a robot on the inside…
+
+**Drawbacks:** Burden Of The Master (construct), Mythic Vulnerability (electricity), Price Of Power (pay for parts), Radiant Power
+**Boons:** Mythic Exemplar (display of strength), Form Of Power (construct), +2 MP per day
+
+++++ Classy
+You seem to be unnaturally good at what you trained to do.
+
+**Drawbacks:** Traditional
+**Boons:** Mythic Exemplar (any mythic class ability you qualify for)
+
+++++ Cryptwood Ascendant
+Your power comes from the magical forests known as cryptwoods (see The Player’s Guide to Skybourne).
+
+**Drawbacks:** Burden Of The Master (plant), Recharge Required (cryptwood)
+**Qualities:** Spherebound (Fallen Fey or Nature)
+**Boons:** Form Of Power (Fey Transformation or Plant Transformation), Mythic Exemplar (Fallen Fey or Nature mythic sphere mastery)
+
+++++ Fate-Spun
+Destiny itself seems to toy with you in unpredictable ways when you ask it for help.
+
+**Qualities:** Twists Of Fate
+
+++++ Grizzly Executioner
+I hate to be the bearer of bad news, but…
+
+**Drawbacks:** Burden Of The Master (animal)
+**Boons:** Form Of Power (Animalistic Transformation; bear only)
+
+++++ Legendary Leader
+You are powerful and beloved by your followers, though you serve someone else still higher.
+
+**Drawbacks:** Patron, Radiant Power
+**Boons:** Beloved, Mythic Exemplar
+
+++++ Oathmaker
+You swore an oath in return for power - and fulfilling it is all that matters to you.
+
+**Drawbacks:** Oathsworn
+**Qualities:** Emotionless, When All Seems Lost
+**Boons:** Mythic Exemplar
+
+++++ Protector Of The Mortal Realms
+Your power exists to protect from outside influences. Against them, you are mighty indeed - but against the merely mundane, you are much like any other.
+
+**Drawbacks:** Master Of One (outsider)
+**Qualities:** Supervisor
+**Boons:** Native-Born (Outer Planes)
+
+++++ Relic Bearer
+Your power is inextricably tied to the item that gave you mythic power… and it has opinions.
+
+**Drawbacks:** Relic-Bound
+**Qualities:** Supervisor
+**Boons:** +1 MP/day
+
+++++ Shackled
+Your powers often feel more like a curse than a blessing.
+
+**Drawbacks:** Cursed, Patron, Unfit For Power
+**Qualities:** Challenged Duelist
+**Boons:** Form Of Power (Fiendish Transformation), +2 MP/day
+
+++++ Wild Energies
+Your mythic powers are difficult to control and make you exceptionally noticeable.
+
+**Drawbacks:** Radiant Power, Unfit For Power, Wild Mythic Power
+**Boons:** Mythic Exemplar, +2 MP/day
+[[/tab]]
+[[tab Universal Path Abilities]]
++ New Universal Path Abilities
+++ 1st-Tier Universal Path Abilities
++++ Ever Ready (Ex)
+You can always act in a surprise round. In addition, when a creature uses a readied action that affects you, you gain an insight bonus equal to one-half your mythic tier to your Armor Class and on saving throws related to that action.
+
++++ Genre Savvy (Ex)
+Add your mythic tier on Knowledge checks to learn the abilities of creatures you observe, and you learn a number of creature abilities equal to your mythic tier. If a creature you identify with a Knowledge check has damage reduction or energy resistance, you can spend one use of your mythic power as a free action to ignore one type of damage reduction (other than damage reduction/epic) or one type of energy resistance until the beginning of your next turn.
+
++++ Magic Awareness (Sp) [3PP]
+You gain arcane sight as a constant spell-like ability. This improves to //greater arcane sight// at mythic rank 6. In addition, you may spend a point of mythic power to cast //dispel magic// as a spell-like ability with a caster level equal to your character level. This improves to //greater dispel magic// at mythic rank 6.
+
+^^**Source:** Card Casting 3: Volatile Variance^^
+
++++ Mythic Aristeia [HMH]
+^^This option makes use of the optional [[[Aristeia]]] rules and may be replaced by a 3rd-tier version presented below.^^
+You may spend two points of mythic power as a free action to enter Aristeia even when a trigger does not occur. When your Aristeia ends, you may negate any number of negative levels by spending 2 points of mythic power per negative level you wish to negate. This path ability counts as an Aristeia feat for the purpose of determining the level of Aristeia that a character can reach.
+
++++ Mythic Execution [HMH]
+When performing a technique or casting a spell or ritual that would take longer than a standard action to cast, you may spend mythic power to reduce the time needed to use the ability. Each point of mythic power spent reduces the time needed to use the spell or technique by 1 round. If this would reduce the time below 1 round, the ability is reduced to a full-round action or a standard action if one additional point of mythic power is spent. You cannot spend more points of mythic power on a spell, technique, or ritual than your mythic tier.
+
++++ Mythic Ritual Knowledge [HMH] [Utility]
+For every mythic tier the character possesses, they select one mythic spell. They are capable of using that spell as a mythic ritual so long as they know or have created such a ritual (see Mythic Rituals for more information).
+
+This path ability may be selected multiple times, each time allowing for the selection of new mythic spells.
+
++++ Transcorporeal Emissary (Sp) [3PP]
+You gain //see invisibility// as a constant spell-like ability. In addition, you may spend a point of mythic power as a free action to interact with incorporeal targets as if they were corporeal and grant your weapons and armor the ghost touch property for 1 minute.
+
+^^**Source:** Card Casting 3: Volatile Variance^^
+----
+++ 3rd-Tier Universal Path Abilities
++++ Eternal Soul [Gravecaller's HB]
+Your soul has reached a level of immortality that transcends your body. You are immune to energy drain and negative levels from non-mythic sources. You may expend one use of mythic power to remove a number of negative levels from yourself equal to your mythic tier as a free action that can be taken even when it is not your turn.
+
+In addition, you are immune to effects and spells from non-mythic sources that would redirect, trap, transform, or otherwise consume your soul (such as magic jar, soul bind, trap the soul, or the Death sphere Possession or Soul Trap advanced talents). You are always granted a save to negate such an effect from a mythic source and may expend one use of mythic power to roll twice and take the better result. You are granted this saving throw even if you are dead or unable to take actions (an effect without a saving throw has a DC equal to that spell or sphere effect’s normal DC, or 10 + 1/2 the source's Hit Dice + the source's Charisma modifier). Successfully saving against such an effect makes you immune to any further attempts from that source for 24 hours. If you ever fail a saving throw against such an effect, you may attempt a new saving throw to end the effect once every 24 hours even if the effect would not allow for additional saving throws.
+
++++ Eternal Youth (Ex/Su) [Utility]
+You look youthful and ignore aging penalties to Strength, Dexterity, and Constitution for being middle-aged. While you do not suffer the penalties for aging, you do continue to age and can eventually die of old age. At 6th tier and above, you ignore penalties for middle age and old age. At 9th tier, when you gain the immortal base mythic ability, you ignore penalties from venerable age. You cease aging, gain immunity to effects that cause unnatural aging, and cannot die of old age. This effect is not magical and cannot be dispelled or suppressed.
+
+In addition, as a full-round action you can spend one use of your mythic power to change your appearance to match any age you wish. Your appearance is still your own; only your apparent age is changed. This change in your appearance is permanent until you spend another use of your mythic power to adopt a different apparent age. This is a supernatural polymorph effect that is suppressed whenever you use another polymorph effect.
+
++++ Mythic Aristeia [3PP]
+^^This option makes use of the optional [[[Aristeia]]] rules.^^
+You may spend two points of mythic power as a free action to enter Aristeia up to a level equal to half your mythic tier even when an Activation is not applicable. When your Aristeia ends, you may negate any amount of ability burn from Aristeia by spending 2 points of mythic power per point of ability burn to all ability scores you wish to negate. This path ability counts as an Aristeia feat for the purpose of determining the level of Aristeia that a character can reach.
+^^Source: Diamond Polished Subsystems: Aristeia and Accrual^^
+
+[[/tab]]
+[[tab The Spheremaster Mythic Path]]
+
+Few casters are as flexible with their power as the masters of the spheres. These epic figures channel the energies of the world in ways few others can match. Some focus specifically on improving their abilities with each sphere, while others delve into magical power beyond the spheres.
+
+**Role:** As a spheremaster, your role can be whatever you wish it to be. Your extensive knowledge of the spheres gives you access to unique abilities and ways of improving your talents in your chosen field—or even for overcoming your weaknesses.
+
+**Classes:** The spheremaster is a suitable mythic path for any spherecaster or champion character, though Mid-Casters and High-Casters will get the most value from it. Depending on the character’s build, Low-Casters and champions may want to consider taking the Dual Path mythic feat and splitting their focus between this and another mythic path (such as champion, guardian, or trickster).
+
+**Bonus Hit Points:** Whenever you gain a spheremaster tier, you gain 4 bonus hit points. These hit points stack with themselves, and do not affect your overall Hit Dice or other statistics.
+
++++ Sphere Mastery
+At 1st tier, you gain one mythic sphere mastery (see the Mythic Sphere Talents tab). You must know the base sphere associated with it.
+
++++ True Magic
+At 10th tier, whenever you cast a sphere effect that targets one or more non-mythic creatures, each of those creatures must roll any saving throws against the spell twice and take the lower result.
+
+You also gain spell resistance equal to 15 + your caster level, but only against sphere effects. Once per round when your spell resistance protects you from a sphere or spell effect cast by an enemy mythic creature, you regain one use of mythic power.
+
+**Table: The Spheremaster**
+||~ Tier ||~ Path Features || 
+|| 1st || Path ability, sphere mastery || 
+|| 2nd || Path ability || 
+|| 3rd || Path ability || 
+|| 4th || Path ability || 
+|| 5th || Path ability || 
+|| 6th || Path ability || 
+|| 7th || Path ability || 
+|| 8th || Path ability || 
+|| 9th || Path ability || 
+|| 10th || Path ability, true magic || 
+
+Spheremasters also have access to the following mythic path abilities. Some abilities are originally from other mythic paths and may have been changed to fit the spheremaster.
+
+**Special:** Mythic spherecasters may take any mythic path ability or mythic class ability that affects a class feature they have (i.e. something that is specifically included in the ‘Special’ column of a class table), regardless of its original path or class. You must meet any other requirements for that choice, such as minimum mythic tier. With GM permission, universal path abilities that grant spell-like abilities can be taken as normal and are not changed.
+
+**Retraining:** Mythic feats and path abilities are usually fixed once chosen, but may be retrained with GM permission. Any time, cost, or trainer requirements are set by the GM but should generally not take less than 1 week to complete. If you permanently lose access to a regular feat or class ability you previously had, such as through retraining the regular feat, you may retrain any associated mythic options immediately.
+----
+++ 1st-Tier Spheremaster Path Abilities
++++ Abundant Casting (Ex)
+Whenever you cast a sphere effect that affects a specific number of targets (such as “one creature/level”), add your tier to the number of targets the talent can affect. Alternatively, you can expend one use of mythic power when casting a sphere effect that affects only one target (such as “one creature”) to have it affect an additional target. If the talent requires you to succeed at a melee touch attack, you must hold the charge in order to make a second touch attack.
+
++++ Adamantine Mind (Ex)
+Your mind is as hard as any armor and is dangerous to engage. You gain a bonus equal to your tier on saving throws against mind-affecting effects. Whenever you succeed at a save against a mind-affecting effect, the creature attacking you with that effect must succeed at a Will save (at the same DC) or be stunned for 1 round.
+
++++ Adaptive Energy Resistance (Su)
+If you have energy resistance against acid, cold, electricity, fire, or sonic damage and you are attacked by one of these energy types other than the one(s) to which you have resistance, you can spend one use of your mythic power as an immediate action to switch your energy resistance to that type of energy for a number of rounds equal to your mythic tier.
+
++++ Arcane Endurance (Ex)
+Treat your caster level as 4 higher when determining the duration of sphere effects you cast. This does not alter any other variable effects of your talents.
+
++++ Coupled Arcana (Ex)
+Whenever you spend a standard action, move action, or swift action to activate an arcane school power, bardic performance, blessing, blight, bloodline power, bound nexus ability, emotion, esotery, hex, hypnotism, imbuement, integrated technique, invocation, magus arcana, mystic combat, shadowstuff effect, symbiat psionic effect, wraith haunt, or similar class ability (GM’s discretion), you can also activate an ability that uses mythic power as a free action. The mythic ability you activate must require the same action type as the other ability you activated or faster (a swift action is faster than a move action, and a move action is faster than a standard action).
+
++++ Crafting Mastery (Ex) [Utility]
+You can craft any magic item as if you had the necessary item creation feats. If you actually have the item creation feat needed for a magic item you are crafting, whenever you attempt a skill check to create that item, roll twice and use the higher result, and you make twice as much progress on the item for any time spent. This ability does not reduce the item’s cost or any other requirements.
+
++++ Curse-bearer (Ex)
+You may touch, wear, wield, or carry a non-mythic cursed item without being affected by the curse. You may choose to be affected by the curse if you wish. Mythic cursed items affect you as normal, but you may expend one use of mythic power as a free action to suppress the effects of the item’s curse on you for one round.
+
+At 6th tier, you are immune to all curse effects. For example, the Enmity talent of the Fate sphere has no effect on you, and you can handle, carry, or discard a cursed magic item without harm. If a cursed item has useful functions and a cursed effect (such as armor of arrow attraction) or drawback (such as a mace of blood), you are immune to the cursed effect and drawback, and can still use its other abilities. If a cursed item works normally for a period of time before its curse triggers (such as gauntlets of fumbling), the item stops working for you when the curse would normally trigger. Finally, you can ignore the negative effects of your oracle’s curse (unless the source of your curse forbids this).
+
++++ Deep Understanding (Ex) [Utility]
+You automatically identify any sphere effect cast within 60 feet of you. Whenever you attempt to identify a non-artifact magic item using the divine ability of the Divination sphere, you automatically learn its properties and command words in the first round of the effect (no Spellcraft roll needed), but you cannot automatically determine whether it is cursed.
+
++++ Eldritch Breach (Su)
+You are adept at breaching magical defenses and overcoming resistance to your magic. When attempting a magic skill check to dispel an effect, overcome spell resistance, or otherwise determine whether your magic affects a target, roll twice and take the higher result.
+
++++ Elemental Bond (Su)
+You are connected to one of the elements. Select one package from the Nature sphere. Whenever you cast a sphere effect with a descriptor matching that package, add your tier to your caster level for that effect. You gain resistance 10 against an energy type associated with the descriptor of your chosen Nature package—electricity for air, acid for earth or metal, fire for fire, and cold for water or plant. At 6th tier, this resistance increases to 20. At 9th tier, this resistance increases to 30. The GM is the final arbiter of whether or not a sphere effect has a descriptor, but in general, sphere effects have elemental descriptors when they create, protect against, or directly manipulate that element. (For example, the Destruction sphere’s Fire Blast and the Nature sphere’s Create Fire geomancing have the fire descriptor.)
+
++++ Enduring Armor (Su)
+You are protected by armor made of force. This armor grants you an armor bonus to AC equal to 3 + your tier. This ability is a Protection sphere effect with a caster level equal to twice your tier. If this armor is dispelled or otherwise ended, you can reactivate it as a swift action.
+
++++ Enhance Magic Items (Ex)
+Your mythic presence enhances the power of certain magic items. Add half your tier to the caster level of compounds, scrolls, implements, and spell engines you use. When using a spell engine, you may activate the item by expending one use of mythic power instead of one (or more) of the item’s spell points.
+
++++ Exorcist (Su)
+As a full-round action, you can tap into the power of your magic to unravel the power of hostile spirits to control the bodies, minds, and souls of mortals. When you use this ability, you must target one creature within 30 feet to which you have line of sight. A successful Will save (DC = 10 + 1/2 your Hit Dice + your Charisma modifier) negates the effects of this feat. If your target is not a mythic creature, you add one-half your mythic tier (minimum +1) to the DC.
+
+An incorporeal undead creature that fails its save against this effect is staggered. If you target a possessed creature, the possessing entity must succeed at a Will save to resist being staggered for 1 round. If it is staggered, the creature it possesses can immediately attempt a new saving throw to end the possession effect (possession effects that do not allow saving throws to resist them cannot be ended with this power, but the feat can still stagger a possessed creature). You can use this ability a number of times per day equal to your mythic tier.
+
++++ Flash of Omniscience (Ex) [Utility]
+Your ability to recall information is astounding. When you take 10 on any Intelligence-based skill check, add your tier to the result. As a free action, you can expend one use of mythic power to ask one question as if using the Divine Knowledge advanced Divination talent. The base chance for a correct answer is 70% + your caster level + your tier (maximum 100%). The answer does not come from a divine agent, but from your own native understanding; therefore, the answer is never cryptic. If you do not get a correct answer, it is like failing a Knowledge check, and you cannot use this ability on that question again.
+
++++ Flexible Counterspell (Su)
+Your mythic power enhances your ability to counter others’ talents. As an immediate action, you can expend one use of mythic power to attempt to counter a spell or sphere effect. This ability otherwise works like using the Counterspell feat.
+
++++ Flexible Specialization (Ex)
+Select one incanter sphere specialization you do not have. You gain the powers from that sphere specialization, treating your sphere wizard level as twice your tier for the purposes of these powers. Once you have chosen the sphere specialization, it cannot be changed. You cannot select a sphere specialization for a base sphere you do not have.
+
+You must have the sphere wizard’s sphere specialization power to select this mythic path ability. You can choose this ability up to three times, each time selecting another sphere specialization you do not have.
+
++++ Greater Familiar Link (Su)
+You have bound yourself so deeply to your familiar that your life forces are intertwined. Anytime you or your familiar takes damage, you may split the damage evenly between you and your familiar. Using this ability does not require an action, but it works only if you are conscious and both you and your familiar are alive (or in whatever is the normal state for your respective races). You must have a familiar to select this ability.
+
++++ Heirloom (Ex)
+You gain a legendary item that is an ancestral relic of your house, family, or culture. This functions as the legendary item universal path ability described in Mythic Adventures, but you are so protective of this item that you add your mythic tier as a bonus to CMD against disarm, steal, and sunder combat maneuvers directed at the item, and one-half your mythic tier as a bonus on saving throws made by the item. You can take this ability again at 3rd and 6th tier to grant additional abilities to your heirloom item. You can have both an heirloom and a legendary item; however, the total number of legendary abilities between the two items combined cannot exceed your mythic tier +3.
+
++++ Implement Master (Su)
+Your mastery of implements enable you to use their powers in ways they are not normally capable of. When using an implement of power, you can expend one use of mythic power to use the implement’s enhancement bonus on the next talent you cast, even if the talent’s base sphere does not match that of the implement.
+
++++ Imprinting Hand (Su)
+By touching a foe, you can gain knowledge about it, including its weaknesses. To use this ability, you must first successfully hit a foe with an unarmed strike, natural weapon, or melee touch attack to make contact, then use this ability is a free action. As long as the target remains within 1 mile of you, you always know the direction and approximate distance to it. If the foe has any weaknesses or vulnerabilities (including a mythic flaw), you immediately know this information.
+
+You can maintain this connection with only one creature at a time; if you use this ability on another creature, your connection with the previous creature is lost.
+
++++ Insightful Interaction (Ex) [Utility]
+Add half your tier to Wisdom-based skill checks in which you are trained. Additionally, by expending one use of mythic power, you can use your Wisdom modifier plus half your tier in place of your Charisma modifier for Bluff, Diplomacy, and Intimidate checks for 1 hour.
+
++++ Inspire Trust (Ex)
+You can inspire instant trust in those you meet. As a swift or immediate action, you can expend one use of mythic power to make a Diplomacy check to improve a non-mythic creature’s attitude toward you. There is no maximum on how much its attitude can improve at once this way. If you are in combat but have not attacked the target, you must expend an additional use of mythic power and the DC is increased by the target’s Hit Dice. You cannot affect a target that knows you have ever attacked it.
+
++++ Mythic Bloodline (Su)
+When determining the effects of your bloodline powers, you are considered 4 levels higher. This increases the effects of powers you have access to, but does not grant you powers at a lower level than normal. If you have a sorcerer bloodline power that can be used multiple times per day, such as metamagic adept, you gain a number of extra uses of that power equal to half your tier (minimum 1). You must have the bloodline class feature to select this ability.
+
++++ Mythic Hex (Su)
+When you gain this path ability you learn one witch hex. Additionally, you may expend one use of mythic power when using any hex you know to target a creature a second time with the same hex.
+
++++ Persuasive Countenance (Su) [Utility]
+Whenever you encounter a creature whose alignment is within one step of yours, treat its starting attitude as one step better. If the creature’s starting attitude is helpful, you can make requests of the creature with a +5 bonus on your Diplomacy or Intimidate skill check.
+
++++ Relentless Healing (Su)
+You can restore life to the recently dead. If a creature has died within 1 round, as a free action you can expend one use of mythic power to apply healing magic to that creature. This healing can be from a sphere or other effect you cause or from a magic item you wield (because this is a free action, using items or casting healing powers does not require the normal casting time). If this healing brings the creature’s hit points above the threshold for death, it comes back to life and stabilizes at its new hit point total; otherwise, it remains dead.
+
+Alternatively, you can expend two uses of mythic power on a dead creature that would have the ability to magically heal itself if it were alive (such as a dead cleric with the cure ability of the Life sphere) in order to trigger the most powerful healing magic it knows or has prepared. If this brings the creature’s hit points above its death threshold, it returns to life.
+
++++ Remixer (Ex)
+You can instantly remix any potion, oil, or powder—collectively known as compounds—you touch to alter its effects (see the Distill Compound crafting feat). You can expend one use of mythic power to change the talents contained in the compound to that of any other talent you know. The resulting compound uses the caster level of the original compound.
+
+The new talent(s) contained in the compound must be one that could normally serve as a compound of that type. If the effect you are trying to use requires expensive material components, you must provide them at the time of the change.
+
++++ Resilient Arcana (Su)
+Your sphere effects become more difficult to identify and dispel. Add your tier to the DC of any checks to identify your sphere effects, recognize them as they are being cast, or dispel them.
+
++++ Sensory Link (Su)
+As a standard action, you can see and hear through your familiar’s eyes and ears. While using this ability, you cannot see or hear using your normal senses. You can speak through your familiar using any language you know, even if the familiar cannot normally speak. You may end the link and restore your own senses as a standard action. While linked, you can expend one use of mythic power to cast a spell and have it originate from your familiar instead of you. You must have a familiar to select this ability.
+
++++ Spellbane Counterstrike (Su)
+With a quick sprint, you retaliate against the caster of a spell you countered. When you successfully use the Counterspell feat (or a similar ability gained through other means), you can move up to your speed as part of the same action, as long as you end your movement with the target of the counterspell within melee reach. Your movement from this ability does not count toward your total movement for the round.
+
+If the target’s casting would have provoked an attack of opportunity, you can immediately take an attack of opportunity against the target.
+
++++ Sustained by Faith (Su) [Utility]
+You require no food, water, or sleep. If you have abilities or class features that require rest before they can be regained, you can choose to regain them once per day by spending 1 hour in uninterrupted meditation. If you are 3rd tier or higher, you can expend one use of mythic power in order to also not need to breathe for 24 hours.
+
++++ Throw Spell (Su)
+When casting a melee touch sphere effect, you can expend one use of mythic power to throw that sphere effect as a ranged touch attack. The range of this thrown spell is 10 feet per tier. If the spell allows you to make multiple melee touch attacks, you may make any number of the attacks as melee touch attacks and throw the rest as you see fit.
+----
+++ 3rd-Tier Spheremaster Path Abilities
++++ Abundant Healing (Su)
+When you use a sphere effect or class ability to heal a creature’s hit point damage, you can apply excess healing (over the target’s full hit points) to one ally adjacent to you. You can continue to apply excess healing to other adjacent allies until no injured allies are adjacent or you run out of excess healing. For example, if you could cure 40 points of damage with your cure and the target has taken only 20 points of damage, you can apply the remaining 20 points of healing to an adjacent ally; if that second ally has taken only 15 points of damage, you can apply the remaining 5 points of healing to another adjacent ally.
+
++++ Battlemagic Sense (Su)
+You have an intuitive sense for friendly and hostile magics being thrown around a battlefield. You gain a bonus equal to your mythic tier on Spellcraft checks to identify sphere effects, including both ongoing effects and effects as they are being cast, and you may make such checks untrained. If you expend one use of your mythic power as a swift or immediate action, you can treat your base attack bonus as the number of ranks you have in the Spellcraft skill for 1 minute.
+
+You are automatically aware when a sphere effect with a range greater than personal or touch is cast within 20 feet plus 10 feet times your mythic tier, and you can make a Spellcraft to identify such effects, though you take a -4 penalty on your check if you have no line of sight to the caster or are otherwise unaware of the caster’s presence. If you successfully identify a sphere effect while forcing the caster to make a concentration check, whether to cast defensively because you threaten the target or by harming or distracting the caster in any way, you add your mythic tier to the DC of the concentration check for that sphere effect.
+
+If you successfully identify a sphere effect being cast and you have the ability to cast an appropriate counterspell (usually through the Counterspell feat), you can expend one use of your mythic power to perform that counterspell as an immediate action, even if you do not have line of sight to the caster. If you have readied an action to counterspell, you gain a bonus equal to your mythic tier on any magic skill check required.
+
++++ Borrowed Power (Su)
+As a swift action, you can expend one use of mythic power and pick any one mythic path ability from a path other than spheremaster (including universal abilities) that is of a tier you have access to. You immediately gain access to this mythic path ability for a number of rounds equal to twice your mythic tier.
+
++++ Don’t Cross Me (Ex)
+Even when you are away from your thralls, they fear and obey you. When you successfully use Intimidate to make someone helpful, you can expend one use of mythic power to cause the creature to remain helpful to you even in your absence for up to a number of days equal to your tier. At the beginning of each day, the creature may attempt a Will save; if it succeeds, this effect ends prematurely (DC equal to the result of your original Intimidate check minus 2 for each day since the creature last had direct contact with you). This is a mind-affecting fear effect.
+
++++ Drawback Freedom (Ex)
+When you cast a sphere effect, you can ignore one (non-mythic) general drawback that would otherwise apply to it. You can select this ability more than once; each time you take this ability, the number of drawbacks you may ignore for each sphere effect you cast increases by 1.
+
++++ Eldritch Dread (Su)
+When you cast a sphere effect or use a sphere-like ability, you may expend one use of your mythic power to activate an aura of fear affecting all creatures within a radius of 5 feet plus 5 feet per two caster levels of the effect that lasts until the beginning of your next turn. Each round, you may continue exuding this aura of fear by spending a move action to do so, up to a maximum number of rounds equal to your mythic tier.
+
+If you do not maintain the aura during any round, you cannot resume it unless you cast another sphere effect and expend another use of your mythic power. Enemies within the aura are shaken (or panicked if they have fewer Hit Dice than your mythic tier) as long as they remain within this radius and for a number of rounds thereafter equal to your mythic tier. A Will save (DC 10 + 1/2 your Hit Dice + your mythic tier) negates the effects of this aura.
+
++++ Eldritch Flight (Sp, Su)
+You gain a bonus on Fly checks equal to your tier. As a standard action, you can expend one use of mythic power to fly (as the Flight talent of the Telekinesis sphere) for a number of minutes equal to your tier. At 6th tier, you instead gain a permanent supernatural fly speed of 60 feet (40 feet if you wear medium or heavy armor, or are carrying a medium or heavy load).
+
++++ Hand of Mercy (Su)
+If you have the channel energy ability, you can touch a creature and expend one use of channel energy to remove a condition afflicting that creature. Each time you use this ability, you can choose one of the following conditions: dazed, fatigued, shaken, sickened, or staggered. At 6th tier, you can also choose from among the cursed, exhausted, frightened, and nauseated conditions. At 9th tier, you can also choose from among the blinded, deafened, paralyzed, and stunned conditions.
+
++++ Infectious Spell (Su)
+You know no limits when it comes to the potency and ravaging effects of your talents. Whenever you cast a sphere effect that specifically targets a limited number of targets (such as “one creature/level” or “one or more creatures”) and has a duration longer than 1 round, you can expend one use of mythic power to make the effect infectious. Each round on your turn, so long as at least one creature is still under the effect of the infectious talent, the talent targets one additional enemy per mythic tier you possess (chosen by the original caster). The range of the spell is the same, but it originates from a creature currently affected by the sphere effect (your choice). A creature affected by an infectious spell suffers all of the effects of the original effect (and may attempt any saving throws as appropriate at the original save DC), but the duration does not reset (meaning the effect ends for all affected targets when the original duration of the spell expires).
+
+A creature can only be targeted by a given infectious spell once per casting. Once a round passes without any additional creatures affected by the effect, the spell stops being infectious. This ability can only affect sphere effects whose caster level is equal to or less than double your tier.
+
++++ Life Current (Su)
+You are more attuned to the source of life or unlife and better able to access its power. When casting a cure effect of the Life sphere, dealing hit point damage with negative energy, or using a class feature that uses positive or negative energy (such as channel energy or lay on hands), treat any natural 1s or 2s on the dice rolled to heal or deal damage as 3s. You can select this ability up to three times. The second time you select it, treat natural 1s, 2s, and 3s as 4s. The third time you select it, treat natural 1s, 2s, 3s, and 4s as 5s.
+
++++ Magical Potency (Su)
+You gain four spell points. You can select this ability more than once. If you do, you gain six spell points the second time, eight spell points the third time, and so on.
+
++++ Many Forms (Su)
+You can alter your appearance at will as if using the Blank Form of the Alteration sphere (this does not allow you to gain traits aside from the +10 bonus to Disguise checks, or similar cosmetic changes with your GM’s permission). You can expend one use of mythic power to change your shape as if using the Alteration sphere and any three Alteration talents (whether or not you know those talents), with a duration of 1 minute per tier. Your caster level for this ability is a number equal to 10 + your tier. At 6th tier, the duration of this shapeshift increases to 10 minutes per tier.
+
++++ Mirror Dodge (Su)
+When hit by a melee or ranged attack, you can expend one use of mythic power as an immediate action to replace yourself with an illusory duplicate and teleport to any open square within 30 feet of your current position. You take no damage from this attack, which instead destroys your illusory duplicate. Using this ability requires a line of effect to the square into which you teleport.
+
++++ Pilgrim of the Waves (Su)
+You can breathe water as easily as you breathe air. You can also walk on any body of water (which includes fresh water, sea water, and anything else that is entirely or almost entirely water), though this ability does not allow you to walk upon any bodies of liquid other than water (such as pools of acid). You can choose to sink to the bottom of any body of water you could walk upon, descending at a rate of 60 feet per round, and thereafter you can travel along the bottom of the water as though it were dry land. While at the bottom of a body of water, you can attack and act normally, as though under the effects of the Freedom word of the Fate sphere, though this ability does not impart the other benefits of that sphere effect.
+
++++ Spell Sieve (Sp)
+If you successfully counterspell a sphere effect of a caster level equal to or lower than your own, you can absorb the countered effect’s power and use it for your own purposes. On your next turn, you can cast that sphere effect as a sphere-like ability using your caster level as the caster level for the effect. (A spherelike ability is not affected by general or sphere-specific drawbacks and never requires expensive material components.)
+
++++ Sphere Metamastery (Su)
+As a swift action, you can expend one use of mythic power and pick any one metamagic feat you know that increases the slot level of the spell by 0 or 1 levels or costs 0 or 1 spell points. For the next 10 rounds, you can apply this metamagic feat to any sphere effect you cast without increasing the spell point cost or casting time.
+
+You can also use this ability on sphere effect you cast from a scroll or spell engine. You cannot have more than one use of this ability active at a time. If you use this ability again, any previous use immediately ends (though this does not affect sphere effects already cast). You can select this ability more than once. Each time you select this ability, the maximum spell slot level or spell point increase of the metamagic feat you can choose goes up by 1, to a maximum of 4.
+
++++ Tangible Illusion (Su)
+You can temporarily transform an illusory object into a real one. As a full-round action, you can expend one use of mythic power to temporarily transform a single object created using the Illusion sphere that you cast into a physical, non-magical version of that object. The object lasts for 10 minutes per tier, after which it reverts to being an illusion (or vanishes, if the duration of the original illusion has expired). During that time, the illusion gains all the physical properties of the depicted illusory object. You must touch the illusion to use this ability, and the object can be no larger than 5 cubic feet per tier. For example, if you create an illusory stone door, you transform it into an actual non-magical stone door.
+----
+++ 6th-Tier Spheremaster Path Abilities
++++ Arcanist’s Escape (Su)
+Whenever you are entangled, grappled, or pinned, you may expend two uses of mythic power as a free action on your turn to teleport to safety, as if using the teleport ability of the Warp sphere. If you are affected by a non-mythic effect that blocks teleportation, you can double the cost to four uses of mythic power to make a magic skill check with a bonus equal to your mythic tier to bypass that effect for the purpose of this teleportation.
+
+The DC for this check is equal to 15 plus the caster level of that effect. This ability can be used to escape from an effect or area that blocks teleportation, but it cannot be used to enter such an area from outside it.
+
++++ Channel Power (Su)
+You gain the ability to channel raw magical power into a sphere effect. You can expend one use of mythic power when casting a sphere effect to increase its damage by 50%. If the sphere effect has a duration greater than 1 round, the duration doubles. Any saves required by the sphere effect take a –4 penalty, although for mythic creatures, this penalty is reduced to –2. This sphere effect ignores any spell resistance the targets have, although targets immune to the sphere effect or to magic still retain that protection.
+
++++ Eldritch Reciprocation (Su)
+You can choose to take extra damage from a sphere effect to replenish mythic power. When you are hit by or fail a saving throw against a sphere effect that deals hit point damage, as an immediate action you can choose to take damage as if that effect were affected by the Maximize Spell feat. If the effect’s damage cannot be increased by the Maximize Spell feat or is already under the effect of the Maximize Spell feat, you instead take double damage from it. The effect’s damage ignores your spell resistance, energy resistance, energy immunities, and other protections against damage.
+
+If you take at least 25 points of damage from the effect, you regain one use of mythic power.
+
++++ Extended Abundant Casting (Ex)
+When you cast a sphere effect that normally affects only a single target (such as “one creature”), you can affect one additional target adjacent to that target without expending additional resources to do so. In addition, you can affect an additional number of targets anywhere within range equal to one-half your mythic tier by expending one use of mythic power for each additional target normally granted. You cannot target the same creature more than once with this sphere effect. If the sphere effect requires you to succeed at a melee touch attack, you must hold the charge in order to make touch attacks against targets after the first. You must have the abundant casting path ability in order to select this ability.
+
++++ High Clerist (Ex)
+You are acknowledged as a great leader within your religion and even by those outside your faith. Add one-half your mythic tier on Diplomacy checks and gain Leadership as a bonus feat or the Leadership sphere (GM’s choice). If you already have the Leadership feat, you gain Mythic Leadership as a bonus feat. If you gain the Leadership sphere, you may spend your magic talents on additional Leadership talents. If you build a shrine, temple, monastery, cathedral, or monument devoted to your deity, offerings from fellow believers cover one-half the cost of construction, whether you are constructing them with your own personal funds or using the kingdom-building rules described in Ultimate Campaign or Ultimate Rulership from Legendary Games. At the GM’s option, you may also obtain this discount when building other types of buildings, such as a park, graveyard, or castle, if they are connected to a religious edifice.
+
+In addition to the above, you gain the power to call for a crusade, declaring a specific goal (typically a military goal of some kind related to the faith) that you wish to achieve and summoning the ranks of the faithful to help you accomplish that goal. Calling a crusade requires spending a number of uses of mythic power equal to your mythic tier, and it enables you to multiply the number of followers you gain by an amount equal to your mythic tier. These followers arrive over the course of one month and serve without pay for as long as you keep the crusade going. For as long as the crusade lasts, the uses of mythic power you spent to call the crusade are unavailable to you. However, during the crusade all of your followers gain a morale bonus equal to one-half your tier on attack rolls and on saving throws against mind-affecting effects and effects that would cause them to become fatigued or exhausted (as well as Constitution checks to avoid damage or fatigue from a forced march).
+
+If using the mass combat rules in Ultimate Battle from Legendary Games, you can recruit armies using your followers. Those armies have only half the normal maintenance cost (as they must still be fed) and gain a bonus to their OM and Morale equal to one-half your mythic tier.
+
+You may call off the crusade at any time, at which point your additional followers depart.
+
++++ Mindthrall (Su)
+When a creature fails its saving throw against a Mind sphere effect you create, you can expend one or more uses of mythic power to make the effect permanent. You must expend one use of mythic power, plus one additional use per four caster levels of the effect. If the effect’s normal duration is less than 1 day/ level, you must spend additional mythic power to make the effect permanent, depending on the effect’s normal duration:
+
+||~ Normal Duration ||~ Additional MP Cost || 
+|| 1 hour/level || +1 MP || 
+|| 10 minutes/level || +2 MP || 
+|| 1 minute/level || +4 MP || 
+|| 1 round/level || +6 MP || 
+
++++ Saintly Shroud (Su)
+You are suffused with an aura of sacred (if good) or profane (if evil) power; a neutral character must choose which type to gain. This choice is permanent. You gain a bonus equal to one-half your mythic tier on Intimidate checks against creatures with an alignment subtype that is opposed to your alignment, even if they share one alignment subtype in common (e.g., if you are chaotic good and use Intimidate against a demon, which has both the chaotic and evil subtypes). You gain the same bonus on saving throws against fear and charm effects used by such creatures, as well as against effects with an alignment descriptor that opposes yours.
+
+If a non-mythic creature whose alignment subtype is opposed to yours touches you, including striking you with a natural weapon or melee touch attack, it takes damage equal to your mythic tier every time it strikes you; a mythic creature takes this damage only the first time each round that it strikes you. If you touch such a creature to deliver a melee touch effect, once per round you may choose to deal this damage to the target in addition to any other effect you deliver with that touch. If you expend one use of your mythic power as a free or immediate action, you gain damage reduction 5/chaotic, damage reduction 5/evil, damage reduction 5/good, or damage reduction 5/lawful for a number of rounds equal to your mythic tier. The type of damage reduction you gain must match an alignment subtype opposed to yours. This damage reduction increases to 10 at tier 3 and to 15 at tier 6.
+
++++ Undying Healer (Su)
+Whenever you fall unconscious, a ghostly image of you manifests from out of your body. Even though you are unconscious, you control this image. On your turn each round, this image can fly up to 30 feet and use your ability to lay on hands to heal, channel energy to heal, or cast any Life talent that you could cast. This consumes these abilities as normal. Abilities used by the image cannot benefit you.
+
+This image lasts a number of rounds equal to your tier. This ability can be dispelled, using double your tier as the caster level. If you die or regain consciousness, the image immediately ends.
+----
+[[/tab]]
+[[tab The Gifted Mythic Path]]
+
+The Gifted are those who have somehow acquired true mastery of the martial spheres, capable of unleashing powers and abilities beyond those of other warriors. Whether their abilities are acquired through training, deals, luck, or even the whims of the gods, the Gifted are warriors, craftsmen, and experts in their trade.
+
+**Role:** The Gifted can fulfill almost any role in a party, though like regular practitioners, they lean in favor of dealing damage, protecting allies, debuffing their enemies, and using skills. Many Gifted choose to take the Dual Path^^MA^^ mythic feat, which significantly expands their options.
+
+**Classes:** This mythic path is suitable for any character with expert, adept, or proficient progression with martial talents, as well as all champion classes that mix Spheres of Power and Spheres of Might. It can be used by classes that have acquired martial talents through spending feats or by special items like talent crystals^^TotS^^, but characters with these builds may find another mythic path to be more useful.
+
+**Bonus Hit Points:** Whenever you gain a gifted tier, you gain 4 bonus hit points. These hit points stack with themselves, and do not affect your overall Hit Dice or other statistics. These do not stack with the hit points from your Dual PathMA choice (if you take that feat).
+
++++ Sphere Mastery
+At 1st tier, you gain one mythic sphere mastery (see Mythic Sphere Talents). You must know the base sphere associated with it.
+
++++ Martial Mastery
+At 10th tier, you have perfected your fighting style. Choose three base sphere effects and/or specific talents that require you to expend martial focus to use them. Once per minute, you may use any of those options without expending martial focus.
+
+**Table: The Gifted**
+||~ Tier ||~ Path Feature || 
+|| 1st || Path ability, sphere mastery || 
+|| 2nd || Path ability || 
+|| 3rd || Path ability || 
+|| 4th || Path ability || 
+|| 5th || Path ability || 
+|| 6th || Path ability || 
+|| 7th || Path ability || 
+|| 8th || Path ability || 
+|| 9th || Path ability || 
+|| 10th || Martial mastery, path ability || 
+
+The Gifted also have access to the following mythic path abilities. Some abilities are originally from other mythic paths (particularly those published by Legendary Games) and may have been changed to fit the Gifted.
+
+**Special:** Mythic practitioners may take any mythic path ability or mythic class ability that affects a class feature they have (i.e. something that is specifically included in the ‘Special’ column of a class table), regardless of its original path or class. You must meet any other requirements for that choice, such as minimum mythic tier. With GM permission, universal path abilities that grant spell-like abilities can be taken as normal and are not changed.
+
+++ 1st-Tier Path Abilities
++++ Always Prepared
+You are immune to poison.
+
++++ Avenging Maneuver (Ex)
+Taking grievous wounds only empowers you. Any creature that confirms a critical hit with a melee attack against you provokes an attack of opportunity from you. You can use this attack of opportunity only to attempt a bull rush, disarm, sunder, or trip combat maneuver check. You do not provoke attacks of opportunity for attempting this combat maneuver check.
+
++++ Blind Luck (Ex)
+When making an attack roll against a target with concealment or total concealment, if your attack roll is a critical threat your attack ignores any miss chance. Against a creature using mirror image or a similar effect, if your attack roll is a critical threat you automatically target the actual opponent rather than one of the images.
+
++++ Clear Your Heads (Ex)
+When you fire a shot from a firearm, attack with an alchemist bomb, or use a similar attack like a scholar’s flashbangs or many formulae from the Alchemy sphere, you can expend one use of mythic power to dispel a mind-affecting effect within 30 feet. This functions as a targeted dispel magic, using your base attack bonus as your caster level (adding your mythic tier, if the effect is non-mythic), affecting the mind-affecting effect you designate. You can dispel supernatural mind-affecting effects with this ability, treating the DC of the dispel check as 15 + the Hit Dice of the effect’s creator.
+
++++ Curse-bearer (Ex)
+You may touch, wear, wield, or carry a non-mythic cursed item without being affected by the curse. You may choose to be affected by the curse if you wish. Mythic cursed items affect you as normal, but you may expend one use of mythic power as a free action to suppress the effects of the item’s curse on you for one round.
+
++++ Deadly Dodge (Ex)
+As a swift action, you can expend one use of mythic power to gain a +4 dodge bonus to your AC until the start of your next turn. During this time, whenever a creature misses on a melee attack against you, it provokes an attack of opportunity from you. You can choose to either take this attack of opportunity or force that creature to reroll the attack and change the target to a creature of your choice that is adjacent to you and within the attacker’s reach. This reroll uses the same modifiers as the initial attack roll.
+
++++ Defensive Move (Ex)
+Once per round, you can designate one opponent. Unless you attempt to move through that opponent’s space, your movement (including standing up from a prone position) does not provoke attacks of opportunity from that opponent. If you move through the opponent’s space, you can still attempt an Acrobatics check to do so without provoking an attack of opportunity. You can take this ability more than once. Each additional time you select it, you can designate one additional opponent when you move.
+
++++ Distracting Flurry (Ex)
+When you make multiple attacks in the same round against a creature, each missed attack against that target results in a -1 penalty to that target’s AC until the end of your turn. This penalty stacks with multiple missed attacks. If you expend one use of mythic power as a swift action, this AC penalty persists until the beginning of your next turn. You cannot use this ability on a creature whose mythic rank or tier exceeds yours.
+
++++ Heirloom (Ex)
+You gain a legendary item that is an ancestral relic of your house, family, or culture. This functions as the legendary item universal path ability described in Pathfinder Roleplaying Game Mythic Adventures, but you are so protective of this item that you add your mythic tier as a bonus to CMD against disarm, steal, and sunder combat maneuvers directed at the item, and one-half your mythic tier as a bonus on saving throws made by the item. You can take this ability again at 3rd and 6th tier to grant additional abilities to your heirloom item. You can have both an heirloom and a legendary item; however, the total number of legendary abilities between the two items combined cannot exceed your mythic tier +3.
+
++++ Honor Between Thieves
+You cannot be robbed (including by mythic characters, unless they have at least three more tiers than you). Any possessions you carry simply cannot be stolen, although this does not extend to objects not currently on you or within 10 feet per tier. Your items can still be destroyed. Any attempt to swindle or cheat you out of your possessions is immediately obvious to you.
+
++++ Impeccable Balance (Ex)
+Even the smallest of handholds and outcroppings are more than sufficient for your purposes. You automatically succeed at all Acrobatics checks to walk along narrow ledges. Your Acrobatics checks never take a penalty because of obstructed, slippery, sloped, or unsteady surfaces, and you can move at full speed across such surfaces with no penalty. You also gain a +10 bonus to CMD against trip attacks.
+
++++ Perfect Aid (Ex)
+Whenever you successfully use the aid another action, your ally also adds your tier to the aid another bonus. If you use your surge ability on the aid another roll, add the result of the surge die to this bonus as well.
+
++++ Quick Recovery (Ex)
+Whenever you are dazed, dazzled, deafened, sickened, or stunned, reduce the duration of that condition by half (minimum 1 round). Any other effects relating to the source of that condition are unaffected; for example, if you are panicked and sickened from an eyebite spell, the panicked effect has the normal duration even though you are sickened for only half as long. You can select this ability twice. The second time you select it, you also reduce the duration of the blinded, nauseated, and paralyzed conditions by half.
+
++++ Reluctant Stand (Ex)
+When you are the only creature threatening an enemy, you take no penalty on attack rolls against that creature when fighting defensively. If you are using the total defense action, you can make a single melee attack and gain the normal dodge bonus to AC, or if you choose to take total defense without making an attack the dodge bonus you gain to AC increases to +6 (or +9 if you have 3 or more ranks in Acrobatics).
+
++++ Shot in the Dark (Ex)
+You can deal precision damage to targets with concealment or total concealment. When you attack a creature whose location is unknown, you may designate two adjacent squares when making an attack. If a target is in either square, you may attack it. If a creature in a square you designate is an ally, you instinctively are aware of this and can choose not to attack or to direct your attack elsewhere.
+
++++ Speed Of Thought
+Once per encounter, as an immediate action, you may expend your martial focus and one use of mythic power to take a full round of actions. You may only do this after an opponent has declared an action (such as making an attack or casting a spell) and cannot regain your martial focus during this turn of actions.
+
++++ Strange Style (Ex)
+You gain proficiency in a number of exotic weapons equal to your mythic tier. In addition, you can practice with an exotic weapon for 1 hour in order to wield it as if it had one of the following special features for the next 24 hours: blocking, brace, deadly, disarm, distracting, monk, nonlethal, performance, or trip. Alternatively, you may treat the weapon if it did not have the fragile or nonlethal feature. If you expend one use of mythic power, you may practice as a full-round action to gain the above benefit. If you spend an hour practicing and expend one use of mythic power, you may add the grapple or reach special feature to an exotic weapon, or you may add (or subtract) a number of special features listed above when using that exotic weapon equal to one-half your mythic tier (minimum 1).
+
++++ Take a Breather (Ex)
+When subject to a spell or effect that heals hit point damage or ability damage, if you take no actions other than movement in the following round you are healed again at the end of your next turn an amount equal to 50% of the all hit point or ability damage healed in the previous round.
+
++++ The Road Goes Ever On (Su) [Utility]
+You are a skilled traveler, inured to long journeys and heavy loads. You add your mythic tier to your Strength score to determine your carrying capacity, and you (and any mount you ride) add your mythic tier to the number of hours per day you can hustle or forced march when traveling overland before you risk taking nonlethal damage or becoming fatigued (see Chapter 7 of the Pathfinder Roleplaying Game Core Rulebook for details on encumbrance and overland travel). You can expend one use of your mythic power to remove the fatigued condition from yourself or an ally by touch, and if your ally has nonlethal damage incurred from a hustle, forced march, or similar exertion, you also cure an amount of that nonlethal damage equal to your surge die plus your mythic tier.
+
++++ This Might Just Work (Ex) [Utility]
+You are adept at combining optimistic resourcefulness with natural skill. You can attempt a skill check with a class skill in place of a skill that uses the same ability score modifier. For example, you could attempt an Acrobatics check in place of a Stealth check because both skills are based on Dexterity. You take a –5 penalty on this check and cannot take 10 or 20 on it. The GM can disallow certain uses of this ability when the skill cannot possibly be applied to the task.
+
++++ Trusty Tools (Su)
+When you use a tool of your trade (requiring at least 1 rank in the appropriate Craft or Profession skill) as a weapon you take no penalties for using an improvised weapon. In addition, that weapon gains an enhancement bonus equal to half your mythic tier (minimum +1), and its critical threat range is increased by 1 for every 2 mythic tiers you possess. Your tool’s hardness is increased by an amount equal to your mythic tier as long as it is on your person, and you can expend one use of mythic power as a standard action to grant the item 5 temporary hit points per mythic tier you possess.
+
++++ Unfocused Focus (Ex)
+If you have more than one class, you may select a single class ability (other than spellcasting) from one of your classes (such as wildshape, channel energy, or sneak attack). You may treat your class level for that ability as up to 4 higher than your class level in that class, up to a maximum equivalent class level equal to your Hit Dice.
+
++++ Unorthodox Tactics (Ex)
+When you take a readied action, you may take an additional move action before or after your readied standard action. In addition, your unorthodox tactics confound your enemies, negating any competence, insight, or morale bonuses they would gain against you until the end of your next turn.
+
++++ Unspeakable Name (Su/Sp) [Utility]
+Like demon lords and the witch-kings of legend, you know when others dare to speak of you or your fell deeds. You hear your name and title whenever it is spoken, regardless of distance, and you can expend one use of your mythic power to use scrying as a spell-like ability targeting the creature speaking your name. If your scrying is successful, you can expend an additional use of mythic power to deliver a message to the target as sending. If you have at least 3 mythic ranks or tiers, this ability functions across planar boundaries. Expending one use of mythic power allows you to use greater scrying on the speaker instead. If you succeed in scrying on the target, you can spend one additional use of mythic power to use project image as a spell-like ability. The image appears at the location of the scrying sensor, which is considered the point of origin of the spell. If your scrying sensor is dispelled, so is the project image.
+
+If you have at least 6 mythic ranks or tiers, if you successfully scry on a creature you can also read its mind as detect thoughts, and you can spend one additional use of your mythic power to discern location on the speaker. If a creature says your name three times in a single breath, you learn that creature’s true name.
+
++++ Untrained Warrior (Ex)
+As a full-round action you may expend one use of mythic power to gain proficiency in a type of weapon or a type of armor (light, medium, heavy) for 24 hours. In addition, you may expend a use of mythic power to change the weapon or armor specific parameters of a feat or class ability you have. For example, if you have Weapon Focus (club), you could alter that feat to become Weapon Focus (light crossbow), or if you had weapon training (light blades) you could alter that ability to become weapon training (heavy blades). You must meet the prerequisites for an altered feat. This effect lasts 24 hours or until you expend another use of mythic power to change that feat again.
+
++++ Unwavering Skill (Ex) [Utility]
+You can always take 10 or 20 on checks using class skills, even if threatened or in a hazardous situation. You cannot use this ability with skill checks that do not normally allow you to take 10 or take 20.
+----
+++ 3rd-Tier Path Abilities
++++ Bodily Ricochet (Ex)
+A creature that confirms a critical hit against you with a melee weapon must succeed at a Reflex save (DC 10 + one-half the damage dealt) or drop its weapon in your square. You may expend a use of mythic power as an immediate action to use this ability on any successful attack with a melee weapon, even if it is not a critical hit.
+
++++ Can’t Touch This (Ex)
+When you use Combat Expertise, fight defensively, or total defense and all attack rolls against you since the beginning of your last turn have missed and all combat maneuver checks have failed, you can attempt an Intimidate check as a free action to demoralize every creature you threaten. You cannot use this ability if you have not been attacked, or have only been attacked by effects that do not require attack rolls or combat maneuver checks.
+
++++ Confidence (Su)
+You can draw upon a deep reserve of confidence in times of need. You can call on confidence three times per day to use the surge mythic ability without expending one use of mythic power. You can select this ability up to three times. Each additional time you select it, you gain three additional uses of confidence per day.
+
++++ Critical Skill (Ex) [Utility]
+Whenever you roll a natural 20 on a skill check, you perform that skill with exceptional proficiency. Typically, this means that the task takes half the normal amount of time to accomplish. If the skill would normally take a full-round action, it instead takes a standard action. If it would normally take a standard or move action, it instead takes a swift action. If it would normally take a swift or free action, it instead takes no time at all. The GM might rule that instead of reducing the amount of time needed, using the skill takes the normal amount of time but the critical success results in some other added benefit, depending on the skill being used and the situation.
+
++++ Eldritch Shield (Su)
+As an immediate action you may expend one use of mythic power to surround yourself with a protective field of energy bestowed by your source of mythic power. This shield grants you temporary hit points equal to 10 + three times your tier. Each round you regain a number of temporary hit points equal to your mythic tier. Once your temporary hit points provided by this power are reduced to 0, your eldritch shield is dismissed and you must spend another use of mythic power to reactivate it. While your eldritch shield is active you shed light like a torch.
+
++++ Feel Your Pain (Su)
+Whenever an adjacent ally gains one of the following conditions, you can expend one use of mythic power as a free action to have that condition affect you rather than your ally: bleed, blinded, confused, cowering, cursed, dazed, dazzled, deafened, diseased, entangled, exhausted, fascinated, fatigued, frightened, nauseated, panicked, paralyzed, poisoned, shaken, sickened, staggered, or stunned, as well as any pain-based effect.
+
+You can expend two uses of mythic power to instead take on one of the above conditions that would affect an ally within 30 feet. If the effect is not instantaneous or permanent, you can attempt a new saving throw to end the effect each round at the end of your turn by expending one use of mythic power, or two uses of mythic power if it is caused by a mythic effect. This does not require an action. If the effect is instantaneous or permanent or does not allow a saving throw, you can end the effect after 1 minute by expending two uses of mythic power, or four uses if the effect is caused by a mythic effect.
+
++++ Menacing Whisper (Ex)
+Whenever you are adjacent to a creature that cannot see you (whether through Stealth, magic, or the creature being unable to see) but can hear you, as a swift action you can attempt an Intimidate check to demoralize that creature. You can expend one use of mythic power as a free action to give such a creature a suggestion. The save DC against this effect is 10 + your tier + your Charisma modifier.
+
++++ Mirror Dodge (Su)
+When hit by a melee or ranged attack, you can expend one use of mythic power as an immediate action to replace yourself with an illusory duplicate and teleport to any open square within 30 feet of your current position. You take no damage from this attack, which instead destroys your illusory duplicate (similar to mirror image). Using this ability requires a line of effect to the teleportation target square.
+
++++ Penetrating Damage (Su)
+Whenever you deal damage to a creature with damage reduction, you can overcome one of the following types of damage reduction: chaotic, cold iron, evil, good, lawful, magic, or silver. You can change this type with each attack. This ability only aids in overcoming one type of damage reduction; if the creature’s damage reduction requires a combination of different types of damage, you must be able to overcome the other types using other means.
+
++++ Right Place, Right Time (Ex)
+Your allies are treated as if they possessed the same teamwork feats as you do for the purpose of determining whether you receive a bonus from your teamwork feats. Your allies do not receive any bonuses from these feats unless they actually possess the feats themselves. The allies’ positioning and actions must still meet the prerequisites listed in the teamwork feat for you to receive the listed bonus. As a swift action you may expend one use of mythic power when an ally’s action or position is allowing you to use a teamwork feat to grant that ally the benefits of that teamwork feat for 1 minute. If that ally already has that teamwork feat and you expend one use of mythic power in this way, you and that ally both gain the benefits of the mythic version of that teamwork feat.
+
++++ Speak My Name (Su)
+When you take this path ability you must choose a “true name” that represents your spiritual self and serves as a binding representation of your mythic power. You may teach this name to up to one creature per tier. Whenever someone successfully says your true name, you can appear at that creature’s location by expending two uses of mythic power as if taken there by word of recall. You know who is saying your true name, and you can choose not to be transported if you wish.
+
++++ Stalwart Companion (Su)
+Select one of the following: your animal companion, eidolon, familiar, or phantom. It gains DR 5/epic. This ability can be taken a second time at 6th tier or higher and a third time at 9th tier or higher. Each additional time it is taken, the damage reduction increases by 5. This benefit does not stack with blessed companion.
+
++++ Storied Ally (Su)
+Select one of the following: your animal companion, eidolon, familiar, or phantom. It counts as a mythic creature for all purposes and unless it is an outsider, it gains the hard to kill special quality. You can apply your mythic surge ability to that ally.
+
++++ Take Your Best Shot (Su)
+If you are targeted by a harmful spell, spell-like ability, or supernatural ability and suffer no harm from it, whether because of a successful saving throw, spell resistance, the attack missing, or some other protection, as an immediate action you can attempt an Intimidate check to demoralize the creature that produced the effect, adding a bonus on the check equal to your mythic tier. The creature you attempt to demoralize must be within 10 feet times your mythic tier and must have line of sight to you. At 6th tier, you can use this ability after succeeding at a saving throw to reduce the effects of an attack (if no save is allowed, you cannot use this ability).
+----
+++ 6th-Tier Path Abilities
++++ Class Mimic (Ex)
+The abilities of your allies are available to you with a touch. As a standard action, you can expend one use of mythic power and touch a willing creature to copy one of that creature’s class features. You gain the use of this class feature for 10 minutes per tier, using the level of the creature touched as your level for any effects based on level. You cannot copy an ability that has a limited number of uses per day (such as rage, smite evil, medical training, or spellcasting) or an ability that involves a companion (such as eidolon, hunter’s bond, or nature bond). You can have only one use of this ability in effect at one time. If you use this ability again, any previous use immediately ends. You cannot copy the same ability more than once per day.
+
++++ Cling to Life (Su)
+When you die, as long as your body remains, you can be healed by any spell or effect that heals damage, though you regain only half the normal number of hit points. If you are healed to full hit points, you come back to life and gain 1 permanent negative level for each minute you were dead (these negative levels can be removed as normal). Until you are healed to full hit points, you do not regain consciousness and are still dead no matter what other abilities you might have. If you are not brought back to life within a number of minutes equal to your total character level, your death is permanent (although you can still be brought back by spells such as raise dead).
+
++++ Defiance
+As an immediate action, you may expend your martial focus to negate one attack or effect dealing bludgeoning, piercing, and/or slashing damage, as well as any additional effects from that attack (such as elemental damage from special abilities on a weapon). If the effect deals ongoing damage (such as being crushed under rocks and taking damage each round), this only negates one round of damage from that effect.
+
++++ Defy Destiny (Sp)
+You can call upon powerful forces to rewrite the immediate past and defy destiny itself. As an immediate action, you can expend three uses of mythic power to change an action you took during your previous turn. If you take the same action again, you roll any dice anew and keep the new result instead of the original result (even if it is worse). Reality changes to suit the new result.
+
++++ Inscrutable (Sp)
+You gain the benefits of permanent mind blank, with a caster level equal to your character level plus your tier. You can suppress this effect as a standard action; if you do so (or if the mind blank is dispelled), you can resume it as a standard action. Non-mythic creatures automatically fail Diplomacy checks or Knowledge checks to learn information about you.
+
++++ Shunned by Magic (Su)
+You gain spell resistance equal to 5 + your character level + your tier. This interferes with spells cast by all other creatures including allies, but not your own spells. You can expend one use of mythic power without using an action to allow a spell to bypass your spell resistance.
+
++++ You Shall Be Avenged! (Su)
+When you witness an enemy taking an offensive action against an ally, you may expend one use of mythic power as a swift action to challenge that creature as the cavalier class feature, treating your mythic tier as your cavalier level; this stacks with any cavalier levels you possess. When you select this mythic power, choose one cavalier order; you also gain that order’s challenge bonus when using this ability (though you do not gain any other order benefits). Each time you gain a new mythic tier, you may select an additional order, and when you trigger this ability you may select which order’s ability you will use. If you have cavalier levels, those levels stack for the purpose of your order challenge bonus only when using the bonus of your actual order. If an attack you make against the target of your challenge has a miss chance or a percentage chance to negate a critical hit or precision damage, you may roll twice and select the better result. You may also roll twice and select the better result if you expend a mythic surge to add a bonus on your attack roll against the target of your challenge.
+
+If you witness a creature reduce an ally to 0 hit points or less, or permanently incapacitate an ally in a way other than by hit point damage, you may challenge that creature as a free action without expending mythic power. If you expend one use of mythic power as a swift action to challenge that foe, the power of your challenge is greatly enhanced. Your attacks against that creature bypass damage reduction and hardness (and any energy damage dealt by your weapon or through it (including spells delivered by a spell storing weapon or a magus’ spellstrike) bypasses energy resistance or immunity), and your first successful hit against the target adds 1d6 points of damage times your mythic tier rather than your usual damage bonus. If you expend a mythic surge to add a bonus on your attack roll against the target of your challenge, that die is automatically treated as the maximum result.
+
+This effect lasts for 1 minute or until you or your target is reduced below 0 hit points. You may use this ability once per day plus one additional time per day for each mythic tier you gain beyond 6th.
+[[/tab]]
+[[include the-eminent]]
+[[tab Mythic Sphere Talents]]
++ Mythic Sphere Talents
+
+Mythic sphere talents are 1st-tier universal path abilities except when noted otherwise. You must possess the base sphere for any mythic sphere mastery you choose.
+
+Some mythic sphere talents change the talents you know. When this occurs, you may continue concentrating on abilities or spend a spell point to keep them going if you could normally do so, even if you lose access to the talent before doing either of these things. Existing sphere effects gained through a mythic sphere talent persist for their normal duration regardless of whether or not you currently have access to the talent.
+
++++ Mythic Miracle (requires tier 9)
+Twice per day as a standard action, you may spend 1 mythic power and five spell points to cast miracle as a sphere-like ability. Treat the mythic miracle as a talent from the Fate sphere, though you do not need to know the Fate sphere to use it. (A sphere-like ability is not affected by general or sphere-specific drawbacks and never requires expensive material components.)
+
++++ Mythic Spellcrafting
+You gain one spellcrafted spell at each odd mythic tier. These spells do not count against the normal limit of spellcrafted spells you may know. When casting a spell gained through this ability, you may expend one point of mythic power to cast it as if its complexity were two lower (to a minimum of 1 complexity). You may create original spells to gain with this ability, but the GM is the final arbiter of which spells are acceptable.
+
++++ Mythic Spherecaster
+Your sphere talents are much harder to dispel or counterspell. Add your tier to the DC of all counterspell or dispel attempts non-mythic creatures make against your magic, and add half your tier (rounded down, minimum 1) to the DC of all counterspell or dispel attempts mythic creatures make against your magic, and add your tier to your MSD for the purpose of suppression effects such as Spell Ward (ward, aegis).
+
++++ Mythic Sphere Knowledge
+As a free action, you may spend 1 mythic power to acquire any base sphere (or any talent from a sphere you already know) for one minute. If a talent gained with this ability normally allows you to expend martial focus or a spell point to make its effect persist, you may do so even if you lose access to this talent before spending the resource. You may not have more than one active effect lasting 1 hour or more created through this ability at any given time.
+
+^^**Note:** While a character can use this ability more than once per turn, the GM decides how many free actions it is reasonable for a character to take each turn. If you aren't sure how many is appropriate, a character should not be able to take more than five free actions each turn. This ability still does not allow gaining any advanced talents without GM permission, and the GM may limit this ability to once per round.^^
+
++++ Mythic Sphere Mastery: Alchemy
+You gain one Alchemy talent you do not already have. Choose one of the following:
+* You may have one permanent formulae at a time per tier, chosen when you craft it. Permanent formulae do not count against your normal limit of formulae crafted and do not expire, though they are still consumed on use. As a swift action, you may expend one mythic power and attempt a Craft (alchemy) check to transform an existing formulae you possess into any other formulae you are capable of crafting. The power of the new formulae is determined by your skill check.
+* When creating a poison from the Alchemy sphere, you may expend one use of mythic power to have the poison work in two forms. For example, you may poison a weapon and also throw the poison to create an inhaled cloud as part of the same action. You may also expend one use of mythic power to create a poison from the Alchemy sphere that contains two toxins, rather than just one. (The base poison is considered a toxin.) Creatures attempt separate saving throws against each of these toxins.
+
+You may select this mythic sphere mastery a second time. When you do, you gain the ability you did not acquire before.
+
++++ Mythic Sphere Mastery: Alteration
+You may transform into a different form as if you possessed the Transformation, Hybrid Transformation, and Improved Transformation feats, except that the form you choose may be one that normally costs one or more spell points. You do not need to pay spell points to transform into the form provided by this ability. You may take this ability even if you already have any of the feats listed above—this transformation is separate from the one normally granted by those feats.
+
++++ Mythic Sphere Mastery: Artifice
+You gain one Artifice talent you do not already have. You may replace a flourish or function on an item as a standard action or as a free action which can be taken outside your turn by spending a use of mythic power. In addition, when you successfully create a trinket, you may spend a point of mythic power to increase its duration to 24 hours + 1 hour per point you exceed the DC (maximum 30 days).
+
++++ Mythic Sphere Mastery: Athletics
+You gain one Athletics talent you do not already have. You gain the following effects if you have their associated Athletics package:
+* **Climb:** You may climb at your full movement speed without taking a penalty and gain a bonus equal to your tier on all Climb checks. By expending one use of mythic power, you can climb any solid or liquid surface for one minute per tier.
+* **Fly:** You do not need to attempt Fly checks to remain flying, regardless of the distance you move, and you gain a bonus to all Fly checks equal to your tier. When flying, you may multiply your carrying capacity by 4, though you cannot carry any one thing heavier than your regular carrying capacity.
+* **Leap:** You may expend one use of mythic power to take no damage from a fall, no matter the distance, and gain a bonus equal to your tier on all skill checks to jump. If using an ability that would have benefited from you taking fall damage, you may use that ability as if you had taken damage from your fall.
+* **Run:** You may expend one use of mythic power to move twice as fast as normal for one minute per tier while running. This applies after all other modifiers to your speed.
+* **Swim:** You are unaffected by currents and environmental threats in aquatic environments, and may pass through them as if they were not present.
+
++++ Mythic Sphere Mastery: Barrage
+You gain one (blitz) talent you do not already have and, as a free action, can expend one mythic power to transform any ammunition you are holding into a different type of ammunition (as long as the new ammunition is not more expensive than the old ammunition or composed of a different special material). For example, you could transform a slow burn arrow^^EoG^^ into a splintering arrow^^EoG^^. This transformation reverts back in one round. If you have the Sniper sphere, you may expend one mythic power when making a barrage to apply a (snipe) talent you know to the first attack in your barrage.
+
++++ Mythic Sphere Mastery: Barroom
+You gain one Barroom talent you do not already have. As a swift action, you may expend one mythic power to grant any improvised weapon you use a +1 enhancement bonus per odd tier you possess, and you may exchange these bonuses for weapon special abilities (to a maximum of +5 enhancement bonus and +10 overall on the item). This effect applies to all improvised weapons you handle for one minute per tier, but only when you are the one using the weapon. Also, add your tier to your Constitution modifier for determining how long your drunk status lasts, and add twice your tier to the number of alcoholic beverages you can drink without being sickened.
+
++++ Mythic Sphere Mastery: Bear
+When you activate your bear spirit, you may spend one mythic power to gain the effects of any three bearacteristics you do not already possess until the end of the bear spirit channeling.
+
++++ Mythic Sphere Mastery: Beastmastery
+You gain one Beastmastery talent you do not already have. Additionally, choose one of the following:
+* You may expend one mythic power to attempt to tame an animal in one minute.
+* You may use Defensive Rider against effects that require a Fortitude save or a Will save from your mount.
+
+You may gain this mythic sphere mastery more than once. When you do, you gain the ability you did not gain before.
+
++++ Mythic Sphere Mastery: Berserker
+You gain one Berserker talent you do not already have. When berserking, you may increase the penalty to your AC by -4 in order to gain additional temporary hit points equal to your base attack bonus (to a maximum of twice your tier from this ability). Add your tier to your base attack bonus when determining the amount of additional damage you can cause with your brutal strike. If you are using (adrenaline) talents, you may instead reduce your AC by increments of 2 (even if you would not normally reduce your AC) to gain a +1 bonus (maximum +5) to any bonuses that (adrenaline) talent gives you.
+
++++ Mythic Sphere Mastery: Blood
+When you establish blood control on a creature, you may spend one mythic power to form an additional magical connection to that creature. This connection lasts until you no longer have blood control over that creature. While this magical connection persists, you may target that creature with any talent you know that targets a single creature when used, regardless of the normal range of that ability.
+
++++ Mythic Sphere Mastery: Bluster
+You gain the Prolific Bluster talent and do not need to outwit each target in order to affect multiple targets with your quips. When you use Prolific Bluster, you may spend one mythic power to apply any one quip you know to each target instead of applying the same quip to all of them.
+
++++ Mythic Sphere Mastery: Body Control
+You gain one Body Control talent you do not already have. Whenever your meditation approach ends, you may begin a new meditation as an immediate action or as a free action that can be taken outside your turn by spending a point of mythic power. In addition, you may apply an additional (clarity) talent when your meditation ends.
+
++++ Mythic Sphere Mastery: Boxing
+You gain one (counter) talent you do not already have. You may expend one mythic power to make a counter punch against a foe performing an action that could trigger a counter punch from you, even if you have not readied a counter punch; you cannot make more than one counter punch against any triggering action (even if it has multiple triggers in it). When you do, you may apply an additional (counter) talent you know to that counter punch.
+
+**Author's Note:** At the GM's discretion, this ability may be limited to once per creature per round.
+
++++ Mythic Sphere Mastery: Brute
+You gain one (manhandle) talent you do not already have. Add your tier to your Strength modifier when determining the damage of your shove. You may expend one mythic power to apply the effects of an additional (manhandle) talent to a successful combat maneuver that allows (manhandle) talents.
+
++++ Mythic Sphere Mastery: Communication
+You gain one Communication talent you do not already have. You may apply different (rapport) talents to each creature in your rapport. By spending a point of mythic power, you may form a rapport with any number of creatures within range as a free action.
+
++++ Mythic Sphere Mastery: Conjuration
+Choose one Conjuration companion. As a free action, you may expend two mythic power to give a single chosen companion one of the following mythic simple templates for 1 minute: arcane, divine, invincible, or savage. You may select this mythic sphere mastery more than once. Each time you do, you may apply its effects to a different conjuration companion. You must spend this mythic power for each companion you wish to empower with a template, though you can empower multiple companions at the same time. You must always apply the same template, with the same choices if any need to be made, to any given companion. (You may update these templates when you levelup or increase in tier, to match your current power level, but the choices should otherwise be the same.)
+
+**Note:** Applying a mythic simple template to a creature grants 1 mythic power per mythic rank gained.
+
++++ Mythic Sphere Mastery: Creation
+You gain the Potent Alteration talent. Any object you create gains additional hardness equal to your mythic tier and twice as many hit points as usual. Finally, choose one material you can create. When you create an item (or items) exclusively with that material, you may create the equivalent of up to one additional Small object per caster level. This stacks with talents like Larger Creation.
+
+You may select this mythic sphere talent more than once. Each time you do, select two different materials to create more of that you have not already selected for this mythic sphere mastery. If you can create items using more than one material, you may use any materials you have expanded access to through this talent when creating complex objects without sacrificing your ability to create more material than usual.
+
++++ Mythic Sphere Mastery: Dark
+As a swift action, you may spend one mythic power to transform any source of light within the range of your darkness (usually medium range) into a source of your darkness with the opposite strength. Sources of normal light become dim light and sources of bright light become absolute darkness. The range of this darkness equals the range of the original light source or your maximum darkness size, whichever is smaller. You may apply any talent you could normally use on your darkness to the effect created with this path ability. Once this darkness has been established, it persists for one minute per caster level, though you may end it early as a free action. The darkness created this way does not rely on the light source once established, and dousing the light source (such as by putting out a torch or campfire) has no effect on this darkness.
+
+This ability always works against light from non-mythic sources and mythic targets with fewer mythic tiers than you, but you must succeed on a magic skill check to convert any light from a mythic source with equal to or more mythic tiers than you into darkness.
+
++++ Mythic Sphere Mastery: Death
+When you make a ghost strike, you may spend 1 mythic power to target one additional creature in range for every two mythic ranks you have (rounded down, minimum 1). You may target each creature with a different ghost strike you know, but you must pay the highest spell point cost among each of the ghost strikes you use. As a free action, you may expend two mythic power to give a single undead you reanimated (with the Death sphere) that is within close range one of the following mythic simple templates for 1 minute: arcane, divine, invincible, or savage. You must always apply the same template, with the same choices if any need to be made, to any given type of undead. (You may update these templates when you levelup or increase in tier, to match your current power level, but the choices should otherwise be the same.)
+
+**Note:** Applying a mythic simple template to a creature grants 1 mythic power per mythic rank gained. This ability cannot grant spellcasting abilities more powerful than your equivalent spell level or regular caster level.
+
++++ Mythic Sphere Mastery: Destruction
+As a free action, you may spend one mythic power and select a (blast type) talent you know that is part of a blast type group. For the next 24 hours, you have access to all talents from the blast type group the talent you selected belongs to. In addition to this effect, you also permanently gain two (blast shape) talents and can use those (blast shape) talents without paying their spell point cost three times per day. You may instead choose to designate one or two (blast shape) talents you already know for this reduced cost effect, replacing the reduction for one or both of the new blast shapes, respectively.
+
++++ Mythic Sphere Mastery: Divination
+Select three basic divinations (either the basic divine or any alternate divinations associated with a sphere). You may use any of these as a swift action. You do not need to know or possess the base spheres for the alternate divinations, nor pay any spell point costs to use them.
+
+You may select this mythic sphere talent more than once. Each time you do, you may select three more divinations to use as a swift action.
+
++++ Mythic Sphere Mastery: Dual Wielding
+You gain one Dual Wielding talent you do not already have. When you make a dual attack, you may choose whether to use the magical enhancements and effects of your main hand or your off-hand weapon for each attack, regardless of which weapon is actually making the attacks.
+
++++ Mythic Sphere Mastery: Duelist
+You gain one Duelist talent you do not already have. If you miss an attack you could apply your blooded strike to by a number equal to or lower than your mythic tier, you may apply the effects of your blooded strike to that creature. The target must be one that you are capable of hitting (for example, most characters cannot hit a target on the other side of a planet). You may also expend one mythic power to apply the effects of an additional (bleed) or (disarm) talent to an action that normally permits you to use talents of those types.
+
++++ Mythic Sphere Mastery: Enhancement
+You gain the Mass Enhancement talent. When you use Mass Enhancement, you may spend one mythic power to apply any one (enhance) talent you know to each target instead of applying the same enhancement to all of them, but you must pay the highest spell point cost among the enhancements you use.
+
++++ Mythic Sphere Mastery: Equipment
+You gain two Equipment talents you do not already have. Once per day, as a full-round action, you may spend one mythic power to lose one (discipline) talent you know and replace it with another (discipline) talent.
+
++++ Mythic Sphere Mastery: Faction
+You gain one Faction talent you do not already have. Choose one of the following
+* Add your mythic tier to your ranks in an associated skill for the purpose of determining your permanent and temporary resource budget. The maximum price of any item you requisition cannot exceed your normal permanent or temporary resource budget.
+* Any of your retainers gains an additional talent or sphere of your choice that they meet the prerequisites for, plus an additional talent or sphere for every 3 mythic tiers you possess.
+In addition, you may spend a point of mythic power to gain 3 authorizations.
+
+You may select this mythic sphere mastery a second time. When you do, you gain the ability you did not acquire before.
+
++++ Mythic Sphere Mastery: Fallen Fey
+You may gain a second fey-blessing each time you spend a spell point to gain the benefits of a fey-blessing. You do not need to spend an additional spell point to benefit from the second fey-blessing.
+
+Also, as a free action you may perform when your fey-link is active, you may spend one mythic power to immediately gain the effects of any two fey-blessings, including fey-blessings you do not know.
+
++++ Mythic Sphere Mastery: Fate
+Choose one of the following:
+* You gain the Echoing Word talent. When you use Echoing Word, you may spend one mythic power to apply any one word you know to each target instead of applying the same word to all of them, but you must pay the highest spell point cost among the words you use. Also, any creature affected by one of your (motif) may reduce its remaining duration by half to gain the benefit of discharging it without actually losing the motif effect. A creature may only do this once each time they are affected by that motif.
+* Select a (consecration) talent you know. This consecration no longer requires concentration to maintain and you may activate or deactivate it as a free action. Any mythic creature that makes a successful save against your consecration is immune to its effects for 24 hours; any non-mythic creature that makes a successful save against it is only immune to its effects for 1 minute.
+
+You may select this mythic sphere talent multiple times. Each time you do, you either gain the first ability (if you do not already have it) or you may select a different (consecration) talent you know if you already selected the second choice.
+
++++ Mythic Sphere Mastery: Fencing
+You gain one Fencing talent you do not already have. Add your tier to your base attack bonus when determining the additional damage of your fatal thrust. Also, you may expend one use of mythic power as a free action to gain the ability to apply your fatal thrust to one appropriate attack you make per round, even if you do not meet the normal requirements for making a fatal thrust. When you do this, you may apply the effects of an additional (exploit) talent you know. This effect lasts for 1 round per tier.
+
++++ Mythic Sphere Mastery: Gladiator
+You gain one Gladiator talent you do not already have. When you make a boast, you may expend one mythic power to apply the effects of an additional (boast) talent. When you attempt to demoralize one or more creatures, you may expend one use of mythic power to roll twice and take the better result, then add your tier to the result you took.
+
++++ Mythic Sphere Mastery: Guardian
+You gain one Guardian talent you do not already have. In addition, choose one of the following:
+* You take one less point of damage per tier from each attack made by a creature you are currently challenging.
+* You may expend one mythic power as a swift action to gain an enhanced patrol for 1 minute per tier; this effect is only active while you are making a patrol. During an enhanced patrol, you may make an additional move action. (This can never be used to make an attack.)
+
+You may gain this mythic sphere mastery more than once. When you do, you gain the ability you did not gain before.
+
++++ Mythic Sphere Mastery: Herbalism
+You gain one Herbalism talent you do not already have. Choose one of the following:
+* You may have one permanent concoction at a time per tier, chosen when you craft it. Permanent concoctions do not count against your normal limit of concoctions crafted and do not expire, though they are still consumed on use. As a swift action, you may expend one mythic power to transform an existing concoction you possess into any other concoction you are capable of crafting. 
+* Whenever you use the Heal skill on a creature, that creature gains temporary hit points equal to your ranks in your associated skill x your mythic tier that last for 24 hours. You may spend a point of mythic power to reset the number of times you have used treat deadly wounds on a creature in the last 24 hours to 0.
+
+You may select this mythic sphere mastery a second time. When you do, you gain the ability you did not acquire before.
+
++++ Mythic Sphere Mastery: Illusion
+As a swift action, you may change which (sensory) talents you have that apply to your illusions. For example, you can make an illusion feel solid one round, then not solid the next. In addition, when a creature makes a save against your illusions, you may spend one mythic power to force them to roll twice and take the lower result.
+
++++ Mythic Sphere Mastery: Infiltration
+You gain one (sabotage) talent that you do not already have. The first time each of your (sabotage) talents affects a creature in a round, it deals damage to that creature equal to your mythic tier. If you spend one mythic power when you apply a (sabotage) talent, a creature must still attempt a Perception check to notice the sabotage even after it has been triggered.
+
++++ Mythic Sphere Mastery: Investigation
+You gain one (apply) talent you do not already have. Add your mythic tier to all skill checks made to analyze a target. Whenever you analyze a creature, you may spend a point of mythic power to treat it as if you made a detailed analysis of the target instead. Whenever you successfully analyze a target, you may spend one mythic power to apply a second (apply) talent to the target. You may apply the same (apply) talent twice, in which case you may expend it a second time.
+
++++ Mythic Sphere Mastery: Lancer
+You gain one Lancer talent you do not already have. When you impale a creature, you may attempt to move it to any square within your reach; treat this as a reposition combat maneuver that does not provoke an attack of opportunity for any creature involved, and add your tier to your CMB for the check.
+
++++ Mythic Sphere Mastery: Leadership
+You gain one Leadership talent you do not already have. Once a day, as a full-round action, you may expend one mythic power to retrain one group of your followers. Essentially, you lose one (followers) talent and gain another to replace it, but the personnel themselves do not change; only their skills and abilities do. Add your tier to your checks when attempting to recruit a cohort.
+
++++ Mythic Sphere Mastery: Life
+You gain the Latent Healing talent. When you use Latent Healing, you may delay it indefinitely. When your Latent Healing is activated, the subject of the effect can choose which of your Life sphere talents affect it (the effect or combination of effects must be something you can normally cast). Also, when you restore a target, you may spend one mythic power and make a magic skill check (adding your mythic tier to the result) against DC 20. If successful, you may remove any one condition, effect, or penalty you know they’re affected by that could be removed by a basic or advanced life talent (except the dead condition).
+
++++ Mythic Sphere Mastery: Light
+As a swift action, you may spend one mythic power to transform any dimness or darkness (magical or mundane) within the range of your glow (usually medium range) into a source of your light with the opposite strength. Dim light becomes normal light and sources of absolute darkness become bright light.
+
+The range of this light equals the range of the original darkness source or your maximum Bright Light size, whichever is smaller. You may apply any Light talent you could normally use on your Bright Light to the effect created with this path ability. Once this light has been established, it persists for one minute per caster level, though you may end it early as a free action. The light created this way does not rely on a source of darkness once established, and eliminating the source of darkness (such as by canceling a darkness effect) has no effect on this light.
+
+This ability always works against dimness or darkness from non-mythic sources and mythic targets with fewer mythic tiers than you, but you must succeed on a magic skill check to convert any darkness from a mythic source with equal to or more mythic tiers than you into light.
+
++++ Mythic Sphere Mastery: Mana
+Add half your tier (rounded down, minimum 1) to your caster level when determining the burn size of your Spellburn ability. Your Spellburn is no longer capped at caster level 25; instead, it increases by one category for every four caster levels above 25th (to 4d4 at caster level 29, then 4d6, then 5d4, and so on). You may expend one use of mythic power to cast a manipulation as an immediate action; if you do so, the effect only lasts for one round (ending on the same initiative count as it started). When you create a manabond, you may expend one use of mythic power to activate a second manabond talent on the same target(s). You may concentrate on both effects with the same action.
+
++++ Mythic Sphere Mastery: Mind
+You gain the Mass Charm talent. When you use Mass Charm, you may spend one mythic power to apply any one charm you know to each target instead of applying the same charm to all of them, but you must pay the highest spell point cost among the charms you use. You only need to spend spell points once if you use any greater charms or powerful charms (rather than for every usage). For example, if you affect two different targets with different powerful charms and three other targets with lesser charms, you would only need to pay two spell points for the powerful charms instead of four.
+
++++ Mythic Sphere Mastery: Nature
+Choose one of the following:
+* As a swift action, you may spend one mythic power to swap one Nature package you know for one you do not already know. This exchange lasts for 1 minute per mythic tier. When you do this, you may also swap any talents you have that require that Nature package as a prerequisite.
+* As a swift action, you may spend one mythic power to gain access to all talent options that have a Nature package you possess as a prerequisite (including spirit talents). You retain access to these talents for 1 minute per mythic tier. (This means you do not get access to the options for other Nature sphere packages within that talent.)
+
+You may select this mythic sphere talent more than once. The second time you gain it, you acquire the ability you did not gain the first time.
+
++++ Mythic Sphere Mastery: Navigation
+You gain one Navigation talent that you do not already have. Choose one of the following
+* As an immediate action, you may spend one mythic power to replace an acclimation on any number of valid target with another acclimation you could apply. You may use this ability before resolving the previously announced action— for example, if a dragon breathes fire at you, you can use this ability to activate an appropriate defense.
+* When you apply a (pathing) talent to an area, you may spend a mythic power to apply an additional (pathing) talent to the area. You may replace a (pathing) you have applied to an area with a different (pathing) as a swift action.
+
+You may select this mythic sphere mastery a second time. When you do, you gain the ability you did not acquire before.
+
++++ Mythic Sphere Mastery: Open Hand
+You gain one Open Hand talent you do not already have. Once per round, when you successfully attack a foe or make a successful combat maneuver against them, you may make a sweep against another target in your melee range as a free action.
+
++++ Mythic Sphere Mastery: Performance
+You gain one Performance talent that you do not already have. Choose one of the following
+* Whenever you perform a scene or lyric as a move, standard, or full-round action, you may perform a second scene, lyric, or finale that requires the same action or less as part of the same action. You may use this ability to perform the final required scene and the finale as part of the same action. Once per turn, you may spend a mythic power to perform a single scene, lyric, or finale as a free action rather than its normal action. 
+* Whenever you begin a dance or an instrumental, you may spend a mythic power to have creatures in the area be affected by any one dance or instrumental you could create rather than just the one you are performing. Each creature may be affected by a different dance or instrumental that you are capable of performing.
+
+You may select this mythic sphere mastery a second time. When you do, you gain the ability you did not acquire before.
+
++++ Mythic Sphere Mastery: Protection
+Choose one of the following:
+* As an immediate action, you may spend one mythic power to cast any ward or aegis you know on a valid target. You may apply any other talents you could normally use when casting that ward or aegis—for example, if you have the Mass Aegis talent, you can use that to protect multiple targets. You may use this ability before resolving the previously announced action— for example, if a dragon breathes fire at you, you can use this ability to activate an appropriate defense.
+* If a non-ally creature would be stopped from performing an action by one of your wards (such as being unable to enter due to Impedance or being unable to teleport due to Quantum Lock), you may allow them to perform the action. If you do, you may spend a point of mythic power as an immediate action to make any decisions regarding the action taken (for example, you could choose where the creature would teleport using the teleportation ability obstructed by Quantum Lock, choose what creatures are targeted by a spell stopped by Spell Ward, or choose how the creature moves if it would be stopped by Impedance).
+* Any targets affected by your aegis have a 50% chance to treat any critical hit or sneak attack against them as a normal hit, as if the target were wearing medium fortification armor. You may spend a point of mythic power when casting an aegis on them to improve this to a 100% chance for 10 minutes per tier.
+
+You may select this mythic sphere mastery more than once. Each time you do, select an option you did not choose before.
+
++++ Mythic Sphere Mastery: Scoundrel
+You gain one Scoundrel talent you do not already have. Add your tier to your rolls when using the benefits of your swift hands ability, and add your tier to your ranks in Sleight of Hand for determining the effects of marked target. Whenever you apply a (trick) talent, you may expend one use of mythic power to apply one additional (trick) talent you know.
+
++++ Mythic Sphere Mastery: Scout
+You gain one Scout talent you do not already have, and once a day per tier, you may choose to automatically succeed when scouting a foe. The effects of your scout last for an additional day per tier.
+
++++ Mythic Sphere Mastery: Shield
+You gain one Shield talent you do not already have and may use your active defense anytime, even in situations where you would normally be unable to take actions. You may expend one use of mythic power to use your active defense without spending an action (including attacks of opportunity). When you use a (deflect) talent, you may expend one use of mythic power to apply the effects of one additional (deflect) talent you know.
+
++++ Mythic Sphere Mastery: Sniper
+You gain one (snipe) talent you do not already have and may apply an additional (snipe) talent you know to your deadly shot. If you have the Barrage sphere, you may expend one mythic power when making a deadly shot to apply a (blitz) talent you know to your deadly shot; treat this as if making two shots or striking a foe twice with a barrage. For example, you only need to strike a target once with Hammering Shots to penalize their initiative.
+
++++ Mythic Sphere Mastery: Spellhacking
+You gain one Spellhacking talent that you do not already have. You may spend a mythic power as an immediate action to change a (hack) you have applied to a different (hack) you could apply. Whenever you create a (mishap) or apply a (hack), you may spend a mythic power to create a second (mishap) or apply a second (hack) as part of the same action. You may create the same mishap twice but not the same hack.
+
++++ Mythic Sphere Mastery: Study
+You gain one Study talent that you do not already have. When you begin a theory, you start with a number of additional notions equal to half your mythic tier (minimum 1). By spending a mythic power as a free action, you may regain any notions that you spend on breakthroughs since the end of your last turn.
+
++++ Mythic Sphere Mastery: Subterfuge
+You gain one Subterfuge talent that you do not already have. Whenever a creature attempts an opposed Perception check against your Disguise or Sleight of Hand check, they roll twice and take the lower result (or take a -4 penalty if using a static Perception number). When you create a disguise, you may spend a point of mythic power to apply an additional (disguise) talent to the disguise.
+
++++ Mythic Sphere Mastery: Survivalism
+You gain one Survivalism talent that you do not already have. Choose one of the following
+* The first time you harvest a specific mythic creature, you regain a use of mythic power. By spending a use of mythic power as a swift action, you may add an additional talisman effect you could create to a talisman you’ve created for 1 minute per mythic tier you possess (a talisman can only have one additional effect from this ability at a time).
+* When you dredge an area, you may expend one use of mythic power to apply one additional (ground) talent you know to that area.
+
+You may select this mythic sphere mastery a second time. When you do, you gain the ability you did not acquire before.
+
++++ Mythic Sphere Mastery: Technomancy [LG]
+^^**Source:** Arcforge Players Compendium^^
+You gain Sprite Legion as a bonus talent. Whenever you create one or more sprites, you may spend a point of mythic power to enhance these sprites, allowing each of them to execute two programs each round rather than just one.
+
++++ Mythic Sphere Mastery: Telekinesis
+When you use Sustained Force, you may spend one mythic power to have the effect persist for 1 hour per mythic tier. If you have a caster level of at least 24 in the Telekinesis sphere, you may instead maintain the lifting of a single object without concentration until you choose to stop lifting it. You may only sustain one object in this way at a time.
+
+Additionally, you may treat an object as if it were one size category larger when using it to Bludgeon a target. (This stacks with all other size increases.)
+
++++ Mythic Sphere Mastery: Time
+As an immediate action, you may spend one mythic power to cast any (time) effect you know. You may apply any other talents you could normally use when using that talent. You may use this ability before resolving the previously announced action—for example, if an enemy attacks you, you could use this to activate the After Image talent to gain concealment against them.
+
+In addition, you may spend a point of mythic power when using alter time. If you do, targets affected by your Slow ability are denied their Dexterity bonus to AC for as long as they are Slowed and targets affected by your Haste ability gain an additional move action each round.
+
++++ Mythic Sphere Mastery: Tinker
+You gain one Tinker talent you do not already have. Add your mythic tier to the hit points, hardness, and saving throw bonuses of your gizmos and mechanoids. By spending a mythic power as a free action, you may generate a pool of mythfuel equal to your mythic tier which lasts for 1 minute. Whenever you would deplete a battery with a gizmo, you may choose to instead spend a point of mythfuel (a gizmo does not need a battery installed to have its ability powered by mythfuel). 
+
++++ Mythic Sphere Mastery: Trap
+You gain one Trap talent you do not already have. When you create a trap, you may expend one use of mythic power to apply one additional (dart) or (snare) talent you know to that trap, as long as the talent is appropriate for the type of trap you are making.
+
++++ Mythic Sphere Mastery: Vocation
+You gain two Vocation talents you do not already have. Once per day, as a full-round action, you may spend one mythic power to lose one (trade) talent you know and replace it with another (trade) talent.
+
++++ Mythic Sphere Mastery: War
+Choose one of the following:
+* When activating a totem, you may spend one mythic power to activate a second totem as part of the same action. You may concentrate on either or both of these totems with the same action, and may spend a spell point to allow either or both of them to persist without concentration. All totems activated together in this way have twice the usual range. When activating a mandate, you may spend a mythic power to make it last for 24 hours.
+* You may designate one ally per tier as a trusted ally and your momentum pool lasts indefinitely. Trusted allies can spend points from your momentum pool as long as they are on the same plane as you, regardless of range. Add your tier to the size of your momentum pool.
+
+You may select this mythic sphere talent more than once. The second time you gain it, you acquire the ability you did not gain the first time.
+
++++ Mythic Sphere Mastery: Warleader
+You gain one Warleader talent you do not already have. You may expend one use of mythic power to activate an additional tactic or shout at the same time you activate one normally; the tactic or shout must have an action requirement equal to or slower than your first one, but you can use either type of effect when activating them in this way.
+
++++ Mythic Sphere Mastery: Warp
+You can expend one use of mythic power when casting any sphere effect from the Warp sphere to visualize your destination before you or your warped targets fully materialize there, gaining sensory information of the area as though using the Viewing talent of the Divination sphere. After gaining this sensory information, you can choose to alter your teleportation destination by up to 100 feet in any direction. The new destination must be a legal location for the effect.
+
++++ Mythic Sphere Mastery: Weather
+Choose one of the following:
+* When you use control weather, you may spend a mythic power to adjust the severity of the weather you’re controlling by two levels per round instead of one. When you use your mantle on someone, you may spend a mythic power to make that mantle permanent, though you may choose to end the effect at any time. You may only have one permanent mantle at a time.
+* You gain the Encompassing Weather talent. When you use Encompassing Weather, you may spend one mythic power to apply any one shroud you know to each target instead of applying the same shroud to all of them.
+
+You may select this mythic sphere talent more than once. The second time you gain it, you acquire the ability you did not gain the first time.
+
++++ Mythic Sphere Mastery: Wrestling
+You gain one Wrestling talent you do not already have. Whenever you use a (slam) talent, you may expend one use of mythic power to apply an additional (slam) talent.
+
++++ Mythic Talent
+You may select one talent you know, or one group of talents that work together that you know, and designate it as a mythic talent. You may cast your mythic talent three times per day without expending any spell points, regardless of its normal spell point cost. Casting times for mythic talents remain the same (normally a standard action). You may apply any metamagic feat(s) you know to your mythic talent without spending spell points or increasing its casting time as long as their total spell point cost or level increase is not greater than half your mythic tier (rounded down, minimum 1). If a mythic sphere mastery would apply to your mythic talent, you also gain that benefit, even if you do not have the appropriate mythic sphere mastery. At 3rd and 6th tiers, you gain an additional mythic talent. You may change your mythic talent(s) each time you gain a mythic tier.
+
+For example, you can choose one (blast type), one (blast shape), and spending a spell point to increase the damage of your destructive blast, collectively designating all of them as your mythic talent. However, you cannot apply two (blast shape) talents or add the Curse talent of the Fate sphere to your destructive blast unless you could normally do that.
+
+You cannot select spellcrafted powers for this ability.
+
++++ Persistent Power
+You may designate one talent (or combination of talents that work together) you know that you can cast on yourself and that has a duration of hours per caster level when cast (without being affected by other abilities, such as metamagic) as a persistent power. This choice cannot be changed once it is made, but as long as you know that talent, you may cast it on yourself (or deactivate its effects on you) as a free action. You do not need to spend spell points to activate a persistent power. At 3rd and 6th tiers, you may designate an additional talent as a persistent power.
+
+**Author's Note:** For clarification, you may only use a persistent power on yourself. You cannot give other creatures the same effect for free. Also, all effects must have a duration of at least hours per caster level. Talents which have shorter effects as part of a persistent power (such as many effects of the Life sphere) cannot be combined with a persistent power.
+
+Additionally, there are some options which could become significantly overpowered or unfair if used normally as a persistent power, such as the Protection sphere's Peacebound (aegis, ward) talent. Such abilities should be evaluated on a case-by-case basis to determine whether or not they are appropriate, with the GM having the final say on any changes. For example, a GM might decide that a creature who makes a Will save against a persistent Peacebound (aegis), or who is attacked by a creature carrying that power, becomes immune to the effects of that aegis for 1 hour (so that a creature cannot simply attack, then freely reactivate their aegis and constantly force Will saves from their opponents). **This is the intended method of controlling potentially problematic choices**, and GMs **should** adjust abilities as necessary if they seem too strong instead of permitting things exactly as written. (This is mainly the case because spheres function in different ways, and it is impossible to predict every future possibility or corner-case balancing issue.)
+[[/tab]]
+[[tab Utility Mythic Path Abilities]]
+Not all mythic abilities are geared towards the development of a character’s combat abilities, leaving them to be cast by the wayside as players are drawn to more powerful and mechanically expressive mythic options. To facilitate a space for mythic options that don’t have specific combat utility, a number of special slots may be given to a mythic character explicitly for utility mythic abilities.
+
+At 2nd tier and every even tier thereafter, a mythic character gains a utility mythic path ability of their choice.
+
+it is advised that the following existing mythic path and mythic class abilities be given the [utility] tag.
+
+For paths and classes in this wiki, Utility Mythic Path abilities are marked with a [Utility] tag
+
+++++ Universal
+Commune with Power
+Longevity
+Mythic Craft
+Tongues
+Interplanar Prestige
+
+++++ Universal (Legendary)
+Dramatic Reveal
+Planar Scholar
+Bon Vivant
+Planar Savant
+
+++++ Archmage (Paizo)
+Crafting Mastery
+Deep Understanding
+Flash of Omniscience
+Perfect Preparation
+Reverse Scrying
+Sanctum
+Dominion Over Outsiders
+
+++++ Archmage (Legendary)
+Arcane Naturalist
+
+++++ Champion (Paizo)
+Mule’s Strength
+Seven-League Leap
+
+++++ Guardian (Paizo)
+Mule’s Strength
+Supreme Tracker
+Knowledgeable Guardian?
+Stasis
+
+++++ Hierophant (Paizo)
+Animal Friend
+Sustained by Faith
+Tongue of the Land
+Insightful Interaction
+Impeccable Intuition
+Endless Bounty
+Divine Countenance
+
+++++ Marshal (Paizo)
+Assured Skill
+Commanding Entrance
+Don’t Cross Me
+Helpful Rebuke
+Persuasive Countenance
+Potent Message
+Unwavering Skill
+Demagogue
+Inspire Martyrdom
+Stones Will Weep
+Fast Friends
+
+++++ Trickster (Paizo)
+Perfect Lie
+Perfect Mimic
+Trap Taker
+Thwart Detection
+This Might Just Work
+Redirect Attention
+Persuasive Countenance
+No One of Consequence
+Master Dilettante
+Improbable Prestidigitation
+Faster than the Eye
+Crime Spree
+Assured Skill
+Astounding Disable
+
+++++ Trickster (Legendary)
+Insider Trading
+Masterful Skill Focus
+
+++++ Bound (Legendary)
+Contract
+Secrets of the Multiverse
+Sinister Seduction
+Mythic Bargainer
+Unfathomable Knowledge
+
+++++ Genius (Legendary)
+Assured Skill
+Crafting Mastery
+Eidetic Research
+Engineer
+Insightful Calculus
+Manufactory
+Master Dilettante
+Sage Scholar
+Shortwave Implant
+Stealth Drone
+Trap Taker
+Unwavering Skill
+Critical Skill
+Elementary Deduction
+
+++++ Mystic (Legendary)
+Flash of Omniscience
+Haunt Breaker
+No One of Consequence
+Persuasive Countenance
+Ritualist
+Don’t Cross Me
+Esoteric Order
+Reverse Scrying
+Sanctum
+Unfathomable Knowledge
+
+++++ Reluctant Hero (Legendary)
+Helpful Rebuke
+No One of Consequence
+The Road Goes Ever On
+Tongue of the Land
+This Might Just Work
+Tricks of the Trade
+Unwavering Skill
+Critical Skill
+Lucky Guess
+
+++++ Stranger (Legendary)
+No One of Consequence
+Supreme Tracker
+Memento
+Watching the Watchmen
+
+++++ Path of the Villain (Legendary)
+Ritual Return
+Subtle Chains of Bondage
+Unspeakable Name
+
+++++ Class-based Utility Mythic Path Abilities (Legendary)
+**Antipaladin:** Mythic Detect Good
+**Arcanist:** Mythic Skill Points, Mythic Skills, Mythic Exploits (Mythic Counterspell, Mythic Item Crafting)
+**Barbarian:** Mythic Trap Sense
+**Barbarian (Unchained):** Mythic Danger Sense
+**Bard:** Mythic Bardic Knowledge, Mythic Versatile Performance, Mythic Lore Master, Mythic Jack of All Trades
+**Cleric:** Mythic Bonus Languages
+**Druid:** Mythic Bonus Languages, Mythic Wild Empathy, Mythic Trackless Step, Mythic A Thousand Faces, Mythic Timeless Body
+**Gunslinger:** Mythic Utility Shot
+**Hunter:** Mythic Track, Mythic Wild Empathy, Mythic Improved Empathic Link, Mythic Swift Tracker, Mythic Speak With Master, Mythic Greater Empathic Link
+**Inquisitor:** Mythic Detect Alignment, Mythic Track, Mythic Detect Lies
+**Investigator:** Mythic Discovery (Mythic Device Talent, Mythic Eidetic Recollection, Mythic Empathy, Mythic Expanded Inspiration, Mythic Inspired Intelligence, Mythic Perceptive Tracking, Mythic Unconventional Inspiration, Mythic Underworld Inspiration), Mythic Keen Recollection, Mythic Trap Sense
+**Kineticist:** Mythic Wild Talents (Mythic Skilled Kineticist, Greater)
+**Medium:** Mythic Haunt Channeler, Mythic Location Channel, Mythic Connection Channel, Mythic Ask the Spirits, Mythic Astral Journey
+**Mesmerist:** Mythic Consummate Liar, Mythic Mesmerist Tricks (Mythic Fearsome Guile, Mythic Mesmeric Pantomime, Mythic Misdirection, Mythic Vanish Arrow), Mythic Glib Lie
+**Monk:** Mythic Slow Fall, Mythic High Jump, Mythic Timeless Body, Mythic Tongue of the Sun and the Moon
+**Monk (Unchained):** Mythic Ki Powers (Mythic Feather Balance, Mythic High Jump, Mythic Ki Visions, Mythic Slow Fall, Mythic Tongue of the Sun and the Moon, Mythic Timeless Body
+**Ninja:** Mythic Ninja Tricks (Mythic Acrobatic Master, Mythic Feather Fall, Mythic Sudden Disguise, Mythic Undetected Sabotage, Mythic Ventriloquism), Mythic No Trace, Mythic Master Tricks (Mythic Master Disguise)
+**Occultist:** Mythic Focus Powers (Mythic Future Gaze, Mythic Mind Eye, Mythic Object Seer, Mythic Cloak Image, Mythic Masquerade), Mythic Magic Item Skill, Mythic Aura Sight, Mythic Outside Contact
+**Paladin:** Mythic Detect Evil
+**Psychic:** Mythic Detect Thoughts, Mythic Telepathic Bond, Mythic Telepathy
+**Ranger:** Mythic Track, Mythic Wild Empathy, Mythic Endurance, Mythic Swift Tracker, Mythic Camouflage, Mythic Hide in Plain Sight
+**Rogue:** Mythic Trapfinding, Mythic Rogue Talents (Mythic Ledge Walker), Mythic Trap Sense, Mythic Advanced Talents (Mythic Skill Mastery)
+**Rogue (Unchained):** Mythic Trapfinding, Mythic Rogue Talents (Mythic Certainty, Mythic Esoteric Scholar, Mythic Expert Leaper, Mythic Follow Clues, Mythic Ledge Walker, Mythic Nimble Climber, Mythic Quick Disable, Mythic Trap Spotter), Mythic Danger Sense, Mythic Rogue’s Edge, Mythic Advanced Talents (Mythic Master of Disguise, Mythic Skill Mastery)
+**Shaman:** Mythic Hex (Mythic Fetish, Mythic Tongues)
+Shaman (Kobold Press): Mythic Bonus Languages, Mythic Nature Lore, Mythic Totem Secret (Mythic Speak with Animals), Mythic Wild Empathy, Mythic Vision Quest
+**Shifter (Paizo):** Mythic Bonus Languages, Mythic Track, Mythic Woodland Stride, Mythic Trackless Step, Mythic A Thousand Faces, Mythic Timeless Body
+**Skald:** Mythic Bardic Knowledge, Mythic Scribe Scroll, Mythic Versatile Performance, Mythic Lore Master
+**Slayer:** Mythic Track, Mythic Slayer Talents (Mythic Trapfinding), Mythic Advanced Talents (Mythic Rogue and Ninja Advanced Talents (Utility Talents only), Mythic Slayer Camouflage), Mythic Swift Tracker
+**Spell-Less Ranger:** Mythic Track, Mythic Wild Empathy, Mythic Endurance, Mythic Nature’s Healing, Mythic Ranger Talents (Mythic Cat’s Fall, Mythic Eagle Eyed, Mythic Skilled Climber, Mythic Skilled Swimmer, Mythic Stag’s Leap, Mythic Trap Finding, Mythic Trackless Step), Mythic Swift Tracker, Mythic Camouflage, Mythic Hide in Plain Sight
+**Spiritualist:** Mythic Shared Consciousness, Mythic Etheric Tether, Mythic Bonded Senses
+**Summoner:** Mythic Life Link, Mythic Bond Senses
+**Summoner (Unchained):** Mythic Life Link, Mythic Bond Senses
+**Swashbuckler:** Mythic Deeds (Mythic Menacing Swordplay, Mythic Swashbuckler’s Edge)
+**Time Thief:** Mythic Temporal Talents (Mythic Steady Hand, Mythic Trapfinding, Mythic Trap Spotter), Mythic Advanced Talents (Mythic Back to the Future, Mythic Déjà Vu, Mythic Retroactive, Mythic Time Runner)
+**Vigilante:** Mythic Dual Identity, Mythic Seamless Guise, Mythic Social Talents (all), Mythic Vigilante Talents (Mythic Blind Spot, Mythic Chase Master, Mythic Perfect Fall, Mythic Silent Dispatch
+**Warpriest:** Mythic Bonus Languages
+**White Necromancer:** Mythic Lore of Life and Death, Mythic White Necromancy, Mythic Master of Life and Death
+**Witch:** Mythic Hex (Mythic Disguise, Mythic Tongues)
+**Wizard:** Mythic Skill Points, Mythic Skills, Mythic Scribe Scroll, Mythic Bonus Languages
+
+
+[[/tab]]
+[[tab Mythic Class Abilities]]
+While there are numerous mythic spells and a long list of mythic feats to help mythic characters develop their amazing powers, the actual class features of each class do not have mythic upgrades available. There are heroic path abilities that tie into some class abilities and common skills, but no upgrades for the classes’ main abilities and talents themselves. This is unfortunate, because many characters focus much more on their core class abilities and powers than on feats. Mythic class abilities help solve this by providing new powers.
+
+Much like the classes themselves, mythic class abilities are organized not alphabetically, but by the order in which it is typically possible to gain them - thus, low-level class abilities are at the top, while high-level class abilities are at the bottom.
+
+Rules for mythic class abilities were previously published in the Mythic Hero’s Handbook by Legendary Games. **This section reflects classes as they appear in Ultimate Spheres of Power, but most abilities are broadly compatible with the original version of each class.**
+
++++ Gaining Mythic Class Features
+A mythic class feature is considered a 1st tier universal path ability and may also be taken in place of a mythic feat. You must have a class feature in order to gain its mythic version. A mythic class feature cannot be taken more than once unless it says otherwise. Remember that mythic spherecasters can also take mythic class abilities from other classes if they match the spherecaster’s class feature. For example, if an archetype grants you the uncanny dodge feature, you can take the rogue’s mythic uncanny dodge as a mythic class feature.
+[[/tab]]
+
+[[include mythic-spheres-2]]
+[[include mythic-spheres-3]]

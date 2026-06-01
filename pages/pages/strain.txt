@@ -1,0 +1,584 @@
+title:Strain (formerly Madness)
+[[module CSS]]
+.noselect {
+  -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome and Opera */
+}
+[[/module]]
+
+[[tabview]]
+[[tab Strain]]
+[[div class="noselect" style="float:right; width: 20%; padding: 0 2%"]]
+[[=]]
+[[image http://spheresofpower.wikidot.com/local--files/test-page/aberration-bestiary.png link="https://www.drivethrurpg.com/en/product/381388/spheres-bestiary-aberrations"]]
+**Spheres Bestiary: Aberrations**
+$4.99
+
+----
+[[/=]]
+[[/div]]
+
++ Strain: A Replacement for Sanity and Madness
+//The Cataclysm Handbook// touched upon several suggested revisions for the Sanity system introduced in //Pathfinder Roleplaying Game: Horror Adventures.// These revisions lay primarily in the flavor of the system rather than the mechanics, as these revised “stress” rules were not intended to be used far beyond the sanity mechanics’ original role in cosmic horror games. The Strain system outlined here implements many of the suggestions outlined in //The Cataclysm Handbook// while also revising the mechanics of mental stress in a game to better suit the heroic fantasy genre. It is advised that these rules be used in place of the rules in //Horror Adventures// rather than as a supplement to them.
+
+++ Strain Score, Edge, and Thresholds
+Each creature has a strain score, along with a strain edge and a strain threshold. These values depend on the creature’s current ability scores and ability damage. Increases and penalties to ability scores (even temporary increases and penalties) adjust these numbers. Each discrete instance in which a creature takes 1 or more points of strain damage is called a strain instance, regardless of what caused the strain damage.
+
+Since effects that deal strain damage are always mind-affecting effects, mindless creatures are immune, and do not have a strain score, strain edge, or strain threshold.
+
+**Strain Score:** Your strain score is equal to the sum of two of the following ability scores, chosen at 1st level: Charisma, Constitution, Intelligence, and Wisdom. Any ability damage or drain taken to those ability scores is subtracted from your strain score.
+
+**Strain Threshold:** Your strain threshold is equal to 4 + 1/3 your character level. Half of any ability damage or drain that you have taken to the ability scores determining your strain score is subtracted from this threshold (for example, a level 9 character normally has a strain threshold of 7, but if they had taken 6 Wisdom damage they would have a threshold of 4). When you experience a strain incident, if the strain damage from that attack equals or exceeds your strain threshold, you gain a severance, either lesser or greater depending on the relation of your current strain damage and your strain edge (see below).
+
+If your strain threshold is 0, you always suffer a severance upon taking 1 or more points of strain damage.
+
+**Strain Edge:** Your strain edge is equal to 1/2 your strain score. When you experience a strain incident that causes you to gain a severance (see Strain Threshold), compare your total amount of strain damage to your edge to determine the potency of the severance. If your current strain damage is less than your strain edge, then you manifest a lesser severance.
+
+If your current strain damage is equal to or greater than your strain edge, you manifest a greater severance instead.
+
+Furthermore, when you accrue total strain damage equal to or greater than your edge, any dormant lesser severances you have manifest again.
+
+++ Effects of Strain Damage
+When you experience a potential strain incident, you must typically succeed at a Will saving throw to shake off or reduce the strain incident’s damage.
+
+Whether this saving throw is successful or not, if the strain damage from a single strain incident is equal to or greater than your strain threshold, you gain a severance with a potency based on the relation between your total strain damage accrued and your strain edge (lesser if the total strain damage is below your strain edge, greater otherwise). In most cases, GMs should choose a severance that reflects the horror faced or your deep fears and potential vulnerabilities rather than rolling on tables.
+
+For instance, if you gain a lesser severance in an encounter with a mummy or some other undead that features a fear effect, it might make sense to choose the phobia severance. If you already suffer from Fractured Concentration and gain a greater severance, it might make sense for that severance to be increased to Dissonant Realities. However, when a random severance is appropriate, the GM can generate one by rolling on **Table: Lesser Severances** or **Table: Greater Severances**.
+
+You are afflicted with a severance until that severance is removed. You may not always manifest the severance, though. If you are afflicted with severance and then are healed of all strain damage, all of your severances become dormant until you accrue further strain damage. Typically, a dormant severance does not affect you at all, but some severances feature an effect that occurs only while that severance is dormant. A lesser severance that becomes dormant does not manifest again until you take strain damage equal to or greater than your strain edge. A greater severance stays dormant only as long as your total strain damage remains at 0. Dormant severances, no matter the potency, can be removed only by //miracle// or //wish//.
+
+Lastly, if your total strain damage equals or exceeds your strain score, you become insane as per //insanity// (no saving throw) until all your strain damage is healed and all your severances are cured.
+
+While these rules introduce a number of spells, feats, monsters, or other effects that deal strain damage, the GM is also encouraged to create her own strain-damage-dealing effects in her horror game. The table below gives a number of examples of situations that might cause a character to take strain damage.
+
+++ Reducing Strain Damage
+Strain damage can be reduced in a number of ways. The first is with time and rest. For every 7 full days of uninterrupted rest or relaxing activity, you can reduce the strain damage you have taken by an amount of equal to the higher of your Wisdom or Charisma modifier (minimum 1). Instead of relying on your own strength of personality to reduce the effects of strain damage, you can seek out a single confidante, mentor, priest, or other advisor. You must meet with that person regularly (at least 8 hours per day) and gain guidance during the 7 days of rest.
+
+At the end of the rest period, the ally can attempt a Wisdom or Intelligence check (whichever score is higher) with a DC of 15 if your strain damage is below your strain edge or 20 otherwise. If the ally succeeds at this check, you can add the ally’s Wisdom or Intelligence modifier (whichever is higher) to the amount of strain damage you remove. If a campaign uses a shorter time frame, this time may be reduced by the GM to 3 days or 1 day from 7 days.
+
+Strain damage can also be reduced with magic. The Life sphere //restore// with the Restore Senses talent can reduce strain damage by 1d4 once per day. This improves to 3d4 once per day if the caster also possesses the Make Whole talent. A single casting of //lesser restoration// reduces strain damage by 1d2 points up to once per day; //restoration// reduces strain damage by 2d4 points up to once per day; and //heal// reduces the amount of strain damage by 3d4 points up to once per day.
+
+//Greater restoration//, //limited wish//, and //psychic surgery// reduce your total strain damage to 0 if your total strain damage was already below your strain edge; otherwise, these spells reduce your total strain damage to 1 point below your strain edge. //Miracle// and //wish// instantly reduce your strain damage to 0, regardless of whether your total strain damage was below your strain edge.
+
+||~ Situation ||~ DC ||~ Failure ||~ Success ||
+|| The character encounters a dead body, scene of torture, or other gross/horrific sight for the first time || 12 || 1d3 strain damage || 0 strain damage ||
+|| The character is brought below 0 hit points || 20 || 1d6 strain damage || 1 strain damage ||
+|| The character dies and is brought back from the dead || 25 || 3d6 strain damage || 1d6 strain damage ||
+|| The character encounters point of tension in which they are not in direct danger || 5 + the character’s level || 1d4 strain damage || 1 strain damage ||
+|| The character encounters a point of tension in which they are in direct danger || 10 + the character’s level || strain damage equal to the character’s level || strain damage equal to 1/4 the character’s level ||
+|| The character learns a harrowing revelation which threatens a fundamental aspect of their worldview || 15 + the character’s level || strain damage equal to twice the character’s level || strain damage equal to 1/2 the character’s level (minimum 1) || 
+
++++ Harrowing Revelations
+Harrowing revelations are generally meant to be events in which a character’s fundamental belief about the world is put into question. Maybe the character’s belief in the virtue of their nation is rattled by horrific atrocities. Maybe their faith in a logical cosmic order is rattled by an encounter with a wholly unknowable entity. Maybe the character realizes that an ambition they have chased for much of their life comes at an impossible cost. Harrowing revelations are unique events that should be tied to the specific motivations and values of each character. They should occur infrequently, representing major turning points in the campaign or in a character’s development.
+
++++ Points of Tension
+Each character should possess at least two types of scenarios in which they are acutely stressed or which they struggle to deal with. Maybe a character who escaped a cult might be discomforted around similar forced displays of fealty or indoctrination, or a character who hates the idea of being powerless might lose their composure when their magic becomes useless. These scenarios are called Points of Tension and pose a unique weakness and source of strain for each character.
+
+As a character develops over the course of a campaign, they may foster new Points of Tension or leave behind previous Points of Tension as their values and worldview change. The parameters of such changes should be left to players and GMs to determine between themselves. However, every character should always possess at least one Point of Tension that can be leveraged by the GM. Characters cannot be affected by a given Point of Tension more than once per 24 hours.
+
+The effects of Points of Tension and Harrowing Revelations increase with character level to reflect how higher-level characters are more established in their worldviews and philosophies. As a result, being forced to change one’s outlook or come to terms with an extensive career of errors can be more taxing on a more experienced character.
+
+++ Severances
+Severances are afflictions, similar in structure to poisons, diseases, and curses. They are used as part of the strain system as an outcome of intensely stressful situations or uniquely dangerous mental attacks. If you are using the rules for strain and severances, when those rules call for a character to gain a severance, check the character’s total strain damage and determine if they would be afflicted with a lesser or greater severance. Once the potency of the severance is determined, roll on the appropriate table (**Table: Lesser Severances** and **Table: Greater Severances**) to determine the kind of severance the character develops, or select an appropriate severance that fits the situation.
+
++++ Alleviating Severances
+Each severance has a DC representing its strength. Among other things, that DC specifies the saving throw the afflicted character must succeed at to recover from the severance.
+
+Recovering from a severance without magical aid is a lengthy process requiring significant rest. After 7 consecutive days of uninterrupted rest or relaxing activity, the afflicted character can attempt a Will save against the severance’s current DC. If she succeeds, the DC is reduced by a number of points equal to 1/2 the character’s Charisma modifier (minimum 1). Instead of relying on her own strength of personality to reduce the effects of severance, a character can also seek out a single confidante, priest, or other advisor. The recovering character must meet with that person regularly (at least 8 hours each day) and gain guidance during the 7 days of rest.
+
+At the end of the rest period, the ally can attempt a Wisdom or Intelligence check (whichever is higher) with a DC of 15 for a lesser severance or a DC of 20 for a greater severance. On a success, the recovering character can reduce the severance’s DC by 1/2 the ally’s Wisdom or Intelligence modifier (whichever is higher, minimum 1) in addition to the decrease for resting. The character suffers the severance’s effect until the DC is reduced to 0. If a campaign uses a shorter time frame, this time may be reduced by the GM to 3 days or 1 day from 7 days.
+
+Certain spells can also aid in recovery from severances or cure them outright. //Restore Spirit// from the Life sphere has no effect on greater severances, but reduces the current DC of one lesser severance afflicting the target by 2, up to once per day. If the caster possesses the Make Whole talent, a //restore// can reduce the current DC of one lesser severance afflicting the target by 5 or of one greater severance afflicting the target by 2, up to once per day each.
+
+//Lesser restoration// has no effect on greater severances, but reduces the current DC of one lesser severance afflicting the target by 2, up to once per day. {Restoration and {heal reduce the current DC of one lesser severance afflicting the target by 5 or of one greater severance afflicting the target by 2, up to once per day each. //Greater restoration//, //limited wish//, and //psychic surgery// all either cure the target of all lesser severances or reduce the DC of one greater severance by the spell’s caster level (caster’s choice), while //miracle// or //wish// immediately cure a target of all lesser and greater severances.
+
++++ Reading A Severance Stat Block
+Severances are formatted in the same way as other afflictions, with the following changes.
+
+**Save:** Unless the character has gained the severance via the strain system, this is the save necessary to avoid contracting the severance. It is also the base saving throw needed to alleviate the severance (see Alleviating Severances) and the saving throw the effects of the severance require. If, during the course of treating a severance, the affliction’s DC decreases, that new reduced saving throw also becomes the DC the afflicted character must succeed at to avoid any of the severance's effects. It is possible to suffer from multiple forms of the same severance. If a character becomes afflicted with a form of severance from which he is already suffering (even if it takes a slightly different form, such as fascination with different objects), the current DC of that severance increases by 5. All severances are mind-affecting effects, although certain games may ignore this stipulations reflect how inhuman intelligences can still suffer strain.
+
+**Onset:** When a character suffers severance from the strain system (due to a strain instance that deals strain damage greater than or equal to their strain edge), this onset time does not apply. Use this entry only when the character contracts the severance in other ways. During the onset time, the character gradually gains the severance effect, rather than suddenly experiencing the full effect after a number of days.
+
+**Effect:** This is the effect of the severance. An afflicted character typically suffers this effect at all times, but some madnesses manifest only during certain situations. For complex effects or effects that rely on roleplaying, the description section of the severance contains a more detailed description of the effect. If you are using the strain system, this effect manifests as long as the severance is not dormant.
+
+**Dormancy Effect:** The afflicted character suffers this effect while the severance is dormant.
+
+Certain severances may be inappropriate for a game or table, either because they interfere too much with play or because they ride dangerously close to real-life experiences that players or the GM are uncomfortable with. If an inappropriate severance is rolled, simply roll again on the table. It is perfectly reasonable for certain severances to be vetoed or for the system of strain and severance to simply not be used at the table.
+
+The severance table has changed the names of several of the “madness” effects introduced in //Horror Adventures//, with several being given new, less stigmatizing names:
+
+**Table: Lesser Strains**
+||~ d% result ||~ Severance ||
+||1-4 || Casting Blockage ||
+|| 5-8 || Cravings ||
+|| 9-12 || Dead Senses ||
+||13-16 || Defeatism ||
+|| 17-24 || Delusion ||
+|| 25-28 || Fascination ||
+|| 29-32 || Fractured Concentration ||
+|| 33-36 || Fugue ||
+|| 37-40 || Hallucination ||
+|| 41-44 || Halted Movements ||
+|| 45-48 || Instinctive Defiance ||
+|| 49-56 || Isolation Terror ||
+|| 57-60 || Lethargic Surrender ||
+|| 61-64 || Mimicry ||
+|| 65-68 || Mutterings ||
+|| 69-72 || Night terrors ||
+|| 73-76 || Overkill ||
+|| 77-84 || Paranoia ||
+|| 85-88 || Performance Anxiety ||
+|| 89-92 || Perpetual Discomfort ||
+|| 93-100 || Phobia ||
+
+**Table: Greater Strains**
+||~ d% result ||~ Severance ||
+|| 1-12 || Catatonia || 
+|| 13-25 || Cognitive Block ||
+|| 26-38 || Death Wish ||
+|| 39-50 || Dissonant Realities ||
+|| 51-63 || Extreme Measures ||
+|| 64-75 || Halted Activity ||
+|| 76-88 || Passenger in the Mind ||
+|| 89-00 || Severed Senses ||
+
+++ Rewards for Strain
+Strain is primarily a penalizing mechanic, although it may suit certain games to reward players for facing strenuous situations and coming out the other side. A few possible options for such rewards are as follows and may be implemented at GM discretion:
+* All characters gain Desensitized as a bonus feat.
+* Whenever a character returns to 0 strain after having sustained enough strain damage to gain a severance, they gain a +2 morale bonus to attack rolls and saving throws for 24 hours.
+* A character who gains a severance may select the Forbidden Knowledge oath as part of gaining the severance.
+* A character affected by at least one severance gains Iron Will as a bonus feat.
+
+----
++ Severances
++++ Casting Blockage [Cata. HB]
+**Type** lesser severance; **Save** Will DC 16; **Onset** 1d4 days
+
+**Effect**
+When you gain this severance, you gain a casting drawback with all of your casting traditions selected by the GM which is worth no more than a single drawback. You do not gain bonus spell points or any other boons as a result of possessing this drawback.
+**Dormancy Effect** None
+
+**Description**
+Your spellcasting is less natural to you, requiring some sort of additional feature in order to function.
+
++++ Cravings [Cata. HB]
+**Type** lesser severance; **Save** Will DC 16; **Onset** 1d4 days
+
+**Effect**
+You gain a moderate addiction to one type of food or drug that you have consumed in the last week, using the DC of this severance as the addiction DC.
+**Dormancy Effect** None
+
+**Description**
+You develop a psychological dependence on a certain type of consumable.
+
++++ Dead Senses [Cata. HB]
+**Type** lesser severance; **Save** Will DC 16; **Onset** 1d4 days
+
+**Effect**
+–2 penalty on Strength-, Dexterity-, and Constitution-based checks as well as Fortitude and Reflex saves
+**Dormancy Effect** None
+
+**Description**
+Your body does not respond properly to stimuli, your dulled senses rendering it clumsy and ineffectual. This numbness also comes with a boon, granting you a +4 bonus to saving throws against pain effects.
+
++++ Defeatism [Cata. HB]
+**Type** lesser severance; **Save** Will DC 16; **Onset** 1d4 days
+
+**Effect**
+Whenever you fail an attack roll, saving throw (excluding saving throws made because of this effect), or skill check and whenever every single target of an effect you create succeeds at a saving throw, you must attempt a Will save. On a failure, you take a -1 penalty on all d20 rolls and saving throw DCs of your abilities for 2d6 rounds. This penalty stacks with itself.
+**Dormancy Effect** None
+
+**Description**
+Failure sows doubt in your mind that only grows with further mistakes.
+
++++ Delusion
+**Type** lesser severance; **Save** Will DC 16; **Onset** 2d6 days
+
+**Effect**
+The afflicted character believes something that is not true, and no amount of evidence can dissuade him of the belief. 
+**Dormancy Effect** none
+
++++ Fascination
+**Type** lesser severance (compulsion); **Save** Will DC 14; **Onset** 1 day
+
+**Effect**
+Each round when an afflicted character is within 30 feet and can see the object of her mania, she must succeed at a Will saving throw or rush to interact with that object. If the afflicted character succeeds at the saving throw by 5 or more, she can keep away from the object of the mania or resist the manic activity for 1 minute before having to attempt the saving throw again. After failing a saving throw and fully performing the mania’s compulsion, the afflicted character need not attempt another saving throw for 1 minute, as she has temporarily satisfied her obsession.
+**Dormancy Effect** Each round when an afflicted character is within 30 feet and can see the object of her mania, she must attempt a Will saving throw. If she fails, she can choose to either interact with the object of her mania (as above) or become fascinated by the object while abstaining from the activity for 1 round. If the afflicted character succeeds at this saving throw by 5 or more, she can’t be fascinated by that particular stimulus for 24 hours before having to attempt the saving throw again (for instance, if a character obsessed with swords succeeded at her save against a particular sword by 5 or more, she wouldn’t be fascinated by that sword for 24 hours, but she might be fascinated by other swords).
+
++++ Fractured Concentration
+**Type** lesser severance; **Save** Will DC 16; **Onset** 1d4 days
+
+**Effect**
+–2 penalty on Wisdom– and Intelligence-based checks; cannot take 10 or 20 on any check
+**Dormancy Effect** None
+
++++ Fugue
+**Type** lesser severance; **Save** Will DC 18; **Onset** 1d4 days
+
+**Effect**
+
+–2 penalty on Will saving throws and skill checks, and some memory loss. A character suffering from a fugue cannot remember things; her name and her past are all equal mysteries. While the character can build new memories, she has trouble accessing those gained before she was inflicted with this severance. While a character in a fugue state can still speak and read any languages she knows and does not lose any of her skills, feats, or skill ranks, she does not remember how she learned such things, and is often surprised when using complex abilities.
+**Dormancy Effect** –2 penalty on Will saving throws
+
++++ Hallucination
+**Type** lesser severance; **Save** Will DC 14; **Onset** 2d6 days
+
+**Effect**
+–4 penalty on any Will saving throw against or to disbelieve illusions, and illusions of things that are not there. Hallucinations can affect all of the senses, but some of the most potentially debilitating are auditory hallucinations, where the afflicted character hears voices talking in his head, and visual hallucinations, where the afflicted character sees things that aren’t there. 
+**Dormancy Effect** The afflicted character takes a –2 penalty on Will saving throws against or to disbelieve illusions.
+
++++ Halted Movements [Cata. HB]
+**Type** lesser severance; **Save** Will DC 18; **Onset** 1d4 days
+
+**Effect**
+All of your movement speeds are reduced by half and you cannot take 5-foot steps.
+**Dormancy Effect** None
+
+**Description**
+You hesitate in your movements, taking every step with trying caution.
+
++++ Instinctive Defiance [Cata. HB]
+**Type** lesser severance; **Save** Will DC 14; **Onset** 1d4 days
+
+**Effect**
+Whenever another creature gives you an order or command, attempt a Will save. On a failure, you become antagonized towards that creature.
+**Dormancy Effect** None
+
+**Description**
+Your troubled experiences with authority give you an impulse to defy it regardless of consequences.
+
++++ Isolation Terror [Cata. HB]
+**Type** lesser severance; **Save** Will DC 18; **Onset** 1d4 days
+
+**Effect**
+Whenever you become blinded or deafened (which may be the result from injury, magic, or from an environmental effect that suddenly renders an area dark or soundless), you must succeed at a Will save or become shaken for 1d6 rounds. The next round, you can choose to attempt another saving throw to end the effect, but if you fail, you become scared instead. A scared character can choose to attempt another saving throw to become shaken again, but if they fail, they become frightened for 1d6 rounds instead.
+**Dormancy Effect** Whenever you become blinded or deafened, you must succeed at a Will save or become shaken for 1 round.
+
+**Description**
+The loss of your senses drives you into a panic as the deprivation of power draws out your deepest fears.
+
++++ Lethargic Surrender
+**Type** lesser severance; **Save** Will DC 14; **Onset** 1d4 days
+
+**Effect**
+–2 penalty on initiative checks, and morale bonuses are halved (minimum +0)
+**Dormancy Effect** None
+
++++ Mimicry [Cata. HB]
+**Type** lesser severance; **Save** Will DC 16; **Onset** 1d4 days
+
+**Effect**
+Whenever you perform a type of action which you have not witnessed another creature perform within the last round, you take a -4 penalty on any d20 rolls associated with that action.
+**Dormancy Effect** None
+
+**Description**
+You struggle to guide your own actions, relying on the impressions of others to shape your performance.
+
++++ Mutterings [Cata. HB]
+**Type** lesser severance; **Save** Will DC 16; **Onset** 1d4 days
+
+**Effect**
+You take a -4 penalty on Charisma-based skill checks. Creatures who succeed at a Sense Motive check against you by 5 or more can read your surface thoughts (as per the greater charm version of the Read Mind talent).
+**Dormancy Effect** None
+
+**Description**
+You frequently talk to yourself nervously, whispering mantras or thoughts under your breath.
+
++++ Night Terrors
+**Type** lesser severance; **Save** Will DC 16; **Onset** 1 day
+
+**Effect**
+Each night when the afflicted character sleeps, she must succeed at a saving throw or wake up fatigued (see below). A character suffering from night terrors is plagued by persistent terrifying dreams, worry, or terror that impedes her from getting restful sleep. Each night the afflicted character must succeed at a saving throw or wake up fatigued, though multiple nights of night terrors do not increase the condition to exhausted, and an exhausted character with night terrors wakes up after 8 hours of sleep either rested or fatigued based on the success or failure of the saving throw for this affliction. Often a character suffering from night terrors will bolt upright during sleep, eyes open, and scream, though less-dramatic symptoms are also possible. A character who awakens fatigued from night terrors doesn’t count as having had a good night’s rest for the purpose of preparing new spells, and she can’t remove the fatigue until she gets a good night’s rest by succeeding at the Will save against night terrors.
+**Dormancy Effect** None
+
++++ Overkill [Cata. HB]
+**Type** lesser severance; **Save** Will DC 16; **Onset** 1d4 days
+
+**Effect**
+Whenever you reduce a creature to 0 or fewer hit points, you must attempt a Will save against this severance. On a failure, you must spend your next turn performing a coup de grace on the target or destroying their body as a full-round action (if you are capable of doing so).
+**Dormancy Effect** None
+
+**Description**
+You are paranoid about death and take extreme measures to make sure foes do not get back up.
+
++++ Paranoia
+**Type** lesser severance; **Save** Will DC 17; **Onset** 2d6 days
+
+**Effect**
+The afflicted character gains a +2 bonus on saving throws against charm effects, but takes a –2 penalty on Bluff, Diplomacy, and Sense Motive checks. When the afflicted character attempts a Sense Motive check, the GM rolls the check in secret, and failure gives the afflicted character the impression that those whose motives he is trying to sense are plotting against him in some way. Lastly, any time the afflicted character tries to use or gain a benefit from the aid another action, or is the target of a beneficial spell or effect from an ally, he must succeed at a Will saving throw in order to take the aid another action or gain the benefit from the action, spell, or effect.
+**Dormancy Effect** The afflicted character gains a +2 bonus on saving throws against charm effects, but takes a –2 penalty on Bluff, Diplomacy, and Sense Motive checks.
+
++++ Performance Anxiety [Cata. HB]
+**Type** lesser severance; **Save** Will DC 14; **Onset** 1d4 days
+
+**Effect**
+Whenever you are in combat, you must attempt a Will save at the start of your turn. On a failure, there is a 25% chance that you cannot act this turn.
+**Dormancy Effect** None
+
+**Description**
+In stressful situations, you tend to freeze up, incapable of doing much more than trying to defend yourself.
+
++++ Perpetual Discomfort [Cata. HB]
+**Type** lesser severance; **Save** Will DC 16; **Onset** 1d4 days
+
+**Effect**
+You are shaken so long as you are wearing any sort of armor or similarly heavy clothing. This ignores any immunity to the shaken condition you may possess.
+**Dormancy Effect** None
+
+**Description**
+Heavy clothing feels confining and stressful for you, impairing your movements on a psychological level.
+
++++ Phobia
+**Type** lesser severance (fear); **Save** Will DC 14; **Onset** 1 day
+
+**Effect**
+Each round an afflicted character is within 30 feet and can see the object of her phobia, she must succeed at a Will saving throw or become shaken. The next round, the afflicted character can choose to attempt another saving throw to end the effect, but if she fails, she becomes scared instead. A scared character can choose to attempt another saving throw to become shaken again, but if she fails, she becomes frightened for 1d6 rounds instead.
+
+**Dormancy Effect** Each round an afflicted character is within 30 feet and can see the object of her phobia, she must succeed at a Will saving throw or become shaken for 1 round. If the afflicted character succeeds at this saving throw by 5 or more, that particular stimulus can’t cause her to become shaken for 24 hours before having to attempt the saving throw again (for instance, if a character has a phobia of spiders and succeeds at her saving throw by 5 or more after seeing the wizard’s spider familiar, she doesn’t need to attempt another saving throw against the familiar for 24 hours, but she would still need to attempt a saving throw if she saw a different spider).
+----
++ Greater Severances
++++ Catatonia
+**Type** greater severance; **Save** Will DC 24; **Onset** immediate
+
+**Effect**
+The afflicted character acts as if she were cowering, but this is not a fear effect, unlike other forms of cowering.
+**Dormancy Effect** The afflicted character is staggered.
+
++++ Cognitive Block
+**Type** greater severance; **Save** Will DC 20; **Onset** immediate
+
+**Effect**
+The afflicted character can no longer speak or write and has difficulty concentrating. He can no longer use command word items, spell-trigger items, or spell-completion items. He takes a –10 penalty on concentration checks. He cannot cast spells with a verbal or thought component, and cannot prepare spells from a spellbook.
+**Dormancy Effect** The afflicted character takes a –4 penalty on concentration checks.
+
++++ Death Wish [Cata. HB]
+**Type** greater severance; **Save** Will DC 24; **Onset** 2d6 days
+
+**Effect**
+The afflicted character cannot or does not want to avoid harm, taking a -10 penalty on AC and a -4 penalty on all saving throws.
+**Dormancy Effect** Take a -4 penalty to AC
+
+**Description**
+You have forsaken any sense of self-preservation, simply allowing harm to converge upon you rather than taking any effort to keep yourself safe.
+
++++ Dissonant Realities
+**Type** greater severance; **Save** Will DC 22; **Onset** 1d6 days
+
+**Effect**
+–4 penalty on Wisdom– and Charisma-based checks; cannot take 10 or take 20 on any check. Each time a character afflicted with this severance finds himself in a stressful situation (such as combat), he must succeed at a Will saving throw or become confused for 1d6 rounds.
+**Dormancy Effect** cannot take 10 or take 20 on any check
+
++++ Extreme Measures
+**Type** greater severance; **Save** Will DC 22; **Onset** 3d6 days
+
+**Effect**
+The afflicted character’s alignment shifts to evil, and he gains a +10 competence bonus on Bluff checks to hide this severance. Once per day, the afflicted character can attempt a Will saving throw to suppress this effect for 24 hours.
+**Dormancy Effect** none
+
++++ Halted Activity [Cata. HB]
+**Type** greater severance; **Save** Will DC 22; **Onset** 2d6 days
+
+**Effect**
+The afflicted character rolls twice on all d20 rolls, taking the lower result.
+**Dormancy Effect** Take a -1 penalty on all d20 rolls
+
+**Description**
+You constantly second-guess your actions, leading to frequent failures.
+
++++ Passenger in the Mind
+**Type** greater severance; **Save** Will DC 20; **Onset** 2d6 days
+
+**Effect**
+–6 penalty on Will saving throws and Wisdom-based checks, and another entity controlling the character’s mind. This is a complicated affliction that manifests as two or more distinct and different personalities in the same mind. The number of entities is up to the GM, as is the nature of the entities. Should the affliction worsen in some way (such as by gaining this severance again), the number of additional personalities might increase as well.
+
+Each morning upon waking and each time the afflicted character is revived from unconsciousness, she must succeed at a Will save, or one of the other entities in the character’s mind takes hold. If the afflicted character has more than one entity because of this strain, the manifested personality is either randomly chosen or chosen by the GM. If the afflicted character succeeds at all her saving throws against letting these entities take control for 3 consecutive days, there is a 10% cumulative chance each night thereafter that another entity takes control during the character’s sleep, returning to bed afterwards and leaving the character with less sleep than expected; if the afflicted character fails a saving throw, the cumulative chance resets. The afflicted character’s memories, skills, and other abilities are unaffected by the personality shift, but typically the various entities generally have no knowledge of each other.
+**Dormancy Effect** –2 penalty on Will saving throws and Wisdom-based checks
+
++++ Severed Senses
+**Type** greater severance; **Save** Will DC 20; **Onset** immediate
+
+**Effect**
+The afflicted character becomes blinded or deafened, loses another special sense (like scent or blindsense), loses the use of limbs, or loses a special movement speed (like a fly or swim speed). The GM chooses how the severed sense manifests. Furthermore, magical effects that typically remove these conditions (such as //remove blindness/deafness//) have no effect on this severance; the severance must be cured in order to regain the senses or motor skills
+**Dormancy Effect** none
+
+
+[[/tab]]
+[[tab Madness]]
+[[div class="noselect" style="float:right; width: 20%; padding: 0 2%"]]
+[[=]]
+[[image http://spheresofpower.wikidot.com/local--files/test-page/The_Cataclysm_Handbook.png link="https://www.drivethrurpg.com/product/326202/The-Cataclysm-Handbook?affiliate_id=549120"]]
+**The Cataclysm Handbook**
+$4.99
+
+----
+[[/=]]
+[[/div]]
+++ Respectfully Handling Sanity Mechanics
+Thematically, the system of sanity damage harkens back to an era of asylums, lobotomies, forced sterilizations, and countless other abuses of the mentally ill. During the era of Lovecraft, demonization of mental illness was routine, and players may be driven to roleplay sanity damage by parroting many of the insensitive stereotypes displayed in tales from that era. In the interest of promoting a more inclusive gaming space and curbing the further spread of such harmful preconceptions about mental illness, a few guidelines for effectively and respectfully roleplaying sanity damage are outlined below.
+
+**1.** Lost sanity should not be represented by the character suddenly developing eye twitches, shaking fits, or other physical tics commonly used as shorthand for mental illness. Traits such as spontaneous maniacal laughter or complete loss of social skills play upon stereotypes in a similar manner and should be avoided. These elements add little roleplaying value and dehumanize those with real-life mental illnesses.
+
+**2.** In this vein, attempts to replicate real-life mental illnesses such as Post-Traumatic Stress Disorder or Borderline Personality Disorder in roleplay should be made with extreme caution. At the very least, the GM and party should unanimously consent to such attempts before they are made.
+
+**3.** Every casting tradition tied to the Unsettling Casting drawback involves some sort of revelation, either through a connection to some powerful and inhuman entity or through the discovery of some secret that throws your preconceived notions of reality out the window. The character’s behavior changes not because their brain has somehow become rewired, but because they now know something that changes how they view the world. For example, use of extradimensional magics could allow the character to perceive figments of being from other planes or timelines, these observations manifesting mechanically as the hallucination or night terrors lesser madness. Similarly, a character’s continual exposure to telepathic language could lead to difficulty switching back to normal speech, this alienation manifesting as the cognitive block greater madness. Maybe a character who routinely uses conjurations begins to associate certain creatures or objects with extradimensional horrors, these associations taking the form of the mania or phobia lesser madnesses. Overall, a character with sanity damage should remain the same person that they were before they took sanity damage, albeit one who’s discovery causes them to view the world in a different way.
+
+**4.** Magic systems that genuinely erode the mental capabilities of their wielders are not unheard of in fiction. However, escalating damage of this type should not be displayed as an ever-growing list of stereotypes. Rather, every point of sanity damage should reflect the loss of something important to the character’s worldview, such as a memory or principle. As damage accrues, perhaps the character should be more willing to break with their routines and values, or perhaps the bonds they have forged with others fade away with their memories.
+
+**5.** Similar to humanity or corruption tracks in various other RPGs, sanity damage may be used to track a character’s disconnect from conventional morality rather than measuring mental health. A character with a great deal of sanity damage could be no less intelligent, rational, and articulate than someone with none, but the two character’s would likely have very different perspectives on the value of life or the means justified by their ends. Sanity damage could be used to measure the corrupting influence of power on a character, madness manifesting as a result of cognitive dissonance or the mental strain of their inhuman actions.
+
+**6.** “Sanity damage” is not an appropriate name for the system, seeing as the paradigm of sanity and insanity is a fundamentally flawed perception of mental illness. Terms such as “stress damage”, “comprehension damage”, “humanity damage”, or “rationale damage” may be more appropriate for describing what the characters are going through. Similarly, “madnesses” could be renamed “severances” or “burnouts” and could be given names that disconnect them from stigmatized real- life medical conditions (changing “Schizophrenia” to “Lost Between Realities”, for example). The original rules terminology is used in this book for clarity, but alterations are heavily advised in praxis.
+----
++ Madnesses
++++ Casting Blockage [Cata. HB]
+**Type** lesser madness; **Save** Will DC 16; **Onset** 1d4 days
+
+**Effect**
+When you gain this madness, you gain a casting drawback with all of your casting traditions selected by the GM which is worth no more than a single drawback. You do not gain bonus spell points or any other boons as a result of possessing this drawback.
+**Dormancy Effect** None
+
+**Description**
+Your spellcasting is less natural to you, requiring some sort of additional feature in order to function.
+
++++ Cravings [Cata. HB]
+**Type** lesser madness; **Save** Will DC 16; **Onset** 1d4 days
+
+**Effect**
+You gain a moderate addiction to one type of food or drug that you have consumed in the last week, using the DC of this madness as the addiction DC.
+**Dormancy Effect** None
+
+**Description**
+You develop a psychological dependence on a certain type of consumable.
+
++++ Dead Senses [Cata. HB]
+**Type** lesser madness; **Save** Will DC 16; **Onset** 1d4 days
+
+**Effect**
+–2 penalty on Strength-, Dexterity-, and Constitution-based checks as well as Fortitude and Reflex saves
+**Dormancy Effect** None
+
+**Description**
+Your body does not respond properly to stimuli, your dulled senses rendering it clumsy and ineffectual. This numbness also comes with a boon, granting you a +4 bonus to saving throws against pain effects.
+
++++ Defeatism [Cata. HB]
+**Type** lesser madness; **Save** Will DC 16; **Onset** 1d4 days
+
+**Effect**
+Whenever you fail an attack roll, saving throw (excluding saving throws made because of this effect), or skill check and whenever every single target of an effect you create succeeds at a saving throw, you must attempt a Will save. On a failure, you take a -1 penalty on all d20 rolls and saving throw DCs of your abilities for 2d6 rounds. This penalty stacks with itself.
+**Dormancy Effect** None
+
+**Description**
+Failure sows doubt in your mind that only grows with further mistakes.
+
++++ Halted Movements [Cata. HB]
+**Type** lesser madness; **Save** Will DC 18; **Onset** 1d4 days
+
+**Effect**
+All of your movement speeds are reduced by half and you cannot take 5-foot steps.
+**Dormancy Effect** None
+
+**Description**
+You hesitate in your movements, taking every step with trying caution.
+
++++ Instinctive Defiance [Cata. HB]
+**Type** lesser madness; **Save** Will DC 14; **Onset** 1d4 days
+
+**Effect**
+Whenever another creature gives you an order or command, attempt a Will save. On a failure, you become antagonized towards that creature.
+**Dormancy Effect** None
+
+**Description**
+Your troubled experiences with authority give you an impulse to defy it regardless of consequences.
+
++++ Isolation Terror [Cata. HB]
+**Type** lesser madness; **Save** Will DC 18; **Onset** 1d4 days
+
+**Effect**
+Whenever you become blinded or deafened (which may be the result from injury, magic, or from an environmental effect that suddenly renders an area dark or soundless), you must succeed at a Will save or become shaken for 1d6 rounds. The next round, you can choose to attempt another saving throw to end the effect, but if you fail, you become scared instead. A scared character can choose to attempt another saving throw to become shaken again, but if they fail, they become frightened for 1d6 rounds instead.
+**Dormancy Effect** Whenever you become blinded or deafened, you must succeed at a Will save or become shaken for 1 round.
+
+**Description**
+The loss of your senses drives you into a panic as the deprivation of power draws out your deepest fears.
+
++++ Mimicry [Cata. HB]
+**Type** lesser madness; **Save** Will DC 16; **Onset** 1d4 days
+
+**Effect**
+Whenever you perform a type of action which you have not witnessed another creature perform within the last round, you take a -4 penalty on any d20 rolls associated with that action.
+**Dormancy Effect** None
+
+**Description**
+You struggle to guide your own actions, relying on the impressions of others to shape your performance.
+
++++ Mutterings [Cata. HB]
+**Type** lesser madness; **Save** Will DC 16; **Onset** 1d4 days
+
+**Effect**
+You take a -4 penalty on Charisma-based skill checks. Creatures who succeed at a Sense Motive check against you by 5 or more can read your surface thoughts (as per the greater charm version of the Read Mind talent).
+**Dormancy Effect** None
+
+**Description**
+You frequently talk to yourself nervously, whispering mantras or thoughts under your breath.
+
++++ Overkill [Cata. HB]
+**Type** lesser madness; **Save** Will DC 16; **Onset** 1d4 days
+
+**Effect**
+Whenever you reduce a creature to 0 or fewer hit points, you must attempt a Will save against this madness. On a failure, you must spend your next turn performing a coup de grace on the target or destroying their body as a full-round action (if you are capable of doing so).
+**Dormancy Effect** None
+
+**Description**
+You are paranoid about death and take extreme measures to make sure foes do not get back up.
+
++++ Performance Anxiety [Cata. HB]
+**Type** lesser madness; **Save** Will DC 14; **Onset** 1d4 days
+
+**Effect**
+Whenever you are in combat, you must attempt a Will save at the start of your turn. On a failure, there is a 25% chance that you cannot act this turn.
+**Dormancy Effect** None
+
+**Description**
+In stressful situations, you tend to freeze up, incapable of doing much more than trying to defend yourself.
+
++++ Perpetual Discomfort [Cata. HB]
+**Type** lesser madness; **Save** Will DC 16; **Onset** 1d4 days
+
+**Effect**
+You are shaken so long as you are wearing any sort of armor or similarly heavy clothing. This ignores any immunity to the shaken condition you may possess.
+**Dormancy Effect** None
+
+**Description**
+Heavy clothing feels confining and stressful for you, impairing your movements on a psychological level.
+----
++ Greater Madnesses
++++ Death Wish [Cata. HB]
+**Type** greater madness; **Save** Will DC 24; **Onset** 2d6 days
+
+**Effect**
+The afflicted character cannot or does not want to avoid harm, taking a -10 penalty on AC and a -4 penalty on all saving throws.
+**Dormancy Effect** Take a -4 penalty to AC
+
+**Description**
+You have forsaken any sense of self-preservation, simply allowing harm to converge upon you rather than taking any effort to keep yourself safe.
+
++++ Halted Activity [Cata. HB]
+**Type** greater madness; **Save** Will DC 22; **Onset** 2d6 days
+
+**Effect**
+The afflicted character rolls twice on all d20 rolls, taking the lower result.
+**Dormancy Effect** Take a -1 penalty on all d20 rolls
+
+**Description**
+You constantly second-guess your actions, leading to frequent failures.
+[[/tab]]
+[[/tabview]]
+
+----
+
+[[include cots]]
+[[include som-template]]
+[[include sop-template]]

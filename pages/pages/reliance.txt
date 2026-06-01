@@ -1,0 +1,188 @@
+title:Reliance
+[[module CSS]]
+.noselect {
+  -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome and Opera */
+}
+[[/module]]
+
+[[module CSS]]
+.colored-links span > a {
+  color: inherit;
+}
+[[/module]]
+
+[[tabview]]
+[[tab Spheres of Guile]]
+[[toc]]
+
+[[div class="noselect" style="float:right; width: 20%; padding: 0 2%"]]
+[[=]]
+[[image http://spheresofpower.wikidot.com/local--files/test-page/Baron%27s%20Uncanny%20Gateway link="https://www.drivethrurpg.com/en/product/549095/baron-s-uncanny-gateway"]]
+**Baron's Uncanny Gateway**
+$4.99
+----
+[[/=]]
+[[/div]]
+
++ Reliance: Motivation and Strain as a Source of Power
+
+The mechanics for motivation and strain have heretofore been strictly negative, punishing those who use the system with unique vulnerabilities or painful conditions. This paints a picture of conviction and tests of it as something negative, as if the drives of your character are an impediment to their success. Reliance is a system which works to reward players for acting on their motivations while also introducing risk for particularly harrowing challenges.
+
++++ Assigning Reliance
+Whenever you rest for at least 8 hours, you gain a number of Reliance Points equal to your current Strain Score. You may assign these Reliance Points to your Major and Minor Motivations in any way you wish, and these Reliance Points may be spent in a variety of ways that involve rolling Reliance Dice. Spent Reliance Points are lost, as are any unspent Reliance Points when you rest for at least 8 hours.
+
++++ Reliance Dice
+Whenever an ability refers to Reliance Dice, the type of die rolled is based on the kind of motivation the spent Reliance Points were assigned to. For Minor Motivations, the Reliance Die is 1d4. For Major Motivations, the Reliance Die is 1d8.
+
++++ Using Reliance Points
+When you attempt a skill check or attack roll to accomplish a goal tied to one of your motivations, you may invoke that motivation, spending three Reliance Points assigned to that motivation and adding that motivation’s Reliance Die to the roll. You may invoke your motivation after seeing the d20 result but before knowing if the roll was a success or failure. Once you have invoked a Motivation in this way, you cannot invoke the same motivation again for 1 minute. Certain feats marked as (Reliance) feats grant you additional ways to use your Reliance Points. You can only invoke one of your motivations for any purpose once per round.
+
++++ Taking Strain Damage
+Whenever you suffer strain damage, you lose a number of unspent Reliance Points equal to the strain damage suffered. You choose the motivations from which these Reliance Points are lost. 
+
++ Alternate Severances
+When using the Reliance system, some GMs may wish not to utilize the traditional severances for worry of them derailing the game or becoming too unfun to play with. In those cases, it is suggested that the following severances be the only ones used. 
+
++++ Strained Motivation, Minor
+**Type** lesser severance; **Save** Will DC 18; **Onset** 1d4 days
+
+**Effect**
+You gain a unique Minor Motivation called a Strained Motivation, with the GM coming up with an appropriate Motivation or rolling on **Table: Strained Motivations** to determine the Motivation (alternatively, one of your existing Minor Motivations may become a Strained Motivation). You may assign Reliance Points to a Strained Motivation as if it were a normal Motivation, but another character or the GM may also invoke a character’s Strained Motivation when the character’s action would defy that motivation to give them a -1d4 penalty on a single d20 roll once per minute. A character invoking their own Strained Motivation can prevent another character invoking that same motivation for the next minute. An opponent invoking a Strained Motivation must apply a Strained Motivation’s penalty before the die roll is made
+
+**Dormancy Effect:** You gain the Strained Motivation and cannot get rid of it, although it is not considered a Strained Motivation.
+
++++ Strained Motivation, Major
+**Type** greater severance; **Save** Will DC 24; **Onset** 1d4 days
+
+**Effect**
+This functions as Minor Strained Motivation, save that the Strained Motivation is a Major Motivation rather than a Minor Motivation. When a GM invokes a Major Strained Motivation, the penalty is -1d8 rather than -1d4.
+
+**Dormancy Effect:** You gain the Strained Motivation and cannot get rid of it, although the penalty is -1d4 rather than -1d8.
+
+[[html]]
+<style>
+    * {
+    margin: 0;
+    padding: 0;
+    }
+    #container {
+    width: 90%;
+    margin: 90px auto;
+    padding: 10px;
+    border: 1px solid #606060;
+    }
+    .alignleft {
+    float: left;
+    }
+    .alignright {
+    float: right;
+    }
+</style>
+<div id="container">
+    <p class="alignjustify" id="randomResult">&nbsp;</p>
+    <button class="alignleft" id="button">Strained Motivation</button>
+    <div style="clear: both;"></div>
+</div>
+<script>
+    function randString(){
+        return stringArray[~~(rand()*stringArray.length)];
+    }
+    function randText(){
+        var tx = randString();
+        var txt = document.createTextNode(tx);
+        var sp = document.createElement('span');
+        sp.appendChild(txt);
+        randomResult.innerHTML = '';
+        randomResult.appendChild(sp);
+    }
+    rand = Math.random;
+    stringArray = ['1: Fear of the dark', '2: Driven to take dangerous risks', '3: Uncomfortable being seen', '4: Fear of a specific creature or person', '5: Determined to keep something or someone safe', '6: Fear of blood/gore', '7: Contempt for comfort and leisure', '8: Fear of cramped spaces', '9: Fear of isolation', '10: Hunger for violence', '11: Fear of a specific type of magic', '12: Uncomfortable in large crowds', '13: Fear of death', '14: Fear of helplessness', '15: Driven to find an answer to a specific question', '16: Obsessed with vengeance against somebody', '17: Struggles to trust your allies', '18: Obliged to placate some malevolent entity', '19: Driven to destroy all knowledge of something', '20: Obsessed with amassing personal power'];
+    randomResult = document.getElementById('randomResult');
+    document.getElementById("button").addEventListener('click',randText,false);
+</script>
+[[/html]]
+
++++ Table: Strained Motivations
+||~ D20 result ||~ Motivation ||
+|| 1 || Fear of the dark ||
+|| 2 || Driven to take dangerous risks ||
+|| 3 || Uncomfortable being seen ||
+|| 4 || Fear of a specific creature or person ||
+|| 5 || Determined to keep something or someone safe ||
+|| 6 || Fear of blood/gore ||
+|| 7 || Contempt for comfort and leisure ||
+|| 8 || Fear of cramped spaces ||
+|| 9 || Fear of isolation ||
+|| 10 || Hunger for violence ||
+|| 11 || Fear of a specific type of magic ||
+|| 12 || Uncomfortable in large crowds ||
+|| 13 || Fear of death ||
+|| 14 || Fear of helplessness ||
+|| 15 || Driven to find an answer to a specific question ||
+|| 16 || Obsessed with vengeance against somebody ||
+|| 17 || Struggles to trust your allies ||
+|| 18 || Obliged to placate some malevolent entity ||
+|| 19 || Driven to destroy all knowledge of something ||
+|| 20 || Obsessed with amassing personal power ||
+
++ Reliance Feats
+The feats below marked as (Reliance) feats utilize Reliance Points
+
++++ Desperate Dedication (Reliance)
+**Benefits:** Whenever you roll a Reliance Die while invoking a Strained Motivation, you may reroll any Reliance Die result of a 1 or 2.
+
+**Special:** If you possess the Unsettling Casting drawback, you may select this feat as a drawback feat
+
++++ Desperate Vitality (Reliance)
+**Benefits:** Whenever you use a spell, sphere ability, or class feature such as channel energy to heal a creature, you may invoke a motivation and spend three Reliance Points to add your Reliance Die to the amount healed for a single creature.
+
++++ Determined Channeling (Channeling) (Reliance)
+**Prerequisites:** Channel Energy class feature
+
+**Benefits:** You may invoke a motivation and spend three Reliance Points in place of spending a use of Channel Energy
+
++++ Determined Investigator (Reliance)
+**Prerequisites:** Inspiration class feature
+
+**Benefits:** You may invoke a motivation and spend three Reliance Points in place of spending a use of Inspiration.
+
++++ Impassioned Aid (Reliance)
+^^**Source:** Baron’s Secluded Library^^
+
+**Benefits:** Whenever you add your Reliance Die on a roll to aid another, you may reduce your aid another bonus by 2 to add your Reliance Die result to your aid another bonus. 
+
++++ Incredible Conviction (Reliance)
+**Benefits:** Whenever you roll your Reliance Die for a Major Motivation, use a d12 rather than a d8.
+
++++ Keep Holding Out (Reliance)
+**Benefits:** You may invoke a motivation and spend three Reliance Points to add your Reliance Die to a saving throw.
+
++++ Make Them Fall (Reliance)
+**Benefits:** Whenever you add your Reliance Die to an attack roll, add the result to the damage roll.
+
++++ Motivated Momentum (Reliance)
+**Prerequisites:** War Sphere
+
+**Benefits:** Allies within 30 feet of you may spend Reliance Points as if they were momentum points.
+
++++ Not Giving Up Yet (Reliance)
+**Benefits:** As a free action, you may invoke a motivation and spend three Reliance Points to gain temporary hit points equal to your Reliance Die. These temporary hit points last for 1 round.
+
++++ Passion-Driven Magic (Reliance)
+**Benefits:** You may invoke a motivation and spend three Reliance Points to add your Reliance Die to a caster level check to bypass spell resistance. If you have 0 spell points remaining, you may invoke a motivation and spend 6 Reliance Points to gain temporary spell points equal to your Reliance Die result. These temporary spell points last for 1 round.
+
++++ Strike from the Heart (Reliance)
+^^**Source:** Baron’s Secluded Library^^
+
+**Prerequisite:** Knowledge of at least one technique.
+**Benefits:** You may pay for your techniques’ complexity using Reliance Points. Every 5 Reliance Points spent pays for 1 point of complexity.
+[[/tab]]
+[[/tabview]]
+
+[[include sog-template]]

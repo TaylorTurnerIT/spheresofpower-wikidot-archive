@@ -1,0 +1,878 @@
+title:Creation
+parent:spheres-of-power
+[[module CSS]]
+.noselect {
+  -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+ 	-khtml-user-select: none; /* Konqueror HTML */
+   	-moz-user-select: none; /* Firefox */
+    	-ms-user-select: none; /* Internet Explorer/Edge */
+        	user-select: none; /* Non-prefixed version, currently
+                              	supported by Chrome and Opera */
+}
+[[/module]]
+
+[[module CSS]]
+.colored-links span > a {
+  color: inherit;
+}
+[[/module]]
+
+[[toc]]
+
+[[tabview]]
+[[tab Ultimate]]
+[[div class="noselect" style="float:right; width: 20%; padding: 0 2%"]]
+[[=]]
+[[image http://spheresofpower.wikidot.com/local--files/test-page/UltimateSpheresofPower.jpg link="https://www.drivethrurpg.com/product/300249/Ultimate-Spheres-of-Power?affiliate_id=549120"]]
+**Ultimate Spheres of Power**
+$29.99
+----
+[[/=]]
+[[/div]]You may alter and create physical materials.
+
+++ Alter
+Altering an object is a standard action and requires you to touch the object to be altered. Alter is subject to spell resistance. You cannot alter an animate target (such as a golem or animated object) and the object must be non-magical and unattended (not held, worn, or part of a creature’s equipment). While some talents may affect these limitations, artifacts can never be altered.
+
+When you gain the Creation sphere, you may alter objects in the following ways:
+[[div style="padding: 0 10px; border: 1px solid black; margin-top: 5px"]]
+++++ Destroy
+You deal damage to the object equal to 1d4 + 1/2 your caster level. This bypasses all hardness. An object reduced to less than half its hit points gains the broken condition.
+[[/div]]
+[[div style="padding: 0 10px; border: 1px solid black; margin-top: 5px"]]
+++++ Repair
+You may repair a damaged object, healing it for a number of hit points equal to 1d4 + 1/2 your caster level. If the object has the broken condition, this condition is removed if the object is restored to at least half its original hit points.
+
+This ability cannot restore warped or transmuted items, but it can still repair damage done to such items.
+[[/div]]
+++ Create
+As a standard action, you may spend a spell point to create a non-magical, unattended object out of vegetable matter such as wood, hemp, or cotton in either your hand or an adjacent square. You may create objects with multiple materials, provided you can create all the materials required. Adamantine cannot be altered or created, except for the Repair and Destroy abilities. The object may be of equivalent size to one Small object per caster level (see chart below) and lasts as long as you continue to concentrate, to a maximum of 1 minute per caster level. When creating an object you may spend an additional spell point to allow that object to persist for 1 minute per caster level without concentration. A created object may be dismissed as a standard action.
+
+If the created object is especially large, it must begin in an adjacent square and must be completely contained within close range. You may choose to create objects that can be moved easily, or can create objects that are anchored to an unattended surface large enough to hold that part of the object (such as a bridge being anchored to both sides of a gap, or a wall growing out of the ground). You cannot create an object directly onto a creature or attended object (summoning manacles onto someone’s wrists, etc.).
+
+When attempting to break an object that does not have a predetermined Break DC, the Break DC is equal to 10 + the object’s hardness +1 per inch in the item’s thickness. For example, a 2-inch thick stone wall would have a Break DC of 10 + 8 hardness + 2 inches, or DC 20.
+
+Generally speaking, you cannot create alchemical items, poisons, materials that deal damage on contact or items that carry special properties or knowledge you do not possess (rare herbs, the key to a lock you did not construct, etc.). While simple objects such as candles, folds of cloth, simple furniture, or basic weapons are easy to create; particularly complex objects (mechanics, crossbows, objects with moving parts) require a Craft check made against the object’s Craft DC. Likewise, non-magical common herbs can be created through a successful Knowledge (Nature) check, such as wolfsbane or the night tea plant. For herbs and items with no predetermined Craft DC, the check DC is assumed to be equal to 10 +1 per 5 gp in the item’s cost, though any items with a DC above 15 cannot be made. Failure means the object comes into being broken and unusable, or otherwise incorrect.
+
+A DC 15 Appraise check reveals the object as a magical fake. Fabricated objects have a lingering magical aura that can be detected as magic, although the objects themselves are not magical.
+
+**Table: Object Materials**
+||~ Substance ||~ Hardness ||~ Hit Points ||
+|| Glass || 1 || 1/in. of thickness ||
+|| Paper or cloth || 0 || 2/in. of thickness ||
+|| Rope || 0 || 2/in. of thickness ||
+|| Ice || 0 || 3/in. of thickness ||
+|| Leather or hide || 2 || 5/in. of thickness ||
+|| Wood || 5 || 10/in. of thickness ||
+|| Stone || 8 || 15/in. of thickness ||
+|| Iron or steel || 10 || 30/in. of thickness ||
+|| Mithral || 15 || 30/in. of thickness ||
+|| Adamantine || 20 || 40/in. of thickness ||
+
+**Table: Object Size**
+||~ Object Size ||~ Minimum Caster level (number of Small objects contained) ||~ Example Objects ||~ Maximum Weight (lbs.) ||~ Falling Damage (to both object and target) ||
+|| Small || 1 || Chair || 25 || 1d6 ||
+|| Medium || 2 || Table || 125 || 1d8 ||
+|| Large || 4 || Statue || 625 || 2d6 ||
+|| Huge || 8 || Wagon || 3,125 || 3d6 ||
+|| Gargantuan || 16 || Catapult || 15,625 || 4d6 ||
+|| Colossal || 32 || Ship || 78,125 || 5d6 ||
+|| Colossal+ || 64 || Tavern || 390,625 || 6d6 ||
+^^**Author's Note:** The maximum weight table is intended to help when approximating created objects by weight and not volume (number of Small objects).^^
+
+**Table: Weapon Sizes**
+||~ Weapon Type ||~ Size Adjustment (From Size of Intended Wielder) ||
+|| Shuriken, needles, etc. || Four sizes smaller ||
+|| Ammunition, daggers || Three sizes smaller ||
+|| Light weapons || Two sizes smaller ||
+|| One-handed weapons || One size smaller ||
+|| Two-handed weapons || Same size ||
+
++++ Clarifications
+There are dozens of ways a created object can interact with the world, and many of the details of those interactions are determined by the GM. The following notes, however, include clarifications about various types of created objects.
+[[div style="padding: 0 10px; border: 1px solid black; margin-top: 5px"]]
+++++ Falling Objects
+Objects that fall upon characters deal falling damage based on their size according to Table: Object Size.
+
+Objects made of stone or harder substances deal double falling damage, while soft object such as cloth deal half falling damage. An object falling less than 30 feet also deals half falling damage, while an object falling more than 150 feet deals double falling damage. These multipliers stack; a stone object falling 150 feet would deal x4 damage, while a cloth object falling 20 feet would deal 1/4th damage. A falling object takes the same amount of falling damage as it deals, and no falling object can deal more than 20d6 falling damage. Additional damage, such as through enhancements, acid coatings, etc., is not multiplied or divided by hardness or falling distance.
+
+Dropping an object on a creature is considered an attack with a ranged weapon with a range increment of 20 feet. This distance is measured from the object’s starting point to the target’s square, rather than the distance between you and the target. When making an attack roll with a falling object, use your Intelligence instead of your Dexterity when calculating your attack bonus.
+
+When dropping an object on a target that is larger than the dropped object, make an attack roll against their AC. This is similar to a weapon attack. When dropping an object that is the same size or larger than the target, make an attack roll against their touch AC. This is similar to using an indirect-fire siege weapon, and carries some additional rules:
+
+When using a Large or larger object like an indirect-fire siege weapon, the object targets a creature in a square, but also deals half its falling damage as splash damage to additional creatures within 5 feet + 5 feet per size category above Large of the object being dropped.
+
+When using a dropped object of Medium size or larger like an indirect-fire siege engine, you may target a grid intersection instead of a creature like you can with a splash weapon, in which case direct damage is not dealt and splash damage (if any) affects creatures as normal. Also, like a splash weapon, if you miss with a dropped object, the object veers off course one space per range increment. Roll a d8 to determine the direction in which the object veered off-course, just as with a splash weapon.
+
+A dropped, hard, non-wall/covering object larger than the creatures underneath it will push creatures out of the area where it fell to the nearest unoccupied spaces, while objects the same size or smaller would themselves move to the nearest unoccupied spaces. Walls and coverings larger than the objects underneath them function as catches, described below.
+
+A dropped soft non-covering object, such as a large bundle of cloth, that is larger than the creatures underneath it neither moves creatures nor becomes a catch, and instead forces the targets to pass a Reflex save or be knocked prone and buried underneath the object itself.
+[[/div]]
+[[div style="padding: 0 10px; border: 1px solid black; margin-top: 5px"]]
+++++ Falling Weapons
+Weapons deal their normal damage instead of their object size damage when dropped on a target and their damage is not multiplied for hardness, although it is still multiplied for distance. Falling weapons are never treated as indirect siege weapons, and always target AC rather than touch AC. Dropping a giant spike is the same as dropping a greatsword.
+[[/div]]
+[[div style="padding: 0 10px; border: 1px solid black; margin-top: 5px"]]
+++++ Buried
+When a target is buried in material, such as from large cloth objects as mentioned above, they suffer 1d6 points of nonlethal damage per minute while buried, which becomes lethal damage when their nonlethal damage equals their hit points. A creature may clear material equal to five times their heavy load limit per minute, or per 30 seconds if using an appropriate tool such as a pick, crowbar, or shovel. The amount of stone or heavier material that fills a 5-foot-by-5-foot area weighs about 1 ton (2,000 pounds), with wood and softer materials such as cloth weight half that amount. A buried character cannot unbury itself, but may attempt to free itself with a Strength check or Escape Artist check against a DC equal to 5 + the Reflex save DC they failed that buried them.
+[[/div]]
+[[div style="padding: 0 10px; border: 1px solid black; margin-top: 5px"]]
+++++ Walls and Coverings
+When creating walls, coverings, or other objects that are particularly thin but cover a large area, a section of 20-foot-by-20-foot cloth is considered a Small object (1 hit point), while a wall 10-foot-by-10-foot and 1 inch thick counts as a Small object. Adding spikes or other such decorations to a 10-foot-by-10-foot wall makes it count as a Medium object, and doubling the thickness of a wall or covering counts as doubling its size. When dropping a wall or covering onto an area, damage is dealt to all spaces the wall or covering strikes, but damage is determined by the thickness, rather than the overall size, of the object (dropping a spikeless wall 1-inch thick onto a target counts as striking them with a Small object, no matter how large the wall may actually be in total). Additionally, you cannot target specific creatures with a wall or covering; only splash damage can be dealt over the affected area. Coverings made of soft materials such as cloth dropped less than 30 feet do not deal damage.
+[[/div]]
+[[div style="padding: 0 10px; border: 1px solid black; margin-top: 5px"]]
+++++ Spikes and Hazardous Ground
+You may create spikes on an object or the ground that deal damage to targets who run into or pass over them. If a target is pushed onto spikes (such as through a successful bull rush) or steps onto them, make a touch attack roll against the target using your caster level as your attack bonus. If successful, the target suffers piercing damage equal to your caster level (minimum 1) and has its land speed reduced by half if the wound was administered to its feet. This movement penalty lasts for 24 hours or until the creature is treated with a DC 15 Heal check or receives at least 1 point of fast healing/magical healing/regeneration. A charging or running creature must immediately stop if it enters an area covered in spikes. A creature may move at half speed through this area without risking damage to itself. Spikes added to a dropped object do not increase the damage of the falling object, though spikes added to a wall count as increasing its size as mentioned above.
+
+When placing spikes or any other form of hazardous terrain directly underneath a target, they are allowed a Reflex saving throw. Success means they suffer no effect from the hazardous terrain in that square until the end of their next turn. Attempting to move into or through such hazardous squares affects the target normally. It is also possible, through certain talents, to create other forms of hazardous terrain, such as grease, ice, acid, or other materials. Hazardous terrain created in this fashion functions as normal for its kind.
+[[/div]]
+[[div style="padding: 0 10px; border: 1px solid black; margin-top: 5px"]]
+++++ Catches, Nets, and Cages
+A catch is any wall or covering larger than the target underneath it that is dropped on a target and then rests on top of them to impede their movement. A net is a catch made from cloth, rope, chains, or other pliable materials that is the same size as the target underneath it. A cage is a wall or covering that is wrapped around a target so as to impede their movement without dealing falling damage first.
+
+A net functions the same as the exotic weapon of the same name. A catch is similar to a net in that targets underneath it are entangled, but escaping a catch is as easy as moving out from underneath it, in addition to breaking it through dealing damage or making a Strength check.
+
+Cages, on the other hand, do not deal damage, but are also much harder to escape. While it is possible to box someone in with walls and a ceiling, if those walls are not at least 10 feet away from the target on all sides, the target is allowed a Reflex save to immediately move to the nearest unoccupied space on the outside of the cages. Creating a cage 1-inch thick that occupies the same space as a creature is considered the same as creating an object one size larger than the target creature. No matter how small a cage might be, a target may always make attack rolls and Strength checks unimpeded against any cage created around them (with the usual DC of 10 + the object’s Hardness +1 per inch in the item’s thickness), though the inside may be covered in spikes as a wall at the usual cost of increasing its effective size (or be coated in acid or other harmful materials if you possess the appropriate talents) to discourage such attacks and checks. Targets are not damaged by the material unless they make such attacks or checks.
+[[/div]]
++++ Creation Talent Types
+Some Creation talents are designated (alter) talents. These grant you new ways to alter objects.
+
+++++ Material
+Some Creation talents are designated (material) talents. These talents expand the list of the types of materials that can be altered or created.
+----
+++ Creation Talents
+[[div style="padding: 0 10px; border: 1px solid black; margin-top: 5px"]]
+++++ Altering Burst
+You may alter all unattended non-magical objects in a 10-foot radius around yourself. You may only affect objects half the size of your usual maximum. If you spend a spell point, you may alter objects up to your normal size limitation as per your caster level and increase the radius to 20 feet. You may choose any number of materials that you can create within this area to be affected. (For example, you may choose to Destroy a stone wall while leaving the wooden dresser resting against it unharmed.)
+
+If you possess Distant Creation, you may center this effect anywhere within range. If you possess Potent Alteration, when spending a spell point to alter bigger objects in a larger area, you may alter up to one attended and/or magical object for every 4 caster levels you possess that remains within the size limitations of the effect in addition to other objects in the area.
+[[/div]]
+[[div style="padding: 0 10px; border: 1px solid black; margin-top: 5px"]]
+++++ Created Momentum
+When creating an object and dropping it on a target at the same time, the falling object never deals half damage for distance, no matter how short the fall, and only needs to fall 75 feet to deal double damage. Additionally, you may create an object and hurl it sideways or even upwards, making attacks with it in a manner similar to a projectile ranged weapon. When used in this way the weapon does not deal increased damage for distance fallen, but has a range increment of 40 feet when determining range penalties, determined from the location where it is created. If it is created adjacent to yourself, you may use Dexterity instead of Intelligence as normal when calculating your ranged attack bonus.
+[[/div]]
+[[div style="padding: 0 10px; border: 1px solid black; margin-top: 5px"]]
+++++ Distant Creation [range]
+When you create an object, you may create the object anywhere within close range, and the object needs to be completely contained within medium range. When you alter a target, you may do so with a ranged touch attack with a maximum range of close. You may select this talent multiple times. Each time it is taken, increase all of these ranges by 1 step (close to medium, medium to long).
+[[/div]]
+[[div style="padding: 0 10px; border: 1px solid black; margin-top: 5px"]]
+++++ Divided Creation [mass]
+When creating an object, you may instead create multiple objects within range. Each created object must be of the same general type (suits of armor, wall sections, catapults, etc.), and the total size of all created objects cannot exceed your maximum creation size. Alternatively, you may create a single ‘object’ that would normally consist of a multitude of parts (i.e., if creating a tavern with this talent, it would appear with chairs, beds, barrels, etc.).
+
+Just as two Small objects counts as a Medium object and two Medium objects counts as a Large object, two Tiny objects count as a Small object, two Diminutive objects count as a Tiny object, etc. You may drop multiple objects as an attack, but each object must target a different square (up to 4 objects that are Tiny or smaller can target a single square, but any attack roll is done once for each object). A creature may be targeted only by as many falling objects as could target any square or squares the creature occupies.
+
+Alternatively, you may attempt to drop enough small objects to bury a target, creating a cave-in or a similar effect on top of them. This deals damage as normal for a single falling object of whatever material is chosen, but also has the chance of burying the target as if the dropped material were a soft material such as cloth.
+
+**Author's Note:** Creation sphere can target larger creatures with more objects than smaller ones, but this has always been viewed as an abuse of the sphere's effects for the "sake of realism". GMs should heavily consider limiting the number of objects which can target a single creature to 4 objects, regardless of the creatures actual size. Larger creatures should not be taking unusually larger amounts of damage than a smaller foe would under the same circumstances.
+
+GMs may consider allowing Creation sphere to use the rules as written use of Divided Creation, but treat the interaction as though it were an advanced talent, understanding that allowing this interaction greatly increases Creation sphere's damage against a single large target.
+[[/div]]
+[[div style="padding: 0 10px; border: 1px solid black; margin-top: 5px"]]
+++++ Exquisite Detail [utility]
+Items you create are more intricate, and much harder to identify as fakes. The DC 15 limitation on how high skill checks can reach is removed, allowing you to attempt skill checks of any difficulty. When making skill checks to create especially expensive and difficult objects you may use your casting ability modifier in place of your Intelligence for the Craft check, and the DC becomes 10 + 1 per 5 gp in its cost to a maximum of 50 gp, or DC 20 + 1 per 200 gp in its cost if its cost is above 50 gp.
+
+Additionally, you may add your caster level to the Appraise DC required to detect objects you create as magical fakes. Those attempting to detect magic on your created objects must attempt a magic skill check to detect any lingering creation auras.
+[[/div]]
+[[div style="padding: 0 10px; border: 1px solid black; margin-top: 5px"]]
+++++ Instill Alteration [instill]
+As a standard action you may touch a small container of liquid and instill an alter effect inside it, which functions as an oil. Effects that do not cost a spell point have their cost increased to 1 spell point when used in this manner.
+
+An instilled liquid remains potent until you rest to regain spell points. If you have equipment on hand (such as an alchemy lab), the cost of bottles and water is considered negligible.
+
+You may target food but not an already-magical item, such as a potion. All spell points must be spent and all variables of the sphere effect must be chosen at the time the instilled liquid is created. You cannot instill multiple effects in a single liquid, nor create multiple instilled liquids with a single action.
+[[/div]]
+[[div style="padding: 0 10px; border: 1px solid black; margin-top: 5px"]]
+++++ Larger Creation
+You may spend an additional spell point when altering or creating an object to double the size, letting you alter or create up to the equivalent of 2 Small objects (1 Medium object) per caster level.
+[[/div]]
+[[div style="padding: 0 10px; border: 1px solid black; margin-top: 5px"]]
+++++ Lengthened Creation
+When you alter or create an object, you may spend a spell point to make the object or effect remain for 1 hour per caster level without concentration.
+[[/div]]
+[[div style="padding: 0 10px; border: 1px solid black; margin-top: 5px"]]
+++++ Mass Liquid Generation
+You may create water even if you do not possess Expanded Materials.
+
+When attempting to create a liquid, you can treat 5 cubic feet as a Small object. By spending an additional spell point when using create to fill an area with a non-harmful liquid, you may instead treat a full 5-foot cube (125 cubic feet) as a Small object.
+[[/div]]
+[[div style="padding: 0 10px; border: 1px solid black; margin-top: 5px"]]
+++++ Potent Alteration
+Increase the amount of damage dealt or damage healed when you use your Destroy or Repair ability to 1d6 + your caster level.
+
+When altering an object, you may spend an additional spell point to affect magical objects, attended objects, or constructs. While this means you may Repair damaged or destroyed magical items, you cannot restore the magic to such an object unless your caster level is at least equal to the item’s caster level. Items with charges (such as wands) and single-use items (such as potions and scrolls) cannot be Repaired in this way.
+
+If used against an attended object, this requires a touch attack, and the creature attending the object can attempt a Will save to negate. If used against an animate object, this is a touch attack but does not grant a saving throw. If the object or object’s wielder is unwilling, they are also allowed a Fortitude save to halve the damage (in the case of Destroy) or otherwise negate the effect.
+[[/div]]
+[[div style="padding: 0 10px; border: 1px solid black; margin-top: 5px"]]
+++++ Practiced Creation
+You may increase the casting time of any create effect by 1 step to reduce the spell point cost by 1 (to a minimum of 0). An object created through Practiced Creation can only be maintained through concentration.
+[[/div]]
+[[div style="padding: 0 10px; border: 1px solid black; margin-top: 5px"]]
+++++ Precise Destruction [utility]
+When using your Destroy alter ability, you may target the moving components of a lock in lieu of targeting the whole lock, allowing you to disable it without destroying the entire device. When attempting to disable a complex device or lock you may attempt Disable Device checks as if it was a class skill using your caster level in place of skill ranks and your casting ability modifier in place of Dexterity. Doing so requires a standard action, regardless of how long a typical Disable Device check would take. If you possess Potent Alteration you may spend a spell point to disarm magical traps.
+[[/div]]
+[[div style="padding: 0 10px; border: 1px solid black; margin-top: 5px"]]
+++++ Replication
+By spending an additional spell point when you create an object less than half of your maximum size, you may delay your creation so that rather than create a single object once, it creates a multitude of identical objects over time. The total size of all created objects cannot exceed double your create maximum size. You must set a parameter when this effect is created for when and where within range the items are created; (for example, creating a new arrow in a quiver whenever the previous arrow is removed, or dropping a new anvil each round onto a target location, determined at the time of casting). This continues for the duration of the create effect or until the maximum size (or another non-standard limit) has been reached, whichever comes first. A replication effect cannot create more than 1/4th of its maximum size in a single round, and cannot drop items on or encase a single target multiple times in the same round. Using this talent allows the create effect to persist for 1 minute per caster level without concentration at no additional cost.
+[[/div]]
+[[div style="padding: 0 10px; border: 1px solid black; margin-top: 5px"]]
+++++ Restrictive Casing
+When attempting to create a cage that occupies the same space as a creature, you may spend an additional spell point to create a full-body confinement cage. Treat a 1-inch thick cage created in this fashion as an object the same size as the creature. The target may still breathe and may still attempt Strength checks to escape, but are otherwise unable to attack the cage or take any action which requires physical movement. If spikes or harmful materials are applied to the inside of such a full-body confinement cage, the target suffers damage each round they remain inside the cage.
+
+Additionally, you may create non-harmful objects directly on a creature. An unwilling target is always entitled a Reflex save to avoid having an object created directly on them, causing the object to fall harmlessly to the ground. (For example, you may create manacles on a target’s wrists, but if they succeed at a Reflex save the manacles miss and fall to the ground.) When using this talent, create becomes subject to spell resistance.
+[[/div]]
+[[div style="padding: 0 10px; border: 1px solid black; margin-top: 5px"]]
+++++ Transmuting Strike [strike] [3PP]
+^^**Source:** Expanded Spheres: Baron's Lost Apocrypha^^
+
+As a standard action, you may make a single weapon attack in conjunction with using an alter effect. This casting cannot be reduced below a standard action, and does not provoke attacks of opportunity, unless as usual if making a ranged attack. If the target is struck by the attack, it is also affected by the alter. If using a scatter weapon, the alter only applies to a single target, chosen at the time of attack.
+[[/div]]
+----
+++ Alter Talents
+[[div style="padding: 0 10px; border: 1px solid black; margin-top: 5px"]]
+++++ Change Material (alter)
+You may spend a spell point to alter an object, changing its composition from one material to another for 1 round per caster level. Both the material you are affecting and the material you are changing it into must be materials you can create (i.e., you must possess the Expanded Materials talent to work with objects other than vegetable matter) and the object cannot exceed your maximum creation size, although you may target part of an object (such as a section of wall). When the duration expires, the object returns to its normal material, although any damage sustained while altered remains after it returns to its original material.
+
+**Wiki Note:** Change Material cannot change states of matter. The State Shift advanced talent is required to change solids into liquids, etc.
+[[/div]]
+[[div style="padding: 0 10px; border: 1px solid black; margin-top: 5px"]]
+++++ Crack (alter) [Apoc]
+^^**Source:** [https://www.drivethrurpg.com/product/319742/Spheres-Apocrypha-Debilitating-Talents-2?affiliate_id=549120 Spheres Apocrypha: Debilitating Talents 2]^^
+
+You may spend a spell point to disrupt the ground around you. This is an instantaneous effect, and cannot be dispelled once finished. You can only affect materials you can create (i.e., you must possess the Expanded Materials talent to work with materials other than vegetable matter). You cause terrain in a 10-foot radius to suddenly crack and break, making the squares difficult terrain. This radius increases by 5 feet per 5 caster levels. A square can be cleared as a standard action, which provokes an attack of opportunity, or repaired with a spell or effect such as the Repair ability of the Creation sphere to no longer be difficult terrain. If a square would be made of a mineral (stone, metals, gems, etc.), the radius you may affect is reduced by half.
+
+If you possess Distant Creation, you may center this effect anywhere within range.
+[[/div]]
+[[div style="padding: 0 10px; border: 1px solid black; margin-top: 5px"]]
+++++ Forge (alter)
+You may spend a spell point to shape material. This is an instantaneous effect, as you are literally changing the shape of the material in question (i.e., it has no duration, and cannot be dispelled once finished). You can only affect materials you can create (i.e., you must possess the Expanded Materials talent to work with materials other than vegetable matter), and you may only make crude changes such as forming walls, trenches, doors, coffers and other basic shapes. Detailed work (such as forging armor) is not possible, and there is a 30% chance that anything with moving parts simply does not work. You may affect targets up to your normal creation size, but when working with a mineral (stone, metals, gems, etc.) the size you may affect is reduced by half.
+[[/div]]
+[[div style="padding: 0 10px; border: 1px solid black; margin-top: 5px"]]
+++++ Magnify/Minimize (alter)
+You may alter an object’s size for 1 minute per caster level. When using alter you may cause any object you may affect to increase or decrease by 1 size category. This doubles or halves the object’s height and width and multiplies or divides its weight by 8.
+
+By spending a spell point, you can increase the number of steps you may enlarge or shrink an object by 1 + 1 per 5 caster levels (to a maximum of Colossal and a minimum of Fine). Effects which depend upon a target object’s size which would not function due to size alterations are automatically suppressed, continuing to count down their duration as normal, when the object no longer meets the size requirements.
+
+Worn items affected by Magnify/Minimize impede their wearer. Magical armor and clothing made too large or small make movement difficult and treat the wearer as if they were encumbered with a heavy load. Non-magical worn equipment made too small forces the wearer to attempt a Strength check (with a +2 bonus per size category change of the equipment) against the Break DC of the object. Success destroys the object while failure results in encumbrance as if it was a magical item. Non-magical equipment made too large may encumber the target or simply fall to the ground if made 2 or more sizes too large. Other effects of similar severity may occur at the GM’s discretion.
+
+If cast on a qualifying creature using Potent Alteration, the target creature gains the same adjustments as if the Size Change Alteration talent had been used on them to adjust them to the target size.
+[[/div]]
+[[div style="padding: 0 10px; border: 1px solid black; margin-top: 5px"]]
+++++ Rigidity (alter)
+You can spend one spell point to manipulate how rigid an object is. You cannot alter an object that is larger than you can create and the normal restrictions apply. This talent has no effect on gases or liquids, or creatures without hardness as a defensive ability.
+
+Increasing an object’s rigidity improves its hardness by up to 1 per two caster levels (minimum +1), but decreases its hit points by 2 per inch per point of hardness increase, as the object’s structure becomes harder, but is in turn more prone to shattering. Objects cannot be reduced to less than 1 hit point (walls cannot have less than 1 hit point/inch of thickness), and the bonuses to hardness stop when the minimum amount of hit points is reached.
+
+Decreasing an object’s rigidity lowers its hardness by up to 1 per 2 caster levels (minimum -1), but increases its hit points by 2 per inch per point of hardness lost, as the object’s structure becomes more flexible, but it is no longer as able to resist damage as the original. Objects cannot be reduced to a hardness lower than 0, and the bonuses to hit points stop when the minimum hardness is reached. This effect lasts for one minute per caster level.
+
+If you possess Lengthened Creation you may use it to extend the duration as normal. You may affect a created object with rigidity with the same action used to create the object.
+[[/div]]
+[[div style="padding: 0 10px; border: 1px solid black; margin-top: 5px"]]
+++++ Transparency (alter) [utility]
+You may convert any material into a more transparent version of itself as long as you concentrate for up to 1 minute per caster level, but you may always spend a spell point to allow the effect to remain without concentration for its maximum duration.
+
+This does not affect the object’s composition, hardness, or have any effect other than offer a clear view through the object. The object may be of any size of which you can create or, if larger, may be as large as a two square feet per caster level that can penetrate up to 1 foot of material per caster level.
+
+You may choose to affect the object’s opacity in a way that allows peering through an object while remaining unobserved from the other side. When used in this way, Perception checks through the object suffer a -4 penalty, but it requires a DC 15 Perception check to notice that the object is see-through from the other side. If you possess Exquisite Detail, the penalty to Perception decreases to -2 and the Perception DC to notice that the object is transparent increases by your caster level. If you possess Lengthened Creation you may use it to extend the duration as normal. You may affect a created object with transparency with the same action used to create the object.
+[[/div]]
+----
+++ Material Talents
+[[div style="padding: 0 10px; border: 1px solid black; margin-top: 5px"]]
+++++ Acidic Creation (material)
+By spending an additional spell point when you create an object, you may work with material with basic acidic properties. You may create acidic liquids (3 cubic feet equals a Small object, and is enough to cover a 5-foot square).
+
+If used to coat an object, this deals 1d6 acid damage per round to any target that is touching the object. If used to coat the ground, this counts as a form of hazardous terrain, and deals 1d6 acid damage per 5 feet of movement a creature makes across the affected ground. If applied to an object that is dropped on a target or used to make attacks, this deals +1d6 acid damage. You may coat an object in acid with the same action used to create that object.
+
+When creating acid, you may attempt to spray or drop the acid in a way that covers a target. Attempting to cover a target in acid requires acid equal to the target’s size, or double if you wish to spray both the target and cover the ground underneath it. Targets may attempt a Reflex save to avoid being covered in acid, and if they fail, suffer 1d6 acid damage +1d6 per 2 caster levels, per round. Targets may attempt one new Reflex save every round as a move action to clean away the acid and end the effect. They may also clear away the acid as a full-round action that provokes an attack of opportunity without requiring a saving throw.
+
+Acid loses its potency and deals only minimum damage after 1 round per caster level. If you possess Lengthened Creation, this improves to 10 minutes per caster level.
+
+If you possess Gaseous Generation you may create acidic gases. These follow the rules of Gaseous Generation for determining volume, but at half the normal size. This acidic gas deals 1d6 acid damage per round, and an additional 1d6 damage for every four caster levels beyond 1st. When an acidic gas loses its potency it is dispersed entirely.
+[[/div]]
+[[div style="padding: 0 10px; border: 1px solid black; margin-top: 5px"]]
+++++ Alchemical Creation (material)
+You may create items that require processing, such as alchemical items and poisons. You may spend 1 spell point to create an alchemical item or poison worth up to 25 gp per caster level. This functions exactly as the normal alchemical item or poison, except that any DC is 10 + your casting ability modifier + 1/2 your caster level and any hit point damage it deals is increased by your casting ability modifier. These alchemical items or poisons remain for the normal duration of a created object, at which point they disappear as usual (but any effects inflicted on creatures or objects remain). You may also alter mundane alchemical items or poisons up to a maximum value of 25 gp per caster level, enhancing their potency in the same way for the normal duration, at which point the items return to their normal damage and saving throw DC. This does not stack with other effects that increase the item’s DC.
+
+At 5th caster level and every 5 caster levels thereafter, the total value you may alter or create increases by an additional 25 gp per caster level, according to Table: Alchemical Creation.
+
+If you possess Divided Creation, you may create any number of alchemical items or poisons whose total value is no more than half the maximum value you may create and whose total size is less than or equal to your maximum size (with each alchemical item or poison counting as a Small object), but only one object created this way increases its saving throw DC and damage. All others retain their base, non-magical statistics.
+
+If you possess Plasma Production, then any time you create an alchemical weapon that includes a fuse as the method of activating it (such as with a fuse grenade and its variants, or fireworks), you may create it with the fuse pre-lit. This allows you to treat the weapon as if you had used it as provided in its description. (For example, creating a fuse grenade with this option causes the grenade to explode in 1d4 rounds.) You cannot create or alter poisons or formulae from the Alchemy sphere (see Spheres of Might), as those mixtures are simply too unstable.
+
+**Table: Alchemical Creation**
+||~ Caster Level ||~ Max GP ||~ Caster Level ||~ Max GP ||~ Caster Level ||~ Max GP ||~ Caster Level ||~ Max GP ||~ Caster Level ||~ Max GP ||
+|| 1st || 25 || 5th || 250 || 9th || 450 || 13th || 975 || 17th || 1,700 ||
+|| 2nd || 50 || 6th || 300 || 10th || 750 || 14th || 1,150 || 18th || 1,800 ||
+|| 3rd || 75 || 7th || 350 || 11th || 825 || 15th || 1,500 || 19th || 1,900 ||
+|| 4th || 100 || 8th || 400 || 12th || 900 || 16th || 1,600 || 20th || 2,500 ||
+[[/div]]
+[[div style="padding: 0 10px; border: 1px solid black; margin-top: 5px"]]
+++++ Expanded Materials (material)
+When you create an object, you may work with any non-harmful material with a hardness of 5 or less, including glass, ice, or leather. You may create water (3 cubic feet equals a Small object), but not gases or flesh. As you gain caster levels, you also gain the ability to steadily make more materials, as detailed in the table below. When creating objects made from stone, gems, or metal, double the maximum weight per size category of the objects you can create.
+
+**Note:** Objects of stone or harder materials deal double damage when dropped on a target.
+
+**Slippery Ice:** You may create hazardous ground made from slick ice, as detailed under the Freeze ability from the [[[Nature]]] sphere.
+
+**Table: Rare Materials**
+||~ Caster Level ||~ Materials ||
+|| 1st || Stone ||
+|| 5th || Basic metals (copper, iron, steel) ||
+|| 10th || Precious metals (gold, silver) ||
+|| 15th || Gems, specialty metals (cold iron, mithral) ||
+[[/div]]
+[[div style="padding: 0 10px; border: 1px solid black; margin-top: 5px"]]
+++++ Gaseous Generation (material)
+By spending a spell point when you alter or create an object, you may work with gaseous materials. You may create gases or change their composition into any other known substance with Change Material. A 5-foot cube equals a Medium object. Half a cube equals a Small object, but this decreases the DC of any created gaseous effect by 2 and halves any damage from harmful gases for any creature within that space. You must have line of sight to accomplish this, and as such cannot alter the air in a creature’s lungs or other, similar situations.
+
+As you gain caster levels, you also gain the ability to make more dangerous gases as detailed in the table below. Vacuums cannot be altered or created, and gases cannot be destroyed by damaging effects. Creatures standing in a square filled with unbreathable air must hold their breath or suffer the effects of suffocation, following the normal rules for doing so.
+
+A half-filled square of non-transparent gas obscures sight beyond 10 feet. Any creature behind more than 10 feet of squares half-filled with a gas has concealment (attacks have a 20% miss chance). A square filled with a gas obscures sight beyond 5 feet. A creature within 5 feet has concealment and creatures further away have total concealment (50% miss chance and attackers cannot use sight to locate the target). If a square is filled with a condensed gas (by treating a single square as a Large object) it obscures vision as above and is difficult to move in, halving movement speed of all creatures within it as well as imposing a -2 penalty to melee attack and damage rolls, preventing normal ranged attacks (siege weapons and magic attacks function normally), and treats anyone standing in a harmful gas as if they were exposed to it twice. (For example, taking double damage from acidic vapors, or two doses of poison from poisonous fumes.)
+
+A moderate wind (11+ mph) disperses any altered or created gas in 4 rounds. A strong wind (21+ mph) disperses the gas in 1 round.
+
+**Note:** The Pathfinder Roleplaying Game is not designed to be a perfect simulation of reality, and attempting to interject real-world physics and chemistry into it is often disastrous. As such, the gases that may be altered or created have been simplified from what their real world counterparts would be. If you wish to create a more specific gas, you are encouraged to discuss the matter with your GM - its effects should not exceed those of the gases normally available at your caster level.
+
+**Table: Gaseous Generation**
+||~ Caster Level ||~ Gaseous Material ||
+|| 1st || Breathable air ||
+|| 5th || Unbreathable air, gaseous forms of non-harmful objects (for example, steam, smoke) ||
+|| 10th || Non-magical inhaled poisons (using your sphere DC rather than the standard poison DC) ||
+|| 15th || Highly flammable gases (1d6 fire damage per ignited 5-foot cube of gas to all targets within a 20-foot radius of that ignited cube, Reflex half). ||
+[[/div]]
+[[div style="padding: 0 10px; border: 1px solid black; margin-top: 5px"]]
+++++ Object Of Force (material)
+You may create solid objects made of force energy. Any solid object (such as something that could be created from wood) can be created out of force, but objects made from force have no weight (see the Lighten talent from the Enhancement sphere), however, if you choose you may ‘anchor’ an object of force, cause it to become immovable from the place it was created, even floating in the air. If broken through damage or a successful Strength check, objects of force immediately disappear. Objects of force stop the movement of incorporeal creatures and can be used to harm them and other creatures vulnerable to force effects. Objects of force possess 10 hit points per inch and a hardness equal to your caster level. An object of force can be any one color and is translucent but easily noticeable, and require no Perception check to see while imparting a -2 penalty to Perception checks to see through them. If you possess Transparency you may make the object invisible (requiring a Perception check to detect with a DC equal to 10 + their size modifier + your caster level) or entirely opaque without spending an additional spell point, chosen at the time of its creation.
+
+**Author's Note:** Creation sphere effects made with this talent have the force descriptor.
+[[/div]]
+[[div style="padding: 0 10px; border: 1px solid black; margin-top: 5px"]]
+++++ Plasma Production (material)
+You may alter or create non-magical fires with your normal limitations on size, as if it were an object. When creating objects, you may create the object already on fire. Flaming objects deal 1d6 fire damage to any creature who touches the object, such as by having it dropped on them or used as a weapon against them. You may also light the terrain on fire or summon burning materials as a form of hazardous terrain. This behaves and deals damage as a fire created by the Nature sphere instead of as normal for hazardous terrain. A fire that has insufficient fuel quickly burns itself out if not maintained through concentration.
+
+In addition, you may spend a spell point to create non-magical electricity. However, with no battery or other way to store electricity, the energy quickly dissipates. Electricity must be generated directly on a creature or object (not simply in a square) and instead of being calculated by size, is instead calculated by its charge, with 1 charge being equal to a Medium object. If used on a battery or other electrical storage object, the charges are stored safely. If used on any other creature or object, it instead deals 1d6 points of electricity damage per charge to the creature or object (Reflex negates). If the creature or object is made from a conductive material such as flesh or metal, targets touching the electrified creature or object (including touching the same body of water) are also affected, but the electricity loses 1d6 for every 10 feet the electricity must travel to reach these targets from the specific square designated as the center of the electricity (for example, if electrocuting a metal floor, all targets touching the floor would be affected, so long as they are close enough the damage is not reduced to 0).
+
+The charge deals damage again each round at the beginning of your turn, with the charge reducing by 1 each round. If affecting a creature or their attended objects, they may ground themselves or the object as a move action, harmlessly dissipating any charges that remain. Creating electricity is an instantaneous effect, and you cannot create an object charged with electricity as you can create an object on fire.
+
+Repairing plasma restores it to the size (for fire) or stored energy (for electricity) it had in the previous round. This allows a fire to retain its size indefinitely without fuel so long as it is repaired every round. Destroying a plasma reduces its size or stored energy by 1 size category or 1d6 points of damage for every 5 points of damage dealt to it.
+
+If you use Change Material to turn an object into a plasma which dissipates entirely before the duration expires, then the object is destroyed when it regains its normal form. Otherwise, when the duration expires, the object reverts to its previous form with no apparent difference or damage that was not preexisting.
+[[/div]]
+----
+++ Advanced Creation Talents
+Advanced talents are part of an optional rule and are only available with GM permission.
+[[div style="padding: 0 10px; border: 1px solid black; margin-top: 5px"]]
+++++ Corp Criadhach [DbH]
+**Prerequisites:** Creation sphere (Duplicate (advanced), Fleshcraft (advanced, material)), caster level 10th.
+When you use Duplicate to create a replica of a creature (which may only be an unliving body resembling the creature if you do not possess the Bestow Life advanced talent), you may spend a spell point to create a sympathetic link with the creature that the duplicate is modelled after. This link may take one of the two following forms.
+* **Redoubled Pain:** Whenever the duplicate takes damage from any source, the original person takes an equal amount of damage unless they succeed at a Fortitude save. In addition, when you use a magic sphere ability, you may target the duplicate to affect the creature it was made from, allowing you to affect them regardless of distance or line of sight. The sympathetic link makes the creature immediately aware of the incoming effect and allows them to defend against it without being surprised, even if asleep, though they are not made aware of the magic’s precise nature or source. The creature is allowed a Fortitude save to negate the effect regardless of whether the effect would normally allow a save. After conveying magic 1 + 1 time per 10 caster levels, the duplicate crumbles and becomes useless. The first time that such a Fortitude save against this ability succeeds (regardless of if damage or a magic effect is applied), the original creature is immune to this effect for 24 hours. This link does not function across planes. Whenever a creature is affected by this ability, they know the general direction towards their duplicate.
+* **There Can Be Only One:** If the duplicate and the original creature come into physical contact with each other (which can occur when a successful touch attack is made by the duplicate or using the duplicate), the duplicate is instantly destroyed and the original creature takes 1d8 points of untyped damage per caster level (Fortitude save for half).
+[[/div]]
+[[div style="padding: 0 10px; border: 1px solid black; margin-top: 5px"]]
+++++ Costly Creation
+**Prerequisites:** Creation sphere (Expanded Materials (material), Lengthened Creation; (Change Material (alter), Forge (alter), Permanent Change (advanced)) or Create Materials (advanced)), caster level 15th.
+
+You may spend 5 additional spell points when using Create Materials or Permanent Change to permanently create valuable raw materials, including gems, precious metals (such as gold or silver), and rare metals (such as cold iron or mithral). When using this talent your caster level is halved for determining the quantity of material that can be created.
+
+**Note:** This talent can be unbalancing for a game, and GMs should consider its role in their setting before allowing it to fall into player hands. However, if handled correctly, this talent can lead to interesting interactions between players and setting. For example, the players might flood a market with rare jewels only to find their value plummets as the market floods. This applies to the selling of a mass amount of mithral or adamantine as well. Also remember that towns have a maximum buy value and attempting to sell items that exceed this value cannot be done.
+
+Additionally take note of how this talent could affect the world at large outside of PC hands. If many high level Creation casters exist, then normally rare materials might be commonplace in the setting, their rarity long since diminished by industrious casters, or perhaps the materials are not naturally occurring at all and the few mages with the ability to create them charge a fortune for their use, keeping their prices high. This ultimate secret of Creation might even be passed down only among those of a certain order, limiting the talent’s availability to a select few, like medieval guilds, with well guarded, secret recipes whose methods could be lost.
+[[/div]]
+[[div style="padding: 0 10px; border: 1px solid black; margin-top: 5px"]]
+++++ Create Materials
+**Prerequisites:** Creation sphere (Lengthened Creation), caster level 10th.
+
+You may spend 2 spell points to create raw materials. This is an instantaneous effect; you create the material as self-evident normal material, and thus it cannot be dispelled and has no duration. You cannot create complex items, i.e., you may create walls, battlements, ramps, or domes, but cannot create catapults, armor, or a complete building in this manner, although the material may be crafted as any other material after it is summoned.
+
+If you possess the Fabricate advanced talent, you may permanently create any object you could normally create, provided you succeed on an appropriate Craft check first.
+
+You can summon any material you may create, with the exception of gems, precious metals (such as gold or silver) or rare metals (such as cold iron or mithral), unless you possess Costly Creation (see above for further information).
+[[/div]]
+[[div style="padding: 0 10px; border: 1px solid black; margin-top: 5px"]]
+++++ Create Minds Think Alike [Jester's HB]
+**Prerequisites:** Creation sphere (Exquisite Detail), Enhancement sphere (Bestow Intelligence (enhance)), caster level 5th.
+
+You may create a statue or similar object which is a perfect likeness of yourself or another creature, even if you could not ordinarily succeed at a Craft check to create an object of that complexity.
+
+This statue may be any size you choose, to a maximum of the largest object size you could create. An object created this way is still a statue, and while details can be as close to accurate as possible, the object is not mistaken for a real creature without additional disguises.
+
+When you enhance a target using the Bestow Intelligence talent to grant an object intelligence, you may spend an additional spell point to grant the target object an imprinted duplicate of your mind. The target gains all your mental traits and quirks, such as your memories and mannerisms. This allows the target to use either its normal skill ranks and modifiers, if it possesses any, or your skill ranks and modifiers, whichever is better. The target does not gain any other abilities because of this effect. The target’s starting attitude is friendly towards you, as normal, and the target is aware of the circumstances of its sentience and how you created it, but its attitude may change.
+[[/div]]
+[[div style="padding: 0 10px; border: 1px solid black; margin-top: 5px"]]
+++++ Dissolution (alter)
+**Prerequisites:** Creation sphere (Potent Alteration).
+
+You may spend a spell point when using Destroy on a non-magical, unattended object. The ability does not deal damage and instead simply disintegrates as much as a 10-foot cube of nonliving matter.
+
+When targeting an attended non-magical object, magical object, or creature (by spending an additional spell point via Potent Alteration), you may spend another spell point to reduce the target to its component parts. The target is entitled to a Fortitude saving throw. Failure results in the target taking 2d6 points of damage per caster level that bypasses all hardness, resistances, and damage reduction. A successful save reduces this damage to the normal damage of the Potent Alteration talent.
+
+If this damage reduces the creature or object to 0 or fewer hit points, it is entirely disintegrated.
+[[/div]]
+[[div style="padding: 0 10px; border: 1px solid black; margin-top: 5px"]]
+++++ Duplicate
+**Prerequisites:** Creation sphere (Exquisite Detail), caster level 5th.
+
+You may touch a single object and, as a full-round action, create a perfect duplicate of the object either in your hand or an adjacent square. The object is an exact replica in every way, and the only way to tell the object is not the original is the lingering Creation aura surrounding the object. You must be able to create all of the materials included in its construction, otherwise the object created is crafted from materials you can create and colored to appear like the original, which could give away the ruse. Magical items duplicated are always non-magical but otherwise flawless imitations. If you possess Create Materials, you may spend an additional 2 spell points to duplicate the object as an instantaneous effect, in which case it has no lingering Creation aura.
+
+If you possess the Fleshcraft and Bestow Life advanced talents, you may create a duplicate of a target creature. This duplicate appears to be the same as the original, but it has only half of the real creature’s levels or Hit Dice (and the appropriate hit points, feats, skill ranks, and special abilities for a creature of that level or Hit Dice). You must attempt a Disguise check when you cast the spell to determine how good the likeness is (you may use your caster level in place of your ranks in Disguise). If you possess Exquisite Detail you may add your caster level as a bonus to this check, even if you use your caster level in place of your ranks in Disguise. A creature familiar with the original might detect the ruse with a successful Perception check (opposed by the caster’s Disguise check) or a DC 20 Sense Motive check to get a hunch something is wrong. The duplicate creature is not under your control, though it recognizes you are its creator and functions as a faithful companion, as described under the Bestow Life talent. Creating a duplicate in this manner costs 1 spell point + 1 additional spell point for every 3 Hit Dice of the duplicate creature and you may not create a duplicate of a creature with more Hit Dice than your caster level. These duplicates are incapable of growing in power, but otherwise age as normal (if made permanent with Create Materials). No magical effects affecting the target are duplicated.
+[[/div]]
+[[div style="padding: 0 10px; border: 1px solid black; margin-top: 5px"]]
+++++ Fabricate
+**Prerequisites:** Creation sphere (Forge (alter)), caster level 10th.
+
+When using your Forge talent, you may spend an additional spell point to produce items of great detail. You must succeed at the appropriate skill check to make complex items and work at a rate of 1 round per 10 cubic feet when working in this manner. You can only work with a material which you can create.
+[[/div]]
+[[div style="padding: 0 10px; border: 1px solid black; margin-top: 5px"]]
+++++ Fleshcraft (material)
+**Prerequisites:** Creation sphere (any (material) talent), caster level 10th.
+
+You may create and alter flesh as you would other materials. While you may craft from flesh (hardness 0, 2 hit points per inch) and bone (hardness 5, 10 hit points per inch) as you might any other material, this also means you can create the body of a creature. Created bodies are not alive, and you must attempt a Disguise check if attempting to create a copy of a specific individual. You may also alter a body, although you must spend an additional spell point to alter a living creature (Fortitude negates). You may create a permanent body through the Create Materials talent.
+
+If used in conjunction with the Change Material talent to affect a living creature, this does not kill the target; however, they do not appear to be alive for effects that would detect such things, and they may be injured as any other object. When returned to normal the creature is still alive (provided they were not destroyed in this alternate form), but any injuries or deformities gained in their altered state carry over to their original forms.
+
+If you possess the Forge talent, you may sculpt a creature’s body in one of the following ways:
+* You can remove or restore an arm, leg, or tail. While technically you can add a limb to a creature that was not missing one, these extra limbs are too weak to hold things or be used to attack.
+* You may remove or restore a sense: sight, hearing, touch, taste, or smell.
+* You may attack the target’s body, dealing 2d6 Constitution damage.
+* If you possess the Fabricate advanced talent, you may change a creature’s appearance permanently. You attempt a Disguise check if mimicking a specific creature.
+[[/div]]
+[[div style="padding: 0 10px; border: 1px solid black; margin-top: 5px"]]
+++++ Imperfect Recreation [Alienist HB]
+**Prerequisites:** Creation sphere (Duplicate (advanced), Exquisite Detail, Fleshcraft (advanced, material)), Enhancement sphere (Animate Object (enhance), Bestow Intelligence (enhance), Bestow Life (advanced)), caster level 15th.
+
+You may use the Duplicate talent to create a living duplicate of a creature whose body you have access to (you do not need the full body, just a portion such as a hair or bone).
+
+When you use the Duplicate talent to create a duplicate of a creature, you may create it such that the duplicate possesses all of the real creature’s Hit Dice rather than half. However, duplicates created with full Hit Dice are not faithful companions in the same manner as creatures awakened with Bestow Life. Rather, such creatures are initially indifferent to their creators and are created with a random alignment (roll on the following table to determine alignment). This roll should be done secretly, without the caster immediately knowing the alignment of their creation.
+
+**Table: Imperfect Recreation Alignment**
+||~ D20 result ||~ Alignment ||
+|| 1 || Lawful good ||
+|| 2 || Neutral good ||
+|| 3 || Chaotic good ||
+|| 4-5 || Lawful neutral ||
+|| 6-8 || True neutral ||
+|| 9-11 || Chaotic neutral ||
+|| 12-14 || Lawful evil ||
+|| 15-17 || Neutral evil ||
+|| 18-20 || Chaotic evil ||
+[[/div]]
+[[div style="padding: 0 10px; border: 1px solid black; margin-top: 5px"]]
+++++ Integrate Item (alter) [SM—]
+^^**Source:** Baron’s Uncanny Gateway^^
+
+**Prerequisites:** Creation Sphere (Potent Alteration), caster level 5th
+You may alter an item such that another item’s magical properties can temporarily be imbued within it. As part of the casting, you can insert a single implement, apparatus, spell engine, marvelous item, magic wand, magic rod or magic staff into the altered item, after which the inserted item disappears inside the altered item. For the spell’s duration, a character wielding or wearing the altered item is also considered to be wielding (but not wearing) the item inserted into it. If the inserted item can be used to make attacks, you can attack normally with the altered item or use the altered item as if it were the inserted item. 
+
+If an effect created by the inserted item requires a melee attack roll to successfully strike a foe, you make the melee attack roll as if you were making an attack with the altered item, including any bonuses the altered item would normally receive to attack rolls. Doing so does not allow you to add the altered item’s damage to the attack but allows you to use any abilities which would improve the altered item’s attack rolls or reach to boost your chance of hitting with the stored item’s attack, spell, or effect. For example, if you have an entropic grip inside a +3 longspear, you can make the entropic grip’s touch attack through the longspear, adding the longspear’s enhancement bonus to the attack roll and its reach to the attack’s range.
+
+At the end of the alter’s duration, the stored item is ejected from the altered item. If you have a free hand, you can catch the stored item as a free action; otherwise, it drops to the ground. If the altered item is broken or destroyed during the duration of this effect, the stored item is similarly broken or destroyed.
+[[/div]]
+[[div style="padding: 0 10px; border: 1px solid black; margin-top: 5px"]]
+++++ Internal Creation [Apoc]
+^^**Source:** [https://www.drivethrurpg.com/product/350940/Spheres-Apocrypha-Battlefield-Manipulation-Talents?affiliate_id=549120 Spheres Apocrypha: Battlefield Manipulation Talents]^^
+
+**Prerequisites:** Creation sphere (Distant Creation [range], Potent Alteration).
+
+You may alter a target that you can detect (usually through divine) inside another object or creature or create an object that is inside another object or creature. The object must appear within the range of your alter or create ability. The creature or object (or the object’s owner, in the case of an attended object) is allowed a Fortitude save to negate this effect.
+
+When an object is created or increased in size inside a target (as a result of this talent, the Magnify/Minimize talent, or some other effect), the target and the object take twice the amount of damage they would have taken if the object had fallen on them from normal height (for example, creating a Large object inside a target would deal 4d6 damage to both target and object). Any other damage alterations to a created object apply to this damage unless they would be the result of velocity. If an object is not at least two sizes smaller than the object or creature it was altered or created in, it is immediately ejected from its vessel and lands in an adjacent square.
+[[/div]]
+[[div style="padding: 0 10px; border: 1px solid black; margin-top: 5px"]]
+++++ Magma Mastery (material)
+**Prerequisites:** Creation sphere (Plasma Production (material)), caster level 10th.
+
+You may create or alter lava and magma (3 cubic feet equals a Small object). Lava and magma count as a harmful liquid.
+[[/div]]
+[[div style="padding: 0 10px; border: 1px solid black; margin-top: 5px"]]
+++++ Material Body (alter)
+**Prerequisites:** Creation sphere (any (material) talent, Change Material (alter)), caster level 5th.
+
+You may spend a spell point to change a willing, touched creature’s skin into another solid material you can create as long as you maintain concentration to a maximum of 1 minute per caster level. You may spend an additional spell point to maintain this effect without concentration. If you possess Lengthened Creation, the duration of this ability is increased to 1 hour per caster level.
+
+The creature gains damage reduction equal to the material’s hardness. This damage reduction is bypassed by adamantine as long as the material’s hardness is less than 20. Once this damage reduction has prevented a number of points of damage equal to the material’s hit points per inch per 3 caster levels the effect ends.
+
+If you possess the Fleshcraft advanced talent, the effect increases, granting the target a +4 bonus to saving throws against diseases and poisons, and a 50% chance that any critical hit or sneak attack against the target is treated as a normal hit, as if the target were wearing medium fortification armor.
+[[/div]]
+[[div style="padding: 0 10px; border: 1px solid black; margin-top: 5px"]]
+++++ Mythical Material Maker (material)
+**Prerequisites:** Creation sphere (any (material) talent), caster level 15th.
+
+Add adamantine and any similarly incredibly rare material that is known to you, subject to GM discretion, to the list of materials you can create. Treat your caster level as 1/2 for determining both size and duration for effects involving adamantine and similar extremely rare materials. This can be done permanently with Costly Creation, though the penalty from both talents stacks when creating permanent incredibly rare materials.
+
+**Note:** Metals and other materials similar to adamantine in rarity or power may not exist in all campaign settings. In these situations, the GM is encouraged to add any setting specific extremely rare materials not normally able to be affected by create/alter to the list of affected materials granted by this talent. The purpose of this talent is to allow access to even the rarest of materials, save for those that are divine in nature.
+[[/div]]
+[[div style="padding: 0 10px; border: 1px solid black; margin-top: 5px"]]
+++++ Ooze Originator (create)
+**Prerequisites:** Creation sphere (Acidic Creation (material)), caster level 5th.
+
+You may create and animate an ooze creature. You must spend an additional spell point for every 4 Hit Dice of the desired ooze; you cannot create an ooze with more Hit Dice than your caster level or that is larger than you can create. The magic behind the ooze’s creation allows it to recognize you as its creator and obey basic commands such as “attack”, “defend”, or “move” and to follow them to the best of its ability, but it otherwise is a normal, mindless member of its kind and will act appropriately.
+
+This ooze may be any un-templated creature of the ooze type or a unique creation subject to GM discretion. You may not control more Hit Dice of ooze than your caster level; if you create more than this, the earliest-created oozes no longer recognize you as their creator until you are under this limit again. Oozes can be made permanent through the Create Materials advanced talent.
+[[/div]]
+[[div style="padding: 0 10px; border: 1px solid black; margin-top: 5px"]]
+++++ Permanent Change
+**Prerequisites:** Creation sphere (Change Material (alter), Expanded Materials (material), Forge (alter)), caster level 10th.
+
+When using your Change Material talent, you may spend an additional spell point to make the change an instantaneous effect; the change is permanent and cannot be dispelled. If used on a target in conjunction with the Change Material and Fleshcraft talents, another application of the Fleshcraft and Change Material talents can return them to normal for a limited time, but only another use of the Permanent Change talent or the use of the Make Whole advanced Life talent can permanently reverse this effect. You cannot create a permanent change involving gems, precious metals (such as gold or silver) or rare metals (such as cold iron or mithral), unless you possess Costly Creation.
+[[/div]]
+[[div style="padding: 0 10px; border: 1px solid black; margin-top: 5px"]]
+++++ Plasma Projection
+**Prerequisites:** Creation sphere (Plasma Production (material)), caster level 5th.
+
+When holding any object that could be reasonably used as a hilt or wielding a melee weapon you may spend a spell point to create in the space above the hilt or alter the weapon into a blade of plasma. The shape of the plasma can take any form you wish, but regardless of its form treat this weapon as an energy sword (see Equipment section) that you are proficient with that lasts for 1 round per caster level without concentration. You may spend an additional spell point when this duration expires to renew its duration as a free action. This duration can be extended by Lengthened Creation as normal. While the effect persists the energy blade can be turned off or on again by the wielder as a swift action.
+
+You may spend an additional spell point as a swift action each round to increase the length and intensity of the ‘sword’ for 1 round. The sword’s damage increases by 1d10 (for a Medium energy sword) and an additional 1d10 for every 5 caster levels you possess beyond 5th. When enlarged in this way, the energy sword may threaten and make attacks at a reach of 10 feet or against adjacent targets at no penalty.
+[[/div]]
+[[div style="padding: 0 10px; border: 1px solid black; margin-top: 5px"]]
+++++ State Shift (alter)
+**Prerequisites:** Creation sphere (Change Material (alter)), caster level 10th.
+
+When using Change Material, you may turn gases, liquids, and solids into either of the other two states. If you have Plasma Production you may also convert matter into a plasma and vice versa. This is a magical effect and the change in form itself has no additional effect on the condition of the target object, dealing no damage to it. When turning a solid into a liquid or gas the resultant object disperses as normal, but recombines when the effect ends and in the same location unless its component parts have been collected and moved elsewhere. If all pieces of an object are not present, the object still regrows from the largest remaining piece.
+
+If a magical object is converted into a new form, its magical properties cannot be used unless they are still applicable to its new state of matter.
+[[/div]]
+[[div style="padding: 0 10px; border: 1px solid black; margin-top: 5px"]]
+++++ Sustenance (material) [utility]
+**Prerequisites:** Creation, caster level 1st.
+
+You may spend 10 minutes to create enough bland food and drink to sustain a number of Medium-sized creatures equal to your casting ability modifier. If you possess Exquisite Detail you may create any normal assortment of food or drink using Profession (Cook) and gaining a bonus to this check equal to 1/2 your caster level. This is an instantaneous Creation effect that costs no spell points. Alternatively, you may use this ability as a standard action by spending 1 spell point.
+
+Additionally, by spending 1 spell point, you may create or alter any one object with normal size and material limitations to be edible. The object becomes nutritious enough to sustain a number of creatures based on its total size, with a Tiny-sized object being enough for a Medium creature. The object is treating as having a hardness of 0 against bite attacks, and creatures that do not have bite attacks can bite it to deal 1d3 + 1/2 Strength modifier damage to the object. Objects in this way only retain this property for a limited period of time as normal for altering objects, but any part of the object that was devoured during this time is instantaneously converted into food. If you possess Permanent Change, you may make this an instantaneous effect by spending an additional spell point.
+[[/div]]
+----
+
++ Creation Sphere Feats
+[[div style="padding: 0 10px; border: 1px solid black; margin-top: 5px"]]
+++++ Alloy Creation (Dual Sphere)
+**Prerequisites:** Creation sphere, Nature sphere ((metal) package).
+
+**Benefit:** When using your Creation sphere abilities, you may create and alter objects made from metals you can summon with your Recover Ore Nature sphere ability, even if you do not possess the Expanded Materials Creation talent. When using metal geomancing talents or abilities limited by your Recover Ore size, you may target and affect metal one size larger than you could normally affect with your Recover Ore ability. This does not increase the actual size of the ore you can recover.
+[[/div]]
+[[div style="padding: 0 10px; border: 1px solid black; margin-top: 5px"]]
+++++ Arcane Fetters (Dual Sphere) [SM—]
+^^**Source:** Baron’s Uncanny Gateway^^
+
+**Prerequisites:** Creation Sphere (Restrictive Casting), Protection Sphere (Distant Protection)
+
+**Benefits:** Whenever you create an object on or around a creature using Restrictive Casing, you may apply the effects of a ward you can create to any creature that is bound by the object. The ward lasts for as long as the created object is not broken (up to the maximum normal duration), only affects the bound creature, and moves with them.
+[[/div]]
+[[div style="padding: 0 10px; border: 1px solid black; margin-top: 5px"]]
+++++ Before Creation Comes Destruction
+**Prerequisite:** Creation sphere.
+
+**Benefit:** You gain a pool of temporary spell points that can only be used to create objects. This pool has a maximum value equal your casting ability modifier (minimum 1). When using the Destroy ability of alter, if you reduce an object to 0 hit points you may gain 1 temporary spell point up to your maximum value. These spell points may only be spent on create effects and only to create objects of equal or smaller size to the smallest object destroyed. Temporary spell points not spent expire when you refresh your normal spell point pool. You may gain a number of temporary spell points this way per day up to 3 + your casting ability modifier.
+[[/div]]
+[[div style="padding: 0 10px; border: 1px solid black; margin-top: 5px"]]
+++++ Cooperative Destruction (Dual Sphere)
+**Prerequisites:** Creation sphere (Plasma Production (material), Potent Alteration), Destruction sphere.
+
+**Benefit:** You may ready an action to assist an allied caster. When an ally within range of your alter uses a destructive blast with a blast type that deals any amount of electric or fire damage you may attempt to Repair the spell effect to increase its power. The caster level of the destructive blast increases by 1 and an additional +1 for every 4 caster levels of the Repair effect. By spending a spell point, you may instead activate this ability as an immediate action.
+
+Additionally, you may pay a spell point and increase the casting time of your fire or electric destructive blasts by 1 step in order to attempt to strengthen your own destructive blasts following the same method. You may spend two spell points to activate this ability as a swift action instead of increasing the casting time.
+
+If you possess Acidic Creation, you may also apply this effect to destructive blasts that deal acid damage. Other talents may increase the available damage types at GM discretion.
+[[/div]]
+[[div style="padding: 0 10px; border: 1px solid black; margin-top: 5px"]]
+++++ Creation Mastery
+**Prerequisites:** Creation sphere (any (material) talent).
+
+**Benefit:** Treat your character level as your caster level when determining the types of materials that you can create, such as through your (material) talents. This has no effect on total size of materials, duration, or any use of alter.
+
+**Special:** You cannot have both Creation Mastery and Master Of Remaking.
+[[/div]]
+[[div style="padding: 0 10px; border: 1px solid black; margin-top: 5px"]]
+++++ Destructive Counter (Combat)
+**Prerequisites:** Creation sphere (any (material) talent).
+
+**Benefit:** When targeted by a ranged attack or spell effect that originates from another square (such as a destructive blast but not a vortex from (water) geomancing), or being in a square that such an effect passes through (such as an Energy Sphere destructive blast), you may attempt to destroy the projectile or spell effect as an immediate action by spending 1 spell point (this spell point cost can not be reduced in any way). If the attack is a projectile, it functions as normal unless it loses half or more of its hit points and gains the broken condition, suffering the usual effects, or is destroyed at which point it deals no damage. If the target is a spell effect of a material you can affect with your alter ability (for example, a fire damage destructive blast with Plasma Production, or a dropped stone object with Expanded Materials) you may attempt to damage the spell effect. You must succeed at a magic skill check against the caster in question. If you succeed then the targeted effect is damaged.
+
+Reduce the damage the spell effect would deal by 1d6 per caster level (increasing to 1d8 per caster level plus your casting ability modifier if you possess Potent Alteration). If this would reduce the spell’s damage to 0, the effect ends when it reaches your square. If the targeted spell deals no damage, instead lower any save DC it might have by your casting ability modifier. If this would reduce the save DC to 9 or lower, the effect ends when it reaches your square. Any effect that would occur in or beyond your square is negated while any square the effect passed through prior to yours is affected normally.
+[[/div]]
+[[div style="padding: 0 10px; border: 1px solid black; margin-top: 5px"]]
+++++ Enhanced Creation (Dual Sphere)
+**Prerequisites:** Creation sphere or Shadowstuff Armament, Enhancement sphere.
+
+**Benefit:** When creating an object with either the Creation sphere or the Shadowstuff Armament feat, you may enhance the object with one enhancement you possess as part of the same action. You may concentrate on maintaining the enhancement and the creation as part of the same action.
+
+Any enhancement that would increase attack or damage also increases the attack roll and damage roll of the object if dropped on a target. If you possess Divided Creation you can only enhance one object created, unless you also possess Mass Enhancement, in which case you may target every object created regardless of your usual limits.
+[[/div]]
+[[div style="padding: 0 10px; border: 1px solid black; margin-top: 5px"]]
+++++ Fissile Creation (Dual Sphere) [Apoc]
+^^**Source:** [https://www.drivethrurpg.com/product/350940/Spheres-Apocrypha-Battlefield-Manipulation-Talents?affiliate_id=549120 Spheres Apocrypha: Battlefield Manipulation Talents]^^
+
+**Prerequisites:** Creation sphere, Destruction sphere (Explosive Orb (blast shape)).
+
+**Benefit:** You gain the ability to alter or create objects with highly explosive properties. As part of altering or creating an object, you may spend a spell point to cause any object you alter or create to explode either when it hits a target for the first time (if used to make an attack), when it takes damage for the first time, or when the spell effect ends. This explosion deals damage as your destructive blast with the Explosive Orb shape, and you may treat it as a normal Explosive Orb for any effects, talents or feats interacting with destructive blasts. You may choose whether or not the altered or created object takes damage from the Explosive Orb. The object remains fissile for as long as the alter or create effect lasts. You may only have one fissile creation active at a time, plus an additional fissile creation for every 10 caster levels you possess. If you exceed the limit, one fissile creation of your choosing ends immediately.
+
+If two fissile creations explode during the same round, creatures in the overlapped area suffer diminished results from every fissile creation after the first one, dealing only 1d6 additional damage, +1d6 per 5 caster levels for each overlapping creation.
+[[/div]]
+[[div style="padding: 0 10px; border: 1px solid black; margin-top: 5px"]]
+++++ Floating Creation (Dual Sphere)
+**Prerequisites:** Creation sphere, Enhancement sphere (Lighten (enhance)).
+
+**Benefit:** When you create an object, you can make it weightless as the Lighten talent. If your floating creation is a 5-foot cube of solid matter as hard as stone or harder, each floating cube can support approximately 1,000 pounds of weight. Lighter materials can only support half as much weight, and some materials may not be able to support any, at the GM’s discretion.
+[[/div]]
+[[div style="padding: 0 10px; border: 1px solid black; margin-top: 5px"]]
+++++ Forceful Creation (Dual Sphere)
+**Prerequisites:** Creation sphere, Telekinesis sphere.
+
+**Benefit:** When you create an object, you may initiate and maintain the Sustained Force or Bludgeon telekinesis abilities as part of creating the object, so long as the object is within the normal limitations of those abilities. Additionally, if you spend a spell point to maintain the object without concentration, you may choose to maintain a Sustained Force on the object for the same duration without spending an additional spell point.
+[[/div]]
+[[div style="padding: 0 10px; border: 1px solid black; margin-top: 5px"]]
+++++ Hard Light (Dual Sphere)
+**Prerequisites:** Creation sphere, Light sphere.
+
+**Benefit:** When you create an object, you may make it out of hardened light instead of matter. Objects you create this way naturally shine, shedding bright light as if by your glow effect. Otherwise, an object created out of hardened light has the properties of any one material you can normally create, except that it has half its normal weight.
+[[/div]]
+[[div style="padding: 0 10px; border: 1px solid black; margin-top: 5px"]]
+++++ Kinetic Creation (Dual Sphere)
+**Prerequisites:** Creation sphere, Telekinesis sphere, caster level 7th.
+
+**Benefit:** You can create items out of telekinetic force instead of matter. Objects made this way cannot incorporate any other materials and must be simple in construction, lacking intricate details or complex moving parts. This ‘material’ has hardness 10 and 3 hit points per inch, has no weight and cannot be moved, save by you through telekinesis. At the end of each round its hit points are fully replenished. Unlike other created objects, objects of telekinetic force are magical and can be dispelled, which also destroys them.
+
+**Special:** Telekinetic force made with the Create Materials advanced talent reforms itself over the course of an hour if destroyed, but not if dispelled.
+[[/div]]
+[[div style="padding: 0 10px; border: 1px solid black; margin-top: 5px"]]
+++++ Master Of Remaking
+**Prerequisite:** Creation sphere.
+
+**Benefit:** Treat your character level as your caster level for when determining which objects you may alter, such as through your (material) talents, as well as your damage dealt/healed with Repair or Destroy. This has no effect on any use of create.
+
+**Special:** You cannot have both Creation Mastery and Master Of Remaking.
+[[/div]]
+[[div style="padding: 0 10px; border: 1px solid black; margin-top: 5px"]]
+++++ Precision Bombardment (Combat)
+**Prerequisites:** Creation sphere (Created Momentum).
+
+**Benefit:** When using create to drop objects on a target or attack them with Created Momentum and are doing so in a way that targets normal AC, you may treat the attack as a weapon attack roll for all purposes; you may apply feats to your attack as you could with any ranged weapon, and may treat creating and dropping a single object on a target as a standard action as an attack action. Dropping the object has its range increment increased to 40 feet just as when using it as a weapon. Additional damage from feats or talents such as Deadly Aim or Vital Strike is not multiplied based on hardness or falling distance.
+[[/div]]
+[[div style="padding: 0 10px; border: 1px solid black; margin-top: 5px"]]
+++++ Precocious Creation
+**Prerequisites:** Creation sphere (any (material) talent).
+
+**Benefit:** When attempting to create or alter material, you may spend an additional spell point to treat your caster level as 5 higher for determining the types of material that you may affect. This has no effect on the size, duration, caster level, or any other numerical effect of the ability.
+[[/div]]
+[[div style="padding: 0 10px; border: 1px solid black; margin-top: 5px"]]
+++++ Propulsive Creation (Dual Sphere) [Apoc]
+^^**Source:** [https://www.drivethrurpg.com/product/350940/Spheres-Apocrypha-Battlefield-Manipulation-Talents?affiliate_id=549120 Spheres Apocrypha: Battlefield Manipulation Talents]^^
+
+**Prerequisites:** Creation sphere, Telekinesis sphere (Gravity Ward/Well).
+
+**Benefit:** You may spend a spell point to cause an object, gas, or liquid you alter or create to either possess a powerful attractive force or to violently repel nearby objects. This acts as a gravity ward or gravity well centered on the altered or created entity. The gravity ward or gravity well lasts only as long as you concentrate unless you spend an additional spell point to maintain it (in which case it lasts as long as a normal gravity ward/well created by you would).
+[[/div]]
+[[div style="padding: 0 10px; border: 1px solid black; margin-top: 5px"]]
+++++ Reforge Object (Dual Sphere)
+**Prerequisites:** Enhancement sphere (Animate Object (enhance)), Creation sphere (Potent Alteration).
+
+**Benefit:** You do not need to spend an additional spell point when altering an animated object you have created. In addition, you may freely re-assign a construction point when altering an Animated Object in a way that affects its material or shape.
+[[/div]]
+[[div style="padding: 0 10px; border: 1px solid black; margin-top: 5px"]]
+++++ Shape Quintessence (Dual Sphere) [Alienist HB]
+**Prerequisites:** Creation sphere (Expanded Materials (material)), Time sphere.
+
+**Benefit:** When you create an object, you may work with quintessence in addition to any materials you could normally work with. This quintessence functions as per the quintessence scholar material imposition, using your Time sphere caster level as your scholar level and your casting ability modifier as your Intelligence modifier for the purpose of determining its effects. This does not grant the inhibitor [explosive] ability.
+[[/div]]
+[[div style="padding: 0 10px; border: 1px solid black; margin-top: 5px"]]
+++++ Surreinforcement (Dual Sphere)
+**Prerequisites:** Creation sphere; Illusion sphere (Shadow Infusion) or create reality class feature.
+
+**Benefit:** When you create materials with the Creation sphere, they are laced with shadowstuff that grants you increased control over them. Objects you create with the Creation sphere regain a number of hit points equal to half your Creation caster level at the start of each of your turns and can repair themselves from the broken condition. Objects you create out of shadowstuff, such as with the fey adept’s ability to Create Reality, have a hardness equal to your Illusion caster levels (minimum 5) and may gain the properties of any material with equal or less hardness.
+[[/div]]
+[[div style="padding: 0 10px; border: 1px solid black; margin-top: 5px"]]
+++++ Wall Master
+**Prerequisite:** Creation sphere.
+
+**Benefit:** When attempting to create a wall anchored into another object and built out of entirely 10 feet-by-10-feet segments, double the size of the wall you can create.
+[[/div]]
+[[div style="padding: 0 10px; border: 1px solid black; margin-top: 5px"]]
+++++ Wondrous Wardrobe
+**Prerequisites:** Creation sphere (Expanded Materials (material)).
+
+**Benefit:** You need not spend a spell point to create or alter non-magical clothing, non-magical fake jewelry, or other parts of a mundane disguise. You are still limited to the materials you can create. Fake jewelry created by this talent is difficult to tell apart from real jewels at a glance. A full minute of study and a DC 15 Appraise check is needed to reveal their fraudulent nature. If you possess Exquisite Detail you increase the DC of the Appraise check by 1/2 your caster level. This is a permanent effect that lasts until dispelled or dismissed.
+
+This allows you to create or alter any mundane disguise on yourself or a willing creature, treating the target as having used a disguise kit. If you have the ability to change creatures’ forms (such as via the Alteration sphere or the Alternate Form racial trait) then as part of using that ability you may create or alter clothing on the affected creatures as a free action.
+
+Additionally, as a free action, you can designate any object you have created to disappear at a specific point in time or under specific conditions which can be as detailed or vague as you desire but must only contain visible or audible triggers, such as the stroke of midnight or upon sitting down on the royal throne.
+[[/div]]
+----
+[[div class="colored-links"]]
++ Archetypes Specializing In Creation
+[[div style="padding: 0 10px; border: 1px solid black; margin-top: 5px"]]
+++ [[[Dustbringer]]]
+Dustbringers are Mageknights who use unarmed strikes to wear down the bodies and gear of their foes.
+[[/div]]
+[[div style="padding: 0 10px; border: 1px solid black; margin-top: 5px"]]
+++ [[[Knight of Willpower]]]
+Knights of Willpower are Thaumaturges who have particularly powerful wills and use the [[[Creation]]], [[[Light]]], and [[[Telekinesis]]] spheres to great effect.
+[[/div]]
+[[div style="padding: 0 10px; border: 1px solid black; margin-top: 5px"]]
+++ [[[Lingchi Warrior]]]
+Lingchi Warriors are Armorists who summon a field of weapons to use against their foes.
+[[/div]]
+[[div style="padding: 0 10px; border: 1px solid black; margin-top: 5px"]]
+++ ##00c000|[[[Spellforge]]]## [CS]
+Spellforges are blacksmiths who specialize in [[[Creation]]] magic.
+[[/div]]
+[[div style="padding: 0 10px; border: 1px solid black; margin-top: 5px"]]
+++ [[[Word Witch]]]
+Word Witches are Fey Adepts who specialize in conjuring tangible objects instead of mere illusions.
+[[/div]]
+[[/div]]
+----
++ Wild Magic
+
+++++ Wild Magic Generator
+[[html]]
+<style>
+    * {
+    margin: 0;
+    padding: 0;
+    }
+    #container {
+    width: 90%;
+    margin: 90px auto;
+    padding: 10px;
+    border: 1px solid #606060;
+    }
+    .alignleft {
+    float: left;
+    }
+    .alignright {
+    float: right;
+    }
+</style>
+<div id="container">
+    <p class="alignjustify" id="randomResult">&nbsp;</p>
+    <button class="alignleft" id="button">Trigger Creation Wild Magic</button>
+    <div style="clear: both;"></div>
+</div>
+<script>
+    function randString(){
+    	return stringArray[~~(rand()*stringArray.length)];
+    }
+    function randText(){
+    	var tx = randString();
+    	var txt = document.createTextNode(tx);
+    	var sp = document.createElement('span');
+    	sp.appendChild(txt);
+    	randomResult.innerHTML = '';
+    	randomResult.appendChild(sp);
+    }
+    rand = Math.random;
+    stringArray = ['1: The caster takes 1d4 points of Constitution damage even if he would normally be immune to ability damage. Creatures without a Constitution score instead take Charisma damage.', '2: All unattended, nonmagical objects within close range of the caster take damage per the destroy option of the alter ability.', '3: The casting time decreases by 2 steps.', '4: A solid box of the material the caster can create with the highest hardness appears around the caster. This box persists for 1d4 rounds or until destroyed. This box has a thickness of 1 inch.', '5: The caster takes a number of points of ability damage to his casting attribute equal to the caster level/4 (minimum 1) of the effect, even if he would normally be immune to ability damage.', '6: (Combat) The ground within close range of the caster is transmuted to flammable oil for 1d4 rounds. Creatures or objects that enter the oil may become trapped at the end of the effect. If this oil is ignited (by a torch, the spark cantrip, fire geomancing of the Nature sphere, the Fire Blast or Lightning Blast talents of the Destruction sphere, etc.), any creature within 5 ft. of its surface takes 1d6 points of fire damage at the start of their turn.', '7: For 1 round, the body of the caster is transmuted into stone per the Fleshcraft advanced talent.', '8: The lungs of the caster are filled with water, forcing him to spend 1d4 full-round actions coughing. No other actions may be taken until these actions are complete.', '9: A swarm of paper cranes fill the area around the target out to close range, granting all creatures concealment and inflicting 1 point of bleed damage per 2 caster levels (minimum 1) to any target with a combined armor and natural armor bonus of less the half the caster level.', '10: Solid boxes of the material the caster can create with the highest hardness appears around every creature within close range of the target or center of the target area. These boxes persists for 1d4 rounds. A Reflex save prevents being trapped inside the box. These boxes have a thickness of 1 inch.', '11: Roll again on the Universal wild magic table.', '12: A dense object of the largest size the caster can create (that the GM chooses) falls from 5 ft. + 5 ft. per 2 caster levels above the caster. This falling height cannot exceed the height of the room or other enclosed space the caster occupies. Make an attack roll per the falling object rules of the Creation sphere. The object disappears after the attack is resolved.', '13: (Combat) The caster is stunned for 1 round.', '14: The ground within close range of the target or center of the target area is transmuted to water for 1d4 rounds. Submerged creatures may become trapped when this effect ends.', '15: All allied creatures within close range of the caster must succeed on a Fortitude save or have their lungs filled with water, forcing them to spend 1d4 full-round actions coughing. No other actions may be taken until these actions are complete.', '16: A swarm of paper cranes fill the area around the caster out to close range, granting all creatures concealment and inflicting 1 point of bleed damage per 2 caster levels (minimum 1) to any target with a combined armor and natural armor bonus of less the half the caster level.', '17: The ground under the caster to a radius of 5 ft. plus 5 ft. per 5 caster levels is transmuted to acid for 1d4 rounds. Any creature submerged in the acid takes 1d6 points of acid damage per 2 caster levels (minimum 1d6) each round. Submerged creatures are expelled when this effect ends.', '18: A solid wall appears in front of the caster the next time he attempts to move. This wall is the width and height of the space of the caster and disappears at the end of their movement.', '19: All creatures within close range of the target have any worn armor changed to lead for 1 round per caster level. If the armor was metal, reduce the AC bonus by -2 and increase the ACP by 2. If the armor was leather, increase the ACP by 4. The lead has hardness 7 and the weight of the armor doubles.', '20: The effect fails, but the action is not lost. Spell points or spell slots spent are lost.', '21: The spell point cost of the effect increases by 1. If the caster does not have enough spell points, he is instead staggered until the end of his next turn.', '22: All creatures within close range of the caster have any worn armor changed to lead for 1 round per caster level. If the armor was metal, reduce the AC bonus by 2 and increase the ACP by 2. If the armor was leather, increase the ACP by 4. The lead has hardness 7 and the weight of the armor doubles.', '23: All unattended, nonmagical objects within close range of the target or center of the target area take damage per the destroy option of the alter ability.', '24: (Combat) All creatures within medium range of the caster have the metallic portions of all currently wielded weapons turn to adamantine for 1 minute per caster level.', '25: One gallon of water per caster level appears above the caster. Any nonmagical flames carried by or around the caster are extinguished.', '26: The ground within close range of the caster is transmuted to water for 1d4 rounds. Submerged creatures may become trapped when this effect ends.', '27: All allied creatures within close range of the caster must succeed on a Fortitude save or have their lungs filled with acid, forcing them to spend 1d4 full-round actions coughing and inflicting acid damage equal to caster level/2 (minimum 1) each round. No other actions may be taken until these actions are complete.', '28: The casting time increases by 2 steps.', '29: Solid boxes of the material the caster can create with the highest hardness appears around every creature within close range of the caster. These boxes persists for 1d4 rounds or until destroyed. A Reflex save prevents being trapped inside the box. These boxes have a thickness of 1 inch.', '30: All creatures within close range of the caster must succeed on a Fortitude save or have their lungs filled with water, forcing them to spend 1d4 full-round actions coughing. No other actions may be taken until these actions are complete.', '31: As an instantaneous effect, the caster is suddenly saddled with several large backpacks filled with worthless trinkets, increasing his load to 1 lb. over his maximum heavy load. Removing the backpacks requires a standard action.', '32: The caster is exhausted.', '33: All hostile creatures within close range of the caster must succeed on a Fortitude save or have their lungs filled with water, forcing them to spend 1d4 full-round actions coughing. No other actions may be taken until these actions are complete.', '34: (Combat) As an instantaneous effect, the caster becomes covered in flammable oil. If this oil is ignited (by a torch, the spark cantrip, fire geomancing of the Nature sphere, the Fire Blast or Lightning Blast talents of the Destruction sphere, etc.), the caster takes 1d6 + caster level/2 points of damage immediately and is on fire until the flame is put out, taking 1d6 points of fire damage per round. A Reflex save attempted as standard action extinguishes the fire after the initial damage. A full-round action removes enough oil to remove the risk of damaging flames. The oil also grants a +2 circumstance bonus to Escape Artist attempts and to CMD versus grapples.', '35: (Combat) All creatures within close range of the target have any worn armor changed to paper for 1 round per caster level. The armor provides no armor bonus, has its ACP reduced by half the caster level (minimum 0) and has hardness 0.', '36: A lump of flowstone with a mass equal to twice caster level pounds appears in the space of the caster. This flowstone disappears after 1 minute per caster level.', '37: Gold coins rain on an area out to close range of the caster for 1d6 rounds. All creatures in the area must succeed on a Reflex save each round or take 1 point of bludgeoning damage per caster level. These coins disappear after 1 minute per caster level.', '38: (Combat) The ground within close range of the caster is transmuted to water for 1d4 rounds. Creatures or objects that enter the water are shunted out at the end of the effect.', '39: The casting time decreases by 1 step.', '40: The contents of the stomach of the caster become violently inedible. The caster is nauseated for 1d4 rounds.', '41: All creatures within close range of the caster have any worn armor changed to wood for 1 round per caster level. If the armor was metal, reduce the AC bonus by half. If the armor was leather or cloth, increase the ACP by 2 and the ASF by 10%. The wood has hardness 5.', '42: A dense object of the largest size the caster can create (that the GM chooses) falls from 5 ft. + 5 ft. per 2 caster levels above the target or center of the targeted area. This falling height cannot exceed the height of the room or other enclosed space the target or area occupies. Make an attack roll per the falling object rules of the Creation sphere against the target or against the nearest creature in the area. The object disappears after the attack is resolved.', '43: Effect receives a -4 penalty to caster level (minimum 1).', '44: (Combat) The ground within close range of the caster is transmuted to acid for 1d4 rounds, dealing 1d6 points of damage per 2 caster levels to any creature or object submerged in it. Creatures or objects that enter the water are shunted out at the end of the effect.', '45: (Combat) All creatures within medium range of the caster have the metallic portions of all currently wielded weapons turn to gold for 1 minute per caster level. Weapons that do not deal bludgeoning damage have their damage die decreased by two sizes. Creatures wielding such a weapon take a -2 penalty to CMD against the sunder combat maneuver.', '46: The effect persists for 1 minute beyond its normal duration.', '47: Caltrops cover the ground out to medium range of the target or center of the target area for 1d4 rounds.', '48: The casting time increases by 1 step.', '49: Roll twice and take both results. Ignore any results that require rerolls. If both rolls thus ignored, there is no effect.', '50: (Combat) The ground within close range of the caster is transmuted to flammable oil for 1d4 rounds. Creatures or objects that enter the oil are shunted out at the end of the effect. If this oil is ignited (by a torch, the spark cantrip, fire geomancing of the Nature sphere, the Fire Blast or Lightning Blast talents of the Destruction sphere, etc.), any creature within 5 ft. of its surface takes 1d6 points of fire damage at the start of their turn.', '51: One gallon of acid per caster level appears above the target or center of the target area. Any creature or object in the square takes 1d6 points of acid damage per two caster levels and has any nonmagical flames it carries extinguished. A Reflex save halves the damage and prevents the flames from being extinguished. The acid disappears after these effects are resolved.', '52: Any metal armor the caster is wearing is changed to adamantine for 1 day per caster level.', '53: The ground under the target or center of the target area to a radius of 5 ft. plus 5 ft. per 5 caster levels is transmuted to acid for 1d4 rounds. Any creature submerged in the acid takes 1d6 points of acid damage per 2 caster levels (minimum 1d6) each round. Submerged creatures are expelled when this effect ends.', '54: As an instantaneous effect, an ice sculpture of the caster appears in a square adjacent to the caster (the GM chooses). This sculpture is of the same size as the caster and melts as normal for a block of ice in the local environment.', '55: The ground within close range of the target or center of the target area is transmuted to water for 1d4 rounds. Creatures or objects that enter the water are shunted out at the end of the effect.', '56: The ground around the target or center of the area of the target out to close range is transmuted into mud, making it difficult terrain for 1d6 rounds. Any creature in this area at the end of the effect must succeed on a Reflex save or risk being entangled in the hardening ground when this effect ends. The Strength check and Escape Artist DC to get free of the entanglement equals the DC of the effect.', '57: Roll twice and choose the result. Ignore any results that require rerolls. If both rolls are thus ignored, there is no effect.', '58: Gold coins rain on an area out to close range of the target or center of the target area for 1d6 rounds. All creatures in the area must succeed on a Reflex save each round or take 1 point of bludgeoning damage per caster level. These coins disappear after 1 minute per caster level.', '59: All creatures within close range of the caster have any worn armor changed to paper for 1 round per caster level. The armor provides no armor bonus, has its ACP reduced by half the caster level (minimum 0) and has hardness 0.', '60: (Combat) Creatures within close range of the caster must succeed on a Reflex save or become covered in flammable oil. If this oil is ignited (by a torch, the spark cantrip, fire geomancing of the Nature sphere, the Fire Blast or Lightning Blast talents of the Destruction sphere, etc.), the creature takes 1d6 + caster level/2 points of damage immediately and is on fire until the flame is put out, taking 1d6 points of fire damage per round. A Reflex save attempted as a standard action extinguishes the fire after the initial damage. A full-round action removes enough oil to remove the risk of damaging flames. The oil also grants a +2 circumstance bonus to Escape Artist attempts and to CMD versus grapples.', '61: The spell point cost of the effect decreases by 1. If the effect did not require any spell points, the caster instead gains 1 temporary spell point that expires at the end of his next turn.', '62: One gallon of acid per caster level appears above the caster. The caster takes 1d6 points of acid damage per two caster levels and has any nonmagical flames he carries extinguished. A Reflex save halves the damage and prevents the flames from being extinguished. The acid disappears after these effects are resolved.', '63: For 1 minute per caster level, the ground within close range of the caster is transmuted to flowstone.', '64: (Combat) A banana peel appears under the feet of the caster, forcing him to fall prone. If the caster is not standing, this result is delayed until the next time he stands on solid ground. The banana peel disappears immediately afterwards.', '65: The lungs of the caster are filled with acid, forcing him to spend 1d4 full-round actions coughing and inflicting acid damage equal to caster level/2 (minimum 1) each round. No other actions may be taken until these actions are complete.', '66: The caster is fatigued.', '67: The caster loses access to this sphere for 1d6 rounds.', '68: All hostile creatures within close range of the caster must succeed on a Fortitude save or have their lungs filled with acid, forcing them to take 1d4 full-round actions coughing and inflicting acid damage equal to caster level/2 (minimum 1) each round. No other actions may be taken until these actions are complete.', '69: For 1 minute per caster level, the ground within close range of the caster is transmuted to steel.', '70: Effect receives a +2 bonus to caster level.', '71: As an instantaneous effect, lit tindertwigs rain from the sky in an area out to close range of the caster for 1d6 rounds. All creatures in the area must succeed on a Reflex save each round or take 1 point of fire damage per caster level. Any flammable unattended objects within the area catch fire.', '72: For 1 hour per caster level, all nonmagical objects that the caster takes into his possession are immediately damaged as the destroy option of the alter ability. This damage is incurred each time the object becomes attended.', '73: A dense object of the largest size the caster can create (the GM chooses) falls from 5 ft. + 5 ft. per 2 caster levels above a square the caster chooses within close range. This falling height cannot exceed the height of the room or other enclosed space the target occupies. Make an attack roll per the falling object rules of the Creation sphere. The object disappears after the attack is resolved.', '74: For 1 minute per caster level, the skin of all creatures within close range of the caster becomes hardened and takes on the appearance of wood, bronze, or another material the caster can create or alter, granting a +1 bonus to natural armor, stacking with other bonuses to natural armor, but imposing a heavy load on the creature. A successful Fortitude save negates this effect.', '75: The caster takes untyped nonlethal damage equal to caster level. This damage does not force concentration checks to cast or maintain sphere effects or spells.', '76: An area out to close range of the target of center of the target area is covered in small, hard, round objects. Any creature attempting to leave a square in this area must succeed on a Reflex save or fall prone. These objects persist for 1 round per caster level.', '77: Any metal armor the caster is wearing is changed to mithral for 1 day per caster level.', '78: Creatures within close range of the target or center of the target area must succeed on a Reflex save or become covered in flammable oil. If this oil is ignited (by a torch, spark cantrip, fire geomancing of the Nature sphere, Fire Blast or Lightning Blast talents of the Destruction sphere, etc.), the creature takes 1d6 + caster level/2 points of damage immediately and is on fire until the flame is put out, taking 1d6 points of fire damage per round. A Reflex save attempted as a standard action extinguishes the fire after the initial damage. A full-round action removes enough oil to remove the risk of damaging flames. The oil also grants a +2 circumstance bonus to Escape Artist attempts and to CMD versus grapples.', '79: The spell point cost of the effect increases by 1d4. If the caster does not have enough spell points, he is instead dazed until the end of his next turn.', '80: (Combat) Caltrops cover the ground out to medium range of the caster for 1d4 rounds.', '81: All creatures within close range of the caster must succeed on a Fortitude save or have their lungs filled with acid, forcing them to spend 1d4 full-round actions coughing and inflicting acid damage equal to caster level/2 (minimum 1) each round. No other actions may be taken until these actions are complete.', '82: All creatures within close range of the target or center of the target area must succeed on a Fortitude save or be transmuted into stone per the Fleshcraft advanced talent for 1 round.', '83: The effect fails and the action is lost. Spell points or spell slots are lost.', '84: For 1 minute per caster level, the skin of the caster becomes hardened and takes on the appearance of wood, bronze, or another material the caster can create or alter, granting a +1 bonus to natural armor, stacking with other bonuses to natural armor, but imposing a heavy load on the caster.', '85: For 1 minute per caster level, the ground within close range of the target or center of the target area is transmuted to steel.', '86: The ground within close range of the target or center of the target area is transmuted to acid for 1d4 rounds, dealing 1d6 points of damage per 2 caster levels to any creature or object submerged in it. Creatures or objects that enter the water are shunted out at the end of the effect.', '87: The caster gains knowledge of one talent of his choice from this sphere for 1 round.', '88: As an instantaneous effect, lit tindertwigs rain from the sky in an area out to close range of the target or center of the target area for 1d6 rounds. All creatures in the area must succeed on a Reflex save each round or take 1 point of fire damage per caster level. Any flammable unattended objects within the area catch fire.', '89: (Combat) The caster is dazed for 1 round.', '90: (Combat) The caster is nauseated for 1 round.', '91: For 1 minute per caster level, the ground around the target or center of the affected area is transmuted to flowstone.', '92: Random Tiny objects of any material the caster can create cover the ground out to medium range, making the area difficult terrain until they disappear 1d6 rounds later.', '93: An area out to close range of the caster is covered in small, hard, round objects. Any creature attempting to leave a square in this area must succeed on a Reflex save or fall prone. These objects persist for 1 round per caster level.', '94: (Combat) All creatures within medium range of the caster have the metallic portions of all currently wielded weapons turn to silver for 1 minute per caster level.', '95: All creatures within close range of the target or center of the target area have any worn armor changed to wood for 1 round per caster level. If the armor was metal, reduce the AC bonus by half. If the armor was leather, increase the ACP by 2. The wood has hardness 5.', '96: The caster loses knowledge of any of the talents used in the effect (but not the base sphere) for the length of the effect (minimum 1 round).', '97: A lump of flowstone with a mass equal to twice caster level pounds appears in the space of the target or in the center of the target area. This flowstone disappears after 1 minute per caster level.', '98: (Combat) The ground around the caster out to medium range is transmuted into mud, making it difficult terrain for 1d6 rounds. Any creature in this area at the end of the effect must succeed on a Reflex save or risk being entangled in the hardening ground when this effect ends. The Strength check and Escape Artist DC to get free of the entanglement equals the DC of the effect.', '99: The effect fails and the action is lost. Spell points or spell slots are not lost.', '100: Any metal armor the caster is wearing is changed to iron for 1 day per caster level.'];
+    randomResult = document.getElementById('randomResult');
+    document.getElementById("button").addEventListener('click',randText,false);
+</script>
+[[/html]]
+
+++++ Wild Magic Table
+||~ d100 ||~ Result ||
+|| 1 || The caster takes 1d4 points of Constitution damage even if he would normally be immune to ability damage. Creatures without a Constitution score instead take Charisma damage. ||
+|| 2 || All unattended, nonmagical objects within close range of the caster take damage per the destroy option of the alter ability. ||
+|| 3 || The casting time decreases by 2 steps. ||
+|| 4 || A solid box of the material the caster can create with the highest hardness appears around the caster. This box persists for 1d4 rounds or until destroyed. This box has a thickness of 1 inch. ||
+|| 5 || The caster takes a number of points of ability damage to his casting attribute equal to the effect’s caster level/4 (minimum 1) even if he would normally be immune to ability damage. ||
+|| 6 || (Combat) The ground within close range of the caster is transmuted to flammable oil for 1d4 rounds. Creatures or objects that enter the oil may become trapped at the end of the effect. If this oil is ignited (by a torch, the spark cantrip, fire geomancing of the Nature sphere, the Fire Blast or Lightning Blast talents of the Destruction sphere, etc.), any creature within 5 ft. of its surface takes 1d6 points of fire damage at the start of their turn. ||
+|| 7 || For 1 round, the caster’s body is transmuted into stone per the Fleshcraft advanced talent. ||
+|| 8 || The caster’s lungs are filled with water, forcing him to spend 1d4 full-round actions coughing. No other actions may be taken until these actions are complete. ||
+|| 9 || A swarm of paper cranes fill the area around the target out to close range, granting all creatures concealment and inflicting 1 point of bleed damage per 2 caster levels (minimum 1) to any target with a combined armor and natural armor bonus of less the half the caster level. ||
+|| 10 || Solid boxes of the material the caster can create with the highest hardness appears around all creature’s within close range of the target or center of the target area. These boxes persists for 1d4 rounds. A Reflex save prevents being trapped inside the box. These boxes have a thickness of 1 inch. ||
+|| 11 || Roll again on the Universal wild magic table. ||
+|| 12 || A dense object of the largest size the caster can create of the GM’s choice falls from 5 ft. + 5 ft. per 2 caster levels above the caster. This falling height cannot exceed the height of the room or other enclosed space the caster occupies. Make an attack roll per the falling object rules of the Creation sphere. The object disappears after the attack is resolved. ||
+|| 13 || (Combat) The caster is stunned for 1 round. ||
+|| 14 || The ground within close range of the target or center of the target area is transmuted to water for 1d4 rounds. Submerged creatures may become trapped when this effect ends. ||
+|| 15 || All allied creatures within close range of the caster must succeed on a Fortitude save or have their lungs filled with water, forcing them to spend 1d4 full-round actions coughing. No other actions may be taken until these actions are complete. ||
+|| 16 || A swarm of paper cranes fill the area around the caster out to close range, granting all creatures concealment and inflicting 1 point of bleed damage per 2 caster levels (minimum 1) to any target with a combined armor and natural armor bonus of less the half the caster level. ||
+|| 17 || The ground under the caster to a radius of 5 ft. plus 5 ft. per 5 caster levels is transmuted to acid for 1d4 rounds. Any creature submerged in the acid takes 1d6 points of acid damage per 2 caster levels (minimum 1d6) each round. Submerged creatures are expelled when this effect ends. ||
+|| 18 || A solid wall appears in front of the caster the next time he attempts to move. This wall is the width and height of the caster’s space and disappears at the end of the caster’s movement. ||
+|| 19 || All creatures within close range of the target have any worn armor changed to lead for 1 round per caster level. If the armor was metal, reduce the AC bonus by -2 and increase the ACP by 2. If the armor was leather, increase the ACP by 4. The lead has hardness 7 and the weight of the armor doubles. ||
+|| 20 || The effect fails, but the action is not lost. Spell points or spell slots spent are lost. ||
+|| 21 || The spell point cost of the effect increases by 1. If the caster does not have enough spell points, he is instead staggered until the end of his next turn. ||
+|| 22 || All creatures within close range of the caster have any worn armor changed to lead for 1 round per caster level. If the armor was metal, reduce the AC bonus by 2 and increase the ACP by 2. If the armor was leather, increase the ACP by 4. The lead has hardness 7 and the weight of the armor doubles. ||
+|| 23 || All unattended, nonmagical objects within close range of the target or center of the target area take damage per the destroy option of the alter ability. ||
+|| 24 || (Combat) All creatures within medium range of the caster have the metallic portions of all currently wielded weapons turn to adamantine for 1 minute per caster level. ||
+|| 25 || One gallon of water per caster level appears above the caster. Any nonmagical flames carried by or around the caster are extinguished. ||
+|| 26 || The ground within close range of the caster is transmuted to water for 1d4 rounds. Submerged creatures may become trapped when this effect ends. ||
+|| 27 || All allied creatures within close range of the caster must succeed on a Fortitude save or have their lungs filled with acid, forcing them to spend 1d4 full-round actions coughing and inflicting acid damage equal to caster level/2 (minimum 1) each round. No other actions may be taken until these actions are complete. ||
+|| 28 || The casting time increases by 2 steps. ||
+|| 29 || Solid boxes of the material the caster can create with the highest hardness appears around all creature’s within close range of the caster. These boxes persists for 1d4 rounds or until destroyed. A Reflex save prevents being trapped inside the box. These boxes have a thickness of 1 inch. ||
+|| 30 || All creatures within close range of the caster must succeed on a Fortitude save or have their lungs filled with water, forcing them to spend 1d4 full-round actions coughing. No other actions may be taken until these actions are complete. ||
+|| 31 || As an instantaneous effect, the caster is suddenly saddled with several large backpacks filled with worthless trinkets, increasing his load to 1 lb. over his maximum heavy load. Removing the backpacks requires a standard action. ||
+|| 32 || The caster is exhausted. ||
+|| 33 || All hostile creatures within close range of the caster must succeed on a Fortitude save or have their lungs filled with water, forcing them to spend 1d4 full-round actions coughing. No other actions may be taken until these actions are complete. ||
+|| 34 || (Combat) As an instantaneous effect, the caster becomes covered in flammable oil. If this oil is ignited (by a torch, the spark cantrip, fire geomancing of the Nature sphere, the Fire Blast or Lightning Blast talents of the Destruction sphere, etc.), the caster takes 1d6 + caster level/2 points of damage immediately and is on fire until the flame is put out, taking 1d6 points of fire damage per round. A Reflex save attempted as standard action extinguishes the fire after the initial damage. A full-round action removes enough oil to remove the risk of damaging flames. The oil also grants a +2 circumstance bonus to Escape Artist attempts and to CMD versus grapples. ||
+|| 35 || (Combat) All creatures within close range of the target have any worn armor changed to paper for 1 round per caster level. The armor provides no armor bonus, has its ACP reduced by half the caster level (minimum 0) and has hardness 0. ||
+|| 36 || A lump of flowstone with a mass equal to twice caster level pounds appears in the caster’s space. This flowstone disappears after 1 minute per caster level. ||
+|| 37 || Gold coins rain on an area out to close range of the caster for 1d6 rounds. All creatures in the area must succeed on a Reflex save each round or take 1 point of bludgeoning damage per caster level. These coins disappear after 1 minute per caster level. ||
+|| 38 || (Combat) The ground within close range of the caster is transmuted to water for 1d4 rounds. Creatures or objects that enter the water are shunted out at the end of the effect. ||
+|| 39 || The casting time decreases by 1 step. ||
+|| 40 || The contents of the caster’s stomach becomes violently inedible. The caster is nauseated for 1d4 rounds. ||
+|| 41 || All creatures within close range of the caster have any worn armor changed to wood for 1 round per caster level. If the armor was metal, reduce the AC bonus by half. If the armor was leather or cloth, increase the ACP by 2 and the ASF by 10%. The wood has hardness 5. ||
+|| 42 || A dense object of the largest size the caster can create of the GM’s choice falls from 5 ft. + 5 ft. per 2 caster levels above the target or center of the targeted area. This falling height cannot exceed the height of the room or other enclosed space the target or area occupies. Make an attack roll per the falling object rules of the Creation sphere against the target or against the nearest creature in the area. The object disappears after the attack is resolved. ||
+|| 43 || Effect receives a -4 penalty to caster level (minimum 1). ||
+|| 44 || (Combat) The ground within close range of the caster is transmuted to acid for 1d4 rounds, dealing 1d6 points of damage per 2 caster levels to any creature or object submerged in it. Creatures or objects that enter the water are shunted out at the end of the effect. ||
+|| 45 || (Combat) All creatures within medium range of the caster have the metallic portions of all currently wielded weapons turn to gold for 1 minute per caster level. Weapons that do not deal bludgeoning damage have their damage die decreased by two sizes. Creatures wielding such a weapon take a -2 penalty to CMD against the sunder combat maneuver. ||
+|| 46 || The effect persists for 1 minute beyond its normal duration. ||
+|| 47 || Caltrops cover the ground out to medium range of the target or center of the target area for 1d4 rounds. ||
+|| 48 || The casting time increases by 1 step. ||
+|| 49 || Roll twice and take both results. Ignore any results that require rerolls. If both rolls thus ignored, there is no effect. ||
+|| 50 || (Combat) The ground within close range of the caster is transmuted to flammable oil for 1d4 rounds. Creatures or objects that enter the oil are shunted out at the end of the effect. If this oil is ignited (by a torch, the spark cantrip, fire geomancing of the Nature sphere, the Fire Blast or Lightning Blast talents of the Destruction sphere, etc.), any creature within 5 ft. of its surface takes 1d6 points of fire damage at the start of their turn. ||
+|| 51 || One gallon of acid per caster level appears above the target or center of the target area. Any creature or object in the square takes 1d6 points of acid damage per two caster levels and has any nonmagical flames it carries extinguished. A Reflex save halves the damage and prevents the flames from being extinguished. The acid disappears after these effects are resolved. ||
+|| 52 || Any metal armor the caster is wearing is changed to adamantine for 1 day per caster level. ||
+|| 53 || The ground under the target or center of the target area to a radius of 5 ft. plus 5 ft. per 5 caster levels is transmuted to acid for 1d4 rounds. Any creature submerged in the acid takes 1d6 points of acid damage per 2 caster levels (minimum 1d6) each round. Submerged creatures are expelled when this effect ends. ||
+|| 54 || As an instantaneous effect, an ice sculpture of the caster appears in a square adjacent to the caster of the GM’s choice. This sculpture is of the same size as the caster and melts as normal for a block of ice in the local environment. ||
+|| 55 || The ground within close range of the target or center of the target area is transmuted to water for 1d4 rounds. Creatures or objects that enter the water are shunted out at the end of the effect. ||
+|| 56 || The ground around the target or center of the target’s area out to close range is transmuted into mud, making it difficult terrain for 1d6 rounds. Any creature in this area at the end of the effect must succeed on a Reflex save or risk being entangled in the hardening ground when this effect ends. The Strength check and Escape Artist DC to get free of the entanglement equals the effect’s DC. ||
+|| 57 || Roll twice and choose the result. Ignore any results that require rerolls. If both rolls thus ignored, there is no effect. ||
+|| 58 || Gold coins rain on an area out to close range of the target or center of the target area for 1d6 rounds. All creatures in the area must succeed on a Reflex save each round or take 1 point of bludgeoning damage per caster level. These coins disappear after 1 minute per caster level. ||
+|| 59 || All creatures within close range of the caster have any worn armor changed to paper for 1 round per caster level. The armor provides no armor bonus, has its ACP reduced by half the caster level (minimum 0) and has hardness 0. ||
+|| 60 || (Combat) Creatures within close range of the caster must succeed on a Reflex save or become covered in flammable oil. If this oil is ignited (by a torch, the spark cantrip, fire geomancing of the Nature sphere, the Fire Blast or Lightning Blast talents of the Destruction sphere, etc.), the creature takes 1d6 + caster level/2 points of damage immediately and is on fire until the flame is put out, taking 1d6 points of fire damage per round. A Reflex save attempted as a standard action extinguishes the fire after the initial damage. A full-round action removes enough oil to remove the risk of damaging flames. The oil also grants a +2 circumstance bonus to Escape Artist attempts and to CMD versus grapples. ||
+|| 61 || The spell point cost of the effect decreases by 1. If the effect did not require any spell points, the caster instead gains 1 temporary spell point that expires at the end of his next turn. ||
+|| 62 || One gallon of acid per caster level appears above the caster. The caster takes 1d6 points of acid damage per two caster levels and has any nonmagical flames he carries extinguished. A Reflex save halves the damage and prevents the flames from being extinguished. The acid disappears after these effects are resolved. ||
+|| 63 || For 1 minute per caster level, the ground within close range of the caster is transmuted to flowstone. ||
+|| 64 || (Combat) A banana peel appears under the caster’s feet, forcing him to fall prone. If the caster is not standing, this result is delayed until the next time he stands on solid ground. The banana peel disappears immediately afterwards. ||
+|| 65 || The caster’s lungs are filled with acid, forcing him to spend 1d4 full-round actions coughing and inflicting acid damage equal to caster level/2 (minimum 1) each round. No other actions may be taken until these actions are complete. ||
+|| 66 || The caster is fatigued. ||
+|| 67 || The caster loses access to this sphere for 1d6 rounds. ||
+|| 68 || All hostile creatures within close range of the caster must succeed on a Fortitude save or have their lungs filled with acid, forcing them to take 1d4 full-round actions coughing and inflicting acid damage equal to caster level/2 (minimum 1) each round. No other actions may be taken until these actions are complete. ||
+|| 69 || For 1 minute per caster level, the ground within close range of the caster is transmuted to steel. ||
+|| 70 || Effect receives a +2 bonus to caster level. ||
+|| 71 || As an instantaneous effect, lit tindertwigs rain from the sky in an area out to close range of the caster for 1d6 rounds. All creatures in the area must succeed on a Reflex save each round or take 1 point of fire damage per caster level. Any flammable unattended objects within the area catch fire. ||
+|| 72 || For 1 hour per caster level, all nonmagical objects that the caster takes into his possession are immediately damaged as the destroy option of the alter ability. This damage is incurred each time the object becomes attended. ||
+|| 73 || A dense object of the largest size the caster can create of the GM’s choice falls from 5 ft. + 5 ft. per 2 caster levels above a square of the caster’s choice within close range. This falling height cannot exceed the height of the room or other enclosed space the target occupies. Make an attack roll per the falling object rules of the Creation sphere. The object disappears after the attack is resolved. ||
+|| 74 || For 1 minute per caster level, the skin of all creatures within close range of the caster becomes hardened and takes on the appearance of wood, bronze, or another material the caster can create or alter, granting a +1 bonus to natural armor, stacking with other bonuses to natural armor, but imposing a heavy load on the creature. A successful Fortitude save negates this effect. ||
+|| 75 || The caster takes untyped nonlethal damage equal to caster level. This damage does not force concentration checks to cast or maintain sphere effects or spells. ||
+|| 76 || An area out to close range of the target of center of the target area is covered in small, hard, round objects. Any creature attempting to leave a square in this area must succeed on a Reflex save or fall prone. These objects persist for 1 round per caster level. ||
+|| 77 || Any metal armor the caster is wearing is changed to mithral for 1 day per caster level. ||
+|| 78 || Creatures within close range of the target or center of the target area must succeed on a Reflex save or become covered in flammable oil. If this oil is ignited (by a torch, spark cantrip, fire geomancing of the Nature sphere, Fire Blast or Lightning Blast talents of the Destruction sphere, etc.), the creature takes 1d6 + caster level/2 points of damage immediately and is on fire until the flame is put out, taking 1d6 points of fire damage per round. A Reflex save attempted as a standard action extinguishes the fire after the initial damage. A full-round action removes enough oil to remove the risk of damaging flames. The oil also grants a +2 circumstance bonus to Escape Artist attempts and to CMD versus grapples. ||
+|| 79 || The spell point cost of the effect increases by 1d4. If the caster does not have enough spell points, he is instead dazed until the end of his next turn. ||
+|| 80 || (Combat) Caltrops cover the ground out to medium range of the caster for 1d4 rounds. ||
+|| 81 || All creatures within close range of the caster must succeed on a Fortitude save or have their lungs filled with acid, forcing them to spend 1d4 full-round actions coughing and inflicting acid damage equal to caster level/2 (minimum 1) each round. No other actions may be taken until these actions are complete. ||
+|| 82 || All creatures within close range of the target or center of the target area must succeed on a Fortitude save or be transmuted into stone per the Fleshcraft advanced talent for 1 round. ||
+|| 83 || The effect fails and the action is lost. Spell points or spell slots are lost. ||
+|| 84 || For 1 minute per caster level, the caster’s skin becomes hardened and takes on the appearance of wood, bronze, or another material the caster can create or alter, granting a +1 bonus to natural armor, stacking with other bonuses to natural armor, but imposing a heavy load on the caster. ||
+|| 85 || For 1 minute per caster level, the ground within close range of the target or center of the target area is transmuted to steel. ||
+|| 86 || The ground within close range of the target or center of the target area is transmuted to acid for 1d4 rounds, dealing 1d6 points of damage per 2 caster levels to any creature or object submerged in it. Creatures or objects that enter the water are shunted out at the end of the effect. ||
+|| 87 || The caster gains knowledge of one talent of his choice from this sphere for 1 round. ||
+|| 88 || As an instantaneous effect, lit tindertwigs rain from the sky in an area out to close range of the target or center of the target area for 1d6 rounds. All creatures in the area must succeed on a Reflex save each round or take 1 point of fire damage per caster level. Any flammable unattended objects within the area catch fire. ||
+|| 89 || (Combat) The caster is dazed for 1 round. ||
+|| 90 || (Combat) The caster is nauseated for 1 round. ||
+|| 91 || For 1 minute per caster level, the ground around the target or center of the affected area is transmuted to flowstone. ||
+|| 92 || Random Tiny objects of any material the caster can create cover the ground out to medium range, making the area difficult terrain until they disappear 1d6 rounds later. ||
+|| 93 || An area out to close range of the caster is covered in small, hard, round objects. Any creature attempting to leave a square in this area must succeed on a Reflex save or fall prone. These objects persist for 1 round per caster level. ||
+|| 94 || (Combat) All creatures within medium range of the caster have the metallic portions of all currently wielded weapons turn to silver for 1 minute per caster level. ||
+|| 95 || All creatures within close range of the target or center of the target area have any worn armor changed to wood for 1 round per caster level. If the armor was metal, reduce the AC bonus by half. If the armor was leather, increase the ACP by 2. The wood has hardness 5. ||
+|| 96 || The caster loses knowledge of any of the talents used in the effect (but not the base sphere) for the length of the effect (minimum 1 round). ||
+|| 97 || A lump of flowstone with a mass equal to twice caster level pounds appears in the target’s space or in the center of the target area. This flowstone disappears after 1 minute per caster level. ||
+|| 98 || (Combat) The ground around the caster out to medium range is transmuted into mud, making it difficult terrain for 1d6 rounds. Any creature in this area at the end of the effect must succeed on a Reflex save or risk being entangled in the hardening ground when this effect ends. The Strength check and Escape Artist DC to get free of the entanglement equals the effect’s DC. ||
+|| 99 || The effect fails and the action is lost. Spell points or spell slots are not lost. ||
+|| 100 || Any metal armor the caster is wearing is changed to iron for 1 day per caster level. ||
+[[/tab]]
+[[tab Original]]
+[[include old-creation]]
+[[/tab]]
+[[/tabview]]
+
+----
+
+[[include sop-template]]

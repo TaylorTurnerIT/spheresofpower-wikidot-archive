@@ -1,0 +1,328 @@
+title:Infiltration
+[[module CSS]]
+.colored-links span > a {
+  color: inherit;
+}
+[[/module]]
+
+[[module CSS]]
+.noselect {
+  -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome and Opera */
+}
+[[/module]]
+
+[[toc]]
+
+[[tabview]]
+[[tab Spheres of Guile]]
+[[div class="noselect" style="float:right; width: 20%; padding: 0 2%"]]
+[[=]]
+[[image http://spheresofpower.wikidot.com/local--files/test-page/spheres-of-guile.png link="https://www.drivethrurpg.com/product/431419/Spheres-of-Guile?affiliate_id=549120"]]
+**Spheres of Guile**
+$24.99
+----
+[[/=]]
+[[/div]]
+Operatives of the Infiltration sphere train to avoid scrutiny, move stealthily, and outsmart traps that stand in their way. They are silent and unobtrusive when they need to be, blending into shadows and moving where no eyes will see.
+
+**Associated Skill:** Disable Device.
+
+You gain the following benefits when you gain the Infiltration sphere.
+
+When you gain the Infiltration sphere, you gain 5 ranks in Disable Device, plus 5 ranks per additional talent spent in the Infiltration sphere (maximum ranks equal to your Hit Dice). If you already have ranks in Disable Device, you may immediately retrain them.
+
+**Skill Leverage:** When you gain the Infiltration sphere, you unlock skill leverage with Disable Device and Stealth.
+
+You also acquire the Fast Sabotage, Light Step, and Startle abilities.
+
+++ ##4B0092|Fast Sabotage (Ex)##
+You can attempt Disable Device on any item that would normally require up to 2d4 rounds in a single standard action (without a penalty for working quickly). You can perform disastrous sabotage (new skill use) in 1d4 rounds (without a penalty for working quickly). If the sabotage allows a saving throw, it is against your sphere DC if that is higher than the usual DC. If the sabotage allows a skill check, the DC is 15 + 150% your ranks in Disable Device + your operative ability modifier. Instead of a common Disable Device sabotage effect, you can apply the effect of a suitable (sabotage) talent to the device, but you cannot apply a talent faster by accepting a Disable Device penalty (as you can with disastrous sabotage).
+
+You can apply the sabotage effect immediately or choose for it to take effect when triggered. Typical triggers are when it is used a certain number of times (for items like weapons) or after a certain total number of minutes of use (for items like tools or vehicles). You can also make the trigger contingent on specific, physically distinct modes of use. For example, you might make sabotage to armor trigger when the wearer attempts two skill checks to move or sabotage to a lock trigger upon becoming specifically locked or specifically unlocked. When sabotage is triggered by an action or the use of the item, it takes effect during the triggering use (which might penalize or waste that action). If a (sabotage) talent’s effect goes unused for more than 1 day, it triggers.
+
+Until it becomes relevant, the sabotage can generally only be noticed with an active Perception check opposed to your Disable Device result. (Sabotage that has not been triggered yet is never relevant.) Most sabotage that has not yet triggered can be removed without triggering it with a successful opposed Craft check using a suitable skill for the item or with an opposed Disable Device check at a –5 penalty. If a creature attempts to remove sabotage that has not triggered yet and fails by 5 or more, the sabotage triggers immediately.
+
+Each sabotage indicates how it can be ended; if it requires an opposed skill check to end, use either Disable Device at a penalty or Craft unless noted otherwise.
+
+The standard action allowed by this ability is fast enough to sabotage an item held or carried by a creature with a successful dirty trick combat maneuver check (a new Disable Device skill use. Sabotaging an item a creature wears or carries is not a hostile action for magical effects like invisibility if you give the sabotage a trigger (rather than applying the effect immediately).
+
+++ ##4B0092|Light Step [approach] (Ex)##
+You adopt this approach as a swift action while you are using Stealth. You reduce by 5 the penalty to Stealth for moving up to your full speed, for skulking in the open, as part of creating a diversion to hide, or for relying on positional concealment. The penalty is reduced by the number of ranks in Stealth you possess instead if that is higher. You abandon the approach when you break Stealth.
+
+++ ##4B0092|Startle (Ex)##
+You can outwit any creature unaware of your location because you are using Stealth. Outwitting them breaks Stealth.
+----
+++ ##4B0092|Infiltration Talent Types##
+++++ Sabotage
+Some talents are designated (sabotage), giving you more options for the effect of your fast sabotage ability. Each (sabotage) talent lists the Disable Device DC to apply it with fast sabotage. A sabotage can only be applied to an effect that matches its Target entry.
+----
+++ ##4B0092|Infiltration Talents##
+++++ Camouflage [utility]
+You can use a disguise kit or any loose materials in an area to create camouflage for yourself or another creature you can reach as a standard action.
+
+Camouflage grants the wearer a +4 circumstance bonus on Stealth checks to avoid being seen in a certain environment chosen when you create the camouflage, such as snow or woods or stone (without a disguise kit, you must use matching materials). This bonus does not stack with similar means of blending into your surroundings, such as invisibility or a racial bonus on Stealth checks in a certain environment. While the bonus applies, the creature does not break Stealth for lack of cover or concealment (although they still need some way to enter Stealth) but physical actions taken after ending the turn without cover or concealment do break Stealth unless the camouflaged creature succeeds at a new Stealth check as a move action to conceal it (such as sniping) or a Sleight of Hand check to take a subtle action (a subtle action cannot be an attack or otherwise overtly hostile). Camouflage lasts until removed or worn off by at least 8 hours of physical activity.
+
+++++ Case The Joint [plan] [utility]
+You are a master at having just the right tools or intelligence for the current infiltration. You can reveal your plan as a full-round action. This plan might turn out to be physically studying an area, sneaking into a low-security area to steal something unattended, or shadowing people with access to the area to spy on them. You can reveal a plan to be one item of negligible value or piece of information you could have reasonably gained from your preparations. These might include having a copy of a key you could have stolen from a common sleeping area at an inn, an architect’s plan of a castle, knowing a password from shadowing a guard talking off-duty, or having one of several copies of a document used by servants you talked to.
+
+If you produce a stolen item, you must attempt a Stealth check to determine if you acquired it. The DC for this check is set by the GM and is usually 10 + an NPC’s Perception modifier or roughly 10 + twice the highest challenge rating among all guardians of the area. If you succeed and the item would be reasonably accessible, you have it. Unless you succeed by 5 or more, a stolen item is noticed missing around the time you reveal the plan. (If the item would not be reasonably accessible or you fail, the GM should work with you to choose an alternative of similar function, such as a clue about security measures to expect in an area.)
+
+If you possess the Planned Sabotage talent, you may also place a single (sabotage) in the area or object you accessed without having to spend an additional plan.
+
+++++ Circumvent Magic [approach]
+Adopting this approach is a swift action. While you maintain this approach, you can use Disable Device to disarm magic traps as if you had the trapfinding class feature. If a divination spell or similar effect would detect your aura in an area or your location or if your movement would trigger a magical trap (including alarm) and you were aware of the caster or trap, you can spend 1 use of skill leverage as an immediate action to attempt to avoid its notice.
+
+A divination spell or effect yields results as if you were not present unless the caster succeeds at a caster level check against DC 11 + the number of ranks in Stealth you possess. A magical trap does not trigger if you succeed at a Stealth check against the trap’s Disable Device DC. A magical trap can trigger again if you still meet the condition at the end of your turn, but a divination spell or other effect has no further opportunities to detect you until you abandon this approach.
+
+++++ Circumvent Technology [approach] [SUE]
+Adopting this approach is a swift action. While you maintain this approach, you can use Disable Device to disarm technological devices (such as Tinker sphere gizmos, etc.) as if you had the Technologist feat. If a //detector// or similar effect would detect you or if your movement would trigger a technological trap (including Tinker sphere Countermeasures) and you were aware of the //detector// or trap, you can spend 1 use of skill leverage as an immediate action to attempt to avoid its notice.
+
+Avoiding notice this way means the //detector// yields results as if you were not present unless the technology succeeds at a gizmo penetration check (1d20 + its gizmo level) DC 11 + the number of ranks in Stealth you possess; if the technology does not have a gizmo level, substitute the technology’s CR (or appropriate statistic, by GM discretion). If you successfully avoid a //detector//, you remain unnoticed for 1 minute per rank in Stealth you possess. A technological trap does not trigger if you succeed at a Stealth check opposed by the trap’s Disable device DC. A technological trap can trigger again if you are still within its area or meet its trigger condition at the end of your turn.
+
+**Special - Circumvent Magic [approach]**: If you could enter both this approach and the Circumvent Magic [approach], you may maintain both approaches simultaneously.
+
+++++ Commando Crawl [DRS]
+^^**Source:** [https://www.drivethrurpg.com/en/product/533835/diamond-spheres-hustle-bustle?src=newest%3Faffiliate_id%3D3028400 Diamond Spheres: Hustle & Bustle]^^
+
+If you have been prone since the end of your last turn, you increase the bonus to your AC against ranged attacks made against you to +6, as well doubling the Perception DC modifier due to distance or unfavorable conditions to observers attempting to notice you (in the case of distance, this would increase the DC to notice you by +2 per 10 feet), and you gain concealment—you can make Stealth checks using this concealment while prone at a -5 penalty while crawling, or at no penalty if you do not move or are maintaining the light step approach.
+
+Additionally, you can move at half speed while you are prone, instead of just 5 feet.
+
+**Associated Feats**: Fast Crawl (//Faction Guide//), Lie Low (//Ranged Tactics Toolbox//), Prone Shooter (//Ultimate Combat//).
+
+++++ Compelling Diversion [utility]
+When you succeed at a Bluff check to create a diversion, each creature you affect remains distracted until the end of your next turn even if the subject isn’t especially distracting. If you aren't in combat, the creatures are oblivious instead of distracted.
+
+++++ Confident Sniper
+You can attack with such subtle, measured movement that it is not only accurate but hard to notice. Note the d20 roll when you make a ranged attack or combat maneuver while using Stealth. You can choose to use the same d20 roll for the next Stealth check you attempt that turn instead of rolling.
+
+++++ Danger Awareness
+You retain your Dexterity bonus to AC (if any) while flat-footed against creatures and traps that you failed a Perception check to notice. You also get a +1 insight bonus on Perception checks to notice hidden creatures and traps and to Reflex saving throws and AC against traps. The bonus increases by 1 for every 3 ranks in the associated skill you possess.
+
+++++ Deft Motion [DRS]
+^^**Source:** [https://www.drivethrurpg.com/en/product/533835/diamond-spheres-hustle-bustle?src=newest%3Faffiliate_id%3D3028400 Diamond Spheres: Hustle & Bustle]^^
+
+When you adopt the light step approach, you also reduce the DC penalty to Stealth checks to gently operate a mechanism, hide a creature or object, make a hidden maneuver, stifle a noisy action, or to stay hidden while sniping by 5 or your associated ranks, whichever is higher.
+
+If you have at least 6 ranks in Stealth, you can use Stealth to snipe as a full-round action while maintaining the light step approach. If you do, you can make a full attack and hide afterwards, although you suffer a -5 cumulative penalty to the Stealth check to do so for each additional attack you make after the first this way.
+
+**Associated Feats**: Expert Sniper and Master Sniper (//Dirty Tactics Toolbox//)
+
+++++ Expert Saboteur
+You can use fast sabotage as a move action by accepting a –5 penalty on your Disable Device check.
+
+You may use fast sabotage as a full-round action to apply two (sabotage) talents.
+
+++++ Frantic Escape [utility]
+By spending 1 use of skill leverage as an immediate action, you can attempt to delay a trap immediately after meeting its trigger condition or failing to disable it. You don't have to be aware of the trap to use this action, but you make the check with a -2 penalty if you are surprised. After the trap is triggered but before any attack rolls or saving throws are made, attempt a Disable Device check against the trap’s Disable Device DC; if you are successful, the trap’s activation is delayed until the end of your next turn. If you succeed at another Disable Device check while it is delayed, it is disabled normally and does not trigger. You are aware of the affected area of the delayed trap activation.
+
+++++ Impromptu Stealth [DRS]
+^^**Source:** [https://www.drivethrurpg.com/en/product/533835/diamond-spheres-hustle-bustle?src=newest%3Faffiliate_id%3D3028400 Diamond Spheres: Hustle & Bustle]^^
+
+Whenever you would attempt an attack of opportunity while you are benefitting from cover or concealment, you can forgo the attack of opportunity to instead attempt a Stealth check against the provoking creature’s CMD. If you succeed, you treat the creature as flat-footed against your first attack made before the end of your next turn.
+
+Additionally, whenever you attempt an initiative check, you can move 10 feet and attempt a Stealth check to hide as an immediate action (as long as you end the movement within cover or concealment). You can enter the light step approach as part of doing this.
+
+++++ Lightstalker [DRS]
+^^**Source:** [https://www.drivethrurpg.com/en/product/533835/diamond-spheres-hustle-bustle?src=newest%3Faffiliate_id%3D3028400 Diamond Spheres: Hustle & Bustle]^^
+
+You can make Stealth checks in normal light at a -20 penalty, even when observed. This penalty is reduced to -10 while maintaining the light step approach. 
+
+Additionally, a creature suffering from the dazzled condition is not treated as observing you for the purposes of Stealth.
+
+At 5 ranks in Stealth, you can also attempt Stealth checks in bright light with the above penalty.
+Associated Feat: Hellcat Stealth (Pathfinder Chronicles — Cheliax: Empire of Devils).
+
+++++ Light Touch [utility]
+You get a +1 insight bonus on Disable Device and Sleight of Hand checks. For every 4 ranks in one of those skills that you possess, the bonus to that skill increases by 1. When you trigger a trap intentionally or by failing to disable it, you can attempt a Stealth check with a –5 penalty to avoid anyone hearing the trap’s effect. (Use your result as the base Perception DC to hear the sound of the trap.)
+
+In addition, when a creature notices your Sleight of Hand check to lift an item from it or plant an item on it or your use of the Tactical Sabotage talent, you can attempt a Stealth check to oppose the same Perception result. If you succeed, the target can tell only that you attempted to touch their possessions but nothing more specific.
+
+**Associated Feat:** Deft Hands.
+
+++++ Planned Sabotage [plan]
+You plan just the right sabotage for later. As a full-round action, you can reveal a plan to be the sabotage of an object you could access when you last prepared plans.
+
+It can be any application of the Disable Device skill or a (sabotage) talent. You attempt the Disable Device check when you reveal the plan, but you can take 10 on it even in combat. You can trigger the sabotage as part of the action to reveal this plan.
+
+++++ Ranged Disable [utility]
+You can attempt a Disable Device check with a ranged weapon you are proficient with to render a device inoperative or apply common sabotage.
+
+You cannot disable a device that has cover or concealment unless you are within 10 feet of it. This use of the ranged weapon deals no damage to the device, but it allows you to attempt a Disable Device check instead. You also apply the weapon’s range penalty, but you do not gain any bonuses that would normally apply on attack rolls on the Disable Device check. A ranged weapon is an inappropriate tool for Disable Device, increasing the DC for complex devices like traps by 4. You increase the DC to open a lock by 4 rather than the usual 10 for not using thieves’ tools. You cannot hide your tampering with this talent.
+
+**Associated Feat:** Ranged Disable ( Pathfinder Roleplaying Game: Ultimate Intrigue).
+
+++++ Sensory Decoy
+You can create a diversion with the Bluff skill as a move action, and can use your Sleight of Hand modifier instead of your Bluff modifier for the check.
+
+++++ Shadower [approach] [utility]
+As a full-round action, you can adopt this approach to stealthily follow a target creature. This is similar to readying an action to move when that creature moves, except that your movement happens after the creature moves and you can move up to twice your speed. You take no penalty to Stealth for moving quickly up to the distance your target moved in the same turn and if you rely on positional concealment (new mechanic) to hide from the target in this approach, you do not take its Stealth penalty either. Creatures unaware of your location at the start of the shadowed creature’s movement do not get a chance to notice you until after you move.
+
+If the creature ends its turn without moving, you can immediately move up to your speed. While you maintain this approach, you can use a move action to ready an action this way to move up to your speed when the target moves or use a full-round action to ready an action this way to move up to twice your speed when the target moves. You must adopt this approach again to choose a new target.
+
+++++ Skilled Sneak [utility]
+You gain Stealth as an additional associated skill for this sphere (gaining ranks normally).
+
+++++ Sweep For Traps [approach] [utility]
+You adopt this approach as a swift action. As long as you maintain this approach, the GM should roll a secret Perception check for you each time you enter a new area. Use the result of this Perception check for any traps you come within range of. The range of your sweep is 20 feet + 5 feet per 5 ranks in Disable Device you possess.
+
+++++ Tactical Sabotage
+When you use the dirty trick combat maneuver, you get a +2 insight bonus and can use your operative ability modifier in place of Strength and Stealth ranks in place of your base attack bonus. Making the attempt does not break Stealth except against observers who succeed at a Perception check opposing your combat maneuver check. The attempt only provokes an attack of opportunity if the target succeeds at the opposed Perception check, although creatures who were already observing you in combat or otherwise intently watching you realize you were attempting a dirty trick as soon as you complete your action. If you succeed, you must use fast sabotage on an exposed item instead of the usual effect and can reuse the same d20 roll for the Disable Device check.
+
+**Associated Feat:** Improved Dirty Trick (Pathfinder Roleplaying Game: Advanced Player’s Guide).
+----
+++ ##4B0092|Sabotage Talents##
+++++ Explosive Fragility (sabotage)
+**Target:** as a common Disable Device skill sabotage
+**Disable Device DC:** 2 + standard DC
+
+As part of a basic sabotage attempt (not another (sabotage) talent), you may expend an alchemical item, splash weapon, or poison to have the creature who triggers the sabotage be targeted by the item, in addition to the normal effects of the sabotage.
+
+If the item allows a saving throw, the triggering creature takes a –4 penalty on the save. If the item requires an attack roll, it uses your attack modifier. Unless the creature is aware of the sabotage, it is flat-footed against the attack.
+
+You cannot combine this talent with another (sabotage) talent unless you are using the Expert Saboteur talent as a full-round action.
+
+++++ Hungry Aperture (sabotage)
+**Target:** a door, chest, or other portal or container
+**Disable Device DC:** 20
+
+You rig the target to trap a creature who gets too close. You choose whether it affects the first creature within 5 feet or only the next creature interacting with it. The creature takes 1d6 points of bludgeoning damage (or another type, if appropriate for the item) per 2 ranks in Disable Device you possess (minimum 1d6) with a Reflex save for half damage. If it fails, it is also entangled and unable to leave the space. The target then becomes jammed in this position. The creature can escape as a standard action with an Escape Artist check opposed to your Disable Device result, by undoing the sabotage with Craft (blacksmithing, carpentry, or stonemasonry, as appropriate for the portal), by giving the portal the broken condition, or by forcing open the portal (the Strength DC is 4 lower than usual because the portal is partially open).
+
+Disabling an aperture within 10 feet of a trap or other sabotage triggers the trap or prior sabotage. Applying a trap within 10 feet of the aperture triggers the sabotage.
+
+++++ Instant Disaster (sabotage)
+**Target:** any suitable for disastrous sabotage
+**Disable Device DC:** as normal
+
+You apply disastrous sabotage at the same speed as your usual (sabotage) talents.
+
+++++ Jagged Surface (sabotage)
+**Target:** A contiguous section of surface with solid components or plants (such as a rock cliff or floor but not sand or snow) with an area of one to four 5-foot squares plus an additional 5-foot square per 5 ranks in an associated skill.
+**Disable Device DC:** 15 + surface’s hardness
+
+You sabotage to hinder a creature touching it. The sabotaged area becomes difficult terrain. Each time a creature touches the area (or spends a round fighting while touching the area), make an attack roll for the surface (attack bonus equal to your ranks in the associated skill + your operative ability modifier) against the creature. For this attack, the creature’s shield, armor, and deflection bonuses do not count.
+
+If the creature is wearing shoes or other footwear and steps on the surface, it gets a +2 armor bonus to AC; if it wears gloves to touch the surface with its hands, it gets a +1 armor bonus; if it wears gauntlets, it gets a +2 bonus. On a hit, the creature takes 1d6 piercing or slashing damage (your choice when applying the sabotage) and the body part that touched is injured. The damage increases by 1d6 if you have at least 4 associated skill ranks and for every 4 more ranks you possess. If the creature was moving across the surface, it takes a –10 foot penalty to the speed it was using and must stop moving if it was running or charging. If the creature merely touched the surface, it takes a –2 penalty to attack rolls and skill checks using that body part. The penalties end when the creature regains hit points from rest, receives a successful Heal check against your Disable Device result, or a spellcaster heals them and succeeds at a caster level check against DC 10 + the number of ranks in Disable Device you possess.
+
+Disabling a surface within 10 feet of a trap or other sabotage in it triggers the trap or prior sabotage. Applying a trap within 10 feet of the surface triggers the sabotage.
+
+++++ Restraining Vestments (sabotage)
+**Target:** any worn item (or unit like a pair of boots) that covers at least one limb
+**Disable Device DC:** 15
+
+You sabotage the target to trip up its wearer. The creature becomes entangled until it spends a standard action loosening the item and it must succeed at a Reflex saving throw or fall prone and take 1d6 bludgeoning damage. If you possess at least 5 ranks in Disable Device, you can choose for the creature to fall 5 feet forward, backward, or left or right relative to its movement when the sabotage triggers. If you possess at least 10 ranks in Disable Device, you can choose for the creature to drop items held in hand if it fails its saving throw.
+
+++++ Pinching Joints (sabotage)
+**Target:** armor
+**Disable Device DC:** 20
+
+You sabotage metal plates or leather straps to chafe and grate. Whenever the target’s wearer would willingly move, they suffer bludgeoning damage equal to 1/2 the ranks you possess in the associated skill (minimum 1) for every 5 feet moved until it spends a standard action readjusting the armor.
+
+If the armor is medium or heavy, this damage is doubled. This damage is dealt after every 5 feet moved, but only applies damage reduction or bonuses to damage once per action spent to move.
+
+++++ Saboteur’s Friend (sabotage) [utility]
+**Target:** a tool, key, or other item used to interact with objects
+**Disable Device DC:** 25
+
+You sabotage the target to subtly sabotage other items. Any effect caused by the sabotaged item is just as hard to notice as your original sabotage.
+* A key can apply any simple or disastrous sabotage of your choice to the lock or a portal the lock is set in.
+* A tool produces faulty work with the broken condition that seems fine.
+* Another item breaks items it is used with. To break an item, your Disable Device result must be at least 20 + item’s hardness.
+
+++++ Smothering Vestments (sabotage)
+**Target:** any worn item that covers the upper body or head
+**Disable Device DC:** 20
+
+You sabotage the target to blind its wearer. The creature becomes entangled and must succeed at a Reflex saving throw or become blinded and unable to breathe or speak. Removing the effects of a failed save takes a standard action. Ending the entangled condition is a separate move action.
+
+++++ Snapping Implement (sabotage)
+**Target:** any weapon or tool
+**Disable Device DC:** 20 for weapons with moving parts or ammunition; 25 for other weapons
+
+You sabotage the target by weakening key parts so that it snaps on the wielder. The item gains the broken condition and instead of the intended action the wielder takes 1d4 points of damage of the item’s type per 2 ranks in Disable Device you possess (minimum 1d4) with a Reflex save for half damage.
+
+If the target does not have a damage type, reduce the damage by one die (not below the minimum) and you choose the type.
+
+++++ Wreck Apparatus (sabotage) [DRS]
+^^**Source:** [https://www.drivethrurpg.com/en/product/533835/diamond-spheres-hustle-bustle?src=newest%3Faffiliate_id%3D3028400 Diamond Spheres: Hustle & Bustle]^^
+
+**Target**: see text.
+
+**Disable Device DC**: 15 + the caster level or gizmo level of the object (if any).
+
+You sabotage the target to disrupt those that use it. 
+
+If this sabotage is applied to a spellcasting focus, implement, or material component, whenever the sabotaged object is used as part of a spell, magical sphere effect or supernatural ability, it suffers from a 100% spell failure chance.
+    If an effect fails due to this sabotage, the user produces a mishap (Will negates), dealing 2d6 points of damage to them. This mishap can be controlled using the control mishap Spellhacking sphere ability. 
+    The sabotage can be removed as a standard action with a successful Spellcraft or Use Magic Device check opposed by your Disable Device result.
+
+If this sabotage is applied to a technological device (such as a gizmo), whenever the device is used to activate an ability, it becomes deactivated and broken (ending any effects it is producing, if relevant), and the user suffers 2d6 points of damage (Reflex negates both the condition and damage). The damage type of this damage is usually fire or electricity, but depends on the nature of the device (up to GMs discretion).
+    The sabotage can be removed as a standard action with a successful Craft (mechanical) or Disable Device check opposed by your Disable Device result.
+
+----
++ ##4B0092|Exceptional Talents##
+
+++++ Just The Wind
+**Prerequisites:** Stealth 5 ranks, Infiltration sphere.
+
+Whenever you perceive a creature that is about to perceive you while you maintain an Infiltration sphere approach, you can spend 1 use of skill leverage to move up to half your speed as an immediate action even if you are not in combat and attempt a new Stealth check to hide. If that creature fails its opposed Perception check against your new Stealth check, it does not notice you in the first place.
+
+++++ Lasting Sabotage
+**Prerequisites:** Disable Device 5 ranks, Infiltration sphere.
+
+Your (sabotage) talent effects have no maximum duration and require two successful opposed Craft or Disable Device checks to remove rather than 1. A successful Perception check opposed by your Disable Device check is required after the first successful Craft or Disable Device check to discover that the first check did not remove the (sabotage).
+
+++++ Prickle Of Perception [approach]
+**Prerequisites:** Perception 7 ranks or Stealth 7 ranks, Infiltration sphere.
+
+As a swift action, you can adopt this approach to notice when creatures have spotted you. You get a prickling sensation when a creature has a higher state of awareness toward you than you have toward it (see states of awareness). This indeterminate sense lets you know approximately how many creatures within 120 feet have the edge in awareness over you (one or two, a few, several, many, a crowd, or a horde). This talent does not alert you to creatures you could not perceive even if you rolled a 20 on your Perception check.
+
+++++ Ranged Saboteur
+**Prerequisites:** Disable Device 5 ranks, Infiltration sphere (Ranged Disable).
+
+You can apply a (sabotage) talent or perform other complex forms of sabotage at range as long as you can perform the check as a full-round action or faster. Concealment does not prevent your attempt, but merely adds a miss chance. Cover less than total increases the Disable Device DC by the AC bonus it grants instead of preventing the attempt. You do not increase the DC for inappropriate tools if the check is simple sabotage, opening a lock, or rendering a device inoperative without hiding your tampering.
+
+++++ Traceless Presence [approach]
+**Prerequisites:** Stealth 5 ranks, Infiltration sphere.
+
+You adopt this approach as a swift action to become difficult to sense. Creatures using unusual forms of imprecise sensory detection cannot automatically foil your attempts at Stealth, and they must attempt a Perception check to detect you (much like hearing). They get a +6 bonus on any Perception check to determine your location that would be unnecessary if not for this approach. If they have multiple imprecise senses (such as scent and blindsense), they get +6 per sense that applies to you.
+
+In addition, while you maintain this approach you may choose to leave few, if any, traces that you were in an area. The Survival DC to track you is increased by 4 or by half the number of ranks in Stealth you possess, whichever is higher.
+
+++++ Vanish Into Stillness
+**Prerequisites:** Stealth 10 ranks, Infiltration sphere (Traceless Presence (exceptional)).
+
+While you maintain the Traceless Presence approach, you do not break Stealth for lack of cover or concealment (although you still need some way to enter Stealth).
+
+In addition, you never need cover or concealment to use Stealth against creatures who are confused, dazed, dazzled, stunned, or have any disorientation conditions.
+----
++ ##4B0092|Drawbacks##
+
+++++ Careful Saboteur
+Altering the original function of a device takes time, and you tend to prefer to be safer than sorry. You lose the fast sabotage ability, and gain the Planned Sabotage talent.
+
+++++ Ghost
+You move quickly and quietly. You lose the fast sabotage ability, and gain the Shadower talent. You use Stealth instead of Disable Device as this sphere’s associated skill; if you gain the Skilled Sneak talent, it instead grants Disable Device as an additional associated skill.
+
+++++ Vandal
+You lose the light step approach, and gain the Expert Saboteur talent.
+
+----
+
++ ##4B0092|Infiltration Sphere Feats##
+
+++++ Dastardly Entrapment (Champion) [LotS]
+**Prerequisites:** Infiltration sphere, Scoundrel sphere.
+
+**Benefit:** Whenever you succeed at a dirty trick or steal combat maneuver against a creature, you may apply a (sabotage) talent to the creature or its equipment in place of a (trick) talent. You may choose to delay the effects of your dirty trick until after the sabotage triggers or ends.
+
+[[/tab]]
+[[/tabview]]
+
+[[include sog-template]]

@@ -1,0 +1,177 @@
+title:Spellzones
+[[module CSS]]
+.noselect {
+  -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome and Opera */
+}
+[[/module]]
+
+[[toc]]
+
+[[tabview]]
+[[tab The High Magic Handbook]]
+[[div class="noselect" style="float:right; width: 20%; padding: 0 2%"]]
+[[=]]
+[[image http://spheresofpower.wdfiles.com/local--files/test-page/High-Magic-Handbook.png link="https://www.drivethrurpg.com/product/349943/The-High-Magic-Handbook?affiliate_id=549120"]]
+**The High Magic Handbook**
+$4.99
+----
+[[/=]]
+[[/div]]Spellzones are a unique category of magic item due to the fact that they are only sometimes tangible and rarely portable. More often, they are complex matrices of magic which may reside over a building, a city, or some other demarcation. Spellzones use the Talent-Based Item Creation Rules, but their scope, power, and thus cost often far eclipse those of conventional magic items. A character must have the Develop Spellzone feat to create or modify a spellzone 
+
+The cost of creating a spellzone is determined by the range of the spellzone and sum of all of its effects. Different effects within a spellzone may have varying caster levels.
+
++++ Effects
+The following types of effects can be applied to a spellzone:
+
+++++ Negation
+A negation prevents a specific magic sphere or magic talent from taking effect within a spellzone. Whenever a creature attempts to create a magic talent using a negated talent or sphere within the spellzone, the spellzone attempts to counterspell the effect with an effective MSB equal to the negation’s caster level.
+
+Creating a negation costs 1,000 gp x caster level for a sphere or 200 gp x caster level for a talent that is not a base sphere.
+
+++++ Passive Effect
+A passive magical effect permeates the entire area of the spellzone. If the effect targets an area, it constantly affects the entire area of the spellzone. If the effect targets a creature, it targets all creatures in the spellzone (unwilling creatures are allowed saving throws or exemptions as normal).
+
+If a spellzone’s effect requires a saving throw from any creature, the DC is equal to 10 + 1/2 the effect’s caster level. If a creature succeeds at their saving throw to resist a spellzone effect, they will not be targeted by the effect again for 1 minute. Creating a passive effect costs 2,000 gp x caster level x complexity.
+
+An item must have an effect measured in hours and a range based on the size of the spellzone to be made into a passive effect. Thus, as an example, if making a passive effect of the War sphere totem talent-based item creation effect, which is measured in rounds, the effect would need to have its duration increased by 3 steps (+6 complexity) before it could be made into an apparatus.
+
+++++ Continual Life Sphere Effects
+Creating a passive effect that grants what is normally an instantaneous effect, such as Life sphere effects, has a base complexity of 6. If crafting a passive effect that grants a continual cure, the effect instead becomes fast healing 1 (+1 per additional +1 in complexity). If a passive effect grants a continual restore, it instead grants immunity to one effect (+1 per additional +1 in complexity; a creature cannot gain immunity to effects that require a magic skill check to remove or are unaffected by the Life sphere). Temporary hit points cannot be made into a continual effect.
+
+++++ Triggered Effect
+A triggered magical effect activates when a certain condition is met within the spellzone. The triggered effect may target a predetermined location or creature within the spellzone or may target the creature or location which triggered the effect. The parameters for triggers of spellzone effects are identical to the parameters of the Contingency feat, save that triggered effect must possess a minimum range based on the size of the spellzone.
+
+A triggered effect can be activated once per creature per day by default, and costs 400 gp x caster level x complexity. A triggered effect only targets the triggering creature unless it would affect an area, in which case the area is centered on the triggering creature. Additionally, a triggered effect can possess the following custom multipliers.
+
+++++ Multiple Uses
+If a triggered effect can be used by a creature multiple times per day, multiply the cost by the number of daily uses. If its uses per day is increased to 5, it becomes usable an unlimited number of times per day. A given creature cannot trigger a specific triggered effect more than once per minute.
+
+++++ Effect Restriction
+You may choose to have any spellzone effects not apply to or only apply to creatures which meet a certain criteria. Some examples of criteria are presented below.
+* Targets possess a certain alignment or alignment component
+* Targets are carrying a specific item or type of item on their person
+* Targets are of a certain race or creature type
+* Targets have levels in a specific class or have a specific casting tradition
+
+Multiple effect restrictions can be applied to the same effect. For example, an effect can be attuned to only affect Lawfully-aligned Humanoids.
+
++++ Spellzone Weaknesses
+Spellzone effects can be created with numerous weaknesses in order to mitigate their immense costs somewhat. Sample weaknesses are as follows, although others may be created at GM discretion. Multiple weaknesses may apply to a single spellzone (save for weaknesses which reduce duration, of which only one may be applied), in which case their cost following the application of previous weaknesses is multiplied (for example, a spellzone whose combined effects cost 400,000 gp would have a total cost of 400,000 x 4/5 x 4/5 gp = 256,000 gp if it had the corruptible and physical touchstone weaknesses).
+||~ Spellzone Weakness ||~ Cost Multiplier || 
+|| Corruptible || x4/5 || 
+|| Limited duration (1 round) || x1/5 || 
+|| Limited duration (1 year) || x3/5 || 
+|| Limited duration (100 years) || x4/5 || 
+|| Physical touchstone || x4/5 || 
+
+++++ Corruptible
+Certain events can reshape the nature of the spellzone, potentially turning it into something volatile and dangerous. When certain events occur (as designated during the point of creation, subject to GM discretion), roll on Table: Spellzone Corruptions to determine what happens. Some events which may trigger a spellzone corruption are as follows.
+* When an incantation of level 7 or higher is performed within the spellzone
+* When a creature involved in the creation of the spellzone dies
+* A creature attempts and fails to modify the spellzone
+* A Mythic creature with a specific alignment component enters the spellzone (maximum of once per creature per year)
+* The spellzone’s physical touchstone (if the spellzone possesses this weakness) falls below half of its maximum hit points
+* The environment of the spellzone changes dramatically (for example, a city is abandoned, conquered by a rival, or flooded)
+
+Corruption effects are permanent, but custom incantations may be devised in order to undo their effects. These incantations should generally be of at least 8th level.
+
++++++ Table: Spellzone Corruptions
+||~ d% result ||~ Effect || 
+|| 1-5 || No effect. || 
+|| 6-15 || The caster levels of all of the spellzone’s effects are reduced by 2. If the caster level of an effect is reduced below 1, the effect ends. || 
+|| 16-20 || An effect restriction on one of the spellzone’s effects is reversed, affecting only creatures who were previously omitted from the effect. || 
+|| 21-25 || A major wild magic event occurs within the spellzone. If the event targets creatures within a certain range, it targets all creatures inside the spellzone. || 
+|| 26-45 || One of the spellzone’s effects ends. || 
+|| 46-65 || One of the spellzone’s effects is replaced by another effect of equal caster level and complexity from the same sphere of magic. || 
+|| 66-80 || An additional effect restriction is applied to one of the spellzone’s effects. || 
+|| 81-90 || An effect restriction is removed from one of the spellzone’s effects. || 
+|| 91-00 || Roll twice on the table, taking both results. In the case that this effect is rolled again by either roll, roll three times on this table and take all three results (rerolling additional rolls of 91-00). || 
+
+++++ Limited Duration
+The spellzone is designed to be temporary, vanishing after the listed amount of time. A spellzone with both the Limited Duration and Corruptible weaknesses does not vanish when the duration is over, but rather rolls three times on Table: Spellzone Corruptions at every interval which it would otherwise end (either once a year or once every 100 years).
+
+On rare occasions, a spellcaster may wish to craft an immense spell that exerts their dominion over a realm for only a brief moment. A spellzone with a duration of one round sees all of its ongoing effects end immediately when the spellzone expires, but they are typically designed with instantaneous triggered effects in mind (such as using the Destruction sphere to cover an entire city with a layer of explosive orb effects). A spellzone with a duration of 1 round cannot have the corruptible weakness but has a cost multiplier of 1/5. [**Source:** Baron’s Secluded Library]
+
+++++ Physical Touchstone
+Within the spellzone is a specific magic item or structure (such as a tree, a tower, or a statue) which acts as the physical power source for the spellzone. If this structure is ever destroyed, the spellzone’s effects immediately end. If the physical touchstone ever leaves the area of the spellzone, the spellzone’s effects end until the physical touchstone returns.
+
++++ Spellzone Sizes
+The size of a spellzone varies dramatically and determines its cost. When creating a spellzone, multiply the cost of all effects by the cost multiplier based on its size. A spellzone must be created from inside the area it will affect.
+||~ Spellzone Size ||~ Cost Multiplier ||~ Minimum Range for Passive/Triggered Effects ||
+|| Single Room || x1/5 || close || 
+|| Single Floor of a Structure || x1/2 || medium || 
+|| Single Structure or Demiplane || x1 || medium || 
+|| City or Settlement || x10 || long || 
+|| 12-mile Hex || x50 || long || 
+|| Entire Nation || x200 || long || 
+|| Entire Continent || x1,000 || long || 
+|| Entire Planet || x5,000 || long || 
+|| Entire Star System || x50,000 || long || 
+
++++ Modifying an Extant Spellzone
+It is possible to modify a spellzone if one is in the location where the spellzone was originally created. If one was involved in the spellzone’s original creation, they may add or remove any effects they wish from the spellzone, although this takes an amount of time corresponding to the price of the effect one wants to apply or remove (for example, adding or removing a caster level 10 passive effect with complexity 5 to a structure-sized spellzone would cost 500,000 gp and take 500 days). In order to modify a spellzone that they did not create, a caster must first succeed at a Use Magic Device check (DC 15 + the highest caster level of the spellzone’s effects + the number of effects that make up the spellzone) to assert control over the spellzone. A spellzone created from merging multiple spellzones is considered to have no creator until a creature succeeds at a Use Magic Device check to assert control.
+
++++ Suppressing or Destroying a Spellzone
+As with magic items, it is possible to temporarily suppress the effects of a spellzone using abilities such as the Counterspell feat. For such purposes, the spellzone is considered a magic item.
+
+Successfully using a Counterspell ability on a passive spellzone effect suppresses the effect on the targeted creature for a number of rounds equal to your MSB. The target creature is allowed a new saving throw against the effect when the suppression ends.
+
+If one uses Counterspell to suppress a passive spellzone effect which does not target a creature, they instead suppress the effect out to a radius of 25 feet + 5 feet per 2 points of MSB centered on the caster. This range improves to 100 feet + 10 feet per point of MSB if the caster has the Improved Counterspell feat and 400 feet + 40 feet per point of MSB if the caster has the Greater Counterspell feat. If a triggered spellzone effect is dispelled, the targeted creature cannot trigger the effect again for a number of minutes equal to the MSB of the dispelling character.
+
+Destroying a spellzone is often a much more intensive affair than simply suppressing it. A spellzone is destroyed if at any point it creates no effects, so the most common method of destroying those without a physical touchstone is taking control and removing spell effects one by one. However, powerful incantations (often involving an artifact as a focus or even a material component) can be performed to destroy a spellzone completely.
+
++++ Moving a Spellzone Pre-Activation [SM—]
+^^**Source:** Baron’s Secluded Library^^
+
+If a Spellzone has the physical touchstone weakness, the touchstone may be moved after the spellzone is completed but while the spellzone remains inert and inactive. While dormant in this way, the spellzone may be activated by any conditions established by the creator (identical to the parameters of the Contingency feat).
+
+----
++ Sample Spellzones
++++ Mage’s Helper
+**Aura:** Faint Divination, Nature, and Telekinesis; **CL:** 5th **Price:** 66,000 gp
+
+This spellzone is commonly utilized by spellcasters in their own personal laboratories or studies, saving them time or labor. The mage’s helper spellzone covers a single room and provides the following effects.
+
+**Triggered Effects**
+* The owner or owners of the room (as designated in the creation of the spellzone) may light or snuff out any fireplaces, torches, or braziers in the room with command words (CL 5th).
+* The owner or owners may speak a command word to reroll a Knowledge check, gaining an additional +2 insight bonus to the check) (CL 4th).
+* The owner or owners may speak a command word to command any unattended object of Small or smaller size to move anywhere else in the room (as designated by the commander) at a rate of 25 feet per round. (CL 5th).
+
+**Construction Requirements**
+Develop Spellzone, Divination sphere (Divine Information (divine)), Nature sphere ((fire) package), Telekinesis sphere; **Cost** 33,000 gp
+
++++ Skycity Infrastructure
+**Aura:** Overwhelming Creation, Enhancement, Protection, Telekinesis, and Warp; **CL:** 40th
+**Price:** 20,960,000 gp
+
+The Skycity was created by a group of mages who wished to be unreachable by their enemies, leading them to construct a metropolis at a fatal altitude. Lacking any sort of landmass, the city was built of numerous floating structures held in place by a powerful spellzone which also facilitates navigation.
+
+The skycity infrastructure spellzone covers the entire city of Skycity and provides the following effects.
+
+**Passive Effects**
+* All buildings within the Skycity are made weightless as per the Lighten Enhancement talent (CL 20th).
+* All buildings within the Skycity are held in their location as per the Affix Telekinesis talent (CL 40th).
+* All buildings within the Skycity have any damage repaired at a rate of 1 hit point per round (CL 1st).
+* All buildings within Skycity are constantly affected by the Magic Sink and Antimagic Aegis Enhancement talents (CL 1st).
+* All creatures within the Skycity gain a fly speed of 45 feet with perfect maneuverability as long as they are within city limits (CL 25th).
+* All creatures within the Skycity constantly benefit from the Breathless aegis, meaning that they do not have to breathe (CL 1st).
+
+**Triggered Effects**
+Whenever a creature would fall more than 25 feet below the altitude considered “street level” for the Skycity, they are immediately teleported back to the nearest unoccupied solid ground on street level. (CL 1st)
+
+**Construction Requirements**
+Develop Spellzone, Creation sphere (Potent Alteration), Enhancement sphere (Antimagic Aegis, Lighten (enhance), Magic Sink (enhance)), Protection sphere (Breathless (aegis), Spell Ward (aegis, ward)), Telekinesis sphere (Affix, Effortless Telekinesis, Flight, Idle Concentration); **Cost** 10,480,000 gp
+[[/tab]]
+[[/tabview]]
+
+----
+
+[[include cots]]
+[[include som-template]]
+[[include sop-template]]

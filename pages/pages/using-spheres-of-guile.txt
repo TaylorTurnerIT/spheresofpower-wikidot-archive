@@ -1,0 +1,584 @@
+title:Using Spheres Of Guile
+[[module CSS]]
+.noselect {
+  -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome and Opera */
+}
+[[/module]]
+
+[[toc]]
+
+[[tabview]]
+[[tab Spheres of Guile]]
+[[div class="noselect" style="float:right; width: 20%; padding: 0 2%"]]
+[[=]]
+[[image http://spheresofpower.wikidot.com/local--files/test-page/spheres-of-guile.png link="https://www.drivethrurpg.com/product/431419/Spheres-of-Guile?affiliate_id=549120"]]
+**Spheres of Guile**
+$24.99
+----
+[[/=]]
+[[/div]]
++ ##4B0092|Skill Spheres and Talents##
+In Spheres of Guile, characters use options called skill talents. These options to customize your character are somewhat like feats. Each skill talent belongs to a group of skill talents called a skill sphere. Most characters gain skill talents from a progression through their class or archetypes. Any character can gain skill talents at character creation in exchange for some of their class skills using an option called a trade tradition, or from the Extra Skill Talent feat.
+
+Whenever a character gains a skill talent, they must choose a skill sphere to spend it on. The first time a character spends a skill talent on a sphere, they gain that sphere’s base abilities rather than gaining any of the talents within the sphere. This is referred to as gaining a base sphere. As part of gaining a skill sphere, the character can choose to apply a sphere-specific drawback for that sphere (described in Chapter 5) to further specialize within the sphere. After a character possesses a base sphere, spending an additional skill talent on that sphere gains them one of that sphere’s talents. They can choose any of the sphere’s ordinary talents. Some talents are available with restrictions, referred to as exceptional talents (described later).
+
+If a character gains a bonus sphere or talent that they already possess (such as through a class feature), they instead gain one talent of their choice from that sphere.
+
+Once a talent is spent, it cannot be changed except through retraining. A talent chosen with any restrictions (such as the restriction that it had to be a [utility] talent) must be replaced with another talent meeting its restrictions when it is retrained.
+
+++++ Associated Skill
+Every skill sphere is associated with one or more skills. Some spheres are divided into packages that each have their own associated skill, but gaining the sphere grants only one of those packages. If a character gains a sphere (or package) that offers a choice of skills to be associated with it, they must choose one of those skills to be associated with that sphere.
+
+Changing this choice requires retraining the base sphere but does not require retraining the rest of the sphere’s talents. A character gains 5 ranks in the associated skill upon gaining the base sphere, plus 5 ranks per additional talent spent in the same sphere (maximum ranks equal to the character’s Hit Dice). These ranks are part of the sphere, so it is not possible to retrain them; they are simply lost if the sphere is retrained. If the character already had ranks in the chosen skill, they may immediately retrain the previously gained ranks. A character does not gain or retrain ranks when they temporarily gain a talent.
+
+They do not gain ranks beyond their maximum until they gain a level and raise the maximum (so as to put the ranks in the associated skill); excess ranks cannot be spent on other skills.
+
+If a character has multiple skill spheres or packages with the same associated skill, they do not gain more ranks than their usual maximum. Instead, they gain a competence bonus on checks with that skill equal to one-half their character level (minimum +1).
+
+Some talents can grant a sphere or package an additional associated skill. When it does, the character gains ranks in the additional skill just like in any other associated skill. Any time the sphere or package refers to the associated skill, the character can use whichever number of ranks is higher among all of that sphere or package’s associated skills.
+
+++++ Counting Bonus Talents
+If a base sphere or drawback grants an additional talent (such as via a package selection or alternate start), the additional talents do not count as talents spent for rules that count the number of talents spent in a sphere. (This most often applies to gaining skill ranks.)
+
+++++ Selecting Multiple Talents For An Effect
+Some effects allow you to select more talents than you could normally apply to what you are doing. For example, the Communication sphere’s build rapport ability allows you to apply two (rapport) talents. In these cases, you cannot select the same talent more than once unless an option specifically allows doing so.
+
+++++ Temporary Skill Talents
+If a skill talent is gained temporarily, such as from certain class features, any of its effects end when the skill talent is lost. This prevents a character from using abilities which take longer than the temporary talent’s duration.
+
+++++ Utility Talents
+Talents with the [utility] tag are focused on scenarios outside of combat, such as exploration, social interaction, and creative problem-solving. They generally have limited benefits in tactical situations. If you have the skill expertise feature, you get extra [utility] talents in addition to your skill talents that can be of any kind.
+
+A character who would gain a [utility] talent they already possess as a bonus talent must choose another [utility] talent as the replacement bonus talent.
+
+++++ Operative
+Operatives are characters who train in skill spheres. Whenever a sphere or ability refers to the operative, it is referring to the individual creature using that sphere or talent.
+
+++++ Operative Ability Modifier
+An operative ability modifier is an ability modifier that the operative uses to determine the saving throws for their talents. When a character first gains access to a skill talent, they choose one of Intelligence, Wisdom, or Charisma to be their operative ability modifier. This can be changed in a manner similar to retraining a feat.
+
+++++ Sphere Effects
+A skill sphere effect is any effect created by a skill sphere talent. Unless noted otherwise, all abilities granted by skill spheres and their talents are extraordinary effects.
+
+++++ Sphere DC
+If a skill sphere ability requires a saving throw or skill check to resist, the formula for determining the DC is 10 + 1/2 the operative’s ranks in the sphere’s associated skill + their operative ability modifier, unless otherwise indicated.
+
+++++ Sphere Range
+Many sphere abilities use close, medium, and long as indicators for their range. Close range equals 25 feet + 5 feet per 2 ranks you possess in the sphere’s associated skill, medium range equals 100 feet + 10 feet per rank you possess in the sphere’s associated skill, and long range equals 400 feet + 40 feet per rank you possess in the sphere’s associated skill.
+
+++++ Sphere-Specific Drawbacks
+Sphere-specific drawbacks must be chosen when an operative first gains the associated sphere, and grants the operative the listed benefit in exchange for a drawback. Usually a drawback’s benefit is a talent from the same sphere. You cannot gain multiple drawbacks that remove or augment the same ability.
+
+Drawbacks that grant talents may be removed in place of gaining a new talent other than a [utility] talent, such as through class progression.
+
+If an operative would gain a bonus package or talent prohibited by their drawback, they instead use the bonus talent to buy off that drawback. If there is a choice after the buyback (like which package a base sphere grants), the choice must match the talent that was replaced or be a prerequisite for the replaced talent.
+
+**Alternate Start:** The [alternate start] tag indicates that a drawback only has the effect listed (they do not grant a free bonus talent unless they say so). An alternate start usually replaces the sphere’s associated skill, in which case any skill check using the old associated skill for the sphere’s abilities or talents uses the new skill instead. Bonuses and skill leverage for the usual associated skill instead apply to the new one. You can remove an alternate start that does not grant a talent by retraining the base sphere (which counts as one talent).
+
+**Utility Start:** When a drawback has the [utility start] tag, applying that drawback allows you to gain that base sphere by spending a [utility] talent slot. (Most skill spheres cannot otherwise be gained in place of utility talents.)
+
+Unlike in Spheres of Power and Spheres of Might, drawbacks in Spheres of Guile are not specifically part of a trade tradition, and are therefore included on the sphere pages.
+----
+++ ##4B0092|Skill Expertise##
+An operative’s tier of skill expertise determines how quickly they gain skill talents as listed on the Table: Skill Talents by Expertise Tier. Some of these talents can be any skill talent or base sphere that the operative qualifies for. The number in the Any column is the total number of these unrestricted talents. Some talents must be skill talents (or base spheres) with the [utility] tag. The number in the Utility column is that total of these utility talents. (Note that most base spheres do not have the [utility] tag.) An operative gains the talents listed in the Any column in addition to the talents listed in the Utility column.
+
++++++ Table: Skill Talents by Expertise Tier
+||~ ||||~ Virtuoso ||||~ Journeyman ||||~ Trained ||
+||~ Class Level ||~ Any ||~ Utility ||~ Any ||~ Utility ||~ Any ||~ Utility ||
+|| 1st || 1 || 0 || 0 || 1 || 0 || 1 || 
+|| 2nd || 2 || 1 || 1 || 1 || 0 || 1 || 
+|| 3rd || 3 || 1 || 1 || 2 || 0 || 2 || 
+|| 4th || 3 || 2 || 2 || 2 || 1 || 2 || 
+|| 5th || 4 || 2 || 2 || 3 || 1 || 3 || 
+|| 6th || 5 || 3 || 3 || 3 || 1 || 3 || 
+|| 7th || 6 || 3 || 3 || 4 || 1 || 4 || 
+|| 8th || 6 || 4 || 4 || 4 || 2 || 4 || 
+|| 9th || 7 || 4 || 4 || 5 || 2 || 5 || 
+|| 10th || 8 || 5 || 5 || 5 || 2 || 5 || 
+|| 11th || 9 || 5 || 5 || 6 || 2 || 6 || 
+|| 12th || 9 || 6 || 6 || 6 || 3 || 6 || 
+|| 13th || 10 || 6 || 6 || 7 || 3 || 7 || 
+|| 14th || 11 || 7 || 7 || 7 || 3 || 7 ||
+|| 15th || 12 || 7 || 7 || 8 || 3 || 8 || 
+|| 16th || 12 || 8 || 8 || 8 || 4 || 8 || 
+|| 17th || 13 || 8 || 8 || 9 || 4 || 9 || 
+|| 18th || 14 || 9 || 9 || 9 || 4 || 9 || 
+|| 19th || 15 || 9 || 9 || 10 || 4 || 10 || 
+|| 20th || 15 || 10 || 10 || 10 || 5 || 10 || 
+
+++++ Skill Expertise for Non-Spheres of Guile Classes
+While any class can buy some facility with the skill spheres by taking the Extra Skill Talent feat or a trade tradition, some characters may want to delve deeper into the system. A character can gain a skill talent progression by trading out some or all of their standard feat progression as described in Table: Feat to Talent Progression Conversion.
+
++++++ Table: Feat to Talent Progression Conversion
+||~ Feats Exchanged ||~ Granted Progression || 
+|| 1, 5, 9, 13, 17 || Trained || 
+|| 1, 3, 5, 9, 11, 13, 17, 19 || Journeyman || 
+
+++++ Spellcasting Substitution
+Some classes who naturally combine skills with spellcasting, such as the inquisitor and ranger, can opt to replace their spellcasting progression with a skill expertise progression. Classes whose maximum spell level would be 4 may exchange their spellcasting for the Trained skill expertise progression, and classes whose maximum spell level would be 6 may exchange their spellcasting for the Journeyman skill expertise progression. Characters who trade their spellcasting for a skill expertise progression use whatever ability score affected their spellcasting as their operative ability modifier (for example, a ranger who trades their spellcasting for a Trained skill expertise progression would use Wisdom as their operative ability modifier).
+----
+++ ##4B0092|Associated Feat##
+Some spheres and talents overlap the function of existing feats. Such a feat is listed in the talent as an associated feat. Talents with associated feats allow a character to meet prerequisites as if they had the associated feat, as well as any feat or ability score prerequisites the associated feat normally requires. This includes qualifying for feats and for prestige classes. Unless noted, talents do not stack with their associated feats. Any time you would gain an associated feat, you may instead choose to gain the sphere or talent it is associated with. You must still meet the prerequisites for a talent substituted this way, such as possessing the base sphere.
+
+The talent can be modified by abilities that alter the associated feat (such as a mythic version of the feat) unless there is a conflict in their rules that would make it impossible for them to work together.
+----
+++ ##4B0092|Approach##
+An approach represents the way you are thinking about your situation, granting you a passive effect. An approach can usually be activated (“adopted”) as a swift action, although individual talents might offer approaches activated in other ways. You can only benefit from a single approach at a time, but may switch to any approaches you know by adopting the new one; once the new one is adopted, you lose the benefits of any previous approach. You can also abandon an approach as a swift action without adopting a new one. Your current approach ends if you fall unconscious or die.
+----
+++ ##4B0092|Background Skills##
+Background skills constitute a category of skills introduced in Pathfinder Unchained. They are distinct from adventuring skills, which come up more consistently in traditional adventuring. The background skills are Appraise, Artistry, Craft, Handle Animal, Knowledge (engineering, geography, history, and nobility), Linguistics, Lore, Perform, Profession, and Sleight of Hand. Some mechanics in this book are limited to background skills, and support is included for the new Artistry and Lore skills. The background skills variant granting 2 extra skill points that can only be used in background skills at every level is one we encourage.
+
+If your game does not use Artistry and Lore, you can generally replace Artistry with either Craft (books) for criticism, literature, and philosophy or an equivalent Perform skill (act or comedy for playwriting, dance for choreography, or any other Perform skill for musical composition). You can replace any Lore skill with a related Knowledge skill.
+----
+++ ##4B0092|Degrees of Alertness##
+Any creature’s awareness of their surroundings can generally be described by one of the following degrees of alertness. In combat, most creatures are alert, but exploration and roleplaying can often put characters in circumstances where at least some creatures around have other degrees of alertness. A few special rules in this book including the Bluff skill can give creatures specific degrees of alertness; changing a creature’s degree of alertness is not a mind-affecting effect unless it says it is.
+
+Any creature with a Wisdom score has a degree of alertness and can have that degree changed.
+
+++++ Alert
+An alert creature pays sharp attention to its surroundings. Creatures in combat, guards expecting trouble, and people engaged in high-stakes conversation are alert unless something compromises their attention, as some conditions or a sensory effect might.
+
+It is nearly impossible to attempt Sleight of Hand checks or Stealth checks against an alert creature without cover or concealment, and positional concealment (described later) is harder to get against alert creatures.
+
+Alert is the highest state of alertness, above distracted, oblivious, asleep, and senseless.
+
+++++ Distracted
+A distracted creature pays particular attention to a specific creature, item, event, or location. In combat, a creature is generally only distracted as a result of a skill use or certain conditions that focus their attention on something specific (including enraged, fascinated, frenzied, frightened, horrified, livid, panicked, or terrified). A distracted creature is only automatically observing the focus of its attention and anything in a cone directed toward the focus of its attention. All other creatures and objects have positional concealment from it. (Positional concealment allows Stealth and Sleight of Hand. The distracted creature has only a 50% chance to be exposed to visual effects that have positional concealment from it.) Creatures with all-around vision or special precise senses that apply in all directions cannot be distracted.
+
+When a distracted creature attempts a Perception check to actively check its surroundings, it temporarily becomes alert until the start of its next turn. When applied by a skill or effect, distracted usually ends at the start of the distracted creature’s turn.
+
+Distracted is a worse state of alertness than alert but more alert than oblivious, asleep, or senseless. Creatures who witness something surprising or exciting might be naturally distracted. Creatures might also be naturally distracted when attending to an activity or watching a performance. If there is combat or anything else demanding immediate attention a distracted creature usually becomes alert at the start of their turn or as soon as they become aware of it on their turn.
+
+++++ Oblivious
+An oblivious creature struggles to pay attention to anything and is only peripherally aware of what is going on around it. All creatures and objects have positional concealment from it and it cannot spend attacks of opportunity (including on special abilities) or use immediate actions. (Creatures can always use Stealth and Sleight of Hand against oblivious creatures, and an oblivious creature has only a 50% chance of being exposed to visual effects.) Generally, when an oblivious creature attempts a Perception check to check its surroundings, it can only automatically observe things in a cone from its position, pointed in any direction of its choice (which negates positional concealment in that direction until the start of the oblivious creature’s next turn). Creatures with all-around vision are not limited to a cone.
+
+Stunned creatures are oblivious. Creatures lost in thought, focusing all their attention on an item in hand, or feeling drowsy might naturally be oblivious until jarred to their senses. If there is combat or anything else demanding immediate attention an oblivious creature usually becomes distracted by whatever is alarming at the start of their turn or as soon as they become aware of it on their turn, and then alert at the start of their subsequent turn.
+
+++++ Asleep
+A naturally sleeping creature is not truly unconscious, but is normally blinded and has very little awareness of its surroundings. As stated in the Pathfinder Roleplaying Game Core Rulebook, a sleeping creature treats Perception DCs as 10 higher.
+
+A creature who succeeds at a Perception check to notice something unfamiliar or uncomfortable despite the increased DC normally becomes oblivious, with its attention focused on the thing that woke it if within reach. It might resume sleeping if it deems the distraction uninteresting or minor enough. If it notices something alarming or exceeds the Perception DC by 5, it generally becomes distracted by the sensation instead of oblivious. If it remains aware of something dangerous or interesting, its degree of alertness improves at the start of each of its turns.
+
+Creatures who are meditating or in another altered state of consciousness might be as unaware of their surroundings as an asleep creature.
+
+++++ Senseless
+Unconscious creatures are senseless—truly unaware of their surroundings. Likewise, petrified creatures and creatures in very deep sleep or coma (whether magical or natural) are senseless.
+
+A creature senseless due to a condition, spell, or effect usually cannot be made more alert by ordinary circumstances, but one in a very deep sleep can typically be awakened by jostling it (whether by the turbulent movement of a vehicle or the standard action of an ally) or exposing it to smelling salts or an unbreathable environment (even a splash of water).
+----
+++ ##4B0092|Exceptional Talents##
+Exceptional talents are beyond the ken of common mortals and are only available to characters who meet the prerequisites.
+
+Many of these elements are more fantastical than most options available in the Pathfinder Roleplaying Game without spellcasting or special variant rules, and others push the bounds of the game’s assumptions in unfamiliar directions, so they open up character actions that might have been assumed impossible.
+
+GMs should consider the tone to their games, the degree of narrative freedom that they and other players enjoy, and the unique interactions of various character options and variants in use before permitting these talents. Using some of them in a game does not require making all of them available for use. It is important to discuss which options are available with the group before players build their characters, to ensure everyone has mutually compatible expectations for the game.
+----
+++ ##4B0092|Motivation##
+Some social skills and other mechanics allow you to learn and play off of a character’s motivations. Every character with the ability to make choices has things that motivate those choices. As GM, you should choose at least a few motivations for every NPC that characters need to substantially influence. When you create a PC as a player, you should likewise establish at least a few major and minor motivations so that you have consistent ideas about what your character would do in a variety of situations.
+
+Of course, no list of a character’s motivations is going to be exhaustive. You can decide on additional motivations as they become relevant in play. Just remember to record them for later reference.
+
+**Changing Motivations:** A character’s motives are not set in stone. As a character has new experiences, their priorities can shift. What was once a major goal can become secondary, or even be forgotten completely as other things loom larger. Things that once terrified the PC early in their career (making avoiding them a major motivation) might eventually prove not so bad when they learn more details. Any time a character experiences a life-changing event might change their motivations. In general, it is a good idea for each player to re-evaluate their character’s motivations and perhaps add a new one whenever they gain a level.
+
++++ ##4B0092|Major Motivations##
+Every character has at least a few major motivations. These are things the character feels strongly about, things that they want, uphold, or despise. A major motivation is usually at least somewhat open-ended and remains relevant to the character for a long time. Some of the most common kinds of major motivations are listed here:
+
+**Desires:** Greed (enough money always motivates them), indefinite security (or enough money to buy it), status (usually of a specific sort, but can be general), revenge, power (including money enough to wield power in the long term), an important relationship with a specific person
+
+**Fears:** A known vulnerability, lack of control, unknown things, isolation, certain powerful enemies, impossible obligations, severe deprivation, humiliation
+
+**Ideals:** A philosophy, a core value (like fairness, power, or justice), a strongly followed religious doctrine (or part of one)
+
+**Strong Relationships:** Another character who is very important: a deeply respected mentor, a loved one, someone dependent on them or who they depend on, a bitter rival, a confidant, or even someone loathed
+
+**Major Goals:** Major goals are ones that influence a creature over a long period or might reshape their life. While they are generally rooted in other motivations, they are clear enough in the creature’s mind to motivate in their own right, such as solving a presently intractable or weighty problem
+
++++ ##4B0092|Minor Motivations##
+Some motivations are worth noting but not as important as major motivations. These minor motivations are not as influential, but are often easier to invoke, than major motivations. Minor motivations are often more immediately obvious and less carefully guarded, making them easier to learn than major ones. Some common minor motivations are listed below.
+
+**Comforts:** Familiar environment, good food, stability
+
+**Discomforts:** Embarrassment, moderate deprivation, uncertainty, problems outside one’s skills
+
+**Secondary Goals:** Secondary goals are important but short-term or merely steps toward a major goal
+
+**Secondary Relationships:** Another character who is important but not central: one among many friends, rivals, or enemies
+
+**Minor Versions of Major Motivations:** Minor motivations might be similar sorts of things to the example major motivations above, and simply of secondary importance to the person in question. For example, a faithful character might value their religion but not as much as their major motivations.
+
++++ ##4B0092|Using Motivations##
+When you know a character’s motivation, you can use it to help influence them. The most basic use of a motivation is to lower the DCs of skill checks relevant to the motivation and allow certain skill uses that would not otherwise be possible.
+
+++++ Allowing Advanced Skill Uses
+When you know a character’s motivations, you can attempt to influence them in ways normally not feasible or even possible with a simple skill check. Several new skill uses are available only if you make them relevant to a motivation. For example, convincing an NPC to do a costly favor for you generally requires that you commensurately further one of their motivations either as part of the favor or in exchange for their help. These include things like stopping combat to parlay with Diplomacy, frightening creatures with Intimidate, and rendering creatures dumbfounded with Bluff.
+
+++++ Lowering Skill Check DCs
+Attempting any Bluff, Diplomacy, Intimidate, or Perform check relevant to a character’s motivation (even if you do not know it is a motivation) modifies the check’s DC. Depending on the character’s reaction, it might not be clear whether a tested motivation is truly one the target cares about without a successful Sense Motive check to learn the creature’s goal. Generally, a tangential connection or a minor motivation reduces the DC by 2. A clear connection to a major motivation reduces the DC by 5. A character does not have to knowingly invoke someone’s motivation to benefit from lowered skill check DCs—a guess or even coincidentally relating to the motivation is enough.
+
+++++ Furthering and Resolving Motivations
+When you meaningfully advance a creature’s motivation, their attitude toward you typically improves by one step. Depending on their personality, they might give a gift of moderate value to you in thanks. When you help a creature resolve a motivation, such as completing a quest or righting a wrong, you typically improve their attitude toward you by at least one step, and they usually seek to thank you via a significant gesture such as a reward.
+
+++++ Special Abilities Using Motivations
+Some class features, talents, and other abilities can rely upon knowing or invoking a character’s motivation. Knowing a character’s motivation includes making a correct guess as part of taking an action or using an ability. The GM should generally not give feedback on whether a guess is correct beyond the ability’s listed effects, and should only allow one guess per use of an ability. Invoking a character’s motivation requires clearly connecting your words or actions to the motivation (even as a guess or accidentally).
+----
+++ ##4B0092|Outwit##
+You can trick an opponent with a dramatic flourish to use your skills more easily. You can get an edge against an opponent that is disoriented or impressed by reducing or ending the condition on them during an action you take—this is called outwitting. At the end of your action, you reduce the dumbfounded or shocked condition or end the impressed or uncertain condition. If a creature has multiple eligible conditions, reduce or end the first one in the order listed. You can outwit each target no more than once per round.
+
+You can outwit as part of attempting any trained skill check to directly interact with a target to treat the d20 result as a 13 rather than rolling. Suitable skills for outwitting include (but are not limited to) Acrobatics (to avoid an attack of opportunity), Bluff (to lie or feint), Diplomacy, Escape Artist (to escape a grapple), Intimidate, or Sleight of Hand.
+
+Certain skill spheres, talents, or abilities introduce additional methods of outwitting a target; such an additional method works even on creatures without the impressed condition or a disorientation condition. If you have a talent that calls for you to outwit as a cost, you can opt to get the benefit listed in the talent instead of getting 13 on a skill check.
+
+**GM's Note:** In certain circumstances, outwitting someone in a particular way might be counterproductive. For example, embarrassing a creature to make a Diplomacy check more reliably might worsen their attitude due to your rudeness and make the check more difficult or impossible, depending on their personality and the way you describe your action. If an outwit attempt does not make sense in the story and the PC should be able to tell as much, you should ask the player to adjust the PC's action in a way that suits the story.
+
+++++ Other Outwit Methods
+Several skill spheres add another method of outwitting creatures, including the following.
+* **Bluster sphere:** Flaunt Secrets
+* **Communication sphere:** Betray
+* **Infiltration sphere:** Startle
+* **Investigation sphere:** Reveal Evidence
+* **Spellhacking sphere:** Hack Magic
+* **Study sphere:** Theorize
+* **Subterfuge sphere:** Baffling Revelation, False Sense of Security
+* **Survivalism sphere:** Canny Survivor
+----
+++ ##4B0092|Plans##
+A plan is a contingency set aside when you have a little time to yourself, one that reflects your foresight and cunning. Your plan ability allows you to produce an item or other sorts of practical preparation without having to specify ahead of time how or what you had prepared. Each plan describes what sort of things you can prepare, such as a potion you scrounged up and stashed away after carefully considering what you might have the most trouble facing. Preparing all your plans simultaneously takes 1 hour.
+
+You can only use these rules to carry out plans specifically allowed by talents or other abilities you possess; however, if your group wants to take a similar approach with other plans in your game when they make sense, see the Dynamic Planning rules.
+
+You do not describe exactly what you prepared or how until you reveal it; you need not even name a specific [plan] talent. You likewise do not make choices about what you prepared until then. Normally, revealing a plan is a full-round action as part of the action to draw an item from among your equipment, but it can take other forms. For example, a plan talent might say that you can bring along a scroll. You spend 1 hour planning and hunting for just the right scroll in a mage’s guild’s library, but do not have to specify which scroll you planned to bring. When you reveal the plan, you choose which scroll you brought, which you did not have to decide upon until that very moment. You were prepared enough to choose the scroll that turned out to be what you needed. 
+
+You can have a limited number of these plans prepared at one time. Plan uses are not prepared for specific plan talents; instead, you have one or two pools of uses. Having any plan talents gives you a number of uses equal to 1 + the number of plan talents you have without the [utility] tag that can be used to reveal any plan you know. If you have any talents with both the [plan] and [utility] tags, you also have another pool of uses equal to the number of talents you possess that have both tags; those uses can only be used to reveal plans with the [utility] tag. Your plans remain prepared until you reveal them. You cannot choose something you could not possibly access, but the GM is encouraged to be lenient with what is accessible.
+
+If any costs are required, they are listed in the plan’s description; some talents allow you to find ways to secure the items without needing to track payments. You must pay any cost required when you reveal the item, effectively revealing that the cost had secretly been paid all along. A plan generally cannot be a specific unique item (like the key to a specific door) except where explicitly allowed.
+
+If you are (or might be) preparing one or more items, you must choose a weight of planned objects to carry when you prepare your plan. You cannot produce an item weighing more than that amount, and revealing the item subtracts its weight from the weight of planned items you carry. You can unload the planned weight to a beast of burden or store it, but you can only reveal a planned item wherever the weight is stored.
+
+If your plan strains credulity, the GM might ask you to roll a Knowledge or Sense Motive check to see whether you successfully predicted the circumstances that you find yourself in. A Sense Motive check is appropriate if a creature is responsible for the circumstance. The DC is 15 + 150% the level or challenge rating of the enemy or hazard most directly related to the problem you are solving. If the check fails, you realize you did not prepare what you hoped and you can take a different action instead. Of course, if your plan simply does not make sense, the GM can rule that you cannot even attempt to reveal that plan.
+
+If you gain a [plan] talent temporarily, you cannot reveal it unless you had the plan talent since you last prepared plans.
+----
+++ ##4B0092|Skill Leverage##
+Skill leverage represents your unique insights and lateral thinking. You can spend uses of leverage to use a skill more effectively. You always have a single pool of skill leverage, which you can spend with any skill that you have unlocked skill leverage for. The most common way to unlock skill leverage is from skill spheres.
+
+If you would unlock skill leverage with a skill you already have it unlocked for, you can unlock skill leverage with another skill of your choice.
+
+If you have skill leverage, your pool of uses is equal to 1 + one-third your Hit Dice. You regain all uses of your leverage when you get a full 8 hours of rest.
+
+You can also regain 1 use of skill leverage in any of the following ways:
+* When you thwart a significant encounter with one or more creatures you have not faced before (typically one whose challenge rating is at least your level - 2), generally slaying them, rendering them harmless, or forcing them to abandon a goal for the foreseeable future. You only regain 1 use of leverage for an encounter, even if multiple individuals you defeated would be a significant threat. If an enemy’s abilities change or grow, you can gain skill leverage from that foe again.
+* When you disable or intentionally avoid a significant trap (again, typically one with a challenge rating greater than your level, equal to your level, or 1 or 2 lower than your level)
+* When you successfully persuade someone to help you who never has before (or trick them into doing so), provided the social encounter was a significant challenge
+* When you make a discovery significant to one of your motivations or that gives you a new path (literal or figurative) to achieving a goal (such as opening a secret door leading somewhere new, learning a secret weakness of a challenging foe, or reaching a significant destination despite there being no known route)
+
+If it is not clear, the GM makes the final decision as to whether you regain your skill leverage. The GM might also allow other methods of regaining skill leverage in circumstances where you can bring a fresh perspective to bear.
+
+Skill leverage can be used in one of the following ways.
+* **Change Tactics:** After you roll a skill check and see the die, but before the GM says the consequences of the roll, you can spend 1 use of leverage to roll 1d4 and add it to the result.
+* **Draw on Intuition:** You can spend 1 use of leverage on a skill to get a clue about a creature, obstacle, hazard, or location that skill could be used to identify or interact with. When interacting with a creature, the clue might be something the creature is afraid of, one of its minor motivations, something it wants, or a line of conversation that it is particularly open to or unwilling to entertain. When trying to open a magical vault, the clue might be what the door is made of, the school of magic the vault’s magical runes belong to, or where previous users have touched the vault before. This information should generally be of the sort that could be recalled with a Knowledge check with a DC no higher than 15 + twice your ranks in the leveraged skill.
+* **Seize an Opportunity:** After you roll a skill check and compare the result to the DC, if your total exceeds the DC by enough, you can achieve a better result. If the difference is at least equal to the amount of a penalty or optional DC increase for an improved or greater effect (such as the voluntary penalty to Climb to increase your speed), you can spend 1 use of skill leverage to add the change. You can spend multiple uses of skill leverage to add that many different penalties or DC increases, or apply a stacking penalty repeatedly. If your game uses the Degrees of Success variant (see the Skills chapter), optional penalties and DCs that do not represent significant risk are available at no cost.
+
+++++ Variant: Leverage as a Daily Pool
+If the GM or the group is not comfortable with the usual methods of regaining skill leverage listed above, you can play with skill leverage as a pool of points that refresh only once per day. If you do, you should increase the number of daily uses by half the typical number of encounters that you expect to happen in your games. For a traditional Pathfinder Roleplaying Game adventure structure with at least four encounters per day, that would be an additional 2 uses, but if you run a campaign with a different pacing it might be more.
+
+If you use this variant, talents and other abilities that allow you to regain uses of skill leverage function a little differently. Each one increases your maximum number of skill leverage uses by 1 but each such ability can only trigger once per day.
+
+++++ Variant: Leverage for Improvisation
+If you or your players are particularly comfortable with the breadth of the Pathfinder Roleplaying Game’s feats, talents, and other options, consider allowing skill leverage to capitalize on that in one or both of the following ways:
+* If you are trained in a skill and have unlocked skill leverage with it, you can spend 1 use of skill leverage to use one of its skill unlocks that would normally require a feat to use (such as unchained unlocks and occult unlocks).
+* You can spend 1 use of leverage to gain a feat you do not have but qualify for that has ranks in an unlocked skill as a prerequisite. You must possess the required number of ranks and all other prerequisites. This feat lasts only for 10 minutes, one use, or until you spend skill leverage to gain another feat or talent, whichever comes first. If you gain a feat that can only be used once per period of time, you cannot use this function of skill leverage again until you would regain the use of that feat.
+
+++ ##4B0092|Positional Concealment##
+Some options and skill uses in this book function when characters have positional concealment or grant positional concealment. Simply put, a character has positional concealment from a potential observer when the observer is not looking in the character’s direction. Among other things, positional concealment makes it possible to use Stealth and Sleight of Hand in certain conditions when it would otherwise be impossible. Positional concealment is most useful for avoiding an unaware creature becoming aware of a sneaking character’s presence.
+
+Positional concealment can be different for each observer. It is not possible to have positional concealment from creatures with precise senses in all directions, such as creatures with all-around vision or most forms of blindsight. It is also not usually possible to get positional concealment in combat without the use of special abilities.
+
+If positional concealment is the only thing allowing a creature to attempt a Stealth check, the check has a –5 penalty. This penalty does not stack with the penalty from moving quickly; you only take the worst applicable penalty.
+
+Creatures in combat or otherwise highly alert are assumed to glance around them every round or so, and they do not generally grant positional concealment.
+
+The GM might rule that certain exceptional circumstances allow positional concealment even from alert observers in an unintuitive location, such as up a tree or in a building’s exposed rafters.
+
+If a creature is not in combat or otherwise highly alert, it is possible to have positional concealment from them even in prominent locations. For example, if a creature is intent on a task close at hand (such as crafting or reading), they are oblivious and everything outside their natural reach generally has positional concealment from them. A creature with its attention fixed on a particular subject (including if they are distracted, enraged, fascinated, frightened, frenzied, horrified, livid, panicked, or terrified) is distracted and generally gives positional concealment to anything outside a cone directed toward the object of their attention. (The cone extends as far as they can see.) This cone is sometimes called a sight cone.
+
+Creatures do not normally make attacks on creatures while those creatures still have positional concealment, since they are normally alert in combat and look at creatures to attack them. However, a creature can intentionally give positional concealment by looking away, most often when they avert their eyes to avoid a gaze attack. An attacker trying not to look at their target has a 20% miss chance (and a 50% chance to avoid being exposed to a gaze attack each round).
+
+Positional concealment has ramifications for the following common skills and mechanics.
+
+**Bluff:** Creating a diversion to hide requires choosing a direction, creature, or object for observers to focus their attention on. While the diversion lasts (normally until the end of the bluffing creature’s turn), creatures who fail the opposed Sense Motive check focus their attention on the subject of the diversion.
+
+**Intimidate:** The new pose a menace skill use allows a creature to grant positional concealment to other creatures by drawing others’ attention.
+
+**Perception:** If a creature attempts a Perception check as a move action to check its surroundings, it is alert until the start of its next turn (which removes positional concealment against it in most locations).
+
+**Sleight of Hand:** Positional concealment makes it possible to attempt Sleight of Hand checks to lift an item from or plant an item on a foe in combat. In addition, see the impressive display of skill below.
+
+**Stealth:** Positional concealment allows attempting Stealth checks, but at a –5 penalty.
+
+**Impressive Display of Skill:** When a character is watching a display that successfully impressed them, they generally only pay attention in the direction of the creature who has impressed them; they give positional concealment to creatures outside a cone in that direction. Acrobatics, Perform, and Sleight of Hand are suitable for impressing most audiences. Creatures generally will not pay full attention to displays of skill in combat.
+
+**Visual Effects:** A visual effect that has positional concealment from a creature has only a 50% chance to affect that creature each round (similar to averting their eyes from a gaze attack).
+
++++ ##4B0092|States of Awareness##
+Pathfinder Roleplaying Game: Ultimate Intrigue clarifies four states of awareness, which are important for running Stealth and understanding the new positional concealment mechanic.
+
+**Unaware:** On one end of the spectrum, a sneaking creature can succeed at Stealth well enough that the other creature is not even aware that the creature is present. This state allows the sneaking creature to use abilities such as the vigilante’s startling appearance. The Stealth skill description in the Pathfinder Roleplaying Game Core Rulebook says that perceiving creatures that fail to beat a sneaking character’s Stealth check result are not aware of the sneaking character, but that is different from being totally unaware (they are generally still aware of the creature’s presence; the successful check only guarantees that they do not know the creature’s location). This is also true of a creature that has previously been made aware of the creature’s presence or location (see below) but is currently unable to observe the sneaking creature. In those cases, the sneaking creature cannot use abilities such as startling presence.
+
+**Aware of Presence:** The next state is when the perceiving creature is aware of the sneaking creature’s presence, though not of anything beyond that. This is the state that happens when an invisible creature attacks someone and then successfully uses Stealth so the perceiving creature does not know where the attacker moved, or when a sniper succeeds at her Stealth check to snipe. A perceiving creature that becomes aware of a hidden creature’s presence will still be aware of its presence at least until the danger of the situation continues, if not longer (though memory-altering magic can change this).
+
+**Aware of Location:** The next state is awareness of location. This happens when a perceiving character uses an imprecise sense, such as hearing or tremorsense, to discover what 5-foot square a hidden or invisible creature inhabits (usually after that creature fails a Stealth check or acts without attempting one).
+
+**Observing:** The final state is when the perceiving character is able to directly observe the sneaking character with a precise sense, such as vision. This is generally the result when the perceiving character rolls higher on its opposed Perception check than the sneaking character’s Stealth result while also having line of sight to the sneaking character and the ability to see through any sort of invisibility or other tricks the sneaking character might be using.
+----
+++ ##4B0092|Retraining##
+If using the retraining rules from Pathfinder Roleplaying Game Ultimate Campaign, you can retrain individual skill talents for the same time and cost as feats.
+
+**Retraining Trade Traditions:** If you retrain all the levels of the class you took at 1st level, you may choose to gain a trade tradition at that time, though you lose your class’s usual class skills in favor of the default ones for all trade traditions and those granted by your trade tradition. Likewise, you must retrain all levels of your first class in order to remove a trade tradition (and regain the class’s normal class skills).
+
+Talents gained as part of a trade tradition can only be retrained if you retrain the entire trade tradition and replace it with a new trade tradition, which requires 15 days of retraining. If your trade tradition includes a base sphere that is required for other talents you possess and your new tradition does not include that base sphere, you must retrain an additional talent you possess from that sphere into the base sphere, though this can be done at no additional cost in time or money. If you gained the base sphere from multiple sources, you do not need to retrain an additional talent to change your trade tradition as long as you still possess the base sphere after retraining.
+
+**Sphere-Specific Drawbacks:** To gain or remove a sphere-specific drawback for a skill sphere using retraining, you must retrain the base sphere and separately replace any talents incompatible with that drawback.
+----
+++ ##4B0092|Sensory Precision##
+Some senses are more precise than others. There are three degrees of sense precision, two previously described in Pathfinder Roleplaying Game: Ultimate Intrigue and one introduced here. These rules are simply clarifications of the game’s basic assumptions about how senses work.
+
+Senses other than the listed ones count as precise, imprecise, or indeterminate at the GM’s discretion.
+
+++++ Precise Senses
+A sense is precise if it allows the creature to use targeted effects on creatures and objects it senses, and to attack enemies without suffering a miss chance from concealment. This includes vision, touch, blindsight, and lifesense. Precise senses allow the creature to pinpoint an enemy’s location.
+
+When a creature uses a precise sense to observe an enemy, that enemy is unable to use Stealth against the observer unless it creates a distraction first, has cover or concealment, or has a special ability allowing it to do so.
+
+++++ Imprecise Senses
+Imprecise senses allow a creature to pinpoint the location of another creature, but they do not allow for the use of targeted effects, and attacks against those creatures are subject to miss chances from concealment. Weaker imprecise senses, like the scent ability, might only give a direction rather than a location at the outer part of their range.
+
+A few examples of imprecise senses are hearing, the scent ability, blindsense, and tremorsense. A creature might have a limited form of a sense that makes it too weak to count as precise, such as a beast with primitive eyes that has difficulty seeing a creature that is not moving (which makes its vision an imprecise sense for creatures that have not moved since the creature’s last turn).
+
+++++ Indeterminate Senses
+Indeterminate senses reveal the strength of a stimulus, but gives no information about the direction except in certain circumstances (generally requiring movement to compare the strength in different locations). Examples of indeterminate senses for most player characters include smell (for creatures that lack the scent ability), temperature sense, and taste. Creatures with very poor hearing, such as snakes, use hearing as an indeterminate sense. Detecting a smell or using another indeterminate sense might require a Perception check. Perception can be used to locate a smell’s source (or using another indeterminate sense) if it is within 5 feet, as described in the new skill use.
+----
+++ ##4B0092|Conditions##
+Spheres of Guile uses the following new conditions not found in the Pathfinder Roleplaying Game Core Rulebook.
+
+Because these are natural states of mind, the GM might rule NPCs automatically experience one of these conditions in certain special circumstances and a player might decide their own PC has such a condition at an appropriate moment in the story.
+
+**Variant: Uncontrolled Emotions:** If it suits the group’s style of play, the GM can call for a Will saving throw to avoid a PC gaining an appropriate condition during play without a specific spell or effect causing it. For example, when a trusted ally betrays the party unexpectedly, the GM might call for each PC to roll a DC 20 Will save to avoid becoming shocked for 10 minutes. A PC who already had reason to suspect the ally might become livid instead of shocked.
+
+++++ Impressed
+An impressed creature pays particular attention to a specific creature that impressed them. The DC of any Intimidate check, Perform check, or Bluff check to feint attempted against the impressed creature by the impressive creature are reduced by 4. If the impressed creature is at least indifferent to the impressive creature, the DC is also reduced for the impressive creature’s Diplomacy checks to improve the impressed creature’s attitude, Intimidate checks to demand cooperation from the impressed creature, and Bluff checks to lie to the impressed creature. As long as the impressed creature can see the impressive creature, all other creatures have positional concealment against the impressed creature. Unless otherwise specified, an impressed creature loses this condition if they observe the impressive creature fail in a significant challenge. In addition, the impressive creature can end the impressed condition to outwit the impressed creature (described earlier), generally by embarrassing them.
+
++++ ##4B0092|Anger Conditions##
+Anger conditions represent a creature’s temper getting out of control. All anger conditions refer to the focus of the creature’s anger; this is usually the source of the anger condition unless noted otherwise in the skill or ability that caused the condition.
+
+Anger conditions are cumulative. The anger conditions, from least severe to most severe, are angry, livid, enraged, and frenzied. Use the highest level of anger, increased by one for every other anger condition the creature has.
+
+Spells and effects that can end a rage also apply to anger conditions.
+
+**Fight or Flight:** The opposing impulses of fear and rage can overwhelm whichever is weaker. A creature that has both a fear condition and an anger condition uses only the effects of strongest between them. Use the following ranking (which includes the updated fear conditions from Pathfinder Roleplaying Game: Horror Adventures), from weakest to strongest: spooked, angry, shaken, livid, scared, enraged, frightened, frenzied, panicked, terrified, horrified. For example, a creature who is both shaken and enraged would ignore the shaken condition until the enraged condition ends.
+
+++++ Angry
+An angry creature is too bothered to act with usual care and attention. The creature takes –1 penalty to AC and a –2 penalty to Charisma-, Dexterity-, and Intelligence-based skills (except Acrobatics, Fly, Intimidate, and Ride). They cannot spend skill leverage on skill checks penalized by this condition.
+
+Finally, they get a +1 morale bonus to unarmed and Strength-based weapon damage rolls when attacking the focus of their anger and a +1 morale bonus on Will saving throws against spells and effects from the focus of their anger.
+
+Angry is a mind-affecting emotion effect. It is a less severe state of anger than livid, enraged, or frenzied.
+
+++++ Livid
+A livid creature is caught up in their anger. A livid creature takes a –2 penalty to AC and Wisdom-based skill checks (except Perception to locate the focus of their anger). They also take a –4 penalty to Dexterity-, Intelligence-, and Charisma-based skill checks (except Acrobatics, Fly, Intimidate, and Ride) and to concentration checks (except for spells that target or include the focus of their anger). They cannot spend skill leverage on skill checks penalized by this condition. Finally, they get a +2 morale bonus to unarmed and Strength-based weapon damage rolls when attacking the focus of their anger and a +1 morale bonus on Will saving throws against spells and effects from the focus of their anger.
+
+Livid is a mind-affecting emotion effect. It is a more severe state of anger than angry, but less severe than enraged or frenzied.
+
+++++ Enraged
+An enraged creature is consumed by anger and rage. They cannot use any Charisma-, Dexterity-, or Intelligence-based skill checks (except Acrobatics, Fly, Intimidate, and Ride). Additionally, they take a –2 penalty to AC and Wisdom-based skill checks (except Perception to locate the focus of their anger). They take –8 penalty to concentration checks except to target or include the focus of their rage in a spell. If the enraged creature can see the focus of their rage, all other creatures and objects have positional concealment from the enraged creature. Finally, they get a +2 morale bonus to unarmed and Strength-based weapon damage rolls when attacking the focus of their anger and a +2 morale bonus on Will saving throws against spells and effects from the focus of their anger.
+
+Enraged is a mind-affecting emotion effect. It is a more extreme state of anger than angry or livid but less extreme than frenzied. Enraging a creature is a hostile action, and is liable to initiate combat or worsen a creature’s attitude toward you.
+
+++++ Frenzied
+A frenzied creature cannot think of anything but their rage. They cannot delay and the only actions they can take are to approach the focus of their anger and take hostile actions against it. They cannot use any Charisma-, Dexterity-, or Intelligence-based skill checks (except Acrobatics, Fly, Intimidate, and Ride). Additionally, they take a –2 penalty to AC and Wisdom-based skill checks (except Perception to locate the focus of their anger). They cannot cast spells or use skill leverage. If the frenzied creature can see the focus of their anger, all other creatures and objects have positional concealment from the frenzied creature. Finally, they get a +2 morale bonus to unarmed and Strength-based weapon damage rolls when attacking the focus of their anger and a +2 morale bonus on Will saving throws against spells and effects from the focus of their anger.
+
+Frenzied is a mind-affecting emotion effect. It is a more extreme state of anger than angry, livid, or enraged. Driving a creature into a frenzy is always a hostile action, and by its nature initiates combat. Even after the frenzied condition ends, the creature usually remains hostile (but not necessarily violent) toward the focus of their anger.
+
++++ ##4B0092|Disorientation Conditions##
+Disorientation conditions represent a creature’s uncertainty, disbelief, confusion, or similar emotions clouding their thoughts. Because confusion and disorientation are closely related, any spell or effect that protects against or ends the confused, dazed, staggered, or stunned conditions likewise protects against disorientation conditions. (This interaction only applies in one direction; abilities and effects that remove or interact with the disorientation conditions do not affect confused, dazed, or staggered unless they say so.) Disorientation conditions are cumulative. The disorientation conditions, from least severe to most severe, are uncertain, shocked, and dumbfounded. 
+
+Use the highest level of disorientation, increased by one for every other disorientation condition the creature has. If the condition would worsen beyond dumbfounded, add the effects of stunned to dumbfounded for one step, or add the effects of confused to dumbfounded for two or more steps. A disoriented creature can be outwitted easily, though the surprise jars them back to their senses. This method of outwitting reduces the creature’s most severe disorientation condition by one step (from dumbfounded to shocked, shocked to uncertain, or ending the uncertain condition).
+
+++++ Uncertain
+An uncertain creature is not sure what to make of something that just happened or that they just learned. The DC to affect them with Charisma- and Dexterity-based skill checks and the DC of any Sense Motive check against them is reduced by 2.
+
+They also take a –2 penalty to opposed skill checks, attacks of opportunity, and initiative rolls. In addition, their disorientation prevents them from speaking carefully. Other creatures can attempt a Sense Motive check to sense their goal, sense their emotion, or get a hunch as an immediate action each time that the disoriented creature attempts a language-dependent skill check or use a language-dependent skill talent.
+
+The uncertain creature’s condition can be removed by spending time thinking things through. In most cases, this is a standard action, but in longer-term social encounters with extended rounds (such as a party where characters can attempt an influence skill check every 15 minutes) or similarly complex situations, they must spend one of those extended rounds.
+
+Thinking things through this way allows any creatures interacting with the uncertain creature to attempt a Sense Motive check to sense their goal as an immediate action. In addition, an opponent can remove a creature’s uncertain condition to outwit it (described earlier).
+
+Uncertain is a mind-affecting emotion effect. It is a less severe state of disorientation than shocked or dumbfounded.
+
+++++ Shocked
+A shocked creature is surprised at a recent revelation or action. The DC to affect a shocked creature with Charisma- and Dexterity-based skill checks and any Sense Motive check against them is reduced by 4. They also take a –4 penalty to Reflex and Will saving throws, initiative checks, opposed skill checks, and other skill checks attempted without using an action (such as identifying a spell as it is cast or recalling relevant information). Additionally, a shocked creature cannot take attacks of opportunity or immediate actions and cannot speak carefully. Other creatures can attempt a Sense Motive check to sense their goal, sense their emotion, or get a hunch as an immediate action each time that they attempt a language-dependent skill check or use a language-dependent skill talent.
+
+The shocked creature can reduce their shocked condition to uncertain by thinking things through, as with the uncertain condition, but must succeed at a Will save or the action is wasted. In a long social encounter, a failed save results in wasting an action. If the condition was the result of an effect that allowed a saving throw or of a skill talent, use its DC. If the condition was from a skill use, the save DC is 10 + number of ranks in that skill. Otherwise, the DC is 15. An opponent can reduce a creature’s shocked condition to uncertain as a cost to outwit it (described earlier).
+
+Shocked is a mind-affecting emotion effect. It is a more severe state of disorientation than uncertain but less severe than dumbfounded.
+
+++++ Dumbfounded
+A dumbfounded creature struggles to make sense of what is going on around them. They have the staggered condition and effectively avert their eyes from all other creatures. They cannot speak, sign, or write beyond short, simple phrases. They cannot use language-dependent effects (including most Bluff, Diplomacy, Intimidate, and verbal Perform uses). The skill check DC to affect a dumbfounded creature with skills is reduced by 4 and they take a –4 penalty to Reflex and Will saving throws, initiative checks, and skill checks. Additionally, a dumbfounded creature cannot take attacks of opportunity or immediate actions.
+
+The dumbfounded creature can reduce this condition to shocked by thinking things through, as with the uncertain condition, but takes 1 minute to do so and succeed at a Will save or the action is wasted. In a long social encounter, a failed save results in wasting an action. If the condition was the result of an effect that allowed a saving throw or of a skill talent, use its DC. If the condition was from a skill use, the save DC is 10 + number of ranks in that skill. Otherwise, the DC is 20. They get a saving throw immediately the next time they notice danger.
+
+Dumbfounded is a mind-affecting emotion effect. It is a more severe state of disorientation than shocked or uncertain. Intentionally dumbfounding someone to manipulate them is liable to worsen their attitude (at least temporarily) once the condition ends and might initiate combat if the dumbfounded creature feels they have no other option. An opponent can reduce a creature’s dumbfounded condition to shocked as a cost to outwit it (described earlier).
+
+----
+
+++ ##4B0092|Playing Guile Characters##
+The following advice is intended for any player interested in getting the most out of a guile-focused character.
+
++++ ##4B0092|Learning and Exploiting Secrets##
+Guileful operatives often take great pains to keep their secrets hidden and to discover the secrets of others. Games of guile feature NPCs with complex motives to discover. Not only do multiple motivations make for better-rounded characters and more engaging stories, but it also creates opportunities for other characters to use that information to drive the story.
+
+When two of an NPC’s motivations are in conflict, others can convince them to act in a certain way by resolving the conflict or at least convincing them to focus on one want over another in the moment. A wizard headmistress might stand in the player characters’ way because letting them flout her authority obviously clashes with maintaining her reputation, but offering her a route to the revenge she has long wanted might get her to look the other way. Or the hero could distract her long enough to escape by tricking her into thinking that her rival is nearby.
+
+Tactical and strategic intelligence are perhaps the most common secrets in roleplaying games. These can make the difference between a deadly ambush and slipping past an enemy completely undetected. Guileful operatives invest in skills and talents that give them useful information like this so that they never face an enemy completely unprepared. They value knowledge, highly trained senses, divination, and similar skills to let them avoid tactics that would play to an enemy’s strengths and focus on tactics that hit their vulnerabilities.
+
+Another common secret is the location of something valuable or dangerous, such as a treasure or a piece of damning evidence. Guileful operatives usually need to find something at some point or another, so they are well advised to ensure the party is trained in Perception and Survival.
+
+**PC Secrets:** Player characters as well as NPCs can have secrets worth keeping. They might hide their true identities and homes to protect loved ones, conceal a shameful past in hopes of starting over, or even operate at secret cross-purposes with their own allies. Enemies who exploit what they learn about the player characters feel more realistic, intelligent, and dangerous. Having dangerous topics of conversation come up for player characters can also be a rewarding challenge for players who enjoy diving into roleplaying.
+
+Whether player characters should keep secrets from each other is something that should be discussed as part of beginning a game together, much like the tone of the game and whether player characters should ever fight each other. After all, secrecy and discovery can be a form of conflict and can frustrate players who do not want to deal with it.
+
++++ ##4B0092|Trickery##
+Perhaps the most iconic part of guileful play is tricking creatures into hurting their own interests, helping others they would not knowingly help, or simply wasting effort they thought would accomplish something. Effective trickery depends on knowing enough about the target to create a falsehood they are willing to believe and act on. It also requires presenting the trick in a way the target will believe. As a result, clever characters should favor tricks that play to their unique strengths, especially abilities they have that others might not realize they have.
+
+While simply lying with the Bluff skill is an option, other methods are often much easier or more effective. Lies are often quickly disbelieved if the target already distrusts the trickster, if there is no evidence to support them, or if they are later disproven. Props (whether real items, forgeries, or illusions), disguises, witnesses (themselves tricked or also lying), and conforming to the target’s biases can all make deception easier or more effective.
+
+In a fight, an effective trick can get the opponent to waste their action doing something surprisingly ineffective, even fruitless or counterproductive. If a psychic pretends to rely on verbal components consistently but does not actually need them, a rival might waste precious time on a silence spell to no effect.
+
+In a negotiation, a trick can convince someone to accept a worse deal than they reasonably should, although the benefit is generally proportional to the investment in the deception. Talk is cheap, so a quick Bluff that you think a pot is an important antique might convince the target you believe it but will not make them pay dramatically more for it without substantially more to convince them. Hoodwinking someone for long enough can eventually convince them to take big risks fitting the trickster’s lies, though.
+
+**Tricking Players:** Many players enjoy the challenge of spotting tricks as opponents try to outsmart them. However, the GM (and any players who are truly deceiving other players) should take care to monitor everyone’s fun and talk about norms and limits at the table. Many players are also quickly frustrated when they completely fall for substantial tricks, ones that completely waste their actions or cause them to do more harm than good.
+
+Tricks at a player’s expense tend to be the most fun if they end up being no more than an inconvenience (either because it was a low-stakes and low-effort trick, or because the players wised up before getting in too deep). Players feel empowered and smart if opponents’ tricks can be detected with the amount of vigilance and investment that the player wants to spend. Depending on your group’s standards, more nefarious and effective tricks might be fair game with adequate opportunities for the player characters to discover and stop or mitigate the ruse. Deadly betrayals might be in good fun as long as they keep the tension up without making the players feel consistently foolish or spoiling the parts of the story they have invested in.
+
+Keeping within your group’s limits, whatever they are, requires making a point to place clues about tricks and knowing what tools player characters have to find those clues. A lingering magic aura is no clue to a group that lacks a way to detect auras; tracks do no good for a group untrained in Survival.
+
+As a rule of thumb, try to place three easy-to-find clues exposing a trick you do not really want the player characters to fall for; a trick that can succeed without spoiling anyone’s fun can have fewer clues.
+
++++ ##4B0092|Knowing the Environment##
+Guileful heroes pay attention to their surroundings. This means not just the terrain and hazards (although these are often useful to exploit in combat), but also whoever or whatever lives nearby, the social and political circumstances, and items at hand that might seem innocuous at first glance. These are usually experts at home in some environment or another, whether that means masters of the wilderness, rogues at home in any urban shadow, or knights who know everything about courtly intrigue and military intelligence. They put themselves in locations and circumstances that give them access to their skills and talents, preferably with favorable circumstances.
+
+Even locations that seem unfamiliar and unfriendly to a specialized expert might well have ways for them to shine with a little lateral thinking. A dungeon might have social dynamics that a charlatan can exploit among its denizens—a vampire might be immune to mind-affecting effects, but they can still be flattered, lied to, or perhaps bribed. A greedy thief flung into the depths of a strange psychic mindscape might still be able to gather valuable secrets they can sell when they leave. Characters often have ways to help each other be more effective, perhaps gathering information, locating useful circumstantial assets, or providing aid, even if they cannot use their abilities to directly solve a problem.
+
++++ ##4B0092|Puzzling Things Out##
+Puzzles are a perennial part of exploration and investigation stories. Guileful characters usually invest in abilities that tell them information in order to make these situations easier to resolve, but any character can typically find some ways to help.
+
+If you find yourself stuck on how to move forward, the following might be useful to overcoming the challenge even though they might not seem like directly tackling it:
+* Attempt a skill check to aid another.
+* Investigate an obstacle to inform the party’s actions, typically with a Knowledge check, a Perception check, or a Sense Motive check.
+* Find or retrieve a tool, transportation, or a contact to make the task easier.
+* Distract rivals so that allies can act without being noticed.
+* Get in the way of approaching obstacles or hazards to stop them from interfering with allies.
+* Spend a use of skill leverage to get a clue about the challenge at hand.
+
++++ ##4B0092|Motivations and Roleplaying##
+Every character has something they want or need, and usually there are several competing motivations driving each important character in a game of guile. Indeed, for someone to become an adventurer they must have strong motivations to face danger over and over again. When anticipating a social encounter, characters might try to gather information, impersonate someone the target will listen to, request that an ally put in a good word, or otherwise prepare before the encounter even begins.
+
+Even in roleplaying dialogue, remember that contribution does not have to mean talking. Setting the tone with Perform or another action, impressing or intimidating the target, keeping rivals from interfering, and attentively watching for clues can all help seal the deal.
+
+When creating your player character, it’s best to choose at least four motivations to make them well-rounded. Including a relationship helps keep your character grounded in the world, even if the relationship is a negative one or with a fellow adventurer. Including a flaw or a goal to solve a problem ensures that your character feels relatably fallible and can help inform more personal, interesting decisions as the game’s story unfolds.
+
+Below are some common adventurer motivations and alignments they tend to go along with.
+
+**Fame:** A fame-motivated character wants songs and stories told about their exploits and might want social status that goes along with it such as gaining a noble title or joining an exclusive organization. Characters who want fame tend to be neutral, but good characters can want to be remembered for their heroism and evil characters might revel in being feared.
+
+**Faction:** Adventurers often have strong loyalty to a patron, organization, guild, or nation that pushes them to serve and fight for everyone else who belongs to their faction. Characters of any alignment can have a strong sense of group identity, but lawful characters are more likely to let it drive their actions as a major motivation when the group is not bound up in the ideals of another alignment.
+
+**Honor:** A character motivated by honor acts out of obligation, to maintain their reputation in their own society, perhaps to right some horrible wrong, or defend the name of someone close. Honor is usually a motivation for lawful neutral or lawful good characters, but if a group demands behavior fitting other alignments then honor might tend to motivate characters of those alignments instead in that group.
+
+**Revenge:** Adventurers out to correct or repay some terrible wrong are motivated by revenge, and they tend to be neutral or evil.
+
+**Thrills:** An adventurer motivated by thrills would still be out planning the next adrenaline rush even with all the wealth in the world. This motivation is rare among characters who are not chaotic.
+
+**Wealth:** Wealth is a common motivation, typically including worldly possessions and comforts. A character motivated by wealth can easily be of any alignment, although it is often a minor motivation for good characters (who see it as a goal that gives them the power to do good).
+
++++ ##4B0092|Learning or Hiding a Motivation##
+One of the most common ways to influence a character is to learn their motivation, which is required for dramatic social maneuvering and some skill talents. Some suggested methods follow, but observation and deduction can be used too. Most attempts to learn a character’s motivations can be misled using a Bluff check opposed to whatever check is being used to learn it (or opposed by Sense Motive if no other skill applies).
+
+**Avoiding the Truth:** No Bluff check is required to avoid a topic unless a direct question is being dodged. Observers can tell you’re avoiding the topic, though, with a successful Sense Motive check to get a hunch (DC 20, takes 1 minute). Bluff can also actively mislead this Sense Motive check in place of the flat DC. (Bluff can also be used to evade a question.)
+
+**Bare Your Soul:** Depending on the character’s personality and how comfortable they feel, sharing your motivation as part of a successful Diplomacy check to improve their attitude toward you often coaxes them into sharing one of their own motivations. This most often happens in situations where characters are open to emotional intimacy, such as if they are hoping to make a new friend or seduce a lover. If they reciprocate, they choose a motivation that seems no more secret, exploitable, or important than yours.
+
+**Listen:** A character might flatly state one of their motivations to seek help, to bond with others, or as part of negotiation in order to save time and get to the point, although they often insist on hearing one from the other party at the same time. Even if a character is guarded, a simple request with a Diplomacy check combined with revealing one of the character’s own often convinces them to reveal another motivation that is no more secret, exploitable, or important.
+
+**Research:** Many times, at least some of a character’s motivations are public knowledge or known to at least a few others. Before attempting to influence a character, gathering information with Diplomacy or recalling gossip with an appropriate Knowledge skill can often turn up rumors of one or more motivations.
+
+**Sense From Actions:** All of a character’s substantial choices and actions likely reflect their motivations in some way, so any choice is a clue. Whenever a character makes a substantial choice, a successful Sense Motive check reveals a motivation that contributed to that choice, revealing more overt and minor motivations first. Someone with a disorientation condition gives opponents more opportunities to learn their goals and motivations.
+
+**Skill Leverage:** You can spend 1 use of skill leverage to get a clue about a motivation if you have unlocked leverage with Sense Motive or a relevant Knowledge skill. You get a clue about the most obvious motivation you do not already know. You can only learn about motivations that you know of them acting on or that you have some other clue about (perhaps they wear something suggesting it like a symbol of a cause or deity, for example).
+
+**Tease It Out:** Conversation can often coax a character into hinting or outright stating a motivation unintentionally, if the character is careless or the attempt is cleverly worded. If it’s not clear that the reply should confirm a motivation, the GM should ask for a skill check. Typical skill checks would be Bluff, Diplomacy, or Intimidate. Some examples follow.
+* **Bluff:** Imply or outright lie that you already know the target’s motivation, and let their reaction tell you what it is.
+* **Bluff:** Try to make a troubling claim, and if it makes them disoriented you know that you invoked their motivation.
+* **Diplomacy and possibly Sense Motive:** Request they answer an innocuous hypothetical question that hints at deeper concerns.
+* **Give a gift invoking a suspected motivation:** If they respond strongly, the guess was right.
+* **Intimidate:** Threaten something you think might be a motivation, and watch for a reaction.
+* **Knowledge and Sense Motive:** Perplex them with Knowledge, which gives you an extra chance to use the Sense Motive skill to sense their goal.
+----
++ ##4B0092|Spheres Variants##
++++ ##4B0092|Associated Skills##
+If a character has skill spheres or packages with the same associated skill as combat spheres or packages, they do not gain more ranks than their usual maximum. Instead, they gain a competence bonus on checks with that skill equal to one-half their character level (minimum +1). This takes precedence over pure combat spheres using one-half their base attack bonus in such situations.
+
++++ ##4B0092|Combat and Magic Talent Substitution##
+If the GM wants to run a game that focuses more heavily on skills, consider allowing skill talents to be gained in place of certain other talents. Whenever a character would gain a combat talent (introduced in Spheres of Might) or gain a magic talent (Spheres of Power) from a talent progression, they can instead gain a skill talent or base sphere they qualify for, to a maximum of half their talents of that type (rounded down). Note that the reverse substitution is not available this way. You cannot substitute specific bonus talents, talents gained in place of associated feats, or the talents gained from a casting tradition or martial tradition.
+
+**Exchanging Combat Training and Skill Expertise:** A quick way to build a champion class from a standard class with the combat training or skill expertise class features is to replace one entire talent progression with the equivalent progression of the other kind (expert for virtuoso, adept for journeyman, or proficient for trained). With the GM’s permission, you can make this substitution as an alternate class feature for any suitable class when you take your first level in that class.
+
++++ ##4B0092|Origin Talents and Skill Spheres##
+If using the Expanded Origin Talent Access variant rule, a character may take auxiliary origin talents in place of skill talents gained from talent progression, subject to the same rules as exchanging combat or magic talents for auxiliary origin talents. Similarly, whenever a talent progression would allow a character to select a utility talent, that character may exchange that talent for a utility origin talent.
+
++++ ##4B0092|Unlocked Leverage with Combat Spheres##
+If a GM wishes, they may declare that whenever a character takes a combat sphere or talent which would grant skill ranks in a specific skill to also unlock skill leverage with that skill. For example, a character who possesses the Scout sphere would unlock skill leverage with Stealth (as well as Perception if they possess the Great Senses talent). Alternatively, the following talent may be introduced in the Equipment sphere:
+
+++++ Combatant’s Tenacity [utility]
+You unlock skill leverage with any skill that this sphere or talents gained from combat spheres grant you ranks in.
+
++++ ##4B0092|Utilitarian Talent Progression##
+The following progression can be used by any character with the casting, blended training, or combat training class features. If the character would normally gain a talent every level, a talent every 1.5 levels, or a talent every 2 levels, they may choose to gain the following talent progression in place of their listed combat or magic talent progression. This alternate progression grants additional utility talents at the expense of non-utility talents.
+
+||~ Class Level ||||~  1 Talent per Level (Expert Practitioners and most High-Casters) ||||~ 3/4 Talent per Level (Adept Practitioners and most Mid-Casters) ||||~ 1/2 Talent per Level (Proficient Practitioners and most Low-Casters) ||
+||~ ||~ Any ||~ Utility ||~ Any ||~ Utility ||~ Any ||~ Utility ||
+|| 1st || 1 || 0 || 0 || 1 || 0 || 1 || 
+|| 2nd || 2 || 1 || 1 || 1 || 0 || 1 || 
+|| 3rd || 3 || 1 || 1 || 2 || 0 || 2 || 
+|| 4th || 3 || 2 || 2 || 2 || 1 || 2 || 
+|| 5th || 4 || 2 || 2 || 3 || 1 || 3 || 
+|| 6th || 5 || 3 || 3 || 3 || 1 || 3 || 
+|| 7th || 6 || 3 || 3 || 4 || 1 || 4 || 
+|| 8th || 6 || 4 || 4 || 4 || 2 || 4 || 
+|| 9th || 7 || 4 || 4 || 5 || 2 || 5 || 
+|| 10th || 8 || 5 || 5 || 5 || 2 || 5 || 
+|| 11th || 9 || 5 || 5 || 6 || 2 || 6 || 
+|| 12th || 9 || 6 || 6 || 6 || 3 || 6 || 
+|| 13th || 10 || 6 || 6 || 7 || 3 || 7 || 
+|| 14th || 11 || 7 || 7 || 7 || 3 || 7 || 
+|| 15th || 12 || 7 || 7 || 8 || 3 || 8 || 
+|| 16th || 12 || 8 || 8 || 8 || 4 || 8 || 
+|| 17th || 13 || 8 || 8 || 9 || 4 || 9 || 
+|| 18th || 14 || 9 || 9 || 9 || 4 || 9 || 
+|| 19th || 15 || 9 || 9 || 10 || 4 || 10 || 
+|| 20th || 15 || 10 || 10 || 10 || 5 || 10 || 
+
+----
+
++ ##4B0092|Running Spheres of Guile Games##
+
+GMs planning to run games using the Spheres of Guile rules should read the [[[Running Guile Games]]] page.
+[[/tab]]
+[[/tabview]]
+
+[[include sog-template]]

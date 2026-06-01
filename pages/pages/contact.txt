@@ -1,0 +1,31 @@
+title:Contact
+= **To send a message to the site owner, use this form:**
+
+[[module MailForm title="Contact via Wikidot.com" format="csv"]]
+
+# name 
+ * title: First name, last name
+ * type: text
+ * rules:
+  * required: true
+# organisation
+ * title: Organization/Company
+ * hint: Leave blank if none
+# country
+ * title: Country
+# email
+ * title: Email
+ * type: text
+ * rules:
+  * required: true
+  * match: /^[_a-zA-Z0-9-]+(\.[_a-zA-Z0-9-]+)*@[a-zA-Z0-9-]+(\.[a-zA-Z0-9-]+)+$/
+# comment
+ * type: textarea
+ * title: Your message 
+ * rules:
+  * maxLength: 5000
+[[/module]]
+
+--------------------
+
+**Did the contact form fail?** At times, technical issues may prevent messages from being sent. We will resolve this as quickly as possible once we know it happens. In the meantime, you can email the administrator directly at sphereswiki1 (at) gmail.com.

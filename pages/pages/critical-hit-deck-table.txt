@@ -1,0 +1,277 @@
+title:Critical Hit Deck/Table
+[[toc]]
+
+[[module CSS]]
+.noselect {
+  -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome and Opera */
+}
+[[/module]]
+
+[[div class="noselect" style="float:right; width: 20%; padding: 0 2%"]]
+[[=]]
+[[image http://spheresofpower.wikidot.com/local--files/test-page/Card%20Casting%203%3A%20Volatile%20Variance link="https://www.drivethrurpg.com/en/product/467228/Card-Casting-3-Volatile-Variance"]]
+**Card Casting 3: Volatile Variance**
+$6.00
+----
+[[/=]]
+[[/div]]
+
+
+++ The Critical Hit Deck/Table
+As an optional rule to introduce greater chaos into games, DMs may implement the random critical hit effects detailed below. These rules were originally printed on the gamemastery critical hit deck, but tables without access to that deck may use either a random number generator with 52 possible results or a deck with 52 numbered cards, using the corresponding values on Table: Critical Hit Card Results to determine what occurs. Certain effects have had their rules text adjusted in the table for greater clarity, compatibility, and consistency.
+
+The critical hit deck may be introduced as a regular part of gameplay or as a special advantage exclusive to certain abilities or boons.
+
+++ Using the Critical Hit Deck/Table
+Whenever a player confirms a critical hit, that player draws one card from the deck and follows the result appropriate to the weapon’s damage type (bludgeoning, piercing, slashing, or other, selecting randomly if multiple different damage types are multiplied by the critical hit). For weapons with critical multipliers higher than x2, the player draws one additional card for each critical multiplier higher than x2 and chooses which effect to use (x3 weapons draw two cards, x4 weapons draw three cards, etc.). The player must take a card’s result unless it cannot be applied, in which case the player rolls critical damage for the attack normally.
+
+There are three ways a GM can use these cards. Since they can be quite deadly to players, the first option is recommended.
+* The GM only draws cards for critical hits scored by major villains or NPCs
+* Monsters and NPCs must spend a feat to gain the ability to draw cards when scoring a crit. 
+* All monsters and NPCs draw cards when scoring a crit.
+
+Unless otherwise noted, all ability bleed for effects on this table is ability damage, not drain. Bleed from any of these effects can be ended by any magical healing or a DC 15 Heal check to provide first aid.
+
+Unless a DC is listed, the DC for any necessary save is equal to the confirmation roll used to score the critical hit.
+
+If an effect states “until healed”, this always refers to the additional damage or bleed effect, not the weapon (or spell) damage.
+If there are multiple eligible targets for an effect (such as “an ally adjacent to you or the target” or “your ally closest to the target”), roll randomly to determine which is affected.
+
+Effects on the critical hit deck/table use terms such as “diminished damage”, “critical damage”, and “magnified damage”. If an effect deals diminished damage, the weapon’s critical damage multiplier is reduced by x1 on the effect (to a minimum of x1, or normal damage). Critical damage uses the weapon’s normal critical damage multiplier, while magnified damage increases the weapon’s critical damage multiplier on the attack (to a maximum of x3). 
+
+Effects that refer to “elemental damage” refer to acid, cold, electricity, or fire damage.
+
+++++ Critical Hit Card Generator
+[[html]]
+<style>
+    * {
+    margin: 0;
+    padding: 0;
+    }
+    #container {
+    width: 90%;
+    margin: 10px auto;
+    padding: 10px;
+    border: 1px solid #606060;
+    }
+    .alignleft {
+    float: left;
+    }
+    .alignright {
+    float: right;
+    }
+</style>
+<div id="container">
+    <p class="alignjustify" id="randomResult">&nbsp;</p>
+    <button class="alignleft" id="button">Trigger Bludgeoning Critical Hit</button>
+    <div style="clear: both;"></div>
+</div>
+<script>
+    function randString(){
+        return stringArray[~~(rand()*stringArray.length)];
+    }
+    function randText(){
+        var tx = randString();
+        var txt = document.createTextNode(tx);
+        var sp = document.createElement('span');
+        sp.appendChild(txt);
+        randomResult.innerHTML = '';
+        randomResult.appendChild(sp);
+    }
+    rand = Math.random;
+    stringArray = ['1. Diminished damage and target cannot breathe or speak. DC 20 Heal check to provide first aid ends this condition.', '2: Diminished damage and 1d4 Con bleed (DC 15 Fort negates, save each round).', '3: Diminished damage and either 1d3 Dex damage and halved speed (leg) or 1d3 Str damage (arm), determined randomly. The damaged limp cannot be used until healed.', '4: Diminished damage and target is staggered for 1d6 minutes.', '5: Diminished damage and 1d6 bleed. This bleed can only be cured with magical healing. ', '6: Critical damage and target is nauseated for 1 round (Fort negates).', '7: Diminished damage and target is dazed for 1d4 rounds.', '8: Critical damage and target cannot heal naturally for 1d4 days.', '9: Diminished damage and target is unconscious for 1d4 rounds (Fort negates).', '10: Critical damage and 2d6 nonlethal damage.', '11: Diminished damage and 1 Con damage. Target loses bite attack and gains 20% spell failure chance for verbal spells until healed.', '12: Critical damage and target is pushed 1d6x5 feet directly away.', '13: Diminished damage and 1d2 Int and Wis damage.', '14: Critical damage and target is knocked prone.', '15: Diminished damage and target is knocked prone and stunned for 1 round (Fort negates stun).', '16: Critical damage to target and diminished damage to targets adjacent to you.', '17: Diminished damage and 1d4 Dex damage and target is disarmed (1 item, Ref save negates disarm).', '18: Diminished damage and 1d4 Dex damage. Targets land speed is halved until healed.', '19: Diminished damage and you may make trip attempts against the target and all enemies adjacent to you without provoking attacks of opportunity.', '20: Diminished damage and 1 Cha damage and 1 bleed.', '21: Diminished damage and critical nonlethal damage.', '22: Critical damage and target is deafened for 1d4 rounds.', '23: Diminished damage and target is sickened for 1d6 rounds.', '24: Critical damage and targets shield is disarmed.', '25: Diminished damage and 1d4 Con and Dex damage. Targets speeds are halved until healed.', '26: Critical damage and 2d6 damage to metal armor (ignores hardness).', '27: Diminished damage and target is exhausted for 1d4 rounds.', '28: Critical damage and 1d4 bleed.', '29: Diminished damage and target is blinded for 1d3 rounds.', '30: Diminished damage and target is confused for 1d3 rounds (Fort negates).', '31: Diminished damage and a free attack against all foes adjacent to you at the same bonus.', '32: Critical damage, 1 Dex damage, and targets speed reduced by 5 until healed.', '33: Magnified damage.', '34: Critical damage and target is fatigued.', '35: Diminished damage and target is flat-footed for 1 round.', '36: Critical damage and 1d6 Dex damage.', '37: Diminished damage and target takes a 20% miss chance for 1d4 rounds.', '38: Diminished damage and 1d2 Con and Str damage. Hand useless until healed.', '39: Diminished damage, 1d2 Int damage, and sickened for 1d4 rounds.', '40: Critical damage and +2 on all your attack rolls for 1 round.', '41: Critical damage, 1d3 Con damage, and target is fatigued.', '42: Critical damage and target is disarmed (1 item).', '43: Critical damage and one free attack against the target with a -5 penalty.', '44: Diminished damage and target is stunned for 1 round.', '45: Diminished damage and 1d2 Dex damage. Targets base land speed reduced to 10 feet until healed.', '46: Critical damage and target can take only one move or standard action next round.', '47: Diminished damage and target provokes attack of opportunity from all threatening creatures.', '48: Critical damage and 1d4 hours of targets memory erased.', '49: Diminished damage and target deafened for 1d4 hours.', '50: Critical damage and 1 Int bleed (Fort negates, save each round).', '51: Diminished damage and target dazed and blinded for 1 round.', '52: Critical damage and 2d6 Int drain (Fort half).'];
+    randomResult = document.getElementById('randomResult');
+    document.getElementById("button").addEventListener('click',randText,false);
+</script>
+[[/html]]
+
+[[html]]
+<style>
+    * {
+    margin: 0;
+    padding: 0;
+    }
+    #container {
+    width: 90%;
+    margin: 10px auto;
+    padding: 10px;
+    border: 1px solid #606060;
+    }
+    .alignleft {
+    float: left;
+    }
+    .alignright {
+    float: right;
+    }
+</style>
+<div id="container">
+    <p class="alignjustify" id="randomResult">&nbsp;</p>
+    <button class="alignleft" id="button">Trigger Piercing Critical Hit</button>
+    <div style="clear: both;"></div>
+</div>
+<script>
+    function randString(){
+        return stringArray[~~(rand()*stringArray.length)];
+    }
+    function randText(){
+        var tx = randString();
+        var txt = document.createTextNode(tx);
+        var sp = document.createElement('span');
+        sp.appendChild(txt);
+        randomResult.innerHTML = '';
+        randomResult.appendChild(sp);
+    }
+    rand = Math.random;
+    stringArray = ['1: Critical damage and target drops whatever is being held (1 item).', '2: Critical damage and 2 bleed. The Heal DC to stop this bleeding is increased by 5.', '3: Critical damage and target begins to drown 3 rounds later. DC 20 Fort save each round to end effect.', '4: Diminished damage and target is stunned for 1d6 rounds (Fort save each round to act).', '5: Diminished damage and 1d6 Dex and 1d6 Str damage.', '6: Critical damage and target is disarmed (1 item).', '7: Diminished damage and 1d4 bleed. The target gains 50% spell failure chance for spells with verbal components until healed.', '8: Diminished damage and -4 penalty on attack rolls, skill checks, and ability checks for 1d4 rounds.', '9: Critical damage and target can take only one move or standard action next round.', '10: Critical damage and target is pushed 1d6x5 feet directly away.', '11: Critical damage and 1d6 bleed.', '12: Critical damage and target is fatigued.', '13: Critical damage and target contracts filth fever (Fort negates).', '14: Critical damage and target is dazed for 1 round.', '15: Critical damage and 2d6 nonlethal damage.', '16: Critical damage and one arm cannot move (DC 20 Str or Heal check as standard action to free).', '17: Critical damage and target is exhausted (Fort negates).', '18: Diminished damage and target is sickened for 1d6 rounds.', '19: Diminished damage and target takes 1d4 ability damage of your choice.', '20: Critical damage to target and diminished damage to another target adjacent to them.', '21: Magnified damage and 1 Con bleed.', '22: Critical damage and target cannot move (DC 20 Str check to negate or to break free as a standard action).', '23: Diminished damage and 1d2 Dex damage. Targets speeds are reduced by half until healed.', '24: Critical damage and ignore DR.', '25: Diminished damage and target is stunned for 1 round.', '26: Magnified damage and 1d2 Con drain, -4 penalty on Perception checks and ranged attacks until healed.', '27: Diminished damage and target is flat-footed for 1 round.', '28: Critical damage and target takes a -2 penalty to AC for 1d4 rounds. ', '29: Diminished damage and 1d4 Str damage.', '30: Critical damage and +4 to your AC for 1 round.', '31: Diminished damage and 1d8 bleed.', '32: Magnified damage.', '33: Diminished damage and 1d2 Con damage. Target does not heal this damage naturally.', '34: Critical damage and targets land speed is halved for 1d4 rounds.', '35: Critical damage and 1d6 Con damage.', '36: Critical damage and target is nauseated for 1 round.', '37: Critical damage and 1 bleed. Target takes 1 additional bleed each round until healed.', '38: Diminished damage, 1 Int damage, and 1 bleed.', '39: Critical damage and target is poisoned with greenblood oil.', '40: Critical damage and target is knocked prone. ', '41: Critical damage and +2 on all your attack rolls for 1 round.', '42: Critical damage and 1d2 Str and Dex damage.', '43: Diminished damage and 1 Con damage. Target gains 50% spell failure chance for verbal spells until healed.', '44: Critical damage and one free attack against the target with a -5 penalty.', '45: Diminished damage and 1d4 Dex damage.', '46: Critical damage and target sickened for 2d4 rounds (Fort negates).', '47: Critical damage and 1 Dex damage.', '48: Diminished damage and 2d6 bleed.', '49: Critical damage and 1d6 bleed if from ranged attack.', '50: Diminished damage, 1d6 bleed, and 1 Con drain.', '51: Diminished damage and target provokes attack of opportunity from all threatening creatures.', '52: Diminished damage and 1d2 Dex damage, -4 penalty on all rolls using that hand until healed.'];
+    randomResult = document.getElementById('randomResult');
+    document.getElementById("button").addEventListener('click',randText,false);
+</script>
+[[/html]]
+
+[[html]]
+<style>
+    * {
+    margin: 0;
+    padding: 0;
+    }
+    #container {
+    width: 90%;
+    margin: 10px auto;
+    padding: 10px;
+    border: 1px solid #606060;
+    }
+    .alignleft {
+    float: left;
+    }
+    .alignright {
+    float: right;
+    }
+</style>
+<div id="container">
+    <p class="alignjustify" id="randomResult">&nbsp;</p>
+    <button class="alignleft" id="button">Trigger Slashing Critical Hit</button>
+    <div style="clear: both;"></div>
+</div>
+<script>
+    function randString(){
+        return stringArray[~~(rand()*stringArray.length)];
+    }
+    function randText(){
+        var tx = randString();
+        var txt = document.createTextNode(tx);
+        var sp = document.createElement('span');
+        sp.appendChild(txt);
+        randomResult.innerHTML = '';
+        randomResult.appendChild(sp);
+    }
+    rand = Math.random;
+    stringArray = ['1: Diminished damage and 8 bleed. A successful Heal check to provide first aid cuts the bleeding in half rather than ending it. Each successive first aid halves the bleed again, with the bleed being stopped if it would be reduced below 1. Effects other than first aid affect this bleed normally.', '2: Critical damage and 3d6 Dex damage (Fort half).', '3: || Critical damage and 2d6 nonlethal damage.', '4: Critical damage and 1 Con bleed.', '5: Magnified damage, but you drop your weapon.', '6: Critical damage and one free attack against the target with a -5 penalty.', '7: Diminished damage and target is permanently blinded (Ref negates).', '8: Critical damage and target can take only one move or standard action next round.', '9: Diminished damage and 2d6 bleed.', '10: Critical damage and diminished damage to targets armor.', '11: Critical damage and 1 Cha drain.', '12: Critical damage and 1d4 bleed. Target cannot use swallow whole ability until healed.', '13: Diminished damage plus 1d6 Str damage.', '14: Diminished damage and 2d6 bleed. Target cannot talk or breathe until healed.', '15: Critical damage and target is pushed 1d6x5 feet directly away.', '16: Critical damage and double armor check penalty until fixed (DC 15 Craft).', '17: Critical damage and 1d4 Int bleed.', '18: Diminished damage and target loses 1d3 fingers and takes 1 Con and Str drain (Fort negates).', '19: Critical damage and diminished damage to targets shield.', '20: Critical damage and diminished damage to targets weapon.', '21: Critical damage and target is knocked prone.', '22: Critical damage and death by decapitation (Fort negates).', '23: Critical damage and target is disarmed (1 item).', '24: Critical damage and 1d2 Str damage.', '25: Critical damage and 1 free attack against a target adjacent to the target at the same bonus.', '26: Magnified damage but all damage is nonlethal.', '27: Diminished damage and target loses a hand and takes 1d3 Con and Str drain (Fort negates).', '28: Diminished damage and 1 Con damage. Target cannot speak or bite until healed. ', '29: Critical damage and target takes a -2 penalty to AC for 1d4 rounds.', '30: Diminished damage and 1d6 Dex damage.', '31: Diminished damage and target takes bleed damage equal to your diminished damage.', '32: Critical damage and target is fatigued.', '33: Critical damage and +4 to your AC for 1 round.', '34: Diminished damage and target is flat-footed for 1 round.', '35: Critical damage and target loses flight if it uses wings.', '36: Diminished damage and 1d4 bleed. Target blinded while bleeding.', '37: Critical damage, 1d4 Con damage, and 1d6 bleed.', '38: Critical damage and push target 5 feet in any direction.', '39: Critical damage and +2 on all your attack rolls for 1 round.', '40: Critical damage and you may automatically grapple the target.', '41: Diminished damage and target is sickened for 1d6 rounds.', '42: Diminished damage, 1d2 Dex damage, and target is knocked prone.', '43: Diminished damage and 1 Con and Cha damage, -2 penalty on Perception checks and ranged attacks until healed.', '44: Diminished damage and 1 Cha drain, -4 penalty on Perception checks until healed.', '45:  || Diminished damage, 1d3 Cha damage, and 1 Cha drain (Fort negates drain)', '46: Diminished damage and 1 Dex damage. Target cannot use one hand until healed.', '47: Critical damage and all critical threats against target automatically confirm for the next 3 rounds.', '48: Diminished damage and target may only attack you for the rest of the encounter (Will negates, target is allowed a new save each round).', '49: Critical damage and 1 bleed. Target gains 20% spell failure chance for verbal spells until healed.', '50: Diminished damage and target provokes attack of opportunity from all threatening creatures.', '51: Diminished damage and -4 penalty on attack rolls, skill checks, and ability checks for 1d4 rounds.', '52: Diminished damage and 1d8 bleed.'];
+    randomResult = document.getElementById('randomResult');
+    document.getElementById("button").addEventListener('click',randText,false);
+</script>
+[[/html]]
+
+[[html]]
+<style>
+    * {
+    margin: 0;
+    padding: 0;
+    }
+    #container {
+    width: 90%;
+    margin: 10px auto;
+    padding: 10px;
+    border: 1px solid #606060;
+    }
+    .alignleft {
+    float: left;
+    }
+    .alignright {
+    float: right;
+    }
+</style>
+<div id="container">
+    <p class="alignjustify" id="randomResult">&nbsp;</p>
+    <button class="alignleft" id="button">Trigger Other Critical Hit</button>
+    <div style="clear: both;"></div>
+</div>
+<script>
+    function randString(){
+        return stringArray[~~(rand()*stringArray.length)];
+    }
+    function randText(){
+        var tx = randString();
+        var txt = document.createTextNode(tx);
+        var sp = document.createElement('span');
+        sp.appendChild(txt);
+        randomResult.innerHTML = '';
+        randomResult.appendChild(sp);
+    }
+    rand = Math.random;
+    stringArray = ['1: Critical damage and if the effect did elemental damage the target is now vulnerable to that element for 3 rounds.', '2: Diminished damage and target is charmed (as the charm person spell) for 3 rounds (Will negates).', '3: Critical damage and you may give the target 1 suggestion as per the suggestion spell (Will negates).', '4: Critical damage and you and target switch places.', '5: Critical damage and target spends 1 round laughing (as hideous laughter spell, Will negates).', '6: Critical damage and 1d4 damage to a random ability score.', '7:  Critical damage and target can take only one move or standard action next round.', '8: Critical damage and 2d6 random energy damage (Ref half).', '9: Critical damage or magnified damage to humanoids and monstrous humanoids.', '10: Critical damage and target loses one random prepared spell, one random spell slot, 1d4 spell points, or one use of a random spell-like ability.', '11: Diminished damage and target is sickened for 1d6 rounds.', '12: Diminished damage and half diminished damage to all targets adjacent to target.', '13: Critical damage. If dealing acid damage, target takes 2d6 acid damage for 1d4 rounds.', '14: Diminished damage and 1 negative level (Fort negates after 1 day).', '15: Critical damage. If dealing cold damage, target takes 1d4 Dex damage.', '16: Critical damage. If dealing electricity damage, target stunned for 1d4 rounds.', '17: Critical damage and target is pushed 1d6x5 feet directly away.', '18:  Diminished damage and target is entangled (DC 20 Str or Escape Artist to break free).', '19: Diminished damage and critical damage of a random energy type.', '20: Diminished damage and target is slowed (as per the slow spell) for 1d6 rounds.', '21: Diminished damage and target is frightened for 1d4 rounds (Will negates).', '22: Critical damage and spell is not lost, nor does it cost spell points.', '23: Diminished damage and target is sent to a random plane (Will negates).', '24: Critical damage and ignore energy resistance (but not immunity).', '25: All spell variables are maximized as per the Maximize Spell metamagic feat.', '26: Critical damage and target glows as per faerie fire for 1d6 rounds.', '27: Critical damage. If dealing fire damage, target catches fire, taking 2d6 fire damage per round until extinguished.', '28: Critical damage and +4 to your AC for 1 round.', '29: Critical damage and target is deafened for 1d4 rounds.', '30: Magnified damage.', '31: Critical damage and 1d4 bleed.', '32: Critical damage and target is blinded for 1 round.', '33: Critical damage and target is incorporeal for 1d3 rounds (Will negates).', '34: Critical damage and target vanishes, reappearing in closest open square to where it disappeared in 1d4 rounds.', '35: Diminished damage. If dealing elemental damage, medium elemental corresponding to the damage type dealt appears to serve you for 1d4 rounds.', '36:Diminished damage and target is affected as per dispel magic with a caster level equal to your caster level or base attack bonus (whichever is higher).', '37: Critical damage and target takes a -4 penalty on saves versus your spells for 1d6 rounds.', '38: Diminished damage. You are healed the same amount.', '39: Diminished damage and target is petrified for 1d4 hours (Fort negates).', '40: Critical damage and target is dazzled for 1d4 rounds.', '41: Diminished damage and target is stunned for 1 round.', '42: Diminished damage and target cannot cast spells or use spell-like abilities for 1d4 rounds.', '43: Diminished damage and target loses scent and blindsense for 1 day.', '44: Critical damage and target is dazed for 1 round.', '45: Critical damage and you become invisible for 1d4 rounds.', '46: Diminished damage and target blinded for 1d4 rounds (Fort negates).', '47: Diminished damage and target is reduced by one size category for 3 rounds (as reduce person, Will negates).', '48: Critical damage and an illusion appears to attack foe, flanking them for you for 1d6 rounds.', '49: Critical damage or magnified damage to animals, fey, magical beasts, and vermin.', '50: Critical damage or magnified damage to dragons.', '51: Critical damage or magnified damage to aberrations and outsiders.', '52: Diminished damage this round and half damage each round for 1d4 rounds.'];
+    randomResult = document.getElementById('randomResult');
+    document.getElementById("button").addEventListener('click',randText,false);
+</script>
+[[/html]]
+
+
+**Table: Critical Hit Card Results**
+||~ Value ||~ Bludgeoning Damage ||~ Piercing Damage ||~ Slashing Damage ||~ Other Damage || 
+|| 1 || Diminished damage and target cannot breathe or speak. DC 20 Heal check to provide first aid ends this condition. || Critical damage and target drops whatever is being held (1 item). || Diminished damage and 8 bleed. A successful Heal check to provide first aid cuts the bleeding in half rather than ending it. Each successive first aid halves the bleed again, with the bleed being stopped if it would be reduced below 1. Effects other than first aid affect this bleed normally. || Critical damage and if the effect did elemental damage the target is now vulnerable to that element for 3 rounds. ||
+|| 2 || Diminished damage and 1d4 Con bleed (DC 15 Fort negates, save each round). || Critical damage and 2 bleed. The Heal DC to stop this bleeding is increased by 5. || Critical damage and 3d6 Dex damage (Fort half). || Diminished damage and target is charmed (as the charm person spell) for 3 rounds (Will negates). ||
+|| 3 || Diminished damage and either 1d3 Dex damage and halved speed (leg) or 1d3 Str damage (arm), determined randomly. The damaged limp cannot be used until healed. || Critical damage and target begins to drown 3 rounds later. DC 20 Fort save each round to end effect. || Critical damage and 2d6 nonlethal damage. || Critical damage and you may give the target 1 suggestion as per the suggestion spell (Will negates). ||
+|| 4 || Diminished damage and target is staggered for 1d6 minutes. || Diminished damage and target is stunned for 1d6 rounds (Fort save each round to act). || Critical damage and 1 Con bleed. || Critical damage and you and target switch places. ||
+|| 5 || Diminished damage and 1d6 bleed. This bleed can only be cured with magical healing. || Diminished damage and 1d6 Dex and 1d6 Str damage. || Magnified damage, but you drop your weapon. || Critical damage and target spends 1 round laughing (as hideous laughter spell, Will negates). ||
+|| 6 || Critical damage and target is nauseated for 1 round (Fort negates).|| Critical damage and target is disarmed (1 item). || Critical damage and one free attack against the target with a -5 penalty. || Critical damage and 1d4 damage to a random ability score. ||
+|| 7 || Diminished damage and target is dazed for 1d4 rounds. || Diminished damage and 1d4 bleed. The target gains 50% spell failure chance for spells with verbal components until healed. || Diminished damage and target is permanently blinded (Ref negates). || Critical damage and target can take only one move or standard action next round. ||
+|| 8 || Critical damage and target cannot heal naturally for 1d4 days. || Diminished damage and -4 penalty on attack rolls, skill checks, and ability checks for 1d4 rounds. || Critical damage and target can take only one move or standard action next round. || Critical damage and 2d6 random energy damage (Ref half). ||
+|| 9 || Diminished damage and target is unconscious for 1d4 rounds (Fort negates). || Critical damage and target can take only one move or standard action next round. || Diminished damage and 2d6 bleed. || Critical damage or magnified damage to humanoids and monstrous humanoids. ||
+|| 10 || Critical damage and 2d6 nonlethal damage. || Critical damage and target is pushed 1d6x5 feet directly away. || Critical damage and diminished damage to target’s armor.|| Critical damage and target loses one random prepared spell, one random spell slot, 1d4 spell points, or one use of a random spell-like ability. || 
+|| 11 || Diminished damage and 1 Con damage. Target loses bite attack and gains 20% spell failure chance for verbal spells until healed. || Critical damage and 1d6 bleed. || Critical damage and 1 Cha drain. || Diminished damage and target is sickened for 1d6 rounds. || 
+|| 12 || Critical damage and target is pushed 1d6x5 feet directly away. || Critical damage and target is fatigued. || Critical damage and 1d4 bleed. Target cannot use swallow whole ability until healed. || Diminished damage and half diminished damage to all targets adjacent to target. || 
+|| 13 || Diminished damage and 1d2 Int and Wis damage. || Critical damage and target contracts filth fever (Fort negates). || Diminished damage plus 1d6 Str damage. || Critical damage. If dealing acid damage, target takes 2d6 acid damage for 1d4 rounds.|| 
+|| 14 || Critical damage and target is knocked prone. || Critical damage and target is dazed for 1 round. || Diminished damage and 2d6 bleed. Target cannot talk or breathe until healed. || Diminished damage and 1 negative level (Fort negates after 1 day). || 
+|| 15 || Diminished damage and target is knocked prone and stunned for 1 round (Fort negates stun). || Critical damage and 2d6 nonlethal damage. || Critical damage and target is pushed 1d6x5 feet directly away. || Critical damage. If dealing cold damage, target takes 1d4 Dex damage. || 
+|| 16 || Critical damage to target and diminished damage to targets adjacent to you. || Critical damage and one arm cannot move (DC 20 Str or Heal check as standard action to free). || Critical damage and double armor check penalty until fixed (DC 15 Craft). || Critical damage. If dealing electricity damage, target stunned for 1d4 rounds. || 
+|| 17 || Diminished damage and 1d4 Dex damage and target is disarmed (1 item, Ref save negates disarm). || Critical damage and target is exhausted (Fort negates). || Critical damage and 1d4 Int bleed. || Critical damage and target is pushed 1d6x5 feet directly away. || 
+|| 18 || Diminished damage and 1d4 Dex damage. Target’s land speed is halved until healed. ||  Diminished damage and target is sickened for 1d6 rounds. || Diminished damage and target loses 1d3 fingers and takes 1 Con and Str drain (Fort negates). || Diminished damage and target is entangled (DC 20 Str or Escape Artist to break free). || 
+|| 19 || Diminished damage and you may make trip attempts against the target and all enemies adjacent to you without provoking attacks of opportunity. || Diminished damage and target takes 1d4 ability damage of your choice. || Critical damage and diminished damage to target’s shield. || Diminished damage and critical damage of a random energy type. || 
+|| 20 || Diminished damage and 1 Cha damage and 1 bleed. || Critical damage to target and diminished damage to another target adjacent to them. || Critical damage and diminished damage to target’s weapon. || Diminished damage and target is slowed (as per the slow spell) for 1d6 rounds. || 
+|| 21 || Diminished damage and critical nonlethal damage. || Magnified damage and 1 Con bleed. || Critical damage and target is knocked prone. || Diminished damage and target is frightened for 1d4 rounds (Will negates). || 
+|| 22 || Critical damage and target is deafened for 1d4 rounds. || Critical damage and target cannot move (DC 20 Str check to negate or to break free as a standard action). || Critical damage and death by decapitation (Fort negates). || Critical damage and spell is not lost, nor does it cost spell points. || 
+|| 23 || Diminished damage and target is sickened for 1d6 rounds. || Diminished damage and 1d2 Dex damage. Target’s speeds are reduced by half until healed. || Critical damage and target is disarmed (1 item). || Diminished damage and target is sent to a random plane (Will negates). ||
+|| 24 || Critical damage and target’s shield is disarmed. || Critical damage and ignore DR. || Critical damage and 1d2 Str damage. || Critical damage and ignore energy resistance (but not immunity). || 
+|| 25 || Diminished damage and 1d4 Con and Dex damage. Target’s speeds are halved until healed. || Diminished damage and target is stunned for 1 round. || Critical damage and 1 free attack against a target adjacent to the target at the same bonus. || All spell variables are maximized as per the Maximize Spell metamagic feat. || 
+|| 26 || Critical damage and 2d6 damage to metal armor (ignores hardness). || Magnified damage and 1d2 Con drain, -4 penalty on Perception checks and ranged attacks until healed. || Magnified damage but all damage is nonlethal. || Critical damage and target glows as per faerie fire for 1d6 rounds. || 
+|| 27 || Diminished damage and target is exhausted for 1d4 rounds. || Diminished damage and target is flat-footed for 1 round. || Diminished damage and target loses a hand and takes 1d3 Con and Str drain (Fort negates). || Critical damage. If dealing fire damage, target catches fire, taking 2d6 fire damage per round until extinguished. || 
+|| 28 || Critical damage and 1d4 bleed. || Critical damage and target takes a -2 penalty to AC for 1d4 rounds. || Diminished damage and 1 Con damage. Target cannot speak or bite until healed. || Critical damage and +4 to your AC for 1 round. || 
+|| 29 || Diminished damage and target is blinded for 1d3 rounds. || Diminished damage and 1d4 Str damage. || Critical damage and target takes a -2 penalty to AC for 1d4 rounds. || Critical damage and target is deafened for 1d4 rounds. || 
+|| 30 || Diminished damage and target is confused for 1d3 rounds (Fort negates). || Critical damage and +4 to your AC for 1 round. || Diminished damage and 1d6 Dex damage. || Magnified damage. || 
+|| 31 || Diminished damage and a free attack against all foes adjacent to you at the same bonus. || Diminished damage and 1d8 bleed. || Diminished damage and target takes bleed damage equal to your diminished damage. || Critical damage and 1d4 bleed. || 
+|| 32 || Critical damage, 1 Dex damage, and target’s speed reduced by 5 until healed. || Magnified damage. || Critical damage and target is fatigued. || Critical damage and target is blinded for 1 round. || 
+|| 33 || Magnified damage. || Diminished damage and 1d2 Con damage. Target does not heal this damage naturally. || Critical damage and +4 to your AC for 1 round. || Critical damage and target is incorporeal for 1d3 rounds (Will negates). || 
+|| 34 || Critical damage and target is fatigued. || Critical damage and target’s land speed is halved for 1d4 rounds. || Diminished damage and target is flat-footed for 1 round. || Critical damage and target vanishes, reappearing in closest open square to where it disappeared in 1d4 rounds. || 
+|| 35 || Diminished damage and target is flat-footed for 1 round. || Critical damage and 1d6 Con damage. || Critical damage and target loses flight if it uses wings. || Diminished damage. If dealing elemental damage, medium elemental corresponding to the damage type dealt appears to serve you for 1d4 rounds. || 
+|| 36 || Critical damage and 1d6 Dex damage. || Critical damage and target is nauseated for 1 round. || Diminished damage and 1d4 bleed. Target blinded while bleeding. || Diminished damage and target is affected as per dispel magic with a caster level equal to your caster level or base attack bonus (whichever is higher). || 
+|| 37 || Diminished damage and target takes a 20% miss chance for 1d4 rounds. || Critical damage and 1 bleed. Target takes 1 additional bleed each round until healed. || Critical damage, 1d4 Con damage, and 1d6 bleed. || Critical damage and target takes a -4 penalty on saves versus your spells for 1d6 rounds. || 
+|| 38 || Diminished damage and 1d2 Con and Str damage. Hand useless until healed. || Diminished damage, 1 Int damage, and 1 bleed. || Critical damage and push target 5 feet in any direction. || Diminished damage. You are healed the same amount. || 
+|| 39 || Diminished damage, 1d2 Int damage, and sickened for 1d4 rounds. || Critical damage and target is poisoned with greenblood oil. || Critical damage and +2 on all your attack rolls for 1 round. || Diminished damage and target is petrified for 1d4 hours (Fort negates). || 
+|| 40 || Critical damage and +2 on all your attack rolls for 1 round. || Critical damage and target is knocked prone. || Critical damage and you may automatically grapple the target. || Critical damage and target is dazzled for 1d4 rounds. || 
+|| 41 || Critical damage, 1d3 Con damage, and target is fatigued. || Critical damage and +2 on all your attack rolls for 1 round. || Diminished damage and target is sickened for 1d6 rounds. || Diminished damage and target is stunned for 1 round. || 
+|| 42 || Critical damage and target is disarmed (1 item). || Critical damage and 1d2 Str and Dex damage. || Diminished damage, 1d2 Dex damage, and target is knocked prone. || Diminished damage and target cannot cast spells or use spell-like abilities for 1d4 rounds. || 
+|| 43 || Critical damage and one free attack against the target with a -5 penalty. || Diminished damage and 1 Con damage. Target gains 50% spell failure chance for verbal spells until healed. || Diminished damage and 1 Con and Cha damage, -2 penalty on Perception checks and ranged attacks until healed. || Diminished damage and target loses scent and blindsense for 1 day. || 
+|| 44 || Diminished damage and target is stunned for 1 round. || Critical damage and one free attack against the target with a -5 penalty. || Diminished damage and 1 Cha drain, -4 penalty on Perception checks until healed. || Critical damage and target is dazed for 1 round. || 
+|| 45 || Diminished damage and 1d2 Dex damage. Target’s base land speed reduced to 10 feet until healed. || Diminished damage and 1d4 Dex damage. || Diminished damage, 1d3 Cha damage, and 1 Cha drain (Fort negates drain) || Critical damage and you become invisible for 1d4 rounds. || 
+|| 46 || Critical damage and target can take only one move or standard action next round. || Critical damage and target sickened for 2d4 rounds (Fort negates). || Diminished damage and 1 Dex damage. Target cannot use one hand until healed. || Diminished damage and target blinded for 1d4 rounds (Fort negates). || 
+|| 47 || Diminished damage and target provokes attack of opportunity from all threatening creatures. || Critical damage and 1 Dex damage. || Critical damage and all critical threats against target automatically confirm for the next 3 rounds. || Diminished damage and target is reduced by one size category for 3 rounds (as reduce person, Will negates). || 
+|| 48 || Critical damage and 1d4 hours of target’s memory erased. || Diminished damage and 2d6 bleed. || Diminished damage and target may only attack you for the rest of the encounter (Will negates, target is allowed a new save each round). || Critical damage and an illusion appears to attack foe, flanking them for you for 1d6 rounds. || 
+|| 49 || Diminished damage and target deafened for 1d4 hours. || Critical damage and 1d6 bleed if from ranged attack. || Critical damage and 1 bleed. Target gains 20% spell failure chance for verbal spells until healed. || Critical damage or magnified damage to animals, fey, magical beasts, and vermin. || 
+|| 50 || Critical damage and 1 Int bleed (Fort negates, save each round). || Diminished damage, 1d6 bleed, and 1 Con drain. || Diminished damage and target provokes attack of opportunity from all threatening creatures. || Critical damage or magnified damage to dragons. || 
+|| 51 || Diminished damage and target dazed and blinded for 1 round. || Diminished damage and target provokes attack of opportunity from all threatening creatures. || Diminished damage and -4 penalty on attack rolls, skill checks, and ability checks for 1d4 rounds. || Critical damage or magnified damage to aberrations and outsiders. || 
+|| 52 || Critical damage and 2d6 Int drain (Fort half). || Diminished damage and 1d2 Dex damage, -4 penalty on all rolls using that hand until healed. || Diminished damage and 1d8 bleed. || Diminished damage this round and half damage each round for 1d4 rounds. ||

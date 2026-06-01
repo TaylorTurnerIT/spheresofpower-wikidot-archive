@@ -1,0 +1,652 @@
+title:Prodigy
+parent:start
+[[module CSS]]
+.colored-links span > a {
+  color: inherit;
+}
+[[/module]]
+
+[[module CSS]]
+.noselect {
+  -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome and Opera */
+}
+[[/module]]
+
+[[toc]]
+
+[[div class="colored-links"]]
+
+[[div class="noselect" style="float:right; width: 20%; padding: 0 2%"]]
+[[=]]
+[[image http://spheresofpower.wikidot.com/local--files/test-page/Champions_of_the_Spheres.jpg link="https://www.drivethrurpg.com/product/227710/Champions-of-the-Spheres?affiliate_id=549120"]]
+**Champions of the Spheres**
+$4.99
+
+----
+[[/=]]
+[[/div]]“I can do that.”
+
+Brilliant warriors capable of combining martial and magic techniques into a seamless flow, bewildering allies and confounding foes with their flashes of inspiration that grant them unforeseen capability.
+
+**Role:** Prodigies are a diverse group, capable of filling many roles.
+
+**Alignment:** Any.
+
+**Hit Die:** d8
+
+**Starting Wealth:** 3d6 x 10 gp (average 105 gp). In addition, each character begins play with an outfit worth 10 gp or less.
+
+**Starting Age:** Intuitive.
+
+**Class Skills:** The prodigy’s class skills are Acrobatics (Dex), Bluff (Cha), Climb (Str), Craft (Int), Diplomacy (Cha), Intimidate (Cha), Knowledge (all) (Int), Perception (Wis), Perform (Cha), Profession (Wis), Sense Motive (Wis), Spellcraft (Int), Use Magic Device (Cha), and three other class skills of the prodigy’s choice, chosen at character creation.
+
+**Skill Ranks Per Level:** 4 + Int modifier.
+
++ ##00c000|Class Abilities##
+
+**Table: Prodigy**
+||~ Level ||~ Base Attack Bonus ||~ Fort Save ||~ Reflex Save ||~ Will Save ||~ Special ||~ Blended Training Talents ||~ Caster Level || 
+|| 1st || +0 || +0 || +2 || +2 || Casting, blended training, sequence (4 links), inspired sequence || 1 (+2 magic) || 0 (1) || 
+|| 2nd || +1 || +0 || +3 || +3 || Adaptation, imbue sequence || 2 || 1 || 
+|| 3rd || +2 || +1 || +3 || +3 || Sequence (5 links), steady skill, skill attunement || 3 || 2 || 
+|| 4th || +3 || +1 || +4 || +4 || Unbroken Sequence || 4 || 3 || 
+|| 5th || +3 || +1 || +4 || +4 || Improved adaptation || 5 || 3 || 
+|| 6th || +4 || +2 || +5 || +5 || Sequence (6 links) || 6 || 4 || 
+|| 7th || +5 || +2 || +5 || +5 || Reflect spell || 7 || 5 || 
+|| 8th || +6/+1 || +2 || +6 || +6 || Greater adaptation || 8 || 6 || 
+|| 9th || +6/+1 || +3 || +6 || +6 || Sequence (7 links) || 9 || 6 || 
+|| 10th || +7/+2 || +3 || +7 || +7 || Share adaptation || 10 || 7 || 
+|| 11th || +8/+3 || +3 || +7 || +7 || Variable skill || 11 || 8 || 
+|| 12th || +9/+4 || +4 || +8 || +8 || Sequence (8 links) || 12 || 9 || 
+|| 13th || +9/+4 || +4 || +8 || +8 || Master adaptation || 13 || 9 || 
+|| 14th || +10/+5 || +4 || +9 || +9 || Flawless sequence || 14 || 10 || 
+|| 15th || +11/+6/+1 || +5 || +9 || +9 || Sequence (9 links) || 15 || 11 || 
+|| 16th || +12/+7/+2 || +5 || +10 || +10 || Greater reflect spell || 16 || 12 || 
+|| 17th || +12/+7/+2 || +5 || +10 || +10 || Grandmaster adaptation || 17 || 12 || 
+|| 18th || +13/+8/+3 || +6 || +11 || +11 || Sequence (10 links) || 18 || 13 || 
+|| 19th || +14/+9/+4 || +6 || +11 || +11 || Skill juggler || 19 || 14 || 
+|| 20th || +15/+10/+5 || +6 || +12 || +12 || Perfected prodigy || 20 || 15 || 
+
+++ ##00c000|Proficiencies##
+Prodigies are proficient with simple weapons, as well as light armor and bucklers. In addition, if this is this character’s first level in any class, they may select a ##993300|[[[martial-traditions | martial tradition]]]## of their choice.
+
+++ ##00c000|Casting##
+A prodigy may combine spheres and talents to create magical effects. A prodigy is considered a Mid-Caster. She may use either Intelligence, Wisdom, or Charisma as her casting ability modifier and must make this choice at 1st level. (Note: all casters gain 2 bonus talents and may select a casting tradition the first time they gain the casting class feature.)
+
+++ ##00c000|Spell Pool##
+A prodigy gains a small reservoir of energy she can call on to create truly wondrous effects, called a spell pool. This pool contains a number of spell points equal to her level + her casting ability modifier (minimum: 1). This pool replenishes once per day after roughly 8 hours of rest.
+
+++ ##00c000|Blended Training##
+A prodigy gains a combat or magic talent every time she gains a class level, according to Table: Prodigy. Prodigies use their casting ability modifier as their practitioner modifier.
+
+++ ##00c000|Sequence (Ex)##
+A prodigy may string together actions in combat, building momentum, setting her position, and unbalancing enemies to be able to execute powerful offensive and defensive techniques. Sequences have three parts: openers, link components, and finishers. The maximum length of a sequence is 4 links plus 1 link per 3 class levels. Attempts to add additional links have no effect and anything that would cause the sequence to lose a link acts normally. A prodigy may only have one sequence active at a time; any actions affect the currently active sequence. Any time a prodigy begins her turn without having added a link to her sequence since the beginning of her last turn, her active sequence loses one link. Should this reduce the sequence to 0 links, the sequence ends and must be started again. If the prodigy becomes dazed, dead, helpless, paralyzed, stunned, or unconscious, the sequence immediately ends.
+
+A sequence requires the rush induced by real danger. As such, a sequence cannot be started prior to rolling initiative and ends automatically 1 round after there is no longer any apparent immediate threat (such as a hostile creature capable of making an attack or casting a spell or sphere effect).
+
+++++ Openers
+An opener begins a new sequence. A newly started sequence is one link in length. The following are basic openers:
+* **Attack:** Dealing damage to one or more hostile creatures with an attack action, charge attack (performed as a standard or full-round action), with a sphere ability with a casting time of a standard action or greater, or with another ability with a standard action or greater activation time.
+* **Critical Hit:** Confirming a critical hit against a hostile creature.
+* **Defeat:** Reducing a hostile creature with a CR equal to or greater than half the prodigy’s character level to 0 or fewer hit points.
+* **Heal:** Restore hit points to an ally or remove ability drain, ability damage, or the blinded, dazed, frightened, nauseated, shaken, sickened, or stunned conditions with an ability that requires at least a standard action.
+* **Maneuver:** Succeeding on a combat maneuver check against a hostile creature.
+* **Magic Save:** A hostile creature failing a save against a magic sphere effect. This sphere effect must have a casting time of a standard action or greater. This opener may only be used the first time any hostile creature fails a save against that casting.
+* **Reflection:** Successfully use the reflect spell class feature.
+
+Some abilities, such as possessing certain spheres, may grant additional opener options. Such options have the (opener) tag.
+
+++++ Link Components
+Successfully performing a link component increases the length of the prodigy’s active sequence by 1 link. A given action may not add more than 1 link even if it fulfills the conditions of more than one link component, such as dealing damage to a hostile creature and that hostile creature failing a save granted by that same effect. Bonus attacks granted by or made as part of a given action (such as the Barrage or Dual Wielding spheres or the Armiger’s rapid assault ability) count as part of the original action for this purpose, though attacks of opportunity do not. All openers function as link components if performed after a sequence has been started. No link component may grant a link more than once per turn. The following are your basic link components:
+* **Abandon Focus:** As a free action, the prodigy may expend martial focus.
+* **Adopt Form: [Youxia HB]** Expend martial focus as part of activating a (stance) talent.
+* **Close the Gap:** As a move action, the prodigy may move up to her speed, ending the movement with a hostile creature within her threatened area. She may sheath one weapon and draw another as a free action as part of this movement.
+* **Counting Coup:** As a swift action, a prodigy may make a touch attack against a creature using a wielded weapon. If successful, this attack deals no damage but completes this (link). Weapons that require ammunition expend one attack’s worth of ammunition when used with this ability. Such an attack is too glancing to deliver a held touch spell, trigger ammunition properties that function on hit, utilize a thrown splash weapon, or similar effects.
+* **Disengage:** As a move action, the prodigy may move up to half her speed. She does not provoke attacks of opportunity for leaving her starting squares. She may sheath one weapon and draw another as a free action as part of this movement.
+* **Preparation:** Whenever the prodigy would be granted an attack of opportunity against a hostile creature, she may choose to expend an attack of opportunity without making an attack to complete this (link). She must be capable of making the attack to use this ability.
+* **Save:** Succeed on a save against a non-harmless effect originating from a hostile creature.
+* **Swift Heal:** Restore hit points to an ally or remove ability drain, ability damage, or the blinded, dazed, frightened, nauseated, shaken, sickened, or stunned conditions with an ability that requires at least an immediate action.
+* **Steel Mind:** Pass a concentration check to maintain concentration on a sphere effect when taking damage.
+
+Some abilities, such as possessing certain spheres, may grant additional link component options. Such options have the (link) tag.
+
+++++ Finishers
+A sequence may be ended to activate a finisher. Each finisher has a required activation action and some have a minimum sequence length. Once a finisher has been used, the prodigy’s sequence is ended. Actions taken as part of a finisher do not count toward the current sequence nor begin a new sequence.
+
+The following are your basic finishers:
+* **Adroit Momentum:** A prodigy may end her sequence as part of making a skill check to gain a competence bonus equal to the number of links in the sequence on that skill check.
+* **Arcane Apocalypse:** As a 5 link finisher, the prodigy may cast a sphere effect as a move action. As a 7 link finisher, the prodigy may cast a sphere effect as a swift action. As a 9 link finisher, the prodigy may cast up to three sphere effects, one as a standard, one as a move, and one as a swift action. Each sphere effect cast in this way must have a normal casting time of no more than 1 standard action.
+* **Certain Strike:** As a 3 link finisher, the prodigy may spend a swift action to resolve her next attack roll before the start of her next turn as a touch attack.
+* **Doombringer:** As a 3 link finisher, the prodigy may make a single attack as a swift action. If the sequence is at least 5 links, the prodigy may make an attack action in place of a move action. If the sequence is at least 7 links, this attack action may instead be done as a swift action. As a 9 link finisher, the prodigy may make up to three attack actions, one as a standard, one as a move, and one as a swift action. Each attack action must have an activation time of no more than a standard action.
+* **Executioner:** As a 5 link finisher, the prodigy may spend a move action to automatically threaten a critical on the next attack roll before the end of her turn. If this attack misses, the ability is wasted. If the sequence is at least 7 links, this may instead be done as a swift action. This effect may not be combined with any ability or effect that automatically confirms critical threats.
+* **Focus:** As a 3 link finisher, the prodigy may regain martial focus as a free action.
+* **Ironhide:** The prodigy may end her sequence as a immediate action to gain temporary hit points equal to her level that last for a number of rounds equal to the number of links in her sequence. This finisher may be used after the result of an attack is revealed and may keep the prodigy from dying.
+* **Penetrating Magic:** The prodigy may end her sequence as part of casting a sphere effect to gain a bonus equal to the length of her sequence on any MSB checks made to overcome spell resistance made as part of that effect.
+* **Prodigy’s Reflexes:** As a 3 link finisher, when targeted by an attack or forced to make a Reflex save, the prodigy may spend an immediate action to make an Acrobatics check and use the result in place of her AC or Reflex save. She must use the skill check result even if it is lower than her AC. If the sequence is at least 5 links, she may instead activate this ability as a free action usable even when it is not her turn.
+* **Resilience:** If the prodigy has a sequence of at least 5 links, when failing a saving throw, she may end the sequence as an immediate action to reroll the save. For every link beyond 5, you gain a +1 competence bonus on the reroll.
+
+Some abilities, such as possessing certain spheres, may grant additional finisher options. Such options have the (finish) tag.
+----
+++ ##00c000|Integrated Techniques##
+A prodigy gains additional sequence options if she possesses certain spheres:
+
++++ ##4B0092|Any Skill Sphere##
+**All Coming Together (opener):** Reveal a plan
+
+**Revised Strategy (opener):** Change your approach as at least a move action. You may increase the action needed to begin any approach from a swift action to a move action.
+
+**Upper Hand (opener):** Outwit a target as part of an action (maximum of once per round)
+
++++ ##993300|[[[Alchemy]]]##
+**Carpet Bombing (finish):** As a standard action the prodigy may throw one formulae or dose of poison per link in her sequence. A creature cannot be affected by more than one of the formulae or dose of poison per use of this ability.
+
+**Opening Toss (opener):** Deal damage to a creature or have a creature fail a save against or benefit from a formulae employed by the prodigy as a standard action or fail a save against a dose poison thrown by the prodigy as a standard action.
+
+**Poisoner (link):** The prodigy applies a dose of poison to a weapon.
+
++++ ##4B0092|[[[Artifice]]]##
+**Build it Up (opener):** Create a trinket using cobbled creation
+
++++ ##993300|[[[Athletics]]]##
+**Hard Target (link):** Once per movement, if the prodigy is attacked as part of an attack of opportunity provoked by her movement and the attack fails to hit her AC or if she succeeds on an Acrobatics check (or other associated skill if possessing the Mobility talent) to move through a threatened square without provoking, she adds a link to her sequence.
+
++++ ##993300|[[[Barrage]]]##
+**Flurry (finish):** As a standard action the prodigy may make one ranged attack per link in her sequence, but no one creature may be targeted by a number of attacks greater than half the length of the sequence. These attacks are made at the prodigy’s full base attack bonus.
+
++++ ##993300|[[[Barroom]]]##
+**Liquid Preparation (opener):** The prodigy may draw (if required) and imbibe an alcoholic drink, elixir, extract, formulae, or potion as at least a standard action.
+
+**Quaff (link):** The prodigy draws (if required) and imbibes an alcoholic drink, elixir, extract, formulae, or potion as at least a move action.
+
+**Stumbling Flow (link):** While (drunk) the prodigy may fall prone as a free action.
+
++++ ##993300|[[[Beastmastery]]]##
+**Defend Mount (link):** Negate an attack from a hostile creature using the defensive rider ability.
+
+**Leading the Pack (opener):** Handle or push an animal ally as a move or greater action.
+
+**Pack Attack (finish):** The prodigy may spend a standard action to grant an attack action to a number of animal allies within close range (25 ft. + 5 ft. per 2 ranks in Handle Animal or Ride, whichever is higher) equal to half the length of his sequence (minimum 0).
+
++++ ##993300|[[[Berserker]]]##
+**Whirlwind (finish):** As a standard action the prodigy may make one melee or thrown weapon attack per link in her sequence. No one creature may be targeted by a number of attacks greater than half the length of the sequence. These attacks are made at the prodigy’s full base attack bonus.
+
++++ ##4B0092|[[[Bluster]]]##
+**Fighting Words (opener):** Successfully affect a creature using a quip
+
++++ ##4B0092|[[[Body Control]]]##
+**Let It Loose (link):** Abandon a meditate approach that has lasted at least 1 round
+
++++ ##993300|[[[Boxing]]]##
+**Ready for Action (opener):** Ready a counter punch. Dealing damage with this readied attack action does not grant an additional link.
+
++++ ##993300|[[[Brute]]]##
+**Clear the Field (finish):** As a standard action, the prodigy may make a bullrush or reposition attempt against a number of creatures within reach equal to the length of her sequence. If she instead uses a full-round action, she may move up to half her speed as part of this ability, allowing additional creatures to be brought in range.
+
+**Shoving Combo (link):** The prodigy deals damage to a creature using the shove ability.
+
+**Shoving Open (opener):** The prodigy deals damage to a creature using the shove ability as a standard action.
+
++++ ##4B0092|[[[Communication]]]##
+**In This Together (opener):** Form a rapport with a creature
+
++++ ##993300|[[[Dual Wielding]]]##
+**Follow-through (link):** When the prodigy deals damage with an off-hand attack, she may make an additional off-hand attack against a different creature as a swift action at the same base attack bonus as the triggering attack. Dealing damage with this attack completes this (link).
+
++++ ##993300|[[[Duelist]]]##
+**Surface Cut (opener):** As a move action, the prodigy may make a touch attack with a wielded weapon. This attack does not deal any damage other than inflicting bleed damage per the Duelist sphere.
+
++++ ##993300|[[[Fencing]]]##
+**Feinting Set-up (link):** A successful feint as a move action or longer.
+
++++ ##993300|[[[Gladiator]]]##
+**Braggadocio (link):** Perform a boast.
+
+**Roar (opener):** Use strike fear with a standard action or longer activation time.
+
+**Scare (link):** Make a successful demoralization check.
+
+**Taunt (opener):** Perform a boast as a standard action. Performing a boast in this way does not require the usual triggering conditions and may be combined with similar abilities such as the Self Confidence talent.
+
++++ ##993300|[[[Guardian]]]##
+**Deliberate Challenge (opener):** Use challenge as a standard or move action.
+
+**Endurance (link):** The prodigy fills her delayed damage pool to its maximum capacity.
+
+**Lockdown (opener):** Use patrol.
+
++++ ##4B0092|[[[Herbalism]]]##
+**Bottoms Up (opener):** Consume an herb or concoction
+
++++ ##4B0092|[[[Infiltration]]]##
+**Gremlin (opener):** Successfully use fast sabotage
+
++++ ##4B0092|[[[Investigation]]]##
+**Appraise Threat (opener):** Use analyze as at least a standard action
+
++++ ##993300|[[[Lancer]]]##
+**Impale (link):** The prodigy successfully impales a creature.
+
++++ ##993300|[[[Leadership]]]##
+**Directing the Charge (opener):** The prodigy’s cohort deals damage to or succeeds on a combat maneuver against a hostile creature as part of a joint action.
+
+**Press the Attack (finish):** The prodigy may spend a move action to grant an attack action to a cohort within close range (25 feet + 5 feet per 2 ranks in Diplomacy). This attack receives a morale bonus to attack and damage equal to the length of the sequence.
+
++++ ##4B0092|[[[Navigation]]]##
+**Pathfinder (opener):** Use pathing as at least a standard action
+
++++ ##993300|[[[Open Hand]]]##
+**Focus (link):** As a move action, the prodigy pauses to focus himself. If she possesses the Focusing Breath talent, she completes this link by using that talent.
+
+**Hit the Floor (finish):** As a standard action the prodigy may make one trip combat maneuver per link in her sequence. No one creature may be targeted by a number of maneuvers greater than half the length of the sequence. If she instead uses a full-round action, she may move up to half her speed as part of this ability, allowing additional creatures to be brought in range.
+
++++ ##4B0092|[[[Performance]]]##
+**Overture (opener):** Start an act, dance, instrumental, or lyric as at least a move action
+
+**Payoff (link):** Expend a lyric affecting yourself, complete a scene, or complete a finale. You may not use this link when you expend or complete an effect that you began this turn.
+
+**Rising Excitement (link):** Maintain a dance, or instrumental as at least a move action
+
++++ ##993300|[[[Scoundrel]]]##
+**Mark (link):** The prodigy successfully uses marked target against a hostile creature.
+
+**Kleptomaniac (finish):** As a standard action the prodigy may make one steal combat maneuver per link in her sequence. No one creature may be targeted by a number of maneuvers greater than half the length of the sequence. If she instead uses a full-round action, she may move up to half her speed as part of this ability, allowing additional creatures to be brought in range.
+
++++ ##993300|[[[Scout]]]##
+**Battlefield Assessment (opener):** The prodigy may scout a number of creatures equal to her casting ability modifier as a standard action. If the prodigy scouts less creatures than her casting ability modifier, she gains an insight bonus on her check equal to the number of creatures she could have scouted but did not.
+
+**Perceptive (link):** The prodigy successfully uses scout on a hostile creature with a swift action or greater activation time.
+
+**Vanish (link):** The prodigy successfully attempts a Stealth check to hide during combat. If using the sniping function of the Stealth skill, the Stealth check to hide after attacking counts as a separate action from the attack itself for the purpose of adding links to an active sequence.
+
++++ ##993300|[[[Shield]]]##
+**Defender (link):** A creature misses an attack roll against a target benefiting from the prodigy’s active defense.
+
++++ ##993300|[[[Sniper]]]##
+**Deliberate Load (link):** The prodigy reloads a weapon with a swift or move action.
+
++++ ##4B0092|[[[Spellhacking]]]##
+**Intentional Mishap (opener):** Coax a mishap out of a magic item
+
+**Spell Tweaker (opener):** Successfully use hack magic
+
++++ ##4B0092|[[[Study]]]##
+**Pose Hypothesis (opener):** Begin a theory as a swift, move, or standard action
+
+**Supported Conclusion (link):** Spend at least 3 notions in a single round
+
++++ ##4B0092|[[[Subterfuge]]]##
+**Masked Tactics (opener):** Use fast disguise as a standard or full-round action
+
++++ ##4b0092|[[[Survivalism]]]##
+**Dig In (opener):** Use dredge as a standard or fullround action
+
++++ ##993300|[[[Tech]]]##
+**Gadget Activation (opener):** Activate a gadget with a standard action or longer activation time.
+
+**Mass Self-Destruct (finish):** As a standard action the prodigy may trigger one device she crafted per link in her sequence to self-destruct; all affected devices must be within medium range (100 ft. + 10 ft. per prodigy level) of the prodigy. Devices that self-destruct deal 1d10 bludgeoning/ piercing/slashing damage per prodigy level to all creatures within close range (25 ft. + 5 ft. per 2 prodigy levels) to a device. A creature cannot be affected by more than one of the self-destructed devices per use of this ability. The prodigy is not subject to the damage of the explosion.
+
+**Recharge Tech (link) (requires Battery):** Attach a battery gadget to one of your crafted devices as a swift action.
+
++++ ##993300|[[[Tinker]]] [SUE]##
+**Gizmo Activation (opener)**: Activate a gizmo as a standard action, or use a gizmo ability with an activation time of a standard action or longer. The prodigy may choose to activate a gizmo ability that has a faster activation time as a standard action to use this opener.
+
+**Recharge Gizmo (link)**: Attach a battery to one of the prodigy’s crafted gizmos as a standard, move, or swift action.
+
+**Turbocharge (finish)**: As part of using the gizmo ability of any non-project gizmo the prodigy crafted, the prodigy may increase that gizmo’s effective gizmo level by an amount equal to 1 + 1/2 the length of the prodigy’s sequence (minimum 1). This effective gizmo level lasts until the gizmo ability ends, or 1 minute, whichever comes first.
+
+**Unlimited Power (finish)**: The prodigy may spontaneously create a battery and immediately attach it to a gizmo in their possession. This battery does not count against the prodigy’s gizmo limit, but only lasts for a number of rounds up to the length of the prodigy’s sequence + the prodigy’s casting ability modifier before becoming depleted and destroyed (even if the gizmo it is attached to would have a longer gizmo ability duration using the battery; this may end a battery use ability early). This finisher requires a full-round action to use, and may be used 1 step faster for every 2 additional links in the prodigy’s sequence past 1 (down to a standard action with 3 links, move action with 5 links, swift action with 7 links, or a free action with 9 links).
+
++++ ##993300|[[[Trap]]]##
+**Trapped (opener):** A hostile creature fails a save against or takes damage from a trap the prodigy set (or used with the Trap Wielder talent).
+
++++ ##993300|[[[Warleader-sphere | Warleader]]]##
+**Battlefield Coordination (opener):** Use a shout or activate a tactic with a standard action or longer activation time.
+
+**Continue Guidance (link):** Maintain a tactic with a move or swift action.
+
++++ ##993300|[[[Wrestling]]]##
+**Big Move (link):** Succeed on a combat maneuver or deal damage as part of a slam.
+
+**Parting Shove (link):** When the prodigy fails to maintain or initiate a grapple, as a swift action she may make an unarmed strike against the target that deals no damage and does not provoke attacks of opportunity. If successful, the target creature is battered until the end of the prodigy’s next turn.
+----
+++ ##00c000|Inspired Sequence (Ex)##
+While the prodigy has an active sequence, she gains an insight bonus on attack and damage rolls and caster level equal to half the length of her sequence (minimum 1).
+
+++ ##00c000|Adaptation (Ex)##
+The prodigy may open her mind to a flash of insight, temporarily discovering skills she didn’t know she had. At 2nd level, as a standard action, the prodigy may grant himself the benefit of any one magic talent or combat talent she doesn’t possess. This effect lasts for 1 minute. The prodigy must possess that talent’s base sphere and meet any prerequisites (if an advanced talent). The prodigy may use this ability a number of times per day equal to 3 + 1/2 her class level. Multiple uses of this ability do not stack. If the prodigy uses this ability again before the previous duration has expired, it replaces the previous use.
+----
+++ ##00c000|Imbue Sequence (Su)##
+At 2nd level, as part of starting a sequence, the prodigy may infuse himself with mystic energy tied to one magic sphere she possesses. Only a single imbue ability may be applied at a time, though the imbuement may be changed as a swift action. If the sequence ends or the prodigy changes the imbuement, any benefits of the imbuement are lost immediately. Each imbuement also unlocks the (finish) ability or abilities tied to the same sphere. If an ability has a range or save DC, it is defined based on the prodigy’s caster level with that sphere. Imbuement effects do not cost spell points or require concentration unless noted. Beginning an imbuement or activating a finisher are sphere effects, though neither provokes attacks of opportunity.
+
++++ [[[Alteration]]]
+**Minor Shapeshift (imbue):** The prodigy gains one trait that she may apply to the blank form option of shapeshift. This is in addition to any traits otherwise granted by shapeshift. This is a polymorph effect.
+
+**Tentacle Swarm (finish):** As a standard action, the prodigy sprouts tentacles, allowing her to make one trip combat maneuver per link in her sequence against creatures within close range. No one creature may be targeted by more than one trip attempt.
+
++++ [[[Bear]]]
+**Bearing (imbue):** The prodigy gains one bearacteristic. Bearacteristics that require additional spell point costs must have the additional cost paid.
+
+**Bear Rush (finish):** As a standard action,the prodigy may summon a mass of bears, trampling and mauling all creatures in a line 10-ft. wide by 10-ft. long per link in her sequence. Creatures in this area must succeed on a Reflex save or be knocked prone and take 1d6 bludgeoning and slashing damage per character level.
+
++++ [[[Blood]]]
+**Bleeding Cuts (imbue):** The prodigy’s attack actions deal additional bleed damage equal to half her class level. This bleed damage does not stack with itself or other sources of bleed damage unless noted.
+
+**Extract Minions (finish):** As a standard action, the prodigy may extract blood constructs (as the Extract Blood Construct talent) from a number of creatures equal to the length of her sequence. Multiple small constructs may be combined to form a larger one. These constructs disappear after a number of rounds equal to the length of her sequence.
+
++++ [[[Conjuration]]]
+**Double Team (imbue):** The prodigy adds half the length of her sequence (minimum 1) to any aid another or flanking bonuses granted by her Conjuration companion.
+
+**Conjure Army (finish):** As a standard action, the prodigy may summon a number of copies of a Conjuration companion equal to the number of links in her sequence. Each copy appears within close range and makes a single attack. A single creature cannot be targeted by more than half the duplicates. After resolving the attack, the duplicates disappear. Damage dealt to and effects imposed on the duplicates have no effect on the base companion. These temporary copies do not grant flanking bonuses to other creatures, though may benefit from them.
+
++++ [[[Creation]]]
+**Breaker (imbue) (requires alter):** When dealing damage to an object, the prodigy may ignore a number of points of hardness equal to her class level. If you possess the ability that allows you to ignore hardness equal to levels in another class, the bonus from this imbue stacks.
+
+**Debris Field (imbue) (requires create):** As a swift action, the prodigy may litter the ground with created objects, creating difficult terrain in a radius equal to 5 ft. per link in her active sequence within close range. These objects disappear when this (imbue) ends or when it is used again.
+
+**Sudden Arsenal (imbue) (requires create):** The prodigy may create a weapon, armor, or shield, and up to 50 pieces of ammunition. These items follow the normal rules for the create ability. These items disappear when the imbuement ends.
+
+**Anvil Drop (finish) (requires create):** As a standard action, the prodigy may create a number of objects equal to the length of her sequence within her create range. Each object is of the largest size she can create. If the prodigy possesses the Larger Creation talent, she may spend a spell point to be able to create larger objects per that talent. These objects disappear at the beginning of her next turn. No one creature may be targeted by a number of objects greater than half the length of the sequence.
+
+**Petrify (finish) (requires alter):** As a full-round action, the prodigy may make an attack action. If this attack action deals damage to a creature or object, the prodigy may spend a spell point to force the target to succeed on a Fortitude save or be turned to stone for a number of rounds equal to half the length of the sequence. Creatures turned to stone by this ability may make a new save each round to end the effect early, but are staggered for the remainder of the effect.
+
++++ [[[Dark]]]
+**Shadow (imbue):** The prodigy becomes the center of a darkness and is unaffected by that darkness. She may spend a move action and any necessary spell points to add a single (darkness) talent to this darkness. This darkness may only benefit from a single (dark) talent at a time; adding one ends the previous talent.
+
+**Sunset (finish):** As a standard action, the prodigy may create a darkness centered on himself that extends out to long range, applying (dark) talents as normal. This effect moves with her and lasts for a number of rounds equal to the length of her sequence. The prodigy is unaffected by this darkness.
+
++++ [[[Death]]]
+**Vampiric Blade (imbue):** The prodigy adds half her class level to damage rolls as negative energy damage when making an attack action. When this damage is dealt, the prodigy gains a number of temporary hit points equal to the negative energy damage inflicted. These temporary hit points stack with themselves up to twice the prodigy’s class level.
+
+**Walking Dead (finish):** As a move action, the prodigy may reanimate 1 valid target within close range for a number of rounds equal to the length of her sequence. She may instead reanimate a number of targets equal to the length of her sequence for a number of rounds equal to her casting ability modifier as a full-round action.
+
++++ [[[Destruction]]]
+**Destructive Edge (imbue):** The prodigy adds her class level in damage when making an attack action. The type of this damage matches a blast type she possesses (or bludgeoning if she only possesses the base sphere) and does not stack with the corrosive, flaming, frost, or shock special abilities or similar abilities that add damage of the same type.
+
+**Explosive Finish (finish):** As a standard action, the prodigy may create a burst centered on himself with a radius of up to 5 ft. per link in the sequence. This burst matches one (blast type) talent available to the prodigy, dealing one die of damage per class level as well as any additional effects of the (blast type) talent. If the selected (blast type) carries a spell point cost, the prodigy must pay this cost. The prodigy may exclude himself from this burst.
+^^**Errata:** A Reflex save negates the effect of an Explosive Finish. (Per conversation with Author)^^
+
++++ [[[Divination]]]
+**Clear Sighted (imbue):** The prodigy gains a +1 insight bonus on Reflex saves and AC, +1 per 6 class levels.
+
+**Precognizant Save (finish):** As an immediate action when making a saving throw, the prodigy may gain an insight bonus on the save equal to her sequence length. (Reminder: insight bonuses do not stack, such as this and the imbue ability above.)
+
++++ [[[Enhancement]]]
+**Enhanced Combatant (imbue):** The prodigy, a weapon she wields, or a piece of armor or shield that she has equipped gains the benefit of one (enhance) talent that she possesses.
+
+**Animate Ally (finish):** As a move action, the prodigy can animate one object per the Animate Object talent for a number of rounds equal to the length of her sequence.
+
++++ [[[Fallen Fey]]]
+**Fey Manner (imbue):** The prodigy gains the benefit of one (fey blessing) talent she possesses.
+
+**Seelie Beauty (finish):** As a standard action, the prodigy may force a number of creatures equal to her sequence length within close range to make Reflex saves or be blinded for a number of rounds equal to the half the length of the sequence (minimum 0).
+
+**Unseelie Terror (finish):** As a standard action, the prodigy may force a number of creatures equal to her sequence length within close range to make Will saves or be frightened for a number of rounds equal to the length of the sequence.
+
+(This sphere is found in the Player's Guide to Skybourne, and is available on this site.)
+
++++ [[[Fate]]]
+**Lucky (imbue):** The prodigy gains the benefits of a consecration. She may spend a move action and any necessary spell points to center a non-instantaneous consecration on herself. She may only have a single consecration active with this ability at a time; beginning one ends the previous talent.
+
+**Curse (finish):** As a swift action, the prodigy may force a creature within close range to suffer a penalty on all d20 rolls equal to the length of her sequence until the start of the prodigy’s next turn.
+
++++ [[[Illusion]]]
+**Blurred (imbue):** The prodigy gains a 20% miss chance against all attacks.
+
+**Vanish (finish):** As a swift action, the prodigy may become difficult to spot, as the invisibility effect of the Suppression (glamer) talent, for a number of rounds equal to the length of her sequence.
+
++++ [[[Life]]]
+**Regenerate (imbue):** The prodigy gains fast healing equal to the length of her sequence.
+
+**Healing Burst (finish):** As a move action, all allied creatures within close range heal a number of hit points equal to the prodigy’s casting ability modifier multiplied by the number of links in her sequence.
+
++++ [[[Light]]]
+**Sunrise (imbue):** The prodigy sheds bright light per glow. She may spend a move action and any necessary spell points to add a single (light) talent to this glow. This glow may only benefit from a single (light) talent at a time; adding one ends the previous talent.
+
+**Nova (finish):** As a move action, the prodigy can emit a blinding flash. All creatures within up to a 5 ft. plus 5 ft. per link in the prodigy’s active sequence radius must make a Reflex save or be blinded for a number of rounds equal to half the length of the sequence (minimum 0). The prodigy may exclude herself from this effect.
+
++++ [[[Mana]]]
+**Amped Up (imbue):** The prodigy selects a single (amp) she possesses that does not require spell points. All magic sphere effects she creates count as if they were amplified by that (amp). The sphere effect must still otherwise be eligible to be affected by the (amp), otherwise it is not affected. [Archmagi HB]
+
+**Inject Dissonance (imbue):** When the prodigy strikes a creature with an attack action, the creature gains a dissonance point, which bestows a cumulative -1 penalty to the creature’s caster level, magic skill bonus and magic skill defense. Creatures whose caster level would be reduced to or below 0 are unable to cast spells, spell-like abilities, and sphere effects as if they were inside an antimagic zone. A creature can rid themselves of dissonance points with the use of the restore soul option of the restore ability from Life sphere (treating it as if it was ability damage), or by spending a spell point as a move action to remove 1 point. Dissonance points expire after 1 minute after the last dissonance point is applied on a creature. A creature cannot have more dissonance points than their highest caster level with any sphere.
+
+**Whence They Came (finish):** As a 3 link finisher, the prodigy may make a special attack action to implode a creature’s dissonance points. Doing so deals damage as normal, and forces the creature to attempt a Fortitude save. On failure, the creature suffers 1d8 untyped damage for each dissonance point they have, and all dissonance points are removed. If the sequence has at least 7 links, the creature additionally suffers 1 spell point damage (if they have any) for each dissonance point they had.
+
++++ [[[Mind]]]
+**Mind Breaker (imbue):** When the prodigy succeeds on a combat maneuver or deals damage with an attack action, the target takes a -1 penalty to saves against charm and compulsion effects until the end of the prodigy’s next turn. This penalty increases by 1 every 7 character levels.
+
+**Enslave (finish):** As a standard action, the prodigy may attempt to dominate the mind of a creature within close range. This functions as the powerful charm ability of the Command talent. The prodigy need not concentrate on this effect and the duration is a number of rounds equal to half the length of the prodigy’s sequence (minimum 0 rounds).
+
++++ [[[Nature]]]
+**Aura of Flame (imbue) (requires Fire Geomancing):** All hostile creatures within a 5-ft. radius of the prodigy at the end of their turn takes fire damage equal to the number of links in the sequence and must make a Reflex save or catch on fire, taking 1d6 fire damage per round. This area increases by 5 ft. for every 2 additional links in the prodigy’s current sequence. If a creature is already on fire, each round it remains within this aura, the damage from being on fire increases by 1d6. Affected targets can use a full-round action to attempt to extinguish the flames before taking this additional damage with a successful Reflex save; rolling on the ground provides the target a +2 bonus on the save. Leaping into a large body of water or magically extinguishing the flames automatically smothers the fire.
+
+**Fog of War (imbue) (requires Water Geomancing):** The prodigy is shrouded in heavy mist to a 5-ft. radius per link. This mist grants concealment (20% miss chance) from any creature further than 5 ft. away to any creature inside of it. The prodigy is not hindered by the mist.
+
+**Greenstep (imbue) (requires Plant Geomancing):** The prodigy may ignore difficult terrain caused by plantlife (including magical plantlife) and may see unhindered through plantlife up to 30 feet.
+
+**Steel Skin (imbue) (requires Metal Geomancing):** The prodigy reduces the ACP of any metal armor she is wearing and of metal shields she has equipped by a number equal to half her level. She also gains an insight bonus to CMD against sunder attempts and saves against effects that target such equipment equal to the length of her sequence.
+
+**Tunnel (imbue) (requires Earth Geomancing):** The prodigy gains a burrow speed of 20 ft. + 5 ft. per 5 class levels.
+
+**Wind Barrier (imbue) (requires Air Geomancing) [Apoc]:** The prodigy gains a bonus to armor class vs. ranged attacks equal to the length of her sequence.
+
+**Nature Surge (finish):** The prodigy may cast a single geomancing effect with its normal action, gaining an insight bonus on the caster level equal to the length of her sequence. (Note: As an insight bonus, this does not stack with the bonus from inspired sequence.) Additionally, the spell point cost is reduced by 1 (minimum 0).
+
++++ [[[Protection]]]
+**Defended (imbue):** The prodigy gains the benefit of one (aegis) talent she possesses and may use her class level in place of her caster level to determine its effects.
+
+**Adamantine Skin (finish):** When taking damage, the prodigy may spend an immediate action to reduce the damage taken by her casting ability modifier times the length of her sequence.
+
++++ [[[Technomancy]]] [LG]
+^^**Source:** Arcforge Players Compendium^^
+
+**Program Slice (imbue):** Every time the prodigy hits with an attack, she may generate a single sprite which enters the target or one of the target’s pieces of equipment. This sprite lasts until the combo is finished and cannot transfer to another host.
+
+**System Overload (finish):** As a standard action, the prodigy may generate a number of sprites equal to the number of links in her sequence. These sprites may appear in any host within long range, last for one round, and cannot be concentrated on. More than one of these sprites may occupy the same host and execute the same programs on that host.
+
++++ [[[Telekinesis]]]
+**Air Step (imbue):** The prodigy becomes immune to falling damage. If the prodigy is capable of using telekinesis on himself, whenever the prodigy adds a link to her sequence, she gains a fly speed as the Flight talent until the end of her next turn. Losing a link for any reason removes this fly speed.
+
+**Fling (finish):** After dealing damage to or succeeding on a combat maneuver against a creature with an attack action, the prodigy may use the hostile lift function of the telekinesis ability on that creature as an immediate action. If successful, the prodigy may attempt to make a single attack using that creature as a bludgeon, moving it up to her telekinesis speed. The telekinesis ends after a number of rounds equal to half the length of the sequence (minimum 1 round). A creature is allowed to make Will saves to end the effect early as normal. The sequence must be at least one link long per size category of the target above Diminutive (1 link = Tiny, 2 links = Small, 3 links = Medium, etc.).
+
++++ [[[Time]]]
+**Time Slip (imbue):** The prodigy’s personal time speeds up, allowing her to easily sidestep attacks. The prodigy gains a +1 dodge bonus to AC and a +1 competence bonus to Reflex saves. This bonus increases by +1 per 6 class levels.
+
+**Timeless Duel (finish):** If the prodigy has a sequence of at least three links, she may target a hostile creature within close range that she has dealt damage to or that has failed a save against a sphere effect cast as part of her active sequence as a swift action. All other creatures and objects are momentarily frozen in time. The prodigy and the targeted creature gain a number of rounds equal to the length of the sequence divided by 3. A successful Will save negates this effect, preventing either creature from gaining any rounds. During this time, they cannot affect any creature or object not subject to this effect, but may affect themselves and each other. Non-instantaneous effects cast during this time end when this effect ends. Creatures and attended objects other than the prodigy and the targeted creature may not in any way be affected by any actions taken during this apparent time. The prodigy cannot activate this finish while affected by another instance of it.
+
++++ [[[War]]]
+**Inspiring (imbue):** All allies within close range gain the benefits of the prodigy’s inspired sequence ability.
+
+**Motivate Cohort (finish):** As a move action, the prodigy may grant a number of allies within close range equal to half the length of her sequence the ability to immediately make a bonus attack at their highest base attack bonus. If not used immediately, this bonus attack is lost.
+
++++ [[[Warp]]]
+**Step Between (imbue) (requires teleport):** Once per turn, as a move action the prodigy can choose to teleport up to 5ft. + 5 ft. per link in her current sequence.
+
+**Warping Presence (imbue) (requires bend space):** The prodigy warps space around himself in a radius equal to 5 ft. per link in her active sequence. The first time each turn a hostile creature attempts to move into a square inside this radius, the creature must make a Will save or treat all squares within the effect as difficult terrain until the start of their next turn.
+
+**Private Battlefield (finish) (requires bend space):** If the prodigy has a sequence of at least three links, she may target a hostile creature within close range that she has dealt damage to or that has failed a save against a sphere effect cast as part of her active sequence as a swift action. The prodigy and the targeted creature are shunted to a private, empty demiplane of normal characteristics (air, normal gravity, normal magic, normal time, and no alignment or magic traits) for a number of rounds equal to the length of the sequence divided by 3. This plane is featureless and loops in on itself, having a radius equal to the prodigy’s close range and cosmetic features of the prodigy’s choosing. The prodigy and the target appear a distance apart equal to their distance when this ability is activated. A successful Will save negates this effect. The prodigy cannot activate this finish while affected by another instance of it.
+
+**Sudden Shuffle (finish) (requires teleport):** As a move action, the prodigy may target a number of willing creatures equal to the length of her sequence, freely swapping their places. Each target must end in a square that was previously occupied by one other target. All creatures must be within the prodigy’s teleport range.
+
++++ [[[Weather]]]
+**Ignore Tempest (imbue):** The prodigy may treat each weather category as 1 step lower, plus an additional step per 7 class levels, to a minimum category of 1.
+
+**Call Bolts (finish):** As a standard action, the prodigy may call down one bolt of lightning per link, each targeting a creature or square within control weather range. No creature or square may be targeted by more than one bolt. Each bolt does 1d6 electricity damage per class level. A successful Reflex save negates this damage.
+
+**Pressure Front (finish):** As a standard action, the prodigy may make a bullrush attempt against all creatures in a line 10 ft. per link long and 5 ft. per link wide. The prodigy uses her caster level plus her casting ability modifier in place of her base attack bonus plus her Strength modifier for making this check.
+
++++ [[[Wild Magic]]]
+A prodigy that possesses the [[[casting-traditions | wild magic drawback]]], any [[[wild-magic-feats | wild magic feat]]], or another ability that imposes a wild magic chance on her casting abilities may select wild magic instead of a magic sphere when activating her imbue sequence ability. Doing so grants the following abilities:
+
+**Chaos Aura (imbue):** Hostile creatures within 20 ft. of the prodigy increase their wild magic chance by 10% per link in her active sequence.
+
+**Swallow Surge (finish):** As part of casting a sphere ability, the prodigy may end her current sequence to reduce her wild magic chance by 20% per link.
+
++++ Special: Card Casting [CC2]
+A prodigy that possesses the card casting drawback may select card casting instead of a magic sphere when activating her imbue sequence ability. Doing so grants the following abilities:
+
+**Tempo Draw (imbue):** Whenever the prodigy adds a link to her sequence, she may draw a card
+
+**Payoff Play (finish):** As a 6-link finisher, the prodigy may play a magic effect card from their hand that takes no longer than a full-round action to cast normally as an immediate action, creating the effect and spending spell points as normal. The spell point cost of the card cannot exceed the length of the prodigy’s sequence 
+
+----
+++ ##00c000|Steady Skill (Ex)##
+At 3rd level, once per day after the prodigy rests to regain spell points, she may spend 10 minutes practicing to focus her mind on a particular skill. She selects one skill from the prodigy class skill list; the prodigy may take ten on that skill even when rushed or threatened. Additionally, a number of times per day equal to her casting ability modifier, she may expend martial focus as part of making a skill check with the chosen skill to take 15 instead of 10. This otherwise is treated as taking 10, though can be used even when rushed or threatened. This effect lasts until she chooses a new skill after resting to regain spell points.
+
+++ ##00c000|Skill Attunement## [LotS]
+Starting at 3rd level, when the prodigy would select a steady skill, she may instead select a skill attunement associated with a skill sphere that she possesses. The prodigy may use the variable skill and skill juggler class features to change what skill attunement she is using in the same manner that she may alter her steady skill.
+
+++++ Artifice
+Once per day, the prodigy can make 8 hours of progress on an item she is crafting over the course of 4 hours. At 19th level, this improves to 8 hours of progress over the course of 1 hour.
+
+++++ Bluster
+The effects of any of the prodigy’s Bluff or Intimidate checks whose duration is normally measured in hours or days lasts an additional number of hours equal to half the prodigy’s level. At 19th level, this improves to a number of hours equal to the prodigy’s level.
+
+++++ Body Control
+When making an Escape Artist check to squeeze through a confined space, the prodigy increases their speed by 1/4 of her base speed (allowing her to squeeze at half speed with a DC 15 Escape Artist check or at full speed with a DC 35 Escape Artist check). At 19th level, the prodigy can squeeze through a tight space as a move action with a DC 40 Escape Artist check (as opposed to a full-round action).
+
+++++ Communication
+When attempting Diplomacy checks to gather information or a Linguistics check to create a forgery, the prodigy only takes the minimum amount of time. At 19th level, these times are reduced by 90% (to 6 minutes and 1 round per page, respectively).
+
+++++ Faction
+The prodigy may attempt an Appraise check to appraise the value of an item as a free action rather than a standard action without a penalty. At 19th level, the prodigy may attempt an Appraise check to determine the most valuable object in a treasure hoard as a free action.
+
+++++ Herbalism
+The prodigy may gather a batch of herbs in 30 minutes rather than an hour. At 19th level, the prodigy may gather a batch of herbs in 10 minutes.
+
+++++ Infiltration
+Whenever the prodigy would attempt a Disable Device check that normally takes 2d4 rounds, this time is reduced to 2 rounds. At 19th level, this is reduced to a full-round action.
+
+++++ Investigation
+The prodigy may gain information with Sense Motive over the course of 1 round rather than 1 minute. At 19th level, the prodigy may gain information from a Sense Motive check or attempt an active Perception check as a swift action.
+
+++++ Navigation
+The prodigy does not take nonlethal damage from hustling during overland travel, although they still become fatigued after 1 hour of hustling. At 19th level, the prodigy is no longer fatigued as a result of hustling during overland travel.
+
+++++ Performance
+When the prodigy makes a Perform check to earn money, she may choose to earn the average amount of money, rounded up, rather than rolling to determine the amount (for example, the prodigy could choose to earn 4 gp for a memorable performance rather than 1d6 gp). At 19th level, the prodigy always earns the maximum possible amount of money she could have rolled while attempting a Perform check to earn money.
+
+++++ Spellhacking
+The prodigy automatically succeeds at Use Magic Device checks to emulate class features and ability scores. At 19th level, the prodigy also automatically succeeds at checks to emulate race or alignment.
+
+++++ Study
+Once per day, the prodigy can make 8 hours of progress on researching in a library over the course of 4 hours. At 19th level, this improves to 8 hours of progress over the course of 1 hour.
+
+++++ Subterfuge
+The prodigy reduces any Perception bonuses from familiarity to see through her disguises by half.
+
+++++ Survivalism
+The prodigy may refine or dredge over the course of 5 minutes rather than the normal amount of time. This is reduced to 1 minute at 19th level.
+
+++++ Vocation
+The prodigy chooses one background skill. She is considered to have ranks in that skill equal to half her prodigy level for the duration of this skill attunement. At 19th level, the prodigy is considered to have ranks in that skill equal to her prodigy level.
+
+++ ##00c000|Unbroken Sequence (Ex)##
+At 4th level, when the prodigy’s sequence would be ended by the dazed, helpless, paralyzed, stunned, or unconscious conditions, she may expend martial focus to prevent the sequence from ending due to that condition for a number of rounds equal to her practitioner modifier.
+
+++ ##00c000|Improved Adaptation##
+At 5th level, the prodigy may use her adaptation ability to gain the benefits of two talents at the same time. She may select one combat or magic talent as a move action or two combat or magic talents as a standard action. She may use one of these talents to meet a prerequisite of the second talent; doing so means that she cannot replace a talent currently fulfilling another’s prerequisite without also replacing those talents that require it. Each individual talent selected counts toward the prodigy’s daily uses of adaptation.
+
+++ ##00c000|Reflect Spell (Su)##
+At 7th level, when targeted by a sphere effect, spell, or spell-like ability, as an immediate action the prodigy may expend martial focus to make a magic skill check against the caster’s MSD. If successful, the spell is reflected back on the caster. The prodigy is unaffected and the caster is treated as if it was the original target. Regardless of success, the prodigy is staggered on her next turn.
+
+++ ##00c000|Greater Adaptation##
+At 8th level, the prodigy may use her adaptation ability to gain the benefits of two talents as a move action or one talent as a swift action. Each individual talent selected counts toward the prodigy’s daily uses of adaptation.
+
+++ ##00c000|Share Adaptation##
+At 10th level, as a standard action the prodigy may spend two uses of her adaptation ability to grant a single combat or magic talent to an ally within close range (25 ft. + 5 ft. per 2 class levels) for 1 minute. The ally must meet the prerequisites for the granted talent, though the prodigy is not required to do so. Any additional uses of this ability on a single ally ends the previous use.
+
+++ ##00c000|Variable Skill##
+At 11th level, the prodigy may spend a spell point as a full-round action to change the skill selected for steady skill. The prodigy does not gain additional uses of her ability to take 15 when switching skills.
+
+++ ##00c000|Master Adaptation##
+At 13th level, the prodigy may use her adaptation ability to gain the benefits of three talents at the same time. She may select one talent as a free action, two talents as a swift action, or three talents as a move action. The prodigy may use one of the talents to meet a prerequisite of the second and third talents and use the second talent to meet a prerequisite of the third talent. Each individual talent selected counts toward the prodigy’s daily uses of adaptation.
+
+++ ##00c000|Flawless Sequence (Ex)##
+At 14th level, the prodigy does not lose a link in her sequence if she fails to add a link since the beginning of her previous turn and no longer needs to expend martial focus to prevent her sequence ending from the dazed, helpless, paralyzed, stunned, or unconscious conditions. Using a (finish) still ends the sequence as normal.
+
+++ ##00c000|Greater Reflect Spell##
+At 16th level, the prodigy is no longer staggered after using her reflect spell ability and automatically regains her martial focus if her MSB check succeeds.
+
+++ ##00c000|Grandmaster Adaptation##
+At 17th level, the prodigy may use her adaptation ability to gain the benefit of one talent as an immediate action or three talents as a swift action. Each individual talent selected counts toward her daily uses of adaptation.
+
+++ ##00c000|Skill Juggler##
+At 19th level, the prodigy may spend 1 minute to change the skill selected for steady skill any number of times per day. When expending focus to take 15 on a skill check, the prodigy may instead take 20. This still otherwise functions as taking 10.
+
+++ ##00c000|Perfected Prodigy (Ex)##
+At 20th level, when the prodigy starts a sequence, it automatically begins with a number of links equal to half her casting ability modifier. The prodigy may gain the benefit of any number of talents with her adaptation ability as a swift action. Each individual talent selected counts toward the prodigy’s daily uses of adaptation.
+----
+
++ ##00c000|Archetypes##
+
+++ ##993300|[[[Battle-Born]]]##
+Battle-born are prodigies who focus on martial prowess instead of blending martial and magical skill.
+
+++ [[[Chromamancer]]]
+Chromamancers are capable of channeling the power of colors in various forms.
+
+++ ##00c000|[[[Exploitant]]]##
+Exploitants are exceptionally flexible, able to learn almost any sort of talent.
+
+++ ##00c000|[[[Extemporizer]]]##
+Extemporizers specialize in developing new ##00c000|[[[techniques]]]## to use in battle.
+
+++ ##00c000|[[[Gutter Rat]]]##
+Gutter rats excel at using rogue-ish skills to adapt to varying situations.
+
+++ ##00c000|[[[Mimic]]]##
+Mimics specialize in copying the abilities of those around them.
+
+++ ##4B0092|[[[Sync]]]## [DRS]
+Syncs move to a rhythm of their own.
+
+++ ##00c000|[[[Void Dancer]]]## [DRS]
+Void Dancers channel the inhuman might of a powerful outsider bound to their body.
+
+++ [[[DRS Prodigy Class Features]]] [DRS]
+This page contains new or alternative class features for prodigy published by DRS.
+
+----
++ ##00c000|Class Equipment##
+The following magical items are especially appropriate for prodigies.
+
+++++ Gloves Of Imbuement [TS:WAT]
+**Aura** faint Varies (see text); **CL** 2nd
+**Slot** hands; **Price** 20,000 gp; **Weight** 2 lbs.
+
+These fine gloves are exceptionally capable of channeling magical energies. When worn by a creature with the imbue sequence class feature, they grant the sequence options of a single magic sphere, chosen when this item is made, which the wearer may use as if they possessed the associated base sphere and any associated packages. This does not grant the ability to use the base talents of that sphere, only the sequence options from it. A creature cannot benefit from more than one pair of these gloves at a time.
+
+**Construction Requirements**
+Craft Apparatus, the base sphere associated with the imbuement or a wild magic ability, creator must have the imbue sequence class feature; **Cost** 10,000 gp
+
+++++ Manual Of Techniques [TS:WAT]
+**Aura** moderate War; **CL** 7th
+**Slot** none; **Price** 25,000 gp; **Weight** 2 lbs.
+
+This manual contains comprehensive instructions for warriors who are capable of fighting flexibly. A creature with the integrated techniques class feature can study this manual for one hour to gain the sequence options for a specific combat sphere chosen when this manual is written, as well as the effects of its base sphere. Creatures cannot benefit from studying more than one manual of techniques per day, and retain the knowledge from this book until the next time they regain their spell points normally.
+
+**Construction Requirements**
+Craft Apparatus, War sphere, the combat sphere being referenced, creator must have the integrated techniques class feature; **Cost** 12,500 gp
+
+++++ Mirror Of The Sun Goddess [TS:WAT]
+**Aura** strong Protection; **CL** 12th
+**Slot** none; **Price** 18,000 gp; **Weight** 3 lbs.
+
+This ornate golden mirror is about the length of a forearm and seems far more durable than it has any right to be. Three times per day, a creature carrying this mirror may offer a prayer while using the reflect spell class feature to target a different creature instead of the original caster if they are successful in their attempt to reflect the magical effect. The mirror’s user must have line of effect to the target, and the target must be within the standard range of the effect (calculating it from the position of the creature using this mirror). A creature cannot use more than one of these items per day.
+
+**Construction Requirements**
+Craft Marvelous Item, Protection sphere (Ray Deflection (aegis)), creator must have the reflect spells class feature; **Cost** 9,000 gp
+
+[[/div]]
+----
+
+[[include cots]]
+
+[[include sop-template]]
+[[include som-template]]

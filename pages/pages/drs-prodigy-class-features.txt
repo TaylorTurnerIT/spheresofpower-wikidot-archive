@@ -1,0 +1,49 @@
+title:Prodigy Class Features (DRS)
+parent:prodigy
+[[module CSS]]
+.colored-links span > a {
+  color: inherit;
+}
+[[/module]]
+
+[[module CSS]]
+.noselect {
+  -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome and Opera */
+}
+[[/module]]
+
+[[toc]]
+
+[[tabview]]
+[[tab Polished Dark]]
+[[div class="noselect" style="float:right; width: 20%; padding: 0 2%"]]
+[[=]]
+[[image http://spheresofpower.wikidot.com/local--files/test-page/DRS_Polished_Spheres_Dark_Sphere.png link="https://www.drivethrurpg.com/en/product/497811/diamond-polished-spheres-dark-sphere?affiliate_id=549120"]]
+**Polished Dark**
+$7.99
+----
+[[/=]]
+[[/div]]
+
+++ Prodigy Imbue Sequence
+
+The following are new or reworked prodigy imbue sequences.
+
++++ Dark
+
+**Shadows (imbue)**: The prodigy radiates a 10-foot aura of darkness that lowers the light level by 2 steps (to a maximum of darkness). This aura is treated as a darkened area, and the prodigy can see through this darkness as though they possessed darkvision.
+
+If the prodigy possesses the //gloom// ability, this aura is treated as a //gloom// and the prodigy is unaffected by this //gloom// (as though affected by the clearsight option). While this imbuement is active, as a move action the prodigy may add a single (blot) or (darkness) to this //gloom//, paying any additional spell point costs for the chosen option as appropriate; adding a new (blot) or (darkness) removes a previously added option.
+
+**Army of Shadows (finisher) (requires Living Darkness):** As a full-round action, the prodigy creates a single empowered shadow lurk (of the prodigy) for each other enemy within a radius of 10 feet, +5 feet per link in the prodigy’s active sequence. Each shadow lurk appears in a square adjacent to the target, makes a single, standard action attack against the creature it is summoned adjacent to, and then is dismissed. If the sequence is at least 3 links, the finisher can be used as a standard action. If the sequence is at least 5 links, the prodigy may choose to teleport into a square adjacent to a creature and make a single attack action against that target creature (instead of creating a shadow lurk). If the sequence is at least 9 links, shadow lurks created this way last for 1 round per 3 links in the active sequence (but must spend each turn attacking or moving to attack the creature they are summoned for).
+
+**Void (finisher) (requires //gloom//)**: As a move action, each other creature within a radius of up to 5 feet, +5 feet per link in the prodigy’s active sequence is affected by a single (blot) or (darkness) (Will negates); the prodigy must pay any additional spell point costs for the chosen option as appropriate. A creature affected this way is treated as being within a //gloom// with the chosen option for a number of rounds equal to the length of the sequence (minimum 1); creatures affected this way are entitled to a Will save as a free action each round at the end of its turn to end this effect.
+
+[[/tab]]
+[[/tabview]]

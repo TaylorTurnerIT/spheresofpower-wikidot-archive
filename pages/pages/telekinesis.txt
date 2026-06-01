@@ -1,0 +1,835 @@
+title:Telekinesis
+parent:spheres-of-power
+[[module CSS]]
+.colored-links span > a {
+  color: inherit;
+}
+[[/module]]
+
+[[module CSS]]
+.noselect {
+  -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+ 	-khtml-user-select: none; /* Konqueror HTML */
+   	-moz-user-select: none; /* Firefox */
+    	-ms-user-select: none; /* Internet Explorer/Edge */
+        	user-select: none; /* Non-prefixed version, currently
+                              	supported by Chrome and Opera */
+}
+[[/module]]
+
+[[toc]]
+
+[[tabview]]
+[[tab Ultimate]]
+[[div class="noselect" style="float:right; width: 20%; padding: 0 2%"]]
+[[=]]
+[[image http://spheresofpower.wikidot.com/local--files/test-page/UltimateSpheresofPower.jpg link="https://www.drivethrurpg.com/product/300249/Ultimate-Spheres-of-Power?affiliate_id=549120"]]
+**Ultimate Spheres of Power**
+$29.99
+----
+[[/=]]
+[[/div]]You can lift and move objects through magic.
+
+++ Telekinesis
+As a standard action, you can use telekinesis to lift one willing creature or unattended object within close range and move it up to 20 feet + 5 feet per 5 caster levels (its telekinesis speed). The creature or object levitates as long as you concentrate, have line of effect, and the object remains within close range. The objects and creatures you may lift are restricted by size; the largest creature or object you can lift is given in the chart below. This assumes the creature or object is made from a dense material, such as flesh creatures or stone objects.
+
+Creatures or objects made of lighter materials, mostly open space, or reduced to 1/2 weight with the Lighten talent of the Enhancement sphere count as being one size category smaller, while weightless creatures or objects count as being 2 size categories smaller for this purpose.
+
+**Table: Object Size**
+||~ Caster Level ||~ Object Size ||~ Sample Object ||~ Average Weight (lbs.) ||
+|| 1st || Diminutive || Dagger || 1 lbs. ||
+|| 3rd || Tiny || Candelabra || 5 lbs. ||
+|| 5th || Small || Heavy shield || 25 lbs. ||
+|| 8th || Medium || Adult human || 125 lbs. ||
+|| 11th || Large || Statue || 625 lbs. ||
+|| 15th || Huge || Wagon || 3,125 lbs. ||
+|| 20th || Gargantuan || Catapult || 8 tons ||
+|| 25th || Colossal || Sailing Ship || 39 tons ||
+|| 30th || Colossal+ || Tavern || 195 tons ||
+|| 40th || Colossal++ || Galleon || 977 tons ||
+|| 50th || Colossal+++ || Temple || 4,883 tons ||
+|| 60th || Colossal++++ || Cathedral || 24,414 tons ||
+
+Your telekinesis is simple and cannot perform dexterous actions (tying a knot, opening a book, turning a key, etc.). Any object you control with telekinesis has a touch AC of 10 + your casting ability modifier + any size modifier, and a CMD of 10 + your caster level + your casting ability modifier + the object’s size modifier. If ever a Strength check is required (such as a creature trying to battle you for control of an item), you may use your casting ability modifier as your Strength modifier for that purpose. If another target attempts to use telekinesis on something you are already affecting with telekinesis, they must overcome your MSD first, or the attempt fails.
+
+The following special rules apply to certain activities you may perform with telekinesis:
+[[div style="padding: 0 10px; border: 1px solid black; margin-top: 5px"]]
+++++ Bludgeon
+Once per turn when lifting a creature or object with telekinesis (referred to as a Bludgeon), you can spend its remaining movement to strike a creature or object within its reach.
+
+This is considered a ranged attack and can benefit from feats or combat talents related to weapon and ranged attacks, but does not provoke attacks of opportunity except as provoked by the casting of the telekinesis itself. Making the attack is a standard action; if the caster is both maintaining a telekinesis effect via concentration and making a Bludgeon attack, they need only spend a single action to do both, provided it is the larger action of the two.
+
+When you use a Bludgeon to strike a target, you must succeed at a ranged attack roll against the target, using your casting ability modifier in place of Dexterity for the attack roll.
+
+On a successful hit, the target and the Bludgeon take damage depending on the Bludgeon’s size. If the Bludgeon is a weapon, the attack deals appropriate damage for that weapon (bolts and arrows are treated as daggers for this purpose). Since weapons are designed to deal damage, they do not suffer damage themselves if used as a Bludgeon. Objects beyond Colossal are still treated as Colossal for calculating damage.
+
+**Table: Object Damage**
+||~ Object Size ||~ Damage Dealt ||
+|| Fine || 1 ||
+|| Diminutive || 1d2 ||
+|| Tiny || 1d3 ||
+|| Small || 1d4 ||
+|| Medium || 1d6 ||
+|| Large || 1d8 ||
+|| Huge || 2d6 ||
+|| Gargantuan || 3d6 ||
+|| Colossal || 4d6 ||
+[[/div]]
+[[div style="padding: 0 10px; border: 1px solid black; margin-top: 5px"]]
+++++ Catch
+If using telekinesis on a projectile or thrown object within your size limit (often as a readied action), you may stop the attack from dealing damage. The originator of the attack (the creature who threw the projectile, etc.) is allowed a Will save to negate this ability. After Catching an object, you may move it as normal for your telekinesis.
+[[/div]]
+[[div style="padding: 0 10px; border: 1px solid black; margin-top: 5px"]]
+++++ Hostile Lift
+You may spend a spell point to lift an unwilling creature with telekinesis. The target is allowed a Will save to negate this effect, plus an additional Will save each round the effect is maintained. Telekinesis used in this way is subject to spell resistance.
+
+If a Hostile Lift is sustained with Sustained Force, it only lasts until the target succeeds at its save. A creature may suffer falling damage if they successfully save while floating high in the air.
+[[/div]]
+[[div style="padding: 0 10px; border: 1px solid black; margin-top: 5px"]]
+++++ Sustained Force
+As a free action, you can spend a spell point to no longer need to concentrate to maintain lifting a particular object for up to 1 minute per caster level. You may give a Sustained Force simple orders (float in the air, go north, follow a target) that it obeys to the best of its ability, to a maximum of your telekinesis range. Changing a Sustained Force’s orders is a move action.
+
+You cannot sustain combat-related uses of telekinesis (combat maneuvers, Bludgeons, etc.), nor complicated tasks (make a wagon load itself with stones and move them to another location, etc.). You may dismiss a Sustained Force as a standard action.
+[[/div]]
++++ Wiki Note: Telekinesis and Attack Actions
+You generally cannot make more than one attack action per round, even when using Telekinesis to manipulate multiple weapons and attacking with them individually.
+
++++ Wiki Note: Telekinesis and Maneuvers
+Maneuvers created by telekinesis talents do not originate from you and do not work with many effects that require that (such as many combat talents) unless you have an additional ability allowing this.
+----
+++ Telekinesis Talents
+[[div style="padding: 0 10px; border: 1px solid black; margin-top: 5px"]]
+++++ Acceleration
+When you move a target with telekinesis you can double the distance you can move it that turn by having all of its movement be in a straight line. An object that moves at least 10 feet this way before being used as a Bludgeon is counted as having made a charge and gains the related +2 on its attack roll. If you also possess the Dancing Weapon talent, you may apply charge-related feats and combat talents to your charge with that Bludgeon.
+[[/div]]
+[[div style="padding: 0 10px; border: 1px solid black; margin-top: 5px"]]
+++++ Dampening Field
+You may use your telekinetic force to protect and stabilize creatures and objects that you are lifting.
+
+When lifting an object with your telekinesis, you may grant it a +1 bonus to hardness and a +1 deflection bonus to AC, +1 per 5 caster levels, and cause it to take no penalties from the broken condition.
+
+When lifting a creature with your telekinesis, you may grant it DR/piercing equal to 1/2 your caster level. When using a creature or object as a Bludgeon, you may choose for the object itself to not suffer damage from being used as a Bludgeon.
+
+You may grant these benefits as part of a Sustained Force, as part of or independent of any actual telekinetic movement.
+[[/div]]
+[[div style="padding: 0 10px; border: 1px solid black; margin-top: 5px"]]
+++++ Dancing Weapon
+You may add your casting ability modifier to all damage rolls made with a Bludgeon. Additionally, your Bludgeons count as either a ranged, thrown, or melee weapon under your control, as determined by the caster. A caster may change a Bludgeon from one to the other once per round but a single Bludgeon cannot count as more than one at the same time. You may make attack actions with your Bludgeon, though doing so is not combinable with making a full attack, unless using Divided Mind or Mobile Bludgeon. You may apply appropriate feats and combat talents such as Power Attack to your actions with that Bludgeon, and if treating an object as a melee weapon, the Bludgeon has a reach and threatens the area around it as if wielded by a creature of the same size as the Bludgeon.
+
+You are considered to be wielding the weapon for the purpose of making attacks of opportunity or flanking, but do not suffer penalties for oversized or undersized weapons.
+
+^^**Author's Note:** You cannot use attack actions with a full attack using Dancing Weapon. You have the option of one or the other.^^
+[[/div]]
+[[div style="padding: 0 10px; border: 1px solid black; margin-top: 5px"]]
+++++ Divided Mind [mass]
+You may lift multiple targets at once (up to 1 + 1 per caster level) whose combined size does not exceed your maximum telekinesis size. You may treat these objects as one effective object for the purpose of Bludgeoning a creature, or you may make multiple Bludgeons per round (although you cannot make more attacks in a round than would otherwise be allowed with your base attack bonus and any respective feats or combat talents if you possess the Dancing Weapon talent, applying penalties for full attacks as normal). If you spend a spell point to use Hostile Lift or Sustained Force, it may apply it to as many of these objects as applicable as if each were a different effect. You may also spend a spell point when using the Steal, Telekinetic Maneuver, or Telekinetic Push talents to affect multiple targets at once (up to one additional target per 2 caster levels, minimum 1), although you cannot affect an individual target more than once per round with any push or combat maneuver.
+[[/div]]
+[[div style="padding: 0 10px; border: 1px solid black; margin-top: 5px"]]
+++++ Excessive Force [BaP]
+Whenever you could perform a Bludgeon as part of a standard action or greater, you may instead violently slam the target under your telekinesis into another object or against a surface (such as a wall or floor). The target takes damage appropriate to its size, as though used as a Bludgeon, plus an additional 1d6 bludgeoning damage per 2 caster levels and must succeed at a Reflex save or fall prone from the force of the impact. The impacted object or surface takes the damage appropriate to the target’s size but does not take any additional damage from this effect.
+
+If you possess the Acceleration talent, you may choose to have the impacted object or surface also take this effect’s additional damage (in addition to the Bludgeon’s damage). In addition, you may use this talent when performing a single Bludgeon as part of a standard action or greater. Instead of making an attack roll, both the Bludgeon and the target must succeed at a Reflex save or take damage appropriate to the Bludgeon’s size plus this effect’s additional damage and fall prone.
+
+Using this talent ends your telekinesis on the creature or object used to perform the Bludgeon.
+[[/div]]
+[[div style="padding: 0 10px; border: 1px solid black; margin-top: 5px"]]
+++++ Finesse [utility]
+You may use telekinesis to perform fine manipulations, such as turning a key in a lock, unrolling a scroll, or tying a knot. You may attempt appropriate skill checks (such as Craft, Disable Device, Profession, or Performance checks that involve objects or instruments, but not Sleight of Hand or other checks involving attended objects unless you possess the Steal talent) at a distance, as well as Heal checks to perform first aid. When performing a skill at a distance you may use your casting ability modifier in place of the normal ability modifier, but you also suffer a -5 penalty to the skill check and cannot take 10. You may also use Sustained Force to maintain complicated, non-combat procedures such as making knives prepare dinner, make a lute play itself, or making a shovel dig a ditch.
+[[/div]]
+[[div style="padding: 0 10px; border: 1px solid black; margin-top: 5px"]]
+++++ Flight
+When using telekinesis to lift a creature or creatures and spending a spell point to create a Sustained Force on them, you may grant that creature the ability to control their own movement for the duration of the Sustained Force. They gain a fly speed equal to your telekinesis speed, with maneuverability (perfect).
+
+When affecting a target with a Sustained Force, they no longer need to remain within your telekinesis range.
+[[/div]]
+[[div style="padding: 0 10px; border: 1px solid black; margin-top: 5px"]]
+++++ Floating Shield
+When using your telekinesis to lift a shield, you may apply its shield bonus to the armor class of anything in its square, though this does not stack with any shield bonus they already possess. A shield sustained with Sustained Force still grants its shield bonus, and may be directed to follow a given individual or target. If you possess the Orbit talent, you may choose a single shield in orbit of you and add its shield bonus to your armor class. If you possess the Dancing Weapon talent, you may apply shield related feats and combat talents (such as Shield Focus) to any shield you are lifting.
+
+**Author's Note:** The floating shield talent does not count as wielding a shield for any purpose, positive or negative (including ACP, maximum Dexterity, etc, but also magical qualities). This means it can grant a shield bonus to someone benefiting from the monk's AC bonus class feature without penalizing them, but also cannot be used as a shield to perform shield bashes, utilize most abilities from the Shield sphere, etc.
+[[/div]]
+[[div style="padding: 0 10px; border: 1px solid black; margin-top: 5px"]]
+++++ Forceful Telekinesis
+When you are using an object or weapon as a Bludgeon, it is effectively one size larger for determining how much damage it deals. In addition, any time you would perform a combat maneuver using telekinesis (such as with Steal or Telekinetic Maneuver) you add a +2 bonus to your CMB and CMD.
+[[/div]]
+[[div style="padding: 0 10px; border: 1px solid black; margin-top: 5px"]]
+++++ Gravity Shift
+By concentrating your telekinetic powers on an area you may effectively increase or decrease the area’s gravity. As a standard action you may alter the gravity of a 10-foot radius + 5 feet per five caster levels sphere anywhere within range of your telekinesis. As long as you concentrate, the area becomes either an area of heavy gravity or an area of light gravity. You may also change the type of gravity in the area as a move action. This talent can be used to alter areas that are already heavy or light gravity, either altering them to normal gravity or doubling their effects, but cannot be used in areas of no gravity or subjective gravity. You may spend a spell point to sustain this effect with Sustained Force.
+
+**Heavy Gravity:** In heavy gravity areas, Acrobatics, Climb, Ride, and Swim checks incur a -2 circumstance penalty, as do all attack rolls. All item weights are effectively doubled, which might affect a character’s speed. Weapon ranges are halved. A character’s Strength and Dexterity scores are not affected. Characters that fall in areas of heavy gravity take 1d10 points of damage for each 10 feet fallen, to a maximum of 20d10 points of damage.
+
+**Light Gravity:** Characters in an area of light gravity gain a +2 circumstance bonus on attack rolls and on Acrobatics and Ride checks. All items weigh half as much, and weapon ranges double. Strength and Dexterity do not change as a result of light gravity, but what you can do with such scores does change. Falling characters in light gravity take 1d4 points of damage for each 10 feet fallen (maximum 20d4).
+[[/div]]
+[[div style="padding: 0 10px; border: 1px solid black; margin-top: 5px"]]
+++++ Gravity Ward/Well
+As a standard action, you can create an area of gravity that either pulls objects in or keeps them out. Select either yourself or a spot within range of your telekinesis, and choose either to attract or repel.
+
+If you choose attract, all creatures and unattended objects of up to your telekinesis limit within 10 feet + 5 feet per 5 caster levels of the chosen spot are drawn in a straight line to the unoccupied space nearest to the center of the effect. Unwilling creatures are subjected to a drag combat maneuver using your caster level plus your casting ability modifier as your CMB. A creature in the area of this effect cannot move away from the center of the effect except by attempting the drag combat maneuver as a move action against a CMD equal to 10 plus your caster level plus your casting ability modifier, moving the indicated distance away from the center of the gravity well.
+
+If you choose repel, this functions the same way except creatures and unattended objects within the area are pushed in a straight line away from the center of the effect, and creatures are subjected to and perform bull rush combat maneuvers instead of drag combat maneuvers.
+
+This effect lasts as long as you concentrate (pulling or pushing creatures each round on your turn) and can be maintained with Sustained Force.
+[[/div]]
+[[div style="padding: 0 10px; border: 1px solid black; margin-top: 5px"]]
+++++ Greater Speed
+Your telekinesis speed increases to 30 feet + 5 feet per 2 caster levels per round.
+[[/div]]
+[[div style="padding: 0 10px; border: 1px solid black; margin-top: 5px"]]
+++++ Homing
+When you miss with a Bludgeon attack, you may spend a spell point as an immediate action to make the Bludgeon home back in on the target. For a number of rounds equal to your caster level the object single-mindedly moves towards the target without you needing to concentrate on it, taking the shortest path as it attempts to attack them each turn. A Bludgeon directed this way can only make one attack per turn, and once it makes a single successful attack it stops pursuing the target and drops to the ground unless you begin concentrating on it again. If you possess the Divided Mind talent you may pay a single spell point to make multiple objects pursue a target, but as soon as any one of them makes a successful attack, they all stop pursuing.
+[[/div]]
+[[div style="padding: 0 10px; border: 1px solid black; margin-top: 5px"]]
+++++ Idle Concentration
+You may choose to maintain concentration on your telekinesis as a swift action. However, targets of your telekinesis remain motionless while you concentrate on them this way, hovering in place. You cannot move them, use them to Bludgeon, or direct them to perform tasks. Dancing weapons that hover do not threaten their range or provide flanking bonuses, and you may not apply the benefits of Telekinetic Crush to hovering targets.
+
+This talent cannot be used to concentrate on a Hostile Lift or Kinetic Field.
+[[/div]]
+[[div style="padding: 0 10px; border: 1px solid black; margin-top: 5px"]]
+++++ Increased Range [range]
+Increase the range of your telekinesis by one step (close to medium, medium to long). You may select this talent multiple times. The effects stack.
+[[/div]]
+[[div style="padding: 0 10px; border: 1px solid black; margin-top: 5px"]]
+++++ Kinetic Field
+You may spend a spell point to apply your telekinesis as kinetic energy across an area instead of directly onto targets. This fills an area with a radius of up to 10 feet + 5 feet per five caster levels with kinetic energy, which manifests in one of the following ways, each of which may be made into a Sustained Force.
+
+An area cannot be affected by more than one field at a time:
+* You may make all squares in the area, including the air, become difficult terrain. Moving through this area causes fire damage equal to 1/2 your caster level (minimum 1) per 5 feet of movement due to intense friction.
+* You may cause any projectiles or thrown objects up to one size smaller than your telekinesis limit that pass through this area to be affected as if by Catch.
+* You may cause creatures or objects up to one size smaller than your telekinesis limit that enter this area to move up to half your telekinesis speed in one direction, chosen when the field is created, to a maximum distance of the edge of the field. Unwilling targets may attempt a Will saving throw to resist, and if a creature fails this save and attempts to move against the direction of field they must first spend movement equal to half your telekinesis speed to overcome the effects of the field. Unattended objects move on your turn and are not fast enough to cause harm. Creatures do not move until their turn.
+
+You may take this talent a second time. If you do, you may form the kinetic field such that it occupies any of the following areas as an alternative to its normal shape. These areas carry the normal effect of the kinetic field that you dictate. [Alienist HB]
+* A wall up to 20 feet wide per caster level in a straight line and up to 20 feet high.
+* An area centered on you with a 10-foot radius + 5 feet per 5 caster level. This area moves with you.
+* An area shaped as you choose made out of contiguous 5-foot cubes, up to a maximum of 5 cubes + 1 cube per 2 caster levels.
+[[/div]]
+[[div style="padding: 0 10px; border: 1px solid black; margin-top: 5px"]]
+++++ Kinetic Sense
+You no longer need line of sight to use telekinesis on an object or creature, as long as you target the correct space the target is in. If you target an incorrect square your action is wasted, though you retain any spell points you would have spent.
+
+In addition, you may spend a spell point to gain 30 feet blindsense for one minute per caster level.
+[[/div]]
+[[div style="padding: 0 10px; border: 1px solid black; margin-top: 5px"]]
+++++ Mobile Bludgeon
+When you use your telekinesis to make a Bludgeon attack, you may continue to move the object after the attack roll is made if it has any movement remaining. This means you may make multiple Bludgeon attacks in a round, though not more than you would normally be allowed with your base attack bonus, and applying penalties for full attacks as normal. You may choose to forfeit any remaining movement in order to make a full attack with a single Bludgeon against a single target. If you possess the Dancing Weapon talent, you may gain extra attacks from feats and combat talents.
+[[/div]]
+[[div style="padding: 0 10px; border: 1px solid black; margin-top: 5px"]]
+++++ Orbit
+When you lift an object with your telekinesis and move it into your square or drop an item you are holding, you may place it in a passive orbit around you. An object in orbit drifts slowly around you, moving with you when you move as if you carried it, and does not require concentration to remain in orbit, though it does nothing except drift passively. At any point you may begin concentrating on it again, directing it and using it normally with your telekinesis, or you may pick up an item in orbit as a free action. You may have multiple objects around you at one time so long as their total size does not exceed the size limit of your telekinesis. If you possess the Dancing Weapon talent, you are considered to be wielding any object in your orbit and may use them to make attacks, though they are still made through the Dancing Weapon talent. Items caught with Catch may immediately be placed into orbit. You may not use Hostile Lift in conjunction with Orbit.
+
+**Note:** Dancing Weapon specifies only 'wielding' in the context of a weapon; you can bash someone over the head with that implement, but no it does not mean you get its implement bonuses while in your orbit.
+[[/div]]
+[[div style="padding: 0 10px; border: 1px solid black; margin-top: 5px"]]
+++++ Pantomime Cage [Jester's HB]
+You may spend a spell point to trap the target in a box made of telekinetic force. On a failed Reflex save, the target becomes trapped for 1 round per caster level, effectively sealing the target off from all other creatures. The trapped target cannot move from their space except by means of dimensional travel, such as teleport from the Warp sphere, but is still trapped even if moved by such an effect. The target treats all other creatures as though they had total cover against it, and all other creatures treat the target as though it has total cover against them.
+
+A trapped target may attempt a Reflex saving throw or Escape Artist check as a full-round action with a DC equal to this effect’s DC to escape and end this effect. If the target takes damage while trapped, they may attempt a check to escape as a free action which can be taken even if it is not their turn.
+[[/div]]
+[[div style="padding: 0 10px; border: 1px solid black; margin-top: 5px"]]
+++++ Parry
+You may use the Catch function of telekinesis to block attacks with melee weapons, though they retain their hold on their weapon even if you successfully block their attack. However, if you possess the Steal talent as well, you may immediately use it on that weapon as part of a successful Catch. Your telekinesis must be specially tuned towards the task, so when you ready an action to Catch (or when you spend a spell point on the catch field option of the Quick Reactions talent, if you possess it) you must specify whether your telekinesis can intercept melee or ranged attacks.
+[[/div]]
+[[div style="padding: 0 10px; border: 1px solid black; margin-top: 5px"]]
+++++ Powerful Telekinesis
+Increase the maximum-sized object or creature you may affect with telekinesis by 1 size category.
+[[/div]]
+[[div style="padding: 0 10px; border: 1px solid black; margin-top: 5px"]]
+++++ Quick Reactions
+You may spend a spell point to make a telekinetic Catch as an immediate action. If you possess the Telekinetic Push talent, you may spend a spell point to perform pushes as an immediate action.
+
+If you possess Kinetic Field, you may spend a spell point as a standard action to fold kinetic energy around yourself to create a catch field. This catch field moves with you and lasts 1 round per 3 caster levels (minimum 1). Once per round this stops a projectile aimed at you as if you were using Catch. You cannot have more than one use of this ability active at any one time.
+[[/div]]
+[[div style="padding: 0 10px; border: 1px solid black; margin-top: 5px"]]
+++++ Return
+When you stop a ranged attack with telekinetic Catch, you may immediately fling it back at the attacker if they are in range of your telekinesis. Resolve this as a standard Bludgeon attack using the object you were attacked with. Return may not be used in conjunction with the catch field option of Quick Reactions.
+[[/div]]
+[[div style="padding: 0 10px; border: 1px solid black; margin-top: 5px"]]
+++++ Seizing Strike [Strike] [3PP]
+^^**Source:** Expanded Spheres: Baron's Lost Apocrypha^^
+
+As a standard action, you may make a single weapon attack in conjunction with using a lift. This casting cannot be reduced below a standard action, and does not provoke attacks of opportunity, unless as usual if making a ranged attack. If the target is struck by the attack, it is also affected by lift. If using a scatter weapon, the lift only applies to a single target, chosen at the time of attack. The target of your attack must be a legal target for your lift.
+[[/div]]
+[[div style="padding: 0 10px; border: 1px solid black; margin-top: 5px"]]
+++++ Steal
+You may use telekinesis on attended objects. You may perform a disarm or steal combat maneuver against a target using telekinesis, using your caster level plus your casting ability modifier as your CMB. You may use telekinesis to perform Sleight of Hand checks at a distance as well and may use your casting ability modifier in place of your Dexterity modifier for this purpose, but you also suffer a -5 penalty to the skill check and cannot take 10. If the maneuver or skill check is successful, you may move the lifted object up to your telekinesis distance in any direction, but may not use it as a Bludgeon as part of the same action.
+[[/div]]
+[[div style="padding: 0 10px; border: 1px solid black; margin-top: 5px"]]
+++++ Sweeping Bludgeons [BaP]
+Whenever you perform a Bludgeon, instead of making an attack roll, you may choose to swing the Bludgeon in a sweeping arc at the target. The target must succeed at a Reflex save or both the target and the Bludgeon take damage depending on the Bludgeon’s size. If you possess the Dancing Weapon talent, you may use abilities which would apply additional damage or effects to a single attack action to the Bludgeon damage dealt to the target with this talent. If an effect would impose a penalty to an attack roll, such as Lancer sphere impale or the Power Attack feat, you instead reduce the DC of the Reflex saving throw by that amount.
+
+**Example:** If you possess the Dancing Weapon talent, your Bludgeon damage could include additional damage from a Berserker sphere brutal strike, Duelist sphere blooded strike bleed damage, or the Vital Strike feat, but not other attack actions or effects which do not affect the Bludgeon’s damage, such as barrage or dual attack. Attack actions or effects which do not affect the Bludgeon's damage, such as barrage or dual attack, instead apply a penalty to the Bludgeon's saving throw.
+[[/div]]
+[[div style="padding: 0 10px; border: 1px solid black; margin-top: 5px"]]
+++++ Telekinetic Crush
+When using your telekinesis on a target, you may crush it with your grip. Every round you maintain concentration you may deal 1d6 bludgeoning damage and an additional 1d6 per 5 caster levels. Alternatively, you may attempt a Strength check to break an object you are holding with your telekinesis, using your casting ability modifier instead of your Strength modifier and adding the size modifier from the largest-sized object you can lift with telekinesis. You may use this on sections of a larger object than you can lift with your telekinesis, allowing you to punch holes through walls or rip down doors so long as you can lift the targeted section.
+[[/div]]
+[[div style="padding: 0 10px; border: 1px solid black; margin-top: 5px"]]
+++++ Telekinetic Maneuver
+You can use telekinesis to manipulate a target with more finesse than a Hostile Lift. You may target a creature with telekinesis to perform a bull rush, drag, reposition, trip, dirty trick, or grapple (upgrades to pin if the target is already grappled) combat maneuver against a target, ignoring size limitations. Use your caster level plus your casting ability modifier as your CMB. If grappling, your CMD is your telekinesis CMB + 10 and the target is allowed to attempt a Will save each round after the grapple is initiated to negate the effect, just as they can with Hostile Lift. These maneuvers do not provoke an attack of opportunity from the target. If grappling, you do not gain the grappled condition, and you cannot be knocked prone by failing a trip check.
+[[/div]]
+[[div style="padding: 0 10px; border: 1px solid black; margin-top: 5px"]]
+++++ Telekinetic Push
+You may throw your telekinetic power at an object, aiding or impeding its natural movement. As a readied action, you may push a projectile, creature, thrown object, or another caster’s Bludgeon up to one size larger than your telekinesis limit. If aiding, you may increase a weapon’s range increment by half your telekinesis speed and increase its effective size by 1 size category +1 per 5 caster levels for the purposes of dealing damage and determining if another caster may Catch the object with their own telekinesis. If aiding a creature, you may choose to instead grant it an enhancement bonus to its movement equal to 1/2 your telekinesis speed. You may also add 1d6 damage + 1d6 per 5 caster levels to the falling damage a target suffers. This ability may be used to cause damage to a target that was successfully tripped.
+
+Alternatively, you may slow down a creature or object, cutting its movement speed in half. If the target is falling, this decreases their falling speed to 60 feet per round, allowing them to fall great distances without being hurt.
+
+When you use the Catch function of your telekinesis, you may also choose to deflect an object instead of Catching it, causing it to simply miss instead of being lifted with telekinesis. Telekinetic Push still requires a spell point when used directly on hostile targets, but does not allow a Will save to negate, even when used with Catch, due to the briefer contact and more indirect force. Telekinetic Pushes cannot be sustained with Sustained Force.
+[[/div]]
+[[div style="padding: 0 10px; border: 1px solid black; margin-top: 5px"]]
+++++ Telekinetic Tools
+You may use your telekinesis to mimic simple tools, such as shovels, hammers, or scissors by using your telekinesis as if manipulating an item of the appropriate size.
+
+If you possess the Finesse talent, you may mimic tools associated with any of the listed skills, allowing you to Perform without an instrument or pick a lock without thieves tools. In addition, if you possess the Telekinetic Maneuver talent, when grappling a target you may choose to use the tie up grapple action to restrain them with telekinetic force instead of a rope.
+
+A creature successfully tied up this way is bound and helpless, and must follow the tie up rules to escape their bonds. This restraining force lasts until broken by a successful combat maneuver, until they receive help from an outside force as a fullround action, or until you dismiss it. A target cannot attempt a Will save to negate the effects of these bonds, or a Strength check to break them.
+
+You may also attack your enemies with pure telekinetic force. You may make Bludgeon attacks without an object, dealing bludgeoning or slashing damage as a Bludgeon of the size you specify, up to your telekinesis size limit. If you possess the Dancing Weapon talent, you may treat this Bludgeon attack as if it was made with a weapon you have proficiency with, sized up to your telekinesis size limit.
+[[/div]]
+[[div style="padding: 0 10px; border: 1px solid black; margin-top: 5px"]]
+++++ Tether
+You can create a telekinetic connection between two objects of any size, tethering them together. As a standard action you can tether two targets within 30 feet of each other, preventing them from moving further than 30 feet from each other without either breaking the tether or dragging the other target with them. An unwilling creature gets a Reflex save to avoid being tethered. A creature dragging an object follows the normal carrying capacity and encumbrance rules, but must use the drag combat maneuver to drag an unwilling creature. The tether may be broken as a move action with a Strength check equal to the tether’s save DC. A tether lasts as long as you concentrate and an additional number of rounds after that equal to your caster level. You may spend a spell point to maintain a tether with Sustained Force.
+[[/div]]
+[[div style="padding: 0 10px; border: 1px solid black; margin-top: 5px"]]
+++++ Whirlwind Assembly
+You can use your telekinesis to ready yourself for any given situation. You may perform any of the following actions as a swift action:
+* You may draw up to two sheathed weapons or items you are carrying (even if it is stored in a backpack or similar container) and put away up to two objects you are holding in your hands. In addition, you may don a single set of armor or robes and put away any robes or armor you are currently wearing, or swap out any number of smaller worn items (such as gloves, hats, or rings). Each individual item equipped or put away must fall within the size limit of your telekinesis.
+* You can call a single unattended object that you can see within 20 feet + 5 feet per 5 caster levels instantly to your hand. The object must fall within your telekinesis size limit, and the object must be no more than a light load for you.
+* You may load a ranged weapon you are wielding that has a reload time of a standard action or less. For reload times greater than a standard action, the reloading time is reduced by a standard action as it has been partially done.
+[[/div]]
+----
+
+++ Advanced Telekinesis Talents
+Advanced talents are part of an optional rule and are only available with GM permission.
+[[div style="padding: 0 10px; border: 1px solid black; margin-top: 5px"]]
+++++ Affix
+**Prerequisites:** Telekinesis sphere (Effortless Telekinesis (advanced), Idle Concentration), caster level 10th
+
+By spending two spell points, you may permanently affix a single object you are lifting with your telekinesis to a specific point in space. This is an instantaneous effect that binds the object to that specific point, preventing it from moving in any direction even due to gravity.
+
+An unwilling creature lifted through the use of Hostile Lift gains an immediate opportunity to break your telekinetic hold with a Will save. If the save fails they remain held by your telekinesis, and must attempt a Reflex save to avoid being fixed in place permanently with no further saves. A creature affected by Affix can still take actions and can freely move their limbs, but cannot move away from the point they have been affixed to, even with teleportation effects.
+
+Since this is an instantaneous effect, it cannot be dispelled. However, a successful application of telekinesis or brute force can break an object free with a magic skill check or Strength check against your MSD + 4. If applying your own telekinesis against an object you have affixed, you automatically succeed on your magic skill check. This effect can also be ended by the Make Whole advanced talent from the Life sphere, the Freedom (word) from the Fate sphere, or the freedom of movement spell.
+[[/div]]
+[[div style="padding: 0 10px; border: 1px solid black; margin-top: 5px"]]
+++++ Astral Affixation
+**Prerequisites:** Telekinesis sphere (Affix (advanced), Effortless Telekinesis (advanced), Idle Concentration), caster level 15th.
+
+When you affix a target permanently in place, you may spend an additional spell point to strengthen the effect by pinning them to astral leylines. A creature that has failed its Reflex save against being affixed must succeed at a third save or be rendered paralyzed for as long as they are affixed.
+
+In addition, regardless of whether or not this additional save is failed, breaking a target free that has been affixed in this way requires a successful magic skill check or Strength check against your MSD + 10. In addition, a telekinesis effect or the Freedom word with a lower caster level than the affixing will always be insufficient and cannot break a target free.
+[[/div]]
+[[div style="padding: 0 10px; border: 1px solid black; margin-top: 5px"]]
+++++ Brutalizing Bludgeon [LG]
+^^**Source:** Arcforge Players Compendium^^
+
+**Prerequisites:** Telekinesis sphere (Telekinetic Maneuver), caster level 5th.
+
+You may allow an object you are lifting to perform a bull rush, drag, reposition, trip, dirty trick, or grapple combat maneuver in place of an attack as part of a Bludgeon. Such objects may maintain a grapple in place of making a bludgeon attack and deal their Bludgeon damage on a successful grapple. Such objects have a CMB equal to your caster level + your casting ability modifier + any size modifier for the object and a CMD equal to this value +10.
+[[/div]]
+[[div style="padding: 0 10px; border: 1px solid black; margin-top: 5px"]]
+++++ Choking Grasp
+**Prerequisites:** Telekinesis sphere (Telekinetic Crush), caster level 15th.
+
+As either a stand-alone standard action or as part of maintaining a Hostile Lift, you may spend 2 spell points to suffocate a target within your telekinesis range. The target must succeed at a Fortitude save or have its hit points drop to 0 and fall unconscious on its next turn as if it had failed a Constitution check against suffocation. Next round, the target must succeed at a second Fortitude save or drop to -1 hit points begin dying.
+
+In the round following that they must succeed at another Fortitude save or suffocate and die. Succeeding on any of these saves prevents further saves and stops the effects from worsening, but does not negate the effects of any previously failed saves. This talent only affects living creatures that must breathe.
+[[/div]]
+[[div style="padding: 0 10px; border: 1px solid black; margin-top: 5px"]]
+++++ Disperse Force
+**Prerequisites:** Telekinesis sphere (Quick Reactions, Telekinetic Push), caster level 10th.
+
+You can apply an opposing force at the right times, canceling out offensive forces. As an immediate action whenever you would take damage, you may spend two spell points to negate that damage. You may use this to respond to energy or magic based attacks, and you may even use it to insulate you against environmental hazards (such as acid rain or lava) but it is ineffective against damage from internal or nonphysical sources (such as bleed damage or a mental attack).
+[[/div]]
+[[div style="padding: 0 10px; border: 1px solid black; margin-top: 5px"]]
+++++ Effortless Telekinesis
+**Prerequisites:** Telekinesis sphere, caster level 10th.
+
+When you use your telekinesis to lift creatures or objects and spend a spell point to create a Sustained Force on them, the Sustained Force persists for 1 hour per caster level instead of 1 minute per caster level.
+[[/div]]
+[[div style="padding: 0 10px; border: 1px solid black; margin-top: 5px"]]
+++++ Focused Power
+**Prerequisites:** Telekinesis sphere (Powerful Telekinesis), caster level 5th.
+
+By spending a spell point you can further advance the strength of your telekinesis. Increase the maximum sized object you can affect with telekinesis by 1 size category. This effect stacks with the benefits of Powerful Telekinesis. However, the action required to concentrate on the effect is increased by one step, and you may not spend a spell point to maintain it with Sustained Force.
+
+You may spend an additional spell point to increase your capacity by another size, but doing so demands all of your mental focus. You may only use the basic capability of telekinesis to move objects, and cannot use this in conjunction with Hostile Lift or Bludgeon.
+[[/div]]
+[[div style="padding: 0 10px; border: 1px solid black; margin-top: 5px"]]
+++++ Gravity Manipulation
+**Prerequisites:** Telekinesis sphere (Gravity Shift), caster level 15th.
+
+When you use Gravity Shift, you may spend two spell points (instead of one, if you are already spending a spell point for Gravity Shift, otherwise you must spend both) to have greater control over gravity. You may create or manipulate areas of no gravity or objective gravity, and may apply any gravity trait to any area. Creatures in the area may attempt a Reflex save to hang onto an adjacent surface whenever you change gravity.
+
+**No Gravity:** Individuals in an area of no gravity merely float in space, unless other resources are available to provide a direction for gravity’s pull.
+
+**Objective Gravity:** The strength of objective gravity is the same as normal, but the direction is not the traditional “down” toward the ground. It may be down towards any solid object, at an angle to the surface of the ground itself, or even upward.
+[[/div]]
+[[div style="padding: 0 10px; border: 1px solid black; margin-top: 5px"]]
+++++ Linear Acceleration
+**Prerequisites:** Telekinesis sphere (Acceleration, Greater Speed), caster level 10th.
+
+You may spend 2 spell points as a standard action to fling an object you are currently lifting at immense speeds, tying it to a target or location within line of sight, causing it to immediately pass out of your control as it races towards that target, to a maximum distance of 5 miles. This cannot be used to hurl objects into the air nor to attempt to hurl them in an arc for greater distance; the targeted creature, object, or location must be within direct line of sight and line of effect.
+
+By making a successful ranged touch attack, using your casting ability modifier in place of your Dexterity modifier, against the target you deal double the normal Bludgeon damage to it. If the attack misses, the object strikes the center of the target’s space. The object’s impact into the target or their space releases a powerful shockwave and everyone in a 30-foot radius + 5 feet per five caster levels, including the initial target, takes 1d6 damage per 2 caster levels and is dazed for one round. A Fortitude save negates the dazed condition, though the initial target is not allowed a saving throw if the touch attack succeeded. Objects fired using Linear Acceleration suffer the full initial and secondary damage of the attack.
+[[/div]]
+[[div style="padding: 0 10px; border: 1px solid black; margin-top: 5px"]]
+++++ Puppet
+**Prerequisites:** Telekinesis sphere (Finesse, Telekinetic Maneuver), caster level 10th.
+
+When you lift a creature with your telekinesis you may spend a spell point to take precise control over their physical form. You can force them to run, jump, manipulate objects, and wield weapons, but you cannot force them to use special abilities such as spells that are not a function of bodily movement, and cannot take control of their vocal cords, though you can prevent them from making sounds. If you force the subject to engage in combat, use an attack bonus equal to your base attack plus your casting ability modifier, and substitute your casting ability modifier for any ability modifiers on damage rolls. In addition, substitute your casting ability modifier for the subject’s Dexterity modifier when determining armor class. When performing actions that would require a skill check, use your skill ranks plus your casting ability modifier for the check.
+
+Since the subject is only under your physical control, on their turn they can still take purely mental actions. You must use Hostile Lift to affect an unwilling creature, and they are allowed the normal Will saves to negate the effect.
+[[/div]]
+----
+
++ Telekinesis Sphere Feats
+[[div style="padding: 0 10px; border: 1px solid black; margin-top: 5px"]]
+++++ Alloy Telekinesis (Dual Sphere)
+**Prerequisites:** Telekinesis sphere, Nature sphere ((metal) package).
+
+**Benefit:** Whenever you use the (metal) geomancing Recover Ore ability, you may use telekinesis to Bludgeon another target creature or object with the metal ore recovered in this way, all as part of the same action. If you increase the casting time by 1 step (usually from a standard to full-round action), you may utilize your caster level instead of your base attack bonus for the first attack roll, and add your casting ability modifier to damage.
+[[/div]]
+[[div style="padding: 0 10px; border: 1px solid black; margin-top: 5px"]]
+++++ Beam Propulsion (Dual Sphere)
+**Prerequisites:** Light sphere, Telekinesis sphere.
+
+**Benefit:** By amplifying and focusing the tiny pressure exerted by light with your powers of telekinesis, you can move a target with the force of light alone. When you cause a target to glow, you may increase the casting time by one step to also lift it with your telekinesis as part of the same action. If using Area Glow, you can lift multiple objects if you also possess Divided Mind. You may concentrate to maintain the bright light of this glow and your telekinesis with a single action.
+[[/div]]
+[[div style="padding: 0 10px; border: 1px solid black; margin-top: 5px"]]
+++++ Enhancing Telekinesis (Dual Sphere)
+**Prerequisites:** Enhancement sphere, Telekinesis sphere.
+
+**Benefit:** When you lift an object with your telekinesis, as part of the same action you may enhance it with one enhancement you possess. You may concentrate on lifting and enhancing the item with a single action. Only a single object can benefit from this combination, even if you can enhance or lift more than one at a time.
+[[/div]]
+[[div style="padding: 0 10px; border: 1px solid black; margin-top: 5px"]]
+++++ Event Horizon (Dual Sphere)
+**Prerequisites:** Dark sphere, Telekinesis sphere (Gravity Well).
+
+**Benefit:** You may use the Gravity Well talent as a (darkness) talent covering the full area of a darkness or blot. You may do the same with the Gravity Shift talent. If you have Gravity Manipulation advanced talent, you may use it as a (darkness) or (blot) talent. When used as (darkness) or (blot) talents, Gravity Shift and Gravity Manipulation count as Dark sphere talents for determining caster level and bonus effects.
+[[/div]]
+[[div style="padding: 0 10px; border: 1px solid black; margin-top: 5px"]]
+++++ Extradimensional Assembly
+**Prerequisites:** Telekinesis sphere (Whirlwind Assembly), Warp sphere (Extradimensional Storage (space)).
+
+**Benefit:** When you use your Whirlwind Assembly talent you may access and swap items in and out of your extradimensional storage freely, without the need to use a second action or spend a spell point.
+[[/div]]
+[[div style="padding: 0 10px; border: 1px solid black; margin-top: 5px"]]
+++++ Floating Panoply
+**Prerequisites:** Enhancement sphere (Mass Enhancement), Telekinesis sphere (Divided Mind), Enhancing Telekinesis, caster level 7th.
+
+**Benefit:** When you use the Enhancing Telekinesis feat, you may spend a spell point to enhance every item you lift with Divided Mind, following the restrictions of Mass Enhancement.
+[[/div]]
+[[div style="padding: 0 10px; border: 1px solid black; margin-top: 5px"]]
+++++ Forceful Creation (Dual Sphere)
+**Prerequisites:** Creation sphere, Telekinesis sphere.
+
+**Benefit:** When you create an object, you may initiate and maintain the Sustained Force or Bludgeon telekinesis abilities as part of creating the object, so long as the object is within the normal limitations of those abilities. Additionally, if you spend a spell point to maintain the object without concentration, you may choose to maintain a Sustained Force on the object for the same duration without spending an additional spell point.
+[[/div]]
+[[div style="padding: 0 10px; border: 1px solid black; margin-top: 5px"]]
+++++ Forceful Hand (Dual Sphere)
+**Prerequisites:** Protection sphere, Telekinesis sphere.
+
+**Benefit:** You gain a (succor) talent that lets you sacrifice an aegis to use a telekinetic effect to defend the creature that bore the aegis. You may make a telekinetic Catch on an attack made on the creature, or, if you possess the Telekinetic Push talent, you may perform a push on an enemy that is adjacent to the creature.
+[[/div]]
+[[div style="padding: 0 10px; border: 1px solid black; margin-top: 5px"]]
+++++ Kinetic Creation (Dual Sphere)
+**Prerequisites:** Creation sphere, Telekinesis sphere, caster level 7th.
+
+**Benefit:** You can create items out of telekinetic force instead of matter. Objects made this way cannot incorporate any other materials and must be simple in construction, lacking intricate details or complex moving parts. This ‘material’ has hardness 10 and 3 hit points per inch, has no weight and cannot be moved, save by you through telekinesis. At the end of each round its hit points are fully replenished. Unlike other created objects, objects of telekinetic force are magical and can be dispelled, which also destroys them.
+
+**Special:** Telekinetic force made with the Create Materials advanced talent reforms itself over the course of an hour if destroyed, but not if dispelled.
+[[/div]]
+[[div style="padding: 0 10px; border: 1px solid black; margin-top: 5px"]]
+++++ Mind Against Body
+**Prerequisites:** Telekinesis sphere (Telekinetic Maneuver).
+
+**Benefit:** Rather than using your body to fight off more capable opponents, you employ your mind, fighting back with your full telekinetic power. You may substitute 10 + your Telekinesis sphere caster level + your casting ability modifier for your CMD when you are defending against a combat maneuver.
+[[/div]]
+[[div style="padding: 0 10px; border: 1px solid black; margin-top: 5px"]]
+++++ Piecemeal Animation (Dual Sphere)
+**Prerequisites:** Death sphere, Telekinesis sphere (Divided Mind).
+
+**Benefit:** When you reanimate a dead body, it does not need to be intact. So long as at least half the body remains you can animate it as if it was intact, stitching its broken form together with telekinetic forces that keep it upright and stable. You may even work with worse material than this, merging smaller pieces of different bodies and animating them as single whole so long as you have enough material and all pieces come from the same kind of creature.
+[[/div]]
+[[div style="padding: 0 10px; border: 1px solid black; margin-top: 5px"]]
+++++ Poltergeist’s Malice (Dual Sphere)
+Every mistake your foes make brings them closer to your service.
+
+**Prerequisites:** Death sphere (Poltergeist (ghost strike)), Telekinesis sphere (Telekinetic Maneuver).
+
+**Benefit:** You gain a bonus on CMB checks equal to your Poltergeist penalty when making Telekinetic Maneuver attempts against creatures suffering from your Poltergeist effect.
+[[/div]]
+[[div style="padding: 0 10px; border: 1px solid black; margin-top: 5px"]]
+++++ Propulsive Creation (Dual Sphere) [Apoc]
+^^**Source:** [https://www.drivethrurpg.com/product/350940/Spheres-Apocrypha-Battlefield-Manipulation-Talents?affiliate_id=549120 Spheres Apocrypha: Battlefield Manipulation Talents]^^
+
+**Prerequisites:** Creation sphere, Telekinesis sphere (Gravity Ward/Well).
+
+**Benefit:** You may spend a spell point to cause an object, gas, or liquid you alter or create to either possess a powerful attractive force or to violently repel nearby objects. This acts as a gravity ward or gravity well centered on the altered or created entity. The gravity ward or gravity well lasts only as long as you concentrate unless you spend an additional spell point to maintain it (in which case it lasts as long as a normal gravity ward/well created by you would).
+[[/div]]
+[[div style="padding: 0 10px; border: 1px solid black; margin-top: 5px"]]
+++++ Push/Pull Mastery (Drawback)
+**Prerequisites:** Telekinesis sphere (Directional Control drawback).
+
+You may use telekinesis to move objects both directly towards you and directly away from you. If you push or pull an object that does not move (for example, a building or the ground/ an object pushed into the ground) you may instead apply the movement to yourself, using the stalled momentum of your telekinesis to push or pull yourself in the opposite direction. This means that, as a standard action, you can move yourself at a speed equal to double your telekinesis speed but only towards or away from a stationary object that you can affect with telekinesis (if you end in the air, you do not fall until the end of your next turn). You may grant yourself this ability as a sustained force, gaining a fly speed equal to twice your telekinesis speed, but may only move in a single direction per move action that is toward or away from an appropriate object for telekinesis.
+[[/div]]
+[[div style="padding: 0 10px; border: 1px solid black; margin-top: 5px"]]
+++++ Skillful Force
+**Prerequisites:** Telekinesis sphere (Finesse, Steal, or Telekinetic Tools).
+
+**Benefit:** When using your telekinesis to perform skill checks as described in Finesse or Steal, you do not suffer the normal -5 skill check penalty. When using Telekinetic Tools, your mimicked tools are effectively masterwork and grant a +2 circumstance bonus on related checks.
+[[/div]]
+[[div style="padding: 0 10px; border: 1px solid black; margin-top: 5px"]]
+++++ Tactile Illusion (Dual Sphere)
+**Prerequisites:** Illusion sphere (Illusionary Touch (sensory, touch) x2), Telekinesis sphere (Finesse).
+
+**Benefit:** By weaving your illusions together with a hint of telekinetic force you can allow them to exert force more appropriate to their apparent nature. Your illusions can support weight or block movement of creatures or objects so long as all pressure and weight on it falls within the size limit of your telekinesis. However, anyone who disbelieves the illusion may choose to ignore the telekinetic effect, moving through the illusion as normal, as well as allowing them to throw or move items through it.
+
+In addition, you may deal lethal damage with your illusions instead of nonlethal damage.
+[[/div]]
+----
++ Protokinesis Feats
+Protokinesis feats represent innate telekinetic abilities, powers usable with minimal thought and effort in contrast to the magic of the [[[Telekinesis]]] sphere. They often develop unintentionally, without need for training or even awareness of them.
+
+Unless noted otherwise, the benefit granted by any protokinesis feat is a spell-like ability with a caster level equal to your character level. In addition, protokinesis feats do not function when you are unconscious.
+
+The effects of protokinesis feats last indefinitely unless otherwise noted, though they may be dismissed as a free action, or restarted as a standard action if they have been dispelled or dismissed.
+
++++ Protokinesis Feats and Class Features
+The classes in the following table may select a protokinesis feat as one of the following class features. As long as they have the casting class feature they need not have the Telekinesis sphere (but must meet all other prerequisites) and treat their class level as their caster level for the purpose of that feat. This stacks with caster levels from other sources normally. In addition, incanters, along with wizards and sorcerers who have an archetype that replaces spells with the casting class feature, may select protokinesis feats as bonus feats or bloodline feats and need not have the Telekinesis sphere to qualify.
+||~ Class ||~ Class Feature ||
+|| Alchemist || Discovery ||
+|| Armorist || Arsenal trick ||
+|| Hedgewitch || Secret ||
+|| Investigator || Investigator talent ||
+|| Mageknight || Mystic combat ||
+|| Magus || Arcana ||
+|| Ninja || Ninja trick ||
+|| Reaper || Reaper technique ||
+|| Rogue || Rogue talent ||
+|| Sage || Esotery ||
+|| Shaman || Hex ||
+|| Slayer || Slayer talent ||
+|| Vigilante || Vigilante talent ||
+|| Witch || Hex ||
+|| Wraith || Wrath haunt ||
+[[div style="padding: 0 10px; border: 1px solid black; margin-top: 5px"]]
+++++ Aggressive Mind Limb (combat, Protokinesis) [Apoc]
+^^**Source:** [https://www.drivethrurpg.com/product/288793/Spheres-Apocrypha-Protokinesis-Feats?affiliate_id=549120 Spheres Apocrypha: Protokinesis Feats]^^
+
+**Prerequisites:** Telekinesis sphere, Mind Limb, base attack bonus +5.
+
+**Benefit:** As long as your telekinetic limb is not carrying anything you may make attacks with it, using your casting ability modifier in place of your Strength modifier on the attack roll. This counts as an unarmed attack, but does not provoke an attack of opportunity. It deals nonlethal damage equal to your unarmed damage plus your casting ability modifier. You may also make one additional attack of opportunity per round, but it must be with your telekinetic limb. You may not use this attack of opportunity to do anything other than attack.
+
+**Special:** If you also have Telekinetic Fist, your telekinetic limb’s reach increases by 5 feet.
+[[/div]]
+[[div style="padding: 0 10px; border: 1px solid black; margin-top: 5px"]]
+++++ Counterweight (Protokinesis)
+**Prerequisites:** Acrobatics 3 ranks, Telekinesis sphere.
+
+**Benefit:** By applying your telekinetic powers to your own body you can stand on surfaces that could not normally support your weight, allowing you to balance on a single thread or walk across liquid, though you must still attempt Acrobatics checks to balance on narrow or difficult surfaces. You cannot walk on normal gaseous substances such as air or clouds, though you could balance on a solid fog spell. In addition, you may add your casting ability modifier as a bonus to Acrobatics checks.
+[[/div]]
+[[div style="padding: 0 10px; border: 1px solid black; margin-top: 5px"]]
+++++ Equal and Opposite (combat, Protokinesis) [Apoc]
+^^**Source:** [https://www.drivethrurpg.com/product/288793/Spheres-Apocrypha-Protokinesis-Feats?affiliate_id=549120 Spheres Apocrypha: Protokinesis Feats]^^
+
+**Prerequisites:** Telekinesis sphere, character level 5th.
+
+**Benefit:** When an enemy performs a combat maneuver against you, you may spend an immediate action to roll your own bull rush check opposing your opponent’s, using your caster level as your base attack bonus and adding your casting ability modifier instead of your Strength modifier but adding any other modifiers excluding size modifiers to bull rush checks you may have. This does not provoke an attack of opportunity. If your result is greater than the attacking creature’s result, the creature’s combat maneuver fails. If you beat it by at least 5, they instead are forced 5 feet directly away from you for every 5 by which your roll exceeds theirs. This movement counts as your bull rush for the purpose of determining whether the enemy provokes attacks of opportunity, but not for any other purposes.
+[[/div]]
+[[div style="padding: 0 10px; border: 1px solid black; margin-top: 5px"]]
+++++ Force Shield (Protokinesis)
+**Prerequisite:** Telekinesis sphere.
+
+**Benefit:** By forming a thin field of telekinetic force with your hand as a swift action you can gain a +2 shield bonus to your armor class, +1 per 5 caster levels in Telekinesis. This counts as a shield, except it imposes no spell failure or armor check penalty. You must keep at least one hand free to maintain your force shield.
+[[/div]]
+[[div style="padding: 0 10px; border: 1px solid black; margin-top: 5px"]]
+++++ Force Shield, Improved (Combat, Protokinesis) [Apoc]
+^^**Source:** [https://www.drivethrurpg.com/product/288793/Spheres-Apocrypha-Protokinesis-Feats?affiliate_id=549120 Spheres Apocrypha: Protokinesis Feats]^^
+
+**Prerequisites:** Telekinesis sphere, Force Shield, character level 5th.
+
+**Benefit:** The shield bonus to armor class provided by your force shield increases to +3, +1 per 5 caster levels, and while benefiting from it you count as wielding a light shield when beneficial for the purposes of class features and other effects. It counts as having hardness equal to half your caster level and 10 hit points. If broken, you may reform it as a swift action (as if it had been dispelled). You may also make shield bash attacks with it as if it were a light shield.
+[[/div]]
+[[div style="padding: 0 10px; border: 1px solid black; margin-top: 5px"]]
+++++ Gravitic Anomaly (Protokinesis)
+**Prerequisites:** Telekinesis sphere, Counterweight.
+
+**Benefit:** Due to your control over your personal gravity, you can move on walls and ceilings and other surfaces as if they were the ground. If you are tripped or fall prone, the area’s normal gravity reasserts itself and you fall to the ground, taking falling damage as appropriate for your distance above the ground.
+[[/div]]
+[[div style="padding: 0 10px; border: 1px solid black; margin-top: 5px"]]
+++++ Kinetic Drift (Protokinesis)
+**Prerequisites:** Telekinesis sphere, Counterweight, character level 5th.
+
+**Benefit:** You can float above the ground instead of walking. You can hover up to 1 foot above the ground, allowing you to ignore difficult terrain. When falling you may choose to descend at a slower rate to control your fall and to negate all falling damage you would take. Each round you descend 30 feet, and may move in another direction for 30 feet. You may choose to drift sideways, gliding forwards while descending, or down, safely increasing your rate of descent. You may even choose to drift ‘upwards’ to reduce your rate of descent, even allowing you to negate it entirely and hover midair.
+[[/div]]
+[[div style="padding: 0 10px; border: 1px solid black; margin-top: 5px"]]
+++++ Kinetic Juggler (Protokinesis) [Apoc]
+^^**Source:** [https://www.drivethrurpg.com/product/288793/Spheres-Apocrypha-Protokinesis-Feats?affiliate_id=549120 Spheres Apocrypha: Protokinesis Feats]^^
+
+**Prerequisites:** Telekinesis sphere, base attack bonus +1.
+
+**Benefit:** You may cause a weapon to float in mid-air for a brief moment. This allows you to take your hands off it as a free action and then grab it again (including with your telekinetic limb, if you have one) as a free action, during which time you may use them to perform any other action. If you move, your weapon follows you, remaining floating in your square. While floating you cannot make attacks with them, but they count as attended and either wielded or sheathed by you (whichever is more beneficial).
+
+**Special:** If you have the Quickdraw feat, as long as you have a free hand you may grab one of your floating weapons an immediate action.
+[[/div]]
+[[div style="padding: 0 10px; border: 1px solid black; margin-top: 5px"]]
+++++ Mind Limb (Protokinesis)
+**Prerequisite:** Telekinesis sphere.
+
+**Benefit:** Your telekinetic powers give you an additional arm made of telekinetic force. Your telekinetic limb functions much as a normal arm can, but to an extent can also act independently.
+
+As a swift action you can use it to draw a sheathed or hidden weapon, ready a shield, retrieve a stored item, load a crossbow, open a door, pick up an unattended item, sheathe or store an item, or take other non-offensive actions involving manipulating objects. Your telekinetic limb cannot effectively wield weapons or shields or activate magic items, but can pass such items to another hand as part of any other action it takes.
+[[/div]]
+[[div style="padding: 0 10px; border: 1px solid black; margin-top: 5px"]]
+++++ Poltergeist’s Fingers (Protokinesis) [Apoc]
+^^**Source:** [https://www.drivethrurpg.com/product/288793/Spheres-Apocrypha-Protokinesis-Feats?affiliate_id=549120 Spheres Apocrypha: Protokinesis Feats]^^
+
+**Prerequisites:** Sleight of Hand 3 ranks, Telekinesis sphere, Mind Limb.
+
+**Benefit:** You can use your telekinetic limb to perform steal combat maneuvers and make Sleight of Hand checks to hide an object, palm a weapon, or take something unnoticed. Perception checks to notice you doing so take a penalty equal to half your character level, and when you successfully perform a steal combat maneuver or take something unnoticed you may make a Sleight of Hand check to hide it as a free action.
+
+**Special:** If you have the Aggressive Mind Limb feat, you may use your additional attack of opportunity with your mind limb to attempt a steal combat maneuver.
+[[/div]]
+[[div style="padding: 0 10px; border: 1px solid black; margin-top: 5px"]]
+++++ Remote Jostle (Combat, Protokinesis) [Apoc]
+^^**Source:** [https://www.drivethrurpg.com/product/288793/Spheres-Apocrypha-Protokinesis-Feats?affiliate_id=549120 Spheres Apocrypha: Protokinesis Feats]^^
+
+**Prerequisite:** Telekinesis sphere.
+
+**Benefit:** As a swift action you may push a creature within close range (25 feet + 5 feet per 2 caster levels) off balance. If you succeed on a ranged touch attack they become battered (see Chapter 1 of Spheres of Might) and suffer one of the following effects, chosen when you use the ability, until the end of your next turn:
+* They take a -1 penalty to the next saving throw they make against a Telekinesis sphere ability.
+* They take a -1 penalty on Acrobatics checks. For every 4 caster levels, this penalty increases by 1.
+* They must make a Reflex saving throw (DC 10 + 1/2 your caster level + your casting ability modifier) or lose one attack of opportunity. If they can only make one attack of opportunity per round, they cannot make an attack of opportunity until the end of your next turn.
+[[/div]]
+[[div style="padding: 0 10px; border: 1px solid black; margin-top: 5px"]]
+++++ Telekinetic Exoskeleton (Protokinesis)
+**Prerequisites:** Telekinesis sphere, character level 3rd.
+
+**Benefit:** With your telekinesis you can supplement your physical skills. As a swift action you can give yourself one of the following benefits:
+* **Dampening Field:** You gain temporary hit points equal to your casting ability modifier.
+* **Propelling Force:** You gain a +10 feet enhancement bonus to your movement speeds.
+* **Tactile Telekinesis:** You add your casting ability modifier as a bonus to Strength checks, and Climb and Swim checks.
+
+These benefits lasts indefinitely. If you activate one of these benefits while a previous benefit is still in effect, the first benefit ends immediately.
+[[/div]]
+[[div style="padding: 0 10px; border: 1px solid black; margin-top: 5px"]]
+++++ Telekinetic Fist (Combat, Protokinesis) [Apoc]
+^^**Source:** [https://www.drivethrurpg.com/product/288793/Spheres-Apocrypha-Protokinesis-Feats?affiliate_id=549120 Spheres Apocrypha: Protokinesis Feats]^^
+
+**Prerequisites:** Telekinesis sphere, Improved Unarmed Strike, base attack bonus +5.
+
+**Benefit:** On your turn, your reach with your unarmed strikes is increased by 5 feet.
+[[/div]]
+[[div style="padding: 0 10px; border: 1px solid black; margin-top: 5px"]]
+++++ Telekinetic Trigger (Protokinesis) [Apoc]
+^^**Source:** [https://www.drivethrurpg.com/product/288793/Spheres-Apocrypha-Protokinesis-Feats?affiliate_id=549120 Spheres Apocrypha: Protokinesis Feats]^^
+
+**Prerequisites:** Use Magic Device 3 ranks, Telekinesis sphere, Mind Limb.
+
+**Benefit:** You can activate any command word, spell trigger, or spell completion magical item held in your telekinetic limb. This requires the same action normally required to activate the item and you are treated as having no base spheres except Telekinesis even if you possess them.
+[[/div]]
+[[div style="padding: 0 10px; border: 1px solid black; margin-top: 5px"]]
+++++ Telekineticat (Protokinesis) [Catgirl HB]
+With all your cosmic power and wisdom, you decided to form your raw and potent telekinetic power into the shape of a cat.
+
+**Prerequisites:** Telekinesis sphere; Mind sphere or Enhancement sphere (Bestow Intelligence (enhance)).
+
+**Benefits:** You gain a familiar, as the wizard arcane bond class feature. This familiar is always a cat, but may grant the familiar special ability from any other familiar. You treat your Telekinesis sphere caster level as your arcane caster level when determining your familiar’s abilities (to a maximum of your character level). Your familiar is treated as a force effect and can interact with incorporeal and ethereal creatures and objects as though they were corporeal. If you already possess a familiar, or gain one at a later time from another source, you may choose to have your effective arcane caster level from this feat stack with those from other sources (to a maximum of your character level). If you do not, you may not manifest your telekinetic cat while in the possession of another familiar.
+
+Unlike other familiars, this familiar is directly manifested by your telekinetic magic, and as such, is limited to your Telekinesis sphere range. If your familiar leaves this range, it is immediately dismissed. If your familiar is dismissed (either by being dispelled, walking outside your Telekinesis sphere range, etc.), you may resummon your familiar by spending 1 minute in meditation. If your familiar is dead, you may resummon your familiar whenever you would rest and regain resources.
+[[/div]]
+[[div style="padding: 0 10px; border: 1px solid black; margin-top: 5px"]]
+++++ Touchsense (Protokinesis)
+**Prerequisites:** Perception 5 ranks, Telekinesis sphere.
+
+**Benefit:** You can use your telekinesis to sense your surroundings, passively measuring vibrations in the ground. You gain tremorsense with a 15 feet range.
+
+**Special:** If you possess the Kinetic Sense talent, add 15 feet to the range of the tremorsense it provides.
+[[/div]]
+----
+[[div class="colored-links"]]
++ Archetypes Specializing in Telekinesis
+[[div style="padding: 0 10px; border: 1px solid black; margin-top: 5px"]]
+++ [[[Electrokinetic]]]
+The Electrokinetic is an archetype for the Elementalist that specializes in using electricity with Destructive Blasts and Telekinesis on metal objects.
+[[/div]]
+[[div style="padding: 0 10px; border: 1px solid black; margin-top: 5px"]]
+++ [[[Hekatonkheires]]]
+The Hekatonkheires is an archetype for the Symbiat that creates an immense number of mind limbs that can be used for various purposes.
+[[/div]]
+[[div style="padding: 0 10px; border: 1px solid black; margin-top: 5px"]]
+++ [[[Soaring Blade]]]
+The Soaring Blade is an archetype for the Armorist that focuses on levitating weapons throughout the battlefield.
+[[/div]]
+[[div style="padding: 0 10px; border: 1px solid black; margin-top: 5px"]]
+++ [[[Telekinetic Warrior]]]
+The Telekinetic Warrior is an archetype for the Symbiat that focuses on improving its use of Bludgeons.
+[[/div]]
+[[div style="padding: 0 10px; border: 1px solid black; margin-top: 5px"]]
+++ [[[Unseen Horror]]]
+The Unseen Horror is an archetype for the Thaumaturge that summons forth an invisible, mindless entity to perform tasks for them.
+[[/div]]
+[[div style="padding: 0 10px; border: 1px solid black; margin-top: 5px"]]
+++ ##00c000|[[[Vector]]]## [CS]
+The Vector is a Symbiat who has mastered more of their telekinetic powers.
+[[/div]]
+[[/div]]
+----
++ Wild Magic
+
+++++ Wild Magic Generator
+[[html]]
+<style>
+    * {
+    margin: 0;
+    padding: 0;
+    }
+    #container {
+    width: 90%;
+    margin: 90px auto;
+    padding: 10px;
+    border: 1px solid #606060;
+    }
+    .alignleft {
+    float: left;
+    }
+    .alignright {
+    float: right;
+    }
+</style>
+<div id="container">
+    <p class="alignjustify" id="randomResult">&nbsp;</p>
+    <button class="alignleft" id="button">Trigger Telekinesis Wild Magic</button>
+    <div style="clear: both;"></div>
+</div>
+<script>
+    function randString(){
+    	return stringArray[~~(rand()*stringArray.length)];
+    }
+    function randText(){
+    	var tx = randString();
+    	var txt = document.createTextNode(tx);
+    	var sp = document.createElement('span');
+    	sp.appendChild(txt);
+    	randomResult.innerHTML = '';
+    	randomResult.appendChild(sp);
+    }
+    rand = Math.random;
+    stringArray = ['1: All creatures within close range of the caster are targeted by a grapple check as the Telekinetic Maneuver talent. These grapple attempts persist against each affected creature for 1 round per caster level or until the creature manages to break free of the grapple or the grapple attempt fails. Once grappled, the effect attempts to pin, then to deal damage each round.', '2: The caster is exhausted.', '3: The target spins in place, receiving a -2 to attack rolls but gaining +1 dodge bonus to AC for the duration of the lift. The target must succeed on a Fortitude save or be sickened for the duration of the lift.', '4: (Combat) The caster is stunned for 1 round.', '5: For 1 hour per caster level, unattended objects of a size that the caster can effect with lift within close range of the caster float 5 ft. about their normal position if not fastened down. When this effect ends or when an object leaves the affected area, it floats harmlessly to the ground.', '6: The caster loses knowledge of any of the talents used in the effect (but not the base sphere) for the length of the effect (minimum 1 round).', '7: The spell point cost of the effect decreases by 1. If the effect did not require any spell points, the caster instead gains 1 temporary spell point that expires at the end of his next turn.', '8: Telekinetic forces aid in movement, but haphazardly. For 1 round per caster level, every time a creature other than the caster ends their movement within close range of the caster, they are moved 1d6 squares in a random direction (if possible, determined as a splash weapon).', '9: The caster takes 1d4 Constitution damage even if he would normally be immune to ability damage. Creatures without a Constitution score instead take Charisma damage.', '10: Random Diminutive nonmagical objects orbit the caster for 1 hour per caster level, imposing a -1 penalty on Perception and concentration checks.', '11: The caster is bombarded with nearby Diminutive, unattended objects, taking 1 bludgeoning damage per caster level.', '12: All hostile creatures within close range of the caster are targeted by a bull rush check to move them directly away from the caster as the Telekinetic Maneuver talent.', '13: All creatures within close range of the caster are tripped as the Telekinetic Maneuver talent.', '14: All creatures within close range of the caster have their held weapons targeted by a disarm maneuver as the Steal talent. Any weapon successfully disarmed in this way immediately makes a single attack against its former wielder as the bludgeon ability then drops to the ground.', '15: The casting time increases by 2 steps.', '16: All creatures within close range of the caster are targeted by a bull rush maneuver straight downward as the Telekinetic Maneuver talent. This deals 1d6 points of bludgeoning damage for every 5 ft. a creature is unable to move.', '17: For 1 hour per caster level, the weight of the equipment of the caster is doubled.', '18: Effect receives a -4 penalty to caster level (minimum 1).', '19: (Combat) The caster is dazed for 1 round.', '20: The caster takes untyped nonlethal damage equal to caster level. This damage does not force concentration checks to cast or maintain sphere effects or spells.', '21: The target spins in place violently, receiving a -4 to attack rolls but gaining +2 dodge bonus to AC for the duration of the lift. The target must succeed on a Fortitude save or be nauseated for the duration of the lift. A new save may be made as a move action each round; success reducing the nauseated condition to sickened.', '22: For 1 hour per caster level, the weight of the equipment of the caster is halved.', '23: All creatures within close range of the target or center of the target area are crushed by a telekinetic force, suffering 1 bludgeoning damage per caster level.', '24: All creatures within close range of the caster (excluding the caster) are crushed by a telekinetic force, suffering 1 bludgeoning damage per caster level per round for 1 round per caster level.', '25: All hostile creatures within close range of the target are targeted by a bull rush maneuver straight downward as the Telekinetic Maneuver talent. This deals 1d6 bludgeoning damage for every 5 ft. a creature is unable to move.', '26: All allied creatures within close range of the caster have their held weapons targeted by a disarm maneuver as the Steal talent. Any weapon successfully disarmed in this way immediately makes a single attack against its former wielder as the bludgeon ability then drops to the ground.', '27: The caster is fatigued.', '28: For 1 day per caster level, the caster is immune to falling damage.', '29: The caster makes a single magical skill check against all Telekinesis sphere effects within medium range to dispel them as if using the Counterspell feat. This is resolved after the triggering effect.', '30: (Combat) All allied creatures within close range of the caster are targeted by a bull rush maneuver straight downward as the Telekinetic Maneuver talent. This deals 1d6 bludgeoning damage for every 5 ft. a creature is unable to move.', '31: All allied creatures within close range of the caster are targeted by a grapple check as the Telekinetic Maneuver talent. These grapple attempts persist against each affected creature for 1 round per caster level or until the creature manages to break free of the grapple or the grapple attempt fails. Once grappled, the effect attempts to pin, then deal damage each round.', '32: All creatures within close range of the target are bull rushed away from the target as the Telekinetic Maneuver talent.', '33: All allied creatures within close range of the caster have their held weapons targeted by a disarm maneuver as the Steal talent. Weapons successfully disarmed in this way move toward the caster at up to his lift speed then drop to the ground.', '34: Roll twice and take both results. Ignore any results that require rerolls. If both rolls thus ignored, there is no effect.', '35: One object currently in the hands of the caster flies away at his lift speed and attempts to strike the nearest creature (other than the caster) within lift range as the bludgeon ability. The object drops to the ground after one such attack.', '36: All creatures within close range of the target are tripped as the Telekinetic Maneuver talent.', '37: For 1 hour per caster level, the loads of all creatures within lift range of the target are reduced by 5 lbs per caster level.', '38: (Combat) Movement becomes unstable around the caster. For 1 round per caster level, every time a creature (other than the caster) begins their movement within close range of the caster, they must succeed on a Will save or move in a random direction. Their movement pattern stays the same, but the direction moved is determined randomly, as a miss with a splash weapon.', '39: For 1 hour per caster level, the loads of all creatures within lift range of the target are increased by 5 lbs per caster level.', '40: For 1 round per caster level, one weapon in the possession of the caster but that is not currently wielded leaves their possession and attempts to stay as far from the caster as possible, to the limits of his lift range.', '41: Effect receives a +2 bonus to caster level.', '42: The target or creatures in the target area immediately fly 100 ft. in a random direction, (as a splash weapon miss). They move to the furthest safe space in this direction up to this distance and stop; they cannot slam into a wall or pass through or end the movement in an intrinsically dangerous space.', '43: All creatures within close range of the caster must succeed on a Will save or begin falling upward at a rate of 5 ft. per round. This effect prevents the creature from falling but otherwise has no impact on the movement of the creature for that round, provided it has a move speed suitable to its environment (flight if in the air, swim if below water, burrow if underground). This effect lasts for 1 round per caster level.', '44: (Combat) For 1 round per caster level, all ranged attacks are drawn to the caster, granting a +1 + 1 per 5 caster level circumstance bonus on all ranged attacks made with natural or manufactured weapons targeting the caster.', '45: One object currently in the hands of the caster flies away at his lift speed and attempts to strike the nearest hostile creature within lift range as the bludgeon ability. The object drops to the ground after one such attack.', '46: The casting time decreases by 2 steps.', '47: The effect fails, but the action is not lost. Spell points or spell slots spent are lost.', '48: (Combat) Every creature within close range of the caster is suddenly tied up in any belts, laces, or straps that are part of their clothing. If they are wearing clothing or carrying belts or bags, they become entangled for 1 round per caster level.', '49: All creatures within close range of the caster are targeted by a drag maneuver as the Telekinetic Maneuver talent, moving them toward the caster.', '50: The casting time increases by 1 step.', '51: The spell point cost of the effect increases by 1. If the caster does not have enough spell points, he is instead staggered until the end of his next turn.', '52: All hostile creatures within close range of the target are targeted by a drag maneuver toward the target as the Telekinetic Maneuver talent.', '53: Invisible force aids motion. For 1 round per caster level, all squares within close range of the caster cost half the normal movement cost.', '54: All allied creatures within close range of the caster have their held weapons targeted by a disarm maneuver as the Steal talent. Weapons successfully disarmed in this way move toward the caster at up to his lift speed and attempt and attack against him as the bludgeon ability, then drop to the ground.', '55: (Combat) The caster is nauseated for 1 round.', '56: All hostile creatures within close range of the caster have their held weapons targeted by a disarm maneuver as the Steal talent. Weapons successfully disarmed in this way move toward the caster at up to his lift speed then drop to the ground.', '57: Once per round for 1 round per caster level, a small unattended non-magical object (stone, twig, spoon, etc.) flies toward the head of the caster, inflicting 1 point of nonlethal damage, then falls unharmed to the ground. A successful Reflex save negates this damage each round.', '58: All hostile creatures within close range of the caster have their held weapons targeted by a disarm maneuver as the Steal talent. Any weapon successfully disarmed in this way immediately makes a single attack against its former wielder as the bludgeon ability then drops to the ground.', '59: For 1 hour per caster level, the loads of all creatures within lift range of the caster are increased by 5 lbs per caster level.', '60: All creatures within close range of the target are targeted by a bull rush maneuver straight downward as the Telekinetic Maneuver talent. This deals 1d6 points of bludgeoning damage for every 5 ft. a creature is unable to move.', '61: For 1 hour per caster level, the weight of the equipment of all creatures within close range is halved.', '62: (Combat) For 1 round per caster level, all ranged attacks near the caster are partially deflected, imposing a -1 - 1 per 5 caster level penalty on all ranged attacks made with natural or manufactured weapons targeting creatures within close range of the caster.', '63: (Combat) All allied creatures within close range of the target are targeted by a bull rush maneuver away from the target as the Telekinetic Maneuver talent.', '64: All hostile creatures within close range of the target or center of the target area are targeted by a bull rush check to move them directly away from the target or center of the target area as the Telekinetic Maneuver talent.', '65: The caster gains knowledge of one talent of his choice from this sphere for 1 round.', '66: The caster immediately flies 100 ft. in a random direction, (as a splash weapon miss). The caster moves to the furthest safe space in this direction up to this distance and stops; the caster cannot slam into a wall or pass through or end the movement in an intrinsically dangerous space.', '67: All unattended objects of Small size or smaller within close range of the caster begin to spin slowly, like a top, for 1d6 rounds.', '68: For 1 day per caster level, the caster takes double falling damage.', '69: For 1 round per caster level, all ranged attacks are repelled from the caster, imposing a -1 - 1 per 5 caster level penalty on all ranged attacks made with natural or manufactured weapons targeting the caster for 1 round per caster level.', '70: One object currently in the hands of the caster flies away at his lift speed and attempts to strike the caster as the bludgeon ability. The object drops to the ground after one such attack.', '71: Telekinetic force grabs the fists and feet of creatures and forces them to hit themselves. All creatures within close range of the caster (including the caster) must immediately deal their unarmed strike damage to themselves.', '72: The effect fails and the action is lost. Spell points or spell slots are lost.', '73: The caster makes a single magical skill check against all Telekinesis sphere effects within medium range to dispel them as if using the Counterspell feat. This is resolved before the triggering effect.', '74: For 1 hour per caster level, the weight of the equipment of all creatures within close range is doubled.', '75: Telekinetic force increases the weight of the target creature or object, allowing it to be treated as being 2 sizes larger than it is when calculating its bludgeoning damage.', '76: The caster floats 1 inch off the ground for 10 minutes per caster level. This has no impact on movement speeds or falling damage.', '77: The casting time decreases by 1 step.', '78: Roll again on the Universal wild magic table.', '79: For 1 hour per caster level, the loads of all creatures within lift range of the caster are reduced by 5 lbs per caster level.', '80: All creatures within close range of the caster have their held weapons targeted by a disarm maneuver as the Steal talent. Weapons successfully disarmed in this way move toward the caster at up to his lift speed then drop to the ground.', '81: All creatures within close range of the caster are bull rushed away from the caster as the Telekinetic Maneuver talent.', '82: The caster spins in place, receiving a -2 to attack rolls but gaining +1 dodge bonus to AC for the duration of the effect. The caster must succeed on a Fortitude save or be sickened for the duration of the effect.', '83: Invisible force hinders motion. For 1 round per caster level, all squares within close range of the caster cost double the normal movement cost and 5-foot steps are impossible.', '84: The caster has their feet manipulated telekinetically, making them dance uncontrollably. Their movement is halved.', '85: The caster takes a number of points of ability damage to his casting attribute equal to the caster level/4 (minimum 1) of the effect, even if he would normally be immune to ability damage.', '86: The caster loses access to this sphere for 1d6 rounds.', '87: Roll twice and choose the result. Ignore any results that require rerolls. If both rolls thus ignored, there is no effect.', '88: The spell point cost of the effect increases by 1d4. If the caster does not have enough spell points, he is instead dazed until the end of his next turn.', '89: (Combat) All allied creatures within close range of the caster are targeted by a bull rush maneuver away from the caster as the Telekinetic Maneuver talent.', '90: For 1 minute per caster level, the caster partially levitates, reducing ground-based movement speeds by half and taking a penalty to CMD against bullrush, drag, and reposition combat maneuvers equal to caster level.', '91: One object currently in the hands of the caster flies away at his lift speed and attempts to strike the nearest allied creature (other than the caster) within lift range as the bludgeon ability. The object drops to the ground after one such attack.', '92: All hostile creatures within close range of the target are targeted by a trip maneuver as the Telekinetic Maneuver talent.', '93: All hostile creatures within close range of the caster have their held weapons targeted by a disarm maneuver as the Steal talent. Weapons successfully disarmed in this way move toward the caster at up to his lift speed and attempt and attack against him as the bludgeon ability, then drop to the ground.', '94: All creatures within close range of the target are targeted by a drag maneuver as the Telekinetic Maneuver talent, moving them toward the target or center of the target area.', '95: The effect fails and the action is lost. Spell points or spell slots are not lost.', '96: All hostile creatures within close range of the caster are targeted by a trip maneuver as the Telekinetic Maneuver talent.', '97: All hostile creatures within close range of the caster are targeted by a drag maneuver toward the caster as the Telekinetic Maneuver talent.', '98: A random nearby unattended object of a size the caster can lift begins floating and follows the caster for 1 hour at the lift speed of the caster.', '99: All creatures within close range of the caster (but not the caster himself) are treated as if they were carrying a heavy load for 1 round per caster level, regardless of how much they are actually carrying.', '100: All creatures within close range of the caster have their held weapons targeted by a disarm maneuver as the Steal talent. Weapons successfully disarmed in this way move toward the caster at up to his lift speed and attempt and attack against him as the bludgeon ability, then drop to the ground.'];
+    randomResult = document.getElementById('randomResult');
+    document.getElementById("button").addEventListener('click',randText,false);
+</script>
+[[/html]]
+
+++++ Wild Magic Table
+||~ d100 ||~ Result ||
+|| 1 || All creatures within close range of the caster are targeted by a grapple check as the Telekinetic Maneuver talent. These grapple attempts persist against each affected creature for 1 round per caster level or until the creature manages to break free of the grapple or the grapple attempt fails. Once grappled, the effect attempts to pin, then to deal damage each round. ||
+|| 2 || The caster is exhausted. ||
+|| 3 || The target spins in place, receiving a -2 to attack rolls but gaining +1 dodge bonus to AC for the duration of the lift. The target must succeed on a Fortitude save or be sickened for the duration of the lift. ||
+|| 4 || (Combat) The caster is stunned for 1 round. ||
+|| 5 || For 1 hour per caster level, unattended objects of a size that the caster can effect with lift within close range of the caster float 5 ft. about their normal position if not fastened down. When this effect ends or when an object leaves the affected area, it floats harmlessly to the ground. ||
+|| 6 || The caster loses knowledge of any of the talents used in the effect (but not the base sphere) for the length of the effect (minimum 1 round). ||
+|| 7 || The spell point cost of the effect decreases by 1. If the effect did not require any spell points, the caster instead gains 1 temporary spell point that expires at the end of his next turn. ||
+|| 8 || Telekinetic forces aid in movement, but haphazardly. For 1 round per caster level, every time a creature other than the caster ends their movement within close range of the caster, they are moved 1d6 squares in a random direction (if possible, determined as a splash weapon). ||
+|| 9 || The caster takes 1d4 Constitution damage even if he would normally be immune to ability damage. Creatures without a Constitution score instead take Charisma damage. ||
+|| 10 || Random Diminutive nonmagical objects orbit the caster for 1 hour per caster level, imposing a -1 penalty on Perception and concentration checks. ||
+|| 11 || The caster is bombarded with nearby Diminutive, unattended objects, taking 1 bludgeoning damage per caster level. ||
+|| 12 || All hostile creatures within close range of the caster are targeted by a bull rush check to move them directly away from the caster as the Telekinetic Maneuver talent. ||
+|| 13 || All creatures within close range of the caster are tripped as the Telekinetic Maneuver talent. ||
+|| 14 || All creatures within close range of the caster have their held weapons targeted by a disarm maneuver as the Steal talent. Any weapon successfully disarmed in this way immediately makes a single attack against its former wielder as the bludgeon ability then drops to the ground. ||
+|| 15 || The casting time increases by 2 steps. ||
+|| 16 || All creatures within close range of the caster are targeted by a bull rush maneuver straight downward as the Telekinetic Maneuver talent. This deals 1d6 points of bludgeoning damage for every 5 ft. a creature is unable to move. ||
+|| 17 || For 1 hour per caster level, the weight of the caster’s equipment is doubled. ||
+|| 18 || Effect receives a -4 penalty to caster level (minimum 1). ||
+|| 19 || (Combat) The caster is dazed for 1 round. ||
+|| 20 || The caster takes untyped nonlethal damage equal to caster level. This damage does not force concentration checks to cast or maintain sphere effects or spells. ||
+|| 21 || The target spins in place violently, receiving a -4 to attack rolls but gaining +2 dodge bonus to AC for the duration of the lift. The target must succeed on a Fortitude save or be nauseated for the duration of the lift. A new save may be made as a move action each round; success reducing the nauseated condition to sickened. ||
+|| 22 || For 1 hour per caster level, the weight of the caster’s equipment is halved. ||
+|| 23 || All creatures within close range of the target or center of the target area are crushed by a telekinetic force, suffering 1 bludgeoning damage per caster level. ||
+|| 24 || All creatures within close range of the caster (excluding the caster) are crushed by a telekinetic force, suffering 1 bludgeoning damage per caster level per round for 1 round per caster level. ||
+|| 25 || All hostile creatures within close range of the target are targeted by a bull rush maneuver straight downward as the Telekinetic Maneuver talent. This deals 1d6 bludgeoning damage for every 5 ft. a creature is unable to move. ||
+|| 26 || All allied creatures within close range of the caster have their held weapons targeted by a disarm maneuver as the Steal talent. Any weapon successfully disarmed in this way immediately makes a single attack against its former wielder as the bludgeon ability then drops to the ground. ||
+|| 27 || The caster is fatigued. ||
+|| 28 || For 1 day per caster level, the caster is immune to falling damage. ||
+|| 29 || The caster makes a single magical skill check against all Telekinesis sphere effects within medium range to dispel them as if using the Counterspell feat. This is resolved after the triggering effect. ||
+|| 30 || (Combat) All allied creatures within close range of the caster are targeted by a bull rush maneuver straight downward as the Telekinetic Maneuver talent. This deals 1d6 bludgeoning damage for every 5 ft. a creature is unable to move. ||
+|| 31 || All allied creatures within close range of the caster are targeted by a grapple check as the Telekinetic Maneuver talent. These grapple attempts persist against each affected creature for 1 round per caster level or until the creature manages to break free of the grapple or the grapple attempt fails. Once grappled, the effect attempts to pin, then deal damage each round. ||
+|| 32 || All creatures within close range of the target are bull rushed away from the target as the Telekinetic Maneuver talent. ||
+|| 33 || All allied creatures within close range of the caster have their held weapons targeted by a disarm maneuver as the Steal talent. Weapons successfully disarmed in this way move toward the caster at up to his lift speed then drop to the ground. ||
+|| 34 || Roll twice and take both results. Ignore any results that require rerolls. If both rolls thus ignored, there is no effect. ||
+|| 35 || One object currently in the caster’s hands flies away at his lift speed and attempts to strike the nearest creature (other than the caster) within lift range as the bludgeon ability. The object drops to the ground after one such attack. ||
+|| 36 || All creatures within close range of the target are tripped as the Telekinetic Maneuver talent. ||
+|| 37 || For 1 hour per caster level, the loads of all creatures within lift range of the target are reduced by 5 lbs per caster level. ||
+|| 38 || (Combat) Movement becomes unstable around the caster. For 1 round per caster level, every time a creature (other than the caster) begins their movement within close range of the caster, they must succeed on a Will save or move in a random direction. Their movement pattern stays the same, but the direction moved is determined randomly, as a miss with a splash weapon. ||
+|| 39 || For 1 hour per caster level, the loads of all creatures within lift range of the target are increased by 5 lbs per caster level. ||
+|| 40 || For 1 round per caster level, one weapon in the caster’s possession but that is not currently wielded leaves the caster’s possession and attempts to stay as far from the caster as possible, to the limits of his lift range. ||
+|| 41 || Effect receives a +2 bonus to caster level. ||
+|| 42 || The target or creatures in the target area immediately fly 100 ft. in a random direction, (as a splash weapon miss). They move to the furthest safe space in this direction up to this distance and stop; they cannot slam into a wall or pass through or end the movement in an intrinsically dangerous space. ||
+|| 43 || All creatures within close range of the caster must succeed on a Will save or begin falling upward at a rate of 5 ft. per round. This effect prevents the creature from falling but otherwise has no impact on the creature’s movement for that round, provided it has a move speed suitable to its environment (flight if in the air, swim if below water, burrow if underground). This effect lasts for 1 round per caster level. ||
+|| 44 || (Combat) For 1 round per caster level, all ranged attacks are drawn to the caster, granting a +1 + 1 per 5 caster level circumstance bonus on all ranged attacks made with natural or manufactured weapons targeting the caster. ||
+|| 45 || One object currently in the caster’s hands flies away at his lift speed and attempts to strike the nearest hostile creature within lift range as the bludgeon ability. The object drops to the ground after one such attack. ||
+|| 46 || The casting time decreases by 2 steps. ||
+|| 47 || The effect fails, but the action is not lost. Spell points or spell slots spent are lost. ||
+|| 48 || (Combat) Every creature within close range of the caster is suddenly tied up in any belts, laces, or straps that are part of their clothing. If they are wearing clothing or carrying belts or bags, they become entangled for 1 round per caster level. ||
+|| 49 || All creatures within close range of the caster are targeted by a drag maneuver as the Telekinetic Maneuver talent, moving them toward the caster. ||
+|| 50 || The casting time increases by 1 step. ||
+|| 51 || The spell point cost of the effect increases by 1. If the caster does not have enough spell points, he is instead staggered until the end of his next turn. ||
+|| 52 || All hostile creatures within close range of the target are targeted by a drag maneuver toward the target as the Telekinetic Maneuver talent. ||
+|| 53 || Invisible force aids motion. For 1 round per caster level, all squares within close range of the caster cost half the normal movement cost. ||
+|| 54 || All allied creatures within close range of the caster have their held weapons targeted by a disarm maneuver as the Steal talent. Weapons successfully disarmed in this way move toward the caster at up to his lift speed and attempt and attack against him as the bludgeon ability, then drop to the ground. ||
+|| 55 || (Combat) The caster is nauseated for 1 round. ||
+|| 56 || All hostile creatures within close range of the caster have their held weapons targeted by a disarm maneuver as the Steal talent. Weapons successfully disarmed in this way move toward the caster at up to his lift speed then drop to the ground. ||
+|| 57 || Once per round for 1 round per caster level, a small unattended non-magical object (stone, twig, spoon, etc.) flies toward the caster’s head, inflicting 1 point of nonlethal damage, then falls unharmed to the ground. A successful Reflex save negates this damage each round. ||
+|| 58 || All hostile creatures within close range of the caster have their held weapons targeted by a disarm maneuver as the Steal talent. Any weapon successfully disarmed in this way immediately makes a single attack against its former wielder as the bludgeon ability then drops to the ground. ||
+|| 59 || For 1 hour per caster level, the loads of all creatures within lift range of the caster are increased by 5 lbs per caster level. ||
+|| 60 || All creatures within close range of the target are targeted by a bull rush maneuver straight downward as the Telekinetic Maneuver talent. This deals 1d6 points of bludgeoning damage for every 5 ft. a creature is unable to move. ||
+|| 61 || For 1 hour per caster level, the weight of the equipment of all creatures within close range is halved. ||
+|| 62 || (Combat) For 1 round per caster level, all ranged attacks near the caster are partially deflected, imposing a -1 - 1 per 5 caster level penalty on all ranged attacks made with natural or manufactured weapons targeting creatures within close range of the caster. ||
+|| 63 || (Combat) All allied creatures within close range of the target are targeted by a bull rush maneuver away from the target as the Telekinetic Maneuver talent. ||
+|| 64 || All hostile creatures within close range of the target or center of the target area are are targeted by a bull rush check to move them directly away from the target or center of the target area as the Telekinetic Maneuver talent. ||
+|| 65 || The caster gains knowledge of one talent of his choice from this sphere for 1 round. ||
+|| 66 || The caster immediately flies 100 ft. in a random direction, (as a splash weapon miss). The caster moves to the furthest safe space in this direction up to this distance and stops; the caster cannot slam into a wall or pass through or end the movement in an intrinsically dangerous space. ||
+|| 67 || All unattended objects of Small size or smaller within close range of the caster begin to spin slowly, like a top, for 1d6 rounds. ||
+|| 68 || For 1 day per caster level, the caster takes double falling damage. ||
+|| 69 || For 1 round per caster level, all ranged attacks are repelled from the caster, imposing a -1 - 1 per 5 caster level penalty on all ranged attacks made with natural or manufactured weapons targeting the caster for 1 round per caster level. ||
+|| 70 || One object currently in the caster’s hands flies away at his lift speed and attempts to strike the caster as the bludgeon ability. The object drops to the ground after one such attack. ||
+|| 71 || Telekinetic forced grab creatures’ fists and feet and force them to hit themselves. All creatures within close range of the caster (including the caster) must immediately deal their unarmed strike damage to themselves. ||
+|| 72 || The effect fails and the action is lost. Spell points or spell slots are lost. ||
+|| 73 || The caster makes a single magical skill check against all Telekinesis sphere effects within medium range to dispel them as if using the Counterspell feat. This is resolved before the triggering effect. ||
+|| 74 || For 1 hour per caster level, the weight of the equipment of all creatures within close range is doubled. ||
+|| 75 || Telekinetic force increases the weight of the target creature or object, allowing it to be treated as being 2 sizes larger than it is when calculating its bludgeoning damage. ||
+|| 76 || The caster floats 1 inch off the ground for 10 minutes per caster level. This has no impact on movement speeds or falling damage. ||
+|| 77 || The casting time decreases by 1 step. ||
+|| 78 || Roll again on the Universal wild magic table. ||
+|| 79 || For 1 hour per caster level, the loads of all creatures within lift range of the caster are reduced by 5 lbs per caster level. ||
+|| 80 || All creatures within close range of the caster have their held weapons targeted by a disarm maneuver as the Steal talent. Weapons successfully disarmed in this way move toward the caster at up to his lift speed then drop to the ground. ||
+|| 81 || All creatures within close range of the caster are bull rushed away from the caster as the Telekinetic Maneuver talent. ||
+|| 82 || The caster spins in place, receiving a -2 to attack rolls but gaining +1 dodge bonus to AC for the duration of the effect. The caster must succeed on a Fortitude save or be sickened for the duration of the effect. ||
+|| 83 || Invisible force hinders motion. For 1 round per caster level, all squares within close range of the caster cost double the normal movement cost and 5-foot steps are impossible. ||
+|| 84 || The caster has their feet manipulated telekinetically, making them dance uncontrollably. Their movement is halved. ||
+|| 85 || The caster takes a number of points of ability damage to his casting attribute equal to the effect’s caster level/4 (minimum 1) even if he would normally be immune to ability damage. ||
+|| 86 || The caster loses access to this sphere for 1d6 rounds. ||
+|| 87 || Roll twice and choose the result. Ignore any results that require rerolls. If both rolls thus ignored, there is no effect. ||
+|| 88 || The spell point cost of the effect increases by 1d4. If the caster does not have enough spell points, he is instead dazed until the end of his next turn. ||
+|| 89 || (Combat) All allied creatures within close range of the caster are targeted by a bull rush maneuver away from the caster as the Telekinetic Maneuver talent. ||
+|| 90 || For 1 minute per caster level, the caster partially levitates, reducing ground-based movement speeds by half and taking a penalty to CMD against bullrush, drag, and reposition combat maneuvers equal to caster level. ||
+|| 91 || One object currently in the caster’s hands flies away at his lift speed and attempts to strike the nearest allied creature (other than the caster) within lift range as the bludgeon ability. The object drops to the ground after one such attack. ||
+|| 92 || All hostile creatures within close range of the target are targeted by a trip maneuver as the Telekinetic Maneuver talent. ||
+|| 93 || All hostile creatures within close range of the caster have their held weapons targeted by a disarm maneuver as the Steal talent. Weapons successfully disarmed in this way move toward the caster at up to his lift speed and attempt and attack against him as the bludgeon ability, then drop to the ground. ||
+|| 94 || All creatures within close range of the target are targeted by a drag maneuver as the Telekinetic Maneuver talent, moving them toward the target or center of the target area. ||
+|| 95 || The effect fails and the action is lost. Spell points or spell slots are not lost. ||
+|| 96 || All hostile creatures within close range of the caster are targeted by a trip maneuver as the Telekinetic Maneuver talent. ||
+|| 97 || All hostile creatures within close range of the caster are targeted by a drag maneuver toward the caster as the Telekinetic Maneuver talent. ||
+|| 98 || A random nearby unattended object of a size the caster can lift begins floating and follows the caster for 1 hour at the speed of the caster’s lift. ||
+|| 99 || All creatures within close range of the caster (but not the caster himself) are treated as if they were carrying a heavy load for 1 round per caster level, regardless of how much they are actually carrying. ||
+|| 100 || All creatures within close range of the caster have their held weapons targeted by a disarm maneuver as the Steal talent. Weapons successfully disarmed in this way move toward the caster at up to his lift speed and attempt and attack against him as the bludgeon ability, then drop to the ground. ||
+[[/tab]]
+[[tab Original]]
+[[include old-telekinesis]]
+[[/tab]]
+[[/tabview]]
+
+----
+
+[[include sop-template]]
