@@ -38,6 +38,8 @@ jobs:
       - name: Run Crawler
         run: |
           cd crawler
+          # Force cache checking to ignore commits authored by TaylorTurnerIT or copilot to find the true last wikidot change
+          sed -i 's@'\''--format=%at'\''@'\''--format=%at'\'', '\''--perl-regexp'\'', '\''--author=^((?!TaylorTurnerIT|copilot).)*$'\''@' crawl.py
           uv sync
           # The sitemap optimization we added will trigger on this command!
           uv run python crawl.py http://spheresofpower.wikidot.com --dump ../dump-repo
