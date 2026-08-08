@@ -95,6 +95,11 @@ You may apply a coating to one weapon (including ranged weapons, which apply the
 
 Once applied, coatings remain active for a number of rounds equal to your Practitioner modifier + 1 per 4 ranks in Craft (alchemy). Additional damage from a coating is never multiplied on a critical hit, but otherwise stacks with effects such as flaming, shock, or corrosive.
 
+++++ Chemical Cocktail [DRS]
+^^**Source:** [https://www.drivethrurpg.com/en/product/574642/diamond-spheres-erudition-esoterica Diamond Spheres: Erudition & Esoterica]^^
+
+If you are benefitting from more than one mutagen at once, you gain a +2 bonus to saving throws against poison effects (excluding a mutagen’s toxicity) and treat your Craft ranks as being 1 higher for determining the mutagen’s effects. This increases by +2/+1 for every 6 ranks in Craft (alchemy) you possess.
+
 ++++ Controlled Rupture
 Whenever you throw a splash weapon, you can select a number of squares equal to your practitioner modifier that are not affected by the splash damage from it. If the splash weapon misses, this talent has no effect.
 
@@ -511,6 +516,13 @@ A creature subjected to this mutagen becomes numbed to pain. The next time the c
 
 Additionally, the creature also gains a +2 circumstance bonus to saving throws against pain effects, +1 per 4 ranks in Craft (alchemy) you possess.
 
+++++ Adrenal Stimulator (mutagen, toxin) [DRS]
+^^**Source:** [https://www.drivethrurpg.com/en/product/574642/diamond-spheres-erudition-esoterica Diamond Spheres: Erudition & Esoterica]^^
+
+When a creature is subjected to this mutagen, they choose one of the following: a single Strength- or Dexterity-based skill check, Strength-based ability checks, or Dexterity-based ability checks. The creature gains +2 alchemical bonus to the next check they make with the chosen ability or skill, increasing by +1 per 3 ranks in Craft (alchemy) you possess.
+
+**Toxicity**: The creature becomes fatigued for 10 minutes on a failed save.
+
 ++++ Catalyzed Poison (toxin) [Apoc]
 ^^**Source:** [https://www.drivethrurpg.com/product/320796/Spheres-Apocrypha-Alchemy-Poisons-2?affiliate_id=549120 Spheres Apocrypha: Alchemy Poisons 2]^^
 
@@ -545,6 +557,15 @@ You may choose for your poison to disrupt a creature’s ability to focus. As lo
 ++++ Drowsy Venom (toxin)
 Creatures who fail two consecutive saving throws against your poison are exhausted instead of fatigued. Creatures who fail three consecutive saving throws lose consciousness and fall asleep. Slapping or wounding awakens an affected creature, but normal noise does not. Awakening a creature is a standard action (an application of the aid another action).
 
+++++ Endorphine Shot (mutagen, toxin) [DRS]
+^^**Source:** [https://www.drivethrurpg.com/en/product/574642/diamond-spheres-erudition-esoterica Diamond Spheres: Erudition & Esoterica]^^
+
+A creature subject to this mutagen gains a delayed damage pool equal to twice your ranks in Craft (alchemy). If the creature already has a delayed damage pool, it stacks.
+
+**Toxicity**: The creature becomes fatigued for 10 minutes on a failed save.
+
+//Rule Reminder—Delayed Damage//: Whenever you would take damage, you may redirect any amount of it to your delayed damage pool, as long as it does not exceed the pool’s maximum capacity. Damage reduction and resistances are applied before redirecting the damage. Your delayed damage pool empties at the end of your turn each round, resetting it to 0 and inflicting any damage stored in the pool on you, bypassing any resistances you possess. Any additional effects of the attack, such as poison, are still incurred immediately even if the entire damage of the attack is redirected to the delayed damage pool. Any healing you receive in excess of your maximum hp automatically reduces the amount of damage in your delayed damage pool.
+
 ++++ Frightening Hallucinogen (toxin)
 You may choose for your poison to make the creature shaken instead of fatigued. Creatures who fail two consecutive saving throws against this poison are instead frightened, and creatures who fail three consecutive saving throws become panicked. This is a fear effect.
 
@@ -559,6 +580,17 @@ Instead of becoming fatigued, the target suffers a -5 penalty on Sense Motive ch
 Instead of causing fatigue, your poison thins the target’s blood greatly. Creatures under the effects of this poison suffer 1 additional point of bleed damage whenever they would take bleed damage. For every 4 ranks in Craft (alchemy) you possess, creatures suffer 1 additional point of bleed damage. Additionally, whenever the creature would suffer a critical hit, the creature suffers an additional 1d4 points of bleed damage.
 
 A creature under the effects of this poison is also considered to be taking bleed damage for the purposes of the blood control sphere ability of the Blood sphere.
+
+++++ Hypervigilance Serum (mutagen, toxin) [DRS]
+^^**Source:** [https://www.drivethrurpg.com/en/product/574642/diamond-spheres-erudition-esoterica Diamond Spheres: Erudition & Esoterica]^^
+
+When a creature is subjected to this mutagen, they enter a heightened state of awareness. For 1 hour, whenever you miss due to miss chance, you can reroll the percentile roll and take the new result. Also, you can’t be flat-footed and don’t lose your Dexterity bonus to AC against melee attacks made by invisible creatures. You can still lose your Dexterity bonus to AC through other methods (such as being feinted).
+
+While benefitting from this mutagen, you suffer a -3 penalty to Perception checks as well as to all Dexterity-based skill checks, as it becomes difficult to make fine, controlled movements.
+
+**Toxicity**: The creature becomes sickened for 10 minutes on a failed save.
+
+**Associated Feat**: Blind-Fight.
 
 ++++ Mind Venom (toxin)
 You may choose for your poison to make the creature confused instead of fatigued. This is a mind-affecting effect.
@@ -599,6 +631,17 @@ Instead of becoming fatigued, the target suffers a -4 penalty on all skill check
 
 ++++ Three Wise Monkeys (toxin) [High. HB]
 You may choose for your poison to make the creature deafened instead of fatigued. Creatures who fail two consecutive saving throws against this poison are also blinded, and creatures who fail three consecutive saving throws are also silenced, becoming unable to speak or provide verbal components for spells or abilities.
+
+++++ Vitiating Venom (toxin) [DRS]
+^^**Source:** [https://www.drivethrurpg.com/en/product/574642/diamond-spheres-erudition-esoterica Diamond Spheres: Erudition & Esoterica]^^
+
+Instead of making the creature fatigued, the creature gains weakness 2 against a damage type of your choice (chosen when the poison is created), +1 per 3 ranks in Craft (alchemy) you possess.
+
+//Rule Reminder—Damage Weakness//: Some abilities may grant the user or a target a weakness to a certain damage type. Unlike vulnerability, a weakness to a damage type always has a value (fire weakness 3 for example).
+
+Whenever a creature suffers damage with the same type as a weakness that they are suffering from, the damage is increased by the value of the weakness. For example, if you had acid weakness 5 and were about to suffer 16 acid damage, you would instead suffer 21 acid damage. 
+
+If you are suffering from more than one weakness to the same damage type, only the highest is applied. A damage weakness is applied before resistances and vulnerabilities—any ability that would identify or affect a damage vulnerability does the same for a damage weakness.
 
 ++++ Vulnerability Venom (toxin) [Apoc]
 ^^**Source:** [https://www.drivethrurpg.com/product/295353/Spheres-Apocrypha-Alchemical-Poisons?affiliate_id=549120 Spheres Apocrypha: Alchemical Poisons]^^
