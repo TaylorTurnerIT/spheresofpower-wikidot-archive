@@ -156,6 +156,20 @@ You may spend a spell point to arc your destructive blast between multiple targe
 ++++ Energy Aura (blast shape)
 As a move action, you may spend a spell point to surround yourself with an aura of elemental energies for a number of rounds equal to your casting ability modifier; any creature that ends its turn within 5 feet + 5 feet per 10 caster levels of you is affected by your destructive blast, though the damage is reduced to its minimum (so a 4d6 blast would deal 4 damage, or 12 with Crafted Blast). A Reflex save negates this damage. You may only have one aura active at a time; casting it again ends the previous instance.
 [[/div]]
+
+[[div style="padding: 0 10px; border: 1px solid black; margin-top: 5px"]]
+++++ Energy Beam (blast shape) [DRS]
+^^**Source:** [https://www.drivethrurpg.com/en/product/574642/diamond-spheres-erudition-esoterica Diamond Spheres: Erudition & Esoterica]^^
+
+You can spend 1 spell point to channel a constant beam of destructive energy. 
+
+The beam is an up to close-range line that emanates from you and remains for as long as you concentrate on it—if you move more than 10 feet in a turn, your concentration is broken immediately. If you do move, the end point of the beam moves in the same way (but does not change direction unless you shift it, noted below).
+
+When the beam is first created—and on subsequent rounds that it is concentrated on—you can move the end point of the beam up to 10 feet in any direction (albeit within close range), plus 5 feet per 4 caster levels you possess.
+
+If a creature is within the area as the beam is created, moves into the beam (or has it moved into them), or ends their turn within the beam, they are subject to the destructive blast’s damage and effects as normal (Reflex halves). An individual creature can only suffer this damage once per round.
+[[/div]]
+
 [[div style="padding: 0 10px; border: 1px solid black; margin-top: 5px"]]
 ++++ Energy Bomb (blast shape) [instill]
 As a standard action, you may touch a small container of liquid and spend a spell point to instill a destructive blast inside it. As a standard action, this can be primed and thrown as a splash weapon. A direct hit deals the destructive blast’s damage to the target and damage equal to the minimum blast damage is dealt in a 5-foot splash radius. Any creature taking damage from either the direct hit or the splash must save against any additional effects of the blast type.
@@ -274,18 +288,58 @@ You may spend a spell point to have your destructive blast deal untyped damage. 
 ++++ Blistering Blast (blast type, fire)
 Your destructive blast deals fire damage. Any creature struck by the attack or that failed their Reflex saving throw if one was required suffers a -2 penalty on Fortitude saves for 1d4 rounds.
 [[/div]]
+
 [[div style="padding: 0 10px; border: 1px solid black; margin-top: 5px"]]
+++++ Corrosive Blast (blast type, acid) [DRS]
+^^**Source:** [https://www.drivethrurpg.com/en/product/574642/diamond-spheres-erudition-esoterica Diamond Spheres: Erudition & Esoterica]^^
+
+You can spend 1 spell point to have your destructive blast deal acid damage. Any creature struck by the attack or that failed their Reflex saving throw (if one was required) must succeed at a Fortitude save or gain bludgeoning, piercing, and slashing weakness equal to 1/2 the number of damage dice of the destructive blast for 1d4 rounds. This weakness is only applied once in an individual attack (so a weapon that deals both piercing and bludgeoning damage only subjects the creature to the highest weakness they possess).
+
+[[collapsible show="+ Rule Reminder—Damage Weakness" hide="- Hide"]]
+[[note]]
+**Rule Reminder—Damage Weakness**
+Some abilities may grant the user or a target a weakness to a certain damage type. Unlike vulnerability, a weakness to a damage type always has a value (fire weakness 3 for example). 
+
+Whenever a creature suffers damage with the same type as a weakness that they are suffering from, the damage is increased by the value of the weakness. For example, if you had acid weakness 5 and were about to suffer 16 acid damage, you would instead suffer 21 acid damage. 
+
+If you are suffering from more than one weakness to the same damage type, only the highest is applied. A damage weakness is applied before resistances and vulnerabilities—any ability that would identify or affect a damage vulnerability does the same for a damage weakness.
+[[/note]]
+[[/collapsible]]
+[[/div]]
+
+[[div style="padding: 0 10px; border: 1px solid black; margin-top: 5px"]]
+
 ++++ Crystal Blast (blast type, crystal)
 Your destructive blast becomes an explosion of crystal, growing where it strikes. A crystal blast uses d4 instead of d6 as its damage die and deals piercing damage. Any creature struck by the attack or that failed their Reflex saving throw if one was required must succeed at a Reflex save or be entangled and unable to move. In addition, the target’s square (or the blast’s affected area) becomes overgrown with crystal and counts as difficult terrain. Breaking free of the entangled condition is a move action, requiring either a Strength check or an Escape Artist check against the crystal blast’s save DC. A target may also destroy the crystal on a square or creature by dealing 3 damage per caster level to the crystal. This removes the entangled condition from the creature and destroys the difficult terrain. Crystal disappears after 1 minute.
 [[/div]]
+
+[[div style="padding: 0 10px; border: 1px solid black; margin-top: 5px"]]
+++++ Drenching Blast (blast type, cold) [DRS]
+^^**Source:** [https://www.drivethrurpg.com/en/product/574642/diamond-spheres-erudition-esoterica Diamond Spheres: Erudition & Esoterica]^^
+
+Your destructive blast deals bludgeoning damage. Any creature struck by the attack or that failed their Reflex saving throw (if one was required) gains cold and electricity weakness equal to 1/2 the number of damage dice of the destructive blast for 1 round.
+[[collapsible show="+ Rule Reminder—Damage Weakness" hide="- Hide"]]
+[[note]]
+**Rule Reminder—Damage Weakness**
+Some abilities may grant the user or a target a weakness to a certain damage type. Unlike vulnerability, a weakness to a damage type always has a value (fire weakness 3 for example). 
+
+Whenever a creature suffers damage with the same type as a weakness that they are suffering from, the damage is increased by the value of the weakness. For example, if you had acid weakness 5 and were about to suffer 16 acid damage, you would instead suffer 21 acid damage. 
+
+If you are suffering from more than one weakness to the same damage type, only the highest is applied. A damage weakness is applied before resistances and vulnerabilities—any ability that would identify or affect a damage vulnerability does the same for a damage weakness.
+[[/note]]
+[[/collapsible]]
+[[/div]]
+
 [[div style="padding: 0 10px; border: 1px solid black; margin-top: 5px"]]
 ++++ Drowning Blast (blast type, cold)
 You may spend a spell point to have your destructive blast become a stream of water, pounding your foe, disorienting and choking them. This deals bludgeoning damage and any creature struck by the attack or that failed their Reflex saving throw if one was required are considered wet and must succeed at a Fortitude save or be nauseated for 1 round. The water disappears at the end of your turn, but fires extinguished or creatures soaked by the water continue to be so.
 [[/div]]
+
 [[div style="padding: 0 10px; border: 1px solid black; margin-top: 5px"]]
 ++++ Electric Blast (blast type, electricity)
 You may change the damage type of your destructive blast from bludgeoning to electricity. Targets wearing metal armor or primarily comprised of metal suffer a -3 penalty to AC and to saving throws against an electric blast. An electric blast can ignite combustibles, and melt metals with a low melting point, such as lead, gold, copper, silver, or bronze.
 [[/div]]
+
 [[div style="padding: 0 10px; border: 1px solid black; margin-top: 5px"]]
 ++++ Fire Blast (blast type, fire)
 Your destructive blast deals fire damage. Any creature struck by the attack or that failed their Reflex saving throw if one was required must succeed at a Reflex save or catch fire. A burning creature takes 1d6 damage the following round, plus 1d6 per round until the flames are extinguished. Each round the target may attempt another Reflex save to attempt to extinguish the flames. Rolling on the ground or using a blanket to smother the flames (a full-round action) grants the target a +4 bonus to that round’s saving throw.
@@ -294,6 +348,24 @@ Your destructive blast deals fire damage. Any creature struck by the attack or t
 ++++ Force Blast (blast type, force)
 You may spend a spell point to change the damage type of your destructive blast to force. Any creature struck by the attack or that failed their Reflex saving throw if one was required must succeed at a Reflex save or fall prone.
 [[/div]]
+
+[[div style="padding: 0 10px; border: 1px solid black; margin-top: 5px"]]
+++++ Freezing Blast (blast type, cold) [DRS]
+^^**Source:** [https://www.drivethrurpg.com/en/product/574642/diamond-spheres-erudition-esoterica Diamond Spheres: Erudition & Esoterica]^^
+
+Your destructive blast deals cold damage. Any creature struck by the attack or that failed their Reflex saving throw (if one was required) must succeed at a Fortitude save or gain bludgeoning and cold weakness equal to 1/2 the number of damage dice of the destructive blast for 1d4 rounds.
+[[collapsible show="+ Rule Reminder—Damage Weakness" hide="- Hide"]]
+[[note]]
+**Rule Reminder—Damage Weakness**
+Some abilities may grant the user or a target a weakness to a certain damage type. Unlike vulnerability, a weakness to a damage type always has a value (fire weakness 3 for example). 
+
+Whenever a creature suffers damage with the same type as a weakness that they are suffering from, the damage is increased by the value of the weakness. For example, if you had acid weakness 5 and were about to suffer 16 acid damage, you would instead suffer 21 acid damage. 
+
+If you are suffering from more than one weakness to the same damage type, only the highest is applied. A damage weakness is applied before resistances and vulnerabilities—any ability that would identify or affect a damage vulnerability does the same for a damage weakness.
+[[/note]]
+[[/collapsible]]
+[[/div]]
+
 [[div style="padding: 0 10px; border: 1px solid black; margin-top: 5px"]]
 ++++ Frost Blast (blast type, cold)
 You may change the damage type of your destructive blast to cold. Any creature struck by the attack or that failed their Reflex saving throw if one was required must succeed at a Fortitude save or be staggered for 1 round.
@@ -358,6 +430,14 @@ You craft your destructive blast into a series of jagged crystal shards, dealing
 
 A charging or running creature must immediately stop if it fails this saving throw. Any creature moving at half speed or slower can pick its way through the area with no trouble. A creature need only attempt one saving throw per round to avoid this effect, no matter how many affected spaces they cross over that round. Crystals can also be destroyed by dealing 1 point of damage per caster level to the crystal in a particular space. Crystal also disappears after 1 minute.
 [[/div]]
+
+[[div style="padding: 0 10px; border: 1px solid black; margin-top: 5px"]]
+++++ Resonating Blast (blast type, sonic) [DRS]
+^^**Source:** [https://www.drivethrurpg.com/en/product/574642/diamond-spheres-erudition-esoterica Diamond Spheres: Erudition & Esoterica]^^
+
+You can spend 1 spell point to have your destructive blast deal sonic damage. A resonating blast uses d4s instead of d6s. The blast does full damage to objects, and causes any objects that are damaged by it to become resonant for 1d4+1 rounds. While resonant, the object’s hardness is reduced by your caster level, and it no longer halves energy damage dealt to it.
+[[/div]]
+
 [[div style="padding: 0 10px; border: 1px solid black; margin-top: 5px"]]
 ++++ Reverberating Blast (blast type, sonic)
 You may spend a spell point to make your destructive blast become a thundering sonic boom, dealing sonic damage. Any creature struck by the attack or that failed their Reflex saving throw if one was required must succeed at a Fortitude save or suffer a penalty to concentration checks and all mental skill checks equal to 1/2 your caster level for 1d4 rounds.
@@ -394,6 +474,24 @@ You may spend a spell point to have your destructive blast deal electricity dama
 ++++ Stone Blast (blast type, stone)
 You may change the damage type of your destructive blast to slashing, piercing, and bludgeoning. A stone blast ignores spell resistance, spell turning, and can penetrate a globe of invulnerability, antimagic field, or other forms of antimagic, and is not treated as a spell or magical for the purpose of bypassing damage reduction, damaging incorporeal creatures, or for creatures or classes that gain a bonus to saving throws against magic. These stones disappear after 1 minute.
 [[/div]]
+
+[[div style="padding: 0 10px; border: 1px solid black; margin-top: 5px"]]
+++++ Sweltering Blast (blast type, fire) [DRS]
+^^**Source:** [https://www.drivethrurpg.com/en/product/574642/diamond-spheres-erudition-esoterica Diamond Spheres: Erudition & Esoterica]^^
+
+Your destructive blast deals fire damage. Any creature struck by the attack or that failed their Reflex saving throw (if one was required) must succeed at a Fortitude save or gain fire and nonlethal weakness equal to 1/2  the number of damage dice of the destructive blast for 1d4 rounds.
+[[collapsible show="+ Rule Reminder—Damage Weakness" hide="- Hide"]]
+[[note]]
+**Rule Reminder—Damage Weakness**
+Some abilities may grant the user or a target a weakness to a certain damage type. Unlike vulnerability, a weakness to a damage type always has a value (fire weakness 3 for example). 
+
+Whenever a creature suffers damage with the same type as a weakness that they are suffering from, the damage is increased by the value of the weakness. For example, if you had acid weakness 5 and were about to suffer 16 acid damage, you would instead suffer 21 acid damage. 
+
+If you are suffering from more than one weakness to the same damage type, only the highest is applied. A damage weakness is applied before resistances and vulnerabilities—any ability that would identify or affect a damage vulnerability does the same for a damage weakness.
+[[/note]]
+[[/collapsible]]
+[[/div]]
+
 [[div style="padding: 0 10px; border: 1px solid black; margin-top: 5px"]]
 ++++ Tenebrous Blast (blast type, negative)
 Your destructive blast deals negative energy damage. Any creature struck by the attack or that failed their Reflex saving throw if one was required suffers a -2 penalty on attack rolls for 1d4 rounds. Undead creatures take no damage, but are instead sickened for 1 round. This bypasses the immunities of the undead type.
@@ -1270,6 +1368,7 @@ Some effects, especially those that deny standard actions such as nauseated, daz
 || Blind || Y || 1 round || 8 ||
 || Combat Maneuver || N/A || N/A || 5 ||
 || Concealment for all creatures || Y || 1 round || 5 ||
+|| Damage weakness = # 1/2 dice (or full dice for 5 points) || N || 1 round || 3 or 5 ||
 || Dazed || Y || 1 round || 10 ||
 || Dazzle || N || 1 round || 2 ||
 || Deafened || Y || 2d4 rounds || 4 ||
