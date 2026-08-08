@@ -224,6 +224,7 @@ This table below can be used as a quick reference to determine which die results
 || Biological || — || — || — || — || Y || Y || Fortitude || 
 || Empirical || Y || — || Y || — || Y || — || Wisdom || 
 || Equilibrium || Y || — || — || Y || — || — || AC || 
+|| Foundational || — || — || — || Y || — || Y || MSD ||
 || Heroic |||||||||||| Technique Complexity values || Technique Success %|| 
 || Holistic || — || Y || Y || — || Y || — || Increase Theory Bonus || 
 || Immutable || — || Y || — || — || Y || — || Temp HP || 
@@ -234,10 +235,12 @@ This table below can be used as a quick reference to determine which die results
 || Mechanical || — || Y || — || Y || — || Y || Intelligence || 
 || Morality || — || — || Y || — || — || Y || Concentration || 
 || Narrative |||||||||||| Sums of 7 || Spell resistance || 
-|| Phenomenology |||||||||||| Unfitting values || Wild Magic || 
+|| Phenomenology |||||||||||| Unfitting values || Wild Magic ||
+|| Psychological |||||||||||| Doubling values || Reroll low rolls ||
 || Relativism || — || Y || Y || — || — || — || Dexterity || 
-|| Social |||||||||||| Consecutive values || Charisma|| 
+|| Social |||||||||||| Consecutive values || Charisma || 
 || Solipsism || Y || — || — || — || — || Y || Damage || 
+|| Superstition || Y || — || Y || — || — || — || Gain/avoid miss chance || 
 || Unprovability || Y || Y || — || — || — || — || Will || 
 
 ++++ Biological
@@ -277,6 +280,17 @@ All magic can be traced back to a single origin which you seek to understand
 **Magical Underpinning:** As a free action, the theorist may spend all of their hypothesis dice assigned to this model to gain a single magic, combat, or skill talent they meet the prerequisites for until the end of their next turn. For every six dice spent beyond the first six, the theorist may select an additional talent.
 
 **Theory Bonus:** A theorist with the etiology model may apply their theory bonus to any magic skill check made against another caster’s MSD that they attempt.
+
+++++ Foundational [DRS]
+^^**Source:** [https://www.drivethrurpg.com/en/product/574642/diamond-spheres-erudition-esoterica Diamond Spheres: Erudition & Esoterica]^^
+
+Magic is best understood when the basics are mastered first—one must understand the rules well before they begin to break them.
+
+**Pattern:** Composite values. Any hypothesis dice which roll values of 4 or 6 may be assigned to the foundational model.
+
+**Magical Underpinning:** Whenever the theorist would spend no spell points on a single magic sphere effect, the effect gains a +1 insight bonus to caster level of the effect, plus 1 per 6 theorist levels they possess.
+
+**Theory Bonus:** As part of creating a magic sphere effect, a theorist may apply half their theory bonus as an increase to the MSD of the effect (minimum 1).
 
 ++++ Heroic [SM—]
 ^^**Source:** Baron's Glorious Arena^^
@@ -401,6 +415,17 @@ Magic is an abomination against nature and reality, a perversion of how the stru
 
 **Theory Bonus:** As part of creating a magic sphere effect, a theorist may apply twice their theory bonus as an increase to the DCs of any skill checks made to understand or interact with the effect (such as identifying an effect with Spellcraft, see through a created disguise with Perception, or moving across ground you have frozen using Acrobatics).
 
+++++ Psychological [DRS]
+^^**Source:** [https://www.drivethrurpg.com/en/product/574642/diamond-spheres-erudition-esoterica Diamond Spheres: Erudition & Esoterica]^^
+
+The mind—just like magic—is incredibly complex, and is informed by a plethora of external and internal factors.
+
+**Pattern**: Doubling values. If any hypothesis dice roll a value that is double that of another hypothesis dice (1 and 2, 2 and 4, 3 and 6), those dice may be assigned to the psychological model.
+
+**Magical Underpinning**: Whenever the theorist perceives an ally succeed—or an enemy fail—a saving throw or skill check, they gain a +1 bonus to saving throws of that type or skill checks which use the triggering check’s ability score for 1 round. These bonuses increase by 1 at 6th level and every 6 levels thereafter.
+
+**Theory Bonus**: Whenever the theorist rolls a d20 and the result is equal to or less than their theory bonus, they can spend a hypothesis die to reroll the d20 roll and add half their theory bonus to the attempt. The theorist must take this new result, even if it is worse.
+
 ++++ Relativist
 Magic’s functions may be inconsistent between practitioners and phenomena. Understanding how different patterns might interact can be the key to success.
 
@@ -427,6 +452,17 @@ The phenomenal is an extension of one’s own will upon the universe, and so res
 **Magical Underpinning:** Whenever the theorist rerolls a die as a result of a magic or skill sphere effect, the theorist gains a +2 bonus on the result of the reroll. This increases by 2 at 5th level and every 5 levels thereafter.
 
 **Theory Bonus:** A theorist with the solipsism model may apply twice their theory bonus to any damage roll they make.
+
+++++ Superstition [DRS]
+^^**Source:** [https://www.drivethrurpg.com/en/product/574642/diamond-spheres-erudition-esoterica Diamond Spheres: Erudition & Esoterica]^^
+
+Some may see the unknowns of magic as a flaw, a problem to solve—you see these mysteries as a strength.
+
+**Pattern:** Unlucky values. Any hypothesis dice which roll values of 1 or 3 may be assigned to the superstition model.
+
+**Magical Underpinning:** Whenever a creature fails a saving throw against one of the theorist’s magic sphere effects, the theorist can choose to have the creature incur either a 20% spell failure chance or a 20% miss chance to all of their attacks for 1 round. This percentage chance increases by 10% at 5th level and every 5 levels thereafter.
+
+**Theory Bonus:** A theorist with the superstition model may spend a free action usable outside of their turn to either gain a miss chance against a single attack equal to 10% per point of theory bonus, or to reduce any miss chance a single attack they attempt is subject to by the same amount.
 
 ++++ Unprovability
 Even the most rigorously detailed models are bound by incompleteness, and understanding these faults in logic allows you to undermine the efforts of your foes.
