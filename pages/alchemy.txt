@@ -35,6 +35,11 @@ $0.99
 $0.99
 
 ----
+[[image http://spheresofpower.wikidot.com/local--files/occultism/erudite.jpg link="https://www.drivethrurpg.com/en/product/574642/diamond-spheres-erudition-esoterica?affiliate_id=3028400"]]
+**Diamond Spheres: Erudition & Esoterica**
+$9.99
+
+----
 [[/=]]
 [[/div]]Training in the Alchemy combat sphere teaches you how to quickly and efficiently combine volatile chemicals for new or enhanced effects.
 
@@ -63,6 +68,13 @@ After creating a poison, you may make a melee touch attack against a target (if 
 (Toxin) talents modify your poison in some way, causing it to have a variety of different effects. You may apply a single (toxin) talent to your poison at the time of creation.
 
 You cannot gain a (formulae) talent unless you possess the (formulae) package, nor a (toxin) talent unless you possess the (poison) package.
+
++++ ##993300|Mutagen Talents [DRS]##
+The (mutagen) tag denotes a type of toxin that provides a benefit to a creature that is subject to its effects, instead of the normal effects of the toxin. Unless otherwise specified, a mutagen lasts for 1 minute. Then, the creature cannot benefit from the same mutagen again for 1 hour—if a creature attempts to, they immediately suffer the mutagen’s toxicity effect (no save) and gain no benefits from the mutagen. This also applies if they attempt to benefit from the same mutagen while benefitting from it.
+
+A mutagen can be delivered as any other toxin, although an inhaled mutagen only fills a 5-foot cube and only retains their effects if administered to one creature—otherwise its effects become too diluted. If a creature is unwilling, they gain a Fortitude save to avoid being subject to the mutagen.
+
+**Toxicity**: Most mutagens have a toxicity effect. After the duration of a mutagen has elapsed, the creature must succeed at a Fortitude save or suffer the listed toxicity effect of the mutagen. This is a poison effect.
 
 +++ ##993300|Note: The Alchemy Sphere and Other Poisons##
 Unless stated otherwise within the talent, Alchemy talents that involve poisons only work for poisons created with the Alchemy sphere itself. They do not improve poisons created through other means, such as traditional crafting or class features from outside the Spheres system.
@@ -174,10 +186,10 @@ You can apply an additional war paint to yourself, plus an additional paint for 
 
 **Normal:** You can only have one war paint color active at a time.
 
-++++ Pill Popper [Apoc]
-^^**Source:** [https://www.drivethrurpg.com/product/320796/Spheres-Apocrypha-Alchemy-Poisons-2?affiliate_id=549120 Spheres Apocrypha: Alchemy Poisons 2]^^
+++++ Pill Popper [Apoc, DRS]
+^^**Source:** [https://www.drivethrurpg.com/product/320796/Spheres-Apocrypha-Alchemy-Poisons-2?affiliate_id=549120 Spheres Apocrypha: Alchemy Poisons 2] / [https://www.drivethrurpg.com/en/product/574642/diamond-spheres-erudition-esoterica Diamond Spheres: Erudition & Esoterica]^^
 
-Whenever you would only be able to benefit from an Alchemy sphere poison once an hour, you can instead benefit once every 10 minutes.
+Your mutagens can be benefitted from once per 10 minutes, instead of once per hour.
 
 ++++ Potent Poison
 The duration of the effects of your poisons are doubled.
@@ -483,23 +495,33 @@ You can increase the Craft DC for this formulae in increments of 5 to increase t
 
 + ##993300|Toxin Talents##
 
-++++ Academic Enhancer (toxin) [Apoc]
-^^**Source:** [https://www.drivethrurpg.com/product/320796/Spheres-Apocrypha-Alchemy-Poisons-2?affiliate_id=549120 Spheres Apocrypha: Alchemy Poisons 2]^^
+++++ Academic Enhancer (mutagen, toxin) [Apoc, DRS]
+^^**Source:** [https://www.drivethrurpg.com/product/320796/Spheres-Apocrypha-Alchemy-Poisons-2?affiliate_id=549120 Spheres Apocrypha: Alchemy Poisons 2] / [https://www.drivethrurpg.com/en/product/574642/diamond-spheres-erudition-esoterica Diamond Spheres: Erudition & Esoterica]^^
 
-You may choose for your poison to not cause fatigue, but instead to enhance the mental aptitude of those subjected to it (this talent cannot be used with a contact or inhaled poison). Those who are under the effects of this poison gain a +2 alchemical bonus to either their Intelligence, Wisdom, or Charisma (chosen upon creation) and a -2 penalty to one of the creature’s physical scores for 1 minute. If this enhances the creature’s Intelligence, it applies a penalty to their Strength. If it enhances the creature’s Wisdom, it applies a penalty to their Dexterity. If it enhances the creature’s Charisma, it applies a penalty to their Constitution. At the end of this talent’s duration, the creature must succeed at a Fortitude save or be sickened for 10 minutes. If you possess at least 10 ranks in Craft (alchemy), this bonus increases by +2. A creature cannot benefit from an Academic Enhancer more than once per hour.
+A creature subject to this mutagen gains a +2 alchemical bonus to either their Intelligence, Wisdom, or Charisma (chosen upon creation) and a -2 penalty to the corresponding physical score (Strength to Intelligence, Dexterity to Wisdom, and Constitution to Charisma).
 
-++++ Anesthetic Dosage (toxin)
-Instead of causing fatigue, your poison makes the target numb (this talent cannot be used with a contact or inhaled poison). Those who are under the effects of this poison can convert the next 2 hit points of lethal damage they take to nonlethal damage; this effect last for 1 minute or until expended. For every rank in Craft (alchemy) you possess, the creature can convert an additional 2 hit points of lethal damage into nonlethal damage. The creature also gains a +2 circumstance bonus against spells and abilities with the (pain) descriptor, +1 for every 4 ranks in Craft (alchemy) you possess. A creature cannot benefit from an Anesthetic Dosage more than once per hour.
+At 10 ranks in Craft (alchemy), this bonus increases by +2.
+
+**Toxicity**: The creature becomes sickened for 10 minutes on a failed save.
+
+++++ Anesthetic Dosage (mutagen, toxin) [DRS]
+^^**Source:** [https://www.drivethrurpg.com/en/product/574642/diamond-spheres-erudition-esoterica Diamond Spheres: Erudition & Esoterica]^^
+
+A creature subjected to this mutagen becomes numbed to pain. The next time the creature suffers lethal damage, they convert up to an amount equal to twice your ranks in Craft (alchemy) to nonlethal damage.
+
+Additionally, the creature also gains a +2 circumstance bonus to saving throws against pain effects, +1 per 4 ranks in Craft (alchemy) you possess.
 
 ++++ Catalyzed Poison (toxin) [Apoc]
 ^^**Source:** [https://www.drivethrurpg.com/product/320796/Spheres-Apocrypha-Alchemy-Poisons-2?affiliate_id=549120 Spheres Apocrypha: Alchemy Poisons 2]^^
 
 You must expend an existing non-Alchemy sphere poison in your possession as part of creating this poison, and the type of poison created must be of the same type (inhaled, injury, etc.) as the poison expended. Instead of causing  fatigue, your poison makes the target suffer the effects of the expended poison. Creatures who fail consecutive saving throws against this poison are subject to the secondary and tertiary effects of this poison (if any). The poison is still  treated as an Alchemy sphere poison; using your Alchemy sphere DCs, and benefiting from your Alchemy sphere talents, and its effects (excluding damage) lasting as long as an Alchemy sphere poison.
 
-++++ Concentration Aid (toxin) [Apoc]
-^^**Source:** [https://www.drivethrurpg.com/product/320796/Spheres-Apocrypha-Alchemy-Poisons-2?affiliate_id=549120 Spheres Apocrypha: Alchemy Poisons 2]^^
+++++ Concentration Aid (mutagen, toxin) [Apoc, DRS]
+^^**Source:** [https://www.drivethrurpg.com/product/320796/Spheres-Apocrypha-Alchemy-Poisons-2?affiliate_id=549120 Spheres Apocrypha: Alchemy Poisons 2] / [https://www.drivethrurpg.com/en/product/574642/diamond-spheres-erudition-esoterica Diamond Spheres: Erudition & Esoterica]^^
 
-You may choose for your poison to not cause fatigue instantly, but instead to enhance the concentration of those  subjected to it (this talent cannot be used with a contact or inhaled poison). Those who are under the effects of this poison gain a +3 alchemical bonus to their concentration checks, but suffer an equivalent penalty to Perception checks  for 1 minute. At the end of this talent’s duration, the creature must succeed at a Fortitude save or be fatigued for 10 minutes. If you possess at least 10 ranks in Craft (alchemy), this bonus increases by +2. A creature cannot benefit from a concentration aid more than once per hour.
+A creature subjected to this mutagen gains a +3 alchemical bonus to concentration checks, but suffers an equivalent penalty to Perception checks. This bonus increases by +1 per 5 ranks in Craft (alchemy) you possess.
+
+**Toxicity**: The creature becomes fatigued for 10 minutes on a failed save.
 
 ++++ Degenerating Poison (toxin) [Apoc]
 ^^**Source:** [https://www.drivethrurpg.com/product/295353/Spheres-Apocrypha-Alchemical-Poisons?affiliate_id=549120 Spheres Apocrypha: Alchemical Poisons]^^
@@ -551,11 +573,21 @@ In addition to making the target fatigued, the target also suffers damage equal 
 
 **Author's Note:** When you take Painful Venin a second time, its effects apply to every other (toxin) you use. Using Painful Venin does not "double up" this damage, and it is effectively unnecessary to use Painful Venin by itself.
 
-++++ Performance Enhancer (toxin)
-You may choose for your poison to not cause fatigue, but instead to enhance the physical aptitude of those subjected to it (this talent cannot be used with a contact or inhaled poison). Those who are under the effects of this poison gain a +2 alchemical bonus to either their Strength, Dexterity, or Constitution (chosen upon creation) and a -2 penalty to one of the creature’s mental scores for 1 minute. If this enhances the creature’s Strength, it applies a penalty to their Intelligence. If it enhances the creature’s Dexterity, it applies a penalty to their Wisdom. If it enhances the creature’s Constitution, it applies a penalty to their Charisma. At the end of this talent’s duration, the creature must make a successful Fortitude save or be sickened for 10 minutes. If you possess at least 10 ranks in Craft (alchemy), this bonus increases by +2. A creature cannot benefit from a Performance Enhancer more than once per hour.
+++++ Performance Enhancer (mutagen, toxin) [DRS]
+^^**Source:** [https://www.drivethrurpg.com/en/product/574642/diamond-spheres-erudition-esoterica Diamond Spheres: Erudition & Esoterica]^^
 
-++++ Psychotropic Hallucinogen (toxin)
-You can choose for your poison to not cause fatigue, instead causing it to alter the thought process of those subjected to it (this talent cannot be used with a contact or inhaled poison). Those who are under the effects of this poison can select a single Intelligence, Wisdom, or Charisma-based skill, gaining a +2 alchemical bonus to the next check they make with that skill within 1 minute. Those under the effects of this poison suffer a -5 penalty to Initiative checks for 1 minute. For every 5 ranks in Craft (alchemy) you possess, this bonus increases by +2. A creature cannot benefit from a Psychotropic Hallucinogen more than once per hour.
+A creature subject to this mutagen gains a +2 alchemical bonus to either their Strength, Dexterity, or Constitution (chosen upon creation) and a -2 penalty to the corresponding mental score for 1 minute (Strength to Intelligence, Dexterity to Wisdom, and Constitution to Charisma).
+
+At 10 ranks in Craft (alchemy), this bonus increases by +2.
+
+**Toxicity**: The creature becomes sickened for 10 minutes on a failed save.
+
+++++ Psychotropic Hallucinogen (mutagen, toxin) [DRS]
+^^**Source:** [https://www.drivethrurpg.com/en/product/574642/diamond-spheres-erudition-esoterica Diamond Spheres: Erudition & Esoterica]^^
+
+When a creature is subjected to this mutagen, they choose a single Intelligence-, Wisdom-, or Charisma-based skill. The creature gains +2 alchemical bonus to the next check they make with the chosen skill, increasing by +1 per 3 ranks in Craft (alchemy) you possess.
+
+During this time, the creature suffers a -5 penalty to initiative checks.
 
 ++++ Slowing Poison (toxin) [Apoc]
 ^^**Source:** [https://www.drivethrurpg.com/product/295353/Spheres-Apocrypha-Alchemical-Poisons?affiliate_id=549120 Spheres Apocrypha: Alchemical Poisons]^^
