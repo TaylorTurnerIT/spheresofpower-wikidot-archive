@@ -1,0 +1,94 @@
+title:Collective
+[[module CSS]]
+.noselect {
+  -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome and Opera */
+}
+[[/module]]
+
+[[div class="noselect" style="float:right; width: 20%; padding: 0 2%"]]
+[[=]]
+[[image http://spheresofpower.wikidot.com/local--files/test-page/The_General's_Handbook.jpg link="https://www.drivethrurpg.com/product/281560/The-Generals-Handbook?affiliate_id=549120"]]
+**The General's Handbook**
+$4.99
+
+----
+[[/=]]
+[[/div]]
+**Proficiencies:** Collectives are proficient with simple weapons, as well as light armor and bucklers. In addition, if this is the character’s first level in any class, they may select a martial tradition of their choice.
+
+This modifies proficiencies.
+
+**Blended Training (Ex):** Whenever a collective would gain a magic talent from his class levels (not the 2 bonus talents gained when first gaining the casting class feature), he may instead choose to gain a combat talent. A collective uses his casting ability modifier as his practitioner modifier.
+
+This modifies magic talents. This archetype may be combined with other archetypes that replace magic talents; the collective cannot gain a combat talent in place of a magic talent the other archetype loses.
+
+**Hive Mind (Su):** The collective does not exist as a single creature, but rather is a consciousness shared by, but not completely subsuming, all its members. At 1st level, the collective gains the Leadership sphere and the Expanded Leadership talent as bonus talents, gaining both the (cohort) and (follower) packages. If either package is already possessed, he instead gains a bonus talent from that package. If he is incapable of selecting them due to a drawback, he uses the bonus talent to buy off the drawback.
+* The collective no longer has a body. He is considered to have his base movement speeds for use when taking actions through cohorts (though this does not grant movement modes the cohort does not possess). If a cohort within the telepathic link knows additional languages, that cohort can translate to and from the collective, effectively treating them as known languages for interactions made through that cohort, but other cohorts do not gain the ability to speak or understand the additional languages.
+* Abilities gained from hive mind do not affect temporary cohorts, such as those gained from the battlemind symbiat’s commanding mind link or the Draft legendary talent, nor hired via the Contractors legendary talent.
+* **Range**
+ * The collective and his followers and cohorts have a continuous telepathic link. This link functions for 1 mile per class level from the main body of his followers.
+ * Cohorts within this range are referred to as controlled cohorts. If a cohort travels outside this area, the collective loses the benefits of his hive mind abilities regarding that cohort. If the followers are dispersed in a settlement or portion of a settlement, then this area is calculated from the settlement or portion’s center. If the followers have formed a caravan, then it is calculated from the caravan.
+ * If the collective’s followers are divided into smaller groups, the collective must divide this range between the groups, assigning 1 mile per class level to each group. A group cannot have less than a 1 mile range. If the collective possesses the Base of Operations talent, each settlement with a group of followers from that talent gains the full benefit of the collective’s range, not counting toward the number of groups for reducing the range of multiple groups.
+* **Actions**
+ * Each round, the collective may choose to distribute his actions between all his controlled cohorts, acting through them in addition to their normal actions. Such actions use the collective’s abilities as if actively possessing the cohort. Such actions are resolved using the cohort’s statistics.
+ * If a controlled cohort is taking an action that requires more than a full-round action to complete, the collective may not grant it additional actions.
+ * Likewise, if the collective is acting through a controlled cohort to take an action that requires more than a full-round action, the cohort cannot take any actions.
+ * If an ability the collective uses through a controlled cohort grants movement as part of using that ability, such as the shove ability of the Brute sphere or the patrol ability of the Guardian sphere, the cohort may take that movement as part of using that ability, expending the collective’s movement speed.
+* **Casting and Concentration**
+ * The collective may cast sphere effects through his controlled cohorts. Each time an effect is cast, a controlled cohort must be chosen as the caster, supplying any verbal, somatic, material, or other components that cannot be supplied as mental-only actions. The casting is subject to any effects that are ongoing on that cohort.
+ * The collective may target a controlled cohort that he is casting through with an effect that only targets self. Effects on both the collective and his cohorts do not stack. The collective is immune to polymorph effects.
+ * General casting drawbacks inflict their penalties on the cohort that is being used to cast the effect. Drawbacks that have a permanent physical manifestation manifest themselves on all controlled cohorts.
+ * When casting a sphere effect through a controlled cohort, the collective may assign concentration to that cohort. That cohort supplies the action required to concentrate on the effect, using the collective’s concentration modifier. If an effect on any other cohort or the collective would require a concentration check, this cohort does not need to make it unless also subject to the effect. The collective may not sustain more effects via concentration than he normally would be able to with his own actions. If the collective does not assign concentration to a cohort, then any effect on a cohort or follower that would cause a concentration check forces the collective to make a concentration check.
+* **Damage and Death:** The collective cannot be targeted or damaged directly. If the collective’s followers are dispersed and cohorts slain, the collective is considered to be dead, though may be restored by bringing a cohort back to life. If the cohorts are slain but the followers intact, the collective continues to exist, though is unable to act outside of the actions the followers may take until new cohorts are recruited. Any time a cohort in slain, all cohorts are dazed for 1 round, even if they would normally be immune to the dazed condition, and the collective gains 1 temporary negative level. If a negative level would reduce the collective to 0 Hit Dice, he instead takes 4 points of Constitution drain for the duration of the effect (if the collective lacks a Constitution score (Con (-)), substitute Charisma drain instead). If this drain would reduce the collective to 0 Constitution (or Charisma, if substituting), he dies. No saving throw is made to remove these negative levels, but they are automatically removed at a rate of 1 per 8 hours rest, though may be removed by other means as normal.
+* **Effects Targeting the Collective:** Mind-affecting abilities targeting a controlled cohort or follower have a 50% chance to target the collective instead. Mind-affecting abilities that target multiple cohorts or followers or an area also have a 50% chance of affecting the collective, but this chance is only rolled once for all cohorts and followers; if the collective is affected he is only affected once regardless of the number of cohorts and followers within the area of effect. Divinations and other effects that would discern the collective’s location point to the nearest controlled cohort or center of a follower group. Individual cohorts or followers may be targeted, in which case they are affected independently.
+* **Provoking:** If the collective takes any action that provokes an attack of opportunity, that attack is resolved against the cohort being acted through.
+* **Saving Throws:** A controlled cohort may use the collective’s base saving throws if beneficial.
+* **Senses:** The collective receives all sensory data from all of his controlled cohorts. Additionally, he may receive sensory information from a number of followers not exceeding his casting ability modifier. The chosen followers may be changed as a free action at the start of the collective’s turn. These senses are based on the special senses of the cohorts and followers and gain no benefit from any special sense the collective possesses.
+* **Skills:** The collective may make active skill checks through its cohorts and followers using his own actions. Such skill checks use the physical ability scores of the cohort or follower (treat followers as having a 10 in all physical attributes for this purpose), but otherwise using his own modifiers. When making a reactive skill check, the collective makes his check via the affected cohort or follower that is most beneficial.
+* **Volunteers:** After resting to regain spell points, the collective may recruit a cohort from his followers with Hit Dice up to the maximum for his ranks in Diplomacy. No Diplomacy check is required. This ability stacks with the ability to recruit followers granted by the Drill Sergeant talent.
+
+Additional abilities are granted at higher levels:
+
+* **Strength of One (Su):** At 2nd level, once at the start of each turn as a free action, the collective may grant one controlled cohort any of his physical ability scores and his base attack bonus. These scores are modified by any bonuses,  penalties, damage, and drain the cohort is subject to. This lasts until a different cohort is chosen. This ability can prevent a cohort from being slain by being reduced to 0 Constitution. This ability does not increase current hit points, though does increase maximum hit points; when lost this bonus is removed, maximum hit points are reduced, with current hit points in excess of the maximum being lost but otherwise not reducing maximum hit points. This ability does not transfer an ability score to a cohort that lacks a score in that attribute, though undead cohorts may treat the granted Constitution score as their Charisma score for the purpose of determining maximum hit points.
+* **Many Eyes (Ex):** At 4th level, the collective gains a circumstance bonus to Perception equal to half his class level for checks made within Perception range of his followers or when at least 2 controlled cohorts are able to make the check. This bonus applies to the collective’s check, not the cohort’s or follower’s own checks.
+* **Inhabit Vessel (Su):** At 8th level, once at the start of each turn as a free action, the collective may grant knowledge of all his known combat and magic talents to one controlled cohort. This lasts until a different cohort is chosen. Magic talents do not grant casting ability to cohorts that lack it.
+* **Share Pain (Su):** At 14th level, whenever a controlled cohort takes damage or drain, the collective may redirect half of the damage or drain to another controlled cohort. This is calculated after the effects of any immunity, resistance, or vulnerability the first cohort possesses and may not be further reduced by resistance or immunity or increased by vulnerability. The damage or drain may not be further redirected by any means. Ability damage or drain may not be transferred to a creature that lacks the relevant ability score.
+
+These abilities replace wraith form and haunt path. The collective counts as possessing the haunt path class feature for the purpose of qualifying for the Expanded Path Possession and Improved Expanded Path Possession wraith haunts.
+
+**Collective Impressment:** The collective can only actively possess targets; he cannot passively possess them. He may make possession attempts via any cohort within collective range subject to his hive mind abilities. The wraith counts as passively possessing his controlled cohorts for the purpose of path abilities.
+
+This modifies possession.
+
+**All as One:** At 20th level, the benefit from strength as one and inhabit vessel may be granting to any number of cohorts within collective range subject to his hive mind abilities. The collective may produce a new cohort from his followers in 1 hour. Slain cohorts no longer impose negative levels on other cohorts or penalties on followers.
+
+This replaces wraith form mastery.
+
+**Collective and Mind Bender**
+Should the collective possess the Mind Bender drawback, any effect that disrupts the collective's control over a cohort that makes that cohort no longer count as being in collective range for the duration. If the cohort leaves this range before the collective regains control, that cohort is no longer recruited and becomes a free creature.
+
+----
+
+**Wraith Haunts:** The collective may select Leadership sphere talents and Champion feats in place of wraith haunts.
+
+The collective also has exclusive access to the following haunts:
+
+//I Watch My Back:// Any two controlled cohorts within close range (25 feet + 5 feet per 2 ranks in Diplomacy) of each other are immune to flanking unless both of them are flanked.
+
+//Mental Projection (requires collective 9)//: The collective gains telepathy in a 30-foot radius around his cohorts, enabling him to communicate with any creature that shares a language with the collective or any of his cohorts. It is possible to address multiple creatures at once telepathically, although maintaining a telepathic conversation with more than one creature at a time is just as difficult as speaking and listening to multiple people simultaneously.
+
+//Psychic Static:// When a creature is flanked by at least two of the collective’s controlled cohorts, it takes a -2 penalty on saving throws against mind-affecting effects.
+
+//Self-help:// The collective’s controlled cohorts may use aid another for attack rolls and skill checks on other controlled cohorts as a swift action. Multiple instances of aiding another with this ability do not stack.
+
+----
+
+[[include cots]]
+[[include sop-template]]
+[[include som-template]]
