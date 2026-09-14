@@ -245,6 +245,16 @@ An AI can be taught a task from the following list, with other tasks available s
 
 **Work (DC 10)**: The AI engages in basic menial labor or performs basic entertaining tricks or performances. If the AI has skill points in Craft, Perform, or Profession it will engage in said skills.
 
++++ Lesser AI [DRS]
+^^**Source:** [https://www.drivethrurpg.com/en/product/556860/diamond-spheres-expanded-tinker-and-silverminds?affiliate_id=549120 Diamond Spheres: Expanded Tinker and Silverminds]^^
+Some AI classifications, such as the drone and bestial classifications, are less difficult to maintain than regular AI (allowing a character to maintain two of these classifications in place of a single AI). Such AI classifications are referred to as a “**lesser AI**”.
+
+You may maintain 2 lesser AI in the place of a single AI.
+
+If you possess the Advanced Computation legendary talent Fractional AI option, a lesser AI counts as half their gizmo level (minimum 1\) against your maintained AI (although their gizmo level and statistics are still otherwise determined normally). In effect, every 2 total gizmo levels of lesser AI count as 1 gizmo level towards your maximum number of maintained AI.
+
+Non-lesser AI are referred to as standard AI.
+
 ++ Using AI
 **Installing AI into Gizmos:** AI //routines// can be installed and transferred into gizmos the same as a normal //routine//. An AI installed in its host gizmo is referred to, collectively, as an AI-hosted gizmo. Multiple AI can be installed in the same host gizmo, however, only one AI can control the host gizmo during a single round (see below for Multiple and/or Competing AI).
 
@@ -308,6 +318,9 @@ AI are able to use certain gizmos more freely (subject to GM discretion). If an 
 If a competing AI has not been in control of the host gizmo for at least 3 rounds, it loses the ability to compete for control of the gizmo until the AI in control of the gizmo relinquishes control. _
  _
 **Already-Animated Host Bodies**: With the exception of //mechanoids//, an AI installed into a host gizmo that can already act as an independent creature due to another effect cannot be automatically controlled by an AI (such as an object made into a creature with an //awaken// or //animate object// spell effect). If an AI wants to control its host gizmo, it may attempt a gizmo penetration check against the animating effect’s magic skill defense (or other relevant statistic). On a successful check, the magical effect is suppressed and the AI takes control of the host gizmo. If the host gizmo is intelligent, it may attempt to reassert control (as though it were an activated, competing AI).
+
++++ Lesser AI
+
 
 + Mechanoid
 ++ Mechanoid Basics
@@ -413,6 +426,11 @@ A //mechanoid// can be crafted with up to 5 upgrades, +1 additional upgrade for 
 
 A //mechanoid// uses its crafter’s practitioner modifier when determining the effects of upgrades that would use a practitioner modifier (such as the //mechanoid’s// gizmo DC, etc.).
 
+++++ Advanced Innate Gizmos [DRS]
+^^**Source:** [https://www.drivethrurpg.com/en/product/556860/diamond-spheres-expanded-tinker-and-silverminds?affiliate_id=549120 Diamond Spheres: Expanded Tinker and Silverminds]^^
+
+If an upgrade or option would grant a mechanoid an innate gizmo and you could craft that gizmo as an advanced gizmo, you may do so. An advanced innate gizmo counts against your gizmo limit as though it were one step less advanced (an advanced minor gizmo would be treated as a minor gizmo and an advanced gizmo would count as 1 fewer gizmos against your gizmo limit), even if it is part of a project gizmo. 
+
 ++++ Default Mechanoid Upgrades
 A crafter gains access to new upgrades with Tinker sphere talents. By default, the following upgrades are available to anyone who can craft a //mechanoid//:
 
@@ -501,6 +519,39 @@ Certain abilities do not grant their effects to the //mechanoid// (subject to GM
 
 ++++ Destroyed Mechanoids
 A destroyed //mechanoid// provides no benefits to its pilot or passengers. Its upgrades, innate gizmos, and other properties immediately cease functioning. By GM discretion, a sufficiently large destroyed //mechanoid// may be used as soft cover or cover (or be treated as a structure).
+
++++ Rudimentary Bodies [DRS]
+++++ Advanced Innate Gizmos [DRS]
+^^**Source:** [https://www.drivethrurpg.com/en/product/556860/diamond-spheres-expanded-tinker-and-silverminds?affiliate_id=549120 Diamond Spheres: Expanded Tinker and Silverminds]^^
+
+Rudimentary bodies are meant to offer a utilitarian alternative to characters without the transportation package, or allow AI to operate limited bodies in the way a simple droid or assistant might.
+
+A gizmo (or sum of the parts of a combined gizmo) may qualify to function as a "**rudimentary body**” if it possesses basic locomotion, such as having a //prosthetic// leg or arm, sensory //prosthetics//, or other similar gizmos, or if the crafter has access to the Automation Set advanced talent. While it was originally intended that gizmos lacked the ability to perform simple motions, an AI inhabiting a gizmo should be able to turn, twist, and potentially even move if the gizmo is built in a way that accommodates it (with hinges, swivels, mounts, and so on).
+
+This provides clarity and structure to when an AI inhabits one or more gizmos, such as being installed in an arm and using that arm to operate a weapon, interact with objects, and so on.
+
+A rudimentary body can be used by an AI as its natural body, similar to being installed in a //mechanoid//, but has inferior and reduced statistics:
+
+**Rudimentary Body** 
+**Size** Medium (or Small, adjust accordingly); **Speed** 0 ft.; **AC** +0 natural armor; **Str** 6, **Dex** 6, **Con** –, **Int** –, **Wis** –, **Cha** –
+
+* **Piecemeal**: Unlike a normal //mechanoid//, a rudimentary body is made up of one or more component gizmos. It is not damaged as a normal creature but is instead damaged by attacking individual component gizmo parts (if a component part would be disabled, it ceases to contribute functionality to the rudimentary body). 
+* **Slam:** A rudimentary body possesses a single slam natural attack (1d6 Medium). 
+* **Speed:** 10 feet, appropriate to movement types provided by a component gizmo (land with legs, climb, flight and swim through other appropriate gizmos).
+
+//Rudimentary Components//: The rudimentary body can operate any component gizmo included in its body. In certain circumstances, the rudimentary body can benefit from equipment, such as armor crafted as an arsenal gizmo, weapons, and so on.
+
+//Rudimentary Creature//: While being operated, a rudimentary body can be targeted and affected as a construct creature, but it is still damaged as a normal gizmo. If one or more component gizmos is disabled, the rudimentary body is staggered. If two or more component gizmos is disabled, the rudimentary body becomes unable to move or make attacks (but can still operate its component gizmos).
+
+**Resizing Rudimentary Bodies:** Gizmo sizes are generally arbitrary (or the appropriate size to be used). For the purposes of a rudimentary body, the size is Small by default.
+
+You may increase the size of a Rudimentary gizmo up or down by 1 step. Each size change grants the appropriate size adjustments based on **Table: Mechanoid Size** (**Section 4.1, AI and Mechanoids**). If this change would increase or decrease a statistic to 0, it remains at 1.
+
+You may adjust a rudimentary body’s size if you possess the appropriate talents and prerequisites (which other talents may sufficiently qualify for, subject to GM discretion):
+
+* **Tiny or Large:** Prosthetics Mastery or Transportation Mastery. 
+* **Diminutive or Huge:** Prosthetics Mastery or Transportation Mastery, Advanced Prosthetics or Advanced Transportation, 10 ranks in the associated skill. 
+* **Fine or Gargantuan:** Prosthetics Mastery or Transportation Mastery, Advanced Prosthetics or Advanced Transportation, 15 ranks in the associated skill.
 
 [[/tab]]
 [[/tabview]]
