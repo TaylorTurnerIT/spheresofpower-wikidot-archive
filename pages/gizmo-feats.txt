@@ -45,6 +45,16 @@ A feat that grants (dual sphere) options is otherwise treated as a feat with the
 
 + (Gizmo) Feats
 
+++++ Adaptable Transfer (Gizmo) [LG]
+^^**Source:** Arcforge Players Compendium^^
+
+**Prerequisites:** Tinker sphere ((computation) package).
+
+**Benefit:** You may transfer routines you craft into gizmos created by others, constructs with the robot subtype, and any technological item which uses charges. If a robot has an AI routine installed in this way, it gains the aggregate template for as long as the AI remains installed. A robot must be willing or helpless for you to transfer an AI routine into it. A robot’s effective gizmo level is equal to its CR, while a technological item’s effective gizmo level is equal to the item’s Craft DC -15.
+
+**Note:** This feat may not be acceptable for all campaigns. Consult with your GM before taking this feat.
+
+----
 ++++ Adjust Parameters (Gizmo) [SUE]
 //You’ve become adept at quickly adjusting a gizmo for its other possible configurations.//
 
@@ -55,6 +65,18 @@ A feat that grants (dual sphere) options is otherwise treated as a feat with the
 A gizmo changed this way must be the same kind of gizmo (i.e. a physical augmentation altered into a new physical augmentation, a field projector into a different type of field projector, or a prosthetic into another kind of prosthetic or a different secondary function) but cannot change a gizmo into a completely different gizmo.
 
 Projects, including AI and //mechanoids//, cannot be adjusted with this feat.
+
+----
+++++ AI Summoner (Champion, Gizmo) [LG]
+^^**Source:** Arcforge Players Compendium^^
+
+**Prerequisites:** Conjuration sphere, Tinker sphere ((computation) package).
+
+**Benefit:** When you summon your companion, you may summon it as an AI rather than a manifested creature. In order to summon an AI companion, you must have an eligible gizmo or other item (if you possess the Adaptable Transfer* feat) within range of the summon. An AI version of a companion has the same skill ranks, mental ability scores, base saves, spheres, talents, and feats of the companion. An AI companion can take its normal suite of actions each round without needing you to spend additional actions commanding it regardless of its Intelligence score.
+
+**Special:** If you possess the Call Planar Creature talent, you may transform a called creature into an AI once it agrees to your terms. An AI version of a called creature has the same skill ranks, mental ability scores, base saves, spheres, talents, spells, spell-like abilities, and feats of the creature. An AI companion can take its normal suite of actions each round without needing you to spend additional actions commanding it regardless of its Intelligence score.
+
+If you possess the Hostile Takeover feat, you may attempt to summon an AI companion into an unwilling or attended object. The target or its owner is allowed a saving throw to resist the effect against your Conjuration sphere DC, and the AI companion is not summoned on a successful save.
 
 ----
 ++++ Biofuel Gizmos (gizmo) [DRS]
@@ -148,6 +170,14 @@ Designating a compounded weapon may now be done at-will as a swift action, and t
 **Special**: You can gain this feat multiple times; each time you take this feat, you may choose 1 additional mechanoid to increase its maximum upgrade count.
 
 ----
+++++ Disabling Dastard (Champion, Counterspell, Gizmo) [LG]
+^^**Source:** Arcforge Players Compendium^^
+
+**Prerequisites:** Infiltration sphere; Tinker sphere (Disruption Set (gizmo)) or Counterspell,; casting class feature, magic skill bonus +5.
+
+**Benefit:** You may spend 1 spell point to apply the effects of the Counterspell feat as a (sabotage) or 1 charge to apply the effects of a Countergizmo as a (sabotage). If you possess the Improved Counterspell feat, you may spend an additional spell point to apply the effects of Improved Counterspell as a (sabotage). If you possess the Advanced Arsenal talent, you may spend 2 additional charges to apply the effects of an Improved Countergizmo as a (sabotage).
+
+----
 ++++ Durable Gizmos (Gizmo) [SUE]
 //You create more durable inventions - whether by reinforcing the materials, using better materials, or designing them with fewer exploitable vulnerabilities.//
 
@@ -218,6 +248,74 @@ You gain the following (dual sphere) options:
 This feat is meant to mimic both Spell Attack and Dual Wielding Mystic Fusion, where the two often overlap for the function they offer - but allowing the user the choice between the two where there is a tactical benefit.
 
 ----
+++++ Hard-Wired Sprite (Champion, Gizmo) [LG]
+^^**Source:** Arcforge Players Compendium^^
+
+**Prerequisites:** Technomancy sphere, Tinker sphere (at least one (gizmo) talent).
+
+**Benefit:** One gizmo that you create (excluding permanent gizmos) contains a sprite with a permanent duration that cannot be transferred. This sprite replenishes itself after 1 minute if it is dispelled or destroyed. You may change which gizmo is affected by this feat in a process that takes 1 hour.
+
+**Special:** You may take this feat multiple times. Each time, you may select a different gizmo to gain a sprite.
+
+----
+++++ Harmonic Counter (Counterspell, Gizmo) [LG]
+^^**Source:** Arcforge Players Compendium^^
+
+**Prerequisites:** Tinker sphere (Disruption Set (gizmo)) or Counterspell.
+
+**Benefit:** Whenever you use Countergizmo battery use, you may affect magic effects in the area or on the target as per Counterspell, using your gizmo penetration check in place of your MSB. If you have the Advanced Arsenal legendary talent, this improves to Improved Counterspell if you use an Improved Countergizmo battery use and Greater Counterspell if you use a Greater Countergizmo battery use.
+
+When you use Counterspell, you may affect gizmos in the area or on the target as per a Countergizmo, using your MSB in place of your gizmo penetration check. This improves to affecting them as per an Improved Countergizmo if you use Improved Counterspell on a single target or a Greater Countergizmo if you use Greater Counterspell.
+
+You can counterspell effects which were created with the Alien Source at no penalty. Your abilities that would suppress magic (such as such as the Spell Ward and Antimagic Aura effects of the Protection sphere) function normally against all magic effects regardless of source. In addition, you can attempt to use any of your Counterspell feats or other magic-negating abilities on technological equipment from outside the Tinker sphere as if it were magical equipment. Treat such a technological item’s MSD as if it were the item’s Craft DC -5.
+
+----
+++++ Hostile Takeover (Gizmo) [LG]
+^^**Source:** Arcforge Players Compendium^^
+
+**Prerequisites:** Tinker sphere ((computation) package), Adaptable Transfer.
+
+**Benefit:** You may transfer routines you create into unwilling mechanoids and robots or gizmos and technological items wielded by other creatures. Such targets are allowed a Will save against your gizmo save DC to prevent the transfer, with the wielder of the item or gizmo attempting the save for their equipment.
+
+Whenever you successfully make a melee attack or melee sunder attempt against a target you could transfer a routine into, you may attempt to transfer a routine from yourself or an item in your possession to the target as an immediate action.
+
+----
+++++ Impromptu Upgrade (Champion, Gizmo) [LG]
+^^**Source:** Arcforge Players Compendium^^
+
+**Prerequisites:** Technomancy sphere, Tinker sphere.
+
+**Benefit:** Whenever one of your sprites enters a host, you may apply any number of accommodations you can apply to your gizmos to the host for as long as the sprite remains inside.
+
+----
+++++ Magical Observer (Champion, Gizmo)  [LG]
+^^**Source:** Arcforge Players Compendium^^
+
+**Prerequisites:** Divination sphere, Tinker sphere (Sensory Set).
+
+**Benefit:** You may target any of your sensory gizmos with your Divination sphere (divine) and (sense) talents as if they were yourself. The sensory gizmos and any recordings they make benefit from any (divine) and (sense) talents active on them at the time of recording. Targeting a gizmo with a (divine) or (sense) costs 1 additional spell point.
+
+----
+++++ Sprite Transit (Champion, Gizmo) [LG]
+^^**Source:** Arcforge Players Compendium^^
+
+**Prerequisites:** Technomancy sphere, Tinker sphere (at least one (gizmo) talent).
+
+**Benefit:** You treat any of your gizmos that contain any of your sprites as if they are always within signal range. When you move a sprite to a new host, you may move a routine you have crafted from the old host into the new host alongside the sprite.
+
+----
+++++ Supernatural Security (Champion, Gizmo) [LG]
+^^**Source:** Arcforge Players Compendium^^
+
+**Prerequisites:** Tinker sphere (Security Measures), magical skill bonus +3.
+
+**Benefit:** The following countermeasures can be granted to a gizmo. These countermeasures can only be disabled by creatures capable of disabling magical traps.
+* **Glyph Trigger (requires Protection sphere (Glyph)):** When you create a glyph, you may set it as a countermeasure on one of your gizmos or routines. Triggering the countermeasure causes the glyph to activate.
+* **Immediate Recall (requires Warp sphere (Teleport Object)):** The gizmo can teleport to a predetermined location or into the possession of a specific target within range.
+* **Insurance Policy (requires Creation sphere):** A specific amount of time after the gizmo destroys itself using self-destruct, you may have the gizmo reconstruct itself as if affected by your repair ability.
+* **Telepathic Alarm (requires Tinker sphere ((transmission) package)):** The gizmo can send a telepathic message to any number of designated targets within signal range.
+
+----
 ++++ Teched-Out Minions (champion, gizmo) [DRS]
 ^^**Source:** [https://www.drivethrurpg.com/en/product/556860/diamond-spheres-expanded-tinker-and-silverminds?affiliate_id=549120 Diamond Spheres: Expanded Tinker and Silverminds]^^
 
@@ -255,6 +353,17 @@ When the effect that summoned the creature ends (either its duration expiring, t
 You do not require line of sight or line of effect to cast a transmitted spell; instead, the spell’s effects are stopped by effects that would stop a Tinker sphere //transmitter//. You must designate a specific gizmo in a target creature’s possession to allow the spell to affect that target. If that gizmo is inactive or not in a creature’s possession, the spell fails (or otherwise does not affect that target).
 
 **Cost:** +1 spell points.
+
+----
+++++ Upload Summoner (Champion, Gizmo) [LG]
+^^**Source:** Arcforge Players Compendium^^
+
+**Prerequisites:** Conjuration sphere (Constructed), Tinker sphere ((computation) package).
+
+**Benefit:** When you summon a companion with the Constructed (type) talent, you may upload an AI from a storage bay or other receptacle in your possession into the companion. The companion gains the aggregate template (even if it is not a robot) alongside all of the benefits of the AI that was uploaded into it. You cannot use this ability to upload an AI whose CR exceeds your caster level. If the companion is destroyed, the AI returns to your storage bay.
+
+**Special:** If you possess the AI Summoner feat and the Mass Summons talent, you may summon an AI companion and immediately upload it into another eligible companion summoned as part of the same action.
+
 [[/tab]]
 [[/tabview]]
 
