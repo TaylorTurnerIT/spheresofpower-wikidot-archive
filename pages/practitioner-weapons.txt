@@ -1,15 +1,18 @@
 title:Practitioner Weapons
-parent:spheres-of-might
 [[toc]]
 
 **Table: Weapons**
+||~ (Simple) Light Melee Weapons ||~ Cost ||~ Dmg (S) ||~ Dmg (M) ||~ Critical ||~ Range ||~ Weight ||~ Type ||~ Special ||
+|| Battle aspergillum || 5 gp || 1d4 || 1d6 || x2 || - || 4 lbs. || B || See text ||
 ||~ (Martial) Light Melee Weapons ||~ Cost ||~ Dmg (S) ||~ Dmg (M) ||~ Critical ||~ Range ||~ Weight ||~ Type ||~ Special || 
 || War mallet || 15 gp || 1d3 || 1d4 || x2 || - || 2 lbs. || B || Distracting, performance, see text || 
 ||~ (Martial) One-Handed Melee Weapons ||~ Cost ||~ Dmg (S) ||~ Dmg (M) ||~ Critical ||~ Range ||~ Weight ||~ Type ||~ Special || 
 || War flute || 16 gp || 1d6 || 1d8 || x2 || - || 7 lbs. || B || Distracting, performance, see text || 
 ||~ (Martial) Two-Handed Melee Weapons ||~ Cost ||~ Dmg (S) ||~ Dmg (M) ||~ Critical ||~ Range ||~ Weight ||~ Type ||~ Special || 
-|| War lute || 50 gp || 1d6 || 1d8 || x3 || - || 8 lbs || B || Distracting, performance, see text || 
+|| Titanic edge || 20 gp || 1d10 || 2d8 || x3 || - || 25 lbs. || S || blocking, sunder, unwieldy || 
+|| War lute || 50 gp || 1d6 || 1d8 || x3 || - || 8 lbs. || B || Distracting, performance, see text || 
 ||~ (Exotic) Light Melee Weapons ||~ Cost ||~ Dmg (S) ||~ Dmg (M) ||~ Critical ||~ Range ||~ Weight ||~ Type ||~ Special || 
+|| Acupuncture Needles (5) || 1 gp || - || - || x2 || 10 ft. || - || P || see text || 
 || Battle wrench || 80 gp || 1d3 || 1d4 || x3 || - || 3 lbs. || B || Disarm, see text || 
 || Climbing pick || 20 gp || 1d3 || 1d4 || x4 || - || 1 lbs. || P || See text || 
 || Torch || 1 cp || 1d2 || 1d3 || x2 || 10 ft. || 2 lbs. || B || See text || 
@@ -21,11 +24,31 @@ parent:spheres-of-might
 || Scimitar, two-bladed || 100 gp || 1d4/1d4 || 1d6/1d6 || 18-20/x2 || - || 10 lbs. || S || Double || 
 || Ten foot pole || 5 sp || 1d4/1d4 || 1d6/1d6 || x2 || - || 15 lbs. || B || Double, reach, see text || 
 ||~ (Exotic) Ranged Weapons ||~ Cost ||~ Dmg (S) ||~ Dmg (M) ||~ Critical ||~ Range ||~ Weight ||~ Type ||~ Special || 
+|| Needle Launcher || 400 gp || - || - || x2 || 40 ft. || 2 lbs. || P || see text ||
 || Net launcher || 75 gp || - || - || - || 30 ft. || 8 lbs. || - || See text || 
 ||~ Modifications ||~ Cost ||~ Dmg (S) ||~ Dmg (M) ||~ Critical ||~ Range ||~ Weight ||~ Type ||~ Special || 
-|| Chain net || +100 gp || - || - || - || - || +15 lbs. || - || See text || 
+|| Chain net || +100 gp || - || - || - || - || +15 lbs. || - || See text ||  
 || Scabbard, oiler || +20 gp || - || - || - || - || +1 lb. || - || See text || 
 || Training || half |||||||| As base weapon || +0 lbs. || B || See text || 
+
++++ Weapon Qualities
+**-Unwieldy:** Weapons with the unwieldy quality are large and awkward, cannot be fired without cooling down first, or are otherwise difficult to use with repeated attacks. You cannot use an unwieldy weapon as part of a full attack (or any other action in which you could make multiple attacks), you cannot attack with it more than once per round, and you cannot use it to make attacks of opportunity.
+
+++++ Acupuncture Needles [Youxia HB]
+These small, slender needles slip through skin without damaging the body, and can be used to deliver poisons or to manipulate physiology with special anatomical training.
+
+Attacks made with acupuncture needles deal no damage, but can be made as touch attacks. Although they are light weapons, acupuncture needles are treated as ammunition for the purposes of drawing them and crafting masterwork or otherwise special versions of them, and of what happens to them after they are used for an attack.
+
+Magical acupuncture needles grant proficient users a competence bonus to Heal checks equal to twice their enhancement bonus.
+
+A proficient user may poison two acupuncture needles at once with a single dose of poison, although doing so imparts a -2 penalty to the save DCs of the poison.
+
+++++ Battle Aspergillum [CoP]
+This is no common aspergillum, but rather a light mace with a hollow head and a metal plug to fit the hollow’s neck. The battle aspergillum counts as part of the hammers weapon group.
+
+When the battle aspergillum filled with a splash weapon (usually holy water) strikes a creature, the substance sprinkles out through tiny holes throughout the weapon’s head; creatures subject to damage from the splash weapon take splash damage in addition to the normal effect of being struck by the battle aspergillum (a nonmagical battle aspergillum can deal splash damage to an incorporeal creature in this manner, even if the weapon itself deals no damage). After 5 hits, the battle aspergillum is empty and needs to be refilled.
+
+Refilling a battle aspergillum is a standard action that provokes an attack of opportunity (like drinking a potion). A filled battle aspergillum is normally carried upright, otherwise the splash weapon leaks out as the weapon moves.
 
 ++++ Battle Stein
 This mug seems to be an ordinary lidded stein, but is weighted and reinforced for combat.
@@ -56,10 +79,19 @@ In addition to making ranged attacks, you may also use a fishing rod to manipula
 
 Alternately, if you succeed at a ranged touch attack against a creature, you may attempt a drag, trip, disarm, or steal combat maneuver against that target at a distance as a free action. Performing a maneuver from a distance in this fashion does not provoke an attack of opportunity (except as normal when making a ranged attack).
 
+++++ Needle Launcher [Youxia HB]
+This small wooden tube houses spring-loaded chambers to launch needles at foes. It can be attached to the arm and hidden in sleeves, though they still require a free hand to operate the launching mechanism. Needle launchers use acupuncture needles as ammunition, and hold 10 needles at once. Attacks made with needle guns deal no damage, but can be made as touch attacks. The needle launcher may be reloaded as a full-round action, can be fired with one hand, and counts as a hand crossbow when determining what abilities and feats affect it.
+
+Magical needle launchers grant proficient users a range increment increase of 10 feet per point of enhancement bonus.
+
+A proficient user can fire a burst of needles to attack all creatures in a line as a full-round action that counts as a special attack action. This line starts from any corner of the wielder’s space and extends to the limit of the weapon’s range or until it strikes a barrier it cannot penetrate. When using this weapon to attack all creatures in a line, the wielder makes a separate attack roll against each creature in the line. Each creature in the line can be attacked with only one shot from each burst.
+
+Each attack roll takes a -2 penalty. Effects that grant concealment, such as fog or smoke, or the blur, invisibility, or mirror image spells, do not affect an automatic weapon’s line attack. Roll to confirm each attack roll that threatens a critical hit separately. A single burst with this weapon consumes 10 uses of ammunition.
+
 ++++ Net Launcher
 Resembling an unusually sized crossbow, this device can launch a net much farther than it can be thrown.
 
-This modified heavy crossbow may only be loaded with a bola, brutal bola, or a folded net or snag net. The wielder may control the trailing rope as normal if the target is within the first two range increments. This weapon counts as a heavy crossobw when calculating its penalties when firing one-handed.
+This modified heavy crossbow may only be loaded with a bola, brutal bola, or a folded net or snag net. The wielder may control the trailing rope as normal if the target is within the first two range increments. This weapon counts as a heavy crossbow when calculating its penalties when firing one-handed.
 
 ++++ Scimitar, Two-Bladed
 A two-bladed scimitar is a double weapon—twin, curved blades extend from either side of a central, short haft, allowing the wielder to attack with graceful but deadly flourishes.
@@ -72,6 +104,11 @@ Often used to test ground for traps or hidden hazards, the ten foot pole is not 
 A creature proficient with the ten foot pole may choose to wield the weapon at the edge of its extension. When used in this fashion, the ten foot pole loses its double weapon quality, but counts as a polearm for the purpose of talents such as Polearm Mastery or Spear Dancer. However, when used in this fashion, add 5 ft. when determining the weapon’s maximum and minimum reaches. (Thus, in the hands of a Medium creature, it would threaten spaces 15 ft. away, but not those 5-10 ft. away. If the wielder possesses Polearm Mastery, he could use that talent to make attacks against targets 10 ft. away, but not those 5 ft. away.)
 
 Wielding a ten foot pole as a polearm requires enormous effort; the wielder suffers a -2 penalty to AC and CMD when wielding the ten foot pole in this fashion.
+
+++++ Titanic Edge [LG]
+^^**Source:** Arcforge Players Compendium^^
+
+Known as a doshko among the scaled peoples, a titanic edge is a tremendous hafted weapon mounted with numerous forward-mounted curving blades. These blades complement the weapon’s destructive power with added defensive utility, easily catching oncoming attacks.
 
 ++++ Torch
 A common adventurer’s tool designed to shed light in dark places. A burning torch deals 1 point of fire damage in addition to its damage as a weapon. In the hands of a character who is proficient with the torch, this damage increases to 1d6 fire damage on a successful hit. The torch may also be used to make a melee touch attack that deals no weapon damage, but still deals 1d6 fire damage.
@@ -86,7 +123,7 @@ A war flute can be used with bardic performance and to make Perform (wind instru
 ++++ War Lute
 This lute has been properly balanced and weighted to be used as a weapon.
 
-The combat lute has been reinforced with steel to serve as a bludgeoning weapon and may be used with a bardic performance even while being wielded as a weapon, as well as being us. A masterwork combat lute counts as a masterwork instrument.
+The combat lute has been reinforced with steel to serve as a bludgeoning weapon and may be used with bardic performance and to make Perform (strings) checks while being wielded as a weapon. A masterwork combat lute counts as a masterwork instrument.
 
 ++++ War Mallet
 A war mallet has two sides; a padded side usable with percussion instruments, and a hard side similar to a mace head. The war mallet is used by military drummers to let them fight while signaling tactics to their fellow soldiers.
@@ -99,6 +136,8 @@ A war mallet can be used to deal nonlethal damage with no penalty.
 
 ++ ##993300|Modifications##
 
+^^**Note:** These rules pre-date the Adventurer's Armory 2 supplement from Paizo Publishing and have no relation to an item's proficiency category.^^
+
 ++++ Chain Net
 This net is made from a fine mesh of linked chains. This modification may be added to any net or snag net to grant it 15 additional hit points and increase its hardness by 5 and give it a burst DC of 30. A chain net may be made from special materials such as adamantine or mithral, granting the material’s hardness and hit points as per 1 inch of the special material.
 
@@ -109,6 +148,15 @@ This scabbard modification consists of a refillable bladder large enough to hold
 
 ++++ Training
 This modification can be applied to any weapon that does not possess the nonlethal special feature. A training weapon gains the nonlethal special feature, but deals damage as if it were 1 size smaller. A training weapon deals only bludgeoning damage regardless of its normal damage types. Most training weapons are constructed entirely of wood and cost half as much as a normal weapon of its type.
+
+++ ##993300|AA2 Modifications##
+
+++++ Heavy-Headed [LG]
+^^**Source:** Arcforge Players Compendium^^
+
+**Price** +1,500 gp; **Weight** +3 lb.
+
+The head of this polearm or barrel of this firearm is enlarged to phenomenally increase power at the expense of maneuverability. Only polearms and firearms can be heavy-headed. A heavy-headed polearm deals damage as if it were one size larger but gains the unwieldy quality.
 
 ----
 
